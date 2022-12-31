@@ -1,0 +1,23 @@
+###########################
+# Livonia Focus Tree
+# By sparkz
+###########################
+
+focus_tree = {
+	id = LIV_focus_duchy
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LIV
+		}
+	}
+
+	shared_focus = LIV_Economy
+	shared_focus = LIV_Army_Start
+	shared_focus = LIV_Army_Mil_Navy1
+	shared_focus = LIV_Air1
+	shared_focus = LIV_Duchy_Organization
+	shared_focus = LIV_Duchy_Kaiser
+	shared_focus = LIV_Duchy_Restoration
+}

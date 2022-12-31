@@ -1,0 +1,22 @@
+
+state={
+	id=80
+	name="STATE_80"
+	provinces={
+		577 9548 
+	}
+
+	history={
+		owner = ROM
+		#add_core_of = UKR
+		add_core_of = ROM
+		add_claim_by = PGA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	manpower=474600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

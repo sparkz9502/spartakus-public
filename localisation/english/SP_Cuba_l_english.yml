@@ -1,0 +1,47 @@
+﻿l_english:
+
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Ideas
+
+# Focuses
+
+# Traits
+
+### Parties ###
+
+CUB_bolshevist_party:0 "PCC"
+CUB_bolshevist_party_long:0 "Communist Party of Cuba (Partido Comunista de Cuba)"
+CUB_spartacist_party:0 "PCC"
+CUB_spartacist_party_long:0 "Communist Party of Cuba (Partido Comunista de Cuba)"
+CUB_revolutionary_socialist_party:0 "CNOC"
+CUB_revolutionary_socialist_party_long:0 "National Workers' Confederation of Cuba (Confederación Nacional Obrera de Cuba)"
+CUB_reformist_socialist_party:0 "CNOC"
+CUB_reformist_socialist_party_long:0 "National Workers' Confederation of Cuba (Confederación Nacional Obrera de Cuba)"
+CUB_social_democrat_party:0 "PSIC"
+CUB_social_democrat_party_long:0 "Socialist Party of the Island of Cuba (Partido Socialista de la Isla de Cuba)"
+CUB_social_liberal_party:0 "PPC"
+CUB_social_liberal_party_long:0 "Cuban Popular Party (Partido Popular Cubano)"
+CUB_liberal_conservative_party:0 "PLA-(M)"
+CUB_liberal_conservative_party_long:0 "Autonomist Liberal Party - (Mendietaístas) (Partido Liberal Autonomista (Mendietaists))"
+CUB_social_conservative_party:0 "PNC"
+CUB_social_conservative_party_long:0 "National Conservative Party (Partido Nacional Conservador)"
+CUB_authoritarian_conservative_party:0 "PLA"
+CUB_authoritarian_conservative_party_long:0 "Autonomist Liberal Party (Partido Liberal Autonomista)"
+CUB_right_wing_populist_party:0 "ABC"
+CUB_right_wing_populist_party_long:0 "ABC Party (Partido ABC)"
+CUB_national_syndicalist_party:0 "Nacionalistas"
+CUB_national_syndicalist_party_long:0 "Nationalists (Nacionalistas)"
+CUB_national_corporatist_party:0 "Nacionalistas"
+CUB_national_corporatist_party_long:0 "Nationalists (Nacionalistas)"
+
+CUB_national_syndicalist_party_prca:0 "PRC(A)"
+CUB_national_syndicalist_party_long_prca:0 "Cuban Revolutionary Party (Authentic) (Partido Revolucionario Cubano (Auténtico))"
+CUB_national_corporatist_party_prca:0 "PRC(A)"
+CUB_national_corporatist_party_long_prca:0 "Cuban Revolutionary Party (Authentic) (Partido Revolucionario Cubano (Auténtico))"
+
+# Opinion Modifiers

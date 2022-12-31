@@ -1,0 +1,33 @@
+
+state={
+	id=1348
+	name="STATE_1348"
+	provinces={
+		6562 6576 6590 9567 11511 
+	}
+	resources={
+		coal=18.000
+	}
+	history={
+		owner = CZE
+		victory_points = {
+			6562 5
+		}
+		victory_points = {
+			9567 12
+		}
+		victory_points = {
+			6576 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+		add_core_of = CZE
+
+	}
+	manpower=920500
+	state_category = town
+	buildings_max_level_factor=1.000
+}

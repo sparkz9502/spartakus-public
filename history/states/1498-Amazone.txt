@@ -1,0 +1,17 @@
+state={
+	id=1498
+	name="STATE_1498"
+	provinces={
+		4934 
+	}
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	manpower=200
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+	impassable = yes
+}

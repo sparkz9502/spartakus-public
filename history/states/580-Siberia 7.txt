@@ -1,0 +1,23 @@
+
+state={
+	id=580
+	name="STATE_580"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		96 1659 1664 1684 1744 1757 1768 1784 1812 1856 3169 3415 4669 4715 4746 4761 4774 4817 4846 7685 7689 7733 7738 7768 7781 7796 7809 7837 7867 7882 7895 8461 9142 10536 10561 10564 10592 10604 10620 10663 10692 12517 12542 12545 12574 12602 12630 12639 12672 12700 
+	}
+	manpower=140000
+	buildings_max_level_factor=1.000
+	impassable = yes
+	state_category=wasteland
+}

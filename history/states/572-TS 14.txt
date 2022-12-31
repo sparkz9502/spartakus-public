@@ -1,0 +1,27 @@
+
+state={
+	id=572
+	name="STATE_572"
+	resources={
+		coal=7.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		victory_points = {
+			1292 2
+		}
+
+	}
+
+	provinces={
+		1292 1294 1327 1775 4242 9292 10170 12106 
+	}
+	manpower=1038000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

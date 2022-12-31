@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "commonwealth_gfx_infantry_entity"
+		name = "ADE_infantry_entity"
+	}
+	
+	entity = {
+		clone = "commonwealth_gfx_infantry_2_entity"
+		name = "ADE_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "commonwealth_gfx_infantry_3_entity"
+		name = "ADE_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "commonwealth_gfx_infantry_rider_entity"
+		name = "ADE_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "commonwealth_gfx_infantry_mg_rider_entity"
+		name = "ADE_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "commonwealth_gfx_cavalry_entity"
+		name = "ADE_cavalry_entity"
+	}
+
+	entity = {
+		clone = "commonwealth_gfx_cavalry_2_entity"
+		name = "ADE_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "commonwealth_gfx_cavalry_rifle_combined_entity"
+		name = "ADE_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "commonwealth_gfx_cavalry_mg_combined_entity"
+		name = "ADE_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "commonwealth_gfx_motorized_entity"
+		name = "ADE_motorized_entity"
+	}
+	
+	entity = {
+		clone = "commonwealth_gfx_mechanized_entity"
+		name = "ADE_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "commonwealth_gfx_artillery_entity"
+		name = "ADE_artillery_entity"
+	}
+	
+	
+	

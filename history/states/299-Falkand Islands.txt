@@ -1,0 +1,31 @@
+
+state={
+	id=299
+	name="STATE_299"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			12960 = {
+				naval_base = 1
+
+			}
+			10995 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ENG
+		add_claim_by = ARG
+
+	}
+
+	provinces={
+		10995 12960 
+	}
+	manpower=2500
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

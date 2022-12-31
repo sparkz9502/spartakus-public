@@ -1,0 +1,1731 @@
+ideas = {
+################################################################################################################################################################################################
+### LIV
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	LIV_Paul_Olberg_hog_sde = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Didrok_Volganski_hog_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Paul_Schiemann_hog_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Jazeps_Rancans_hog_lco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_spiritual_leader
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Reinhold_K_Zarins_hog_lco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Georg_von_Manteuffel-Szoege_hog_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Manfred_von_Vegesack_hog_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Anatoly_Lieven_hog_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Adolf_Baron_Pilar_Von_Pilchau_hog_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Hermann_von_Keyserling_hog_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Andrievs_Niedra_hog_rwp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Ruediger_von_der_Goltz_hog_rwp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_respected_war_hero
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Oskars_Dankers_hog_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Reinhard_Heydrich_hog_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_local_tyrant
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Antonijs_Springovics_hog_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Gustavs_Celmins_hog_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Eduard_O_Rurke_hog_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_spiritual_leader
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Eduard_von_der_Ropp_hog_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_spiritual_leader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	LIV_Paul_Schiemann_for_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Alfons_Bertholds_for_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Walter_Anderson_for_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Alexander_Riesenkampff_for_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Viktor_von_Marnitz_for_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Alfred_Rosenberg_for_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Ivar_Lissner_for_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Adolfs_Tarbunass_for_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Antonijs_Urbss_for_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	LIV_Genrich_Eiche_eco_rev = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Axel_de_Vries_eco_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Erhard_Arnold_Julius_Dehio_eco_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_keynesian_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Korli_Stalte_eco_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Karlis_Barons_Sr_eco_lco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Leo_Sepp_eco_lco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Elisabeth_Schiemann_eco_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Friedrich_Zander_eco_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_air_superiority_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Peter_von_Weymarn_eco_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_theoretical_scientist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Ernst-Johann_Biron_eco_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_steel_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Gerhard_Krull_eco_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Oskar_Anderson_eco_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_railway_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Alexander_von_Salza_eco_rwp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_battle_fleet_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Alfred_Vendt_eco_rwp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Heinrich_Freiherr_von_Stackelberg_eco_rwp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Erhard_Kroeger_eco_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Max_Erwin_von_Scheubner-Richter_eco_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Eduard_Profittlich_eco_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Kazimirs_Dulbinskis_eco_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+
+	LIV_Eduard_von_Stackelberg_sec_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_crooked_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Edvins_Magnuss_sec_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Heinrich_Eduard_Karl_von_Stryk_sec_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Petor_Damberg_sec_lco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Carl_Immanuel_Hesse_sec_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Felix_Steiner_sec_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Kurt_Georg_Andersen_sec_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Karl_Sigismund_Litzmann_sec_rwp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Reinhard_Heydrich_sec_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Adrian_von_Folkersam_sec_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Friedrich_Buchardt_sec_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Paul_Rohrbach_sec_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Juozapas_Skvireckas_sec_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_health_and_safety
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+
+	LIV_Augusts_Skadins_def_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Hellmuth_Kneser_def_sli = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Reinhold_K_Zarins_def_lco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Fricis_Celmins_def_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Balthasar_Odert_von_Poll_def_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Lotars_Selers_def_sco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Walter_Zapp_def_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Bernd_Freytag_von_Loringhoven_def_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Wessel_von_Loringhoven_def_aco = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Erich_Koch_def_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Hans_Heinrich_Lohse_def_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Oskar_Angelus_def_nsy = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Boleslavs_Sloskans_def_ncp = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_occult_madman
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	LIV_Harald_Schultz_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Karlis_Barons_Jr_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Heinz_Guderian_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Wilfried_Strik-Strikfeldt_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Kurt_Georg_Andersen_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Viktor_von_Marnitz_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Heinrich_Baron_von_Behr_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Kurt_Jahn_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Ruediger_von_der_Goltz_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Robert_Ritter_von_Doser_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Wilhelm_Kube_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Peteris_Strods_cos = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	LIV_Paul_Bassen-Spiller_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Felix_Steiner_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Bernd_Freytag_von_Loringhoven_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Harold_Alexander_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Karl_Dormagen_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Uli_Kinkamegs_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Wessel_von_Loringhoven_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Hans_Henrici_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Ruediger_von_der_Goltz_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Robert_Ritter_von_Doser_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Adrian_von_Folkersam_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Viktors_Arajs_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Julijans_Vaivods_carm = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+	LIV_Andrejs_Bertholds_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Archibald_von_Keyserling_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Wolfgang_Luth_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Alexander_von_Salza_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Alfred_Vendt_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	LIV_Hans-Diedrich_von_Tiesenhausen_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Konstantins_Cakste_cnav = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	LIV_Leo_Sepp_cair = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Rudolfs_Bangerskis_cair = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Bruno_Loerzer_cair = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	LIV_Erich_Alt_cair = {
+		allowed = {original_tag = LIV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

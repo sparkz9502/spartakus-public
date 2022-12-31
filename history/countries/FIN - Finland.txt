@@ -1,0 +1,59 @@
+﻿capital = 840
+
+set_oob = "FIN"
+
+set_research_slots = 3
+
+add_ideas = {
+	recruitment_1830
+	governance_exec
+	trade_sempro
+	economy_semind
+	mobilization_2
+	
+	#FIN_Juho_Sunila_hog_lco
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1			
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+}
+
+set_convoys = 5
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 7
+    spartacist = 6
+    revolutionary_socialist = 2
+    reformist_socialist = 5
+    social_democrat = 17
+    social_liberal = 5
+    liberal_conservative = 21
+    social_conservative = 10
+    authoritarian_conservative = 14
+    right_wing_populist = 2
+    national_syndicalist = 7
+    national_corporatist = 4
+}
+
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_social_liberal
+set_country_flag = coalition_authoritarian_conservative
+
+recruit_character = FIN_pehr_evind_svinhufvud
+recruit_character = FIN_erik_heinrichs
+recruit_character = FIN_vilho_petter_nenonen

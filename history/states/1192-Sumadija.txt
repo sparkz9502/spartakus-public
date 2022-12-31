@@ -1,0 +1,48 @@
+
+state={
+	id=1192
+	name="STATE_1192"
+	
+	resources={
+		iron=2
+	}
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3984 7 
+		}
+		victory_points = {
+			11583 5 
+		}
+		victory_points = {
+			6998 2 
+		}
+		# 1192 = {
+			# add_province_modifier = {
+				# static_modifiers = {
+					# railway 
+				# }
+				# province = {
+					# id = 11583
+					# id = 6998
+
+				# }
+			# }
+		# }
+		add_core_of = SER
+
+	}
+
+	provinces={
+		3984 6953 6998 9599 11583 
+	}
+	manpower=448710
+	buildings_max_level_factor=1.000
+	state_category=town
+}

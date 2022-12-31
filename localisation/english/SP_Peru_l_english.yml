@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+PRU_bolshevist_party:0 "PCP"
+PRU_bolshevist_party_long:0 "Partido Comunista Peruano"
+PRU_spartacist_party:0 "PCP"
+PRU_spartacist_party_long:0 "Partido Comunista Peruano"
+PRU_revolutionary_socialist_party:0 "APRA"
+PRU_revolutionary_socialist_party_long:0 "Alianza Popular Revolucionaria Americana - Partido Aprista Peruano"
+PRU_reformist_socialist_party:0 "APRA"
+PRU_reformist_socialist_party_long:0 "Alianza Popular Revolucionaria Americana - Partido Aprista Peruano"
+PRU_social_democrat_party:0 "APRA"
+PRU_social_democrat_party_long:0 "Alianza Popular Revolucionaria Americana - Partido Aprista Peruano"
+PRU_social_liberal_party:0 "PD"
+PRU_social_liberal_party_long:0 "Partido Demócrata"
+PRU_liberal_conservative_party:0 "PDR"
+PRU_liberal_conservative_party_long:0 "Partido Democrático Reformista"
+PRU_social_conservative_party:0 "PC"
+PRU_social_conservative_party_long:0 "Partido Constitucional"
+PRU_authoritarian_conservative_party:0 "Militar"
+PRU_authoritarian_conservative_party_long:0 "Militar"
+PRU_right_wing_populist_party:0 "UR"
+PRU_right_wing_populist_party_long:0 "Unión Revolucionaria"
+PRU_national_syndicalist_party:0 "UR"
+PRU_national_syndicalist_party_long:0 "Unión Revolucionaria"
+PRU_national_corporatist_party:0 "UR"
+PRU_national_corporatist_party_long:0 "Unión Revolucionaria"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

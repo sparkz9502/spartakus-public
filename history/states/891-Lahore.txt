@@ -1,0 +1,33 @@
+
+state={
+	id=891
+	name="STATE_891"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = WTH
+		victory_points = {
+			9084 5 
+		}
+		victory_points = {
+			12005 5 
+		}
+		victory_points = {
+			10887 15 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		9084 10066 10887 12005 15438 15452 
+	}
+	manpower=5180000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

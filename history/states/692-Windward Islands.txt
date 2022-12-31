@@ -1,0 +1,29 @@
+
+state={
+	id=692
+	name="STATE_692"
+
+	history={
+		owner = CFA
+		add_core_of = CFA
+		buildings = {
+			infrastructure = 1
+			11106 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			11106 1 
+		}
+
+	}
+
+	provinces={
+		11106 
+	}
+	manpower=78700
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

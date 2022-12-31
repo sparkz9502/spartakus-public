@@ -1,0 +1,444 @@
+# Guominjun's Own
+division_template = {
+	name = "Bubing Shi"
+	#division_names_group = 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Min Bing"
+	#division_names_group = 
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+	}
+}
+division_template = {
+	name = "Qibing Shi"
+	#division_names_group = 
+		regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Jiaqiang Bubing Shi"
+	#division_names_group = 
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+#locked templates
+division_template = {
+	name = "Zhensongjun"
+	#division_names_group = 
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Ninghaijun Cavalry"
+	#division_names_group = 
+    is_locked = yes
+    regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "Ninghaijun"
+	#division_names_group = 
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Xibeijun"
+	#division_names_group = 
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+
+units = {
+
+	division= {
+        name = "8th Division"
+        location = 7301
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+    }
+
+	division= {
+        name = "10th Division"
+        location = 7301
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+    }
+
+	division= {
+        name = "2nd Division"
+        location = 12732
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+    }
+
+	division= {
+        name = "18th Division"
+        location = 12732
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+    }
+	
+	division= {
+        name = "19th Division"
+        location = 10750
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {# Ma Clique
+        name = "4th Army 1st Division"
+        location = 8081
+        division_template = "Ninghaijun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+    }
+
+	division= {# Ma Clique
+        name = "4th Army Cavalry"
+        location = 8081
+        division_template = "Ninghaijun Cavalry"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Shi Yousan's Troop
+        name = "9th Division"
+        location = 9958
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Shi Yousan's Troop
+        name = "6th Division"
+        location = 2022
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Shi Yousan's Troop
+        name = "71st Division"
+        location = 2022
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+    }
+	
+	division= {#Han Fuju's Troop
+        name = "1st Division"
+        location = 1603
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Han Fuju's Troop
+        name = "1st Division"
+        location = 1603
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Han Fuju's Troop
+        name = "11st Division"
+        location = 1603
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Han Fuju's Troop
+        name = "15th Division"
+        location = 1603
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Yang Hucheng's Troop
+        name = "55th Division"
+        location = 7301
+        division_template = "Xibeijun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+	
+	division= {#Yang Hucheng's Troop
+        name = "54th Division"
+        location = 7301
+        division_template = "Xibeijun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "4th Division"
+        location = 5057
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "5th Division"
+        location = 5057
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "12th Division"
+        location = 8081
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "68th Division"
+        location = 7314
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "69th Division"
+        location = 1647
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "89th Division"
+        location = 2022
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "58th Division"
+        location = 7656
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "59th Division"
+        location = 7656
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "85th Division"
+        location = 9958
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "64th Division"
+        location = 9958
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "32nd Division"
+        location = 10257
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "36th Division"
+        location = 10257
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Zhensongjun
+        name = "75th Division"
+        location = 10257
+        division_template = "Zhensongjun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Zhensongjun
+        name = "76th Division"
+        location = 10257
+        division_template = "Zhensongjun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "53rd Division"
+        location = 1882
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "57th Division"
+        location = 1882
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+
+	division= {#Zhensongjun
+        name = "73rd Division"
+        location = 1882
+        division_template = "Zhensongjun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Zhensongjun
+        name = "74th Division"
+        location = 11933
+        division_template = "Zhensongjun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "23rd Division"
+        location = 1069
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "60th Division"
+        location = 1069
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "25th Division"
+        location = 1069
+        division_template = "Bubing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "1st Cavalry"
+        location = 7301
+        division_template = "Qibing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {
+        name = "2nd Cavalry"
+        location = 7301
+        division_template = "Qibing Shi"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Ma Clique
+        name = "22th Division"
+        location = 2022
+        division_template = "Ninghaijun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Jing Yuexiu's Troop
+        name = "Temporary 18th Division"
+        location = 2022
+        division_template = "Xibeijun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+	division= {#Jing Yuexiu's Troop
+        name = "Temporary 18th Division"
+        location = 2022
+        division_template = "Xibeijun"
+        start_experience_factor = 0.3
+        start_equipment_factor = 1.0
+	}
+
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+		}
+		requested_factories = 3
+		progress = 0.82
+		efficiency = 100
+	}
+}

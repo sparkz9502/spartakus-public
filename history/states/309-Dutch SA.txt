@@ -1,0 +1,30 @@
+
+state={
+	id=309
+	name="STATE_309"
+	resources={
+		bauxite=52.000
+	}
+
+	history={
+		victory_points = {
+			10906 1 
+		}
+		owner = HOL
+		add_core_of = HOL
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			12828 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		10906 12828 13414 
+	}
+	manpower=158200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

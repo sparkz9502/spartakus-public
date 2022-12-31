@@ -1,0 +1,25 @@
+
+state={
+	id=150
+	name="STATE_150"
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = FIN
+		victory_points = {
+			11141 2 
+		}
+
+	}
+
+	provinces={
+		141 193 3030 3068 3125 3185 6078 6146 6210 9061 9104 9169 9181 11076 11141 11199 11210 13110 13112 13114 13115 13585 
+	}
+	manpower=381100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,24 @@
+
+state={
+	id=1376
+	name="STATE_1376"
+	provinces={
+		1087 1131 1187 4092 7152 10121 11938 11941 12077 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		victory_points = {
+			4092 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=6068800
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

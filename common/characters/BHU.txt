@@ -1,0 +1,17 @@
+characters={
+    BHU_jigme_i_wangchuck = {
+        name = "H.M.D.G Jigme I Wangchuck"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BHU/GFX_Portrait_Jigme_Wangchuck.tga"
+            }
+        }
+        country_leader={
+            expire = "1960.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+}

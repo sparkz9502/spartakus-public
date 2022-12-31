@@ -1,0 +1,1022 @@
+focus_tree = {
+	id = SP_SRI_tree_final
+	country = {
+		factor = 0
+		modifier = {
+			add = 0
+			tag = SRI
+		}
+	}
+	default = no
+############ POLITICS
+	focus = {
+		id = SRI_first_council_elections
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 9
+		y = 0
+
+	}
+### Abstensionists
+	focus = {
+		id = SRI_Abstensionists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_first_council_elections
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = SRI_Marginalise_the_Defenscists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Abstensionists
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Centralise_the_Political_System
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Abstensionists
+		}
+		x = 3
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Bolshevise_the_Trade_Unions
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Centralise_the_Political_System
+		}
+		prerequisite = {
+			focus = SRI_Marginalise_the_Defenscists
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Disenfranchise_the_Moderate_Defectors
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Marginalise_the_Defenscists
+		}
+		prerequisite = {
+			focus = SRI_Centralise_the_Political_System
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Proletarianise_the_Councils
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Centralise_the_Political_System
+		}
+		prerequisite = {
+			focus = SRI_Marginalise_the_Defenscists
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Proletarianise_the_Party
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Disenfranchise_the_Moderate_Defectors
+		}
+		prerequisite = {
+			focus = SRI_Bolshevise_the_Trade_Unions
+		}
+		prerequisite = {
+			focus = SRI_Proletarianise_the_Councils
+		}
+		mutually_exclusive = {
+			focus = SRI_Bolshevise_the_Party
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = SRI_Bolshevise_the_Party
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Disenfranchise_the_Moderate_Defectors
+		}
+		prerequisite = {
+			focus = SRI_Bolshevise_the_Trade_Unions
+		}
+		prerequisite = {
+			focus = SRI_Proletarianise_the_Councils
+		}
+		mutually_exclusive = {
+			focus = SRI_Proletarianise_the_Party
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = SRI_Reorganise_the_Militias
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Bolshevise_the_Party
+			focus = SRI_Proletarianise_the_Party
+		}
+		x = 2
+		y = 5
+
+	}
+### Ordinovists
+	focus = {
+		id = SRI_Ordinovists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_first_council_elections
+		}
+		x = 9
+		y = 1
+
+	}
+	focus = {
+		id = SRI_Alliance_with_the_Maximalists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Ordinovists
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Lower_Party_Membership_Requirements
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Ordinovists
+		}
+		x = 10
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Merge_the_Trade_Unions
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Alliance_with_the_Maximalists
+		}
+		prerequisite = {
+			focus = SRI_Lower_Party_Membership_Requirements
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Marginalise_the_Abstensionists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Alliance_with_the_Maximalists
+		}
+		prerequisite = {
+			focus = SRI_Lower_Party_Membership_Requirements
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = SRI_A_Proletarian_Management
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Alliance_with_the_Maximalists
+		}
+		prerequisite = {
+			focus = SRI_Lower_Party_Membership_Requirements
+		}
+		x = 11
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Include_Nenni_in_the_Cabinet
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_A_Proletarian_Management
+		}
+		prerequisite = {
+			focus = SRI_Merge_the_Trade_Unions
+		}
+		prerequisite = {
+			focus = SRI_Marginalise_the_Abstensionists
+		}
+		mutually_exclusive = {
+			focus = SRI_Marginalise_the_Moderate_Defectors
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = SRI_Marginalise_the_Moderate_Defectors
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Marginalise_the_Abstensionists
+		}
+		prerequisite = {
+			focus = SRI_Merge_the_Trade_Unions
+		}
+		prerequisite = {
+			focus = SRI_A_Proletarian_Management
+		}
+		mutually_exclusive = {
+			focus = SRI_Include_Nenni_in_the_Cabinet
+		}
+		x = 8
+		y = 4
+
+	}
+	focus = {
+		id = SRI_Replace_the_Police_with_Council_Militias
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Marginalise_the_Moderate_Defectors
+			focus = SRI_Include_Nenni_in_the_Cabinet
+		}
+		x = 9
+		y = 5
+
+	}
+### Maximalists
+	focus = {
+		id = SRI_Maximalists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_first_council_elections
+		}
+		x = 16
+		y = 1
+
+	}
+	focus = {
+		id = SRI_Alliance_with_the_Ordinovists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Maximalists
+		}
+		x = 15
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Reform_the_Council_System
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Maximalists
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Reintegrate_the_CGdL
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Alliance_with_the_Ordinovists
+		}
+		prerequisite = {
+			focus = SRI_Reform_the_Council_System
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Disenfranchise_the_Abstensionists
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Alliance_with_the_Ordinovists
+		}
+		prerequisite = {
+			focus = SRI_Reform_the_Council_System
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Decriminalise_Reformist_Parties
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Alliance_with_the_Ordinovists
+		}
+		prerequisite = {
+			focus = SRI_Reform_the_Council_System
+		}
+		x = 18
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Form_a_Popular_Front
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Decriminalise_Reformist_Parties
+		}
+		prerequisite = {
+			focus = SRI_Reintegrate_the_CGdL
+		}
+		prerequisite = {
+			focus = SRI_Disenfranchise_the_Abstensionists
+		}
+		mutually_exclusive = {
+			focus = SRI_Merge_the_Defencists_and_the_Defectors
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = SRI_Merge_the_Defencists_and_the_Defectors
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Disenfranchise_the_Abstensionists
+		}
+		prerequisite = {
+			focus = SRI_Reintegrate_the_CGdL
+		}
+		prerequisite = {
+			focus = SRI_Decriminalise_Reformist_Parties
+		}
+		mutually_exclusive = {
+			focus = SRI_Form_a_Popular_Front
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = SRI_Demilitarise_the_Police
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Merge_the_Defencists_and_the_Defectors
+			focus = SRI_Form_a_Popular_Front
+		}
+		x = 16
+		y = 5
+
+	}
+# End
+	focus = {
+		id = SRI_Italys_Red_Spring
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Reorganise_the_Militias
+			focus = SRI_Replace_the_Police_with_Council_Militias
+			focus = SRI_Demilitarise_the_Police
+		}
+		x = 9
+		y = 6
+
+	}
+############ LAND REFORM
+	focus = {
+		id = SRI_Begin_Land_Reform
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 4
+		y = 7
+
+	}
+	focus = {
+		id = SRI_Create_Village_Councils
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Begin_Land_Reform
+		}
+		x = 3
+		y = 8
+
+	}
+	focus = {
+		id = SRI_Free_the_Indebted_Peasantry
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Begin_Land_Reform
+		}
+		x = 5
+		y = 8
+
+	}
+	focus = {
+		id = SRI_Land_Bestowal_for_Use
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Create_Village_Councils
+		}
+		prerequisite = {
+			focus = SRI_Free_the_Indebted_Peasantry
+		}
+		x = 4
+		y = 9
+
+	}
+### Modernisation
+	focus = {
+		id = SRI_Setup_Technical_Ressuply_of_Farms
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Land_Bestowal_for_Use
+		}
+		x = 7
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Modernise_Farming_Equipment
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Setup_Technical_Ressuply_of_Farms
+		}
+		x = 6
+		y = 11
+
+	}
+	focus = {
+		id = SRI_Supply_Farms_with_Fertiliser
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Setup_Technical_Ressuply_of_Farms
+		}
+		x = 8
+		y = 11
+
+	}
+	focus = {
+		id = SRI_Diversify_Crop_Production
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Modernise_Farming_Equipment
+		}
+		prerequisite = {
+			focus = SRI_Supply_Farms_with_Fertiliser
+		}
+		x = 5
+		y = 12
+
+	}
+	focus = {
+		id = SRI_Setup_Machine_Tractor_Stations
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Supply_Farms_with_Fertiliser
+		}
+		prerequisite = {
+			focus = SRI_Modernise_Farming_Equipment
+		}
+		x = 7
+		y = 12
+
+	}
+	focus = {
+		id = SRI_Promote_Crop_Rotation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Supply_Farms_with_Fertiliser
+		}
+		prerequisite = {
+			focus = SRI_Modernise_Farming_Equipment
+		}
+		x = 9
+		y = 12
+
+	}
+	focus = {
+		id = SRI_Promote_Agro_Meteorology
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Diversify_Crop_Production
+		}
+		prerequisite = {
+			focus = SRI_Setup_Machine_Tractor_Stations
+		}
+		prerequisite = {
+			focus = SRI_Promote_Crop_Rotation
+		}
+		x = 7
+		y = 13
+
+	}
+### Collectivisation
+	focus = {
+		id = SRI_Voluntary_Collectivisation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Land_Bestowal_for_Use
+		}
+		x = 1
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Collectivise_Agricultural_Enterprises
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Voluntary_Collectivisation
+		}
+		x = 0
+		y = 11
+
+	}
+	focus = {
+		id = SRI_Create_Model_Farms
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Voluntary_Collectivisation
+		}
+		x = 2
+		y = 11
+
+	}
+	focus = {
+		id = SRI_Collectivist_Propaganda
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Collectivise_Agricultural_Enterprises
+		}
+		x = 0
+		y = 12
+
+	}
+	focus = {
+		id = SRI_Support_Poor_Peasants
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Create_Model_Farms
+		}
+		x = 2
+		y = 12
+
+	}
+	focus = {
+		id = SRI_Democratic_Taxation
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Support_Poor_Peasants
+		}
+		prerequisite = {
+			focus = SRI_Collectivist_Propaganda
+		}
+		x = 1
+		y = 13
+
+	}
+## End
+	focus = {
+		id = SRI_A_Peasant_Administration
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Democratic_Taxation
+		}
+		prerequisite = {
+			focus = SRI_Promote_Agro_Meteorology
+		}
+		mutually_exclusive = {
+			focus = SRI_Maintain_the_Current_Administration
+		}
+		x = 3
+		y = 14
+
+	}
+	focus = {
+		id = SRI_Maintain_the_Current_Administration
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Promote_Agro_Meteorology
+		}
+		prerequisite = {
+			focus = SRI_Democratic_Taxation
+		}
+		mutually_exclusive = {
+			focus = SRI_A_Peasant_Administration
+		}
+		x = 5
+		y = 14
+
+	}
+############ ECONOMIC RECOVERY
+	focus = {
+		id = SRI_Exit_the_Downwards_Spiral
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 17
+		y = 7
+
+	}
+## Industry
+	focus = {
+		id = SRI_Emergency_Conversion_of_Military_Factories
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Exit_the_Downwards_Spiral
+		}
+		x = 13
+		y = 8
+
+	}
+	focus = {
+		id = SRI_End_Rationing
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Emergency_Conversion_of_Military_Factories
+		}
+		x = 12
+		y = 9
+
+	}
+	focus = {
+		id = SRI_Start_Infrastructure_Projects
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_End_Rationing
+		}
+		x = 12
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Reopen_Mining_Companies
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Emergency_Conversion_of_Military_Factories
+		}
+		x = 14
+		y = 9
+
+	}
+	focus = {
+		id = SRI_Restart_Industrial_Growth
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Import_German_Machinery
+		}
+		prerequisite = {
+			focus = SRI_Reopen_Mining_Companies
+		}
+		x = 14
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Expand_Vital_Ports
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Start_Infrastructure_Projects
+		}
+		prerequisite = {
+			focus = SRI_Restart_Industrial_Growth
+		}
+		x = 13
+		y = 11
+
+	}
+### Comintern
+	focus = {
+		id = SRI_Begin_Trade_with_the_Comintern
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Exit_the_Downwards_Spiral
+		}
+		x = 17
+		y = 8
+
+	}
+	focus = {
+		id = SRI_Import_Soviet_Produce
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Begin_Trade_with_the_Comintern
+		}
+		x = 18
+		y = 9
+
+	}
+	focus = {
+		id = SRI_Import_German_Machinery
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Begin_Trade_with_the_Comintern
+		}
+		x = 16
+		y = 9
+
+	}
+	focus = {
+		id = SRI_Invite_Comintern_Advisors
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Import_Soviet_Produce
+		}
+		prerequisite = {
+			focus = SRI_Import_German_Machinery
+		}
+		x = 17
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Revolutionary_Education
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Restart_Industrial_Growth
+		}
+		prerequisite = {
+			focus = SRI_Invite_Comintern_Advisors
+		}
+		prerequisite = {
+			focus = SRI_Start_Repaying_the_Loans_in_Kind
+		}
+		x = 17
+		y = 11
+
+	}
+### Agricuture
+	focus = {
+		id = SRI_Setup_Sowing_Committees
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Exit_the_Downwards_Spiral
+		}
+		x = 21
+		y = 8
+
+	}
+	focus = {
+		id = SRI_Safeguard_Mass_Quantities_of_Seeds
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Setup_Sowing_Committees
+		}
+		x = 20
+		y = 9
+
+	}
+	focus = {
+		id = SRI_Start_Repaying_the_Loans_in_Kind
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Import_Soviet_Produce
+		}
+		prerequisite = {
+			focus = SRI_Safeguard_Mass_Quantities_of_Seeds
+		}
+		x = 20
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Swords_to_Plowshares
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Setup_Sowing_Committees
+		}
+		x = 22
+		y = 9
+
+	}
+	focus = {
+		id = SRI_Force_the_Use_of_Uncultivated_Land
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Swords_to_Plowshares
+		}
+		x = 22
+		y = 10
+
+	}
+	focus = {
+		id = SRI_Organise_a_Food_Supply_Tax
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Start_Repaying_the_Loans_in_Kind
+		}
+		prerequisite = {
+			focus = SRI_Force_the_Use_of_Uncultivated_Land
+		}
+		x = 21
+		y = 11
+
+	}
+## End
+	focus = {
+		id = SRI_A_Breath_of_Fresh_Air
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Expand_Vital_Ports
+		}
+		prerequisite = {
+			focus = SRI_Organise_a_Food_Supply_Tax
+		}
+		x = 17
+		y = 12
+
+	}
+######### DIPLOMACY
+	focus = {
+		id = SRI_Ties_with_the_Comintern
+		icon = GFX_goal_unknown
+		cost = 10,00
+		x = 24
+		y = 1
+
+	}
+### Inprov
+	focus = {
+		id = SRI_Common_training_Excersises
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Ties_with_the_Comintern
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Buy_German_Artillery
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Common_training_Excersises
+		}
+		mutually_exclusive = {
+			focus = SRI_Buy_Soviet_Guns
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Buy_Soviet_Guns
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Common_training_Excersises
+		}
+		mutually_exclusive = {
+			focus = SRI_Buy_German_Artillery
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Join_the_INPROV
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Buy_German_Artillery
+			focus = SRI_Buy_Soviet_Guns
+		}
+		x = 22
+		y = 4
+
+	}
+### Balkans
+	focus = {
+		id = SRI_Support_Balkan_Socialists
+		icon = GFX_focus_BUL_balkan_federation_of_socialist_republics
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Ties_with_the_Comintern
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = SRI_Antagonise_Greece
+		icon = GFX_focus_generic_aegean_sea_focus
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Support_Balkan_Socialists
+		}
+		mutually_exclusive = {
+			focus = SRI_Cooperation_with_Greece
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Cooperation_with_Greece
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Support_Balkan_Socialists
+		}
+		mutually_exclusive = {
+			focus = SRI_Antagonise_Greece
+		}
+		x = 27
+		y = 3
+
+	}
+	focus = {
+		id = SRI_Apologise_for_the_Adriatic_Peace
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Cooperation_with_Greece
+			focus = SRI_Antagonise_Greece
+		}
+		x = 26
+		y = 4
+
+	}
+## End
+	focus = {
+		id = SRI_Anti_Colonialism
+		icon = GFX_goal_unknown
+		cost = 10,00
+		prerequisite = {
+			focus = SRI_Join_the_INPROV
+			focus = SRI_Apologise_for_the_Adriatic_Peace
+		}
+		x = 24
+		y = 5
+
+	}
+}

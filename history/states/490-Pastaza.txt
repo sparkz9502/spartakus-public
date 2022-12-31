@@ -1,0 +1,25 @@
+
+state={
+	id=490
+	name="STATE_490"
+	
+	resources={
+		oil=1
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = PRU
+		set_demilitarized_zone = yes
+	}
+
+	provinces={
+		8149 10942 12869 13347 13360 13362 13371 13540 
+	}
+	manpower=100200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

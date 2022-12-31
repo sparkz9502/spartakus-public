@@ -1,0 +1,51 @@
+#########################################################################
+# OPINION MODIFIERS
+##########################################################################
+# value
+# min_trust
+# max_trust
+# decay
+# months/years/days = timer
+# trade = yes/no
+
+opinion_modifiers = {
+	
+	###Gamestart###
+	
+	SP_capitalist_v_socialist_ideology = { value = -30 }
+	SP_liberal_v_right_ideology = { value = -5 }
+	SP_similar_ideology = { value = 10 }
+	SP_same_ideology = { value = 20 }
+	SP_factional_rivalry = { value = -30 }
+	
+	SP_soc_cap_embargo = {
+		trade = yes
+		value = -400
+	}
+	SP_historical_trade_partners = {
+		trade = yes
+		value = 20
+	}
+	SP_great_relations = { value = 50 }
+	SP_great_relations_trade = { trade = yes value = 50 }
+	SP_friendly_relations = { value = 30 }
+	SP_friendly_relations_trade = { trade = yes value = 30 }
+	SP_moderately_good_relations = { value = 15 }
+	SP_moderately_good_relations_trade = { trade = yes value = 15 }
+	SP_cool_relations = { value = 5 }
+	SP_cool_relations_trade = { trade = yes value = 5 }
+	SP_annoyed_relations = { value = -5 }
+	SP_annoyed_relations_trade = { trade = yes value = -5 }
+	SP_moderately_bad_relations = { value = -15 }
+	SP_moderately_bad_relations_trade = { trade = yes value = -10 }
+	SP_bad_relations = { value = -30 }
+	SP_bad_relations_trade = { trade = yes value = -20 }
+	SP_horrible_relations = { value = -40 }
+	SP_horrible_relations_trade = { trade = yes value = -30 }
+	SP_unrecognised_relations = { value = -60 }
+	SP_unrecognised_relations_trade = { trade = yes value = -50 }
+	
+	
+	AFG_SOV_friendship = { value = 40 }
+	KMT_SOV_friendship = { value = 40 }
+}

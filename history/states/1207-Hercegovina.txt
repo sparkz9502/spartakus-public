@@ -1,0 +1,37 @@
+
+state={
+	id=1207
+	name="STATE_1207"
+	provinces={
+		6942 9894 11872 
+	}
+	resources={
+		bauxite=19
+		copper=5
+	}
+	history={
+		owner = CRO
+		victory_points = {
+			9894 5 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		# 1207 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 11872
+					# id = 9894
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = STJ
+		add_core_of = BOS
+
+	}
+	manpower=265078
+	state_category = town
+	buildings_max_level_factor=1.000
+}

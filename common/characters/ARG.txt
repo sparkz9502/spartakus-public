@@ -1,0 +1,240 @@
+characters={
+    ARG_victorio_codovilla = {
+        name = "Victorio Codovilla"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Victorio_Codovilla.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_VICTORIO_CODOVILLA_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_rodolfo_jose_ghioldi = {
+        name = "Rodolfo José Ghioldi"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Rodolfo_Ghioldi.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_RODOLFO_GHIOLDI_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_angel_borlenghi = {
+        name = "Ángel Borlenghi"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Angel_Borlenghi.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ANGLE_BORLENGHI_DESC"
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_federico_pinedo = {
+        name = "Federico Pinedo"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Federico_Pinedo.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_FEDERICO_PINEDO_DESC"
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_hipolito_yrigoyen = {
+        name = "Hipólito Yrigoyen"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Hipolito_Yrigoyen.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HIPOLITO_YRIGOYEN_DESC"
+            expire = "1965.1.1"
+            ideology = social_liberal_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_lisandro_de_la_torre = {
+        name = "Lisandro de La Torre"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Lisandro_de_La_Torre.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_LISANDRO_DE_LA_TORRE_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_julio_argentino_pascual_roca = {
+        name = "Julio Argentino Pascual Roca"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Julio_Argentino_Pascual_Roca.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JULIO_ARGENTINO_PASCUAL_ROCA_DESC"
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_agustin_pedro_justo = {
+        name = "Agustín Pedro Justo"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Agustin_Justo.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_AGUSTIN_PEDRO_JUSTO_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_nimio_de_anguin = {
+        name = "Nimio de Anquín"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Nimio_de_Anquin.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_NIMIO_DE_ANQUIN_DESC"
+            expire = "1965.1.1"
+            ideology = national_syndicalist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    ARG_manuel_carles = {
+        name = "Manuel Carlés"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARG/Portrait_Manuel_Carles.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MANUEL_CARLES_DESC"
+            expire = "1965.1.1"
+            ideology = national_corporatist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    ARG_arturo_rawson = {
+        name = "Arturo Rawson"
+        portraits={
+            army={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_land_2.tga"
+            }
+        }
+        field_marshal={
+            traits = { defensive_doctrine }
+            skill = 3
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    ARG_jose_felix_uriburu = {
+        name = "José Félix Uriburu"
+        portraits={
+            army={
+                large = "Portrait_Jose_Felix_Uriburu.tga"
+            }
+        }
+        corps_commander={
+            traits = { }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    ARG_juan_pistarini = {
+        name = "Juan Pistarini"
+        portraits={
+            army={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.tga"
+            }
+        }
+        corps_commander={
+            traits = { urban_assault_specialist fortress_buster }
+            skill = 3
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    ARG_alberto_teisaire = {
+        name = "Alberto Teisaire"
+        portraits={
+            army={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.tga"
+            }
+        }
+        navy_leader={
+            traits = { blockade_runner }
+            skill = 3
+            legacy_id=-1
+        }
+    }
+}

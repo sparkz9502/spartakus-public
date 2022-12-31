@@ -1,0 +1,1533 @@
+﻿add_namespace = nor
+
+country_event = { # Intro
+	id = nor.0
+	title = nor.0.t
+	desc = nor.0.d
+	#picture = GFX_report_event_generic_parliament
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+	}
+	
+	option = {
+		name = nor.0.a
+	}
+}
+
+country_event = { # Birth of Princess Astrid
+	id = nor.1
+	title = nor.1.t
+	desc = nor.1.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1932.2.10
+	}
+	
+	option = {
+		name = nor.1.a
+		add_political_power = 5
+	}
+}
+
+country_event = { # Wall Street Crash
+	id = nor.2
+	title = nor.2.t
+	desc = nor.2.d
+	picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1932.3.20
+		has_global_flag = SP_great_depression
+	}
+	
+	option = {
+		name = nor.2.a
+		add_political_power = -100
+		swap_ideas = {
+			remove_idea = NOR_recovering_economy_idea
+			add_idea = NOR_destroyed_economy_idea
+		}
+		add_popularity = { ideology = bolshevist popularity = 0.01 }
+		add_popularity = { ideology = spartacist popularity = 0.01 }
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.01 }
+		add_popularity = { ideology = reformist_socialist popularity = 0.01 }
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.01 }
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
+		
+		add_popularity = { ideology = social_liberal popularity = -0.02 }
+		add_popularity = { ideology = liberal_conservative popularity = -0.02 }
+		hidden_effect = {
+			country_event = { id = nor.3 days = 8 }
+			country_event = { id = nor.4 days = 15 }
+		}
+	}
+}
+
+country_event = { # Right Blames Free Market Policies
+	id = nor.3
+	title = nor.3.t
+	desc = nor.3.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.3.a
+		add_political_power = -10
+		add_popularity = { ideology = social_conservative popularity = 0.02 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.02 }
+		hidden_effect = {
+			country_event = { id = nor.11 days = 25 }
+		}
+	}
+}
+
+country_event = { # Left Blames Capitalist Pigs
+	id = nor.4
+	title = nor.4.t
+	desc = nor.4.d
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.4.a
+		add_political_power = -10
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.02 }
+		add_popularity = { ideology = reformist_socialist popularity = 0.02 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Peder Kolstad Has Died
+	id = nor.5
+	title = nor.5.t
+	desc = nor.5.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1932.3.1
+	}
+	
+	option = {
+		name = nor.5.a
+	}
+}
+
+country_event = { # Vidkun Quisling Claims Beeing Assaulted
+	id = nor.6
+	title = nor.6.t
+	desc = nor.6.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1932.2.22
+	}
+	
+	option = {
+		name = nor.6.a
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # We Have Proff Against Commies
+	id = nor.7
+	title = nor.7.t
+	desc = nor.7.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1932.4.1
+	}
+	
+	option = {
+		name = nor.7.a
+		add_political_power = -10
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.02 }
+		hidden_effect = {
+			random_list = {
+                50 = {
+					country_event = {
+						id = nor.8 days = 10
+					}
+				}
+                30 = {
+					country_event = {
+						id = nor.9 days = 5
+					}
+				}
+				20 = {
+					country_event = {
+						id = nor.10 days = 3
+					}
+				}
+            }
+		}
+	}
+}
+
+country_event = { # No Good Evidence
+	id = nor.8
+	title = nor.8.t
+	desc = nor.8.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.8.a
+		add_political_power = -35
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.01 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Some Evidence
+	id = nor.9
+	title = nor.9.t
+	desc = nor.9.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.9.a
+		add_political_power = -10
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # They are Traitors
+	id = nor.10
+	title = nor.10.t
+	desc = nor.10.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.10.a
+		add_political_power = 10
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.03 }
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.02 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Bygdefolkets Krisehjelp Gains Support
+	id = nor.11
+	title = nor.11.t
+	desc = nor.11.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.11.a
+		add_political_power = -10
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.01 }
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Invitation to a Borgerlig Meeting
+	id = nor.12
+	title = nor.12.t
+	desc = nor.12.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1932.10.15
+	}
+	
+	option = {
+		name = nor.12.a
+		ai_chance = { base = 60 }
+		add_political_power = 5
+		hidden_effect = {
+			country_event = { id = nor.13 days = 5 }
+		}
+	}
+	
+	option = {
+		name = nor.12.b
+		ai_chance = { base = 40 }
+		add_political_power = -5
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Wednesday Meeting
+	id = nor.13
+	title = nor.13.t
+	desc = nor.13.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.13.a
+		ai_chance = { base = 60 }
+		add_political_power = -10
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.01 }
+		set_country_flag = NOR_wednesday_meeting_yes_flag
+		hidden_effect = {
+		}
+	}
+	
+	option = {
+		name = nor.13.b
+		ai_chance = { base = 40 }
+		add_political_power = 5
+		set_country_flag = NOR_wednesday_meeting_no_flag
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Peter 1st Island Norwegian Dependency
+	id = nor.14
+	title = nor.14.t
+	desc = nor.14.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.3.20
+	}
+	
+	option = {
+		name = nor.14.a
+		add_political_power = 5
+	}
+}
+
+country_event = { # 1st of May 1933
+	id = nor.15
+	title = nor.15.t
+	desc = nor.15.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.4.25
+	}
+	
+	option = {
+		name = nor.15.a
+		ai_chance = { base = 50 }
+		add_political_power = -30
+		add_stability = -0.05
+		add_popularity = { ideology = spartacist popularity = -0.01 }
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.02 }
+	}
+	
+	option = {
+		name = nor.15.b
+		ai_chance = { base = 50 }
+		add_political_power = -30
+		add_stability = -0.02
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+		add_popularity = { ideology = authoritarian_conservative popularity = -0.01 }
+	}
+}
+
+country_event = { # Founding of Nasjonal Samling
+	id = nor.16
+	title = nor.16.t
+	desc = nor.16.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.5.10
+	}
+	
+	option = {
+		name = nor.16.a
+		add_political_power = -5
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
+		hidden_effect = {
+			set_party_name = {
+				ideology = national_corporatist
+				long_name = NOR_alt_natcorp_party_long
+				name = NOR_alt_natcorp_party
+			}
+			country_event = { id = nor.17 days = 10 }
+		}
+	}
+}
+
+country_event = { # Lefties Goes Right
+	id = nor.17
+	title = nor.17.t
+	desc = nor.17.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.17.a
+		add_political_power = -5
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.01 }
+		add_popularity = { ideology = reformist_socialist popularity = -0.01 }
+		add_popularity = { ideology = national_corporatist popularity = 0.02 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Martin Tranmæl Agitates
+	id = nor.18
+	title = nor.18.t
+	desc = nor.18.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.6.12
+	}
+	
+	option = {
+		name = nor.18.a
+		add_political_power = -5
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.02 }
+		hidden_effect = {
+			random_list = {
+                45 = {
+					country_event = {
+						id = nor.20 days = 25
+					}
+				}
+                55 = {
+					country_event = {
+						id = nor.21 days = 25
+					}
+				}
+            }
+		}
+	}
+}
+
+country_event = { # Decleration of the National Coalition
+	id = nor.19
+	title = nor.19.t
+	desc = nor.19.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.6.20
+	}
+	
+	option = {
+		name = nor.19.a
+		add_political_power = -5
+		add_popularity = { ideology = social_conservative popularity = -0.12 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.12 }
+	}
+}
+
+country_event = { # Moderate Socialist Coalition
+	id = nor.20
+	title = nor.20.t
+	desc = nor.20.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.20.a
+		add_political_power = -5
+		add_popularity = { ideology = revolutionary_socialist popularity = -0.12 }
+		add_popularity = { ideology = reformist_socialist popularity = 0.12 }
+		set_country_flag = NOR_moderate_socialist_coalition_flag
+	}
+}
+
+country_event = { # Radical Socialist Coalition
+	id = nor.21
+	title = nor.21.t
+	desc = nor.21.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.21.a
+		add_political_power = -10
+		add_popularity = { ideology = reformist_socialist popularity = -0.10 }
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.10 }
+		set_country_flag = NOR_radical_socialist_coalition_flag
+	}
+}
+
+country_event = { # Election 1933
+	id = nor.22
+	title = nor.22.t
+	desc = nor.22.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.10.10
+	}
+	
+	option = {
+		name = nor.22.a
+		ai_chance = { base = 40 }
+		add_political_power = -10
+		add_popularity = { ideology = bolshevist popularity = 0.01 }
+		add_popularity = { ideology = spartacist popularity = 0.01 }
+		add_popularity = { ideology = revolutionary_socialist popularity = 0.01 }
+		add_popularity = { ideology = reformist_socialist popularity = 0.01 }
+		set_country_flag = NOR_election_undergoing_flag
+	}
+	
+	option = {
+		name = nor.22.b
+		ai_chance = { base = 30 }
+		add_political_power = -10
+		add_popularity = { ideology = social_liberal popularity = 0.01 }
+		add_popularity = { ideology = liberal_conservative popularity = 0.02 }
+		set_country_flag = NOR_election_undergoing_flag
+	}
+	
+	option = {
+		name = nor.22.c
+		ai_chance = { base = 30 }
+		add_political_power = -10
+		add_popularity = { ideology = social_conservative popularity = 0.01 }
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.01 }
+		add_popularity = { ideology = national_syndicalist popularity = 0.01 }
+		add_popularity = { ideology = national_corporatist popularity = 0.01 }
+		set_country_flag = NOR_election_undergoing_flag
+	}
+}
+
+country_event = { # End of Liberal-Conservative Agreement
+	id = nor.23
+	title = nor.23.t
+	desc = nor.23.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.10.15
+		has_country_flag = NOR_wednesday_meeting_yes_flag
+		has_country_flag = NOR_election_undergoing_flag
+	}
+	
+	option = {
+		name = nor.23.a
+		add_political_power = -50
+		add_stability = -0.03
+		remove_ideas = NOR_liberal_conservative_agreement_idea
+		add_popularity = { ideology = liberal_conservative popularity = -0.01 }
+		hidden_effect = {
+			random_list = {
+				78 = {
+					country_event = {
+						id = nor.24 days = 5
+					}
+				}
+				22 = {
+					country_event = {
+						id = nor.25 days = 5
+					}
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Opposition Forms Government
+	id = nor.24
+	title = nor.24.t
+	desc = nor.24.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.24.a
+		ai_chance = { base = 50 }
+		add_stability = 0.02
+		add_political_power = -10
+		set_country_flag = NOR_1933_election_flag
+		set_country_flag = NOR_socialist_coalition_victory_flag
+		if = {
+			limit = {
+				NOR = {
+					has_country_flag = NOR_moderate_socialist_coalition_flag
+				}
+			}
+			set_politics = {
+				ruling_party = reformist_socialist elections_allowed = no
+			}
+			add_popularity = { ideology = reformist_socialist popularity = 0.01 }
+		}
+		if = {
+			limit = {
+				NOR = {
+					has_country_flag = NOR_radical_socialist_coalition_flag
+				}
+			}
+			set_politics = {
+				ruling_party = revolutionary_socialist elections_allowed = no
+			}
+			add_popularity = { ideology = revolutionary_socialist popularity = 0.01 }
+		}
+		
+	}
+	
+	option = {
+		name = nor.24.b
+		ai_chance = { base = 50 }
+		add_stability = 0.02
+		add_political_power = -10
+		set_politics = {
+			ruling_party = authoritarian_conservative elections_allowed = no
+		}
+		add_popularity = { ideology = authoritarian_conservative popularity = 0.01 }
+		set_country_flag = NOR_1933_election_flag
+		set_country_flag = NOR_national_coalition_victory_flag
+		if = {
+			limit = {
+				NOR = {
+					has_country_flag = NOR_wednesday_meeting_yes_flag
+				}
+			}
+			add_popularity = { ideology = liberal_conservative popularity = -0.07 }
+			add_popularity = { ideology = authoritarian_conservative popularity = 0.07 }
+		}
+		
+	}
+}
+
+country_event = { # Government Talks Breaks Apart
+	id = nor.25
+	title = nor.25.t
+	desc = nor.25.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.25.a
+		add_stability = -0.01
+		add_political_power = -10
+		hidden_effect = {
+			country_event = { id = nor.26 days = 5 }
+		}
+		
+	}
+}
+
+country_event = { # Samfundsvernet Rise Up
+	id = nor.26
+	title = nor.26.t
+	desc = nor.26.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.26.a
+		add_stability = -0.02
+		add_political_power = -15
+		add_popularity = { ideology = right_wing_populist popularity = 0.01 }
+		hidden_effect = {
+			country_event = { id = nor.27 days = 5 }
+		}
+		
+	}
+}
+
+country_event = { # Bolshevik Militas Rise Up
+	id = nor.27
+	title = nor.27.t
+	desc = nor.27.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.27.a
+		add_stability = -0.02
+		add_political_power = -15
+		add_popularity = { ideology = bolshevist popularity = 0.01 }
+		hidden_effect = {
+			country_event = { id = nor.28 days = 5 }
+		}
+		
+	}
+}
+
+country_event = { # Battle of Oslo
+	id = nor.28
+	title = nor.28.t
+	desc = nor.28.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.28.a
+		ai_chance = { base = 50 }
+		add_stability = 0.02
+		add_political_power = -10
+		set_politics = {
+			ruling_party = bolshevist elections_allowed = no
+		}
+		add_popularity = { ideology = bolshevist popularity = 0.05 }
+		add_popularity = { ideology = spartacist popularity = 0.05 }
+		set_country_flag = NOR_communist_coup_flag
+		hidden_effect = {
+			#country_event = { id = nor.29 days = 1 }
+		}
+		
+	}
+	
+	option = {
+		name = nor.28.b
+		ai_chance = { base = 50 }
+		add_stability = 0.02
+		add_political_power = -10
+		set_politics = {
+			ruling_party = right_wing_populist elections_allowed = no
+		}
+		add_popularity = { ideology = right_wing_populist popularity = 0.10 }
+		set_country_flag = NOR_samfundsvernet_coup_flag
+		hidden_effect = {
+			country_event = { id = nor.30 days = 1 }
+			create_corps_commander = {
+				name = "Ragnvald Hvoslef"
+				portrait_path = "gfx/leaders/NOR/Portrait_Ragnvald_Hvoslef.tga"
+				traits = { infantry_officer }
+				skill = 2
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 3
+				logistics_skill = 2
+			}
+		}
+		
+	}
+}
+
+country_event = { # Nasjonal Samling Takes Control
+	id = nor.30
+	title = nor.30.t
+	desc = nor.30.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.30.a
+		set_politics = {
+			ruling_party = national_corporatist elections_allowed = no
+		}
+		add_popularity = { ideology = right_wing_populist popularity = -0.10 }
+		add_popularity = { ideology = national_corporatist popularity = 0.10 }
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Continuation of Liberal-Conservative Agreement
+	id = nor.31
+	title = nor.31.t
+	desc = nor.31.d
+	#picture = GFX_report_event_worker_protests
+	
+	fire_only_once = yes
+	
+	trigger = {
+		tag = NOR
+		date > 1933.10.15
+		NOT = {
+			has_country_flag = NOR_wednesday_meeting_yes_flag
+		}
+		has_country_flag = NOR_election_undergoing_flag
+	}
+	
+	option = {
+		name = nor.31.a
+		add_political_power = -15
+		add_stability = 0.02
+		add_popularity = { ideology = liberal_conservative popularity = 0.01 }
+		set_country_flag = NOR_1933_election_flag
+		set_country_flag = NOR_continued_agreement_flag
+		hidden_effect = {
+		}
+	}
+}
+
+## Focus Events ##
+
+country_event = { # Blame Factory Owners
+	id = nor.100
+	title = nor.100.t
+	desc = nor.100.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.100.a
+		ai_chance = { base = 60 }
+		add_stability = -0.01
+		add_political_power = 10
+		add_timed_idea = {
+			idea = NOR_factory_owners_slaves_idea
+			days = 120
+		}
+		
+	}
+	
+	option = {
+		name = nor.100.b
+		ai_chance = { base = 40 }
+		add_stability = -0.01
+		add_political_power = 10
+		add_manpower = -500
+		increase_ruling_party_popularity_by_5 = yes
+		
+	}
+}
+
+country_event = { # First Marxist Assembly
+	id = nor.101
+	title = nor.101.t
+	desc = nor.101.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.101.a
+		ai_chance = { base = 40 }
+		add_stability = 0.01
+		set_politics = {
+			ruling_party = bolshevist elections_allowed = no
+		}
+		add_popularity = { ideology = bolshevist popularity = 0.07 }
+		add_popularity = { ideology = spartacist popularity = -0.07 }
+	}
+	
+	option = {
+		name = nor.101.b
+		ai_chance = { base = 60 }
+		add_stability = 0.01
+		set_politics = {
+			ruling_party = spartacist elections_allowed = no
+		}
+		add_popularity = { ideology = spartacist popularity = 0.07 }
+		add_popularity = { ideology = bolshevist popularity = -0.07 }
+	}
+}
+
+country_event = { # Unite the Left
+	id = nor.102
+	title = nor.102.t
+	desc = nor.102.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.102.a
+		add_political_power = 5
+		increase_ruling_party_popularity_by_5 = yes
+		add_ideas = NOR_uniting_the_left_idea
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Monarchy Question
+	id = nor.103
+	title = nor.103.t
+	desc = nor.103.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.103.a
+		ai_chance = { base = 98 }
+		add_stability = -0.02
+		add_political_power = 25
+		hidden_effect = {
+			create_country_leader = {
+				name = "Martin Tranmæl"
+				desc = "POLITICS_MARTIN_TRANMAEL_DESC"
+				picture = "Portrait_Martin_Tranmael.tga"
+				expire = "1965.1.1"
+				ideology = revolutionary_socialist_subtype
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Magnus Nilssen"
+				desc = "POLITICS_MAGNUS_NILSSEN_DESC"
+				picture = "Portrait_Magnus_Nilssen.tga"
+				expire = "1965.1.1"
+				ideology = reformist_socialist_subtype
+				traits = {
+					#
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = nor.103.b
+		ai_chance = { base = 2 }
+		add_stability = 0.02
+		add_political_power = -25
+	}
+}
+
+country_event = { # Pan-Europa
+	id = nor.104
+	title = nor.104.t
+	desc = nor.104.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.104.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Nationalism
+	id = nor.105
+	title = nor.105.t
+	desc = nor.105.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.105.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Dissolved Parliament
+	id = nor.106
+	title = nor.106.t
+	desc = nor.106.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.106.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Monarchy Question V2
+	id = nor.107
+	title = nor.107.t
+	desc = nor.107.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.107.a
+		ai_chance = { base = 80 }
+		add_stability = -0.02
+		add_political_power = 20
+		hidden_effect = {
+			create_country_leader = {
+				name = "Karl Meyer"
+				desc = "POLITICS_KARL_MEYER_DESC"
+				picture = "Portrait_Karl_Meyer.tga"
+				expire = "1965.1.1"
+				ideology = national_syndicalist_subtype
+				traits = {
+					#
+				}
+			}
+			create_country_leader = {
+				name = "Vidkun Quisling"
+				desc = "POLITICS_VIDKUN_QUISLING_DESC"
+				picture = "Portrait_Vidkun_Quisling.tga"
+				expire = "1965.1.1"
+				ideology = national_corporatist_subtype
+				traits = {
+					#
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = nor.107.b
+		ai_chance = { base = 20 }
+		add_stability = 0.02
+		add_political_power = -20
+	}
+}
+
+country_event = { # Pro-Soviet or Neutrality
+	id = nor.108
+	title = nor.108.t
+	desc = nor.108.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.108.a
+		ai_chance = { base = 50 }
+		set_country_flag = NOR_pro_soviet_policy_flag
+	}
+	
+	option = {
+		name = nor.108.b
+		ai_chance = { base = 50 }
+		set_country_flag = NOR_neutral_policy_flag
+	}
+}
+
+country_event = { # Pro-British or Neutrality
+	id = nor.109
+	title = nor.109.t
+	desc = nor.109.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.109.a
+		ai_chance = { base = 50 }
+		set_country_flag = NOR_pro_british_policy_flag
+	}
+	
+	option = {
+		name = nor.109.b
+		ai_chance = { base = 50 }
+		set_country_flag = NOR_neutral_policy_flag
+	}
+}
+
+country_event = { # Expantionist or Neutrality
+	id = nor.110
+	title = nor.110.t
+	desc = nor.110.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.110.a
+		ai_chance = { base = 50 }
+		set_country_flag = NOR_expantionist_policy_flag
+	}
+	
+	option = {
+		name = nor.110.b
+		ai_chance = { base = 50 }
+		set_country_flag = NOR_neutral_policy_flag
+	}
+}
+
+country_event = { # Norway in Alliance Yes or No?
+	id = nor.111
+	title = nor.111.t
+	desc = nor.111.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.111.a
+		ai_chance = { base = 80 }
+		add_political_power = -10
+		SOV = { add_to_faction = NOR }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.112 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.111.b
+		ai_chance = { base = 20 }
+		add_political_power = 20
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.113 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { # Soviet Allies Accept
+	id = nor.112
+	title = nor.112.t
+	desc = nor.112.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.112.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Soviet Allies Reject
+	id = nor.113
+	title = nor.113.t
+	desc = nor.113.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.113.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Norway in Alliance Yes or No?
+	id = nor.114
+	title = nor.114.t
+	desc = nor.114.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.114.a
+		ai_chance = { base = 80 }
+		add_political_power = -10
+		SOV = { add_to_faction = NOR }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.115 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.114.b
+		ai_chance = { base = 20 }
+		add_political_power = 20
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.116 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { # German Allies Accept
+	id = nor.115
+	title = nor.115.t
+	desc = nor.115.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.115.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # German Allies Reject
+	id = nor.116
+	title = nor.116.t
+	desc = nor.116.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.116.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Neutrality for Sweden Yes or No?
+	id = nor.117
+	title = nor.117.t
+	desc = nor.117.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.117.a
+		ai_chance = { base = 80 }
+		add_political_power = 25
+		add_ideas = NOR_scandinavian_neutrality_idea
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.118 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.117.b
+		ai_chance = { base = 20 }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.119 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { # Sweden Neutrality Aye
+	id = nor.118
+	title = nor.118.t
+	desc = nor.118.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.118.a
+		add_political_power = 25
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Sweden Neutrality Nay
+	id = nor.119
+	title = nor.119.t
+	desc = nor.119.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.119.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Neutrality for Denmark Yes or No?
+	id = nor.120
+	title = nor.120.t
+	desc = nor.120.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.120.a
+		ai_chance = { base = 80 }
+		add_political_power = 25
+		add_ideas = NOR_scandinavian_neutrality_idea
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.121 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.120.b
+		ai_chance = { base = 20 }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.122 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { # Denmark Neutrality Aye
+	id = nor.121
+	title = nor.121.t
+	desc = nor.121.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.121.a
+		add_political_power = 25
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Denmark Neutrality Nay
+	id = nor.122
+	title = nor.122.t
+	desc = nor.122.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.122.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Norway in Alliance Yes or No?
+	id = nor.123
+	title = nor.123.t
+	desc = nor.123.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.123.a
+		ai_chance = { base = 80 }
+		add_political_power = -10
+		ENG = { add_to_faction = NOR }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.124 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.123.b
+		ai_chance = { base = 20 }
+		add_political_power = 20
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.125 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { # British Allies Accept
+	id = nor.124
+	title = nor.124.t
+	desc = nor.124.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.124.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # British Allies Reject
+	id = nor.125
+	title = nor.125.t
+	desc = nor.125.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.125.a
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # Shall we Propose Naval Agreement
+	id = nor.126
+	title = nor.126.t
+	desc = nor.126.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.126.a
+		ai_chance = { base = 80 }
+		add_political_power = 10
+		hidden_effect = {
+			ENG = {
+				country_event = { id = nor.127 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.126.b
+		ai_chance = { base = 20 }
+		hidden_effect = {
+		}
+	}
+}
+
+country_event = { # Norway Wants Naval Agreement
+	id = nor.127
+	title = nor.127.t
+	desc = nor.127.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.127.a
+		ai_chance = { base = 80 }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.128 days = 1 }
+			}
+		}
+	}
+	
+	option = {
+		name = nor.127.b
+		ai_chance = { base = 20 }
+		hidden_effect = {
+			NOR = {
+				country_event = { id = nor.129 days = 1 }
+			}
+		}
+	}
+}
+
+country_event = { # British Allies Accept
+	id = nor.128
+	title = nor.128.t
+	desc = nor.128.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.128.a
+		add_ideas = NOR_norvego_british_naval_agreements_idea
+		hidden_effect = {
+		}
+		
+	}
+}
+
+country_event = { # British Allies Reject
+	id = nor.129
+	title = nor.129.t
+	desc = nor.129.d
+	#picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nor.129.a
+		add_political_power = -30
+		hidden_effect = {
+		}
+		
+	}
+}
+
+#country_event = { # Wall Street Crash reaches Britain
+#	id = uk.1
+#	title = uk.1.t
+#	desc = uk.1.desc
+#	picture = GFX_report_event_worker_protests
+#	
+#	is_triggered_only = yes
+#	
+#	option = {
+#		name = uk.1.a
+#		add_popularity = { ideology = spartacist popularity = 0.01 }
+#		add_popularity = { ideology = reformist_socialist popularity = 0.02 }
+#		add_popularity = { ideology = social_democrat popularity = 0.01 }
+#		add_popularity = { ideology = right_wing_populist popularity = 0.02 }
+#		add_popularity = { ideology = national_corporatist popularity = 0.03 }
+#		hidden_effect = {
+#			country_event = { id = uk.2 days = 150 random = 50 }
+#		}
+#	}
+#}

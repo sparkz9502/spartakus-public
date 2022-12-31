@@ -1,0 +1,35 @@
+state={
+	id=358
+	name="STATE_358"
+
+	
+	state_category = megalopolis
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 5
+			dockyard = 2
+			air_base = 10
+			3878 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			3878 40
+		}
+
+
+	}
+
+	provinces={
+	3878 859	
+	}
+	manpower=6930400
+	buildings_max_level_factor=1.000
+}

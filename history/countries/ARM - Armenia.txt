@@ -1,0 +1,67 @@
+﻿capital = 230
+set_oob = "ARM"
+set_research_slots = 3
+set_stability = 0.4
+set_war_support = 0.7
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	
+	### Air ###
+	early_fighter = 1
+}
+
+add_ideas = {
+	### Laws ###
+	recruitment_1830
+	governance_exec
+	trade_pro
+	economy_indzing
+	mobilization_3
+}
+
+### Country Leaders ###
+recruit_character = ARM_hovhannes_kajaznuni
+recruit_character = ARM_aghasi_khanjian
+recruit_character = ARM_drastamat_kanayan
+recruit_character = ARM_mariam_vardanian
+recruit_character = ARM_mikayel_papadjanian
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1929.1.1"
+	election_frequency = 60
+	elections_allowed = yes
+}
+
+set_popularities = {
+    bolshevist = 5
+    spartacist = 0
+    revolutionary_socialist = 10
+    reformist_socialist = 11
+    social_democrat = 41
+    social_liberal = 19
+    liberal_conservative = 4
+    social_conservative = 0
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 10
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_reformist_socialist
+set_country_flag = coalition_national_syndicalist
+
+set_country_flag = banned_bolshevist
+set_country_flag = banned_spartacist

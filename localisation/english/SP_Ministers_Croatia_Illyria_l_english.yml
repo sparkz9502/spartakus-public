@@ -1,0 +1,81 @@
+﻿l_english:
+
+### Head of Government ###
+CRO_Andrija_Hebrang_hog_bol:0 "Andrija Hebrang"
+CRO_Ante_Ciliga_hog_spa:0 "Ante Ciliga"
+CRO_August_Cesarec_hog_spa:0 "August Cesarec"
+CRO_Ivan_Ribar_hog_spa:0 "Ivan Ribar"
+CRO_Ivan_Subasic_hog_sco:0 "Ivan Subasic"
+CRO_Vladko_Macek_hog_sco:0 "Vladko Macek"
+CRO_Antun_pl_Mihalovic_hog_aco:0 "Antun pl. Mihalovic"
+CRO_Ante_Pavelic_hog_nsy:0 "Ante Pavelic"
+
+### Foreign Minister ###
+CRO_Aleksa_Dundic_for_bol:0 "Aleksa Dundic"
+CRO_Ivan_Ribar_for_spa:0 "Ivan Ribar"
+CRO_Svetozar_Delic_for_spa:0 "Svetozar Delic"
+CRO_Miroslav_Krleza_for_rev:0 "Miroslav Krleza"
+CRO_Vladimir_Nazor_for_rev:0 "Vladimir Nazor"
+CRO_Juraj_Krnjevic_for_sco:0 "Juraj Krnjevic"
+CRO_Vladko_Macek_for_sco:0 "Vladko Macek"
+CRO_Antun_pl_Mihalovic_for_aco:0 "Antun pl. Mihalovic"
+CRO_Milan_Budak_for_nsy:0 "Milan Budak"
+CRO_Mladen_Lorkovic_for_nsy:0 "Mladen Lorkovic"
+
+### Economy Minister ###
+CRO_Aleksa_Dundic_eco_bol:0 "Aleksa Dundic"
+CRO_August_Cesarec_eco_spa:0 "August Cesarec"
+CRO_Ivan_Ribar_eco_spa:0 "Ivan Ribar"
+CRO_August_Kosutic_eco_sco:0 "August Kosutic"
+CRO_Ivan_Andres_eco_sco:0 "Ivan Andres"
+CRO_Ivan_Krajac_eco_sco:0 "Ivan Krajac"
+CRO_Stanko_Sverljuga_eco_aco:0 "Stanko Sverljuga"
+CRO_Dido_Kvaternik_eco_nsy:0 "Dido Kvaternik"
+
+### Security Minister ###
+CRO_Ante_Ciliga_sec_spa:0 "Ante Ciliga"
+CRO_Vladimir_Copic_sec_rev:0 "Vladimir Copic"
+CRO_Srdjan_Budisavljevic_sec_lco:0 "Srdjan Budisavljevic"
+CRO_Djuro_Basaricek_sec_sco:0 "Djuro Basaricek"
+CRO_Ivan_Pernar_sec_sco:0 "Ivan Pernar"
+CRO_Ivo_Krbek_sec_sco:0 "Ivo Krbek"
+CRO_Vilko_Begic_sec_rwp:0 "Vilko Begic"
+CRO_Andrija_Artukovic_sec_nsy:0 "Andrija Artukovic"
+CRO_Mladen_Lorkovic_sec_nsy:0 "Mladen Lorkovic"
+
+### Defence Minister ###
+CRO_Andrija_Hebrang_def_bol:0 "Andrija Hebrang"
+CRO_Vladimir_Copic_def_rev:0 "Vladimir Copic"
+CRO_Vilko_Begic_def_rwp:0 "Vilko Begic"
+CRO_Adalbert_Rogulja_def_nsy:0 "Adalbert Rogulja"
+CRO_Mladen_Lorkovic_def_nsy:0 "Mladen Lorkovic"
+
+### Chief of Staff ###
+CRO_Vladimir_Copic_cos:0 "Vladimir Copic"
+CRO_Fedor_Dragojlov_cos:0 "Fedor Dragojlov"
+CRO_Mihajlo_Lukic_cos:0 "Mihajlo Lukic"
+CRO_Marko_Mesic_cos:0 "Marko Mesic"
+CRO_Viktor_Pavicic_cos:0 "Viktor Pavicic"
+CRO_Ivan_Percevic_cos:0 "Ivan Percevic"
+CRO_Slavko_Kvaternik_cos:0 "Slavko Kvaternik"
+
+### Chief of Army ###
+CRO_Aleksa_Dundic_carm:0 "Aleksa Dundic"
+CRO_Vladimir_Copic_carm:0 "Vladimir Copic"
+CRO_Fedor_Dragojlov_carm:0 "Fedor Dragojlov"
+CRO_Miroslav_Navratil_carm:0 "Miroslav Navratil"
+CRO_Slavko_Stancer_carm:0 "Slavko Stancer"
+CRO_Vilko_Begic_carm:0 "Vilko Begic"
+CRO_Slavko_Kvaternik_carm:0 "Slavko Kvaternik"
+
+### Chief of Navy ###
+CRO_Bogdan_Pecotic_cnav:0 "Bogdan Pecotic"
+CRO_Marijan_Polic_cnav:0 "Marijan Polic"
+CRO_Nikola_Steinfel_cnav:0 "Nikola Steinfel"
+CRO_Djuro_Jakcin_cnav:0 "Djuro Jakcin"
+
+### Chief of Air Force ###
+CRO_Viktor_Bubanj_cair:0 "Viktor Bubanj"
+CRO_Emil_Uzelac_cair:0 "Emil Uzelac"
+CRO_Miroslav_Navratil_cair:0 "Miroslav Navratil"
+CRO_Vladimir_Kren_cair:0 "Vladimir Kren"

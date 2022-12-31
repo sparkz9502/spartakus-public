@@ -1,0 +1,25 @@
+
+state={
+	id=873
+	name="STATE_873"
+	resources={
+		copper=13.000
+	}
+
+	history={
+		owner = CHL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CHL
+
+	}
+
+	provinces={
+		5131 8217 8231 13510 
+	}
+	manpower=137100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

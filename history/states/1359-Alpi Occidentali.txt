@@ -1,0 +1,20 @@
+
+state={
+	id=1359
+	name="STATE_1359"
+	provinces={
+		9738 11721 15504 
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=120000
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=562
+	name="STATE_562"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = SOV
+		add_claim_by = PRI
+
+	}
+
+	provinces={
+		1823 1839 1863 1865 4728 4744 5264 10540 10572 11607 12207 12522 12592 13062 13063 13204 
+	}
+	manpower=26000
+	buildings_max_level_factor=1.000
+	impassable = yes
+	state_category=wasteland
+}

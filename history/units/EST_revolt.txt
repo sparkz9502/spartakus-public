@@ -1,0 +1,90 @@
+﻿division_template = {
+	name = "Omakaitse"				# Home Guard
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	division = {
+		name = "1. Omakaitse"
+		location = 3152
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "2. Omakaitse"
+		location = 415
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "3. Omakaitse"
+		location = 3174
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "4. Omakaitse"
+		location = 9079
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "5. Omakaitse"
+		location = 11057
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "6. Omakaitse"
+		location = 9221
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "7. Omakaitse"
+		location = 11443
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+	division = {
+		name = "8. Omakaitse"
+		location = 496
+		division_template = "Omakaitse"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.75
+
+	}
+}

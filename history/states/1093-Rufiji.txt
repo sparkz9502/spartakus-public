@@ -1,0 +1,26 @@
+
+state={
+	id=1093
+	name="STATE_1093"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = JKA
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			7273 1 
+		}
+
+	}
+
+	provinces={
+		7273 8005 10821 12884 15111 15456 15468 15478 15488 
+	}
+	manpower=312000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

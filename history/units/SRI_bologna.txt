@@ -1,0 +1,56 @@
+﻿units = {
+	division = { #"11a Guardie Rosse 'Rosso'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		} 
+		location = 6606
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"12a Guardie Rosse 'Modena'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		} 
+		location = 9752
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"13a Guardie Rosse 'Socialista'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		} 
+		location = 13566
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"14a Guardie Rosse 'Bologna'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		} 
+		location = 6606
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"15a Guardie Rosse 'Avanti'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		} 
+		location = 15371
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"16a Guardie Rosse 'Bersaglieri'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		} 
+		location = 6790
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+}

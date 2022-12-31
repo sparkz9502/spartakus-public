@@ -1,0 +1,40 @@
+
+state={
+	id=712
+	name="STATE_712"
+
+	history={
+		owner = DEN
+		add_core_of = DEN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3325 = {
+				naval_base = 3
+			}
+			3305 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+			3260 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			3325 5 
+		}
+		victory_points = {
+			3305 1
+		}
+		victory_points = {
+			3260 1
+		}
+	}
+
+	provinces={
+		3260 3305 3325 3374 6393 
+	}
+	manpower=843800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1351
+	name="STATE_1351"
+	provinces={
+		414 3407 
+	}
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ROM
+		#add_core_of = UKR
+		add_claim_by = SOV
+
+	}
+	manpower=395300
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

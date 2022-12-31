@@ -1,0 +1,108 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### FRA
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_FRA_Philippe_Petain_hog_rwp"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Philippe_Petain.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_FRA_Hubert_Lyautey_hog_rwp"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Hubert_Lyautey.tga"
+}
+
+#Minister Without Portfolio
+spriteType = {
+	name = "GFX_idea_FRA_Andre_Tardieu_mwp_aco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Andre_Tardieu.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_FRA_Louis_Barthou_for_lco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Louis_Barthou.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_FRA_Andre_Tardieu_for_aco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Andre_Tardieu.tga"
+}
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_FRA_Frederic_Francois_Marsal_eco_sco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Frederic_Francois_Marsal.tga"
+}
+
+#Security Minister
+#spriteType = {
+#	name = "GFX_idea_FRA_Edouard_Daladier_sec_sli"
+#	texturefile = "gfx/interface/ministers/FRA/FRA_Edouard_Daladier.tga"
+#}
+
+spriteType = {
+	name = "GFX_idea_FRA_Jean_Chiappe_sec_rwp"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Jean_Chiappe.tga"
+}
+
+#Education Minister
+spriteType = {
+	name = "GFX_idea_FRA_Leon_Berard_edu_sco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Leon_Berard.tga"
+}
+
+#Agriculture Minister
+spriteType = {
+	name = "GFX_idea_FRA_Armand_Achille_Fould_agr_sco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Armand_Achille_Fould.tga"
+}
+
+#Transport Minister
+spriteType = {
+	name = "GFX_idea_FRA_Pierre_Etienne_Flandin_tra_sco"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Pierre_Etienne_Flandin.tga"
+}
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_FRA_Pierre_Laval_def_sde"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Pierre_Laval.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_FRA_Philippe_Petain_def_rwp"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Philippe_Petain.tga"
+}
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_FRA_Maxime_Weygand_cos"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Maxime_Weygand.tga"
+}
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_FRA_Hubert_Lyautey_carm"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Hubert_Lyautey.tga"
+}
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_FRA_Georges_Durand_Viel_cnav"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Georges_Durand_Viel.tga"
+}
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_FRA_Victor_Denain_cair"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Victor_Denain.tga"
+}
+
+#Theorist
+spriteType = {
+	name = "GFX_idea_FRA_Pierre_de_Coubertin_theo"
+	texturefile = "gfx/interface/ministers/FRA/FRA_Pierre_de_Coubertin.tga"
+}

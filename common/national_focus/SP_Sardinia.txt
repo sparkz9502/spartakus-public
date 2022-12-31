@@ -1,0 +1,116 @@
+################################
+# Sardinia Focus Tree
+# By sparkz
+################################
+
+focus_tree = {
+	id = SP_Sardinia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SRD
+		}
+	}
+	default = no
+	
+	focus = {
+		id = SRD_Formation_of_the_Provisional_Government
+		icon = GFX_SRD_Break_Chains
+		cost = 2
+		select_effect = {
+			country_event = { id = srd.1 days = 1 }
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRD_Form_Provisional_Government_tt
+		}
+		x = 5
+		y = 0
+	}
+	
+	focus = {
+		id = SRD_Establish_Ties_With_Venice
+		icon = GFX_SRD_Join_Venice
+		available = {
+			has_country_flag = SRD_Provisional_Govt_Formed
+			has_government = social_democrat
+		}
+		mutually_exclusive = { focus = SRD_Establish_Ties_With_the_Socialists }
+		prerequisite = { focus = SRD_Formation_of_the_Provisional_Government }
+		relative_position_id = SRD_Formation_of_the_Provisional_Government
+		cost = 1
+		completion_reward = {
+			VNZ = {
+				country_event = { id = srd.10 days = 1 }
+			}
+		}
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = SRD_Establish_Ties_With_the_Socialists
+		icon = GFX_SRD_Join_Socialist
+		available = {
+			has_country_flag = SRD_Provisional_Govt_Formed
+			has_government = reformist_socialist
+		}
+		mutually_exclusive = { focus = SRD_Establish_Ties_With_Venice }
+		prerequisite = { focus = SRD_Formation_of_the_Provisional_Government }
+		relative_position_id = SRD_Formation_of_the_Provisional_Government
+		cost = 1
+		completion_reward = {
+			SRI = {
+				country_event = { id = srd.9 days = 1 }
+			}
+		}
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = SRD_Initiate_the_Unification
+		icon = GFX_SRD_Italy_Unify
+		prerequisite = { focus = SRD_Establish_Ties_With_Venice focus = SRD_Establish_Ties_With_the_Socialists }
+		relative_position_id = SRD_Formation_of_the_Provisional_Government
+		cost = 1
+		completion_reward = {
+			if = {
+				limit = {
+					has_completed_focus = SRD_Establish_Ties_With_the_Socialists
+				}
+				if = {
+					limit = {
+						is_ai = no
+					}
+					SRI = { change_tag_from = SRD }
+				}
+				SRI = {
+					annex_country = {
+						target = SRD
+						transfer_troops = yes
+					}
+				}
+			}
+			if = {
+				limit = {
+					has_completed_focus = SRD_Establish_Ties_With_Venice
+				}
+				if = {
+					limit = {
+						is_ai = no
+					}
+					VNZ = { change_tag_from = SRD }
+				}
+				VNZ = {
+					annex_country = {
+						target = SRD
+						transfer_troops = yes
+					}
+				}
+			}
+		}
+		x = 0
+		y = 2
+	}
+}

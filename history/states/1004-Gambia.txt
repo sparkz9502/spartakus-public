@@ -1,0 +1,26 @@
+
+state={
+	id=1004
+	name="STATE_1004"
+
+	history={
+		owner=BWA
+		add_core_of=BWA
+		buildings = {
+			infrastructure = 1
+			4989 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4989 14079 
+	}
+	manpower=202000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

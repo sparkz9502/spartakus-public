@@ -1,0 +1,10 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			GER = {
+				country_event = { id = gerflv.150 days = 763 }
+				country_event = { id = gerfor.500 days = 1459 }
+			}
+		}
+    }
+}

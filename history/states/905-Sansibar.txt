@@ -1,0 +1,25 @@
+state={
+	id=905
+	name="STATE_905"
+	manpower=235400
+	state_category = small_island
+	
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_core_of = ZAN
+		buildings = {
+			infrastructure = 2
+			13551 = {
+				naval_base = 3
+			}
+		}
+		victory_points = {
+			13551 5
+		}		
+	}
+	
+	provinces={
+		13551
+	}
+}

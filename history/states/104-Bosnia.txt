@@ -1,0 +1,44 @@
+
+state={
+	id=104
+	name="STATE_104"
+	resources={
+	}
+
+	history={
+		owner = CRO
+		victory_points = {
+			6983 7
+		}
+		victory_points = {
+			6619 3
+		}
+		victory_points = {
+			9588 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		# 104 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 6619
+					# id = 6983
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = BSE
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		6619 6983 9588 15337 
+	}
+	manpower=597710
+	buildings_max_level_factor=1.000
+	state_category=town
+}

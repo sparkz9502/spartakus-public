@@ -1,0 +1,927 @@
+ideas = {
+################################################################################################################################################################################################
+### ALB
+##########################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	ALB_Ymer_Dishnica_hog_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1938.1.1
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Omer_Nishani_hog_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Llazar_Fundo_hog_rev = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Avni_Rustemi_hog_sde = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_revolutionary_figurehead
+		}
+		cancel_if_invalid = no
+	}
+	
+		ALB_Bajram_Curri_hog_sde = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_respected_war_hero
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Hasan_Prishtina_hog_sde = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Sejfi_Vllamasi_hog_sco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Shefqet_Verlaci_hog_sco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_prominent_landowner
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Xhafer_Bej_Ypi_hog_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_prominent_landowner
+		}
+		cancel_if_invalid = no
+	}	
+	
+	ALB_Kostaq_Kotta_hog_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_corporate_suit
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Pandeli_Evangjeli_hog_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_government
+			authoritarian_conservative
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Mehdi_Frasheri_hog_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_government
+			authoritarian_conservative
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Rexhep_Mitrovica_hog_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_government
+			authoritarian_conservative
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	ALB_Spiro_Koleka_for_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Omer_Nishani_for_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}	
+	
+	ALB_Myfid_Libohova_for_sco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}	
+	
+	ALB_Pandeli_Evangjeli_for_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			foreign_minister
+			authoritarian_conservative
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}	
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+
+	ALB_Liri_Gero_mwp_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1943.1.1
+		}
+		traits = {
+			spartacist
+			minister_without_portfolio
+			mwp_renowned_suffragette
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Nexhmije_Xhuglini_mwp_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1939.1.1
+		}
+		traits = {
+			bolshevist
+			minister_without_portfolio
+			mwp_renowned_suffragette
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Margarita_Tutulani_mwp_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1942.1.1
+		}
+		traits = {
+			spartacist
+			minister_without_portfolio
+			mwp_renowned_suffragette
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Hasan_Prishtina_mwp_sde = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+			mwp_nationalistic_liberal
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+
+	ALB_Gogo_Nushi_eco_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1938.1.1
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Pilo_Peristeri_eco_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1933.1.1
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Nesti_Kerenxhi_eco_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1943.1.1
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Spiro_Koleka_eco_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Nako_Spiru_eco_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1941.1.1
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Tuk_Jakova_eco_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1936.1.1
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Kostandin_Boshnjaku_eco_rev = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+    }
+    
+    ALB_Luigj_Gurakuqi_eco_sde = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}	
+	
+    ALB_Fejzi_Alizoti_eco_aco = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}		
+
+}
+
+security_minister = { ### Security Minister ###
+
+	ALB_Mehmet_Shehu_sec_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Nesti_Kerenxhi_sec_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1943.1.1
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Manol_Konomi_sec_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Riza_Cerova_sec_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Medar_Shtylla_sec_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_health_and_safety
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Koci_Xoxe_sec_rev = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Riza_Dani_sec_rev = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+education_minister = { ### Education Minister ###
+
+	ALB_Koci_Bako_edu_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			education_minister
+			edu_political_philosopher
+		}
+		cancel_if_invalid = no
+	}	
+
+	ALB_Qemal_Stafa_edu_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1942.1.1
+		}
+		traits = {
+			bolshevist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}	
+
+	ALB_Sejfulla_Maleshova_edu_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Skender_Luarasi_edu_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Petro_Marko_edu_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1935.1.1
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Zef_Mala_edu_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1936.1.1
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+
+	ALB_Pandi_Kristo_def_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1933.1.1
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Mustafa_Gjinishi_def_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_revolutionary_veteran
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Enver_Hoxha_def_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Mehmet_Shehu_def_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_master_of_intelligence
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Haxhi_Lleshi_def_spa = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_revolutionary_veteran
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Koci_Xoxe_def_rev = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			defence_minister
+			def_espionage_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Bajram_Curri_def_sde = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+			def_revolutionary_veteran
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+
+	ALB_Pilo_Peristeri_agr_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1933.1.1
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_collectivist_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+	
+	ALB_Hysni_Kapo_agr_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			date > 1935.1.1
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_collectivist_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+
+	ALB_Spiro_Pano_agr_bol = {
+		allowed = {original_tag = ALB}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+}

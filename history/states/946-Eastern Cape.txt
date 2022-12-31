@@ -1,0 +1,32 @@
+
+state={
+	id=946
+	name="STATE_946"
+	
+	resources={
+		coal=1.000
+	}
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+			14562 = {
+				naval_base = 2
+
+			}
+		}
+		victory_points = {
+			14562 2 
+		}
+
+	}
+	
+	provinces={
+		4584 4696 4822 14562 14564 14569 14570 14571 14574 14577 14579 14580 14581 14589 14590 14601 14603 
+	}
+	manpower=1159000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

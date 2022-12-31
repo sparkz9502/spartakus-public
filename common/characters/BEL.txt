@@ -1,0 +1,186 @@
+characters={
+    BEL_albert_i = {
+        name = "Albert I"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BEL/Portrait_Albert_I.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1934.12.17"
+            ideology = social_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1934.12.17"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1934.12.17"
+            ideology = social_liberal_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = reformist_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = national_corporatist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = social_liberal_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = right_wing_populist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = national_syndicalist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1970.12.17"
+            ideology = social_democrat_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    BEL_henri_de_man = {
+        name = "Henri de Man"
+        portraits={
+            civilian={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HENRI_DEMAN_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    BEL_julien_lahaut = {
+        name = "Julien Lahaut"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BEL/Portrait_Lahaut.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JULIEN_LAHAUT_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    BEL_jacques_grippa = {
+        name = "Jacques Grippa"
+        portraits={
+            civilian={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JACQUES_GRIPPA_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    BEL_mcl_keyaerts = {
+        name = "M.C.L. Keyaerts"
+        portraits={
+            army={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+            }
+        }
+        corps_commander={
+            traits = { trait_mountaineer hill_fighter }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 4
+            legacy_id=-1
+        }
+    }
+
+    BEL_georges_timmermans = {
+        name = "Georges Timmermans"
+        portraits={
+            army={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+            }
+        }
+        navy_leader={
+            traits = { seawolf }
+            skill = 4
+            legacy_id=-1
+        }
+    }
+}

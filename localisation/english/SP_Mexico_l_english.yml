@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+MEX_bolshevist_party:0 "PCM"
+MEX_bolshevist_party_long:0 "Partido Comunista Mexicano"
+MEX_spartacist_party:0 "PCM"
+MEX_spartacist_party_long:0 "Partido Comunista Mexicano"
+MEX_revolutionary_socialist_party:0 "PNR"
+MEX_revolutionary_socialist_party_long:0 "Partido Nacional Revolucionario"
+MEX_reformist_socialist_party:0 "PNR"
+MEX_reformist_socialist_party_long:0 "Partido Nacional Revolucionario"
+MEX_social_democrat_party:0 "PNR"
+MEX_social_democrat_party_long:0 "Partido Nacional Revolucionario"
+MEX_social_liberal_party:0 "PNA"
+MEX_social_liberal_party_long:0 "Partido Nacional Antirreeleccionista"
+MEX_liberal_conservative_party:0 "PNA"
+MEX_liberal_conservative_party_long:0 "Partido Nacional Antirreeleccionista"
+MEX_social_conservative_party:0 "Conservadores"
+MEX_social_conservative_party_long:0 "Conservadores"
+MEX_authoritarian_conservative_party:0 "Militar"
+MEX_authoritarian_conservative_party_long:0 "Militar"
+MEX_right_wing_populist_party:0 "PNM"
+MEX_right_wing_populist_party_long:0 "Partido Nacionalista Mexicano"
+MEX_national_syndicalist_party:0 "UNS"
+MEX_national_syndicalist_party_long:0 "Unión Nacional Sinarquista"
+MEX_national_corporatist_party:0 "PCN"
+MEX_national_corporatist_party_long:0 "Partido Católica Nacional"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

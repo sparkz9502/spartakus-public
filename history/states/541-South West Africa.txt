@@ -1,0 +1,29 @@
+
+state={
+	id=541
+	name="STATE_541"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			14780 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			14768 3 
+		}
+
+	}
+
+	provinces={
+		2207 4879 7605 7770 14755 14758 14768 14780 14782 14783 14786 14792 14795 
+	}
+	manpower=177700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

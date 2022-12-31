@@ -1,0 +1,48 @@
+﻿capital = 329
+
+set_oob = "TAN"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+}
+
+add_ideas = {
+	recruitment_1825
+	governance_coun
+	trade_aut
+	economy_undev
+	mobilization_1
+}
+
+set_politics = {	
+	ruling_party = bolshevist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 77
+    spartacist = 2
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 2
+    social_liberal = 1
+    liberal_conservative = 1
+    social_conservative = 8
+    authoritarian_conservative = 0
+    right_wing_populist = 7
+    national_syndicalist = 2
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Mongush Nimachap"
+	desc = "POLITICS_MONGUSH_NIMACHAP_DESC"
+	picture = "Portrait_Tuva_Mongush_Nimachap.tga"
+	expire = "1965.1.1"
+	ideology = bolshevist_subtype
+	traits = {}
+}

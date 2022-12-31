@@ -1,0 +1,26 @@
+
+state={
+	id=1278
+	name="STATE_1278"
+	resources={
+		coal=3.000
+		copper=5.000
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		1688 5217 14733 14741 14756 14760 14762 14763 14764 14766 14771 14772 14776 
+	}
+	manpower=1217300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

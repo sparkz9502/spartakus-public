@@ -1,0 +1,21 @@
+
+state={
+	id=986
+	name="STATE_986"
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		14186 
+	}
+	manpower=200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

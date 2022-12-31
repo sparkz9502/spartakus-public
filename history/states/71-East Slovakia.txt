@@ -1,0 +1,32 @@
+
+state={
+	id=71
+	name="STATE_71"
+	
+	resources={
+		iron=23
+		copper=1
+	}
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 2
+
+		}
+		#add_core_of = SLO
+		add_core_of = HUN
+		add_claim_by = CZE
+		victory_points = {
+			3550 5
+		}
+
+	}
+
+	provinces={
+		3550 3581 6586 6604 
+	}
+	manpower=540400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

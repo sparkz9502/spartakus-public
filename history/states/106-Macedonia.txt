@@ -1,0 +1,55 @@
+
+state={
+	id=106
+	name="STATE_106"
+	resources={
+		raremetals=5
+	}
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 1
+			
+			907 = {
+				bunker = 2
+			}
+		}
+		victory_points = {
+			11856 3
+		}
+		victory_points = {
+			907 1
+		}
+		victory_points = {
+			11832 1
+		}
+		victory_points = {
+			974 1
+		}
+		victory_points = {
+			3865 3
+		}
+		# 106 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 11832
+					# id = 3865
+					# id = 3833
+				# }
+			# }
+		# }
+		add_core_of = SER
+		add_core_of = BUL
+		add_core_of = MKE
+
+	}
+
+	provinces={
+		907 974 3833 3865 6886 11832 11856 13634 
+	}
+	manpower=831370
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

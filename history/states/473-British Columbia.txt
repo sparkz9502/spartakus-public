@@ -1,0 +1,47 @@
+
+state={
+	id=473
+	name="STATE_473"
+	
+	resources={
+		coal=2
+		copper=31
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			4428 = {
+				naval_base = 3
+
+			}
+			1869 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			1408 10 
+		}
+		victory_points = {
+			1323 1 
+		}
+		victory_points = {
+			7853 1 
+		}
+
+	}
+
+	provinces={
+		1323 1393 1408 1737 1799 1858 1869 4343 4385 4413 4428 4870 4877 7677 7753 7761 7820 7853 10228 10258 10273 10548 10644 12231 12571 12578 
+	}
+	manpower=564300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

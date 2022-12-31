@@ -1,0 +1,23 @@
+
+state={
+	id=1421
+	name="STATE_1421"
+	provinces={
+		1811 1871 4222 4555 7578 7648 10363 12348 12554 
+	}
+	history={
+		owner = FNG
+		add_core_of = FNG
+		victory_points = {
+			12554 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=121900
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

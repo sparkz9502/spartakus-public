@@ -1,0 +1,34 @@
+
+state={
+	id=797
+	name="STATE_797"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			air_base = 10
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 2
+			fuel_silo = 1
+			9671 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9671 20
+		}
+
+	}
+
+	provinces={
+		677 3677 3678 6681 9637 9671 11658 
+	}
+	manpower=1578000
+	buildings_max_level_factor=1.000
+	state_category=expanding_city
+}

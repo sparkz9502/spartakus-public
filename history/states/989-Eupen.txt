@@ -1,0 +1,19 @@
+state={
+	id=989
+	name="STATE_989"
+	provinces={
+		3488 
+	}
+	history={
+		owner = BEL
+		add_core_of = BEL
+		add_core_of = RHI
+		add_claim_by = GER
+		buildings={
+			infrastructure = 2
+		}
+	}
+	manpower=64000
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

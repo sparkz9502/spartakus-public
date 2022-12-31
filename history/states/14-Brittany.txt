@@ -1,0 +1,50 @@
+
+state={
+	id=14
+	name="STATE_14"
+	
+	resources={
+		iron=9
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			11465 12 
+		}
+		victory_points = {
+			9495 3
+		}
+		victory_points = {
+			15622 8
+		}
+		victory_points = {
+			6536 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			fuel_silo = 1
+			dockyard = 3
+			15622 = {
+				naval_base = 6
+
+			}
+			6536 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		527 6536 6548 9495 9510 11465 11508 11616 15622 
+	}
+	manpower=1752200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

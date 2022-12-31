@@ -1,0 +1,6 @@
+debug_decisions = {
+	icon = GFX_generic_political_actions
+	visible = {
+		is_debug = yes
+	}
+}

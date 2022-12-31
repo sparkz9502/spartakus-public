@@ -1,0 +1,34 @@
+
+state={
+	id=746
+	name="STATE_746"
+	resources={
+	}
+
+	history={
+		owner = INC
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = VNA
+		victory_points = {
+			4075 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			4119 = {
+				naval_base = 1
+
+			}
+		}
+
+	}
+
+	provinces={
+		1185 4075 4119 12048 
+	}
+	manpower=4906200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=194
+	name="STATE_194"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			6232 1
+		}
+		add_core_of = SOV
+		##add_core_of = UKR
+
+	}
+
+	provinces={
+		215 3203 3507 6232 6556 9249 9554 11453 
+	}
+	manpower=671200
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

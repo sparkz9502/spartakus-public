@@ -1,0 +1,20 @@
+
+state={
+	id=1488
+	name="STATE_1488"
+	provinces={
+		2091 5048 10144 
+	}
+	history={
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=3393900
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

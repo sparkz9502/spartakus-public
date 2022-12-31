@@ -1,0 +1,30 @@
+
+state={
+	id=754
+	name="STATE_754"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		add_claim_by = SAU
+		victory_points = {
+			10835 5 
+		}
+		victory_points = {
+			12101 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1033 2027 2033 2095 4115 8092 10835 12101 13706 14933 
+	}
+	manpower=841000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

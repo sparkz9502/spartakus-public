@@ -1,0 +1,27 @@
+
+state={
+	id=1011
+	name="STATE_1011"
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			1319 10 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1319 4192 5072 7446 7606 8023 12841 14040 
+	}
+	manpower=5174900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

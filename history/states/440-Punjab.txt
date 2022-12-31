@@ -1,0 +1,35 @@
+
+state={
+	id=440
+	name="STATE_440"
+	resources={
+		copper=2.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = WTH
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			10139 5 
+		}
+		victory_points = {
+			10843 2 
+		}
+		victory_points = {
+			12876 2 
+		}
+
+	}
+
+	provinces={
+		1107 7903 8007 10139 10843 10898 12792 12876 15070 15096 15424 15428 
+	}
+	manpower=1360000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

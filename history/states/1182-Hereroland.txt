@@ -1,0 +1,24 @@
+
+state={
+	id=1182
+	name="STATE_1182"
+
+	history={
+		owner = AST
+		add_core_of = AST
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			10455 2 
+		}
+	}
+
+	provinces={
+		1667 2114 2146 2163 4453 4478 4500 4658 4836 5134 5161 7471 7533 7649 8234 10427 10455 10500 10682 11019 12377 12968 
+	}
+	manpower=46730
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

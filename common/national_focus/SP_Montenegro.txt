@@ -1,0 +1,156 @@
+###########################
+# Montenegro Focus Tree
+# By Sybil
+###########################
+
+focus_tree = {
+	id = SP_Montenegro
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = MNT
+		}
+	}
+	default = no
+	
+	focus = {
+		id = WIP
+		icon = GFX_
+		cost = 0
+		available = {
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 1
+
+	}
+	
+	#focus = {
+		id = MNT_Import_Western_Goods
+		icon = GFX_goal_liberty
+		cost = 7.00
+		completion_reward = {
+		}
+		x = 3
+		y = 1
+
+	}
+	
+	focus = {
+		id = MNT_Modernize_Agriculture
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Import_Western_Goods
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 2
+
+	}
+	
+	focus = {
+		id = MNT_Mountaineer_Tradition
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Import_Western_Goods
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 2
+
+	}
+	
+	focus = {
+		id = MNT_Basic_Industries
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Import_Western_Goods
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 2
+
+	}
+	
+	focus = {
+		id = MNT_Green_Populism
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Modernize_Agriculture
+		}
+		prerequisite = {
+			focus = MNT_Basic_Industries
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = MNT_Adapted_Tactics
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Modernize_Agriculture
+		}
+		prerequisite = {
+			focus = MNT_Mountaineer_Tradition
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 3
+
+	}
+	
+	focus = {
+		id = MNT_Colonize_the_North
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Import_Western_Goods
+		}
+		prerequisite = {
+			focus = MNT_Mountaineer_Tradition	
+		}
+		prerequisite = {
+			focus = MNT_Basic_Industries	
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 3
+
+	}
+	
+	focus = {
+		id = MNT_Fortify_Sandzak
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = MNT_Adapted_Tactics
+		}
+		prerequisite = {
+			focus = MNT_Green_Populism	
+		}
+		prerequisite = {
+			focus = MNT_Colonize_the_North	
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 4
+
+	}
+}

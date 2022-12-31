@@ -1,0 +1,35 @@
+
+state={
+	id=773
+	name="STATE_773"
+
+	history={
+		owner = OTT
+		victory_points = {
+			9833 20 
+		}
+		victory_points = {
+			15500 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			air_base = 4
+			9833 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = OTT
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		9833 15323 
+	}
+	manpower=1151148
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

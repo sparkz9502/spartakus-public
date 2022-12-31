@@ -1,0 +1,552 @@
+spriteTypes = {
+
+################################################################################################################################################################################################
+### SER
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_SER_Djuro_Djakovic_hog_bol"
+	texturefile = "gfx/interface/ministers/SER/SER_Djuro_Djakovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Rade_Koncar_hog_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Rade_Koncar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Sima_Markovic_hog_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Sima_Markovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Sinisa_Stankovic_hog_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Sinisa_Stankovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragisa_Lapcevic_hog_dso"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragisa_Lapcevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Ljubomir_Davidovic_hog_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Ljubomir_Davidovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Grol_hog_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Grol.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milos_Trifunovic_hog_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milos_Trifunovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Nikola_Uzunovic_hog_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Nikola_Uzunovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bogoljub_Jevtic_hog_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Bogoljub_Jevtic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragisa_Cvetkovic_hog_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragisa_Cvetkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dusan_Simovic_hog_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Dusan_Simovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Acimovic_hog_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Acimovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Patriarch_Varnava_hog_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Patriarch_Varnava.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Zivkovic_hog_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Zivkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Nedic_hog_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Nedic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Nedic_hog_nsy"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Nedic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dimitrije_Ljotic_hog_nsy"
+	texturefile = "gfx/interface/ministers/SER/SER_Dimitrije_Ljotic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Pribicevic_hog_ncp"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Pribicevic.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_SER_Mosa_Pijade_for_bol"
+	texturefile = "gfx/interface/ministers/SER/SER_Mosa_Pijade.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Kosta_Novakovic_for_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Kosta_Novakovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Vladimir_Dedijer_for_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Vladimir_Dedijer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Stanoje_Simic_for_rev"
+	texturefile = "gfx/interface/ministers/SER/SER_Stanoje_Simic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milos_Moskovljevic_for_sde"
+	texturefile = "gfx/interface/ministers/SER/SER_Milos_Moskovljevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Zivko_Topalovic_for_sde"
+	texturefile = "gfx/interface/ministers/SER/SER_Zivko_Topalovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Grol_for_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Grol.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Svetozar_Pribicevic_for_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Svetozar_Pribicevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bozidar_Puric_for_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Bozidar_Puric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Vojislav_Marinkovic_for_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Vojislav_Marinkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Jovan_Jovanovic_Pizon_for_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Jovan_Jovanovic_Pizon.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Gavrilovic_for_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Gavrilovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Momcilo_Nincic_for_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Momcilo_Nincic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Ninko_Peric_for_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Ninko_Peric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Aleksandar_Cincar_Markovic_for_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Aleksandar_Cincar_Markovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bogoljub_Jevtic_for_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Bogoljub_Jevtic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Miroslav_Spalajkovic_for_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Miroslav_Spalajkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dimitrije_Ljotic_for_nsy"
+	texturefile = "gfx/interface/ministers/SER/SER_Dimitrije_Ljotic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Velibor_Jonic_for_nsy"
+	texturefile = "gfx/interface/ministers/SER/SER_Velibor_Jonic.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_SER_Mosa_Pijade_eco_bol"
+	texturefile = "gfx/interface/ministers/SER/SER_Mosa_Pijade.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Jovan_Veselinov_eco_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Jovan_Veselinov.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milentije_Popovic_eco_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Milentije_Popovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Pavle_Savic_eco_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Pavle_Savic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Sreten_Zujovic_eco_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Sreten_Zujovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragisa_Lapcevic_eco_sde"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragisa_Lapcevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Kosta_Kumanudi_eco_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Kosta_Kumanudi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milorad_Draskovic_eco_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Milorad_Draskovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milutin_Milankovic_eco_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milutin_Milankovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Vojislav_Marinkovic_eco_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Vojislav_Marinkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bogdan_Markovic_eco_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Bogdan_Markovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Momcilo_Nincic_eco_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Momcilo_Nincic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Ninko_Peric_eco_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Ninko_Peric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragisa_Cvetkovic_eco_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragisa_Cvetkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Srskic_eco_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Srskic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Stojadinovic_eco_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Stojadinovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Nikola_Uzunovic_eco_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Nikola_Uzunovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Svetislav_Milosavljevic_eco_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Svetislav_Milosavljevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Mihailo_Olcan_eco_nsy"
+	texturefile = "gfx/interface/ministers/SER/SER_Mihailo_Olcan.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_SER_Aleksandar_Rankovic_sec_bol"
+	texturefile = "gfx/interface/ministers/SER/SER_Aleksandar_Rankovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Slobodan_Penezic_sec_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Slobodan_Penezic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Trisa_Kaclerovic_sec_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Trisa_Kaclerovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragoljub_Jovanovic_sec_sde"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragoljub_Jovanovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Ljubomir_Davidovic_sec_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Ljubomir_Davidovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milorad_Draskovic_sec_sli"
+	texturefile = "gfx/interface/ministers/SER/SER_Milorad_Draskovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Mihailo_Konstantinovic_sec_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Mihailo_Konstantinovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bozidar_Maksimovic_sec_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Bozidar_Maksimovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Gavrilovic_sec_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Gavrilovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milos_Trifunovic_sec_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milos_Trifunovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragisa_Cvetkovic_sec_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragisa_Cvetkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Srskic_sec_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Srskic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Acimovic_sec_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Acimovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Svetozar_Vujkovic_sec_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Svetozar_Vujkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Tanasije_Dinic_sec_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Tanasije_Dinic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dimitrije_Ljotic_sec_nsy"
+	texturefile = "gfx/interface/ministers/SER/SER_Dimitrije_Ljotic.tga"
+}
+
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_SER_Aleksandar_Rankovic_def_spa"
+	texturefile = "gfx/interface/ministers/SER/SER_Aleksandar_Rankovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Mustafa_Golubic_def_bol"
+	texturefile = "gfx/interface/ministers/SER/SER_Mustafa_Golubic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Mustafa_Golubic_sec_bol"
+	texturefile = "gfx/interface/ministers/SER/SER_Mustafa_Golubic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bozidar_Puric_def_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Bozidar_Puric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dusan_Popov_def_lco"
+	texturefile = "gfx/interface/ministers/SER/SER_Dusan_Popov.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Momcilo_Nincic_def_sco"
+	texturefile = "gfx/interface/ministers/SER/SER_Momcilo_Nincic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Borivoje_Josimovic_def_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Borivoje_Josimovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Aracic_def_aco"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Aracic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bosko_Becarevic_def_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Bosko_Becarevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragomir_Jovanovic_def_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragomir_Jovanovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Zivkovic_def_rwp"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Zivkovic.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_SER_Arso_Jovanovic_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Arso_Jovanovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Koca_Popovic_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Koca_Popovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Draza_Mihailovic_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Draza_Mihailovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Ljubomir_Maric_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Ljubomir_Maric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Kosic_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Kosic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Pesic_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Pesic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Nedic_cos"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Nedic.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_SER_Koca_Popovic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Koca_Popovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Sreten_Zujovic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Sreten_Zujovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Bogoljub_Ilic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Bogoljub_Ilic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dragutin_Gavrilovic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Dragutin_Gavrilovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Draza_Mihailovic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Draza_Mihailovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Ljubomir_Maric_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Ljubomir_Maric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milutin_Nedic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Milutin_Nedic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milan_Nedic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Milan_Nedic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Bojovic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Bojovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Petar_Zivkovic_carm"
+	texturefile = "gfx/interface/ministers/SER/SER_Petar_Zivkovic.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_SER_Zarko_Zrenjanin_cnav"
+	texturefile = "gfx/interface/ministers/SER/SER_Zarko_Zrenjanin.tga"
+}
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_SER_Mileta_Protic_cair"
+	texturefile = "gfx/interface/ministers/SER/SER_Mileta_Protic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Borivoje_Mirkovic_cair"
+	texturefile = "gfx/interface/ministers/SER/SER_Borivoje_Mirkovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Dusan_Simovic_cair"
+	texturefile = "gfx/interface/ministers/SER/SER_Dusan_Simovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SER_Milojko_Jankovic_cair"
+	texturefile = "gfx/interface/ministers/SER/SER_Milojko_Jankovic.tga"
+}
+
+}

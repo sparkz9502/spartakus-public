@@ -1,0 +1,120 @@
+spriteTypes = {
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_KHO_Soleiman_Eskandari_hog_ref"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Soleiman_Eskandari.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Hassan_Taqizadeh_hog_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Hassan_Taqizadeh.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad_Taqi_Pessian_hog_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad_Taqi_Pessian.tga"
+}
+
+#Minister Without Portfolio
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad_Khorasani_mwp_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad_Khorasani.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_KHO_Mirza_Abdolhossein_Sheibani_for_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mirza_Abdolhossein_Sheibani.tga"
+}
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_KHO_Iraj_Mirza_eco_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Iraj_Mirza.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Leon_Dubois_eco_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Leon_Dubois.tga"
+}
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_KHO_Noureddin_Alamouti_sec_sde"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Noureddin_Alamouti.tga"
+}
+
+#Education Minister
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad_Gonabadi_edu_sde"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad_Gonabadi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Ahmad_Bahar_edu_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Ahmad_Bahar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad-Taqi_Bahar_edu_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad-Taqi_Bahar.tga"
+}
+
+#Agriculture Minister
+spriteType = {
+	name = "GFX_idea_KHO_Leon_Dubois_agr_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Leon_Dubois.tga"
+}
+
+#Transport Minister
+spriteType = {
+	name = "GFX_idea_KHO_Iraj_Mirza_tra_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Iraj_Mirza.tga"
+}
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad_Taqi_Pessian_def_sli"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad_Taqi_Pessian.tga"
+}
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_KHO_Ismail_Khan_Bahador_cos"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Ismail_Khan_Bahador.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad_Taqi_Pessian_cos"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad_Taqi_Pessian.tga"
+}
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_KHO_Ahmad_Amir-Ahmadi_carm"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Ahmad_Amir-Ahmadi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Mahmoud_Khan_Nowzari_carm"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mahmoud_Khan_Nowzari.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_KHO_Mahmud_Puladeen_carm"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mahmud_Puladeen.tga"
+}
+
+#Chief of Navy
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_KHO_Mohammad_Taqi_Pessian_cair"
+	texturefile = "gfx/interface/ministers/KHO/KHO_Mohammad_Taqi_Pessian.tga"
+}
+
+#Theorist
+
+}

@@ -1,0 +1,41 @@
+spriteTypes = {
+
+		#### Leader trait icons ####
+
+	spriteType = {
+		name = "GFX_trait_trait_CZE_legionnaire"
+		texturefile = "gfx/interface/traits/trait_CZE_legionnaire.dds"
+	}	
+	spriteType = {
+		name = "GFX_trait_trait_CHI_communist_sympathizer"
+		texturefile = "gfx/interface/traits/trait_CHI_communist_sympathizer.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_CHI_2ndkmc"
+		texturefile = "gfx/interface/traits/trait_KMC_2kmc.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_CHI_rebellious"
+		texturefile = "gfx/interface/traits/trait_KMC_rebellious.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_CHI_ma_clique"
+		texturefile = "gfx/interface/traits/trait_KMC_Ma_Clique.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_CHI_zhensongjun"
+		texturefile = "gfx/interface/traits/trait_KMC_Zhensongjun.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_CHI_nwa"
+		texturefile = "gfx/interface/traits/trait_KMC_nwa.dds"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_GRE_venizelist"
+		texturefile = "gfx/interface/traits/trait_GRE_venizelist_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_trait_trait_GRE_monarchist"
+		texturefile = "gfx/interface/traits/trait_GRE_monarchist_gfx.tga"
+	}
+}

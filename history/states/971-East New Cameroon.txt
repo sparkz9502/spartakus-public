@@ -1,0 +1,25 @@
+
+state={
+	id=971
+	name="STATE_971"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			12830 1 
+		}
+
+	}
+
+	provinces={
+		4022 4970 11012 12830 13599 14440 14483 15168 15169 
+	}
+	manpower=763100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

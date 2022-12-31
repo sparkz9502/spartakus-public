@@ -1,0 +1,29 @@
+ideas = {
+
+###################
+# Australia Ideas #
+###################
+
+	country = {
+	
+		NZL_empire = {
+			picture = stiff_upper_lip
+		}
+		NZL_depression = {
+			modifier = {
+				war_support_factor = -0.25
+				consumer_goods_factor = 0.30
+				production_speed_buildings_factor = -0.35
+				industrial_capacity_factory = -0.35
+			}
+			picture = great_depression
+		}
+		NZL_japaids = {
+			modifier = {
+				consumer_goods_factor = -0.08
+				production_speed_buildings_factor = 0.15
+			}
+			picture = japan_money
+		}
+	}
+}

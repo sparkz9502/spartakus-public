@@ -1,0 +1,817 @@
+on_actions = {
+	on_startup = {
+		effect = {
+			#Coalition Setup
+			every_country = {
+				SP_coalition_pop_eval = yes
+				SP_dynamic_modifier_eval = yes
+				add_dynamic_modifier = {
+					modifier = SP_ruling_party_dynamic_modifier
+				}
+			}
+			#Opinion Modifiers Setup
+			every_country = { 
+				country_event = sp.political.30 
+			}
+			#Embargo Setup
+			every_country = { 
+				SP_soc_cap_embargo_effect = yes
+			}
+			#Remove Autocores
+			USA = {
+				country_event = sp.political.10
+			}	
+			#Intro Event - disabled for now
+			#every_country = {
+			#	limit = { is_ai = no }
+			#	country_event = sp.political.1
+			#}
+			#Resource Concessions
+			KHU = {
+				give_resource_rights = { receiver = ENG state = 413 }
+				give_resource_rights = { receiver = ENG state = 421 }
+				give_resource_rights = { receiver = ENG state = 1243 }
+			}
+		}
+	}
+	
+	on_weekly = {
+		effect = {
+			every_country = {
+				#Coalition Weekly Reevaluation
+				SP_coalition_pop_eval = yes
+				SP_dynamic_modifier_eval = yes
+				if = {
+					limit = {
+						NOT = {
+							has_dynamic_modifier = { modifier = SP_ruling_party_dynamic_modifier }
+						}
+					}
+					add_dynamic_modifier = {
+						modifier = SP_ruling_party_dynamic_modifier
+					}
+				}
+			}
+			
+			every_country = {	
+				#Check for Coal Shortage
+				if = {
+					limit = {
+						check_variable = {
+							var = resource@coal
+							value = 0
+							compare = less_than
+						}
+						NOT = {
+							has_idea = SP_coal_shortage
+						}
+					}
+					country_event = sp.political.40
+				}
+				if = {
+					limit = {
+						check_variable = {
+							var = resource@coal
+							value = 0
+							compare = greater_than_or_equals
+						}
+						has_idea = SP_coal_shortage
+					}
+					country_event = sp.political.41
+				}
+			}
+			
+			if = {
+				limit = { 
+					has_intelligence_agency = yes
+					is_ai = yes
+				}
+				update_operation_ai = yes
+			}
+		}
+	}
+	
+	on_monthly = {
+		effect = {
+			#Embargo Reevaluation
+			every_country = {
+				SP_soc_cap_embargo_effect = yes
+			}
+		}
+	}
+
+	#ROOT is subject FROM is previous overlord
+	on_subject_free = {
+		effect = {
+			log = "[GetDateText] [Root.GetName]: on_subject_free FORMER OVERLORD: [From.GetName]"
+			clr_country_flag = SP_can_raise_autonomy_level
+			clr_country_flag = SP_can_lower_autonomy_level
+			clr_country_flag = SP_can_be_annexed
+			clr_country_flag = SP_can_become_free
+		}
+	}
+
+	#ROOT is subject FROM is overlord
+	on_subject_autonomy_level_change = {
+		
+		effect = {
+			log = "[GetDateText] [Root.GetName]: on_subject_autonomy_level_change OVERLORD: [From.GetName]"
+			clr_country_flag = SP_can_raise_autonomy_level
+			clr_country_flag = SP_can_lower_autonomy_level
+		}
+	}
+
+	#ROOT is subject FROM is overlord
+	on_subject_annexed = {
+		effect = {
+			log = "[GetDateText] [Root.GetName]: on_subject_annexed OVERLORD: [From.GetName]"
+			clr_country_flag = SP_can_raise_autonomy_level
+			clr_country_flag = SP_can_lower_autonomy_level
+			clr_country_flag = SP_can_be_annexed
+			clr_country_flag = SP_can_become_free
+		}
+	}
+
+	#ROOT is winner #FROM gets annexed - For civil wars on_civil_war_end is also fired
+	on_annex = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has annexed [From.GetName]"
+			FROM = {
+				clr_country_flag = SP_can_raise_autonomy_level
+				clr_country_flag = SP_can_lower_autonomy_level
+				clr_country_flag = SP_can_be_annexed
+				clr_country_flag = SP_can_become_free
+			}
+			
+			# Burmese Revolt End - Remove AI modifier so they can call allies to war again
+			if = {
+				limit = {
+					OR = {
+						tag = ENG
+						tag = RAJ
+						is_in_faction_with = ENG
+					}
+					FROM = { tag = BMR }
+				}
+				ENG = { remove_ideas = RAJ_BMR_revolt }
+				RAJ = { remove_ideas = RAJ_BMR_revolt }
+			}
+		}
+	}
+
+	#FROM is war target
+	on_declare_war = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has declared war on [From.GetName]"
+			FROM = { set_country_flag = had_war }
+			ROOT = { set_country_flag = had_war }
+		}
+	}
+	
+	#ROOT is winner #FROM is loser
+	on_peaceconference_ended = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] (ROOT) on_peaceconference_ended [From.GetName] (FROM)"
+		}
+	}
+
+	# ROOT is capitulated country, FROM is winner
+	on_capitulation = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has capitulated to [From.GetName]"
+			news_event = { id = country_capitulated.0 days = 0 }
+			
+			# Portuguese Civil War
+			### Republican Victory
+			if = {
+				limit = {
+					tag = PRM
+					FROM = { tag = POR }
+					NOT = { has_global_flag = POR_civil_war_over }
+				}
+				FROM = {
+					country_event = peace.1
+				}
+			}
+			### Monarchist Victory
+			if = {
+				limit = {
+					tag = POR
+					FROM = { tag = PRM }
+					NOT = { has_global_flag = POR_civil_war_over }
+				}
+				FROM = {
+					country_event = peace.1
+				}
+			}
+			# Italian Civil War
+			### ITA Defeated
+			if = {
+				limit = {
+					tag = ITA
+					FROM = { 
+						OR = {
+							tag = SRI
+							tag = VNZ
+							tag = LAB
+						}
+					}
+					has_global_flag = ITA_civil_war_ongoing
+				}
+				ROOT = {
+					country_event = peace.100
+				}
+			}
+			if = {
+				limit = {
+					tag = SRI
+					FROM = { 
+						OR = {
+							tag = ITA
+							tag = ILN
+							tag = VNZ
+						}
+					}
+					has_global_flag = ITA_civil_war_ongoing
+				}
+				ROOT = {
+					country_event = peace.101
+				}
+			}
+			if = {
+				limit = {
+					tag = ILN
+					FROM = { 
+						OR = {
+							tag = SRI
+							tag = VNZ
+							tag = LAB
+						}
+					}
+					has_global_flag = ITA_civil_war_ongoing
+				}
+				ROOT = {
+					country_event = peace.102
+				}
+			}
+			if = {
+				limit = {
+					tag = VNZ
+					FROM = { 
+						OR = {
+							tag = ITA
+							tag = ILN
+							tag = SRI
+							tag = LAB
+						}
+					}
+					has_global_flag = ITA_civil_war_ongoing
+				}
+				ROOT = {
+					country_event = peace.103
+				}
+			}
+			if = {
+				limit = {
+					tag = LAB
+					FROM = { 
+						OR = {
+							tag = ITA
+							tag = ILN
+							tag = VNZ
+						}
+					}
+					has_global_flag = ITA_civil_war_ongoing
+				}
+				ROOT = {
+					country_event = peace.104
+				}
+			}
+			#Serbian Civil War
+			if = {
+				limit = {
+					tag = RSE
+					FROM = { 
+						tag = SER
+					}
+				}
+				FROM = {
+					country_event = peace.200
+				}
+			}
+			if = {
+				limit = {
+					tag = SER
+					FROM = { 
+						tag = RSE
+					}
+				}
+				FROM = {
+					country_event = peace.200
+				}
+			}
+			#Serbo-Montenegrin War
+			if = {
+				limit = {
+					tag = MNT
+					FROM = { 
+						is_in_faction_with = SER
+					}
+				}
+				ROOT = {
+					country_event = peace.210
+				}
+			}
+			#Burmese Revolt
+			if = {
+				limit = {
+					tag = BMR
+					FROM = { 
+						is_in_faction_with = ENG
+					}
+				}
+				ROOT = {
+					country_event = peace.300
+				}
+			}
+			#Great Revolutionary War
+			###France Capitulates
+			if = {
+				limit = {
+					tag = FRA
+					FROM = { 
+						is_in_faction_with = GER
+					}
+				}
+				ROOT = {
+					country_event = peace.400
+				}
+			}
+		}
+	}
+	
+	# ROOT is previously capitulated country
+	on_uncapitulation = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has uncapitulated"
+		}
+	}
+
+	on_leave_faction = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_leave_faction FROM = [From.GetName]"
+			FROM = {
+				add_opinion_modifier = {
+					modifier = faction_traitor
+					target = ROOT
+					days = 365
+				}
+
+				add_opinion_modifier = {
+					modifier = faction_traitor_trade
+					target = ROOT
+					days = 365
+				}
+			}
+		}
+	}
+	
+	# FROM = country giving access, ROOT = country asking for access
+	on_military_access = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has asked for military access to [From.GetName]"
+		}
+	}
+	
+	# FROM = country receiving access, ROOT = country offering access
+	on_offer_military_access = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has offered military access to [From.GetName]"
+		}
+	}
+	
+	# FROM = country being called, ROOT = country calling
+	on_call_allies = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] has called its ally [From.GetName] into its war"
+		}
+	}
+	
+	# FROM = country being joined, ROOT = country joining
+	on_join_allies = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is joining [From.GetName] in its war"
+			
+			# UK joining Great Burmese Revolt
+			if = {
+				limit = {
+					FROM = { tag = RAJ }
+					tag = ENG
+					has_offensive_war_with = BMR
+				}
+				add_political_power = -50
+				add_stability = -0.10
+				add_war_support = -0.10
+				activate_mission = ENG_defeat_BMR_mission
+			}
+		}
+	}
+	
+	# FROM = country receiving goods, ROOT = country sending goods
+	on_lend_lease = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is offering a lend lease to [From.GetName]"
+		}
+	}
+	
+	# FROM = country requesting goods, ROOT = country sending goods
+	on_incoming_lend_lease = {
+		effect = {
+			log = "[GetDateText] [From.GetName] has requested a lend lease from [From.GetName]"
+		}
+	}
+	
+	# FROM = country receiving volunteers, ROOT = country sending volunteers
+	on_send_volunteers = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is sending volunteers to [From.GetName]"
+		}
+	}
+	
+	# FROM = country to which they're sent, ROOT = sending country
+	on_send_expeditionary_force = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is sending an expeditionary force to [From.GetName]"
+		}
+	}
+	
+	# FROM = country from which the forces are returning, ROOT = country who sent them
+	on_return_expeditionary_forces = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is recalling its expeditionary force from [From.GetName]"
+		}
+	}
+	
+	# FROM = country requesting them, ROOT = requesting country
+	on_request_expeditionary_forces = {
+		effect = {
+			log = "[GetDateText] [From.GetName] has requested expeditionary forces from [Root.GetName]"
+		}
+	}
+	
+	# FROM = country on whom the wargoal is being generated, ROOT = country generating wargoal
+	on_generate_wargoal = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is generating a wargoal on [From.GetName]"
+		}
+	}
+	
+	# FROM = country giving control of the state, ROOT = country asking for control of the state
+	on_ask_for_state_control = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is asking for state control from [From.GetName]"
+		}
+	}
+	
+	# FROM = country accepting control of the state, ROOT = country giving control of the state
+	on_give_state_control = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] is giving state control to [From.GetName]"
+		}
+	}
+
+	#FROM is state #ROOT is broken as hell
+	on_nuke_drop = {
+
+		effect = {
+			news_event = { id = nuke_dropped.2 days = 1}
+			news_event = { id = nuke_dropped.3 days = 1}
+			news_event = { id = nuke_dropped.4 days = 1}
+			news_event = { id = nuke_dropped.5 days = 1}
+			news_event = { id = nuke_dropped.6 days = 1}
+			news_event = { id = nuke_dropped.7 days = 1}
+			news_event = { id = nuke_dropped.8 days = 1}
+			news_event = { id = nuke_dropped.9 days = 1}
+			news_event = { id = nuke_dropped.10 days = 1}
+			news_event = { id = nuke_dropped.11 days = 1}
+			news_event = { id = nuke_dropped.12 days = 1}
+			news_event = { id = nuke_dropped.13 days = 1}
+			news_event = { id = nuke_dropped.14 days = 1}
+			news_event = { id = nuke_dropped.15 days = 1}
+		}
+		random_events = {
+			100 = nuke_dropped.0
+		}
+	}
+
+	# Ace pilots
+	# country, FROM = ace
+	on_ace_promoted = {
+		random_events = {
+			100 = ace_promoted.1
+			5 = ace_promoted.2
+		}
+	}
+
+	# country, FROM = ace, PREV = enemy ace
+	# This event fires twice, once for each ace.
+	on_aces_killed_each_other = {
+		random_events = {
+			100 = aces_killed_each_other.1
+		}
+	}
+
+	# country, FROM = our ace,
+	# PREV = enemy ace, has killed FROM
+	on_ace_killed_by_ace = {
+		random_events = {
+			100 = ace_killed_by_ace.1
+		}
+	}
+
+	# country, FROM = our ace,
+	# PREV = enemy ace, killed by FROM
+	on_ace_killed_other_ace = {
+		random_events = {
+			100 = ace_killed_other_ace.1
+		}
+	}
+
+	# country, FROM = ace
+	on_ace_killed = {
+		random_events = {
+			100 = ace_died.1
+		}
+	}
+	
+	#used when puppeting in a peace conference
+	#ROOT = nation being puppeted, FROM = overlord
+	on_puppet = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_puppet FROM = [From.GetName]"
+		}
+	}
+	
+	#used when puppeting through the occupied territories menu during peace time (or when releasing from non-core but owned territory, f.e. Britain releasing Egypt)
+	#ROOT = nation being released, FROM = overlord
+	on_release_as_puppet = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_release_as_puppet FROM = [From.GetName]"
+		}
+	}
+	
+	#ROOT is free nation FROM is releaser
+	on_release_as_free = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_release_as_free FROM = [From.GetName]"
+		}
+	}
+	
+	#FROM is country getting invited.
+	on_offer_join_faction = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_offer_join_faction FROM = [From.GetName]"
+		}
+	}
+	
+	#FROM is faction leader on join faction requests. THIS DOES NOT FIRE ON ADD_TO_FACTION EFFECT! USE ON_OFFER_JOIN_FACTION!
+	on_join_faction = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_join_faction FROM = [From.GetName]"
+		}
+	}
+	
+	# When a new faction is formed
+	on_faction_formed = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_faction_formed"
+		}
+	}
+	
+	on_government_change = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_government_change"
+		}
+	}
+	
+	on_ruling_party_change = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_ruling_party_change"
+			
+			country_event = sp.political.31
+		}
+	}
+	
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_state_control_changed OLD CONTROLLER: [From.GetName] STATE: [From.From.GetName]"
+			
+			# Great Burmese Revolt
+			if = { # Burmese take Tripura and Manipur
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 432 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese take Chittagong
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 434 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Dacca
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 430 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Calcutta
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 431 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Cuttack
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 1110 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Patna and Bihar
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 435 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Raipur
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 436 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Raigarh
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 426 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Jashpur
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 1113 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+			if = { # Burmese reach Agra
+				limit = {
+					RAJ = { is_ai = yes }
+				#	ENG = { is_ai = yes }
+					tag = BMR
+					FROM = { tag = RAJ }
+					FROM.FROM = { state = 815 }
+					ENG = {
+						NOT = { has_war_with = BMR }
+					}
+				}
+				ENG = { country_event = ukempire.10 }
+				log = "[GetDateText] [From.GetName] called UK to war against [Root.GetName] over [From.From.GetName]"
+			}
+		}
+	}
+
+	on_new_term_election = {
+		effect = {
+			if = {
+			}
+		}
+	}
+	
+	on_army_leader_daily = {
+	}
+	
+	# From is owner country
+	on_army_leader_won_combat = {
+		effect = {
+			if = {
+				limit = {
+					set_temp_variable = { chance = 0.001 }
+					set_temp_variable = { factor = 1.0 }
+					add_to_temp_variable = { factor = leader_modifier@wounded_chance_factor } 
+					multiply_temp_variable = { chance = factor }
+					check_variable = { random < chance }
+					NOT = { has_trait = wounded }
+				}
+				log = "[GetDateText] [Root.GetName] on_army_leader_won_combat [From.GetName]"
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+				unit_leader_event = { id = unit_leader.2 }
+			}
+		}
+	}
+	
+	# From is owner country
+	on_army_leader_lost_combat = {
+		effect = {
+			if = {
+				limit = {
+					set_temp_variable = { chance = 0.005 }
+					set_temp_variable = { factor = 1.0 }
+					add_to_temp_variable = { factor = leader_modifier@wounded_chance_factor } 
+					multiply_temp_variable = { chance = factor }
+					check_variable = { random < chance }
+					NOT = { has_trait = wounded }
+				}
+				log = "[GetDateText] [Root.GetName] on_army_leader_lost_combat [From.GetName]"
+				add_timed_unit_leader_trait = {
+					trait = wounded
+					days = 90
+				}
+				unit_leader_event = { id = unit_leader.2 }
+			}
+		}
+	}
+	
+	on_army_leader_promoted = {
+		effect = {
+			log = "[GetDateText] [Root.GetName] on_army_leader_promoted [From.GetName]"
+			add_timed_unit_leader_trait = {
+				trait = recently_promoted
+				days = 100
+			}
+		}
+	}
+}

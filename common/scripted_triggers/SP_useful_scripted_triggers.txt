@@ -1,0 +1,425 @@
+# most of this is an edited version of KR code so thank you bois for the wonderful triggers
+# checks whether the country in scope has the same government as ROOT (the country running the event/focus)
+has_same_government_as_ROOT = {
+	OR = {
+		AND = {
+			has_government = bolshevist
+			ROOT = { has_government = bolshevist }
+		}
+		AND = {
+			has_government = spartacist
+			ROOT = { has_government = spartacist }
+		}
+		AND = {
+			has_government = revolutionary_socialist
+			ROOT = { has_government = revolutionary_socialist }
+		}
+		AND = {
+			has_government = reformist_socialist
+			ROOT = { has_government = reformist_socialist }
+		}
+		AND = {
+			has_government = social_democrat
+			ROOT = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = social_liberal
+			ROOT = { has_government = social_liberal }
+		}
+		AND = {
+			has_government = liberal_conservative
+			ROOT = { has_government = liberal_conservative }
+		}
+		AND = {
+			has_government = social_conservative
+			ROOT = { has_government = social_conservative }
+		}
+		AND = {
+			has_government = authoritarian_conservative
+			ROOT = { has_government = authoritarian_conservative }
+		}
+		AND = {
+			has_government = right_wing_populist
+			ROOT = { has_government = right_wing_populist }
+		}
+		AND = {
+			has_government = national_syndicalist
+			ROOT = { has_government = national_syndicalist }
+		}
+		AND = {
+			has_government = national_corporatist
+			ROOT = { has_government = national_corporatist }
+		}
+	}
+}
+
+# checks whether the country in scope has the same government as PREV (the previous scope)
+has_same_government_as_PREV = {
+	OR = {
+		AND = {
+			has_government = bolshevist
+			PREV = { has_government = bolshevist }
+		}
+		AND = {
+			has_government = spartacist
+			PREV = { has_government = spartacist }
+		}
+		AND = {
+			has_government = revolutionary_socialist
+			PREV = { has_government = revolutionary_socialist }
+		}
+		AND = {
+			has_government = reformist_socialist
+			PREV = { has_government = reformist_socialist }
+		}
+		AND = {
+			has_government = social_democrat
+			PREV = { has_government = social_democrat }
+		}
+		AND = {
+			has_government = social_liberal
+			PREV = { has_government = social_liberal }
+		}
+		AND = {
+			has_government = liberal_conservative
+			PREV = { has_government = liberal_conservative }
+		}
+		AND = {
+			has_government = social_conservative
+			PREV = { has_government = social_conservative }
+		}
+		AND = {
+			has_government = authoritarian_conservative
+			PREV = { has_government = authoritarian_conservative }
+		}
+		AND = {
+			has_government = right_wing_populist
+			PREV = { has_government = right_wing_populist }
+		}
+		AND = {
+			has_government = national_syndicalist
+			PREV = { has_government = national_syndicalist }
+		}
+		AND = {
+			has_government = national_corporatist
+			PREV = { has_government = national_corporatist }
+		}
+	}
+}
+
+# checks for these two government types for the country in scope
+has_far_left_government = {
+	OR = {
+		has_government = bolshevist
+		has_government = spartacist
+	}
+}
+
+# checks for these two government types for the country in scope
+has_left_wing_government = {
+	OR = {
+		has_government = revolutionary_socialist
+		has_government = reformist_socialist
+	}
+}
+
+# checks for these four government types for the country in scope
+has_socialist_government = {
+	OR = {
+		has_government = bolshevist
+		has_government = spartacist
+		has_government = revolutionary_socialist
+		has_government = reformist_socialist
+	}
+}
+
+# checks for these two government types for the country in scope
+has_liberal_government = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+	}
+}
+
+# checks for these four government types for the country in scope
+has_elected_government = {
+	OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = liberal_conservative
+		has_government = social_conservative
+	}
+}
+
+# checks for these two government types for the country in scope
+has_conservative_government = {
+	OR = {
+		has_government = liberal_conservative
+		has_government = social_conservative
+	}
+}
+
+# checks for these four government types for the country in scope
+has_authoritarian_government = {
+	OR = {
+		has_government = authoritarian_conservative
+		has_government = right_wing_populist
+		has_government = national_syndicalist
+		has_government = national_corporatist
+	}
+}
+
+# checks for these two government types for the country in scope
+has_right_wing_government = {
+	OR = {
+		has_government = authoritarian_conservative
+		has_government = right_wing_populist
+	}
+}
+
+# checks for these two government types for the country in scope
+has_far_right_government = {
+	OR = {
+		has_government = national_syndicalist
+		has_government = national_corporatist
+	}
+}
+
+# checks whether the country in scope has the same government type as ROOT (the country running the event/focus)
+# note that it's not the exact same government - just the general type, as above
+same_government_type_as_ROOT = {
+	OR = {
+		AND = {
+			has_socialist_government = yes
+			ROOT = { has_socialist_government = yes }
+		}
+		AND = {
+			has_elected_government = yes
+			ROOT = { has_elected_government = yes }
+		}
+		AND = {
+			has_authoritarian_government = yes
+			ROOT = { has_authoritarian_government = yes }
+		}
+	}
+}
+
+# the following triggers will check if the country in scope is on a particular continent
+# note that these are continents as per the game - asia and middle-east are considered separate continents
+is_in_asia = {
+	capital_scope = {
+		is_on_continent = asia
+	}
+}
+
+is_in_europe = {
+	capital_scope = {
+		is_on_continent = europe
+	}
+}
+
+is_in_africa = {
+	capital_scope = {
+		is_on_continent = africa
+	}
+}
+
+is_in_north_america = {
+	capital_scope = {
+		is_on_continent = north_america
+	}
+}
+
+is_in_south_america = {
+	capital_scope = {
+		is_on_continent = south_america
+	}
+}
+
+is_in_middle_east = {
+	capital_scope = {
+		is_on_continent = middle_east
+	}
+}
+
+is_in_australia = {
+	capital_scope = {
+		is_on_continent = australia
+	}
+}
+
+# checks whether the country in scope is in the same continent as ROOT (the country running the event)
+same_continent_as_ROOT = {
+	OR = {
+		AND = {
+			is_in_asia = yes
+			ROOT = { is_in_asia = yes }
+		}
+		AND = {
+			is_in_europe = yes
+			ROOT = { is_in_europe = yes }
+		}
+		AND = {
+			is_in_africa = yes
+			ROOT = { is_in_africa = yes }
+		}
+		AND = {
+			is_in_north_america = yes
+			ROOT = { is_in_north_america = yes }
+		}
+		AND = {
+			is_in_south_america = yes
+			ROOT = { is_in_south_america = yes }
+		}
+		AND = {
+			is_in_middle_east = yes
+			ROOT = { is_in_middle_east = yes }
+		}
+		AND = {
+			is_in_australia = yes
+			ROOT = { is_in_australia = yes }
+		}
+	}
+}
+
+# checks whether the state in scope is on the same continent as ROOT (the country running the event)
+state_same_continent_as_ROOT = {
+	OR = {
+		AND = {
+			is_on_continent = asia
+			ROOT = { is_in_asia = yes }
+		}
+		AND = {
+			is_on_continent = europe
+			ROOT = { is_in_europe = yes }
+		}
+		AND = {
+			is_on_continent = africa
+			ROOT = { is_in_africa = yes }
+		}
+		AND = {
+			is_on_continent = north_america
+			ROOT = { is_in_north_america = yes }
+		}
+		AND = {
+			is_on_continent = south_america
+			ROOT = { is_in_south_america = yes }
+		}
+		AND = {
+			is_on_continent = middle_east
+			ROOT = { is_in_middle_east = yes }
+		}
+		AND = {
+			is_on_continent = australia
+			ROOT = { is_in_australia = yes }
+		}
+	}
+}
+
+### world news triggers
+
+regional_europe_news = {
+	OR = {
+		is_in_europe = yes
+		any_neighbor_country = { is_in_europe = yes }
+	}
+}
+
+regional_asia_news = {
+	OR = {
+		is_in_asia = yes
+		any_neighbor_country = { is_in_asia = yes }
+		is_in_australia = yes
+	}
+}
+
+regional_africa_news = {
+	OR = {
+		is_in_africa = yes
+		any_neighbor_country = { is_in_africa = yes }
+	}
+}
+
+regional_north_america_news = {
+	OR = {
+		is_in_north_america = yes
+		any_neighbor_country = { is_in_north_america = yes }
+	}
+}
+
+regional_south_america_news = {
+	OR = {
+		is_in_south_america = yes
+		any_neighbor_country = { is_in_south_america = yes }
+	}
+}
+
+regional_middle_east_news = {
+	OR = {
+		is_in_middle_east = yes
+		any_neighbor_country = { is_in_middle_east = yes }
+	}
+}
+
+# Can be used in any country scope (to ensure the country has no owned state which it doesn't control)
+controls_all_owned_states = {
+	NOT = {
+		any_owned_state = {
+			NOT = { is_controlled_by = PREV }
+		}
+	}
+}
+
+has_coalition = {
+	OR = {
+		AND = {
+			has_country_flag = coalition_bolshevist
+			NOT = { has_government = bolshevist }
+		}
+		AND = {
+			has_country_flag = coalition_spartacist
+			NOT = { has_government = spartacist }
+		}
+		AND = {
+			has_country_flag = coalition_revolutionary_socialist
+			NOT = { has_government = revolutionary_socialist }
+		}
+		AND = {
+			has_country_flag = coalition_reformist_socialist
+			NOT = { has_government = reformist_socialist }
+		}
+		AND = {
+			has_country_flag = coalition_social_democrat
+			NOT = { has_government = social_democrat }
+		}
+		AND = {
+			has_country_flag = coalition_social_liberal
+			NOT = { has_government = social_liberal }
+		}
+		AND = {
+			has_country_flag = coalition_liberal_conservative
+			NOT = { has_government = liberal_conservative }
+		}
+		AND = {
+			has_country_flag = coalition_social_conservative
+			NOT = { has_government = social_conservative }
+		}
+		AND = {
+			has_country_flag = coalition_authoritarian_conservative
+			NOT = { has_government = authoritarian_conservative }
+		}
+		AND = {
+			has_country_flag = coalition_right_wing_populist
+			NOT = { has_government = right_wing_populist }
+		}
+		AND = {
+			has_country_flag = coalition_national_syndicalist
+			NOT = { has_government = national_syndicalist }
+		}
+		AND = {
+			has_country_flag = coalition_national_corporatist
+			NOT = { has_government = national_corporatist }
+		}
+	}
+}
+

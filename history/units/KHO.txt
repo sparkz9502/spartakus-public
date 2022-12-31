@@ -1,0 +1,113 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Persian Gendarmerie"
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dastebandi Sarbaze Piyade"
+	division_names_group = PER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Dastebandi Savareh"
+	division_names_group = PER_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	support = {
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = {
+		name = "Mashad Regiment"
+		location = 5029
+		division_template = "Persian Gendarmerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Bojnord Regiment"
+		location = 7573
+		division_template = "Persian Gendarmerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Birjand Regiment"
+		location = 15025
+		division_template = "Persian Gendarmerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1
+	}
+}
+
+#############
+## AIR OOB ##
+#############
+
+air_wings = {
+	416 = {
+		fighter_equipment_0 =  {
+			owner = "KHO" 
+			amount = 5
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KHO"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "KHO"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

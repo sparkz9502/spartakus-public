@@ -1,0 +1,45 @@
+﻿l_english:
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Focuses
+
+# Ideas #
+VNA_national_resurrection:0 "La Nation Annamite"
+VNA_national_resurrection_desc:0 "Vietnam, we will call our name again/nWhat greater happiness than resurrection/nOur eyes and ears of our fathers before/nTo life, the two prideful sounds"
+VNA_unorganised:0 "Unorganised, Incoherent, Unstable"
+VNA_unorganised_desc:0 "Bamboo spears, barehand, wet gunpowder, but we will redeem our shame to the bloodline of the Race"
+# Traits
+
+### Parties ###
+
+INC_bolshevist_party:0 "ICP"
+INC_bolshevist_party_long:0 "Indochinese Communist Party (Parti Communiste Indochinois, Dang Cong san Dong Duong)"
+INC_spartacist_party:0 "ICP"
+INC_spartacist_party_long:0 "Indochinese Communist Party (Parti Communiste Indochinois, Dang Cong san Dong Duong)"
+INC_revolutionary_socialist_party:0 "ICP"
+INC_revolutionary_socialist_party_long:0 "Indochinese Communist Party (Parti Communiste Indochinois, Dang Cong san Dong Duong)"
+INC_reformist_socialist_party:0 "VNQDD"
+INC_reformist_socialist_party_long:0 "Vietnamese Nationalist Party (Parti Nationaliste Vietnamien, Viet Nam Quoc Dan Dang)"
+INC_social_democrat_party:0 "VNQDD"
+INC_social_democrat_party_long:0 "Vietnamese Nationalist Party (Parti Nationaliste Vietnamien, Viet Nam Quoc Dan Dang)"
+INC_social_liberal_party:0 "VNQDD"
+INC_social_liberal_party_long:0 "Vietnamese Nationalist Party (Parti Nationaliste Vietnamien, Viet Nam Quoc Dan Dang)"
+INC_liberal_conservative_party:0 "DLDD"
+INC_liberal_conservative_party_long:0 "Indochinese Constitutionalist Party (Parti Constitutionaliste Indochinois, Dang Lap hien Dong Duong)"
+INC_social_conservative_party:0 "DLDD"
+INC_social_conservative_party_long:0 "Indochinese Constitutionalist Party (Parti Constitutionaliste Indochinois, Dang Lap hien Dong Duong)"
+INC_authoritarian_conservative_party:0 "Administration Coloniale"
+INC_authoritarian_conservative_party_long:0 "Colonial Administration (Administration Coloniale)"
+INC_right_wing_populist_party:0 "-"
+INC_right_wing_populist_party_long:0 "-"
+INC_national_syndicalist_party:0 "-"
+INC_national_syndicalist_party_long:0 "-"
+INC_national_corporatist_party:0 "-"
+INC_national_corporatist_party_long:0 "-"
+
+# Opinion Modifiers
+

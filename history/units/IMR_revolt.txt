@@ -1,0 +1,34 @@
+﻿ division_template = {
+	name = "Cheta"	# Infantry Division	
+	division_names_group = BUL_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	support = { 
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## Army ########
+	division = {
+		name = "Cheta Militsiya 'Gorna Dzhumaya'"			
+		location = 6857
+		division_template = "Cheta"	
+		start_experience_factor = 0.6
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "Cheta Militsiya 'Protogerov'"	 			
+		location = 9818
+		division_template = "Cheta"	
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+}

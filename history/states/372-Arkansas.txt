@@ -1,0 +1,35 @@
+
+state={
+	id=372
+	name="STATE_372"
+	manpower = 1854500
+	
+	state_category = small_town
+	
+	resources={
+		coal=4
+		oil=25
+		bauxite=110
+	}
+
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			12489 1
+		}
+		victory_points = {
+			12778 1
+		}
+
+	}
+
+	provinces={
+		1503 1646 4444 4567 4597 4625 7485 7543 7586 10355 10477 12458 12489 12778
+	}
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=261
+	name="STATE_261"
+	resources={
+		coal=29
+		oil=7
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			fuel_silo = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			6855 5 
+		}
+		victory_points = {
+			4601 10 
+		}
+		victory_points = {
+			689 3 
+		}
+		victory_points = {
+			6874 3 
+		}
+		victory_points = {
+			11776 3 
+		}
+
+	}
+
+	provinces={
+		659 689 827 831 971 3685 3829 3853 3872 4442 4601 6855 6874 7528 9760 9775 9808 11760 11776 11791 11890 
+	}
+	manpower=4793800
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

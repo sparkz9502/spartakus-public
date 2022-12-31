@@ -1,0 +1,10 @@
+on_actions = {
+    on_startup = {
+        effect = {
+           SOV = {
+                news_event = { id = lenin_death.0 days = 20 }
+				country_event = { id = ussrflavor.1 days = 79 }
+            }
+        }
+    }
+}

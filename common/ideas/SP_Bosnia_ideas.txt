@@ -1,0 +1,29 @@
+###########################
+# By LWOI
+###########################
+
+ideas = {
+
+	country = {
+		BOS_Workers_Revolt = {
+			
+			allowed = {
+				always = no
+			}
+
+			removal_cost = -1
+
+			picture = trotskyite_plot_purged
+			
+			modifier = {
+                surrender_limit = 0.19
+				conscription = 0.005
+				war_support_factor = 0.1
+				army_morale_factor = 0.1
+				ai_focus_defense_factor = 0.5
+			}
+		}
+	}
+
+
+}

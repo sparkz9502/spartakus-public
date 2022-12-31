@@ -1,0 +1,63 @@
+### Yugoslav Ideas
+ideas = {
+
+    country = {
+	
+		##############
+        # Illiteracy
+        ##############
+
+        WB_Idea_Illiteracy_High = {
+			modifier = { 
+				stability_factor = -0.1 
+				political_power_gain = -0.1
+				research_speed_factor = -0.20   
+			}
+			removal_cost = -1
+			picture = Illiteracy_Idea
+		}
+		
+		WB_Idea_Illiteracy = {
+			modifier = { 
+				stability_factor = -0.05 
+				political_power_gain = -0.05
+				research_speed_factor = -0.10   
+			}
+			removal_cost = -1
+			picture = Illiteracy_Idea
+		}
+		
+		##############
+        # Ethnic Instability
+        ##############
+		
+		Bosniak_Dissent = {
+            picture = Bosniak_Dissent
+            modifier = {
+			political_power_gain = -0.1
+			stability_factor = -0.1
+			war_support_factor = -0.1
+            }
+        }
+		
+		Croat_Dissent = {
+            picture = Croat_Dissent
+            modifier = {
+			political_power_gain = -0.2
+			stability_factor = -0.2
+			war_support_factor = -0.2
+            }
+        }
+		
+		Serb_Dissent = {
+            picture = Serb_Dissent
+            modifier = {
+			political_power_gain = -0.2
+			stability_factor = -0.2
+			war_support_factor = -0.2
+            }
+        }
+		
+    }
+	
+}

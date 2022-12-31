@@ -1,0 +1,23 @@
+
+state={
+	id=1435
+	name="STATE_1435"
+	provinces={
+		12378 15579 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		victory_points = {
+			15579 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=650700
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

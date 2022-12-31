@@ -1,0 +1,62 @@
+﻿capital = 16
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.3
+set_war_support = 0.1
+
+add_ideas = {
+	### Laws ###
+	recruitment_disarmed
+	governance_bure
+	trade_aut
+	economy_ind
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = CFR_military_administration
+
+### Politics ###
+
+set_politics = {
+	ruling_party = spartacist
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 7
+	spartacist = 3
+	revolutionary_socialist = 2
+	reformist_socialist = 7
+	social_democrat = 5
+	social_liberal = 4
+	liberal_conservative = 6
+	social_conservative = 16
+	authoritarian_conservative = 6
+	right_wing_populist = 30
+	national_syndicalist = 4
+	national_corporatist = 10
+}
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_reformist_socialist
+
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_liberal_conservative
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist
+
+create_country_leader = {
+	name = "Military Administration"
+	desc = "POLITICS_CFR_MILITARY_ADMINISTRATION_DESC"
+	picture = "Portrait_Military_Administration.tga"
+	expire = "1965.1.1"
+	ideology = spartacist_subtype
+	traits = {
+	}
+}

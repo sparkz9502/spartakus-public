@@ -1,0 +1,872 @@
+spriteTypes = {
+
+	#Flavor
+	
+	spriteType = {
+		name = "GFX_shape_of_things_to_come"
+		texturefile = "gfx/event_pictures/shape_of_things_to_come.tga"
+	}
+	spriteType = {
+		name = "GFX_a_legionary_dream"
+		texturefile = "gfx/event_pictures/a_legionary_dream.tga"
+	}
+	
+	#Germany
+	
+	spriteType = {
+		name = "GFX_May_Revolution_Anniversary"
+		texturefile = "gfx/event_pictures/May_Revolution_Anniversary.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_communist_rally"
+		texturefile = "gfx/event_pictures/GER_communist_rally.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_maibrucke"
+		texturefile = "gfx/event_pictures/GER_maibrucke.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_Bruno_Apitz"
+		texturefile = "gfx/event_pictures/GER_Bruno_Apitz.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_Hannah_1934"
+		texturefile = "gfx/event_pictures/GER_Hannah_1934.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_WorkersMilitia"
+		texturefile = "gfx/event_pictures/GER_WorkersMilitia.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_VolksarmeeTank"
+		texturefile = "gfx/event_pictures/GER_VolksarmeeTank.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_VolksarmeeLate"
+		texturefile = "gfx/event_pictures/GER_VolksarmeeLate.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_VolksarmeeArty"
+		texturefile = "gfx/event_pictures/GER_VolksarmeeArty.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_ThalmannSpeech"
+		texturefile = "gfx/event_pictures/GER_ThalmannSpeech.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_RosaSpeech"
+		texturefile = "gfx/event_pictures/GER_RosaSpeech.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_RFBMarch"
+		texturefile = "gfx/event_pictures/GER_RFBMarch.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_KPDCongress"
+		texturefile = "gfx/event_pictures/GER_KPDCongress.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_Farm"
+		texturefile = "gfx/event_pictures/GER_Farm.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_EbertJr"
+		texturefile = "gfx/event_pictures/GER_EbertJr.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_GER_AFragileBalance"
+		texturefile = "gfx/event_pictures/GER_AFragileBalance.tga"
+	}
+	
+	#SGM
+	
+	spriteType = {
+		name = "GFX_WLSR_1932"
+		texturefile = "gfx/event_pictures/WLSR_1932.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_WLSR_Yugoslavia"
+		texturefile = "gfx/event_pictures/WLSR_Yugoslavia.tga"
+	}
+	
+		
+	#Serbia
+	
+	spriteType = {
+		name = "GFX_Vidovdan"
+		texturefile = "gfx/event_pictures/Vidovdan.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Zabavnik"
+		texturefile = "gfx/event_pictures/Zabavnik.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_SER_Cukarica_Church"
+		texturefile = "gfx/event_pictures/SER_Cukarica_Church.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_SER_Mayday"
+		texturefile = "gfx/event_pictures/SER_Mayday.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_SER_Communist_Terrorists"
+		texturefile = "gfx/event_pictures/SER_Communist_Terrorists.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Food_Riot"
+		texturefile = "gfx/event_pictures/Food_Riot.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_SER_Yugoslav_Fighters"
+		texturefile = "gfx/event_pictures/SER_Yugoslav_Fighters.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_SER_Yugoslav_Fighters_news"
+		texturefile = "gfx/event_pictures/SER_Yugoslav_Fighters_news.tga"
+	}
+	
+	#Illyria
+	
+	spriteType = {
+		name = "GFX_Tuzla_SANK"
+		texturefile = "gfx/event_pictures/Tuzla_SANK.tga"
+	}
+	
+	#Bosnia
+	
+	spriteType = {
+		name = "GFX_report_event_BOS_Bosniaflag"
+		texturefile = "gfx/event_pictures/BOS_Bosniaflag.tga"
+	}
+	
+	
+	
+	#Italy
+	
+	spriteType = {
+		name = "GFX_ITA_Report_Albona"
+		texturefile = "gfx/event_pictures/ITA_Report_Albona.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_News_Albona"
+		texturefile = "gfx/event_pictures/ITA_News_Albona.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_venetian_uprising"
+		texturefile = "gfx/event_pictures/ITA_venetian_uprising.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_socialist_uprising"
+		texturefile = "gfx/event_pictures/ITA_socialist_uprising.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_sardinian_separatists"
+		texturefile = "gfx/event_pictures/ITA_sardinian_separatists.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_royal_italian_army"
+		texturefile = "gfx/event_pictures/ITA_royal_italian_army.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_prison"
+		texturefile = "gfx/event_pictures/ITA_prison.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_pietro_badoglio"
+		texturefile = "gfx/event_pictures/ITA_pietro_badoglio.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_italian_social_republic"
+		texturefile = "gfx/event_pictures/ITA_italian_social_republic.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_italian_civil_war"
+		texturefile = "gfx/event_pictures/ITA_italian_civil_war.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_great_depression"
+		texturefile = "gfx/event_pictures/ITA_great_depression.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_flag"
+		texturefile = "gfx/event_pictures/ITA_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_fascist_uprising"
+		texturefile = "gfx/event_pictures/ITA_fascist_uprising.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_fascist_coup"
+		texturefile = "gfx/event_pictures/ITA_fascist_coup.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_Luigi_Sturzo"
+		texturefile = "gfx/event_pictures/ITA_Luigi_Sturzo.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_flag_parade"
+		texturefile = "gfx/event_pictures/ITA_flag_parade.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_carabinieri_arrest"
+		texturefile = "gfx/event_pictures/ITA_carabinieri_arrest.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_carabinieri_raid"
+		texturefile = "gfx/event_pictures/ITA_carabinieri_raid.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_communist_congress"
+		texturefile = "gfx/event_pictures/ITA_communist_congress.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_communist_partisans"
+		texturefile = "gfx/event_pictures/ITA_communist_partisans.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_matteotti"
+		texturefile = "gfx/event_pictures/ITA_matteotti.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_sicilian_separatist_march"
+		texturefile = "gfx/event_pictures/ITA_sicilian_separatist_march.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_socialist_factory_occupation"
+		texturefile = "gfx/event_pictures/ITA_socialist_factory_occupation.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_separatist_partisans"
+		texturefile = "gfx/event_pictures/ITA_separatist_partisans.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_separatists_leave"
+		texturefile = "gfx/event_pictures/ITA_separatists_leave.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_arrests"
+		texturefile = "gfx/event_pictures/ITA_arrests.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_hostages_rescued"
+		texturefile = "gfx/event_pictures/ITA_hostages_rescued.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_hostages_killed"
+		texturefile = "gfx/event_pictures/ITA_hostages_killed.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_crowd"
+		texturefile = "gfx/event_pictures/ITA_crowd.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_Popular_Catholic_Action"
+		texturefile = "gfx/event_pictures/ITA_Popular_Catholic_Action.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_De_Gasperi_Speech"
+		texturefile = "gfx/event_pictures/ITA_De_Gasperi_Speech.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_ITA_Ferrari_Event"
+		texturefile = "gfx/event_pictures/ITA_Ferrari_Event.tga"
+	}
+	
+	#Livonia
+	
+	spriteType = {
+		name = "GFX_livonianflag"
+		texturefile = "gfx/event_pictures/livonianflag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Baltic_Cup"
+		texturefile = "gfx/event_pictures/Baltic_Cup.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Ethnographic_Museum"
+		texturefile = "gfx/event_pictures/Ethnographic_Museum.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Tukums_Monument"
+		texturefile = "gfx/event_pictures/Tukums_Monument.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Storm"
+		texturefile = "gfx/event_pictures/Storm.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Peteris_Smits"
+		texturefile = "gfx/event_pictures/Peteris_Smits.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Perkonkrusts"
+		texturefile = "gfx/event_pictures/Perkonkrusts.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Ministry_of_Finance_Latvia"
+		texturefile = "gfx/event_pictures/Ministry_of_Finance_Latvia.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Ludza_Fire"
+		texturefile = "gfx/event_pictures/Ludza_Fire.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Lieven_Event"
+		texturefile = "gfx/event_pictures/Lieven_Event.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Latvian_Song_Celebration"
+		texturefile = "gfx/event_pictures/Latvian_Song_Celebration.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Karlis_Padegs"
+		texturefile = "gfx/event_pictures/Karlis_Padegs.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Janis_Pommers"
+		texturefile = "gfx/event_pictures/Janis_Pommers.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Janis_Akuraters"
+		texturefile = "gfx/event_pictures/Janis_Akuraters.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Hermanis_Matisons"
+		texturefile = "gfx/event_pictures/Hermanis_Matisons.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Freedom_Monument_Latvia"
+		texturefile = "gfx/event_pictures/Freedom_Monument_Latvia.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Fishermans_Son_Latvia"
+		texturefile = "gfx/event_pictures/Fishermans_Son_Latvia.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Festival"
+		texturefile = "gfx/event_pictures/Festival.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Ernests_Vigners"
+		texturefile = "gfx/event_pictures/Ernests_Vigners.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Electric_Plant"
+		texturefile = "gfx/event_pictures/Electric_Plant.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Brothers_Cemetary_Latvia"
+		texturefile = "gfx/event_pictures/Brothers_Cemetary_Latvia.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Biking_Competition"
+		texturefile = "gfx/event_pictures/Biking_Competition.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Austra_Skujina"
+		texturefile = "gfx/event_pictures/Austra_Skujina.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Anna_Brigadere"
+		texturefile = "gfx/event_pictures/Anna_Brigadere.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Andrejs_Petrevics"
+		texturefile = "gfx/event_pictures/Andrejs_Petrevics.tga"
+	}
+	
+	#Albania
+	
+	spriteType = {
+		name = "GFX_ALB_map"
+		texturefile = "gfx/event_pictures/ALB_map.dds"
+	}
+	
+	spriteType = {	
+		name = "GFX_ALB_ceremony"
+		texturefile = "gfx/event_pictures/ALB_ceremony.dds"
+	}	
+	
+	spriteType = {
+		name = "GFX_ALB_magazine"
+		texturefile = "gfx/event_pictures/ALB_magazine.dds"
+	}
+	
+	#Holland
+	
+	spriteType = {
+		name = "GFX_afsluitdijk_complete"
+		texturefile = "gfx/event_pictures/afsluitdijk_complete.tga"
+	}
+
+    spriteType = {
+		name = "GFX_afsluitdijk_opened"
+		texturefile = "gfx/event_pictures/afsluitdijk_opened.tga"
+	}
+	
+	#Portugal
+	
+	spriteType = {
+		name = "GFX_portugalflag"
+		texturefile = "gfx/event_pictures/portugalflag.tga"
+	}
+	spriteType = {
+		name = "GFX_portugalmonarchyflag"
+		texturefile = "gfx/event_pictures/portugalmonarchyflag.tga"
+	}
+	
+	#Baden-Wurttemberg
+	
+	spriteType = {
+		name = "GFX_darkestday1"
+		texturefile = "gfx/event_pictures/darkestday1.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday2"
+		texturefile = "gfx/event_pictures/darkestday2.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday3"
+		texturefile = "gfx/event_pictures/darkestday3.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday4"
+		texturefile = "gfx/event_pictures/darkestday4.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday5"
+		texturefile = "gfx/event_pictures/darkestday5.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday6"
+		texturefile = "gfx/event_pictures/darkestday6.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday7"
+		texturefile = "gfx/event_pictures/darkestday7.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday8"
+		texturefile = "gfx/event_pictures/darkestday8.tga"
+	}
+	spriteType = {
+		name = "GFX_darkestday9"
+		texturefile = "gfx/event_pictures/darkestday9.tga"
+	}
+	
+	#Soviet Union
+	
+	spriteType = {
+		name = "GFX_Lenin_Death"
+		texturefile = "gfx/event_pictures/GFX_Lenin_Death.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Ilya_Ivanov"
+		texturefile = "gfx/event_pictures/Ilya_Ivanov.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_Basmachi_cavalry_poster"
+		texturefile = "gfx/event_pictures/Basmachi_cavalry_poster.tga"
+	}
+	
+	#Argentina
+	
+	spriteType = {
+		name = "GFX_argentina_catedral"
+		texturefile = "gfx/event_pictures/Catedral.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_coup"
+		texturefile = "gfx/event_pictures/Coup.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_vote"
+		texturefile = "gfx/event_pictures/Voto.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_cgt"
+		texturefile = "gfx/event_pictures/CGT.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_rosario"
+		texturefile = "gfx/event_pictures/Rosario.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_funeral"
+		texturefile = "gfx/event_pictures/Uriburu.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_casa_rosada"
+		texturefile = "gfx/event_pictures/Casa_Rosada.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_authoritarian_election"
+		texturefile = "gfx/event_pictures/Election_auth.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_march"
+		texturefile = "gfx/event_pictures/March.dds"
+	}
+	spriteType = {
+		name = "GFX_argentina_campo"
+		texturefile = "gfx/event_pictures/Campo.dds"
+	}
+	
+	### Romania ###
+	
+	spriteType = {
+		name = "GFX_ROM_map"
+		texturefile = "gfx/event_pictures/ROM_map.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_hungary"
+		texturefile = "gfx/event_pictures/ROM_hungary.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_slovakia"
+		texturefile = "gfx/event_pictures/ROM_slovakia.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_poland"
+		texturefile = "gfx/event_pictures/ROM_poland.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_banatmap"
+		texturefile = "gfx/event_pictures/ROM_banatmap.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_farmpic"
+		texturefile = "gfx/event_pictures/ROM_farmpic.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_ROM_fascistpic"
+		texturefile = "gfx/event_pictures/ROM_fascistpic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_communistpic"
+		texturefile = "gfx/event_pictures/ROM_communistpic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_armypic"
+		texturefile = "gfx/event_pictures/ROM_armypic.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_mausoleum"
+		texturefile = "gfx/event_pictures/ROM_mausoleum.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_arc"
+		texturefile = "gfx/event_pictures/ROM_arc.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_academy"
+		texturefile = "gfx/event_pictures/ROM_academy.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_factory"
+		texturefile = "gfx/event_pictures/ROM_factory.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_newspaper"
+		texturefile = "gfx/event_pictures/ROM_newspaper.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_fascio"
+		texturefile = "gfx/event_pictures/ROM_fascio.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_execution"
+		texturefile = "gfx/event_pictures/ROM_execution.dds"
+	}
+	spriteType = {
+		name = "GFX_ROM_flight"
+		texturefile = "gfx/event_pictures/ROM_flight.dds"
+	}
+	
+	### Tibet ###
+	
+	spriteType = {
+		name = "GFX_news_event_dalai_lama"
+		texturefile = "gfx/event_pictures/Dalai_Lama.tga"
+	}
+	
+	### Japan ###
+	
+	spriteType = {
+		name = "GFX_JAP_introduction"
+		texturefile = "gfx/event_pictures/JAP_introduction.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_sakuradamon"
+		texturefile = "gfx/event_pictures/JAP_sakuradamon.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_election"
+		texturefile = "gfx/event_pictures/JAP_election.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_fire"
+		texturefile = "gfx/event_pictures/JAP_fire.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_anglo"
+		texturefile = "gfx/event_pictures/JAP_anglo.dds"
+	}
+	spriteType = {
+		name = "GFX_JAP_sanriku"
+		texturefile = "gfx/event_pictures/JAP_sanriku.dds"
+	}
+
+	#Bulgaria
+	spriteType = {
+		name = "GFX_zveno_coup_event"
+		texturefile = "gfx/event_pictures/BUL_zveno_coup_event.dds"
+	}
+	spriteType = {
+		name = "GFX_BUL_tsankov"
+		texturefile = "gfx/event_pictures/BUL_tsankov.dds"
+	}
+	
+	#Czechia
+	
+	spriteType = {
+		name = "GFX_report_event_August_Naegle"
+		texturefile = "gfx/event_pictures/August_Naegle.tga"
+	}
+	spriteType = {
+		name = "GFX_news_event_CZE_Austrian_occupation"
+		texturefile = "gfx/event_pictures/CZE_Austrian_occupation.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_Sudeten_nationalists"
+		texturefile = "gfx/event_pictures/CZE_Sudeten_nationalists.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_independence"
+		texturefile = "gfx/event_pictures/Czech_independence.tga"
+	}
+	spriteType = {
+		name = "GFX_news_event_Masaryk_Legionnaires"
+		texturefile = "gfx/event_pictures/CZE_Masaryk_Legionnaires.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_Masaryk_speech_microphone"
+		texturefile = "gfx/event_pictures/Masaryk_speech_microphone.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_Masaryk_speech_crowd"
+		texturefile = "gfx/event_pictures/Masaryk_speech_crowd.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_Masaryk_sitting"
+		texturefile = "gfx/event_pictures/Masaryk_sitting.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_parliament_interior"
+		texturefile = "gfx/event_pictures/Czech_parliament.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_parliament_exterior"
+		texturefile = "gfx/event_pictures/CZE_Rudolfinum.tga"
+	}
+	spriteType = {
+		name = "GFX_news_event_CZE_parliament_interior"
+		texturefile = "gfx/event_pictures/CZE_parliament_interior_banner.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_Sudeten_communists"
+		texturefile = "gfx/event_pictures/CZE_Sudeten_communists.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_fascist_propaganda_1"
+		texturefile = "gfx/event_pictures/CZE_fascist_propaganda_1.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_CZE_fascist_propaganda_2"
+		texturefile = "gfx/event_pictures/CZE_fascist_propaganda_2.tga"
+	}
+
+	#Bulgaria
+
+	spriteType = {
+		name = "GFX_report_event_BUL_Bulgaria_map"
+		texturefile = "gfx/event_pictures/BUL_Bulgaria_map.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_BUL_army"
+		texturefile = "gfx/event_pictures/BUL_army.tga"
+	}
+	spriteType = {
+		name = "GFX_report_event_BUL_imro_soldiers"
+		texturefile = "gfx/event_pictures/BUL_imro_soldiers.tga"
+	}
+	
+	#Greece
+	
+	spriteType = {
+		name = "GFX_GRE_Demonstrations_for_the_Republic"
+		texturefile = "gfx/event_pictures/GFX_GRE_Demonstrations_for_the_Republic_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Greek_National_Bank"
+		texturefile = "gfx/event_pictures/GFX_GRE_Greek_National_Bank_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Venizelos_Dead"
+		texturefile = "gfx/event_pictures/GFX_GRE_Venizelos_Dead_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Tsaldaris_Dead"
+		texturefile = "gfx/event_pictures/GFX_GRE_Tsaldaris_Dead_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Kondylis_Dead"
+		texturefile = "gfx/event_pictures/GFX_GRE_Kondylis_Dead_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Elections"
+		texturefile = "gfx/event_pictures/GFX_GRE_Elections_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Bezantakos"
+		texturefile = "gfx/event_pictures/GFX_GRE_Bezantakos_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Zachariadis"
+		texturefile = "gfx/event_pictures/GFX_GRE_Zachariadis_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Kondylis_Plastiras"
+		texturefile = "gfx/event_pictures/GFX_GRE_Kondylis_Plastiras_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Kondylis_news"
+		texturefile = "gfx/event_pictures/GFX_GRE_Kondylis_news_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Plastiras_news"
+		texturefile = "gfx/event_pictures/GFX_GRE_Plastiras_news_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_GRE_Assasination_Attempt"
+		texturefile = "gfx/event_pictures/GFX_GRE_Assasination_Attempt_gfx.tga"
+	}
+	
+	#CPC
+	spriteType = {
+		name = "GFX_news_event_peasant_army"
+		texturefile = "gfx/event_pictures/cpc_peasant_army.tga"
+	}
+	spriteType = {
+		name = "GFX_news_event_wuhan_uprising"
+		texturefile = "gfx/event_pictures/Wuhan_Uprising.tga"
+	}
+	spriteType = {
+		name = "GFX_CRB_establish_CRB"
+		texturefile = "gfx/event_pictures/cpc_revolution.tga"
+	}
+	
+	#Guominjun
+	spriteType = {
+		name = "GFX_KMC_NorthChina"
+		texturefile = "gfx/event_pictures/Feng_Declare.tga"
+	}
+    
+    #Ottomans
+    spriteType = {
+		name = "GFX_event_OTT_russo_turk_battle"
+		texturefile = "gfx/event_pictures/OTT_russo_turkish_war_pic.tga"
+	}
+	spriteType = {
+		name = "GFX_event_OTT_propaganda_poster"
+		texturefile = "gfx/event_pictures/OTT_propaganda_poster.tga"
+	}
+	spriteType = {
+		name = "GFX_event_OTT_ww1_propaganda"
+		texturefile = "gfx/event_pictures/OTT_ww1_propaganda.tga"
+	}
+	
+}
+	
+	

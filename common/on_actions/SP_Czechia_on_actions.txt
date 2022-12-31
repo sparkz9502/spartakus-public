@@ -1,0 +1,9 @@
+on_actions = {
+	on_startup = {
+        effect = {
+			CZE = {
+				CZE_set_unit_leader_political_alignments = yes
+			}
+        }
+	}
+}

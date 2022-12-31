@@ -1,0 +1,28 @@
+
+state={
+	id=435
+	name="STATE_435"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			4516 2 
+		}
+		victory_points = {
+			4544 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1569 4516 4571 
+	}
+	manpower=5330000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

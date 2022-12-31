@@ -1,0 +1,26 @@
+state={
+	id=882
+	name="STATE_882"
+	
+	resources={
+		coal=2
+	}
+
+	history={
+		owner = INC
+		add_core_of = INC
+		add_core_of = LAO
+		add_core_of = SIA
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		10330 10356 10456 
+	}
+	manpower=65400
+	buildings_max_level_factor=1
+	state_category=wasteland
+}

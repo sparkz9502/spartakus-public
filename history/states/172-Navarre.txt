@@ -1,0 +1,37 @@
+
+state={
+	id=172
+	name="STATE_172"
+	resources={
+		iron=52.000
+		bauxite=1.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			740 3 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			air_base = 1
+			dockyard = 2
+			740 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		740 
+	}
+	manpower=485200
+	buildings_max_level_factor=1.000
+	state_category=expanding_city
+}

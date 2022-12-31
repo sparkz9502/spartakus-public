@@ -1,0 +1,81 @@
+﻿division_template = {
+	name = "Jalaväediviisi"				# Infantry Division	
+	division_names_group = EST_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Vaps Militia"				# Nationalist Militia
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+}
+
+units = {
+	######## LAND OOB ########
+	##### Eesti Ülemjuhatus #####
+	division = { # "I Jalaväediviisi"
+		division_name = {
+				is_name_ordered = yes
+				name_order = 1
+		}
+		location = 3152
+		division_template = "Jalaväediviisi"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.2
+
+	}
+	division = {
+		name = "Vaps Militia"
+		location = 11127
+		division_template = "Vaps Militia"
+		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+
+	}
+
+}
+
+air_wings = {
+	### Eesti Ohuvägi
+	13 = {
+		# Hävitajate Grupp -- Bristol Bulldogs, GL 22.B3s
+		fighter_equipment_0 =  {
+			owner = "EST" 
+			amount = 18
+		}
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "EST"
+		}
+		requested_factories = 1
+		progress = 0.88
+		efficiency = 100
+	}
+}

@@ -1,0 +1,14 @@
+########################
+###   Bosnian Mode   ###
+########################
+
+BOS_internal = {
+	allowed = { 
+			tag = BOS
+	}
+	visible = {
+		    tag = BOS
+	}
+	icon = GFX_decision_category_generic_independence
+	scripted_gui = bosnia_internal_decision_ui
+}

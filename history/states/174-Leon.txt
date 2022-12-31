@@ -1,0 +1,36 @@
+
+state={
+	id=174
+	name="STATE_174"
+	resources={
+		iron=8.000
+		raremetals=3.000
+	}
+
+	history={
+		owner = SPR
+		victory_points = {
+			11707 1 
+		}
+		victory_points = {
+			3920 2 
+		}
+		victory_points = {
+			6907 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		874 918 920 3725 3874 6867 6907 9770 11756 
+	}
+	manpower=874900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

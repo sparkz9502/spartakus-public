@@ -1,0 +1,19 @@
+characters={
+    BOL_daniel_salamanca_urey = {
+        name = "Daniel Salamanca Urey"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BOL/Portrait_Daniel_Salamanca_Urey.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_DANIEL_UREY_DESC"
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,43 @@
+
+state={
+	id=60
+	name="STATE_60"
+	resources={
+		iron=7.000
+	}
+
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			538 2 
+		}
+		victory_points = {
+			6524 10 
+		}
+		victory_points = {
+			9497 2 
+		}
+		victory_points = {
+			3500 1 
+		}
+		victory_points = {
+			6192 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		425 482 538 3500 3561 6192 6524 9497 15455 
+	}
+	manpower=2205200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

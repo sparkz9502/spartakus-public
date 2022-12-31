@@ -1,0 +1,60 @@
+﻿capital = 746
+
+OOB = "INC"
+
+set_cosmetic_tag = INC_FRA
+
+add_ideas = {
+	recruitment_colonial
+	governance_colo
+	trade_laif
+	economy_unind
+	mobilization_1
+}
+
+set_technology = {
+}
+
+set_research_slots = 2
+set_convoys = 30
+set_stability = 0.6
+set_war_support = 0.2
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 25
+    spartacist = 2
+    revolutionary_socialist = 2
+    reformist_socialist = 3
+    social_democrat = 6
+    social_liberal = 3
+    liberal_conservative = 11
+    social_conservative = 6
+    authoritarian_conservative = 34
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 8
+}
+
+INC = {
+	declare_war_on = {
+		target = VNA
+		type = annex_everything
+	}
+}
+
+create_country_leader = {
+	name = "Georges Catroux"
+	desc = ""
+	picture = "gfx/leaders/FRA/Portrait_Georges_Catroux.tga"
+	expire = "1953.3.1"
+	ideology = authoritarian_conservative_subtype
+	traits = {
+	}
+}

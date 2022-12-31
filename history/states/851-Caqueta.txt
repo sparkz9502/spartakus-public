@@ -1,0 +1,20 @@
+
+state={
+	id=851
+	name="STATE_851"
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		1887 2007 2079 5026 10792 12729 12770 12825 13356 13372 13383 13384 13389 13391 13393 13396 13401 13402 13411 13413 13416 13426 13542 
+	}
+	manpower=116700
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

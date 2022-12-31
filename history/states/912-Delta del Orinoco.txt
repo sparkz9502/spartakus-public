@@ -1,0 +1,20 @@
+
+state={
+	id=912
+	name="STATE_912"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = VEN
+	}
+
+	provinces={
+		1981 7915 8050 10736 10767 10879 13407 13420 13424 13430 13432 13434 
+	}
+	manpower=166100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

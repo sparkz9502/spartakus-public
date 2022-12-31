@@ -1,0 +1,46 @@
+﻿ division_template = {
+	name = "Crvena Straža"	# Infantry Division	
+	division_names_group = CRO_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = { 
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## Army ########
+	division = {
+		name = "Crvena Straža Rudnika Labinštine"	 			
+		location = 15184
+		division_template = "Crvena Straža"	
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+	
+	division = {
+		name = "Crvena Straža Rudnika Raše"	 			
+		location = 15184
+		division_template = "Crvena Straža"	
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.9
+	}
+}
+### Starting Production ###
+instant_effect = { 
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SER"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	
+} 

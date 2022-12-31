@@ -1,0 +1,28 @@
+
+state={
+	id=1116
+	name="STATE_1116"
+
+	history={
+		owner = AFG
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			15491 1 
+		}
+		victory_points = {
+			12314 2 
+		}
+		add_core_of = AFG
+
+	}
+
+	provinces={
+		7519 10781 12248 12314 12653 15484 15485 15486 15491 15492 
+	}
+	manpower=550000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

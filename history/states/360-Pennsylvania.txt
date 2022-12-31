@@ -1,0 +1,43 @@
+
+state={
+	id=360
+	name="STATE_360"
+	
+	resources={
+		coal=187
+		oil=12
+		iron=22
+		copper=1
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			11799 3 
+		}
+		victory_points = {
+			3847 3 
+		}
+		victory_points = {
+			3687 3 
+		}
+		victory_points = {
+			12405 2 
+		}
+
+	}
+
+	provinces={
+		702 822 847 862 891 894 3687 3697 3847 3850 3880 3897 6705 6869 6872 6885 6899 9662 9804 9820 9836 11648 11758 11769 11785 11799 11817 12405 
+	}
+	manpower=4314900
+	buildings_max_level_factor=1.000
+	state_category=town
+}

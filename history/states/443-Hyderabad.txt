@@ -1,0 +1,29 @@
+
+state={
+	id=443
+	name="STATE_443"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = WTH
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			7084 2 
+		}
+		victory_points = {
+			15018 10 
+		}
+
+	}
+
+	provinces={
+		10847 10866 12718 15057 15098 15413 
+	}
+	manpower=984000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

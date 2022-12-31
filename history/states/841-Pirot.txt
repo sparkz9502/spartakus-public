@@ -1,0 +1,40 @@
+
+state={
+	id=841
+	name="STATE_841"
+	manpower = 202000
+
+	state_category = rural
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 2
+			
+			11868 = {
+				bunker = 2
+			}
+			
+			11857 = {
+				bunker = 2
+			}
+		}
+		add_core_of = SER
+		add_core_of = BUL
+		victory_points = {
+			11868 3
+		}
+		# 841 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 11868
+				# }
+			# }
+		# }
+	}
+
+	provinces={
+		11857 11868 13560
+	}
+}

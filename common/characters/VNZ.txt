@@ -1,0 +1,24 @@
+characters={
+	VNZ_italico_corradino_cappellotto={
+		name="Italico Corradino Cappellotto"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNZ/Portrait_Italico_Corradino_Cappellotto.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ITALICO_CORRADINO_CAPPELLOTTO_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VNZ_carlo_rosselli={
+		name="Carlo Rosselli"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNZ/Portrait_Carlo_Rosselli.tga"
+			}
+		}
+	}
+}

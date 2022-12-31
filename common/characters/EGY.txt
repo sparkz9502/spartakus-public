@@ -1,0 +1,42 @@
+characters={
+    EGY_fuad_i = {
+        name = "Fuad I"
+        portraits={
+            civilian={
+                large = "gfx/leaders/EGY/Portrait_Fuad_I.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_FUAD_I_DESC"
+            ideology = social_liberal_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_FUAD_I_DESC"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_FUAD_I_DESC"
+            ideology = social_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_FUAD_I_DESC"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

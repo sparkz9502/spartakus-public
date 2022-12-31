@@ -1,0 +1,220 @@
+### Portuguese Ideas ###
+
+ideas = {
+##############
+# Country
+##############
+
+
+	country = {
+
+		PRM_restoration = {
+			allowed = { always = no }
+			modifier = { 
+				conscription = 0.010 
+				war_support_factor = 0.05
+				surrender_limit = 0.05		
+			}
+			removal_cost = -1
+			picture = POR_The_Restoration
+		}
+		
+		PRM_uncontrolled_border = {
+			allowed = { always = no }
+			modifier = {
+				monthly_population = -3
+			}
+			removal_cost = -1
+			picture = HOL_expand_the_colonial_army
+		}
+		
+		PRM_controlled_border = {
+			allowed = { always = no }
+			modifier = {
+				monthly_population = -1
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_no_capital = {
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.5
+				production_speed_buildings_factor = -0.5 
+				industrial_capacity_factory = -0.3
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_no_labour = {
+			allowed = { always = no }
+			modifier = {
+				consumer_goods_factor = 0.3
+				production_speed_buildings_factor = -0.25 
+				industrial_capacity_factory = -0.15
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_native_labour = {
+			allowed = { always = no }
+			modifier = {
+				production_speed_buildings_factor = 0.20 
+				industrial_capacity_factory = 0.15
+				required_garrison_factor = 0.10
+				no_compliance_gain = 1
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_foreign_labour = {
+			allowed = { always = no }
+			modifier = {
+				production_speed_buildings_factor = 0.10 
+				industrial_capacity_factory = 0.05
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_destroyed_gov = {
+			allowed = { always = no }
+			modifier = {
+				disabled_ideas = 1
+				political_power_factor = -0.6
+				stability_factor = -0.15
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_weak_gov = {
+			allowed = { always = no }
+			modifier = {
+				political_power_factor = -0.3
+				stability_factor = -0.05
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_mainland_contacts = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 100
+			}
+			targeted_modifier = {
+				tag = POR
+				attack_bonus_against = 0.2
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_mainland_contacts_2 = {
+			allowed = { always = no }
+			modifier = {
+				weekly_manpower = 150
+				surrender_limit = 0.3
+			}
+			targeted_modifier = {
+				tag = POR
+				attack_bonus_against = 0.3
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_service_citizenship = {
+			allowed = { always = no }
+			modifier = {
+				non_core_manpower = 0.15
+				army_org_factor = -0.15
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_1385 = {
+			allowed = { always = no }
+			modifier = {
+				army_defence_factor = 0.30
+				army_org_regain = 0.25
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_recycle_guns = {
+			allowed = { always = no }
+			modifier = {
+			
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15 instant = yes
+					reliability = -0.15 instant = yes				
+				}
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_recycle_guns_2 = {
+			allowed = { always = no }
+			modifier = {
+				equipment_capture_factor = 0.15
+			}
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.15 instant = yes
+					reliability = -0.15 instant = yes				
+				}
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_portucale = {
+			allowed = { always = no }
+			modifier = {
+				breakthrough_factor = 0.2
+				army_speed_factor = 0.1
+				amphibious_invasion = 0.3
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_support = {
+			allowed = { always = no }
+			equipment_bonus = {
+				submarine = {
+					build_cost_ic = -0.15 instant = yes		
+				}
+				convoy = {
+					build_cost_ic = -0.25 instant = yes		
+				}
+				destroyer = {
+					build_cost_ic = -0.10 instant = yes		
+				}
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+		
+		PRM_air = {
+			allowed = { always = no }
+			modifier = {
+				air_ace_generation_chance_factor = 0.05
+				experience_gain_air = 0.05
+			}
+			removal_cost = -1
+			picture = AST_classify_aliens
+		}
+	}
+}

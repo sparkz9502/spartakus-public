@@ -1,0 +1,168 @@
+﻿###########################
+# Newfoundland Events
+###########################
+
+add_namespace = new
+
+#Introduction
+country_event = {
+	id = new.1
+	title = new.1.t
+	desc = new.1.d
+	picture = GFX_report_event_generic_conference
+	is_triggered_only = yes
+
+	option = {
+		name = new.1.a
+	}
+
+}
+
+#Great Depression
+news_event = {
+	id = new.2
+	title = new.2.t
+	desc = new.2.d
+	picture = GFX_news_event_generic_rally2
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = new.3 days = 19 }
+		}
+	}
+
+	option = {
+		name = new.2.a
+		add_stability = -0.10
+		add_popularity = {
+			ideology = liberal_conservative popularity = -0.10
+		}
+		remove_ideas = NEW_struggling_fishing_industry
+		add_ideas = NEW_crashed_fishing_industry
+	}
+
+}
+
+#Protestors
+news_event = {
+	id = new.3
+	title = new.3.t
+	desc = new.3.d
+	picture = GFX_news_event_gathering_protest
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = new.4 days = 20 }
+		}
+	}
+
+	option = {
+		name = new.3.a
+		add_stability = -0.05
+		add_popularity = {
+			ideology = liberal_conservative popularity = -0.10
+		}
+	}
+
+}
+
+#Cashin Resigns
+country_event = {
+	id = new.4
+	title = new.4.t
+	desc = new.4.d
+	picture = GFX_report_event_poland_rejects
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = new.5 days = 10 }
+		}
+	}
+
+	option = {
+		name = new.4.a
+		add_stability = -0.05
+		add_popularity = {
+			ideology = liberal_conservative popularity = -0.05
+		}
+		remove_ideas = NEW_Peter_Cashin_eco_mli
+	}
+
+}
+
+#FPU Leaves the Coalition
+country_event = {
+	id = new.5
+	title = new.5.t
+	desc = new.5.d
+	picture = GFX_report_event_generic_rally_3
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = new.6 days = 35 }
+		}
+	}
+
+	option = {
+		name = new.5.a
+		add_stability = -0.05
+		add_popularity = {
+			ideology = liberal_conservative popularity = -0.05
+		}
+		add_popularity = {
+			ideology = social_democrat popularity = 0.10
+		}
+		clr_country_flag = coalition_social_democrat
+		remove_ideas = NEW_William_Halfyard_for_sde
+		hidden_effect = {
+			remove_ideas = NEW_crashed_fishing_industry
+			add_ideas = NEW_crashed_fishing_industry_2
+		}
+	}
+
+}
+
+#Election
+country_event = {
+	id = new.6
+	title = new.6.t
+	desc = new.6.d
+	picture = GFX_report_event_generic_rally_3
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			remove_ideas = NEW_crashed_fishing_industry_2
+			add_ideas = NEW_crashed_fishing_industry_3
+		}
+	}
+
+	option = {
+		name = new.6.a
+		ai_chance = {
+			factor = 80
+		}
+		add_stability = 0.10
+		add_political_power = 50
+		add_popularity = {
+			ideology = social_conservative popularity = 0.10
+		}
+	}
+	
+	option = {
+		name = new.6.b
+		ai_chance = {
+			factor = 20
+		}
+		add_stability = 0.10
+		add_political_power = 50
+		add_popularity = {
+			ideology = social_democrat popularity = 0.10
+		}
+	}
+
+}

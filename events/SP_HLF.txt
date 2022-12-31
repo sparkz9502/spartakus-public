@@ -1,0 +1,16 @@
+add_namespace = HLF
+
+country_event = { # Hailufeng Uprising starts
+	id = HLF.1
+	title = HLF.1.t
+	desc = HLF.1.desc
+	picture = GFX_news_event_peasant_army
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = HLF.1.a
+	}
+}

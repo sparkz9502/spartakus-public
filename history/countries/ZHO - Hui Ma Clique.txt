@@ -1,0 +1,61 @@
+﻿capital = 616
+
+add_ideas = {
+	recruitment_volunteer
+	governance_abs
+	trade_pro
+	economy_undev
+	mobilization_1
+}
+
+set_oob = "ZHO"
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.6
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = { #wip
+    bolshevist = 0
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 100
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Ma Zhongying"
+	desc = "POLITICS_MA_ZHONGYING_DESC"
+	picture = "Portrait_Ma_Zhongying.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_conservative_subtype
+	traits = {
+		#
+	}
+}

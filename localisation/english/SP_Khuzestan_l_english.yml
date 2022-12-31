@@ -1,0 +1,49 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+KHU_bolshevist_party:0 "HKI"
+KHU_bolshevist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+KHU_spartacist_party:0 "HKI"
+KHU_spartacist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+KHU_revolutionary_socialist_party:0 "FJEI"
+KHU_revolutionary_socialist_party_long:0 "Revolutionary Republican Party of Iran (Ferqa-ye Jomhuri-e Enqelabi-e Iran)"
+KHU_reformist_socialist_party:0 "HS"
+KHU_reformist_socialist_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+KHU_social_democrat_party:0 "HS"
+KHU_social_democrat_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+KHU_social_liberal_party:0 "HD"
+KHU_social_liberal_party_long:0 "Democrat Party (Hezb-e Demowkrat)"
+KHU_liberal_conservative_party:0 "HJ"
+KHU_liberal_conservative_party_long:0 "Revival Party (Hezb-e Tajaddod)"
+KHU_social_conservative_party:0 "HE"
+KHU_social_conservative_party_long:0 "Reformers' Party (Hezb-e Eslahtalaban)"
+KHU_authoritarian_conservative_party:0 "Al Mirdaw"
+KHU_authoritarian_conservative_party_long:0 "Mirdaw Dynasty (Al Mirdaw)"
+KHU_right_wing_populist_party:0 "Qajar"
+KHU_right_wing_populist_party_long:0 "Qajar Dynasty (Khandane Qajar)"
+KHU_national_syndicalist_party:0 "HQA"
+KHU_national_syndicalist_party_long:0 "Arab National Party (Al-Hizb Al-Qawmi Al-Arabi)"
+KHU_national_corporatist_party:0 "HIN"
+KHU_national_corporatist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+
+### Focuses ###
+
+### Ideas ###
+
+KHU_Tribal_Confederation:0 "Tribal Confederation"
+KHU_Tribal_Confederation_desc:0 "Khuzestan is a tribal confederation which seeks to unite all the inhabitants of Khuzestan, from the Arabs, to the Persians, to the Lurs, to the Bakhtiaris, and to the Kurds. This is, of course, not an easy task, and the unity between these tribes has shown many cracks. However, for the sake of maintaining independence from Persia, these groups have to remain united to survive."
+KHU_British_Exploitation:0 "British Exploitation"
+KHU_British_Exploitation_desc:0 "The British aid in gaining independence from Persia did not come without a price. The oil-rich regions of Khuzestan are exploited by Britain under various agreements signed throughout the 1920's. Given oil is the primary economic opportunity Khuzestan has, this is a major barrier in gaining complete economic and political independence. Additionally, the Lurs have expressed discontent over what they perceive as a lack of benefits from oil extracted from their lands."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

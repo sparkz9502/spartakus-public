@@ -1,0 +1,22 @@
+state={
+	id=680
+	name="STATE_680"
+	provinces={
+		1549 1578 13738 
+	}
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		
+		
+		victory_points = { 1578 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	manpower=143210
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

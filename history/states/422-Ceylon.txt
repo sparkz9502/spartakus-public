@@ -1,0 +1,36 @@
+
+state={
+	id=422
+	name="STATE_422"
+	resources={
+		rubber=50.000
+	}
+
+	history={
+		owner = CEY
+		add_core_of = CEY
+		victory_points = {
+			1213 1 
+		}
+		victory_points = {
+			7260 8
+		}
+		victory_points = {
+			10229 3 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1213 4219 7260 10229 12258 
+	}
+	manpower=4543500
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

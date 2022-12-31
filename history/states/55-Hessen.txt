@@ -1,0 +1,54 @@
+
+state={
+	id=55
+	name="STATE_55"
+	resources={
+		coal=3.000
+		iron=73.000
+		bauxite=1.000
+	}
+
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 2
+			anti_air_building = 1
+			air_base = 4
+			6488 = {
+				bunker = 3
+
+			}
+			6444 = {
+				bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			6488 25 
+		}
+		victory_points = {
+			564 5 
+		}
+		victory_points = {
+			6444 4 
+		}
+		victory_points = {
+			3524 1 
+		}
+		victory_points = {
+			3397 1 
+		}
+
+	}
+
+	provinces={
+		564 3397 3524 6444 6488 6549 9486 9524 11445 11533 15091 
+	}
+	manpower=2889400
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

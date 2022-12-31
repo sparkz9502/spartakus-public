@@ -1,0 +1,39 @@
+
+state={
+	id=794
+	name="STATE_794"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			11580 3 
+		}
+		# 794 = {
+			# add_province_modifier = {
+				# static_modifiers = {
+					# railway 
+				# }
+				# province = {
+					# id = 11580
+
+				# }
+
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = STJ
+		add_core_of = SER
+
+	}
+
+	provinces={
+		11580 
+	}
+	manpower=246400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

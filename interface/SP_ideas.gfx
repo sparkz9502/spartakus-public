@@ -1,0 +1,1003 @@
+spriteTypes = {	
+
+	SpriteType = {
+		name = "GFX_idea_traits_strip"
+		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
+		noOfFrames = 14
+	}
+	
+	# General
+	
+    spriteType = {
+		name = "GFX_idea_disunited_government"
+		texturefile = "gfx/interface/ideas/ideas/disunited_government.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_military_regime"
+		texturefile = "gfx/interface/ideas/ideas/military_regime.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_social_reforms"
+		texturefile = "gfx/interface/ideas/ideas/social_reforms.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_enemies_of_republic"
+		texturefile = "gfx/interface/ideas/ideas/enemies_of_republic.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_American_House"
+		texturefile = "gfx/interface/ideas/ideas/American_House.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Civil_War_Officer"
+		texturefile = "gfx/interface/ideas/ideas/Civil_War_Officer.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Gold_Bars"
+		texturefile = "gfx/interface/ideas/ideas/Gold_Bars.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Wall_of_Sorrow"
+		texturefile = "gfx/interface/ideas/ideas/Wall_of_Sorrow.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_capital_outflow"
+		texturefile = "gfx/interface/ideas/ideas/capital_outflow.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_guns_shield"
+		texturefile = "gfx/interface/ideas/ideas/idea_guns_shield.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_airforce"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_airforce.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_navy"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_navy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_army"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_army.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_trade"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_trade.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Oppression_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Oppression_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Native_Service"
+		texturefile = "gfx/interface/ideas/ideas/Native_Service.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_generic_coins"
+		texturefile = "gfx/interface/ideas/ideas/idea_generic_coins.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_British_Officers"
+		texturefile = "gfx/interface/ideas/ideas/British_Officers.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_African_Mercenaries"
+		texturefile = "gfx/interface/ideas/ideas/African_Mercenaries.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Debts"
+		texturefile = "gfx/interface/ideas/ideas/Debts.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_German_Officers"
+		texturefile = "gfx/interface/ideas/ideas/German_Officers.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Brit_Influence"
+		texturefile = "gfx/interface/ideas/ideas/Brit_Influence.tga"
+	}
+    spriteType = {
+		name = "GFX_idea_American_Money"
+		texturefile = "gfx/interface/ideas/ideas/American_Money.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_Political_Crisis_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Political_Crisis_Idea.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_Interracial_Cooperation"
+		texturefile = "gfx/interface/ideas/ideas/Interracial_Cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Police_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Police_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Passport_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Passport_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Oversized_Fleet"
+		texturefile = "gfx/interface/ideas/ideas/Oversized_Fleet.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Backwards_Technology"
+		texturefile = "gfx/interface/ideas/ideas/Backwards_Technology.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Small_Industrial_Crisis"
+		texturefile = "gfx/interface/ideas/ideas/Small_Industrial_Crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Large_Industrial_Crisis"
+		texturefile = "gfx/interface/ideas/ideas/Large_Industrial_Crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Gold_Trade"
+		texturefile = "gfx/interface/ideas/ideas/Gold_Trade.dds"
+	}
+	spriteType = {
+        name = "GFX_idea_Power_Plant_Idea"
+        texturefile = "gfx/interface/ideas/ideas/Power_Plant_Idea.dds"
+    }	
+	spriteType = {
+        name = "GFX_idea_diamond_trade"
+        texturefile = "gfx/interface/ideas/ideas/Diamond_Trade.dds"
+    }
+	spriteType = {
+		name = "GFX_idea_protesters_shot_icon"
+		texturefile = "gfx/interface/ideas/ideas/protesters_shot_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_quenched_militarism"
+		texturefile = "gfx/interface/ideas/ideas/quenched_militarism.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Chinese_Profits"
+		texturefile = "gfx/interface/ideas/ideas/Chinese_Profits.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Red_Militia_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Red_Militia_Idea.dds"
+	}
+		spriteType = {
+		name = "GFX_idea_Mass_Conscription"
+		texturefile = "gfx/interface/ideas/ideas/Mass_Conscription.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Economic_Meltdown"
+		texturefile = "gfx/interface/ideas/ideas/Economic_Meltdown.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Recruitment_Crisis"
+		texturefile = "gfx/interface/ideas/ideas/Recruitment_Crisis.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_SWI_neutrality"
+		texturefile = "gfx/interface/ideas/ideas/SWI_neutrality_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_WIP"
+		texturefile = "gfx/interface/ideas/ideas/WIP.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Oil"
+		texturefile = "gfx/interface/ideas/ideas/Oil.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_No_Oil"
+		texturefile = "gfx/interface/ideas/ideas/No_Oil.dds"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Big_Money_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Big_Money_Idea.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_death_men"
+		texturefile = "gfx/interface/ideas/ideas/death_men.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_NOR_weak_economy"
+		texturefile = "gfx/interface/ideas/ideas/NOR_weak_economy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Code_Breaker_idea"
+		texturefile = "gfx/interface/ideas/ideas/Code_Breaker.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Divided_Airforce_idea"
+		texturefile = "gfx/interface/ideas/ideas/Divided_Airforce.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_General_Strike"
+		texturefile = "gfx/interface/ideas/ideas/General_Strike.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Nordic_Unity"
+		texturefile = "gfx/interface/ideas/ideas/Nordic_Unity.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Passports"
+		texturefile = "gfx/interface/ideas/ideas/Passports.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_police_hat"
+		texturefile = "gfx/interface/ideas/ideas/police_hat.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_economic_control_icon"
+		texturefile = "gfx/interface/ideas/ideas/economic_control_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_state_economy"
+		texturefile = "gfx/interface/ideas/ideas/state_economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Anarchist_Economy"
+		texturefile = "gfx/interface/ideas/ideas/Anarchist_Economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Burning_Labour_Bills_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Burning_Labour_Bills_Idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Comintern_logo"
+		texturefile = "gfx/interface/ideas/ideas/Comintern_logo.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Crying_Eye"
+		texturefile = "gfx/interface/ideas/ideas/Crying_Eye.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_aid_cut"
+		texturefile = "gfx/interface/ideas/ideas/idea_aid_cut.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_British_Ties"
+		texturefile = "gfx/interface/ideas/ideas/British_Ties.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Binoculars"
+		texturefile = "gfx/interface/ideas/ideas/Binoculars.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_redflag_guns"
+		texturefile = "gfx/interface/ideas/ideas/redflag_guns.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_redstar_guns"
+		texturefile = "gfx/interface/ideas/ideas/redstar_guns.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Illiteracy_Idea"
+		texturefile = "gfx/interface/ideas/ideas/Illiteracy_Idea.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_The_War_Economy"
+		texturefile = "gfx/interface/ideas/ideas/The_War_Economy.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Economic_Modernization"
+		texturefile = "gfx/interface/ideas/ideas/Economic_Modernization.tga"
+	}
+	
+	# Burning Flags
+	
+	spriteType = {
+		name = "GFX_idea_Japan_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/Japan_Flag_Burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Spanish_Republic_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/Spanish_Republic_Flag_Burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_South_Africa_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/South_Africa_Flag_Burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Hungarian_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/Hungarian_Flag_Burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Dutch_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/Dutch_Flag_Burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Baltic_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/Baltic_Flag_Burning.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Austria_Flag_Burning"
+		texturefile = "gfx/interface/ideas/BurningFlags/Austria_Flag_Burning.dds"
+	}
+	
+	# Germany
+	
+	spriteType = {
+		name = "GFX_idea_Rotfrontkampferbund"
+		texturefile = "gfx/interface/ideas/GER/Rotfrontkampferbund.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Right_Wing_Terrorism"
+		texturefile = "gfx/interface/ideas/GER/Right_Wing_Terrorism.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Peasant_Question"
+		texturefile = "gfx/interface/ideas/GER/Peasant_Question.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Civil_War_Recovery"
+		texturefile = "gfx/interface/ideas/GER/Civil_War_Recovery.tga"
+	}
+	
+	# RAJ
+	
+	spriteType = {
+		name = "GFX_idea_RAJ_Martial_Races"
+		texturefile = "gfx/interface/ideas/RAJ/RAJ_Martial_Races.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_RAJ_Red_Scars"
+		texturefile = "gfx/interface/ideas/RAJ/RAJ_Red_Scars.dds"
+	}
+	
+	# Ottomans/Turks 
+	
+	spriteType = {
+		name = "GFX_idea_OTT_gendarmerie"
+		texturefile = "gfx/interface/ideas/OTT/OTT_gendarmerie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OTT_autocracy_idea"
+		texturefile = "gfx/interface/ideas/OTT/OTT_autocracy_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OTT_compromise_idea"
+		texturefile = "gfx/interface/ideas/OTT/OTT_compromise_idea.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_OTT_solid_idea"
+		texturefile = "gfx/interface/ideas/OTT/OTT_solid_idea.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_OTT_legacy"
+		texturefile = "gfx/interface/ideas/OTT/OTT_legacy.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_OTT_Sons_of_Rome"
+		texturefile = "gfx/interface/ideas/OTT/OTT_Sons_of_Rome.dds"
+	}
+    spriteType = {
+		name = "GFX_idea_OTT_foreign_capituations"
+		texturefile = "gfx/interface/ideas/OTT/OTT_foreign_capituations.dds"
+	}
+	
+	# China
+	
+	spriteType = {
+		name = "GFX_idea_Xinhai_Order"
+		texturefile = "gfx/interface/ideas/China/Xinhai_Order.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Beiyang_Fragile"
+		texturefile = "gfx/interface/ideas/China/Beiyang_Fragile.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Beiyang_Broken"
+		texturefile = "gfx/interface/ideas/China/Beiyang_Broken.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Beiyang_Shattered"
+		texturefile = "gfx/interface/ideas/China/Beiyang_Shattered.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Beiyang_Money"
+		texturefile = "gfx/interface/ideas/China/Beiyang_Money.tga"
+	}
+
+	spriteType = {
+		name = "GFX_idea_Beiyang_Army"
+		texturefile = "gfx/interface/ideas/China/Beiyang_Army.tga"
+	}
+	
+	# Livonia
+	
+	spriteType = {
+		name = "GFX_idea_teutonic_legacy"
+		texturefile = "gfx/interface/ideas/LIV/idea_teutonic_legacy.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Military_with_a_State"
+		texturefile = "gfx/interface/ideas/LIV/Military_with_a_State.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Freikorps"
+		texturefile = "gfx/interface/ideas/LIV/Freikorps.dds"
+	}
+	
+	# Italy
+	
+	spriteType = {
+		name = "GFX_idea_Sanfedisti"
+		texturefile = "gfx/interface/ideas/ITA/Sanfedisti.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Senussi_Partisans"
+		texturefile = "gfx/interface/ideas/ITA/Senussi_Partisans.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Italy_Broke"
+		texturefile = "gfx/interface/ideas/ITA/Italy_Broke.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Disloyal_Military"
+		texturefile = "gfx/interface/ideas/ITA/Disloyal_Military.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Mezzogiorno"
+		texturefile = "gfx/interface/ideas/ITA/Mezzogiorno.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Italy_Great_War"
+		texturefile = "gfx/interface/ideas/ITA/Italy_Great_War.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Italy_Agrarianism"
+		texturefile = "gfx/interface/ideas/ITA/Italy_Agrarianism.tga"
+	}
+	
+	#Sardinia
+	
+	spriteType = {
+		name = "GFX_idea_Sardinia_in_Revolt"
+		texturefile = "gfx/interface/ideas/SRD/Sardinia_in_Revolt.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SRD_A_Democratic_Vision"
+		texturefile = "gfx/interface/ideas/SRD/A_Democratic_Vision.tga"
+	}
+	
+	#Socialist Italy
+	
+	spriteType = {
+		name = "GFX_idea_SRI_A_Socialist_Vision"
+		texturefile = "gfx/interface/ideas/SRI/SRI_A_Socialist_Vision.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SRI_Italian_Red_Army"
+		texturefile = "gfx/interface/ideas/SRI/SRI_Italian_Red_Army.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SRI_Italian_Revolution"
+		texturefile = "gfx/interface/ideas/SRI/SRI_Italian_Revolution.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SRI_Revolutionary_Fury"
+		texturefile = "gfx/interface/ideas/SRI/SRI_Revolutionary_Fury.tga"
+	}
+	
+	#Republican Italy
+	
+	spriteType = {
+		name = "GFX_idea_VNZ_Italian_Liberation_Army"
+		texturefile = "gfx/interface/ideas/VNZ/VNZ_Italian_Liberation_Army.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VNZ_Revolutionary_Fury"
+		texturefile = "gfx/interface/ideas/VNZ/VNZ_Revolutionary_Fury.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_VNZ_Republican_Struggle"
+		texturefile = "gfx/interface/ideas/VNZ/VNZ_Republican_Struggle.tga"
+	}
+	
+	# Belgium
+	
+	spriteType = {
+		name = "GFX_idea_Legacy_of_Leopold"
+		texturefile = "gfx/interface/ideas/ideas/Legacy_of_Leopold.dds"
+	}
+	
+	# Romania
+	
+	spriteType = {
+		name = "GFX_idea_ROM_carol"
+		texturefile = "gfx/interface/ideas/ROM/ROM_carol.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_michael"
+		texturefile = "gfx/interface/ideas/ROM/ROM_michael.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_backward_industry"
+		texturefile = "gfx/interface/ideas/ideas/backward_industry.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Planned_Economy"
+		texturefile = "gfx/interface/ideas/ideas/Planned_Economy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_seats"
+		texturefile = "gfx/interface/ideas/ROM/ROM_seats.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_agricultural_icon"
+		texturefile = "gfx/interface/ideas/ROM/ROM_agricultural_icon.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_ROM_taxation"
+		texturefile = "gfx/interface/ideas/ROM/ROM_taxation.dds"
+	}
+	
+	# Czechia
+	
+	spriteType = {
+		name = "GFX_idea_Bohemian_Legacy"
+		texturefile = "gfx/interface/ideas/CZE/Bohemian_Legacy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Czech_Dreams"
+		texturefile = "gfx/interface/ideas/CZE/Czech_Dreams.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Food_Shortages"
+		texturefile = "gfx/interface/ideas/CZE/Food_Shortages.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Czech_Communists"
+		texturefile = "gfx/interface/ideas/CZE/Czech_Communists.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Lidove_milice"
+		texturefile = "gfx/interface/ideas/CZE/Lidove_milice.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Obrana"
+		texturefile = "gfx/interface/ideas/CZE/CZE_Obrana.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_isolated_Czechia"
+		texturefile = "gfx/interface/ideas/CZE/CZE_isolated_nation.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_com_pioneers"
+		texturefile = "gfx/interface/ideas/CZE/CZE_com_pioneers.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_ROH"
+		texturefile = "gfx/interface/ideas/CZE/ROH.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CZE_NOUZ"
+		texturefile = "gfx/interface/ideas/CZE/NOUZ.tga"
+	}
+	
+	# Portugal
+	
+	spriteType = {
+		name = "GFX_idea_POR_Divided_Country"
+		texturefile = "gfx/interface/ideas/POR/POR_Divided_Country.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_The_Restoration"
+		texturefile = "gfx/interface/ideas/POR/POR_The_Restoration.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_POR_The_Revolution"
+		texturefile = "gfx/interface/ideas/POR/POR_The_Revolution.tga"
+	}
+	
+	# Japan
+	
+	spriteType = {
+		name = "GFX_idea_JAP_liberty"
+		texturefile = "gfx/interface/ideas/JAP/JAP_liberty.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_mantetsu"
+		texturefile = "gfx/interface/ideas/JAP/JAP_mantetsu.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_doka"
+		texturefile = "gfx/interface/ideas/JAP/JAP_idea_doka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kominka"
+		texturefile = "gfx/interface/ideas/JAP/JAP_idea_kominka.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_opium"
+		texturefile = "gfx/interface/ideas/JAP/JAP_idea_opium.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_assimilation"
+		texturefile = "gfx/interface/ideas/JAP/JAP_assimilation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_cooperation"
+		texturefile = "gfx/interface/ideas/JAP/JAP_cooperation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_ssdc"
+		texturefile = "gfx/interface/ideas/JAP/JAP_ssdc.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_nanko_admin"
+		texturefile = "gfx/interface/ideas/JAP/JAP_nanko_admin.dds"	
+	}
+	spriteType = {
+		name = "GFX_idea_japan_money"
+		texturefile = "gfx/interface/ideas/JAP/Japan_Money.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_yen"
+		texturefile = "gfx/interface/ideas/JAP/JAP_yen.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_democracy"
+		texturefile = "gfx/interface/ideas/JAP/JAP_democracy.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_kohoda"
+		texturefile = "gfx/interface/ideas/JAP/JAP_kohoda.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_toseiha"
+		texturefile = "gfx/interface/ideas/JAP/JAP_toseiha.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_fengtian_exploitation"
+		texturefile = "gfx/interface/ideas/JAP/JAP_fengtian_exploitation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_co_prosper"
+		texturefile = "gfx/interface/ideas/ideas/JAP/JAP_co_prosper.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_mantetsu_collapse"
+		texturefile = "gfx/interface/ideas/ideas/JAP/mantetsu_collapse.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_JAP_Shitty_Tracks"
+		texturefile = "gfx/interface/ideas/ideas/JAP/JAP_Shitty_Tracks.dds"
+	}
+	
+	# Baden-Wurttemberg
+	
+	spriteType = {
+		name = "GFX_idea_sore_loser"
+		texturefile = "gfx/interface/ideas/WUR/sore_loser.dds"
+	}
+	
+	# Albania 
+	
+	spriteType = {
+		name = "GFX_idea_ALB_industry"
+		texturefile = "gfx/interface/ideas/ALB/ALB_industry.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ALB_book"
+		texturefile = "gfx/interface/ideas/ALB/ALB_book.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ALB_foreign_ownership"
+		texturefile = "gfx/interface/ideas/ALB/ALB_foreign_ownership.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_telekomi_shqiptar"
+		texturefile = "gfx/interface/ideas/ALB/companies/telekomi_shqiptar.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_durres"
+		texturefile = "gfx/interface/ideas/ALB/companies/durres.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_vlore"
+		texturefile = "gfx/interface/ideas/ALB/companies/vlore.dds"
+	}
+	
+	# Albona 
+	
+	spriteType = {
+		name = "GFX_idea_LAB_Miners_Uprising"
+		texturefile = "gfx/interface/ideas/LAB/LAB_Miners_Uprising.tga"
+	}
+	
+	# Serbia
+	
+	spriteType = {
+		name = "GFX_idea_Kosovo_Flames"
+		texturefile = "gfx/interface/ideas/SER/Kosovo_Flames.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SER_eotds"
+		texturefile = "gfx/interface/ideas/SER/SER_eotds.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SER_Pioneers"
+		texturefile = "gfx/interface/ideas/SER/SER_Pioneers.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SER_Defense_of_the_Republic"
+		texturefile = "gfx/interface/ideas/SER/SER_Defense_of_the_Republic.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_SER_Workshops"
+		texturefile = "gfx/interface/ideas/SER/SER_Workshops.tga"
+	}
+	
+	# Yugoslavia
+	
+	spriteType = {
+		name = "GFX_idea_Yug_Support_1"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_1.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_2"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_2.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_3"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_3.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_4"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_4.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Yug_Support_5"
+		texturefile = "gfx/interface/ideas/YUG/Yug_Support_5.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_Bosniak_Dissent"
+		texturefile = "gfx/interface/ideas/YUG/Bosniak_Dissent.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Croat_Dissent"
+		texturefile = "gfx/interface/ideas/YUG/Croat_Dissent.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_Serb_Dissent"
+		texturefile = "gfx/interface/ideas/YUG/Serb_Dissent.tga"
+	}
+
+	# Greece
+	spriteType = {
+		name = "GFX_idea_GRE_Booming_Economy"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Booming_Economy_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Political_Factionalism"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Political_Factionalism_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Divided_Military"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Divided_Military_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Foreign_Debts"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Foreign_Debts_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Greek_General_Staff"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Greek_General_Staff_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Debt_Repayment_Measures"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Debt_Repayment_Measures_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Gold_Standard_no"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Gold_Standard_no_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Gold_Standard_yes"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Gold_Standard_yes_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Austerity_Measures"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Austerity_Measures_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Cut_Down_Government_Spending"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Cut_Down_Government_Spending_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Support_Farmers"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Support_Farmers_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Support_Banks"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Support_Banks_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Farmer_Markets_good"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Farmer_Markets_good_gfx.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_GRE_Farmer_Markets_bad"
+		texturefile = "gfx/interface/ideas/GRE/GRE_Farmer_Markets_bad_gfx.tga"
+	}
+
+	#Bulgaria
+	spriteType = {
+		name = "GFX_idea_BUL_VMRO"
+		texturefile = "gfx/interface/ideas/BUL/BUL_VMRO.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_BUL_recovery_civil_war"
+		texturefile = "gfx/interface/ideas/BUL/BUL_recovery_civil_war.dds"
+	}	
+	
+	# France
+	
+	spriteType = {
+		name = "GFX_idea_FRA_Unepic_Marianne"
+		texturefile = "gfx/interface/ideas/FRA/Unepic_Marianne.tga"
+	}
+		
+	spriteType = {
+		name = "GFX_idea_FRA_Corporatist_Economy"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Corporatist_Economy.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_FRA_Regime_of_Marshals"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Regime_of_Marshals.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_FRA_New_Moral_Order"
+		texturefile = "gfx/interface/ideas/FRA/FRA_New_Moral_Order.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_FRA_All_for_the_Army"
+		texturefile = "gfx/interface/ideas/FRA/FRA_All_for_the_Army.tga"
+	}	
+	spriteType = {
+		name = "GFX_idea_FRA_Shield_of_Civilization"
+		texturefile = "gfx/interface/ideas/FRA/FRA_Shield_of_Civilization.tga"
+	}
+	
+	#Hailufeng
+	
+	spriteType = {
+		name = "GFX_idea_HLF_Red_Militia"
+		texturefile = "gfx/interface/ideas/HLF/Red_Militia.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_HLF_Ten_Must_Kill"
+		texturefile = "gfx/interface/ideas/HLF/Ten_Must_Kill.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_HLF_Peasant_Association"
+		texturefile = "gfx/interface/ideas/HLF/peasant_association.tga"
+	}
+
+
+	#CRB
+
+	spriteType = {
+		name = "GFX_idea_CRB_Metropolis_Orient_Theory"
+		texturefile = "gfx/interface/ideas/CRB/city_path.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CRB_Workers_Pickets"
+		texturefile = "gfx/interface/ideas/CRB/workers_pickets.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_CRB_CCCPC"
+		texturefile = "gfx/interface/ideas/CRB/cccpc.tga"
+	}
+	
+	
+	#Spain
+	
+	spriteType = {
+		name = "GFX_idea_SPR_Agrarian_Question"
+		texturefile = "gfx/interface/ideas/SPR/Agrarian_Question.tga"
+	}
+	
+	#Indochina
+	spriteType = {
+		name = "GFX_idea_VNA_annamite_revolt"
+		texturefile = "gfx/interface/ideas/Indochina/VNA_annamite_revolt.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_VNA_annamite_revolt2"
+		texturefile = "gfx/interface/ideas/Indochina/VNA_annamite_revolt2.dds"
+	}		
+	
+	#Persia
+	
+	spriteType = {
+		name = "GFX_idea_PER_A_Persia_Divided"
+		texturefile = "gfx/interface/ideas/PER/PER_A_Persia_Divided.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_PER_Centralization_Resistance"
+		texturefile = "gfx/interface/ideas/PER/PER_Centralization_Resistance.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_PER_Cossack_Regime"
+		texturefile = "gfx/interface/ideas/PER/PER_Cossack_Regime.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_PER_Republican_Opposition"
+		texturefile = "gfx/interface/ideas/PER/PER_Republican_Opposition.dds"
+	}	
+	spriteType = {
+		name = "GFX_idea_KHU_Tribal_Confederation"
+		texturefile = "gfx/interface/ideas/KHU/KHU_Tribal_Confederation.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KHO_A_Haven_for_Arts"
+		texturefile = "gfx/interface/ideas/KHO/KHO_A_Haven_for_Arts.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KHO_Persian_Gendarmerie"
+		texturefile = "gfx/interface/ideas/KHO/KHO_Persian_Gendarmerie.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_KHO_Republican_Tendencies"
+		texturefile = "gfx/interface/ideas/KHO/KHO_Republican_Tendencies.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GLN_Jangal_Heir"
+		texturefile = "gfx/interface/ideas/GLN/GLN_Jangal_Heir.dds"
+	}
+	spriteType = {
+		name = "GFX_idea_GLN_Trad_Resistance"
+		texturefile = "gfx/interface/ideas/GLN/GLN_Trad_Resistance.dds"
+	}
+	
+}

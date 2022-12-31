@@ -1,0 +1,72 @@
+﻿division_template = {
+	name = "Kurdish Irregulars"			# Infantry Brigade
+
+	division_names_group = PER_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Tribal Horsemen"			# Cavalry Brigade
+
+	division_names_group = PER_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND OOB ########
+	##### Kurdish Army #####
+	division = {
+		name = "Wan Horsemen"
+		location = 6935
+		division_template = "Tribal Horsemen"		
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Mosul Protective Regiments"
+		location = 10106
+		division_template = "Kurdish Irregulars"		
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		name = "Maragheh Rifles"
+		location = 12861
+		division_template = "Kurdish Irregulars"		
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+
+	######## No Naval or Air OOB ########
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "KUR"
+		}
+		requested_factories = 1
+		progress = 0.15
+		efficiency = 180
+	}
+}

@@ -1,0 +1,837 @@
+﻿###########################
+# Ottoman Events
+###########################
+
+add_namespace = ott
+add_namespace = ott_wars
+add_namespace = ott_diplo
+add_namespace = ottomanism
+add_namespace = ott_int
+add_namespace = ott_cw
+
+###Recap of Pre-PoD Ottoman History
+
+country_event = {
+	id = ott.1
+	title = ott.1.t
+	desc = ott.1.d
+	picture = GFX_event_OTT_russo_turk_battle
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ott.1.a
+		country_event = { days = 1 id = ott.2 }
+	}
+}
+
+###Post-War Summary
+
+country_event = {
+	id = ott.2
+	title = ott.2.t
+	desc = ott.2.d
+	picture = GFX_event_OTT_ww1_propaganda
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ott.2.a
+		country_event = { days = 1 id = ott.3 }
+	}	
+}
+
+###1920s
+
+
+country_event = {
+	id = ott.3
+	title = ott.3.t
+	desc = ott.3.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ott.3.a
+	}	
+}
+
+###remilitarization of the Straits
+
+country_event = {
+	id = ott.4
+	title = ott.4.t
+	desc = ott.4.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ott.4.a
+		add_stability = 0.03
+		1294 = {
+			set_demilitarized_zone = no
+		}
+		773 = {
+			set_demilitarized_zone = no
+		}
+		774 = {
+			set_demilitarized_zone = no
+		}
+		1179 = {
+			set_demilitarized_zone = no
+		}
+	}	
+}
+
+### Ottomans demand lands
+country_event = {
+	id = ott_wars.0
+	title = ott_wars.0.t
+	desc = ott_wars.0.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ott_wars.0.a
+		set_country_flag = OTT_making_demands
+	}
+}
+
+### National questions of the day
+country_event = {
+	id = ott_diplo.0
+	title = ott_diplo.0.t
+	desc = ott_diplo.0.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = ott_diplo.0.a
+		add_political_power = 50
+		set_country_flag = OTT_conducting_referendums
+	}
+}
+
+country_event = { #referendum over thrace
+	id = ott_diplo.1
+	title = ott_diplo.1.t
+	desc = ott_diplo.1.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	fixed_random_seed = no
+	option = { #go ahead
+		name = ott_diplo.1.a
+		random_list = {
+			56 = {
+				country_event = {
+					id = ott_diplo.2
+					days = 7
+				}
+			}
+			44 = {
+				country_event = {
+					id = ott_diplo.3
+					days = 7
+				}
+			}
+		}
+		set_country_flag = thrace_referendum
+	}
+	option = { #no need
+		name = ott_diplo.1.b
+		political_power = 5
+		remove_state_claim = 184
+		set_country_flag = thrace_referendum
+	}
+}
+
+country_event = { #referendum over thrace goes bad
+	id = ott_diplo.2
+	title = ott_diplo.2.t
+	desc = ott_diplo.2.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ott_diplo.2.a
+		add_political_power = -25
+	}
+}
+
+country_event = { #referendum over thrace goes well
+	id = ott_diplo.3
+	title = ott_diplo.3.t
+	desc = ott_diplo.3.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ott_diplo.3.a
+		transfer_state = 184
+	}
+}
+
+country_event = { #referendum over Armenian territories
+	id = ott_diplo.4
+	title = ott_diplo.4.t
+	desc = ott_diplo.4.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	fixed_random_seed = no
+	
+	option = { #go ahead
+		name = ott_diplo.4.a
+		random_list = {
+			66 = {
+				country_event = {
+					id = ott_diplo.5
+					days = 7
+				}
+			}
+			34 = {
+				country_event = {
+					id = ott_diplo.6
+					days = 7
+				}
+			}
+		}
+		set_country_flag = armenia_referendum
+	}
+	option = { #no need
+		name = ott_diplo.4.b
+		political_power = 5
+		set_country_flag = armenia_referendum
+	}
+}
+
+country_event = { #referendum over kars goes well
+	id = ott_diplo.5
+	title = ott_diplo.5.t
+	desc = ott_diplo.5.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #noice
+		name = ott_diplo.5.a
+		transfer_state = 990
+	}
+}
+
+country_event = { #referendum over kars goes bad
+	id = ott_diplo.6
+	title = ott_diplo.6.t
+	desc = ott_diplo.6.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #ah well
+		name = ott_diplo.6.a
+		add_political_power = -25
+	}
+}
+
+country_event = { #referendum over Syrian territories
+	id = ott_diplo.7
+	title = ott_diplo.7.t
+	desc = ott_diplo.7.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	fixed_random_seed = no
+	
+	option = { #go ahead
+		name = ott_diplo.7.a
+		random_list = {
+			33 = {
+				country_event = {
+					id = ott_diplo.10
+					days = 7
+				}
+			}
+			34 = {
+				country_event = {
+					id = ott_diplo.9
+					days = 7
+				}
+			}
+			33 = {
+				country_event = {
+					id = ott_diplo.8
+					days = 7
+				}
+			}
+		}
+		set_country_flag = syria_referendum
+	}
+	option = { #no need
+		name = ott_diplo.7.b
+		political_power = 5
+		set_country_flag = syria_referendum
+	}
+}
+
+country_event = { #referendum over all territories goes well
+	id = ott_diplo.8
+	title = ott_diplo.8.t
+	desc = ott_diplo.8.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #noice
+		name = ott_diplo.8.a
+		transfer_state = 680
+		transfer_state = 1012
+	}
+}
+
+country_event = { #referendum over haseke goes well
+	id = ott_diplo.9
+	title = ott_diplo.9.t
+	desc = ott_diplo.9.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #noice
+		name = ott_diplo.9.a
+		transfer_state = 680
+	}
+}
+
+country_event = { #referendums go bad
+	id = ott_diplo.10
+	title = ott_diplo.10.t
+	desc = ott_diplo.10.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #eh who cares
+		name = ott_diplo.10.a
+		add_stability = -0.02
+	}
+}
+
+country_event = { #future is looking bright
+	id = ott_diplo.11
+	title = ott_diplo.11.t
+	desc = ott_diplo.11.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #yay
+		name = ott_diplo.11.a
+		remove_country_flag = thrace_referendum
+		remove_country_flag = aegean_referendum
+		remove_country_flag = syria_referendum
+		remove_country_flag = armenia_referendum
+		add_stability = 0.05
+	}
+}
+
+country_event = { #referendum over aegean isles
+	id = ott_diplo.12
+	title = ott_diplo.12.t
+	desc = ott_diplo.12.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	fixed_random_seed = no
+	option = { #go ahead
+		name = ott_diplo.12.a
+		random_list = {
+			56 = {
+				country_event = {
+					id = ott_diplo.13
+					days = 7
+				}
+			}
+			44 = {
+				country_event = {
+					id = ott_diplo.14
+					days = 7
+				}
+			}
+		}
+		set_country_flag = aegean_referendum
+	}
+	option = { #no need
+		name = ott_diplo.12.b
+		political_power = 5
+		remove_state_claim = 187
+		set_country_flag = aegean_referendum
+	}
+}
+
+country_event = { #referendum over aegean isles goes well
+	id = ott_diplo.13
+	title = ott_diplo.13.t
+	desc = ott_diplo.12.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #noice
+		name = ott_diplo.12.a
+		transfer_state = 187
+	}
+}
+
+country_event = { #referendum goes bad
+	id = ott_diplo.14
+	title = ott_diplo.14.t
+	desc = ott_diplo.14.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #eh who cares
+		name = ott_diplo.10.a
+		add_stability = -0.02
+	}
+}
+
+###Ottomanism tree events###
+
+country_event = { #academic overhaul
+	id = ottomanism.0
+	title = ottomanism.0.t
+	desc = ottomanism.0.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #costly but worth it
+		name = ottomanism.0.a
+		swap_ideas = {
+			add_idea = OTT_sick_man_in_recovery_1
+			remove_idea = OTT_sick_man_in_recovery
+		}
+		add_political_power = -75
+		add_stability = 0.02
+	}
+}
+
+country_event = { #historical ties to Anatolia and people around us
+	id = ottomanism.1
+	title = ottomanism.1.t
+	desc = ottomanism.1.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #cool
+		name = ottomanism.1.a
+		if = {
+			limit = { has_idea = OTT_sick_man_in_recovery_1 }
+			swap_ideas = {
+				add_idea = OTT_sick_man_in_recovery_2
+				remove_idea = OTT_sick_man_in_recovery_1
+			}
+		}
+		else_if = {
+			swap_ideas = {
+				add_idea = OTT_sick_man_in_recovery_4
+				remove_idea = OTT_sick_man_in_recovery_3
+			}
+		}
+		add_political_power = 25
+		add_stability = 0.01
+	}
+}
+
+country_event = { #a national identity
+	id = ottomanism.2
+	title = ottomanism.2.t
+	desc = ottomanism.2.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #love the motherland
+		name = ottomanism.2.a
+		if = {
+			limit = { has_idea = OTT_sick_man_in_recovery_1 }
+			swap_ideas = {
+				add_idea = OTT_sick_man_in_recovery_3
+				remove_idea = OTT_sick_man_in_recovery_1
+			}
+		}
+		else_if = {
+			swap_ideas = {
+				add_idea = OTT_sick_man_in_recovery_4
+				remove_idea = OTT_sick_man_in_recovery_2
+			}
+		}
+		add_political_power = 25
+		add_stability = 0.01
+	}
+}
+
+country_event = { #status of the caliphate
+	id = ottomanism.3
+	title = ottomanism.3.t
+	desc = ottomanism.3.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #reform the caliphate and the religious establishment
+		name = ottomanism.3.a
+		add_political_power = -25
+		country_event = {
+			id = ott_int.0
+			days = 21
+		}
+	}
+	option = { #minimize reforms
+		name = ottomanism.3.b
+		add_war_support = 0.05
+		set_country_flag = conventional_islamism
+		add_ideas = OTT_caliphate_of_world
+	}
+}
+
+###Aftermath of Ottoman "Internal Affairs" Event Chain###
+country_event = { #limited reforms
+	id = ottomanism.4
+	title = ottomanism.4.t
+	desc = ottomanism.4.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #today is a good day
+		name = ottomanism.4.a
+		swap_ideas = {
+			add_idea = OTT_sick_man_in_recovery_5
+			remove_idea = OTT_sick_man_in_recovery_4
+		}
+		add_political_power = 25
+		add_stability = 0.05
+	}
+}
+
+country_event = { #full reforms
+	id = ottomanism.5
+	title = ottomanism.5.t
+	desc = ottomanism.5.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = { #today is a good day
+		name = ottomanism.5.a
+		swap_ideas = {
+			add_idea = OTT_sick_man_in_recovery_6
+			remove_idea = OTT_sick_man_in_recovery_4
+		}
+		add_political_power = 75
+		add_stability = 0.15
+	}
+}
+
+country_event = { #nobility successfully took over the state
+	id = ottomanism.6
+	title = ottomanism.6.t
+	desc = ottomanism.6.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	option = {
+		name = ottomanism.6.a
+		#Invite Enver Pasha as a popular compromise
+	}
+}
+
+###Ottoman Religious Reforms Event Chain###
+
+country_event = { #Legal Reforms
+	id = ott_int.0
+	title = ott_int.0.t
+	desc = ott_int.0.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #western approach
+		name = ott_int.0.a
+		add_political_power = -25
+		country_event = {
+			id = ott_int.1
+			days = 14
+		}
+	}
+}
+
+country_event = { #Further Legal Reforms
+	id = ott_int.1
+	title = ott_int.1.t
+	desc = ott_int.1.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #Inheritance for Women
+		name = ott_int.1.a
+		add_political_power = -10
+		add_stability = 0.02
+		set_country_flag = OTT_women_can_inherit
+		country_event = {
+			id = ott_int.2
+			days = 14
+		}
+	}
+	option = { #back to the Harem
+		name = ott_int.1.b
+		add_political_power = 10
+		add_stability = -0.02
+		country_event = {
+			id = ott_int.2
+			days = 14
+		}
+	}
+}
+
+country_event = { #changes in Islamic Law 
+	id = ott_int.2
+	title = ott_int.2.t
+	desc = ott_int.2.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #polygamy banned (?)
+		name = ott_int.2.a
+		##slightly butthurt muslim kingdoms for a year or two
+		country_event = {
+			id = ott_int.3
+		}
+	}
+	option = { #only ban local polygamy
+		name = ott_int.2.b
+		
+		country_event = {
+			id = ott_int.3
+		}
+	}
+}
+
+country_event = { #Land reforms
+	id = ott_int.3
+	title = ott_int.3.t
+	desc = ott_int.3.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { #the stick
+		name = ott_int.3.a
+		random_list = {
+			90 = {
+				country_event = {
+					id = ott_int.4
+					days = 28
+				}
+			}
+			10 = {
+				country_event = {
+					id = ott_int.5
+					days = 28
+				}
+			}
+		}
+	}
+	option = { #the carrot
+		name = ott_int.3.b
+		random_list = {
+			20 = {
+				country_event = {
+					id = ott_int.4
+					days = 28
+				}
+			}
+			35 = {
+				country_event = {
+					id = ott_int.5
+					days = 28
+				}
+			}
+			45 = {
+				country_event = {
+					id = ott_int.6
+					days = 28
+				}
+			}
+		}
+	}
+}
+
+country_event = { #effective land reforms
+	id = ott_int.4
+	title = ott_int.4.t
+	desc = ott_int.4.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = ott_int.4.a
+		country_event = {
+			id = ott_int.7
+		}
+	}
+}
+
+country_event = { #partially effective land reforms
+	id = ott_int.5
+	title = ott_int.5.t
+	desc = ott_int.5.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = ott_int.5.a
+		country_event = {
+			id = ott_int.7
+		}
+	}
+}
+
+country_event = { #not effective land reforms
+	id = ott_int.6
+	title = ott_int.6.t
+	desc = ott_int.6.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { 
+		name = ott_int.6.a
+		country_event = {
+			id = ott_int.7
+		}
+	}
+}
+
+### Ottoman Civil War Events
+
+country_event = { #Ottoman civil war
+	id = ott_cw.0
+	title = ott_cw.0.t
+	desc = ott_cw.0.d
+	picture = GFX_event_OTT_propaganda_poster
+
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	immediate = {
+		set_ruling_party = right_wing_populist
+		TUR = {
+			transfer_state = 1179
+			transfer_state = 341
+			transfer_state = 1282
+			transfer_state = 1294
+			transfer_state = 1284
+			transfer_state = 339
+			transfer_state = 1276
+			transfer_state = 342
+			transfer_state = 1272
+			transfer_state = 343
+			transfer_state = 49
+			transfer_state = 774
+			transfer_state = 356
+			transfer_state = 355
+			transfer_state = 354
+			transfer_state = 1034
+			transfer_state = 347
+			transfer_state = 1269
+			transfer_state = 1245
+			set_province_controller = 9954
+		}
+		every_state = {
+			limit = {
+				is_core_of = OTT
+			}
+			add_core_of = TUR
+        }
+		KUR = {
+			transfer_state = 1277
+			transfer_state = 1275
+			transfer_state = 1024
+			transfer_state = 1285
+			transfer_state = 676
+			transfer_state = 819
+		}
+		every_state = {
+			limit = {
+				is_owned_by = KUR
+			}
+			add_core_of = KUR
+		}
+		OTT = {
+			puppet = KUR
+			add_ideas = recruitment_1830
+		}
+	}
+	option = { ###Play as Ottomans
+		name = ott_cw.0.a
+		TUR = {
+			declare_war_on = {
+				target = OTT
+				type = annex_everything
+			}
+			declare_war_on = {
+				target = KUR
+				type = annex_everything
+			}
+		}
+	}
+	option = { ###Play as SR Turkey
+		name = ott_cw.0.b
+		TUR = { change_tag_from = OTT }
+		OTT = {
+			declare_war_on = {
+				target = TUR
+				type = annex_everything
+			}
+		}
+		TUR = {
+			declare_war_on = {
+				target = KUR
+				type = annex_everything
+			}
+		}
+	}
+}

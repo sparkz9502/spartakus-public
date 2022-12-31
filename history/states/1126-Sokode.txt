@@ -1,0 +1,23 @@
+
+state={
+	id=1126
+	name="STATE_1126"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		victory_points = {
+			12874 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1975 2056 12707 12874 13746 13869 14145 
+	}
+	manpower=582100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

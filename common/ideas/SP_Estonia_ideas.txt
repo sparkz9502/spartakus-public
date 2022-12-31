@@ -1,0 +1,49 @@
+ideas = {
+
+#################
+# Estonia Ideas #
+#################
+
+	country = {
+	
+		EST_subordinate_to_livonia = {
+			picture = Oppression_Idea
+
+			allowed = {
+				original_tag = EST
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				political_power_gain = -0.10
+				war_support_factor = -0.2
+				conscription_factor = -0.25
+			}
+		}
+		
+		EST_vaps_movement = {
+			picture = Mass_Conscription
+
+			allowed = {
+				original_tag = EST
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_morale_factor = -0.1
+				stability_factor = -0.1
+			}
+		}
+
+	}
+}

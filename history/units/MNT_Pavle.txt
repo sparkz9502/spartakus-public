@@ -1,0 +1,49 @@
+﻿division_template = {
+	name = "Četnici"	# Standing regular army divisions
+	division_names_group = MNT_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+}
+
+units = {
+	##### Crnogorska Vojska #####
+	division= {	# "1a Pješadijska Divizija"
+		name = "Pajini Četnici"
+		location = 9809 # Podgorica
+		division_template = "Četnici"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+	
+	division= {	# "2a Pješadijska Divizija"
+		name = "Lješanski Četnici"
+		location = 6913 # Lješani
+		division_template = "Četnici"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+
+air_wings = {
+	### No Notable Aviation
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ITA"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+		amount = 500
+	}
+}

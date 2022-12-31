@@ -1,0 +1,446 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### LAT
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_LAT_Roberts_Osis_hog_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Roberts_Osis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Vilis_Lrcis_hog_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Vilis_Lrcis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Augusts_Kirchensteins_hog_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Augusts_Kirchensteins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Pauls_Kalnins_hog_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Pauls_Kalnins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Reinhold_K_Zarins_hog_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Reinhold_K_Zarins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Rudolfs_Bangerskis_hog_aco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Rudolfs_Bangerskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Kaminskis_hog_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Kaminskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Krrlis_Ulmanis_hog_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Krrlis_Ulmanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Alfreds_Valdmanis_hog_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Alfreds_Valdmanis.tga"
+}
+
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_LAT_Arnolds_Skrebers_for_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Arnolds_Skrebers.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Ernests_Kreismanis_for_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Ernests_Kreismanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Peteris_Valeskalns_for_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Peteris_Valeskalns.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Augusts_Kirchensteins_for_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Augusts_Kirchensteins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Julijcs_Lacis_for_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Julijcs_Lacis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Alfreds_Bilmanis_for_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Alfreds_Bilmanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Reinhold_K_Zarins_for_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Reinhold_K_Zarins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Kaminskis_for_aco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Kaminskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Krrlis_Ulmanis_for_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Krrlis_Ulmanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Vilhelms_Munters_for_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Vilhelms_Munters.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Alfreds_Valdmanis_for_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Alfreds_Valdmanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Mrrtins_Primanis_for_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Mrrtins_Primanis.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_LAT_Aleksandrs_Bulle_eco_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Aleksandrs_Bulle.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Arnolds_Tabaks_eco_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Arnolds_Tabaks.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Krrlis_Karlsons_eco_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Krrlis_Karlsons.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Roberts_Dambitis_eco_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Roberts_Dambitis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Edgars_Andersons_eco_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Edgars_Andersons.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Petrus_Apskalns_eco_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Petrus_Apskalns.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Ludvigs_Ctis_eco_aco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Ludvigs_Ctis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Alfreds_Valdmanis_eco_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Alfreds_Valdmanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Kaminskis_eco_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Kaminskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Kornelijs_Veidnieks_eco_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Kornelijs_Veidnieks.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Vilis_Gulbis_eco_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Vilis_Gulbis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Evalds_Andersons_eco_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Evalds_Andersons.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Miezis_eco_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Miezis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Skujevics_eco_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Skujevics.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_LAT_Andrejs_Jablonskis_sec_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Andrejs_Jablonskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Rodolfs_Rocin_sec_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Rodolfs_Rocin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jurijs_Rabersz_sec_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jurijs_Rabersz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Vilis_Lrcis_sec_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Vilis_Lrcis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jazeps_Rancans_sec_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jazeps_Rancans.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Pauls_Kalnins_sec_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Pauls_Kalnins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Janis_Andersons_sec_aco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Janis_Andersons.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Hermanis_Apsitis_sec_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Hermanis_Apsitis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Balodis_sec_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Balodis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Vilis_Gulbis_sec_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Vilis_Gulbis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Alberts_Kviesis_sec_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Alberts_Kviesis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Alfreds_Valdmanis_sec_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Alfreds_Valdmanis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Teodors_Zvejnieks_sec_nsy"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Teodors_Zvejnieks.tga"
+}
+
+
+#Intel Minister
+spriteType = {
+	name = "GFX_idea_LAT_Teodors_Zvejnieks_def_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Teodors_Zvejnieks.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Vilis_Lrcis_def_bol"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Vilis_Lrcis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jurijs_Rabersz_def_spa"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jurijs_Rabersz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Felix_Cielens_def_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Felix_Cielens.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Fricis_Celmins_def_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Fricis_Celmins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Reinhold_K_Zarins_def_sco"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Reinhold_K_Zarins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Hermanis_Apsitis_def_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Hermanis_Apsitis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Krrlis_Ulmanis_def_rwp"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Krrlis_Ulmanis.tga"
+}
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_LAT_Arturs_Sprogis_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Arturs_Sprogis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Izglitibas_Tautas_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Izglitibas_Tautas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Janis_Berzins_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Janis_Berzins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Roberts_Dambitis_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Roberts_Dambitis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Verners_Tefpers_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Verners_Tefpers.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Rudolfs_Kocins_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Rudolfs_Kocins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jrnis_Balodis_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jrnis_Balodis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Krisjrnis_Berkis_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Krisjrnis_Berkis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Arturs_M_Silgailis_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Arturs_M_Silgailis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Konstantins_Cakste_cos"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Konstantins_Cakste.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_LAT_Arturs_Sprogis_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Arturs_Sprogis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Roberts_Osis_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Roberts_Osis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Janis_Berzins_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Janis_Berzins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Roberts_Dambitis_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Roberts_Dambitis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Rudolfs_Kocins_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Rudolfs_Kocins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Fricis_Celmins_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Fricis_Celmins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Rudolfs_Bangerskis_carm"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Rudolfs_Bangerskis.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_LAT_Teodors_Zvejnieks_cnav"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Teodors_Zvejnieks.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Augusts_Kirchensteins_cnav"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Augusts_Kirchensteins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Julijcs_Lacis_cnav"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Julijcs_Lacis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Janis_Andersons_cnav"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Janis_Andersons.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Tomas_Spade_cnav"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Tomas_Spade.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Konstantins_Cakste_cnav"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Konstantins_Cakste.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_LAT_Izglitibas_Tautas_cair"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Izglitibas_Tautas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Edgars_Andersons_cair"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Edgars_Andersons.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Jucums_Vacietis_cair"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Jucums_Vacietis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Rudolfs_Bangerskis_cair"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Rudolfs_Bangerskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Janis_Indans_cair"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Janis_Indans.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LAT_Konstantins_Cakste_cair"
+	texturefile = "gfx/interface/ministers/LAT/LAT_Konstantins_Cakste.tga"
+}
+}

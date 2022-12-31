@@ -1,0 +1,216 @@
+spriteTypes = {
+
+	#Infantry Tech
+	
+	#Tanks
+	
+	SpriteType = {
+		name = "GFX_GER_basic_light_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_basic_light_tank.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_improved_light_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_imp_light_tank.tga"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_gwtank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_gwtank.tga"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_advanced_light_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_adv_light_tank.tga"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_basic_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_basic_main_tank.tga"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_improved_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_imp_main_tank.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_advanced_medium_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_adv_main_tank.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_main_battle_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_main_battle_tank.tga"
+	}	
+
+	SpriteType = {
+		name = "GFX_GER_basic_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_basic_heavy_tank.tga"
+	}	
+	
+	SpriteType = {
+		name = "GFX_GER_improved_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_imp_heavy_tank.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_advanced_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_adv_heavy_tank.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_GER_super_heavy_tank_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_superheavy_tank.tga"
+	}
+	
+	#Planes
+	
+	SpriteType = {
+		name = "GFX_GER_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_early_fighter.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_fighter1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_fighter2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_fighter2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_fighter3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_fighter4_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_fighter4.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_CAS1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_CAS1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_CAS2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_CAS2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_CAS3_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_CAS3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_CAS4_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_CAS4.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_naval_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_naval_bomber1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_naval_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_naval_bomber2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_naval_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_naval_bomber3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_naval_bomber4_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_naval_bomber4.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_early_bomber_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_early_bomber.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_tactical_bomber1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_tactical_bomber2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_tactical_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_tactical_bomber3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_tactical_bomber4.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_heavy_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_heavy_fighter1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_heavy_fighter2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_heavy_fighter2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_heavy_fighter3_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_heavy_fighter3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_strategic_bomber1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_strategic_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_strategic_bomber2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_strategic_bomber3_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_strategic_bomber3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_jet_fighter1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_fighter2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_jet_fighter2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_tactical_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_jet_tactical_bomber1.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_tactical_bomber2_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_jet_tactical_bomber2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_jet_strategic_bomber1_medium"
+		texturefile = "gfx/interface/technologies/Germany/GER_jet_strategic_bomber1.tga"
+	}
+	
+	#Artillery
+	
+}

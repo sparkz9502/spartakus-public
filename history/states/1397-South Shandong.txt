@@ -1,0 +1,23 @@
+
+state={
+	id=1397
+	name="STATE_1397"
+	provinces={
+		1124 1154 4181 7055 7200 9956 9971 10043 12015 
+	}
+	history={
+		owner = SHA
+		add_core_of = SHA
+				victory_points = {
+			12015 2
+					}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=6579000
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

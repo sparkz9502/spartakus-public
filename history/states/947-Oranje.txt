@@ -1,0 +1,26 @@
+
+state={
+	id=947
+	name="STATE_947"
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			14648 3 
+		}
+
+	}
+
+	provinces={
+		12064 14621 14622 14623 14628 14634 14635 14645 14648 14649 14654 14658 14661 14663 14665 14673 14683 
+	}
+	manpower=752100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

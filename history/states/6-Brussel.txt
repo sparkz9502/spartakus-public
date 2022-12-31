@@ -1,0 +1,44 @@
+
+state={
+	id=6
+	name="STATE_6"
+	resources={
+		coal=6
+	}
+
+	history={
+		owner = BEL
+		victory_points = {
+			516 30 
+		}
+		victory_points = {
+			6598 20 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 3
+			dockyard = 1
+			6598 = {
+				naval_base = 5
+			}
+			6598 = {
+				bunker = 1
+			}
+			516 = {
+				bunker = 1
+			}
+		}
+		add_core_of = BEL
+		#add_core_of = FLN
+
+	}
+
+	provinces={
+		516 6598 9574 11419 13068 14545 
+	}
+	manpower=3221100
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

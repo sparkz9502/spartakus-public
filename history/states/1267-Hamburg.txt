@@ -1,0 +1,40 @@
+
+state={
+	id=1267
+	name="STATE_1267"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			9347 20 
+		}
+		victory_points = {
+			12393 10 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 1
+			fuel_silo = 1
+			anti_air_building = 1
+			air_base = 3
+			dockyard = 1
+			9347 = {
+				naval_base = 2
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		9347 12393 
+	}
+	manpower=1711900
+	buildings_max_level_factor=1.000
+	state_category=small_metropolis
+	local_supplies=0.000
+}

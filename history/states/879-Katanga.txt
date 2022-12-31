@@ -1,0 +1,27 @@
+
+state={
+	id=879
+	name="STATE_879"
+	resources={
+		copper=68.000
+	}
+
+	history={
+		owner = CNR
+		add_core_of = CNR
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			13930 1 
+		}
+	}
+
+	provinces={
+		191 1516 1817 1929 1968 4515 12795 12907 13173 13495 13904 13906 13910 13913 13917 13920 13922 13926 13928 13930 13931 13933 14006 14765 14779 14788 14794 14800 
+	}
+	manpower=960100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

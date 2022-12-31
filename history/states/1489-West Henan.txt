@@ -1,0 +1,23 @@
+
+state={
+	id=1489
+	name="STATE_1489"
+	provinces={
+		1603 4547 
+	}
+	history={
+		owner = KMC
+		add_core_of = KMC
+		victory_points = {
+			1603 5 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=1945200
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

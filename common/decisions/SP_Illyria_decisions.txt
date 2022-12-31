@@ -1,0 +1,37 @@
+
+# Support from Italy
+CRO_Italian_Support = {
+
+	ITA_CRO_dec_send_old_guns = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = ITA_Support_Illyria
+        }
+        days_remove = 30
+		days_re_enable = 5
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 150
+			}
+		}
+		
+		custom_cost_text = ITA_CRO_dec_cost_infantry_150
+
+        complete_effect = {
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -150
+				}
+			}
+			CRO = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = 150
+				}
+		}
+	}
+}
+
+}

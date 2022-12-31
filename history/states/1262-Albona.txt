@@ -1,0 +1,28 @@
+state={
+	id=1262
+	name="STATE_1262"
+	resources={
+		coal=2
+	}
+	provinces={
+		15184 
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = CRO
+		add_core_of = STJ
+		add_core_of = LAB
+		victory_points = {
+			15184 1
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+
+	}
+	manpower=103100
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

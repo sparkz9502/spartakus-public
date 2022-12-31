@@ -1,0 +1,534 @@
+﻿###########################
+# Croatia Events
+###########################
+# By Last Witch of Illyrith (im gay)
+###########################
+
+add_namespace = croatia
+
+#Volunteers from Serbia
+
+country_event = { 
+	id = croatia.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.1"}
+	title = croatia.1.t
+	desc = croatia.1.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.1.a # great!
+		add_manpower = 1000
+        add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = 1000
+				}
+	}
+}
+
+#Agreement with Serbia
+
+country_event = { 
+	id = croatia.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.2"}
+	title = croatia.2.t
+	desc = croatia.2.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+
+	trigger = {
+		tag = STJ
+		STJ = { owns_state = 109 }
+		STJ = { 
+		OR = {
+		has_government = social_democrat
+		has_government = liberal_conservative
+		has_government = social_liberal
+		}
+		}
+		SER = { has_government = social_liberal }
+		NOT = {
+			STJ = {
+					has_war_with = CRO
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.2.a # keep close ties but delineate ethnically
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = {
+		name = croatia.2.b # join yugoslavia
+		ai_chance = {
+			factor = 75
+		}
+		SER = {
+			annex_country = {
+				target = STJ
+				transfer_troops = yes
+			}
+			transfer_technology = yes
+			change_tag_from = STJ
+		}
+		SER = {
+		set_cosmetic_tag = Federation_of_Yugoslavia
+		}
+	}
+}
+
+#Agreement with Serbia 2
+
+country_event = { 
+	id = croatia.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.5"}
+	title = croatia.2.t
+	desc = croatia.2.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+
+	trigger = {
+		tag = STJ
+		STJ = { owns_state = 109 }
+		STJ = { 
+		OR = {
+		has_government = spartacist
+		has_government = bolshevist
+		has_government = revolutionary_socialist
+		}
+		}
+		SER = {
+        OR = {
+		has_government = spartacist
+		has_government = bolshevist
+		has_government = revolutionary_socialist
+		}
+		}
+		NOT = {
+			STJ = {
+					has_war_with = CRO
+			}
+		}
+	}
+	
+	mean_time_to_happen = {
+		days = 3
+	}
+
+	fire_only_once = yes
+	
+	option = {
+		name = croatia.5.b # join yugoslavia
+		ai_chance = {
+			factor = 75
+		}
+		SER = {
+			annex_country = {
+				target = STJ
+				transfer_troops = yes
+			}
+			transfer_technology = yes
+			change_tag_from = STJ
+		}
+	}
+}
+
+#Fix Spoils of War
+
+country_event = { 
+	id = croatia.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.3"}
+	title = croatia.3.t
+	desc = croatia.3.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+
+	trigger = {
+	STJ = {
+		owns_state = 109
+		}
+		has_country_flag = CROLiberalsRiseUp
+	}
+	
+	fire_only_once = yes
+
+	option = {
+		name = croatia.3.a # mhm
+		
+		
+        every_owned_state = {
+
+			limit = {
+				is_core_of = BOS
+				is_owned_by = STJ
+			}
+
+			BOS = {
+				transfer_state = PREV
+			}
+		}
+		
+		every_owned_state = {
+
+			limit = {
+				is_core_of = STJ
+				is_owned_by = BOS
+			}
+
+			STJ = {
+				transfer_state = PREV
+			}
+		}
+		
+		every_owned_state = {
+
+			limit = {
+				is_core_of = SLV
+				is_owned_by = STJ
+			}
+
+			SLV = {
+				transfer_state = PREV
+			}
+		}
+		
+		every_owned_state = {
+
+			limit = {
+				is_core_of = SLV
+				is_owned_by = BOS
+			}
+
+			SLV = {
+				transfer_state = PREV
+			}
+		}
+		
+		transfer_state = 1207
+		transfer_state = 1205
+	}
+}
+
+#First Elections
+
+country_event = { 
+	id = croatia.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.4"}
+	title = croatia.4.t
+	desc = croatia.4.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+     
+	immediate = {
+	SP_clear_coalition_effect = yes
+	SP_clear_banned_effect = yes
+	}
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.4.a # HRSS
+		set_country_flag = HRSS_Elections_Win
+		add_political_power = 25
+		set_politics = {
+				ruling_party = social_democrat
+			}
+	}
+	
+	option = {
+		name = croatia.4.b # HSP
+		set_country_flag = HSP_Elections_Win
+		add_political_power = -25
+		set_politics = {
+				ruling_party = social_conservative
+			}
+	}
+	
+	option = {
+		name = croatia.4.c # KPJ
+		set_country_flag = Not_So_Fast
+		add_political_power = -50
+		set_politics = {
+				ruling_party = revolutionary_socialist
+			}
+	}
+}
+
+#Expunge Reactionaries
+
+country_event = { 
+	id = croatia.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.6"}
+	title = croatia.6.t
+	desc = croatia.6.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.6.a # I killed them. I killed them all. They're dead, every single one of them. And not just the men, but the women and the children, too. They're like animals, and I slaughtered them like animals. I HATE THEM.
+		set_country_flag = Stjepan_ANGERY
+		add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.1
+			}
+		add_popularity = {
+				ideology = right_wing_populist
+				popularity = -0.03
+			}
+		add_popularity = {
+				ideology = social_conservative
+				popularity = -0.03
+			}
+		add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.03
+			}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.03
+			}
+	}
+	
+	option = {
+		name = croatia.6.b # Only Extremists
+		set_country_flag = Stjepan_Regular
+		add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.07
+			}
+		add_popularity = {
+				ideology = right_wing_populist
+				popularity = -0.03
+			}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.01
+			}
+	}
+}
+
+#Appoint a Minister of Propaganda
+
+country_event = { 
+	id = croatia.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.7"}
+	title = croatia.7.t
+	desc = croatia.7.d
+	picture = GFX_report_event_soviet_purge_speech
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.7.a # Franjo Gazi
+		set_country_flag = STJ_Franjo_Gazi
+		add_political_power = 15
+		add_popularity = {
+				ideology = social_liberal
+				popularity = 0.03
+			}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.03
+			}
+	}
+	
+	option = {
+		name = croatia.7.b # Filip Lakus
+		set_country_flag = STJ_Filip_Lakus
+		add_political_power = 50
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.03
+			}
+		add_popularity = {
+				ideology = reformist_socialist
+				popularity = 0.03
+			}
+	}
+}
+
+#Offer from France
+
+country_event = { 
+	id = croatia.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.8"}
+	title = croatia.8.t
+	desc = croatia.8.d
+	picture = GFX_report_event_soviet_purge_speech
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.8.a # Accept
+		ai_chance = {
+			factor = 100
+		}
+		set_province_name = {
+				id = 3943
+				name = "Jadres"
+			}
+		996 = {
+				set_state_name = "Jadres"
+			}
+		FRA = {
+			    set_country_flag = FRA_Jadres_Port
+				transfer_state = 996
+		}
+		add_political_power = 100
+		FRA = { add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -1000
+				}
+		}
+		STJ = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = 1000
+				}
+		}
+		FRA = {
+			add_to_faction = STJ
+
+			add_opinion_modifier = { target = STJ modifier = large_increase }
+
+		}
+	}
+	
+	option = {
+		name = croatia.8.b # Decline
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+#Funding of the Zagreb-Split Highway
+
+country_event = { 
+	id = croatia.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.9"}
+	title = croatia.9.t
+	desc = croatia.9.d
+	picture = GFX_report_event_china_ledo_road
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.9.a # Here comes the M O N E Y
+		add_political_power = -250
+		add_popularity = {
+				ideology = social_democrat
+				popularity = -0.05
+			}
+		STJ = { country_event = { id = croatia.10 days = 350 } }
+	}
+	option = {
+		name = croatia.9.b # Moderation
+		add_political_power = -150
+		STJ = { country_event = { id = croatia.10 days = 900 } }
+	}
+	option = {
+		name = croatia.9.c # No megalomaniac projects please
+		STJ = { country_event = { id = croatia.10 days = 1500 } }
+	}
+}
+
+#Completion of the Zagreb-Split Highway
+
+country_event = { 
+	id = croatia.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.10"}
+	title = croatia.10.t
+	desc = croatia.10.d
+	picture = GFX_report_event_china_ledo_road
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.10.a # grand...
+		add_ideas = STJ_Infrastructure_of_the_Future
+		add_political_power = 150
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.05
+			}
+	    }
+}
+
+#Dissolution of the HRSS Tent - Normal
+
+country_event = { 
+	id = croatia.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.100"}
+	title = croatia.100.t
+	desc = croatia.100.d
+	picture = GFX_ITA_crowd
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.100.a # It was a matter of time
+		add_timed_idea = {
+            idea = STJ_Dissolution_of_the_HRSS_Tent
+            days = 50
+        } 
+		add_political_power = -50
+		hidden_effect = {
+		add_popularity = {
+				ideology = social_conservative
+				popularity = 0.02
+			}
+		    }
+	    }
+}
+
+#Dissolution of the HRSS Tent - HRP
+
+country_event = { 
+	id = croatia.101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event croatia.101"}
+	title = croatia.101.t
+	desc = croatia.101.d
+	picture = GFX_ITA_crowd
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = croatia.101.a # It was a matter of time
+		add_timed_idea = {
+            idea = STJ_Dissolution_of_the_HRSS_Tent_HRP
+            days = 50
+        } 
+		add_political_power = -50
+		hidden_effect = {
+		add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.02
+			}
+		    }
+	    }
+}

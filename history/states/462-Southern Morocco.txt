@@ -1,0 +1,28 @@
+
+state={
+	id=462
+	name="STATE_462"
+	resources={
+		raremetals=1.000
+	}
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			14424 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1102 1989 4108 4933 5046 7203 7908 8046 10107 13077 14410 14416 14417 14424 14449 14461 14487 14491 14493 14512 14526 14527 
+	}
+	manpower=759900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,22 @@
+########################
+### Persian States	 ###
+########################
+
+PER_fars_government_gui = {
+	allowed = { 
+		OR = {
+			tag = PER
+			tag = KHO
+			tag = KHU
+			# tag = GIL ##??
+			# tag = TCS ##??
+		}
+	}
+	visible = {
+		NOT = {
+			has_global_flag = PER_fars_government_end
+		}
+	}
+	icon = GFX_decision_category_generic_independence
+	scripted_gui = fars_government_decision_ui
+}

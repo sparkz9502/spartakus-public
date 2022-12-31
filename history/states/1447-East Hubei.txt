@@ -1,0 +1,29 @@
+
+state={
+	id=1447
+	name="STATE_1447"
+	provinces={
+		7167 7637 9959 10462 
+	}
+	resources={
+		iron=10
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9959 2 
+		}
+		victory_points = {
+			10462 2 
+		}
+
+	}
+	manpower=4903900
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

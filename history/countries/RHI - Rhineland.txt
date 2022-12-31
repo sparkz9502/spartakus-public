@@ -1,0 +1,101 @@
+﻿capital = 1169
+recruit_character = RHI_ludwig_kaas
+recruit_character = RHI_hans_adam_dorten
+recruit_character = RHI_erich_kochweser
+recruit_character = RHI_otto_wels
+recruit_character = RHI_artur_dinter
+recruit_character = RHI_walter_model
+recruit_character = RHI_wilhelm_ritter_von_leeb
+recruit_character = RHI_georghans_reinhardt
+recruit_character = RHI_alfred_jodl
+recruit_character = RHI_sepp_dietrich
+recruit_character = RHI_hasso_von_manteuffel
+recruit_character = RHI_albert_kesselring
+recruit_character = RHI_gotthard_heinrici
+recruit_character = RHI_günther_lütjens
+recruit_character = RHI_walter_hoffmann
+recruit_character = RHI_otto_muller
+recruit_character = RHI_theodor_behrmann
+recruit_character = RHI_hermann_beisswenger
+recruit_character = RHI_heinz_sturm
+recruit_character = RHI_wilhelm_lang
+recruit_character = RHI_joachim_hartmann
+set_oob = "RHI"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	gwtank = 1
+	tech_support = 1
+	tech_recon = 1		
+	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_maintenance_company = 1
+	tech_military_police = 1
+	tech_logistics_company = 1
+	early_fighter = 1
+	early_bomber = 1
+	transport = 1
+}
+
+set_research_slots = 4
+set_convoys = 25
+set_stability = 0.25
+set_war_support = 0.1
+
+add_ideas = {
+	recruitment_disarmed
+	governance_exec
+	trade_laif
+	economy_ind
+	mobilization_2
+	
+	RHI_French_Oversight
+	RHI_Military_Restrictions
+	RHI_Heirs_of_Weimar
+	RHI_The_Artaman_League
+	
+	#HOG: Konrad Adenauer - SocCon
+	#MWP: Paul Tirard - No Ideology
+	#FOR: Hans Adam Dorten - LibCon
+	#ECO: Heinrich Brüning - SocCon
+	#SEC: Wilhelm Rombach - SocCon
+	#EDU: Artur Dinter - NatCorp
+	#AGR: Richard Darré - NatCorp
+	#TRA: Josef Grohé - NatCorp
+	#DEF: Franz Josef Heinz - LibCon
+}
+
+country_lock_all_division_template = yes
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 11
+    revolutionary_socialist = 3
+    reformist_socialist = 6
+    social_democrat = 11
+    social_liberal = 5
+    liberal_conservative = 10
+    social_conservative = 35
+    authoritarian_conservative = 5
+    right_wing_populist = 1
+    national_syndicalist = 0
+    national_corporatist = 13
+}
+
+set_country_flag = coalition_liberal_conservative
+set_country_flag = coalition_national_corporatist
+
+set_country_flag = banned_bolshevist
+set_country_flag = banned_spartacist
+set_country_flag = banned_revolutionary_socialist

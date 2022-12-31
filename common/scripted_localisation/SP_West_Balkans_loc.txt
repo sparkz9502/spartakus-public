@@ -1,0 +1,199 @@
+defined_text = {
+    name = GetSERLiteracyVariables
+    text = {
+        trigger = {
+            check_variable = {
+                var = SER.literacy_rate
+                value = 0
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = SER.literacy_rate
+                value = 50
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = SER_literacy_rate_low_variable
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = SER.literacy_rate
+                value = 51
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = SER.literacy_rate
+                value = 75
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = SER_literacy_rate_medium_variable
+    }
+	
+	text = {
+        trigger = {
+            check_variable = {
+                var = SER.literacy_rate
+                value = 76
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = SER.literacy_rate
+                value = 100
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = SER_literacy_rate_high_variable
+    }
+}
+
+defined_text = {
+    name = GetSTJLiteracyVariables
+    text = {
+        trigger = {
+            check_variable = {
+                var = STJ.literacy_rate
+                value = 0
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = STJ.literacy_rate
+                value = 50
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = STJ_literacy_rate_low_variable
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = STJ.literacy_rate
+                value = 51
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = STJ.literacy_rate
+                value = 75
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = STJ_literacy_rate_medium_variable
+    }
+	
+	text = {
+        trigger = {
+            check_variable = {
+                var = STJ.literacy_rate
+                value = 76
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = STJ.literacy_rate
+                value = 100
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = STJ_literacy_rate_high_variable
+    }
+}
+
+defined_text = {
+    name = GetBOSLiteracyVariables
+    text = {
+        trigger = {
+            check_variable = {
+                var = BOS.literacy_rate
+                value = 0
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = BOS.literacy_rate
+                value = 50
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = BOS_literacy_rate_low_variable
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = BOS.literacy_rate
+                value = 51
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = BOS.literacy_rate
+                value = 75
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = BOS_literacy_rate_medium_variable
+    }
+	
+	text = {
+        trigger = {
+            check_variable = {
+                var = BOS.literacy_rate
+                value = 76
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = BOS.literacy_rate
+                value = 100
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = BOS_literacy_rate_high_variable
+    }
+}
+
+defined_text = {
+    name = GetALBLiteracyVariables
+    text = {
+        trigger = {
+            check_variable = {
+                var = ALB.literacy_rate
+                value = 0
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = ALB.literacy_rate
+                value = 50
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = ALB_literacy_rate_low_variable
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = ALB.literacy_rate
+                value = 51
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = ALB.literacy_rate
+                value = 75
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = ALB_literacy_rate_medium_variable
+    }
+	
+	text = {
+        trigger = {
+            check_variable = {
+                var = ALB.literacy_rate
+                value = 76
+                compare = greater_than_or_equals
+            }
+            check_variable = {
+                var = ALB.literacy_rate
+                value = 100
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = ALB_literacy_rate_high_variable
+    }
+}

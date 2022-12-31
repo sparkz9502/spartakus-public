@@ -1,0 +1,24 @@
+state={
+	id=1353
+	name="STATE_1353"
+	provinces={
+		466 6499 6522 11507 
+	}
+	
+	resources={
+		oil=4
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		buildings = {
+			infrastructure = 2
+			fuel_silo = 1
+		}
+	}
+
+	manpower=1121600
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

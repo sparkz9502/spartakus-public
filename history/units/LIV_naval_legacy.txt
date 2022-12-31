@@ -1,0 +1,17 @@
+units = {
+
+	### Naval OOB ###
+	fleet = {				
+		name = "Livländische Marine"			
+		naval_base = 9340
+		task_force = {
+			name = "Livländische Marine"			
+			location = 9340 # Riga
+			ship = { name = "Bremse" definition = light_cruiser equipment = { light_cruiser_1 = { amount = 1 owner = LIV create_if_missing = yes } } }
+			ship = { name = "G38 'Riga'" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV create_if_missing = yes } } }	
+			ship = { name = "S36 'Libau'" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV create_if_missing = yes } } }
+			ship = { name = "A32 'Livland'" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = LIV create_if_missing = yes } } }
+			ship = { name = "U-1 'Rüdiger von der Goltz'" definition = submarine equipment = { submarine_1 = { amount = 1 owner = LIV create_if_missing = yes } } }
+		}		
+	}
+}

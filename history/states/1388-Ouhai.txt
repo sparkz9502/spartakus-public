@@ -1,0 +1,35 @@
+
+state={
+	id=1388
+	name="STATE_1388"
+	provinces={
+		1055 1168 1195 4013 7086 7146 9972 10058 11947 
+	}
+	history={
+		owner = NAN
+		add_core_of = NAN
+		victory_points = {
+			1055 5 
+		}
+		victory_points = {
+			11947 2 
+		}
+		victory_points = {
+			1168 2
+		}
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4013 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=6506100
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

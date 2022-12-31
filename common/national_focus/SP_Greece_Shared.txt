@@ -1,0 +1,1379 @@
+######### POLITICS #########
+	shared_focus = {
+		id = GRE_The_Future_of_the_Republic
+		icon = GFX_GRE_Republic_Coat_of_Arms
+		cost = 0,00
+		x = 9
+		y = 0
+
+	}
+###### OPPOSITION ######
+	shared_focus = {
+		id = GRE_The_Inomeni_Antipolitevsi
+		icon = GFX_GRE_Opposition
+		cost = 0,00
+		prerequisite = {
+			focus = GRE_The_Future_of_the_Republic
+		}
+		x = 3
+		y = 1
+
+		available = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = oppositionists_won2_tt
+					has_country_flag = GRE_1933_monarchists
+				}
+				custom_trigger_tooltip = {
+					tooltip = oppositionists_coup_tt
+					has_country_flag = GRE_success_conservatives
+				}
+				AND = {
+					is_subject = yes
+					OR = {
+						has_government = social_conservative
+						has_government = authoritarian_conservative
+					}
+				}
+			}
+		}
+		bypass = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = oppositionists_won2_tt
+					has_country_flag = GRE_1933_monarchists
+				}
+				custom_trigger_tooltip = {
+					tooltip = oppositionists_coup_tt
+					has_country_flag = GRE_success_conservatives
+				}
+				AND = {
+					is_subject = yes
+					OR = {
+						has_government = social_conservative
+						has_government = authoritarian_conservative
+					}
+				}
+			}
+		}
+
+	}
+### Opposition - Economics ###
+	shared_focus = {
+		id = GRE_Carefull_Progress
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Inomeni_Antipolitevsi
+		}
+		x = 1
+		y = 2
+
+	}
+	shared_focus = {
+		id = GRE_Social_Insurance
+		icon = GFX_goal_social_reforms
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Carefull_Progress
+		}
+		x = 0
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Subsidise_Small_Farms
+		icon = GFX_Farmer_Subsidies
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Social_Insurance
+		}
+		x = 0
+		y = 4
+
+	}
+	shared_focus = {
+		id = GRE_Shrink_the_Budgetary_Administration
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Carefull_Progress
+		}
+		x = 2
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Support_Small_Bussinesses
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Shrink_the_Budgetary_Administration
+		}
+		x = 2
+		y = 4
+
+	}
+	shared_focus = {
+		id = GRE_Favour_Agrarian_Developement
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Subsidise_Small_Farms
+		}
+		prerequisite = {
+			focus = GRE_Support_Small_Bussinesses
+		}
+		x = 1
+		y = 5
+
+	}
+### Opposition - Politics ###
+	shared_focus = {
+		id = GRE_Sponsor_Anti_Liberal_Media
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Inomeni_Antipolitevsi
+		}
+		x = 6
+		y = 2
+
+	}
+	shared_focus = {
+		id = GRE_Reverse_the_Dimotiki_Reforms
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Sponsor_Anti_Liberal_Media
+		}
+		x = 4
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Endorse_the_Idionimon_Law
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Sponsor_Anti_Liberal_Media
+		}
+		x = 6
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Equality_for_Salonican_Jews
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Sponsor_Anti_Liberal_Media
+		}
+		x = 8
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Reverse_Secularisation
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Reverse_the_Dimotiki_Reforms
+		}
+		prerequisite = {
+			focus = GRE_Endorse_the_Idionimon_Law
+		}
+		x = 5
+		y = 4
+
+		completion_reward = {
+			remove_ideas_with_trait = theorist
+			add_ideas = GRE_Chrysostomos_I_of_Athens_theo
+		}
+
+	}
+	shared_focus = {
+		id = GRE_Enact_Direct_Democratic_Reforms
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Endorse_the_Idionimon_Law
+		}
+		prerequisite = {
+			focus = GRE_Equality_for_Salonican_Jews
+		}
+		x = 7
+		y = 4
+
+	}
+	shared_focus = {
+		id = GRE_The_King_as_a_Figurehead
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Reverse_Secularisation
+		}
+		prerequisite = {
+			focus = GRE_Enact_Direct_Democratic_Reforms
+		}
+		x = 6
+		y = 5
+
+	}
+	shared_focus = {
+		id = GRE_Remember_Gounaris_Legacy
+		icon = GFX_goal_unknown
+		cost = 3,00
+		prerequisite = {
+			focus = GRE_The_King_as_a_Figurehead
+		}
+		prerequisite = {
+			focus = GRE_Favour_Agrarian_Developement
+		}
+		x = 3
+		y = 6
+
+	}
+###### VENIZELISTS ######
+	shared_focus = {
+		id = GRE_The_Ethnikos_Synaspismos
+		icon = GFX_GRE_Coalition
+		cost = 0,00
+		prerequisite = {
+			focus = GRE_The_Future_of_the_Republic
+		}
+		x = 15
+		y = 1
+
+		available = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = venizelists_won2_tt
+					has_country_flag = GRE_1933_venizelists
+				}
+				custom_trigger_tooltip = {
+					tooltip = venizelists_coup_tt
+					has_country_flag = GRE_success_venizelists
+				}
+				AND = {
+					is_subject = yes
+					OR = {
+						has_government = liberal_conservative
+						has_government = social_liberal
+						has_government = social_democrat
+					}
+				}
+			}
+		}
+		bypass = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = venizelists_won2_tt
+					has_country_flag = GRE_1933_venizelists
+				}
+				custom_trigger_tooltip = {
+					tooltip = venizelists_coup_tt
+					has_country_flag = GRE_success_venizelists
+				}
+				AND = {
+					is_subject = yes
+					OR = {
+						has_government = liberal_conservative
+						has_government = social_liberal
+						has_government = social_democrat
+					}
+				}
+			}
+		}
+
+	}
+### Venizelists - Economics ###
+	shared_focus = {
+		id = GRE_Full_Steam_Ahead
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Ethnikos_Synaspismos
+		}
+		x = 17
+		y = 2
+
+	}
+	shared_focus = {
+		id = GRE_Flexible_Labour_Laws
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Full_Steam_Ahead
+		}
+		x = 16
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Continue_Land_Reform
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Flexible_Labour_Laws
+		}
+		x = 16
+		y = 4
+
+	}
+	shared_focus = {
+		id = Reform_the_Budgetary_Administration
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Full_Steam_Ahead
+		}
+		x = 18
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Support_Big_Bussinesses
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = Reform_the_Budgetary_Administration
+		}
+		x = 18
+		y = 4
+
+	}
+	shared_focus = {
+		id = Favour_Industrial_Developement
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Support_Big_Bussinesses
+		}
+		prerequisite = {
+			focus = GRE_Continue_Land_Reform
+		}
+		x = 17
+		y = 5
+
+	}
+### Venizelists - Politics ###
+	shared_focus = {
+		id = GRE_Sponsor_Anti_Monarchist_Media
+		icon = GFX_goal_unknown
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Ethnikos_Synaspismos
+		}
+		x = 12
+		y = 2
+
+	}
+	shared_focus = {
+		id = GRE_Continue_the_Dimotiki_Reforms
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Sponsor_Anti_Monarchist_Media
+		}
+		x = 10
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Pass_the_Idionimon_Law
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Sponsor_Anti_Monarchist_Media
+		}
+		x = 12
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Hellenisation_of_the_Salonican_Jews
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Sponsor_Anti_Monarchist_Media
+		}
+		x = 14
+		y = 3
+
+	}
+	shared_focus = {
+		id = GRE_Continue_Secularisation
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Continue_the_Dimotiki_Reforms
+		}
+		prerequisite = {
+			focus = GRE_Pass_the_Idionimon_Law
+		}
+		x = 11
+		y = 4
+
+	}
+	shared_focus = {
+		id = GRE_Strenghten_the_Senate
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Pass_the_Idionimon_Law
+		}
+		prerequisite = {
+			focus = GRE_Hellenisation_of_the_Salonican_Jews
+		}
+		x = 13
+		y = 4
+
+	}
+	shared_focus = {
+		id = GRE_Republicanism
+		icon = GFX_goal_unknown
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Strenghten_the_Senate
+		}
+		prerequisite = {
+			focus = GRE_Continue_Secularisation
+		}
+		x = 12
+		y = 5
+
+	}
+	shared_focus = {
+		id = GRE_Legacy_of_the_Goudi_Movement
+		icon = GFX_GRE_Legacy_of_the_Goudi_Movement
+		cost = 3,00
+		prerequisite = {
+			focus = Favour_Industrial_Developement
+		}
+		prerequisite = {
+			focus = GRE_Republicanism
+		}
+		x = 15
+		y = 6
+
+	}
+######### DIPLOMACY #########
+	shared_focus = {
+		id = GRE_Our_Place_in_the_World
+		icon = GFX_GRE_Our_Place_in_the_World
+		cost = 3
+		x = 9
+		y = 7
+
+	}
+	shared_focus = {
+		id = GRE_Continue_the_Turkish_Reconciliation
+		icon = GFX_GRE_Continue_the_Turkish_Reconciliation
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Our_Place_in_the_World
+		}
+		x = 7
+		y = 8
+
+	}
+	shared_focus = {
+		id = GRE_Re_Evaluate_the_Naval_Protocol
+		icon = GFX_GRE_Re_Evaluate_the_Naval_Protocol
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Continue_the_Turkish_Reconciliation
+		}
+		x = 6
+		y = 9
+
+	}
+	shared_focus = {
+		id = GRE_Form_an_Embassy_in_Constantinople
+		icon = GFX_GRE_Form_an_Embassy_in_Constantinople
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Continue_the_Turkish_Reconciliation
+		}
+		x = 8
+		y = 9
+
+	}
+	shared_focus = {
+		id = GRE_Form_the_Balkan_Pact
+		icon = GFX_GRE_Form_the_Balkan_Pact
+		cost = 8,00
+		prerequisite = {
+			focus = GRE_Form_an_Embassy_in_Constantinople
+		}
+		prerequisite = {
+			focus = GRE_Re_Evaluate_the_Naval_Protocol
+		}
+		x = 7
+		y = 10
+
+	}
+	shared_focus = {
+		id = GRE_Anglophile_Foreign_Policy
+		icon = GFX_Focus_ENG_Imperial_Military
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Our_Place_in_the_World
+		}
+		x = 11
+		y = 8
+
+	}
+	shared_focus = {
+		id = GRE_Invite_Foreign_Capital
+		icon = GFX_goal_generic_loans
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Anglophile_Foreign_Policy
+		}
+		x = 10
+		y = 9
+
+	}
+	shared_focus = {
+		id = GRE_Embargo_Serbia
+		icon = GFX_GRE_Embargo_Serbia
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Anglophile_Foreign_Policy
+		}
+		x = 12
+		y = 9
+
+	}
+	shared_focus = {
+		id = GRE_Join_the_Fight_Against_Communism
+		icon = GFX_GRE_Join_the_Fight_Against_Communism
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Invite_Foreign_Capital
+		}
+		prerequisite = {
+			focus = GRE_Embargo_Serbia
+		}
+		x = 11
+		y = 10
+
+	}
+	shared_focus = {
+		id = GRE_Another_Visit_to_Constantinople
+		icon = GFX_GRE_Another_Visit_to_Constantinople
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Form_the_Balkan_Pact
+			focus = GRE_Join_the_Fight_Against_Communism
+		}
+		x = 9
+		y = 11
+
+	}
+	shared_focus = {
+		id = GRE_Renounce_All_Claims_in_Turkey
+		icon = GFX_GRE_Renounce_All_Claims_in_Turkey
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Another_Visit_to_Constantinople
+		}
+		mutually_exclusive = {
+			focus = GRE_Autonomy_for_Disputed_Territories
+		}
+		x = 8
+		y = 12
+
+	}
+	shared_focus = {
+		id = GRE_Autonomy_for_Disputed_Territories
+		icon = GFX_GRE_Autonomy_for_Disputed_Territories
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Another_Visit_to_Constantinople
+		}
+		mutually_exclusive = {
+			focus = GRE_Renounce_All_Claims_in_Turkey
+		}
+		x = 10
+		y = 12
+
+	}
+######### ΕCONOMY #########
+	shared_focus = {
+		id = GRE_Deal_with_Great_Depression
+		icon = GFX_goal_bankruptcy
+		cost = 5,00
+		x = 24
+		y = 0
+
+		available = {
+			has_idea = GRE_Megali_Ifesi
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Cut_Down_Government_Spending_idea
+				days = 120
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_The_Farming_Crisis
+		icon = GFX_generic_Farming_Crisis
+		cost = 3,00
+		prerequisite = {
+			focus = GRE_Deal_with_Great_Depression
+		}
+		x = 22
+		y = 1
+
+		completion_reward = {
+			country_event = { id = grefocus.5 }
+		}
+	}
+	shared_focus = {
+		id = GRE_Bail_Out_Farmers
+		icon = GFX_focus_small_farms
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Farming_Crisis
+		}
+		mutually_exclusive = {
+			focus = GRE_Bail_Out_the_ATE
+		}
+		x = 21
+		y = 2
+
+		available = {
+			has_country_flag = GRE_farmers_flag
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Help_Farmers
+				days = 80
+			}
+			custom_effect_tooltip = gre_socialist_militancy_down
+			subtract_from_variable = {
+				var = gre_socialist_militancy
+				value = 1
+			}
+			hidden_effect = {
+				clr_country_flag = GRE_farmers_flag
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Bail_Out_the_ATE
+		icon = GFX_generic_banking_legislation
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Farming_Crisis
+		}
+		mutually_exclusive = {
+			focus = GRE_Bail_Out_Farmers
+		}
+		x = 23
+		y = 2
+
+		available = {
+			has_country_flag = GRE_AKE_flag
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Help_AKE
+				days = 80
+			}
+			custom_effect_tooltip = gre_socialist_militancy_up
+			add_to_variable = {
+				var = gre_socialist_militancy
+				value = 1
+			}
+			hidden_effect = {
+				clr_country_flag = GRE_AKE_flag
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Aid_the_Farmers_Markets
+		icon = GFX_generic_Subsidise_Farmers
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Bail_Out_the_ATE
+			focus = GRE_Bail_Out_Farmers
+		}
+		x = 22
+		y = 3
+
+		bypass = {
+			has_idea = GRE_Agri_Markets_bad
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Agri_Markets_good
+				days = 120
+			}
+			custom_effect_tooltip = gre_socialist_militancy_down
+			subtract_from_variable = {
+				var = gre_socialist_militancy
+				value = 1
+			}
+			hidden_effect = {
+				clr_country_flag = GRE_farming_crisis_flag
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_The_Gold_Standard
+		icon = GFX_generic_The_Gold_Standard
+		cost = 3,00
+		prerequisite = {
+			focus = GRE_Deal_with_Great_Depression
+		}
+		x = 26
+		y = 1
+
+		completion_reward = {
+			country_event = { id = grefocus.4 }
+		}
+	}
+	shared_focus = {
+		id = GRE_Abandon_the_Gold_Standard
+		icon = GFX_focus_hol_abandon_the_gold_standard
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Gold_Standard
+		}
+		mutually_exclusive = {
+			focus = GRE_Keep_the_Gold_Standard
+		}
+		x = 25
+		y = 2
+
+		available = {
+			has_country_flag = GRE_gold_standard_no_flag
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Gold_Standard_no_idea
+				days = 80
+			}
+			custom_effect_tooltip = gre_socialist_militancy_up
+			add_to_variable = {
+				var = gre_socialist_militancy
+				value = 1
+			}
+			hidden_effect = {
+				clr_country_flag = GRE_gold_standard_no_flag
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Keep_the_Gold_Standard
+		icon = GFX_focus_usa_reestablish_the_gold_standard
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_The_Gold_Standard
+		}
+		mutually_exclusive = {
+			focus = GRE_Abandon_the_Gold_Standard
+		}
+		x = 27
+		y = 2
+
+		available = {
+			has_country_flag = GRE_gold_standard_yes_flag
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Gold_Standard_yes_idea
+				days = 80
+			}
+			custom_effect_tooltip = gre_socialist_militancy_down
+			subtract_from_variable = {
+				var = gre_socialist_militancy
+				value = 1
+			}
+			hidden_effect = {
+				clr_country_flag = GRE_gold_standard_yes_flag
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Austerity_Policy
+		icon = GFX_generic_Government_Austerity
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Abandon_the_Gold_Standard
+			focus = GRE_Keep_the_Gold_Standard
+		}
+		x = 26
+		y = 3
+
+		completion_reward = {
+			add_timed_idea = {
+				idea = GRE_Strict_Austerity_idea
+				days = 120
+			}
+			custom_effect_tooltip = gre_socialist_militancy_up
+			add_to_variable = {
+				var = gre_socialist_militancy
+				value = 1
+			}
+			hidden_effect = {
+				country_event = {
+					id = grecommie.2
+					days = 20
+				}
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Deal_with_the_Loans
+		icon = GFX_focus_GRE_reevaluating_the_drachma
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Austerity_Policy
+		}
+		prerequisite = {
+			focus = GRE_Aid_the_Farmers_Markets
+		}
+		x = 24
+		y = 4
+
+		completion_reward = {
+			unlock_decision_tooltip = GRE_eng_small_payment
+			unlock_decision_tooltip = GRE_eng_large_payment
+			unlock_decision_tooltip = GRE_fra_small_payment
+			unlock_decision_tooltip = GRE_fra_large_payment
+			unlock_decision_tooltip = GRE_ita_small_payment
+			unlock_decision_tooltip = GRE_ita_large_payment
+		}
+	}
+	shared_focus = {
+		id = GRE_Industrialisation_Programme
+		icon = GFX_GRE_Industry
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Deal_with_the_Loans
+		}
+		x = 24
+		y = 5
+
+		completion_reward = {
+			unlock_decision_category_tooltip = GRE_industrialisation
+		}
+	}
+	shared_focus = {
+		id = GRE_Invest_in_Infastructure
+		icon = GFX_goal_generic_construct_infrastructure
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Deal_with_the_Loans
+		}
+		x = 22
+		y = 5
+
+		available = {
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		completion_reward = {
+			unlock_decision_tooltip = GRE_inf_athens
+			unlock_decision_tooltip = GRE_inf_salonika
+			unlock_decision_tooltip = GRE_inf_sterea_hellas
+			unlock_decision_tooltip = GRE_inf_macedonia
+		}
+	}
+	shared_focus = {
+		id = GRE_Enlarge_the_Naval_Industry
+		icon = GFX_goal_generic_construct_naval_dockyard
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Deal_with_the_Loans
+		}
+		x = 26
+		y = 5
+
+		available = {
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		completion_reward = {
+			unlock_decision_tooltip = GRE_port_athens
+			unlock_decision_tooltip = GRE_port_salonika
+			unlock_decision_tooltip = GRE_port_volos
+		}
+	}
+	shared_focus = {
+		id = GRE_End_of_the_Depression
+		icon = GFX_generic_End_of_Depression
+		cost = 5,00
+		prerequisite = {
+			focus = GRE_Industrialisation_Programme
+		}
+		prerequisite = {
+			focus = GRE_Enlarge_the_Naval_Industry
+		}
+		prerequisite = {
+			focus = GRE_Invest_in_Infastructure
+		}
+		x = 24
+		y = 6
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GRE_debt_end_tt
+				has_country_flag = GRE_debt_agreement_reached
+			}
+			num_of_factories > 32
+		}
+		completion_reward = {
+			remove_ideas = GRE_Megali_Ifesi
+		}
+	}
+##################### ARMY
+	shared_focus = {
+		id = GRE_Eleftheron_To_Efpsychon
+		icon = GFX_GRE_Army
+		cost = 8
+		x = 33
+		y = 0
+
+		completion_reward = {
+			army_experience = 20
+		}
+	}
+	shared_focus = {
+		id = GRE_Favour_Superior_Firepower
+		icon = GFX_Focus_Superior_Firepower_Doctrine
+		cost = 8
+		prerequisite = {
+			focus = GRE_Eleftheron_To_Efpsychon
+		}
+		mutually_exclusive = {
+			focus = GRE_Favour_Grand_Battleplan
+		}
+		x = 32
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cat_superior_firepower
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Fund_Artillery_Research
+		icon = GFX_goal_national_artillery
+		cost = 8
+		prerequisite = {
+			focus = GRE_Favour_Superior_Firepower
+		}
+		x = 31
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = artillery
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Expand_the_General_Staff
+		icon = GFX_focus_generic_military_mission
+		cost = 8
+		prerequisite = {
+			focus = GRE_Favour_Superior_Firepower
+			focus = GRE_Favour_Grand_Battleplan
+		}
+		x = 33
+		y = 2
+
+		completion_reward = {
+			add_ideas = GRE_Expand_the_General_Staff_idea
+		}
+	}
+	shared_focus = {
+		id = GRE_Favour_Grand_Battleplan
+		icon = GFX_Focus_Grand_Battleplan_Doctrine
+		cost = 8
+		prerequisite = {
+			focus = GRE_Eleftheron_To_Efpsychon
+		}
+		mutually_exclusive = {
+			focus = GRE_Favour_Superior_Firepower
+		}
+		x = 34
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cat_grand_battle_plan
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Fund_Firearms_Research
+		icon = GFX_goal_national_arsenal
+		cost = 8
+		prerequisite = {
+			focus = GRE_Favour_Grand_Battleplan
+		}
+		x = 35
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_The_Pyrkal_Company
+		icon = GFX_GRE_PYRKAL
+		cost = 8
+		prerequisite = {
+			focus = GRE_Fund_Artillery_Research
+			focus = GRE_Fund_Firearms_Research
+		}
+		prerequisite = {
+			focus = GRE_Expand_the_General_Staff
+		}
+		x = 33
+		y = 3
+
+		completion_reward = {
+			47 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			982 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+###################### NAVY
+	shared_focus = {
+		id = GRE_Mega_to_tis_Thallasis_Kratos
+		icon = GFX_GRE_Navy
+		cost = 8
+		x = 39
+		y = 0
+
+		completion_reward = {
+			navy_experience = 20
+		}
+	}
+	shared_focus = {
+		id = GRE_A_Realistic_Approach
+		icon = GFX_goal_navy_hat_ships
+		cost = 8
+		prerequisite = {
+			focus = GRE_Mega_to_tis_Thallasis_Kratos
+		}
+		mutually_exclusive = {
+			focus = GRE_A_Formidable_Fleet
+		}
+		x = 38
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cat_trade_interdiction
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Fund_Destroyer_Research
+		icon = GFX_focus_generic_destroyer
+		cost = 8
+		prerequisite = {
+			focus = GRE_A_Realistic_Approach
+		}
+		x = 37
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = dd_tech
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Greek_Submarines
+		icon = GFX_goal_generic_navy_submarine
+		cost = 8
+		prerequisite = {
+			focus = GRE_A_Realistic_Approach
+			focus = GRE_A_Formidable_Fleet
+		}
+		x = 39
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = ss_tech
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_A_Formidable_Fleet
+		icon = GFX_goal_USA_liberty_ships
+		cost = 8
+		prerequisite = {
+			focus = GRE_Mega_to_tis_Thallasis_Kratos
+		}
+		mutually_exclusive = {
+			focus = GRE_A_Realistic_Approach
+		}
+		x = 40
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = cat_fleet_in_being
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Legacy_of_the_Averof
+		icon = GFX_focus_generic_navy_battleship3alt
+		cost = 8
+		prerequisite = {
+			focus = GRE_A_Formidable_Fleet
+		}
+		x = 41
+		y = 2
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = bb_tech
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Hellenic_Shipyards
+		icon = GFX_GRE_Hellenic_Shipyards
+		cost = 8
+		prerequisite = {
+			focus = GRE_Greek_Submarines
+		}
+		prerequisite = {
+			focus = GRE_Legacy_of_the_Averof
+			focus = GRE_Fund_Destroyer_Research
+		}
+		x = 39
+		y = 3
+
+		completion_reward = {
+			47 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+			982 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+###################### AIR FORCE
+	shared_focus = {
+		id = GRE_Aien_Ypsikratin
+		icon = GFX_GRE_Air_Force
+		cost = 8
+		x = 44
+		y = 0
+
+		completion_reward = {
+			air_experience = 20
+		}
+	}
+	shared_focus = {
+		id = GRE_Develop_the_Airial_Infastructure
+		icon = GFX_Expand_Airfields
+		cost = 8
+		prerequisite = {
+			focus = GRE_Aien_Ypsikratin
+		}
+		x = 43
+		y = 1
+
+		completion_reward = {
+			47 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			982 = {
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Expand_the_Scholi_Aeroporias
+		icon = GFX_GRE_Scholi_Aeroporias
+		cost = 8
+		prerequisite = {
+			focus = GRE_Aien_Ypsikratin
+		}
+		x = 45
+		y = 1
+
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Ground_Support
+		icon = GFX_goal_close_air_support
+		cost = 8
+		prerequisite = {
+			focus = GRE_Expand_the_Scholi_Aeroporias
+		}
+		prerequisite = {
+			focus = GRE_Develop_the_Airial_Infastructure
+		}
+		x = 43
+		y = 2
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = GRE_Naval_Support_idea
+				}
+				swap_ideas = {
+					remove_idea = GRE_Naval_Support_idea
+					add_idea = GRE_Full_Air_Support_idea
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = GRE_Naval_Support_idea
+					}
+				}
+				add_ideas = GRE_Ground_Support_idea
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Naval_Support
+		icon = GFX_focus_generic_navy_battleship3
+		cost = 8
+		prerequisite = {
+			focus = GRE_Expand_the_Scholi_Aeroporias
+		}
+		prerequisite = {
+			focus = GRE_Develop_the_Airial_Infastructure
+		}
+		x = 45
+		y = 2
+
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = GRE_Ground_Support_idea
+				}
+				swap_ideas = {
+					remove_idea = GRE_Ground_Support_idea
+					add_idea = GRE_Full_Air_Support_idea
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = {
+						has_idea = GRE_Ground_Support_idea
+					}
+				}
+				add_ideas = GRE_Naval_Support_idea
+			}
+		}
+	}
+	shared_focus = {
+		id = GRE_Expand_Air_Production
+		icon = GFX_goal_generic_air_production
+		cost = 8
+		prerequisite = {
+			focus = GRE_Ground_Support
+		}
+		prerequisite = {
+			focus = GRE_Naval_Support
+		}
+		x = 44
+		y = 3
+
+		completion_reward = {
+			add_ideas = GRE_Aviation_Industry
+		}
+	}
+	shared_focus = {
+		id = GRE_Buy_Foreign_Equipment
+		icon = GFX_Generic_Military_Equipment
+		cost = 8
+		prerequisite = {
+			focus = GRE_The_Pyrkal_Company
+			focus = GRE_Hellenic_Shipyards
+			focus = GRE_Expand_Air_Production
+		}
+		x = 39
+		y = 4
+
+		completion_reward = {
+			unlock_decision_category_tooltip = GRE_equipment
+		}
+	}

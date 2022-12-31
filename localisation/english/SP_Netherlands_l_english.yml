@@ -1,0 +1,48 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+ holflv.1.title:0 "Completion of the Afsluitdijk"
+ holflv.1.desc:0 "Today on the 28th of May 1932, the Afsluitdijk was finished. Construction progressed better than expected; at three points along the line of the dike there were deeper underwater trenches where the tidal current was much stronger than elsewhere. These had been considered to be major obstacles to completing the dike, but all of them proved to be relatively straightforward.\n\nTwo years earlier than initially thought, the Zuiderzee ceased to be, as the last tidal trench, the Vlieter, was closed by a final bucket of till. The IJsselmeer was born, even though it was still salty at the time."
+ holflv.1.a:0 "We have done it once again!"
+
+ holflv.2.title:0 "Opening of the Afsluitdijk"
+ holflv.2.desc:0 "Today on the 25th September 1933, the Afsluitdijk is officially opened, with a monument designed by architect Dudok marking the spot where the dike had been closed.\n\nThe amount of material used is estimated at 23 million cubic metres of sand and 13.5 million cubic metres of till and over the years an average of around four to five thousand workers were involved with the construction every day, relieving some of the unemployment following the Great Depression."
+ holflv.2.a:0 "A true connection between North and West!"
+
+### Parties ###
+
+ HOL_bolshevist_party:0 "CPH"
+ HOL_bolshevist_party_long:0 "Communist Party Holland (Communistische Partij Holland)"
+ HOL_spartacist_party:0 "CPH"
+ HOL_spartacist_party_long:0 "Communist Party Holland (Communistische Partij Holland)"
+ HOL_revolutionary_socialist_party:0 "CPH"
+ HOL_revolutionary_socialist_party_long:0 "Communist Party Holland (Communistische Partij Holland)"
+ HOL_reformist_socialist_party:0 "OSP"
+ HOL_reformist_socialist_party_long:0 "Independent Socialist Party (Onafhankelijke Socialistische Partij)"
+ HOL_social_democrat_party:0 "SDAP"
+ HOL_social_democrat_party_long:0 "Social Democratic Workers' Party (Sociaal-Democratische Arbeiderspartij)"
+ HOL_social_liberal_party:0 "VDB"
+ HOL_social_liberal_party_long:0 "Free-thinking Democratic League (Vrijzinnig Democratisch Bond)"
+ HOL_liberal_conservative_party:0 "LSP"
+ HOL_liberal_conservative_party_long:0 "Liberal State Party ''the Freedom League'' (Liberale Staatspartij ''de Vrijheidsbond'')"
+ HOL_social_conservative_party:0 "RKSP-ARP"
+ HOL_social_conservative_party_long:0 "Roman Catholic State Party - Anti-Revolutionary Party (Roomsch-Katholieke Staatspartij - Anti-Revolutionaire Partij)"
+ HOL_authoritarian_conservative_party:0 "CHU"
+ HOL_authoritarian_conservative_party_long:0 "Christian Historical Union (Christelijk-Historische Unie)"
+ HOL_right_wing_populist_party:0 "VNH"
+ HOL_right_wing_populist_party_long:0 "Alliance for National Reconstruction (Verbond voor Nationaal Herstel)"
+ HOL_national_syndicalist_party:0 "NSB"
+ HOL_national_syndicalist_party_long:0 "National Syndicalist Movement in the Netherlands (Nationale-Syndicalistische Beweging in Nederland)"
+ HOL_national_corporatist_party:0 "NU"
+ HOL_national_corporatist_party_long:0 "National Union (Nationale Unie)"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

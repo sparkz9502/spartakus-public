@@ -1,0 +1,26 @@
+
+state={
+	id=1075
+	name="STATE_1075"
+
+	history={
+		owner = LBA
+		add_claim_by = INA
+		add_core_of = LBA
+		victory_points = {
+			13867 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		7136 7194 8062 13740 13741 13745 13750 13751 13753 13754 13755 13757 13763 13772 13858 13859 13863 13864 13867 13871 13872 13873 13874 13875 13876 13877 13883 13885 14233 14326 15553 
+	}
+	manpower=48400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

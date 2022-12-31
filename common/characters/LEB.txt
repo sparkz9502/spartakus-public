@@ -1,0 +1,15 @@
+characters={
+    LEB_charles_debbas = {
+        name = "Charles Debbas"
+        portraits={
+            civilian={
+                large = "gfx/leaders/LEB/Portrait_Charles_Debbas.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            ideology = authoritarian_conservative_subtype
+            id=-1
+        }
+    }
+}

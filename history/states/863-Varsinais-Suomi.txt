@@ -1,0 +1,32 @@
+
+state={
+	id=863
+	name="STATE_863"
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+		victory_points = {
+			3083 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+			3083 = {
+				coastal_bunker = 1
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		32 169 3009 3025 3083 3117 6066 9094 9194 13101 
+	}
+	manpower=522200
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

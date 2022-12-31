@@ -1,0 +1,157 @@
+﻿division_template = {
+	name = "Četnici"	# Infantry Division	
+	division_names_group = SER_SPINF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	support = { 
+	}
+}
+division_template = {
+	name = "Pešadijska Divizija"	# Infantry Division	
+	division_names_group = SER_SPINF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = { 
+	}
+}
+division_template = {
+	name = "Pešadijska Artiljerijska Divizija"	# Infantry Division	
+	division_names_group = SER_SPINF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = { 
+	artillery = { x = 0 y = 0 } 
+	}
+}
+division_template = {
+	name = "Gorska Pešadija"		# Mountain Brigade
+	division_names_group = SER_SPMTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Konjička Divizija" 			# Cavalry Division
+	division_names_group = SER_SPCAV_01
+	# Note: regiments within the brigade were battalion-sized units
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Tenkovski Bataljon" 			# Tank Battalion
+	division_names_group = SER_SPARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }       
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## ROYAL SERBIAN ARMY ########
+	
+	division = {
+		name = "Jadarska Četa"  			
+		location = 14904
+		division_template = "Četnici" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "1a Moravska Četa"  			
+		location = 9890
+		division_template = "Četnici" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "2a Moravska Četa"  			
+		location = 6970
+		division_template = "Četnici" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Južna Četa"  			
+		location = 11832
+		division_template = "Četnici" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Leskovačka Četa"  			
+		location = 13560
+		division_template = "Četnici" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Stara Četa"  			
+		location = 11887
+		division_template = "Četnici" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "1a Timočka Divizija"  			
+		location = 6634
+		division_template = "Pešadijska Artiljerijska Divizija"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "2a Timočka Divizija"  			
+		location = 11887
+		division_template = "Pešadijska Divizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.3
+	}
+
+    division = {
+		name = "2a Moravska Divizija"  			
+		location = 13560
+		division_template = "Pešadijska Divizija (Režimski Oficiri)" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.4
+	}		
+	
+	
+} 

@@ -1,0 +1,15 @@
+characters={
+    PHI_herbert_hoover = {
+        name = "Herbert Hoover"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Herbert_Hoover.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            ideology = authoritarian_conservative_subtype
+            id=-1
+        }
+    }
+}

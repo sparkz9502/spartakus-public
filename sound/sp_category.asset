@@ -1,0 +1,7 @@
+category = {
+ name = "Bulgarian Speeches"
+ soundeffects = {
+    BUL_georgiev_speech
+    BUL_ura
+ }
+}

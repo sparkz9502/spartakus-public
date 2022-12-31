@@ -1,0 +1,25 @@
+
+state={
+	id=1098
+	name="STATE_1098"
+
+	history={
+		owner = SAF
+		victory_points = {
+			13899 2 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		8214 12963 13891 13893 13894 13896 13898 13899 13901 13902 13909 13912 13914 13919 
+	}
+	manpower=66500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

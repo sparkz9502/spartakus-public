@@ -1,0 +1,74 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+VNZ_bolshevist_party:0 "PCd'I"
+VNZ_bolshevist_party_long:0 "Communist Party of Italy (Partito Communista d'Italia)"
+VNZ_spartacist_party:0 "PCd'I"
+VNZ_spartacist_party_long:0 "Communist Party of Italy (Partito Communista d'Italia)"
+VNZ_revolutionary_socialist_party:0 "PCd'I"
+VNZ_revolutionary_socialist_party_long:0 "Communist Party of Italy (Partito Communista d'Italia)"
+VNZ_reformist_socialist_party:0 "LdSM"
+VNZ_reformist_socialist_party_long:0 "Lion of Saint Mark (Leon de San Marco/Leone di San Marco)"
+VNZ_social_democrat_party:0 "LdSM"
+VNZ_social_democrat_party_long:0 "Lion of Saint Mark (Leon de San Marco/Leone di San Marco)"
+VNZ_social_liberal_party:0 "PLD"
+VNZ_social_liberal_party_long:0 "Democratic Liberal Party (Partito Liberale Democratico)"
+VNZ_liberal_conservative_party:0 "PLI"
+VNZ_liberal_conservative_party_long:0 "Italian Liberal Party (Partito Liberale Italiano)"
+VNZ_social_conservative_party:0 "PPI"
+VNZ_social_conservative_party_long:0 "Italian People's Party (Partito Populare Italiano)"
+VNZ_authoritarian_conservative_party:0 "Governo Militare"
+VNZ_authoritarian_conservative_party_long:0 "Transitional Military Government for Stability (Governo Militare di Transizione per la Stabilità)"
+VNZ_right_wing_populist_party:0 "ANI"
+VNZ_right_wing_populist_party_long:0 "Italian Nationalist Association (Associazione Nazionalista Italiana)"
+VNZ_national_syndicalist_party:0 "PNF"
+VNZ_national_syndicalist_party_long:0 "National Fascist Party (Partito Nazionale Fascista)"
+VNZ_national_corporatist_party:0 "PNF"
+VNZ_national_corporatist_party_long:0 "National Fascist Party (Partito Nazionale Fascista)"
+
+VNZ_gl:0 "GL"
+VNZ_gl_long:0 "Justice and Freedom (Giustizia e Libertà)"
+ 
+### Focuses ###
+
+VNZ_The_Declaration_of_Autonomy:0 "The Declaration of Autonomy"
+VNZ_The_Declaration_of_Autonomy_desc:0 ""
+VNZ_Declare_a_Federal_Republic:0 "Declare a Federal Republic"
+VNZ_Declare_a_Federal_Republic_desc:0 ""
+VNZ_The_Ravenna_Uprising:0 "The Ravenna Uprising"
+VNZ_The_Ravenna_Uprising_desc:0 ""
+VNZ_The_Ancona_Uprising:0 "The Ancona Uprising"
+VNZ_The_Ancona_Uprising_desc:0 ""
+VNZ_The_Trapani_Uprising:0 "The Trapani Uprising"
+VNZ_The_Trapani_Uprising_desc:0 ""
+VNZ_The_Struggle_for_Democracy:0 "The Struggle for Democracy"
+VNZ_The_Struggle_for_Democracy_desc:0 ""
+
+### Ideas ###
+
+VNZ_Italian_Civil_War_idea:0 "The Republican Struggle"
+VNZ_Italian_Civil_War_idea_desc:0 "After many years of resistance the time for redemption has finally come. The Italian people are ready to strike against our enemies in the name of freedom, justice and liberty. This will not be an easy nor bloodless struggle, but we will emerge victorious in the end!"
+VNZ_The_Liberation_Army_idea:0 "The Italian Liberation Army"
+VNZ_The_Liberation_Army_idea_desc:0 "The so-called ''Italian Liberation Army'' is a diverse force composed of all those who wish to fight for the cause of liberty. Though strength comes through unity, an army cannot run without commanders to lead it, guns to fight with, and food to fuel it. There is much to be done before we can truly take the fight to our opponents."
+VNZ_The_War_Economy_idea:0 "The War Economy"
+VNZ_The_War_Economy_idea_desc:0 "Though our cause is popular and righteous, it cannot be denied that under the immediate conditions we are outclassed by our enemies on the economic front. With the industrial bastions of Italy under the control of the communists, we must take drastic measures to make the most out of what we have."
+VNZ_A_Democratic_Vision_idea:0 "A Democratic Vision"
+VNZ_A_Democratic_Vision_idea_desc:0 "While our opponents in Rome have long labelled us as separatists and terrorists, our true vision is of a united republican, federalist and democratic Italy. Our vision of democracy is not like that of the collaborators in Rome, where it can be sold and bent to the whims of the aristocrats, but rather one of a permanent and irrevocable democracy. Insorgere! Risorgere!"
+VNZ_Revolutionary_Fury_idea:0 "Revolutionary Fury"
+VNZ_Revolutionary_Fury_idea_desc:0 "It cannot be denied that our differences with the communists are impossible to overcome, but our focus must be directed against the regime and their enablers in the south, for they are responsible for the countless murders and unjustified arrests of any who dared to oppose their rule. The time for vengeance has come!"
+
+### Flags ###
+
+### Tooltips ###
+
+VNZ_cores_tt:0 "We will gain §Ycores§! on all Italian states."
+VNZ_ravenna_uprising_tt:0 "Republican militants in §YRavenna§! will rise to join our cause!\n\nThey will be joined by sympathizers all across §YRomagna§!, a stronghold of republicanism."
+VNZ_ancona_uprising_tt:0 "Republican militants in §YAncona§! will rise to join our cause!\n\nThis will spark a general uprising encompassing §YUmbria§!, §YMarche§! and §YAbruzzo§!."
+VNZ_trapani_uprising_tt:0 "Republican militants in §YTrapani§! will rise to join our cause!\n\nSupporters of our cause across §YWestern Sicily§! will rush to join them."
+
+### Leaders ###

@@ -1,0 +1,36 @@
+﻿l_english:
+
+### Head of Government ###
+POR_Antonio_Pinto_Quartim_hog_spa:0 "António Pinto Quartim"
+POR_Bento_Goncalves_hog_spa:0 "Bento Gonçalves"
+POR_Jaime_Cortesao_hog_sde:0 "Jaime Cortesão"
+
+### Foreign Minister ###
+POR_Maria_da_Cunha_Lamas_for_rev:0 "Maria da Cunha Lamas"
+POR_Aquilino_Ribeiro_for_ref:0 "Aquilino Ribeiro"
+POR_Francisco_Cunha_Leal_for_lco:0 "Francisco Cunha Leal"
+
+### Economy Minister ###
+POR_Jose_Gomes_Ferreira_eco_rev:0 "José Gomes Ferreira"
+POR_Jaime_Cortesao_eco_sde:0 "Jaime Cortesão"
+POR_Raul_Proenca_eco_sde:0 "Raul Proenca"
+
+### Security Minister ###
+POR_Alvaro_Cunhal_sec_spa:0 "Álvaro Cunhal"
+POR_Manuel_Ribeiro_sec_lco:0 "Manuel Ribeiro"
+
+### Defence Minister ###
+POR_Antonio_Sergio_def_ref:0 "António Sérgio"
+
+### Chief of Staff ###
+
+### Chief of Army ###
+POR_Jose_Sarmento_Pimentel_carm:0 "José Sarmento Pimentel"
+POR_Oscar_Carmona_carm:0 "Óscar Carmona"
+
+### Chief of Navy ###
+POR_Bento_Goncalves_cnav:0 "Bento Gonçalves"
+
+### Chief of Air Force ###
+POR_Sarmento_de_Beires_cair:0 "Sarmento de Beires"
+POR_Humberto_Delgado_cair:0 "Humberto Delgado"

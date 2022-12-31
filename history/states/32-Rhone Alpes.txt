@@ -1,0 +1,33 @@
+
+state={
+	id=32
+	name="STATE_32"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		#add_core_of = BRI
+		victory_points = {
+			3552 10 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 2
+			air_base = 5
+			3552 = {
+				naval_base = 8
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		542 3552 3758 6572 9525 
+	}
+	manpower=1283800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

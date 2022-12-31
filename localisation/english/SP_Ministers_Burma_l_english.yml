@@ -1,0 +1,53 @@
+﻿l_english:
+
+### Head of Government ###
+BUR_U_Nu_hog_rev:0 "U Nu"
+BUR_U_Ottoma_hog_rev:0 "U Ottoma"
+BUR_Pe_Maung_Tin_hog_sde:0 "Pe Maung Tin"
+BUR_Saw_Ba_U_Gyi_hog_sli:0 "Saw Ba U Gyi"
+BUR_U_May_Aung_hog_sco:0 "U May Aung"
+BUR_U_Saw_hog_sco:0 "U Saw"
+BUR_U_Chit_Hlaing_hog_aco:0 "U Chit Hlaing"
+
+### Foreign Minister ###
+BUR_Aung_San_for_rev:0 "Aung San"
+BUR_U_Thant_for_lco:0 "U Thant"
+BUR_Maung_Gyi_for_aco:0 "Maung Gyi"
+BUR_San_C_Po_for_aco:0 "San C. Po"
+BUR_U_Chit_Hlaing_for_aco:0 "U Chit Hlaing"
+
+### Economy Minister ###
+BUR_Ba_Win_eco_rev:0 "Ba Win"
+BUR_Mahn_Ba_Khaing_eco_rev:0 "Mahn Ba Khaing"
+BUR_Bo_Let_Ya_eco_sde:0 "Bo Let Ya"
+BUR_U_May_Aung_eco_sco:0 "U May Aung"
+BUR_Ba_Maw_eco_aco:0 "Ba Maw"
+BUR_Lim_Chin_Tsong_eco_aco:0 "Lim Chin Tsong"
+
+### Security Minister ###
+BUR_Thakin_Mya_sec_spa:0 "Thakin Mya"
+BUR_Po_Kya_sec_sli:0 "Po Kya"
+BUR_Saw_Hka_Nan_sec_lco:0 "Saw Hka Nan"
+BUR_Sao_San_Tun_sec_aco:0 "Sao San Tun"
+BUR_Saw_Durmay_sec_aco:0 "Saw Durmay"
+BUR_Thakin_Kodaw_Hmaing_sec_aco:0 "Thakin Kodaw Hmaing"
+
+### Defence Minister ###
+BUR_Abdul_Razak_def_rev:0 "Abdul Razak"
+BUR_Sao_Saimong_def_aco:0 "Sao Saimong"
+BUR_Sao_Yang_Wen_Pin_def_aco:0 "Sao Yang Wen Pin"
+BUR_Saya_Gyi_U_Ba_Khin_def_aco:0 "Saya Gyi U Ba Khin"
+
+### Chief of Staff ###
+BUR_Thakin_Soe_cos:0 "Thakin Soe"
+BUR_Sao_Yang_Wen_Pin_cos:0 "Sao Yang Wen Pin"
+
+### Chief of Army ###
+BUR_Than_Tun_carm:0 "Than Tun"
+BUR_Sao_Kawng_Kiao_Intaleng_carm:0 "Sao Kawng Kiao Intaleng"
+
+### Chief of Navy ###
+BUR_Sao_Shwe_Thaik_cnav:0 "Sao Shwe Thaik"
+
+### Chief of Air Force ###
+BUR_Hmu_Aung_cair:0 "Hmu Aung"

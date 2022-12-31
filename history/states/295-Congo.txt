@@ -1,0 +1,21 @@
+
+state={
+	id=295
+	name="STATE_295"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+
+	provinces={
+		1897 1967 4927 7930 8116 12794 12838 13770 14405 14407 14445 14447 
+	}
+	manpower=1714400
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

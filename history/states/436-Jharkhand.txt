@@ -1,0 +1,31 @@
+
+state={
+	id=436
+	name="STATE_436"
+	resources={
+		iron=11.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10001 5 
+		}
+		victory_points = {
+			12462 2 
+		}
+
+	}
+
+	provinces={
+		7372 10001 10469 11978 12462 15252 15260 15261 15264 15272 
+	}
+	manpower=3550000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

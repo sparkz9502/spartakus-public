@@ -1,0 +1,122 @@
+﻿l_english:
+
+### Events ###
+
+srd.1.t:0 "The Deputy Leaderhip"
+srd.1.d:0 "Now that Sardinia is free from the grasp of the regime in Rome, a task lies ahead of forming a stable regional government. This is no easy feat, for many different factions of Sardism seek power.\n\nOn the left stands the socialists of Emilio Lussu who, while outwardly more moderate, nonetheless sympathize with the Communist Party of Italy. In the center stands the social democrats of Pietro Mastino, who hold the most sway with the population and sympathize with the Giustizia e Libertà movement. On the right stands the liberals of Camillo Bellieni, who vigorously oppose the involvement of the socialists.\n\nNo faction opposes Pietro Mastino's appointment as head of the provisional government, but a battle rages over who shall stand beside him as a deputy. Many call for the appointment of Bellieni, but such a move would be in clear opposition to the socialists. Some call for a compromise, with the less controversial Anselmo Contu taking the position with Lussu as his own deputy. Even so, many socialists call for Lussu to solely take the position.\n\nWith the new provisional assembly split, the decision has been placed directly upon Mastino's shoulders."
+srd.1.a:0 "Bellieni is the man for the job."
+srd.1.b:0 "A compromise never hurt anyone, right?"
+srd.1.c:0 "Lussu will have his wish."
+
+srd.2.t:0 "The Head of Foreign Affairs"
+srd.2.d:0 "Next up on the list is selecting a man to represent us on the foreign stage. This is a relatively prestigious position given the situation Sardinia is in. This is once again a battle between the factions.\n\nThe socialists have put forward Mario Berlinguer, a moderate lawyer with loose ties to Lussu, while the liberals have put forward Giovanni Battista Melis, a young rising star within the movement. In between lies Silvio Mastio, who is a personal friend of Lussu but more resembles Mazzini politically."
+srd.2.a:0 "Berlinguer is a respectable man."
+srd.2.b:0 "Mastio is sure to satisfy everyone."
+srd.2.c:0 "Melis deserves a chance to show his worth."
+
+srd.3.t:0 "The Head of Economic Affairs"
+srd.3.d:0 "Yet another prestigious position is to be picked. This time it is the head of economic affairs, and naturally each faction has its own candidates.\n\nThe socialists have put forward Davide Cova, a friend of Lussu and a veteran of the party. The moderates have put forward Stefano Siglienti, a banker. The liberals have put forward two candidates: the first is Battista Bardanzellu, a party administrator with close ties to the mainland resistance. However, some oppose his candidacy due to his loose ties to Sardinia, and instead they propose Gavino Alivia, a longtime native of Sassari."
+srd.3.a:0 "Cova is a choice everyone is sure to respect."
+srd.3.b:0 "Siglienti has the experience for the job."
+srd.3.c:0 "Bardanzellu has the ties we need."
+srd.3.e:0 "Alivia is as Sardinian as it gets."
+
+srd.4.t:0 "The Head of the Interior"
+srd.4.d:0 "The next position on the list is the head of the police and judicial system.\n\nThe socialists have once again put forward Mario Berlinguer, but have also taken an unexpectedly impartial stance to Luigi Oggiano, a liberal whose veteran status in the party commands a certain level of respect from all sides. Also put forward by the liberals are Anselmo Contu, a lawyer, and Enrico Endrich, another lawyer who is vigorously opposed by the socialists for his moderate stance towards fascism.\n\nAlso being picked out today are minor positions for the head of education and the head of agriculture, which are to be filled by Filiberto Farci and Paolo Pili respectively due to a lack of opposition."
+srd.4.a:0 "Berlinguer has a long history in this field."
+srd.4.b:0 "Oggiano will surely keep the party together."
+srd.4.c:0 "Contu is the logical option."
+srd.4.e:0 "Endrich may be hated, but he knows what he is doing."
+
+srd.5.t:0 "The Head of Defense"
+srd.5.d:0 "The final major position to be filled is that of the head of defense.\n\nThe socialists have put forward Gonario Pinna, a war veteran and lawyer. The moderates have put forward Francesco Fancello, a veteran and a friend of both Bellieni and Lussu. Finally, the liberals have proposed putting the relatively apolitical Giuseppe Musinu in the position, who already effectively leads the Sardist militia forces."
+srd.5.a:0 "Pinna knows how to fight."
+srd.5.b:0 "Fancello is an appropriate compromise."
+srd.5.c:0 "Musinu will command the respect we need."
+
+srd.6.t:0 "The Formation of the Provisional Government"
+srd.6.d:0 "With all of the major positions filled and the composition of the provisional assembly finalized, it can now be officially said that the Provisional Government of the Autonomous Region of Sardinia has been formed. Sardinia must now look outward, unless any unresolved political disputes come to stand in the way."
+srd.6.a:0 "We must now look outward."
+
+srd.7.t:0 "Lussu Demands the Government's Resignation"
+srd.7.d:0 "The socialists of Emilio Lussu, unhappy with the government's orientation in opposition to them, have today called for the resignation of the government and the expulsion of the liberal faction around Bellieni. Furthermore, Lussu has called for the provisional assembly to elect him in place of Mastino, with the concession of Mastino taking a deputy position. Some have been quick to label this as a coup d'etat due to Lussu's influence over the militias, though Lussu has not yet involved them.\n\nThere are only two real ways of addressing this situation: the first is to give in to Lussu's demands and place him and the socialist wing in power. The second is to refuse his demands and call a bluff, hoping he will not turn arms against the government."
+srd.7.a:0 "Sardinians shall not fight Sardinians, Lussu will have his way."
+srd.7.b:0 "He is merely bluffing, we shall stand firm."
+
+srd.8.t:0 "Lussu Stands Down"
+srd.8.d:0 "The fears of some were proven unfounded today after Emilio Lussu stood down and retracted his demands for the government's resignation. Though some militia leaders were apparently prepared to come to his aid, Lussu refused to use arms to achieve power and publicly reaffirmed his devotion to democracy. Even so, this bluff has clearly weakened the socialist wing of the party and strengthened the current leadership. Sardinia is now politically stable and ready to embrace the cause of a better Italy."
+srd.8.a:0 "Now we shall unite with our brothers."
+
+srd.9.t:0 "Sardinia Announces Support for our Side"
+srd.9.d:0 "The Provisional Government of the Autonomous Region of Sardinia, now recently led by the socialist wing of the Sardist movement led by Emilio Lussu, has announced its support for our government and expressed its intentions to join with us. The transfer of power will occur within a week."
+srd.9.a:0 "We hope they will join with us soon."
+
+srd.10.t:0 "Sardinia Announces Support for our Side"
+srd.10.d:0 "The Provisional Government of the Autonomous Region of Sardinia, led by Pietro Mastino and the moderate wing of the Sardist movement, has announced its support for our government and expressed its intentions to join with us. The transfer of power will occur within a week."
+srd.10.a:0 "We hope they will join with us soon."
+
+### Parties ###
+
+SRD_bolshevist_party:0 "PCd'I"
+SRD_bolshevist_party_long:0 "Communist Party of Italy (Partito Communista d'Italia)"
+SRD_spartacist_party:0 "PCd'I"
+SRD_spartacist_party_long:0 "Communist Party of Italy (Partito Communista d'Italia)"
+SRD_revolutionary_socialist_party:0 "PCd'I"
+SRD_revolutionary_socialist_party_long:0 "Communist Party of Italy (Partito Communista d'Italia)"
+SRD_reformist_socialist_party:0 "PSd'Az"
+SRD_reformist_socialist_party_long:0 "Sardinian Action Party (Partidu Sardu/Partito Sardo d'Azione)"
+SRD_social_democrat_party:0 "PSd'Az"
+SRD_social_democrat_party_long:0 "Sardinian Action Party (Partidu Sardu/Partito Sardo d'Azione)"
+SRD_social_liberal_party:0 "PSd'Az"
+SRD_social_liberal_party_long:0 "Sardinian Action Party (Partidu Sardu/Partito Sardo d'Azione)"
+SRD_liberal_conservative_party:0 "PLI"
+SRD_liberal_conservative_party_long:0 "Italian Liberal Party (Partito Liberale Italiano)"
+SRD_social_conservative_party:0 "PPI"
+SRD_social_conservative_party_long:0 "Italian People's Party (Partito Populare Italiano)"
+SRD_authoritarian_conservative_party:0 "Governo Militare"
+SRD_authoritarian_conservative_party_long:0 "Transitional Military Government for Stability (Governo Militare di Transizione per la Stabilità)"
+SRD_right_wing_populist_party:0 "ANI"
+SRD_right_wing_populist_party_long:0 "Italian Nationalist Association (Associazione Nazionalista Italiana)"
+SRD_national_syndicalist_party:0 "PNF"
+SRD_national_syndicalist_party_long:0 "National Fascist Party (Partito Nazionale Fascista)"
+SRD_national_corporatist_party:0 "PNF"
+SRD_national_corporatist_party_long:0 "National Fascist Party (Partito Nazionale Fascista)"
+ 
+### Focuses ###
+
+SRD_Formation_of_the_Provisional_Government:0 "Formation of the Provisional Government"
+SRD_Formation_of_the_Provisional_Government_desc:0 "Sardinia is in revolt, but the region needs direction. A provisional regional government will need to be established as soon as possible to prevent the island descending into anarchy."
+SRD_Establish_Ties_With_Venice:0 "Establish Ties With Venice"
+SRD_Establish_Ties_With_Venice_desc:0 "Sardinians are not fools. For the vision of a federalist republican democracy to be achieved, there will need to be a militant united front of democrats built on the mainland. The Venetian autonomists are the greatest source of hope for this goal, and thus it will be necessary to establish ties with their provisional government."
+SRD_Establish_Ties_With_the_Socialists:0 "Establish Ties With the Socialists"
+SRD_Establish_Ties_With_the_Socialists_desc:0 "Sardinians are not fools. For the vision of a socialist democracy to be achieved, there will need to be a militant united front of socialists built on the mainland. The Socialist revolutionaries, led by Sardinian native Antonio Gramsci, are the greatest source of hope for this goal, and thus it will be necessary to establish ties with their government"
+SRD_Initiate_the_Unification:0 "Initiate the Unification"
+SRD_Initiate_the_Unification_desc:0 "Now that things are settled it is time to reintegrate with our brothers on the continent."
+
+### Ideas ###
+
+SRD_Sardinia_in_Revolt_idea:0 "Sardinia in Revolt"
+SRD_Sardinia_in_Revolt_idea_desc:0 "With Italy in chaos, the population of Sardinia has arisen to defend against both the oppression of Rome and the red terror of Turin. This is a struggle with a history dating back to the rise of the Badoglio regime, after which the Sardinian Action Party banded together with other like-minded democrats in violently disrupting the authority of the dictatorship. Now those conflicts have come to a breaking point, and the fate of this island hangs in the balance."
+SRD_A_Democratic_Vision_idea:0 "A Democratic Vision"
+SRD_A_Democratic_Vision_idea_desc:0 "The struggle in Sardinia, in spite of the propaganda of the Badoglio regime, is not one of a separatist nature. It is, however, one of a democratic, federalist and republican nature, represented by the Giustizia e Libertà movement. This is not a vision that can be achieved alone. It will be imperative to work with the likeminded democrats in Venice and elsewhere in order to build a viable movement opposed to both communism and the reaction."
+
+### Flags ###
+
+SRD_Provisional_Govt_Formed:0 "§MThe Provisional Government has been formed and stabilized.§!"
+
+### Tooltips ###
+
+SRD_Form_Provisional_Government_tt: "§GA provisional government will be established, with its composition determining our political direction.§!"
+SRD_Socialists_Furious_tt:0 "§RThis will make the socialists furious and will cause them to withdraw from the government.§!"
+SRD_Socialists_Upset_tt:0 "§RThis will upset the socialists and strengthen the liberals.§!"
+SRD_Socialists_Happy_tt:0 "§GThis will make the socialists happy and weaken the liberals.§!"
+SRD_Socialists_Satisfied_tt:0 "§yThis will satisfy the socialists for now, but this may change if we oppose them in too many future decisions.§!"
+SRD_Socialists_Appeased_tt:0 "§GThis will appease the socialists, who will no longer oppose us on any future matters.§!"
+SRD_All_Satisfied_tt:0 "§yThis will neither anger nor satisfy the socialists.§!"
+SRD_No_Socialist_tt:0 "§eThe socialist candidate cannot be appointed because Bellieni is in power.§!"
+SRD_Is_This_The_End_tt:0 "§yThe formation of the provisional government will be completed and new focuses unlocked, unless any unforeseen events lie ahead.§!"
+SRD_Is_This_The_End_2_tt:0 "§yThe formation of the provisional government will be completed and new focuses unlocked.§!"
+
+### Leaders ###
+
+#insert descs for lussu and mastino#

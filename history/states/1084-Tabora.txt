@@ -1,0 +1,26 @@
+
+state={
+	id=1084
+	name="STATE_1084"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			12911 1 
+		}
+
+	}
+
+	provinces={
+		2281 4171 5180 8144 10932 11017 13798 13803 13804 13809 13812 13813 13816 13817 13820 13821 13825 13826 13830 13831 13832 13835 13837 13838 13839 13840 13841 15215 
+	}
+	manpower=2058600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

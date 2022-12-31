@@ -1,0 +1,64 @@
+﻿l_english:
+################################################################################################################################################################################################
+### SLV
+################################################################################################################################################################################################
+
+### Head of Government ###
+SLV_Boris_Kidric_hog_spa:0 "Boris Kidric"
+SLV_Lovro_Klemencic_hog_rev:0 "Lovro Klemencic"
+SLV_Albert_Kramer_hog_lco:0 "Albert Kramer"
+SLV_Anton_Korosec_hog_sco:0 "Anton Korosec"
+SLV_Marko_Natlacen_hog_aco:0 "Marko Natlacen"
+
+### Foreign Minister ###
+SLV_Edvard_Kardelj_for_spa:0 "Edvard Kardelj"
+SLV_Bogumil_Vosnjak_for_lco:0 "Bogumil Vosnjak"
+SLV_Alojzij_Kuhar_for_sco:0 "Alojzij Kuhar"
+SLV_Franc_Snoj_for_sco:0 "Franc Snoj"
+SLV_Izidor_Cankar_for_sco:0 "Izidor Cankar"
+SLV_Lambert_Ehrlich_for_aco:0 "Lambert Ehrlich"
+
+### Economy Minister ###
+SLV_Boris_Kidric_eco_spa:0 "Boris Kidric"
+SLV_Franc_Leskosek_eco_spa:0 "Franc Leskosek"
+SLV_Gregor_Zerjav_eco_lco:0 "Gregor Zerjav"
+SLV_Anton_Rojina_eco_sco:0 "Anton Rojina"
+SLV_Franc_Snoj_eco_sco:0 "Franc Snoj"
+SLV_Miha_Krek_eco_sco:0 "Miha Krek"
+SLV_Joze_Basaj_eco_aco:0 "Joze Basaj"
+
+### Security Minister ###
+SLV_Ivan_Macek_sec_spa:0 "Ivan Macek"
+SLV_Tone_Tomsic_sec_spa:0 "Tone Tomsic"
+SLV_Franjo_Lipold_sec_lco:0 "Franjo Lipold"
+SLV_Alojzij_Juvan_sec_sco:0 "Alojzij Juvan"
+SLV_Josip_Leskovar_sec_sco:0 "Josip Leskovar"
+SLV_Lovro_Hacin_sec_aco:0 "Lovro Hacin"
+
+### Defence Minister ###
+SLV_Boris_Kidric_def_spa:0 "Boris Kidric"
+SLV_Karl_Novak_def_sco:0 "Karl Novak"
+SLV_Vladimir_Vauhnik_def_sco:0 "Vladimir Vauhnik"
+SLV_Albert_Ilovar_def_aco:0 "Albert Ilovar"
+
+### Chief of Staff ###
+SLV_Franc_Rozman_cos:0 "Franc Rozman"
+SLV_Jakob_Avsic_cos:0 "Jakob Avsic"
+SLV_Anton_Kokalj_cos:0 "Anton Kokalj"
+SLV_Ernest_Peterlin_cos:0 "Ernest Peterlin"
+
+### Chief of Army ###
+SLV_Franc_Rozman_carm:0 "Franc Rozman"
+SLV_Rudolf_Maister_carm:0 "Rudolf Maister"
+SLV_Leon_Rupnik_carm:0 "Leon Rupnik"
+SLV_Milko_Vizjak_carm:0 "Milko Vizjak"
+
+### Chief of Navy ###
+SLV_Ivan_Kern_cnav:0 "Ivan Kern"
+SLV_Metod_Koch_cnav:0 "Metod Koch"
+SLV_Franjo_Vucer_cnav:0 "Franjo Vucer"
+
+### Chief of Air Force ###
+SLV_France_Pirc_cair:0 "France Pirc"
+SLV_Rudolf_Maister_cair:0 "Rudolf Maister"
+SLV_Milko_Vizjak_cair:0 "Milko Vizjak"

@@ -1,0 +1,30 @@
+
+state={
+	id=1309
+	name="STATE_1309"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = WTH
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			8022 5 
+		}
+		victory_points = {
+			10173 10 
+		}
+
+	}
+
+	provinces={
+		4979 8022 8106 10173 15140 15445 15458 15460 
+	}
+	manpower=9650000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

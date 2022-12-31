@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+ECU_bolshevist_party:0 "PCdE"
+ECU_bolshevist_party_long:0 "Partido Comunista del Ecuador"
+ECU_spartacist_party:0 "PCdE"
+ECU_spartacist_party_long:0 "Partido Comunista del Ecuador"
+ECU_revolutionary_socialist_party:0 "PCdE"
+ECU_revolutionary_socialist_party_long:0 "Partido Comunista del Ecuador"
+ECU_reformist_socialist_party:0 "PSE"
+ECU_reformist_socialist_party_long:0 "Partido Socialista Ecuatoriano"
+ECU_social_democrat_party:0 "PSE"
+ECU_social_democrat_party_long:0 "Partido Socialista Ecuatoriano"
+ECU_social_liberal_party:0 "PLP"
+ECU_social_liberal_party_long:0 "Partido Liberal Progresista"
+ECU_liberal_conservative_party:0 "PLRE"
+ECU_liberal_conservative_party_long:0 "Partido Liberal Radical Ecuatoriano"
+ECU_social_conservative_party:0 "PCE"
+ECU_social_conservative_party_long:0 "Partido Conservador Ecuatoriano"
+ECU_authoritarian_conservative_party:0 "Militar"
+ECU_authoritarian_conservative_party_long:0 "Militar"
+ECU_right_wing_populist_party:0 "Partido Populismo Conservador"
+ECU_right_wing_populist_party_long:0 "PPC"
+ECU_national_syndicalist_party:0 "PLNE"
+ECU_national_syndicalist_party_long:0 "Partido Laborista Nacionalista Ecuatoriano"
+ECU_national_corporatist_party:0 "PNE"
+ECU_national_corporatist_party_long:0 "Partido Nacionalista Ecuatoriano"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

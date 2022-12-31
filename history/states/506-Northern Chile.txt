@@ -1,0 +1,34 @@
+
+state={
+	id=506
+	name="STATE_506"
+	
+	resources={
+		copper=103
+	}
+
+	history={
+		owner = CHL
+		add_core_of = CHL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12994 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			12994 1 
+		}
+
+	}
+
+	provinces={
+		5146 5171 12994 13506 13507 13508 
+	}
+	manpower=148254
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

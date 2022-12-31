@@ -1,0 +1,236 @@
+spriteTypes = {	
+
+	# spriteType = {
+		# name = "GFX_decision_"
+		# texturefile = "gfx/interface/decisions/.tga"
+	# }
+
+	### categories
+	
+	### category pictures
+	
+	spriteType = {
+		name = "GFX_decision_cat_socialist_german_flag"
+		texturefile = "gfx/interface/decisions/decision_cat_socialist_german_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_soviet_flag"
+		texturefile = "gfx/interface/decisions/decision_cat_soviet_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_portuguese_civil_war"
+		texturefile = "gfx/interface/decisions/decision_cat_portuguese_civil_war.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_cat_zveno_coup"
+		texturefile = "gfx/interface/decisions/decision_cat_zveno_coup.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_german_collectivization"
+		texturefile = "gfx/interface/decisions/decision_cat_german_collectivization.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_YUG_Literacy_schoolkids"
+		texturefile = "gfx/interface/decisions/decision_YUG_Literacy_schoolkids.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_YUG_Ethnic_Map"
+		texturefile = "gfx/interface/decisions/decision_YUG_Ethnic_Map.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_gre_coup_mil"
+		texturefile = "gfx/interface/decisions/decision_cat_gre_coup_mil_gfx.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_cat_gre_coup_civ"
+		texturefile = "gfx/interface/decisions/decision_cat_gre_coup_civ_gfx.tga"
+	}
+	
+	### decision icons
+
+	spriteType = {
+		name = "GFX_decision_generic_fort"
+		texturefile = "gfx/interface/decisions/decision_generic_fort.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_anchor"
+		texturefile = "gfx/interface/decisions/decision_generic_anchor.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_generic_factory"
+		texturefile = "gfx/interface/decisions/decision_generic_factory.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_decision_generic_book"
+		texturefile = "gfx/interface/decisions/decision_generic_book.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_guns_british"
+		texturefile = "gfx/interface/decisions/decision_guns_british.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_guns_french"
+		texturefile = "gfx/interface/decisions/decision_guns_french.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_guns_italian"
+		texturefile = "gfx/interface/decisions/decision_guns_italian.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_artillery_british"
+		texturefile = "gfx/interface/decisions/decision_artillery_british.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_artillery_french"
+		texturefile = "gfx/interface/decisions/decision_artillery_french.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_artillery_italian"
+		texturefile = "gfx/interface/decisions/decision_artillery_italian.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_naval_british"
+		texturefile = "gfx/interface/decisions/decision_naval_britain.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_plane_british"
+		texturefile = "gfx/interface/decisions/decision_plain_britain.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_plane_french"
+		texturefile = "gfx/interface/decisions/decision_plain_france.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_plane_italian"
+		texturefile = "gfx/interface/decisions/decision_plain_italy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_naval_french"
+		texturefile = "gfx/interface/decisions/decision_naval_france.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_plane_italian"
+		texturefile = "gfx/interface/decisions/decision_plane_italy.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_plane_british"
+		texturefile = "gfx/interface/decisions/decision_plane_britain.tga"
+	}
+
+	spriteType = {
+		name = "GFX_decision_plane_french"
+		texturefile = "gfx/interface/decisions/decision_plane_france.tga"
+	}
+
+	### scripted gui stuff
+	
+	spriteType = {
+		name = "GFX_venetian_separatist_flag"
+		texturefile = "gfx/interface/decisions/venetian_separatist_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sardinian_separatist_flag"
+		texturefile = "gfx/interface/decisions/sardinian_separatist_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sicilian_separatist_flag"
+		texturefile = "gfx/interface/decisions/sicilian_separatist_flag.tga"
+	}
+	
+	# Fars Government
+	
+	spriteType = {
+		name = "GFX_british_influence_flag"
+		texturefile = "gfx/interface/decisions/british_influence_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_white_russian_influence_flag"
+		texturefile = "gfx/interface/decisions/white_russian_influence_flag.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_iranian_influence_flag"
+		texturefile = "gfx/interface/decisions/iranian_influence_flag.tga"
+	}
+	
+	# Bosnia
+	
+	spriteType = {
+		name = "GFX_bosniaks_icon"
+		texturefile = "gfx/interface/decisions/bosniaks_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_croats_icon"
+		texturefile = "gfx/interface/decisions/croats_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_serbs_icon"
+		texturefile = "gfx/interface/decisions/serbs_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sabor_icon"
+		texturefile = "gfx/interface/decisions/sabor_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_bosnia_gui_background"
+		texturefile = "gfx/interface/bosnia_gui_background.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sabor_gui_background"
+		texturefile = "gfx/interface/sabor_gui_background.tga"
+	}
+	
+	# Croatia
+	
+	spriteType = {
+		name = "GFX_HRSS_icon"
+		texturefile = "gfx/interface/decisions/HRSS_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_HSP_icon"
+		texturefile = "gfx/interface/decisions/HSP_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_HRP_icon"
+		texturefile = "gfx/interface/decisions/HRP_icon.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_KPJ_icon"
+		texturefile = "gfx/interface/decisions/KPJ_icon.tga"
+	}
+}

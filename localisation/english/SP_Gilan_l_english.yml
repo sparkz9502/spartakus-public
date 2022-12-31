@@ -1,0 +1,51 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+GLN_bolshevist_party:0 "HKI"
+GLN_bolshevist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+GLN_spartacist_party:0 "HKI"
+GLN_spartacist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+GLN_revolutionary_socialist_party:0 "FJEI"
+GLN_revolutionary_socialist_party_long:0 "Revolutionary Republican Party of Iran (Ferqa-ye Jomhuri-e Enqelabi-e Iran)"
+GLN_reformist_socialist_party:0 "HS"
+GLN_reformist_socialist_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+GLN_social_democrat_party:0 "HS"
+GLN_social_democrat_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+GLN_social_liberal_party:0 "HD"
+GLN_social_liberal_party_long:0 "Democrat Party (Hezb-e Demowkrat)"
+GLN_liberal_conservative_party:0 "HJ"
+GLN_liberal_conservative_party_long:0 "Revival Party (Hezb-e Tajaddod)"
+GLN_social_conservative_party:0 "HE"
+GLN_social_conservative_party_long:0 "Reformers' Party (Hezb-e Eslahtalaban)"
+GLN_authoritarian_conservative_party:0 "Qajar"
+GLN_authoritarian_conservative_party_long:0 "Qajar Dynasty (Khandane Qajar)"
+GLN_right_wing_populist_party:0 "HIN"
+GLN_right_wing_populist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+GLN_national_syndicalist_party:0 "HIN"
+GLN_national_syndicalist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+GLN_national_corporatist_party:0 "HIN"
+GLN_national_corporatist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+
+### Focuses ###
+
+### Ideas ###
+
+GLN_Heirs_of_the_Jangal_Movement:0 "Heirs of the Jangal Movement"
+GLN_Heirs_of_the_Jangal_Movement_desc:0 "The Jangal Movement was the name of the movement that began in Gilan under Mirza Kuchik Khan, an anti-Qajar Persian nationalist revolutionary who set up the foundations for the Gilan Soviet Republic. Kuchik Khan was later sidelined in favor of Soviet-backed communist elements, but the movement lives on as a unifying force for the multiethnic Persian Socialist Soviet Republic."
+GLN_Economic_Modernization:0 "Economic Modernization"
+GLN_Economic_Modernization_desc:0 "Gilan, like the rest of Persia, is hardly a modernized country. Heavy industry is sparse, agriculture operates under archaic inefficient methods, and very few paved roads and railways exist. This situation is beginning to change, however, with strong government intervention backed by Soviet and German funding."
+GLN_Traditionalist_Resistance:0 "Traditionalist Resistance"
+GLN_Traditionalist_Resistance_desc:0 "Not all are in favor of the progressive secular reforms implemented by the Gilan government. There remains a strong section of religious traditionalists who openly oppose our rule with the backing of the neighboring Qajar regime. They obstruct the ability for our regime to grow into a mass popular movement, and sabotage our structures from within. They must be dealt with."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

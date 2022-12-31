@@ -1,0 +1,22 @@
+scripted_gui = {
+	colonygui = {
+		context_type = selected_state_context
+		window_name = "colonygui_container"
+		parent_window_token = selected_state_view
+		dirty = colonyguirefresh
+		
+		visible = {
+			check_variable = {
+				var = THIS.colony
+				value = 0
+				compare = greater_than
+			}
+		}
+		
+		properties = {
+			colony_icon = {
+				image = "GFX_colony_[?colony]"
+			}
+		}
+	}
+}

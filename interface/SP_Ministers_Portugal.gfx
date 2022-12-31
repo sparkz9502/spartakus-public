@@ -1,0 +1,108 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### POR
+################################################################################################################################################################################################
+
+#Head of Government
+
+spriteType = {
+	name = "GFX_idea_POR_Antonio_Pinto_Quartim_hog_spa"
+	texturefile = "gfx/interface/ministers/POR/POR_Antonio_Pinto_Quartim.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Bento_Goncalves_hog_spa"
+	texturefile = "gfx/interface/ministers/POR/POR_Bento_Goncalves.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Jaime_Cortesao_hog_sde"
+	texturefile = "gfx/interface/ministers/POR/POR_Jaime_Cortesao.tga"
+}
+
+#Foreign Minister
+
+spriteType = {
+	name = "GFX_idea_POR_Maria_da_Cunha_Lamas_for_rev"
+	texturefile = "gfx/interface/ministers/POR/POR_Maria_da_Cunha_Lamas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Aquilino_Ribeiro_for_ref"
+	texturefile = "gfx/interface/ministers/POR/POR_Aquilino_Ribeiro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Francisco_Cunha_Leal_for_lco"
+	texturefile = "gfx/interface/ministers/POR/POR_Francisco_Cunha_Leal.tga"
+}
+
+#Economy Minister
+
+spriteType = {
+	name = "GFX_idea_POR_Jose_Gomes_Ferreira_eco_rev"
+	texturefile = "gfx/interface/ministers/POR/POR_Jose_Gomes_Ferreira.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Jaime_Cortesao_eco_sde"
+	texturefile = "gfx/interface/ministers/POR/POR_Jaime_Cortesao.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Raul_Proenca_eco_sde"
+	texturefile = "gfx/interface/ministers/POR/POR_Raul_Proenca.tga"
+}
+
+#Security Minister
+
+spriteType = {
+	name = "GFX_idea_POR_Alvaro_Cunhal_sec_spa"
+	texturefile = "gfx/interface/ministers/POR/POR_Alvaro_Cunhal.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Manuel_Ribeiro_sec_lco"
+	texturefile = "gfx/interface/ministers/POR/POR_Manuel_Ribeiro.tga"
+}
+
+#Defence Minister
+
+spriteType = {
+	name = "GFX_idea_POR_Antonio_Sergio_def_ref"
+	texturefile = "gfx/interface/ministers/POR/POR_Antonio_Sergio.tga"
+}
+
+#Chief of Staff
+
+#Chief of Army
+
+spriteType = {
+	name = "GFX_idea_POR_Jose_Sarmento_Pimentel_carm"
+	texturefile = "gfx/interface/ministers/POR/POR_Jose_Sarmento_Pimentel.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Oscar_Carmona_carm"
+	texturefile = "gfx/interface/ministers/POR/POR_Oscar_Carmona.tga"
+}
+
+#Chief of Navy
+
+spriteType = {
+	name = "GFX_idea_POR_Bento_Goncalves_cnav"
+	texturefile = "gfx/interface/ministers/POR/POR_Bento_Goncalves.tga"
+}
+
+#Chief of Air Force
+
+spriteType = {
+	name = "GFX_idea_POR_Sarmento_de_Beires_cair"
+	texturefile = "gfx/interface/ministers/POR/POR_Sarmento_de_Beires.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_POR_Humberto_Delgado_cair"
+	texturefile = "gfx/interface/ministers/POR/POR_Humberto_Delgado.tga"
+}
+}

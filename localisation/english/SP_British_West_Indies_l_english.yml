@@ -1,0 +1,46 @@
+﻿l_english:
+
+### Opinions ###
+
+### Decisions ###
+
+### Events ###
+
+### Parties ###
+
+CFA_bolshevist_party:0 "ITUCBW"
+CFA_bolshevist_party_long:0 "International Trade Union Committee for Black Workers"
+CFA_spartacist_party:0 "ITUCBW"
+CFA_spartacist_party_long:0 "International Trade Union Committee for Black Workers"
+CFA_revolutionary_socialist_party:0 "TWA"
+CFA_revolutionary_socialist_party_long:0 "Trinidad Workingmen's Association"
+CFA_revolutionary_socialist_party_BUTLER:0 "BHRP" #Splits from TLP in 1936
+CFA_revolutionary_socialist_party_BUTLER_long:0 "British Empire Citizens' and Workers' Home Rule Party"
+CFA_reformist_socialist_party:0 "TWA"
+CFA_reformist_socialist_party_long:0 "Trinidad Workingmen's Association"
+CFA_reformist_socialist_party_LABOUR:0 "TLP" #Renames in 1934
+CFA_reformist_socialist_party_LABOUR_long:0 "Trinidad Labour Party"
+CFA_social_democrat_party:0 "BGLU"
+CFA_social_democrat_party_long:0 "British Guiana Labour Union"
+CFA_social_liberal_party:0 "WIFLP"
+CFA_social_liberal_party_long:0 "West Indies Federal Labour Party"
+CFA_liberal_conservative_party:0 "PPP"
+CFA_liberal_conservative_party_long:0 "People's Political Party"
+CFA_social_conservative_party:0 "WINP"
+CFA_social_conservative_party_long:0 "West Indies National Party"
+CFA_authoritarian_conservative_party:0 "Colonial Office"
+CFA_authoritarian_conservative_party_long:0 "British Colonial Office"
+CFA_right_wing_populist_party:0 "-"
+CFA_right_wing_populist_party_long:0 "-"
+CFA_national_syndicalist_party:0 "-"
+CFA_national_syndicalist_party_long:0 "-"
+CFA_national_corporatist_party:0 "-"
+CFA_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

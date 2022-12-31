@@ -1,0 +1,49 @@
+﻿l_english:
+
+### Ideas ###
+
+SWE_socialist_reforms:0 "Social Democratic Reforms"
+SWE_socialist_reforms_desc:0 "The SAP has instituted a series of nationalisations and increased labour laws across Sweden, making the workers better off, giving us better control over the economy, and winning much of the population over to the Party. However, not everyone is so pleased with this situation..."
+SWE_enemies_of_the_republic:0 "Enemies of the New Republic"
+SWE_enemies_of_the_republic_desc:0 "Ever since a Swedish Republic was proclaimed for the first time in 1920, there have been those who seek to bring the King back to his throne, and such people present a constant threat to the nation. The new Republic may be young, but we cannot let it succumb to the wills of monarchist reactionaries!"
+SWE_international_trade:0 "International Trade"
+SWE_international_trade_desc:0 "Uniquely among the all the countries of the world, Sweden has trade negotiations with both the Capitalist and Socialist nations, and thus Swedish trade is truly international. However, this isn't as useful in of itself as Sweden's rich mineral deposits, which bring vital capital into the Republic."
+SWE_capital_flight:0 "Capital Flight"
+SWE_capital_flight_desc:0 "Unfortunately, our social reforms and wide-scale poltical instability do not please the capitalists, among whom many have fled, taking their riches with them. This loss of raw capital is a serious problem, not only because it strains our coffers, but as without the initial large investments we cannot afford expensive undertakings, such as construction or the research of new technologies, without endangering labour protections or incurring mass inflation; this situation will continue until a complete restructuring of the economy is undertaken."
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+
+SWE_bolshevist_party:0 "SKP"
+SWE_bolshevist_party_long:0 "Sveriges Kommunistiska Parti"
+SWE_spartacist_party:0 "SKP"
+SWE_spartacist_party_long:0 "Sveriges Kommunistiska Parti"
+SWE_revolutionary_socialist_party:0 "SAC"
+SWE_revolutionary_socialist_party_long:0 "Sveriges Arbetares Centralorganisation"
+SWE_reformist_socialist_party:0 "SAP (R)"
+SWE_reformist_socialist_party_long:0 "Sveriges Socialdemokratiska Arbetareparti (Radikaler)"
+SWE_social_democrat_party:0 "SAP (M)"
+SWE_social_democrat_party_long:0 "Sveriges Socialdemokratiska Arbetareparti (Moderaterna)"
+SWE_social_liberal_party:0 "Bondeförbundet"
+SWE_social_liberal_party_long:0 "Bondeförbundet"
+SWE_liberal_conservative_party:0 "Liberalerna"
+SWE_liberal_conservative_party_long:0 "Liberalerna"
+SWE_social_conservative_party:0 "Högerpartiet"
+SWE_social_conservative_party_long:0 "Högerpartiet"
+SWE_authoritarian_conservative_party:0 "Royalisterna"
+SWE_authoritarian_conservative_party_long:0 "Royalisterna"
+SWE_right_wing_populist_party:0 "KF"
+SWE_right_wing_populist_party_long:0 "Kyrkliga Folkpartiet"
+SWE_national_syndicalist_party:0 "NRS"
+SWE_national_syndicalist_party_long:0 "Nysvenska Rörelsen"
+SWE_national_corporatist_party:0 "NRS"
+SWE_national_corporatist_party_long:0 "Nysvenska Rörelsen"
+
+### Focuses ###
+
+### Leader descriptions ###
+
+### Events ###

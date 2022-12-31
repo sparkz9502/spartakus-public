@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			NZL = {
+				country_event = { id = nz.0 days = 2 }
+			}
+        }
+    }
+}

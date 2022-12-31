@@ -1,0 +1,75 @@
+﻿#SPARTAKUS
+
+#The Spartakus Team
+
+#Developers
+sparkz
+NatSpi
+Indyclone77
+Sybil
+rika
+Natalie
+Brammeke
+SovietLijm
+Steffplays123
+Dziaddy
+Fenia
+Friedrich von Ebert
+Hannah
+ismand2508
+Agent Paste
+kolokommuna
+CaptainCommunist
+doorhanger93
+Saddam
+BigCheecho
+BlazedSoulofHate
+Shift
+SunZi
+mitotheking
+Master_Plasma
+lovethebomb
+Skullcrusher
+Prussian
+centrist_marxist
+crimean khanate
+alguien
+
+#Contributors
+4MuthaRussia
+Ame
+Karp
+Cricket
+Darth Riki 01
+Elia
+Hexcron
+Jago à la Hat
+Jonny BL
+jyanoshik
+kabajec
+King Van
+Lucia
+aozora
+ProfesorDino
+qasterix
+Reichserzkanzler
+samfan
+Yee
+xie323
+Reof
+singaporesling
+Hellbat
+BolshevikBoy
+birb
+Basileios55
+Kiridifferent
+Rosabot
+
+#Thank you to the following for
+#borrowed code, GFX and inspiration:
+Kaiserreich
+Non Reflective Water
+Krasnacht
+Mapno
+Grestin
+...and all the Coop mods!

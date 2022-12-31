@@ -1,0 +1,22 @@
+state={
+	id=812
+	name="STATE_812"
+	provinces={
+		1056 1072 4550 7513 10383 12316 12442 
+	}
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		victory_points = { 4550 10 }
+		victory_points = { 1056 2 }
+		victory_points = { 7513 2 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	manpower=112300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

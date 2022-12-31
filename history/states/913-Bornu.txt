@@ -1,0 +1,25 @@
+
+state={
+	id=913
+	name="STATE_913"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4997 1 
+		}
+
+	}
+
+	provinces={
+		4997 5028 7065 14534 14540 
+	}
+	manpower=896700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

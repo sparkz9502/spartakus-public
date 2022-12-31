@@ -1,0 +1,30 @@
+
+state={
+	id=988
+	name="STATE_988"
+
+	history={
+		owner = UAE
+		add_core_of = UAE
+		add_claim_by = SAU
+		victory_points = {
+			13725 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+			13725 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		8051 13725 
+	}
+	manpower=25003
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,20 @@
+
+state={
+	id=1142
+	name="STATE_1142"
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		932 3737 3931 3933 6903 9857 
+	}
+	manpower=345900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

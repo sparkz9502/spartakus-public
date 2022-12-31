@@ -1,0 +1,501 @@
+spriteTypes = {
+
+### Head of Government ###
+spriteType = {
+	name = "GFX_idea_GRE_Andronikos_Haitas_hog_bol"
+	texturefile = "gfx/interface/ministers/GRE/GRE_andronikos_haitas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Patsias_Giatsopoulos_hog_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_pastias_giatsopoulos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Fragiskos_Tzoulati_hog_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_fragiskos_tzoulati_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Gavriilidis_hog_rev"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_gavriilidis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Aristotelis_Sideris_hog_ref"
+	texturefile = "gfx/interface/ministers/GRE/GRE_aristotelis_sideris_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Papanastasiou_hog_sde"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_papanastasiou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Eleftherios_Venizelos_hog_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_eleftherios_venizelos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Themistoklis_Sofoulis_hog_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_themistoklis_sofoulis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Sofoklis_Venizelos_hog_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_sofoklis_venizelos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Panagis_Tsaldaris_hog_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_panagis_tsaldaris_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Tsaldaris_hog_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_tsaldaris_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Pezmazoglou_hog_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_pezmazoglou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Kondylis_hog_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_kondylis_civ_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Demertzis_hog_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_Demertzis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Metaxas_hog_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_metaxas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Koryzis_hog_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_koryzis_gfx.tga"
+}
+
+### Foreign Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Georgis_Siantos_for_bol"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgis_siantos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Kordatos_for_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_kordatos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Apostolos_Vogiatzis_for_rev"
+	texturefile = "gfx/interface/ministers/GRE/GRE_apostolos_vogiatzis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Zavitsanos_for_sde"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_zavitsanos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Athanasiadis_for_sli"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_athanasiadis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Andreas_Michalakopoulos_for_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_antreas_michalakopoulos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Dimitrios_Maximos_for_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_dimitrios_maximos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Mercouris_for_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_mercouris_gfx.tga"
+}
+
+### Minister Without Portfolio ###
+spriteType = {
+	name = "GFX_idea_GRE_Nikolaos_Ploubidis_mwp_bol"
+	texturefile = "gfx/interface/ministers/GRE/GRE_nikolaos_ploubidis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Ioannidis_mwp_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_ioannidis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Milonas_mwp_sde"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_mylonas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Themistoklis_Sofoulis_mwp_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_themistoklis_sofoulis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Sofoklis_Venizelos_mwp_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_sofoklis_venizelos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Tsaldaris_mwp_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_tsaldaris_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Pezmazoglou_mwp_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_pezmazoglou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Theotokis_mwp_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_theotokis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Speras_mwp_nsy"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_speras_gfx.tga"
+}
+
+### Economy Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Theos_eco_bol"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_theos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Pantelis_Pouliopoulos_eco_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_pantelis_pouliopoulos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Serafim_Maximos_eco_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_serafim_maximos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Loukas_Karliaftis_eco_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_loukas_karliaftis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Dimitrios_Stratis_eco_ref"
+	texturefile = "gfx/interface/ministers/GRE/GRE_dimitrios_stratis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Kafantaris_eco_sli"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_kafantaris_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Papandreou_eco_sli"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_papandreou_sli.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Emmanouil_Tsouderos_eco_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_emmanouil_tsouderos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Spyridon_Loverdos_eco_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_spyridon_loverdos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Pezmazoglou_eco_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_pezmazoglou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Kartalis_eco_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_kartalis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Koryzis_eco_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_koryzis_gfx.tga"
+}
+
+###Security Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Stergios_Anastasiadis_sec_bol"
+	texturefile = "gfx/interface/ministers/GRE/GRE_stergios_anastasiadis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Chrisa_Hatzivasileiou_sec_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_chrisa_hatzivasileiou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Dimitrios_Hatzigiannis_sec_rev"
+	texturefile = "gfx/interface/ministers/GRE/GRE_dimitrios_hatzigiannis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Georgiadis_sec_ref"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_georgiadis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Anastasios_Bakalbasis_sec_sde"
+	texturefile = "gfx/interface/ministers/GRE/GRE_anastasios_bakalbasis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Pantelis_Karasevdas_sec_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_pantelis_karasevdas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Moutzouridis_sec_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_moutzouridis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Rallis_sec_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_rallis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Maniadakis_sec_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_maniadakis_gfx.tga"
+}
+
+### Education Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Dimitrios_Glinos_edu_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_dimitrios_glinos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Svolos_edu_ref"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_svolos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Michail_Kyrkos_edu_sli"
+	texturefile = "gfx/interface/ministers/GRE/GRE_michalis_kyrkos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Panagiotis_Kanellopoulos_edu_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_panagiotis_kanellopoulos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Nikolaos_Louvaris_edu_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_nikolaos_louvaris_gfx.tga"
+}
+
+### Agriculture Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Sofianopoulos_agr_rev"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_sofianopoulos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Spyridon_Hasiotis_agr_rev"
+	texturefile = "gfx/interface/ministers/GRE/GRE_spyridon_hasiotis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Papanastasiou_agr_sde"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_papanastasiou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Dimitrios_Irakleidis_agr_sde"
+	texturefile = "gfx/interface/ministers/GRE/GRE_dimitrios_irakleidis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Agamemnon_Schliemann_agr_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_agamemnon_schliemann_gfx.tga"
+}
+
+### Transport Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Lazaridis_tra_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_lazaridis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Kordatos_tra_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_kordatos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Petros_Levantis_tra_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_petros_levantis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Stratos_tra_sco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_stratos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Rallis_tra_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_rallis_gfx.tga"
+}
+
+### Defence Minister ###
+spriteType = {
+	name = "GFX_idea_GRE_Aristeidis_Velouchiotis_def_spa"
+	texturefile = "gfx/interface/ministers/GRE/GRE_aristeidis_velouchiotis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Stefanos_Sarafis_def_ref"
+	texturefile = "gfx/interface/ministers/GRE/GRE_stefanos_sarafis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Nikolaos_Plastiras_def_lco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_nikolaos_plastiras_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Kondylis_def_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_kondylis_civ_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Papagos_def_aco"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_papagos_civ_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Metaxas_def_ncp"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_metaxas_gfx.tga"
+}
+
+### Chief of Staff ###
+spriteType = {
+	name = "GFX_idea_GRE_Aristeidis_Velouchiotis_cos"
+	texturefile = "gfx/interface/ministers/GRE/GRE_aristeidis_velouchiotis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Stefanos_Sarafis_cos"
+	texturefile = "gfx/interface/ministers/GRE/GRE_stefanos_sarafis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Vasileios_Samariniotis_cos"
+	texturefile = "gfx/interface/ministers/GRE/GRE_vasileios_samariniotis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Theodoros_Manetas_cos"
+	texturefile = "gfx/interface/ministers/GRE/GRE_theodoros_manetas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Aristeidis_Chasapidis_cos"
+	texturefile = "gfx/interface/ministers/GRE/GRE_aristeidis_chasapidis_gfx.tga"
+}
+
+### Chief of Army ###
+spriteType = {
+	name = "GFX_idea_GRE_Aristeidis_Velouchiotis_carm"
+	texturefile = "gfx/interface/ministers/GRE/GRE_aristeidis_velouchiotis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Vasileios_Samariniotis_carm"
+	texturefile = "gfx/interface/ministers/GRE/GRE_vasileios_samariniotis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Katechakis_carm"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_katechakis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Kondylis_carm"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_kondylis_mil_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Papagos_carm"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_papagos_mil_gfx.tga"
+}
+
+### Chief of Navy ###
+spriteType = {
+	name = "GFX_idea_GRE_Kostantinos_Georgiadis_cnav"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostantinos_georgiadis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Alexandros_Hatzikyriakos_cnav"
+	texturefile = "gfx/interface/ministers/GRE/GRE_alexandros_hatzikyriakos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Dimitrios_Oikonomou_cnav"
+	texturefile = "gfx/interface/ministers/GRE/GRE_dimitrios_oikonomou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Sofoklis_Dousmanis_cnav"
+	texturefile = "gfx/interface/ministers/GRE/GRE_sofoklis_dousmanis_gfx.tga"
+}
+
+### Chief of Air Force ###
+spriteType = {
+	name = "GFX_idea_GRE_Lefteris_Apostolou_cair"
+	texturefile = "gfx/interface/ministers/GRE/GRE_lefteris_apostolou_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Katechakis_cair"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_katechakis_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Georgios_Reppas_cair"
+	texturefile = "gfx/interface/ministers/GRE/GRE_georgios_reppas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Ioannis_Rallis_cair"
+	texturefile = "gfx/interface/ministers/GRE/GRE_ioannis_rallis_gfx.tga"
+}
+
+### Theorist ###
+spriteType = {
+	name = "GFX_idea_GRE_Giannis_Ritsos_theo"
+	texturefile = "gfx/interface/ministers/GRE/GRE_giannis_ritsos_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Kostis_Palamas_theo"
+	texturefile = "gfx/interface/ministers/GRE/GRE_kostis_palamas_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Chrysostomos_I_of_Athens_theo"
+	texturefile = "gfx/interface/ministers/GRE/GRE_chrysostomos_i_of_athens_gfx.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GRE_Sevastianos_Foulidis"
+	texturefile = "gfx/interface/ministers/GRE/GRE_sevastianos_foulidis_gfx.tga"
+}
+}

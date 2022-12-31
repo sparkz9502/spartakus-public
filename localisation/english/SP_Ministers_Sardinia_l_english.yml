@@ -1,0 +1,54 @@
+﻿l_english:
+
+### Head of Government ###
+SRD_Emilio_Lussu_hog_ref:0 "Emilio Lussu"
+SRD_Pietro_Mastino_hog_sde:0 "Pietro Mastino"
+SRD_Camillo_Bellieni_hog_sli:0 "Camillo Bellieni"
+SRD_Anselmo_Contu_hog_sli:0 "Anselmo Contu"
+
+### Minister Without Portfolio ###
+SRD_Emilio_Lussu_mwp_ref:0 "Emilio Lussu"
+
+### Foreign Minister ###
+SRD_Mario_Berlinguer_for_ref:0 "Mario Berlinguer"
+SRD_Silvio_Mastio_for_sde:0 "Silvio Mastio"
+SRD_Giovanni_Battista_Melis_for_sli:0 "Giovanni Battista Melis"
+
+### Economy Minister ###
+SRD_Alessandro_Nanni_eco_rev:0 "Alessandro Nanni"
+SRD_Davide_Cova_eco_ref:0 "Davide Cova"
+SRD_Stefano_Siglienti_eco_sde:0 "Stefano Siglienti"
+SRD_Battista_Bardanzellu_eco_sli:0 "Battista Bardanzellu"
+SRD_Gavino_Alivia_eco_sli:0 "Gavino Alivia"
+
+### Security Minister ###
+SRD_Mario_Berlinguer_sec_ref:0 "Mario Berlinguer"
+SRD_Pietro_Mastino_sec_sde:0 "Pietro Mastino"
+SRD_Anselmo_Contu_sec_sli:0 "Anselmo Contu"
+SRD_Enrico_Endrich_sec_sli:0 "Enrico Endrich"
+SRD_Luigi_Oggiano_sec_sli:0 "Luigi Oggiano"
+
+### Education Minister ###
+SRD_Filiberto_Farci_edu_ref:0 "Filiberto Farci"
+
+### Agriculture Minister ###
+SRD_Paolo_Pili_agr_sli:0 "Paolo Pili"
+
+### Transport Minister ###
+
+### Defence Minister ###
+SRD_Luigi_Polano_def_spa:0 "Luigi Polano"
+SRD_Gonario_Pinna_def_ref:0 "Gonario Pinna"
+SRD_Francesco_Fancello_def_sde:0 "Francesco Fancello"
+SRD_Giuseppe_Musinu_def_sli:0 "Giuseppe Musinu"
+
+### Chief of Staff ###
+
+### Chief of Army ###
+SRD_Giuseppe_Musinu_carm:0 "Giuseppe Musinu"
+
+### Chief of Navy ###
+
+### Chief of Air Force ###
+
+### Theorist ###

@@ -1,0 +1,46 @@
+﻿division_template = {
+	name = "Kaçak"
+	division_names_group = ALB_INF_01
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	support = {
+	}
+}
+
+units = {
+	#Ushtria Shqipëtarë
+	division = { 
+		name = "1. Kaçak" 
+		location = 9874
+		division_template = "Kaçak"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+	division = { 
+		name = "2. Kaçak" 
+		location = 9849
+		division_template = "Kaçak"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "KOS"
+		}
+		requested_factories = 1
+		progress = 0.86
+		efficiency = 100
+	}
+}

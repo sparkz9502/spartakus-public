@@ -1,0 +1,25 @@
+
+state={
+	id=206
+	name="STATE_206"
+
+	history={
+		owner = LIT
+		victory_points = {
+			3393 2
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		233 3366 3393 6340 6413 11391 
+	}
+	manpower=405000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

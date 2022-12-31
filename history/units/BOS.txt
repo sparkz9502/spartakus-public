@@ -1,0 +1,125 @@
+﻿ division_template = {
+	name = "Vojno Vijeće"	# Infantry Division	
+	division_names_group = CRO_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = { 
+	}
+}
+ division_template = {
+	name = "Pjesadijska Divizija"	# Infantry Division	
+	division_names_group = CRO_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = { 
+	}
+}
+division_template = {
+	name = "Alpinisticka Pjesadija"		# Mountain Brigade
+	division_names_group = CRO_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Konjica" 			# Cavalry Division
+	division_names_group = CRO_CAV_01
+	# Note: regiments within the brigade were battalion-sized units
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Tenkovski Bataljon" 			# Tank Battalion
+	division_names_group = CRO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }       
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## Army ########
+	division = {
+		name = "Vijeće Sarajeva"  			
+		location = 11899
+		division_template = "Vojno Vijeće"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "Vijeće Tuzle"  			
+		location = 6799
+		division_template = "Vojno Vijeće"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Vijeće Banja Luke"  			
+		location = 6983
+		division_template = "Vojno Vijeće"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.6
+	}
+	
+	division = {
+		name = "Vijeće Zenice"  			
+		location = 9922
+		division_template = "Vojno Vijeće"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "Vijeće Bihaća"  			
+		location = 9586
+		division_template = "Vojno Vijeće"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.4
+	}
+	
+	division = {
+		name = "Vojna Komanda Drine"  			
+		location = 982
+		division_template = "Vojno Vijeće"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+	}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BOS"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	
+} 

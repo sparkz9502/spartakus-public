@@ -1,0 +1,30 @@
+
+state={
+	id=184
+	name="STATE_184"
+	manpower = 200000
+	
+	state_category = rural
+	
+	resources={
+		iron=2
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+		}
+		add_claim_by = BUL
+		add_core_of = GRE
+		add_claim_by = OTT
+		victory_points = {#Alexandroupoli
+			11905 3
+		}
+
+	}
+
+	provinces={
+		11774 11905 13633
+	}
+}

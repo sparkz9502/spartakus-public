@@ -1,0 +1,25 @@
+
+state={
+	id=1430
+	name="STATE_1430"
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			12300 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1438 1531 4074 5089 10367 10507 12300 14992 15011 
+	}
+	manpower=2622100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

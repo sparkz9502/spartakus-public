@@ -1,0 +1,151 @@
+﻿capital = 9
+
+set_oob = "CZE"
+
+set_stability = 0.65
+set_war_support = 0.25
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1		
+	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_military_police = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	interwar_antiair = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+}
+
+set_research_slots = 3
+
+add_ideas = {
+	recruitment_1830
+	governance_exec
+	trade_sempro
+	economy_ind
+	mobilization_3
+	
+	CZE_struggling_economy
+	CZE_isolated_nation
+}
+add_dynamic_modifier = { modifier = CZE_petka_modifier }
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 1
+    spartacist = 5
+    revolutionary_socialist = 1
+    reformist_socialist = 3
+    social_democrat = 16
+    social_liberal = 13
+    liberal_conservative = 5
+    social_conservative = 21
+    authoritarian_conservative = 7
+    right_wing_populist = 17
+    national_syndicalist = 5
+    national_corporatist = 6
+}
+
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_social_liberal
+set_country_flag = coalition_liberal_conservative
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_authoritarian_conservative
+set_country_flag = coalition_right_wing_populist
+
+recruit_character = CZE_tomas_garrigue_masaryk
+recruit_character = CZE_alois_elias
+recruit_character = CZE_alois_muna
+recruit_character = CZE_antonin_basl
+recruit_character = CZE_bohumil_jilek
+recruit_character = CZE_bohumir_smeral
+recruit_character = CZE_bohuslav_vrbensky
+recruit_character = CZE_bohuslav_vseticka
+recruit_character = CZE_emanuel_moravec
+recruit_character = CZE_frantisek_balate
+recruit_character = CZE_frantisek_blaha
+recruit_character = CZE_frantisek_slunecko
+recruit_character = CZE_hans_knirsch
+recruit_character = CZE_hugo_vojta
+recruit_character = CZE_jan_syrovy
+recruit_character = CZE_josef_bily
+recruit_character = CZE_josef_snejdarek
+recruit_character = CZE_lev_prchala
+recruit_character = CZE_ludvik_krejci
+recruit_character = CZE_radola_gajda
+recruit_character = CZE_rudolf_medek
+recruit_character = CZE_sergej_vojcechovsky
+recruit_character = CZE_vaclav_moravek
+recruit_character = CZE_vojtech_luza
+recruit_character = CZE_zdenek_novak
+
+### Events
+
+# Intro
+country_event = { id = cze.0 hours = 6 }
+
+# Explain Gajda Coup Mission
+country_event = { id = czegajda.0 days = 2 }
+
+# Gajda Coup
+country_event = { id = cze.20 days = 386 }
+
+# Great Depression
+country_event = { id = cze.1 days = 86 }
+
+# Independent Czechoslovak State Day
+country_event = { id = cze.2 days = 300 }
+
+# August Naegle Dies
+country_event = { id = cze.4 days = 284 }
+
+# 1934 Presidential Election
+country_event = { id = cze.10 days = 873 }
+
+### Missions
+
+# Gajda Coup Progress
+set_variable = { CZE_Gajda_coup_prog_counter = 0 }
+set_variable = { CZE_Gajda_coup_timeout_days = 45 }
+activate_mission = CZE_Gajda_coup_progress_mission
+
+# Parliament: 160 seats total
+set_variable = { bolshevist_seats = 0 }
+set_variable = { spartacist_seats = 26 }
+set_variable = { revsoc_seats = 0 }
+set_variable = { demsoc_seats = 0 }
+set_variable = { socdem_seats = 31 }
+set_variable = { soclib_seats = 23 }
+set_variable = { libcon_seats = 29 }
+set_variable = { soccon_seats = 37 }
+set_variable = { authdem_seats = 0 }
+set_variable = { rwpop_seats = 11 }
+set_variable = { natsyn_seats = 0 }
+set_variable = { natcorp_seats = 3 }
+
+# Petka Variables
+set_variable = { CZE_petka_left_wing_influence = 50 }
+set_variable = { CZE_petka_right_wing_influence = 50 }
+set_variable = { CZE_petka_pp_var = 0.10 }
+set_variable = { CZE_petka_stab_var = 0.05 }
+
+# Secret Police
+set_variable = { CZE_improve_secret_police_days = 100 }
+set_variable = { CZE_improve_secret_police_rate = 1 }
+set_variable = { CZE_secret_police_network_var = 12 }
+set_variable = { CZE_communist_infiltration_level = 9 }
+set_variable = { CZE_fascist_infiltration_level = 7 }
+activate_mission = improve_secret_police_network

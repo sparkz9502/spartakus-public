@@ -1,0 +1,40 @@
+ideas = {
+
+#######################
+#  Bukhara/Turkestan Ideas  #
+#######################
+
+	country = {
+		
+		TRK_pan_turkic_movement = {
+			picture = OTT_autocracy_idea
+
+			allowed = {
+				original_tag = TRK
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.10
+				conscription_factor = 0.25
+				army_core_attack_factor = 0.10
+				army_core_defence_factor = 0.10
+			}
+		}
+		
+		TRK_bolshevik_raiding = {
+			picture = BUL_VMRO
+
+			allowed = {
+				original_tag = TRK
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+			}
+		}
+	
+	}
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=176
+	name="STATE_176"
+
+	history={
+		owner = SPR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			885 3 
+		}
+		victory_points = {
+			11825 2 
+		}
+		add_core_of = SPR
+
+	}
+
+	provinces={
+		9703 11688 
+	}
+	manpower=364100
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

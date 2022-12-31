@@ -1,0 +1,59 @@
+﻿capital = 413
+
+set_oob = "KHU"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_tri
+	trade_laif
+	economy_unind
+	mobilization_1
+	
+	KHU_Tribal_Confederation
+	KHU_British_Exploitation
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.3
+set_convoys = 20
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 4
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 5
+    social_democrat = 2
+    social_liberal = 7
+    liberal_conservative = 10
+    social_conservative = 6
+    authoritarian_conservative = 45
+    right_wing_populist = 7
+    national_syndicalist = 13
+    national_corporatist = 1
+}
+
+create_country_leader = {
+	name = "Khaz'al Khan al-Kaabi"
+	desc = "POLITICS_KHAN_AL_KAABI_DESC"
+	picture = "Portrait_Khazal_Khan_al-Kaabi.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutional_monarchism
+	traits = {
+	}
+}

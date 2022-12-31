@@ -1,0 +1,32 @@
+
+state={
+	id=411
+	name="STATE_411"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			2026 7 
+		}
+		victory_points = {
+			15030 1 
+		}
+		victory_points = {
+			15027 3
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1963 2026 8074 14990 14996 15005 15008 15010 15019 15020 15023 15027 15028 15030 15037 15041 15050 15053 
+	}
+	manpower=1010900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

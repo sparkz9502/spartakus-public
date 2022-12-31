@@ -1,0 +1,22 @@
+
+state={
+	id=283
+	name="STATE_283"
+
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		556 1933 2022 4313 5193 7911 12797 12882 
+	}
+	manpower=2432200
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

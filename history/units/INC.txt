@@ -1,0 +1,185 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Régiment de Tirailleurs"
+	division_names_group = FRA_COL_02
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Régiment d'Infanterie Coloniale"
+	is_locked = yes
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Régiment Étranger d'Infanterie"
+	is_locked = yes
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Bataillon de Tirailleurs Montagnards"
+	is_locked = yes
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	}
+	support = {
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = { #"1ère Rég. de Tirailleurs Tonkinois"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4075
+		division_template = "Régiment de Tirailleurs"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"2ème Rég. de Tirailleurs Tonkinois"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 4119
+		division_template = "Régiment de Tirailleurs"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"3ème Rég. de Tirailleurs Tonkinois"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12048
+		division_template = "Régiment de Tirailleurs"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"4ème Rég. de Tirailleurs Tonkinois"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 1185
+		division_template = "Régiment de Tirailleurs"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"1ère Rég. de Tirailleurs Annamites"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12232
+		division_template = "Régiment de Tirailleurs"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"1ère Rég. de Tirailleurs Cambodgiens"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7376
+		division_template = "Régiment de Tirailleurs"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "9ème Rég. d'Infanterie Coloniale"  			
+		location = 4075
+		division_template = "Régiment d'Infanterie Coloniale" 
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "10ème Rég. d'Infanterie Coloniale"  			
+		location = 4379
+		division_template = "Régiment d'Infanterie Coloniale" 
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "11ème Rég. d'Infanterie Coloniale"  			
+		location = 4401
+		division_template = "Régiment d'Infanterie Coloniale" 
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "16ème Rég. d'Infanterie Coloniale"  			
+		location = 4405
+		division_template = "Régiment d'Infanterie Coloniale" 
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "19ème Rég. d'Infanterie Coloniale"  			
+		location = 4119
+		division_template = "Régiment d'Infanterie Coloniale" 
+		start_experience_factor = 0.1
+	}
+	
+	division = {
+		name = "5ème Rég. Étranger d'Infanterie"  			
+		location = 1073
+		division_template = "Régiment Étranger d'Infanterie" 
+		start_experience_factor = 0.3
+	}
+	
+	division = {
+		name = "Bat. de Tirailleurs Montagnards du Sud-Annam"  			
+		location = 7271
+		division_template = "Bataillon de Tirailleurs Montagnards" 
+		start_experience_factor = 0.3
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "INC"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

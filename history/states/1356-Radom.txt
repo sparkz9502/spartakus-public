@@ -1,0 +1,26 @@
+state={
+	id=1356
+	name="STATE_1356"
+	provinces={
+		562 3458 3482 6416 6511 
+	}
+	
+	resources={
+		iron=9
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		victory_points = { 3458 5 }
+		victory_points = { 562 3 }
+		victory_points = { 6511 2 }
+		buildings = {
+			infrastructure = 3
+		}
+	}
+
+	manpower=783300
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

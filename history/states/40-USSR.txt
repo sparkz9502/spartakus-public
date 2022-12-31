@@ -1,0 +1,27 @@
+
+state={
+	id=40
+	name="STATE_40"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = SOV
+		victory_points = {
+			1794 2
+		}
+		victory_points = {
+			4803 1
+		}
+
+	}
+
+	provinces={
+		1297 1779 1794 1797 4734 4803 4806 7680 7687 10537 10546 11410 12515 12528 12613 
+	}
+	manpower=1574000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

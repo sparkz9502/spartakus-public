@@ -1,0 +1,21 @@
+state={
+	id=1259
+	name="STATE_1259"
+	provinces={
+		15179 
+	}
+	history={
+		owner = WUR
+		add_core_of = WUR
+		add_claim_by = GER
+		victory_points = {
+			15179 1 
+		}
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=72900
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

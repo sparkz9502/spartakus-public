@@ -1,0 +1,27 @@
+
+state={
+	id=1200
+	name="STATE_1200"
+
+	history={
+		owner = CRO
+		add_core_of = CRO
+		add_core_of = STJ
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			11901 10 
+		}
+
+	}
+
+	provinces={
+		11901 15368 
+	}
+	manpower=470300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

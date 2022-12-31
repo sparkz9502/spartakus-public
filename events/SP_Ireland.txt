@@ -1,0 +1,468 @@
+﻿add_namespace = ire
+add_namespace = ira
+
+country_event = { # Intro
+	id = ire.0
+	title = ire.0.t
+	desc = ire.0.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	trigger = {
+		date < 1932.1.2
+	}
+	
+	option = {
+		name = ire.0.a
+	}
+}
+
+country_event = { # Decennial of Bloody Saturday - 14 January 1932
+	id = ire.1
+	title = ire.1.t
+	desc = ire.1.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Public service
+		name = ire.1.a
+		custom_effect_tooltip = ire1a_tt
+		add_political_power = 50
+		ENG = { country_event = ire.2 }
+		
+		ai_chance = { factor = 40 }
+	}
+	option = { # Denounce British imperialism
+		name = ire.1.b
+		custom_effect_tooltip = ire1b_tt
+		add_political_power = 100
+		add_stability = -0.05
+		ENG = {
+			country_event = ire.3
+			add_opinion_modifier = { target = IRE modifier = UK_IRE_denounced_imperialism }
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+	option = { # General strike
+		name = ire.1.c
+		custom_effect_tooltip = ire1c_tt
+		add_political_power = 100
+		add_stability = -0.05
+		add_ideas = IRE_general_strike_bloody_saturday
+		ENG = {
+			country_event = ire.4
+			add_opinion_modiier = { target = IRE modifier = UK_IRE_general_strike }
+		}
+		
+		ai_chance = { factor = 30 }
+	}
+	option = { # No memorial
+		name = ire.1.d
+		custom_effect_tooltip = ire1d_tt
+		add_political_power = -100
+		add_stability = -0.05
+		ENG = {
+			country_event = ire.5
+			add_opinion_modifier = { target = IRE modifier = UK_IRE_no_memorial }
+		}
+		hidden_effect = {
+			add_opinion_modifier = { target = ENG modifier = IRE_UK_no_memorial }
+		}
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = { # UK - Ireland held public service
+	id = ire.2
+	title = ire.2.t
+	desc = ire.2.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Join the Irish in memorialising the tragedy
+		name = ire.2.a
+		add_political_power = 20
+		IRE = {
+			add_opinion_modifier = { target = ENG modifier = IRE_UK_british_memorial }
+		}
+		
+		ai_chance = { factor = 65 }
+	}
+	option = { # Ignore
+		name = ire.2.b
+		
+		ai_chance = { factor = 35 }
+	}
+}
+
+country_event = { # UK - Ireland denounced imperialism
+	id = ire.3
+	title = ire.3.t
+	desc = ire.3.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Warn the Irish
+		name = ire.3.a
+		add_political_power = -50
+		IRE = {
+			country_event = { id = ire.6 days = 1 }
+		}
+		CAN = {
+			country_event = { id = ire.17 hours = 6 }
+		}
+		
+		ai_chance = { factor = 40 }
+	}
+	option = { # Seek reconciliation
+		name = ire.3.b
+		add_political_power = -50
+		IRE = {
+			country_event = { id = ire.7 days = 1 }
+		}
+		
+		ai_chance = { factor = 40 }
+	}
+	option = { # Ignore
+		name = ire.3.c
+		add_political_power = -50
+		
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = { # UK - Ireland called a general strike
+	id = ire.4
+	title = ire.4.t
+	desc = ire.4.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Order the Irish to end the strike
+		name = ire.4.a
+		add_political_power = -100
+		IRE = {
+			country_event = { id = ire.8 days = 1 }
+		}
+		
+		ai_chance = { factor = 30 }
+	}
+	option = { # Denounce such destabilising measures
+		name = ire.4.b
+		add_political_power = -50
+		IRE = {
+			country_event = { id = ire.9 days = 1 }
+		}
+		
+		ai_chance = { factor = 40 }
+	}
+	option = { # Condemn Germany and Russia for interfering with British affairs
+		name = ire.4.c
+		add_political_power = -50
+		GER = {
+			country_event = { id = ire.10 hours = 6 }
+		}
+		SOV = {
+			country_event = { id = ire.10 hours = 6 }
+		}
+		add_named_threat = {
+			threat = 1
+			name = communists_accused_influencing_irish_govt_strike
+		}
+		hidden_effect = {
+			add_opinion_modifier = { target = GER modifier = UK_influencing_irish_govt_strike }
+			add_opinion_modifier = { target = SOV modifier = UK_influencing_irish_govt_strike }
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+	option = { # Ignore
+		name = ire.4.d
+		add_political_power = -50
+		
+		ai_chance = { factor = 10 }
+	}
+}
+
+country_event = { # UK - Ireland moving towards reconciliation
+	id = ire.5
+	title = ire.5.t
+	desc = ire.5.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.5.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+
+country_event = { # UK warns Ireland
+	id = ire.6
+	title = ire.6.t
+	desc = ire.6.desc
+	picture = GRX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Refuse to comply
+		name = ire.6.a
+		add_political_power = 50
+		add_stability = -0.05
+		ENG = {
+			country_event = { id = ire.11 days = 1 }
+			add_opinion_modifier = { target = IRE modifier = UK_IRE_refused_to_retract_statements }
+		}
+		hidden_effect = {
+			CAN = {
+				country_event = { id = ire.17 hours = 6 }
+			}
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+	option = { # Equivocate
+		name = ire.6.b
+		add_political_power = -50
+		ENG = {
+			country_event = { id = ire.12 days = 1 }
+		}
+		
+		ai_chance = { factor = 60 }
+	}
+	option = { # Retract the speech
+		name = ire.6.c
+		add_political_power = -100
+		add_stability = -0.05
+		ENG = {
+			country_event = { id = ire.13 days = 1 }
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = { # UK calls for reconciliation
+	id = ire.7
+	title = ire.7.t
+	desc = ire.7.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.7.a
+		add_political_power = 50
+		add_stability = 0.05
+	}
+}
+
+country_event = { # UK demands the strike end
+	id = ire.8
+	title = ire.8.t
+	desc = ire.8.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Continue the strike
+		name = ire.8.a
+		add_political_power = 50
+		ENG = {
+			country_event = { id = ire.11 days = 1 }
+		}
+		
+		ai_chance = { factor = 70 }
+	}
+	option = { # End the strike
+		name = ire.8.b
+		add_political_power = -50
+		add_stability = -0.02
+		remove_ideas = IRE_general_strike_bloody_saturday
+		ENG = {
+			country_event = { id = ire.13 days = 1 }
+		}
+		
+		ai_chance = { factor = 30 }
+	}
+}
+
+country_event = { # UK denounces the strike as destabilising
+	id = ire.9
+	title = ire.9.t
+	desc = ire.9.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.9.a
+		add_political_power = -20
+	}
+}
+
+country_event = { # Germany & USSR - Britain claims that we are influencing the Irish
+	id = ire.10
+	title = ire.10.t
+	desc = ire.10.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.10.a
+	}
+}
+
+country_event = { # UK - Ireland refuses to retract their statements
+	id = ire.11
+	title = ire.11.t
+	desc = ire.11.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = { # Do nothing
+		name = ire.11.a
+		add_political_power = -50
+		IRE = {
+			country_event = { id = ire.14 days = 3 }
+		}
+		
+		ai_chance = { factor = 50 }
+	}
+	option = { # Order the paramilitary groups to agitate
+		name = ire.11.b
+		add_political_power = -20
+		IRE = {
+			country_event = { id = ire.15 days = 3 }
+		}
+		hidden_effect = {
+			news_event = { id = uknews.2 days = 15 random = 7 }
+		}
+		
+		ai_chance = { factor = 50 }
+	}
+}
+
+country_event = { # UK - Ireland equivocates
+	id = ire.12
+	title = ire.12.t
+	desc = ire.12.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Accept
+		name = ire.12.a
+		add_political_power = -20
+		IRE = {
+			country_event = { id = ire.16 days = 1 }
+		}
+		
+		ai_chance = { factor = 80 }
+	}
+	option = { # Decline
+		name = ire.12.b
+		add_political_power = 20
+		IRE = {
+			country_event = { id = ire.15 days = 1 }
+		}
+		
+		ai_chance = { factor = 20 }
+	}
+}
+
+country_event = { # UK - Ireland ends the strike at our insistence
+	id = ire.13
+	title = ire.13.t
+	desc = ire.13.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.13.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # The UK does nothing
+	id = ire.14
+	title = ire.14.t
+	desc = ire.14.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.14.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # Loyalist paramilitaries agitate
+	id = ire.15
+	title = ire.15.t
+	desc = ire.15.desc
+	picture = GFX_report_event_worker_protests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.15.a
+		add_political_power = -50
+		add_ideas = IRE_loyalist_paramilitaries_agitating
+	}
+}
+
+country_event = { # Britain accepts our concession
+	id = ire.16
+	title = ire.16.t
+	desc = ire.16.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ire.16.a
+		add_political_power = 50
+	}
+}
+
+country_event = { # Canada - UK warned Ireland, Ireland refuses to retract statements
+	id = ire.17
+	title = ire.17.t
+	desc = ire.17.desc
+	picture = GFX_report_event_generic_parliament
+	
+	is_triggered_only = yes
+	
+	option = { # Support Ireland
+		name = ire.17.a
+		add_political_power = -15
+		ENG = {
+			country_event = { id = ire.18 hours = 12 }
+			add_opinion_modifier = { target = CAN modifier = UK_CAN_support_irish_anti_imperialism }
+		}
+		IRE = {
+			country_event = { id = ire.19 hours = 6 }
+			add_opinion_modifier = { target = CAN modifier = IRE_CAN_support_irish_anti_imperialism }
+		}
+		
+		ai_chance = { factor = 80 }
+	}
+	option = { # Remain silent
+		name = ire.17.b
+		
+		ai_chance = { factor = 20 }
+	}

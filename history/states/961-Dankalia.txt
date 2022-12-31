@@ -1,0 +1,22 @@
+
+state={
+	id=961
+	name="STATE_961"
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_claim_by = ETH
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		8043 14163 14175 14176 
+	}
+	manpower=132800
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

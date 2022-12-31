@@ -1,0 +1,36 @@
+
+state={
+	id=881
+	name="STATE_881"
+	
+	resources={
+		iron=1.000
+	}
+
+	history={
+		owner = CNR
+		add_core_of = CNR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			10968 = {
+				naval_base = 1
+
+			}
+		}
+		victory_points = {
+			10968 1 
+		}
+		victory_points = {
+			14854 5 
+		}
+	}
+
+	provinces={
+		4851 5117 10025 10968 12775 12896 12925 12940 12945 13895 13962 14837 14846 14850 14854 14855 14860 14869 14874 
+	}
+	manpower=1896700
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

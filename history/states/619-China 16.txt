@@ -1,0 +1,22 @@
+
+state={
+	id=619
+	name="STATE_619"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1970 4973 5042 5087 7790 8042 8112 12895 14989 15092 15120 15483 15590 15613 15614 15616 
+	}
+	manpower=409800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

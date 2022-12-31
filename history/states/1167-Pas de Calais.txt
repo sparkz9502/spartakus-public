@@ -1,0 +1,39 @@
+
+state={
+	id=1167
+	name="STATE_1167"
+	resources={
+		coal=8.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			air_base = 3
+			11548 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			11548 15 
+		}
+		victory_points = {
+			3476 3 
+		}
+
+	}
+
+	provinces={
+		3476 3536 11548 
+	}
+	manpower=1205200
+	buildings_max_level_factor=1.000
+	state_category=city
+}

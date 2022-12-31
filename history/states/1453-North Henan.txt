@@ -1,0 +1,20 @@
+
+state={
+	id=1453
+	name="STATE_1453"
+	provinces={
+		1139 1169 4114 4144 4606 7092 
+	}
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=7441100
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

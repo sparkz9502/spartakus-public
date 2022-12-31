@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "IRQ_infantry_entity"
+		name = "LBA_infantry_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_infantry_2_entity"
+		name = "LBA_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_infantry_3_entity"
+		name = "LBA_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "IRQ_infantry_rider_entity"
+		name = "LBA_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "IRQ_infantry_mg_rider_entity"
+		name = "LBA_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_entity"
+		name = "LBA_cavalry_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_2_entity"
+		name = "LBA_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_rifle_combined_entity"
+		name = "LBA_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_mg_combined_entity"
+		name = "LBA_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "IRQ_motorized_entity"
+		name = "LBA_motorized_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_mechanized_entity"
+		name = "LBA_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_artillery_entity"
+		name = "LBA_artillery_entity"
+	}
+	
+	
+	

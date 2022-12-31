@@ -1,0 +1,28 @@
+
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			743 1
+		}
+		victory_points = {
+			11699 1
+		}
+
+	}
+
+	provinces={
+		743 9882 9884 11697 11699 
+	}
+	manpower=612700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

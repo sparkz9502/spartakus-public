@@ -1,0 +1,26 @@
+state={
+	id=1175
+	name="STATE_1175"
+	provinces={
+		14553 
+	}
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 2
+			14553 = {
+				naval_base = 2
+			}
+		}
+		add_claim_by = SER
+		add_core_of = CRO
+		add_core_of = MNT
+		victory_points = {
+			14553 1 
+		}
+
+	}
+	manpower=13754
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

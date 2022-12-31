@@ -1,0 +1,12 @@
+scripted_gui = {
+
+	germany_industry_decision_ui = {
+		context_type = decision_category
+		window_name = "germany_industry_decision_ui_window"
+		visible = { 
+			tag = GER
+		}
+		dirty = germany_industry_gui_update
+	}
+	
+}

@@ -1,0 +1,76 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Infanterie Divisie"
+	division_names_group = INS_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = { # "Ie Divisie 'Java'"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 4608
+		division_template = "Infanterie Divisie"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division = { # "IIe Divisie 'Java'"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 7642
+		division_template = "Infanterie Divisie"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+
+	division = { # "IIIe Divisie 'Java'"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7381
+		division_template = "Infanterie Divisie"		
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.3
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "INS"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

@@ -1,0 +1,51 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+KHO_bolshevist_party:0 "HKI"
+KHO_bolshevist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+KHO_spartacist_party:0 "HKI"
+KHO_spartacist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+KHO_revolutionary_socialist_party:0 "FJEI"
+KHO_revolutionary_socialist_party_long:0 "Revolutionary Republican Party of Iran (Ferqa-ye Jomhuri-e Enqelabi-e Iran)"
+KHO_reformist_socialist_party:0 "HS"
+KHO_reformist_socialist_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+KHO_social_democrat_party:0 "HS"
+KHO_social_democrat_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+KHO_social_liberal_party:0 "KMK"
+KHO_social_liberal_party_long:0 "National Committee of Khorasan (Komitey-e Melli-e Khorasan)"
+KHO_liberal_conservative_party:0 "HJ"
+KHO_liberal_conservative_party_long:0 "Revival Party (Hezb-e Tajaddod)"
+KHO_social_conservative_party:0 "HE"
+KHO_social_conservative_party_long:0 "Reformers' Party (Hezb-e Eslahtalaban)"
+KHO_authoritarian_conservative_party:0 "Qajar"
+KHO_authoritarian_conservative_party_long:0 "Qajar Dynasty (Khandane Qajar)"
+KHO_right_wing_populist_party:0 "HIN"
+KHO_right_wing_populist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+KHO_national_syndicalist_party:0 "HIN"
+KHO_national_syndicalist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+KHO_national_corporatist_party:0 "HIN"
+KHO_national_corporatist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+
+### Focuses ###
+
+### Ideas ###
+
+PER_Republican_Tendencies:0 "Republican Tendencies"
+PER_Republican_Tendencies_desc:0 "Khorasan is one of the centers, if not the foremost center, of republican anti-Qajar sentiment. Colonel Pessian's support for this cause is not something necessarily hidden, although he awaits an opportune time to spread these ideals beyond Khorasan, whether through force or peace. Whatever the case, it is clear from stirrings in Tehran that our government-sanctioned autonomy is soon to be terminated. We need to be ready for when that time comes."
+PER_The_Persian_Gendarmerie:0 "The Persian Gendarmerie"
+PER_The_Persian_Gendarmerie_desc:0 "The Persian Gendarmerie is one of the two military structures to exist in Persia. The Cossacks, which run the Tehran government, are Russian-led. The Gendarmerie was formerly Swedish-led and trained, but came under the control of the Germans during the Great War. While the Cossacks set about diminishing the influence and authority of the Gendarmerie, they did not go as far as abolishing it due to its importance in protecting the roads. Khorasan has become a haven for the Gendarmerie, with Colonel Pessian having been perhaps the most prominent leader of the formation during the Great War. In regards to the rivalry with the Cossacks, the Gendarmerie stands firmly on the side of Pessian."
+PER_A_Haven_for_the_Arts:0 "A Haven for the Arts"
+PER_A_Haven_for_the_Arts_desc:0 "Khorasan may be prominently led by military figures, with the National Committee of Khorasan holding a monopoly on power, but that does not mean it is ruled with an iron fist. Mashhad is a thriving center for poets and painters and singers and anyone in between, and the press operates largely unhindered. This has created a unique culture that has brought the attention of the less tolerant government in Tehran."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

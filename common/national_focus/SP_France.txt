@@ -1,0 +1,562 @@
+###########################
+# Com Czechia Focus Tree
+# By SunZi, Sybil, sparkz
+###########################
+
+focus_tree = {
+	id = french_focus
+	
+	country = {
+		factor = 0
+		
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+		
+	default = no
+	
+	### LYAUTEY PATH ###
+	
+	focus = {
+		id = FRA_A_stable_executive
+		icon = GFX_French_Glory
+		x = 6
+		y = 0
+		cost = 3
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_The_French_Stratocracy_in_crisis
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_A_stable_executive }
+		x = 6
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Extend_the_Social_Role_of_the_Officer
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_The_French_Stratocracy_in_crisis }
+		x = 6
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Continue_the_militarisation_of_administration
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Extend_the_Social_Role_of_the_Officer }
+		x = 6
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_A_good_Officer_is_a_good_Administrator
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Continue_the_militarisation_of_administration }
+		x = 6
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Introduce_the_Great_Reform
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_The_French_Stratocracy_in_crisis }
+		x = 2
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Create_the_Regionals_Councils
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Introduce_the_Great_Reform }
+		x = 1
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Intensifie_the_Cult_of_Chief
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Introduce_the_Great_Reform }
+		x = 3
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Reform_the_National_Assemblie
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Intensifie_the_Cult_of_Chief }
+		prerequisite = { focus = FRA_Create_the_Regionals_Councils}
+		x = 2
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Prepare_the_succession
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Reform_the_National_Assemblie }
+		x = 2
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Figth_the_Three_Confederates_States  
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_The_French_Stratocracy_in_crisis }
+		x = 10
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Reforming_our_internal_security_services
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Figth_the_Three_Confederates_States }
+		x = 9
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Exult_Anti_Judaism
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Figth_the_Three_Confederates_States }
+		x = 11
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Create_the_LVAB
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Reforming_our_internal_security_services }
+		x = 9
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Establish_the_General_Commissariat_for_Freemasons_question 
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Exult_Anti_Judaism }
+		x = 11
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Use_the_Scouts_of_France
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Create_the_LVAB }
+		prerequisite = { focus = FRA_Establish_the_General_Commissariat_for_Freemasons_question  }
+		x = 10
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Lyautey_is_dead
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Use_the_Scouts_of_France }
+		prerequisite = { focus = FRA_A_good_Officer_is_a_good_Administrator }
+		prerequisite = { focus = FRA_Prepare_the_succession }
+		x = 6
+		y = 6
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+
+    ### FRENCH ALGERIA POLICY ###
+
+    focus = {
+		id = FRA_Develop_Algeria
+		icon = GFX_goal_ideology_right_wing_populist
+		x = 22
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Develop_the_South_Territories
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Develop_Algeria }
+		x = 19
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	
+	focus = {
+		id = FRA_Expend_the_Transsaharien
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Develop_Algeria }
+		x = 18
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = FRA_Create_the_SN_REPAL
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus =  FRA_Develop_Algeria }
+		x = 20
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+    focus = {
+		id = FRA_Expand_the_aeropostale
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus =  FRA_Expend_the_Transsaharien }
+		x = 18
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Forged_special_ties_with_the_Tuareg
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Create_the_SN_REPAL }
+		x = 20
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Continue_the_integration_of_South
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Forged_special_ties_with_the_Tuareg }
+		prerequisite = { focus = FRA_Expand_the_aeropostale }
+		x = 19
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Develop_the_Northern_Departements
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Develop_Algeria }
+		x = 25
+		y = 2
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Extend_the_postal_network
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = Develop_the_Northern_Departements }
+		x = 26
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+    focus = {
+		id = FRA_Extend_private_investment
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = Develop_the_Northern_Departements }
+		x = 24
+		y = 3
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+    focus = {
+		id = FRA_Create_consortiums_for_electricity_in_Algeria
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Extend_the_postal_network }
+		x = 26
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Continue_agricole_expropriations
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Extend_private_investment }
+		x = 24
+		y = 4
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Subsidize_population_settlement
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Continue_agricole_expropriations }
+		prerequisite = { focus = FRA_Create_consortiums_for_electricity_in_Algeria }
+		x = 24
+		y = 5
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+    focus = {
+		id = FRA_Integrate_others_territories
+		icon = GFX_goal_ideology_right_wing_populist
+		prerequisite = { focus = FRA_Subsidize_population_settlement }
+		prerequisite = { focus = FRA_Continue_the_integration_of_South }
+		x = 24
+		y = 6
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+
+    ### FOREIGN POLICY ###
+	
+	focus = {
+		id = FRA_Influence_Abroad
+		icon = GFX_goal_FRA_World_Revolution
+		x = 30
+		y = 1
+		cost = 8
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = FRA_Offer_Croatia_Protection
+		icon = GFX_FRA_Pact_with_Croatia
+		prerequisite = { focus = FRA_Influence_Abroad }
+		cost = 2
+		available = { 
+		STJ = {
+		owns_state = 996
+		OR = {
+		has_government = social_conservative
+		has_government = national_corporatist
+		has_government = liberal_conservative
+		has_government = social_democrat
+		}
+		}
+		}
+		completion_reward = {
+		STJ = { country_event = { id = croatia.8 days = 2 } }
+		}
+		x = 29
+		y = 2
+
+	}
+	
+	focus = {
+		id = FRA_Offer_Bosnia_Protection
+		icon = GFX_FRA_Pact_with_Bosnia
+		prerequisite = { focus = FRA_Influence_Abroad }
+		cost = 2
+		available = { 
+		BOS = {
+		owns_state = 1009
+		OR = {
+		has_government = social_conservative
+		has_government = national_corporatist
+		has_government = national_syndicalist
+		has_government = social_liberal
+		has_government = social_democrat
+		}
+		}
+		}
+		completion_reward = {
+		BOS = { country_event = { id = bosnia.3 days = 2 } }
+		}
+		x = 31
+		y = 2
+
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=1035
+	name="STATE_1035"
+
+	history={
+		owner = ARM
+		victory_points = {
+			6642 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARM
+		add_claim_by = SOV
+		#add_claim_by = AZR
+
+	}
+
+	provinces={
+		6642 
+	}
+	manpower=85000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

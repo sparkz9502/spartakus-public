@@ -1,0 +1,25 @@
+
+state={
+	id=674
+	name="STATE_674"
+
+	history={
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = WTH
+		add_claim_by = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		15454 15467 
+	}
+	manpower=280000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	local_supplies=0.000
+}

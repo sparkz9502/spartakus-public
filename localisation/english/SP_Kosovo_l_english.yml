@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+KOS_bolshevist_party:0 "PB/KPJ"
+KOS_bolshevist_party_long:0 "Unity Party/Communist Party of Yugoslavia (Partia Bashkimit/Komunistička Partija Jugoslavije)"
+KOS_spartacist_party:0 "PB/KPJ"
+KOS_spartacist_party_long:0 "Unity Party/Communist Party of Yugoslavia (Partia Bashkimit/Komunistička Partija Jugoslavije)"
+KOS_revolutionary_socialist_party:0 "PB/KPJ"
+KOS_revolutionary_socialist_party_long:0 "Unity Party/Communist Party of Yugoslavia (Partia Bashkimit/Komunistička Partija Jugoslavije)"
+KOS_reformist_socialist_party:0 "PB/KPJ"
+KOS_reformist_socialist_party_long:0 "Revolutionary National Committee/Communist Party of Yugoslavia (Komiteti Nacional Revolucionar/Komunistička Partija Jugoslavije)"
+KOS_social_democrat_party:0 "KMKK"
+KOS_social_democrat_party_long:0 "The National Defense Committee of Kosovo (Komiteti i Mbrojtes Kombëtare së Kosovës)"
+KOS_social_liberal_party:0 "KMKK"
+KOS_social_liberal_party_long:0 "The National Defense Committee of Kosovo (Komiteti i Mbrojtes Kombëtare së Kosovës)"
+KOS_liberal_conservative_party:0 "KMKK"
+KOS_liberal_conservative_party_long:0 "The National Defense Committee of Kosovo (Komiteti i Mbrojtes Kombëtare së Kosovës)"
+KOS_social_conservative_party:0 "KMKK"
+KOS_social_conservative_party_long:0 "The National Defense Committee of Kosovo (Komiteti i Mbrojtes Kombëtare së Kosovës)"
+KOS_authoritarian_conservative_party:0 "Familja Kryeziu"
+KOS_authoritarian_conservative_party_long:0 "Kryeziu Family (Familja Kryezius)"
+KOS_right_wing_populist_party:0 "BK"
+KOS_right_wing_populist_party_long:0 "National Front (Balli Kombëtar)"
+KOS_national_syndicalist_party:0 "BK"
+KOS_national_syndicalist_party_long:0 "National Front (Balli Kombëtar)"
+KOS_national_corporatist_party:0 "BK"
+KOS_national_corporatist_party_long:0 "National Front (Balli Kombëtar)"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

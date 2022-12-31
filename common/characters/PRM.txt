@@ -1,0 +1,330 @@
+characters={
+	PRM_manuel_ii={
+		name="Manuel II"
+		portraits={
+			civilian={
+				large="gfx\leaders\PRM\Portrait_Manuel_II.tga"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected media_personality }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=social_democrat_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=social_liberal_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=liberal_conservative_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=social_conservative_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=authoritarian_conservative_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=right_wing_populist_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=national_syndicalist_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MANUEL_II_DESC"
+			ideology=national_corporatist_subtype
+			traits={ POR_apprehensive_monarch }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	PRM_henrique_mitchell_de_paiva_couceiro={
+		name="Henrique Mitchell de Paiva Couceiro"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard politically_connected inspirational_leader }
+			skill=3
+			attack_skill=2
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PRM_tomás_antónio_garcia_rosado={
+		name="Tomás António Garcia Rosado"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard fast_planner }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRM_josé_augusto_alves_roçadas={
+		name="José Augusto Alves Roçadas"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer harsh_leader }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	PRM_josé_norton_de_matos={
+		name="José Norton de Matos"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			traits={ skilled_staffer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PRM_eugénio_castro_de_menezes={
+		name="Eugénio Castro de Menezes"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard trait_engineer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	PRM_josé_adriano_pequito_rebelo={
+		name="José Adriano Pequito Rebelo"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_6.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/portrait_europe_generic_land_6.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRM_francisco_rolão_preto={
+		name="Francisco Rolão Preto"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_7.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	PRM_manuel_sarmento_rodrigues={
+		name="Manuel Sarmento Rodrigues"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+	PRM_joão_do_canto_e_castro={
+		name="João do Canto e Castro"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+			}
+		}
+		navy_leader={
+			traits={ blockade_runner }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+	PRM_américo_rodrigues_tomás={
+		name="Américo Rodrigues Tomás"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+	PRM_teodoro_rodrigues={
+		name="Teodoro Rodrigues"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=internationalist_leninism
+			traits={ undistinguished_suit }
+			expire="1946.1.1.1"
+			id=-1
+		}
+	}
+	PRM_tiago_vidigal={
+		name="Tiago Vidigal"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=agrarian_marxism
+			traits={ undistinguished_suit }
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
+	PRM_pascoal_da_cunha={
+		name="Pascoal da Cunha"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=baathism
+			traits={ undistinguished_suit }
+			expire="1949.1.1.1"
+			id=-1
+		}
+	}
+	PRM_mário_de_oliveira={
+		name="Mário de Oliveira"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=religious_socialism
+			traits={ undistinguished_suit }
+			expire="1950.1.1.1"
+			id=-1
+		}
+	}
+}

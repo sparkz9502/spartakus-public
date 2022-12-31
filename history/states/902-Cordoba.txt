@@ -1,0 +1,24 @@
+
+state={
+	id=902
+	name="STATE_902"
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			12942 1 
+		}
+	}
+
+	provinces={
+		5184 8208 10975 10985 12942 
+	}
+	manpower=1093400
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

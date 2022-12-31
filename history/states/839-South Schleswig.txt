@@ -1,0 +1,34 @@
+
+state={
+	id=839
+	name="STATE_839"
+
+	history={
+		owner = DEN
+		add_core_of = DEN
+		add_core_of = GER
+		victory_points = {
+			11366 2
+		}
+		buildings = {
+			infrastructure = 3
+			11366 = {
+				bunker = 1
+
+			}
+			15180 = {
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		11366 15180 
+	}
+	manpower=102200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

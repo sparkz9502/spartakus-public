@@ -1,0 +1,74 @@
+### Venice Ideas ###
+ideas = {
+
+    country = {
+
+		VNZ_Italian_Civil_War_idea = {
+			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.20
+				surrender_limit = 0.15
+			}
+			picture = VNZ_Republican_Struggle
+		}
+		
+		VNZ_The_Liberation_Army_idea = {
+			modifier = {
+				conscription_factor = 0.15
+				army_org_factor = -0.20
+				army_morale_factor = 0.10
+				training_time_factor = -0.10
+				army_infantry_attack_factor = 0.05
+			}
+			picture = VNZ_Italian_Liberation_Army
+		}
+		
+		VNZ_The_War_Economy_idea = {
+			modifier = {
+				industrial_capacity_factory = 0.20
+				industrial_capacity_dockyard = -0.30
+				production_speed_buildings_factor = -0.50
+				consumer_goods_factor = 0.10
+				MONTHLY_POPULATION = -0.10
+				production_lack_of_resource_penalty_factor = -0.20
+			}
+			picture = The_War_Economy
+		}
+		
+		VNZ_A_Democratic_Vision_idea = {
+			modifier = {
+				political_power_cost = -0.05
+				stability_factor = 0.10
+			}
+			picture = SRD_A_Democratic_Vision
+		}
+		
+		VNZ_Revolutionary_Fury_idea = {
+			modifier = {
+				surrender_limit = 1.0
+				army_org_factor = 0.05
+				planning_speed = 0.10
+				army_morale_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = ITA
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = ILN
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = ITA
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = ILN
+				defense_bonus_against = 0.05
+			}
+			picture = VNZ_Revolutionary_Fury
+		}
+		
+    }
+	
+}

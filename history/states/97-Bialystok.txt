@@ -1,0 +1,22 @@
+state={
+	id=97
+	name="STATE_97"
+	provinces={
+		290 347 11301 11357 
+	}
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_core_of = PGA
+		victory_points = { 11301 2.0 }
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+		}
+	}
+
+	manpower=567800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

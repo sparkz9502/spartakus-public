@@ -1,0 +1,1127 @@
+﻿###########################
+# Italian Civil War Events
+###########################
+
+add_namespace = itacw
+add_namespace = itacwglobal
+add_namespace = itacwseparatists
+
+country_event = { #Hostage Situation in Venice
+	id = itacwseparatists.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.1"}
+	title = itacwseparatists.1.t
+	desc = itacwseparatists.1.d
+	picture = GFX_ITA_carabinieri_raid
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.1.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.01
+		custom_effect_tooltip = ITA_venetian_separatists_support_low_tt
+		add_to_variable = {
+			var = venetian_separatists_support
+			value = 3	
+		}
+		custom_effect_tooltip = ITA_venetian_separatists_insurgency_negative_low_tt
+		add_to_variable = {
+			var = venetian_insurgency_level
+			value = -3	
+		}
+	}
+	
+	option = {
+		name = itacwseparatists.1.b
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = 0.01
+		custom_effect_tooltip = ITA_venetian_separatists_support_low_tt
+		add_to_variable = {
+			var = venetian_separatists_support
+			value = 3	
+		}
+		custom_effect_tooltip = ITA_venetian_separatists_insurgency_negative_medium_tt
+		add_to_variable = {
+			var = venetian_insurgency_level
+			value = -6	
+		}
+	}
+	
+	option = {
+		name = itacwseparatists.1.c
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -25
+		custom_effect_tooltip = ITA_venetian_separatists_support_negative_low_tt
+		add_to_variable = {
+			var = venetian_separatists_support
+			value = -3	
+		}
+		custom_effect_tooltip = ITA_venetian_separatists_insurgency_low_tt
+		add_to_variable = {
+			var = venetian_insurgency_level
+			value = 3	
+		}
+	}
+}
+
+country_event = { #Hostage Situation in Venice - Hostages Killed
+	id = itacwseparatists.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.2"}
+	title = itacwseparatists.2.t
+	desc = itacwseparatists.2.d
+	picture = GFX_ITA_hostages_killed
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.2.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -10
+		add_stability = -0.01
+		custom_effect_tooltip = ITA_venetian_separatists_support_low_tt
+		add_to_variable = {
+			var = venetian_separatists_support
+			value = 1	
+		}
+	}
+}
+
+country_event = { #Hostage Situation in Venice - Hostages Rescued
+	id = itacwseparatists.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.3"}
+	title = itacwseparatists.3.t
+	desc = itacwseparatists.3.d
+	picture = GFX_ITA_hostages_rescued
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.3.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 10
+		add_stability = 0.01
+		custom_effect_tooltip = ITA_venetian_separatists_support_negative_low_tt
+		add_to_variable = {
+			var = venetian_separatists_support
+			value = -1	
+		}
+	}
+}
+
+country_event = { #Hostage Situation in Venice - Separatists Arrested
+	id = itacwseparatists.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.4"}
+	title = itacwseparatists.4.t
+	desc = itacwseparatists.4.d
+	picture = GFX_ITA_arrests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.4.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 10
+		add_stability = 0.01
+		custom_effect_tooltip = ITA_venetian_separatists_insurgency_negative_low_tt
+		add_to_variable = {
+			var = venetian_insurgency_level
+			value = -1
+		}
+	}
+}
+
+country_event = { #Hostage Situation in Venice - Some Separatists Escape
+	id = itacwseparatists.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.5"}
+	title = itacwseparatists.5.t
+	desc = itacwseparatists.5.d
+	picture = GFX_ITA_separatist_partisans
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.5.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -10
+		add_stability = -0.01
+		custom_effect_tooltip = ITA_venetian_separatists_insurgency_low_tt
+		add_to_variable = {
+			var = venetian_insurgency_level
+			value = 1
+		}
+	}
+}
+
+country_event = { #Hostage Situation in Venice - Separatists Leave Peacefully
+	id = itacwseparatists.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.6"}
+	title = itacwseparatists.6.t
+	desc = itacwseparatists.6.d
+	picture = GFX_ITA_separatists_leave
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.6.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 10
+		add_stability = 0.01
+		custom_effect_tooltip = ITA_venetian_separatists_support_negative_low_tt
+		add_to_variable = {
+			var = venetian_separatists_support
+			value = -1
+		}
+	}
+}
+
+country_event = { #Hostage Situation in Venice - A Firefight Ensues
+	id = itacwseparatists.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwseparatists.7"}
+	title = itacwseparatists.7.t
+	desc = itacwseparatists.7.d
+	picture = GFX_ITA_carabinieri_arrest
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacwseparatists.7.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -10
+		add_stability = -0.01
+		custom_effect_tooltip = ITA_venetian_separatists_insurgency_negative_low_tt
+		add_to_variable = {
+			var = venetian_insurgency_level
+			value = -1
+		}
+	}
+}
+
+#Coup
+
+country_event = { #ITA: Fascist Officer Coup
+	id = itacw.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.1"}
+	title = itacw.1.t
+	desc = itacw.1.d
+	picture = GFX_ITA_fascist_coup
+	
+	is_triggered_only = yes
+	
+	option = { #Fight Back
+		name = itacw.1.a
+		ai_chance = {
+			factor = 60
+		}
+		hidden_effect = {
+			country_event = {
+				id = itacw.2
+				days = 1
+			}
+			news_event = { days = 1 id = itacwglobal.1 }
+		}
+	}
+	
+	option = { #Give Up
+		name = itacw.1.b
+		ai_chance = {
+			factor = 60
+		}
+		hidden_effect = {
+			country_event = {
+				id = itacw.10
+				days = 1
+			}
+			set_global_flag = ITA_fascists_in_power
+			news_event = { days = 1 id = itacwglobal.1 }
+		}
+	}
+}
+
+#Coup Fails Event Chain
+
+country_event = { #ITA: Rome Under State of Siege
+	id = itacw.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.2"}
+	title = itacw.2.t
+	desc = itacw.2.d
+	picture = GFX_ITA_royal_italian_army
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.3
+				days = 3
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.2.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.05
+	}
+}
+
+country_event = { #ITA: Fascists Escape Prison
+	id = itacw.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.3"}
+	title = itacw.3.t
+	desc = itacw.3.d
+	picture = GFX_ITA_prison
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.4
+				days = 3
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.3.a
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -50
+	}
+}
+
+country_event = { #ITA: Military Defeats Coup
+	id = itacw.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.4"}
+	title = itacw.4.t
+	desc = itacw.4.d
+	picture = GFX_ITA_flag_parade
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.5
+				days = 3
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.4.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = 0.2
+	}
+}
+
+country_event = { #ITA: Fascists Flee to South
+	id = itacw.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.5"}
+	title = itacw.5.t
+	desc = itacw.5.d
+	picture = GFX_ITA_fascist_uprising
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.20
+				days = 3
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.5.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.01
+	}
+}
+
+#Coup Succeeds Event Chain
+
+country_event = { #ITA: Fascists Take Power
+	id = itacw.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.10"}
+	title = itacw.10.t
+	desc = itacw.10.d
+	picture = GFX_ITA_fascist_coup
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.10.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			country_event = {
+				id = itacw.11
+				days = 3
+			}
+		}
+	}
+}
+
+country_event = { #ITA: Fascists Released from Prison
+	id = itacw.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.11"}
+	title = itacw.11.t
+	desc = itacw.11.d
+	picture = GFX_ITA_prison
+	
+	immediate = {
+		country_event = {
+			id = itacw.12
+			days = 3
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.11.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #ITA: Kingdom Abolished & King Flees
+	id = itacw.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.12"}
+	title = itacw.12.t
+	desc = itacw.12.d
+	picture = GFX_ITA_italian_social_republic
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.12.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = ITA_will_become_ILN_tt
+
+		hidden_effect = {
+			every_state = {
+				limit = { is_core_of = ITA }
+
+				add_core_of = ILN
+			}
+			every_state = {
+				limit = { is_claimed_by = ITA }
+
+				add_claim_by = ILN
+			}
+			random_owned_controlled_state = {
+				ILN = { transfer_state = PREV }
+			}
+			transfer_navy = { target = ILN }
+			ITA = {
+				ILN = { transfer_technology = yes }
+				every_unit_leader = {
+					set_unit_leader_flag = ITA_leader
+					set_nationality = ILN
+				}
+			}
+			ILN = {
+				annex_country = { target = ITA transfer_troops = yes }
+				change_tag_from = ITA
+			}
+			ILN = {
+				country_event = {
+					id = itacw.13
+					days = 3
+				}
+				add_stability = -0.10
+			}
+			set_global_flag = ITA_fascists_in_power
+		}
+	}
+}
+
+country_event = { #ILN: Unrest in the Military (Monarchist/Antifascist Generals Leave)
+	id = itacw.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.13"}
+	title = itacw.13.t
+	desc = itacw.13.d
+	picture = GFX_ITA_royal_italian_army
+	
+	immediate = {
+		hidden_effect = {
+			news_event = {
+				id = itacw.20
+				days = 3
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.13.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Unrest Before Civil War
+
+news_event = { #ITA/ILN: Socialists Launch General Strike
+	id = itacw.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.20"}
+	title = itacw.20.t
+	desc = itacw.20.d
+	picture = GFX_Festival
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.21
+				days = 3
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.20.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #ITA/ILN: Workers Occupy Factories in the North
+	id = itacw.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.21"}
+	title = itacw.21.t
+	desc = itacw.21.d
+	picture = GFX_ITA_socialist_uprising
+	
+	immediate = {
+		hidden_effect = {
+			news_event = {
+				id = itacw.22
+				days = 7
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.21.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+news_event = { #ITA/ILN: The Military Fires on Strikers in Milan!
+	id = itacw.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.22"}
+	title = itacw.22.t
+	desc = itacw.22.d
+	picture = GFX_news_event_generic_funeral
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.23
+				days = 3
+			}
+		}
+	}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.22.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #ITA/ILN: Communists Rally the Workers
+	id = itacw.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.23"}
+	title = itacw.23.t
+	desc = itacw.23.d
+	picture = GFX_ITA_socialist_uprising
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.24
+				days = 3
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.23.a
+		159 = {
+			set_demilitarized_zone = yes
+		}
+		158 = {
+			set_demilitarized_zone = yes
+		}
+		838 = {
+			set_demilitarized_zone = yes
+		}
+		161 = {
+			set_demilitarized_zone = yes
+		}
+		1325 = {
+			set_demilitarized_zone = yes
+		}
+		1197 = {
+			set_demilitarized_zone = yes
+		}
+		844 = {
+			set_demilitarized_zone = yes
+		}
+		162 = {
+			set_demilitarized_zone = yes
+		}
+		157 = {
+			set_demilitarized_zone = yes
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #ITA/ILN: Seperatists Agitate in Venice and Sardinia
+	id = itacw.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.24"}
+	title = itacw.24.t
+	desc = itacw.24.d
+	picture = GFX_ITA_sardinian_separatists
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = {
+				id = itacw.30
+				days = 7
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.24.a
+		160 = {
+			set_demilitarized_zone = yes
+		}
+		114 = {
+			set_demilitarized_zone = yes
+		}
+		759 = {
+			set_demilitarized_zone = yes
+		}
+		783 = {
+			set_demilitarized_zone = yes
+		}
+		1199 = {
+			set_demilitarized_zone = yes
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+#Civil War Uprisings
+
+country_event = { #ITA/ILN: Rise of the Turin Workers' Council
+	id = itacw.30
+	title = itacw.30.t
+	desc = itacw.30.d
+	picture = GFX_ITA_socialist_uprising
+	
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.30"}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.30.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.10
+		ITA_icw_socialists_scripted_effect = yes
+		set_global_flag = show_major_events_gui
+		set_global_flag = italiancivilwar_major_event
+	}
+	
+	option = {
+		name = itacw.30.b
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.10
+		ITA_icw_socialists_scripted_effect = yes
+		SRI = {
+			change_tag_from = ROOT
+		}
+		set_global_flag = show_major_events_gui
+		set_global_flag = italiancivilwar_major_event
+	}
+}
+
+country_event = { #ITA/ILN: Opposition Seizes Control of Sardinia
+	id = itacw.31
+	title = itacw.31.t
+	desc = itacw.31.d
+	picture = GFX_ITA_sardinian_separatists
+	
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.31"}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.31.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.05
+		ITA_icw_sardinia_scripted_effect = yes
+	}
+	option = {
+		name = itacw.31.b
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.05
+		ITA_icw_sardinia_scripted_effect = yes
+		SRD = {
+			change_tag_from = ROOT
+		}
+	}
+}
+
+country_event = { #ITA/ILN: Separatists Rally in Venice
+	id = itacw.32
+	title = itacw.32.t
+	desc = itacw.32.d
+	picture = GFX_ITA_venetian_uprising
+	
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.32"}
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itacw.32.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.05
+		ITA_icw_venice_scripted_effect = yes
+	}
+	option = {
+		name = itacw.32.b
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.05
+		ITA_icw_venice_scripted_effect = yes
+		VNZ = {
+			change_tag_from = ROOT
+		}
+	}
+}
+
+country_event = { #ITA/ILN: Albona Uprising
+	id = itacw.33
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.33"}
+	title = itacw.33.t
+	desc = itacw.33.d
+	picture = GFX_ITA_Report_Albona
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = itacw.33.a #Be a little bitch gamer
+		ai_chance = {
+			factor = 100
+		}
+		ITA_icw_albona_scripted_effect = yes
+		add_stability = -0.03
+	}
+	
+	option = {
+		name = itacw.33.b #Be a real gamer
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.03
+		ITA_icw_albona_scripted_effect = yes
+		LAB = {
+			change_tag_from = ROOT
+		}
+	}
+}
+
+country_event = { #ITA/ILN: The La Spezia Revolt
+	id = itacw.40
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.37"}
+	title = itacw.40.t
+	desc = itacw.40.d
+	picture = GFX_ITA_socialist_uprising
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = itacw.40.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = ITA_La_Spezia_Revolt_tt
+	}
+}
+
+#Global News Events
+
+news_event = { #Chaos in Rome
+	id = itacwglobal.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacwglobal.1"}
+	title = itacwglobal.1.t
+	desc = { 
+		text = itacwglobal.1.d
+		trigger = {
+			NOT = {
+				has_global_flag = ITA_fascists_in_power
+			}
+		}
+	}
+	desc = { 
+		text = itacwglobal.1.d_fascist
+		trigger = {
+			has_global_flag = ITA_fascists_in_power
+		}
+	}
+	picture = GFX_news_event_gathering_protest
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		name = itacwglobal.1.a
+	}
+}
+
+#Post-Uprising Events
+
+country_event = { #Alliance Between SRI, VNZ, SRD and SIC if the latter exists
+	id = itacw.45
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.45"}
+	title = itacw.45.t
+	desc = itacw.45.d
+	picture = GFX_ITA_italian_civil_war
+	
+	is_triggered_only = yes
+	
+	option = { #will add effects later
+		name = itacw.45.a
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #CRO: Seize Fiume, Sebenico, Zara and Islands
+	id = itacw.50
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.50"}
+	title = itacw.50.t
+	desc = itacw.50.d
+	picture = GFX_ITA_italian_civil_war
+	
+	is_triggered_only = yes
+	
+	option = { #EPIC!!!!
+		name = itacw.50.a
+		ai_chance = {
+			factor = 100
+		}
+		CRO = {
+			transfer_state = 1008
+			transfer_state = 962
+			transfer_state = 996
+			transfer_state = 1330
+		}
+	}
+}
+
+#Victory Events
+
+country_event = { #ITA Victory Event
+	id = itacw.500
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.500"}
+	title = itacw.500.t
+	desc = itacw.500.d
+	picture = GFX_ITA_italian_civil_war
+	fire_only_once = yes
+
+	trigger = {
+		tag = ITA
+		has_global_flag = ITA_civil_war_ongoing
+		NOT = {
+			has_war_with = SRI
+			has_war_with = ILN
+			has_war_with = VNZ
+			has_war_with = SRD
+			has_war_with = SIC
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = ITA_civil_war_ongoing
+			set_global_flag = ITA_civil_war_over
+			ITA = {
+				country_event = {
+					id = itapostcw.1
+					days = 7
+				}
+				add_ideas = ITA_Great_Depression
+				add_ideas = ITA_Great_War_Memories
+				complete_national_focus = ITA_civil_war_victory
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.500.a
+		remove_ideas = ITA_Italian_Civil_War_idea
+		add_ideas = ITA_Aftermath_of_the_Civil_War
+		add_political_power = 50
+		add_stability = 0.10
+	}
+}
+
+country_event = { #SRI Victory Event
+	id = itacw.501
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.501"}
+	title = itacw.501.t
+	desc = itacw.501.d
+	picture = GFX_ITA_italian_civil_war
+	fire_only_once = yes
+
+	trigger = {
+		tag = SRI
+		has_global_flag = ITA_civil_war_ongoing
+		NOT = {
+			has_war_with = ITA
+			has_war_with = ILN
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = ITA_civil_war_ongoing
+			set_global_flag = ITA_civil_war_over
+			SRI = {
+				country_event = {
+					id = sripostcw.1
+					days = 7
+				}
+			}
+			VNZ = {
+				country_event = {
+					id = itacw.503
+				}
+			}
+			SRD = {
+				country_event = {
+					id = itacw.504
+				}
+			}
+			if = {
+				limit = {
+					country_exists = SIC
+				}
+				SIC = {
+					country_event = {
+						id = itacw.505
+					}
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.501.a
+		add_political_power = 50
+		add_stability = 0.10
+	}
+}
+
+country_event = { #ILN Victory Event
+	id = itacw.502
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.502"}
+	title = itacw.502.t
+	desc = itacw.502.d
+	picture = GFX_ITA_italian_civil_war
+	fire_only_once = yes
+
+	trigger = {
+		tag = ILN
+		has_global_flag = ITA_civil_war_ongoing
+		NOT = {
+			has_war_with = SRI
+			has_war_with = ITA
+			has_war_with = VNZ
+			has_war_with = SRD
+			has_war_with = SIC
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	immediate = {
+		hidden_effect = {
+			clr_global_flag = ITA_civil_war_ongoing
+			set_global_flag = ITA_civil_war_over
+			ILN = {
+				country_event = {
+					id = ilnpostcw.1
+					days = 7
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.502.a
+		add_political_power = 50
+		add_stability = 0.10
+	}
+}
+
+country_event = { #VNZ Victory Event
+	id = itacw.503
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.503"}
+	title = itacw.503.t
+	desc = itacw.503.d
+	picture = GFX_ITA_italian_civil_war
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			VNZ = {
+				country_event = {
+					id = vnzpostcw.1
+					days = 7
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.503.a
+		add_political_power = 50
+		add_stability = 0.10
+	}
+}
+
+country_event = { #SRD Victory Event
+	id = itacw.504
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.504"}
+	title = itacw.504.t
+	desc = itacw.504.d
+	picture = GFX_ITA_italian_civil_war
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SRD = {
+				country_event = {
+					id = srdpostcw.1
+					days = 7
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.504.a
+		add_political_power = 50
+		add_stability = 0.10
+	}
+}
+
+country_event = { #SIC Victory Event
+	id = itacw.505
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itacw.505"}
+	title = itacw.505.t
+	desc = itacw.505.d
+	picture = GFX_ITA_italian_civil_war
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			SIC = {
+				country_event = {
+					id = sicpostcw.1
+					days = 7
+				}
+			}
+		}
+	}
+	
+	option = {
+		name = itacw.505.a
+		add_political_power = 50
+		add_stability = 0.10
+	}
+}

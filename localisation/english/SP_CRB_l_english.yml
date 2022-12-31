@@ -1,0 +1,59 @@
+﻿l_english:
+
+### Decisions ###
+
+### Ideas ###
+
+CRB_Metropolis_Orient_Theory:0 "Metropolis Orient Theory"
+CRB_Metropolis_Orient_Theory_desc:0 ""
+
+CRB_Workers_Pickets:0 "Worker's Pickets"
+CRB_Workers_Pickets_desc:0 ""
+
+
+CRB_CCCPC:0 "Central Committee of CPC"
+CRB_CCCPC_desc:0 "§RThis National Spirit will be passed to another Revolution Base if this Revolution Base is defeated §!"
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+
+CRB_bolshevist_party:0 "CPC"
+CRB_bolshevist_party_long:0 "Communist Party of China"
+CRB_spartacist_party:0 "CPC"
+CRB_spartacist_party_long:0 "Communist Party of China"
+CRB_revolutionary_socialist_party:0 "CPC"
+CRB_revolutionary_socialist_party_long:0 "Communist Party of China"
+CRB_reformist_socialist_party:0 "KMT(L)"
+CRB_reformist_socialist_party_long:0 "Kuomintang (Leftists)"
+CRB_social_democrat_party:0 "KMT"
+CRB_social_democrat_party_long:0 "Kuomintang"
+CRB_social_liberal_party:0 "KMT"
+CRB_social_liberal_party_long:0 "Kuomintang"
+CRB_liberal_conservative_party:0 "KMT(R)"
+CRB_liberal_conservative_party_long:0 "Kuomintang (Rightists)"
+CRB_social_conservative_party:0 "KMT"
+CRB_social_conservative_party_long:0 "Kuomintang"
+CRB_authoritarian_conservative_party:0 "KMT"
+CRB_authoritarian_conservative_party_long:0 "Kuomintang"
+CRB_right_wing_populist_party:0 "KMT"
+CRB_right_wing_populist_party_long:0 "Kuomintang"
+CRB_national_syndicalist_party:0 "KMT"
+CRB_national_syndicalist_party_long:0 "Kuomintang"
+CRB_national_corporatist_party:0 "KMT"
+CRB_national_corporatist_party_long:0 "Kuomintang"
+
+CRB_bolshevist_description:0 ""
+
+### Focuses ###
+
+### Leader descriptions ###
+POLITICS_LI_LISAN_DESC:0 "§GDate of Birth:§! §g18 November 1899§!\n§GOverview:§! §gDuring the May 4th Movement, Li Lisan was exposed to Marxism and then became part of the first Marxist group in China. Soon, he went to France under a work-study program, until he was repatriated by French authorities due to his revolutionary actions.\n\nSuch setbacks had not stopped his pace, though. Once he returned to Shanghai, he joined the CPC at once, and was assigned to lead labor movements by Mao Zedong. Since then, he devoted himself wholeheartedly in the labor movement's frontline, from the Anyuan Strike to the May 30th Movement.\n\nLi's position within the CPC was at a smooth rise parallel to the promising progress of the Chinese labor movement. After holding the Anti-British Demonstration, Li was absorbed into the center of the CPC. In 1927, Chiang's plot was surprisingly exposed, while Chen Duxiu was forced to resign due to his compromising stance. Even worse, the following leader Qu Qiubai had to move abroad. Under such a situation, Xiang Zhongfa, together with Li Lisan, was separately elected to leader of the CPC de jure and de facto.\n\nWith a true belief in the strength of the Labor Revolution combined with the successful experience of the Soviets and Germany, Li wishes to lead a "successful" revolution in China to make his motherland become the first Communist country in East Asia. Hence, such thirst drives Li to take a decisive move to pursue the promising future. However, beneath the lure of a successful revolution, what is the cost of bloodshed if the revolution was to fail?"
+
+
+### Events ###
+CRB.1.t:0 "Rebellion in Three Towns of Wuhan!"
+CRB.1.desc:0 "Our spy successfully intercepted the suspicious armed actions of the Communists in advance and captured their leader Xiang Zhongfa. However, this neither deterred the CPC nor disrupted their deployment. Instead, we lost the control of the situation.\n\nThis morning, the red bandits led by Li Lisan launched an open rebellion based on a previously organized procession. After the police opened fire on the students, the Workers' Self-Defense Force quickly fired back, turning the parade into an armed riot. Out of our expectation, Peng Dehuai, the substitutive head commander of the Capital Police Force, switched to support the Red Party right after hearing his subordinate officers had opened fire without permission. A large number of people joining the Red Party caused us to completely lose the control of the Three Towns of Wuhan. Fortunately, most of our senior officials have safely withdrawn to Changsha, but the fall of the capital is undoubtedly a major blow to the morale."
+CRB.1.a:0 "Let’s emulate Zhang Zhidong’s story where he supressed Tang Caichang."

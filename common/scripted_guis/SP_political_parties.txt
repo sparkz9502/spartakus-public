@@ -1,0 +1,63 @@
+scripted_gui = {
+
+	party_bolshevist = {
+		window_name = "bolshevist_container"
+		visible = { has_government = bolshevist }
+	}
+
+	party_spartacist = {
+		window_name = "spartacist_container"
+		visible = { has_government = spartacist }
+	}
+
+	party_revolutionary_socialist = {
+		window_name = "revolutionary_socialist_container"
+		visible = { has_government = revolutionary_socialist }
+	}
+	
+	party_reformist_socialist = {
+		window_name = "reformist_socialist_container"
+		visible = { has_government = reformist_socialist }
+	}
+
+	party_social_democrat = {
+		window_name = "social_democrat_container"
+		visible = { has_government = social_democrat }
+	}
+
+	party_social_liberal = {
+		window_name = "social_liberal_container"
+		visible = { has_government = social_liberal }
+	}
+
+	party_liberal_conservative = {
+		window_name = "liberal_conservative_container"
+		visible = { has_government = liberal_conservative }
+	}
+
+	party_social_conservative = {
+		window_name = "social_conservative_container"
+		visible = { has_government = social_conservative }
+	}
+
+	party_authoritarian_conservative = {
+		window_name = "authoritarian_conservative_container"
+		visible = { has_government = authoritarian_conservative }
+	}
+
+	party_right_wing_populist = {
+		window_name = "right_wing_populist_container"
+		visible = { has_government = right_wing_populist }
+	}
+
+	party_national_syndicalist = {
+		window_name = "national_syndicalist_container"
+		visible = { has_government = national_syndicalist }
+	}
+	
+	party_national_corporatist = {
+		window_name = "national_corporatist_container"
+		visible = { has_government = national_corporatist }
+	}
+}
+

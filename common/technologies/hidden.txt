@@ -1,0 +1,197 @@
+technologies = {
+
+	camel_corps = {
+		research_cost = 1
+		
+		on_research_complete = {
+			log = "[GetDateText] [Root.GetName]: add tech camel_corps"
+		}
+
+		allow = {
+			always = no
+		}
+
+		cavalry = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.03
+			}
+		}
+	}
+
+	alpine_warfare = {
+		research_cost = 1
+		
+		on_research_complete = {
+			log = "[GetDateText] [Root.GetName]: add tech alpine_warfare"
+		}
+
+		allow = {
+			always = no
+		}
+
+		infantry = {
+			hills = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		light_infantry = {
+			hills = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			hills = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.05
+			}
+			mountain = {
+				attack = 0.05
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	jungle_warfare = {
+		research_cost = 1
+		
+		on_research_complete = {
+			log = "[GetDateText] [Root.GetName]: add tech jungle_warfare"
+		}
+
+		allow = {
+			always = no
+		}
+
+		militia = {
+			jungle = {
+				attack = 0.05
+				defence = 0.03
+				movement = 0.05
+			}
+		}
+		infantry = {
+			jungle = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		light_infantry = {
+			jungle = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		marine = {
+			jungle = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			jungle = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		paratrooper = {
+			jungle = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+
+	desert_warfare = {
+		research_cost = 1
+		
+		on_research_complete = {
+			log = "[GetDateText] [Root.GetName]: add tech desert_warfare"
+		}
+
+		allow = {
+			always = no
+		}
+
+		militia = {
+			desert = {
+				attack = 0.05
+				defence = 0.03
+				movement = 0.05
+			}
+		}
+		infantry = {
+			desert = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		light_infantry = {
+			desert = {
+				attack = 0.10
+				defence = 0.05
+				movement = 0.05
+			}
+		}
+		marine = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		mountaineers = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+		paratrooper = {
+			desert = {
+				attack = 0.15
+				defence = 0.05
+				movement = 0.1
+			}
+		}
+	}
+	
+	elephant_support = { #For Burma and Raj Breakaways
+		research_cost = 1
+	
+		on_research_complete = {
+			log = "[GetDateText] [Root.GetName]: add tech elephant_support"
+		}
+		
+		allow = {
+			always = no
+		}
+
+		enable_subunits = {
+			elephant_company
+		}		
+	}
+}

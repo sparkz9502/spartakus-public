@@ -1,0 +1,34 @@
+### CPC ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		HLF_Red_Militia = {
+			modifier = {
+				army_morale_factor = 0.02
+				army_org_Factor = -0.2
+				max_planning = -0.3
+				training_time_army_factor = -0.30
+			}
+			picture = Red_Militia
+		}
+		HLF_Ten_Must_Kill = {
+			modifier = {
+				stability_factor = 0.15
+				drift_defence_factor = 0.5
+				conscription_factor = -0.20
+			}
+			picture = Ten_Must_Kill
+		}
+		HLF_Peasant_Association = {
+			modifier = {
+				consumer_goods_factor = -0.5
+				stability_factor = 0.10
+				conscription_factor = -0.20
+			}
+			picture = WIP
+		}
+		}
+	}

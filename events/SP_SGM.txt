@@ -1,0 +1,49 @@
+﻿###########################
+# Sexuelle und Geschlechtsspezifische Minderheit Events
+###########################
+# By Sybil/LWOI
+###########################
+
+add_namespace = sgm
+add_namespace = sgm.yugo
+
+###########################
+# World League for Sexual Reform
+###########################
+
+country_event = { #10th Anniversary Conference of the WLSR in Salzburg
+	id = sgm.1
+	title = sgm.1.t
+	desc = sgm.1.d
+	picture = GFX_WLSR_1932
+
+	is_triggered_only = yes
+
+	option = {
+		name = sgm.1.a
+	}
+}
+
+###########################
+# Yugayslavia
+###########################
+
+country_event = { #WLSR Establishes Branch in Ljubljana
+	id = sgm.yugo.1
+	title = sgm.yugo.1.t
+	desc = sgm.yugo.1.d
+	picture = GFX_WLSR_Yugoslavia
+
+	is_triggered_only = yes
+
+	option = {
+		name = sgm.yugo.1.a
+		add_stability = -0.01
+		add_political_power = 25
+	}
+	option = {
+		name = sgm.yugo.1.b
+		add_stability = 0.01
+		add_political_power = -25
+	}
+}

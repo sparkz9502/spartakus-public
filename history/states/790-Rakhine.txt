@@ -1,0 +1,35 @@
+
+state={
+	id=790
+	name="STATE_790"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			1142 1 
+		}
+		victory_points = {
+			3651 1 
+		}
+		victory_points = {
+			4147 5 
+		}
+		BMR = {
+			set_province_controller = 10182
+		}
+		add_core_of = RAJ
+		add_claim_by = BMR
+
+	}
+
+	provinces={
+		1014 1142 3651 4147 7122 10182 12090 
+	}
+	manpower=1008500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

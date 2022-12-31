@@ -1,0 +1,126 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Régiment de Tirailleurs Sénégalais"
+	division_names_group = FRA_COL_06
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Bataillon de Tirailleurs Sénégalais"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+	is_locked = yes
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = {
+		name = "1ère Reg. de Tirailleurs Sénégalais"
+		location = 14281
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "2ème Reg. de Tirailleurs Sénégalais"
+		location = 14136
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "7ème Reg. de Tirailleurs Sénégalais"
+		location = 4948
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "1ère Bat. de Tirailleurs Sénégalais" 
+		location = 14281
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "2ème Bat. de Tirailleurs Sénégalais" 
+		location = 2044
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "3ème Bat. de Tirailleurs Sénégalais" 
+		location = 10758
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "4ème Bat. de Tirailleurs Sénégalais" 
+		location = 1909
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "5ème Bat. de Tirailleurs Sénégalais" 
+		location = 14113
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "6ème Bat. de Tirailleurs Sénégalais" 
+		location = 14141
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "8ème Bat. de Tirailleurs Sénégalais" 
+		location = 14086
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AOF"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

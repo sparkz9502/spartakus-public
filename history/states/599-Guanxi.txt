@@ -1,0 +1,24 @@
+
+state={
+	id=599
+	name="STATE_599"
+	resources={
+	}
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1597 1625 4077 4085 4134 4628 4656 7095 7650 10039 10404 10431 10459 12436 
+	}
+	manpower=3388200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

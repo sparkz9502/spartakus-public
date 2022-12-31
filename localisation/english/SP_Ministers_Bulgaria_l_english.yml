@@ -1,0 +1,91 @@
+﻿l_english:
+################################################################################################################################################################################################
+### BUL
+################################################################################################################################################################################################
+
+### Head of Government ###
+BUL_Anton_Yugov_hog_bol:0 "Anton Yugov"
+BUL_Avram_Gachev_hog_spa:0 "Avram Gachev"
+BUL_Rafael_Kamhi_hog_rev:0 "Rafael Kamhi"
+BUL_Yanko_Sakazov_hog_sde:0 "Yanko Sakazov"
+BUL_Atanas_Burov_hog_sli:0 "Atanas Burov"
+BUL_Stoyan_Kosturkov_hog_lco:0 "Stoyan Kosturkov"
+BUL_Georgi_Mihov_Dimitrov_hog_sco:0 "Georgi Mihov Dimitrov"
+BUL_Aleksandar_Malinov_hog_aco:0 "Aleksandar Malinov"
+BUL_Aleksandar_Tsankov_hog_rwp:0 "Aleksandar Tsankov"
+BUL_Bogdan_Filov_hog_rwp:0 "Bogdan Filov"
+BUL_Petar_Todorov_hog_nsy:0 "Petar Todorov"
+
+### Foreign Minister ###
+BUL_Mincho_Neychev_for_bol:0 "Mincho Neychev"
+BUL_Traicho_Kostov_for_spa:0 "Traicho Kostov"
+BUL_Dimitar_Vlahov_for_rev:0 "Dimitar Vlahov"
+BUL_Dimo_Kazasov_for_sde:0 "Dimo Kazasov"
+BUL_Stoyan_Danev_for_sli:0 "Stoyan Danev"
+BUL_Venelin_Ganev_for_lco:0 "Venelin Ganev"
+BUL_Konstantin_Mouraviev_for_sco:0 "Konstantin Mouraviev"
+BUL_Nikola_Mushanov_for_aco:0 "Nikola Mushanov"
+BUL_Andrey_Toshev_for_rwp:0 "Andrey Toshev"
+BUL_Stancho_Cholakov_for_nsy:0 "Stancho Cholakov"
+BUL_Kimon_Georgiev_for_rwp:0 "Kimon Georgiev"
+
+### Economy Minister ###
+BUL_Kiril_Lazarov_eco_bol:0 "Kiril Lazarov"
+BUL_Ivan_Stefanov_eco_spa:0 "Ivan Stefanov"
+BUL_Smile_Vojdanov_eco_rev:0 "Smile Vojdanov"
+BUL_Sotir_Yanev_eco_sde:0 "Sotir Yanev"
+BUL_Todor_Vlaykov_eco_lco:0 "Todor Vlaykov"
+BUL_Aleksandar_Obbov_eco_sco:0 "Aleksandar Obbov"
+BUL_Todor_Krastev_eco_aco:0 "Todor Krastev"
+BUL_Georgi_Kyoseivanov_eco_rwp:0 "Georgi Kyoseivanov"
+BUL_Kosta_Boyadzhiev_eco_nsy:0 "Kosta Boyadzhiev"
+
+### Security Minister ###
+BUL_Georgi_Tsankov_sec_bol:0 "Georgi Tsankov"
+BUL_Georgi_Damyanov_sec_spa:0 "Georgi Damyanov"
+BUL_Hristo_Tatarchev_sec_rev:0 "Hristo Tatarchev"
+BUL_Grigor_Cheshmedjiev_sec_sde:0 "Grigor Cheshmedjiev"
+BUL_Mihail_Madzharov_sec_sli:0 "Mihail Madzharov"
+BUL_Joseph_Fedenhecht_sec_lco:0 "Joseph Fedenhecht"
+BUL_Dimitar_Gichev_sec_sco:0 "Dimitar Gichev"
+BUL_Aleksandar_Girginov_sec_aco:0 "Aleksandar Girginov"
+BUL_Pencho_Zlatev_sec_rwp:0 "Pencho Zlatev"
+BUL_Ivan_Harizanov_sec_nsy:0 "Ivan Harizanov"
+
+### Defence Minister ###
+BUL_Ivan_Bachvarov_def_spa:0 "Ivan Bachvarov"
+BUL_Vladimir_Stoychev_def_sde:0 "Vladimir Stoychev"
+BUL_Konstantin_Lukash_def_sli:0 "Konstantin Lukash"
+BUL_Vasil_Kutinchev_def_aco:0 "Vasil Kutinchev"
+BUL_Ivan_Valkov_def_rwp:0 "Ivan Valkov"
+BUL_Damyan_Velchev_def_nsy:0 "Damyan Velchev"
+
+### Chief of Staff ###
+BUL_Ivan_Bachvarov_cos:0 "Ivan Bachvarov"
+BUL_Konstantin_Lukash_cos:0 "Konstantin Lukash"
+BUL_Nikola_Ivanov_cos:0 "Nikola Ivanov"
+BUL_Nikola_Nedev_cos:0 "Nikola Nedev"
+BUL_Racho_Petrov_Stoyanov_cos:0 "Racho Petrov Stoyanov"
+BUL_Stiliyan_Kovachev_cos:0 "Stiliyan Kovachev"
+BUL_Hristo_Lukov_cos:0 "Hristo Lukov"
+
+### Chief of Army ###
+BUL_Ferdinand_Kozovsky_carm:0 "Ferdinand Kozovsky"
+BUL_Vasil_Kolarov_carm:0 "Vasil Kolarov"
+BUL_Vladimir_Stoychev_carm:0 "Vladimir Stoychev"
+BUL_Vladimir_Stoychev_carm:0 "Vladimir Stoychev"
+BUL_Danail_Nikolaev_carm:0 "Danail Nikolaev"
+BUL_Ivan_Valkov_carm:0 "Ivan Valkov"
+BUL_Konstantin_Ivanov_Bekyarov_carm:0 "Konstantin Ivanov Bekyarov"
+BUL_Vasil_Kutinchev_carm:0 "Vasil Kutinchev"
+BUL_Vladimir_Vazov_carm:0 "Vladimir Vazov"
+BUL_Hristo_Lukov_carm:0 "Hristo Lukov"
+
+### Chief of Navy ###
+BUL_Simeon_Vankov_cnav:0 "Simeon Vankov"
+BUL_Simeon_Vankov_cnav:0 "Simeon Vankov"
+BUL_Dimitar_Dobrev_cnav:0 "Dimitar Dobrev"
+
+### Chief of Air Force ###
+BUL_Radul_Milkov_cair:0 "Radul Milkov"
+BUL_Prodan_Tarakchiev_cair:0 "Prodan Tarakchiev"

@@ -1,0 +1,46 @@
+
+state={
+	id=285
+	name="STATE_285"
+	
+	resources={
+		coal=15
+	}
+
+	history={
+		owner = AST
+		add_core_of = AST
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 3
+			air_base = 5
+			fuel_silo = 1
+			12406 = {
+				naval_base = 6
+				coastal_bunker = 2
+
+			}
+			7520 = {
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			12406 20 
+		}
+		victory_points = {
+			7520 1 
+		}
+
+	}
+
+	provinces={
+		1537 1611 1861 4673 4763 4864 7450 7496 7520 7664 10388 12406 12435 12532 12560 
+	}
+	manpower=2260510
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

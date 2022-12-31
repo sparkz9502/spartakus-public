@@ -1,0 +1,22 @@
+
+state={
+	id=1007
+	name="STATE_1007"
+
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1959 3427 4960 4986 10451 10854 
+	}
+	manpower=717400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

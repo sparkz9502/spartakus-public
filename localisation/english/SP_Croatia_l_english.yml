@@ -1,0 +1,242 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+croatia.1.t:0 "Support from Serbia"
+croatia.1.d:0 "The government of Serbia has decided to back our efforts against Illyria. We have received large swathes of equipment and volunteers from them."
+croatia.1.a:0 "We need all the help we can get"
+croatia.2.t:0 "Relations Between the Republics"
+croatia.2.d:0 "Our greatest enemy has been vanquished. The governments of Serbia, Bosnia, and Croatia are sovereign and agree on one primary cause - Yugoslavia. Nevertheless, there are many disagreements on how it should operate. The commonly agreed upon directions are either a decentralized federation of ethnic republics, or a single Yugoslav state."
+croatia.2.a:0 "Keep close ties, but retain a sovereign course"
+croatia.2.b:0 "One Yugoslavia!"
+croatia.4.t:0 "The First Elections"
+croatia.4.d:0 "Elections are finally being held in the sovereign Croat nation. The obvious victor will be the populist to a fault Peasant party, promising a classless utopia ruled by the lower classes (albeit, with little means to deliver this and with the right to private property in tact). The Party of Rights remains popular among the upper and middle urban class, but the peasants true greatest contender are the communists, led by the charismatic Josip Broz."
+croatia.4.a:0 "The Peasant Party wins, as was expected"
+croatia.4.b:0 "The Party of Rights achieves a narrow plurality as the communists split the peasants vote"
+croatia.4.c:0 "The communists win in a surprising turn of events"
+croatia.6.t:0 "Extent of the Purge"
+croatia.6.d:0 "Unfortunately, the Croatian independence movement had to resort to recruiting all sorts of dubious characters and demagogues in the past, pragmatic in its intentions. This means that there are still many far-right elements within our country, as well as members of the ruling party sympathetic to them. What should we do about these fellows?"
+croatia.6.a:0 "There shall be no enemies of the people in new Croatia!"
+croatia.6.b:0 "Bar extremists from certain positions"
+croatia.7.t:0 "Appoint a Minister of Propaganda"
+croatia.7.d:0 "In these turbulent times, Croatia could use an effective propaganda campaign to ensure the stability of the HRSS government. Our two primary candidates are Franjo Gazi, a moderate journalist proving rather popular among the middle class, or Filip Lakus, an independence resistance leader, beloved by the lower classes, but more sympathetic to the communists."
+croatia.7.a:0 "Choose Gaži"
+croatia.7.b:0 "Choose Lakuš"
+croatia.9.t:0 "Begin Works on the Zagreb-Split Highway"
+croatia.9.d:0 "Ever since western nations have started building special 'car-only' roads, they've become the envy of every developing country. Cars are still very rare in Croatia, but planning for the future would prove to be a good political move at the very least. There is nothing stopping us from constructing a highway connecting the north and south of our country now - other than money."
+croatia.9.a:0 "We will spare no expense on this!"
+croatia.9.b:0 "Be moderate with the funding, please."
+croatia.9.c:0 "This is a megalomaniacal project, we won't spend too much on it."
+croatia.10.t:0 "Zagreb-Split Highway Complete!"
+croatia.10.d:0 "The Zagreb-Split Highway opened to the general public today. While with very few users as of now, such an advanced feat of engineering will be the pride of the country for years to come."
+croatia.10.a:0 "Brilliant!"
+
+###Parties###
+
+STJ_bolshevist_party:0 "KPJ"
+STJ_bolshevist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+STJ_spartacist_party:0 "KPJ"
+STJ_spartacist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+STJ_revolutionary_socialist_party:0 "KPJ"
+STJ_revolutionary_socialist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+STJ_reformist_socialist_party:0 "SPJ"
+STJ_reformist_socialist_party_long:0 "Socialist Party of Yugoslavia (Socijalistička Partija Jugoslavije)"
+STJ_social_democrat_party:0 "HRSS"
+STJ_social_democrat_party_long:0 "Croatian Republican Peasant Party (Hrvatska Republikanska Seljačka Stranka)"
+STJ_social_liberal_party:0 "HRSS"
+STJ_social_liberal_party_long:0 "Croatian Republican Peasant Party (Hrvatska Republikanska Seljačka Stranka)"
+STJ_liberal_conservative_party:0 "HRSS"
+STJ_liberal_conservative_party_long:0 "Croatian Republican Peasant Party (Hrvatska Republikanska Seljačka Stranka)"
+STJ_social_conservative_party:0 "HSP"
+STJ_social_conservative_party_long:0 "Croatian Party of Rights (Hrvatska Stranka Prava)"
+STJ_authoritarian_conservative_party:0 "Vojna Vlada"
+STJ_authoritarian_conservative_party_long:0 "Military Government (Vojna Vlada)"
+STJ_right_wing_populist_party:0 "HRP"
+STJ_right_wing_populist_party_long:0 "Croatian Revolutionary Movement (Hrvatski Revolucionarni Pokret (Ustaše))"
+STJ_national_syndicalist_party:0 "HRP"
+STJ_national_syndicalist_party_long:0 "Croatian Revolutionary Movement (Hrvatski Revolucionarni Pokret (Ustaše))"
+STJ_national_corporatist_party:0 "HRP"
+STJ_national_corporatist_party_long:0 "Croatian Revolutionary Movement (Hrvatski Revolucionarni Pokret (Ustaše))"
+
+### Focuses ###
+
+CRO_Croats_Victorious:0 "Croats Victorious!"
+CRO_Croats_Victorious_desc:0 ""
+CRO_First_Postwar_Elections:0 "Hold Our First Elections"
+CRO_First_Postwar_Elections_desc:0 ""
+
+CRO_First_Postwar_Elections_HRSS:0 "§YCroatian Republican Peasant Party§!"
+CRO_First_Postwar_Elections_HRSS_desc:0 ""
+CRO_Peaceful_Peasant_Republic:0 "The Peasant Republic"
+CRO_Peaceful_Peasant_Republic_desc:0 ""
+CRO_Mass_Land_Reform:0 "Mass Agrarian Reform"
+CRO_Mass_Land_Reform_desc:0 ""
+CRO_Purge_Corporatists:0 "Purge Reactionaries from the Party"
+CRO_Purge_Corporatists_desc:0 ""
+CRO_Bring_Order_Back:0 "Bring Back Order"
+CRO_Bring_Order_Back_desc:0 ""
+CRO_Introduce_Welfare:0 "Extend Welfare"
+CRO_Introduce_Welfare_desc:0 ""
+CRO_Ensure_Coverage:0 "Ensure Coverage"
+CRO_Ensure_Coverage_desc:0 ""
+CRO_Expand_Defence_Forces:0 "Expand the Peasant Defence Forces"
+CRO_Expand_Defence_Forces_desc:0 ""
+CRO_Disavow_Landlords:0 "Disavow Landlords"
+CRO_Disavow_Landlords_desc:0 ""
+CRO_Organize_Peasant_Councils:0 "Organize Peasant Councils"
+CRO_Organize_Peasant_Councils_desc:0 ""
+CRO_Will_of_the_People:0 "Will of the People"
+CRO_Will_of_the_People_desc:0 ""
+CRO_Peasants_a_Political_Force:0 "The New Political Force"
+CRO_Father_of_the_Republic:0 "Father of the Republic"
+CRO_Father_of_the_Republic_desc:0 ""
+CRO_Anti-Clerical_Policies:0 "Anti-Clerical Policies"
+CRO_Anti-Clerical_Policies_desc:0 ""
+CRO_Pursue_Social_Liberalization:0 "Pursue Social Liberalization"
+CRO_Pursue_Social_Liberalization_desc:0 ""
+CRO_Literacy_Program:0 "Literacy Program"
+CRO_Literacy_Program_desc:0 ""
+CRO_Autocesta_Zagreb-Split:0 "Open Works on Autocesta Zagreb-Split"
+CRO_Develop_Tourism:0 "Develop Tourism"
+CRO_Develop_Tourism_desc:0 ""
+CRO_Reconcilation_with_Serbs:0 "Reconcilation with Serbs"
+CRO_Reconcilation_with_Serbs_desc:0 ""
+CRO_Exchange_with_Bosnia:0 "Influence with Bosniaks"
+CRO_Exchange_with_Bosnia_desc:0 ""
+CRO_Modern_Croatian_Nation:0 "Modern Croatian Nation"
+CRO_Modern_Croatian_Nation_desc:0 ""
+
+CRO_First_Postwar_Elections_HSP:0 "§YCroatian Party of Rights§!"
+CRO_First_Postwar_Elections_HSP_desc:0 ""
+CRO_Propagate_Croatian_Right:0 "Propagate Croatian Right"
+CRO_Propagate_Croatian_Right_desc:0 ""
+CRO_Political_Moderation:0 "Political Moderation"
+CRO_Political_Moderation_desc:0 ""
+CRO_Limit_Serb_Service:0 "Bar Serbs from Military Service"
+CRO_Limit_Serb_Service_desc:0 ""
+CRO_Strengthen_Borders:0 "Strengthen Our Borders"
+CRO_Strengthen_Borders_desc:0 ""
+CRO_Catholic_Croatia:0 "Catholic Croatia"
+CRO_Catholic_Croatia_desc:0 ""
+CRO_Military_Development:0 "Develop the Military"
+CRO_Military_Development_desc:0 ""
+CRO_Ties_to_the_West:0 "Ties to the West"
+CRO_Ties_to_the_West_desc:0 ""
+CRO_Slow_Industrialization:0 "Slow Industrialization"
+CRO_Slow_Industrialization_desc:0 ""
+CRO_Develop_Education:0 "Develop Education"
+CRO_Develop_Education_desc:0 ""
+CRO_Press_Claims:0 "Press Our Claims"
+CRO_Press_Claims_desc:0 ""
+
+CRO_First_Postwar_Elections_HRP:0 "§YCroatian Revolutionary Movement§!"
+CRO_First_Postwar_Elections_HRP_desc:0 ""
+CRO_Sever_Ties:0 "Sever Ties to Neighbors"
+CRO_Sever_Ties_desc:0 ""
+CRO_Ultranationalist_Policy:0 "Ultranationalism"
+CRO_Ultranationalist_Policy_desc:0 ""
+CRO_Hypermilitarize_the_Nation:0 "Hypermilitarize the Nation"
+CRO_Hypermilitarize_the_Nation_desc:0 ""
+CRO_Another_War:0 "Another War"
+CRO_Another_War_desc:0 ""
+
+CRO_It_is_War_Brothers:0 "It is War, Brothers"
+CRO_It_is_War_Brothers_desc:0 ""
+CRO_Grab_Your_Rifle:0 "Grab Your Rifle"
+CRO_Grab_Your_Rifle_desc:0 ""
+CRO_There_be_Glory_Where_Ours_Are:0 "There be Glory Where Ours Are"
+CRO_There_be_Glory_Where_Ours_Are_desc:0 ""
+CRO_Take_a_Saber:0 "Take a Saber"
+CRO_Take_a_Saber_desc:0 ""
+
+STJ_Expand_Oil_Storage_in_Sisak:0 "Expand Oil Storage in Sisak"
+STJ_A_Proper_Refinery_System:0 "A Proper Refinery System"
+STJ_Begin_Processing_Local_Raw_Oil:0 "Begin Processing Local Raw Oil"
+
+### Ideas ###
+STJ_Nationalist_Vigor:0 "Nationalist Vigor"
+STJ_Big_Welfare:0 "Basic Welfare State"
+STJ_Big_Welfare_2:0 "Developing Welfare State"
+STJ_Anti_Landlordist_Policies:0 "Anti-Landlordist Policies"
+STJ_Peasant_Orgs:0 "Peasant Organizations"
+STJ_Progressivism:0 "Progressivism in the Balkans"
+STJ_Growing_Tourism_Industry:0 "Growing Tourism Industry"
+STJ_Infrastructure_of_the_Future:0 "Infrastructure of the Future"
+STJ_Nationalist_Propaganda:0 "Nationalist Propaganda"
+STJ_Catholic_Bastion:0 "Bastion of Catholicism"
+STJ_Popular_Political_Participation:0 "Popular Political Participation"
+STJ_Growing_Cult_of_Personality:0 "Growing Cult of Personality"
+
+### Flags ###
+Illyria_Did_Dis_1:0 "Illyria already did this"
+Illyria_Did_Dis_2:0 "Illyria already did this"
+Illyria_Did_Dis_3:0 "Illyria already did this"
+Not_So_Fast_2:0 "Budak Couped Tito"
+HRSS_Elections_Win:0 "Peasants Won"
+HSP_Elections_Win:0 "Party of Rights won"
+
+### Tooltips ###
+
+CROLiberalsRiseUp:0 "Fought Illyria"
+STJ_PDF_Tip:0 "§GCompleting this focus will create several additional units for the PDF§n"
+STJ_NoSerbService:0 "§RWe will lose a considerable amount of recruitable manpower§n"
+STJ_No_Serb_Service:0 "Nonconscriptable Serb Population"
+CRO_Border_Forts:0 "§GCompleting this focus will grant several smaller fortifications along vital points on the northern and eastern border§n"
+STJ_Preparing_War:0 "Preparing for War"
+
+### Decisions ###
+
+#SABOR
+
+STJ_Sabor:0 "The Sabor"
+
+sabor_header:0 "The Sabor\n\nThe Parliament of Croatia known as the Sabor has existed in some form since the 9th century, then as a diet of the nobility, now, the democratic representative legislature of the Croatian people.\nAs long as Croatia is a liberal democracy, all legislation must be enacted by the Sabor."
+
+HRSS_seats_number:0 "§GHRSS Seats:§n\n[GetHRSSSeats]"
+HSP_seats_number:0 "§dHSP Seats:§n\n[GetHSPSeats]"
+HRP_seats_number:0 "§sHRP Seats:§n\n[GetHRPSeats]"
+KPJ_seats_number:0 "§RKPJ Seats:§n\n[GetKPJSeats]"
+
+HRSS_majority:0 "§Y[?STJ_HRSS_SEATS_NUMBER]/88§!\n(Majority)"
+HRSS_minority:0 "§Y[?STJ_HRSS_SEATS_NUMBER]/88§!"
+
+HSP_majority:0 "§Y[?STJ_HSP_SEATS_NUMBER]/88§!\n(Majority)"
+HSP_minority:0 "§Y[?STJ_HSP_SEATS_NUMBER]/88§!"
+
+HRP_majority:0 "§Y[?STJ_HRP_SEATS_NUMBER]/88§!\n(Majority)"
+HRP_minority:0 "§Y[?STJ_HRP_SEATS_NUMBER]/88§!"
+
+KPJ_majority:0 "§Y[?STJ_KPJ_SEATS_NUMBER]/88§!\n(Majority)"
+KPJ_minority:0 "§Y[?STJ_KPJ_SEATS_NUMBER]/88§!"
+
+STJ_Sabor_explanation:0 "§YHelp§!"
+
+STJ_Economy_dec:0 "- Economic Policy -"
+STJ_Social_dec:0 "- Social Policy -"
+STJ_Military_dec:0 "- Military Policy -" 
+
+#HRSS
+STJ_HRSS_Begin_Mass_Agrarian_Reform:0 "§GBegin Mass Agrarian Reform§"
+STJ_HRSS_Extend_Welfare:0 "§GExtend Welfare Policies§"
+STJ_HRSS_Debate_the_Future_of_our_Development:0 "§GDebate the Future of our Development§"
+STJ_HRSS_Adopt_Anti_Clerical_Policies:0 "§GAdopt Anti-Clerical Policies§"
+STJ_HRSS_Ensure_Rights_of_Serbs:0 "§GGuarantee Minority Rights§"
+STJ_HRSS_Organize_Peasant_Councils:0 "§GOrganize Peasant Councils§"
+STJ_HRSS_Expand_PDF:0 "§GExpand the Peasant Defence Force§"
+STJ_HRSS_Expand_CDF:0 "§GExpand the Civilian Defence Force§"
+#HSP
+STJ_HSP_Invite_Foreign_Investors:0 "§dInvite Foreign Investors§"
+STJ_HSP_Fund_New_Industries:0 "§dFund New Industries§"
+#HRP
+STJ_HRP_Introduce_Corporatism:0 "§sIntroduce Corporatism§"
+#KPJ
+
+
+### Equipment ###
+
+### Cosmetic Tags ###
+
+STJ_reformist_socialist_HRSS:0 "DSS"
+STJ_reformist_socialist_HRSS_long:0 "Demoktratska Seljačka Stranka"

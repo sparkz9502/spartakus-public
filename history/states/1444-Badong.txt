@@ -1,0 +1,23 @@
+
+state={
+	id=1444
+	name="STATE_1444"
+	provinces={
+		7596 10757 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			7596 1 
+		}
+
+	}
+	manpower=1787900
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

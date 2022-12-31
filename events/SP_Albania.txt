@@ -1,0 +1,361 @@
+add_namespace = alb
+
+### 		###
+###   MISC  ###
+### 		###
+
+country_event = { # Variables Debug
+	id = alb.0
+	title = alb.0.t
+	desc = alb.0.d
+	picture = GFX_ALB_map
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alb.0.a
+	}
+}
+
+country_event = { # Intro
+	id = alb.1
+	title = alb.1.t
+	desc = alb.1.d
+	picture = GFX_ALB_map
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alb.1.a
+	}
+}
+
+country_event = { # Great Depression
+	id = alb.6
+	title = alb.6.t
+	desc = alb.6.d
+	picture = GFX_darkestday3
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alb.6.a
+		add_ideas = {
+			ALB_depression_1
+			ALB_currency_crash
+			ALB_failing_business
+			ALB_trade_crisis
+		}
+		hidden_effect = { 
+			set_country_flag = ALB_depression_flag
+		}
+	}
+}
+
+country_event = { # Përpjekja shqiptare
+	id = alb.7
+	title = alb.7.t
+	desc = alb.7.d
+	picture = GFX_ALB_magazine
+	fire_only_once = yes
+
+	trigger = {
+		tag = ALB
+		date > 1933.3.3
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = alb.7.a
+		custom_effect_tooltip = alb_tt_influence_establishment
+		add_to_variable = { ALB.monarch_influence = 1 } 
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.04
+		}
+	}
+	
+	option = {
+		name = alb.7.b
+		custom_effect_tooltip = alb_tt_influence_fascists
+		add_political_power = -50
+		add_to_variable = { ALB.zogist_influence = 1 } 
+	}
+}
+
+### 					###
+###  GENERAL POLITICAL  ###
+### 					###
+
+country_event = { # Herthe's Death
+	id = alb.2
+	title = alb.2.t
+	desc = alb.2.d
+	picture = GFX_report_event_generic_funeral
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = alb.2.a
+		kill_country_leader = yes
+		add_stability = -0.05
+		hidden_effect = { #begin the chain of events to the new government based on variables in previous focuses
+			set_country_flag = herthe_dead 
+			complete_national_focus = ALB_herthe_funeral
+			create_country_leader = {
+				name = "Mehdi Frashëri"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Shefqet Vërlaci"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = liberal_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Xhafer Ypi"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = authoritarian_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Prek Cali"
+				desc = ""
+				picture = ""
+				expire = "1965.1.1"
+				ideology = right_wing_populist_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Regency Government"
+				desc = ""
+				picture = "Portrait_ALB_Regency.tga"
+				expire = "1965.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
+		}
+	}
+}
+
+country_event = { # Zogist Coup
+	id = alb.3
+	title = alb.3.t
+	desc = alb.3.d
+	picture = GFX_report_event_romanian_soldiers
+	fire_only_once = yes
+
+	trigger = {
+		tag = ALB
+		has_country_flag = herthe_dead
+		NOT = {
+			has_country_flag = nolist_government
+			has_country_flag = king_alban
+		}
+			AND = {
+				check_variable = {
+					var = ALB.zogist_influence
+					value = ALB.nolist_influence
+					compare = greater_than
+				}
+				check_variable = {
+					var = ALB.zogist_influence
+					value = ALB.monarch_influence
+					compare = greater_than
+				}
+			}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = alb.3.a
+		set_politics = {
+			ruling_party = national_corporatist
+		}
+		remove_ideas = ALB_aristocracy
+		hidden_effect = { 
+			set_country_flag = zogist_government 
+			complete_national_focus = ALB_coup
+		}
+	}
+}
+
+country_event = { # Nolist Revolution
+	id = alb.4
+	title = alb.4.t
+	desc = alb.4.d
+	picture = GFX_report_event_generic_riot
+	fire_only_once = yes
+
+	trigger = {
+		tag = ALB
+		has_country_flag = herthe_dead
+		NOT = {
+			has_country_flag = zogist_government
+			has_country_flag = king_alban
+		}
+		AND = {
+			check_variable = {
+				var = ALB.nolist_influence
+				value = ALB.zogist_influence
+				compare = greater_than
+			}
+			check_variable = {
+				var = ALB.nolist_influence
+				value = ALB.monarch_influence
+				compare = greater_than
+			}
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = alb.4.a
+		set_politics = {
+			ruling_party = revolutionary_socialist
+		}
+		remove_ideas = ALB_aristocracy
+		hidden_effect = { 
+			set_country_flag = nolist_government 
+			complete_national_focus = ALB_revolution
+			remove_ideas = ALB_aristocracy
+		}
+	}
+}
+
+country_event = { # Queen Drita Coronated
+	id = alb.5
+	title = alb.5.t
+	desc = alb.5.d
+	picture = GFX_ALB_ceremony
+	fire_only_once = yes
+
+	trigger = {
+		tag = ALB
+		has_country_flag = herthe_dead
+		NOT = {
+			has_country_flag = zogist_government
+			has_country_flag = nolist_government
+		}
+		OR = { ##thank you sarah ;_; <333333
+				AND = {
+				check_variable = {
+					var = ALB.monarch_influence
+					value = ALB.zogist_influence
+					compare = greater_than
+				}
+				check_variable = {
+					var = ALB.monarch_influence
+					value = ALB.nolist_influence
+					compare = greater_than
+				}
+			}
+			OR = { 
+                check_variable = {
+                    var = ALB.monarch_influence
+                    value = ALB.zogist_influence
+                    compare = equals
+                }
+                check_variable = {
+                    var = ALB.monarch_influence
+                    value = ALB.nolist_influence
+                    compare = equals
+                }
+			}
+            NOT = {
+                OR = {
+					check_variable = {
+					var = ALB.monarch_influence
+					value = ALB.nolist_influence
+					compare = greater_than
+					}
+					check_variable = {
+					var = ALB.monarch_influence
+					value = ALB.zogist_influence
+					compare = greater_than
+					}
+                }
+            }
+		}
+	}
+
+	mean_time_to_happen = {
+		days = 7
+	}
+	
+	option = {
+		name = alb.5.a
+		hidden_effect = { 
+			set_country_flag = king_alban 
+			retire_country_leader = yes
+			complete_national_focus = ALB_coronation
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = social_liberal_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = liberal_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = social_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = authoritarian_conservative_subtype
+				traits = {
+				}
+			}
+			create_country_leader = {
+				name = "Drita I"
+				desc = ""
+				picture = "Portrait_ALB_Drita.tga"
+				expire = "1965.1.1"
+				ideology = right_wing_populist_subtype
+				traits = {
+				}
+			}
+		}
+	}
+}

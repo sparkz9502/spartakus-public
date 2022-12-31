@@ -1,0 +1,29 @@
+
+state={
+	id=486
+	name="STATE_486"
+	resources={
+		oil=16.000
+	}
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+		}
+		add_core_of = COL
+		victory_points = {
+			10747 10 
+		}
+	}
+
+	provinces={
+		10747 10790 
+	}
+	manpower=1722400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

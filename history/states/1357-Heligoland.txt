@@ -1,0 +1,26 @@
+state={
+	id=1357
+	name="STATE_1357"
+	provinces={
+		15502 
+	}
+	history={
+		owner = ENG
+		victory_points = {
+			15502 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			15502 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
+		}
+		add_core_of = GER
+
+	}
+	manpower=2000
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+}

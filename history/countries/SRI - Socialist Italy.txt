@@ -1,0 +1,96 @@
+﻿capital = 158
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.2
+set_war_support = 0.0
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_bure
+	trade_aut
+	economy_semind
+	mobilization_2
+}
+
+### Country Leaders ###
+recruit_character = SRI_amadeo_bordiga
+recruit_character = SRI_antonio_gramsci
+recruit_character = SRI_nicola_bombacci
+recruit_character = SRI_celeste_negarville
+recruit_character = SRI_umberto_terracini
+recruit_character = SRI_mauro_scoccimarro
+recruit_character = SRI_palmiro_togliatti
+recruit_character = SRI_tito_oro_nobili
+
+### Field Marshals ###
+recruit_character = SRI_luigi_longo
+
+### Generals ###
+recruit_character = SRI_ilio_barontini
+recruit_character = SRI_pompeo_colajanni
+recruit_character = SRI_pietro_secchia
+recruit_character = SRI_cino_moscatelli
+recruit_character = SRI_mario_muneghina
+recruit_character = SRI_giancarlo_pajetta
+recruit_character = SRI_walter_audisio
+recruit_character = SRI_antonio_carini
+recruit_character = SRI_venturoli_remigio
+recruit_character = SRI_davide_lajolo
+
+### Admirals ###
+recruit_character = SRI_domenico_baffigo
+
+### Starting Tech ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM ITA #
+}
+
+### Politics ###
+
+set_politics = {
+	ruling_party = spartacist
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 7
+    spartacist = 22
+    revolutionary_socialist = 26
+    reformist_socialist = 13
+    social_democrat = 5
+    social_liberal = 7
+    liberal_conservative = 5
+    social_conservative = 8
+    authoritarian_conservative = 0
+    right_wing_populist = 1
+    national_syndicalist = 4
+    national_corporatist = 2
+}
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_revolutionary_socialist
+
+set_country_flag = banned_reformist_socialist
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_liberal_conservative
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist
+
+### Diplomacy ###
+add_opinion_modifier = { target = SOV modifier = SP_great_relations }
+add_opinion_modifier = { target = SOV modifier = SP_great_relations_trade }
+add_opinion_modifier = { target = GER modifier = SP_great_relations }
+add_opinion_modifier = { target = GER modifier = SP_great_relations_trade }
+add_opinion_modifier = { target = FRA modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = FRA modifier = SP_unrecognised_relations_trade }
+add_opinion_modifier = { target = ENG modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = ENG modifier = SP_unrecognised_relations_trade }
+add_opinion_modifier = { target = JAP modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = JAP modifier = SP_unrecognised_relations_trade }

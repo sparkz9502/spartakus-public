@@ -1,0 +1,144 @@
+characters={
+    AWR_theodor_korner = {
+        name = "Theodor Körner"
+        portraits={
+            civilian={
+                large = "gfx/leaders/AWR/Portrait_Theodor_Korner.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_THEODOR_KORNER_DESC"
+            expire = "1965.1.1"
+            ideology = austromarxism
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_THEODOR_KORNER_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    AWR_alfred_klahr = {
+        name = "Alfred Klahr"
+        portraits={
+            civilian={
+                large = "gfx/leaders/AWR/Portrait_Alfred_Klahr.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ALFRED_KLAHR_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    AWR_johann_koplenig = {
+        name = "Johann Koplenig"
+        portraits={
+            civilian={
+                large = "gfx/leaders/AWR/Portrait_Johann_Koplenig.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JOHANN_KOPLENIG_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	AWR_alexander_eifler={
+		name="Alexander Eifler"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/AWR/Portrait_Alexander_Eifler.tga"
+			}
+		}
+		field_marshal={
+			traits={ career_officer infantry_officer politically_connected }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AWR_julius_deutsch={
+		name="Julius Deutsch"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/AWR/Portrait_Julius_Deutsch.tga"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	AWR_richard_bernaschek={
+		name="Richard Bernaschek"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/AWR/Portrait_Richard_Bernaschek.tga"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	AWR_karl_munichreiter={
+		name="Karl Münichreiter"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/AWR/Portrait_Karl_Munichreiter.tga"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

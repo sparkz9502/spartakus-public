@@ -1,0 +1,21 @@
+
+state={
+	id=549
+	name="STATE_549"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1062 1953 4033 4057 4992 7077 7139 10764 10851 10857 10877 10908 12025 12094 12744 12800 12887 13879 13886 14188 14195 14199 14219 14237 
+	}
+	manpower=1304900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

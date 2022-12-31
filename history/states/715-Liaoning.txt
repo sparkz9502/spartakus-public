@@ -1,0 +1,34 @@
+
+state={
+	id=715
+	name="STATE_715"
+	
+	resources={
+		coal=8
+	}
+
+	history={
+		owner = FNG
+		add_core_of = FNG
+		victory_points = {
+			9831 1
+		}
+		victory_points = {
+			916 2
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		846 916 930 1499 1558 1627 1638 3877 4561 4642 7812 9831 11836 12337 
+	}
+	manpower=4705400
+	buildings_max_level_factor=1.000
+	state_category = town
+}

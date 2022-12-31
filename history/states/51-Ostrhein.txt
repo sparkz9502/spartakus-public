@@ -1,0 +1,74 @@
+
+state={
+	id=51
+	name="STATE_51"
+	resources={
+		coal=63
+		iron=9
+	}
+
+	history={
+		owner = GER
+		add_core_of = GER
+		add_core_of = RHI
+		victory_points = {
+			6469 30 
+		}
+		victory_points = {
+			15188 20 
+		}
+		victory_points = {
+			15644 12
+		}
+		victory_points = {
+			15642 15 
+		}
+		victory_points = {
+			6570 10 
+		}
+		victory_points = {
+			3512 2 
+		}
+		victory_points = {
+			529 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 4
+			industrial_complex = 3
+			fuel_silo = 1
+			anti_air_building = 2
+			air_base = 3
+			15644 = {
+				bunker = 2
+			}
+			15188 = {
+				bunker = 3
+			}
+			6570 = {
+				bunker = 2
+			}
+			529 = {
+				bunker = 1
+			}
+			3512 = {
+				bunker = 1
+			}
+			15642 = {
+				bunker = 1
+			}
+			6469 = {
+				bunker = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		529 3512 6469 6570 9482 15188 15642 15644 
+	}
+	manpower=3158600
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

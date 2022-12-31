@@ -1,0 +1,195 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Division d'Infanterie"
+	division_names_group = BEL_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Division de Cavalerie"
+	division_names_group = BEL_CAV_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		bicycle_battalion = { x = 2 y = 0 }
+		bicycle_battalion = { x = 2 y = 1 }
+		bicycle_battalion = { x = 2 y = 2 }
+		bicycle_battalion = { x = 2 y = 3 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+	}
+	support = {
+		engineer = { x = 0 y = 0 }  
+		mot_recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division= {	# "1ère Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 14545
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "2ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11519
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "3ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11519
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "4ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 14545
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "5ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 516
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "6ème Division d'Infanterie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 13068
+		division_template = "Division d'Infanterie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "1ère Division de Cavalerie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 9418
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division= {	# "2ème Division de Cavalerie"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14545
+		division_template = "Division de Cavalerie"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#############
+## AIR OOB ##
+#############
+
+air_wings = {
+	6 = {
+		fighter_equipment_0 =  {
+			owner = "BEL" 
+			amount = 20
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "BEL"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "BEL" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

@@ -1,0 +1,67 @@
+#####################
+# Position traits
+######################
+#  These MOSTLY have no effect and are just for events and to clarify ideology belongings
+#####################
+
+leader_traits = {
+
+#####################
+# Minister
+#####################
+
+	head_of_government = {}
+	minister_without_portfolio = {}
+	foreign_minister = {}
+	economy_minister = {}
+	security_minister = {}
+	education_minister = {}
+	agriculture_minister = {}
+	transport_minister = {}
+	defence_minister = {}
+
+#####################
+# Military Staff
+#####################
+
+	chief_of_staff = {}
+	chief_of_army = { 
+		experience_gain_army = 0.05
+
+		random = no
+	}
+	chief_of_navy = {
+		experience_gain_navy = 0.05
+
+		random = no
+	}
+	chief_of_air_force = {
+		experience_gain_air = 0.05
+
+		random = no
+	}
+	
+#####################
+# Other
+#####################
+
+	sp_theorist = {}
+	
+#####################
+# Ideologies
+#####################
+
+	bolshevist = { sprite = 1 }
+	spartacist = { sprite = 2 }
+	revolutionary_socialist = { sprite = 3 }
+	reformist_socialist = { sprite = 4 }
+	social_democrat = { sprite = 5 }
+	social_liberal = { sprite = 6 }
+	liberal_conservative = { sprite = 7 }
+	social_conservative = { sprite = 8 }
+	authoritarian_conservative = { sprite = 9 }
+	right_wing_populist = { sprite = 10 }
+	national_syndicalist = { sprite = 11 }
+	national_corporatist = { sprite = 12 }
+
+}

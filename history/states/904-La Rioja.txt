@@ -1,0 +1,20 @@
+
+state={
+	id=904
+	name="STATE_904"
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		2136 2158 11022 13237 13238 13503 
+	}
+	manpower=145900
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

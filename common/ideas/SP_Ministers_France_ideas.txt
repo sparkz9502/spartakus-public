@@ -1,0 +1,345 @@
+ideas = {
+################################################################################################################################################################################################
+### FRA
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	FRA_Philippe_Petain_hog_rwp = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_military_brute
+		}
+		cancel_if_invalid = no
+	}
+	
+	FRA_Hubert_Lyautey_hog_rwp = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_chef_de_la_nation
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+
+	FRA_Andre_Tardieu_mwp_aco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			minister_without_portfolio
+			mwp_modern_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	FRA_Louis_Barthou_for_lco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser 
+		}
+		cancel_if_invalid = no
+	}
+	
+	FRA_Andre_Tardieu_for_aco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+economy_minister = { ### Economy Minister ###
+
+	FRA_Frederic_Francois_Marsal_eco_sco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_bank_president 
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+security_minister = { ### Security Minister ###
+
+	FRA_Edouard_Daladier_sec_sli = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_efficient_sociopath   
+		}
+		cancel_if_invalid = no
+	}
+	
+	FRA_Jean_Chiappe_sec_rwp = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+education_minister = { ### Education Minister ###
+
+	FRA_Leon_Berard_edu_sco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+
+	FRA_Armand_Achille_Fould_agr_sco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_conservative_landowner
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+transport_minister = { ### Transport Minister ###
+
+	FRA_Pierre_Etienne_Flandin_tra_sco = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+
+	FRA_Pierre_Laval_def_sde = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+			def_espionage_specialist  
+		}
+		cancel_if_invalid = no
+	}
+	
+	FRA_Philippe_Petain_def_rwp = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	FRA_Maxime_Weygand_cos = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	FRA_Hubert_Lyautey_carm = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+	FRA_Georges_Durand_Viel_cnav = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	FRA_Victor_Denain_cair = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+sp_theorist = { ### Theorist ###
+
+	FRA_Pierre_de_Coubertin_theo = {
+		allowed = {original_tag = FRA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			baron_of_sport
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+}

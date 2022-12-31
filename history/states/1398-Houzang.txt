@@ -1,0 +1,22 @@
+
+state={
+	id=1398
+	name="STATE_1398"
+
+	history={
+		owner = TIB
+		add_core_of = TIB
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1991 2093 4900 8068 8121 10755 12784 12807 
+	}
+	manpower=234000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

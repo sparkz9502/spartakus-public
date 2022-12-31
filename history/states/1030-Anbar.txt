@@ -1,0 +1,21 @@
+state={
+	id=1030
+	name="STATE_1030"
+	provinces={
+		901 1606 1634 2013 3942 6883 10882 
+	}
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		victory_points = { 2013 2 }
+		victory_points = { 1634 2 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	manpower=78100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

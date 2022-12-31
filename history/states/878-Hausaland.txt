@@ -1,0 +1,25 @@
+
+state={
+	id=878
+	name="STATE_878"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1891 1 
+		}
+
+	}
+
+	provinces={
+		1891 1932 2025 13494 14098 14106 14144 14155 14509 14519 14529 14530 14539 14542 
+	}
+	manpower=2451200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

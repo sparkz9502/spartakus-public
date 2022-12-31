@@ -1,0 +1,37 @@
+
+state={
+	id=342
+	name="STATE_342"
+	resources={
+		raremetals=21.000
+	}
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = OTT
+		victory_points = {
+			1005 4 
+		}
+		victory_points = {
+			9941 1 
+		}
+		victory_points = {
+			12096 1 
+		}
+		victory_points = {
+			4127 3 
+		}
+
+	}
+
+	provinces={
+		1005 1119 1122 4008 4127 
+	}
+	manpower=452572
+	buildings_max_level_factor=1.000
+	state_category=town
+}

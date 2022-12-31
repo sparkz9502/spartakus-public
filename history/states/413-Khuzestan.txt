@@ -1,0 +1,44 @@
+
+state={
+	id=413
+	name="STATE_413"
+	resources={
+		oil=28.000
+	}
+
+	history={
+		owner = KHU
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			fuel_silo = 1
+			5005 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = {
+			15009 2 
+		}
+		victory_points = {
+			14976 3 
+		}
+		victory_points = {
+			5005 1 
+		}
+		victory_points = {
+			15035 1 
+		}
+		add_claim_by = PER
+		add_core_of = KHU
+
+	}
+
+	provinces={
+		5005 7953 14967 14976 15004 15009 15014 15015 15035 
+	}
+	manpower=764600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

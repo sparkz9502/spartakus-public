@@ -1,0 +1,28 @@
+
+state={
+	id=1120
+	name="STATE_1120"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14027 1 
+		}
+		victory_points = {
+			14021 1 
+		}
+
+	}
+
+	provinces={
+		2255 14019 14021 14024 14027 14028 14032 14035 14036 14037 
+	}
+	manpower=1603500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

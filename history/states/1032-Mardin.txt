@@ -1,0 +1,24 @@
+
+state={
+	id=1032
+	name="STATE_1032"
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OTT
+		victory_points = {
+			9823 3 
+		}
+
+	}
+
+	provinces={
+		886 3889 6813 
+	}
+	manpower=107694
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

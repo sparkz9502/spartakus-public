@@ -1,0 +1,165 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+SRI_bolshevist_party:0 "PCd'I (A)"
+SRI_bolshevist_party_long:0 "Communist Party of Italy (Abstentionists) (Partito Communista d'Italia (Astensionisti))"
+SRI_spartacist_party:0 "PCd'I (O)"
+SRI_spartacist_party_long:0 "Communist Party of Italy (Ordinovists) (Partito Communista d'Italia (Ordinovisti))"
+SRI_revolutionary_socialist_party:0 "PCd'I (M)"
+SRI_revolutionary_socialist_party_long:0 "Communist Party of Italy (Maximalists) (Partito Communista d'Italia (Massimalisti))"
+SRI_reformist_socialist_party:0 "GL"
+SRI_reformist_socialist_party_long:0 "Justice and Freedom (Giustizia e Libertà)"
+SRI_social_democrat_party:0 "PDL"
+SRI_social_democrat_party_long:0 "Labour Democratic Party (Partito Democratico del Lavoro)"
+SRI_social_liberal_party:0 "PLD"
+SRI_social_liberal_party_long:0 "Democratic Liberal Party (Partito Liberale Democratico)"
+SRI_liberal_conservative_party:0 "PLI"
+SRI_liberal_conservative_party_long:0 "Italian Liberal Party (Partito Liberale Italiano)"
+SRI_social_conservative_party:0 "PPI"
+SRI_social_conservative_party_long:0 "Italian People's Party (Partito Populare Italiano)"
+SRI_authoritarian_conservative_party:0 "Governo Militare"
+SRI_authoritarian_conservative_party_long:0 "Transitional Military Government for Stability (Governo Militare di Transizione per la Stabilità)"
+SRI_right_wing_populist_party:0 "ANI"
+SRI_right_wing_populist_party_long:0 "Italian Nationalist Association (Associazione Nazionalista Italiana)"
+SRI_national_syndicalist_party:0 "PNF"
+SRI_national_syndicalist_party_long:0 "National Fascist Party (Partito Nazionale Fascista)"
+SRI_national_corporatist_party:0 "PNF"
+SRI_national_corporatist_party_long:0 "National Fascist Party (Partito Nazionale Fascista)"
+ 
+### Focuses ###
+
+#Starting Civil War Tree
+
+SRI_The_Turin_Uprising:0 "The Turin Uprising"
+SRI_The_Turin_Uprising_desc:0 "The fires of revolution burn in Turin, but this is only the beginning!"
+SRI_The_Milan_Uprising:0 "The Milan Uprising"
+SRI_The_Milan_Uprising_desc:0 "We must deliver the call to arms to our comrades in Milan. The largest city in Italy, securing it and the Po Valley will greatly strengthen our position."
+SRI_The_Genoa_Uprising:0 "The Genoa Uprising"
+SRI_The_Genoa_Uprising_desc:0 "We must deliver the call to arms to our comrades in Genoa. In doing so we will secure a major port and be poised to secure a large part of the fleet."
+SRI_The_Bologna_Uprising:0 "The Bologna Uprising"
+SRI_The_Bologna_Uprising_desc:0 "We must deliver the call to arms to our comrades in Bologna. Long a stronghold of socialism in Italy, Emilia-Romagna is a great region of industry that would serve our cause well."
+SRI_The_Livorno_Uprising:0 "The Livorno Uprising"
+SRI_The_Livorno_Uprising_desc:0 "We must deliver the call to arms to our comrades in Livorno. A region of long standing socialist traditions and the founding location of the Communist Party, taking it will open the path to Rome."
+SRI_Declaration_of_the_Republic:0 "Declare a Socialist Republic"
+SRI_Declaration_of_the_Republic_desc:0 "With the revolution in full swing it is time to establish a centralized authority under an official government: the Italian Socialist Federative Republic."
+SRI_Preparing_for_the_Long_Battle:0 "Preparing for the Long Battle"
+SRI_Preparing_for_the_Long_Battle_desc:0 "A revolution is no simple matter. We must be cautious and calculated now that the fronts are settling into a civil war. It will be a long battle, and there is much to be done to whip this army into fighting shape, but victory is in sight."
+
+#Civil War Economy Tree
+
+SRI_The_Revolutionary_Economy:0 "The Revolutionary Economy"
+SRI_The_Revolutionary_Economy_desc:0 ""
+SRI_Organize_Food_Redistribution:0 "Organize Food Redistribution"
+SRI_Organize_Food_Redistribution_desc:0 ""
+SRI_An_Army_Needs_Guns:0 "An Army Needs Guns"
+SRI_An_Army_Needs_Guns_desc:0 ""
+SRI_Reorganize_the_Factories:0 "Reorganize the Factories"
+SRI_Reorganize_the_Factories_desc:0 ""
+SRI_Emergency_War_Measures:0 "Emergency War Measures"
+SRI_Emergency_War_Measures_desc:0 ""
+SRI_Lenience_is_the_Key:0 "Lenience is the Key"
+SRI_Lenience_is_the_Key_desc:0 ""
+
+#Civil War Army Tree
+
+SRI_Organizing_the_Italian_Red_Army:0 "Organizing the Italian Red Army"
+SRI_Organizing_the_Italian_Red_Army_desc:0 "It is time we reform this so-called ''Red Army'' into a real fighting force. As it stands there is little centralization, with regional forces assuming their own command structures, sometimes overlapping with others. There is no way we can win this way, so authority must be established under a centralized command."
+SRI_Standardize_Formation_Structures:0 "Standardize Formation Structures"
+SRI_Standardize_Formation_Structures_desc:0 "Right now there is little consistency in structures, with many forces acting independently. Additionally, these formations are inconsistent in size and their actual combat readiness varies wildly. We must set about forming a consistent structure."
+SRI_Formalize_the_High_Command:0 "Formalize the High Command"
+SRI_Formalize_the_High_Command_desc:0 "As it stands there is little in the way of a centralized command, and this must be changed. The most experienced cadres must be placed into a formalized high command, where they can set about organizing a command chain."
+SRI_Establish_a_Logistics_Department:0 "Establish a Logistics Department"
+SRI_Establish_a_Logistics_Department_desc:0 "One should never misunderestimate the complications of logistics. If we cannot get supplies to our forces on a consistent basis then this whole revolution affair will be doomed. An army runs on its stomach, as they say."
+SRI_Establish_an_Intelligence_Department:0 "Establish an Intelligence Department"
+SRI_Establish_an_Intelligence_Department_desc:0 ""
+SRI_Establish_a_Policing_Department:0 "Establish a Policing Department"
+SRI_Establish_a_Policing_Department_desc:0 ""
+SRI_Establish_Officer_Elections:0 "Establish Officer Elections"
+SRI_Establish_Officer_Elections_desc:0 ""
+SRI_Establish_a_Political_Department:0 "Establish a Political Department"
+SRI_Establish_a_Political_Department_desc:0 ""
+SRI_Quell_Political_Idealism:0 "Quell Political Idealism"
+SRI_Quell_Political_Idealism_desc:0 ""
+SRI_Recruit_Sympathetic_Former_Officers:0 "Recruit Sympathetic Former Officers"
+SRI_Recruit_Sympathetic_Former_Officers_desc:0 ""
+SRI_Aid_from_INPROV:0 "Aid from INPROV"
+SRI_Aid_from_INPROV_desc:0 ""
+SRI_Request_Material_Aid:0 "Request Material Aid"
+SRI_Request_Material_Aid_desc:0 ""
+SRI_Request_Military_Advisors:0 "Request Military Advisors"
+SRI_Request_Military_Advisors_desc:0 ""
+
+#Civil War Popularity Tree
+
+SRI_The_Fight_for_the_People:0 "The Fight for the People"
+SRI_The_Fight_for_the_People_desc:0 ""
+SRI_Appeal_to_the_Peasantry:0 "Appeal to the Peasantry"
+SRI_Appeal_to_the_Peasantry_desc:0 ""
+SRI_Promises_for_the_Future:0 "Promises for the Future"
+SRI_Promises_for_the_Future_desc:0 ""
+SRI_Propaganda_of_the_Class_Struggle:0 "Propaganda of the Class Struggle"
+SRI_Propaganda_of_the_Class_Struggle_desc:0 ""
+SRI_Appeal_to_Nationalism:0 "Appeal to Nationalism"
+SRI_Appeal_to_Nationalism_desc:0 ""
+SRI_The_Internationale_Unites:0 "The Internationale Unites"
+SRI_The_Internationale_Unites_desc:0 ""
+
+### Ideas ###
+
+SRI_Italian_Civil_War_idea:0 "The Italian Revolution"
+SRI_Italian_Civil_War_idea_desc:0 "The time for Italy to join the world revolution has finally come! A long road towards victory lies ahead, but with will, strength and determination our enemies will be defeated!"
+SRI_The_Red_Army_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_idea_desc:0 "The so-called ''Italian Red Army'' is, as it stands, a disorganized but dedicated force of workers, peasants and defected soldiers. As more and more people rush to join our side, we must not assume our numbers will win the war alone. We must forge this Red Army into a force that can crush our enemies on the battlefield, whoever they may be."
+SRI_The_War_Economy_idea:0 "The War Economy"
+SRI_The_War_Economy_idea_desc:0 "A revolution is no easy business. Like the Bolsheviks and Spartacists before us, we must make sacrifices to survive amidst this civil war. Not all will be satisfied with the measures we must take, but victory will no doubt redeem any wrongs committed."
+SRI_A_Socialist_Vision_idea:0 "A Socialist Vision"
+SRI_A_Socialist_Vision_idea_desc:0 "This struggle is not merely one for the liberation of Italy, but for the liberation of the world! We must unite behind a common vision for socialism, for a proletarian society, and for the liberation of humanity. Avanti, avanti, la vittoria è nostra!"
+SRI_A_Socialist_Vision_2_idea:0 "A Socialist Vision"
+SRI_A_Socialist_Vision_2_idea_desc:0 "This struggle is not merely one for the liberation of Italy, but for the liberation of the world! We must unite behind a common vision for socialism, for a proletarian society, and for the liberation of humanity. Avanti, avanti, la vittoria è nostra!"
+SRI_A_Socialist_Vision_Nat_idea:0 "A Socialist Vision"
+SRI_A_Socialist_Vision_Nat_idea_desc:0 "This struggle is not merely one for the liberation of Italy, but for the liberation of the world! We must unite behind a common vision for socialism, for a proletarian society, and for the liberation of humanity. Avanti, avanti, la vittoria è nostra!"
+SRI_A_Socialist_Vision_Internat_idea:0 "A Socialist Vision"
+SRI_A_Socialist_Vision_Internat_idea_desc:0 "This struggle is not merely one for the liberation of Italy, but for the liberation of the world! We must unite behind a common vision for socialism, for a proletarian society, and for the liberation of humanity. Avanti, avanti, la vittoria è nostra!"
+SRI_Revolutionary_Fury_idea:0 "Revolutionary Fury"
+SRI_Revolutionary_Fury_idea_desc:0 "While we stand in conflict with the bourgeois idealists in Venice, our primary focus is directed against the reactionaries in the south. The Italian people are filled with fury against their oppressors in Rome and stand eager to vanquish them from this nation."
+
+SRI_The_Red_Army_2_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_2_idea_desc:0 "The so-called ''Italian Red Army'' is, as it stands, a disorganized but dedicated force of workers, peasants and defected soldiers. As more and more people rush to join our side, we must not assume our numbers will win the war alone. We must forge this Red Army into a force that can crush our enemies on the battlefield, whoever they may be."
+SRI_The_Red_Army_3_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_3_idea_desc:0 "The so-called ''Italian Red Army'' is, as it stands, a disorganized but dedicated force of workers, peasants and defected soldiers. As more and more people rush to join our side, we must not assume our numbers will win the war alone. We must forge this Red Army into a force that can crush our enemies on the battlefield, whoever they may be."
+SRI_The_Red_Army_4LOG_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_4LOG_idea_desc:0 "The so-called ''Italian Red Army'' is, as it stands, a disorganized but dedicated force of workers, peasants and defected soldiers. As more and more people rush to join our side, we must not assume our numbers will win the war alone. We must forge this Red Army into a force that can crush our enemies on the battlefield, whoever they may be."
+SRI_The_Red_Army_4POL_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_4POL_idea_desc:0 "The so-called ''Italian Red Army'' is, as it stands, a disorganized but dedicated force of workers, peasants and defected soldiers. As more and more people rush to join our side, we must not assume our numbers will win the war alone. We must forge this Red Army into a force that can crush our enemies on the battlefield, whoever they may be."
+SRI_The_Red_Army_5_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_5_idea_desc:0 "The so-called ''Italian Red Army'' is, as it stands, a disorganized but dedicated force of workers, peasants and defected soldiers. As more and more people rush to join our side, we must not assume our numbers will win the war alone. We must forge this Red Army into a force that can crush our enemies on the battlefield, whoever they may be."
+SRI_The_Red_Army_Elected_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_Elected_idea_desc:0 "After much reorganization the Italian Red Army can truly be regarded as a force to be reckoned with, though many battles still lie ahead and victory will be hard fought."
+SRI_The_Red_Army_Elected_2_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_Elected_2_idea_desc:0 "After much reorganization the Italian Red Army can truly be regarded as a force to be reckoned with, though many battles still lie ahead and victory will be hard fought."
+SRI_The_Red_Army_Unelected_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_Unelected_idea_desc:0 "After much reorganization the Italian Red Army can truly be regarded as a force to be reckoned with, though many battles still lie ahead and victory will be hard fought."
+SRI_The_Red_Army_Unelected_2_idea:0 "The Italian Red Army"
+SRI_The_Red_Army_Unelected_2_idea_desc:0 "After much reorganization the Italian Red Army can truly be regarded as a force to be reckoned with, though many battles still lie ahead and victory will be hard fought."
+ 
+### Flags ###
+
+### Tooltips ###
+
+SRI_turin_uprising_tt:0 "The uprising in §YTurin§! is merely a spark! The Italian workers await their liberation!"
+SRI_milan_uprising_tt:0 "Militant workers in §YMilan§! will rise to join our revolution!\n\nSome peasants in the countryside of §YLombardy§! will join them."
+SRI_genoa_uprising_tt:0 "Militant workers in §YGenoa§! will rise to join our revolution!\n\nWe will have to §Ract swiftly§! to prevent our opponents from seizing the fleet in §YLa Spezia§!."
+SRI_bologna_uprising_tt:0 "Militant workers in §YBologna§! will rise to join our revolution!\n\nWorkers in smaller nearby cities in the §YEmilia-Romagna§! region will join them."
+SRI_livorno_uprising_tt:0 "Militant workers in §YLivorno§! will rise to join our revolution!\n\nThey will seek to liberate the oppressed proletarians of §YTuscany§!."
+
+SRI_nationalist_tt:0 "§gThis will strengthen nationalist tendencies within the party and the populace, making it easier to build support for war in the future and setting the stage to chart our own course.§!"
+SRI_internationalist_tt:0 "§gThis will strengthen internationalist tendencies within the party and the populace, aligning us with the Communist International and INPROV.§!"
+SRI_army_notice_left_tt:0 "§RThis will set the stage for the creation of a democratized and politicized army after the war. Although you can later change courses, it will come at a significant cost.§!"
+SRI_army_notice_right_tt:0 "§RThis will set the stage for the creation of a professionalized and depoliticized army after the war. Although you can later change courses, it will come at a significant cost.§!"
+
+### Leaders ###

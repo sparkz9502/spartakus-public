@@ -1,0 +1,42 @@
+# Originally made for Equestria at War, Yard1, original concept by Agatha (TWR dev team)
+
+defined_text = { # Country
+	name = GetNewspaperHeader
+	text = {
+		trigger = {
+			tag = POL
+		}
+		localization_key = newspaper_header_pol
+	}
+	text = {
+		trigger = {
+			tag = USA
+		}
+		localization_key = newspaper_header_usa
+	}
+	text = {
+		trigger = {
+			tag = BUL
+		}
+		localization_key = newspaper_header_bul
+	}
+	text = {
+		trigger = {
+			OR = {
+				tag = GER
+				tag = BAV
+			}
+		}
+		localization_key = newspaper_header_ger
+	}
+	text = {
+		trigger = {
+			tag = SER
+		}
+		localization_key = newspaper_header_ser
+	}
+    #keep this one without triggers and at the end as a fallback
+	text = {
+		localization_key = newspaper_header_usa
+	}
+}

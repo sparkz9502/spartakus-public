@@ -1,0 +1,25 @@
+
+state={
+	id=977
+	name="STATE_977"
+
+	history={
+		owner = CNR
+		add_core_of = CNR
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4941 1 
+		}
+
+	}
+
+	provinces={
+		1181 4201 4941 7161 10766 10858 10930 12847 13640 13641 13642 13948 13978 13986 13988 14033 14666 14667 
+	}
+	manpower=1161200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

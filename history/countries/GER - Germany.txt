@@ -1,0 +1,277 @@
+﻿capital = 1264
+set_oob = "GER"
+set_naval_oob = "GER_naval"
+set_research_slots = 4
+set_convoys = 300
+set_stability = 0.3
+set_war_support = 0.35
+starting_train_buffer = 2
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_coun
+	trade_aut
+	economy_hyind
+	mobilization_2
+	
+	### National Spirits ###
+	GER_Civil_War_Recovery
+	GER_Rotfrontkampferbund
+	GER_Terrorism
+	GER_Peasant_Question
+	
+	### Ministers ###
+	GER_Karl_Liebknecht_hog_spa
+	GER_Clara_Zetkin_mwp_spa
+	GER_Walter_Ulbricht_for_bol
+	GER_Hermann_Duncker_eco_spa
+	GER_Hans_Kippenberger_sec_spa
+	GER_Georg_Ledebour_edu_ref
+	GER_Friedrich_Wehmer_agr_ref
+	GER_Hugo_Eberlein_tra_spa
+	GER_Ernst_Thaelmann_def_bol
+	GER_Ludwig_Renn_cos
+	GER_Albert_Schreiner_carm
+	GER_Hans_Paasche_cnav
+	GER_Walter_Kreiser_cair
+	GER_Magnus_Hirschfeld_theo
+}
+
+### Country Leaders ###
+recruit_character = GER_rosa_luxemburg
+
+### Field Marshals ###
+recruit_character = GER_ludwig_renn
+recruit_character = GER_ernst_thalmann
+
+### Generals ###
+recruit_character = GER_kurt_student
+recruit_character = GER_johannes_blaskowitz
+recruit_character = GER_ludwig_renn
+recruit_character = GER_kurt_hammersteinequord
+recruit_character = GER_ernst_thalmann
+recruit_character = GER_erich_manstein
+recruit_character = GER_ernst_volckheim
+recruit_character = GER_albert_schreiner
+recruit_character = GER_willi_budich
+recruit_character = GER_hans_beimler
+recruit_character = GER_erwin_witzleben
+recruit_character = GER_hans_marchwitza
+recruit_character = GER_max_hoelz
+recruit_character = GER_hans_kahle
+recruit_character = GER_walther_seydlitzkurzbach
+recruit_character = GER_wilhelm_zaisser
+recruit_character = GER_erich_wollenberg
+recruit_character = GER_heinrich_fomferra
+recruit_character = GER_richard_staimer
+recruit_character = GER_heinrich_rau
+recruit_character = GER_artur_konig
+recruit_character = GER_willy_leow
+recruit_character = GER_ernst_henning
+recruit_character = GER_edgar_andre
+recruit_character = GER_fritz_selbmann
+recruit_character = GER_ernst_schneller
+
+### Admirals ###
+recruit_character = GER_hans_paasche
+recruit_character = GER_karl_baier
+recruit_character = GER_karl_artelt
+recruit_character = GER_ernst_wollweber
+recruit_character = GER_otto_tost
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	electronic_mechanical_engineering = 1
+	radio = 1
+	fuel_silos = 1
+	synth_oil_experiments = 1
+	basic_train = 1
+
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	marines = 1
+	paratroopers = 1
+	motorised_infantry = 1
+	tech_support = 1
+	tech_recon = 1		
+	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_maintenance_company = 1
+	tech_military_police = 1
+	tech_logistics_company = 1
+	tech_signal_company = 1
+	gw_artillery = 1
+	interwar_antitank = 1
+	interwar_antiair = 1
+	
+	### Air ###
+	early_fighter = 1
+	fighter1 = 1
+	naval_bomber1 = 1
+	CAS1 = 1
+	early_bomber = 1
+	tactical_bomber1 = 1
+}
+### Tanks - NSB ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+		basic_light_tank_chassis = 1
+		basic_heavy_tank_chassis = 1
+		engine_tech_1 = 1
+	}
+}
+### Tanks - no NSB ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+		basic_light_tank = 1
+		basic_heavy_tank = 1
+	}
+}
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_ship_hull_heavy = 1
+		early_ship_hull_carrier = 1
+		pre_dreadnoughts = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		basic_torpedo = 1
+		improved_ship_torpedo_launcher = 1
+		basic_battery = 1
+		basic_light_battery = 1
+		basic_medium_battery = 1
+		basic_heavy_battery = 1
+		basic_secondary_battery = 1
+		improved_secondary_battery = 1
+		basic_depth_charges = 1
+		sonar = 1
+		basic_cruiser_armor_scheme = 1
+		basic_heavy_armor_scheme = 1
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		mtg_transport = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		basic_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		basic_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		basic_battleship = 1
+		early_battlecruiser = 1
+		transport = 1
+	}
+}
+
+### Politics ###
+
+complete_national_focus = GER_The_New_Year
+
+set_politics = {	
+	ruling_party = spartacist
+	last_election = "1930.11.9"
+	election_frequency = 36
+	elections_allowed = yes
+}
+
+set_popularities = {
+    bolshevist = 2
+    spartacist = 36
+    revolutionary_socialist = 1
+    reformist_socialist = 15
+    social_democrat = 1
+    social_liberal = 5
+    liberal_conservative = 12
+    social_conservative = 5
+    authoritarian_conservative = 4
+    right_wing_populist = 9
+    national_syndicalist = 4
+    national_corporatist = 6
+}
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_reformist_socialist
+
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_liberal_conservative
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist
+
+### Events ###
+
+country_event = { id = gerpol.1 days = 1 }
+country_event = { id = gerflv.1 days = 120 }
+
+### Diplomacy ###
+
+create_faction = INPROV
+add_to_faction = GER
+add_to_faction = AWR
+add_to_faction = SOV
+add_to_faction = HUN
+add_to_faction = PGA
+add_to_faction = MON
+add_to_faction = TAN
+add_to_faction = GLN
+#add_to_faction = SWE
+#add_to_faction = BUL
+
+add_opinion_modifier = { target = RHI modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = RHI modifier = SP_unrecognised_relations_trade }
+add_opinion_modifier = { target = WUR modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = WUR modifier = SP_unrecognised_relations_trade }
+add_opinion_modifier = { target = FRA modifier = SP_horrible_relations }
+add_opinion_modifier = { target = FRA modifier = SP_horrible_relations_trade }
+add_opinion_modifier = { target = ENG modifier = SP_horrible_relations }
+add_opinion_modifier = { target = ENG modifier = SP_horrible_relations_trade }
+add_opinion_modifier = { target = ITA modifier = SP_horrible_relations }
+add_opinion_modifier = { target = ITA modifier = SP_horrible_relations_trade }
+add_opinion_modifier = { target = JAP modifier = SP_horrible_relations }
+add_opinion_modifier = { target = JAP modifier = SP_horrible_relations_trade }
+add_opinion_modifier = { target = DEN modifier = SP_horrible_relations }
+add_opinion_modifier = { target = DEN modifier = SP_horrible_relations_trade }
+add_opinion_modifier = { target = SWE modifier = SP_friendly_relations }
+add_opinion_modifier = { target = SWE modifier = SP_friendly_relations_trade }
+add_opinion_modifier = { target = BUL modifier = SP_friendly_relations }
+add_opinion_modifier = { target = BUL modifier = SP_friendly_relations_trade }
+add_opinion_modifier = { target = SOV modifier = SP_great_relations }
+add_opinion_modifier = { target = SOV modifier = SP_great_relations_trade }
+add_opinion_modifier = { target = SPR modifier = SP_cool_relations }
+add_opinion_modifier = { target = SPR modifier = SP_cool_relations_trade }
+add_opinion_modifier = { target = USA modifier = SP_moderately_bad_relations }
+add_opinion_modifier = { target = USA modifier = SP_moderately_bad_relations }

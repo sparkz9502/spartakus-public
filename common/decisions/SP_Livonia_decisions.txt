@@ -1,0 +1,15 @@
+LIV_clique_influence = {
+
+	LIV_clique_explanation = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+        complete_effect = {
+			country_event = liv.3
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}

@@ -1,0 +1,74 @@
+﻿units = {
+	division = { #"13a Divisione GL 'Pesaro'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		} 
+		location = 967
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"14a Divisione GL 'Silvio Trentin'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		} 
+		location = 925
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"15a Divisione GL 'Ancona'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		} 
+		location = 925
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"16a Divisione GL 'Monte Grappa'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		} 
+		location = 6926
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"17a Divisione GL 'Piave'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		} 
+		location = 6926
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"18a Divisione GL 'Lazio'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		} 
+		location = 3885
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"19a Divisione GL 'Italia'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		} 
+		location = 6831
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"20a Divisione GL 'Repubblicano'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		} 
+		location = 13626
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+}	

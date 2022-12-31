@@ -1,0 +1,28 @@
+state={
+	id=1005
+	name="STATE_1005"
+	provinces={
+		7427 
+	}
+	state_category = enclave
+	resources={
+		rubber=6.000
+	}
+	history={
+		owner = ENG
+		add_core_of = MLY
+		add_core_of = NGS
+		victory_points = {
+			7427 1 
+		}
+		buildings = {
+			infrastructure = 2
+			7427 = {
+				naval_base = 1
+			}
+		}
+
+	}
+	manpower=228300
+	buildings_max_level_factor=1.000
+}

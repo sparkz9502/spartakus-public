@@ -1,0 +1,23 @@
+
+state={
+	id=512
+	name="STATE_512"
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+			11009 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		2169 5173 11009 12946 12952 13215 13216 13217 
+	}
+	manpower=28890
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

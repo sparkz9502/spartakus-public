@@ -1,0 +1,23 @@
+
+state={
+	id=1061
+	name="STATE_1061"
+
+	history={
+		owner = PAR
+		add_claim_by = BOL
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			13682 3 
+		}
+	}
+
+	provinces={
+		13245 13682 13686 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

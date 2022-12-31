@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+BUL_bolshevist_party:0 "BKP"
+BUL_bolshevist_party_long:0 "Bulgarian Communist Party (Bulgarska Komunisticheska Partiya)"
+BUL_spartacist_party:0 "BKP"
+BUL_spartacist_party_long:0 "Bulgarian Communist Party (Bulgarska Komunisticheska Partiya)"
+BUL_revolutionary_socialist_party:0 "BKP"
+BUL_revolutionary_socialist_party_long:0 "Bulgarian Communist Party (Bulgarska Komunisticheska Partiya)"
+BUL_reformist_socialist_party:0 "BKP" 
+BUL_reformist_socialist_party_long:0 "Bulgarian Communist Party (Bulgarska Komunisticheska Partiya)" 
+BUL_social_democrat_party:0 "BZNS"
+BUL_social_democrat_party_long:0 "Bulgarian Agrarian National Union (Boelgarski Zemedelski Naroden Sojoez)"
+BUL_social_liberal_party:0 "BRSDP(O)"
+BUL_social_liberal_party_long:0 "Bulgarian Social Democratic Workers' Party (United) (Balgarska Rabotnicheska Sotsialdemokraticheska Partiya (Obedinena))"
+BUL_liberal_conservative_party:0 "RDP"
+BUL_liberal_conservative_party_long:0 "Radical Democratic Party (Radikaldemokraticheska Partiya)"
+BUL_social_conservative_party:0 "DP"
+BUL_social_conservative_party_long:0 "Democratic Party (Demokraticheska Partiya)"
+BUL_authoritarian_conservative_party:0 "VMRO"
+BUL_authoritarian_conservative_party_long:0 "Internal Macedonian Revolutionary Organization (Vatreshna Makedonska Revolyutsionna Organizatsiya)"
+BUL_right_wing_populist_party:0 "VS"
+BUL_right_wing_populist_party_long:0 "Military Union (Voenen Sŭyuz)"
+BUL_national_syndicalist_party:0 "NS"
+BUL_national_syndicalist_party_long:0 "People's Alliance (Naroden Sgovor)"
+BUL_national_corporatist_party:0 "Zveno"
+BUL_national_corporatist_party_long:0 "Link (Zveno)"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

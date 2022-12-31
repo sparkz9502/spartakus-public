@@ -1,0 +1,35 @@
+
+state={
+	id=634
+	name="STATE_634"
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 1
+			1269 = {
+				naval_base = 2
+
+			}
+			7390 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			1269 1 
+		}
+		victory_points = {
+			4226 1 
+		}
+
+	}
+
+	provinces={
+		1042 1085 1269 1370 4252 4292 7390 7437 10291 10319 12265 
+	}
+	manpower=155000
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

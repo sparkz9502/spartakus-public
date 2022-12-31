@@ -1,0 +1,25 @@
+
+state={
+	id=1152
+	name="STATE_1152"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		victory_points = {
+			14501 3 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1969 4938 4972 12817 13214 14479 14498 14501 14504 14507 14516 14520 
+	}
+	manpower=4643300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

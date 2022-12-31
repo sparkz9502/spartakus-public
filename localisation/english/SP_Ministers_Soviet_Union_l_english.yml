@@ -1,0 +1,56 @@
+﻿l_english:
+
+### Head of Government ###
+SOV_Alexei_Rykov_hog_bol:0 "Alexei Rykov"
+SOV_Lev_Kamenev_hog_bol:0 "Lev Kamenev"
+SOV_Nikolai_Bukharin_hog_bol:0 "Nikolai Bukharin"
+SOV_Vyacheslav_Molotov_hog_bol:0 "Vyacheslav Molotov"
+SOV_Grigory_Zinoviev_hog_bol:0 "Grigory Zinoviev"
+SOV_Mikhail_Tomsky_hog_bol:0 "Mikhail Tomsky"
+
+### Minister w/o Portfolio ###
+SOV_Grigory_Zinoviev_mwp_bol:0 "Grigory Zinoviev"
+
+### Foreign Minister ###
+SOV_Maksim_Litvinov_for_bol:0 "Maksim Litvinov"
+SOV_Vyacheslav_Molotov_for_bol:0 "Vyacheslav Molotov"
+SOV_Georgy_Chicherin_for_bol:0 "Georgy Chicherin"
+SOV_Christian_Rakovsky_for_bol:0 "Christian Rakovsky"
+
+### Economy Minister ###
+SOV_Nikolai_Bukharin_eco_bol:0 "Nikolai Bukharin"
+
+### Security Minister ###
+SOV_Felix_Dzerzhinsky_sec_bol:0 "Felix Dzerzhinsky"
+SOV_Alexei_Rykov_sec_bol:0 "Alexei Rykov"
+
+### Education Minister ###
+SOV_Anatoly_Lunacharsky_edu_spa:0 "Anatoly Lunacharsky"
+
+### Agriculture Minister ###
+SOV_Andrei_Kolegayev_agr_rev:0 "Andrei Kolegayev"
+
+### Transport Minister ###
+SOV_Janis_Rudzutaks_tra_bol:0 "Jānis Rudzutaks"
+SOV_Moisei_Rukhimovich_tra_bol:0 "Moisei Rukhimovich"
+SOV_Andrey_Andreyev_tra_bol:0 "Andrey Andreyev"
+
+### Defence Minister ###
+SOV_Mikhail_Frunze_def_bol:0 "Mikhail Frunze"
+
+### Chief of Staff ###
+SOV_Mikhail_Frunze_cos:0 "Mikhail Frunze"
+SOV_Mikhail_Tukhachevsky_cos:0 "Mikhail Tukhachevsky"
+
+### Chief of Army ###
+SOV_Mikhail_Frunze_carm:0 "Mikhail Frunze"
+SOV_Mikhail_Tukhachevsky_carm:0 "Mikhail Tukhachevsky"
+
+### Chief of Navy ###
+SOV_Vladimir_Orlov_cnav:0 "Vladimir Orlov"
+
+### Chief of Air Force ###
+SOV_Yakov_Alksnis_cair:0 "Yakov Alksnis"
+
+### Theorist ###
+SOV_David_Riazanov_theo:0 "David Riazanov"

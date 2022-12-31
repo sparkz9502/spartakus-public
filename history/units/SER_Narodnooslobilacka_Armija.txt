@@ -1,0 +1,97 @@
+﻿division_template = {
+	name = "Proleterska Brigada"	# Infantry Division	
+	division_names_group = SER_PROLEINF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = { 
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## NOA ########
+	division = {
+		name = "Šabačka Brigada"  			
+		location = 3609
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2	
+		start_equipment_factor = 1
+	}
+
+    division = {
+		name = "1a Beogradska Sindikalna"  			
+		location = 11586
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+
+    division = {
+		name = "2a Beogradska Sindikalna"  			
+		location = 11586
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+	
+	division = {
+		name = "Kragujevačka Opštenarodna Brigada"  			
+		location = 6998
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+
+	division = {
+		name = "Albanska Teritorijalna Odbrana"  			
+		location = 9874
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}	
+
+	division = {
+		name = "Makedonska Brigada"  			
+		location = 3882
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Seljačka Zbirna Brigada"  			
+		location = 3939
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Radnička Oslobodilačka Brigada"  			
+		location = 11887
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Čiča Jankova"  			
+		location = 3922
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Hrvatska Oslobodilačka Trupa"  			
+		location = 11586
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+	}
+}

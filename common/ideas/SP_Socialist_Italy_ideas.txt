@@ -1,0 +1,222 @@
+### Socialist Italy Ideas ###
+ideas = {
+
+    country = {
+	
+		#Starting Ideas
+	
+		SRI_Italian_Civil_War_idea = {
+			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.20
+				surrender_limit = 0.15
+			}
+			picture = SRI_Italian_Revolution
+		}
+		
+		SRI_The_Red_Army_idea = {
+			modifier = {
+				conscription_factor = 0.15
+				army_org_factor = -0.20
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_War_Economy_idea = {
+			modifier = {
+				industrial_capacity_factory = 0.20
+				industrial_capacity_dockyard = -0.30
+				production_speed_buildings_factor = -0.50
+				consumer_goods_factor = 0.10
+				MONTHLY_POPULATION = -0.10
+				production_lack_of_resource_penalty_factor = -0.20
+			}
+			picture = The_War_Economy
+		}
+		
+		SRI_A_Socialist_Vision_idea = {
+			modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.05
+			}
+			picture = SRI_A_Socialist_Vision
+		}
+		
+		SRI_Revolutionary_Fury_idea = {
+			modifier = {
+				surrender_limit = 1.0
+				army_org_factor = 0.05
+				planning_speed = 0.10
+				army_morale_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = ITA
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = ILN
+				attack_bonus_against = 0.15
+			}
+			targeted_modifier = {
+				tag = ITA
+				defense_bonus_against = 0.05
+			}
+			targeted_modifier = {
+				tag = ILN
+				defense_bonus_against = 0.05
+			}
+			picture = SRI_Revolutionary_Fury
+		}
+		
+		#Civil War Focus Ideas
+		
+		SRI_The_Red_Army_2_idea = {
+			modifier = {
+				conscription_factor = 0.20
+				army_org_factor = -0.15
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_3_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.10
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_4LOG_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.10
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+				supply_consumption_factor = -0.05
+				attrition = -0.1
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_4POL_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.10
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+				org_loss_when_moving = -0.1
+				resistance_growth = -0.1
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_5_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.10
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+				supply_consumption_factor = -0.05
+				attrition = -0.1
+				org_loss_when_moving = -0.1
+				resistance_growth = -0.1
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_Elected_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.10
+				army_morale_factor = 0.10
+				training_time_factor = -0.10
+				supply_consumption_factor = -0.05
+				attrition = -0.1
+				org_loss_when_moving = -0.1
+				resistance_growth = -0.1
+				army_core_defence_factor = 0.05
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_Elected_2_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.10
+				army_morale_factor = 0.15
+				training_time_factor = -0.10
+				supply_consumption_factor = -0.05
+				attrition = -0.1
+				org_loss_when_moving = -0.1
+				resistance_growth = -0.1
+				army_core_defence_factor = 0.1
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_Unelected_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_org_factor = -0.05
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+				supply_consumption_factor = -0.05
+				attrition = -0.1
+				org_loss_when_moving = -0.1
+				resistance_growth = -0.1
+				planning_speed = 0.05
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_The_Red_Army_Unelected_2_idea = {
+			modifier = {
+				conscription_factor = 0.25
+				army_morale_factor = 0.05
+				training_time_factor = -0.10
+				supply_consumption_factor = -0.05
+				attrition = -0.1
+				org_loss_when_moving = -0.1
+				resistance_growth = -0.1
+				planning_speed = 0.05
+				experience_gain_army_factor = 0.1
+			}
+			picture = SRI_Italian_Red_Army
+		}
+		
+		SRI_A_Socialist_Vision_2_idea = {
+			modifier = {
+				stability_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+			picture = SRI_A_Socialist_Vision
+		}
+		
+		SRI_A_Socialist_Vision_Nat_idea = {
+			modifier = {
+				stability_factor = 0.1
+				war_support_factor = 0.1
+				industrial_capacity_factory = 0.1
+			}
+			picture = SRI_A_Socialist_Vision
+		}
+		
+		SRI_A_Socialist_Vision_Internat_idea = {
+			modifier = {
+				stability_factor = 0.1
+				political_power_gain = 0.05
+				war_support_factor = 0.05
+				industrial_capacity_factory = 0.1
+			}
+			picture = SRI_A_Socialist_Vision
+		}
+		
+    }
+	
+}

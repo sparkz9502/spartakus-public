@@ -1,0 +1,874 @@
+
+# Nationalism
+ALB_decisions_nationalism = {
+
+	ALB_dec_agitate_epirus = { 
+		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				controls_state = 766
+			}
+		}
+        available = {
+			NOT = {
+				controls_state = 766
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = ALB_decisions_epirus
+			hidden_effect = {
+			set_country_flag = ALB_epirus
+			}
+		}
+	}
+
+	ALB_dec_agitate_kosovo = { 
+		icon = GFX_decision_generic_nationalism
+		visible = {
+			NOT = {
+				controls_state = 765
+			}
+		}
+        available = {
+			NOT = {
+				controls_state = 765
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = ALB_decisions_kosovo
+			hidden_effect = {
+			set_country_flag = ALB_kosovo
+			}
+		}
+	}
+
+	ALB_dec_rename_epirus = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 766
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			766 = {
+			set_state_name = "Gjirokastër"
+			}
+		}
+	}
+
+	ALB_dec_rename_dibar = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 1173
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			1173 = {
+			set_state_name = "Dibër"
+			}
+		}
+	}
+
+	ALB_dec_rename_skopje = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 1176
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			1176 = {
+				set_state_name = "Shkup"
+			}
+			set_province_name = {
+				id = 3882
+				name = "Shkupi"
+			}
+
+		}
+	}
+
+	ALB_dec_rename_metohija = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 1172
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			1172 = {
+			set_state_name = "Dukagjini"
+			}
+		}
+	}
+
+	ALB_dec_rename_ulcinj = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 1174
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			1174 = {
+			set_state_name = "Ulqini"
+			}
+		}
+	}
+}
+
+# Epirus Border War
+ALB_decisions_epirus = {
+
+	ALB_dec_epirus_rally = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+		days_remove = 15
+		days_re_enable = 15
+        cost = 25
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 2 } 
+		}
+	}
+
+	ALB_dec_epirus_agitators = { 
+		icon = GFX_decision_generic_political_discourse
+        available = {
+        }
+		days_remove = 20
+		days_re_enable = 20
+		custom_cost_trigger = {
+			has_army_experience  > 10
+		}
+		custom_cost_text = ALB_dec_cost_xp_10
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 5 } 
+		}
+	}
+
+	ALB_dec_epirus_pamphlets_1 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_5	
+				check_variable = { ALB.epirus_conflict > 5 }
+			}
+        }
+        cost = 50
+        complete_effect = {
+			multiply_variable = { ALB.epirus_conflict = 1.2 } 
+			hidden_effect = { 
+				set_country_flag = ALB_pamphlets_1 
+			}
+		}
+	}
+
+	ALB_dec_epirus_pamphlets_2 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_15	
+				check_variable = { ALB.epirus_conflict > 15 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = ALB_pamphlets_1
+			}
+		}
+        cost = 70
+        complete_effect = {
+			multiply_variable = { ALB.epirus_conflict = 1.3 } 
+			hidden_effect = { 
+				set_country_flag = ALB_pamphlets_2 
+			}
+		}
+	}
+
+	ALB_dec_epirus_pamphlets_3 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_25	
+				check_variable = { ALB.epirus_conflict > 25 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = ALB_pamphlets_2
+			}
+		}
+        cost = 90
+        complete_effect = {
+			multiply_variable = { ALB.epirus_conflict = 1.4 } 
+		}
+	}
+
+	ALB_dec_epirus_weapons = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_20
+				check_variable = { ALB.epirus_conflict > 20 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 100
+				convoy > 2
+			}
+		}
+		custom_cost_text = ALB_dec_cost_infantry_100
+
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 5 } 
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -2
+				}
+			}
+		}
+	}
+
+	ALB_dec_epirus_officers	 = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_30
+				check_variable = { ALB.epirus_conflict > 30 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_manpower > 10
+			has_army_experience  > 15
+		}
+		custom_cost_text = ALB_dec_cost_mpxp_1015
+
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 7 } 
+			hidden_effect = {
+				army_experience = -15
+				add_manpower = -10
+			}
+		}
+	}
+
+	ALB_dec_epirus_troops = { 
+		icon = GFX_decision_infiltrate_state
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_40
+				check_variable = { ALB.epirus_conflict > 40 }
+			}
+        }
+		days_remove = 60
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			has_manpower > 100
+			has_army_experience  > 25
+		}
+		custom_cost_text = ALB_dec_cost_mpxp_10025
+
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = 10 } 
+			hidden_effect = {
+				army_experience = -25
+				add_manpower = -100
+			}
+		}
+	}
+
+	ALB_dec_greek_conference = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_85
+				check_variable = { ALB.epirus_conflict > 85 }
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_to_variable = { ALB.epirus_conflict = -5 } 
+		}
+	}
+
+	ALB_dec_greek_war = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_100	
+				check_variable = { ALB.epirus_conflict > 100 }
+			}
+        }
+        cost = 150
+        complete_effect = {
+			declare_war_on = {
+				target = GRE
+				type = take_core_state
+			}
+		}
+	}
+}
+
+# Kosovo Border War
+ALB_decisions_kosovo = {
+
+	ALB_dec_kosovo_rally = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+		days_remove = 15
+		days_re_enable = 15
+        cost = 25
+        complete_effect = {
+			add_to_variable = { ALB.kosovo_conflict = 2 } 
+		}
+	}
+
+	ALB_dec_kosovo_agitators = { 
+		icon = GFX_decision_generic_political_discourse
+        available = {
+        }
+		days_remove = 20
+		days_re_enable = 20
+		custom_cost_trigger = {
+			has_army_experience  > 10
+		}
+		custom_cost_text = ALB_dec_cost_xp_10
+        complete_effect = {
+			add_to_variable = { ALB.kosovo_conflict = 5 } 
+		}
+	}
+
+	ALB_dec_kosovo_pamphlets_1 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_5	
+				check_variable = { ALB.kosovo_conflict > 5 }
+			}
+        }
+        cost = 50
+        complete_effect = {
+			multiply_variable = { ALB.kosovo_conflict = 1.2 } 
+			hidden_effect = { 
+				set_country_flag = ALB_pamphlets_1 
+			}
+		}
+	}
+
+	ALB_dec_kosovo_pamphlets_2 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_15	
+				check_variable = { ALB.kosovo_conflict > 15 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = ALB_pamphlets_1
+			}
+		}
+        cost = 70
+        complete_effect = {
+			multiply_variable = { ALB.kosovo_conflict = 1.3 } 
+			hidden_effect = { 
+				set_country_flag = ALB_pamphlets_2 
+			}
+		}
+	}
+
+	ALB_dec_kosovo_pamphlets_3 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_25	
+				check_variable = { ALB.kosovo_conflict > 25 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = ALB_pamphlets_2
+			}
+		}
+        cost = 90
+        complete_effect = {
+			multiply_variable = { ALB.kosovo_conflict = 1.4 } 
+		}
+	}
+
+	ALB_dec_kosovo_weapons = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_20
+				check_variable = { ALB.kosovo_conflict > 20 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 100
+				convoy > 2
+			}
+		}
+		custom_cost_text = ALB_dec_cost_infantry_100
+
+        complete_effect = {
+			add_to_variable = { ALB.kosovo_conflict = 5 } 
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+				add_equipment_to_stockpile = {
+					type = convoy
+					amount = -2
+				}
+			}
+		}
+	}
+
+	ALB_dec_kosovo_officers	 = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_30
+				check_variable = { ALB.kosovo_conflict > 30 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_manpower > 10
+			has_army_experience  > 15
+		}
+		custom_cost_text = ALB_dec_cost_mpxp_1015
+
+        complete_effect = {
+			add_to_variable = { ALB.kosovo_conflict = 7 } 
+			hidden_effect = {
+				army_experience = -15
+				add_manpower = -10
+			}
+		}
+	}
+
+	ALB_dec_kosovo_troops = { 
+		icon = GFX_decision_infiltrate_state
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_40
+				check_variable = { ALB.kosovo_conflict > 40 }
+			}
+        }
+		days_remove = 60
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			has_manpower > 100
+			has_army_experience  > 25
+		}
+		custom_cost_text = ALB_dec_cost_mpxp_10025
+
+        complete_effect = {
+			add_to_variable = { ALB.kosovo_conflict = 10 } 
+			hidden_effect = {
+				army_experience = -25
+				add_manpower = -100
+			}
+		}
+	}
+
+	ALB_dec_kosovo_conference = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_85
+				check_variable = { ALB.kosovo_conflict > 85 }
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_to_variable = { ALB.kosovo_conflict = -5 } 
+		}
+	}
+
+	ALB_dec_kosovo_war = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_tension_100	
+				check_variable = { ALB.kosovo_conflict > 100 }
+			}
+        }
+        cost = 150
+        complete_effect = {
+			declare_war_on = {
+				target = GRE
+				type = take_core_state
+			}
+		}
+	}
+}
+
+# Foreign Investment
+ALB_decisions_investment = {
+
+	ALB_dec_grant_brit_charter = { 
+		icon = GFX_decision_generic_decision
+        available = {
+				check_variable = {
+					var = ALB.british_influence
+					value = 10
+					compare = less_than
+				}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_italian_monopoly }
+		}
+		days_remove = 60
+		days_re_enable = 60
+        cost = 25
+        complete_effect = {
+			add_to_variable = { ALB.british_influence = 1 } 
+		}
+	}
+
+	ALB_dec_brit_building_slots = { 
+		icon = GFX_decision_generic_construction
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_brit_influence_2
+				check_variable = {
+					var = ALB.british_influence
+					value = 2
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_italian_monopoly }
+		}
+		days_remove = 100
+		days_re_enable = 100
+        cost = 50
+        complete_effect = {
+			add_to_variable = { ALB.british_influence = 1 } 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						size < 1
+					} 
+				}	
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+
+	ALB_dec_brit_factory = { 
+		icon = GFX_decision_generic_factory
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_brit_influence_5
+				check_variable = {
+					var = ALB.british_influence
+					value = 5
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_italian_monopoly }
+		}
+		days_remove = 100
+		days_re_enable = 100
+        cost = 70
+        complete_effect = {
+			add_to_variable = { ALB.british_influence = 2 } 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+					}  
+				}	
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	ALB_dec_grant_italian_charter = { 
+		icon = GFX_decision_generic_decision
+        available = {
+				check_variable = {
+					var = ALB.italian_influence
+					value = 10
+					compare = less_than
+				}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_british_monopoly }
+		}
+		days_remove = 60
+		days_re_enable = 60
+        cost = 25
+        complete_effect = {
+			add_to_variable = { ALB.italian_influence = 1 } 
+		}
+	}
+
+	ALB_dec_italian_railways = { 
+		icon = GFX_decision_generic_construction
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_italy_influence_2
+				check_variable = {
+					var = ALB.italian_influence
+					value = 2
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_british_monopoly }
+		}
+		days_remove = 100
+		days_re_enable = 100
+        cost = 50
+        complete_effect = {
+			add_to_variable = { ALB.italian_influence = 1 } 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					} 
+				}	
+				
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	ALB_dec_italian_factories = { 
+		icon = GFX_decision_generic_factory
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_italy_influence_5
+				check_variable = {
+					var = ALB.italian_influence
+					value = 5
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_british_monopoly }
+		}
+		days_remove = 100
+		days_re_enable = 100
+        cost = 70
+        complete_effect = {
+			add_to_variable = { ALB.italian_influence = 2 } 
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+					} 
+				}	
+				
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	ALB_dec_italian_dockyard = { 
+		icon = GFX_decision_generic_anchor
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_italy_influence_7
+				check_variable = {
+					var = ALB.italian_influence
+					value = 7
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_british_monopoly }
+		}
+		days_remove = 100
+		days_re_enable = 100
+        cost = 70
+        complete_effect = {
+			add_to_variable = { ALB.italian_influence = 1 } 
+			random_owned_controlled_state = {
+				limit = {
+					is_coastal = yes
+					free_building_slots = {
+						building = dockyard
+						size > 0
+					} 
+				}	
+				
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	ALB_dec_italian_monopoly = { 
+		icon = GFX_decision_ger_mefo_bills
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_italy_influence_10
+				check_variable = {
+					var = ALB.italian_influence
+					value = 10
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_british_monopoly }
+		}
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			custom_effect_tooltip = alb_tt_italian_monopoly_effect
+			set_country_flag = ALB_italian_monopoly
+			add_stability = -0.05
+		}
+	}	
+
+	ALB_dec_italian_expertise = { 
+		icon = GFX_decision_generic_research
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = alb_tt_italian_monopoly	
+				has_country_flag = ALB_italian_monopoly
+			}
+        }
+		visible = {
+			NOT = { has_country_flag = ALB_british_monopoly }
+		}
+		days_remove = 100
+		days_re_enable = 150
+        cost = 65
+        modifier = {
+			production_speed_buildings_factor = 0.05
+			industrial_capacity_factory = 0.05
+			production_factory_efficiency_gain_factor = 0.05
+		}
+	}
+}
+
+# Foreign Attaches
+ALB_decisions_attache = {
+
+	ALB_dec_training = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+        }
+		days_remove = 60
+		days_re_enable = 60
+        cost = 25
+        complete_effect = {
+			army_experience = 5
+		}
+	}
+
+	ALB_dec_exercises = { 
+		icon = GFX_decision_generic_operation
+        available = {
+        }
+		days_remove = 100
+		days_re_enable = 100
+        cost = 50
+        modifier = {
+			experience_gain_army = 0.2
+		}
+	}
+
+	ALB_dec_train_officers = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+        }
+		days_remove = 60
+		days_re_enable = 60
+        cost = 50
+        complete_effect = {
+			add_command_power = 25
+		}
+	}
+
+	ALB_dec_buy_planes = { 
+		icon = GFX_decision_generic_air
+        available = {
+        }
+		days_remove = 100
+        cost = 80
+		fire_only_once = yes
+		modifier = {
+			political_power_gain = -0.25
+			consumer_goods_factor = 0.1
+		}
+        complete_effect = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment
+				amount = 30
+				producer = ITA
+			}
+
+		}
+	}
+}

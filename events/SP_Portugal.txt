@@ -1,0 +1,649 @@
+﻿###########################
+# Portugal Republic Events
+###########################
+
+add_namespace = por
+
+# Intro Event
+country_event = {
+	id = por.1
+	title = por.1.t
+	desc = por.1.d
+	picture = GFX_portugalflag
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = por.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+# Civil War
+
+country_event = {
+	id = por.2
+	title = por.2.t
+	desc = por.2.d
+	picture = GFX_report_event_british_artillery
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = POR
+		date > 1932.1.18
+		has_war = no
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+
+	option = {
+		name = por.2.a
+		add_manpower = -20
+		hidden_effect = {
+			PRM = {
+				country_event = { days = 1 id = prm.2 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = por.3
+	title = por.3.t
+	desc = por.3.d
+	picture = GFX_report_event_french_resistance_02
+
+	is_triggered_only = yes
+
+	option = {
+		name = por.3.a
+		set_country_flag = POR_civil_war_check
+		custom_effect_tooltip = POR_marines_tt
+		declare_war_on = {
+		target = PRM
+		type = annex_everything 
+		}
+		hidden_effect = {
+			load_oob = POR_marines
+			PRM = {
+				country_event = { days = 1 id = prm.3 }
+			}
+		}
+		set_global_flag = show_major_events_gui
+		set_global_flag = portuguesecivilwar_major_event
+	}
+}
+
+country_event = { # End of the Civil War
+	id = por.4
+	title = por.4.t
+	desc = por.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = por.4.a
+
+		add_political_power = 100
+		remove_ideas = {
+			POR_divided_country
+			POR_revolution
+		}
+		add_ideas = POR_recovering_civil_war
+		delete_unit_template_and_units = { division_template = "Brigada Republicana" }
+		hidden_effect = {
+			POR = {
+				country_event = { days = 10 id = por.5 }
+				country_event = { days = 10 id = por.15 }
+			}
+		}
+	}
+}
+
+#Political
+
+country_event = { # The Collapse of the U.E.R.
+	id = por.5
+	title = por.5.t
+	desc = por.5.d
+	picture = GFX_ITA_crowd
+
+	is_triggered_only = yes
+
+	option = {
+		name = por.5.a
+		add_political_power = -25
+		SP_clear_coalition_effect = yes
+		set_party_name = { 
+			ideology = bolshevist
+			long_name = POR_bolshevist_party_uerded_long
+			name = POR_bolshevist_party_uerded
+		}
+		set_party_name = { 
+			ideology = spartacist
+			long_name = POR_spartacist_party_uerded_long
+			name = POR_spartacist_party_uerded
+		}
+		set_party_name = { 
+			ideology = revolutionary_socialist
+			long_name = POR_revolutionary_socialist_party_uerded_long
+			name = POR_revolutionary_socialist_party_uerded
+		}
+		set_party_name = { 
+			ideology = reformist_socialist
+			long_name = POR_reformist_socialist_party_uerded_long
+			name = POR_reformist_socialist_party_uerded
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = {
+	id = por.15
+	title = por.15.t
+	desc = por.15.d
+	picture = GFX_report_event_french_resistance_02
+
+	is_triggered_only = yes
+
+	option = {
+		name = por.15.a
+		custom_effect_tooltip = POR_navy_tt
+		delete_unit_template_and_units = { division_template = "Fuzileiros Navais" }
+		hidden_effect = {
+			load_oob = POR_naval
+			PRM = { country_event = { id = prm.6 } }
+		}
+	}
+}
+
+#Communist Events
+
+country_event = { # Deploying Police
+	id = por.14
+	title = por.14.t
+	desc = por.14.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.14.a
+		custom_effect_tooltip = POR_deploy_perm_tt
+		set_country_flag = POR_deployed_police_perm
+		add_political_power = -100
+		add_ideas = POR_police_north
+	}
+	
+	option = {
+		name = por.14.b
+		custom_effect_tooltip = POR_deploy_temp_tt
+		set_country_flag = POR_deployed_police_temp
+		add_political_power = -25
+		add_timed_idea = { idea = POR_police_north days = 160 }
+	}
+}
+
+#Anarcho Events
+
+country_event = { # Mobilize against rebels
+	id = por.161
+	title = por.161.t
+	desc = por.161.d
+	picture = GFX_report_event_china_infiltration
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.161.a
+		#custom_effect_tooltip = POR_deploy_perm_tt
+		#set_country_flag = POR_deployed_police_perm
+		add_political_power = -100
+		add_timed_idea = { idea = POR_mobilize_north_extra days = 360 }
+	}
+	
+	option = {
+		name = por.161.b
+		#custom_effect_tooltip = POR_deploy_temp_tt
+		#set_country_flag = POR_deployed_police_temp
+		add_political_power = -25
+		add_timed_idea = { idea = POR_mobilize_north days = 160 }
+	}
+}
+
+#Lib Events
+
+country_event = { # Negotiate
+	id = por.101
+	title = por.101.t
+	desc = por.101.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.101.a
+		set_country_flag = {
+			flag = POR_NEG_YES
+			value = 0
+		}
+		country_event = {
+			id = por.102
+			days = 3
+		}
+	}
+}
+
+country_event = { # Aristocratic officers
+	id = por.102
+	title = por.102.t
+	desc = por.102.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.102.a
+		add_ideas = POR_ari_army
+		country_event = {
+			id = por.103
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = 1
+		}
+	}
+
+	option = {
+		name = por.102.b
+		country_event = {
+			id = por.103
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = -1
+		}
+	}
+}
+
+country_event = { # Allow right
+	id = por.103
+	title = por.103.t
+	desc = por.103.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.103.a
+		add_stability = -0.05
+		remove_ban_social_conservative = YES
+		remove_ban_authoritarian_conservative = YES
+		remove_ban_right_wing_populist = YES
+		remove_ban_national_syndicalist = YES
+		remove_ban_national_corporatist = YES
+		add_popularity {
+			ideology = social_conservative popularity = 0.08
+			ideology = authoritarian_conservative popularity = 0.04
+			ideology = right_wing_populist popularity = 0.06
+		}
+		country_event = {
+			id = por.104
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = 1
+		}
+	}
+
+	option = {
+		name = por.103.b
+		country_event = {
+			id = por.104
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = -1
+		}
+	}
+}
+
+country_event = { # Protect landed
+	id = por.104
+	title = por.104.t
+	desc = por.104.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.104.a
+		add_stability = -0.10
+		add_political_power = -100
+		country_event = {
+			id = por.105
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = 1
+		}
+	}
+
+	option = {
+		name = por.104.b
+		country_event = {
+			id = por.105
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = -1
+		}
+	}
+}
+
+country_event = { # Allow king
+	id = por.105
+	title = por.105.t
+	desc = por.105.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.105.a
+		add_political_power = -50
+		add_ideas = POR_king_stays_extra
+		country_event = {
+			id = por.106
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = 2
+		}
+	}
+
+	option = {
+		name = por.105.b
+		add_ideas = POR_king_stays
+		country_event = {
+			id = por.106
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = 1
+		}
+	}
+
+	option = {
+		name = por.105.c
+		country_event = {
+			id = por.106
+			days = 3
+		}
+		modify_country_flag = {
+			flag = POR_NEG_YES
+			value = -100
+		}
+	}
+}
+
+country_event = { #res
+	id = por.106
+	is_triggered_only = yes
+	hidden = yes
+
+	immediate = {
+		if = {
+			limit = {
+				has_country_flag = {
+					flag = POR_NEG_YES
+					value > 1
+				}
+			}
+			country_event = por.107
+		} else = {
+			country_event = por.108
+		}
+	}
+}
+
+country_event = { # W
+	id = por.107
+	title = por.107.t
+	desc = por.107.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.107.a
+		add_stability = 0.20
+		add_political_power = 100
+	}
+}
+
+country_event = { # L
+	id = por.108
+	title = por.108.t
+	desc = por.108.d
+	picture = GFX_
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.108.a
+		add_stability = -0.05
+		remove_ideas = {
+			POR_ari_army
+			POR_king_stays
+			POR_king_stays_extra
+		}
+	}
+}
+
+#Food Shortages Event Chain
+
+news_event = { #Light Food Shortages
+	id = por.30
+	title = por.30.t
+	desc = por.30.d
+	picture = GFX_news_event_ger_civil_war
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.30.a
+		add_manpower = -500
+		add_stability = -0.025
+	}
+}
+
+news_event = { #Escalating Food Shortages
+	id = por.31
+	title = por.31.t
+	desc = por.31.d
+	picture = GFX_news_event_gathering_protest
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.31.a
+		add_manpower = -1000
+		add_stability = -0.05
+		add_war_support = -0.025
+	}
+}
+
+news_event = { #Major Food Shortages
+	id = por.32
+	title = por.32.t
+	desc = por.32.d
+	picture = GFX_news_event_generic_riot
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.32.a
+		add_manpower = -2000
+		add_stability = -0.10
+		add_war_support = -0.05
+	}
+}
+
+# Civil War Recovery Events
+
+country_event = { #Agriculture Recovery
+	id = por.40
+	title = por.40.t
+	desc = por.40.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.40.a
+		add_political_power = 25
+		set_country_flag = POR_wheat_industry
+	}
+	option = {
+		name = por.40.b
+		add_political_power = 25
+		set_country_flag = POR_wine_industry
+	}
+}
+
+country_event = { #Rationing Recovev
+	id = por.41
+	title = por.41.t
+	desc = por.41.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.41.a
+		add_political_power = 25
+		set_country_flag = POR_end_rationing
+	}
+	option = {
+		name = por.41.b
+		add_political_power = 25
+		set_country_flag = POR_extend_rationing
+	}
+}
+
+country_event = { #Addressing the Economy
+	id = por.42
+	title = por.42.t
+	desc = por.42.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.42.a
+		add_political_power = 25
+		set_country_flag = POR_female_workforce_expansion
+	}
+	option = {
+		name = por.42.b
+		add_political_power = 25
+		set_country_flag = POR_militias_to_work
+	}
+}
+
+country_event = { #Restoring Electricity
+	id = por.43
+	title = por.43.t
+	desc = por.43.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.43.a
+		add_political_power = 25
+		set_country_flag = POR_santa_luzia_dam
+	}
+	option = {
+		name = por.43.b
+		add_political_power = 25
+		set_country_flag = POR_tejo_power_plant
+	}
+}
+
+country_event = { #Expanding Power Plant
+	id = por.44
+	title = por.44.t
+	desc = por.44.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.44.a
+		add_political_power = 50
+		112 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+	}
+}
+
+country_event = { #Constructing Dam
+	id = por.45
+	title = por.45.t
+	desc = por.45.d
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = por.45.a
+		add_stability = 0.05
+		181 = {
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = industrial_complex
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+}

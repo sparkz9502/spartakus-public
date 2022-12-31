@@ -1,0 +1,28 @@
+﻿l_english:
+
+### Parties ###
+
+CHL_bolshevist_party:0 "PCCh"
+CHL_bolshevist_party_long:0 "Communist Party of Chile (Partido Comunista de Chile)"
+CHL_spartacist_party:0 "PCCh"
+CHL_spartacist_party_long:0 "Communist Party of Chile (Partido Comunista de Chile)"
+CHL_revolutionary_socialist_party:0 "NAP"
+CHL_revolutionary_socialist_party_long:0 "New Public Action (Nueva Acción Pública)"
+CHL_reformist_socialist_party:0 "PRS"
+CHL_reformist_socialist_party_long:0 "Socialist Radical Party (Partido Radical Socialista)"
+CHL_social_democrat_party:0 "PD"
+CHL_social_democrat_party_long:0 "Democrat Party (Partido Demócrata)"
+CHL_social_liberal_party:0 "PR"
+CHL_social_liberal_party_long:0 "Radical Party (Partido Radical)"
+CHL_liberal_conservative_party:0 "PL"
+CHL_liberal_conservative_party_long:0 "Liberal Party (Partido Liberal)"
+CHL_social_conservative_party:0 "PCon"
+CHL_social_conservative_party_long:0 "Conservative Party (Partido Conservador)"
+CHL_authoritarian_conservative_party:0 "FAC"
+CHL_authoritarian_conservative_party_long:0 "Armed Forces of Chile (Fuerzas Armadas de Chile)"
+CHL_right_wing_populist_party:0 "PA"
+CHL_right_wing_populist_party_long:0 "Agrarian Party (Partido Agrario)"
+CHL_national_syndicalist_party:0 "-"
+CHL_national_syndicalist_party_long:0 "-"
+CHL_national_corporatist_party:0 "-"
+CHL_national_corporatist_party_long:0 "-"

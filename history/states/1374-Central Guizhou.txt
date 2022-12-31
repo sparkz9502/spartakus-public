@@ -1,0 +1,20 @@
+
+state={
+	id=1374
+	name="STATE_1374"
+	provinces={
+		1010 4325 4532 7549 8095 9939 10616 
+	}
+	history={
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=2548700
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

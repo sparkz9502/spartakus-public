@@ -1,0 +1,4060 @@
+########################
+### Germany Decisions ###
+########################
+
+GER_the_final_conflict = {
+
+	GER_the_final_conflict_mission = {
+		allowed = { always = no }
+		icon = GFX_decision_border_war
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GER_the_final_conflict_trigger_tt
+				GER = {
+					has_war_with = FRA
+				}
+			}
+		}
+		is_good = yes
+		days_mission_timeout = 365
+		fire_only_once = yes
+		timeout_effect = {
+			custom_effect_tooltip = GER_the_final_conflict_tt
+			hidden_effect = {
+				if = {
+					limit = {
+						original_tag = GER
+					}
+					GER = {
+						declare_war_on = {
+							target = FRA
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = RHI
+							type = annex_everything
+						}
+						declare_war_on = {
+							target = WUR
+							type = annex_everything
+						}
+					}
+				}
+			}
+		}
+	}
+	
+}
+
+GER_border_conflicts = {
+
+	GER_cologne_border_conflict = {
+
+		icon = border_war
+
+		allowed = { tag = GER }
+
+		activation = {
+			RHI = {
+				has_border_war_with = GER
+			}
+		}
+		visible = {
+			RHI = {
+				has_border_war_with = GER
+			}
+		}
+		
+		available = {
+			NOT = {
+				RHI = {
+					has_border_war_with = GER
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		fire_only_once = no
+		is_good = yes
+
+		highlight_states = {
+			state = 781	
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		days_mission_timeout = 10
+		timeout_effect = {
+			cancel_border_war = {
+				dont_fire_events = yes
+				defender = 781
+				attacker = 51
+			}
+		}
+	}
+	
+}
+
+GER_infrastructure_budget = {
+	
+	GER_infra_bavaria = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 52
+		}
+		days_remove = 30
+		remove_effect = {
+			993 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			54 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			53 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			52 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			1263 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_saxony = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 65
+		}
+		days_remove = 30
+		remove_effect = {
+			65 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			1364 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			69 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_rhineland = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 51
+		}
+		days_remove = 30
+		remove_effect = {
+			51 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			55 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			57 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			1168 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_hanover = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 59
+		}
+		days_remove = 30
+		remove_effect = {
+			1252 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			56 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 11360
+				}
+			}
+			59 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			1266 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 3326
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_holstein = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 58
+		}
+		days_remove = 30
+		remove_effect = {
+			58 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 6389
+				}
+			}
+			1267 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 9347
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_north_germany = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 62
+		}
+		days_remove = 30
+		remove_effect = {
+			61 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 321
+				}
+			}
+			62 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 6282
+				}
+			}
+			63 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_central_germany = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 1265
+		}
+		days_remove = 30
+		remove_effect = {
+			60 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			1265 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1339 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_brandenburg = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 1264
+		}
+		days_remove = 30
+		remove_effect = {
+			64 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			68 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1264 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_silesia = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 66
+		}
+		days_remove = 30
+		remove_effect = {
+			66 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			67 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			777 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_east_germany = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 776
+		}
+		days_remove = 30
+		remove_effect = {
+			86 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+			1341 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			776 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			85 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 362
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+	GER_infra_prussia = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		available = {
+			num_of_civilian_factories_available_for_projects > 3
+		}
+		highlight_state_targets = { 
+			state = 5
+		}
+		days_remove = 30
+		remove_effect = {
+			5 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					instant_build = yes
+					province = 6332
+				}
+			}
+			1365 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			1096 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_infra_var = 1 }
+			GER_industry_points_add = yes
+		}
+	}
+	
+}
+
+GER_fortification_budget = {
+
+	GER_fort_rhineland = {
+		icon = GFX_decision_generic_fort
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		highlight_state_targets = { 
+			state = 51
+		}
+		days_remove = 30
+		remove_effect = {
+			51 = {
+				add_building_construction = {
+					type = bunker
+					province = 6570
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 15644
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 529
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 15188
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3512
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 15642
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6469
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			55 = {
+				add_building_construction = {
+					type = bunker
+					province = 6444
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6488
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			57 = {
+				add_building_construction = {
+					type = bunker
+					province = 495
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 15643
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_fort_var = 1 }
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+	GER_fort_bavaria = {
+		icon = GFX_decision_generic_fort
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		highlight_state_targets = { 
+			state = 54
+		}
+		days_remove = 30
+		remove_effect = {
+			1263 = {
+				add_building_construction = {
+					type = bunker
+					province = 6540
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 15593
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 9666
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11638
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 708
+					level = 1
+					instant_build = yes
+				}
+			}
+			54 = {
+				add_building_construction = {
+					type = bunker
+					province = 15594
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 15596
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 2101
+					level = 1
+					instant_build = yes
+				}
+			}
+			993 = {
+				add_building_construction = {
+					type = bunker
+					province = 15185
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6594
+					level = 1
+					instant_build = yes
+				}
+			}
+			52 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_fort_var = 1 }
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+	GER_fort_czech = {
+		icon = GFX_decision_generic_fort
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		highlight_state_targets = { 
+			state = 69
+		}
+		days_remove = 30
+		remove_effect = {
+			69 = {
+				add_building_construction = {
+					type = bunker
+					province = 11401
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11432
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6470
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 469
+					level = 1
+					instant_build = yes
+				}
+			}
+			53 = {
+				add_building_construction = {
+					type = bunker
+					province = 532
+					level = 1
+					instant_build = yes
+				}
+			}
+			67 = {
+				add_building_construction = {
+					type = bunker
+					province = 9457
+					level = 1
+					instant_build = yes
+				}
+			}
+			777 = {
+				add_building_construction = {
+					type = bunker
+					province = 6464
+					level = 1
+					instant_build = yes
+				}
+			}
+			1364 = {
+				add_building_construction = {
+					type = bunker
+					province = 6559
+					level = 1
+					instant_build = yes
+				}
+			}
+			65 = {
+				add_building_construction = {
+					type = bunker
+					province = 9471
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_fort_var = 1 }
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+	GER_fort_north = {
+		icon = GFX_decision_generic_fort
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		highlight_state_targets = { 
+			state = 58
+		}
+		days_remove = 30
+		remove_effect = {
+			5 = {
+				add_building_construction = {
+					type = bunker
+					province = 348
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 281
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 11265
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6332
+					level = 1
+					instant_build = yes
+				}
+			}
+			58 = {
+				add_building_construction = {
+					type = bunker
+					province = 6389
+					level = 2
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 317
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3231
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			56 = {
+				add_building_construction = {
+					type = bunker
+					province = 336
+					level = 1
+					instant_build = yes
+				}
+			}
+			1168 = {
+				add_building_construction = {
+					type = bunker
+					province = 11346
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 6622
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_fort_var = 1 }
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+	GER_fort_coast = {
+		icon = GFX_decision_generic_fort
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		highlight_state_targets = { 
+			state = 85
+		}
+		days_remove = 30
+		remove_effect = {
+			56 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 336
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 11360
+					level = 1
+					instant_build = yes
+				}
+			}
+			1266 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 3326
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 374
+					level = 1
+					instant_build = yes
+				}
+			}
+			1267 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 9347
+					level = 1
+					instant_build = yes
+				}
+			}
+			58 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 6389
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = coastal_bunker
+					province = 11331
+					level = 1
+					instant_build = yes
+				}
+			}
+			61 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 321
+					level = 1
+					instant_build = yes
+				}
+			}
+			62 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 6282
+					level = 1
+					instant_build = yes
+				}
+			}
+			63 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 11372
+					level = 1
+					instant_build = yes
+				}
+			}
+			85 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 362
+					level = 1
+					instant_build = yes
+				}
+			}
+			5 = {
+				add_building_construction = {
+					type = coastal_bunker
+					province = 6332
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_fort_var = 1 }
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+	GER_fort_antiair = {
+		icon = GFX_decision_generic_fort
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_country_flag = GER_doing_project
+			}
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+			set_country_flag = GER_doing_project
+		}
+		modifier = {
+            civilian_factory_use = 3
+        }
+		highlight_state_targets = { 
+			state = 1264
+		}
+		days_remove = 30
+		remove_effect = {
+			1264 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 2
+					instant_build = yes
+				}
+			}
+			59 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			1364 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			65 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			1266 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			1168 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			1265 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			60 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			66 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			54 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			1267 = {
+				add_building_construction = {
+					type = anti_air_building
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = GER_doing_project
+			add_to_variable = { GER_fort_var = 1 }
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+}
+
+GER_goals_for_the_future = {
+
+	GER_military_factory_goal = {
+		icon = border_war
+		allowed = { tag = GER }
+		activation = {
+			has_completed_focus = GER_The_Goals_of_the_Future
+		}
+		available = {
+			num_of_military_factories > 25
+		}
+		fire_only_once = yes
+		is_good = no
+		days_mission_timeout = 365
+		timeout_effect = {
+			add_political_power = -50
+		}
+		complete_effect = {
+			add_war_support = 0.05
+			GER_increase_military_readiness = yes
+		}
+	}
+	
+	GER_civilian_factory_goal = {
+		icon = border_war
+		allowed = { tag = GER }
+		activation = {
+			has_completed_focus = GER_The_Goals_of_the_Future
+		}
+		available = {
+			num_of_civilian_factories > 60
+		}
+		fire_only_once = yes
+		is_good = no
+		days_mission_timeout = 365
+		timeout_effect = {
+			add_political_power = -50
+		}
+		complete_effect = {
+			add_stability = 0.05
+			GER_industry_points_add = yes
+		}
+	}
+	
+}
+
+GER_collectivization = {
+
+	GER_complete_big_collectivization = { 
+		icon = GFX_decision_eng_trade_unions_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = GER_big_collectivization_tt		
+				check_variable = {
+					var = GER.big_collectivization
+					value = 100
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 1000
+		}
+		fire_only_once = yes
+        cost = 0
+        complete_effect = {
+		}
+	}
+	
+	GER_complete_small_collectivization = { 
+		icon = GFX_decision_eng_trade_unions_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = GER_small_collectivization_tt		
+				check_variable = {
+					var = GER.small_collectivization
+					value = 100
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 1000
+		}
+		fire_only_once = yes
+        cost = 0
+        complete_effect = {
+		}
+	}
+	
+	GER_break_up_VEGs = { 
+		icon = GFX_decision_generic_break_treaty
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = GER_big_farm_status_tt
+				check_variable = {
+					var = GER.big_farm_status
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+		fire_only_once = yes
+        cost = 25
+        complete_effect = {
+		}
+		modifier = {
+            political_power_gain = -0.05
+        }
+		days_remove = 30
+		remove_effect = {
+			custom_effect_tooltip = GER_big_collectivization_5_tt
+			add_to_variable = {
+				var = GER.big_collectivization
+				value = 5
+			}
+			clamp_variable = {
+				var = GER.big_collectivization
+				min = 0
+				max = 100
+			}
+		}
+	}
+	
+	GER_collectivize_OLBs = { 
+		icon = GFX_decision_generic_break_treaty
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = GER_small_farm_status_tt
+				check_variable = {
+					var = GER.small_farm_status
+					value = 1
+					compare = greater_than_or_equals
+				}
+			}
+        }
+		ai_will_do = {
+			factor = 10
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+		}
+		modifier = {
+            political_power_gain = -0.05
+        }
+		days_remove = 30
+		remove_effect = {
+			custom_effect_tooltip = GER_small_collectivization_5_tt
+			add_to_variable = {
+				var = GER.small_collectivization
+				value = 5
+			}
+			clamp_variable = {
+				var = GER.small_collectivization
+				min = 0
+				max = 100
+			}
+		}
+	}
+	
+	GER_wage_a_propaganda_campaign = { 
+		icon = GFX_decision_eng_propaganda_campaigns
+        available = {
+        }
+		ai_will_do = {
+			factor = 10
+		}
+		fire_only_once = yes
+        cost = 20
+        complete_effect = {
+		}
+		modifier = {
+            political_power_gain = -0.05
+        }
+		days_remove = 30
+		remove_effect = {
+			custom_effect_tooltip = GER_small_farm_collectivization_tt
+			add_to_variable = {
+				var = GER.small_farm_status
+				value = 1
+			}
+		}
+	}
+	
+	GER_seize_abandoned_farms = { 
+		icon = GFX_decision_eng_trade_unions_demand
+        available = {
+        }
+		ai_will_do = {
+			factor = 10
+		}
+		fire_only_once = yes
+        cost = 40
+        complete_effect = {
+		}
+		modifier = {
+            production_speed_buildings_factor = -0.1
+        }
+		days_remove = 60
+		remove_effect = {
+			custom_effect_tooltip = GER_big_collectivization_10_tt
+			add_to_variable = {
+				var = GER.big_collectivization
+				value = 10
+			}
+			clamp_variable = {
+				var = GER.big_collectivization
+				min = 0
+				max = 100
+			}
+			custom_effect_tooltip = GER_small_collectivization_5_tt
+			add_to_variable = {
+				var = GER.small_collectivization
+				value = 5
+			}
+			clamp_variable = {
+				var = GER.small_collectivization
+				min = 0
+				max = 100
+			}
+		}
+	}
+	
+	GER_farm_modernization = {
+		icon = GFX_decision_eng_trade_unions_support
+		activation = {
+			has_completed_focus = GER_Invest_in_Modernization
+		}
+		available = {
+			hidden_trigger = {
+				always = no
+			}
+		}
+
+		fire_only_once = yes
+		is_good = yes
+		
+		days_mission_timeout = 365
+		timeout_effect = {
+			61 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			custom_effect_tooltip = GER_agr_output_increase_tt
+			add_to_variable = { GER_agricultural_output_var = 15 }
+			
+			GER_agricultural_output_eval = yes
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+
+}
+
+GER_industry_gui = {
+
+	GER_expand_oil_drilling_in_lower_saxony = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Search_for_Oil
+		}
+		highlight_state_targets = { 
+			state = 59
+		}
+		available = {
+			controls_state = 59
+			OR = {
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = oil
+				amount = 6
+				state = 59
+			}
+		}
+	}
+	
+	GER_build_synthetic_factory_in_leuna = { 
+		icon = GFX_decision_oil
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Search_for_Oil
+		}
+		highlight_state_targets = { 
+			state = 1265
+		}
+		available = {
+			controls_state = 1265
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			1265 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_synthetic_factory_in_castrop = { 
+		icon = GFX_decision_oil
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Search_for_Oil
+		}
+		highlight_state_targets = { 
+			state = 57
+		}
+		available = {
+			controls_state = 57
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			57 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_synthetic_factory_in_bottrop = { 
+		icon = GFX_decision_oil
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Search_for_Oil
+		}
+		highlight_state_targets = { 
+			state = 51
+		}
+		available = {
+			controls_state = 51
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			51 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	GER_expand_iron_mining_in_the_harz = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Harz
+		}
+		highlight_state_targets = { 
+			state = 59
+		}
+		available = {
+			controls_state = 59
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = iron
+				amount = 20
+				state = 59
+			}
+		}
+	}
+
+	GER_expand_copper_mining_in_the_harz = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Harz
+		}
+		highlight_state_targets = { 
+			state = 59
+		}
+		available = {
+			controls_state = 59
+			OR = {
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = copper
+				amount = 12
+				state = 59
+			}
+		}
+	}
+
+	GER_expand_coal_mining_in_the_harz = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Harz
+		}
+		highlight_state_targets = { 
+			state = 1265
+		}
+		available = {
+			controls_state = 1265
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = coal
+				amount = 16
+				state = 1265
+			}
+		}
+	}
+	
+	GER_expand_bauxite_mining_in_the_westerwald = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Westerwald
+		}
+		highlight_state_targets = { 
+			state = 55
+		}
+		available = {
+			controls_state = 55
+			OR = {
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 12
+				state = 55
+			}
+		}
+	}
+	
+	GER_expand_iron_mining_in_the_westerwald = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Westerwald
+		}
+		highlight_state_targets = { 
+			state = 55
+		}
+		available = {
+			controls_state = 55
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = iron
+				amount = 20
+				state = 55
+			}
+		}
+	}
+	
+	GER_expand_iron_mining_in_the_ruhr = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Westerwald
+		}
+		highlight_state_targets = { 
+			state = 57
+		}
+		available = {
+			controls_state = 57
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = iron
+				amount = 20
+				state = 57
+			}
+		}
+	}
+	
+	GER_expand_coal_mining_in_the_ruhr = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Westerwald
+		}
+		highlight_state_targets = { 
+			state = 57
+		}
+		available = {
+			controls_state = 57
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = coal
+				amount = 16
+				state = 57
+			}
+		}
+	}
+	
+	GER_expand_coal_mining_in_the_ore_mountains = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Ore_Mountains
+		}
+		highlight_state_targets = { 
+			state = 1364
+		}
+		available = {
+			controls_state = 1364
+			controls_state = 65
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = coal
+				amount = 8
+				state = 1364
+			}
+			add_resource = {
+				type = coal
+				amount = 8
+				state = 65
+			}
+		}
+	}
+	
+	GER_expand_rare_metals_mining_in_the_ore_mountains = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_the_Ore_Mountains
+		}
+		highlight_state_targets = { 
+			state = 69
+		}
+		available = {
+			controls_state = 69
+			OR = {
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 10
+				state = 69
+			}
+		}
+	}
+	
+	GER_expand_iron_mining_in_silesia = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_Silesia_and_Lusatia
+		}
+		highlight_state_targets = { 
+			state = 777
+		}
+		available = {
+			controls_state = 777
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = iron
+				amount = 20
+				state = 777
+			}
+		}
+	}
+	
+	GER_expand_coal_mining_in_silesia = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_Silesia_and_Lusatia
+		}
+		highlight_state_targets = { 
+			state = 777
+		}
+		available = {
+			controls_state = 777
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = coal
+				amount = 16
+				state = 777
+			}
+		}
+	}
+	
+	GER_expand_coal_mining_in_lusatia = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_Mining_in_Silesia_and_Lusatia
+		}
+		highlight_state_targets = { 
+			state = 68
+		}
+		available = {
+			controls_state = 68
+			OR = {
+				has_tech = excavation1
+				has_tech = excavation2
+				has_tech = excavation3
+				has_tech = excavation4
+				has_tech = excavation5
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			add_resource = {
+				type = coal
+				amount = 16
+				state = 68
+			}
+		}
+	}
+
+	GER_build_metalworks_in_rostock = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Mecklenburg-Pomerania_Region
+		}
+		highlight_state_targets = { 
+			state = 61
+		}
+		available = {
+			controls_state = 61
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			61 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_textile_mill_in_stolp = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Mecklenburg-Pomerania_Region
+		}
+		highlight_state_targets = { 
+			state = 63
+		}
+		available = {
+			controls_state = 63
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			63 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_shipyard_in_stettin = { 
+		icon = GFX_decision_generic_naval
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Mecklenburg-Pomerania_Region
+		}
+		highlight_state_targets = { 
+			state = 62
+		}
+		available = {
+			controls_state = 62
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			62 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_cannery_in_friedrich_engels_stadt = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Pomerelia-Prussia_Region
+		}
+		highlight_state_targets = { 
+			state = 5
+		}
+		available = {
+			controls_state = 5
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			5 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_shipyard_in_danzig = { 
+		icon = GFX_decision_generic_naval
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Pomerelia-Prussia_Region
+		}
+		highlight_state_targets = { 
+			state = 85
+		}
+		available = {
+			controls_state = 85
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			85 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_paper_mill_in_bamberg = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Franconia_Region
+		}
+		highlight_state_targets = { 
+			state = 993
+		}
+		available = {
+			controls_state = 993
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			993 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_furniture_factory_in_furth = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Franconia_Region
+		}
+		highlight_state_targets = { 
+			state = 54
+		}
+		available = {
+			controls_state = 54
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			54 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_munitions_factory_in_nuremburg = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Franconia_Region
+		}
+		highlight_state_targets = { 
+			state = 54
+		}
+		available = {
+			controls_state = 54
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			54 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_electronics_factory_in_osnabruck = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Northwest_Region
+		}
+		highlight_state_targets = { 
+			state = 1252
+		}
+		available = {
+			controls_state = 1252
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			1252 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_shipyard_in_emden = { 
+		icon = GFX_decision_generic_naval
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Northwest_Region
+		}
+		highlight_state_targets = { 
+			state = 56
+		}
+		available = {
+			controls_state = 56
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			56 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_chemical_plant_in_graudenz = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Polish_Regions
+		}
+		highlight_state_targets = { 
+			state = 776
+		}
+		available = {
+			controls_state = 776
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			776 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_small_arms_factory_in_posen = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Polish_Regions
+		}
+		highlight_state_targets = { 
+			state = 86
+		}
+		available = {
+			controls_state = 86
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			86 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_electronics_factory_in_cottbus = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Brandenburg-Lusatia_Region
+		}
+		highlight_state_targets = { 
+			state = 68
+		}
+		available = {
+			controls_state = 68
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			68 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_textile_mill_in_potsdam = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Brandenburg-Lusatia_Region
+		}
+		highlight_state_targets = { 
+			state = 64
+		}
+		available = {
+			controls_state = 64
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			64 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_cannery_in_reichenberg = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_German_Bohemia_Region
+		}
+		highlight_state_targets = { 
+			state = 69
+		}
+		available = {
+			controls_state = 69
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			69 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_munitions_factory_in_aussig = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_German_Bohemia_Region
+		}
+		highlight_state_targets = { 
+			state = 69
+		}
+		available = {
+			controls_state = 69
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			69 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_steel_mill_in_kattowitz = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Silesia_Region
+		}
+		highlight_state_targets = { 
+			state = 777
+		}
+		available = {
+			controls_state = 777
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			777 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_machine_factory_in_breslau = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Silesia_Region
+		}
+		highlight_state_targets = { 
+			state = 66
+		}
+		available = {
+			controls_state = 66
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			66 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_electronics_factory_in_munster = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Ruhr_Region
+		}
+		highlight_state_targets = { 
+			state = 1168
+		}
+		available = {
+			controls_state = 1168
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			1168 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_munitions_factory_in_dortmund = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Ruhr_Region
+		}
+		highlight_state_targets = { 
+			state = 57
+		}
+		available = {
+			controls_state = 57
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			57 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_artillery_factory_in_essen = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Ruhr_Region
+		}
+		highlight_state_targets = { 
+			state = 51
+		}
+		available = {
+			controls_state = 51
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			51 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_chemical_plant_in_leuna = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Central_German_Region
+		}
+		highlight_state_targets = { 
+			state = 1265
+		}
+		available = {
+			controls_state = 1265
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			1265 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_automobile_factory_in_dresden = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Central_German_Region
+		}
+		highlight_state_targets = { 
+			state = 1364
+		}
+		available = {
+			controls_state = 1364
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			1364 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_electronics_factory_in_erfurt = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Central_German_Region
+		}
+		highlight_state_targets = { 
+			state = 60
+		}
+		available = {
+			controls_state = 60
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			60 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_small_arms_factory_in_leipzig = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Central_German_Region
+		}
+		highlight_state_targets = { 
+			state = 65
+		}
+		available = {
+			controls_state = 65
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			65 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_ironworks_in_hanover = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Hanover-Bremen_Region
+		}
+		highlight_state_targets = { 
+			state = 59
+		}
+		available = {
+			controls_state = 59
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			59 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_aircraft_factory_in_brunswick = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Hanover-Bremen_Region
+		}
+		highlight_state_targets = { 
+			state = 59
+		}
+		available = {
+			controls_state = 59
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			59 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_shipyard_in_bremen = { 
+		icon = GFX_decision_generic_naval
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Hanover-Bremen_Region
+		}
+		highlight_state_targets = { 
+			state = 1266
+		}
+		available = {
+			controls_state = 1266
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			1266 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_chemical_plant_in_frankfurt = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Frankfurt-Rhine_Region
+		}
+		highlight_state_targets = { 
+			state = 55
+		}
+		available = {
+			controls_state = 55
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			55 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_cannery_in_kassel = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Frankfurt-Rhine_Region
+		}
+		highlight_state_targets = { 
+			state = 55
+		}
+		available = {
+			controls_state = 55
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			55 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_machine_factory_in_berlin = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Berlin_and_Hamburg_Megacities
+		}
+		highlight_state_targets = { 
+			state = 1264
+		}
+		available = {
+			controls_state = 1264
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			1264 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_small_arms_factory_in_hamburg = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Berlin_and_Hamburg_Megacities
+		}
+		highlight_state_targets = { 
+			state = 1267
+		}
+		available = {
+			controls_state = 1267
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			1267 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_shipyard_in_hamburg = { 
+		icon = GFX_decision_generic_naval
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Berlin_and_Hamburg_Megacities
+		}
+		highlight_state_targets = { 
+			state = 1267
+		}
+		available = {
+			controls_state = 1267
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			1267 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_textile_mill_in_augsburg = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Munich-Augsburg_Region
+		}
+		highlight_state_targets = { 
+			state = 1263
+		}
+		available = {
+			controls_state = 1263
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			1263 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_aircraft_factory_in_munich = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Munich-Augsburg_Region
+		}
+		highlight_state_targets = { 
+			state = 52
+		}
+		available = {
+			controls_state = 52
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			52 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_machine_factory_in_warsaw = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Poles
+		}
+		highlight_state_targets = { 
+			state = 10
+		}
+		available = {
+			PGA = {
+				controls_state = 10
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			10 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_ironworks_in_krakow = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Poles
+		}
+		highlight_state_targets = { 
+			state = 88
+		}
+		available = {
+			PGA = {
+				controls_state = 88
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			88 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_munitions_factory_in_lviv = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Poles
+		}
+		highlight_state_targets = { 
+			state = 91
+		}
+		available = {
+			PGA = {
+				controls_state = 91
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			91 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_electronics_factory_in_petrograd = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Soviets
+		}
+		highlight_state_targets = { 
+			state = 195
+		}
+		available = {
+			SOV = {
+				controls_state = 195
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			195 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_automobile_factory_in_kiev = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Soviets
+		}
+		highlight_state_targets = { 
+			state = 202
+		}
+		available = {
+			SOV = {
+				controls_state = 202
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			202 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_glass_factory_in_kharkov = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Soviets
+		}
+		highlight_state_targets = { 
+			state = 221
+		}
+		available = {
+			SOV = {
+				controls_state = 221
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			221 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_shipyard_in_sevastopol = { 
+		icon = GFX_decision_generic_naval
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Soviets
+		}
+		highlight_state_targets = { 
+			state = 137
+		}
+		available = {
+			SOV = {
+				controls_state = 137
+			}
+		}
+		fire_only_once = yes
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			137 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_artillery_factory_in_moscow = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Soviets
+		}
+		highlight_state_targets = { 
+			state = 219
+		}
+		available = {
+			SOV = {
+				controls_state = 219
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			219 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_cement_factory_in_bratislava = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Hungarians
+		}
+		highlight_state_targets = { 
+			state = 997
+		}
+		available = {
+			HUN = {
+				controls_state = 997
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			997 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_chemical_plant_in_pecs = { 
+		icon = GFX_decision_generic_factory
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Hungarians
+		}
+		highlight_state_targets = { 
+			state = 734
+		}
+		available = {
+			HUN = {
+				controls_state = 734
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 0 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_1
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_1 = yes
+		}
+		remove_effect = {
+			734 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_build_explosives_factory_in_budapest = { 
+		icon = GFX_decision_generic_industry
+		ai_will_do = {
+			factor = 10
+		}
+		visible = {
+			has_completed_focus = GER_The_Hungarians
+		}
+		highlight_state_targets = { 
+			state = 43
+		}
+		available = {
+			HUN = {
+				controls_state = 43
+			}
+		}
+		custom_cost_trigger = {
+			check_variable = { GER_industry_points_var > 1 }
+		}
+		fire_only_once = yes
+		custom_cost_text = GER_industry_points_var_2
+		days_remove = 60
+		complete_effect = {
+			GER_industry_points_remove_2 = yes
+		}
+		remove_effect = {
+			43 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	GER_accelerate_industrial_progress = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 0
+		}
+		visible = {
+			has_completed_focus = GER_Securing_the_Future
+		}
+		modifier = {
+            production_speed_buildings_factor = -0.10
+        }
+		cost = 50
+		days_remove = 60
+		complete_effect = {
+			add_days_mission_timeout = {
+				mission = GER_gain_industry_point_mission
+				days = -30
+			}
+		}
+	}
+	
+	GER_gain_industry_point_mission = {
+		allowed = { always = no }
+		icon = GFX_decision_generic_construction
+		available = {
+			always = no
+		}
+		is_good = yes
+		days_mission_timeout = 120
+		fire_only_once = yes
+		timeout_effect = {
+			GER_industry_points_add = yes
+			hidden_effect = {
+				activate_mission = GER_gain_industry_point_mission
+			}
+		}
+	}
+
+}

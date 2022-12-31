@@ -1,0 +1,74 @@
+﻿capital = 486
+
+set_oob = "COL"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_indzing
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_destroyer = 1
+}
+
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 3
+    spartacist = 5
+    revolutionary_socialist = 4
+    reformist_socialist = 5
+    social_democrat = 11
+    social_liberal = 27
+    liberal_conservative = 31
+    social_conservative = 10
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 1
+    national_corporatist = 3
+}
+
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_reformist_socialist
+
+set_convoys = 25
+
+create_country_leader = {
+	name = "Enrique Olaya Herrera"
+	desc = "POLITICS_ENRIQUE_OLAYA_HERRERA_DESC"
+	picture = "Portrait_Enrique_Olaya_Herrera.tga"
+	expire = "1965.1.1"
+	ideology = agrarian_liberalism
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Gustavo Rojas Pinilla"
+	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
+	traits = {  trickster urban_assault_specialist }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 1
+	planning_skill = 3
+	logistics_skill = 3
+}

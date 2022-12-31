@@ -1,0 +1,64 @@
+
+state={
+	id=781
+	name="STATE_781"
+	resources={
+		coal=15.000
+	}
+
+	history={
+		owner = RHI
+		add_core_of = RHI
+		add_claim_by = GER
+		victory_points = {
+			587 25 
+		}
+		victory_points = {
+			11042 8 
+		}
+		victory_points = {
+			3444 7 
+		}
+		victory_points = {
+			11494 2 
+		}
+		victory_points = {
+			15187 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 3
+			industrial_complex = 4
+			air_base = 4
+			3444 = {
+				bunker = 3
+			}
+			587 = {
+				bunker = 4
+			}
+			15189 = {
+				bunker = 2
+			}
+			11042 = {
+				bunker = 3
+			}
+			11494 = {
+				bunker = 2
+			}
+			15187 = {
+				bunker = 2
+			}
+			3423 = {
+				bunker = 2
+			}
+		}
+	}
+
+	provinces={
+		587 3423 3444 11042 11494 15187 15189 
+	}
+	manpower=2856300
+	buildings_max_level_factor=1.000
+	state_category=small_metropolis
+	local_supplies=0.000
+}

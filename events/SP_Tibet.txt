@@ -1,0 +1,16 @@
+add_namespace = tibet
+
+news_event = { # 13th Dalai Lama dies
+	id = tibet.1
+	title = tibet.1.t
+	desc = tibet.1.desc
+	picture = GFX_news_event_dalai_lama
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = tibet.1.a
+	}
+}

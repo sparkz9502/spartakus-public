@@ -1,0 +1,31 @@
+
+state={
+	id=1201
+	name="STATE_1201"
+
+	history={
+		owner = ITA
+		victory_points = {
+			15183 5
+		}
+		add_core_of = ITA
+		add_core_of = CRO
+		add_core_of = STJ
+		add_core_of = LAB
+		victory_points = {
+			15183 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		11735 15183 
+	}
+	manpower=207500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

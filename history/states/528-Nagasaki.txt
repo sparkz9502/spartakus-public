@@ -1,0 +1,44 @@
+
+state={
+	id=528
+	name="STATE_528"
+	resources={
+		raremetals=4.000
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			arms_factory = 1
+			industrial_complex = 2
+			9950 = {
+				naval_base = 10
+
+			}
+
+		}
+		victory_points = {
+			1025 3 
+		}
+		victory_points = {
+			7110 7 
+		}
+		victory_points = {
+			9950 10 
+		}
+		victory_points = {
+			11925 5 
+		}
+
+	}
+
+	provinces={
+		1025 1158 1183 4027 4164 7110 9950 10011 10020 10092 11925 12006 
+	}
+	manpower=6752000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,68 @@
+ideas = {
+
+##########################
+# Italian Colonies Ideas #
+##########################
+
+	country = {
+	
+		INA_Senussi = {
+            picture = Senussi_Partisans
+            modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+            }
+        }
+		
+		INA_IEA_Great_Depression = {
+            picture = great_depression
+            modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.05
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.1
+				industrial_capacity_factory = -0.1
+            }
+        }
+		
+		INA_IEA_Modernized_Agriculture = {
+			picture = generic_agrarian_reform
+            modifier = {
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.10
+            }
+		}
+		
+		INA_IEA_Increased_Conscription = {
+			picture = generic_agrarian_reform
+            modifier = {
+				conscription = 0.01
+            }
+		}
+		
+		INA_IEA_Professional_Training = {
+			picture = generic_agrarian_reform
+            modifier = {
+				army_attack_factor = 0.05
+				army_org_factor = 0.05
+            }
+		}
+		
+		INA_IEA_Italian_Officers = {
+			picture = generic_agrarian_reform
+            modifier = {
+				army_org_factor = 0.05
+				army_morale_factor = -0.03
+            }
+		}
+		
+		INA_IEA_Native_Officers = {
+			picture = generic_agrarian_reform
+            modifier = {
+				conscription = 0.005
+				stability_factor = -0.05
+            }
+		}
+		
+	}
+}

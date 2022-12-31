@@ -1,0 +1,20 @@
+
+state={
+	id=498
+	name="STATE_498"
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRA
+	}
+
+	provinces={
+		1446 2227 7561 
+	}
+	manpower=1375200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

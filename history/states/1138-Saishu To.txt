@@ -1,0 +1,21 @@
+
+state={
+	id=1138
+	name="STATE_1138"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		1118 2016 7925 8084 10827 11935 14193 14230 14238 14239 14242 
+	}
+	manpower=1397800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

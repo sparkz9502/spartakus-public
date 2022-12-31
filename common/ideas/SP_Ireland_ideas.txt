@@ -1,0 +1,109 @@
+### Ireland ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+	
+		## British Ireland
+		
+		IRE_memories_of_the_republic = {
+			modifier = {
+				stability_factor = -0.15
+				political_power_factor = -0.15
+			}
+			picture = FRA_matignon_agreements
+		}
+		IRE_depressed_economy = {
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				political_power_cost = 0.10
+				stability_factor = -0.05
+			}
+			picture = great_depression
+		}
+		IRE_loyalist_militia = {
+			modifier = {
+				conscription_factor = -0.85
+				special_forces_cap = -1.0
+				army_org_factor = 0.20
+			}
+			picture = generic_manpower_bonus
+		}
+		IRE_loyalist_militia_civilwar = {
+			modifier = {
+				conscription_factor = -0.50
+				special_forces_cap = -1.0
+				army_org_factor = 0.20
+			}
+			targeted_modifier = {
+				tag = IRA
+				attack_bonus_against = 0.20
+				defense_bonus_against = 0.20
+			}
+			picture = generic_manpower_bonus
+		}
+		IRE_civilwar = {
+			modifier = {
+				political_power_factor = -0.50
+				stability_factor = -1.0
+				war_support_factor = 0.10
+			}
+			picture = FRA_scw_intervention_nationalists_focus
+		}
+		IRE_general_strike_bloody_saturday = {
+			modifier = {
+				political_power_gain = 0.50
+				consumer_goods_factor = 0.20
+				production_speed_buildings_factor = -0.20
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				stability_factor = 0.05
+			}
+			# targeted_modifier = {
+				# tag = ENG
+				# cic_to_overlord_factor = -0.40
+				# mic_to_overlord_factor = -0.60
+				# extra_trade_to_overlord_factor = -0.50
+			# }
+			picture = FRA_matignon_agreements
+		}
+		IRE_loyalist_paramilitaries_agitating = {
+			modifier = {
+				stability_factor = -0.10
+				political_power_cost = 0.10
+			}
+			picture = generic_manpower_bonus
+		}
+		
+		## Republican Ireland
+		
+		IRA_civilwar = {
+			modifier = {
+				stability_factor = -0.30
+				war_support_factor = 0.50
+				recon_factor = 0.20
+				encryption_factor = 0.20
+				resistance_target = 0.50
+				resistance_damage_to_garrison = -0.50
+			}
+			picture = FRA_scw_intervention_republicans_focus
+		}
+		IRA_irish_republican_army_civilwar = {
+			modifier = {
+				army_org_factor = 0.10
+				army_morale_factor = 0.30
+				training_time_factor = -0.50
+				army_core_attack_factor = 0.20
+				army_core_defence_factor = 0.20
+				supply_consumption_factor = -0.25
+				out_of_supply_factor = -0.50
+				no_supply_grace = 48
+			}
+			picture = generic_morale_bonus
+		}
+	}
+}

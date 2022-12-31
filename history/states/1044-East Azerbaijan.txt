@@ -1,0 +1,30 @@
+
+state={
+	id=1044
+	name="STATE_1044"
+
+	history={
+		owner = GLN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GLN
+		add_claim_by = PER
+		victory_points = {
+			15143 1 
+		}
+		victory_points = {
+			15152 3 
+		}
+
+	}
+
+	provinces={
+		10454 14995 15088 15143 15150 15152 
+	}
+	manpower=385100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

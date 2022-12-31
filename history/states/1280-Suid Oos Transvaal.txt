@@ -1,0 +1,31 @@
+
+state={
+	id=1280
+	name="STATE_1280"
+	resources={
+		coal=12.000
+		raremetals=19.000
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			10400 8 
+		}
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		1494 2171 2213 10400 14672 14682 14685 14690 14693 14694 14695 14696 14700 14701 14705 14713 14714 14716 14719 14726 14727 14729 14735 14739 14747 14749 
+	}
+	manpower=1640200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

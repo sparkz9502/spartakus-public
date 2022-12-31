@@ -1,0 +1,146 @@
+################
+###   Yugo   ###
+################
+
+YUG_Map_Assist = {
+	
+	picture = GFX_decision_YUG_Ethnic_Map
+	
+	allowed = { 
+	    OR = {
+    	tag = SER
+		tag = CRO
+		tag = BOS
+        tag = STJ
+	    tag = SLV
+        tag = MNT
+        tag = MKE
+		tag = BSE
+		}
+	}
+	
+	visible = {
+	    OR = {
+    	tag = SER
+		tag = CRO
+		tag = BOS
+        tag = STJ
+	    tag = SLV
+        tag = MNT
+        tag = MKE
+		tag = BSE
+		}
+	}
+}
+
+YUG_Release_Countries = {
+	
+	icon = category_generic_political_actions
+	
+	allowed = { 
+	    OR = {
+    	tag = SER
+		tag = BOS
+        tag = STJ
+	    tag = SLV
+        tag = MNT
+        tag = MKE
+		}
+	}
+	
+	visible = {
+	    OR = {
+		has_country_flag = Bosniak_Dissent_Flag
+		has_country_flag = Croat_Dissent_Flag
+		has_country_flag = Serb_Dissent_Flag
+	    }
+	}
+}
+
+SER_Literacy = {
+	
+	allowed = { 
+	    OR = {
+    	tag = SER
+		tag = RSE
+		has_country_flag = YugoCleared
+		}
+	}
+	
+	visible = {
+		has_country_flag = Serbs_cant_read
+	}
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+}
+
+BOS_Literacy = {
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+	
+	allowed = { 
+	    OR = {
+		tag = BOS
+		has_country_flag = YugoCleared
+		}
+		NOT = {
+		tag = CRO
+		}
+	}
+	
+	visible = {
+		has_country_flag = Bosnians_cant_read
+	}
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+}
+
+STJ_Literacy = {
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+	
+	allowed = { 
+	    OR = {
+        tag = STJ
+		has_country_flag = YugoCleared
+		}
+		NOT = {
+		tag = CRO
+		}
+	}
+	
+	visible = {
+		has_country_flag = Croats_cant_read
+	}
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+}
+
+ALB_Literacy = {
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+	
+	allowed = { 
+        tag = ALB
+	}
+	
+	visible = {
+		has_country_flag = Albanians_cant_read
+	}
+	
+	icon = category_generic_political_actions
+	
+	picture = GFX_decision_YUG_Literacy_schoolkids
+}

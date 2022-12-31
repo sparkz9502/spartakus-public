@@ -1,0 +1,181 @@
+﻿###########################
+# Poland Events
+###########################
+# By Sybil/LWOI
+###########################
+
+add_namespace = poland
+add_namespace = polandterr
+
+country_event = { #Bashing time - Tarnapol
+	id = polandterr.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event polandterr.10"}
+	title = polandterr.10.t
+	desc = polandterr.10.d
+	picture = GFX_report_event
+	
+	immediate = { 
+	hidden_effect = {
+	POL = {
+			add_political_power = -50
+			
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.02
+			}
+        }		
+	PCR = {
+			set_country_flag = PCR_Revolted
+				transfer_state = 243
+				load_oob = "PCR"
+			}
+    POL = { declare_war_on = {
+				target = PCR
+				type = civil_war
+			} 
+			set_province_controller = 9454
+			set_province_controller = 491
+			set_province_controller = 11427
+			set_province_controller = 3562
+			}			
+	}
+	}
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = polandterr.10.a # oh no
+		
+	}
+	
+	option = {
+		name = polandterr.10.b # die
+		PCR = {
+		change_tag_from = POL
+		}
+	}
+}
+
+country_event = { #Bashing time - Jaroslaw
+	id = polandterr.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event polandterr.11"}
+	title = polandterr.11.t
+	desc = polandterr.11.d
+	picture = GFX_report_event
+	
+	immediate = { 
+	hidden_effect = {
+	POL = {
+			add_political_power = -50
+			
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.02
+			}
+        }		
+	PCR = {
+			set_country_flag = PCR_Revolted
+				transfer_state = 1353
+				load_oob = "PCR_2"
+			}
+    POL = { declare_war_on = {
+				target = PCR
+				type = civil_war
+			} 
+			set_province_controller = 6499
+			set_province_controller = 466
+			}			
+	}
+	}
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = polandterr.11.a # oh no
+		
+	}
+	
+	option = {
+		name = polandterr.11.b # die
+		PCR = {
+		change_tag_from = POL
+		}
+	}
+}
+
+country_event = { #Bashing time - Lomza
+	id = polandterr.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event polandterr.12"}
+	title = polandterr.12.t
+	desc = polandterr.12.d
+	picture = GFX_report_event
+	
+	immediate = { 
+	hidden_effect = {
+	POL = {
+			add_political_power = -50
+			
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.02
+			}
+        }		
+	PCR = {
+			set_country_flag = PCR_Revolted
+				transfer_state = 1354
+				load_oob = "PCR_3"
+			}
+    POL = { declare_war_on = {
+				target = PCR
+				type = civil_war
+			} 
+			set_province_controller = 11329
+			set_province_controller = 11274
+			}			
+	}
+	}
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = polandterr.12.a # oh no
+		
+	}
+	
+	option = {
+		name = polandterr.12.b # die
+		PCR = {
+		change_tag_from = POL
+		}
+	}
+}

@@ -1,0 +1,16 @@
+characters={
+	BSE_chetnik_congress={
+		name="Chetnik Congress"
+		portraits={
+			civilian={
+				large="gfx/leaders/BSE/Portrait_BSE_Placeholder.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CHETNIK_CONGRESS_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

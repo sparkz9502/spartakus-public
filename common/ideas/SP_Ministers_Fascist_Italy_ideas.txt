@@ -1,0 +1,1572 @@
+ideas = {
+################################################################################################################################################################################################
+### ILN
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	ILN_Michele_Bianchi_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Edmondo_Rossoni_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_respected_war_hero
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Leandro_Arpinati_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Umberto_Ajello_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giovanni_Preziosi_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Achille_Lauro_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Achille_Starace_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_local_tyrant
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Giacomo_Acerbo_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Italo_Balbo_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Giovanni_Giuriati_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Emilio_De_Bono_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_respected_war_hero
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Guido_Buffarini_Guidi_hog_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Benito_Mussolini_hog_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_il_duce
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giovanni_Gentile_hog_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Cesare_Forni_hog_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Augusto_De_Marsanich_hog_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Costanzo_Ciano_hog_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Piero_Parini_hog_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_respected_war_hero
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	ILN_Dino_Grandi_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Tullio_Cianetti_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Manlio_Morgagni_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Sergio_Panunzio_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Eugenio_Coselschi_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Tullio_Calcagno_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Filippo_Anfuso_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Dino_Alfieri_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Galeazzo_Ciano_for_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Serafino_Mazzolini_for_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giovanni_Host_Venturi_for_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Attilio_Teruzzi_for_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Luigi_Ridolfi_Vay_da_Verrazzano_for_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Icilio_Bacci_for_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+
+	ILN_Tullio_Cianetti_eco_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Giuseppe_Giulietti_eco_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_battle_fleet_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Edmondo_Rossoni_eco_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Silvio_Gai_eco_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_oil_baron
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Carlo_Favagrossa_eco_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_tank_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Domenico_Giampietro_eco_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giuseppe_Volpi_eco_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Agostino_Rocca_eco_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_construction_magnate
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Ettore_Conti_di_Verampio_eco_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Filippo_Cremonesi_eco_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Vincenzo_Azzolini_eco_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+
+	ILN_Dino_Grandi_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Luigi_Razza_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Roberto_Farinacci_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Ernesto_Belloni_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Tullio_Calcagno_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Tullio_Tamburini_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Giovanni_Orgera_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Aldo_Oviglio_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Arturo_Bocchini_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Alessandro_Pavolini_sec_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_preserver_of_culture
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giorgio_Bardanzellu_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Cesare_Mori_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giovanni_Papini_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_media_magnate
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Arrigo_Solmi_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Dino_Perrone_Compagni_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Francesco_Giunta_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Mario_Roatta_sec_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = {
+	ILN_Mario_Ascione_agr_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+
+	ILN_Dino_Grandi_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Luigi_Razza_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Edmondo_Rossoni_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Filippo_Anfuso_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Antonino_Tringali_Casanuova_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Renato_Ricci_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Lorenzo_Chierici_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Alessandro_Pavolini_def_nsy = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Carlo_Scorza_def_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Pompeo_Aloisi_def_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Giacomo_Comincioli_def_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Innocente_Dugnani_def_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Cesare_Mori_def_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Renzo_Montagna_def_ncp = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	ILN_Federico_Baistrocchi_cos = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Alessandro_Pirzio_Biroli_cos = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Mario_Roatta_cos = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Alberto_Pariani_cos = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_commando_operations
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Ettore_Bastico_cos = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Rodolfo_Graziani_cos = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	ILN_Enrico_Adami_Rossi_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Gioacchino_Solinas_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ILN_Rodolfo_Graziani_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Enrico_Francisci_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Piero_Brandimarte_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Ottorino_Mezzetti_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Ermacora_Zuliani_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Gastone_Gambara_carm = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+	ILN_Ubaldo_degli_Uberti_cnav = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Ferruccio_Ferrini_cnav = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Mario_Falangola_cnav = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	ILN_Vasco_Magrini_cair = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Fulco_Ruffo_di_Calabria_cair = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Pier_Ruggero_Piccio_cair = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Marziale_Cerutti_cair = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ILN_Italo_Balbo_cair = {
+		allowed = {original_tag = ILN}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=230
+	name="STATE_230"
+
+	history={
+		owner = ARM
+		victory_points = {
+			12320 7 
+		}
+		victory_points = {
+			12441 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 2
+			air_base = 2
+
+		}
+		add_core_of = ARM
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		3564 6997 11708 12320 12380 12441 12450 13123 15664 
+	}
+	manpower=947000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,108 @@
+leader_traits = {
+
+	hos_the_greek_lenin = {
+		stability_factor = 0.05
+		research_speed_factor = 0.025
+		consumer_goods_factor = -0.05
+	}
+
+	hos_the_greek_bukharin = {
+		stability_factor = 0.05
+		research_speed_factor = 0.025
+		consumer_goods_factor = -0.05
+	}
+
+	hos_president_of_the_hellenic_republic = { ### Zaimis
+		stability_factor = 0.03
+		political_power_gain = 0.02
+	}
+
+	hos_king_of_the_hellenes = { ### Georgios II, Pavlos I
+		war_support_factor = 0.02
+		stability_factor = 0.03
+	}
+
+	hos_antivasileas = { ### Kondylis
+		war_support_factor = 0.03
+		stability_factor = 0.02
+	}
+
+	hos_old_incapable_leader = {
+		stability_factor = -0.15
+	}
+
+	hog_veteran_politician = { ### Venizelos, Tsaldaris
+		political_power_gain = 0.03
+		stability_factor = 0.02
+		research_speed_factor = 0.025
+		consumer_goods_factor = -0.05
+	}
+
+	mwp_president_of_the_boule = { ### Greek Parliament
+		stability_factor = 0.02
+		political_power_gain = 0.03
+	}
+
+	mwp_beloved_compromiser = { ### Ioannidis
+		stability_factor = 0.01
+		political_power_gain = 0.02
+		
+		random = no
+	}
+
+	mwp_head_of_the_EGSEE = { ### Ploubidis
+		stability_factor = 0.02
+		political_power_gain = -0.01
+		consumer_goods_factor = -0.05
+		industrial_capacity_factory = 0.05
+		local_resources_factor = 0.05
+		
+		random = no
+	}
+	
+	mwp_traitorous_union_boss = { ### Speras
+		political_power_gain = -0.01
+		stability_factor = 0.02
+		
+		random = no
+	}
+
+	sec_woman_of_the_people = { ### Hatzivasileiou
+		stability_factor = 0.1
+		resistance_target = -0.1
+
+		random = no
+	}
+
+	edu_theologist_academic = {
+		stability_factor = 0.03
+		political_power_gain = 0.01
+		drift_defence_factor = 0.3
+
+		random = no
+	}
+
+	theo_socialist_poet = { ### Ritsos
+		political_power_gain = 0.03
+		stability_factor = 0.01
+		drift_defence_factor = 0.3
+	}
+
+	theo_megaloideatis_poet = { ### Palamas
+		political_power_gain = 0.03
+		war_support_factor = 0.01
+	}
+
+	theo_religious_leader = {
+		stability_factor = 0.1
+		political_power_gain = 0.01
+		drift_defence_factor = 0.3
+	}
+
+	theo_fanatical_intelligence_officer = {
+		resistance_target = -0.05
+		partisan_effect = 0.1
+		enemy_partisan_effect = -0.1
+		drift_defence_factor = 0.3
+	}
+}

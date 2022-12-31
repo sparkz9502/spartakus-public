@@ -1,0 +1,27 @@
+
+state={
+	id=551
+	name="STATE_551"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			air_base = 2
+		}
+		victory_points = {
+			1037 5 
+		}
+
+	}
+
+	provinces={
+		1037 1046 1105 1914 4918 10743 10795 11969 12806 12826 
+	}
+	manpower=1234400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

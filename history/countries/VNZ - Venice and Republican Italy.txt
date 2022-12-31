@@ -1,0 +1,74 @@
+﻿capital = 160
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.2
+set_war_support = 0.0
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_par
+	trade_pro
+	economy_semind
+	mobilization_2
+}
+
+### Country Leaders ###
+recruit_character = VNZ_italico_corradino_cappellotto
+recruit_character = VNZ_carlo_rosselli
+
+### Field Marshals ###
+
+### Generals ###
+
+### Admirals ###
+
+### Starting Tech ###
+set_technology = {
+	# TECH GETS COPIED FROM ITA #
+}
+
+### Politics ###
+
+set_politics = {
+	ruling_party = reformist_socialist
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 1
+    spartacist = 4
+    revolutionary_socialist = 4
+    reformist_socialist = 29
+    social_democrat = 24
+    social_liberal = 6
+    liberal_conservative = 9
+    social_conservative = 16
+    authoritarian_conservative = 0
+    right_wing_populist = 1
+    national_syndicalist = 2
+    national_corporatist = 4
+}
+
+set_country_flag = coalition_social_democrat
+
+set_country_flag = banned_bolshevist
+set_country_flag = banned_spartacist
+set_country_flag = banned_revolutionary_socialist
+set_country_flag = banned_social_liberal
+set_country_flag = banned_liberal_conservative
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist
+
+### Diplomacy ###
+add_opinion_modifier = { target = SOV modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = SOV modifier = SP_unrecognised_relations_trade }
+add_opinion_modifier = { target = GER modifier = SP_unrecognised_relations }
+add_opinion_modifier = { target = GER modifier = SP_unrecognised_relations_trade }
+add_opinion_modifier = { target = FRA modifier = SP_bad_relations }
+add_opinion_modifier = { target = FRA modifier = SP_bad_relations_trade }
+add_opinion_modifier = { target = ENG modifier = SP_moderately_good_relations }
+add_opinion_modifier = { target = ENG modifier = SP_moderately_good_relations_trade }

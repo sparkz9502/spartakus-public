@@ -1,0 +1,54 @@
+﻿l_english:
+
+# Events
+afg.0.t:0 "The Kingdom of Afghanistan"
+afg.0.desc:0 "After Amanullah Khan ascended to the throne in 1919, he announced that he would enact sweeping reforms that would Westernise the country and bring about a new era for Afghanistan. He came to power in a period of instability, however, and the traditionalist tribes seemed wary of reform to the country's governance and way of life. \n\nSo it was that only two months into his reign, Amanullah realised that he would need to placate the conservatives and increase his own prestige. Given that Britain, which governed Afghanistan's diplomacy, was busy intervening in the revolutions that followed the Great War, he decided that he would secure Afghanistan's independence, and secure territory from the British Raj. \n\nSeveral months later, he signed a truce with the British, naming Peshawar Afghani territory and releasing his regime from British overlordship. His position secured, Amanullah began his reforms, and over the next years aligned his country's diplomatic interests with the Soviet Union, who supplied military aid to his regime. \n\nA tribal uprising in 1929 was crushed with Soviet support, but the incident demonstrated to Amanullah that he would have to moderate his reforms or face continued unrest from the tribes. If he's not careful, he could face another revolt soon...."
+afg.0.a:"Hopefully we remain at peace."
+afg.1.t:0 "Kabul University Grand Opening"
+afg.1.desc:0 ""
+afg.1.a:0 "Wonderful!"
+
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+
+# Focuses
+
+
+# Parties
+AFG_bolshevist_party:0 "Bolsheviks"
+AFG_bolshevist_party_long:0 "Bolsheviks"
+AFG_spartacist_party:0 " "
+AFG_spartacist_party_long:0 " "
+AFG_reformist_socialist_party:0 " "
+AFG_reformist_socialist_party_long:0 " "
+AFG_revolutionary_socialist_party:0 " "
+AFG_revolutionary_socialist_party_long:0 " "
+AFG_social_democrat_party:0 " "
+AFG_social_democrat_party_long:0 " "
+AFG_social_liberal_party:0 "Liberals"
+AFG_social_liberal_party_long:0 "Liberals"
+AFG_liberal_conservative_party:0 "Reformers"
+AFG_liberal_conservative_party_long:0 "Reformers"
+AFG_social_conservative_party:0 "Reformers"
+AFG_social_conservative_party_long:0 "Reformers"
+AFG_authoritarian_conservative_party:0 "Barakzai"
+AFG_authoritarian_conservative_party_long:0 "Barakzai"
+AFG_right_wing_populist_party:0 "Saqqawists"
+AFG_right_wing_populist_party_long:0 "Saqqawists"
+AFG_national_syndicalist_party:0 " "
+AFG_national_syndicalist_party_long:0 " "
+AFG_national_corporatist_party:0 " "
+AFG_national_corporatist_party_long:0 " "
+
+
+# Opinion Modifiers
+
+
+# Leader descriptions
+POLITICS_AMANULLAH_KHAN_DESC:0 ""

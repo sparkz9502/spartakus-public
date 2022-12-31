@@ -1,0 +1,95 @@
+﻿capital = 48
+
+set_oob = "BUL"
+
+add_ideas = {
+	###Laws###
+	recruitment_1825
+	governance_exec
+	trade_nat
+	economy_indzing
+	mobilization_2
+	
+	### National Spirits ###
+	BUL_economic_stagnation
+	BUL_agricultural_nation
+	BUL_revolutionary_decade
+	BUL_opposition_army
+	
+	### Ministers ###
+	BUL_Alexander_Stamboliyski_hog_sde
+}
+
+### Country Leaders ###
+recruit_character = BUL_georgi_dimitrov
+recruit_character = BUL_mihail_gerdzhikov
+recruit_character = BUL_rayko_daskalov
+recruit_character = BUL_aleksandar_stamboliyski
+recruit_character = BUL_nikola_mushanov
+recruit_character = BUL_alexander_malinov
+recruit_character = BUL_andrey_lyapchev
+recruit_character = BUL_kiril_i
+
+### Field Marshals ###
+recruit_character = BUL_ivan_valkov
+
+### Generals ###
+recruit_character = BUL_atanas_zhilkov
+recruit_character = BUL_georgi_popov
+recruit_character = BUL_hristo_lukov
+recruit_character = BUL_kimon_georgiev
+recruit_character = BUL_nikola_popov
+recruit_character = BUL_nikola_zhekov
+recruit_character = BUL_pencho_zlatev
+recruit_character = BUL_vasil_boydev
+recruit_character = BUL_vasil_kutinchev
+recruit_character = BUL_vladimir_stoychev
+recruit_character = BUL_vladimir_zaimov
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	motorised_infantry = 1
+	
+	### Air ###
+	early_fighter = 1
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = social_democrat
+	last_election = "1930.6.21"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    bolshevist = 18
+    spartacist = 3
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 44
+    social_liberal = 3
+    liberal_conservative = 5
+    social_conservative = 10
+    authoritarian_conservative = 3
+    right_wing_populist = 3
+    national_syndicalist = 4
+    national_corporatist = 7
+}
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_spartacist
+
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist

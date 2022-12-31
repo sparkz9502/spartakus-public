@@ -1,0 +1,38 @@
+
+state={
+	id=1327
+	name="STATE_1327"
+	resources={
+		iron=511.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			11502 10 
+		}
+		victory_points = {
+			9559 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 1
+			11502 = {
+				bunker = 4
+			}
+			9559 = {
+				bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		698 3629 9559 11502 
+	}
+	manpower=693400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

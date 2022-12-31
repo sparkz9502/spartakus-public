@@ -1,0 +1,21 @@
+
+state={
+	id=1471
+	name="STATE_1471"
+	provinces={
+		8089 13458 
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = MEX
+
+	}
+	manpower=1355900
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

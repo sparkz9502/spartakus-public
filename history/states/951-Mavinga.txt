@@ -1,0 +1,22 @@
+
+state={
+	id=951
+	name="STATE_951"
+
+	history={
+		owner = PRM
+		#add_core_of = ANG
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4735 5189 8138 8202 10957 12391 12985 13652 14640 14677 14680 14706 14750 14767 14770 14775 14778 14799 14803 14808 14822 14827 
+	}
+	manpower=574640
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

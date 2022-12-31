@@ -1,0 +1,29 @@
+
+state={
+	id=930
+	name="STATE_930"
+
+	history={
+		owner = USA
+		add_core_of = USA
+		victory_points = {
+			9786 1 
+		}
+		victory_points = {
+			9758 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		9758 9786 
+	}
+	manpower=238400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

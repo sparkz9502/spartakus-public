@@ -1,0 +1,26 @@
+
+state={
+	id=1041
+	name="STATE_1041"
+
+	history={
+		owner = SOV
+		victory_points = {
+			9632 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		#add_core_of = GEO
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		9632 
+	}
+	manpower=92000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

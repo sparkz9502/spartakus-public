@@ -1,0 +1,25 @@
+
+state={
+	id=976
+	name="STATE_976"
+
+	history={
+		owner = CNR
+		add_core_of = CNR
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			2024 1 
+		}
+
+	}
+
+	provinces={
+		1731 2024 4128 7716 8016 9986 13892 13897 13900 13903 13907 13908 13921 14785 14814 14817 14834 
+	}
+	manpower=1933500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

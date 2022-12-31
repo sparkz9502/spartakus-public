@@ -1,0 +1,22 @@
+
+state={
+	id=799
+	name="STATE_799"
+
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1976 4167 4256 4295 7406 7418 10257 
+	}
+	manpower=2364900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

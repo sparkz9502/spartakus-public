@@ -1,0 +1,27 @@
+
+state={
+	id=438
+	name="STATE_438"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = GWL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			10807 15 
+		}
+
+	}
+
+	provinces={
+		2036 10807 15354 15403 15410 
+	}
+	manpower=7650000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

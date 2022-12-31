@@ -1,0 +1,32 @@
+
+state={
+	id=1112
+	name="STATE_1112"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = GWL
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			2036 2 
+		}
+		victory_points = {
+			7080 1 
+		}
+		victory_points = {
+			11995 5 
+		}
+
+	}
+
+	provinces={
+		1949 7080 11995 15398 
+	}
+	manpower=1670000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

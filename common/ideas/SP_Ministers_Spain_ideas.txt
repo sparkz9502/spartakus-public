@@ -1,0 +1,209 @@
+ideas = {
+################################################################################################################################################################################################
+### SPR
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	SPR_Manuel_Azana_Diaz_hog_sli = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+
+	SPR_Alvaro_Albornoz_Liminiana_mwp_sli = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	SPR_Luis_Zulueta_Escolano_for_sli = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+
+	SPR_Marcelino_Domingo_Sanjuan_eco_sli = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+
+	SPR_Santiago_Casares_Quiroga_sec_ref = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+education_minister = { ### Education Minister
+
+	SPR_Fernando_Rios_Urruti = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = { ### Agriculture Minister
+
+	SPR_Francisco_Largo_Caballero = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			agriculture_minister
+			agr_inexperienced_agriculturalis
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = { ### Transport Minister
+
+	SPR_Indalecio_Prieto_Tuero = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			agriculture_minister
+			agr_inexperienced_agriculturalis
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+
+	SPR_Manuel_Azana_Diaz_def = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	SPR_Giuseppe_Musinu_carm = {
+		allowed = {original_tag = SPR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+}
+
+sp_theorist = { ### Theorist ###
+	
+}
+}

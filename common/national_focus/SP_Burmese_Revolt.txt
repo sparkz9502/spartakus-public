@@ -1,0 +1,215 @@
+###########################
+# Burmese Revolt Focus Tree
+# By sparkz
+###########################
+
+focus_tree = {
+	id = BMR_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = BMR
+		}
+	}
+	
+focus = {
+		id = BMR_The_Great_Burma_Revolt
+		icon = GFX_goal_revolution_tools
+		x = 2
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+			add_stability = 0.05
+		}
+	}
+	
+focus = {
+		id = BMR_Acquire_Rifles
+		icon = GFX_Renewed_Arms
+		prerequisite = { focus = BMR_The_Great_Burma_Revolt }
+		x = -2
+		y = 1
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 250 producer = ENG
+			}
+		}
+	}
+	
+focus = {
+		id = BMR_Guerilla_Tactics
+		icon = GFX_Skull_Nomads
+		prerequisite = { focus = BMR_Acquire_Rifles }
+		x = -2
+		y = 2
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+			swap_ideas = {
+					remove_idea = BMR_Disorganized_Militias
+					add_idea = BMR_Guerilla_Tactics_Idea
+				}
+		}
+	}
+	
+focus = {
+		id = BMR_Raise_New_Militias
+		icon = GFX_Recruitment
+		prerequisite = { focus = BMR_Guerilla_Tactics }
+		x = -2
+		y = 3
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = BMR_Build_Support
+		icon = GFX_Rally
+		prerequisite = { focus = BMR_The_Great_Burma_Revolt }
+		x = 0
+		y = 1
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+			swap_ideas = {
+					remove_idea = BMR_Questionable_Support
+					add_idea = BMR_Built_Support
+				}
+		}
+	}
+	
+focus = {
+		id = BMR_Purge_Independents
+		icon = GFX_Purge_Kulaks
+		prerequisite = { focus = BMR_Build_Support }
+		x = 0
+		y = 2
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+			swap_ideas = {
+					remove_idea = BMR_Political_Disunity
+					add_idea = BMR_Independents_Purged
+				}
+		}
+	}
+	
+focus = {
+		id = BMR_Increase_Recruitment
+		icon = GFX_Communist_Loyalty
+		prerequisite = { focus = BMR_Purge_Independents }
+		x = 0
+		y = 3
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+			add_ideas = BMR_Recruitment_Increased
+		}
+	}
+	
+focus = {
+		id = BMR_Ask_For_Volunteers
+		icon = GFX_Red_Army
+		prerequisite = { focus = BMR_The_Great_Burma_Revolt }
+		x = 2
+		y = 1
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = BMR_Request_Foreign_Aid
+		icon = GFX_goal_Arms_Export
+		prerequisite = { focus = BMR_Ask_For_Volunteers }
+		x = 2
+		y = 2
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+		}
+	}
+	
+focus = {
+		id = BMR_Smuggle_Weaponry
+		icon = GFX_goal_national_arsenal
+		prerequisite = { focus = BMR_Request_Foreign_Aid }
+		x = 2
+		y = 3
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+			add_political_power = -50
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 250 producer = SIA
+			}
+		}
+	}
+	
+focus = {
+		id = BMR_Still_Alive
+		icon = GFX_Communist_Pride
+		prerequisite = { focus = BMR_Smuggle_Weaponry }
+		prerequisite = { focus = BMR_Increase_Recruitment }
+		prerequisite = { focus = BMR_Raise_New_Militias }
+		x = 0
+		y = 4
+		relative_position_id = BMR_The_Great_Burma_Revolt
+		cost = 5
+		ai_will_do = {
+			factor = 75
+		}
+
+		completion_reward = {
+			add_stability = 0.1
+			add_ideas = BMR_Still_Alive
+		}
+	}
+	
+}

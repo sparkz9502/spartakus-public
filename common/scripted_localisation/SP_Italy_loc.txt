@@ -1,0 +1,68 @@
+defined_text = {
+	name = GetItalyInfluenceText
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_influence_var
+				value = 10
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = ITA_favor_nationalist
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_influence_var
+				value = 9
+				compare = less_than_or_equals
+			}
+			check_variable = {
+				var = ITA_influence_var
+				value = 5
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = ITA_slightly_favor_nationalist
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_influence_var
+				value = 4
+				compare = less_than_or_equals
+			}
+			check_variable = {
+				var = ITA_influence_var
+				value = -4
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = ITA_balanced
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_influence_var
+				value = -9
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = ITA_influence_var
+				value = -5
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ITA_slightly_favor_orthodox
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = ITA_influence_var
+				value = -10
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = ITA_favor_orthodox
+	}
+}

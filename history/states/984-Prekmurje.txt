@@ -1,0 +1,20 @@
+state={
+	id=984
+	name="STATE_984"
+	provinces={
+		6672
+	}
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SLV
+		add_core_of = HUN
+	}
+
+	manpower=102900
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

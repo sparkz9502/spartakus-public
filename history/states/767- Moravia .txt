@@ -1,0 +1,47 @@
+
+state={
+	id=767
+	name="STATE_767"
+	resources={
+		coal=1
+		copper=9
+	}
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			11887 10
+		}
+		victory_points = {
+			6634 3 
+		}
+		victory_points = {
+			9756 3 
+		}
+		victory_points = {
+			630 1 
+		}
+		# 767 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 11887
+					# id = 9756
+				# }
+			# }
+		# }
+		add_core_of = SER
+
+	}
+
+	provinces={
+		630 6634 9602 9756 11887 
+	}
+	manpower=507863
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=112
+	name="STATE_112"
+
+	history={
+		owner = POR
+		victory_points = {
+			11805 20
+		}
+		victory_points = {
+			970 5 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 1
+			air_base = 5
+			dockyard = 1
+			11805 = {
+				naval_base = 8
+
+			}
+		}
+		add_core_of = POR
+		add_core_of = PRM
+
+	}
+
+	provinces={
+		970 11805 
+	}
+	manpower=1140300
+	buildings_max_level_factor=1.000
+	state_category=city
+}

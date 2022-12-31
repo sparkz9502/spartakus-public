@@ -1,0 +1,725 @@
+
+# Agitation
+SER_decisions_unification = {
+
+	SER_dec_agitate_backa = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Is_Yugoslavia
+			NOT = {
+				controls_state = 45
+				controls_state = 1002
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = SER_decisions_backa
+			hidden_effect = {
+			set_country_flag = SER_backa
+			}
+		}
+	}
+	
+	SER_dec_agitate_banat = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Is_Yugoslavia
+			NOT = {
+				controls_state = 875
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = SER_decisions_banat
+			hidden_effect = {
+			set_country_flag = SER_banat
+			}
+		}
+	}
+
+	SER_dec_agitate_italian_territories = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Is_Yugoslavia
+			NOT = {
+				controls_state = 996
+				controls_state = 1008
+				controls_state = 736
+			}
+        }
+		fire_only_once = yes
+        cost = 100
+        complete_effect = {
+			unlock_decision_category_tooltip = SER_decisions_itter
+			hidden_effect = {
+			set_country_flag = SER_itter
+			}
+		}
+	}
+
+	SER_dec_rename_backa = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 45
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			45 = {
+				set_state_name = "Bačka"
+			}
+			set_province_name = {
+				id = 619
+				name = "Novi Sad"
+			}
+			set_province_name = {
+				id = 9621
+				name = "Subotica"
+			}
+
+		}
+	}
+	
+	SER_dec_rename_banat = { 
+		icon = GFX_decision_generic_decision
+        available = {
+			controls_state = 875
+        }
+		fire_only_once = yes
+        cost = 5
+        complete_effect = {
+			875 = {
+				set_state_name = "Zapadni Banat"
+			}
+			set_province_name = {
+				id = 3614
+				name = "Zrenjanin"
+			}
+		}
+	}
+}
+
+# Backa Border War
+SER_decisions_backa = {
+
+	SER_dec_backa_rally = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+		days_remove = 15
+		days_re_enable = 15
+        cost = 25
+        complete_effect = {
+			add_to_variable = { SER.backa_conflict = 2 } 
+		}
+	}
+
+	SER_dec_backa_agitators = { 
+		icon = GFX_decision_generic_political_discourse
+        available = {
+        }
+		days_remove = 20
+		days_re_enable = 20
+		custom_cost_trigger = {
+			has_army_experience  > 10
+		}
+		custom_cost_text = SER_dec_cost_xp_10
+        complete_effect = {
+			add_to_variable = { SER.backa_conflict = 5 } 
+		}
+	}
+
+	SER_dec_backa_pamphlets_1 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_5	
+				check_variable = { SER.backa_conflict > 5 }
+			}
+        }
+        cost = 50
+        complete_effect = {
+			multiply_variable = { SER.backa_conflict = 1.2 } 
+			hidden_effect = { 
+				set_country_flag = SER_pamphlets_1 
+			}
+		}
+	}
+
+	SER_dec_backa_pamphlets_2 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_15	
+				check_variable = { SER.backa_conflict > 15 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = SER_pamphlets_1
+			}
+		}
+        cost = 70
+        complete_effect = {
+			multiply_variable = { SER.backa_conflict = 1.3 } 
+			hidden_effect = { 
+				set_country_flag = SER_pamphlets_2 
+			}
+		}
+	}
+
+	SER_dec_backa_pamphlets_3 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_25	
+				check_variable = { SER.backa_conflict > 25 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = SER_pamphlets_2
+			}
+		}
+        cost = 90
+        complete_effect = {
+			multiply_variable = { SER.backa_conflict = 1.4 } 
+		}
+	}
+
+	SER_dec_backa_weapons = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_20
+				check_variable = { SER.backa_conflict > 20 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 100
+			}
+		}
+		custom_cost_text = SER_dec_cost_infantry_100
+
+        complete_effect = {
+			add_to_variable = { SER.backa_conflict = 5 } 
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+			}
+		}
+	}
+
+	SER_dec_backa_officers	 = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_30
+				check_variable = { SER.backa_conflict > 30 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_manpower > 10
+			has_army_experience  > 15
+		}
+		custom_cost_text = SER_dec_cost_mpxp_1015
+
+        complete_effect = {
+			add_to_variable = { SER.backa_conflict = 7 } 
+			hidden_effect = {
+				army_experience = -15
+				add_manpower = -10
+			}
+		}
+	}
+
+	SER_dec_backa_troops = { 
+		icon = GFX_decision_infiltrate_state
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_40
+				check_variable = { SER.backa_conflict > 40 }
+			}
+        }
+		days_remove = 60
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			has_manpower > 100
+			has_army_experience  > 25
+		}
+		custom_cost_text = SER_dec_cost_mpxp_10025
+
+        complete_effect = {
+			add_to_variable = { SER.backa_conflict = 10 } 
+			hidden_effect = {
+				army_experience = -25
+				add_manpower = -100
+			}
+		}
+	}
+
+	SER_dec_hungarian_conference = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_85
+				check_variable = { SER.backa_conflict > 85 }
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_to_variable = { SER.backa_conflict = -5 } 
+		}
+	}
+
+	SER_dec_hungarian_war = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_100	
+				check_variable = { SER.backa_conflict > 100 }
+			}
+        }
+        cost = 150
+        complete_effect = {
+			declare_war_on = {
+				target = HUN
+				type = take_core_state
+			}
+		}
+	}
+}
+
+# Banat Border War
+SER_decisions_banat = {
+
+	SER_dec_banat_rally = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+		days_remove = 15
+		days_re_enable = 15
+        cost = 25
+        complete_effect = {
+			add_to_variable = { SER.banat_conflict = 2 } 
+		}
+	}
+
+	SER_dec_banat_agitators = { 
+		icon = GFX_decision_generic_political_discourse
+        available = {
+        }
+		days_remove = 20
+		days_re_enable = 20
+		custom_cost_trigger = {
+			has_army_experience  > 10
+		}
+		custom_cost_text = SER_dec_cost_xp_10
+        complete_effect = {
+			add_to_variable = { SER.banat_conflict = 5 } 
+		}
+	}
+
+	SER_dec_banat_pamphlets_1 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_5	
+				check_variable = { SER.banat_conflict > 5 }
+			}
+        }
+        cost = 50
+        complete_effect = {
+			multiply_variable = { SER.banat_conflict = 1.2 } 
+			hidden_effect = { 
+				set_country_flag = SER_pamphlets_1 
+			}
+		}
+	}
+
+	SER_dec_banat_pamphlets_2 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_15	
+				check_variable = { SER.banat_conflict > 15 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = SER_pamphlets_1
+			}
+		}
+        cost = 70
+        complete_effect = {
+			multiply_variable = { SER.banat_conflict = 1.3 } 
+			hidden_effect = { 
+				set_country_flag = SER_pamphlets_2 
+			}
+		}
+	}
+
+	SER_dec_banat_pamphlets_3 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_25	
+				check_variable = { SER.banat_conflict > 25 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = SER_pamphlets_2
+			}
+		}
+        cost = 90
+        complete_effect = {
+			multiply_variable = { SER.banat_conflict = 1.4 } 
+		}
+	}
+
+	SER_dec_banat_weapons = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_20
+				check_variable = { SER.banat_conflict > 20 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 100
+			}
+		}
+		custom_cost_text = SER_dec_cost_infantry_100
+
+        complete_effect = {
+			add_to_variable = { SER.banat_conflict = 5 } 
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+			}
+		}
+	}
+
+	SER_dec_banat_officers	 = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_30
+				check_variable = { SER.banat_conflict > 30 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_manpower > 10
+			has_army_experience  > 15
+		}
+		custom_cost_text = SER_dec_cost_mpxp_1015
+
+        complete_effect = {
+			add_to_variable = { SER.banat_conflict = 7 } 
+			hidden_effect = {
+				army_experience = -15
+				add_manpower = -10
+			}
+		}
+	}
+
+	SER_dec_banat_troops = { 
+		icon = GFX_decision_infiltrate_state
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_40
+				check_variable = { SER.banat_conflict > 40 }
+			}
+        }
+		days_remove = 60
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			has_manpower > 100
+			has_army_experience  > 25
+		}
+		custom_cost_text = SER_dec_cost_mpxp_10025
+
+        complete_effect = {
+			add_to_variable = { SER.banat_conflict = 10 } 
+			hidden_effect = {
+				army_experience = -25
+				add_manpower = -100
+			}
+		}
+	}
+
+	SER_dec_romanian_conference = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_85
+				check_variable = { SER.banat_conflict > 85 }
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_to_variable = { SER.banat_conflict = -5 } 
+		}
+	}
+
+	SER_dec_romanian_war = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_100	
+				check_variable = { SER.banat_conflict > 100 }
+			}
+        }
+        cost = 150
+        complete_effect = {
+			declare_war_on = {
+				target = ROM
+				type = take_core_state
+			}
+		}
+	}
+}
+
+# Italian Territories Border War
+SER_decisions_itter = {
+
+	SER_dec_itter_rally = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+        }
+		days_remove = 15
+		days_re_enable = 15
+        cost = 25
+        complete_effect = {
+			add_to_variable = { SER.itter_conflict = 2 } 
+		}
+	}
+
+	SER_dec_itter_agitators = { 
+		icon = GFX_decision_generic_political_discourse
+        available = {
+        }
+		days_remove = 20
+		days_re_enable = 20
+		custom_cost_trigger = {
+			has_army_experience  > 10
+		}
+		custom_cost_text = SER_dec_cost_xp_10
+        complete_effect = {
+			add_to_variable = { SER.itter_conflict = 5 } 
+		}
+	}
+
+	SER_dec_itter_pamphlets_1 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_5	
+				check_variable = { SER.itter_conflict > 5 }
+			}
+        }
+        cost = 50
+        complete_effect = {
+			multiply_variable = { SER.itter_conflict = 1.2 } 
+			hidden_effect = { 
+				set_country_flag = SER_pamphlets_1 
+			}
+		}
+	}
+
+	SER_dec_itter_pamphlets_2 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_15	
+				check_variable = { SER.itter_conflict > 15 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = SER_pamphlets_1
+			}
+		}
+        cost = 70
+        complete_effect = {
+			multiply_variable = { SER.itter_conflict = 1.3 } 
+			hidden_effect = { 
+				set_country_flag = SER_pamphlets_2 
+			}
+		}
+	}
+
+	SER_dec_itter_pamphlets_3 = { 
+		icon = GFX_decision_ger_mefo_bills
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_25	
+				check_variable = { SER.itter_conflict > 25 }
+			}
+        }
+		visible = {
+			hidden_trigger = {
+				has_country_flag = SER_pamphlets_2
+			}
+		}
+        cost = 90
+        complete_effect = {
+			multiply_variable = { SER.itter_conflict = 1.4 } 
+		}
+	}
+
+	SER_dec_itter_weapons = { 
+		icon = GFX_decision_generic_prepare_civil_war
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_20
+				check_variable = { SER.itter_conflict > 20 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_equipment = {
+				infantry_equipment_0 > 100
+			}
+		}
+		custom_cost_text = SER_dec_cost_infantry_100
+
+        complete_effect = {
+			add_to_variable = { SER.itter_conflict = 5 } 
+			hidden_effect = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+			}
+		}
+	}
+
+	SER_dec_itter_officers	 = { 
+		icon = GFX_decision_generic_army_support
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_30
+				check_variable = { SER.itter_conflict > 30 }
+			}
+        }
+		days_remove = 30
+		days_re_enable = 30
+
+		custom_cost_trigger = {
+			has_manpower > 10
+			has_army_experience  > 15
+		}
+		custom_cost_text = SER_dec_cost_mpxp_1015
+
+        complete_effect = {
+			add_to_variable = { SER.itter_conflict = 7 } 
+			hidden_effect = {
+				army_experience = -15
+				add_manpower = -10
+			}
+		}
+	}
+
+	SER_dec_itter_troops = { 
+		icon = GFX_decision_infiltrate_state
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_40
+				check_variable = { SER.itter_conflict > 40 }
+			}
+        }
+		days_remove = 60
+		days_re_enable = 60
+
+		custom_cost_trigger = {
+			has_manpower > 100
+			has_army_experience  > 25
+		}
+		custom_cost_text = SER_dec_cost_mpxp_10025
+
+        complete_effect = {
+			add_to_variable = { SER.itter_conflict = 10 } 
+			hidden_effect = {
+				army_experience = -25
+				add_manpower = -100
+			}
+		}
+	}
+
+	SER_dec_italian_conference = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_85
+				check_variable = { SER.itter_conflict > 85 }
+			}
+        }
+        cost = 100
+        complete_effect = {
+			add_to_variable = { SER.itter_conflict = -5 } 
+		}
+	}
+
+	SER_dec_italian_war = { 
+		icon = GFX_decision_generic_independence
+		fire_only_once = yes
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = ser_tt_tension_100	
+				check_variable = { SER.itter_conflict > 100 }
+			}
+        }
+        cost = 150
+        complete_effect = {
+			declare_war_on = {
+				target = ITA
+				type = take_core_state
+			}
+		}
+	}
+}
+
+#Postwar
+
+SER_decisions_postwar = {
+}

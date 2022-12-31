@@ -1,0 +1,49 @@
+﻿l_english:
+
+### Head of Government ###
+KHO_Soleiman_Eskandari_hog_ref:0 "Soleiman Eskandari"
+KHO_Hassan_Taqizadeh_hog_sli:0 "Hassan Taqizadeh"
+KHO_Mohammad_Taqi_Pessian_hog_sli:0 "Mohammad Taqi Pessian"
+
+### Minister Without Portfolio ###
+KHO_Mohammad_Khorasani_mwp_sli:0 "Mohammad Khorasani"
+
+### Foreign Minister ###
+KHO_Mirza_Abdolhossein_Sheibani_for_sli:0 "Mirza Abdolhossein Sheibani"
+
+### Economy Minister ###
+KHO_Iraj_Mirza_eco_sli:0 "Iraj Mirza"
+KHO_Leon_Dubois_eco_sli:0 "Léon Dubois"
+
+### Security Minister ###
+KHO_Noureddin_Alamouti_sec_sde:0 "Noureddin Alamouti"
+
+### Education Minister ###
+KHO_Mohammad_Gonabadi_edu_sde:0 "Mohammad Gonabadi"
+KHO_Ahmad_Bahar_edu_sli:0 "Ahmad Bahar"
+KHO_Mohammad-Taqi_Bahar_edu_sli:0 "Mohammad-Taqi Bahar"
+
+### Agriculture Minister ###
+KHO_Leon_Dubois_agr_sli:0 "Léon Dubois"
+
+### Transport Minister ###
+KHO_Iraj_Mirza_tra_sli:0 "Iraj Mirza"
+
+### Defence Minister ###
+KHO_Mohammad_Taqi_Pessian_def_sli:0 "Mohammad Taqi Pessian"
+
+### Chief of Staff ###
+KHO_Ismail_Khan_Bahador_cos:0 "Ismail Khan Bahador"
+KHO_Mohammad_Taqi_Pessian_cos:0 "Mohammad Taqi Pessian"
+
+### Chief of Army ###
+KHO_Ahmad_Amir-Ahmadi_carm:0 "Ahmad Amir-Ahmadi"
+KHO_Mahmoud_Khan_Nowzari_carm:0 "Mahmoud Khan Nowzari"
+KHO_Mahmud_Puladeen_carm:0 "Mahmud Puladeen"
+
+### Chief of Navy ###
+
+### Chief of Air Force ###
+KHO_Mohammad_Taqi_Pessian_cair:0 "Mohammad Taqi Pessian"
+
+### Theorist ###

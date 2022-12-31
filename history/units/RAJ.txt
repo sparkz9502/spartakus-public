@@ -1,0 +1,248 @@
+﻿division_template = {
+	name = "Infantry Division"
+	division_names_group = RAJ_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "District Garrison"			# Represents precursors to Indian Infantry Divisions (district divisions)
+	division_names_group = RAJ_GAR_01
+										# Has older equipment, lower experience
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Armored-Division"
+	division_names_group = RAJ_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Burma Military Police"
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+	}
+	is_locked = yes
+}
+
+####### OOB #######
+units = {
+	#India Command
+	
+	#Northern Command
+
+	division= {	# "Rawalpindi District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 103
+		}
+		location = 10173
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	# "Lahore District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 104
+		}
+		location = 10843
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	#Eastern Command
+	division= {	# "Meerut District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 106
+		}
+		location = 11955
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	# "Lucknow District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 107
+		}
+		location = 12137
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	
+		name = "Presidency & Assam District"
+		location = 1497
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	#Southern Command
+	division= {	# "Deccan District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 109
+		}
+		location = 12781
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	# "Bombay District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 110
+		}
+		location = 1349
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	division= {	# "Madras District"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 111
+		}
+		location = 10278
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	#Burma
+	division = {
+		name = "Rangoon Brigade Area"
+		location = 1330
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "Maymyo Brigade Area"
+		location = 1142
+		division_template = "District Garrison"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	# Burma Military Police
+	division = {
+		name = "Southern Shan States Battalion"
+		location = 4585
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Northern Shan States Battalion"
+		location = 12363
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Myitkyina Battalion"
+		location = 1082
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Bhamo Battalion"
+		location = 10920
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Chin Hills Battalion"
+		location = 3999
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.6
+	}
+	division = {
+		name = "Reserve Battalion"
+		location = 3651
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "1st Rangoon Battalion"
+		location = 1403
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "2nd Rangoon Battalion"
+		location = 1330
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+	division = {
+		name = "Mandalay Battalion"
+		location = 1492
+		division_template = "Burma Military Police"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.2
+	}
+}
+
+air_wings = {
+	### AHQ India
+	439 = { 
+		### AHQ India -- Fairey Gordons, Battles
+		CAS_equipment_1 = {
+			owner = "RAJ" 
+			amount = 80
+		}
+	}
+}
+
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "RAJ"
+		}
+		requested_factories = 1
+		progress = 0.12
+		efficiency = 100
+	}
+}

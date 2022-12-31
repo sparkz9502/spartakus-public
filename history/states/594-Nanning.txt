@@ -1,0 +1,30 @@
+
+state={
+	id=594
+	name="STATE_594"
+	resources={
+	}
+
+	history={
+		owner = GXC
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			7137 10
+		}
+
+	}
+
+	provinces={
+		1469 4028 4121 4152 4177 7044 7137 7192 10050 11983 12023 15576 15577 
+	}
+	manpower=5683500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,224 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_italyresistancegui"
+		texturefile = "gfx/interface/italyresistancegui/italyresistancegui.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_italyresistancemap"
+		texturefile = "gfx/interface/italyresistancegui/italyresistancemap.tga"
+	}
+	
+	#Map
+	
+	spriteType = {
+		name = "GFX_abruzzimolise_green"
+		texturefile = "gfx/interface/italyresistancegui/abruzzimolise_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_abruzzimolise_yellow"
+		texturefile = "gfx/interface/italyresistancegui/abruzzimolise_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_abruzzimolise_red"
+		texturefile = "gfx/interface/italyresistancegui/abruzzimolise_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_calabriabasilicata_green"
+		texturefile = "gfx/interface/italyresistancegui/calabriabasilicata_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_campania_green"
+		texturefile = "gfx/interface/italyresistancegui/campania_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_emiliaromagna_green"
+		texturefile = "gfx/interface/italyresistancegui/emiliaromagna_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_emiliaromagna_yellow"
+		texturefile = "gfx/interface/italyresistancegui/emiliaromagna_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_emiliaromagna_red"
+		texturefile = "gfx/interface/italyresistancegui/emiliaromagna_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_lazioumbria_green"
+		texturefile = "gfx/interface/italyresistancegui/lazioumbria_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_lazioumbria_yellow"
+		texturefile = "gfx/interface/italyresistancegui/lazioumbria_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_lazioumbria_red"
+		texturefile = "gfx/interface/italyresistancegui/lazioumbria_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_liguria_green"
+		texturefile = "gfx/interface/italyresistancegui/liguria_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_liguria_yellow"
+		texturefile = "gfx/interface/italyresistancegui/liguria_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_liguria_red"
+		texturefile = "gfx/interface/italyresistancegui/liguria_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_lombardia_green"
+		texturefile = "gfx/interface/italyresistancegui/lombardia_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_lombardia_yellow"
+		texturefile = "gfx/interface/italyresistancegui/lombardia_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_lombardia_red"
+		texturefile = "gfx/interface/italyresistancegui/lombardia_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_marche_green"
+		texturefile = "gfx/interface/italyresistancegui/marche_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_marche_yellow"
+		texturefile = "gfx/interface/italyresistancegui/marche_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_marche_red"
+		texturefile = "gfx/interface/italyresistancegui/marche_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_piemonte_green"
+		texturefile = "gfx/interface/italyresistancegui/piemonte_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_piemonte_yellow"
+		texturefile = "gfx/interface/italyresistancegui/piemonte_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_piemonte_red"
+		texturefile = "gfx/interface/italyresistancegui/piemonte_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_puglia_green"
+		texturefile = "gfx/interface/italyresistancegui/puglia_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sardegna_green"
+		texturefile = "gfx/interface/italyresistancegui/sardegna_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sardegna_yellow"
+		texturefile = "gfx/interface/italyresistancegui/sardegna_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sardegna_red"
+		texturefile = "gfx/interface/italyresistancegui/sardegna_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sicilia_green"
+		texturefile = "gfx/interface/italyresistancegui/sicilia_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sicilia_yellow"
+		texturefile = "gfx/interface/italyresistancegui/sicilia_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_sicilia_red"
+		texturefile = "gfx/interface/italyresistancegui/sicilia_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_toscana_green"
+		texturefile = "gfx/interface/italyresistancegui/toscana_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_toscana_yellow"
+		texturefile = "gfx/interface/italyresistancegui/toscana_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_toscana_red"
+		texturefile = "gfx/interface/italyresistancegui/toscana_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneto_green"
+		texturefile = "gfx/interface/italyresistancegui/veneto_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneto_yellow"
+		texturefile = "gfx/interface/italyresistancegui/veneto_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneto_red"
+		texturefile = "gfx/interface/italyresistancegui/veneto_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneziagiulia_green"
+		texturefile = "gfx/interface/italyresistancegui/veneziagiulia_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneziagiulia_yellow"
+		texturefile = "gfx/interface/italyresistancegui/veneziagiulia_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneziagiulia_red"
+		texturefile = "gfx/interface/italyresistancegui/veneziagiulia_red.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneziatridentina_green"
+		texturefile = "gfx/interface/italyresistancegui/veneziatridentina_green.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneziatridentina_yellow"
+		texturefile = "gfx/interface/italyresistancegui/veneziatridentina_yellow.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_veneziatridentina_red"
+		texturefile = "gfx/interface/italyresistancegui/veneziatridentina_red.tga"
+	}
+}

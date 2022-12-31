@@ -1,0 +1,29 @@
+
+state={
+	id=927
+	name="STATE_927"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			3991 = {
+				naval_base = 1
+			}
+
+		}
+		victory_points = {
+			7116 1 
+		}
+
+	}
+
+	provinces={
+		2080 3991 4116 5036 6039 7116 7166 13074 14443 14452 14518 
+	}
+	manpower=1475300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

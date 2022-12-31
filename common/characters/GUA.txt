@@ -1,0 +1,19 @@
+characters={
+    GUA_jorge_ubico_castaneda = {
+        name = "Jorge Ubico Castañeda"
+        portraits={
+            civilian={
+                large = "gfx/leaders/GUA/Portrait_Jorge_Ubico_Castaneda.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JORGE_UBICO_CASTANEDA_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_populism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

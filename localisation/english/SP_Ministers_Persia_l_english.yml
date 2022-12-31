@@ -1,0 +1,61 @@
+﻿l_english:
+
+### Head of Government ###
+PER_Ziaeddin_Tabatabaee_hog_lco:0 "Ziaeddin Tabatabaee"
+PER_Hassan_Pirnia_hog_aco:0 "Hassan Pirnia"
+PER_Reza_Khan_hog_aco:0 "Reza Khan"
+
+### Minister Without Portfolio ###
+PER_Reza_Khan_mwp_aco:0 "Reza Khan"
+
+### Foreign Minister ###
+PER_Abolhasan_Haerizadeh_for_lco:0 "Abolhasan Haerizadeh"
+PER_Firouz_Nosrat-ed-Dowleh_for_sco:0 "Firouz Nosrat-ed-Dowleh"
+
+### Economy Minister ###
+PER_Mohammad_Ali_Foroughi_eco_lco:0 "Mohammad Ali Foroughi"
+PER_Mohammad_Mosaddegh_eco_lco:0 "Mohammad Mosaddegh"
+PER_Firouz_Nosrat-ed-Dowleh_eco_sco:0 "Firouz Nosrat-ed-Dowleh"
+
+### Security Minister ###
+PER_Ali-Akbar_Davar_sec_lco:0 "Ali-Akbar Davar"
+PER_Amanullah_Jahanbani_sec_aco:0 "Amanullah Jahanbani"
+PER_Abdolhossein_Teymourtash_sec_ncp:0 "Abdolhossein Teymourtash"
+
+### Education Minister ###
+PER_Mohammad_Mosaddegh_edu_lco:0 "Mohammad Mosaddegh"
+PER_Mohammad_Tadayyon_edu_lco:0 "Mohammad Tadayyon"
+PER_Hassan_Modarres_edu_sco:0 "Hassan Modarres"
+
+### Agriculture Minister ###
+PER_Mohammad_Ali_Foroughi_agr_lco:0 "Mohammad Ali Foroughi"
+PER_Nikolai_Markov_agr_aco:0 "Nikolai Markov"
+
+### Transport Minister ###
+PER_Abolhasan_Haerizadeh_tra_lco:0 "Abolhasan Haerizadeh"
+PER_Mohammad_Mirza_Firouz_tra_aco:0 "Mohammad Mirza Firouz"
+
+### Defence Minister ###
+PER_Reza_Khan_def_aco:0 "Reza Khan"
+PER_Sardar_Homayoun_def_aco:0 "Sardar Homayoun"
+PER_Vsevolod_Starosselsky_def_aco:0 "Vsevolod Starosselsky"
+
+### Chief of Staff ###
+PER_Nikolai_Vadbolsky_cos:0 "Nikolai Vadbolsky"
+PER_Reza_Khan_cos:0 "Reza Khan"
+PER_Vsevolod_Starosselsky_cos:0 "Vsevolod Starosselsky"
+
+### Chief of Army ###
+PER_Amanullah_Jahanbani_carm:0 "Amanullah Jahanbani"
+PER_Amir_Abdollah_Tahmasebi_carm:0 "Amir Abdollah Tahmasebi"
+PER_Karim_Buzarjomehri_carm:0 "Karim Buzarjomehri"
+PER_Mohammad-Hosayn_Ayrom_carm:0 "Mohammad-Hosayn Ayrom"
+PER_Pavel_Shatilov_carm:0 "Pavel Shatilov"
+
+### Chief of Navy ###
+PER_Gholamali_Bayandor_cnav:0 "Gholamali Bayandor"
+
+### Chief of Air Force ###
+PER_Ahmad_Khan_Nakhjavan_cair:0 "Ahmad Khan Nakhjavan"
+
+### Theorist ###

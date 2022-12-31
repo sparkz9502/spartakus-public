@@ -1,0 +1,57 @@
+﻿division_template = {
+	name = "SNOUB"	# Infantry Division	
+	division_names_group = SLV_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+	}
+	support = { 
+	}
+}
+
+units = {
+	
+division = {
+		name = "2. SNOUB Ljubo Šercer"  			
+		location = 6650
+		division_template = "SNOUB" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+division = {
+		name = "19. SNOUB Srečko Kosovel"  			
+		location = 6650
+		division_template = "SNOUB" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+division = {
+		name = "3. SNOUB Ivan Gradnik"  			
+		location = 3631
+		division_template = "SNOUB" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+division = {
+		name = "4. SNOUB Matija Gubec"  			
+		location = 596
+		division_template = "SNOUB" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+	
+division = {
+		name = "6. SNOUB Slavko Šlander"  			
+		location = 9627
+		division_template = "SNOUB" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 1
+	}
+
+}
+	

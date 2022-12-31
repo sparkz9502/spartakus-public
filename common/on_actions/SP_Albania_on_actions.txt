@@ -1,0 +1,26 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			   ALB = {
+					country_event = { id = alb.1 days = 2 }
+				}
+			   ALB = {
+					country_event = { id = alb.2 days = 798 }
+				}
+				set_variable = {
+					var = ALB.italian_influence
+					value = 2
+				}
+				clamp_variable = {
+					var = ALB.british_influence
+					min = 0
+					max = 10
+				}
+				clamp_variable = {
+					var = ALB.italian_influence
+					min = 0
+					max = 10
+				}
+        }
+    }
+}

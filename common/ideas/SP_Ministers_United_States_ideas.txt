@@ -1,0 +1,1835 @@
+ideas = {
+################################################################################################################################################################################################
+### USA
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	USA_Charles_Curtis_hog_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Joseph_France_hog_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_George_Norris_hog_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_James_Reed_hog_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Joseph_Robinson_hog_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Henry_Wallace_hog_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_William_Bankhead_hog_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Frank_Knox_hog_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_corporate_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Charles_McNary_hog_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Henrik_Shipstead_hog_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Phillip_La_Folette_hog_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Alben_Barkley_hog_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Felix_Frankfurter_hog_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Burton_Wheeler_hog_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Norman_Thomas_hog_ref = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_spiritual_leader
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_William_Foster_hog_spa = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_revolutionary_figurehead
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Theodore_Bilbo_hog_nsy = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+minister_without_portfolio = {
+	USA_Walter_Brown_mwp_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_James_Farley_mwp_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Jacob_Coxey_mwp_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Joseph_Martin_mwp_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Robert_Hannegan_mwp_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Parley_Christensen_mwp_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Max_Schachtman_mwp_spa = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_John_Rankin_mwp_rwp = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			minister_without_portfolio
+			undistinguished_suit
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	USA_Henry_Stimson_for_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Cordell_Hull_for_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Arthur_Vandenberg_for_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_James_Byrnes_for_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Edward_Stettinus_Jr_for_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Merlin_Hull_for_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Earl_Browder_for_bol = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Eugene_Dennis_for_bol = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Robert_Reynolds_for_rwp = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	USA_Ogden_Mills_eco_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Charles_Dawes_eco_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Daniel_Roper_eco_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Henry_Morgenthau_eco_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_James_Wadsworth_eco_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Bronson_Cutting_eco_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_John_Snyder_eco_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Rexford_Tugwell_eco_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Vito_Marcantonio_eco_ref = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			economy_minister
+			eco_popular_trade_unionist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Charles_Coughlin_eco_nsy = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+
+	USA_William_Mitchell_sec_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+		
+	USA_Albert_Ottinger_sec_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_accomplished_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Homer_Cummings_sec_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Thomas_Thacher_sec_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Felix_Frankfurter_sec_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Thomas_Dewey_sec_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Francis_Biddle_sec_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_accomplished_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Earl_Warren_sec_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_J_Edgar_Hoover_sec_aco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Elizabeth_Flynn_sec_rev = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_health_and_safety
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Hiram_Evans_sec_ncp = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister		
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+education_minister = { ### Education Minister ###
+	USA_William_Cooper_edu_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_John_Studebaker_edu_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Paul_Robeson_edu_spa = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_political_philosopher
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Gerald_Smith_edu_ncp = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			education_minister
+			edu_old_school_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = {
+	USA_Arthur_Hyde_agr_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Josiah_Bailey_agr_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_conservative_landowner
+			}
+		cancel_if_invalid = no
+	}
+
+	USA_Rexford_Tugwell_agr_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			agriculture_minister
+			agr_calculated_collectivist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Claude_Wickard_agr_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_veteran_farmer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_William_Lemke_agr_sde = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			agriculture_minister
+			agr_champion_of_the_peasantry
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Arthur_Ringland_agr_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Clinton_Anderson_agr_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_James_Cannon_agr_spa = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_collectivist_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_William_Murray_agr_nsy = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			agriculture_minister
+			agr_champion_of_the_peasantry
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+transport_minister = {
+	USA_Roy_Chapin_tra_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Bronson_Cutting_tra_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			transport_minister
+			tra_military_focus
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Jesse_Jones_tra_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_resource_extraction_focus
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Henry_Ford_tra_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Daniel_Roper_tra_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_apolitical_administrator
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Robert_Lamont_tra_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_railway_enthusiast
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_George_Norris_tra_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			transport_minister
+			tra_apolitical_administrator
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Wendell_Willkie_tra_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister
+			tra_resource_extraction_focus
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Arthur_James_tra_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister	
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Averell_Harriman_tra_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_railway_enthusiast
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Francis_Harrington_tra_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			transport_minister
+			tra_apolitical_administrator
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_AJ_Muste_tra_ref = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			transport_minister
+			tra_inexperienced_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Charles_Lindbergh_tra_rwp = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			transport_minister
+			tra_military_focus
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Head of Intel ###
+
+	USA_Patrick_Hurley_def_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Harry_Woodring_def_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defense_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Hiram_Johnson_def_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defense_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Henry_Stimson_def_lco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defense_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_James_Forrestal_def_sco = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defense_minister
+			def_naval_intelligence_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_Harold_Stassen_def_sli = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defense_minister
+			def_naval_intelligence_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_James_Ford_def_spa = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defense_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	USA_George_Van_Horn_Moseley_def_ncp = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defense_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	USA_Douglas_MacArthur_cos = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Malin_Craig_cos = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_George_Marshall_cos = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Omar_Bradley_cos = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Dwight_Eisenhower_cos = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	USA_Douglas_MacArthur_carm = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Malin_Craig_carm = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_George_Marshall_carm = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Omar_Bradley_carm = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Dwight_Eisenhower_carm = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	
+	USA_William_Pratt_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_William_Standley_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_William_Leahy_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Harold_Stark_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Ernest_King_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Chester_Nimitz_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Edward_Kalbfus_cnav = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	USA_Benjamin_Foulois_cair = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Oscar_Westover_cair = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Frank_Andrews_cair = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Henry_Arnold_cair = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_innovative_aircraft_designer
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_James_Fechet_cair = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_innovative_aircraft_designer
+		}
+		cancel_if_invalid = no
+	}
+	
+	USA_Carl_Spaatz_cair = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = { ### Theorist ###
+	USA_J_Robert_Oppenheimer_theo = {
+		allowed = {original_tag = USA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		research_bonus = { #placeholder
+			rocketry = 0.1
+		}
+		traits = {
+			sp_theorist
+			nuclear_theorist
+		}
+		cancel_if_invalid = no
+	}
+}
+}

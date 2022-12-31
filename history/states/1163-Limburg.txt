@@ -1,0 +1,28 @@
+
+state={
+	id=1163
+	name="STATE_1163"
+	resources={
+		coal=17
+	}
+	provinces={
+		6500 11562 14547 
+	}
+	history={
+		owner = HOL
+		add_core_of = HOL
+		victory_points = {
+			11562 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	manpower=551000
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

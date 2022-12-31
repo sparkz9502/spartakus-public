@@ -1,0 +1,23 @@
+
+state={
+	id=860
+	name="STATE_860"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		2068 10725 10868 14288 
+	}
+	manpower=300
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

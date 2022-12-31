@@ -1,0 +1,41 @@
+
+state={
+	id=779
+	name="STATE_779"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			11563 4 
+		}
+		victory_points = {
+			9434 10 
+		}
+		victory_points = {
+			485 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			fuel_silo = 2
+			485 = {
+				naval_base = 1
+
+			}
+			9434 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		485 3549 6569 9434 9578 11563 
+	}
+	manpower=1211100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

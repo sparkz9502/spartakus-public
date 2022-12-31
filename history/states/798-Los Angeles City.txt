@@ -1,0 +1,34 @@
+
+state={
+	id=798
+	name="STATE_798"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			fuel_silo = 1
+			dockyard = 2
+			air_base = 10
+			9814 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			9814 25 
+		}
+
+	}
+
+	provinces={
+		9814 9855 10483 11757 11859 
+	}
+	manpower=2597000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

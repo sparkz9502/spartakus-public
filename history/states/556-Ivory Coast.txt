@@ -1,0 +1,25 @@
+
+state={
+	id=556
+	name="STATE_556"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		victory_points = {
+			14136 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		2012 5045 10812 10829 10915 12751 14078 14136 14421 14454 14471 14478 
+	}
+	manpower=1554000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

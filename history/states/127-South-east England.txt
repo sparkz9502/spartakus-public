@@ -1,0 +1,30 @@
+
+state={
+	id=127
+	name="STATE_127"
+	
+	resources={
+		iron=5
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			15328 5
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		11446 15328 15329 
+	}
+	manpower=1950800
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

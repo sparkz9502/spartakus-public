@@ -1,0 +1,38 @@
+
+state={
+	id=1193
+	name="STATE_1193"
+	provinces={
+		6970 9890 9906 
+	}
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9890 3
+		}
+		victory_points = {
+			6970 7
+		}
+		victory_points = {
+			9906 5
+		}
+		# 1193 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 9890
+					# id = 9906
+				# }
+			# }
+		# }
+		add_core_of = SER
+
+	}
+	manpower=311200
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

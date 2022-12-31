@@ -1,0 +1,38 @@
+
+state={
+	id=320
+	name="STATE_320"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			1344 2 
+		}
+		victory_points = {
+			7436 1 
+		}
+		victory_points = {
+			12180 25 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+			dockyard = 1
+			12180 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1344 7310 7436 10278 12180 
+	}
+	manpower=8430000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

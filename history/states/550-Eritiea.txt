@@ -1,0 +1,30 @@
+
+state={
+	id=550
+	name="STATE_550"
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		add_claim_by = ETH
+		victory_points = {
+			5091 1 
+		}
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+			air_base = 1
+			12766 = {
+				naval_base = 2
+
+			}
+		}
+	}
+
+	provinces={
+		5091 12766 14166 14171 14179 14184 14185 
+	}
+	manpower=489000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

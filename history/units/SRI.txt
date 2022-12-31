@@ -1,0 +1,116 @@
+﻿####### Division Templates #######
+division_template = {
+	name = "Guardie Rosse"
+	division_names_group = SRI_MIL_01
+	regiments = {
+		militia = { x = 0 y = 0 } 
+		militia = { x = 0 y = 1 } 
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+		militia = { x = 1 y = 0 } 
+		militia = { x = 1 y = 1 } 
+		militia = { x = 1 y = 2 }
+		militia = { x = 1 y = 3 }
+		militia = { x = 1 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Guardie Motorizzate"
+	division_names_group = SRI_MOT_02
+	regiments = {
+		motorized = { x = 0 y = 0 }
+		motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	division = { #"1a Guardie Motorizzate 'Piemonte'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 6780
+		division_template = "Guardie Motorizzate"
+		start_experience_factor = 0.1
+	}
+	division = { #"2a Guardie Motorizzate 'Lotta'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 6780
+		division_template = "Guardie Motorizzate"
+		start_experience_factor = 0.1
+	}
+	division = { #"1a Guardie Rosse 'Antonio Gramsci'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 13580
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"2a Guardie Rosse 'Torino'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 9738
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"3a Guardie Rosse 'Proletari'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 611
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"4a Guardie Rosse 'Spartaco'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 11730
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"5a Guardie Rosse 'Comunista'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		} 
+		location = 15503
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"6a Guardie Rosse 'Rivoluzione'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		} 
+		location = 3782
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+}	
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 5
+		progress = 0.5
+		efficiency = 100
+	}
+}

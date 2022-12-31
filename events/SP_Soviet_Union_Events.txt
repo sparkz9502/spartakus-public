@@ -1,0 +1,317 @@
+add_namespace = lenin_death
+add_namespace = soviet_congress
+add_namespace = ussrflavor
+
+### Death of Lenin ###
+
+news_event = {
+
+	id = lenin_death.0
+	title = lenin_death.0.t
+	desc = lenin_death.0.d
+	picture = GFX_Lenin_Death 
+	major = yes
+	fire_only_once = yes 
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = {
+					NOT = { tag = SOV }
+					NOT = { tag = BMR }
+					has_socialist_government = yes
+				}
+            country_event = { id = lenin_death.1 days = 1 }
+			}
+		}
+	}
+	
+		option = { 
+			trigger = { tag = SOV
+			}
+			name = lenin_death.0.a
+			hidden_effect = {
+				country_event = { id = lenin_death.2 days = 2 }
+			}
+		}
+	
+		option = { 
+			trigger = {
+				NOT = { tag = SOV }
+				has_socialist_government = yes
+			}
+			name = lenin_death.0.b
+		}
+	
+		option = { 
+			trigger = {
+				NOT = {
+					OR = {
+						tag = SOV
+						has_socialist_government = yes
+					}
+				}
+			}
+			name = lenin_death.0.c
+		}
+}
+
+country_event = {
+
+	id = lenin_death.1
+	title = lenin_death.1.t
+	desc = lenin_death.1.d
+	picture = GFX_placeholder
+	fire_only_once = yes 
+	
+	is_triggered_only = yes
+		
+		option = {
+			name = lenin_death.1.a
+			reverse_add_opinion_modifier = { target = SOV modifier = comemmoration_accepted }
+			set_country_flag = lenin_comemmoration_accepted
+		}
+		
+		option = {
+			name = lenin_death.1.b
+			set_country_flag = lenin_comemmoration_politely_declined
+		}
+		
+		option = {
+			name = lenin_death.1.c
+			reverse_add_opinion_modifier = { target = SOV modifier = comemmoration_refused }
+			set_country_flag = lenin_comemmoration_rudely_declined
+		}
+		
+	
+}
+
+country_event = { # USSR gets notified about countries' responses
+	id = lenin_death.2
+	title = lenin_death.2.t
+	desc = lenin_death.2.d
+	picture = GFX_placeholder
+	
+	fire_only_once = yes 
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = lenin_death.2.a
+	}
+}
+
+### Soviet Congress ###
+
+country_event = { #Introduction of the congress
+    id = soviet_congress.0
+    title = soviet_congress.0.t
+    desc = soviet_congress.0.d 
+    #picture = GFX_placeholder
+    
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+    
+    option = {
+        name = soviet_congress.0.a
+        hidden_effect = {
+                country_event = { id = soviet_congress.1 days = 1 }
+        }
+    }
+    
+}
+
+country_event = { #Discussion of national liberation issue
+    id = soviet_congress.1
+    title = soviet_congress.1.t
+    desc = soviet_congress.1.d 
+    #picture = GFX_placeholder
+    
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+    
+    option = { #First resolution: natlib supported
+        name = soviet_congress.1.a
+        hidden_effect = {
+                country_event = { id = soviet_congress.2 days = 1 }
+        }
+    }
+    option = { #Second resolution: natlib opposed
+        name = soviet_congress.1.b
+        hidden_effect = {
+                country_event = { id = soviet_congress.2 days = 1 }
+        }
+    }
+    
+}
+country_event = { #Discussion of agrarian issue 
+    id = soviet_congress.2
+    title = soviet_congress.2.t
+    desc = soviet_congress.2.d 
+    #picture = GFX_placeholder
+    
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+    
+    option = { #First resolution: prompted (propaganda) integration
+        name = soviet_congress.2.a
+        hidden_effect = {
+                country_event = { id = soviet_congress.3 days = 2 }
+        }
+    }
+    option = { #Second resolution: voluntary (nep) integration
+        name = soviet_congress.2.b
+        hidden_effect = {
+                country_event = { id = soviet_congress.3 days = 2 }
+        }
+    }
+    
+    option = { #Third resolution: forceful (collectivisation) integration
+        name = soviet_congress.2.c
+        hidden_effect = {
+                country_event = { id = soviet_congress.3 days = 2 }
+        }
+    }
+    
+}
+    
+country_event = { #Discussion of industrial issues 
+    id = soviet_congress.3
+    title = soviet_congress.3.t
+    desc = soviet_congress.3.d 
+    #picture = GFX_placeholder
+    
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+    
+    option = { #First resolution: coordinated planning
+        name = soviet_congress.3.a
+        hidden_effect = {
+                country_event = { id = soviet_congress.4 days = 2 }
+        }
+    }
+    option = { #Second resolution: decentralised (NEP) industrialisation
+        name = soviet_congress.3.b
+        hidden_effect = {
+                country_event = { id = soviet_congress.4 days = 2 }
+        }
+    }
+    
+    option = { #Third resolution: dictated targets (stalin FYPs)
+        name = soviet_congress.3.c
+        hidden_effect = {
+                country_event = { id = soviet_congress.4 days = 2 }
+        }
+    }
+    
+}
+
+country_event = { #TEMPORARY choice of leader 
+    id = soviet_congress.4
+    title = soviet_congress.4.t
+    desc = soviet_congress.4.d 
+    ##picture = GFX_placeholder
+    
+    fire_only_once = yes
+    
+    is_triggered_only = yes
+    
+    option = { #Keep Kamenev
+        name = soviet_congress.4.a
+        add_political_power = 50
+    }
+    
+    option = { #Zinoviev
+        name = soviet_congress.4.b
+        create_country_leader = {
+            name = "Grigory Zinoviev"
+            desc = "POLITICS_ZINOVIEV_DESC"
+            picture = "Portrait_Grigory_Zinoviev.tga"
+            expire = "1960.1.1"
+            ideology = bolshevist_subtype
+            traits = { }
+        }
+    }
+    
+    option = { #Trotsky
+        name = soviet_congress.4.c
+        create_country_leader = {
+            name = "Leon Trotsky"
+            desc = "POLITICS_TROTSKY_DESC"
+            picture = "Portrait_Leon_Trotsky.tga"
+            expire = "1960.1.1"
+            ideology = bolshevist_subtype
+            traits = { }
+        }
+    }
+    
+    option = { #Bukharin
+        name = soviet_congress.4.d
+        create_country_leader = {
+            name = "Nikolai Bukharin"
+            desc = "POLITICS_BUKHARIN_DESC"
+            picture = "Portrait_Nikolai_Bukharin.tga"
+            expire = "1960.1.1"
+            ideology = bolshevist_subtype
+            traits = { }
+        }
+    } 
+    option = { #Rykov
+        name = soviet_congress.4.e
+        create_country_leader = {
+            name = "Alexei Rykov"
+            desc = "POLITICS_RYKOV_DESC"
+            picture = "Portrait_Alexei_Rykov.tga"
+            expire = "1960.1.1"
+            ideology = bolshevist_subtype
+            traits = { }
+        }
+    }
+    
+    option = { #Stalin
+        name = soviet_congress.4.f
+        create_country_leader = {
+            name = "Joseph Stalin"
+            desc = "POLITICS_STALIN_DESC"
+            picture = "Portrait_Joseph_Stalin.tga"
+            expire = "1960.1.1"
+            ideology = bolshevist_subtype
+            traits = { }
+        }
+    }
+    
+    option = { #Molotov
+        name = soviet_congress.4.g
+        create_country_leader = {
+            name = "Vyacheslav Molotov"
+            desc = "POLITICS_MOLOTOV_DESC"
+            picture = "Portrait_Vyacheslav_Molotov.tga"
+            expire = "1960.1.1"
+            ideology = bolshevist_subtype
+            traits = { }
+        }
+    }
+    
+}
+
+
+### Flavor ###
+
+country_event = { #Death of Ilya Ivanovich Ivanov
+	id = ussrflavor.1
+	title = ussrflavor.1.t
+	desc = ussrflavor.1.d
+	picture = GFX_Ilya_Ivanov
+
+	is_triggered_only = yes
+
+	option = {
+		name = ussrflavor.1.a
+	}
+}

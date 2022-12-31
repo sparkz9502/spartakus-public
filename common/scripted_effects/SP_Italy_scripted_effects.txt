@@ -1,0 +1,171 @@
+#made by sparkz
+
+###influence effects###
+
+ITA_recalculate_influence = {
+	set_variable = { ITA_influence_var = ITA_nationalist_influence }
+	subtract_from_variable = { ITA_influence_var = ITA_orthodox_influence }
+	add_to_variable = { italy_influence_gui_update = 1 }
+}
+
+ITA_strengthen_nationalist = {
+	custom_effect_tooltip = ITA_Strengthen_Nationalist_tt
+	add_to_variable = { ITA_nationalist_influence = 1 }
+	ITA_recalculate_influence = yes
+}
+
+ITA_weaken_nationalist = {
+	custom_effect_tooltip = ITA_Weaken_Nationalist_tt
+	subtract_from_variable = { ITA_nationalist_influence = 1 }
+	ITA_recalculate_influence = yes
+}
+
+ITA_strengthen_orthodox = {
+	custom_effect_tooltip = ITA_Strengthen_Orthodox_tt
+	add_to_variable = { ITA_orthodox_influence = 1 }
+	ITA_recalculate_influence = yes
+}
+
+ITA_weaken_orthodox = {
+	custom_effect_tooltip = ITA_Weaken_Orthodox_tt
+	subtract_from_variable = { ITA_orthodox_influence = 1 }
+	ITA_recalculate_influence = yes
+}
+
+###resistance effects###
+
+#socialist
+
+ITA_piemonte_resistance_positive = {
+	custom_effect_tooltip = ITA_Piemonte_Resistance_Positive_tt
+	add_to_variable = { piemonte_resistance = 1 }
+}
+
+ITA_piemonte_resistance_negative = {
+	custom_effect_tooltip = ITA_Piemonte_Resistance_Negative_tt
+	subtract_from_variable = { piemonte_resistance = 1 }
+}
+
+ITA_liguria_resistance_positive = {
+	custom_effect_tooltip = ITA_Liguria_Resistance_Positive_tt
+	add_to_variable = { liguria_resistance = 1 }
+}
+
+ITA_liguria_resistance_negative = {
+	custom_effect_tooltip = ITA_Liguria_Resistance_Negative_tt
+	subtract_from_variable = { liguria_resistance = 1 }
+}
+
+ITA_lombardia_resistance_positive = {
+	custom_effect_tooltip = ITA_Lombardia_Resistance_Positive_tt
+	add_to_variable = { lombardia_resistance = 1 }
+}
+
+ITA_lombardia_resistance_negative = {
+	custom_effect_tooltip = ITA_Lombardia_Resistance_Negative_tt
+	subtract_from_variable = { lombardia_resistance = 1 }
+}
+
+ITA_emiliaromagna_resistance_positive = {
+	custom_effect_tooltip = ITA_EmiliaRomagna_Resistance_Positive_tt
+	add_to_variable = { emiliaromagna_resistance = 1 }
+}
+
+ITA_emiliaromagna_resistance_negative = {
+	custom_effect_tooltip = ITA_EmiliaRomagna_Resistance_Negative_tt
+	subtract_from_variable = { emiliaromagna_resistance = 1 }
+}
+
+ITA_toscana_resistance_positive = {
+	custom_effect_tooltip = ITA_Toscana_Resistance_Positive_tt
+	add_to_variable = { toscana_resistance = 1 }
+}
+
+ITA_toscana_resistance_negative = {
+	custom_effect_tooltip = ITA_Toscana_Resistance_Negative_tt
+	subtract_from_variable = { toscana_resistance = 1 }
+}
+
+ITA_veneziagiulia_resistance_positive = {
+	custom_effect_tooltip = ITA_VeneziaGiulia_Resistance_Positive_tt
+	add_to_variable = { veneziagiulia_resistance = 1 }
+}
+
+ITA_veneziagiulia_resistance_negative = {
+	custom_effect_tooltip = ITA_VeneziaGiulia_Resistance_Negative_tt
+	subtract_from_variable = { veneziagiulia_resistance = 1 }
+}
+
+#republican
+
+ITA_veneto_resistance_positive = {
+	custom_effect_tooltip = ITA_Veneto_Resistance_Positive_tt
+	add_to_variable = { veneto_resistance = 1 }
+}
+
+ITA_veneto_resistance_negative = {
+	custom_effect_tooltip = ITA_Veneto_Resistance_Negative_tt
+	subtract_from_variable = { veneto_resistance = 1 }
+}
+
+ITA_veneziatridentina_resistance_positive = {
+	custom_effect_tooltip = ITA_VeneziaTridentina_Resistance_Positive_tt
+	add_to_variable = { veneziatridentina_resistance = 1 }
+}
+
+ITA_veneziatridentina_resistance_negative = {
+	custom_effect_tooltip = ITA_VeneziaTridentina_Resistance_Negative_tt
+	subtract_from_variable = { veneziatridentina_resistance = 1 }
+}
+
+ITA_sicilia_resistance_positive = {
+	custom_effect_tooltip = ITA_Sicilia_Resistance_Positive_tt
+	add_to_variable = { sicilia_resistance = 1 }
+}
+
+ITA_sicilia_resistance_negative = {
+	custom_effect_tooltip = ITA_Sicilia_Resistance_Negative_tt
+	subtract_from_variable = { sicilia_resistance = 1 }
+}
+
+ITA_marche_resistance_positive = {
+	custom_effect_tooltip = ITA_Marche_Resistance_Positive_tt
+	add_to_variable = { marche_resistance = 1 }
+}
+
+ITA_marche_resistance_negative = {
+	custom_effect_tooltip = ITA_Marche_Resistance_Negative_tt
+	subtract_from_variable = { marche_resistance = 1 }
+}
+
+ITA_abruzzimolise_resistance_positive = {
+	custom_effect_tooltip = ITA_AbruzziMolise_Resistance_Positive_tt
+	add_to_variable = { abruzzimolise_resistance = 1 }
+}
+
+ITA_abruzzimolise_resistance_negative = {
+	custom_effect_tooltip = ITA_AbruzziMolise_Resistance_Negative_tt
+	subtract_from_variable = { abruzzimolise_resistance = 1 }
+}
+
+ITA_lazioumbria_resistance_positive = {
+	custom_effect_tooltip = ITA_LazioUmbria_Resistance_Positive_tt
+	add_to_variable = { lazioumbria_resistance = 1 }
+}
+
+ITA_lazioumbria_resistance_negative = {
+	custom_effect_tooltip = ITA_LazioUmbria_Resistance_Negative_tt
+	subtract_from_variable = { lazioumbria_resistance = 1 }
+}
+
+#sardinia (points will go to whoever they side with)
+
+ITA_sardegna_resistance_positive = {
+	custom_effect_tooltip = ITA_Sardegna_Resistance_Positive_tt
+	add_to_variable = { sardegna_resistance = 1 }
+}
+
+ITA_sardegna_resistance_negative = {
+	custom_effect_tooltip = ITA_Sardegna_Resistance_Negative_tt
+	subtract_from_variable = { sardegna_resistance = 1 }
+}

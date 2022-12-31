@@ -1,0 +1,15 @@
+spriteTypes = {
+
+	#Planes
+
+	SpriteType = {
+		name = "GFX_SER_early_fighter_medium"
+		texturefile = "gfx/interface/technologies/Serbia/SER_early_fighter.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_SER_fighter1_medium"
+		texturefile = "gfx/interface/technologies/Serbia/SER_fighter1.tga"
+	}
+	
+}

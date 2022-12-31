@@ -1,0 +1,17 @@
+state={
+	id=1054
+	name="STATE_1054"
+	provinces={
+		11007 13242 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = ARG
+	}
+	manpower=89800
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,180 @@
+﻿l_english:
+
+# Events
+ire.0.t:0 "The Dominion of Ireland"
+ire.0.desc:0 "The War of Independence ended 10 years ago in early 1922, with a massacre perpetrated by a rogue British commander and the dissolution of the ruling coalition. The new Liberal-Labour coalition government swiftly negotiated a treaty with the remainder of the Irish leadership, made up of a coalition of Sinn Féin and Labour politicians and trade unionists. With little choice but to accept, the Irish leaders signed away the republic out of a simple desire to save their broken nation from further bloodshed. \n\nThe Dáil Éireann—Ireland's parliament—has been dominated for the past decade by Sinn Féin, headed by Michael Collins, who has managed to keep the party united despite extensive factionalism. However, James Larkin's Labour Party and the militant Irish Transport and General Workers Union remain a potent force in Irish politics, and many Irish workers still remember the general strikes of the War of Independence with a peculiar nostalgia. \n\nAlthough the loyalist militia works constantly to protect British interests in Ireland, and the government is restricted in its abilities by its subordination to the British parliament, the Irish nation is not yet dead, and many still hope to restore the Republic."
+ire.0.a:"Long live the Republic!"
+
+ire.1.t:0 "Decennial of Bloody Saturday"
+ire.1.desc:0 "Today marks exactly ten years since Bloody Saturday, when General Nevil Macready, without any direction from Westminster, ordered simultaneous attacks on Sinn Féin and IRA leadership in Dublin and Cork. The Irish Trades Union Congress (ITUC), effectively under the control of socialist James Larkin since early 1921 following his return from America, had called a general strike several months prior, bringing most of Ireland to a halt and hindering British movements throughout the country. The strike had marked an escalation of the conflict, and Macready felt that the government and the courts failed to recognise the severity of the situation. \n\nIt quickly turned into a bloodbath. Civilians were drawn into the battles, and chaos descended on the two cities. Although Cork was secured by British forces within hours, the Battle of Dublin lasted a week. The government in Westminster fell into a crisis, and as the dust settled, most of the remaining republican leadership ordered a ceasefire with the English. One month later, a new government had been elected in Britain, and opened up negotiations with Sinn Féin. \n\nThe occasion has a special significance for the Irish nation, and we must determine how to memorialise it."
+ire.1.a:0 "Hold a public service to honour the fallen."
+ire.1.b:0 "Make a speech denouncing British imperialism!"
+ire.1.c:0 "Call a general strike!"
+ire.1.d:0 "We can't risk aggravating Britain."
+
+ire.2.t:0 "Decennial of Bloody Saturday"
+ire.2.desc:0 "Ten years ago, the Anglo-Irish War came to an abrupt and bloody end. Today marks the decennial of Bloody Saturday, when General Nevil Macready orchestrated a massacre of both IRA leadership and Irish civilians. \n\nThe Irish government has seen fit to hold a public service to memorialise the occasion. Some within our government believe that we, too, should hold a service, to memorialise the loss of life and improve relations with the Irish."
+ire.2.a:0 "Hold a service to commemorate this tragedy."
+ire.2.b:0 "This is none of our concern."
+
+ire.3.t:0 "Decennial of Bloody Saturday"
+ire.3.desc:0 "Ten years ago, the Anglo-Irish War came to an abrupt and bloody end. Today marks the decennial of Bloody Saturday, when General Nevil Macready orchestrated a massacre of both IRA leadership and Irish civilians. \n\nMichael Collins, the Irish Prime Minister, made a speech today denouncing British imperialism and calling for a \"free Irish Republic.\" The Irish government's hostility to Britain is well-known, but such an open display of disloyalty to the Crown is unprecedented. \n\nAlthough we must respond in some way, most members of parliament call for us to tread carefully and avoid an escalation of the incident. After all, we can ill afford to start another war in Ireland."
+ire.3.a:0 "Take a harsh stance against such hostility!"
+ire.3.b:0 "Make a measured response, calling for reconciliation."
+ire.3.c:0 "Who cares what the Irish think?"
+
+ire.4.t:0 "Decennial of Bloody Saturday"
+ire.4.desc:0 "Ten years ago, the Anglo-Irish War came to an abrupt and bloody end. Today marks the decennial of Bloody Saturday, when General Nevil Macready orchestrated a massacre of both IRA leadership and Irish civilians. \n\nThe Irish government, in league with the socialist-controlled Irish Trades Union Congress, has called for a general strike to mark the occasion and protest what they call our \"occupation\" of Ireland. Although there is little risk of the British unions joining the strike, this disrupts British interests in Ireland and could be a sign of dangerous communist influence. Our government is divided on how to respond to the situation. Some wish to intervene politically, while others question the legal backing of such a measure. Still others believe this to be the result of influence from the communists in Germany and Russia."
+ire.4.a:0 "Order the Irish to call off the strike!"
+ire.4.b:0 "Make a speech denouncing such drastic and destabilising measures."
+ire.4.c:0 "Condemn Germany and Russia for interfering with British affairs!"
+ire.4.d:0 "Who cares what the Irish are doing?"
+
+ire.5.t:0 "Decennial of Bloody Saturday"
+ire.5.desc:0 "Ten years ago, the Anglo-Irish War came to an abrupt and bloody end. Today marks the decennial of Bloody Saturday, when General Nevil Macready orchestrated a massacre of both IRA leadership and Irish civilians. \n\nIn a somewhat surprising move, the Irish government has called for reconciliation with Britain and autonomy through diplomacy. Most within our government are responding positively to this initiative, and hope that it marks a new era in Anglo-Irish relations."
+ire.5.a:0 "Perhaps peace with Ireland truly is possible."
+
+ire.6.t:0 "Britain denounces our hostility!"
+ire.6.desc:0 "The British government has called our condemnation of them overly hostile, and demands that we retract our statements on British imperialism. Although they have no legal backing to do so, the implicit threat posed to our government and our people by the Royal Irish Militia must be taken into account. No one wants a return to the bloodshed of the War of Independence. Do we dare risk retaliation by the loyalists?"
+ire.6.a:0 "We refuse to retract our statements."
+ire.6.b:0 "Clarify that our condemnation is one of policy, not of Britain itself or of the Crown."
+ire.6.c:0 "Retract the speech in its entirety."
+
+ire.7.t:0 "Britain calls for peace and reconciliation"
+ire.7.desc:0 "In response to our condemnation of British imperialism, the British government has called for peace and reconciliation between our nations. Although this is for some a surprising outcome, it is certainly not an unwelcome one. The last thing our government wants is another war, and the British response may mark a new era in Anglo-Irish relations."
+ire.7.a:0 "Perhaps freedom can be attained diplomatically."
+
+ire.8.t:0 "Britain orders us to end the strike"
+ire.8.desc:0 "The British government has demanded that we call an end to the general strike. Many are quick to point out that they have no legal backing to do so, but the right-wing faction of Sinn Féin has called for us to comply with the demand. Additionally, the implicit threat posed to our government and our people by the Royal Irish Militia must be taken into account. No one wants a return to the bloodshed of the War of Independence. Do we dare risk retaliation by the loyalists?"
+ire.8.a:0 "Nonsense! The strike will continue as planned."
+ire.8.b:0 "Call off the strike."
+
+ire.9.t:0 "Britain denounces the strike"
+ire.9.desc:0 "The British government is calling our general strike excessive and destabilising. In framing it as a radical measure that upsets the status quo, they have turned the British public opinion against us. Nevertheless, we will hold fast!"
+ire.9.a:0 "Solidarity Forever!"
+
+ire.10.t:0 "Britain accuses us of meddling"
+ire.10.desc:0 "The British government has accused us of meddling in their internal affairs by pushing the Irish government to call a general strike. Although we have had relations with the Irish Labour Party, we are certainly not responsible for the strike."
+ire.10.a:0 "What a ridiculous notion."
+
+ire.11.t:0 "The Irish refuse to comply"
+ire.11.desc:0 "The Irish government has refused to comply with our demands. Legally, we have no authority to take action against them, but we could call upon the loyalist paramilitary groups throughout Ireland to agitate against the Irish government."
+ire.11.a:0 "We can do nothing."
+ire.11.b:0 "The loyalists will agitate."
+
+ire.12.t:0 "The Irish clarify their speech"
+ire.12.desc:0 "The Irish government has clarified that their condemnation of us is one of \"policy, not of Britain itself or of the Crown, of which we recognise the legal authority.\" Most feel that we should accept this concession, but some within parliament feel that the Irish need to learn their place. Some of these suggest that we call upon the loyalist paramilitary groups throughout Ireland to agitate against the Irish government."
+ire.12.a:0 "Accept the Irish concession."
+ire.12.b:0 "The Irish will learn to respect our authority."
+
+ire.13.t:0 "Ireland complies"
+ire.13.desc:0 "The Irish government has agreed to comply with our demands. The socialists and nationalists in Ireland recognise our authority, and the integrity of British hegemony over Ireland is safe."
+ire.13.a:0 "It was always going to end this way, of course."
+
+ire.14.t:0 "The British fail to retaliate"
+ire.14.desc:0 "The British government seems to have admitted defeat, recognising that they lack the legal authority to retaliate against us. This is a small, but momentous victory for our government."
+ire.14.a:0 "A blow against imperialism!"
+
+ire.15.t:0 "Loyalist paramilitaries agitate"
+ire.15.desc:0 "Several paramilitary groups loyal to the United Kingdom have begun to agitate against our government. Although we have no way of proving it, we suspect that the British government has ordered and sponsored the demonstrations. Some fear that the paramilitaries' occasional clashes with labour may devolve into a greater conflict."
+ire.15.a:0 "Damn!"
+
+ire.16.t:0 "The British accept our concession"
+ire.16.desc:0 "The British government has decided to back down after our clarification of the speech. This marks a small victory against British control of our government, but relations between our governments remain uncertain for the time being."
+ire.16.a:0 "A small blow against imperialism."
+
+ire.17.t:0 "British Censorship"
+ire.17.desc:0 "Following a speech by the Irish government that denounced British imperialism, the British government has responded harshly, demanding that they retract their statements. The Irish government has refused to comply, which is sure to have a negative effect on Anglo-Irish relations. \n\nThe government of Mackenzie King has often taken a softly anti-imperialist stance, supporting a decentralisation of the Empire and further autonomy for the Dominions. As such, we have often supported Ireland diplomatically in its disputes with Britain. Should we publically support the Irish in this?"
+ire.17.a:0 "Our government has always been a friend to the Irish."
+ire.17.b:0 "Best to stay out of it."
+
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+ire1a_tt:0 "We will memorialise the tragedy, but we should avoid any open declarations of hostility to the British government.\n"
+ire1b_tt:0 "The war may have ended, but Ireland is still in shackles. We must make sure the people know that we will never cease our struggle for freedom.\n"
+ire1c_tt:0 "The trade unions have proven a powerful force in the past. We will make clear our opposition to imperialism through direct action by the working class.\n"
+ire1d_tt:0 "We must open a path to reconciliation with the British. Diplomacy and compromise is the only viable way to preserve Ireland.\n"
+
+
+# Ideas
+IRE_memories_of_the_republic:0 "Memories of the Republic"
+IRE_memories_of_the_republic_desc:0 "The Irish Republic was first declared in the Easter Rising in 1916, and again in 1919. It was only in 1922 that the war against the British ended with a UK-weighted compromise. \nAlthough today we remain trapped under the British yoke, we shall soon restore the republic and achieve true emancipation for the Irish nation—one way or another."
+IRE_depressed_economy:0 "Depressed Economy"
+IRE_depressed_economy_desc:0 "Our economy is bound to Britain's, and the British maintain a large amount of control over our international trade and internal economy."
+IRE_loyalist_militia:0 "Royal Irish Militia"
+IRE_loyalist_militia_desc:0 "The Royal Irish Militia is the successor to the Royal Irish Constabulary, a loyalist force that suppressed the IRA during the War of Independence. Under the terms of our treaty with the British, the RIM is the only military force that Ireland may maintain."
+IRE_loyalist_militia_civilwar:0 "Royal Irish Militia"
+IRE_loyalist_militia_civilwar_desc:0 "The Royal Irish Militia is the successor to the Royal Irish Constabulary, a loyalist force that suppressed the IRA during the War of Independence. Under the terms of our treaty with the British, the RIM is the only military force that Ireland may maintain."
+IRE_civilwar:0 "Irish Civil War"
+IRE_general_strike_bloody_saturday:0 "General Strike!"
+IRE_general_strike_bloody_saturday_desc:0 "To mark the decennial of Bloody Saturday and protest the continued occupation of our nation by the British, the government, through the Trades Union Congress, has called a general strike. Although this weakens our own industry, it has strengthened the people's faith in our government, and has a drastic impact on Britain's ability to use our industry to their own ends."
+IRE_loyalist_paramilitaries_agitating:0 "Loyalist Paramilitaries"
+
+
+IRA_civilwar:0 "Irish Civil War"
+IRA_irish_republican_army_civilwar:0 "Irish Republican Army"
+
+# Focuses
+
+
+### Parties ###
+
+IRE_bolshevist_party:0 "CPI"
+IRE_bolshevist_party_long:0 "Communist Party of Ireland"
+IRE_spartacist_party:0 "CPI"
+IRE_spartacist_party_long:0 "Communist Party of Ireland"
+IRE_revolutionary_socialist_party:0 "ITGWU"
+IRE_revolutionary_socialist_party_long:0 "Irish Transport and General Workers' Union"
+IRE_reformist_socialist_party:0 "Labour"
+IRE_reformist_socialist_party_long:0 "Labour Party - Left"
+IRE_social_democrat_party:0 "Labour"
+IRE_social_democrat_party_long:0 "Labour Party - Reformist"
+IRE_social_liberal_party:0 "Sinn Féin"
+IRE_social_liberal_party_long:0 "Sinn Féin - Progressive"
+IRE_liberal_conservative_party:0 "Sinn Féin"
+IRE_liberal_conservative_party_long:0 "Sinn Féin - Liberal"
+IRE_social_conservative_party:0 "Sinn Féin"
+IRE_social_conservative_party_long:0 "Sinn Féin - Conservative"
+IRE_authoritarian_conservative_party:0 "IDL"
+IRE_authoritarian_conservative_party_long:0 "Irish Dominion League"
+IRE_right_wing_populist_party:0 "Farmers' Party"
+IRE_right_wing_populist_party_long:0 "Farmers' Party"
+IRE_national_syndicalist_party:0 "AR"
+IRE_national_syndicalist_party_long:0 "Ailtirí na hAiséirghe"
+IRE_national_corporatist_party:0 "PNC"
+IRE_national_corporatist_party_long:0 "National Corporate Party"
+
+IRA_bolshevist_party:0 "CPI"
+IRA_bolshevist_party_long:0 "Communist Party of Ireland"
+IRA_spartacist_party:0 "CPI"
+IRA_spartacist_party_long:0 "Communist Party of Ireland"
+IRA_revolutionary_socialist_party:0 "ITGWU"
+IRA_revolutionary_socialist_party_long:0 "Irish Transport and General Workers' Union"
+IRA_reformist_socialist_party:0 "Labour"
+IRA_reformist_socialist_party_long:0 "Labour Party - Left"
+IRA_social_democrat_party:0 "Labour"
+IRA_social_democrat_party_long:0 "Labour Party - Reformist"
+IRA_social_liberal_party:0 "Sinn Féin"
+IRA_social_liberal_party_long:0 "Sinn Féin - Progressive"
+IRA_liberal_conservative_party:0 "Sinn Féin"
+IRA_liberal_conservative_party_long:0 "Sinn Féin - Liberal"
+IRA_social_conservative_party:0 "Sinn Féin"
+IRA_social_conservative_party_long:0 "Sinn Féin - Conservative"
+IRA_authoritarian_conservative_party:0 "IDL"
+IRA_authoritarian_conservative_party_long:0 "Irish Dominion League"
+IRA_right_wing_populist_party:0 "Farmers' Party"
+IRA_right_wing_populist_party_long:0 "Farmers' Party"
+IRA_national_syndicalist_party:0 "AR"
+IRA_national_syndicalist_party_long:0 "Ailtirí na hAiséirghe"
+IRA_national_corporatist_party:0 "PNC"
+IRA_national_corporatist_party_long:0 "National Corporate Party"
+
+# Opinion Modifiers
+IRE_UK_no_memorial:0 "Spirit of Reconciliation"
+IRE_UK_shackled:0 "Shackles of Imperialism"
+IRE_UK_british_memorial:0 "Held a memorial"
+UK_CAN_support_irish_anti_imperialism:0 "Supports Irish Anti-Imperialism"
+IRE_CAN_support_irish_anti_imperialism:0 "Supports Irish Anti-Imperialism"

@@ -1,0 +1,235 @@
+﻿division_template = {
+	name = "Qibing Shi"
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+
+	}
+	support = {
+
+	}
+}
+division_template = {
+	name = "Juntuán"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+		militia = { x = 2 y = 0 }
+		militia = { x = 2 y = 1 }
+		militia = { x = 2 y = 2 }
+	}
+	support = {
+
+	}
+}
+division_template = {
+	name = "Bubing Shi"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+	}
+	support = {
+
+	}
+}
+
+units = {
+	division = {
+		name = "1 Bubing Shi"
+		location = 11933
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2 Bubing Shi"
+		location = 1069
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3 Bubing Shi"
+		location = 9971
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4 Bubing Shi"
+		location = 10043
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "5 Bubing Shi"
+		location = 9843
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "6 Bubing Shi"
+		location = 10068
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "7 Bubing Shi"
+		location = 4222
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "8 Bubing Shi"
+		location = 7743
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "9 Bubing Shi"
+		location = 13679
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "10 Bubing Shi"
+		location = 10698
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "11 Bubing Shi"
+		location = 7569
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "12 Bubing Shi"
+		location = 3815
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "13 Bubing Shi"
+		location = 3944
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "14 Bubing Shi"
+		location = 11771
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "15 Bubing Shi"
+		location = 12412
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "16 Bubing Shi"
+		location = 11764
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "17 Bubing Shi"
+		location = 1137
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "18 Bubing Shi"
+		location = 11752
+		division_template = "Bubing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "1 Qibing Shi"
+		location = 9843
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "2 Qibing Shi"
+		location = 11771
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "3 Qibing Shi"
+		location = 4181
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+	division = {
+		name = "4 Qibing Shi"
+		location = 1588
+		division_template = "Qibing Shi"
+		start_experience_factor = 0.1
+		start_equipment_factor = 1.0
+	}
+}
+
+air_wings = {
+
+	716 = {
+		fighter_equipment_0 = {
+			owner = "FNG"
+			amount = 20
+		}
+		tac_bomber_equipment_0 = {
+			owner = "FNG"
+			amount = 10
+		}
+	}
+}
+
+#Equipment Production
+
+instant_effect = {
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "FNG"
+		}
+		requested_factories = 6
+		progress = 0.1
+		efficiency = 100
+	}
+}

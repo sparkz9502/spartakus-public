@@ -1,0 +1,260 @@
+﻿capital = 110
+
+set_oob = "NOR"
+
+set_research_slots = 3
+
+add_ideas = {
+	recruitment_1825
+	governance_par
+	trade_pro
+	economy_indzing
+	mobilization_1
+	
+	NOR_liberal_conservative_agreement_idea
+	NOR_recovering_economy_idea
+	NOR_anti_establishment_sentiments_idea
+	
+	NOR_Carl_Joachim_Hambro_hog_lco
+	NOR_Ivar_Lykke_for_lco
+	NOR_Jens_Isak_Kobro_eco_sli
+	NOR_Odd_Klingenberg_sec_lco
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_destroyer = 1
+	early_submarine = 1
+	early_heavy_cruiser = 1
+	tech_recon = 1
+}
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 2
+    spartacist = 3
+    revolutionary_socialist = 21
+    reformist_socialist = 10
+    social_democrat = 0
+    social_liberal = 20
+    liberal_conservative = 27
+    social_conservative = 9
+    authoritarian_conservative = 4
+    right_wing_populist = 0
+    national_syndicalist = 2
+    national_corporatist = 2
+}
+
+set_country_flag = coalition_social_liberal
+set_country_flag = coalition_liberal_conservative
+
+set_convoys = 80		# biggest merchant marine in the world
+set_stability = 0.60
+set_war_support = 0.15
+
+create_country_leader = {
+	name = "Olav Scheflo"
+	desc = "POLITICS_OLAV_SCHEFLO_DESC"
+	picture = "Portrait_Olav_Scheflo.tga"
+	expire = "1965.1.1"
+	ideology = bolshevist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Peder Furubotn"
+	desc = "POLITICS_PEDER_FURUBOTN_DESC"
+	picture = "Portrait_Peder_Furubotn.tga"
+	expire = "1965.1.1"
+	ideology = spartacist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = reformist_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = left_radicalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Ragnvald Hvoslef"
+	desc = "POLITICS_RAGNVALD_HVOSLEF_DESC"
+	picture = "Portrait_Ragnvald_Hvoslef.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Haakon VII"
+	desc = "POLITICS_HAAKON_VII_DESC"
+	picture = "Portrait_Haakon_VII.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {
+		#
+	}
+}
+
+#create_country_leader = {
+#	name = "Vidkun Quisling"
+#	desc = "POLITICS_VIDKUN_QUISLING_DESC"
+#	picture = "Portrait_Vidkun_Quisling.tga"
+#	expire = "1965.1.1"
+#	ideology = national_corporatist_subtype
+#	traits = {
+#		#
+#	}
+#}
+
+create_field_marshal = {
+	name = "Kristian Laake"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Kristian_Laake.tga"
+	traits = { old_guard politically_connected }
+	skill = 3
+	attack_skill = 2
+    defense_skill = 3
+    planning_skill = 2
+    logistics_skill = 2
+}
+
+create_corps_commander = {
+	name = "Carl Gustav Fleischer"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Carl_Gustav_Fleischer.tga"
+	traits = {  trickster winter_specialist }
+	skill = 4
+	attack_skill = 3
+	defense_skill = 4
+	planning_skill = 2
+	logistics_skill = 4
+}
+
+create_corps_commander = {
+	name = "Otto Ruge"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Otto_Ruge.tga"
+	traits = { winter_specialist infantry_officer }
+	skill = 3
+	attack_skill = 3
+    defense_skill = 4
+    planning_skill = 3
+    logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Crown Prince Olav of Glücksburg"
+	portrait_path = "gfx/leaders/NOR/Portrait_NOR_Crown_Prince_Olav.tga"
+	traits = { naval_invader winter_specialist }
+	skill = 2
+	attack_skill = 2
+    defense_skill = 2
+    planning_skill = 2
+    logistics_skill = 2
+	id = 2000
+}
+
+create_navy_leader = {
+	name = "Elias Corneliussen"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { spotter }
+	skill = 3
+}

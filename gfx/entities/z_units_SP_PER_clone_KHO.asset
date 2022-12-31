@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "PER_infantry_entity"
+		name = "KHO_infantry_entity"
+	}
+	
+	entity = {
+		clone = "PER_infantry_2_entity"
+		name = "KHO_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "PER_infantry_3_entity"
+		name = "KHO_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "PER_infantry_rider_entity"
+		name = "KHO_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "PER_infantry_mg_rider_entity"
+		name = "KHO_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "PER_cavalry_entity"
+		name = "KHO_cavalry_entity"
+	}
+
+	entity = {
+		clone = "PER_cavalry_2_entity"
+		name = "KHO_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "PER_cavalry_rifle_combined_entity"
+		name = "KHO_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "PER_cavalry_mg_combined_entity"
+		name = "KHO_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "PER_motorized_entity"
+		name = "KHO_motorized_entity"
+	}
+	
+	entity = {
+		clone = "PER_mechanized_entity"
+		name = "KHO_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "PER_artillery_entity"
+		name = "KHO_artillery_entity"
+	}
+	
+	
+	

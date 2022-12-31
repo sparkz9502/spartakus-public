@@ -1,0 +1,22 @@
+
+state={
+	id=1048
+	name="STATE_1048"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces={
+		11478 
+	}
+	manpower=63000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

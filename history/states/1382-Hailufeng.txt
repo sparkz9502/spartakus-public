@@ -1,0 +1,28 @@
+state={
+	id=1382
+	name="STATE_1382"
+	provinces={
+		7067 
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		victory_points = {
+			7067 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			7067 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=866900
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

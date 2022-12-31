@@ -1,0 +1,46 @@
+
+state={
+	id=48
+	name="STATE_48"
+	manpower = 1653700
+	resources={
+		coal=1
+		copper=1
+	}
+	
+	
+	state_category = city
+
+	history={
+		owner = BUL
+		victory_points = {
+			949 10
+		}
+		victory_points = {
+			935 3
+		}
+		victory_points = {
+			3971 1
+		}
+		victory_points = {
+			965 3
+		}
+		victory_points = {
+			11754 1
+		}
+		victory_points = {
+			9771 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 3
+			arms_factory = 1
+			air_base = 3
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		793 935 949 965 3908 3971 9771 11754 13635
+	}
+}

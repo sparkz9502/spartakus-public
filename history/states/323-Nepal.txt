@@ -1,0 +1,28 @@
+
+state={
+	id=323
+	name="STATE_323"
+
+	history={
+		owner = NEP
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4386 2 
+		}
+		victory_points = {
+			7374 1 
+		}
+		add_core_of = NEP
+
+	}
+
+	provinces={
+		4386 7374 10825 10910 15013 15040 15046 
+	}
+	manpower=2410000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

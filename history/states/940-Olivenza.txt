@@ -1,0 +1,23 @@
+
+state={
+	id=940
+	name="STATE_940"
+
+	history={
+		owner=SPR
+		add_core_of=SPR
+		add_core_of=POR
+		add_core_of=PRM
+		buildings={
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13632
+	}
+	
+	manpower=12150
+	buildings_max_level_factor=1
+	state_category=wasteland
+}

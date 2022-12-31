@@ -1,0 +1,40 @@
+
+state={
+	id=12
+	name="STATE_12"
+	resources={
+	}
+
+	history={
+		victory_points = {
+			10493 1 
+		}
+		victory_points = {
+			3388 1 
+		}
+		victory_points = {
+			9317 1 
+		}
+		victory_points = {
+			9240 1 
+		}
+		victory_points = {
+			3298 1 
+		}
+		owner = LIV
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = LAT
+		add_core_of = LIV
+
+	}
+
+	provinces={
+		3298 3388 9240 9317 9501 10323 10493 11222 11302 15177 
+	}
+	manpower=523050
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

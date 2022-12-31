@@ -1,0 +1,32 @@
+
+state={
+	id=945
+	name="STATE_945"
+	resources={
+		iron=1.000
+	}
+
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 1
+			14624 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			10668 3 
+		}
+
+	}
+
+	provinces={
+		1509 4528 5203 10415 10442 10668 14578 14582 14588 14591 14594 14598 14602 14606 14607 14610 14613 14614 14615 14616 14618 14619 14624 14627 14631 14632 14637 14639 14641 14643 14647 14653 14656 14662 14670 14674 14679 14686 14687 14692 14697 14707 14708 14710 
+	}
+	manpower=283000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

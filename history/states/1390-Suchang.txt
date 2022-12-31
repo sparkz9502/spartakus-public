@@ -1,0 +1,32 @@
+
+state={
+	id=1390
+	name="STATE_1390"
+	
+	resources={
+		iron=7
+	}
+
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10076 15 
+		}
+		victory_points = {
+			11982 5 
+		}
+
+	}
+
+	provinces={
+		996 10034 10076 11982 12052 13142 
+	}
+	manpower=11378400
+	state_category = town
+	buildings_max_level_factor=1.000
+}

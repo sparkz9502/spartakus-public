@@ -1,0 +1,174 @@
+### Illyrian Ideas
+ideas = {
+    ##############
+    # Country ideas
+    ##############
+
+    country = {
+
+        CRO_Italian_Support = {
+		
+            picture = police_hat
+			
+			allowed = {
+				original_tag = CRO
+			}
+			
+            modifier = { 
+			political_power_gain = 0.1
+			conscription = 0.01
+			}
+        }
+		
+		CRO_Rebel_Networks = {
+		
+            picture = HUN_secret_rearmament
+			
+			allowed = {
+				original_tag = CRO
+			}
+			
+            modifier = { 
+			political_power_gain = -1
+			stability_factor = -0.25
+			war_support_factor = -0.2
+			production_factory_max_efficiency_factor = -0.2
+			production_factory_efficiency_gain_factor = -0.2
+			}
+        }
+
+        CRO_native_conscription_crisis = {
+			picture = Recruitment_Crisis
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.8
+				war_support_factor = -0.2
+				stability_factor = -0.05
+			}
+		}
+		
+		CRO_native_conscription_low = {
+			picture = Recruitment_Crisis
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.7
+				war_support_factor = -0.15
+			}
+		}
+		
+		CRO_native_conscription_poor = {
+			picture = Recruitment_Crisis
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.5
+				war_support_factor = -0.15
+			}
+		}
+		
+		CRO_incentivizing_volunteers = {
+			picture = Recruitment_Crisis
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.1
+			}
+		}
+		
+		CRO_More_Pasta_Idea = {
+			picture = Recruitment_Crisis
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				stability_factor = -0.05
+				monthly_population = 0.05
+			    consumer_goods_factor = -0.05
+				right_wing_populist_drift = 0.01
+			}
+		}
+		
+		CRO_Italian_Economic_Domination = {
+			picture = ALB_industry
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.2
+				production_speed_buildings_factor = -0.5
+				min_export = 0.3
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		CRO_Italian_Economic_Domination_2 = {
+			picture = ALB_industry
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				production_factory_efficiency_gain_factor = -0.15
+				production_speed_buildings_factor = -0.3
+				min_export = 0.3
+				consumer_goods_factor = 0.03
+			}
+		}
+		
+		CRO_Great_Depression = {
+			picture = capital_outflow
+
+			allowed = {
+				original_tag = CRO
+			}
+
+			removal_cost = -1
+			
+			modifier = {
+			    local_resources_factor = -0.90
+				stability_factor = -0.75
+                political_power_gain = -0.5
+                consumer_goods_factor = 0.50
+                production_speed_buildings_factor = -0.50
+                industrial_capacity_factory = -0.60
+			}
+		}
+		
+    }
+	
+}

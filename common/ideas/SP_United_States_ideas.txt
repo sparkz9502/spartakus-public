@@ -1,0 +1,124 @@
+### America Ideas
+ideas = {
+    ##############
+    # Country ideas
+    ##############
+
+    country = {
+	
+		# Start
+
+        USA_booming_economy = {
+            picture = generic_foreign_capital
+            modifier = {
+				stability_factor = 0.10
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = 0.25
+				production_speed_buildings_factor = 0.25
+            }
+        }
+
+		USA_tariff_act = {
+            picture = YUG_federal_defense_council
+            modifier = {
+				political_power_gain = -0.05
+				min_export = -0.2
+            }
+        }
+		
+		USA_impending_drought = {
+            picture = generic_agrarian_society
+			modifier = {
+            }
+        }
+		
+        USA_neutrality_movement = {
+            picture = generic_morale_bonus
+            modifier = {
+				justify_war_goal_time = 1
+				generate_wargoal_tension = 1
+				war_support_factor = -0.20
+                conscription_factor = -0.5
+				custom_modifier_tooltip = SP_no_mobilization_flag
+            }
+        }
+		
+		# Depression
+		
+        USA_great_depression = {
+            picture = great_depression
+            modifier = {
+				political_power_gain = -0.25
+				stability_factor = -0.25
+				conscription_factor = -0.25
+				production_factory_max_efficiency_factor = -0.25
+                industrial_capacity_factory = -0.25
+                production_speed_buildings_factor = -0.25
+            }
+        }
+		
+        USA_deflation_1 = {
+            picture = chi_hyper_inflation
+            modifier = {
+				consumer_goods_factor = 0.20
+            }
+        }
+		
+		USA_deflation_2 = {
+            picture = chi_hyper_inflation2
+            modifier = {
+				consumer_goods_factor = 0.15
+            }
+        }
+		
+		USA_deflation_3 = {
+            picture = chi_hyper_inflation3
+            modifier = {
+				consumer_goods_factor = 0.10
+            }
+        }
+		
+		USA_deflation_4 = {
+            picture = chi_hyper_inflation4
+            modifier = {
+				consumer_goods_factor = 0.05
+            }
+        }
+		
+		USA_deflation_5 = {
+            picture = chi_hyper_inflation5
+            modifier = {
+				political_power_gain = 0.25
+				consumer_goods_factor = -0.05
+            }
+        }
+		
+        USA_strikes = {
+            picture = FRA_factory_strikes
+            modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.05
+                industrial_capacity_factory = -0.25
+            }
+        }
+		
+        USA_bonus_army = {
+            picture = low_popular_support3
+            modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.1
+				army_org_factor = -0.2
+				conscription_factor = -0.05
+            }
+        }
+		
+		USA_midwestern_drought = {
+            picture = generic_agrarian_society
+            modifier = {
+                consumer_goods_factor = 0.05
+				political_power_gain = -0.05
+            }
+        }
+		
+    }
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=686
+	name="STATE_686"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 4
+			1440 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			1440 3 
+		}
+
+	}
+
+	provinces={
+		1440 15199 
+	}
+	manpower=1615000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

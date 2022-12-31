@@ -1,0 +1,380 @@
+CZE_increase_rationing_effect = {
+	custom_effect_tooltip = CZE_increase_rationing_tt
+	if = {
+		limit = { has_idea = CZE_food_rationing_5 }
+		add_political_power = -100
+		add_stability = -0.05
+		log = "[GetDateText] Czechia increase rationing above 5"
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_4 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_5
+			remove_idea = CZE_food_rationing_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_3 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_4
+			remove_idea = CZE_food_rationing_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_2 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_3
+			remove_idea = CZE_food_rationing_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_1 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_2
+			remove_idea = CZE_food_rationing_1
+		}
+	}
+	else = {
+		add_ideas = CZE_food_rationing_1
+	}
+}
+
+CZE_decrease_rationing_effect = {
+	custom_effect_tooltip = CZE_decrease_rationing_tt
+	if = {
+		limit = { has_idea = CZE_food_rationing_1 }
+		remove_ideas = CZE_food_rationing_1
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_2 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_1
+			remove_idea = CZE_food_rationing_2
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_3 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_2
+			remove_idea = CZE_food_rationing_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_4 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_3
+			remove_idea = CZE_food_rationing_4
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_food_rationing_5 }
+		swap_ideas = {
+			add_idea = CZE_food_rationing_4
+			remove_idea = CZE_food_rationing_5
+		}
+	}
+	else = {
+		add_political_power = 50
+		add_stability = 0.05
+		log = "[GetDateText] Czechia decreased rationing below 0"
+	}
+}
+
+CZE_increase_Gajda_coup_progress_effect = {
+	custom_effect_tooltip = CZE_increase_Gajda_coup_progress_tt
+	if = {
+		limit = {
+			check_variable = { CZE_Gajda_coup_prog_counter > CZE_countering_Gajda }
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.005
+		}
+		hidden_effect = {
+			random_list = {
+				80 = {
+					random_unit_leader = {
+						limit = {
+							NOT = { has_id = 0911 }
+							has_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+						}
+						clr_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+						set_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+					}
+				}
+				20 = {}
+			}
+		}
+	}
+	if = {
+		limit = {
+			check_variable = { CZE_Gajda_coup_prog_counter > 3 }
+			NOT = { has_idea = CZE_obrana }
+		}
+		hidden_effect = {
+			country_event = czegajda.4
+			add_ideas = CZE_obrana
+			if = {
+				limit = {
+					NOT = { has_country_flag = CZE_communists_fight_gajda }
+				}
+				country_event = {
+					id = czegajda.8
+					days = 25
+					random = 25
+				}
+			}
+		}
+	}
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_prog_counter = 1 }
+		activate_mission = CZE_Gajda_coup_progress_mission
+	}
+}
+
+CZE_postpone_Gajda_coup_progress_effect = {
+	custom_effect_tooltip = CZE_postpone_Gajda_coup_progress_tt
+	if = {
+		limit = {
+			check_variable = { CZE_countering_Gajda > CZE_Gajda_coup_prog_counter }
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.005
+		}
+		hidden_effect = {
+			random_list = {
+				80 = {
+					random_unit_leader = {
+						limit = {
+							has_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+						}
+						clr_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+						set_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+					}
+				}
+				20 = {}
+			}
+		}
+	}
+	hidden_effect = {
+		add_to_variable = { CZE_countering_Gajda = 1 }
+		remove_mission = CZE_Gajda_coup_progress_mission
+		activate_mission = CZE_Gajda_coup_progress_mission
+	}
+}
+
+CZE_Gajda_increase_coup_timeout_days_5_effect = {
+	custom_effect_tooltip = CZE_Gajda_increase_coup_prog_timer_5_days_tt
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_timeout_days = 5 }
+	}
+}
+
+CZE_Gajda_increase_coup_timeout_days_10_effect = {
+	custom_effect_tooltip = CZE_Gajda_increase_coup_prog_timer_10_days_tt
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_timeout_days = 10 }
+	}
+}
+
+CZE_Gajda_increase_coup_prog_timer_15_days_effect = {
+	custom_effect_tooltip = CZE_Gajda_increase_coup_prog_timer_15_days_tt
+	hidden_effect = {
+		add_to_variable = { CZE_Gajda_coup_timeout_days = 15 }
+	}
+}
+
+CZE_Gajda_decrease_coup_timeout_days_5_effect = {
+	custom_effect_tooltip = CZE_Gajda_decrease_coup_prog_timer_5_days_tt
+	hidden_effect = {
+		subtract_from_variable = { CZE_Gajda_coup_timeout_days = 5 }
+	}
+}
+
+CZE_Gajda_decrease_coup_timeout_days_10_effect = {
+	custom_effect_tooltip = CZE_Gajda_decrease_coup_prog_timer_10_days_tt
+	hidden_effect = {
+		subtract_from_variable = { CZE_Gajda_coup_timeout_days = 10 }
+	}
+}
+
+CZE_Gajda_decrease_coup_prog_timer_15_days_effect = {
+	custom_effect_tooltip = CZE_Gajda_decrease_coup_prog_timer_15_days_tt
+	hidden_effect = {
+		subtract_from_variable = { CZE_Gajda_coup_timeout_days = 15 }
+	}
+}
+
+CZE_small_increase_petka_left_wing_influence_effect = {
+	custom_effect_tooltip = CZE_small_increase_petka_left_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_left_wing_influence = 1 }
+		subtract_from_variable = { CZE_petka_right_wing_influence = 1 }
+	}
+}
+
+CZE_moderate_increase_petka_left_wing_influence_effect = {
+	custom_effect_tooltip = CZE_moderate_increase_petka_left_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_left_wing_influence = 5 }
+		subtract_from_variable = { CZE_petka_right_wing_influence = 5 }
+	}
+}
+
+CZE_large_increase_petka_left_wing_influence_effect = {
+	custom_effect_tooltip = CZE_large_increase_petka_left_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_left_wing_influence = 10 }
+		subtract_from_variable = { CZE_petka_right_wing_influence = 10 }
+	}
+}
+
+CZE_small_increase_petka_right_wing_influence_effect = {
+	custom_effect_tooltip = CZE_small_increase_petka_right_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_right_wing_influence = 1 }
+		subtract_from_variable = { CZE_petka_left_wing_influence = 1 }
+	}
+}
+
+CZE_moderate_increase_petka_right_wing_influence_effect = {
+	custom_effect_tooltip = CZE_moderate_increase_petka_right_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_right_wing_influence = 5 }
+		subtract_from_variable = { CZE_petka_left_wing_influence = 5 }
+	}
+}
+
+CZE_large_increase_petka_right_wing_influence_effect = {
+	custom_effect_tooltip = CZE_large_increase_petka_right_wing_influence_tt
+	hidden_effect = {
+		add_to_variable = { CZE_petka_right_wing_influence = 10 }
+		subtract_from_variable = { CZE_petka_left_wing_influence = 10 }
+	}
+}
+
+CZE_set_unit_leader_political_alignments = {
+	random_unit_leader = {
+		limit = {
+			NOT = {
+				has_id = 0911
+				OR = {
+					has_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+					has_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+				}
+			}
+		}
+		random_list = {
+			50 = {
+				set_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+				CZE = { add_to_variable = CZE_Gajda_coup_generals_support_civ_govt = 1 }
+				log = "[GetDateText]: general supports civ govt"
+				modifier = {
+					factor = 1.5
+					check_variable = { CZE_Gajda_coup_generals_support_Gajda > 9 }
+				}
+				modifier = {
+					factor = 2
+					check_variable = { CZE_Gajda_coup_generals_support_Gajda > 15 }
+				}
+			}
+			50 = {
+				set_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+				CZE = { add_to_variable = CZE_Gajda_coup_generals_support_Gajda = 1 }
+				log = "[GetDateText]: general supports Gajda"
+				modifier = {
+					factor = 1.5
+					check_variable = { CZE_Gajda_coup_generals_support_civ_govt > 9 }
+				}
+				modifier = {
+					factor = 2
+					check_variable = { CZE_Gajda_coup_generals_support_civ_govt > 15 }
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			any_unit_leader = {
+				NOT = {
+					has_id = 0911
+					OR = {
+						has_unit_leader_flag = CZE_Gajda_coup_supports_civ_govt
+						has_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+					}
+				}
+			}
+		}
+		country_event = czegajda.12
+	}
+}
+
+CZE_decide_how_to_punish_commanders = {
+	random_unit_leader = {
+		limit = { has_unit_leader_flag = CZE_Gajda_coup_supports_Gajda }
+		random_list = {
+			60 = { set_unit_leader_flag = to_demote }
+			5 = { set_unit_leader_flag = to_dismiss }
+			35 = { }
+		}
+		clr_unit_leader_flag = CZE_Gajda_coup_supports_Gajda
+	}
+	if = {
+	limit = {
+		any_unit_leader = { has_unit_leader_flag = CZE_Gajda_coup_supports_Gajda }
+	}
+	CZE_decide_how_to_punish_commanders = yes
+}
+
+CZE_punish_commanders = {
+	every_unit_leader = {
+		if = {
+			limit = { has_unit_leader_flag = to_demote }
+			if = {
+				limit = { is_field_marshal = yes }
+				demote_leader = yes
+			}
+			else = {
+				add_unit_leader_trait = demoted
+			}
+			clr_unit_leader_flag = to_demote
+		}
+		if = {
+			limit = { has_unit_leader_flag = to_dismiss }
+			retire = yes
+		}
+	}
+}
+
+CZE_add_communist_commanders = {
+	
+}
+
+CZE_great_depression_recovery_effect = {
+	if = {
+		limit = { has_idea = CZE_great_depression }
+		swap_ideas = {
+			add_idea = CZE_GD_recovery_1
+			remove_idea = CZE_great_depression
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_GD_recovery_1 }
+		swap_ideas = {
+			add_idea = CZE_GD_recovery_2
+			remove_idea = CZE_GD_recovery_1
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_GD_recovery_2 }
+		swap_ideas = {
+			add_idea = CZE_GD_recovery_2
+			remove_idea = CZE_GD_recovery_3
+		}
+	}
+	else_if = {
+		limit = { has_idea = CZE_GD_recovery_3 }
+		remove_ideas = CZE_GD_recovery_3
+	}
+}

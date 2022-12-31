@@ -1,0 +1,59 @@
+﻿l_english:
+
+### Head of Government ###
+MNT_Blazo_Jovanovic_hog_spa:0 "Blazo Jovanovic"
+MNT_Mitar_Martinovic_hog_aco:0 "Mitar Martinovic"
+MNT_Sekula_Drljevic_hog_aco:0 "Sekula Drljevic"
+MNT_Andrija_Radovic_hog_rwp:0 "Andrija Radović"
+MNT_Marko_Dakovic_hog_aco:0 "Marko Daković"
+
+### Foreign Minister ###
+MNT_Milovan_Djilas_for_spa:0 "Milovan Djilas"
+MNT_Andrija_Radovic_for_sco:0 "Andrija Radovic"
+MNT_Sekula_Drljevic_for_aco:0 "Sekula Drljevic"
+MNT_Jovan_Simonov_Plamenac_for_aco: "Jovan Simonov Plamenac"
+
+### Economy Minister ###
+MNT_Jefto_Scepanovic_eco_spa:0 "Jefto Scepanovic"
+MNT_Svetozar_Vukmanovic_eco_spa:0 "Svetozar Vukmanovic"
+MNT_Andrija_Radovic_eco_sco:0 "Andrija Radovic"
+MNT_Mirko_Mijuskovic_eco_sco:0 "Mirko Mijuskovic"
+MNT_Lazar_Mijuskovic_eco_aco:0 "Lazar Mijuskovic"
+MNT_Risto_Popovic_eco_aco:0 "Risto Popovic"
+MNT_Sekula_Drljevic_eco_aco:0 "Sekula Drljević"
+
+### Security Minister ###
+MNT_Blazo_Jovanovic_sec_spa:0 "Blazo Jovanovic"
+MNT_Jovo_Kapicic_sec_spa:0 "Jovo Kapicic"
+MNT_Savo_Vuletic_sec_sco:0 "Savo Vuletic"
+MNT_Krsto_Popovic_sec_aco:0 "Krsto Popovic"
+MNT_Mihailo_Ivanovic_sec_aco:0 "Mihailo Ivanović"
+MNT_Risto_Popovic_sec_aco:0 "Risto Popovic"
+
+### Defence Minister ###
+MNT_Svetozar_Vukmanovic_def_spa:0 "Svetozar Vukmanovic"
+MNT_Mirko_Lalatovic_def_aco:0 "Mirko Lalatovic"
+MNT_Savo_Raspopovic_def_aco:0 "Savo Raspopovic"
+
+### Chief of Staff ###
+MNT_Peko_Dapcevic_cos:0 "Peko Dapcevic"
+MNT_Bajo_Stanisic_cos:0 "Bajo Stanisic"
+MNT_Krsto_Popovic_cos:0 "Krsto Popovic"
+MNT_Pavle_Djurisic_cos:0 "Pavle Djurisic"
+
+### Chief of Army ###
+MNT_Sava_Kovacevic_carm:0 "Sava Kovacevic"
+MNT_Milo_Matanovic_carm:0 "Milo Matanovic"
+MNT_Mitar_Martinovic_carm:0 "Mitar Martinovic"
+MNT_Radomir_Vesovic_carm:0 "Radomir Vesovic"
+
+### Chief of Navy ###
+MNT_Pero_Popivoda_cnav:0 "Pero Popivoda"
+MNT_Milo_Matanovic_cnav:0 "Milo Matanovic"
+MNT_Mitar_Martinovic_cnav:0 "Mitar Martinovic"
+MNT_Radomir_Vesovic_cnav:0 "Radomir Vesovic"
+
+### Chief of Air Force ###
+MNT_Bozo_Lazarevic_cair:0 "Bozo Lazarevic"
+MNT_Mirko_Lalatovic_cair:0 "Mirko Lalatovic"
+MNT_Zaharije_Ostojic_cair:0 "Zaharije Ostojic"

@@ -1,0 +1,24 @@
+
+state={
+	id=807
+	name="STATE_807"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 1
+			12742 = {
+				naval_base = 1
+			}
+		}
+
+	}
+
+	provinces={
+		5070 8065 8096 10762 12742 14074 14099 14107 14119 14121 14131 14150 
+	}
+	manpower=1769100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

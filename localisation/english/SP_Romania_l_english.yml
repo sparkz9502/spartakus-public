@@ -1,0 +1,39 @@
+﻿l_english:
+
+### Focuses ###
+
+### Ideas ###
+
+### Events ###
+
+### Parties ###
+ROM_bolshevist_party:0 "PCdR"
+ROM_bolshevist_party_long:0 "Partidul Comunist din România (Communist Party of Romania)"
+ROM_spartacist_party:0 "PCdR"
+ROM_spartacist_party_long:0 "Partidul Comunist din România (Communist Party of Romania)"
+ROM_revolutionary_socialist_party:0 "PSIR"
+ROM_revolutionary_socialist_party_long:0 "Partidul Socialist Independent din România (Independent Socialist Party of Romania)"
+ROM_reformist_socialist_party:0 "PT-Lupu"
+ROM_reformist_socialist_party_long:0 "Partidul Tărănesc–Lupu (Peasants' Party-Lupu)"
+ROM_social_democrat_party:0 "PSDR"
+ROM_social_democrat_party_long:0 "Partidul Social Democrat Român (Romanian Social Democratic Party)"
+ROM_social_liberal_party:0 "PNT"
+ROM_social_liberal_party_long:0 "Partidul National Tărănesc (National Peasants' Party)"
+ROM_liberal_conservative_party:0 "PNL-D"
+ROM_liberal_conservative_party_long:0 "Partidul National Liberal-Duca (National Liberal Party-Duca)"
+ROM_social_conservative_party:0 "PP"
+ROM_social_conservative_party_long:0 "Partidul Poporului (People's Party)"
+ROM_authoritarian_conservative_party:0 "PNL-B"
+ROM_authoritarian_conservative_party_long:0 "Partidul National Liberal-Brătianu (National Liberal Party-Brătianu)"
+ROM_right_wing_populist_party:0 "PND"
+ROM_right_wing_populist_party_long:0 "Partidul Nationalist-Democrat (Democratic Nationalist Party)"
+ROM_national_syndicalist_party:0 "LAM"
+ROM_national_syndicalist_party_long:0 "Legiunea Arhanghelului Mihail (Legion of the Archangel Michael)"
+ROM_national_corporatist_party:0 "LANC"
+ROM_national_corporatist_party_long:0 "Liga Apărării National Crestine (National-Christian Defense League)"
+
+### Opinion Modifiers ###
+
+### Companies ###
+
+### Tooltips ###

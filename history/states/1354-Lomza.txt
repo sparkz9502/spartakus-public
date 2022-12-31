@@ -1,0 +1,19 @@
+state={
+	id=1354
+	name="STATE_1354"
+	provinces={
+		9316 11274 11329 13547 
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	manpower=444200
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

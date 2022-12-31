@@ -1,0 +1,28 @@
+
+state={
+	id=1308
+	name="STATE_1308"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			2105 1 
+		}
+		victory_points = {
+			15350 2 
+		}
+
+	}
+
+	provinces={
+		4106 10816 12080 14984 15131 15380 15383 15388 15389 
+	}
+	manpower=980000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

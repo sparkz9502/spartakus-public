@@ -1,0 +1,26 @@
+
+state={
+	id=1083
+	name="STATE_1083"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		victory_points = {
+			6270 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		6270 9239 11471 
+	}
+	manpower=792700
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

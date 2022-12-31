@@ -1,0 +1,831 @@
+# scripted effects for switching laws - made by sparkz
+
+# economy scripted effects
+
+add_economy_hyind = {
+	custom_effect_tooltip = economy_hyind_tt
+	hidden_effect = {
+		remove_ideas = {
+			economy_hyind
+			economy_ind
+			economy_semind
+			economy_indzing
+			economy_unind
+			economy_undev
+		}
+		add_ideas = economy_hyind
+	}
+}
+
+add_economy_ind = {
+	custom_effect_tooltip = economy_ind_tt
+	hidden_effect = {
+		remove_ideas = {
+			economy_hyind
+			economy_ind
+			economy_semind
+			economy_indzing
+			economy_unind
+			economy_undev
+		}
+		add_ideas = economy_ind
+	}
+}
+
+add_economy_semind = {
+	custom_effect_tooltip = economy_semind_tt
+	hidden_effect = {
+		remove_ideas = {
+			economy_hyind
+			economy_ind
+			economy_semind
+			economy_indzing
+			economy_unind
+			economy_undev
+		}
+		add_ideas = economy_semind
+	}
+}
+
+add_economy_indzing = {
+	custom_effect_tooltip = economy_indzing_tt
+	hidden_effect = {
+		remove_ideas = {
+			economy_hyind
+			economy_ind
+			economy_semind
+			economy_indzing
+			economy_unind
+			economy_undev
+		}
+		add_ideas = economy_indzing
+	}
+}
+
+add_economy_unind = {
+	custom_effect_tooltip = economy_unind_tt
+	hidden_effect = {
+		remove_ideas = {
+			economy_hyind
+			economy_ind
+			economy_semind
+			economy_indzing
+			economy_unind
+			economy_undev
+		}
+		add_ideas = economy_unind
+	}
+}
+
+add_economy_undev = {
+	custom_effect_tooltip = economy_undev_tt
+	hidden_effect = {
+		remove_ideas = {
+			economy_hyind
+			economy_ind
+			economy_semind
+			economy_indzing
+			economy_unind
+			economy_undev
+		}
+		add_ideas = economy_undev
+	}
+}
+
+# trade scripted effects
+
+add_trade_aut = {
+	custom_effect_tooltip = trade_aut_tt
+	hidden_effect = {
+		remove_ideas = {
+			trade_aut
+			trade_nat
+			trade_pro
+			trade_sempro
+			trade_laif
+		}
+		add_ideas = trade_aut
+	}
+}
+
+add_trade_nat = {
+	custom_effect_tooltip = trade_nat_tt
+	hidden_effect = {
+		remove_ideas = {
+			trade_aut
+			trade_nat
+			trade_pro
+			trade_sempro
+			trade_laif
+		}
+		add_ideas = trade_nat
+	}
+}
+
+add_trade_pro = {
+	custom_effect_tooltip = trade_pro_tt
+	hidden_effect = {
+		remove_ideas = {
+			trade_aut
+			trade_nat
+			trade_pro
+			trade_sempro
+			trade_laif
+		}
+		add_ideas = trade_pro
+	}
+}
+
+add_trade_sempro = {
+	custom_effect_tooltip = trade_sempro_tt
+	hidden_effect = {
+		remove_ideas = {
+			trade_aut
+			trade_nat
+			trade_pro
+			trade_sempro
+			trade_laif
+		}
+		add_ideas = trade_sempro
+	}
+}
+
+add_trade_laif = {
+	custom_effect_tooltip = trade_laif_tt
+	hidden_effect = {
+		remove_ideas = {
+			trade_aut
+			trade_nat
+			trade_pro
+			trade_sempro
+			trade_laif
+		}
+		add_ideas = trade_laif
+	}
+}
+
+# governance scripted effects
+
+add_governance_bure = {
+	custom_effect_tooltip = governance_bure_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_bure
+	}
+}
+
+add_governance_coun = {
+	custom_effect_tooltip = governance_coun_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_coun
+	}
+}
+
+add_governance_col = {
+	custom_effect_tooltip = governance_col_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_col
+	}
+}
+
+add_governance_par = {
+	custom_effect_tooltip = governance_par_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_par
+	}
+}
+
+add_governance_exec = {
+	custom_effect_tooltip = governance_exec_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_exec
+	}
+}
+
+add_governance_tot = {
+	custom_effect_tooltip = governance_tot_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_tot
+	}
+}
+
+add_governance_abs = {
+	custom_effect_tooltip = governance_abs_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_abs
+	}
+}
+
+add_governance_tri = {
+	custom_effect_tooltip = governance_tri_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_tri
+	}
+}
+
+add_governance_colo = {
+	custom_effect_tooltip = governance_colo_tt
+	hidden_effect = {
+		remove_ideas = {
+			governance_bure
+			governance_coun
+			governance_col
+			governance_par
+			governance_exec
+			governance_tot
+			governance_abs
+			governance_tri
+			governance_colo
+		}
+		add_ideas = governance_colo
+	}
+}
+
+# recruitment scripted effects
+
+add_recruitment_1660 = {
+	custom_effect_tooltip = recruitment_1660_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_1660
+	}
+}
+
+add_recruitment_1850 = {
+	custom_effect_tooltip = recruitment_1850_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_1850
+	}
+}
+
+add_recruitment_1840 = {
+	custom_effect_tooltip = recruitment_1840_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_1840
+	}
+}
+
+add_recruitment_1835 = {
+	custom_effect_tooltip = recruitment_1835_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_1835
+	}
+}
+
+add_recruitment_1830 = {
+	custom_effect_tooltip = recruitment_1830_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_1830
+	}
+}
+
+add_recruitment_1825 = {
+	custom_effect_tooltip = recruitment_1825_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_1825
+	}
+}
+
+add_recruitment_volunteer = {
+	custom_effect_tooltip = recruitment_volunteer_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_volunteer
+	}
+}
+
+add_recruitment_colonial = {
+	custom_effect_tooltip = recruitment_colonial_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_colonial
+	}
+}
+
+add_recruitment_disarmed = {
+	custom_effect_tooltip = recruitment_disarmed_tt
+	hidden_effect = {
+		remove_ideas = {
+			recruitment_1660
+			recruitment_1850
+			recruitment_1840
+			recruitment_1835
+			recruitment_1830
+			recruitment_1825
+			recruitment_volunteer
+			recruitment_colonial
+			recruitment_disarmed
+		}
+		add_ideas = recruitment_disarmed
+	}
+}
+
+increase_conscription = {
+	if = {
+		limit = {
+			has_idea = recruitment_disarmed
+		}
+		swap_ideas = {
+			remove_idea = recruitment_disarmed
+			add_idea = recruitment_volunteer
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_colonial
+		}
+		swap_ideas = {
+			remove_idea = recruitment_colonial
+			add_idea = recruitment_volunteer
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_volunteer
+		}
+		swap_ideas = {
+			remove_idea = recruitment_volunteer
+			add_idea = recruitment_1825
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1825
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1825
+			add_idea = recruitment_1830
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1830
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1830
+			add_idea = recruitment_1835
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1835
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1835
+			add_idea = recruitment_1840
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1840
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1840
+			add_idea = recruitment_1850
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1850
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1850
+			add_idea = recruitment_1660
+		}
+	}
+	else = {
+		limit = {
+			has_idea = recruitment_1660
+		}
+	}
+}
+
+decrease_conscription = {
+	if = {
+		limit = {
+			has_idea = recruitment_disarmed
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_colonial
+		}
+		swap_ideas = {
+			remove_idea = recruitment_colonial
+			add_idea = recruitment_disarmed
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_volunteer
+		}
+		swap_ideas = {
+			remove_idea = recruitment_volunteer
+			add_idea = recruitment_disarmed
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1825
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1825
+			add_idea = recruitment_volunteer
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1830
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1830
+			add_idea = recruitment_1825
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1835
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1835
+			add_idea = recruitment_1830
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1840
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1840
+			add_idea = recruitment_1835
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = recruitment_1850
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1850
+			add_idea = recruitment_1840
+		}
+	}
+	else = {
+		limit = {
+			has_idea = recruitment_1660
+		}
+		swap_ideas = {
+			remove_idea = recruitment_1660
+			add_idea = recruitment_1850
+		}
+	}
+}
+
+increase_mobilization = {
+	if = {
+		limit = {
+			has_idea = mobilization_1
+		}
+		swap_ideas = {
+			remove_idea = mobilization_1
+			add_idea = mobilization_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_2
+		}
+		swap_ideas = {
+			remove_idea = mobilization_2
+			add_idea = mobilization_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_3
+		}
+		swap_ideas = {
+			remove_idea = mobilization_3
+			add_idea = mobilization_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_4
+		}
+		swap_ideas = {
+			remove_idea = mobilization_4
+			add_idea = mobilization_5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_5
+		}
+		swap_ideas = {
+			remove_idea = mobilization_5
+			add_idea = mobilization_6
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_6
+		}
+		swap_ideas = {
+			remove_idea = mobilization_6
+			add_idea = mobilization_7
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_7
+		}
+		swap_ideas = {
+			remove_idea = mobilization_7
+			add_idea = mobilization_8
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_8
+		}
+		swap_ideas = {
+			remove_idea = mobilization_8
+			add_idea = mobilization_9
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_9
+		}
+		swap_ideas = {
+			remove_idea = mobilization_9
+			add_idea = mobilization_10
+		}
+	}
+	else = {
+		limit = {
+			has_idea = mobilization_10
+		}
+	}
+}
+
+decrease_mobilization = {
+	if = {
+		limit = {
+			has_idea = mobilization_1
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_2
+		}
+		swap_ideas = {
+			remove_idea = mobilization_2
+			add_idea = mobilization_1
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_3
+		}
+		swap_ideas = {
+			remove_idea = mobilization_3
+			add_idea = mobilization_2
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_4
+		}
+		swap_ideas = {
+			remove_idea = mobilization_4
+			add_idea = mobilization_3
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_5
+		}
+		swap_ideas = {
+			remove_idea = mobilization_5
+			add_idea = mobilization_4
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_6
+		}
+		swap_ideas = {
+			remove_idea = mobilization_6
+			add_idea = mobilization_5
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_7
+		}
+		swap_ideas = {
+			remove_idea = mobilization_7
+			add_idea = mobilization_6
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_8
+		}
+		swap_ideas = {
+			remove_idea = mobilization_8
+			add_idea = mobilization_7
+		}
+	}
+	else_if = {
+		limit = {
+			has_idea = mobilization_9
+		}
+		swap_ideas = {
+			remove_idea = mobilization_9
+			add_idea = mobilization_8
+		}
+	}
+	else = {
+		limit = {
+			has_idea = mobilization_10
+		}
+		swap_ideas = {
+			remove_idea = mobilization_10
+			add_idea = mobilization_9
+		}
+	}
+}

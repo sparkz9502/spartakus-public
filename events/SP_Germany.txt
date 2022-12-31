@@ -1,0 +1,535 @@
+﻿###########################
+# Germany Events
+###########################
+# By sparkz
+###########################
+
+add_namespace = ger
+add_namespace = gerfoc
+add_namespace = gerpol
+add_namespace = gerfor
+add_namespace = gerflv
+
+###########################
+# German Focus Events
+###########################
+
+country_event = { #Sorting Our Priorities
+	id = gerfoc.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfoc.1"}
+	title = gerfoc.1.t
+	desc = gerfoc.1.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfoc.1.a
+		set_country_flag = GER_infra_budget
+	}
+	option = {
+		name = gerfoc.1.b
+		set_country_flag = GER_fort_budget
+	}
+}
+
+country_event = { #Addressing the Problems Ahead
+	id = gerfoc.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfoc.2"}
+	title = gerfoc.2.t
+	desc = gerfoc.2.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfoc.2.a
+	}
+}
+
+country_event = { #The Austrian National Question
+	id = gerfoc.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfoc.3"}
+	title = gerfoc.3.t
+	desc = gerfoc.3.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfoc.3.a
+	}
+	option = {
+		name = gerfoc.3.b
+	}
+	option = {
+		name = gerfoc.3.c
+	}
+}
+
+###########################
+# German Flavor Events
+###########################
+
+news_event = { #Anniversary of the May Revolution
+	id = gerflv.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerflv.1"}
+	title = gerflv.1.t
+	desc = gerflv.1.d
+	picture = GFX_May_Revolution_Anniversary
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = gerflv.1 days = 365 }
+		}
+	}
+
+	option = {
+		name = gerflv.1.a
+		add_war_support = 0.005
+	}
+}
+
+country_event = { #A Curious Arrival
+	id = gerflv.50
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerflv.50"}
+	title = gerflv.50.t
+	desc = gerflv.50.d
+	picture = GFX_GER_EbertJr
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerflv.50.a
+	}
+}
+
+country_event = { #Der Weltkrieg
+	id = gerflv.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerflv.100"}
+	title = gerflv.100.t
+	desc = gerflv.100.d
+	picture = GFX_GER_Bruno_Apitz
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerflv.100.a
+	}
+}
+
+country_event = { #Hannah Höch's 1934 Exhibition in Reichenberg 
+	id = gerflv.150
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerflv.150"}
+	title = gerflv.150.t
+	desc = gerflv.150.d
+	picture = GFX_GER_Hannah_1934
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerflv.150.a
+	}
+}
+
+###########################
+# German Political Events
+###########################
+
+country_event = { #Introduction Event
+	id = gerpol.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.1"}
+	title = gerpol.1.t
+	desc = gerpol.1.d
+	picture = GFX_GER_WIP
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.1.a
+		country_event = { id = gerpol.2 }
+	}
+}
+
+country_event = { #A Fragile Balance
+	id = gerpol.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.2"}
+	title = gerpol.2.t
+	desc = gerpol.2.d
+	picture = GFX_GER_AFragileBalance
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.2.a
+		hidden_effect = {
+			country_event = { id = gerpol.3 days = 30 }
+		}
+	}
+}
+
+country_event = { #New Legislative Building
+	id = gerpol.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.3"}
+	title = gerpol.3.t
+	desc = gerpol.3.d
+	picture = GFX_GER_WIP
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.3.a
+		add_popularity = {
+			ideology = spartacist popularity = 0.001
+			add_political_power = -10
+		}
+	}
+	
+	option = {
+		name = gerpol.3.b
+		add_political_power = 10
+	}
+}
+
+#Council Elections
+
+country_event = { #1933 Council Elections
+	id = gerpol.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.10"}
+	title = gerpol.10.t
+	desc = gerpol.10.d
+	picture = GFX_report_event_generic_rally2
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.10.a
+		set_country_flag = GER_1933_Council_Elections_Held
+		add_political_power = 10
+	}
+}
+
+country_event = { #The Peasant Question
+	id = gerpol.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.11"}
+	title = gerpol.11.t
+	desc = gerpol.11.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = { #Thalmann goes first
+		name = gerpol.11.a
+	}
+	
+	option = { #Luxemburg goes first
+		name = gerpol.11.b
+	}
+}
+
+country_event = { #Thalmann speaks first
+	id = gerpol.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.12"}
+	title = gerpol.12.t
+	desc = gerpol.12.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.12.a
+	}
+}
+
+country_event = { #Luxemburg speaks first
+	id = gerpol.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.13"}
+	title = gerpol.13.t
+	desc = gerpol.13.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.13.a
+	}
+}
+
+country_event = { #The Conscription Question
+	id = gerpol.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.14"}
+	title = gerpol.14.t
+	desc = gerpol.14.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.14.a
+	}
+	
+	option = {
+		name = gerpol.14.b
+	}
+	
+	option = {
+		name = gerpol.14.c
+	}
+}
+
+country_event = { #A New Anthem
+	id = gerpol.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.19"}
+	title = gerpol.19.t
+	desc = gerpol.19.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.19.a
+	}
+	
+	option = {
+		name = gerpol.19.b
+	}
+	
+	option = {
+		name = gerpol.19.c
+	}
+}
+
+#Right-Wing Terrorism Event Chain
+
+news_event = { #Mass Shooting
+	id = gerpol.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.100"}
+	title = gerpol.100.t
+	desc = gerpol.100.d
+	picture = GFX_GER_communist_rally
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.100.a
+		add_stability = -0.01
+	}
+}
+
+country_event = { #Demands for Response
+	id = gerpol.101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.101"}
+	title = gerpol.101.t
+	desc = gerpol.101.d
+	picture = GFX_report_event_generic_rally2
+
+	is_triggered_only = yes
+
+	option = { #Leads to Investigation
+		name = gerpol.101.a
+		add_political_power = -25
+		add_stability = -0.05
+		hidden_effect = {
+			country_event = { 
+				id = gerpol.102
+				days = 7
+			}
+		}
+	}
+	option = { #Leads to Assassination
+		name = gerpol.101.b
+		custom_effect_tooltip = GER_Political_Warning_tt
+		add_political_power = 25
+		add_stability = 0.05
+	}
+}
+
+country_event = { #Investigation Begins
+	id = gerpol.102
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.102"}
+	title = gerpol.102.t
+	desc = gerpol.102.d
+	picture = GFX_report_event_generic_communist_congress
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.102.a
+	}
+}
+
+news_event = { #Bombing
+	id = gerpol.103
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.103"}
+	title = gerpol.103.t
+	desc = gerpol.103.d
+	picture = GFX_news_event_generic_ruins
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.103.a
+	}
+}
+
+country_event = { #RFB Vigilantes
+	id = gerpol.104
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerpol.104"}
+	title = gerpol.104.t
+	desc = gerpol.104.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerpol.104.a
+		add_political_power = -25
+		add_popularity = {
+			ideology = bolshevist popularity = 0.01
+		}
+	}
+}
+
+###########################
+# German Foreign Events
+###########################
+
+country_event = { #Border War Between RHI & GER
+	id = gerfor.100
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfor.100"}
+	title = gerfor.100.t
+	desc = gerfor.100.d
+	picture = GFX_GER_maibrucke
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfor.100.a
+		hidden_effect = {
+			add_named_threat = { 
+				threat = 3
+				name = GER_rhenish_border_conflict_tt
+			}
+			start_border_war = {
+				change_state_after_war = no
+				attacker = {
+					state = 51
+					num_provinces = 4
+					on_win = gerfor.101
+					on_lose = gerfor.102
+					on_cancel = gerfor.103
+				}
+				
+				defender = {
+					state = 781
+					num_provinces = 3
+				}
+			}
+			set_border_war_data = {
+				attacker = 51
+				defender = 781
+				attacker_modifier = 0.05
+				combat_width = 40
+			}
+		}
+	}
+}
+
+country_event = { #Border War Between RHI & GER
+	id = gerfor.101
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfor.101"}
+	title = gerfor.101.t
+	desc = gerfor.101.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfor.101.a
+	}
+}
+
+country_event = { #Border War Between RHI & GER
+	id = gerfor.102
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfor.102"}
+	title = gerfor.102.t
+	desc = gerfor.102.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfor.102.a
+	}
+}
+
+country_event = { #Border War Between RHI & GER
+	id = gerfor.103
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfor.103"}
+	title = gerfor.103.t
+	desc = gerfor.103.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfor.103.a
+	}
+}
+
+country_event = { #The Final Conflict
+	id = gerfor.500
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfor.500"}
+	title = gerfor.500.t
+	desc = gerfor.500.d
+	picture = GFX_report_event_dead_soldiers
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			every_country = {
+				limit = {
+					OR = {
+						is_in_faction_with = GER
+						is_in_faction_with = FRA
+						is_in_faction_with = ENG
+					}
+				}
+				activate_mission = GER_the_final_conflict_mission
+			}
+		}
+	}
+
+	option = {
+		name = gerfor.500.a
+		add_named_threat = { 
+			threat = 10 
+			name = GER_final_conflict_tension
+		}
+		effect_tooltip = {
+			activate_mission = GER_the_final_conflict_mission
+		}
+		hidden_effect = {
+			every_other_country = {
+				news_event = gerfor.501.a
+			}
+		}
+	}
+}
+
+news_event = { #The Final Conflict (Foreign Version)
+	id = gerfor.501
+	immediate = {log = "[GetDateText]: [Root.GetName]: event gerfor.501"}
+	title = gerfor.501.t
+	desc = gerfor.501.d
+	picture = GFX_news_event_generic_panzer_attack
+
+	is_triggered_only = yes
+
+	option = {
+		name = gerfor.501.a
+	}
+}

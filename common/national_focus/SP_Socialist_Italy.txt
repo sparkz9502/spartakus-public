@@ -1,0 +1,678 @@
+################################
+# Socialist Italy Focus Tree
+# By sparkz
+################################
+
+focus_tree = {
+	id = SP_Socialist_Italy
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SRI
+		}
+	}
+	default = no
+	
+	focus = {
+		id = SRI_The_Turin_Uprising
+		icon = GFX_SRI_Turin
+		bypass = {
+			OR = {
+				has_war_with = ITA
+				has_war_with = ILN
+			}
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_turin_uprising_tt
+		}
+		x = 8
+		y = 0
+	}
+	
+	focus = {
+		id = SRI_The_Milan_Uprising
+		icon = GFX_SRI_Milan
+		prerequisite = { focus = SRI_The_Turin_Uprising }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_milan_uprising_tt
+			ITA_icw_socialists_milan_scripted_effect = yes
+		}
+		x = 3
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_The_Genoa_Uprising
+		icon = GFX_SRI_Genoa
+		prerequisite = { focus = SRI_The_Turin_Uprising }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_genoa_uprising_tt
+			ITA_icw_socialists_genoa_scripted_effect = yes
+		}
+		x = 1
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_The_Bologna_Uprising
+		icon = GFX_SRI_Bologna
+		prerequisite = { focus = SRI_The_Turin_Uprising }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_bologna_uprising_tt
+			ITA_icw_socialists_bologna_scripted_effect = yes
+		}
+		x = -1
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_The_Livorno_Uprising
+		icon = GFX_SRI_Livorno
+		prerequisite = { focus = SRI_The_Turin_Uprising }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_livorno_uprising_tt
+			ITA_icw_socialists_livorno_scripted_effect = yes
+		}
+		x = -3
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Declaration_of_the_Republic
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_The_Milan_Uprising }
+		prerequisite = { focus = SRI_The_Genoa_Uprising }
+		prerequisite = { focus = SRI_The_Bologna_Uprising }
+		prerequisite = { focus = SRI_The_Livorno_Uprising }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 1.5
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			SRI = {
+				set_cosmetic_tag = SRI
+			}
+			add_stability = 0.10
+			add_political_power = 50
+		}
+		x = 0
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_Preparing_for_the_Long_Battle
+		icon = GFX_Preparing_for_the_long_battle
+		prerequisite = { focus = SRI_Declaration_of_the_Republic }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_manpower = 20000
+			add_war_support = 0.10
+		}
+		x = 0
+		y = 3
+	}
+	
+	focus = {
+		id = SRI_The_Revolutionary_Economy
+		icon = GFX_The_revolutionary_economy
+		prerequisite = { focus = SRI_Preparing_for_the_Long_Battle }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 5
+		y = 4
+	}
+	
+	focus = {
+		id = SRI_Organize_Food_Redistribution
+		icon = GFX_Focus_Grain
+		prerequisite = { focus = SRI_The_Revolutionary_Economy }
+		relative_position_id = SRI_The_Revolutionary_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_An_Army_Needs_Guns
+		icon = GFX_An_army_needs_guns
+		prerequisite = { focus = SRI_The_Revolutionary_Economy }
+		relative_position_id = SRI_The_Revolutionary_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Reorganize_the_Factories
+		icon = GFX_SRI_Reorganize_the_Factories
+		prerequisite = { focus = SRI_The_Revolutionary_Economy }
+		relative_position_id = SRI_The_Revolutionary_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Emergency_War_Measures
+		icon = GFX_Emergency_war_measures
+		prerequisite = { focus = SRI_Organize_Food_Redistribution }
+		prerequisite = { focus = SRI_An_Army_Needs_Guns }
+		prerequisite = { focus = SRI_Reorganize_the_Factories }
+		mutually_exclusive = { focus = SRI_Lenience_is_the_Key }
+		relative_position_id = SRI_The_Revolutionary_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = -1
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_Lenience_is_the_Key
+		icon = GFX_Lenience_is_the_key
+		prerequisite = { focus = SRI_Organize_Food_Redistribution }
+		prerequisite = { focus = SRI_An_Army_Needs_Guns }
+		prerequisite = { focus = SRI_Reorganize_the_Factories }
+		mutually_exclusive = { focus = SRI_Emergency_War_Measures }
+		relative_position_id = SRI_The_Revolutionary_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_Organizing_the_Italian_Red_Army
+		icon = GFX_focus_red_army
+		prerequisite = { focus = SRI_Preparing_for_the_Long_Battle }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 0
+		y = 4
+	}
+	
+	focus = {
+		id = SRI_Standardize_Formation_Structures
+		icon = GFX_Standarize_formation_structures
+		prerequisite = { focus = SRI_Organizing_the_Italian_Red_Army }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = SRI_The_Red_Army_idea
+				}
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_idea
+					add_idea = SRI_The_Red_Army_2_idea
+				}
+			}
+			else = {
+				limit = {
+					has_idea = SRI_The_Red_Army_2_idea
+				}
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_2_idea
+					add_idea = SRI_The_Red_Army_3_idea
+				}
+			}
+		}
+		x = 1
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Formalize_the_High_Command
+		icon = GFX_Formalize_the_High_Command
+		prerequisite = { focus = SRI_Organizing_the_Italian_Red_Army }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = SRI_The_Red_Army_idea
+				}
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_idea
+					add_idea = SRI_The_Red_Army_2_idea
+				}
+			}
+			else = {
+				limit = {
+					has_idea = SRI_The_Red_Army_2_idea
+				}
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_2_idea
+					add_idea = SRI_The_Red_Army_3_idea
+				}
+			}
+		}
+		x = -1
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Establish_a_Logistics_Department
+		icon = GFX_SRI_Establish_Logistics_Department
+		prerequisite = { focus = SRI_Formalize_the_High_Command }
+		prerequisite = { focus = SRI_Standardize_Formation_Structures }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = SRI_The_Red_Army_4POL_idea
+				}
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_4POL_idea
+					add_idea = SRI_The_Red_Army_5_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_3_idea
+					add_idea = SRI_The_Red_Army_4LOG_idea
+				}
+			}
+		}
+		x = -2
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_Establish_an_Intelligence_Department
+		icon = GFX_SRI_Establish_Intelligence_Department
+		prerequisite = { focus = SRI_Formalize_the_High_Command }
+		prerequisite = { focus = SRI_Standardize_Formation_Structures }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			if = {
+				limit = { has_dlc = "La Resistance" }
+				create_intelligence_agency = yes
+			}
+			add_political_power = -25
+			add_stability = 0.05
+		}
+		x = 0
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_Establish_a_Policing_Department
+		icon = GFX_SRI_Establish_Policing_Department
+		prerequisite = { focus = SRI_Formalize_the_High_Command }
+		prerequisite = { focus = SRI_Standardize_Formation_Structures }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = SRI_The_Red_Army_4LOG_idea
+				}
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_4LOG_idea
+					add_idea = SRI_The_Red_Army_5_idea
+				}
+			}
+			else = {
+				swap_ideas = {
+					remove_idea = SRI_The_Red_Army_3_idea
+					add_idea = SRI_The_Red_Army_4POL_idea
+				}
+			}
+		}
+		x = 2
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_Establish_Officer_Elections
+		icon = GFX_Establish_officer_elections
+		prerequisite = { focus = SRI_Establish_a_Policing_Department }
+		prerequisite = { focus = SRI_Establish_an_Intelligence_Department }
+		prerequisite = { focus = SRI_Establish_a_Logistics_Department }
+		mutually_exclusive = { focus = SRI_Quell_Political_Idealism }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_army_notice_left_tt
+			increase_ruling_party_popularity_by_3 = yes
+			swap_ideas = {
+				remove_idea = SRI_The_Red_Army_5_idea
+				add_idea = SRI_The_Red_Army_Elected_idea
+			}
+			set_country_flag = SRI_elect_army
+		}
+		x = -2
+		y = 3
+	}
+	
+	focus = {
+		id = SRI_Establish_a_Political_Department
+		icon = GFX_Establish_a_political_department
+		prerequisite = { focus = SRI_Establish_Officer_Elections }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = 25
+			swap_ideas = {
+				remove_idea = SRI_The_Red_Army_Elected_idea
+				add_idea = SRI_The_Red_Army_Elected_2_idea
+			}
+		}
+		x = -3
+		y = 4
+	}
+	
+	focus = {
+		id = SRI_Quell_Political_Idealism
+		icon = GFX_SRI_Quell_Political_Idealism
+		prerequisite = { focus = SRI_Establish_a_Policing_Department }
+		prerequisite = { focus = SRI_Establish_an_Intelligence_Department }
+		prerequisite = { focus = SRI_Establish_a_Logistics_Department }
+		mutually_exclusive = { focus = SRI_Establish_Officer_Elections }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_army_notice_right_tt
+			decrease_ruling_party_popularity_by_3 = yes
+			swap_ideas = {
+				remove_idea = SRI_The_Red_Army_5_idea
+				add_idea = SRI_The_Red_Army_Unelected_idea
+			}
+			set_country_flag = SRI_prof_army
+		}
+		x = 2
+		y = 3
+	}
+	
+	focus = {
+		id = SRI_Recruit_Sympathetic_Former_Officers
+		icon = GFX_Italian_Officer
+		prerequisite = { focus = SRI_Quell_Political_Idealism }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = -50
+			swap_ideas = {
+				remove_idea = SRI_The_Red_Army_Unelected_idea
+				add_idea = SRI_The_Red_Army_Unelected_2_idea
+			}
+		}
+		x = 3
+		y = 4
+	}
+	
+	focus = {
+		id = SRI_Aid_from_INPROV
+		icon = GFX_INPROV
+		prerequisite = { focus = SRI_Quell_Political_Idealism focus = SRI_Establish_Officer_Elections }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 0
+		y = 4
+	}
+	
+	focus = {
+		id = SRI_Request_Material_Aid
+		icon = GFX_Focus_Lend_Lease
+		prerequisite = { focus = SRI_Aid_from_INPROV }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = -1
+		y = 5
+	}
+	
+	focus = {
+		id = SRI_Request_Military_Advisors
+		icon = GFX_SRI_Request_Military_Advisors
+		prerequisite = { focus = SRI_Aid_from_INPROV }
+		relative_position_id = SRI_Organizing_the_Italian_Red_Army
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 1
+		y = 5
+	}
+	
+	focus = {
+		id = SRI_The_Fight_for_the_People
+		icon = GFX_marxist_education
+		prerequisite = { focus = SRI_Preparing_for_the_Long_Battle }
+		relative_position_id = SRI_The_Turin_Uprising
+		cost = 2
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_stability = 0.1
+		}
+		x = -5
+		y = 4
+	}
+	
+	focus = {
+		id = SRI_Appeal_to_the_Peasantry
+		icon = GFX_Appeal_to_the_peasantry
+		prerequisite = { focus = SRI_The_Fight_for_the_People }
+		relative_position_id = SRI_The_Fight_for_the_People
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			
+		}
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Promises_for_the_Future
+		icon = GFX_Goals_of_the_Future
+		prerequisite = { focus = SRI_The_Fight_for_the_People }
+		relative_position_id = SRI_The_Fight_for_the_People
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_political_power = -25
+			swap_ideas = {
+				remove_idea = SRI_A_Socialist_Vision_idea
+				add_idea = SRI_A_Socialist_Vision_2_idea
+			}
+		}
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Propaganda_of_the_Class_Struggle
+		icon = GFX_Propaganda_of_the_class_struggle
+		prerequisite = {
+			focus = SRI_The_Fight_for_the_People
+		}
+		relative_position_id = SRI_The_Fight_for_the_People
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			add_war_support = 0.15
+		}
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = SRI_Appeal_to_Nationalism
+		icon = GFX_SRI_Appeal_to_Nationalism
+		prerequisite = { focus = SRI_Appeal_to_the_Peasantry }
+		prerequisite = { focus = SRI_Promises_for_the_Future }
+		prerequisite = { focus = SRI_Propaganda_of_the_Class_Struggle }
+		mutually_exclusive = { focus = SRI_The_Internationale_Unites }
+		relative_position_id = SRI_The_Fight_for_the_People
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_nationalist_tt
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.03
+			}
+			swap_ideas = {
+				remove_idea = SRI_A_Socialist_Vision_2_idea
+				add_idea = SRI_A_Socialist_Vision_Nat_idea
+			}
+		}
+		x = -1
+		y = 2
+	}
+	
+	focus = {
+		id = SRI_The_Internationale_Unites
+		icon = GFX_SRI_The_Internationale_Unites
+		prerequisite = { focus = SRI_Appeal_to_the_Peasantry }
+		prerequisite = { focus = SRI_Promises_for_the_Future }
+		prerequisite = { focus = SRI_Propaganda_of_the_Class_Struggle }
+		mutually_exclusive = { focus = SRI_Appeal_to_Nationalism }
+		relative_position_id = SRI_The_Fight_for_the_People
+		cost = 3
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			custom_effect_tooltip = SRI_internationalist_tt
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.02
+			}
+			swap_ideas = {
+				remove_idea = SRI_A_Socialist_Vision_2_idea
+				add_idea = SRI_A_Socialist_Vision_Internat_idea
+			}
+		}
+		x = 1
+		y = 2
+	}
+}

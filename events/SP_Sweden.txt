@@ -1,0 +1,94 @@
+﻿###########################
+# Sweden Events
+###########################
+
+add_namespace = swe
+
+country_event = {
+	id = swe.1
+	title = swe.1.t
+	desc = swe.1.d
+	picture = GFX_campo
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = swe.1.a
+	}
+}
+
+country_event = {
+	id = swe.200
+	title = swe.200.t
+	desc = swe.200.d
+	picture = GFX_campo
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = swe.200.a	
+		SWK = {
+			transfer_state = 140
+			#change_tag_from = SWE
+			annex_country = { target = SWE transfer_troops = yes }
+			set_politics = {
+				ruling_party = social_democrat
+			}
+			set_country_flag = coalition_social_democrat
+		}
+		SWE = {
+			set_cosmetic_tag = SWE_SOC
+			set_politics = {
+				ruling_party = spartacist
+			}
+			transfer_state = 141
+		}	
+	}
+	option = {
+		name = swe.200.b	
+		SWK = {
+			set_cosmetic_tag = SWK
+			transfer_state = 140
+			set_politics = {
+				ruling_party = social_conservative
+			}
+		}	
+	}
+	option = {
+		name = swe.200.c	
+		SWK = {
+			set_cosmetic_tag = SWK_KGD
+			transfer_state = 140
+			set_politics = {
+				ruling_party = authoritarian_conservative
+			}
+		}	
+	}
+	option = {
+		name = swe.200.e	
+		SWE = {
+			set_cosmetic_tag = SWE_SOC
+		}
+		SWK = {
+			transfer_state = 140
+			set_politics = {
+				ruling_party = social_conservative
+			}
+		}	
+	}	
+	option = {
+		name = swe.200.f	
+		SWE = {
+			set_cosmetic_tag = SWE_NRD
+		}	
+	}	
+	option = {
+		name = swe.200.g	
+		SWE = {
+			set_cosmetic_tag = SWE
+		}	
+	}	
+	
+}

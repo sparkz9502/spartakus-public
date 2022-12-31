@@ -1,0 +1,60 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Régiment de Tirailleurs Sénégalais"
+	division_names_group = FRA_COL_08
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = {
+		name = "5ème Reg. de Tirailleurs Sénégalais"
+		location = 11921
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "10ème Reg. de Tirailleurs Sénégalais"
+		location = 14210
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "18ème Reg. de Tirailleurs Sénégalais"
+		location = 4129
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "TUN"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

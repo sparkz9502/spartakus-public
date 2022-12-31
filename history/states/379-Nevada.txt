@@ -1,0 +1,31 @@
+
+state={
+	id=379
+	name="STATE_379"
+	manpower = 91100
+	
+	state_category = pastoral
+	
+	resources={
+		raremetals=6
+		copper=32
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = USA
+		victory_points = {
+			4607 1
+		}
+		victory_points = {
+			4799 1
+		}
+	}
+
+	provinces={
+		1862 4521 4607 4736 4799 4816 7756 7827 7879 10422 10591 12134 12399 12425
+	}
+}

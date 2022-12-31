@@ -1,0 +1,25 @@
+
+state={
+	id=1000
+	name="STATE_1000"
+	
+	resources={
+		coal=1
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		7900 14688 
+	}
+	manpower=144000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

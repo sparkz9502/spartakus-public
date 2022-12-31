@@ -1,0 +1,40 @@
+
+state={
+	id=21
+	name="STATE_21"
+	resources={
+		coal=2
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			11834 20 
+		}
+		victory_points = {
+			958 2 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 4
+			11834 = {
+				naval_base = 5
+				coastal_bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		958 11834 11849 11875 
+	}
+	manpower=1343400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

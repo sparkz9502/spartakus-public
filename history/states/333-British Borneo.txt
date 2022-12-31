@@ -1,0 +1,34 @@
+
+state={
+	id=333
+	name="STATE_333"
+	resources={
+		rubber=8
+		oil=2
+	}
+
+	history={
+		owner = MLY
+		add_core_of = MLY
+		add_core_of = SAR
+		victory_points = {
+			1208 2 
+		}
+		buildings = {
+			infrastructure = 2
+			1208 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1208 2117 4216 4396 7443 8091 10269 10285 12283 12905 
+	}
+	manpower=455000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

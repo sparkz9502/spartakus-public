@@ -1,0 +1,235 @@
+# Fixing dumbass AI hopefully
+
+ser_civil_war_cacak_defence = {
+	enable = {
+		tag = KOS
+		country_exists = RSE
+	}
+	abort = {
+		NOT = {
+			country_exists = POR
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PRM"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PRM"
+		value = 1000
+	}
+}
+
+england_por_civil_war_volunteers = {
+	enable = {
+		tag = ENG
+		country_exists = POR
+	}
+	abort = {
+		NOT = {
+			country_exists = POR
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PRM"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PRM"
+		value = 1000
+	}
+}
+
+france_por_civil_war_volunteers = {
+	enable = {
+		tag = FRA
+		country_exists = POR
+	}
+	abort = {
+		NOT = {
+			country_exists = POR
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "PRM"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "PRM"
+		value = 1000
+	}
+}
+
+ussr_por_civil_war_volunteers = {
+	enable = {
+		tag = SOV
+		country_exists = PRM
+	}
+	abort = {
+		NOT = {
+			country_exists = PRM
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "POR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "POR"
+		value = 1000
+	}
+}
+
+ger_por_civil_war_volunteers = {
+	enable = {
+		tag = GER
+		country_exists = PRM
+	}
+	abort = {
+		NOT = {
+			country_exists = PRM
+		}
+	}
+	ai_strategy = {
+		type = befriend
+		id = "POR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = send_volunteers_desire
+		id = "POR"
+		value = 1000
+	}
+}
+
+portugal_civil_war_invade = {
+	enable = {
+		tag = POR
+		country_exists = PRM
+	}
+	abort = {
+		NOT = {
+			country_exists = PRM
+		}
+	}
+	ai_strategy = {
+		type = invade
+		id = "PRM"
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "PRM"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "SPR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "SPR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "EAF"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "SAF"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "COG"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "FRA"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "RAJ"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "INS"
+		value = 1000
+	}
+}
+
+portugal_monarchy_civil_war_invade = {
+	enable = {
+		tag = PRM
+		country_exists = POR
+	}
+	abort = {
+		NOT = {
+			country_exists = POR
+		}
+	}
+	ai_strategy = {
+		type = invade
+		id = "POR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "POR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore_claim
+		id = "SPR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "SPR"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "EAF"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "SAF"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "COG"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "FRA"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "RAJ"
+		value = 1000
+	}
+	ai_strategy = {
+		type = ignore
+		id = "INS"
+		value = 1000
+	}
+}

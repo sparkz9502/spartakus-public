@@ -1,0 +1,29 @@
+
+state={
+	id=1229
+	name="STATE_1229"
+
+	history={
+		owner = PAR
+		add_core_of = PAR
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			15605 3
+		}
+		victory_points = {
+			13247 1
+		}
+
+	}
+
+	provinces={
+		11023 12901 13247 15601 15602 15603 15605 15606 15608 
+	}
+	manpower=346300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

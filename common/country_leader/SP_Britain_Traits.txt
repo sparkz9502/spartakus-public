@@ -1,0 +1,47 @@
+############
+# UK Traits
+############
+
+leader_traits = {
+	ENG_George_V_trait = {
+		random = no
+		political_power_gain = 0.10
+		stability_factor = 0.05
+	}
+	ENG_Edward_VIII_trait = {
+		random = no
+		political_power_gain = 0.10
+		stability_factor = 0.025
+		war_support_factor = 0.025
+	}
+	ENG_George_VI_trait = {
+		random = no
+		political_power_gain = 0.05
+		stability_factor = 0.05
+	}
+	ENG_Henry_IX_trait = {
+		random = no
+		war_support_factor = 0.05
+	}
+	ENG_George_VII_trait = {
+		random = no
+		political_power_cost = 0.01
+		stability_factor = -0.025
+		experience_gain_air_factor = 0.1
+		ai_strategy = {
+			type = air_factory_balance
+			value = 50
+		}
+	}
+	
+	IRE_foreign_monarchy_trait = {
+		random = no
+		stability_factor = -0.05
+	}
+	IRE_compromising_king_trait = {
+		random = no
+		stability_factor = 0.025
+	}
+
+
+}

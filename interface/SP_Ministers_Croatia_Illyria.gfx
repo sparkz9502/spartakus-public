@@ -1,0 +1,334 @@
+spriteTypes = {
+
+################################################################################################################################################################################################
+### CRO
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_CRO_Andrija_Hebrang_hog_bol"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Andrija_Hebrang.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ante_Ciliga_hog_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ante_Ciliga.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_August_Cesarec_hog_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_August_Cesarec.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Ribar_hog_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Ribar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Subasic_hog_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Subasic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladko_Macek_hog_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladko_Macek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Antun_pl_Mihalovic_hog_aco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Antun_pl_Mihalovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ante_Pavelic_hog_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ante_Pavelic.tga"
+}
+
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_CRO_Aleksa_Dundic_for_bol"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Aleksa_Dundic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Ribar_for_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Ribar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Svetozar_Delic_for_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Svetozar_Delic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Miroslav_Krleza_for_rev"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Miroslav_Krleza.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladimir_Nazor_for_rev"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladimir_Nazor.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Juraj_Krnjevic_for_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Juraj_Krnjevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladko_Macek_for_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladko_Macek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Antun_pl_Mihalovic_for_aco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Antun_pl_Mihalovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Milan_Budak_for_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Milan_Budak.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Mladen_Lorkovic_for_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Mladen_Lorkovic.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_CRO_Aleksa_Dundic_eco_bol"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Aleksa_Dundic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_August_Cesarec_eco_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_August_Cesarec.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Ribar_eco_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Ribar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_August_Kosutic_eco_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_August_Kosutic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Andres_eco_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Andres.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Krajac_eco_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Krajac.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Stanko_Sverljuga_eco_aco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Stanko_Sverljuga.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Dido_Kvaternik_eco_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Dido_Kvaternik.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_CRO_Ante_Ciliga_sec_spa"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ante_Ciliga.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladimir_Copic_sec_rev"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladimir_Copic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Srdjan_Budisavljevic_sec_lco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Srdjan_Budisavljevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Djuro_Basaricek_sec_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Djuro_Basaricek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Pernar_sec_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Pernar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivo_Krbek_sec_sco"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivo_Krbek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vilko_Begic_sec_rwp"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vilko_Begic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Andrija_Artukovic_sec_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Andrija_Artukovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Mladen_Lorkovic_sec_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Mladen_Lorkovic.tga"
+}
+
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_CRO_Andrija_Hebrang_def_bol"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Andrija_Hebrang.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladimir_Copic_def_rev"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladimir_Copic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vilko_Begic_def_rwp"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vilko_Begic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Adalbert_Rogulja_def_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Adalbert_Rogulja.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Mladen_Lorkovic_def_nsy"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Mladen_Lorkovic.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_CRO_Vladimir_Copic_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladimir_Copic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Fedor_Dragojlov_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Fedor_Dragojlov.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Mihajlo_Lukic_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Mihajlo_Lukic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Marko_Mesic_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Marko_Mesic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Viktor_Pavicic_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Viktor_Pavicic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Ivan_Percevic_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Ivan_Percevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Slavko_Kvaternik_cos"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Slavko_Kvaternik.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_CRO_Aleksa_Dundic_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Aleksa_Dundic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladimir_Copic_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladimir_Copic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Fedor_Dragojlov_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Fedor_Dragojlov.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Miroslav_Navratil_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Miroslav_Navratil.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Slavko_Stancer_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Slavko_Stancer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vilko_Begic_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vilko_Begic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Slavko_Kvaternik_carm"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Slavko_Kvaternik.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_CRO_Bogdan_Pecotic_cnav"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Bogdan_Pecotic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Marijan_Polic_cnav"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Marijan_Polic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Nikola_Steinfel_cnav"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Nikola_Steinfel.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Djuro_Jakcin_cnav"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Djuro_Jakcin.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_CRO_Viktor_Bubanj_cair"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Viktor_Bubanj.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Emil_Uzelac_cair"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Emil_Uzelac.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Miroslav_Navratil_cair"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Miroslav_Navratil.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_CRO_Vladimir_Kren_cair"
+	texturefile = "gfx/interface/ministers/CRO/CRO_Vladimir_Kren.tga"
+}
+
+}

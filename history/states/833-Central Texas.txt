@@ -1,0 +1,36 @@
+
+state={
+	id=833
+	name="STATE_833"
+	resources={
+		oil=173
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			industrial_complex = 2
+			infrastructure = 2
+			6785 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = USA
+		victory_points = {
+			12782 5 
+		}
+		victory_points = {
+			6785 1 
+		}
+
+	}
+
+	provinces={
+		1915 1927 1998 2019 2042 2055 3875 3972 4884 4955 5061 5085 6785 6798 6987 8064 9773 9908 12301 12369 12728 12782 12848 12875 12893 
+	}
+	manpower=2197200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

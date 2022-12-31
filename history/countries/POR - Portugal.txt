@@ -1,0 +1,96 @@
+﻿capital = 112
+
+set_oob = "POR"
+
+recruit_character = POR_comitê_revolucionário
+recruit_character = POR_antónio_Óscar_fragoso_carmona
+recruit_character = POR_Álvaro_barreirinhas_cunhal
+recruit_character = POR_ernesto_vieira_da_rocha
+recruit_character = POR_josé_vicente_de_freitas
+recruit_character = POR_adalberto_gastão_de_sousa_dias
+recruit_character = POR_artur_carlos_de_barros_basto
+recruit_character = POR_joão_estêvão_Águas
+recruit_character = POR_antónio_ribeiro_de_carvalho
+recruit_character = POR_fernando_pereira_da_silva
+recruit_character = POR_bento_antónio_gonçalves
+recruit_character = POR_manuel_ortins_de_bettencourt
+recruit_character = POR_jerónimo_pulido
+recruit_character = POR_filipe_sérgio
+recruit_character = POR_christovão_coelho
+recruit_character = POR_ernesto_de_lacerda
+recruit_character = POR_damião_de_vasconcelos
+recruit_character = POR_eugénio_pires
+recruit_character = POR_aquilino_vieira
+recruit_character = POR_augusto_da_silva
+
+
+add_ideas = {
+	recruitment_1825
+	governance_bure
+	trade_aut
+	economy_indzing
+	mobilization_2
+	
+	POR_divided_country
+	POR_revolution
+	POR_illiteracy
+	POR_Maria_da_Cunha_Lamas_for_rev
+	POR_Antonio_Pinto_Quartim_hog_spa
+	POR_Jose_Gomes_Ferreira_eco_rev
+	POR_Alvaro_Cunhal_sec_spa
+	POR_Antonio_Sergo_def_rev
+	POR_Jose_AP_Rebelo_cos_mar
+	POR_Humberto_Carmona_carm_sli
+	POR_Bento_Goncalves_cnav_mar
+	POR_JM_Sarmento_Beires_cair_sde
+}
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1	
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	CAS1 = 1
+}
+
+country_event = { id = por.1 days = 1 }
+set_politics = {	
+	ruling_party = spartacist
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 3
+    spartacist = 20
+    revolutionary_socialist = 21
+    reformist_socialist = 10
+    social_democrat = 9
+    social_liberal = 5
+    liberal_conservative = 3
+    social_conservative = 4
+    authoritarian_conservative = 10
+    right_wing_populist = 6
+    national_syndicalist = 8
+    national_corporatist = 1
+}
+set_convoys = 25
+set_stability = 0.1
+set_war_support = 0.45
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_reformist_socialist
+
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist
+

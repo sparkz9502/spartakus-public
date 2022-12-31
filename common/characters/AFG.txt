@@ -1,0 +1,65 @@
+characters={
+
+	AFG_amanullah_khan = {
+		name = "Amanullah Khan"
+		portraits={
+			civilian={
+				large = "gfx/leaders/AFG/Portrait_Amanullah_Khan.tga"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_AMANULLAH_KHAN_DESC"
+			expire = "1965.1.1"
+			ideology = semi_constitutional_monarchism
+			traits = {
+				#
+			}
+			id=-1
+		}
+	}
+	
+	AFG_mohammed_nadir_khan = {
+		name = "Mohammed Nadir Khan"
+		portraits={
+			civilian={
+				large="gfx/leaders/AFG/Portrait_Mohammed_Nadir_Khan.tga"
+			}
+			army={
+				large="gfx/leaders/AFG/Portrait_Mohammed_Nadir_Khan.tga"
+			}
+		}
+		field_marshal={
+			traits = {
+				harsh_leader
+				old_guard
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	AFG_shah_wali_khan = {
+		name = "Shah Wali Khan"
+		portraits={
+			army={
+				large="gfx/leaders/AFG/Portrait_Shah_Wali_Khan.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				harsh_leader
+				defensive_doctrine
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

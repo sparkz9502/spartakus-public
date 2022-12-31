@@ -1,0 +1,993 @@
+focus_tree = {
+	id = SP_Croatia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = STJ
+		}
+	}
+	default = no
+	
+	focus = {
+		id = CRO_It_is_War_Brothers
+		icon = GFX_Recruitment
+		cost = 2.00
+		available = { 
+		has_country_flag = CROLiberalsRiseUp
+		}
+		completion_reward = {
+		add_political_power = 100
+			add_stability = 0.05
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.05
+			}
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = CRO_Grab_Your_Rifle
+		icon = GFX_goal_national_arsenal
+		cost = 2.00
+		prerequisite = {
+			focus = CRO_It_is_War_Brothers
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 1000 producer = ITA
+			}
+		}
+		x = 1
+		y = 2
+
+	}
+	
+	focus = {
+		id = CRO_Take_a_Saber
+		icon = GFX_Swing_the_Sword
+		cost = 2.00
+		prerequisite = {
+			focus = CRO_It_is_War_Brothers
+		}
+		completion_reward = {
+		    army_experience = 30
+			add_equipment_to_stockpile = {
+				type = infantry_equipment amount = 500 producer = ITA
+			}
+		}
+		x = 3
+		y = 2
+
+	}
+	
+	focus = {
+		id = CRO_There_be_Glory_Where_Ours_Are
+		icon = GFX_goal_national_mobilization
+		cost = 2.00
+		prerequisite = {
+			focus = CRO_Take_a_Saber
+		}
+		prerequisite = {
+			focus = CRO_Grab_Your_Rifle
+		}
+		completion_reward = {
+		add_timed_idea = {
+            idea = STJ_Nationalist_Vigor
+            days = 900
+           }
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = CRO_Croats_Victorious
+		icon = GFX_focus_YUG_banovina_of_croatia
+		cost = 2.00
+		available = { 
+		STJ = {
+		owns_state = 109
+		}
+		OR = {
+		has_government = social_democrat
+		has_government = social_liberal
+		has_government = liberal_conservative
+		}
+		}
+		completion_reward = {
+		add_political_power = 100
+		}
+		x = 10
+		y = 1
+
+	}
+	
+	focus = {
+		id = CRO_First_Postwar_Elections
+		icon = GFX_goal_generic_elections
+		cost = 6.00
+		prerequisite = {
+			focus = CRO_Croats_Victorious
+		}
+		completion_reward = {
+		STJ = { country_event = { id = croatia.4 days = 3 } }
+		}
+		x = 10
+		y = 2
+
+	}
+	
+	focus = {
+		id = CRO_First_Postwar_Elections_HRSS
+		icon = GFX_goal_ideology_social_democrat
+		available = { 
+		has_country_flag = HRSS_Elections_Win
+		}
+		cost = 1.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections
+		}
+		x = 10
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_Mass_Land_Reform
+		icon = GFX_goal_agrarian_reform
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections_HRSS
+		}
+		completion_reward = {
+		add_ideas = SER_Land_Reform_Idea
+		}
+		x = 9
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Peaceful_Peasant_Republic
+		icon = GFX_focus_small_farms
+		cost = 4.00
+		prerequisite = {
+			focus = CRO_Mass_Land_Reform
+		}
+		completion_reward = {
+		add_stability = 0.05	
+		STJ = { country_event = { id = croatia.7 days = 10 } }
+		}
+		x = 9
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Purge_Corporatists
+		icon = GFX_goal_break_rifle
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections_HRSS
+		}
+		completion_reward = {
+		STJ = { country_event = { id = croatia.6 days = 1 } }
+		}
+		x = 11
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Bring_Order_Back
+		icon = GFX_focus_peace_talks
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_Purge_Corporatists
+		}
+		completion_reward = {
+		add_stability = 0.1
+		add_political_power = 50
+		add_manpower = -500
+		}
+		x = 11
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Introduce_Welfare
+		icon = GFX_Feed_the_People
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Bring_Order_Back
+		}
+		prerequisite = {
+			focus = CRO_Peaceful_Peasant_Republic
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_ideas = STJ_Big_Welfare
+		}
+		x = 10
+		y = 6
+
+	}
+	
+	focus = {
+		id = CRO_Ensure_Coverage
+		icon = GFX_goal_government_centralised_icon
+		cost = 6.00
+		prerequisite = {
+			focus = CRO_Introduce_Welfare
+		}
+		completion_reward = {
+		add_political_power = 50
+		swap_ideas = {
+				remove_idea = STJ_Big_Welfare add_idea = STJ_Big_Welfare_2
+		}
+		}
+		x = 9
+		y = 7
+
+	}
+	
+	focus = {
+		id = CRO_Expand_Defence_Forces
+		icon = GFX_STJ_Croatian_Peasant_Defence_Force
+		cost = 6.00
+		prerequisite = {
+			focus = CRO_Introduce_Welfare
+		}
+		completion_reward = {
+		add_political_power = 15
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		hidden_effect = { load_oob = STJ_PDF
+		}
+		custom_effect_tooltip = STJ_PDF_Tip
+		}
+		x = 11
+		y = 7
+
+	}
+	
+	focus = {
+		id = CRO_Disavow_Landlords
+		icon = GFX_ROM_strikes
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Introduce_Welfare
+		}
+		completion_reward = {
+		add_timed_idea = {
+            idea = STJ_Anti_Landlordist_Policies
+            days = 365
+       }
+		add_political_power = 100
+		add_stability = -0.1
+		}
+		x = 10
+		y = 8
+
+	}
+	
+	focus = {
+		id = CRO_Organize_Peasant_Councils
+		icon = GFX_goal_new_treaty
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Disavow_Landlords
+		}
+		completion_reward = {
+		add_ideas = STJ_Peasant_Orgs
+		add_political_power = 25
+		add_stability = 0.03
+		}
+		x = 10
+		y = 9
+
+	}
+	
+	focus = {
+		id = CRO_Will_of_the_People
+		icon = GFX_goal_HOL_list_left
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_Organize_Peasant_Councils
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.03
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		}
+		x = 7
+		y = 11
+
+	}
+	
+	focus = {
+		id = CRO_Peasants_a_Political_Force
+		icon = GFX_goal_generic_national_unity
+		cost = 7.00
+		
+		prerequisite = {
+			focus = CRO_Will_of_the_People
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.03
+		add_ideas = STJ_Popular_Political_Participation
+		}
+		x = 7
+		y = 12
+
+	}
+	
+	focus = {
+		id = CRO_Father_of_the_Republic
+		icon = GFX_Oath_of_Loyalty
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_Organize_Peasant_Councils
+		}
+		completion_reward = {
+		add_ideas = STJ_Growing_Cult_of_Personality
+		add_political_power = 50
+		add_stability = 0.03
+		}
+		x = 8
+		y = 10
+
+	}
+	
+	focus = {
+		id = CRO_Anti-Clerical_Policies
+		icon = GFX_Reduce_Catholic_Dominance
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Organize_Peasant_Councils
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_stability = -0.05
+		}
+		x = 12
+		y = 10
+
+	}
+	
+	focus = {
+		id = CRO_Pursue_Social_Liberalization
+		icon = GFX_goal_liberty
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Organize_Peasant_Councils
+		}
+		completion_reward = {
+		add_ideas = STJ_Progressivism
+		add_political_power = 25
+		add_stability = 0.03
+		}
+		x = 10
+		y = 10
+
+	}
+	
+	focus = {
+		id = CRO_Literacy_Program
+		icon = GFX_SP_focus_education
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Pursue_Social_Liberalization
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_stability = 0.03
+		}
+		x = 9
+		y = 11
+
+	}
+	
+	focus = {
+		id = CRO_Autocesta_Zagreb-Split
+		icon = GFX_goal_socialist_infrastructure
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Pursue_Social_Liberalization
+		}
+		completion_reward = {
+		add_political_power = -25
+		STJ = { country_event = { id = croatia.9 days = 1 } }
+		}	
+		x = 11
+		y = 11
+
+	}
+	
+	focus = {
+		id = CRO_Develop_Tourism
+		icon = GFX_Pile_of_Money
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Autocesta_Zagreb-Split
+		}
+		prerequisite = {
+			focus = CRO_Literacy_Program
+		}
+		completion_reward = {
+		add_ideas = STJ_Growing_Tourism_Industry
+		add_political_power = 25
+		}
+		x = 10
+		y = 12
+
+	}
+	
+	focus = {
+		id = CRO_Reconcilation_with_Serbs
+		icon = GFX_focus_generic_diplomatic_treaty
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Organize_Peasant_Councils
+		}
+		completion_reward = {
+		SER = { country_event = { id = serbia.43 days = 3 } }
+		add_political_power = 25
+		add_stability = 0.05
+		}
+		x = 13
+		y = 11
+
+	}
+	
+	focus = {
+		id = CRO_Exchange_with_Bosnia
+		icon = GFX_Sunni_Catholic_Friendship
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_Reconcilation_with_Serbs
+		}
+		completion_reward = {
+		add_political_power = 25
+		add_stability = 0.03
+		add_popularity = {
+				ideology = social_liberal
+				popularity = 0.03
+			}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.03
+			}
+		}
+		x = 13
+		y = 12
+
+	}
+	
+	focus = {
+		id = CRO_Modern_Croatian_Nation
+		icon = GFX_goal_model_cities
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_Exchange_with_Bosnia
+		}
+		prerequisite = {
+			focus = CRO_Develop_Tourism
+		}
+		prerequisite = {
+			focus = CRO_Peasants_a_Political_Force
+		}
+		completion_reward = {
+		add_research_slot = 1
+		add_political_power = 100
+		}
+		x = 10
+		y = 13
+
+	}
+	
+	focus = {
+		id = CRO_First_Postwar_Elections_HSP
+		icon = GFX_goal_ideology_social_conservative
+		cost = 1.00
+		available = { 
+		has_country_flag = HSP_Elections_Win
+		}
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections
+		}
+		x = 6
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_Propagate_Croatian_Right
+		icon = GFX_Rally
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections_HSP
+		}
+		completion_reward = {
+		add_ideas = STJ_Nationalist_Propaganda
+		add_stability = 0.03
+		add_political_power = 100
+		}
+		x = 5
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Political_Moderation
+		icon = GFX_goal_government_centralised_icon
+		cost = 6.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections_HSP
+		}
+		completion_reward = {
+		add_stability = 0.05
+		}
+		x = 7
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Limit_Serb_Service
+		icon = GFX_Serbian_Spirit
+		cost = 6.00
+		prerequisite = {
+			focus = CRO_Propagate_Croatian_Right
+		}
+		prerequisite = {
+			focus = CRO_Political_Moderation
+		}
+		completion_reward = {
+		add_stability = -0.05
+		add_political_power = 50
+		hidden_effect = {
+		1340 = {
+			add_province_modifier = {
+				static_modifiers = {
+					STJ_No_Serb_Service 
+				}
+				province = {
+					id = 3596
+                    id = 15365	
+					id = 984
+				}
+
+			}
+
+		  }
+		}
+		custom_effect_tooltip = STJ_NoSerbService
+		}
+		x = 6
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Strengthen_Borders
+		icon = GFX_goal_Fortification_Effort
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Limit_Serb_Service
+		}
+		completion_reward = {
+		hidden_effect = {
+		1204 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 11577	
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 15341	
+				instant_build = yes
+			}
+		}
+		1203 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 11594	
+				instant_build = yes
+			}
+		}
+		109 = {
+			add_building_construction = {
+				type = bunker
+				level = 3
+				province = 9611	
+				instant_build = yes
+			}
+		}
+		}	
+		add_stability = 0.03
+		add_political_power = 25
+		custom_effect_tooltip = CRO_Border_Forts
+		}
+		x = 5
+		y = 6
+
+	}
+	
+	focus = {
+		id = CRO_Catholic_Croatia
+		icon = GFX_Catholic_2
+		cost = 6.00
+		prerequisite = {
+			focus = CRO_Strengthen_Borders
+		}
+		completion_reward = {
+		add_ideas = STJ_Catholic_Bastion
+		add_political_power = 50
+		}
+		x = 5
+		y = 7
+
+	}
+	
+	focus = {
+		id = CRO_Military_Development
+		icon = GFX_German_Advisors_Croatia
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_Catholic_Croatia
+		}
+		completion_reward = {
+		add_political_power = 25
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = arms_factory
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		}
+		x = 5
+		y = 8
+
+	}
+	
+	focus = {
+		id = CRO_Ties_to_the_West
+		icon = GFX_Cash_and_Carry
+		cost = 9.00
+		prerequisite = {
+			focus = CRO_Limit_Serb_Service
+		}
+		completion_reward = {
+		add_ideas = SER_Foreign_Investors
+		add_stability = 0.03
+		add_political_power = 100
+		}
+		x = 7
+		y = 6
+
+	}
+	
+	focus = {
+		id = CRO_Slow_Industrialization
+		icon = GFX_Industrial_Progress
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_Ties_to_the_West
+		}
+		completion_reward = {
+		add_stability = 0.03
+		add_political_power = 25
+		random_owned_state = {
+			limit = {
+				free_building_slots = {
+					building = industrial_complex
+					size > 0
+					include_locked = yes
+				}
+			}
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		}
+		x = 7
+		y = 7
+
+	}
+	
+	focus = {
+		id = CRO_Develop_Education
+		icon = GFX_KTG_Bookstack
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_Slow_Industrialization
+		}
+		completion_reward = {
+		add_stability = 0.03
+		add_political_power = 50
+		}
+		x = 7
+		y = 8
+
+	}
+	
+	focus = {
+		id = CRO_Press_Claims
+		icon = GFX_doctrine_tank_warfare
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Military_Development
+		}
+		prerequisite = {
+			focus = CRO_Develop_Education
+		}
+		available = {
+			
+			794 = {
+				owner = {
+					is_valid_war_target = yes
+					controls_state = 794
+				}
+			}
+		 }
+		
+		completion_reward = {
+		add_political_power = 100
+		set_country_flag = STJ_Preparing_War
+		}
+		x = 6
+		y = 9
+
+	}
+	
+	focus = {
+		id = CRO_Herzegovina_and_Brcko_war
+		icon = GFX_goal_ideology_national_corporatist
+		cost = 1.00
+		available = { 
+		has_country_flag = STJ_Preparing_War
+		is_subject = no
+			OR = {
+			1207 = {
+				owner = {
+					is_valid_war_target = yes
+					controls_state = 1207
+				}
+			}
+			1210 = {
+				owner = {
+					is_valid_war_target = yes
+					controls_state = 1210
+				}
+			}
+			1205 = {
+				owner = {
+					is_valid_war_target = yes
+					controls_state = 1205
+				}
+			 }
+		  }
+		}
+		bypass = {
+			1207 = { is_owned_by_ROOT_or_subject = yes }
+			1210 = { is_owned_by_ROOT_or_subject = yes }
+		    1205 = { is_owned_by_ROOT_or_subject = yes }
+		}
+		
+		ai_will_do = {
+			factor = 10
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+
+		completion_reward = {
+		add_political_power = 25
+		random_country = {
+				limit = { 
+				OR = {
+				owns_state = 1207
+				owns_state = 1210
+				owns_state = 1205
+                    }
+				}
+				ROOT = {
+					declare_war_on = {
+						target = PREV
+						type = take_state_focus
+						generator = { 45 875 }
+					}
+				}
+			}
+		}
+		x = 13
+		y = 7
+	}
+	
+	focus = {
+		id = CRO_First_Postwar_Elections_HRP
+		icon = GFX_goal_ideology_national_corporatist
+		cost = 1.00
+		available = { 
+		has_country_flag = Not_So_Fast_2
+		}
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections
+		}
+		x = 15
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_Sever_Ties
+		icon = GFX_goal_generic_isolation
+		cost = 3.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections_HRP
+		}
+		x = 14
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Ultranationalist_Policy
+		icon = GFX_focus_YUG_banovina_of_croatia
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_First_Postwar_Elections_HRP
+		}
+		x = 16
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Hypermilitarize_the_Nation
+		icon = GFX_goal_generic_military_sphere
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_Ultranationalist_Policy
+		}
+		prerequisite = {
+			focus = CRO_Sever_Ties
+		}
+		x = 15
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Another_War
+		icon = GFX_goal_generic_military_deal
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_Hypermilitarize_the_Nation
+		}
+		x = 15
+		y = 6
+
+	}
+	
+	focus = {
+		id = STJ_Expand_Oil_Storage_in_Sisak
+		icon = GFX_goal_basic_oil
+		available = { 
+		owns_state = 1202
+        controls_state = 1202
+		}
+		bypass = { has_global_flag = Illyria_Did_Dis_1 }
+		cost = 5.00
+		x = 2
+		y = 5
+		completion_reward = {
+		add_resource = { type = oil amount = 2 state = 1202 }
+		add_tech_bonus = {
+				name = CRO_Oil_Storing
+				bonus = 0.3
+				uses = 3
+				category = synth_resources
+			}
+		}
+	}
+	
+	focus = {
+		id = STJ_A_Proper_Refinery_System
+		icon = GFX_goal_generic_oil_factory
+		available = { 
+		owns_state = 1202
+        controls_state = 1202
+		}
+		bypass = { has_global_flag = Illyria_Did_Dis_2 }
+		cost = 5.00
+		x = 2
+		y = 6
+		completion_reward = {
+		if = {
+					limit = {
+						1202 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
+				}
+		}
+	}
+	
+	focus = {
+		id = STJ_Begin_Processing_Local_Raw_Oil
+		icon = GFX_goal_further_oil
+		available = { 
+		owns_state = 1202
+        controls_state = 1202
+		}
+		bypass = { has_global_flag = Illyria_Did_Dis_3 }
+		cost = 5.00
+		x = 2
+		y = 7
+		completion_reward = {
+		add_resource = { type = oil amount = 5 state = 1202 }
+		}
+	}
+	
+}

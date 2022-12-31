@@ -1,0 +1,48 @@
+﻿l_english:
+
+### Head of Government ###
+LUX_Joseph_Bech_hog_sco:0 "Joseph Bech"
+LUX_Pierre_Dupong_hog_sco:0 "Pierre Dupong"
+
+### Minister Without Portfolio ###
+LUX_Pierre_Krier_mwp_ref:0 "Pierre Krier"
+
+### Foreign Minister ###
+LUX_Joseph_Bech_for_sco:0 "Joseph Bech"
+
+### Economy Minister ###
+LUX_Pierre_Dupong_eco_sco:0 "Pierre Dupong"
+
+### Security Minister ###
+LUX_Etienne_Schmit_sec_sli:0 "Étienne Schmit"
+LUX_Nicolas_Braunshausen_sec_sli:0 "Nicolas Braunshausen"
+LUX_Norbert_Dumont_sec_sli:0 "Norbert Dumont"
+LUX_Joseph_Bech_sec_sco:0 "Joseph Bech"
+
+### Education Minister ###
+LUX_Joseph_Bech_edu_sco:0 "Joseph Bech"
+LUX_Nicolas_Margue_edu_sco:0 "Nicolas Margue"
+
+### Agriculture Minister ###
+LUX_Joseph_Bech_agr_sco:0 "Joseph Bech"
+LUX_Nicolas_Margue_agr_sco:0 "Nicolas Margue"
+
+### Transport Minister ###
+LUX_Victor_Bodson_tra_ref:0 "Victor Bodson"
+LUX_Rene_Blum_tra_ref:0 "René Blum"
+LUX_Albert_Clemang_tra_sli:0 "Albert Clemang"
+LUX_Etienne_Schmit_tra_sli:0 "Étienne Schmit"
+
+### Defence Minister ###
+LUX_Pierre_Dupong_def_sco:0 "Pierre Dupong"
+
+### Chief of Staff ###
+LUX_Felix_Bourbon-Parma_cos:0 "Félix Bourbon-Parma"
+
+### Chief of Army ###
+
+### Chief of Navy ###
+
+### Chief of Air Force ###
+
+### Theorist ###

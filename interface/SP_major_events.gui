@@ -1,0 +1,120 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "major_events_gui"
+		position = { x = 700 y = 275 }
+		size = { width = 554 height = 550 }
+		moveable = yes
+		click_to_front = yes
+		show_sound = event_popup
+		hide_sound = menu_close_window
+		
+		iconType ={
+			name ="PortugueseCivilWar"
+			spriteType = "GFX_PortugueseCivilWar"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="ItalianCivilWar"
+			spriteType = "GFX_ItalianCivilWar"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="TheGreatDepression"
+			spriteType = "GFX_TheGreatDepression"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="BritainWithdraws"
+			spriteType = "GFX_BritainWithdraws"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="FallofBritain"
+			spriteType = "GFX_FallofBritain"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="FallofFrance"
+			spriteType = "GFX_FallofFrance"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="FallofGermany"
+			spriteType = "GFX_FallofGermany"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="FallofJapan"
+			spriteType = "GFX_FallofJapan"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="JapanWithdraws"
+			spriteType = "GFX_JapanWithdraws"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		iconType ={
+			name ="USSRWithdraws"
+			spriteType = "GFX_USSRWithdraws"
+			position = { x= 14 y = 46 }
+			alwaystransparent = yes
+		}
+		
+		background = {
+			name = "major_event_interface"	
+			spriteType ="GFX_major_event_interface"
+		}
+		
+		instantTextBoxType = {
+			name = "title"
+			position = { x= 0 y = 13 }
+			font = "hoi_30header"
+			text = "[GetMajorEventsTitle]"	
+			maxWidth = 526
+			maxHeight = 27
+			fixedsize = yes
+			format = center
+		}
+		
+		instantTextBoxType = {
+			name = "text"
+			position = { x= 19 y = 334 }
+			font = "hoi4_typewriter16"
+			text = "[GetMajorEventsText]"	
+			maxWidth = 520
+			maxHeight = 173
+			fixedsize = yes
+			format = left
+		}
+		
+		buttonType = {
+			name = "major_events_gui_close_button"
+			position = { x = 153 y = 507 }
+			spriteType = "GFX_major_event_interface_button"
+			font = "hoi_20bs"
+			text = "[GetMajorEventsClose]"
+			format = center
+			shortcut = "ESCAPE"
+		}
+
+	}
+}

@@ -1,0 +1,477 @@
+ideas = {
+################################################################################################################################################################################################
+### PER
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	PER_Ziaeddin_Tabatabaee_hog_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Hassan_Pirnia_hog_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Reza_Khan_hog_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = {
+	PER_Reza_Khan_mwp_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			minister_without_portfolio
+			mwp_modern_statesman
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	PER_Abolhasan_Haerizadeh_for_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Firouz_Nosrat-ed-Dowleh_for_sco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	PER_Mohammad_Ali_Foroughi_eco_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Mohammad_Mosaddegh_eco_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			eco_keynesian_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Firouz_Nosrat-ed-Dowleh_eco_sco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	PER_Ali-Akbar_Davar_sec_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_accomplished_lawyer
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Amanullah_Jahanbani_sec_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Abdolhossein_Teymourtash_sec_ncp = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = {
+	PER_Mohammad_Mosaddegh_edu_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Mohammad_Tadayyon_edu_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			education_minister
+			edu_political_philosopher
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Hassan_Modarres_edu_sco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			education_minister
+			edu_old_school_intellectual
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = {
+	PER_Mohammad_Ali_Foroughi_agr_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			agr_reluctant_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Nikolai_Markov_agr_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			agriculture_minister
+			agr_inexperienced_agriculturalist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = {
+	PER_Abolhasan_Haerizadeh_tra_lco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister
+			tra_railway_enthusiast
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Mohammad_Mirza_Firouz_tra_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	PER_Reza_Khan_def_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_espionage_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Sardar_Homayoun_def_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Vsevolod_Starosselsky_def_aco = {
+		allowed = {original_tag = PER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	PER_Nikolai_Vadbolsky_cos = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Reza_Khan_cos = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Vsevolod_Starosselsky_cos = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+	PER_Amanullah_Jahanbani_carm = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Amir_Abdollah_Tahmasebi_carm = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Karim_Buzarjomehri_carm = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Mohammad-Hosayn_Ayrom_carm = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	PER_Pavel_Shatilov_carm = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	PER_Gholamali_Bayandor_cnav = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	PER_Ahmad_Khan_Nakhjavan_cair = {
+		allowed = {original_tag = PER}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = { ### Theorist ###
+
+}
+}

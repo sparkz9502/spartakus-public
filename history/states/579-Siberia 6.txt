@@ -1,0 +1,32 @@
+
+state={
+	id=579
+	name="STATE_579"
+
+	history={
+		owner = ROM
+		victory_points = {
+			6727 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			6727 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = ROM
+		#add_core_of = UKR
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		3701 3704 6727 9683 
+	}
+	manpower=564700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

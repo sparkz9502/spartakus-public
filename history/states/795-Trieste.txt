@@ -1,0 +1,33 @@
+
+state={
+	id=795
+	name="STATE_795"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = VNZ
+		add_core_of = LAB
+		victory_points = {
+			6626 10 
+		}
+		
+		buildings = {
+			infrastructure = 3
+			6626 = {
+				naval_base = 3
+
+			}
+			dockyard = 1
+
+		}
+
+	}
+
+	provinces={
+		6626
+	}
+	manpower=288500
+	buildings_max_level_factor=5
+	state_category=small_town
+}

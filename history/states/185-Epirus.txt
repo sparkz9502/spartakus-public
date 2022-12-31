@@ -1,0 +1,30 @@
+
+state={
+	id=185
+	name="STATE_185"
+	resources={
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			industrial_complex = 1
+			9805 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		841 3914 3980 9805 9916 
+	}
+	manpower=800900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

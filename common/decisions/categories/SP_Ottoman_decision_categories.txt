@@ -1,0 +1,15 @@
+##############
+### Ottomans ###
+##############
+
+OTT_national_questions = {
+	allowed = {
+		tag = OTT
+	}
+	visible = {
+		OR = {
+			OTT = { has_country_flag = OTT_making_demands }
+			OTT = { has_country_flag = OTT_conducting_referendums }
+		}
+	}	
+}

@@ -1,0 +1,6527 @@
+spriteTypes = {
+	# Ideology #
+
+	SpriteType = {
+		name = "GFX_goal_ideology_bolshevist"
+		texturefile = "gfx/interface/goals/goal_ideology_bolshevist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_spartacist"
+		texturefile = "gfx/interface/goals/goal_ideology_spartacist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_revolutionary_socialist"
+		texturefile = "gfx/interface/goals/goal_ideology_revolutionary_socialist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_reformist_socialist"
+		texturefile = "gfx/interface/goals/goal_ideology_reformist_socialist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_social_democrat"
+		texturefile = "gfx/interface/goals/goal_ideology_social_democrat.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_social_liberal"
+		texturefile = "gfx/interface/goals/goal_ideology_social_liberal.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_liberal_conservative"
+		texturefile = "gfx/interface/goals/goal_ideology_liberal_conservative.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_social_conservative"
+		texturefile = "gfx/interface/goals/goal_ideology_social_conservative.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_authoritarian_conservative"
+		texturefile = "gfx/interface/goals/goal_ideology_authoritarian_conservative.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_right_wing_populist"
+		texturefile = "gfx/interface/goals/goal_ideology_right_wing_populist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_national_syndicalist"
+		texturefile = "gfx/interface/goals/goal_ideology_national_syndicalist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ideology_national_corporatist"
+		texturefile = "gfx/interface/goals/goal_ideology_national_corporatist.tga"
+	}
+
+	# Others #
+	
+	SpriteType = {
+		name = "GFX_goal_continuous_political"
+		texturefile = "gfx/interface/goals/goal_continuous_political.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_empty_coffers"
+		texturefile = "gfx/interface/goals/empty_coffers.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_AUS_agriculture"
+		texturefile = "gfx/interface/goals/AUS_agriculture.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_propaganda_soviet"
+		texturefile = "gfx/interface/goals/focus_propaganda_soviet.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_nkvd_troika"
+		texturefile = "gfx/interface/goals/goal_nkvd_troika.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_UK_art_avantgarde"
+		texturefile = "gfx/interface/goals/UK_art_avantgarde.tga"
+	}
+	SpriteType = {
+		name = "GFX_all_resource"
+		texturefile = "gfx/interface/goals/All_resource.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_chromium"
+		texturefile = "gfx/interface/goals/Chromium.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_oil"
+		texturefile = "gfx/interface/goals/Oil.tga"
+	}
+
+	SpriteType = {
+		name = "goal_generic_coastal_navy"
+		texturefile = "gfx/interface/goals/goal_generic_coastal_navy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_bankruptcy"
+		texturefile = "gfx/interface/goals/goal_bankruptcy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_orthodox_state"
+		texturefile = "gfx/interface/goals/goal_orthodox_state.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_graveyard"
+		texturefile = "gfx/interface/goals/goal_graveyard.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_munitions_factories"
+		texturefile = "gfx/interface/goals/goal_munitions_factories.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_offensive_army"
+		texturefile = "gfx/interface/goals/goal_offensive_army.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_national_arsenal"
+		texturefile = "gfx/interface/goals/goal_national_arsenal.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_skull_treaty"
+		texturefile = "gfx/interface/goals/goal_skull_treaty.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_skull_fortification"
+		texturefile = "gfx/interface/goals/goal_skull_fortification.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_step_on_skull"
+		texturefile = "gfx/interface/goals/goal_step_on_skull.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_authority"
+		texturefile = "gfx/interface/goals/goal_authority.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_gold_reserve"
+		texturefile = "gfx/interface/goals/goal_gold_reserve.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SWI_defense"
+		texturefile = "gfx/interface/goals/goal_SWI_defense.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SWI_prosperity"
+		texturefile = "gfx/interface/goals/goal_SWI_prosperity.tga"			
+	}
+
+	SpriteType = {
+		name = "GFX_goal_SWI_reduit"
+		texturefile = "gfx/interface/goals/goal_SWI_reduit.tga"			
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_broken_red_star"
+		texturefile = "gfx/interface/goals/goal_broken_red_star.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_revolution"
+		texturefile = "gfx/interface/goals/goal_revolution.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_agrarian_reform"
+		texturefile = "gfx/interface/goals/goal_agrarian_reform.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_constitutional_guarantees"
+		texturefile = "gfx/interface/goals/goal_constitutional_guarantees.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_construction_engineering"
+		texturefile = "gfx/interface/goals/goal_construction_engineering.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_generic_coastal_navy"
+		texturefile = "gfx/interface/goals/goal_generic_coastal_navy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_generic_sea_focused_navy"
+		texturefile = "gfx/interface/goals/goal_generic_sea_focused_navy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_military_academy"
+		texturefile = "gfx/interface/goals/goal_military_academy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_national_artillery"
+		texturefile = "gfx/interface/goals/goal_national_artillery.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_nested_fortifications"
+		texturefile = "gfx/interface/goals/goal_nested_fortifications.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_new_treaty"
+		texturefile = "gfx/interface/goals/goal_new_treaty.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_planning_bonus"
+		texturefile = "gfx/interface/goals/goal_planning_bonus.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_secret_agents"
+		texturefile = "gfx/interface/goals/goal_secret_agents.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_volunteer_alliance"
+		texturefile = "gfx/interface/goals/goal_volunteer_alliance.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_army_guy"
+		texturefile = "gfx/interface/goals/goal_army_guy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_army_guy_2"
+		texturefile = "gfx/interface/goals/goal_army_guy_2.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_big_news"
+		texturefile = "gfx/interface/goals/goal_big_news.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_brain"
+		texturefile = "gfx/interface/goals/goal_brain.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_break_rifle"
+		texturefile = "gfx/interface/goals/goal_break_rifle.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_checkmate"
+		texturefile = "gfx/interface/goals/goal_checkmate.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_china_deal"
+		texturefile = "gfx/interface/goals/goal_china_deal.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_conspiracy"
+		texturefile = "gfx/interface/goals/goal_conspiracy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_double_research"
+		texturefile = "gfx/interface/goals/goal_double_research.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_factory_complex"
+		texturefile = "gfx/interface/goals/goal_factory_complex.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_flames_of_rebellion"
+		texturefile = "gfx/interface/goals/goal_flames_of_rebellion.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_gold_up"
+		texturefile = "gfx/interface/goals/goal_gold_up.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_great_science"
+		texturefile = "gfx/interface/goals/goal_great_science.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_navy_decision"
+		texturefile = "gfx/interface/goals/goal_navy_decision.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_opium"
+		texturefile = "gfx/interface/goals/goal_opium.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_purge_opposition"
+		texturefile = "gfx/interface/goals/goal_purge_opposition.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_revolution_tools"
+		texturefile = "gfx/interface/goals/goal_revolution_tools.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_liberty"
+		texturefile = "gfx/interface/goals/goal_liberty.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_famine"
+		texturefile = "gfx/interface/goals/goal_famine.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_agriculture"
+		texturefile = "gfx/interface/goals/goal_agriculture.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_production"
+		texturefile = "gfx/interface/goals/goal_production.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_national_mobilization"
+		texturefile = "gfx/interface/goals/goal_national_mobilization.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_anarcho_communism"
+		texturefile = "gfx/interface/goals/goal_anarcho_communism.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_syndicalism"
+		texturefile = "gfx/interface/goals/goal_syndicalism.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_syndicalist_industry"
+		texturefile = "gfx/interface/goals/goal_syndicalist_industry.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_japanese_democracy"
+		texturefile = "gfx/interface/goals/goal_japanese_democracy.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_authoritarian"
+		texturefile = "gfx/interface/goals/goal_authoritarian.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_monarchism"
+		texturefile = "gfx/interface/goals/goal_monarchism.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_monarchism_black"
+		texturefile = "gfx/interface/goals/goal_monarchism_3.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_government_icon"
+		texturefile = "gfx/interface/goals/goal_government_icon.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_conscription"
+		texturefile = "gfx/interface/goals/goal_conscription.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_economic_control"
+		texturefile = "gfx/interface/goals/goal_economic_control.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_state_economy"
+		texturefile = "gfx/interface/goals/goal_state_economy.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_shadow_government"
+		texturefile = "gfx/interface/goals/shadow_government.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_rights_for_service"
+		texturefile = "gfx/interface/goals/GER_rights_for_service.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_no_compromises"
+		texturefile = "gfx/interface/goals/GER_no_compromises.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_kill_syndies"
+		texturefile = "gfx/interface/goals/GER_kill_syndies.tga"
+
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_crush_france"
+		texturefile = "gfx/interface/goals/GER_crush_france.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_dcgb"
+		texturefile = "gfx/interface/goals/GER_dcgb.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_renewed_militarism"
+		texturefile = "gfx/interface/goals/GER_renewed_militarism.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_democracy_in_prussia"
+		texturefile = "gfx/interface/goals/GER_democracy_in_prussia.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_ceylon"
+		texturefile = "gfx/interface/goals/GER_ceylon.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_secret_police"
+		texturefile = "gfx/interface/goals/MAF_secret_police.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_demobilization"
+		texturefile = "gfx/interface/goals/UoB_demobilization.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_coat_of_arms"
+		texturefile = "gfx/interface/goals/OTT_coat_of_arms.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_ferman"
+		texturefile = "gfx/interface/goals/OTT_ferman.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_constitution"
+		texturefile = "gfx/interface/goals/OTT_constitution.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_reform"
+		texturefile = "gfx/interface/goals/OTT_reform.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_caliph"
+		texturefile = "gfx/interface/goals/OTT_caliph.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_opda"
+		texturefile = "gfx/interface/goals/OTT_opda.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_army"
+		texturefile = "gfx/interface/goals/OTT_army.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_camels"
+		texturefile = "gfx/interface/goals/OTT_camels.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_OTT_gendarmerie"
+		texturefile = "gfx/interface/goals/OTT_gendarmerie.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_faith_and_state"
+		texturefile = "gfx/interface/goals/BRA_faith_and_state.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_bananas"
+		texturefile = "gfx/interface/goals/GUA_bananas.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_wheat"
+		texturefile = "gfx/interface/goals/GUA_wheat.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_Zinc"
+		texturefile = "gfx/interface/goals/Zinc.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_IRE_peoples_army"
+		texturefile = "gfx/interface/goals/IRE_peoples_army.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_IRE_honorable_army"
+		texturefile = "gfx/interface/goals/IRE_honorable_army.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_IRE_heavy_industry"
+		texturefile = "gfx/interface/goals/IRE_heavy_industry.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_IRE_medium_industry"
+		texturefile = "gfx/interface/goals/IRE_medium_industry.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_RUS_Markov_plan"
+		texturefile = "gfx/interface/goals/RUS_Markov_plan.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_doctrine_fire_superiority"
+		texturefile = "gfx/interface/goals/doctrine_fire_superiority.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_human_tsunami"
+		texturefile = "gfx/interface/goals/Human_tsunami.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_JAP_tank"
+		texturefile = "gfx/interface/goals/JAP_tank.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_USA_new_deal"
+		texturefile = "gfx/interface/goals/USA_goal_new_deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_liberty_ships"
+		texturefile = "gfx/interface/goals/USA_goal_liberty_ships.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_sabotabby"
+		texturefile = "gfx/interface/goals/america_goal_sabo_tabby.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_american_industry"
+		texturefile = "gfx/interface/goals/america_goal_american_industry.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_freedom_fighters"
+		texturefile = "gfx/interface/goals/america_goal_freedom_fighters.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_mexican_friendship"
+		texturefile = "gfx/interface/goals/america_goal_mexican_friendship.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_eagle"
+		texturefile = "gfx/interface/goals/america_goal_eagle.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_USA_police_state"
+		texturefile = "gfx/interface/goals/america_goal_police_state.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_POL_polish_crest"
+		texturefile = "gfx/interface/goals/POL_regency_council_focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POL_militarism"
+		texturefile = "gfx/interface/goals/POL_focus_militarism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POL_a_firm_hand"
+		texturefile = "gfx/interface/goals/POL_focus_a_firm_hand.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POL_winged_hussars"
+		texturefile = "gfx/interface/goals/goal_POL_hussars.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_japanese_imperialism"
+		texturefile = "gfx/interface/goals/goal_japanese_imperialism.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_JAP_kohoda"
+		texturefile = "gfx/interface/goals/goal_JAP_kohoda.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_JAP_toseiha"
+		texturefile = "gfx/interface/goals/goal_JAP_toseiha.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_yen"
+		texturefile = "gfx/interface/goals/goal_JAP_yen.dda"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_JAP_REF"
+		texturefile = "gfx/interface/goals/goal_JAP_REF.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_PAR"
+		texturefile = "gfx/interface/goals/goal_JAP_PAR.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_WAY"
+		texturefile = "gfx/interface/goals/goal_JAP_WAY.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_democracy"
+		texturefile = "gfx/interface/goals/goal_japanese_democracy.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_Operation_Kuma"
+		texturefile = "gfx/interface/goals/Operation_Kuma.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_National_Security_Act"
+		texturefile = "gfx/interface/goals/National_Security_Act.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_Japanification_of_Foreign_Subsidification"
+		texturefile = "gfx/interface/goals/Japanification_of_Foreign_Subsidification.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_Fix_Shitty_Rails"
+		texturefile = "gfx/interface/goals/Fix_Shitty_Rails.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_Great_Railway_Incident"
+		texturefile = "gfx/interface/goals/Great_Railway_Incident.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_Human_tsunam_2"
+		texturefile = "gfx/interface/goals/Human_tsunam_2.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_Human_tsunam_1"
+		texturefile = "gfx/interface/goals/Human_tsunam_1.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_governance"
+		texturefile = "gfx/interface/goals/JAP_governance.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_focus_soldiers"
+		texturefile = "gfx/interface/goals/JAP_focus_soldiers.tga"
+
+	}
+	SpriteType = {
+		name = "GFX_goal_JAP_navy"
+		texturefile = "gfx/interface/goals/JAP_navy.tga"
+
+	}
+
+	SpriteType = {
+		name = "GFX_goal_LEC_police1"
+		texturefile = "gfx/interface/goals/goal_LEC_police1.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_police2"
+		texturefile = "gfx/interface/goals/goal_LEC_police2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_police3"
+		texturefile = "gfx/interface/goals/goal_LEC_police3.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_monkey"
+		texturefile = "gfx/interface/goals/goal_LEC_monkey.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_armsBRA"
+		texturefile = "gfx/interface/goals/goal_LEC_armsBRA.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_armsUSA"
+		texturefile = "gfx/interface/goals/goal_LEC_armsUSA.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_armsSPA"
+		texturefile = "gfx/interface/goals/goal_LEC_armsSPA.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_positive_trade_relations_gold"
+		texturefile = "gfx/interface/goals/goal_generic_positive_trade_relations_gold.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_strikeJAP"
+		texturefile = "gfx/interface/goals/goal_LEC_strikeJAP.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LEC_strikePOR"
+		texturefile = "gfx/interface/goals/goal_LEC_strikePOR.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_UK_ban_unions"
+		texturefile = "gfx/interface/goals/UK_ban_unions.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_panafrica"
+		texturefile = "gfx/interface/goals/goal_africa.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_BAT_aut"
+		texturefile = "gfx/interface/goals/BAT_aut.tga"
+	}
+	SpriteType = {
+		name = "GFX_BAT_lib"
+		texturefile = "gfx/interface/goals/BAT_lib.tga"
+	}
+	SpriteType = {
+		name = "GFX_BAT_fed"
+		texturefile = "gfx/interface/goals/BAT_fed.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_MEX_New"
+		texturefile = "gfx/interface/goals/MEX_New.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_dutch_navy"
+		texturefile = "gfx/interface/goals/goal_HOL_dutch_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_dutch_army"
+		texturefile = "gfx/interface/goals/goal_HOL_dutch_army.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_india_united"
+		texturefile = "gfx/interface/goals/goal_india_united.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_commune_politics"
+		texturefile = "gfx/interface/goals/goal_commune_politics.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_red_star"
+		texturefile = "gfx/interface/goals/goal_red_star.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_red_star_gold_wreath"
+		texturefile = "gfx/interface/goals/goal_red_star_gold_wreath.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_red_star_green_wreath"
+		texturefile = "gfx/interface/goals/goal_red_star_green_wreath.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_red_star_dove"
+		texturefile = "gfx/interface/goals/goal_red_star_dove.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_beiyang_star"
+		texturefile = "gfx/interface/goals/goal_beiyang_star.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_yamato_hotel"
+		texturefile = "gfx/interface/goals/goal_yamato_hotel.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_arisaka"
+		texturefile = "gfx/interface/goals/goal_arisaka.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_zhang_rifle"
+		texturefile = "gfx/interface/goals/goal_zhang_rifle.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_zhang_rifle"
+		texturefile = "gfx/interface/goals/goal_zhang_rifle.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_beiyang_flags"
+		texturefile = "gfx/interface/goals/goal_beiyang_flags.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_model_cities"
+		texturefile = "gfx/interface/goals/goal_model_cities.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_develop_provinces"
+		texturefile = "gfx/interface/goals/goal_develop_provinces.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_civil_service"
+		texturefile = "gfx/interface/goals/goal_civil_service.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_coffee_boom"
+		texturefile = "gfx/interface/goals/goal_coffee_boom.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_coffee_exports"
+		texturefile = "gfx/interface/goals/goal_coffee_exports.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_conquistador_legacy"
+		texturefile = "gfx/interface/goals/goal_conquistador_legacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_imperial_legacy"
+		texturefile = "gfx/interface/goals/goal_imperial_legacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_leopardo_government"
+		texturefile = "gfx/interface/goals/goal_leopardo_government.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_plantation_grants"
+		texturefile = "gfx/interface/goals/goal_plantation_grants.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_recall_mittel_mission"
+		texturefile = "gfx/interface/goals/goal_recall_mittel_mission.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_revolution_arms"
+		texturefile = "gfx/interface/goals/goal_revolution_arms.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_vargas_victorious"
+		texturefile = "gfx/interface/goals/goal_vargas_victorious.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_instructors"
+		texturefile = "gfx/interface/goals/goal_japanese_instructors.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_chinese_instructors"
+		texturefile = "gfx/interface/goals/goal_chinese_instructors.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_mantetsu_collaboration"
+		texturefile = "gfx/interface/goals/goal_mantetsu_collaboration.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_mantetsu_projects"
+		texturefile = "gfx/interface/goals/goal_mantetsu_projects.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_investment"
+		texturefile = "gfx/interface/goals/goal_japanese_investment.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_chinese_investment"
+		texturefile = "gfx/interface/goals/goal_chinese_investment.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_tank_import"
+		texturefile = "gfx/interface/goals/goal_japanese_tank_import.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_silver_reserve"
+		texturefile = "gfx/interface/goals/goal_silver_reserve.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_yanshan"
+		texturefile = "gfx/interface/goals/goal_yanshan.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_shanhaiguan"
+		texturefile = "gfx/interface/goals/goal_shanhaiguan.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_beijing_begonia"
+		texturefile = "gfx/interface/goals/goal_beijing_begonia.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_fengtian_light_metals"
+		texturefile = "gfx/interface/goals/goal_fengtian_light_metals.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_forced_mil"
+		texturefile = "gfx/interface/goals/goal_forced_mil.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_forced_res"
+		texturefile = "gfx/interface/goals/goal_forced_res.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_forced_con"
+		texturefile = "gfx/interface/goals/goal_forced_con.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_forced_inf"
+		texturefile = "gfx/interface/goals/goal_forced_inf.tga"
+	}
+	SpriteType = {
+		name = "GFX_BAT_germanisation"
+		texturefile = "gfx/interface/goals/BAT_germanisation.tga"
+	}
+	SpriteType = {
+		name = "GFX_NIC_Cows"
+		texturefile = "gfx/interface/goals/NIC_Cows.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_saotome"
+		texturefile = "gfx/interface/goals/goal_POR_saotome.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_angola"
+		texturefile = "gfx/interface/goals/goal_POR_angola.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_capeverde"
+		texturefile = "gfx/interface/goals/goal_POR_capeverde.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_saotome"
+		texturefile = "gfx/interface/goals/goal_POR_saotome.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_goa"
+		texturefile = "gfx/interface/goals/goal_POR_goa.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_macau"
+		texturefile = "gfx/interface/goals/goal_POR_macau.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_mozambique"
+		texturefile = "gfx/interface/goals/goal_POR_mozambique.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_NOR_scandinavia"
+		texturefile = "gfx/interface/goals/goal_NOR_scandinavia.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_NOR_nordic_council"
+		texturefile = "gfx/interface/goals/goal_NOR_nordic_council.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_NOR_passport_convention"
+		texturefile = "gfx/interface/goals/goal_NOR_passport_convention.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_NOR_scandi_research"
+		texturefile = "gfx/interface/goals/goal_NOR_scandi_research.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_SWE_landstormen"
+		texturefile = "gfx/interface/goals/goal_SWE_landstormen.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_SWE_airforce_1"
+		texturefile = "gfx/interface/goals/goal_SWE_airforce_1.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_WIP"
+		texturefile = "gfx/interface/goals/goal_WIP.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_POR_zambia"
+		texturefile = "gfx/interface/goals/goal_POR_zambia.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_POR_pink_map"
+		texturefile = "gfx/interface/goals/goal_POR_pink_map.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_POR_ban_republic"
+		texturefile = "gfx/interface/goals/goal_POR_ban_republic.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_POR_autonomy"
+		texturefile = "gfx/interface/goals/goal_POR_autonomy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_british_monarchy"
+		texturefile = "gfx/interface/goals/focus_british_monarchy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_focus_HOL_abandon_gold_standard"
+		texturefile = "gfx/interface/goals/focus_HOL_abandon_gold_standard.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_HOL_deal_with_right"
+		texturefile = "gfx/interface/goals/focus_HOL_deal_with_right.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_HOL_monarchy"
+		texturefile = "gfx/interface/goals/focus_HOL_monarchy.tga"
+	}
+	SpriteType = {
+		name = "GFX_HOL_crackdown_natpop"
+		texturefile = "gfx/interface/goals/HOL_crackdown_natpop.tga"
+	}
+	SpriteType = {
+		name = "GFX_HOL_crackdown_syndie"
+		texturefile = "gfx/interface/goals/HOL_crackdown_syndie.tga"
+	}
+	SpriteType = {
+		name = "GFX_HOL_flag_instructions"
+		texturefile = "gfx/interface/goals/HOL_flag_instructions.tga"
+	}
+	SpriteType = {
+		name = "GFX_HOL_papua_camps"
+		texturefile = "gfx/interface/goals/HOL_papua_camps.tga"
+	}
+	SpriteType = {
+		name = "GFX_HOL_red_scare"
+		texturefile = "gfx/interface/goals/HOL_red_scare.tga"
+	}
+	SpriteType = {
+		name = "GFX_HOL_staatsvakbond"
+		texturefile = "gfx/interface/goals/HOL_staatsvakbond.tga"
+	}
+	SpriteType = {
+		name = "GFX_SIA_rearmement"
+		texturefile = "gfx/interface/goals/SIA_rearmement.tga"
+	}
+	SpriteType = {
+		name = "GFX_SIA_siamese_rifles"
+		texturefile = "gfx/interface/goals/SIA_siamese_rifles.tga"
+	}
+	SpriteType = {
+		name = "GFX_SIA_tank"
+		texturefile = "gfx/interface/goals/SIA_tank.tga"
+	}
+	SpriteType = {
+		name = "GFX_SIA_jungletraining"
+		texturefile = "gfx/interface/goals/SIA_jungletraining.tga"
+	}
+	SpriteType = {
+		name = "GFX_SIA_maritmesilkroad"
+		texturefile = "gfx/interface/goals/SIA_maritmesilkroad.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_ban_paramilitary"
+		texturefile = "gfx/interface/goals/goal_hol_ban_paramilitary.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_ban_paramilitary_left"
+		texturefile = "gfx/interface/goals/goal_HOL_ban_paramilitary_left.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_CNA_restored_stability"
+		texturefile = "gfx/interface/goals/goal_HOL_CNA_restored_stability.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_ban_VNH"
+		texturefile = "gfx/interface/goals/goal_HOL_ban_VNH.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_CNALSP_saved_democracy"
+		texturefile = "gfx/interface/goals/goal_HOL_CNALSP_saved_democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_depillarization"
+		texturefile = "gfx/interface/goals/goal_HOL_depillarization.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_dutch_unity"
+		texturefile = "gfx/interface/goals/goal_HOL_dutch_unity.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_list_left"
+		texturefile = "gfx/interface/goals/goal_HOL_list_left.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_military_union"
+		texturefile = "gfx/interface/goals/goal_HOL_military_union.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_pillarization"
+		texturefile = "gfx/interface/goals/goal_HOL_pillarization.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_radsoc_paradise"
+		texturefile = "gfx/interface/goals/goal_HOL_radsoc_paradise.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_thriving_socdem"
+		texturefile = "gfx/interface/goals/goal_HOL_thriving_socdem.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_HOL_foreign_policy"
+		texturefile = "gfx/interface/goals/goal_HOL_foreign_policy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_indonesian_dominion"
+		texturefile = "gfx/interface/goals/goal_HOL_indonesian_dominion.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_sustain_neutrality"
+		texturefile = "gfx/interface/goals/goal_HOL_sustain_neutrality.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_progressive_tax"
+		texturefile = "gfx/interface/goals/goal_HOL_progressive_tax.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_a_new_era"
+		texturefile = "gfx/interface/goals/goal_HOL_a_new_era.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_apartheid"
+		texturefile = "gfx/interface/goals/goal_HOL_apartheid.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_flag_of_kongo"
+		texturefile = "gfx/interface/goals/goal_POR_flag_of_kongo.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_imperial_irregular_navy"
+		texturefile = "gfx/interface/goals/goal_POR_imperial_irregular_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_imperial_navy"
+		texturefile = "gfx/interface/goals/goal_POR_imperial_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_knights_of_portugal"
+		texturefile = "gfx/interface/goals/goal_POR_knights_of_portugal.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_matters_of_realm"
+		texturefile = "gfx/interface/goals/goal_POR_matters_of_realm.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_portugal_shield"
+		texturefile = "gfx/interface/goals/goal_POR_portugal_shield.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_portugese_youth"
+		texturefile = "gfx/interface/goals/goal_POR_portugese_youth.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_the_moderating_power"
+		texturefile = "gfx/interface/goals/goal_POR_the_moderating_power.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_the_tarrafal"
+		texturefile = "gfx/interface/goals/goal_POR_the_tarrafal.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_GER_infa"
+		texturefile = "gfx/interface/goals/goal_GER_infa.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_tax_church"
+		texturefile = "gfx/interface/goals/goal_tax_church.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_tax_slave"
+		texturefile = "gfx/interface/goals/goal_tax_slave.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_isolation"
+		texturefile = "gfx/interface/goals/goal_generic_isolation.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_align_japan"
+		texturefile = "gfx/interface/goals/goal_align_japan.tga"
+	}
+	SpriteType = {
+		name = "GFX_PRF_unite_princes"
+		texturefile = "gfx/interface/goals/PRF_unite_princes.tga"
+	}
+	SpriteType = {
+		name = "GFX_PRF_plantations"
+		texturefile = "gfx/interface/goals/PRF_plantations.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_elections"
+		texturefile = "gfx/interface/goals/goal_generic_elections.tga"
+	}
+	SpriteType = {
+		name = "GFX_PRF_new_india"
+		texturefile = "gfx/interface/goals/PRF_new_india.tga"
+	}
+	SpriteType = {
+		name = "GFX_Maritime_Silkroad_2"
+		texturefile = "gfx/interface/goals/Maritime_Silkroad_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EGY_cotton"
+		texturefile = "gfx/interface/goals/goal_EGY_cotton.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_EGY_sultan_fleet"
+		texturefile = "gfx/interface/goals/goal_EGY_sultan_fleet.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAF_Army_Reforms"
+		texturefile = "gfx/interface/goals/goal_MAF_Army_Reforms.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAF_elephant"
+		texturefile = "gfx/interface/goals/goal_MAF_elephant.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAF_Kulturkampf"
+		texturefile = "gfx/interface/goals/goal_MAF_Kulturkampf.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAF_Cape_Cairo"
+		texturefile = "gfx/interface/goals/goal_MAF_Cape_Cairo.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_MAF_African_Armies"
+		texturefile = "gfx/interface/goals/goal_MAF_African_Armies.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAF_African_Pilots"
+		texturefile = "gfx/interface/goals/goal_MAF_African_Pilots.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_MAF_Merc_Pilots"
+		texturefile = "gfx/interface/goals/goal_MAF_Merc_Pilots.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_MAF_secret_police"
+		texturefile = "gfx/interface/goals/MAF_secret_police.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_SER_form_yugoslavia"
+		texturefile = "gfx/interface/goals/SER_form_yugoslavia.tga"
+	}	
+	SpriteType = {
+		name = "GFX_SIA_buddhisttraditions"
+		texturefile = "gfx/interface/goals/SIA_buddhisttraditions.tga"
+	}	
+
+	SpriteType = {
+		name = "GFX_INC_female_soldiers"
+		texturefile = "gfx/interface/goals/goal_INC_female_vietcong.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_GEA_status_of_admirality"
+		texturefile = "gfx/interface/goals/GEA_status_of_the_Admirality.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_GEA_counter_insurgency"
+		texturefile = "gfx/interface/goals/goal_GEA_guerilla_warfare.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_generic_home_defense_bel"
+		texturefile = "gfx/interface/goals/goal_generic_home_defense_bel.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_Cooperative"
+		texturefile = "gfx/interface/goals/goal_BEL_Cooperative.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_support_democracy"
+		texturefile = "gfx/interface/goals/goal_BEL_support_democracy.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Federalism"
+		texturefile = "gfx/interface/goals/focus_BEL_Federalism.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Confederalism"
+		texturefile = "gfx/interface/goals/focus_BEL_Confederalism.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Catholic_Education"
+		texturefile = "gfx/interface/goals/focus_Catholic_Education.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Economic_Regions"
+		texturefile = "gfx/interface/goals/goal_Economic_Regions.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Reinforce_Belgicism"
+		texturefile = "gfx/interface/goals/goal_Reinforce_Belgicism.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Improve_Catholic_Relations"
+		texturefile = "gfx/interface/goals/focus_BEL_Improve_Catholic_Relations.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Catholic_Construction"
+		texturefile = "gfx/interface/goals/goal_Catholic_construction.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Reclaim_Netherlands"
+		texturefile = "gfx/interface/goals/goal_Reclaim_Netherlands.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Reclaim_France"
+		texturefile = "gfx/interface/goals/goal_Reclaim_France.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Groote_Kuisch"
+		texturefile = "gfx/interface/goals/Groote_Kuisch.tga"
+				
+	}
+	
+	SpriteType = {
+		name = "GFX_BEL_Belgium_Flag"
+		texturefile = "gfx/interface/goals/Belgium_Flag.tga"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_light_tanks"
+		texturefile = "gfx/interface/goals/goal_light_tanks.tga"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_belgian_rearmement"
+		texturefile = "gfx/interface/goals/goal_BEL_belgian_rearmement.tga"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_tblra_union_agreement"
+		texturefile = "gfx/interface/goals/tblra_union_agreement.tga"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_VLA_Strijdvlag"
+		texturefile = "gfx/interface/goals/goal_VLA_Strijdvlag.tga"
+				
+	}
+	SpriteType = {
+		name = "GFX_goal_Reclaim_Place"
+		texturefile = "gfx/interface/goals/goal_Reclaim_Place.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Arms_Export"
+		texturefile = "gfx/interface/goals/goal_arms_export.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Schelle"
+		texturefile = "gfx/interface/goals/goal_Schelle.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_refugee_management"
+		texturefile = "gfx/interface/goals/focus_refugee_management.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_military_research"
+		texturefile = "gfx/interface/goals/goal_military_research.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_socialist_infrastructure"
+		texturefile = "gfx/interface/goals/BEL_socialist_infrastructure2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_the_lion_roars"
+		texturefile = "gfx/interface/goals/BEL_The_Lion_Roars.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_German_Investements"
+		texturefile = "gfx/interface/goals/WLL_German_Investements.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_German_Staff"
+		texturefile = "gfx/interface/goals/WLL_German_Staff.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Centralised_Government"
+		texturefile = "gfx/interface/goals/goal_government_centralised_icon.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Dutch_Attachement"
+		texturefile = "gfx/interface/goals/FLN_Dutch_Attachement.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Dismantle_French_Education"
+		texturefile = "gfx/interface/goals/FLN_Dismantle_French_Education.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_Battleship_Investements"
+		texturefile = "gfx/interface/goals/BEL_Battleship_Investements.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_Our_Place_In_The_World"
+		texturefile = "gfx/interface/goals/BEL_Our_Place_In_The_World.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_Valiant_Defence3"
+		texturefile = "gfx/interface/goals/BEL_Valiant_Defence3.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FRA_Cut_Off_Capitalists"
+		texturefile = "gfx/interface/goals/FRA_Cut_Off_Capitalists.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_FRA_World_Revolution"
+		texturefile = "gfx/interface/goals/FRA_World_Revolution.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Cotton"
+		texturefile = "gfx/interface/goals/goal_Cotton.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_dam"
+		texturefile = "gfx/interface/goals/goal_dam.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Paris"
+		texturefile = "gfx/interface/goals/goal_Paris.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_NFA_Transsaharian_Railroad"
+		texturefile = "gfx/interface/goals/NFA_Transsaharian_Railroad.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_NFA_Troupes_de_Marine_Focus"
+		texturefile = "gfx/interface/goals/NFA_Troupes_de_Marine_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_RUS_Force_the_Straits"
+		texturefile = "gfx/interface/goals/RUS_Force_the_Straits.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Cigarettes"
+		texturefile = "gfx/interface/goals/LEC_Cigarettes.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Illegitimate_Economy"
+		texturefile = "gfx/interface/goals/LEC_Illegitimate_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Passports"
+		texturefile = "gfx/interface/goals/LEC_Passports.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Passports2"
+		texturefile = "gfx/interface/goals/LEC_Passports2.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Red_Pole"
+		texturefile = "gfx/interface/goals/LEC_Red_Pole.tga"
+	}
+	SpriteType = {
+		name = "GFX_LEC_Smugglers"
+		texturefile = "gfx/interface/goals/LEC_Smugglers.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_LBR_whiter_pale"
+		texturefile = "gfx/interface/goals/goal_LBR_whiter_pale.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_burden_empire"
+		texturefile = "gfx/interface/goals/goal_POR_burden_empire.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_Imperio_Ultramarino"
+		texturefile = "gfx/interface/goals/goal_POR_Imperio_Ultramarino.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_Imperial_Lunada"
+		texturefile = "gfx/interface/goals/goal_POR_Imperial_Lunada.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_royal_edicts"
+		texturefile = "gfx/interface/goals/goal_POR_royal_edicts.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_burden_empire"
+		texturefile = "gfx/interface/goals/goal_POR_burden_empire.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_protect_mozambique"
+		texturefile = "gfx/interface/goals/goal_POR_protect_mozambique.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_protect_angola"
+		texturefile = "gfx/interface/goals/goal_POR_protect_angola.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_POR_imperial_pride"
+		texturefile = "gfx/interface/goals/goal_POR_imperial_pride.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_KTG_Rubber_Farming"
+		texturefile = "gfx/interface/goals/KTG_Rubber_Farming.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Jungle_Diamond_Mine"
+		texturefile = "gfx/interface/goals/KTG_Jungle_Diamond_Mine.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Jungle_Gold_Mine"
+		texturefile = "gfx/interface/goals/KTG_Jungle_Gold_Mine.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Jungle_Railroad"
+		texturefile = "gfx/interface/goals/KTG_Jungle_Railroad.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Force_Publique"
+		texturefile = "gfx/interface/goals/KTG_Force_Publique.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Colonial_Economy_Focus"
+		texturefile = "gfx/interface/goals/KTG_Colonial_Economy_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Destroy_Legacy_Leopold2"
+		texturefile = "gfx/interface/goals/KTG_Destroy_Legacy_Leopold2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Mission_To_Civilise2"
+		texturefile = "gfx/interface/goals/KTG_Mission_To_Civilise2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Reinstate_Chefferie"
+		texturefile = "gfx/interface/goals/KTG_Reinstate_Chefferie.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Bookstack"
+		texturefile = "gfx/interface/goals/KTG_Bookstack.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Colonial_Trinity2"
+		texturefile = "gfx/interface/goals/KTG_Colonial_Trinity2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Belgian_Officers2"
+		texturefile = "gfx/interface/goals/KTG_Belgian_Officers2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Congolese_Officers2"
+		texturefile = "gfx/interface/goals/KTG_Congolese_Officers2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Educate_natives"
+		texturefile = "gfx/interface/goals/KTG_Educate_natives.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Seize_Investements"
+		texturefile = "gfx/interface/goals/KTG_Seize_Investements.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_KTG_Elections"
+		texturefile = "gfx/interface/goals/KTG_Elections.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_FLN_County"
+		texturefile = "gfx/interface/goals/FLN_County.tga"
+	}
+	SpriteType = {
+		name = "GFX_SIA_Urban_Warfare_NF"
+		texturefile = "gfx/interface/goals/SIA_Urban_Warfare_NF.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_secure_UK"
+		texturefile = "gfx/interface/goals/goal_secure_UK.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_freedom_of_the_press"
+		texturefile = "gfx/interface/goals/goal_freedom_of_the_press.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_scrap_navy"
+		texturefile = "gfx/interface/goals/goal_scrap_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_upgrade_navy"
+		texturefile = "gfx/interface/goals/goal_upgrade_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_british_officers"
+		texturefile = "gfx/interface/goals/goal_british_officers.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_trade_commonwealth"
+		texturefile = "gfx/interface/goals/goal_trade_commonwealth.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_world_markets"
+		texturefile = "gfx/interface/goals/goal_world_markets.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_end_democracy"
+		texturefile = "gfx/interface/goals/goal_end_democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_computer_focus"
+		texturefile = "gfx/interface/goals/goal_computer_focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_oil_derrick"
+		texturefile = "gfx/interface/goals/goal_oil_derrick.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_black_monday"
+		texturefile = "gfx/interface/goals/goal_HOL_black_monday.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_council_communism"
+		texturefile = "gfx/interface/goals/goal_HOL_council_communism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_natpop_success"
+		texturefile = "gfx/interface/goals/goal_HOL_natpop_success.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_pataut_success"
+		texturefile = "gfx/interface/goals/goal_HOL_pataut_success.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_basic_oil"
+		texturefile = "gfx/interface/goals/goal_Basic_Oil.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_oil_factory"
+		texturefile = "gfx/interface/goals/goal_generic_oil_factory.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_further_oil"
+		texturefile = "gfx/interface/goals/goal_Further_Oil.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_HOL_baerle_talks"
+		texturefile = "gfx/interface/goals/goal_HOL_baerle_talks.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_crush_belgium"
+		texturefile = "gfx/interface/goals/goal_HOL_crush_belgium.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_dutch_pannationalism"
+		texturefile = "gfx/interface/goals/goal_HOL_dutch_pannationalism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_fires_of_revolution_faux"
+		texturefile = "gfx/interface/goals/goal_HOL_fires_of_revolution.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_friendship_with_belgium"
+		texturefile = "gfx/interface/goals/goal_HOL_friendship_with_belgium.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_HOL_friendship_with_the_boers"
+		texturefile = "gfx/interface/goals/goal_HOL_friendship_with_the_boers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_accord_with_pope"
+		texturefile = "gfx/interface/goals/goal_accord_with_pope.tga"
+	}
+    SpriteType = {
+		name = "GFX_PAP_holy_war"
+		texturefile = "gfx/interface/goals/PAP_holy_war.tga"
+	}
+	SpriteType = {
+		name = "GFX_PAP_roman_senate"
+		texturefile = "gfx/interface/goals/PAP_roman_senate.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_urban"
+		texturefile = "gfx/interface/goals/goal_ITA_urban.tga"
+	}
+	
+		SpriteType = {
+		name = "GFX_goal_ITA_kings_speech"
+		texturefile = "gfx/interface/goals/goal_ITA_kings_speech.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_admin_bribe"
+		texturefile = "gfx/interface/goals/goal_admin_bribe.tga"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Production"
+		texturefile = "gfx/interface/goals/FRA_Production.tga"
+	}
+	SpriteType = {
+		name = "FRA_Cooperation"
+		texturefile = "gfx/interface/goals/FRA_Cooperation.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_new_expansionism"
+		texturefile = "gfx/interface/goals/GRE_new_expansionism.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_tur_cooperation"
+		texturefile = "gfx/interface/goals/GRE_tur_cooperation.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_NATFRA_africa"
+		texturefile = "gfx/interface/goals/NATFRA_africa.tga"
+	}		
+	SpriteType = {
+		name = "GFX_NATFRA_conscription"
+		texturefile = "gfx/interface/goals/NATFRA_conscription.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_dealwiththedevil"
+		texturefile = "gfx/interface/goals/NATFRA_dealwiththedevil.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_fire"
+		texturefile = "gfx/interface/goals/NATFRA_fire.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_flagalone"
+		texturefile = "gfx/interface/goals/NATFRA_flagalone.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_flags1"
+		texturefile = "gfx/interface/goals/NATFRA_flags1.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_flags2"
+		texturefile = "gfx/interface/goals/NATFRA_flags2.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_flags3"
+		texturefile = "gfx/interface/goals/NATFRA_flags3.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_francefirst"
+		texturefile = "gfx/interface/goals/NATFRA_francefirst.tga"
+	}	
+	SpriteType = {
+		name = "GFX_NATFRA_friendwithpoland"
+		texturefile = "gfx/interface/goals/NATFRA_friendwithpoland.tga"
+	}
+	SpriteType = {
+		name = "GFX_NATFRA_naturalborders"
+		texturefile = "gfx/interface/goals/NATFRA_naturalborders.tga"
+	}
+	SpriteType = {
+		name = "GFX_NATFRA_rightfullborders"
+		texturefile = "gfx/interface/goals/NATFRA_rightfullborders.tga"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Pact_with_Croatia"
+		texturefile = "gfx/interface/goals/FRA_Pact_with_Croatia.tga"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Pact_with_Bosnia"
+		texturefile = "gfx/interface/goals/FRA_Pact_with_Bosnia.tga"
+	}
+	SpriteType = {
+		name = "GFX_FPRY_Tito"
+		texturefile = "gfx/interface/goals/FPRY_Tito.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_FPRY_Spomenik"
+		texturefile = "gfx/interface/goals/FPRY_Spomenik.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_africa_flames"
+		texturefile = "gfx/interface/goals/goal_africa_flames.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_agriculture2"
+		texturefile = "gfx/interface/goals/goal_agriculture2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_action_francaise"
+		texturefile = "gfx/interface/goals/goal_action_francaise.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_africa2"
+		texturefile = "gfx/interface/goals/goal_africa2.tga"
+	}
+	SpriteType = {
+		name = "GFX_america_goal_eagle_deal"
+		texturefile = "gfx/interface/goals/america_goal_eagle_deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_bombs_away"
+		texturefile = "gfx/interface/goals/goal_bombs_away.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_anti_air"
+		texturefile = "gfx/interface/goals/goal_anti_air.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_anti_tank"
+		texturefile = "gfx/interface/goals/goal_anti_tank.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_backstab"
+		texturefile = "gfx/interface/goals/goal_backstab.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_battleship"
+		texturefile = "gfx/interface/goals/goal_battleship.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_balkan_fist"
+		texturefile = "gfx/interface/goals/goal_balkan_fist.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_artillery"
+		texturefile = "gfx/interface/goals/goal_artillery.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_bluewater_navy"
+		texturefile = "gfx/interface/goals/goal_bluewater_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_buckingham"
+		texturefile = "gfx/interface/goals/goal_buckingham.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_split_helmet"
+		texturefile = "gfx/interface/goals/goal_split_helmet.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_cavalry"
+		texturefile = "gfx/interface/goals/goal_cavalry.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_burning_globe"
+		texturefile = "gfx/interface/goals/goal_burning_globe.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_bull"
+		texturefile = "gfx/interface/goals/goal_bull.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_card_tricks"
+		texturefile = "gfx/interface/goals/goal_card_tricks.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_capitalist_system"
+		texturefile = "gfx/interface/goals/goal_capitalist_system.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_collaborate_local_elites2"
+		texturefile = "gfx/interface/goals/goal_collaborate_local_elites2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_collaborate_local_elites"
+		texturefile = "gfx/interface/goals/goal_collaborate_local_elites.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_champagne_diplomacy"
+		texturefile = "gfx/interface/goals/goal_champagne_diplomacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_america_goal_champagn"
+		texturefile = "gfx/interface/goals/america_goal_champagn.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_construction"
+		texturefile = "gfx/interface/goals/goal_construction.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_death_tracks"
+		texturefile = "gfx/interface/goals/goal_death_tracks.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_crush_monarchy"
+		texturefile = "gfx/interface/goals/goal_crush_monarchy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_foreign_diplomacy"
+		texturefile = "gfx/interface/goals/goal_foreign_diplomacy.tga"
+	}	
+	SpriteType = {
+		name = "GFX_goal_enlist_the_police"
+		texturefile = "gfx/interface/goals/goal_enlist_the_police.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_electronics"
+		texturefile = "gfx/interface/goals/goal_electronics.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_white_flag"
+		texturefile = "gfx/interface/goals/goal_white_flag.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_skull_treaty2"
+		texturefile = "gfx/interface/goals/goal_skull_treaty2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_finnish_spirit"
+		texturefile = "gfx/interface/goals/goal_finnish_spirit.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_industry_air"
+		texturefile = "gfx/interface/goals/goal_industry_air.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japan_helmet"
+		texturefile = "gfx/interface/goals/goal_japan_helmet.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_navy"
+		texturefile = "gfx/interface/goals/goal_japanese_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_islamic_government"
+		texturefile = "gfx/interface/goals/goal_islamic_government.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_officer"
+		texturefile = "gfx/interface/goals/goal_japanese_officer.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_machine"
+		texturefile = "gfx/interface/goals/goal_machine.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_goal_bag_of_money"
+		texturefile = "gfx/interface/goals/goal_bag_of_money.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_radio"
+		texturefile = "gfx/interface/goals/goal_radio.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_oil"
+		texturefile = "gfx/interface/goals/goal_oil.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_nuclear"
+		texturefile = "gfx/interface/goals/goal_nuclear.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_officers"
+		texturefile = "gfx/interface/goals/goal_officers.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_navy_hat_ships"
+		texturefile = "gfx/interface/goals/goal_navy_hat_ships.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_rocket"
+		texturefile = "gfx/interface/goals/goal_rocket.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_United_Arab_Emirates"
+		texturefile = "gfx/interface/goals/United_Arab_Emirates.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Pan_Arabism"
+		texturefile = "gfx/interface/goals/goal_Pan_Arabism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Unite_Arabia"
+		texturefile = "gfx/interface/goals/goal_Unite_Arabia.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_consolidating_coalitionv2"
+		texturefile = "gfx/interface/goals/goal_consolidating_coalitionv2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Settling_Nomads"
+		texturefile = "gfx/interface/goals/Settling_Nomads.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Ecole_Naval_de_Guerre"
+		texturefile = "gfx/interface/goals/goal_Ecole_Naval_de_Guerre.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Kunglinga_Skorigskolan"
+		texturefile = "gfx/interface/goals/goal_Kunglinga_Skorigskolan.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_hunt_down_saudis"
+		texturefile = "gfx/interface/goals/goal_hunt_down_saudis.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_purge_the_Ikhwan"
+		texturefile = "gfx/interface/goals/goal_purge_the_Ikhwan.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_light_tanks"
+		texturefile = "gfx/interface/goals/goal_light_tanks.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_tungsten"
+		texturefile = "gfx/interface/goals/goal_tungsten.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_tungsten_mining"
+		texturefile = "gfx/interface/goals/goal_tungsten_mining.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_fortify_city_AA"
+		texturefile = "gfx/interface/goals/goal_fortify_city_AA.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_military_agreement_germany"
+		texturefile = "gfx/interface/goals/goal_military_agreement_germany.tga"			
+	}		
+	SpriteType = {
+		name = "GFX_goal_communist_brigades"
+		texturefile = "gfx/interface/goals/goal_communist_brigades.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_communist_revolt"
+		texturefile = "gfx/interface/goals/goal_communist_revolt.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_focus_communist_army"
+		texturefile = "gfx/interface/goals/goal_focus_communist_army.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_support_democracy"
+		texturefile = "gfx/interface/goals/goal_BEL_support_democracy.tga"			
+	}
+	SpriteType = {
+		name = "GFX_goal_BEL_belgian_rearmement"
+		texturefile = "gfx/interface/goals/goal_BEL_belgian_rearmement.tga"			
+	}	
+	SpriteType = {
+		name = "GFX_goal_benelux"
+		texturefile = "gfx/interface/goals/goal_benelux.tga"			
+	}	
+	
+	SpriteType = {
+		name = "GFX_POR_flag"
+		texturefile = "gfx/interface/goals/POR_flag.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_GER_diplomacy"
+		texturefile = "gfx/interface/goals/GER_diplomacy.tga"
+	}
+
+	SpriteType = {
+		name = "GFX_POR_diplomacy"
+		texturefile = "gfx/interface/goals/POR_diplomacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_POR_army"
+		texturefile = "gfx/interface/goals/goal_POR_army.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_WUR_flag"
+		texturefile = "gfx/interface/goals/focus_WUR_flag.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_GER_diplomacy"
+		texturefile = "gfx/interface/goals/LIV_GER_diplomacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_Duchy_GER_diplomacy"
+		texturefile = "gfx/interface/goals/LIV_Duchy_GER_diplomacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_defense"
+		texturefile = "gfx/interface/goals/LIV_defense.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_teuton_restoration"
+		texturefile = "gfx/interface/goals/LIV_teuton_restoration.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_german_conscription"
+		texturefile = "gfx/interface/goals/LIV_german_conscription.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_mixed_conscription"
+		texturefile = "gfx/interface/goals/LIV_mixed_conscription.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_baltic_conscription"
+		texturefile = "gfx/interface/goals/LIV_baltic_conscription.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_freikorps"
+		texturefile = "gfx/interface/goals/LIV_freikorps.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_LIV_conscription_reform"
+		texturefile = "gfx/interface/goals/LIV_conscription_reform.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_civil_war_lessons"
+		texturefile = "gfx/interface/goals/goal_civil_war_lessons.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Steel"
+		texturefile = "gfx/interface/goals/Steel.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_germany"
+		texturefile = "gfx/interface/goals/goal_flag_germany.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_united_kingdom"
+		texturefile = "gfx/interface/goals/goal_flag_united_kingdom.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_livonia"
+		texturefile = "gfx/interface/goals/goal_flag_livonia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_teutonicrevengea"
+		texturefile = "gfx/interface/goals/teutonicrevenge.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_livonian_military"
+		texturefile = "gfx/interface/goals/livonian_military.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_livland"
+		texturefile = "gfx/interface/goals/livland.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_lithuania"
+		texturefile = "gfx/interface/goals/goal_flag_lithuania.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_estonia"
+		texturefile = "gfx/interface/goals/goal_flag_estonia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_hellenic"
+		texturefile = "gfx/interface/goals/hellenic.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_teutoniclivonia"
+		texturefile = "gfx/interface/goals/teutoniclivonia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Wooden_Frame"
+		texturefile = "gfx/interface/goals/Wooden_Frame.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Pride_of_The_Left"
+		texturefile = "gfx/interface/goals/Pride_of_The_Left.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_reign_of_terror"
+		texturefile = "gfx/interface/goals/reign_of_terror.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_crownandeagle"
+		texturefile = "gfx/interface/goals/crownandeagle.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Workers_Support"
+		texturefile = "gfx/interface/goals/Workers_Support.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Torch_of_Liberty"
+		texturefile = "gfx/interface/goals/Torch_of_Liberty.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Russian_Bear"
+		texturefile = "gfx/interface/goals/The_Russian_Bear.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Russian_Bear_Curtailed"
+		texturefile = "gfx/interface/goals/The_Russian_Bear_Curtailed.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Red_Fleet"
+		texturefile = "gfx/interface/goals/The_Red_Fleet.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Noose"
+		texturefile = "gfx/interface/goals/The_Noose.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_New_Yacht"
+		texturefile = "gfx/interface/goals/The_New_Yacht.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Burgos_Meeting"
+		texturefile = "gfx/interface/goals/The_Burgos_Meeting.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Big_Push"
+		texturefile = "gfx/interface/goals/The_Big_Push.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Technological_Supremacy"
+		texturefile = "gfx/interface/goals/Technological_Supremacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Tanks_Across_the_Border"
+		texturefile = "gfx/interface/goals/Tanks_Across_the_Border.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Swing_the_Sword"
+		texturefile = "gfx/interface/goals/Swing_the_Sword.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Subterfuge"
+		texturefile = "gfx/interface/goals/Subterfuge.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Stomp_out_the_Weak"
+		texturefile = "gfx/interface/goals/Stomp_out_the_Weak.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Stolen_Papers"
+		texturefile = "gfx/interface/goals/Stolen_Papers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_State_Control"
+		texturefile = "gfx/interface/goals/State_Control.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Starvation"
+		texturefile = "gfx/interface/goals/Starvation.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Soviet_Rocketry"
+		texturefile = "gfx/interface/goals/Soviet_Rocketry.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Southern_Steel"
+		texturefile = "gfx/interface/goals/Southern_Steel.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Small_Navy"
+		texturefile = "gfx/interface/goals/Small_Navy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Skull_Nomads"
+		texturefile = "gfx/interface/goals/Skull_Nomads.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Root_out_Funding"
+		texturefile = "gfx/interface/goals/Root_out_Funding.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Risky_Deal"
+		texturefile = "gfx/interface/goals/Risky_Deal.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Repress_Freedom"
+		texturefile = "gfx/interface/goals/Repress_Freedom.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Renewed_Arms"
+		texturefile = "gfx/interface/goals/Renewed_Arms.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Red_Army"
+		texturefile = "gfx/interface/goals/Red_Army.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Recruitment"
+		texturefile = "gfx/interface/goals/Recruitment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Recruitment_Drive"
+		texturefile = "gfx/interface/goals/Recruitment_Drive.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Rally"
+		texturefile = "gfx/interface/goals/Rally.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Purge_the_Monarchy"
+		texturefile = "gfx/interface/goals/Purge_the_Monarchy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Purge_Kulaks"
+		texturefile = "gfx/interface/goals/Purge_Kulaks.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Prepare_the_Troops"
+		texturefile = "gfx/interface/goals/Prepare_the_Troops.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Planned_Economy"
+		texturefile = "gfx/interface/goals/Planned_Economy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Pile_of_Money"
+		texturefile = "gfx/interface/goals/Pile_of_Money.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Passenger_Cruiser"
+		texturefile = "gfx/interface/goals/Passenger_Cruiser.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Naval_Operations"
+		texturefile = "gfx/interface/goals/Naval_Operations.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Naval_Effort"
+		texturefile = "gfx/interface/goals/Naval_Effort.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Military_Government"
+		texturefile = "gfx/interface/goals/Military_Government.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Mannerheim_Takes_Control"
+		texturefile = "gfx/interface/goals/Mannerheim_Takes_Control.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Little_Green_Men"
+		texturefile = "gfx/interface/goals/Little_Green_Men.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Lessons_from_the_Great_War"
+		texturefile = "gfx/interface/goals/Lessons_from_the_Great_War.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Large_Navy"
+		texturefile = "gfx/interface/goals/Large_Navy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Room_Meeting"
+		texturefile = "gfx/interface/goals/Room_Meeting.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Into_the_Flames"
+		texturefile = "gfx/interface/goals/Into_the_Flames.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hidden_Pacts"
+		texturefile = "gfx/interface/goals/Hidden_Pacts.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Heavy_Strike"
+		texturefile = "gfx/interface/goals/Heavy_Strike.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Gunpoint_Diplomacy"
+		texturefile = "gfx/interface/goals/Gunpoint_Diplomacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Generic_Political"
+		texturefile = "gfx/interface/goals/Generic_Political.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Freedom"
+		texturefile = "gfx/interface/goals/Freedom.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_Fortification_Effort"
+		texturefile = "gfx/interface/goals/Fortification_Effort.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Fascist_Subterfuge"
+		texturefile = "gfx/interface/goals/Fascist_Subterfuge.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Factory_Town"
+		texturefile = "gfx/interface/goals/Factory_Town.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Extravagance"
+		texturefile = "gfx/interface/goals/Extravagance.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Devotion_to_Lenin"
+		texturefile = "gfx/interface/goals/Devotion_to_Lenin.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Death_Tracks"
+		texturefile = "gfx/interface/goals/Death_Tracks.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Death_Tracks2"
+		texturefile = "gfx/interface/goals/Death_Tracks2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Dark_Arms"
+		texturefile = "gfx/interface/goals/Dark_Arms.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Danish_Norwegian_Union"
+		texturefile = "gfx/interface/goals/Danish_Norwegian_Union.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Danish_Industry"
+		texturefile = "gfx/interface/goals/Danish_Industry.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Crush_the_Monarchy"
+		texturefile = "gfx/interface/goals/Crush_the_Monarchy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Crush_Resistance"
+		texturefile = "gfx/interface/goals/Crush_Resistance.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Science"
+		texturefile = "gfx/interface/goals/Communist_Science.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Pride"
+		texturefile = "gfx/interface/goals/Communist_Pride.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Loyalty"
+		texturefile = "gfx/interface/goals/Communist_Loyalty.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Champagne_Repression"
+		texturefile = "gfx/interface/goals/Champagne_Repression.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Cannon"
+		texturefile = "gfx/interface/goals/Cannon.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Break_the_Germans"
+		texturefile = "gfx/interface/goals/Break_the_Germans.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brainpower"
+		texturefile = "gfx/interface/goals/Brainpower.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Battlefleet"
+		texturefile = "gfx/interface/goals/Battlefleet.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Appeal_to_Stalin"
+		texturefile = "gfx/interface/goals/Appeal_to_Stalin.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Anti_Communist"
+		texturefile = "gfx/interface/goals/Anti_Communist.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Aerial_Offensive"
+		texturefile = "gfx/interface/goals/Aerial_Offensive.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Aerial_Fleet"
+		texturefile = "gfx/interface/goals/Aerial_Fleet.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_A_Second_Kulturkampf"
+		texturefile = "gfx/interface/goals/A_Second_Kulturkampf.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brandenburg_Gate_Destruction"
+		texturefile = "gfx/interface/goals/Brandenburg_Gate_Destruction.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Battleship_Programme"
+		texturefile = "gfx/interface/goals/German_Battleship_Programme.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Palace_of_the_Soviets"
+		texturefile = "gfx/interface/goals/Palace_of_the_Soviets.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_British_Battleship_Programme"
+		texturefile = "gfx/interface/goals/British_Battleship_Programme.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brutal_Rule"
+		texturefile = "gfx/interface/goals/Brutal_Rule.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Nightmare"
+		texturefile = "gfx/interface/goals/American_Nightmare.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_Construction"
+		texturefile = "gfx/interface/goals/USA_Construction.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Duke_Focus"
+		texturefile = "gfx/interface/goals/Duke_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_King_Focus"
+		texturefile = "gfx/interface/goals/King_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Anti_Democracy"
+		texturefile = "gfx/interface/goals/Anti_Democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Battleship_Production"
+		texturefile = "gfx/interface/goals/Battleship_Production.tga"
+	}
+	SpriteType = {
+		name = "GFX_Catholic_2"
+		texturefile = "gfx/interface/goals/Catholic_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Hindi_Government"
+		texturefile = "gfx/interface/goals/Hindi_Government.tga"
+	}
+	SpriteType = {
+		name = "GFX_Industrial_Tanks"
+		texturefile = "gfx/interface/goals/Industrial_Tanks.tga"
+	}
+	SpriteType = {
+		name = "GFX_Invite_Prussian_Commanders"
+		texturefile = "gfx/interface/goals/Invite_Prussian_Commanders.tga"
+	}
+	SpriteType = {
+		name = "GFX_Leading_Torch"
+		texturefile = "gfx/interface/goals/Leading_Torch.tga"
+	}
+	SpriteType = {
+		name = "GFX_Orthodox_Orgy"
+		texturefile = "gfx/interface/goals/Orthodox_Orgy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Papal_Bull"
+		texturefile = "gfx/interface/goals/Papal_Bull.tga"
+	}
+	SpriteType = {
+		name = "GFX_Patriarchal_Reform"
+		texturefile = "gfx/interface/goals/Patriarchal_Reform.tga"
+	}
+	SpriteType = {
+		name = "GFX_Purge_Reformist_Clergy"
+		texturefile = "gfx/interface/goals/Purge_Reformist_Clergy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Sunni_Catholic_Friendship"
+		texturefile = "gfx/interface/goals/Sunni_Catholic_Friendship.tga"
+	}
+	SpriteType = {
+		name = "GFX_Chromium"
+		texturefile = "gfx/interface/goals/Chromium.tga"
+	}
+	SpriteType = {
+		name = "GFX_Malta_Republic"
+		texturefile = "gfx/interface/goals/Malta_Republic.tga"
+	}
+	SpriteType = {
+		name = "GFX_Protestantism"
+		texturefile = "gfx/interface/goals/Protestantism.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_liberals"
+		texturefile = "gfx/interface/goals/ROM_liberals.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_minorities"
+		texturefile = "gfx/interface/goals/ROM_minorities.tga"
+	}
+	SpriteType = {
+		name = "GFX_empty_coffers"
+		texturefile = "gfx/interface/goals/empty_coffers.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_conservatives"
+		texturefile = "gfx/interface/goals/ROM_conservatives.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_army"
+		texturefile = "gfx/interface/goals/ROM_army.tga"
+	}
+	SpriteType = {
+		name = "GFX_crownandeagle"
+		texturefile = "gfx/interface/goals/crownandeagle.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_king"
+		texturefile = "gfx/interface/goals/ROM_king.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_czech"
+		texturefile = "gfx/interface/goals/ROM_czech.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_ROM_alliance"
+		texturefile = "gfx/interface/goals/focus_ROM_alliance.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_italy"
+		texturefile = "gfx/interface/goals/ROM_italy.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_cash"
+		texturefile = "gfx/interface/goals/ROM_cash.tga"
+	}
+	SpriteType = {
+		name = "GFX_tblra_union_agreement"
+		texturefile = "gfx/interface/goals/tblra_union_agreement.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_gold_reserve"
+		texturefile = "gfx/interface/goals/goal_gold_reserve.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_government_centralised_icon"
+		texturefile = "gfx/interface/goals/goal_government_centralised_icon.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_ITA_urban"
+		texturefile = "gfx/interface/goals/goal_ITA_urban.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_strikes"
+		texturefile = "gfx/interface/goals/ROM_strikes.tga"
+	}
+	SpriteType = {
+		name = "GFX_Aluminium"
+		texturefile = "gfx/interface/goals/Aluminium.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_Catholic_Education"
+		texturefile = "gfx/interface/goals/focus_Catholic_Education.tga"
+	}
+	SpriteType = {
+		name = "GFX_KTG_Elections"
+		texturefile = "gfx/interface/goals/KTG_Elections.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_alfold_vote"
+		texturefile = "gfx/interface/goals/ROM_alfold_vote.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_alfold_convert"
+		texturefile = "gfx/interface/goals/ROM_alfold_convert.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_carpathia_vote"
+		texturefile = "gfx/interface/goals/ROM_carpathia_vote.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_carpathia_convert"
+		texturefile = "gfx/interface/goals/ROM_carpathia_convert.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_infrastructure"
+		texturefile = "gfx/interface/goals/ROM_infrastructure.tga"
+	}
+	SpriteType = {
+		name = "GFX_doctrine_tank_warfare"
+		texturefile = "gfx/interface/goals/doctrine_tank_warfare.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_bombs_away"
+		texturefile = "gfx/interface/goals/goal_bombs_away.tga"
+	}
+	SpriteType = {
+		name = "GFX_ROM_westbanat"
+		texturefile = "gfx/interface/goals/ROM_westbanat.tga"
+	}
+	SpriteType = {
+		name = "GFX_Livonian_Airforce"
+		texturefile = "gfx/interface/goals/Livonian_Airforce.tga"
+	}
+	SpriteType = {
+		name = "GFX_Naval_Supplies"
+		texturefile = "gfx/interface/goals/Naval_Supplies.tga"
+	}
+	SpriteType = {
+		name = "GFX_Livonian_Scum"
+		texturefile = "gfx/interface/goals/Livonian_Scum.tga"
+	}
+	SpriteType = {
+		name = "GFX_Army_Purge"
+		texturefile = "gfx/interface/goals/Army_Purge.tga"
+	}
+	SpriteType = {
+		name = "GFX_Aerial_Fleet_2"
+		texturefile = "gfx/interface/goals/Aerial_Fleet_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Jet_Research"
+		texturefile = "gfx/interface/goals/Jet_Research.tga"
+	}
+	SpriteType = {
+		name = "GFX_Rosenberg_Coup"
+		texturefile = "gfx/interface/goals/Rosenberg_Coup.tga"
+	}
+	SpriteType = {
+		name = "GFX_Baltic_Crown"
+		texturefile = "gfx/interface/goals/Baltic_Crown.tga"
+	}
+	SpriteType = {
+		name = "GFX_Teutonic_Man"
+		texturefile = "gfx/interface/goals/Teutonic_Man.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_democracy"
+		texturefile = "gfx/interface/goals/JAP_focus_democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Great_Railway_Incident"
+		texturefile = "gfx/interface/goals/Great_Railway_Incident.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tsingtau"
+		texturefile = "gfx/interface/goals/JAP_focus_tsingtau.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_shadow_government"
+		texturefile = "gfx/interface/goals/SP_focus_shadow_government.tga"
+	}
+	SpriteType = {
+		name = "GFX_KTG_Bookstack"
+		texturefile = "gfx/interface/goals/KTG_Bookstack.tga"
+	}
+	SpriteType = {
+		name = "GFX_Crush_the_Rebellion"
+		texturefile = "gfx/interface/goals/Crush_the_Rebellion.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_opium_ban"
+		texturefile = "gfx/interface/goals/SP_focus_opium_ban.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_opium_profits"
+		texturefile = "gfx/interface/goals/SP_focus_opium_profits.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_judaism"
+		texturefile = "gfx/interface/goals/SP_focus_judaism.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_book_burning"
+		texturefile = "gfx/interface/goals/SP_focus_book_burning.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japan_helmet"
+		texturefile = "gfx/interface/goals/goal_japan_helmet.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_women_industry"
+		texturefile = "gfx/interface/goals/goal_women_industry.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_puyi"
+		texturefile = "gfx/interface/goals/JAP_focus_puyi.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_spy_focus"
+		texturefile = "gfx/interface/goals/goal_spy_focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_concordia"
+		texturefile = "gfx/interface/goals/JAP_focus_concordia.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_japanese_officer"
+		texturefile = "gfx/interface/goals/goal_japanese_officer.tga"
+	}
+	SpriteType = {
+		name = "GFX_Japanese_Glory"
+		texturefile = "gfx/interface/goals/Japanese_Glory.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_geisha"
+		texturefile = "gfx/interface/goals/JAP_focus_geisha.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_pagoda"
+		texturefile = "gfx/interface/goals/JAP_focus_pagoda.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tonarigumi"
+		texturefile = "gfx/interface/goals/JAP_focus_tonarigumi.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_turan"
+		texturefile = "gfx/interface/goals/JAP_focus_turan.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_education"
+		texturefile = "gfx/interface/goals/SP_focus_education.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_samurai_spirit"
+		texturefile = "gfx/interface/goals/JAP_focus_samurai_spirit.tga"
+	}
+	SpriteType = {
+		name = "GFX_National_Security_Act"
+		texturefile = "gfx/interface/goals/National_Security_Act.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_tsunami"
+		texturefile = "gfx/interface/goals/JAP_focus_tsunami.tga"
+	}
+	SpriteType = {
+		name = "GFX_AUS_agriculture"
+		texturefile = "gfx/interface/goals/AUS_agriculture.tga"
+	}
+	SpriteType = {
+		name = "GFX_Upset_the_Balance"
+		texturefile = "gfx/interface/goals/Upset_the_Balance.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_korea"
+		texturefile = "gfx/interface/goals/JAP_focus_korea.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_taiwan"
+		texturefile = "gfx/interface/goals/JAP_focus_taiwan.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_nanyo"
+		texturefile = "gfx/interface/goals/JAP_focus_nanyo.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_spear_the_bear"
+		texturefile = "gfx/interface/goals/SP_focus_spear_the_bear.tga"
+	}
+	SpriteType = {
+		name = "GFX_SP_focus_trade_unions"
+		texturefile = "gfx/interface/goals/SP_focus_trade_unions.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Military_Mission"
+		texturefile = "gfx/interface/goals/German_Military_Mission.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_generic_military_mission_blue"
+		texturefile = "gfx/interface/goals/focus_generic_military_mission_blue.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Armor"
+		texturefile = "gfx/interface/goals/American_Armor.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Focus_Flag_Star"
+		texturefile = "gfx/interface/goals/German_Focus_Flag_Star.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Flag_Burning_2"
+		texturefile = "gfx/interface/goals/German_Flag_Burning_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Chromium2"
+		texturefile = "gfx/interface/goals/Chromium2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Delegate_to_the_Red_Pole"
+		texturefile = "gfx/interface/goals/Delegate_to_the_Red_Pole.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Finish_what_he_Started"
+		texturefile = "gfx/interface/goals/Finish_what_he_Started.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_PER_fliptheboard"
+		texturefile = "gfx/interface/goals/focus_PER_fliptheboard.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_PER_Claim_Turkmenistan"
+		texturefile = "gfx/interface/goals/PER_Claim_Turkmenistan.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Deal"
+		texturefile = "gfx/interface/goals/German_Deal.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Empire"
+		texturefile = "gfx/interface/goals/German_Empire.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Happy_Sunny_Chap"
+		texturefile = "gfx/interface/goals/Happy_Sunny_Chap.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hungarian_Flag_Burning"
+		texturefile = "gfx/interface/goals/Hungarian_Flag_Burning.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hungarian_Infiltration"
+		texturefile = "gfx/interface/goals/Hungarian_Infiltration.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hungarian_Soldiers"
+		texturefile = "gfx/interface/goals/Hungarian_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Indonesian_Communists"
+		texturefile = "gfx/interface/goals/Indonesian_Communists.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Leninist_Policies"
+		texturefile = "gfx/interface/goals/Leninist_Policies.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Napoleon_Crown_Focus"
+		texturefile = "gfx/interface/goals/Napoleon_Crown_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Napoleon_Crown_Focus_2"
+		texturefile = "gfx/interface/goals/Napoleon_Crown_Focus_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Ottoman_Monarchy"
+		texturefile = "gfx/interface/goals/Ottoman_Monarchy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Portugal_Monarchy_Focus"
+		texturefile = "gfx/interface/goals/Portugal_Monarchy_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Purge_Politicians"
+		texturefile = "gfx/interface/goals/Purge_Politicians.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovak_Partisans_Infiltrate"
+		texturefile = "gfx/interface/goals/Slovak_Partisans_Infiltrate.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Rowdy_Boys"
+		texturefile = "gfx/interface/goals/Rowdy_Boys.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Nationalisim"
+		texturefile = "gfx/interface/goals/Slovakian_Nationalisim.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Purchasing_Power"
+		texturefile = "gfx/interface/goals/Slovakian_Purchasing_Power.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Supremacy"
+		texturefile = "gfx/interface/goals/Slovakian_Supremacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Sol_Focus"
+		texturefile = "gfx/interface/goals/Sol_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_South_Africa_Burning_Flag_Focus"
+		texturefile = "gfx/interface/goals/South_Africa_Burning_Flag_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Spooky_Secret_Police"
+		texturefile = "gfx/interface/goals/Spooky_Secret_Police.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Spy_Programme"
+		texturefile = "gfx/interface/goals/Spy_Programme.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_spy_purge"
+		texturefile = "gfx/interface/goals/goal_spy_purge.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Sweep_the_Globe_2"
+		texturefile = "gfx/interface/goals/Sweep_the_Globe_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_UCR_Focus"
+		texturefile = "gfx/interface/goals/UCR_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Argentine_Coin_Focus"
+		texturefile = "gfx/interface/goals/Argentine_Coin_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_World_Ablaze"
+		texturefile = "gfx/interface/goals/World_Ablaze.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_World_Ablaze_Communist"
+		texturefile = "gfx/interface/goals/World_Ablaze_Communist.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Islamic_Socialism"
+		texturefile = "gfx/interface/goals/Islamic_Socialism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Wheat"
+		texturefile = "gfx/interface/goals/Slovakian_Wheat.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Spark_the_Brain"
+		texturefile = "gfx/interface/goals/Spark_the_Brain.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Stamp_out_Corruption"
+		texturefile = "gfx/interface/goals/Stamp_out_Corruption.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Agarian_Soldiers"
+		texturefile = "gfx/interface/goals/Agarian_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Fire_and_Fury"
+		texturefile = "gfx/interface/goals/Fire_and_Fury.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Purge_the_Revolution"
+		texturefile = "gfx/interface/goals/Purge_the_Revolution.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Legacy_of_the_War"
+		texturefile = "gfx/interface/goals/Legacy_of_the_War.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Lenin_Cult"
+		texturefile = "gfx/interface/goals/Lenin_Cult.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Tiger_Strikes"
+		texturefile = "gfx/interface/goals/The_Tiger_Strikes.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Tiger_Dominance"
+		texturefile = "gfx/interface/goals/Tiger_Dominance.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_City_Forts"
+		texturefile = "gfx/interface/goals/City_Forts.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Death_or_Dishonor"
+		texturefile = "gfx/interface/goals/Death_or_Dishonor.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Political_Support"
+		texturefile = "gfx/interface/goals/Political_Support.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Magyar_Lion"
+		texturefile = "gfx/interface/goals/The_Magyar_Lion.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Josef_Tiso_Army"
+		texturefile = "gfx/interface/goals/Josef_Tiso_Army.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Lenin_Icon"
+		texturefile = "gfx/interface/goals/Lenin_Icon.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_To_The_Last_Man"
+		texturefile = "gfx/interface/goals/To_The_Last_Man.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_A_Stronger_Military"
+		texturefile = "gfx/interface/goals/A_Stronger_Military.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Academica_Sinica_4"
+		texturefile = "gfx/interface/goals/Academica_Sinica_4.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Bear"
+		texturefile = "gfx/interface/goals/Bear.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Burn_the_Czechs"
+		texturefile = "gfx/interface/goals/Burn_the_Czechs.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Byzantine_Legacy"
+		texturefile = "gfx/interface/goals/Byzantine_Legacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Chocolate"
+		texturefile = "gfx/interface/goals/Chocolate.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Cloth"
+		texturefile = "gfx/interface/goals/Cloth.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Coffee"
+		texturefile = "gfx/interface/goals/Coffee.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Repression_2"
+		texturefile = "gfx/interface/goals/Communist_Repression_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Subterfuge"
+		texturefile = "gfx/interface/goals/Communist_Subterfuge.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Copper"
+		texturefile = "gfx/interface/goals/Copper.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Cotton"
+		texturefile = "gfx/interface/goals/Cotton.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Cow"
+		texturefile = "gfx/interface/goals/Cow.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Mercenaries"
+		texturefile = "gfx/interface/goals/Mercenaries.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Paper"
+		texturefile = "gfx/interface/goals/Paper.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Porcelain"
+		texturefile = "gfx/interface/goals/Porcelain.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Prussian_Command"
+		texturefile = "gfx/interface/goals/Prussian_Command.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Qing_Glory"
+		texturefile = "gfx/interface/goals/Qing_Glory.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Salt"
+		texturefile = "gfx/interface/goals/Salt.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Silk"
+		texturefile = "gfx/interface/goals/Silk.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Silver"
+		texturefile = "gfx/interface/goals/Silver.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Slavery"
+		texturefile = "gfx/interface/goals/Slavery.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Spices2"
+		texturefile = "gfx/interface/goals/Spices2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Spices"
+		texturefile = "gfx/interface/goals/Spices.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Sugar"
+		texturefile = "gfx/interface/goals/Sugar.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Tea"
+		texturefile = "gfx/interface/goals/Tea.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Tobacco"
+		texturefile = "gfx/interface/goals/Tobacco.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Waking_the_Tiger"
+		texturefile = "gfx/interface/goals/Waking_the_Tiger.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Wine"
+		texturefile = "gfx/interface/goals/Wine.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Yarn"
+		texturefile = "gfx/interface/goals/Yarn.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Zorastrian_Persia"
+		texturefile = "gfx/interface/goals/Zorastrian_Persia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Crown_of_Belgium"
+		texturefile = "gfx/interface/goals/Crown_of_Belgium.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Desert_Graveyard"
+		texturefile = "gfx/interface/goals/Desert_Graveyard.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Fish"
+		texturefile = "gfx/interface/goals/Fish.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Command"
+		texturefile = "gfx/interface/goals/French_Command.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Gems"
+		texturefile = "gfx/interface/goals/Gems.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Gold"
+		texturefile = "gfx/interface/goals/Gold.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Congress"
+		texturefile = "gfx/interface/goals/German_Congress.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Congress_2"
+		texturefile = "gfx/interface/goals/German_Congress_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Glass"
+		texturefile = "gfx/interface/goals/Glass.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Grain"
+		texturefile = "gfx/interface/goals/Grain.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Incense"
+		texturefile = "gfx/interface/goals/Incense.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Ivory"
+		texturefile = "gfx/interface/goals/Ivory.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_KMT_Focus"
+		texturefile = "gfx/interface/goals/KMT_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_KMT_Splintered"
+		texturefile = "gfx/interface/goals/KMT_Splintered.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_KMT_Support"
+		texturefile = "gfx/interface/goals/KMT_Support.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_National_Bolshevism"
+		texturefile = "gfx/interface/goals/National_Bolshevism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Tropical_Wood"
+		texturefile = "gfx/interface/goals/Tropical_Wood.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Special_Forces"
+		texturefile = "gfx/interface/goals/American_Special_Forces.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Compassionaite_Politics"
+		texturefile = "gfx/interface/goals/Compassionaite_Politics.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Death_Calls"
+		texturefile = "gfx/interface/goals/Death_Calls.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Ducal_Advisors"
+		texturefile = "gfx/interface/goals/Ducal_Advisors.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Fractured_America"
+		texturefile = "gfx/interface/goals/Fractured_America.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Fractured_Czechs"
+		texturefile = "gfx/interface/goals/Fractured_Czechs.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_King_of_the_Jungle"
+		texturefile = "gfx/interface/goals/King_of_the_Jungle.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Opium_Growth"
+		texturefile = "gfx/interface/goals/Opium_Growth.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Steal_the_Carcass"
+		texturefile = "gfx/interface/goals/Steal_the_Carcass.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Wheat_Yields"
+		texturefile = "gfx/interface/goals/Wheat_Yields.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_CPUSA_Logo"
+		texturefile = "gfx/interface/goals/CPUSA_Logo.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Gladiator_Spirit"
+		texturefile = "gfx/interface/goals/Gladiator_Spirit.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Samurai_Spirit"
+		texturefile = "gfx/interface/goals/Samurai_Spirit.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Socialist_Party_of_America"
+		texturefile = "gfx/interface/goals/Socialist_Party_of_America.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Ways_of_the_Warrior"
+		texturefile = "gfx/interface/goals/Ways_of_the_Warrior.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Flush"
+		texturefile = "gfx/interface/goals/American_Flush.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Czech_Communist_Militia"
+		texturefile = "gfx/interface/goals/Czech_Communist_Militia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Expand_the_Topke_System"
+		texturefile = "gfx/interface/goals/Expand_the_Topke_System.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Court_Justice"
+		texturefile = "gfx/interface/goals/Court_Justice.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Marathan_Legitimacy"
+		texturefile = "gfx/interface/goals/Marathan_Legitimacy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Mercenary_Forces"
+		texturefile = "gfx/interface/goals/Mercenary_Forces.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Serpent_Strikes"
+		texturefile = "gfx/interface/goals/The_Serpent_Strikes.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Yuan_Focus"
+		texturefile = "gfx/interface/goals/Yuan_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Dream"
+		texturefile = "gfx/interface/goals/American_Dream.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Charles_University"
+		texturefile = "gfx/interface/goals/Charles_University.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Alcoholic_Purge"
+		texturefile = "gfx/interface/goals/Alcoholic_Purge.tga"
+	}
+	SpriteType = {
+		name = "GFX_Befriend_Lithuania"
+		texturefile = "gfx/interface/goals/Befriend_Lithuania.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Burn_Lithuania"
+		texturefile = "gfx/interface/goals/Burn_Lithuania.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Dare_to_Die_Corps"
+		texturefile = "gfx/interface/goals/Dare_to_Die_Corps.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Economic_Collapse"
+		texturefile = "gfx/interface/goals/Economic_Collapse.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Eye_of_Hell"
+		texturefile = "gfx/interface/goals/Eye_of_Hell.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Livonian_Shield_Stab"
+		texturefile = "gfx/interface/goals/Livonian_Shield_Stab.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Qing_Coinage"
+		texturefile = "gfx/interface/goals/Qing_Coinage.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Red_Army_Hat"
+		texturefile = "gfx/interface/goals/Red_Army_Hat.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Red_Menance"
+		texturefile = "gfx/interface/goals/Red_Menance.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Remove_Smidke"
+		texturefile = "gfx/interface/goals/Remove_Smidke.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Roman_Soldiers"
+		texturefile = "gfx/interface/goals/Roman_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Wolf"
+		texturefile = "gfx/interface/goals/Slovakian_Wolf.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Farmsteads"
+		texturefile = "gfx/interface/goals/Farmsteads.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Financial_Domination"
+		texturefile = "gfx/interface/goals/Financial_Domination.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Fist_of_Fury"
+		texturefile = "gfx/interface/goals/Fist_of_Fury.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Boogaloo"
+		texturefile = "gfx/interface/goals/German_Boogaloo.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_Japanese_Tides"
+		texturefile = "gfx/interface/goals/JAP_Japanese_Tides.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Lamb_to_The_Slaughter"
+		texturefile = "gfx/interface/goals/Lamb_to_The_Slaughter.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Livonian_Shield"
+		texturefile = "gfx/interface/goals/Livonian_Shield.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Soviet_Investments"
+		texturefile = "gfx/interface/goals/Soviet_Investments.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_USMC"
+		texturefile = "gfx/interface/goals/USMC.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Weimar_Constitution"
+		texturefile = "gfx/interface/goals/Weimar_Constitution.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Cash_for_Forts"
+		texturefile = "gfx/interface/goals/Cash_for_Forts.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Election_Rigging"
+		texturefile = "gfx/interface/goals/Election_Rigging.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_International_Espionage"
+		texturefile = "gfx/interface/goals/International_Espionage.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Multinational_Army"
+		texturefile = "gfx/interface/goals/Multinational_Army.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Puppet_President"
+		texturefile = "gfx/interface/goals/Puppet_President.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Czech_Attack"
+		texturefile = "gfx/interface/goals/Czech_Attack.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_JAP_focus_ssdc"
+		texturefile = "gfx/interface/goals/JAP_focus_ssdc.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_IRE_farms"
+		texturefile = "gfx/interface/goals/IRE_farms.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_women_snipers"
+		texturefile = "gfx/interface/goals/goal_women_snipers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_serbia"
+		texturefile = "gfx/interface/goals/goal_flag_serbia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_flag_socialist_portugal"
+		texturefile = "gfx/interface/goals/goal_flag_socialist_portugal.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Advised_Military"
+		texturefile = "gfx/interface/goals/Advised_Military.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Attack_Romania"
+		texturefile = "gfx/interface/goals/Attack_Romania.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Attack_Belgium"
+		texturefile = "gfx/interface/goals/Attack_Belgium.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrian_Armor"
+		texturefile = "gfx/interface/goals/Austrian_Armor.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrofascism"
+		texturefile = "gfx/interface/goals/Austrofascism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrofascism2"
+		texturefile = "gfx/interface/goals/Austrofascism2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austrofascism3"
+		texturefile = "gfx/interface/goals/Austrofascism3.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Three_Arrows"
+		texturefile = "gfx/interface/goals/Three_Arrows.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austro_Marxism"
+		texturefile = "gfx/interface/goals/Austro_Marxism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Austronationalism"
+		texturefile = "gfx/interface/goals/Austronationalism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Blessed_Soldiers"
+		texturefile = "gfx/interface/goals/Blessed_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Brazilian_Armor"
+		texturefile = "gfx/interface/goals/Brazilian_Armor.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Colonial_Expeditions"
+		texturefile = "gfx/interface/goals/Focus_Colonial_Expeditions.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Conscription_Act"
+		texturefile = "gfx/interface/goals/Focus_Conscription_Act.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Feed_the_People"
+		texturefile = "gfx/interface/goals/Feed_the_People.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Focus_Military_Mobilisation"
+		texturefile = "gfx/interface/goals/Focus_Military_Mobilisation.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Nothing_Left"
+		texturefile = "gfx/interface/goals/Nothing_Left.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_P1000"
+		texturefile = "gfx/interface/goals/focus_P1000.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Punishing_Barrages"
+		texturefile = "gfx/interface/goals/Punishing_Barrages.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Shelter_the_People"
+		texturefile = "gfx/interface/goals/Shelter_the_People.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Soldiers_for_Workers"
+		texturefile = "gfx/interface/goals/Soldiers_for_Workers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROM_conquest"
+		texturefile = "gfx/interface/goals/ROM_conquest.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Deep_Water_Terror"
+		texturefile = "gfx/interface/goals/Deep_Water_Terror.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Money_Bags"
+		texturefile = "gfx/interface/goals/Money_Bags.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Slovakian_Soviet"
+		texturefile = "gfx/interface/goals/Slovakian_Soviet.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_goal_oil_research"
+		texturefile = "gfx/interface/goals/goal_oil_research.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Army_March"
+		texturefile = "gfx/interface/goals/Army_March.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Automobile_Production"
+		texturefile = "gfx/interface/goals/Automobile_Production.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Chaos_at_the_Soviet"
+		texturefile = "gfx/interface/goals/Chaos_at_the_Soviet.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Crusader_Thought"
+		texturefile = "gfx/interface/goals/Crusader_Thought.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_NZL_Silver_Fern"
+		texturefile = "gfx/interface/goals/NZL_Silver_Fern.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Jungle_Warfare"
+		texturefile = "gfx/interface/goals/Jungle_Warfare.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Sandy_Tanks"
+		texturefile = "gfx/interface/goals/Sandy_Tanks.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Wolf_Hungers"
+		texturefile = "gfx/interface/goals/Wolf_Hungers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_ROM_tiraspol"
+		texturefile = "gfx/interface/goals/ROM_tiraspol.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAJ_indian_railways"
+		texturefile = "gfx/interface/goals/RAJ_indian_railways.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_RAJ_indian_railways_star"
+		texturefile = "gfx/interface/goals/RAJ_indian_railways_star.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Vichy_French_Glory"
+		texturefile = "gfx/interface/goals/Vichy_French_Glory.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_The_Burning_Crescent"
+		texturefile = "gfx/interface/goals/The_Burning_Crescent.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Suburban_Development"
+		texturefile = "gfx/interface/goals/Suburban_Development.tga"
+	}
+	SpriteType = {
+		name = "GFX_Spread_Industrialization"
+		texturefile = "gfx/interface/goals/Spread_Industrialization.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Quell_Algerian_Nationalist_Demands"
+		texturefile = "gfx/interface/goals/Quell_Algerian_Nationalist_Demands.tga"
+	}
+	SpriteType = {
+		name = "GFX_Purge_Dissenters"
+		texturefile = "gfx/interface/goals/Purge_Dissenters.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Protect_Sandwiched_Countries"
+		texturefile = "gfx/interface/goals/Protect_Sandwiched_Countries.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_POR_airforce"
+		texturefile = "gfx/interface/goals/POR_airforce.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Pied_Noir_Elitism"
+		texturefile = "gfx/interface/goals/Pied_Noir_Elitism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Petain_Focus"
+		texturefile = "gfx/interface/goals/Petain_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Partido_Socialista"
+		texturefile = "gfx/interface/goals/Partido_Socialista.tga"
+	}
+	SpriteType = {
+		name = "GFX_Partido_Democrata"
+		texturefile = "gfx/interface/goals/Partido_Democrata.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Old_Train"
+		texturefile = "gfx/interface/goals/Old_Train.tga"
+	}
+	SpriteType = {
+		name = "GFX_Officers_Command"
+		texturefile = "gfx/interface/goals/Officers_Command.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Oath_of_Loyalty"
+		texturefile = "gfx/interface/goals/Oath_of_Loyalty.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Nationalize_the_Press"
+		texturefile = "gfx/interface/goals/Nationalize_the_Press.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Mobilize_Algeria"
+		texturefile = "gfx/interface/goals/Mobilize_Algeria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Military_Attache"
+		texturefile = "gfx/interface/goals/Military_Attache.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Milice_Francais"
+		texturefile = "gfx/interface/goals/Milice_Francais.tga"
+	}
+	SpriteType = {
+		name = "GFX_Metal_Inferno"
+		texturefile = "gfx/interface/goals/Metal_Inferno.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Livonia_Diplomacy_Flag"
+		texturefile = "gfx/interface/goals/Livonia_Diplomacy_Flag.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Liberty_Lads"
+		texturefile = "gfx/interface/goals/Liberty_Lads.tga"
+	}
+	SpriteType = {
+		name = "GFX_leninmausoleum"
+		texturefile = "gfx/interface/goals/leninmausoleum.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_labour_voucher_focus"
+		texturefile = "gfx/interface/goals/labour_voucher_focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Kosovo_Flames_Focus"
+		texturefile = "gfx/interface/goals/Kosovo_Flames_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_kill_vargas"
+		texturefile = "gfx/interface/goals/kill_vargas.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Junta_Youth"
+		texturefile = "gfx/interface/goals/Junta_Youth.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Japanese_Spirit"
+		texturefile = "gfx/interface/goals/Japanese_Spirit.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italy_Must_Die"
+		texturefile = "gfx/interface/goals/Italy_Must_Die.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Italian_Soldiers"
+		texturefile = "gfx/interface/goals/Italian_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Influence_Spain"
+		texturefile = "gfx/interface/goals/Influence_Spain.tga"
+	}
+	SpriteType = {
+		name = "GFX_Influence_Scandinavia"
+		texturefile = "gfx/interface/goals/Influence_Scandinavia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Influence_Bulgaria"
+		texturefile = "gfx/interface/goals/Influence_Bulgaria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Influence_Benelux"
+		texturefile = "gfx/interface/goals/Influence_Benelux.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Imperial_Germany_Flag"
+		texturefile = "gfx/interface/goals/Imperial_Germany_Flag.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hungarian_Deal"
+		texturefile = "gfx/interface/goals/Hungarian_Deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_Hostile_Operations"
+		texturefile = "gfx/interface/goals/Hostile_Operations.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Hammer_of_Wrath"
+		texturefile = "gfx/interface/goals/Hammer_of_Wrath.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Georges_Focus"
+		texturefile = "gfx/interface/goals/Georges_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Gamelin_Focus"
+		texturefile = "gfx/interface/goals/Gamelin_Focus.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Soldiers"
+		texturefile = "gfx/interface/goals/French_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Glory"
+		texturefile = "gfx/interface/goals/French_Glory.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_French_Algeria"
+		texturefile = "gfx/interface/goals/French_Algeria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Franco_British_Treaties"
+		texturefile = "gfx/interface/goals/Franco_British_Treaties.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_France_Flag_Focus"
+		texturefile = "gfx/interface/goals/France_Flag_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_FRA_Returning_Home"
+		texturefile = "gfx/interface/goals/FRA_Returning_Home.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Expand_the_Metros"
+		texturefile = "gfx/interface/goals/Expand_the_Metros.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Enshrine_Secularism"
+		texturefile = "gfx/interface/goals/Enshrine_Secularism.tga"
+	}
+	SpriteType = {
+		name = "GFX_Encourage_Urbanization"
+		texturefile = "gfx/interface/goals/Encourage_Urbanization.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Elephants"
+		texturefile = "gfx/interface/goals/Elephants.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Egyptian_Officers"
+		texturefile = "gfx/interface/goals/Egyptian_Officers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Egyptian_Crown"
+		texturefile = "gfx/interface/goals/Egyptian_Crown.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_East_Asian_Strike"
+		texturefile = "gfx/interface/goals/East_Asian_Strike.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Dragons_Head"
+		texturefile = "gfx/interface/goals/Dragons_Head.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Czech_Soldiers"
+		texturefile = "gfx/interface/goals/Czech_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Cult_of_Personality"
+		texturefile = "gfx/interface/goals/Cult_of_Personality.tga"
+	}
+	SpriteType = {
+		name = "GFX_Crown_of_Prussia"
+		texturefile = "gfx/interface/goals/Crown_of_Prussia.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Convoy_Protection_2"
+		texturefile = "gfx/interface/goals/Convoy_Protection_2.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Commie_Treaty"
+		texturefile = "gfx/interface/goals/Commie_Treaty.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Cisplatina_e_Nossa"
+		texturefile = "gfx/interface/goals/Cisplatina_e_Nossa.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_British_Soldiers"
+		texturefile = "gfx/interface/goals/British_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_British_Fortifications"
+		texturefile = "gfx/interface/goals/British_Fortifications.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Attack_Fengtian"
+		texturefile = "gfx/interface/goals/Attack_Fengtian.tga"
+	}
+	SpriteType = {
+		name = "GFX_Attack_Bulgaria"
+		texturefile = "gfx/interface/goals/Attack_Bulgaria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Argentine_Soldiers"
+		texturefile = "gfx/interface/goals/Argentine_Soldiers.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Anglo_Irish_Strife"
+		texturefile = "gfx/interface/goals/Anglo_Irish_Strife.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Anglo_Egyptian_Co_Operation"
+		texturefile = "gfx/interface/goals/Anglo_Egyptian_Co_Operation.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_American_Service"
+		texturefile = "gfx/interface/goals/American_Service.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Ally_With_Italy"
+		texturefile = "gfx/interface/goals/Ally_With_Italy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Algerian_Algeria"
+		texturefile = "gfx/interface/goals/Algerian_Algeria.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Algeria_Crushed"
+		texturefile = "gfx/interface/goals/Algeria_Crushed.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_African_Recruits"
+		texturefile = "gfx/interface/goals/African_Recruits.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Grand_Carrier"
+		texturefile = "gfx/interface/goals/Grand_Carrier.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_German_Pressure"
+		texturefile = "gfx/interface/goals/German_Pressure.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Egypt_Ottoman_Mission"
+		texturefile = "gfx/interface/goals/Egypt_Ottoman_Mission.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Dutch_Indonesian_Troops"
+		texturefile = "gfx/interface/goals/Dutch_Indonesian_Troops.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Communist_Armada"
+		texturefile = "gfx/interface/goals/Communist_Armada.tga"
+	}
+	SpriteType = {
+		name = "GFX_Battleship_Investment"
+		texturefile = "gfx/interface/goals/Battleship_Investment.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_yerba_mate"
+		texturefile = "gfx/interface/goals/focus_yerba_mate.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_peace_talks"
+		texturefile = "gfx/interface/goals/focus_peace_talks.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_kick_ladder"
+		texturefile = "gfx/interface/goals/focus_kick_ladder.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_hornero"
+		texturefile = "gfx/interface/goals/focus_hornero.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_falangism"
+		texturefile = "gfx/interface/goals/focus_falangism.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arg_university"
+		texturefile = "gfx/interface/goals/focus_arg_university.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_tanks"
+		texturefile = "gfx/interface/goals/focus_arg_tanks.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_focus_arc_de_triomphe"
+		texturefile = "gfx/interface/goals/focus_arc_de_triomphe.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_small_farms"
+		texturefile = "gfx/interface/goals/focus_small_farms.tga"
+	}
+	SpriteType = {
+		name = "GFX_Norwegian_Arms"
+		texturefile = "gfx/interface/goals/Norwegian_Arms.tga"
+	}
+	SpriteType = {
+		name = "GFX_ALB_funeral"
+		texturefile = "gfx/interface/goals/ALB_funeral.tga"
+	}
+	SpriteType = {
+		name = "GFX_ALB_crown"
+		texturefile = "gfx/interface/goals/ALB_crown.tga"
+	}
+	SpriteType = {
+		name = "GFX_ALB_kosovo"
+		texturefile = "gfx/interface/goals/ALB_kosovo.tga"
+	}
+	SpriteType = {
+		name = "GFX_ALB_nationalism"
+		texturefile = "gfx/interface/goals/ALB_nationalism.tga"
+	}
+	SpriteType = {
+		name = "GFX_Sacrifices_Needed"
+		texturefile = "gfx/interface/goals/Sacrifices_Needed.tga"
+	}
+	SpriteType = {
+		name = "GFX_Prison_Camps"
+		texturefile = "gfx/interface/goals/Prison_Camps.tga"
+	}
+	SpriteType = {
+		name = "GFX_East_Asian_Recruits"
+		texturefile = "gfx/interface/goals/East_Asian_Recruits.tga"
+	}
+	SpriteType = {
+		name = "GFX_Burma_and_Raj_Flag_Focus"
+		texturefile = "gfx/interface/goals/Burma_and_Raj_Flag_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Blood_for_Blood"
+		texturefile = "gfx/interface/goals/Blood_for_Blood.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_align_sinkiang"
+		texturefile = "gfx/interface/goals/focus_align_sinkiang.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Red_Army"
+		texturefile = "gfx/interface/goals/Focus_Red_Army.tga"
+	}
+	SpriteType = {
+		name = "GFX_Nansen"
+		texturefile = "gfx/interface/goals/Nansen.tga"
+	}
+	SpriteType = {
+		name = "GFX_Norway_Diplomacy"
+		texturefile = "gfx/interface/goals/Norway_Diplomacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Serbian_Infiltraitors"
+		texturefile = "gfx/interface/goals/Serbian_Infiltraitors.tga"
+	}
+	SpriteType = {
+		name = "GFX_Counter_Push"
+		texturefile = "gfx/interface/goals/Counter_Push.tga"
+	}
+	SpriteType = {
+		name = "GFX_British_Saboteurs"
+		texturefile = "gfx/interface/goals/British_Saboteurs.tga"
+	}
+	SpriteType = {
+		name = "GFX_Barrel_Puncher"
+		texturefile = "gfx/interface/goals/Barrel_Puncher.tga"
+	}
+	SpriteType = {
+		name = "GFX_Army_Factories"
+		texturefile = "gfx/interface/goals/Army_Factories.tga"
+	}
+	SpriteType = {
+		name = "GFX_Algerian_Partisans"
+		texturefile = "gfx/interface/goals/Algerian_Partisans.tga"
+	}
+	SpriteType = {
+		name = "GFX_Algerian_Partisans"
+		texturefile = "gfx/interface/goals/Algerian_Partisans.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_soldiers"
+		texturefile = "gfx/interface/goals/JAP_focus_soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_navy"
+		texturefile = "gfx/interface/goals/JAP_focus_navy.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_versailles"
+		texturefile = "gfx/interface/goals/versailles.tga"
+	}
+	SpriteType = {
+		name = "GFX_South_American_Soldiers"
+		texturefile = "gfx/interface/goals/South_American_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_South_American_Relations"
+		texturefile = "gfx/interface/goals/South_American_Relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_Comintern_Meeting"
+		texturefile = "gfx/interface/goals/Comintern_Meeting.tga"
+	}
+	SpriteType = {
+		name = "GFX_rocque"
+		texturefile = "gfx/interface/goals/rocque.tga"
+	}
+	SpriteType = {
+		name = "GFX_Nat_Corp_Spanish_Eagle"
+		texturefile = "gfx/interface/goals/Nat_Corp_Spanish_Eagle.tga"
+	}
+	SpriteType = {
+		name = "GFX_Kingdom_of_Saudi_Arabia"
+		texturefile = "gfx/interface/goals/Kingdom_of_Saudi_Arabia.tga"
+	}
+	SpriteType = {
+		name = "GFX_Irish_Soldiers"
+		texturefile = "gfx/interface/goals/Irish_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Ancient_Greece"
+		texturefile = "gfx/interface/goals/Ancient_Greece.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_strike_sociedad_rural"
+		texturefile = "gfx/interface/goals/focus_strike_sociedad_rural.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_la_forestal"
+		texturefile = "gfx/interface/goals/focus_la_forestal.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_clock"
+		texturefile = "gfx/interface/goals/focus_clock.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_arg_bondis"
+		texturefile = "gfx/interface/goals/focus_arg_bondis.tga"
+	}
+	SpriteType = {
+		name = "GFX_Expand_Airfields"
+		texturefile = "gfx/interface/goals/Expand_Airfields.tga"
+	}
+	SpriteType = {
+		name = "GFX_European_Soldiers"
+		texturefile = "gfx/interface/goals/European_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_European_Relations"
+		texturefile = "gfx/interface/goals/European_Relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_Egyptian_German_Deal"
+		texturefile = "gfx/interface/goals/Egyptian_German_Deal.tga"
+	}
+	SpriteType = {
+		name = "GFX_Deploy_the_Unthinkable"
+		texturefile = "gfx/interface/goals/Deploy_the_Unthinkable.tga"
+	}
+	SpriteType = {
+		name = "GFX_continued_hellenisation"
+		texturefile = "gfx/interface/goals/continued_hellenisation.tga"
+	}
+	SpriteType = {
+		name = "GFX_JAP_focus_navy"
+		texturefile = "gfx/interface/goals/JAP_focus_navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Combined_Bomber_Offensive"
+		texturefile = "gfx/interface/goals/Combined_Bomber_Offensive.tga"
+	}
+	SpriteType = {
+		name = "GFX_Carrier_Focus"
+		texturefile = "gfx/interface/goals/Carrier_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Baden_Supremacy"
+		texturefile = "gfx/interface/goals/Baden_Supremacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_austrian_investments"
+		texturefile = "gfx/interface/goals/austrian_investments.tga"
+	}
+	SpriteType = {
+		name = "GFX_attack_montenegro"
+		texturefile = "gfx/interface/goals/attack_montenegro.tga"
+	}
+	SpriteType = {
+		name = "GFX_attack_illyria"
+		texturefile = "gfx/interface/goals/attack_illyria.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_BUL_zveno_coup"
+		texturefile = "gfx/interface/goals/goal_BUL_zveno_coup.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_BUL_vmro_hand_gun"
+		texturefile = "gfx/interface/goals/goal_BUL_vmro_hand_gun.tga"
+	}
+	SpriteType = {
+		name = "GFX_BUL_pact_france"
+		texturefile = "gfx/interface/goals/BUL_pact_france.tga"
+	}
+	SpriteType = {
+		name = "GFX_Belgian_Authority"
+		texturefile = "gfx/interface/goals/Belgian_Authority.tga"
+	}
+	SpriteType = {
+		name = "GFX_Belgian_Doctrine"
+		texturefile = "gfx/interface/goals/Belgian_Doctrine.tga"
+	}
+	SpriteType = {
+		name = "GFX_Communist_Discourse"
+		texturefile = "gfx/interface/goals/Communist_Discourse.tga"
+	}
+	SpriteType = {
+		name = "GFX_Crown_Abbas_II"
+		texturefile = "gfx/interface/goals/Crown_Abbas_II.tga"
+	}
+	SpriteType = {
+		name = "GFX_Empire_of_Hawaii"
+		texturefile = "gfx/interface/goals/Empire_of_Hawaii.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_Resistance"
+		texturefile = "gfx/interface/goals/German_Resistance.tga"
+	}
+	SpriteType = {
+		name = "GFX_Grand_Kingdom_of_Belgium"
+		texturefile = "gfx/interface/goals/Grand_Kingdom_of_Belgium.tga"
+	}
+	SpriteType = {
+		name = "GFX_Grand_Kingdom_of_Romania"
+		texturefile = "gfx/interface/goals/Grand_Kingdom_of_Romania.tga"
+	}
+	SpriteType = {
+		name = "GFX_Le_Dirigeant"
+		texturefile = "gfx/interface/goals/Le_Dirigeant.tga"
+	}
+	SpriteType = {
+		name = "GFX_Mysore"
+		texturefile = "gfx/interface/goals/Mysore.tga"
+	}
+	SpriteType = {
+		name = "GFX_Netherlands_Focus"
+		texturefile = "gfx/interface/goals/Netherlands_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Noble_Funds"
+		texturefile = "gfx/interface/goals/Noble_Funds.tga"
+	}
+	SpriteType = {
+		name = "GFX_Second_Mexican_Empire"
+		texturefile = "gfx/interface/goals/Second_Mexican_Empire.tga"
+	}
+	SpriteType = {
+		name = "GFX_Serbian_Officers"
+		texturefile = "gfx/interface/goals/Serbian_Officers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Socialist_Yugoslavia"
+		texturefile = "gfx/interface/goals/Socialist_Yugoslavia.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Declare_FPRY"
+		texturefile = "gfx/interface/goals/SER_Declare_FPRY.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Ban_Liberals"
+		texturefile = "gfx/interface/goals/SER_Ban_Liberals.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Elections_with_Liberals"
+		texturefile = "gfx/interface/goals/SER_Elections_with_Liberals.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Workshops"
+		texturefile = "gfx/interface/goals/SER_Workshops.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Seize_Capitalist_Land"
+		texturefile = "gfx/interface/goals/SER_Seize_Capitalist_Land.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Chetnocide"
+		texturefile = "gfx/interface/goals/SER_Chetnocide.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Army_Political_Directorate"
+		texturefile = "gfx/interface/goals/SER_Army_Political_Directorate.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Dinaric_Warfare"
+		texturefile = "gfx/interface/goals/SER_Dinaric_Warfare.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Invite_Kardelj"
+		texturefile = "gfx/interface/goals/SER_Invite_Kardelj.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_SER_Socialization"
+		texturefile = "gfx/interface/goals/SER_Socialization.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Arm_Proletarians"
+		texturefile = "gfx/interface/goals/SER_Arm_Proletarians.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Agitators_Everywhere"
+		texturefile = "gfx/interface/goals/SER_Agitators_Everywhere.tga"
+	}
+	SpriteType = {
+		name = "GFX_SER_Sremska_Ruta"
+		texturefile = "gfx/interface/goals/SER_Sremska_Ruta.tga"
+	}
+	SpriteType = {
+		name = "GFX_Pioneers"
+		texturefile = "gfx/interface/goals/Pioneers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Comintern_Migration"
+		texturefile = "gfx/interface/goals/Comintern_Migration.tga"
+	}
+	SpriteType = {
+		name = "GFX_victor_emmanuel"
+		texturefile = "gfx/interface/goals/victor_emmanuel.tga"
+	}
+	SpriteType = {
+		name = "GFX_Yugoslavia_Partisans"
+		texturefile = "gfx/interface/goals/Yugoslavia_Partisans.tga"
+	}
+	SpriteType = {
+		name = "GFX_Yugoslavia_Romania"
+		texturefile = "gfx/interface/goals/Yugoslavia_Romania.tga"
+	}
+	
+	SpriteType = {
+		name = "GFX_Yugoimport"
+		texturefile = "gfx/interface/goals/Yugoimport.tga"
+	}
+	SpriteType = {
+		name = "GFX_Zastava"
+		texturefile = "gfx/interface/goals/Zastava.tga"
+	}
+	SpriteType = {
+		name = "GFX_War_has_Changed"
+		texturefile = "gfx/interface/goals/War_has_Changed.tga"
+	}
+	SpriteType = {
+		name = "GFX_Support_Chrysler"
+		texturefile = "gfx/interface/goals/Support_Chrysler.tga"
+	}
+	SpriteType = {
+		name = "GFX_Support_Boeing"
+		texturefile = "gfx/interface/goals/Support_Boeing.tga"
+	}
+	SpriteType = {
+		name = "GFX_Supplement_the_Army_with_National_Guard"
+		texturefile = "gfx/interface/goals/Supplement_the_Army_with_National_Guard.tga"
+	}
+	SpriteType = {
+		name = "GFX_Supplement_National_Guard_Army"
+		texturefile = "gfx/interface/goals/Supplement_National_Guard_Army.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soviet_Bastion"
+		texturefile = "gfx/interface/goals/Soviet_Bastion.tga"
+	}
+	SpriteType = {
+		name = "GFX_Shadow_Scheme"
+		texturefile = "gfx/interface/goals/Shadow_Scheme.tga"
+	}
+	SpriteType = {
+		name = "GFX_Realize_Army_Incompetence"
+		texturefile = "gfx/interface/goals/Realize_Army_Incompetence.tga"
+	}
+	SpriteType = {
+		name = "GFX_Naval_Purges"
+		texturefile = "gfx/interface/goals/Naval_Purges.tga"
+	}
+	SpriteType = {
+		name = "GFX_Mughal_Crown"
+		texturefile = "gfx/interface/goals/Mughal_Crown.tga"
+	}
+	SpriteType = {
+		name = "GFX_Military_Syndicalist_Economy"
+		texturefile = "gfx/interface/goals/Military_Syndicalist_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Military_Restrictions"
+		texturefile = "gfx/interface/goals/Military_Restrictions.tga"
+	}
+	SpriteType = {
+		name = "GFX_Military_Purges"
+		texturefile = "gfx/interface/goals/Military_Purges.tga"
+	}
+	SpriteType = {
+		name = "GFX_Japanese_Communist"
+		texturefile = "gfx/interface/goals/Japanese_Communist.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Uprising"
+		texturefile = "gfx/interface/goals/Italian_Uprising.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Military_Officers"
+		texturefile = "gfx/interface/goals/Italian_Military_Officers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Empire"
+		texturefile = "gfx/interface/goals/Italian_Empire.tga"
+	}
+	SpriteType = {
+		name = "GFX_Grand_German_Commune"
+		texturefile = "gfx/interface/goals/Grand_German_Commune.tga"
+	}
+	SpriteType = {
+		name = "GFX_Egyptian_Crown_2"
+		texturefile = "gfx/interface/goals/Egyptian_Crown_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Desert_Officers_2"
+		texturefile = "gfx/interface/goals/Desert_Officers_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Cash_and_Carry"
+		texturefile = "gfx/interface/goals/Cash_and_Carry.tga"
+	}
+	SpriteType = {
+		name = "GFX_Bonneville_Dam"
+		texturefile = "gfx/interface/goals/Bonneville_Dam.tga"
+	}
+	SpriteType = {
+		name = "GFX_Belgian_Discourse"
+		texturefile = "gfx/interface/goals/Belgian_Discourse.tga"
+	}
+	SpriteType = {
+		name = "GFX_War_is_Coming"
+		texturefile = "gfx/interface/goals/War_is_Coming.tga"
+	}
+	SpriteType = {
+		name = "GFX_US_Navy"
+		texturefile = "gfx/interface/goals/US_Navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Ulster_Pride"
+		texturefile = "gfx/interface/goals/Ulster_Pride.tga"
+	}
+	SpriteType = {
+		name = "GFX_Total_War"
+		texturefile = "gfx/interface/goals/Total_War.tga"
+	}
+	SpriteType = {
+		name = "GFX_The_Central_Powers"
+		texturefile = "gfx/interface/goals/The_Central_Powers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Sword_and_Fist_of_The_Party"
+		texturefile = "gfx/interface/goals/Sword_and_Fist_of_The_Party.tga"
+	}
+	SpriteType = {
+		name = "GFX_Support_Grumman"
+		texturefile = "gfx/interface/goals/Support_Grumman.tga"
+	}
+	SpriteType = {
+		name = "GFX_Strange_Pig"
+		texturefile = "gfx/interface/goals/Strange_Pig.tga"
+	}
+	SpriteType = {
+		name = "GFX_Social_Security_Act"
+		texturefile = "gfx/interface/goals/Social_Security_Act.tga"
+	}
+	SpriteType = {
+		name = "GFX_Rock_Island_Artillery"
+		texturefile = "gfx/interface/goals/Rock_Island_Artillery.tga"
+	}
+	SpriteType = {
+		name = "GFX_Army_Purges"
+		texturefile = "gfx/interface/goals/Army_Purges.tga"
+	}
+	SpriteType = {
+		name = "GFX_American_Glory"
+		texturefile = "gfx/interface/goals/American_Glory.tga"
+	}
+	SpriteType = {
+		name = "GFX_Puppet_Businesses"
+		texturefile = "gfx/interface/goals/Puppet_Businesses.tga"
+	}
+	SpriteType = {
+		name = "GFX_Nordic_Brotherhood"
+		texturefile = "gfx/interface/goals/Nordic_Brotherhood.tga"
+	}
+	SpriteType = {
+		name = "GFX_Mobile_Artillery_Units"
+		texturefile = "gfx/interface/goals/Mobile_Artillery_Units.tga"
+	}
+	SpriteType = {
+		name = "GFX_Maltese_Shield"
+		texturefile = "gfx/interface/goals/Maltese_Shield.tga"
+	}
+	SpriteType = {
+		name = "GFX_Lock_Them_Up"
+		texturefile = "gfx/interface/goals/Lock_Them_Up.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Armored_Support"
+		texturefile = "gfx/interface/goals/Italian_Armored_Support.tga"
+	}
+	SpriteType = {
+		name = "GFX_Imprison_the_King"
+		texturefile = "gfx/interface/goals/Imprison_the_King.tga"
+	}
+	SpriteType = {
+		name = "GFX_Gold_Reserves"
+		texturefile = "gfx/interface/goals/Gold_Reserves.tga"
+	}
+	SpriteType = {
+		name = "GFX_Flammenwafer_Tanks"
+		texturefile = "gfx/interface/goals/Flammenwafer_Tanks.tga"
+	}
+	SpriteType = {
+		name = "GFX_Execute_Dissidents"
+		texturefile = "gfx/interface/goals/Execute_Dissidents.tga"
+	}
+	SpriteType = {
+		name = "GFX_Division_of_Engineering_and_Consruction"
+		texturefile = "gfx/interface/goals/Division_of_Engineering_and_Consruction.tga"
+	}
+	SpriteType = {
+		name = "GFX_Crush_the_American_Dream"
+		texturefile = "gfx/interface/goals/Crush_the_American_Dream.tga"
+	}
+	SpriteType = {
+		name = "GFX_Charles_DeGaulle"
+		texturefile = "gfx/interface/goals/Charles_DeGaulle.tga"
+	}
+	SpriteType = {
+		name = "GFX_Business_Men"
+		texturefile = "gfx/interface/goals/Business_Men.tga"
+	}
+	SpriteType = {
+		name = "GFX_British_Gold_Reserve"
+		texturefile = "gfx/interface/goals/British_Gold_Reserve.tga"
+	}
+	SpriteType = {
+		name = "GFX_British_Army"
+		texturefile = "gfx/interface/goals/British_Army.tga"
+	}
+	SpriteType = {
+		name = "GFX_Authority_of_the_Tsar"
+		texturefile = "gfx/interface/goals/Authority_of_the_Tsar.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_KdA"
+		texturefile = "gfx/interface/goals/GER_KdA.tga"
+	}
+	SpriteType = {
+		name = "GFX_Airforce_Purges"
+		texturefile = "gfx/interface/goals/Airforce_Purges.tga"
+	}
+	SpriteType = {
+		name = "GFX_Argentina"
+		texturefile = "gfx/interface/goals/Argentina.tga"
+	}
+	SpriteType = {
+		name = "GFX_Argentina_Battlegroup"
+		texturefile = "gfx/interface/goals/Argentina_Battlegroup.tga"
+	}
+	SpriteType = {
+		name = "GFX_Argentina_Communists"
+		texturefile = "gfx/interface/goals/Argentina_Communists.tga"
+	}
+	SpriteType = {
+		name = "GFX_Belgian_Conscription"
+		texturefile = "gfx/interface/goals/Belgian_Conscription.tga"
+	}
+	SpriteType = {
+		name = "GFX_Boring_Bills"
+		texturefile = "gfx/interface/goals/Boring_Bills.tga"
+	}
+	SpriteType = {
+		name = "GFX_Brazil"
+		texturefile = "gfx/interface/goals/Brazil.tga"
+	}
+	SpriteType = {
+		name = "GFX_Brazil_Monarchy"
+		texturefile = "gfx/interface/goals/Brazil_Monarchy.tga"
+	}
+	SpriteType = {
+		name = "GFX_British_Iraq"
+		texturefile = "gfx/interface/goals/British_Iraq.tga"
+	}
+	SpriteType = {
+		name = "GFX_Business_Bills"
+		texturefile = "gfx/interface/goals/Business_Bills.tga"
+	}
+	SpriteType = {
+		name = "GFX_Chinese_British_Reforms"
+		texturefile = "gfx/interface/goals/Chinese_British_Reforms.tga"
+	}
+	SpriteType = {
+		name = "GFX_Chinese_French_Reforms"
+		texturefile = "gfx/interface/goals/Chinese_French_Reforms.tga"
+	}
+	SpriteType = {
+		name = "GFX_Chinese_German_Reforms"
+		texturefile = "gfx/interface/goals/Chinese_German_Reforms.tga"
+	}
+	SpriteType = {
+		name = "GFX_Womens_Rights"
+		texturefile = "gfx/interface/goals/Womens_Rights.tga"
+	}
+	SpriteType = {
+		name = "GFX_Chinese_Toasters"
+		texturefile = "gfx/interface/goals/Chinese_Toasters.tga"
+	}
+	SpriteType = {
+		name = "GFX_Christian_Trade_Unions"
+		texturefile = "gfx/interface/goals/Christian_Trade_Unions.tga"
+	}
+	SpriteType = {
+		name = "GFX_Comintern_Focus"
+		texturefile = "gfx/interface/goals/Comintern_Focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_Communist_Bills"
+		texturefile = "gfx/interface/goals/Communist_Bills.tga"
+	}
+	SpriteType = {
+		name = "GFX_Communist_Star"
+		texturefile = "gfx/interface/goals/Communist_Star.tga"
+	}
+	SpriteType = {
+		name = "GFX_Counter_Intelligence"
+		texturefile = "gfx/interface/goals/Counter_Intelligence.tga"
+	}
+	SpriteType = {
+		name = "GFX_Dominance_of_the_Skies"
+		texturefile = "gfx/interface/goals/Dominance_of_the_Skies.tga"
+	}
+	SpriteType = {
+		name = "GFX_Eagle_Authority"
+		texturefile = "gfx/interface/goals/Eagle_Authority.tga"
+	}
+	SpriteType = {
+		name = "GFX_Eagle_Industry"
+		texturefile = "gfx/interface/goals/Eagle_Industry.tga"
+	}
+	SpriteType = {
+		name = "GFX_Enslaved"
+		texturefile = "gfx/interface/goals/Enslaved.tga"
+	}
+	SpriteType = {
+		name = "GFX_Fascist_Bills"
+		texturefile = "gfx/interface/goals/Fascist_Bills.tga"
+	}
+	SpriteType = {
+		name = "GFX_Finland_Officers"
+		texturefile = "gfx/interface/goals/Finland_Officers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Fortress_New_Zealand"
+		texturefile = "gfx/interface/goals/Fortress_New_Zealand.tga"
+	}
+	SpriteType = {
+		name = "GFX_Fortress_Sardinia"
+		texturefile = "gfx/interface/goals/Fortress_Sardinia.tga"
+	}
+	SpriteType = {
+		name = "GFX_Free_Trade"
+		texturefile = "gfx/interface/goals/Free_Trade.tga"
+	}
+	SpriteType = {
+		name = "GFX_French_Africa"
+		texturefile = "gfx/interface/goals/French_Africa.tga"
+	}
+	SpriteType = {
+		name = "GFX_French_Supremacy"
+		texturefile = "gfx/interface/goals/French_Supremacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_French_Tanks"
+		texturefile = "gfx/interface/goals/French_Tanks.tga"
+	}
+	SpriteType = {
+		name = "GFX_French_Unity"
+		texturefile = "gfx/interface/goals/French_Unity.tga"
+	}
+	SpriteType = {
+		name = "GFX_Garibaldi_Legacy"
+		texturefile = "gfx/interface/goals/Garibaldi_Legacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Bills"
+		texturefile = "gfx/interface/goals/Generic_Bills.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_Advisors_Croatia"
+		texturefile = "gfx/interface/goals/German_Advisors_Croatia.tga"
+	}
+	SpriteType = {
+		name = "GFX_STJ_Croatian_Peasant_Defence_Force"
+		texturefile = "gfx/interface/goals/STJ_Croatian_Peasant_Defence_Force.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_Ballots"
+		texturefile = "gfx/interface/goals/German_Ballots.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_No_More"
+		texturefile = "gfx/interface/goals/German_No_More.tga"
+	}
+	SpriteType = {
+		name = "GFX_Glory_to_the_USSR"
+		texturefile = "gfx/interface/goals/Glory_to_the_USSR.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_italian_cooperation_2"
+		texturefile = "gfx/interface/goals/goal_italian_cooperation_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_italian_cooperation"
+		texturefile = "gfx/interface/goals/goal_italian_cooperation.tga"
+	}
+	SpriteType = {
+		name = "GFX_Grand_Kingdom_of_Italy"
+		texturefile = "gfx/interface/goals/Grand_Kingdom_of_Italy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Gulags"
+		texturefile = "gfx/interface/goals/Gulags.tga"
+	}
+	SpriteType = {
+		name = "GFX_Holy_Republic"
+		texturefile = "gfx/interface/goals/Holy_Republic.tga"
+	}
+	SpriteType = {
+		name = "GFX_Hungary"
+		texturefile = "gfx/interface/goals/Hungary.tga"
+	}
+	SpriteType = {
+		name = "GFX_Il_Duce"
+		texturefile = "gfx/interface/goals/Il_Duce.tga"
+	}
+	SpriteType = {
+		name = "GFX_Imprison_the_Intellectuals"
+		texturefile = "gfx/interface/goals/Imprison_the_Intellectuals.tga"
+	}
+	SpriteType = {
+		name = "GFX_Imprison_the_Opposition"
+		texturefile = "gfx/interface/goals/Imprison_the_Opposition.tga"
+	}
+	SpriteType = {
+		name = "GFX_Industrial_Progress"
+		texturefile = "gfx/interface/goals/Industrial_Progress.tga"
+	}
+	SpriteType = {
+		name = "GFX_Infantry_1"
+		texturefile = "gfx/interface/goals/Infantry_1.tga"
+	}
+	SpriteType = {
+		name = "GFX_Infantry_2"
+		texturefile = "gfx/interface/goals/Infantry_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Infantry_3"
+		texturefile = "gfx/interface/goals/Infantry_3.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italia_Battleship_Programme"
+		texturefile = "gfx/interface/goals/Italia_Battleship_Programme.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Africa"
+		texturefile = "gfx/interface/goals/Italian_Africa.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_East_Africa"
+		texturefile = "gfx/interface/goals/Italian_East_Africa.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Forces"
+		texturefile = "gfx/interface/goals/Italian_Forces.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_General_Staff"
+		texturefile = "gfx/interface/goals/Italian_General_Staff.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Gold"
+		texturefile = "gfx/interface/goals/Italian_Gold.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Libya"
+		texturefile = "gfx/interface/goals/Italian_Libya.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Officer"
+		texturefile = "gfx/interface/goals/Italian_Officer.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_Shield"
+		texturefile = "gfx/interface/goals/Italian_Shield.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_State"
+		texturefile = "gfx/interface/goals/Italian_State.tga"
+	}
+	SpriteType = {
+		name = "GFX_Japan_World_Order"
+		texturefile = "gfx/interface/goals/Japan_World_Order.tga"
+	}
+	SpriteType = {
+		name = "GFX_Japanese_Armada_2"
+		texturefile = "gfx/interface/goals/Japanese_Armada_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Japanese_Gambit"
+		texturefile = "gfx/interface/goals/Japanese_Gambit.tga"
+	}
+	SpriteType = {
+		name = "GFX_Japanese_Offensive"
+		texturefile = "gfx/interface/goals/Japanese_Offensive.tga"
+	}
+	SpriteType = {
+		name = "GFX_Kaisers_Navy"
+		texturefile = "gfx/interface/goals/Kaisers_Navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_King_George_V"
+		texturefile = "gfx/interface/goals/King_George_V.tga"
+	}
+	SpriteType = {
+		name = "GFX_KPD_Elections"
+		texturefile = "gfx/interface/goals/KPD_Elections.tga"
+	}
+	SpriteType = {
+		name = "GFX_Land_and_Sea"
+		texturefile = "gfx/interface/goals/Land_and_Sea.tga"
+	}
+	SpriteType = {
+		name = "GFX_Liberal_Party_UK"
+		texturefile = "gfx/interface/goals/Liberal_Party_UK.tga"
+	}
+	SpriteType = {
+		name = "GFX_Manipulate_the_Poor"
+		texturefile = "gfx/interface/goals/Manipulate_the_Poor.tga"
+	}
+	SpriteType = {
+		name = "GFX_Natcorp_Weapon Research"
+		texturefile = "gfx/interface/goals/Natcorp_Weapon Research.tga"
+	}
+	SpriteType = {
+		name = "GFX_Nationalist_Spain"
+		texturefile = "gfx/interface/goals/Nationalist_Spain.tga"
+	}
+	SpriteType = {
+		name = "GFX_Naval_Gunners"
+		texturefile = "gfx/interface/goals/Naval_Gunners.tga"
+	}
+	SpriteType = {
+		name = "GFX_Naval_Restrictions"
+		texturefile = "gfx/interface/goals/Naval_Restrictions.tga"
+	}
+	SpriteType = {
+		name = "GFX_Naval_Restrictions_2"
+		texturefile = "gfx/interface/goals/Naval_Restrictions_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Poland_Flag"
+		texturefile = "gfx/interface/goals/Poland_Flag.tga"
+	}
+	SpriteType = {
+		name = "GFX_Opium_Profits"
+		texturefile = "gfx/interface/goals/Opium_Profits.tga"
+	}
+	SpriteType = {
+		name = "GFX_Overthrow_Government"
+		texturefile = "gfx/interface/goals/Overthrow_Government.tga"
+	}
+	SpriteType = {
+		name = "GFX_Poland_Female_Soldiers"
+		texturefile = "gfx/interface/goals/Poland_Female_Soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_Polish_Forces"
+		texturefile = "gfx/interface/goals/Polish_Forces.tga"
+	}
+	SpriteType = {
+		name = "GFX_Polish_Government"
+		texturefile = "gfx/interface/goals/Polish_Government.tga"
+	}
+	SpriteType = {
+		name = "GFX_Polish_Military"
+		texturefile = "gfx/interface/goals/Polish_Military.tga"
+	}
+	SpriteType = {
+		name = "GFX_Polish_Revolt"
+		texturefile = "gfx/interface/goals/Polish_Revolt.tga"
+	}
+	SpriteType = {
+		name = "GFX_Progress_through_Sacrifice"
+		texturefile = "gfx/interface/goals/Progress_through_Sacrifice.tga"
+	}
+	SpriteType = {
+		name = "GFX_Reduce_Catholic_Dominance"
+		texturefile = "gfx/interface/goals/Reduce_Catholic_Dominance.tga"
+	}
+	SpriteType = {
+		name = "GFX_Regia_Aeronautica"
+		texturefile = "gfx/interface/goals/Regia_Aeronautica.tga"
+	}
+	SpriteType = {
+		name = "GFX_Regia_Marina"
+		texturefile = "gfx/interface/goals/Regia_Marina.tga"
+	}
+	SpriteType = {
+		name = "GFX_Regia_Marina_Supremacy"
+		texturefile = "gfx/interface/goals/Regia_Marina_Supremacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Reichsdomination"
+		texturefile = "gfx/interface/goals/Reichsdomination.tga"
+	}
+	SpriteType = {
+		name = "GFX_Research_Councils"
+		texturefile = "gfx/interface/goals/Research_Councils.tga"
+	}
+	SpriteType = {
+		name = "GFX_Return_of_the_Whites"
+		texturefile = "gfx/interface/goals/Return_of_the_Whites.tga"
+	}
+	SpriteType = {
+		name = "GFX_Return_of_the_Whites_2"
+		texturefile = "gfx/interface/goals/Return_of_the_Whites_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Revolution"
+		texturefile = "gfx/interface/goals/Revolution.tga"
+	}
+	SpriteType = {
+		name = "GFX_Roll_the_Die"
+		texturefile = "gfx/interface/goals/Roll_the_Die.tga"
+	}
+	SpriteType = {
+		name = "GFX_Secure_Canada"
+		texturefile = "gfx/interface/goals/Secure_Canada.tga"
+	}
+	SpriteType = {
+		name = "GFX_Serbian_Military_Research"
+		texturefile = "gfx/interface/goals/Serbian_Military_Research.tga"
+	}
+	SpriteType = {
+		name = "GFX_Serbian_Spirit"
+		texturefile = "gfx/interface/goals/Serbian_Spirit.tga"
+	}
+	SpriteType = {
+		name = "GFX_Skewer_the_Spider"
+		texturefile = "gfx/interface/goals/Skewer_the_Spider.tga"
+	}
+	SpriteType = {
+		name = "GFX_Socialist_Consolidation"
+		texturefile = "gfx/interface/goals/Socialist_Consolidation.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soviet_Army"
+		texturefile = "gfx/interface/goals/Soviet_Army.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soviet_Army_2"
+		texturefile = "gfx/interface/goals/Soviet_Army_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soviet_Relations"
+		texturefile = "gfx/interface/goals/Soviet_Relations.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soviet_Strides"
+		texturefile = "gfx/interface/goals/Soviet_Strides.tga"
+	}
+	SpriteType = {
+		name = "GFX_Spanish_Republic_Officer"
+		texturefile = "gfx/interface/goals/Spanish_Republic_Officer.tga"
+	}
+	SpriteType = {
+		name = "GFX_Stalin_Cult"
+		texturefile = "gfx/interface/goals/Stalin_Cult.tga"
+	}
+	SpriteType = {
+		name = "GFX_State_Interference"
+		texturefile = "gfx/interface/goals/State_Interference.tga"
+	}
+	SpriteType = {
+		name = "GFX_Suffrage"
+		texturefile = "gfx/interface/goals/Suffrage.tga"
+	}
+	SpriteType = {
+		name = "GFX_The_Scourge"
+		texturefile = "gfx/interface/goals/The_Scourge.tga"
+	}
+	SpriteType = {
+		name = "GFX_The_Yankee_Flag"
+		texturefile = "gfx/interface/goals/The_Yankee_Flag.tga"
+	}
+	SpriteType = {
+		name = "GFX_Tobacco_Production"
+		texturefile = "gfx/interface/goals/Tobacco_Production.tga"
+	}
+	SpriteType = {
+		name = "GFX_Triumphant_Will"
+		texturefile = "gfx/interface/goals/Triumphant_Will.tga"
+	}
+	SpriteType = {
+		name = "GFX_Urban_Warfare_2"
+		texturefile = "gfx/interface/goals/Urban_Warfare_2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Vive_Italia"
+		texturefile = "gfx/interface/goals/Vive_Italia.tga"
+	}
+	SpriteType = {
+		name = "GFX_Italian_TriPledge"
+		texturefile = "gfx/interface/goals/Italian_TriPledge.tga"
+	}
+	SpriteType = {
+		name = "GFX_CommunistProductionFocus"
+		texturefile = "gfx/interface/goals/CommunistProductionFocus.tga"
+	}
+	SpriteType = {
+		name = "GFX_CommunistBillsFocus"
+		texturefile = "gfx/interface/goals/CommunistBillsFocus.tga"
+	}
+	SpriteType = {
+		name = "GFX_CommunistAgricultureFocus"
+		texturefile = "gfx/interface/goals/CommunistAgricultureFocus.tga"
+	}
+	SpriteType = {
+		name = "GFX_AnarchoIndustry"
+		texturefile = "gfx/interface/goals/AnarchoIndustry.tga"
+	}
+	SpriteType = {
+		name = "GFX_AbolitionofWages"
+		texturefile = "gfx/interface/goals/AbolitionofWages.tga"
+	}
+	SpriteType = {
+		name = "GFX_AnarchistFlag"
+		texturefile = "gfx/interface/goals/AnarchistFlag.tga"
+	}
+	SpriteType = {
+		name = "GFX_FAICooperation"
+		texturefile = "gfx/interface/goals/FAICooperation.tga"
+	}
+	SpriteType = {
+		name = "GFX_AnarchaFeminism"
+		texturefile = "gfx/interface/goals/AnarchaFeminism.tga"
+	}
+	SpriteType = {
+		name = "GFX_POR_Chairman_Alvaro_Cunhal"
+		texturefile = "gfx/interface/goals/POR_Chairman_Alvaro_Cunhal.tga"
+	}
+	SpriteType = {
+		name = "GFX_POR_Chairman_Bento_Goncalves"
+		texturefile = "gfx/interface/goals/POR_Chairman_Bento_Goncalves.tga"
+	}
+	SpriteType = {
+		name = "GFX_POR_Chairman_Julio_Fogaca"
+		texturefile = "gfx/interface/goals/POR_Chairman_Julio_Fogaca.tga"
+	}
+	SpriteType = {
+		name = "GFX_Gay_Communism"
+		texturefile = "gfx/interface/goals/Gay_Communism.tga"
+	}
+	SpriteType = {
+		name = "GFX_KPDStar"
+		texturefile = "gfx/interface/goals/KPDStar.tga"
+	}
+	SpriteType = {
+		name = "GFX_RFBFighter"
+		texturefile = "gfx/interface/goals/RFBFighter.tga"
+	}
+	SpriteType = {
+		name = "GFX_Communist_Navy"
+		texturefile = "gfx/interface/goals/Communist_Navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Foreign_Scientists"
+		texturefile = "gfx/interface/goals/Foreign_Scientists.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_Imperial_Airforce"
+		texturefile = "gfx/interface/goals/German_Imperial_Airforce.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_Imperial_Army"
+		texturefile = "gfx/interface/goals/German_Imperial_Army.tga"
+	}
+	SpriteType = {
+		name = "GFX_German_Imperial_Navy"
+		texturefile = "gfx/interface/goals/German_Imperial_Navy.tga"
+	}
+	SpriteType = {
+		name = "GFX_GermanAirForce"
+		texturefile = "gfx/interface/goals/GermanAirForce.tga"
+	}
+	SpriteType = {
+		name = "GFX_GermanArmyTactics"
+		texturefile = "gfx/interface/goals/GermanArmyTactics.tga"
+	}
+	SpriteType = {
+		name = "GFX_GermanFleet"
+		texturefile = "gfx/interface/goals/GermanFleet.tga"
+	}
+	SpriteType = {
+		name = "GFX_GermanIndustry"
+		texturefile = "gfx/interface/goals/GermanIndustry.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_flag_socialist_germany"
+		texturefile = "gfx/interface/goals/goal_flag_socialist_germany.tga"
+	}
+	SpriteType = {
+		name = "GFX_Luftstreitkrafte"
+		texturefile = "gfx/interface/goals/Luftstreitkrafte.tga"
+	}
+	SpriteType = {
+		name = "GFX_Remove_the_Bourgeoise"
+		texturefile = "gfx/interface/goals/Remove_the_Bourgeoise.tga"
+	}
+	SpriteType = {
+		name = "GFX_Soldiers_of_The_Struggle"
+		texturefile = "gfx/interface/goals/Soldiers_of_The_Struggle.tga"
+	}
+	SpriteType = {
+		name = "GFX_Volksarmee"
+		texturefile = "gfx/interface/goals/Volksarmee.tga"
+	}
+	SpriteType = {
+		name = "GFX_Volksmarine"
+		texturefile = "gfx/interface/goals/Volksmarine.tga"
+	}
+	SpriteType = {
+		name = "GFX_State_Owned_Farm"
+		texturefile = "gfx/interface/goals/State_Owned_Farm.tga"
+	}
+	SpriteType = {
+		name = "GFX_Commie_Mechanized_Farms"
+		texturefile = "gfx/interface/goals/Commie_Mechanized_Farms.tga"
+	}
+	SpriteType = {
+		name = "GFX_Power_to_the_Peasants"
+		texturefile = "gfx/interface/goals/Power_to_the_Peasants.tga"
+	}
+	SpriteType = {
+		name = "GFX_Agricultural_Villages"
+		texturefile = "gfx/interface/goals/Agricultural_Villages.tga"
+	}
+	SpriteType = {
+		name = "GFX_Diversify_Crops"
+		texturefile = "gfx/interface/goals/Diversify_Crops.tga"
+	}
+	SpriteType = {
+		name = "GFX_Voluntary_Collectivization"
+		texturefile = "gfx/interface/goals/Voluntary_Collectivization.tga"
+	}
+	SpriteType = {
+		name = "GFX_Restructure_Management"
+		texturefile = "gfx/interface/goals/Restructure_Management.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_loans"
+		texturefile = "gfx/interface/goals/goal_generic_loans.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_investigation"
+		texturefile = "gfx/interface/goals/goal_generic_investigation.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_imprison_people"
+		texturefile = "gfx/interface/goals/goal_generic_imprison_people.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_controlled_board"
+		texturefile = "gfx/interface/goals/goal_generic_controlled_board.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_construct_public_housing"
+		texturefile = "gfx/interface/goals/goal_generic_construct_public_housing.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_coal_mining"
+		texturefile = "gfx/interface/goals/goal_generic_coal_mining.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_civilian_oversight"
+		texturefile = "gfx/interface/goals/goal_generic_civilian_oversight.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_army_cooperation"
+		texturefile = "gfx/interface/goals/goal_generic_army_cooperation.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_Workers_Paradise"
+		texturefile = "gfx/interface/goals/goal_Workers_Paradise.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_collective_housing"
+		texturefile = "gfx/interface/goals/focus_collective_housing.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_A_New_Anthem"
+		texturefile = "gfx/interface/goals/GER_A_New_Anthem.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_The_Militia_Question"
+		texturefile = "gfx/interface/goals/GER_The_Militia_Question.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Industrial_Question"
+		texturefile = "gfx/interface/goals/GER_Industrial_Question.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Peasant_Question_focus"
+		texturefile = "gfx/interface/goals/GER_Peasant_Question_focus.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Conscription_Question"
+		texturefile = "gfx/interface/goals/GER_Conscription_Question.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_1933_Election"
+		texturefile = "gfx/interface/goals/GER_1933_Election.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_The_New_Year"
+		texturefile = "gfx/interface/goals/GER_The_New_Year.tga"
+	}
+	SpriteType = {
+		name = "GFX_Urban_Development_Funds"
+		texturefile = "gfx/interface/goals/Urban_Development_Funds.tga"
+	}
+	SpriteType = {
+		name = "GFX_Appeal_to_Rural_Proletariat"
+		texturefile = "gfx/interface/goals/Appeal_to_Rural_Proletariat.tga"
+	}
+	SpriteType = {
+		name = "GFX_Goals_of_the_Future"
+		texturefile = "gfx/interface/goals/Goals_of_the_Future.tga"
+	}
+	SpriteType = {
+		name = "GFX_Trade_Deals_with_Sweden"
+		texturefile = "gfx/interface/goals/Trade_Deals_with_Sweden.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Liberal_Union"
+		texturefile = "gfx/interface/goals/ITA_Liberal_Union.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Nitti"
+		texturefile = "gfx/interface/goals/ITA_Nitti.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_De_Nicola"
+		texturefile = "gfx/interface/goals/ITA_De_Nicola.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Ferrari"
+		texturefile = "gfx/interface/goals/ITA_Ferrari.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Catholic_Action"
+		texturefile = "gfx/interface/goals/ITA_Catholic_Action.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Orlando"
+		texturefile = "gfx/interface/goals/ITA_Orlando.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Bonomi"
+		texturefile = "gfx/interface/goals/ITA_Bonomi.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_De_Gasperi"
+		texturefile = "gfx/interface/goals/ITA_De_Gasperi.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_National_Democratic_Alliance"
+		texturefile = "gfx/interface/goals/ITA_National_Democratic_Alliance.tga"
+	}
+	SpriteType = {
+		name = "GFX_marxist_education"
+		texturefile = "gfx/interface/goals/marxist_education.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Healthcare_Insurance"
+		texturefile = "gfx/interface/goals/ITA_Healthcare_Insurance.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_lightbulb"
+		texturefile = "gfx/interface/goals/goal_generic_lightbulb.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_improvised_farming_machinery"
+		texturefile = "gfx/interface/goals/goal_improvised_farming_machinery.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_shadow_government"
+		texturefile = "gfx/interface/goals/goal_shadow_government.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_price_controls"
+		texturefile = "gfx/interface/goals/goal_generic_price_controls.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_railroad"
+		texturefile = "gfx/interface/goals/goal_generic_railroad.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_railway_construction"
+		texturefile = "gfx/interface/goals/goal_generic_railway_construction.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_seize_money"
+		texturefile = "gfx/interface/goals/goal_generic_seize_money.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_stable_government"
+		texturefile = "gfx/interface/goals/goal_generic_stable_government.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_war_in_the_plate"
+		texturefile = "gfx/interface/goals/goal_generic_war_in_the_plate.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_workers_democracy"
+		texturefile = "gfx/interface/goals/goal_generic_workers_democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_foreign_investments"
+		texturefile = "gfx/interface/goals/goal_generic_foreign_investments.tga"
+	}
+	SpriteType = {
+		name = "GFX_promote_the_red_cross"
+		texturefile = "gfx/interface/goals/promote_the_red_cross.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_eagle"
+		texturefile = "gfx/interface/goals/focus_generic_eagle.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_navy_battleship3"
+		texturefile = "gfx/interface/goals/focus_generic_navy_battleship3.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_navy_battleship3alt"
+		texturefile = "gfx/interface/goals/focus_generic_navy_battleship3alt.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_oppression"
+		texturefile = "gfx/interface/goals/focus_generic_oppression.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_air_defense2"
+		texturefile = "gfx/interface/goals/focus_generic_air_defense2.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_generic_bastion_of_democracy"
+		texturefile = "gfx/interface/goals/focus_generic_bastion_of_democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Conservative_Coup"
+		texturefile = "gfx/interface/goals/Conservative_Coup.tga"
+	}
+	SpriteType = {
+		name = "GFX_Special_Election"
+		texturefile = "gfx/interface/goals/Special_Election.tga"
+	}
+	SpriteType = {
+		name = "GFX_The_Trial"
+		texturefile = "gfx/interface/goals/The_Trial.tga"
+	}
+	SpriteType = {
+		name = "GFX_End_Judicial_Corruption"
+		texturefile = "gfx/interface/goals/End_Judicial_Corruption.tga"
+	}
+	SpriteType = {
+		name = "GFX_Compulsory_Education"
+		texturefile = "gfx/interface/goals/Compulsory_Education.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Regionalism"
+		texturefile = "gfx/interface/goals/ITA_Regionalism.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Popular_Democracy"
+		texturefile = "gfx/interface/goals/ITA_Popular_Democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_South_Tyrol"
+		texturefile = "gfx/interface/goals/ITA_South_Tyrol.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Agrarian_Reform"
+		texturefile = "gfx/interface/goals/ITA_Agrarian_Reform.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Christian_Democracy"
+		texturefile = "gfx/interface/goals/ITA_Christian_Democracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Socialist_Law"
+		texturefile = "gfx/interface/goals/Socialist_Law.tga"
+	}
+	SpriteType = {
+		name = "GFX_socialist_constitution"
+		texturefile = "gfx/interface/goals/socialist_constitution.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_social_reforms"
+		texturefile = "gfx/interface/goals/goal_social_reforms.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_corporatism"
+		texturefile = "gfx/interface/goals/goal_generic_corporatism.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_generic_build_housing"
+		texturefile = "gfx/interface/goals/goal_generic_build_housing.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_agrarian_soldiers"
+		texturefile = "gfx/interface/goals/goal_agrarian_soldiers.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_agrarian_socialism"
+		texturefile = "gfx/interface/goals/goal_agrarian_socialism.tga"
+	}
+	SpriteType = {
+		name = "GFX_Secularism"
+		texturefile = "gfx/interface/goals/Secularism.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Secret_Agreement"
+		texturefile = "gfx/interface/goals/ITA_Secret_Agreement.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_Constitutional_Reform"
+		texturefile = "gfx/interface/goals/ITA_Constitutional_Reform.tga"
+	}
+	SpriteType = {
+		name = "GFX_France_Italy_Britain_Alliance"
+		texturefile = "gfx/interface/goals/France_Italy_Britain_Alliance.tga"
+	}
+	SpriteType = {
+		name = "GFX_SortingOurPriorities"
+		texturefile = "gfx/interface/goals/SortingOurPriorities.tga"
+	}
+	SpriteType = {
+		name = "GFX_MeetingTheDemands"
+		texturefile = "gfx/interface/goals/MeetingTheDemands.tga"
+	}
+	SpriteType = {
+		name = "GFX_ExpandTheInfrastructureBudget"
+		texturefile = "gfx/interface/goals/ExpandTheInfrastructureBudget.tga"
+	}
+	SpriteType = {
+		name = "GFX_ExpandTheFortificationBudget"
+		texturefile = "gfx/interface/goals/ExpandTheFortificationBudget.tga"
+	}
+	SpriteType = {
+		name = "GFX_EmphasizeOurFriendship"
+		texturefile = "gfx/interface/goals/EmphasizeOurFriendship.tga"
+	}
+	SpriteType = {
+		name = "GFX_EmphasizeOurDifferences"
+		texturefile = "gfx/interface/goals/EmphasizeOurDifferences.tga"
+	}
+	SpriteType = {
+		name = "GFX_AppealToTheUrbanProletariat"
+		texturefile = "gfx/interface/goals/AppealToTheUrbanProletariat.tga"
+	}
+	SpriteType = {
+		name = "GFX_1933CongressofFederalTradeUnions"
+		texturefile = "gfx/interface/goals/1933CongressofFederalTradeUnions.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Republic_Coat_of_Arms"
+		texturefile = "gfx/interface/goals/GRE_Republic_Coat_of_Arms_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Army"
+		texturefile = "gfx/interface/goals/GRE_Army_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Navy"
+		texturefile = "gfx/interface/goals/GRE_Navy_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Air_Force"
+		texturefile = "gfx/interface/goals/GRE_Air_Force_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Scholi_Aeroporias"
+		texturefile = "gfx/interface/goals/GRE_Scholi_Aeroporias_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Industry"
+		texturefile = "gfx/interface/goals/GRE_Industry_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_PYRKAL"
+		texturefile = "gfx/interface/goals/GRE_PYRKAL_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Hellenic_Shipyards"
+		texturefile = "gfx/interface/goals/GRE_Hellenic_Shipyards_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_goal_close_air_support"
+		texturefile = "gfx/interface/goals/goal_close_air_support_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Volksarmee_Demands"
+		texturefile = "gfx/interface/goals/GER_Volksarmee_Demands.tga"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Support_Equipment"
+		texturefile = "gfx/interface/goals/Generic_Support_Equipment.tga"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Resource_Extraction"
+		texturefile = "gfx/interface/goals/Generic_Resource_Extraction.tga"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Military_Equipment"
+		texturefile = "gfx/interface/goals/Generic_Military_Equipment.tga"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Market_Economy"
+		texturefile = "gfx/interface/goals/Generic_Market_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Generic_Construction_Engineering"
+		texturefile = "gfx/interface/goals/Generic_Construction_Engineering.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Volunteer_Army"
+		texturefile = "gfx/interface/goals/Focus_Volunteer_Army.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Superior_Firepower_Doctrine"
+		texturefile = "gfx/interface/goals/Focus_Superior_Firepower_Doctrine.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Static_Defense"
+		texturefile = "gfx/interface/goals/Focus_Static_Defense.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Peasant_Rebellion"
+		texturefile = "gfx/interface/goals/Focus_Peasant_Rebellion.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Parliament_Constitution"
+		texturefile = "gfx/interface/goals/Focus_Parliament_Constitution.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Mobile_Warfare_Doctrine"
+		texturefile = "gfx/interface/goals/Focus_Mobile_Warfare_Doctrine.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Lend_Lease"
+		texturefile = "gfx/interface/goals/Focus_Lend_Lease.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Mechanization_of_Agriculture"
+		texturefile = "gfx/interface/goals/Focus_Mechanization_of_Agriculture.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Mass_Assault_Doctrine"
+		texturefile = "gfx/interface/goals/Focus_Mass_Assault_Doctrine.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Investigation"
+		texturefile = "gfx/interface/goals/Focus_Investigation.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Improve_Literacy2"
+		texturefile = "gfx/interface/goals/Focus_Improve_Literacy2.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Improve_Literacy"
+		texturefile = "gfx/interface/goals/Focus_Improve_Literacy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Import_Economy"
+		texturefile = "gfx/interface/goals/Focus_Import_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_GER_Volkswagen"
+		texturefile = "gfx/interface/goals/Focus_GER_Volkswagen.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Generic_Maritime_Trade"
+		texturefile = "gfx/interface/goals/Focus_Generic_Maritime_Trade.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Grand_Battleplan_Doctrine"
+		texturefile = "gfx/interface/goals/Focus_Grand_Battleplan_Doctrine.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Government_Bureaucracy"
+		texturefile = "gfx/interface/goals/Focus_Government_Bureaucracy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Generic_Hydroelectricity"
+		texturefile = "gfx/interface/goals/Focus_Generic_Hydroelectricity.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_FRA_National_Unions"
+		texturefile = "gfx/interface/goals/Focus_FRA_National_Unions.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Export_Economy"
+		texturefile = "gfx/interface/goals/Focus_Export_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Examine_Foreign_Tanks"
+		texturefile = "gfx/interface/goals/Focus_Examine_Foreign_Tanks.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Examine_Foreign_Small_Arms"
+		texturefile = "gfx/interface/goals/Focus_Examine_Foreign_Small_Arms.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Examine_Foreign_Science"
+		texturefile = "gfx/interface/goals/Focus_Examine_Foreign_Science.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Examine_Foreign_Laws"
+		texturefile = "gfx/interface/goals/Focus_Examine_Foreign_Laws.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_ENG_Imperial_Military"
+		texturefile = "gfx/interface/goals/Focus_ENG_Imperial_Military.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Communal_Militias"
+		texturefile = "gfx/interface/goals/Focus_Communal_Militias.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Central_Planned_Economy"
+		texturefile = "gfx/interface/goals/Focus_Central_Planned_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Bloody_Purge"
+		texturefile = "gfx/interface/goals/Focus_Bloody_Purge.tga"
+	}
+	SpriteType = {
+		name = "GFX_Focus_Anarchist_Economy"
+		texturefile = "gfx/interface/goals/Focus_Anarchist_Economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_KillReactionaries"
+		texturefile = "gfx/interface/goals/GER_KillReactionaries.tga"
+	}
+	SpriteType = {
+		name = "GFX_March_Socialism"
+		texturefile = "gfx/interface/goals/March_Socialism.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Joint_Development"
+		texturefile = "gfx/interface/goals/GER_Joint_Development.tga"
+	}
+	SpriteType = {
+		name = "GFX_Farmer_Subsidies"
+		texturefile = "gfx/interface/goals/Farmer_Subsidies.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Bavaria"
+		texturefile = "gfx/interface/goals/GER_Bavaria.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Austrian_National_Question"
+		texturefile = "gfx/interface/goals/GER_Austrian_National_Question.tga"
+	}
+	SpriteType = {
+		name = "GFX_KMC_absorb_the_northwestern_army"
+		texturefile = "gfx/interface/goals/KMC_absorb_the_northwestern_army.tga"
+	}
+	SpriteType = {
+		name = "GFX_KMC_deal_with_ma_clique"
+		texturefile = "gfx/interface/goals/KMC_deal_with_ma_clique.tga"
+	}
+	SpriteType = {
+		name = "GFX_KMC_recognize_the_zhensongjun"
+		texturefile = "gfx/interface/goals/KMC_recognize_the_zhensongjun.tga"
+	}
+	SpriteType = {
+		name = "GFX_KMC_reintegrate_the_second_army_of_guominjun"
+		texturefile = "gfx/interface/goals/KMC_reintegrate_the_second_army_of_guominjun.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Coalition"
+		texturefile = "gfx/interface/goals/GRE_Coalition_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Opposition"
+		texturefile = "gfx/interface/goals/GRE_Opposition_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Strenghten_the_GSEE"
+		texturefile = "gfx/interface/goals/GRE_Strenghten_the_GSEE_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Legacy_of_the_Goudi_Movement"
+		texturefile = "gfx/interface/goals/GRE_Legacy_of_the_Goudi_Movement_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Our_Place_in_the_World"
+		texturefile = "gfx/interface/goals/GRE_Our_Place_in_the_World_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Continue_the_Turkish_Reconciliation"
+		texturefile = "gfx/interface/goals/GRE_Continue_the_Turkish_Reconciliation_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Re_Evaluate_the_Naval_Protocol"
+		texturefile = "gfx/interface/goals/GRE_Re_Evaluate_the_Naval_Protocol_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Form_an_Embassy_in_Constantinople"
+		texturefile = "gfx/interface/goals/GRE_Form_an_Embassy_in_Constantinople_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Form_the_Balkan_Pact"
+		texturefile = "gfx/interface/goals/GRE_Form_the_Balkan_Pact_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Embargo_Serbia"
+		texturefile = "gfx/interface/goals/GRE_Embargo_Serbia_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Join_the_Fight_Against_Communism"
+		texturefile = "gfx/interface/goals/GRE_Join_the_Fight_Against_Communism_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Another_Visit_to_Constantinople"
+		texturefile = "gfx/interface/goals/GRE_Another_Visit_to_Constantinople_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Renounce_All_Claims_in_Turkey"
+		texturefile = "gfx/interface/goals/GRE_Renounce_All_Claims_in_Turkey_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_GRE_Autonomy_for_Disputed_Territories"
+		texturefile = "gfx/interface/goals/GRE_Autonomy_for_Disputed_Territories_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_bomber_harris"
+		texturefile = "gfx/interface/goals/bomber_harris.tga"
+	}
+    SpriteType = {
+		name = "GFX_home_defense"
+		texturefile = "gfx/interface/goals/home_defense.tga"
+	}
+    SpriteType = {
+		name = "GFX_issue_gasmasks"
+		texturefile = "gfx/interface/goals/issue_gasmasks.tga"
+	}
+	SpriteType = {
+		name = "GFX_Renew_Anti_Socialist_Laws"
+		texturefile = "gfx/interface/goals/Renew_Anti_Socialist_Laws.tga"
+	}
+	SpriteType = {
+		name = "GFX_Rally_Around_the_King"
+		texturefile = "gfx/interface/goals/Rally_Around_the_King.tga"
+	}
+	SpriteType = {
+		name = "GFX_Protect_the_Blueshirts"
+		texturefile = "gfx/interface/goals/Protect_the_Blueshirts.tga"
+	}
+	SpriteType = {
+		name = "GFX_Badoglio"
+		texturefile = "gfx/interface/goals/Badoglio.tga"
+	}
+	SpriteType = {
+		name = "GFX_Federzoni"
+		texturefile = "gfx/interface/goals/Federzoni.tga"
+	}
+	SpriteType = {
+		name = "GFX_FascistQuestion"
+		texturefile = "gfx/interface/goals/FascistQuestion.tga"
+	}
+	SpriteType = {
+		name = "GFX_SardiniaDeploy"
+		texturefile = "gfx/interface/goals/SardiniaDeploy.tga"
+	}
+	SpriteType = {
+		name = "GFX_corporatist_council"
+		texturefile = "gfx/interface/goals/corporatist_council.tga"
+	}
+	SpriteType = {
+		name = "GFX_corporatist_experiment"
+		texturefile = "gfx/interface/goals/corporatist_experiment.tga"
+	}
+	SpriteType = {
+		name = "GFX_ita_disaster_strikes"
+		texturefile = "gfx/interface/goals/ita_disaster_strikes.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRD_Italy_Unify"
+		texturefile = "gfx/interface/goals/SRD_Italy_Unify.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRD_Break_Chains"
+		texturefile = "gfx/interface/goals/SRD_Break_Chains.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRD_Join_Socialist"
+		texturefile = "gfx/interface/goals/SRD_Join_Socialist.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRD_Join_Venice"
+		texturefile = "gfx/interface/goals/SRD_Join_Venice.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Bologna"
+		texturefile = "gfx/interface/goals/SRI_Bologna.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Turin"
+		texturefile = "gfx/interface/goals/SRI_Turin.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Milan"
+		texturefile = "gfx/interface/goals/SRI_Milan.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Genoa"
+		texturefile = "gfx/interface/goals/SRI_Genoa.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Livorno"
+		texturefile = "gfx/interface/goals/SRI_Livorno.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Republic"
+		texturefile = "gfx/interface/goals/SRI_Republic.tga"
+	}
+	SpriteType = {
+		name = "GFX_VNZ_Romagna"
+		texturefile = "gfx/interface/goals/VNZ_Romagna.tga"
+	}
+	SpriteType = {
+		name = "GFX_VNZ_Ancona"
+		texturefile = "gfx/interface/goals/VNZ_Ancona.tga"
+	}
+	SpriteType = {
+		name = "GFX_VNZ_Trapani"
+		texturefile = "gfx/interface/goals/VNZ_Trapani.tga"
+	}
+	SpriteType = {
+		name = "GFX_VNZ_Break_Chains"
+		texturefile = "gfx/interface/goals/VNZ_Break_Chains.tga"
+	}
+	SpriteType = {
+		name = "GFX_VNZ_Republic"
+		texturefile = "gfx/interface/goals/VNZ_Republic.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_parliament"
+		texturefile = "gfx/interface/goals/generic_parliament.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_banking_legislation"
+		texturefile = "gfx/interface/goals/generic_banking_legislation.tga"
+	}
+	SpriteType = {
+		name = "GFX_bank_crisis"
+		texturefile = "gfx/interface/goals/bank_crisis.tga"
+	}
+	SpriteType = {
+		name = "GFX_curb_rural_exodus"
+		texturefile = "gfx/interface/goals/curb_rural_exodus.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_financial_markets"
+		texturefile = "gfx/interface/goals/generic_financial_markets.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_beneduce"
+		texturefile = "gfx/interface/goals/ITA_beneduce.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_volpi"
+		texturefile = "gfx/interface/goals/ITA_volpi.tga"
+	}
+	SpriteType = {
+		name = "GFX_ITA_IMI"
+		texturefile = "gfx/interface/goals/ITA_IMI.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_MecklenburgPomerania"
+		texturefile = "gfx/interface/goals/GER_MecklenburgPomerania.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_PomereliaPrussia"
+		texturefile = "gfx/interface/goals/GER_PomereliaPrussia.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Franconia"
+		texturefile = "gfx/interface/goals/GER_Franconia.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Northwest"
+		texturefile = "gfx/interface/goals/GER_Northwest.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_GermanBohemia"
+		texturefile = "gfx/interface/goals/GER_GermanBohemia.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_PolishAreas"
+		texturefile = "gfx/interface/goals/GER_PolishAreas.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_BrandenburgLusatia"
+		texturefile = "gfx/interface/goals/GER_BrandenburgLusatia.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_HanoverBremen"
+		texturefile = "gfx/interface/goals/GER_HanoverBremen.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Silesia"
+		texturefile = "gfx/interface/goals/GER_Silesia.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Ruhr"
+		texturefile = "gfx/interface/goals/GER_Ruhr.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_CentralGerman"
+		texturefile = "gfx/interface/goals/GER_CentralGerman.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_MunichAugsburg"
+		texturefile = "gfx/interface/goals/GER_MunichAugsburg.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_FrankfurtRhine"
+		texturefile = "gfx/interface/goals/GER_FrankfurtRhine.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_BerlinHamburg"
+		texturefile = "gfx/interface/goals/GER_BerlinHamburg.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Westerwald"
+		texturefile = "gfx/interface/goals/GER_Westerwald.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_Harz"
+		texturefile = "gfx/interface/goals/GER_Harz.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_SilesiaMining"
+		texturefile = "gfx/interface/goals/GER_SilesiaMining.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_OreMountains"
+		texturefile = "gfx/interface/goals/GER_OreMountains.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_SecuringFuture"
+		texturefile = "gfx/interface/goals/GER_SecuringFuture.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_RuralIndustry"
+		texturefile = "gfx/interface/goals/GER_RuralIndustry.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_TraditionalBase"
+		texturefile = "gfx/interface/goals/GER_TraditionalBase.tga"
+	}
+	SpriteType = {
+		name = "GFX_INPROV"
+		texturefile = "gfx/interface/goals/INPROV.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_HungaryIndustry"
+		texturefile = "gfx/interface/goals/GER_HungaryIndustry.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_SovietIndustry"
+		texturefile = "gfx/interface/goals/GER_SovietIndustry.tga"
+	}
+	SpriteType = {
+		name = "GFX_GER_PolandIndustry"
+		texturefile = "gfx/interface/goals/GER_PolandIndustry.tga"
+	}
+	SpriteType = {
+		name = "GFX_focus_red_army"
+		texturefile = "gfx/interface/goals/focus_red_army.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_The_Internationale_Unites"
+		texturefile = "gfx/interface/goals/SRI_The_Internationale_Unites.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Request_Military_Advisors"
+		texturefile = "gfx/interface/goals/SRI_Request_Military_Advisors.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Reorganize_the_Factories"
+		texturefile = "gfx/interface/goals/SRI_Reorganize_the_Factories.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Quell_Political_Idealism"
+		texturefile = "gfx/interface/goals/SRI_Quell_Political_Idealism.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Establish_Intelligence_Department"
+		texturefile = "gfx/interface/goals/SRI_Establish_Intelligence_Department.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Establish_Policing_Department"
+		texturefile = "gfx/interface/goals/SRI_Establish_Policing_Department.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Establish_Logistics_Department"
+		texturefile = "gfx/interface/goals/SRI_Establish_Logistics_Department.tga"
+	}
+	SpriteType = {
+		name = "GFX_SRI_Appeal_to_Nationalism"
+		texturefile = "gfx/interface/goals/SRI_Appeal_to_Nationalism.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_Government_Austerity"
+		texturefile = "gfx/interface/goals/generic_Government_Austerity_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_The_Gold_Standard"
+		texturefile = "gfx/interface/goals/generic_The_Gold_Standard_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_Farming_Crisis"
+		texturefile = "gfx/interface/goals/generic_Farming_Crisis_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_Subsidise_Farmers"
+		texturefile = "gfx/interface/goals/generic_Subsidise_Farmers_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_generic_End_of_Depression"
+		texturefile = "gfx/interface/goals/generic_End_of_Depression_gfx.tga"
+	}
+	SpriteType = {
+		name = "GFX_The_revolutionary_economy"
+		texturefile = "gfx/interface/goals/The_revolutionary_economy.tga"
+	}
+	SpriteType = {
+		name = "GFX_Standarize_formation_structures"
+		texturefile = "gfx/interface/goals/Standarize_formation_structures.tga"
+	}
+	SpriteType = {
+		name = "GFX_Propaganda_of_the_class_struggle"
+		texturefile = "gfx/interface/goals/Propaganda_of_the_class_struggle.tga"
+	}
+	SpriteType = {
+		name = "GFX_Lenience_is_the_key"
+		texturefile = "gfx/interface/goals/Lenience_is_the_key.tga"
+	}
+	SpriteType = {
+		name = "GFX_Establish_officer_elections"
+		texturefile = "gfx/interface/goals/Establish_officer_elections.tga"
+	}
+	SpriteType = {
+		name = "GFX_Establish_a_political_department"
+		texturefile = "gfx/interface/goals/Establish_a_political_department.tga"
+	}
+	SpriteType = {
+		name = "GFX_Emergency_war_measures"
+		texturefile = "gfx/interface/goals/Emergency_war_measures.tga"
+	}
+	SpriteType = {
+		name = "GFX_Appeal_to_the_peasantry"
+		texturefile = "gfx/interface/goals/Appeal_to_the_peasantry.tga"
+	}
+	SpriteType = {
+		name = "GFX_An_army_needs_guns"
+		texturefile = "gfx/interface/goals/An_army_needs_guns.tga"
+	}
+	SpriteType = {
+		name = "GFX_Preparing_for_the_long_battle"
+		texturefile = "gfx/interface/goals/Preparing_for_the_long_battle.tga"
+	}
+	SpriteType = {
+		name = "GFX_Formalize_the_High_Command"
+		texturefile = "gfx/interface/goals/Formalize_the_High_Command.tga"
+	}
+}

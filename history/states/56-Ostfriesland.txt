@@ -1,0 +1,37 @@
+
+state={
+	id=56
+	name="STATE_56"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			11360 5 
+		}
+		victory_points = {
+			336 1 
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 3
+			11360 = {
+				coastal_bunker = 6
+				naval_base = 7
+			}
+			336 = {
+				naval_base = 1
+				coastal_bunker = 2
+			}
+
+		}
+
+	}
+
+	provinces={
+		336 11360 
+	}
+	manpower=290400
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

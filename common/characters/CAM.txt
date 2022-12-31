@@ -1,0 +1,168 @@
+characters={
+    # create_country_leader = { # Not old enough to lead yet in 1932 but will be later
+        # name = "Son Ngoc Minh"
+        # desc = ""
+        # picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+        # expire = "1965.1.1"
+        # ideology = bolshevist_subtype
+        # traits = {
+        # }
+    # }
+
+    # Tou Samouth is probably not old enough to lead in 1932 but is by the time Cambodia might become independent
+
+    CAM_tou_samouth = {
+        name = "Tou Samouth"
+        portraits={
+            civilian={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+            }
+            id=-1
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+            }
+            id=-1
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+
+    # create_country_leader = { # No wiki page, unsure when born, will leave commented out for now
+        # name = "Sieu Heng"
+        # desc = ""
+        # picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+        # expire = "1965.1.1"
+        # ideology = revolutionary_socialist_subtype
+        # traits = {
+        # }
+    # }
+
+    CAM_sisowath_youtevong = {
+        name = "Sisowath Youtevong" #Royalty, helped form the Democratic Party
+        portraits={
+            civilian={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {	
+            }
+            id=-1
+        }
+    }
+
+    CAM_sim_var = { #Moderate, supported nationalists, helped form the Democratic Party
+        name = "Sim Var"
+        portraits={
+            civilian={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {	
+            }
+            id=-1
+        }
+    }
+
+    CAM_norodom_norindeth = {
+        name = "Norodom Norindeth" #Pro-French and Royalty, formed Liberal Party
+        portraits={
+            civilian={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = social_liberal_subtype
+            traits = {	
+            }
+            id=-1
+        }
+    }
+
+    #create_country_leader = {
+        #name = "Khuang Aphaiwong" #Throne Pretender with Lineage from the 1400s
+        #desc = ""
+        #picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+        #expire = "1965.1.1"
+        #ideology = liberal_conservative_subtype
+        #traits = {
+        #}
+    #}
+
+    CAM_nhiek_tioulong = {
+        name = "Nhiek Tioulong" #Conservative Leader along with Lon Nol, later formed Khmer Renovation
+        portraits={
+            civilian={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {	
+            }
+            id=-1
+        }
+    }
+
+    CAM_sisowath_monivong = {
+        name = "Sisowath Monivong" #King of Cambodia, succeeded by the son of Norodom Suramarit, Norodom Sihanouk
+        portraits={
+            civilian={
+                large = "gfx/leaders/CAM/Portrait_Sisowath_Monivong.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+
+    CAM_son_ngoc_thanh = {
+        name = "Son Ngoc Thanh" #Anti-Monarchist Republican
+        portraits={
+            civilian={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = national_syndicalist_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+}

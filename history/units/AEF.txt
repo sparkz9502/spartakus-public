@@ -1,0 +1,81 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Régiment de Tirailleurs Sénégalais"
+	division_names_group = FRA_COL_05
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+division_template = {
+	name = "Bataillon de Tirailleurs Sénégalais"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+	is_locked = yes
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = { #"Rég. de Tirailleurs Sénégalais du Tchad"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 2081
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "Bat. de Tirailleurs Sénégalais de l'AEF" 
+		location = 8193
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "Bat. de Tirailleurs Sénégalais de l'Oubangui" 
+		location = 12830
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "Bat. de Tirailleurs Sénégalais de la CFS" 
+		location = 14158
+		division_template = "Bataillon de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "AEF"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

@@ -1,0 +1,34 @@
+
+state={
+	id=190
+	name="STATE_190"
+
+	history={
+		owner = LIV
+		victory_points = {
+			9262 3 
+		}
+		victory_points = {
+			3296 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			9262 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = LAT
+		add_core_of = LIV
+
+	}
+
+	provinces={
+		3194 3296 3319 3525 6322 9262 11246 
+	}
+	manpower=400520
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

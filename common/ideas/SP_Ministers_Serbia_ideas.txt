@@ -1,0 +1,1733 @@
+ideas = {
+################################################################################################################################################################################################
+### SER
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+    SER_Jovan_Veselinov_hog_bol = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_international_webweaver
+		}
+		cancel_if_invalid = no
+	}
+    
+	SER_Veljko_Vlahovic_hog_bol = {
+		allowed = {original_tag = SER}
+		visible = {
+			date > 1937.1.1
+			has_country_flag = Is_Yugoslavia
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_principled_sp_theorist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Sinisa_Stankovic_hog_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_communist_academic
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Sima_Markovic_hog_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_crypto_reformist
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Djuro_Djakovic_hog_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Rade_Koncar_hog_rev = {
+		allowed = {original_tag = SER}
+		visible = {
+			date > 1940.1.1
+			has_country_flag = Is_Yugoslavia
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_acopt_organizer
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Ljubomir_Davidovic_hog_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Grol_hog_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milos_Trifunovic_hog_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Nikola_Uzunovic_hog_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bogoljub_Jevtic_hog_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragisa_Cvetkovic_hog_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_corporate_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dusan_Simovic_hog_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Acimovic_hog_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Nedic_hog_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Patriarch_Varnava_hog_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Zivkovic_hog_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dimitrije_Ljotic_hog_nsy = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Milan_Pribicevic_hog_ncp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	SER_Mosa_Pijade_for_bol = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Kosta_Novakovic_for_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Vladimir_Dedijer_for_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Stanoje_Simic_for_rev = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milos_Moskovljevic_for_sde = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Zivko_Topalovic_for_sde = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Grol_for_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Svetozar_Pribicevic_for_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bozidar_Puric_for_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Vojislav_Marinkovic_for_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Jovan_Jovanovic_Pizon_for_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Gavrilovic_for_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Momcilo_Nincic_for_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Ninko_Peric_for_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Aleksandar_Cincar_Markovic_for_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bogoljub_Jevtic_for_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Miroslav_Spalajkovic_for_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dimitrije_Ljotic_for_nsy = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Velibor_Jonic_for_nsy = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+
+	SER_Mosa_Pijade_eco_bol = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milentije_Popovic_eco_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Pavle_Savic_eco_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_theoretical_scientist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Sreten_Zujovic_eco_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragisa_Lapcevic_eco_sde = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Kosta_Kumanudi_eco_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milutin_Milankovic_eco_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_theoretical_scientist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Vojislav_Marinkovic_eco_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bogdan_Markovic_eco_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Momcilo_Nincic_eco_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Ninko_Peric_eco_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragisa_Cvetkovic_eco_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Srskic_eco_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_corrupt_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Stojadinovic_eco_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Nikola_Uzunovic_eco_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Svetislav_Milosavljevic_eco_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Mihailo_Olcan_eco_nsy = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	SER_Aleksandar_Rankovic_sec_bol = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Mustafa_Golubic_sec_bol = {
+		allowed = {
+		original_tag = SER
+		NOT = { has_country_flag = Golubic_Found_Dead }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Slobodan_Penezic_sec_spa = {
+		allowed = {original_tag = SER}
+		visible = {
+			date > 1940.1.1
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Trisa_Kaclerovic_sec_spa = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragoljub_Jovanovic_sec_sde = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Ljubomir_Davidovic_sec_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milorad_Draskovic_sec_sli = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Mihailo_Konstantinovic_sec_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bozidar_Maksimovic_sec_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Gavrilovic_sec_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milos_Trifunovic_sec_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragisa_Cvetkovic_sec_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Srskic_sec_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Acimovic_sec_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Svetozar_Vujkovic_sec_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Tanasije_Dinic_sec_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dimitrije_Ljotic_sec_nsy = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = {
+	GER_Mijalko_Todorovic_agr_spa = {
+		allowed = {original_tag = GER}
+		visible = {
+			date > 1940.1.1
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			tra_inexperienced_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	SER_Aleksandar_Rankovic_def_bol = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Mustafa_Golubic_def_bol = {
+		allowed = {
+		original_tag = SER
+		NOT = { has_country_flag = Golubic_Found_Dead }
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bozidar_Puric_def_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dusan_Popov_def_lco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Momcilo_Nincic_def_sco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Borivoje_Josimovic_def_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Aracic_def_aco = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bosko_Becarevic_def_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragomir_Jovanovic_def_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Zivkovic_def_rwp = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	SER_Arso_Jovanovic_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Koca_Popovic_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Draza_Mihailovic_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Ljubomir_Maric_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Kosic_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Pesic_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Nedic_cos = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	SER_Koca_Popovic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Sreten_Zujovic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	SER_Aleksa_Dejovic_carm = {
+		allowed = {original_tag = SER}
+		visible = {
+			date > 1940.1.1
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Bogoljub_Ilic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dragutin_Gavrilovic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Draza_Mihailovic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Ljubomir_Maric_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milutin_Nedic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milan_Nedic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Bojovic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Petar_Zivkovic_carm = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	SER_Zarko_Zrenjanin_cnav = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	SER_Mileta_Protic_cair = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Borivoje_Mirkovic_cair = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Dusan_Simovic_cair = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SER_Milojko_Jankovic_cair = {
+		allowed = {original_tag = SER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

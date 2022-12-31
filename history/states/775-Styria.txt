@@ -1,0 +1,32 @@
+
+state={
+	id=775
+	name="STATE_775"
+	resources={
+		coal=1
+		iron=25
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			13575 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 2
+
+		}
+		add_core_of = AUS
+		add_core_of = AWR
+
+	}
+
+	provinces={
+		653 6687 6691 9646 9648 9650 9679 13575 13594 
+	}
+	manpower=1015100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

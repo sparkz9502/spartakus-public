@@ -1,0 +1,150 @@
+characters={
+    HUN_jozsef_pogany = {
+        name = "József Pogány"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HUN/Portrait_Jozsef_Pogany.tga"
+            }
+        }
+        country_leader={
+            desc="POLITICS_JOZSEF_POGANY_DESC"
+			ideology=left_leninism
+			traits={ }
+			id=-1
+        }
+    }
+	HUN_imre_nagy = {
+        name = "Imre Nagy"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HUN/Portrait_Imre_Nagy.tga"
+            }
+        }
+        country_leader={
+            desc="POLITICS_IMRE_NAGY_DESC"
+			ideology=spartacist_subtype
+			traits={ }
+			id=-1
+        }
+    }
+	HUN_julier_ferenc={
+		name="Julier Ferenc"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Julier_Ferenc.tga"
+			}
+		}
+		field_marshal={
+			traits={ trait_cautious career_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HUN_geza_lakatos={
+		name="Géza Lakatos"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Geza_Lakatos.tga"
+			}
+		}
+		corps_commander={
+			traits={ career_officer engineer_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HUN_otto_steinbruck={
+		name="Otto Steinbrück"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Otto_Steinbruck.tga"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer politically_connected career_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HUN_karoly_beregfy={
+		name="Károly Beregfy"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Karoly_Beregfy.tga"
+			}
+		}
+		corps_commander={
+			traits={ harsh_leader }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	HUN_jeno_tombor={
+		name="Jenő Tombor"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Jeno_Tombor.tga"
+			}
+		}
+		corps_commander={
+			traits={ infantry_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	HUN_koloman_wallisch={
+		name="Koloman Wallisch"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/HUN/Portrait_Koloman_Wallisch.tga"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+}

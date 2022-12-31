@@ -1,0 +1,631 @@
+###########################
+# Illyria Focus Tree
+# By Sybil
+###########################
+
+focus_tree = {
+	id = SP_Illyria_Croatia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CRO
+		}
+	}
+	default = no
+	
+	#RESOURCE EXPLOITATION
+	
+	focus = {
+		id = CRO_Salty_Tuzla
+		icon = GFX_Focus_Salt
+		cost = 2.00
+		x = 12
+		y = 1
+		completion_reward = {
+		add_political_power = 50
+		swap_ideas = {
+          remove_idea = CRO_Italian_Economic_Domination
+          add_idea = CRO_Italian_Economic_Domination_2
+         }
+		 hidden_effect = {
+		 country_event = { days = 50 id = illyria.12 }
+		 }
+		custom_effect_tooltip = CRO_DONTDOTHISBITCH
+		}
+	}
+	
+	focus = {
+		id = CRO_Expand_Ljubija_Mine
+		icon = GFX_goal_Steel
+		available = { 
+		owns_state = 104
+        controls_state = 104
+		}
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Salty_Tuzla
+		}
+		x = 12
+		y = 2
+		completion_reward = {
+		add_resource = { type = iron amount = 5 state = 104 }
+		}
+	}
+	
+	focus = {
+		id = CRO_Coal_in_Zenica
+		icon = GFX_goal_construction_engineering
+		available = { 
+		owns_state = 1206
+        controls_state = 1206
+		}
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Expand_Ljubija_Mine
+		}
+		x = 10
+		y = 3
+		completion_reward = {
+		add_stability = 0.02
+		ITA = {
+		add_opinion_modifier = { target = CRO modifier = small_increase }
+		}
+		}
+	}
+	
+	focus = {
+		id = CRO_Coal_in_Kakanj
+		icon = GFX_goal_construction_engineering
+		available = { 
+		owns_state = 1206
+        controls_state = 1206
+		}
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Expand_Ljubija_Mine
+		}
+		x = 14
+		y = 3
+		completion_reward = {
+		add_stability = 0.02
+		ITA = {
+		add_opinion_modifier = { target = CRO modifier = small_increase }
+		}
+		}
+	}
+	
+	focus = {
+		id = CRO_Expand_Oil_Storage_in_Sisak
+		icon = GFX_goal_basic_oil
+		available = { 
+		owns_state = 1202
+        controls_state = 1202
+		}
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Expand_Ljubija_Mine
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+		add_resource = { type = oil amount = 2 state = 1202 }
+		add_tech_bonus = {
+				name = CRO_Oil_Storing
+				bonus = 0.3
+				uses = 3
+				category = synth_resources
+			}
+		hidden_effect = {
+			set_global_flag = Illyria_Did_Dis_1
+			}
+		}
+	}
+	
+	focus = {
+		id = CRO_A_Proper_Refinery_System
+		icon = GFX_goal_generic_oil_factory
+		available = { 
+		owns_state = 1202
+        controls_state = 1202
+		}
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Expand_Oil_Storage_in_Sisak
+		}
+		x = 12
+		y = 4
+		completion_reward = {
+		if = {
+					limit = {
+						1202 = {
+							free_building_slots = {
+								building = industrial_complex
+								size > 0
+								include_locked = yes
+							}
+						}
+					}
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = synthetic_refinery
+						level = 1
+						instant_build = yes
+					}
+				}
+		}
+		hidden_effect = {
+			set_global_flag = Illyria_Did_Dis_2
+			}
+	}
+	
+	focus = {
+		id = CRO_Begin_Processing_Local_Raw_Oil
+		icon = GFX_goal_further_oil
+		available = { 
+		owns_state = 1202
+        controls_state = 1202
+		}
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_A_Proper_Refinery_System
+		}
+		x = 12
+		y = 5
+		completion_reward = {
+		add_resource = { type = oil amount = 5 state = 1202 }
+		hidden_effect = {
+			set_global_flag = Illyria_Did_Dis_3
+			}
+		}
+	}
+	
+	#COLONIZATION
+	
+	focus = {
+		id = CRO_More_Pasta
+		icon = GFX_LEC_Passports
+		cost = 3.00
+		available = { has_country_flag = CRO_Ready_to_Italianize }
+		x = 6
+		y = 1
+		completion_reward = {
+		add_timed_idea = {
+            idea = CRO_More_Pasta_Idea
+            days = 326
+           }
+		}
+	}
+
+    focus = {
+		id = CRO_Militarize_Italian_Communities
+		icon = GFX_Military_Attache
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_More_Pasta
+		}
+		completion_reward = {
+		add_stability = 0.03
+		add_political_power = 25
+		}
+		x = 6
+		y = 2
+
+	}
+	
+	focus = {
+		id = CRO_Exclusionary_Education
+		icon = GFX_focus_generic_military_academy
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Militarize_Italian_Communities
+		}
+		completion_reward = {
+		add_stability = -0.05
+		add_political_power = 25
+		}
+		x = 5
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_Italianize_Surnames
+		icon = GFX_goal_tax_slave
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Militarize_Italian_Communities
+		}
+		completion_reward = {
+		add_stability = -0.05
+		add_political_power = 25
+		}
+		x = 7
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_Ban_Slavic
+		icon = GFX_Crush_Resistance
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Italianize_Surnames
+		}
+		prerequisite = {
+			focus = CRO_Exclusionary_Education
+		}
+		completion_reward = {
+		random_list = {
+					70 = { country_event = { days = 30 id = illyria.18 } }
+					30 = { country_event = { days = 30 id = illyria.19 } }
+				}
+		}
+		x = 6
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Militarist_Propaganda
+		icon = GFX_goal_propaganda_axis
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Ban_Slavic
+		}
+		completion_reward = {
+		      if = {
+        limit = { has_idea = CRO_native_conscription_crisis }
+         swap_ideas = {
+          remove_idea = CRO_native_conscription_crisis
+          add_idea = CRO_native_conscription_low
+         }
+         else = { 
+          swap_ideas = {
+          remove_idea = CRO_native_conscription_low
+          add_idea = CRO_native_conscription_poor
+            }
+          }
+        }
+      }
+		x = 5
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Push_the_Poor
+		icon = GFX_Agarian_Soldiers
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Ban_Slavic
+		}
+		completion_reward = {
+		      if = {
+        limit = { has_idea = CRO_native_conscription_crisis }
+         swap_ideas = {
+          remove_idea = CRO_native_conscription_crisis
+          add_idea = CRO_native_conscription_low
+         }
+         else = { 
+          swap_ideas = {
+          remove_idea = CRO_native_conscription_low
+          add_idea = CRO_native_conscription_poor
+            }
+          }
+        }
+      }
+		x = 7
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Incentivize_Volunteering_Further
+		icon = GFX_goal_admin_bribe
+		cost = 10.00
+		mutually_exclusive = {
+		    focus = CRO_Force_Conscription
+		}
+		prerequisite = {
+			focus = CRO_Militarist_Propaganda
+		}
+		prerequisite = {
+			focus = CRO_Push_the_Poor
+		}
+		completion_reward = {
+		add_ideas = CRO_incentivizing_volunteers
+		}
+		x = 5
+		y = 6
+
+	}
+	
+	focus = {
+		id = CRO_Force_Conscription
+		icon = GFX_Focus_Conscription_Act
+		cost = 10.00
+		mutually_exclusive = {
+		    focus = CRO_Incentivize_Volunteering_Further
+		}
+		prerequisite = {
+			focus = CRO_Militarist_Propaganda
+		}
+		prerequisite = {
+			focus = CRO_Push_the_Poor
+		}
+		completion_reward = {
+		add_ideas = extensive_conscription
+		}
+		x = 7
+		y = 6
+
+	}
+	
+	focus = {
+		id = CRO_Control_the_Masses
+		icon = GFX_Italian_Soldiers
+		cost = 2.00
+		completion_reward = {
+		add_political_power = 25
+		}
+		x = 2
+		y = 1
+
+	}
+	
+	focus = {
+		id = CRO_Take_Over_Press
+		icon = GFX_Nationalize_the_Press
+		cost = 5.00
+		prerequisite = {
+			focus = CRO_Control_the_Masses
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_stability = 0.03
+		}
+		x = 2
+		y = 2
+
+	}
+	
+	focus = {
+		id = CRO_Control_Agitators
+		icon = GFX_National_Security_Act
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Take_Over_Press
+		}
+		completion_reward = {
+		add_political_power = -15
+		add_stability = 0.03
+		}
+		x = 1
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_AntiCommunist_Rhetoric
+		icon = GFX_goal_UK_ban_unions
+		cost = 7.00
+		prerequisite = {
+			focus = CRO_Take_Over_Press
+		}
+		completion_reward = {
+		add_political_power = -15
+		add_popularity = {
+				ideology = bolshevist
+				popularity = -0.01
+			}
+		add_popularity = {
+				ideology = spartacist
+				popularity = -0.03
+			}
+		}
+		x = 3
+		y = 3
+
+	}
+	
+	focus = {
+		id = CRO_Slander_Liberals
+		icon = GFX_Stolen_Papers
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_AntiCommunist_Rhetoric
+		}
+		prerequisite = {
+			focus = CRO_Control_Agitators
+		}
+		completion_reward = {
+		add_popularity = {
+				ideology = social_liberal
+				popularity = -0.03
+		    }
+		add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.03
+		    }
+		}
+		x = 2
+		y = 4
+
+	}
+	
+	focus = {
+		id = CRO_Arrest_Radicals
+		icon = GFX_Stomp_out_the_Weak
+		cost = 8.00
+		prerequisite = {
+			focus = CRO_Slander_Liberals
+		}
+		completion_reward = {
+		add_stability = 0.03
+		add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.03
+		    }
+		}
+		x = 2
+		y = 5
+
+	}
+	
+	focus = {
+		id = CRO_Propagate_Italian_Goodwill
+		icon = GFX_goal_balkan_fist
+		cost = 10.00
+		prerequisite = {
+			focus = CRO_Arrest_Radicals
+		}
+		completion_reward = {
+		add_political_power = 50
+		add_stability = 0.03
+		add_popularity = {
+				ideology = right_wing_populist
+				popularity = 0.03
+		    }
+		set_country_flag = CRO_Ready_to_Italianize
+		custom_effect_tooltip = CRO_Ready_to_Italianize_Tooltip
+		}
+		x = 2
+		y = 6
+
+	}
+	
+	focus = {
+		id = CRO_Appease_Croat_Nationalists
+		icon = GFX_focus_YUG_banovina_of_croatia
+		cost = 10.00
+		mutually_exclusive = {
+		   focus = CRO_Westernized_Yugoslav_Identity
+		}
+		prerequisite = {
+			focus = CRO_Propagate_Italian_Goodwill
+		}
+		completion_reward = {
+		add_stability = 0.03
+		set_cosmetic_tag = CRO_at
+		}
+		x = 1
+		y = 7
+
+	}
+	
+	focus = {
+		id = CRO_Westernized_Yugoslav_Identity
+		icon = GFX_goal_SER_form_yugoslavia
+		cost = 10.00
+		mutually_exclusive = {
+		   focus = CRO_Appease_Croat_Nationalists
+		}
+		prerequisite = {
+			focus = CRO_Propagate_Italian_Goodwill
+		}
+		completion_reward = {
+		add_stability = 0.03
+		set_cosmetic_tag = CRO_westyug
+		}
+		x = 3
+		y = 7
+
+	}
+}
+
+#custom_effect_tooltip = CRO_Italianize_Names
+		hidden_effect = {
+		    1010 = {
+				set_state_name = "Stiria"
+			}
+			102 = {
+				set_state_name = "Lubiana"
+			}
+			109 = {
+				set_state_name = "Zagabria"
+			}
+			1202 = {
+				set_state_name = "Carlovizza"
+			}
+			103 = {
+				set_state_name = "Lika-Segna"
+			}
+			794 = {
+				set_state_name = "Sirmia"
+			}
+			104 = {
+				set_state_name = "Craina"
+			}
+			1210 = {
+				set_state_name = "Trecampi"
+			}
+			1207 = {
+				set_state_name = "Erzegovina"
+			}
+			1009 = {
+				set_state_name = "Saraievo"
+			}
+			1208 = {
+				set_state_name = "Trebigne"
+			}
+			163 = {
+				set_state_name = "Ragusa"
+			}
+			1175 = {
+				set_state_name = "Cattaro"
+			}
+			set_province_name = {
+				id = 6650
+				name = "Lubiana"
+			}
+			set_province_name = {
+				id = 3592
+				name = "Carlovizza"
+			}
+			set_province_name = {
+				id = 11581
+				name = "Zagabria"
+			}
+			set_province_name = {
+				id = 9611
+				name = "Varasdino"
+			}
+			set_province_name = {
+				id = 6983
+				name = "Bagnaluca"
+			}
+			set_province_name = {
+				id = 11899
+				name = "Saraievo"
+			}
+			set_province_name = {
+				id = 6889
+				name = "Ragusa"
+			}
+			set_province_name = {
+				id = 14553
+				name = "Cattaro"
+			}
+			
+	focus = {
+		id = CRO_Kresimir_Victorious
+		icon = GFX_Italian_Military_Officers
+		cost = 2.00
+		available = { always = no }
+		x = 10
+		y = 10
+
+	}
+	
+	focus = {
+		id = CRO_The_Fate_of_Radic
+		icon = GFX_focus_AST_squander_bug
+		cost = 2.00
+		prerequisite = {
+			focus = CRO_Kresimir_Victorious
+		}
+		x = 10
+		y = 10
+
+	}

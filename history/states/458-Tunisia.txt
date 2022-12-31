@@ -1,0 +1,38 @@
+
+state={
+	id=458
+	name="STATE_458"
+	resources={
+		iron=20.000
+	}
+
+	history={
+		owner = TUN
+		add_core_of = TUN
+		victory_points = {
+			14210 10 
+		}
+		victory_points = {
+			14250 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 3
+			14250 = {
+				naval_base = 8
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		14210 14243 14244 14246 14248 14250 
+	}
+	manpower=1087400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

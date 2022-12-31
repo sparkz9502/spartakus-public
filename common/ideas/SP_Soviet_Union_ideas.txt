@@ -1,0 +1,28 @@
+### Soviet Union ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		SOV_NEP = {
+			modifier = {
+				consumer_goods_factor = 0.1
+				min_export = 0.1
+			}
+			picture = GFX_idea_generic_goods_red_bonus
+		}
+			
+		SOV_Autonomous_Republics = {
+			modifier = {
+				stability_factor = 0.05
+				conscription_factor = 0.05
+			}
+			picture = WIP
+		}
+		
+		SOV_Famine_Risk = {
+			picture = raj_risk_of_famine
+		}
+	}
+}

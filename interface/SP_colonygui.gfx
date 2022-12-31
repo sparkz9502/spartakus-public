@@ -1,0 +1,63 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_colonygui_bg"
+		texturefile = "gfx/interface/colonygui/colonygui_bg.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_1"
+		texturefile = "gfx/interface/colonygui/colony_frenchalgeria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_2"
+		texturefile = "gfx/interface/colonygui/colony_frenchalgeria.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_3"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_4"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_5"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_6"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_7"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_8"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_9"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_10"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_colony_11"
+		texturefile = "gfx/interface/colonygui/colony_french.tga"
+	}
+
+}

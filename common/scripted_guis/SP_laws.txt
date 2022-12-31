@@ -1,0 +1,363 @@
+scripted_gui = {
+
+	laws_open = {
+		context_type = player_context
+		window_name = "laws_open"
+		parent_window_token = politics_tab
+		
+		visible = {
+			is_ai = no
+		}
+		
+		effects = {
+			open_laws_button_click = {
+				set_country_flag = laws_open
+			}
+		}
+	}
+
+	laws_menu = {
+		context_type = player_context
+		window_name = "laws_menu"
+		visible = { 
+			is_ai = no
+			has_country_flag = laws_open
+		}
+		parent_window_token = politics_tab
+		
+		effects = {
+			close_laws_button_click = {
+				clr_country_flag = laws_open
+			}
+			mobilization_increase_button_click = {
+				add_political_power = -200
+				increase_mobilization = yes
+			}
+			mobilization_decrease_button_click = {
+				add_political_power = -50
+				decrease_mobilization = yes
+			}
+			recruitment_increase_button_click = {
+				add_political_power = -150
+				increase_conscription = yes
+			}
+			recruitment_decrease_button_click = {
+				add_political_power = -50
+				decrease_conscription = yes
+			}
+		}
+		
+		triggers = {
+			recruitment_increase_button_click_enabled = {
+				NOT = {
+					has_country_flag = SP_no_conscription_flag
+				}
+				if = {
+					limit = {
+						has_idea = recruitment_disarmed
+					}
+					always = no
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_colonial
+					}
+					always = no
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_volunteer
+					}
+					has_political_power > 150
+					OR = {
+						has_war = yes
+						has_war_support > 0.25
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_1825
+					}
+					has_political_power > 150
+					OR = {
+						has_war = yes
+						has_war_support > 0.4
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_1830
+					}
+					has_political_power > 150
+					AND = {
+						has_war = yes
+						has_war_support > 0.5
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_1835
+					}
+					has_political_power > 150
+					AND = {
+						has_war = yes
+						has_war_support > 0.65
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_1840
+					}
+					has_political_power > 150
+					AND = {
+						has_war = yes
+						has_war_support > 0.75
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_1850
+					}
+					has_political_power > 150
+					AND = {
+						has_war = yes
+						has_war_support > 0.9
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = recruitment_1660
+					}
+					always = no
+				}
+				else = {
+					always = no
+				}
+            }
+			recruitment_decrease_button_click_enabled = {
+				NOT = {
+					has_country_flag = SP_no_conscription_flag
+				}
+				has_political_power > 50
+				NOT = {
+					OR = {
+						has_idea = recruitment_disarmed
+						has_idea = recruitment_colonial
+						has_idea = recruitment_volunteer
+					}
+				}
+            }
+			
+			mobilization_green_1_visible = {
+				OR = {
+					has_idea = mobilization_1
+					has_idea = mobilization_2
+					has_idea = mobilization_3
+					has_idea = mobilization_4
+					has_idea = mobilization_5
+					has_idea = mobilization_6
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_2_visible = {
+				OR = {
+					has_idea = mobilization_2
+					has_idea = mobilization_3
+					has_idea = mobilization_4
+					has_idea = mobilization_5
+					has_idea = mobilization_6
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_3_visible = {
+				OR = {
+					has_idea = mobilization_3
+					has_idea = mobilization_4
+					has_idea = mobilization_5
+					has_idea = mobilization_6
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_4_visible = {
+				OR = {
+					has_idea = mobilization_4
+					has_idea = mobilization_5
+					has_idea = mobilization_6
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_5_visible = {
+				OR = {
+					has_idea = mobilization_5
+					has_idea = mobilization_6
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_6_visible = {
+				OR = {
+					has_idea = mobilization_6
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_7_visible = {
+				OR = {
+					has_idea = mobilization_7
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_8_visible = {
+				OR = {
+					has_idea = mobilization_8
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_9_visible = {
+				OR = {
+					has_idea = mobilization_9
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_green_10_visible = {
+				OR = {
+					has_idea = mobilization_10
+				}
+			}
+			mobilization_increase_button_click_enabled = {
+				NOT = {
+					has_country_flag = SP_no_mobilization_flag
+				}
+				if = {
+					limit = {
+						has_idea = mobilization_1
+					}
+					has_political_power > 200
+					OR = {
+						has_war = yes
+						has_war_support > 0.1
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_2
+					}
+					has_political_power > 200
+					OR = {
+						has_war = yes
+						has_war_support > 0.2
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_3
+					}
+					has_political_power > 200
+					OR = {
+						has_war = yes
+						has_war_support > 0.3
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_4
+					}
+					has_political_power > 200
+					OR = {
+						has_war = yes
+						has_war_support > 0.4
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_5
+					}
+					has_political_power > 200
+					OR = {
+						has_war = yes
+						has_war_support > 0.5
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_6
+					}
+					has_political_power > 200
+					AND = {
+						has_war = yes
+						has_war_support > 0.6
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_7
+					}
+					has_political_power > 200
+					AND = {
+						has_war = yes
+						has_war_support > 0.7
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_8
+					}
+					has_political_power > 200
+					AND = {
+						has_war = yes
+						has_war_support > 0.8
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_9
+					}
+					has_political_power > 200
+					AND = {
+						has_war = yes
+						has_war_support > 0.9
+					}
+				}
+				else_if = {
+					limit = {
+						has_idea = mobilization_10
+					}
+					always = no
+				}
+				else = {
+					always = no
+				}
+            }
+			mobilization_decrease_button_click_enabled = {
+				NOT = {
+					has_country_flag = SP_no_mobilization_flag
+				}
+				has_political_power > 50
+				NOT = {
+					has_idea = mobilization_1
+				}
+            }
+		}
+	}
+	
+}
+

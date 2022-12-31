@@ -1,0 +1,27 @@
+
+state={
+	id=1231
+	name="STATE_1231"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			10005 3 
+		}
+		victory_points = {
+			10073 4 
+		}
+
+	}
+
+	provinces={
+		7011 7091 10005 10073 11964 
+	}
+	manpower=6109300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

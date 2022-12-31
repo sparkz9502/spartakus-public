@@ -1,0 +1,29 @@
+
+state={
+	id=1028
+	name="STATE_1028"
+
+	history={
+		owner = PRM
+		victory_points = {
+			724 2
+		}
+		victory_points = {
+			3892 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = PRM
+		add_core_of = POR
+
+	}
+
+	provinces={
+		724 877 889 3892 6921 6941 
+	}
+	manpower=427100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

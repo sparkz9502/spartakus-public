@@ -1,0 +1,23 @@
+
+state={
+	id=1404
+	name="STATE_1404"
+
+	history={
+		owner = ZHO
+		add_core_of = ZHO
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1838 4704 4843 10839 12598 12671 14961 14968 15127 
+	}
+	manpower=113400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

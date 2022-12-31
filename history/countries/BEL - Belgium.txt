@@ -1,0 +1,98 @@
+﻿capital = 6
+set_oob = "BEL"
+set_research_slots = 3
+set_convoys = 80
+set_stability = 0.5
+set_war_support = 0.3
+
+add_ideas = {
+	### Laws ###
+	recruitment_1830
+	governance_par
+	trade_pro
+	economy_ind
+	mobilization_2
+}
+
+### Country Leaders ###
+recruit_character = BEL_albert_i
+recruit_character = BEL_henri_de_man
+recruit_character = BEL_jacques_grippa
+recruit_character = BEL_julien_lahaut
+
+### Field Marshals ###
+
+### Generals ###
+recruit_character = BEL_mcl_keyaerts
+
+### Admirals ###
+recruit_character = BEL_georges_timmermans
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1		
+	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_signal_company = 1
+	motorised_infantry = 1
+	gw_artillery = 1
+	
+	### Air ###
+	early_fighter = 1
+}
+### Tanks - NSB ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+### Tanks - no NSB ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = social_conservative
+	last_election = "1929.5.26"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 4
+    revolutionary_socialist = 1
+    reformist_socialist = 30
+    social_democrat = 6
+    social_liberal = 4
+    liberal_conservative = 13
+    social_conservative = 35
+    authoritarian_conservative = 0
+    right_wing_populist = 6
+    national_syndicalist = 1
+    national_corporatist = 0
+}
+
+### Diplomacy ###
+
+set_autonomy = {
+	target = CNR
+	autonomous_state = sp_colony
+}

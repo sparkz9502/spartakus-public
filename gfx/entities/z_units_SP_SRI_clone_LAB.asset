@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "SRI_infantry_entity"
+		name = "LAB_infantry_entity"
+	}
+	
+	entity = {
+		clone = "SRI_infantry_2_entity"
+		name = "LAB_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "SRI_infantry_3_entity"
+		name = "LAB_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "SRI_infantry_rider_entity"
+		name = "LAB_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "SRI_infantry_mg_rider_entity"
+		name = "LAB_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "SRI_cavalry_entity"
+		name = "LAB_cavalry_entity"
+	}
+
+	entity = {
+		clone = "SRI_cavalry_2_entity"
+		name = "LAB_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "SRI_cavalry_rifle_combined_entity"
+		name = "LAB_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "SRI_cavalry_mg_combined_entity"
+		name = "LAB_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "SRI_motorized_entity"
+		name = "LAB_motorized_entity"
+	}
+	
+	entity = {
+		clone = "SRI_mechanized_entity"
+		name = "LAB_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "SRI_artillery_entity"
+		name = "LAB_artillery_entity"
+	}
+	
+	
+	

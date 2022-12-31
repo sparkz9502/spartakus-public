@@ -1,0 +1,30 @@
+
+state={
+	id=1507
+	name="STATE_1507"
+	
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			782 4 
+		}
+		victory_points = {
+			9924 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			782 = {
+				naval_base = 2
+			}
+		}
+	}
+	
+	provinces={
+		782 9924 13561 
+	}
+	manpower=705300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

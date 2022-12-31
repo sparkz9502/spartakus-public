@@ -1,0 +1,122 @@
+﻿add_namespace = Basmachi_raiding
+
+country_event = { # Attacker won border war
+	id = Basmachi_raiding.1
+	title = Basmachi_raiding.1.t
+	desc = Basmachi_raiding.1.desc
+	picture = GFX_Basmachi_cavalry_poster
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Basmachi_raiding.1.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 100
+			producer = FROM
+		}
+		add_political_power = 50
+		add_war_support = 0.05
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Attacker lost border war
+	id = Basmachi_raiding.2
+	title = Basmachi_raiding.2.t
+	desc = Basmachi_raiding.2.desc
+	picture = GFX_Basmachi_cavalry_poster
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Basmachi_raiding.2.a
+		add_political_power = -25
+		add_war_support = -0.05
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Attacker cancelled border war
+	id = Basmachi_raiding.3
+	title = Basmachi_raiding.3.t
+	desc = Basmachi_raiding.3.desc
+	picture = GFX_Basmachi_cavalry_poster
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Basmachi_raiding.3.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = 25
+			producer = FROM
+		}
+		add_political_power = 10
+		add_war_support = 0.01
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Defender won border war
+	id = Basmachi_raiding.4
+	title = Basmachi_raiding.4.t
+	desc = Basmachi_raiding.4.desc
+	picture = GFX_Basmachi_cavalry_poster
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Basmachi_raiding.4.a
+		add_political_power = 15
+		add_stability = 0.01
+		add_war_support = 0.01
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Defender lost border war
+	id = Basmachi_raiding.5
+	title = Basmachi_raiding.5.t
+	desc = Basmachi_raiding.5.desc
+	picture = GFX_Basmachi_cavalry_poster
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Basmachi_raiding.5.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -100
+		}
+		add_political_power = -15
+		add_stability = -0.01
+		
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = { # Defender cancelled border war
+	id = Basmachi_raiding.6
+	title = Basmachi_raiding.6.t
+	desc = Basmachi_raiding.6.desc
+	picture = GFX_Basmachi_cavalry_poster
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = Basmachi_raiding.6.a
+		add_equipment_to_stockpile = {
+			type = infantry_equipment
+			amount = -25
+			producer = FROM
+		}
+		add_political_power = -5
+		
+		ai_chance = { factor = 100 }
+	}
+}

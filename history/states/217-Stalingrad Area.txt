@@ -1,0 +1,26 @@
+
+state={
+	id=217
+	name="STATE_217"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3529 10
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		498 520 3487 3489 3503 3505 3517 3529 3555 6503 6516 6527 6541 6575 9459 9474 9504 9530 11447 11474 11484 
+	}
+	manpower=1059000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

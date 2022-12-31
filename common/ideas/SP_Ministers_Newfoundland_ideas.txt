@@ -1,0 +1,77 @@
+ideas = {
+################################################################################################################################################################################################
+### NEW
+################################################################################################################################################################################################
+
+head_of_government = {
+	NEW_Richard_Squires_hog_lco = {
+		allowed = {original_tag = NEW}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = {
+	NEW_William_Halfyard_for_sde = {
+		allowed = {original_tag = NEW}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = {
+	NEW_Peter_Cashin_eco_lco = {
+		allowed = {original_tag = NEW}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = {
+	NEW_Arthur_Barnes_sec_lco = {
+		allowed = {original_tag = NEW}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_health_and_safety
+		}
+		cancel_if_invalid = no
+	}
+}
+}

@@ -1,0 +1,95 @@
+defined_text = {
+	name = GetHRSSSeats
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_HRSS_SEATS_NUMBER
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = HRSS_majority
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_HRSS_SEATS_NUMBER
+				value = 49
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = HRSS_minority
+	}
+}
+
+defined_text = {
+	name = GetHSPSeats
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_HSP_SEATS_NUMBER
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = HSP_majority
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_HSP_SEATS_NUMBER
+				value = 49
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = HSP_minority
+	}
+}
+
+defined_text = {
+	name = GetHRPSeats
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_HRP_SEATS_NUMBER
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = HRP_majority
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_HRP_SEATS_NUMBER
+				value = 49
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = HRP_minority
+	}
+}
+
+defined_text = {
+	name = GetKPJSeats
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_KPJ_SEATS_NUMBER
+				value = 50
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = KPJ_majority
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = STJ_KPJ_SEATS_NUMBER
+				value = 49
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = KPJ_minority
+	}
+}

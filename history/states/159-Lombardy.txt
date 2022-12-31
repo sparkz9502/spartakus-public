@@ -1,0 +1,34 @@
+
+state={
+	id=159
+	name="STATE_159"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			3780 25 
+		}
+		victory_points = {
+			607 1 
+		}
+		victory_points = {
+			9165 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 2
+
+		}
+
+	}
+
+	provinces={
+		607 3780 9165 9584 11726 15181 
+	}
+	manpower=3743700
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

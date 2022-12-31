@@ -1,0 +1,32 @@
+
+state={
+	id=1238
+	name="STATE_1238"
+
+	history={
+		owner = PER
+		buildings = {
+			infrastructure = 1
+			10385 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = PER
+		victory_points = {
+			10385 3 
+		}
+		victory_points = {
+			15123 1 
+		}
+
+	}
+
+	provinces={
+		10385 14986 15123 
+	}
+	manpower=234300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

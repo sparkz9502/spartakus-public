@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+NIC_bolshevist_party:0 "Leninistas"
+NIC_bolshevist_party_long:0 "Leninistas"
+NIC_spartacist_party:0 "Marxistas"
+NIC_spartacist_party_long:0 "Marxistas"
+NIC_revolutionary_socialist_party:0 "Sandinistas"
+NIC_revolutionary_socialist_party_long:0 "Sandinistas"
+NIC_reformist_socialist_party:0 "PS"
+NIC_reformist_socialist_party_long:0 "Partido Socialista"
+NIC_social_democrat_party:0 "PSD"
+NIC_social_democrat_party_long:0 "Partido Socialdemócrata"
+NIC_social_liberal_party:0 "PD"
+NIC_social_liberal_party_long:0 "Partido Democrático"
+NIC_liberal_conservative_party:0 "PRL"
+NIC_liberal_conservative_party_long:0 "Partido Republicano Liberal"
+NIC_social_conservative_party:0 "PC"
+NIC_social_conservative_party_long:0 "Partido Conservador"
+NIC_authoritarian_conservative_party:0 "Militar"
+NIC_authoritarian_conservative_party_long:0 "Militar"
+NIC_right_wing_populist_party:0 "PRC"
+NIC_right_wing_populist_party_long:0 "Partido Republicano Conservador"
+NIC_national_syndicalist_party:0 "SNN"
+NIC_national_syndicalist_party_long:0 "Sindicato Nacional de Nicaragua"
+NIC_national_corporatist_party:0 "PN"
+NIC_national_corporatist_party_long:0 "Partido Nacionalista"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

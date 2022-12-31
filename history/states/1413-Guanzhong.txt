@@ -1,0 +1,27 @@
+
+state={
+	id=1413
+	name="STATE_1413"
+
+	history={
+		owner = KMC
+		add_core_of = KMC
+		victory_points = {
+			7301 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		2006 5007 7301 10733 12156 
+	}
+	manpower=6449700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

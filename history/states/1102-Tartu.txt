@@ -1,0 +1,35 @@
+
+state={
+	id=1102
+	name="STATE_1102"
+
+	history={
+		owner = LIV
+		victory_points = {
+			9221 3 
+		}
+		victory_points = {
+			14905 1 
+		}
+		victory_points = {
+			592 1 
+		}
+		victory_points = {
+			415 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+		}
+		add_core_of = EST
+		add_core_of = LIV
+
+	}
+
+	provinces={
+		415 592 6099 9221 9485 13127 14905 
+	}
+	manpower=380030
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

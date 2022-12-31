@@ -1,0 +1,25 @@
+
+state={
+	id=884
+	name="STATE_884"
+
+	history={
+		owner = FNG
+		add_core_of = FNG
+		victory_points = {
+			1588 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1502 1588 1645 1847 4506 4592 4809 4876 7582 7873 7894 12485 12618 13150 13663 13668 13670 13673 13674 13677 15632 
+	}
+	manpower=2569800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

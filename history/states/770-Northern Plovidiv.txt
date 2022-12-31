@@ -1,0 +1,28 @@
+
+state={
+	id=770
+	name="STATE_770"
+	manpower = 996700
+	
+	state_category = town
+
+	history={
+		owner = BUL
+		
+		buildings = {
+			infrastructure = 2
+			industrial_complex =1
+		}
+		add_core_of = BUL
+		victory_points = {
+			3796 3
+		}
+		victory_points = {
+			6842 2
+		}
+	}
+
+	provinces={
+	6842 3819 3952 9610 3796
+	}
+}

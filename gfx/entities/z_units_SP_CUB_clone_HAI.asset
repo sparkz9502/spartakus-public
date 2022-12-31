@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "CUB_infantry_entity"
+		name = "HAI_infantry_entity"
+	}
+	
+	entity = {
+		clone = "CUB_infantry_2_entity"
+		name = "HAI_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "CUB_infantry_3_entity"
+		name = "HAI_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "CUB_infantry_rider_entity"
+		name = "HAI_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "CUB_infantry_mg_rider_entity"
+		name = "HAI_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "CUB_cavalry_entity"
+		name = "HAI_cavalry_entity"
+	}
+
+	entity = {
+		clone = "CUB_cavalry_2_entity"
+		name = "HAI_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "CUB_cavalry_rifle_combined_entity"
+		name = "HAI_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "CUB_cavalry_mg_combined_entity"
+		name = "HAI_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "CUB_motorized_entity"
+		name = "HAI_motorized_entity"
+	}
+	
+	entity = {
+		clone = "CUB_mechanized_entity"
+		name = "HAI_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "CUB_artillery_entity"
+		name = "HAI_artillery_entity"
+	}
+	
+	
+	

@@ -1,0 +1,25 @@
+
+state={
+	id=918
+	name="STATE_918"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_core_of = UGA
+		victory_points = {
+			13878 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+	}
+
+	provinces={
+		2308 3854 4962 7088 12989 13878 13882 
+	}
+	manpower=1581400
+	buildings_max_level_factor=1.000
+	state_category = rural
+}

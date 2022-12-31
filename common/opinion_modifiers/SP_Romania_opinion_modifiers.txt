@@ -1,0 +1,22 @@
+opinion_modifiers = {
+	
+	ROM_returned_nothing = { value = -30 }
+	ROM_returned_territory = { value = 40 }
+	ROM_returned_transylvania = { value = 100 }
+	ROM_good_oradea = { value = 25 }
+	ROM_bad_oradea = { value = -25 }
+	ROM_demobilized = { value = 20 }
+	ROM_claimed_odessa = { value = -50 }
+	ROM_diplomacy_positive = { value = 30 }
+	ROM_diplomacy_negative = { value = -30 }
+	ROM_integrating_carpathia_1 = { value = -50 }
+	ROM_integrating_carpathia_2 = { value = -20 }
+	ROM_integrating_alfold_1 = { value = -50 }
+	ROM_integrating_alfold_2 = { value = -20 }
+	ROM_no_deal = { value = -25 }
+	ROM_banat_negotiations = { value = 25 }
+	ROM_serb_alliance = { value = 100 }
+	ROM_serb_deal = { value = 50 }
+	ROM_refused_alliance = { value = -30 }
+	ROM_denied_territory = { value = -15 }
+}

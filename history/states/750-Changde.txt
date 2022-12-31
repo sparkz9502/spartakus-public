@@ -1,0 +1,31 @@
+
+state={
+	id=750
+	name="STATE_750"
+	resources={
+		rubber=5.000
+	}
+
+	history={
+		owner = INC
+		add_core_of = INC
+		add_core_of = CAM
+		victory_points = {
+			7376 4 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+
+		}
+
+	}
+
+	provinces={
+		4359 7319 7376 7404 7432 10289 10317 
+	}
+	manpower=1082800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

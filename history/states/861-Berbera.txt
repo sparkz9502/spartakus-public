@@ -1,0 +1,26 @@
+
+state={
+	id=861
+	name="STATE_861"
+
+	history={
+		owner = DEN
+		add_core_of = DEN
+		victory_points = {
+			6361 3
+		}
+		buildings = {
+			infrastructure = 2
+			6361 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		6361 
+	}
+	manpower=45800
+	buildings_max_level_factor=1.000
+	state_category=tiny_island
+}

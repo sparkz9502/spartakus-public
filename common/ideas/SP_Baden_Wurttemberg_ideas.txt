@@ -1,0 +1,44 @@
+### Baden-Wurttemberg Ideas ###
+
+ideas = {
+    country = {
+	
+		#Starting Ideas
+
+        WUR_Sore_Loser = {
+            picture = WIP
+            modifier = {
+				war_support_factor = 0.1
+                army_morale_factor = 0.05
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				conscription = 0.01
+            }
+        }
+
+		WUR_Guided_Foreign_Policy = {
+            picture = WIP
+            modifier = {
+				political_power_gain = -0.05
+				war_support_factor = -0.05
+				planning_speed = -0.1
+            }
+        }
+		
+		WUR_Memories_of_the_Blutmai = {
+            picture = WIP
+            modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.1
+            }
+        }
+
+        WUR_Light_Reparations = {
+            picture = WIP
+            modifier = {
+				political_power_gain = -0.1
+                consumer_goods_factor = 0.05
+            }
+        }
+    }
+}

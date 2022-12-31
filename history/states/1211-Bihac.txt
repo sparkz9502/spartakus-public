@@ -1,0 +1,34 @@
+
+state={
+	id=1211
+	name="STATE_1211"
+	provinces={
+		6614 9586 
+	}
+	history={
+		owner = CRO
+		victory_points = {
+			9586 5 
+		}
+		victory_points = {
+			6614 1
+		}
+		buildings = {
+			infrastructure = 1
+		}
+		# 1211 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 9586
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = BOS
+
+	}
+	manpower=133538
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

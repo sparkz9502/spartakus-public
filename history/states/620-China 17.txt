@@ -1,0 +1,33 @@
+state={
+	id=620
+	name="STATE_620"
+
+	history={
+		owner = CHI
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			15582 30 
+		}
+		victory_points = {
+			15631 15 
+		}
+		victory_points = {
+			15630 15 
+		}
+		
+
+	}
+
+	provinces={
+		15582 15630 15631 
+	}
+	manpower=4367600
+	buildings_max_level_factor=1.000
+	state_category=city
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=1459
+	name="STATE_1459"
+	provinces={
+		911 956 3928 3961 6975 13497 
+	}
+	resources={
+		bauxite=196
+	}
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			911 8
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			911 = {
+				naval_base = 7
+				coastal_bunker = 1
+
+			}
+		}
+
+	}
+	manpower=465000
+	state_category = town
+	buildings_max_level_factor=1.000
+}

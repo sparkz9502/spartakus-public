@@ -1,0 +1,182 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### ENG
+################################################################################################################################################################################################
+
+#Head of Government
+SpriteType = {
+	name = "GFX_idea_ENG_Winston_Churchill_hog_sco"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Winston_Churchill.tga"
+}
+
+#Security Minister
+SpriteType = {
+	name = "GFX_idea_ENG_Herbert_Samuel_sec_sli"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Herbert_Samuel.tga"
+}
+
+#Chief of Staff
+SpriteType = {
+	name = "GFX_idea_ENG_Alan_Brooke_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Alan_Brooke.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Archibald_Montgomery_Massingbird_cos"
+	texturefile ="gfx/interface/ministers/ENG/ENG_Archibald_Montgomery_Massingberd.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_John_Vereker_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_John_Vereker.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Cyril_Deverell_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Cyril_Deverell.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Bernard_Montgomery_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Bernard_Montgomery.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Edmund_Ironside_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Edmund_Ironside.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Claude_Auchinleck_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Claude_Auchinleck.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_JFC_Fuller_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_JFC_Fuller.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_John_Dill_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_John_Dill.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_William_Slim_cos"
+	texturefile = "gfx/interface/ministers/ENG/ENG_William_Slim.tga"
+}
+
+#Chief of Army
+SpriteType = {
+	name = "GFX_idea_ENG_Harold_Alexander_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Harold_Alexander.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Henry_Wilson_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Henry_Wilson.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Alan_Brooke_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Alan_Brooke.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Alan_Cunningham_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Alan_Cunningham.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Archibald_Montgomery_Massingbird_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Archibald_Montgomery_Massingberd.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Bernard_Montgomery_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Bernard_Montgomery.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Claude_Auchinleck_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Claude_Auchinleck.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Cyril_Deverell_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Cyril_Deverell.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Edmund_Ironside_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Edmund_Ironside.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_John_Dill_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_John_Dill.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_John_Vereker_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_John_Vereker.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Neil_Ritchie_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Neil_Ritchie.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_JFC_Fuller_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_JFC_Fuller.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_William_Slim_carm"
+	texturefile = "gfx/interface/ministers/ENG/ENG_William_Slim.tga"
+}
+
+#Chief of Air Force
+SpriteType = {
+	name = "GFX_idea_ENG_Arthur_Harris_cair"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Arthur_Harris.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Edward_Ellington_cair"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Edward_Ellington.tga"
+}
+
+#Chief of Navy
+SpriteType = {
+	name = "GFX_idea_ENG_Lord_Chatfield_cnav"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Lord_Chatfield.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Roger_Backhouse_cnav"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Roger_Backhouse.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Winston_Churchill_cnav"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Winston_Churchill.tga"
+}
+
+#Theorist
+SpriteType = {
+	name = "GFX_idea_ENG_Arthur_Harris_theo"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Arthur_Harris.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_JFC_Fuller_theo"
+	texturefile = "gfx/interface/ministers/ENG/ENG_JFC_Fuller.tga"
+}
+
+SpriteType = {
+	name = "GFX_idea_ENG_Bernard_Montgomery_theo"
+	texturefile = "gfx/interface/ministers/ENG/ENG_Bernard_Montgomery.tga"
+}
+}

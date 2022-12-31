@@ -1,0 +1,219 @@
+add_namespace = filipovic
+add_namespace = hungary_border_conflict
+
+### Filipovic Event Chain ###
+
+country_event = { 
+	id = filipovic.0
+	title = filipovic.0.t
+	desc = filipovic.0.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = filipovic.0.a
+		country_event = { id = filipovic.1 days = 7 }
+	}
+}
+
+country_event = { 
+	id = filipovic.1
+	title = filipovic.1.t
+	desc = filipovic.1.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = { #Illyria
+		name = filipovic.1.a
+		random_list = {
+            75 = { #Undetected
+                country_event = {
+                    id = filipovic.2 days = 1
+                }
+            }
+                
+            25 = { #Detected
+                country_event = {
+                    id = filipovic.3 days = 1
+                }
+            }
+        }
+	}
+	
+	option = { #Romania
+		name = filipovic.1.b
+		random_list = {
+            25 = { #Undetected
+                country_event = {
+                    id = filipovic.4 days = 1
+                }
+            }
+                
+            75 = { #Detected
+                country_event = {
+                    id = filipovic.5 days = 1
+                }
+            }
+        }
+	}
+}
+
+country_event = { #Undetected Illyria
+	id = filipovic.2
+	title = filipovic.2.t
+	desc = filipovic.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = filipovic.2.a
+		SER = {
+			country_event = { id = filipovic_returns.0 days = 1 }
+		}
+	}
+}
+
+country_event = { #Detected Illyria
+	id = filipovic.3
+	title = filipovic.3.t
+	desc = filipovic.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = filipovic.3.a
+		add_opinion_modifier = { target = ILY modifier = medium_decrease }
+		add_opinion_modifier = { target = ITA modifier = large_decrease }
+		SER = {
+			country_event = { id = filipovic_returns.0 days = 1 }
+		}
+	}
+}
+
+country_event = { #Undetected Romania
+	id = filipovic.4
+	title = filipovic.4.t
+	desc = filipovic.4.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = filipovic.4.a
+		SER = {
+			country_event = { id = filipovic_returns.0 days = 1 }
+		}
+	}
+}
+
+country_event = { #Detected Romania
+	id = filipovic.5
+	title = filipovic.5.t
+	desc = filipovic.5.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = filipovic.5.a
+		add_opinion_modifier = { target = ITA modifier = medium_decrease }
+		SER = {
+			country_event = { id = filipovic_returns.0 days = 1 }
+		}
+	}
+}
+
+
+### Romanian Border Conflict ###
+
+country_event = { #initial border incident against Romania
+	id = hungary_border_conflict.0
+	title = hungary_border_conflict.0.t
+	desc = hungary_border_conflict.0.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = hungary_border_conflict.0.a
+	}
+}
+
+country_event = { #hungary wins
+	id = hungary_border_conflict.1
+	title = hungary_border_conflict.1.t
+	desc = hungary_border_conflict.1.d
+	#picture =
+
+	is_triggered_only = yes
+
+	option = {
+		name = hungary_border_conflict.1.a
+		trigger = {
+			original_tag = HUN
+		}
+		army_experience = 30
+	}
+	option = {
+		name = hungary_border_conflict.1.b
+		trigger = {
+			original_tag = ROM
+		}
+		army_experience = 10
+	}
+}
+#hungary loses
+country_event = {
+	id = hungary_border_conflict.2
+	title = hungary_border_conflict.2.t
+	desc = hungary_border_conflict.2.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = hungary_border_conflict.2.a
+		trigger = {
+			original_tag = HUN
+		}
+		army_experience = 10
+	}
+	option = {
+		name = hungary_border_conflict.2.b
+		trigger = {
+			original_tag = SOV
+		}
+		army_experience = 30
+		}
+	}
+}
+
+
+country_event = { #stalemate
+	id = hungary_border_conflict.3
+	title = hungary_border_conflict.3.t
+	desc = hungary_border_conflict.3.d
+	#picture = 
+
+	is_triggered_only = yes
+
+	option = {
+		name = hungary_border_conflict.3.a
+		trigger = {
+			original_tag = HUN
+		}
+		army_experience = 50
+	}
+	option = {
+		name = hungary_border_conflict.3.b
+		trigger = {
+			original_tag = ROM
+		}
+		army_experience = 50
+	}
+}
+

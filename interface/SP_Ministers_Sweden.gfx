@@ -1,0 +1,488 @@
+spriteTypes = {	
+#####################################################################################################################################################################################
+### SWE
+#####################################################################################################################################################################################
+
+#Head of Government
+
+spriteType = {
+	name = "GFX_idea_SWE_Zeth_Hoglund_hog_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Zeth_Hoglund.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Nils_Flyg_hog_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Nils_Flyg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Sven_Linderot_hog_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Sven_Linderot.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Frans_Severin_hog_spa"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Frans_Severin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Karl_Kilbom_hog_rev"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Karl_Kilbom.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Karl_Kilbom_for_rev"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Karl_Kilbom.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Oesten_Unden_hog_rev"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Oesten_Unden.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_Albin_Hansson_hog_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_Albin_Hansson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Pehrsson_Bramstorp_hog_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Pehrsson_Bramstorp.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Bertil_Ohlin_hog_lco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Bertil_Ohlin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Goesta_Bagge_hog_sco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Goesta_Bagge.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Sven_Hedin_hog_aco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Sven_Hedin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Rappe_hog_rwp"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Rappe.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Helge_Jung_hog_rwp"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Helge_Jung.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Martin_Ekstroem_hog_nsy"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Martin_Ekstroem.tga"
+}
+
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_SWE_Hilding_Hagberg_for_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Hilding_Hagberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Albert_Jensen_for_spa"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Albert_Jensen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Fredrik_Stroem_for_rev"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Fredrik_Stroem.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Erik_Palmstierna_for_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Erik_Palmstierna.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Richard_Sandler_for_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Richard_Sandler.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Karl_Gustaf_Westman_for_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Karl_Gustaf_Westman.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Gustaf_Andersson_i_Rasjoen_for_lco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustaf_Andersson_i_Rasjoen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Christian_Guenther_for_sco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Christian_Guenther.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Harald_Malmberg_for_aco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Harald_Malmberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Carl_August_Ehrensvard_for_rwp"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Carl_August_Ehrensvard.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Erik_von_Rosen_for_nsy"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Erik_von_Rosen.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_SWE_Sven_Linderot_eco_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Sven_Linderot.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Gustav_Sjoestroem_eco_spa"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustav_Sjoestroem.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Anna_Johansson_Visborg_eco_rev"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Anna_Johansson_Visborg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_Edvin_Skold_eco_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_Edvin_Skold.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_Ernst_Wigforss_eco_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_Ernst_Wigforss.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Arthur_Heiding_eco_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Arthur_Heiding.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Ernst_Trygger_eco_lco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Ernst_Trygger.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Gustav_Cassel_eco_lco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustav_Cassel.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Arthur_Linden_eco_sco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Arthur_Linden.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Marcus_Wallenberg_eco_rwp"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Marcus_Wallenberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Fritiof_Domoe_eco_nsy"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Fritiof_Domoe.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_SWE_Gustav_Johansson_sec_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustav_Johansson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Karl_Kilbom_sec_spa"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Karl_Kilbom.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Ivar_Vennerstrom_def_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Ivar_Vennerstrom.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Anders_Lindstedt_sec_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Anders_Lindstedt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Arvid_G_Richert_sec_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Arvid_G_Richert.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Karl_Schlyter_sec_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Karl_Schlyter.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Richard_J_Sandler_sec_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Richard_J_Sandler.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_T_Aedelsvaerd_sec_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_T_Aedelsvaerd.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Gustav_Andersson_Rasjoen_sec_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustav_Andersson_Rasjoen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_KG_Westman_sec_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_KG_Westman.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Thorwald_Bergquist_sec_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Thorwald_Bergquist.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Peter_GA_Wijkman_sec_lco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Peter_GA_Wijkman.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Carlos_Adlercreutz_sec_aco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Carlos_Adlercreutz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Sven_Hedin_sec_rwp"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Sven_Hedin.tga"
+}
+
+
+#Intel Minister
+spriteType = {
+	name = "GFX_idea_SWE_Gustav_Johansson_def_bol"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustav_Johansson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Nisse_Latt_def_spa"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Nisse_Latt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_August_Spaangberg_def_rev"
+	texturefile = "gfx/interface/ministers/SWE/SWE_August_Spaangberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Gustaf_Moeller_def_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Gustaf_Moeller.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Harry_'Revolver_Harry'_Sodermann_def_sde"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Harry_'Revolver_Harry'_Sodermann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Janne_Nilsson_def_sli"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Janne_Nilsson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Thorwald_Bergquist_def_lco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Thorwald_Bergquist.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Georg_Andren_def_sco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Georg_Andren.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Carlos_Adlercreutz_def_aco"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Carlos_Adlercreutz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Archibald_Douglas_def_rwp"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Archibald_Douglas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_Engdahl_def_nsy"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_Engdahl.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_SWE_Ernst_af_Klercker_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Ernst_af_Klercker.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_Sylvan_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_Sylvan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Rappe_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Rappe.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Carl_August_Ehrensvaerd_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Carl_August_Ehrensvaerd.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Olof_Thoernell_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Olof_Thoernell.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Oscar_Nygren_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Oscar_Nygren.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Martin_Ekstroem_cos"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Martin_Ekstroem.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Pettersson_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Pettersson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Bengt_Nordenskioeld_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Bengt_Nordenskioeld.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Helge_Jung_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Helge_Jung.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Bredberg_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Bredberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Rappe_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Rappe.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Olof_Thoernell_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Olof_Thoernell.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Oscar_Nygren_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Oscar_Nygren.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_Sylvan_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_Sylvan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Archibald_Douglas_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Archibald_Douglas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Martin_Ekstroem_carm"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Martin_Ekstroem.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_SWE_Otto_Lybeck_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Otto_Lybeck.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Per_M_Eriksson_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Per_M_Eriksson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Erik_Palmstierna_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Erik_Palmstierna.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Helge_Stroembaeck_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Helge_Stroembaeck.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Goesta_Ehrensvaerd_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Goesta_Ehrensvaerd.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Fabian_Tamm_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Fabian_Tamm.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Charles_de_Champs_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Charles_de_Champs.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Charles_de_Champs_cnav"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Charles_de_Champs.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_SWE_Anton_Nilsson_cair"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Anton_Nilsson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Krister_Reuterswaerd_cair"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Krister_Reuterswaerd.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Ljungdahl_cair"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Ljungdahl.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Bengt_Nordenskioeld_cair"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Bengt_Nordenskioeld.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Torsten_Friis_cair"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Torsten_Friis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SWE_Axel_Gyllenkrok_cair"
+	texturefile = "gfx/interface/ministers/SWE/SWE_Axel_Gyllenkrok.tga"
+}
+}

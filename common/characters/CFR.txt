@@ -1,0 +1,16 @@
+characters={
+	CFR_military_administration={
+		name="Military Administration"
+		portraits={
+			civilian={
+				large="gfx/leaders/CFR/Portrait_Military_Administration.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CFR_MILITARY_ADMINISTRATION_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

@@ -1,0 +1,26 @@
+state={
+	id=1015
+	name="STATE_1015"
+	provinces={
+		4424 10313 13704 
+	}
+	resources={
+		rubber=192
+		coal=1
+	}
+	history={
+		owner = MLY
+		add_core_of = MLY
+		add_core_of = JOH
+		victory_points = {
+			13704 2
+		}
+		buildings = {
+			infrastructure = 2
+		}
+
+	}
+	manpower=528200
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

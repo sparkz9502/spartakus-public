@@ -1,0 +1,27 @@
+
+state={
+	id=1352
+	name="STATE_1352"
+	provinces={
+		744 3728 3741 6584 9716 11534 11672 
+	}
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			9716 10 
+		}
+		victory_points = {
+			3728 2 
+		}
+		add_core_of = ROM
+
+	}
+	manpower=1208400
+	state_category = town
+	buildings_max_level_factor=1.000
+}

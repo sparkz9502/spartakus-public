@@ -1,0 +1,55 @@
+characters={
+    FIN_pehr_evind_svinhufvud = {
+        name = "Pehr Evind Svinhufvud"
+        portraits={
+            civilian={
+                large = "gfx/leaders/FIN/Portrait_Pehr_Evind_Svinhufvud.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_PEHR_EVIND_SVINHUFVUD_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    FIN_erik_heinrichs = {
+        name = "Erik Heinrichs"
+        portraits={
+            army={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+            }
+        }
+        corps_commander={
+            traits = { winter_specialist ranger }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 3
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    FIN_vilho_petter_nenonen = {
+        name = "Vilho Petter Nenonen"
+        portraits={
+            army={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+            }
+        }
+        corps_commander={
+            traits = { winter_specialist commando }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 4
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+}

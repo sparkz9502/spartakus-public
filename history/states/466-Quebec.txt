@@ -1,0 +1,29 @@
+
+state={
+	id=466
+	name="STATE_466"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			air_base = 3
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			4345 20 
+		}
+
+	}
+
+	provinces={
+		1341 1764 3911 4345 7435 7875 10249 10700 11682 11902 12205 12276 
+	}
+	manpower=1402700
+	buildings_max_level_factor=1.000
+	state_category=city
+}

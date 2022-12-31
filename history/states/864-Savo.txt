@@ -1,0 +1,25 @@
+
+state={
+	id=864
+	name="STATE_864"
+	resources={
+	}
+
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = FIN
+
+	}
+
+	provinces={
+		37 136 165 3013 6033 6156 9056 9073 9163 11043 11138 13103 13104 13108 13109 13111 
+	}
+	manpower=208900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

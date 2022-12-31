@@ -1,0 +1,18 @@
+characters={
+    BAV_rupprecht_i = {
+        name = "Rupprecht I"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BAV/Portrait_Rupprecht.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_RUPPRECHT_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+}

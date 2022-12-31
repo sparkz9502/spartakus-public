@@ -1,0 +1,31 @@
+
+state={
+	id=765
+	name="STATE_765"
+	manpower = 733000
+	
+	resources={
+		raremetals=13
+	}
+
+	state_category = small_town
+
+	history={
+		owner = SER
+
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			9874 10
+		}
+
+		add_core_of = SER
+		add_core_of = KOS
+		add_claim_by = ALB
+	}
+
+	provinces = {
+		9849 6940 9874
+	}
+}

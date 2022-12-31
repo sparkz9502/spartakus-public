@@ -1,0 +1,130 @@
+####################################
+# Venice/Republican Italy Focus Tree
+# By sparkz
+####################################
+
+focus_tree = {
+	id = SP_Venice
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = VNZ
+		}
+	}
+	default = no
+	
+	focus = {
+		id = VNZ_The_Declaration_of_Autonomy
+		icon = GFX_VNZ_Break_Chains
+		cost = 1
+		completion_reward = {
+			#event or something
+		}
+		x = 5
+		y = 0
+	}
+	
+	focus = {
+		id = VNZ_Declare_a_Federal_Republic
+		icon = GFX_VNZ_Republic
+		prerequisite = { focus = VNZ_The_Declaration_of_Autonomy }
+		relative_position_id = VNZ_The_Declaration_of_Autonomy
+		cost = 1
+		completion_reward = {
+			VNZ = {
+				set_cosmetic_tag = VNZ_ITR
+			}
+			add_stability = 0.10
+			add_political_power = 50
+			custom_effect_tooltip = VNZ_cores_tt
+			hidden_effect = {
+				every_state = {
+					limit = { is_core_of = SRI }
+					add_core_of = VNZ
+				}
+				set_party_name = { 
+					ideology = reformist_socialist
+					long_name = VNZ_gl_long
+					name = VNZ_gl
+				}
+				set_party_name = { 
+					ideology = social_democrat
+					long_name = VNZ_gl_long
+					name = VNZ_gl
+				}
+				retire_country_leader = yes
+			}
+			add_country_leader_role = {
+				character = VNZ_carlo_rosselli
+				promote_leader = yes
+				country_leader = {
+					desc = "POLITICS_CARLO_ROSSELLI_DESC"
+					ideology = reformist_socialist_subtype
+					expire = "1965.1.1"
+					id=-1
+				}
+			}
+		}
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = VNZ_The_Ravenna_Uprising
+		icon = GFX_VNZ_Romagna
+		prerequisite = { focus = VNZ_Declare_a_Federal_Republic }
+		relative_position_id = VNZ_The_Declaration_of_Autonomy
+		cost = 1
+		completion_reward = {
+			custom_effect_tooltip = VNZ_ravenna_uprising_tt
+			ITA_icw_venice_ravenna_scripted_effect = yes
+		}
+		x = -2
+		y = 2
+	}
+	
+	focus = {
+		id = VNZ_The_Ancona_Uprising
+		icon = GFX_VNZ_Ancona
+		prerequisite = { focus = VNZ_Declare_a_Federal_Republic }
+		relative_position_id = VNZ_The_Declaration_of_Autonomy
+		cost = 1
+		completion_reward = {
+			custom_effect_tooltip = VNZ_ancona_uprising_tt
+			ITA_icw_venice_ancona_scripted_effect = yes
+		}
+		x = 0
+		y = 2
+	}
+	
+	focus = {
+		id = VNZ_The_Trapani_Uprising
+		icon = GFX_VNZ_Trapani
+		prerequisite = { focus = VNZ_Declare_a_Federal_Republic }
+		relative_position_id = VNZ_The_Declaration_of_Autonomy
+		cost = 1
+		completion_reward = {
+			custom_effect_tooltip = VNZ_trapani_uprising_tt
+			ITA_icw_venice_trapani_scripted_effect = yes
+		}
+		x = 2
+		y = 2
+	}
+	
+	focus = {
+		id = VNZ_The_Struggle_for_Democracy
+		icon = GFX_focus_wip
+		prerequisite = { focus = VNZ_The_Ravenna_Uprising }
+		prerequisite = { focus = VNZ_The_Ancona_Uprising }
+		prerequisite = { focus = VNZ_The_Trapani_Uprising }
+		relative_position_id = VNZ_The_Declaration_of_Autonomy
+		cost = 1
+		completion_reward = {
+			add_manpower = 10000
+			add_war_support = 0.10
+		}
+		x = 0
+		y = 3
+	}
+}

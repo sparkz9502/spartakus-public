@@ -1,0 +1,58 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Régiment Mixte de Madagascar"
+	division_names_group = FRA_COL_04
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = { #"1ère Rég. Mixte de Madagascar"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 5106
+		division_template = "Régiment Mixte de Madagascar"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"2ème Rég. Mixte de Madagascar"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 14721
+		division_template = "Régiment Mixte de Madagascar"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MAG"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

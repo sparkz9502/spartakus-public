@@ -1,0 +1,34 @@
+
+state={
+	id=425
+	name="STATE_425"
+	resources={
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = MYS
+		victory_points = {
+			1412 5 
+		}
+		victory_points = {
+			4344 15 
+		}
+		victory_points = {
+			8011 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+
+	}
+
+	provinces={
+		1412 4315 4344 7395 8011 8100 10208 12146 12734 15224 15225 15226 15227 15228 
+	}
+	manpower=4220000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

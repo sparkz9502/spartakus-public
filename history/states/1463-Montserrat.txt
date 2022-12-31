@@ -1,0 +1,23 @@
+state={
+	id=1463
+	name="STATE_1463"
+	provinces={
+		4450 
+	}
+	history={
+		owner = CFA
+		add_core_of = CFA
+		buildings = {
+			infrastructure = 1
+			4450 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+	manpower=12400
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+}

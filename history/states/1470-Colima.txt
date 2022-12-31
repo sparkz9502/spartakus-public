@@ -1,0 +1,27 @@
+
+state={
+	id=1470
+	name="STATE_1470"
+	provinces={
+		4887 8032 12755 
+	}
+	resources={
+		iron=2
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			8032 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = MEX
+
+	}
+	manpower=1110300
+	state_category=small_town
+	buildings_max_level_factor=1.000
+}

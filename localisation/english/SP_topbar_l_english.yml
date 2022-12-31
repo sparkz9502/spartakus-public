@@ -1,0 +1,38 @@
+﻿l_english:
+
+bolshevist_topbar_tooltip:0 "Your current ruling party is §HBolshevist§!"
+spartacist_topbar_tooltip:0 "Your current ruling party is §HSpartacist§!"
+revolutionary_socialist_topbar_tooltip:0 "Your current ruling party is §HRevolutionary Socialist§!"
+reformist_socialist_topbar_tooltip:0 "Your current ruling party is §HReformist Socialist§!"
+social_democrat_topbar_tooltip:0 "Your current ruling party is §HSocial Democrat§!"
+social_liberal_topbar_tooltip:0 "Your current ruling party is §HSocial Liberal§!"
+liberal_conservative_topbar_tooltip:0 "Your current ruling party is §HLiberal Conservative§!"
+social_conservative_topbar_tooltip:0 "Your current ruling party is §HSocial Conservative§!"
+authoritarian_conservative_topbar_tooltip:0 "Your current ruling party is §HAuthoritarian Conservative§!"
+right_wing_populist_topbar_tooltip:0 "Your current ruling party is §HRight Wing Populist§!"
+national_syndicalist_topbar_tooltip:0 "Your current ruling party is §HNational Syndicalist§!"
+national_corporatist_topbar_tooltip:0 "Your current ruling party is §HNational Corporatist§!"
+
+party_popularity_delayed_tooltip:0 "Party popularity represents the current support your government has among the general population. Political parties and coalitions with high popularity are more able to push their political agenda and stabilise the nation."
+SP_PARTY_POP_EFFECT:0 "§HParty Popularity§!\n\n"
+
+SP_ruling_party_dynamic_modifier:0 "Coalition Party Popularity"
+
+coalition_party_bolshevist_tt:0 "[GetCoalitionStarTooltipBolshevist]"
+coalition_party_spartacist_tt:0 "[GetCoalitionStarTooltipSpartacist]"
+coalition_party_revolutionary_socialist_tt:0 "[GetCoalitionStarTooltipRevolutionarySocialist]"
+coalition_party_reformist_socialist_tt:0 "[GetCoalitionStarTooltipReformistSocialist]"
+coalition_party_social_democrat_tt:0 "[GetCoalitionStarTooltipSocialDemocrat]"
+coalition_party_social_liberal_tt:0 "[GetCoalitionStarTooltipSocialLiberal]"
+coalition_party_liberal_conservative_tt:0 "[GetCoalitionStarTooltipLiberalConservative]"
+coalition_party_social_conservative_tt:0 "[GetCoalitionStarTooltipSocialConservative]"
+coalition_party_authoritarian_conservative_tt:0 "[GetCoalitionStarTooltipAuthoritarianConservative]"
+coalition_party_right_wing_populist_tt:0 "[GetCoalitionStarTooltipRightWingPopulist]"
+coalition_party_national_syndicalist_tt:0 "[GetCoalitionStarTooltipNationalSyndicalist]"
+coalition_party_national_corporatist_tt:0 "[GetCoalitionStarTooltipNationalCorporatist]"
+
+coalition_party_ruling:0 "This party leads your ruling coalition"
+coalition_party_nonruling:0 "This party is a member of your ruling coalition"
+no_coalition_ruling_party:0 "This is your ruling party"
+opposition_party_tt:0 "This party does not participate in your government"
+banned_party_tt:0 "This party is banned"

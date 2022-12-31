@@ -1,0 +1,25 @@
+
+state={
+	id=676
+	name="STATE_676"
+
+	history={
+		owner = IRQ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10106 7 
+		}
+		add_core_of = IRQ
+
+	}
+
+	provinces={
+		3916 5014 7982 10106 10804 
+	}
+	manpower=472500
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

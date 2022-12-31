@@ -1,0 +1,42 @@
+
+state={
+	id=117
+	name="STATE_117"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			819 20 
+		}
+		victory_points = {
+			955 2 
+		}
+		victory_points = {
+			13058 1 
+		}
+		victory_points = {
+			13602 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			dockyard = 1
+			air_base = 2
+			819 = {
+				naval_base = 4
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		819 851 923 955 9826 11803 13058 13066 13602 13610 
+	}
+	manpower=3520900
+	buildings_max_level_factor=1.000
+	state_category=city
+}

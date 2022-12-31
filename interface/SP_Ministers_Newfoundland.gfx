@@ -1,0 +1,30 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### NEW
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_NEW_Richard_Squires_hog_lco"
+	texturefile = "gfx/interface/ministers/NEW/NEW_Richard_Squires.tga"
+}
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_NEW_William_Halfyard_for_sde"
+	texturefile = "gfx/interface/ministers/NEW/NEW_William_Halfyard.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_NEW_Peter_Cashin_eco_lco"
+	texturefile = "gfx/interface/ministers/NEW/NEW_Peter_Cashin.tga"
+}
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_NEW_Arthur_Barnes_sec_lco"
+	texturefile = "gfx/interface/ministers/NEW/NEW_Arthur_Barnes.tga"
+}
+		
+}

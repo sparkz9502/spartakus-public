@@ -1,0 +1,31 @@
+﻿###########################
+# Great Depression Events
+###########################
+# By sparkz and Bigcheecho
+###########################
+
+add_namespace = depression
+
+### Depression in America
+news_event = {
+	id = depression.1
+	title = depression.1.t
+	desc = depression.1.d
+	picture = GFX_news_event_generic_rally2
+	is_triggered_only = yes
+
+	option = {
+		name = depression.1.a
+		remove_ideas = USA_booming_economy
+		add_ideas = USA_great_depression
+		add_stability = -0.25
+		set_global_flag = SP_great_depression
+		set_global_flag = show_major_events_gui
+		set_global_flag = thegreatdepression_major_event
+		
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+	}
+}

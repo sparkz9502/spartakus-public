@@ -1,0 +1,26 @@
+
+state={
+	id=149
+	name="STATE_149"
+
+	history={
+		owner = FIN
+		add_core_of = FIN
+		victory_points = {
+			3122 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		63 66 3119 3122 3172 6013 6138 6141 6198 9038 9156 9166 9219 11033 11065 11126 11144 13113 
+	}
+	manpower=582900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

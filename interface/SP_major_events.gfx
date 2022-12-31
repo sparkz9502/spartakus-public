@@ -1,0 +1,57 @@
+spriteTypes = {	
+
+	#Base Interface
+
+	spriteType = {
+		name = "GFX_major_event_interface"
+		texturefile = "gfx/interface/major_event_interface.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_major_event_interface_button"
+		texturefile = "gfx/interface/major_event_interface_button.tga"
+	}
+	
+	#Images
+	
+	spriteType = {
+		name = "GFX_ItalianCivilWar"
+		texturefile = "gfx/interface/major_event_pictures/ItalianCivilWar.tga"
+	}
+	spriteType = {
+		name = "GFX_PortugueseCivilWar"
+		texturefile = "gfx/interface/major_event_pictures/PortugueseCivilWar.tga"
+	}
+	spriteType = {
+		name = "GFX_TheGreatDepression"
+		texturefile = "gfx/interface/major_event_pictures/TheGreatDepression.tga"
+	}
+	spriteType = {
+		name = "GFX_BritainWithdraws"
+		texturefile = "gfx/interface/major_event_pictures/BritainWithdraws.tga"
+	}
+	spriteType = {
+		name = "GFX_FallofBritain"
+		texturefile = "gfx/interface/major_event_pictures/FallofBritain.tga"
+	}
+	spriteType = {
+		name = "GFX_FallofFrance"
+		texturefile = "gfx/interface/major_event_pictures/FallofFrance.tga"
+	}
+	spriteType = {
+		name = "GFX_FallofGermany"
+		texturefile = "gfx/interface/major_event_pictures/FallofGermany.tga"
+	}
+	spriteType = {
+		name = "GFX_FallofJapan"
+		texturefile = "gfx/interface/major_event_pictures/FallofJapan.tga"
+	}
+	spriteType = {
+		name = "GFX_JapanWithdraws"
+		texturefile = "gfx/interface/major_event_pictures/JapanWithdraws.tga"
+	}
+	spriteType = {
+		name = "GFX_USSRWithdraws"
+		texturefile = "gfx/interface/major_event_pictures/USSRWithdraws.tga"
+	}
+}

@@ -1,0 +1,43 @@
+ideas = {
+
+###################
+# Swedish Ideas   #
+###################
+
+	country = {
+	
+		SWE_socialist_reforms = {
+			picture = social_reforms
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+				stability_factor = 0.1
+				political_power_gain = 0.25
+			}
+		}
+		
+		SWE_enemies_of_the_republic = {
+			picture = enemies_of_republic
+			modifier = {
+				stability_factor = -0.15
+			}
+		}
+
+		SWE_international_trade = {
+			picture = free_trade
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.1
+			}
+		}
+
+		SWE_capital_flight = {
+			picture = capital_outflow
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.05
+				production_speed_buildings_factor = -0.1
+				research_speed_factor = -0.05
+			}
+		}		
+	}
+}

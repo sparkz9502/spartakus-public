@@ -1,0 +1,858 @@
+ideas = {
+################################################################################################################################################################################################
+### SRI
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	SRI_Bruno_Fortichiari_hog_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Amadeo_Bordiga_hog_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Antonio_Gramsci_hog_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Luigi_Longo_hog_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Palmiro_Togliatti_hog_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Camilla_Ravera_hog_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Giacinto_Menotti_Serrati_hog_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Pietro_Nenni_hog_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Nicola_Bombacci_hog_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Tito_Oro_Nobili_hog_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	SRI_Ruggero_Grieco_for_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Eugenio_Reale_for_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Celeste_Negarville_for_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Altiero_Spinelli_for_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Pietro_Nenni_for_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+
+	SRI_Umberto_Terracini_eco_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Antonio_Pesenti_eco_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Mauro_Scoccimarro_eco_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Giacomo_Ferrari_eco_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Angelo_Tasca_eco_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+
+	SRI_Luigi_Repossi_sec_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Palmiro_Togliatti_sec_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Giorgio_Amendola_sec_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Tito_Oro_Nobili_sec_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Olindo_Vernocchi_sec_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+education_minister = { ### Education Minister ###
+
+	SRI_Bruno_Fortichiari_edu_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Francesco_Misiano_edu_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Dante_Bernamonti_edu_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Giacinto_Menotti_Serrati_edu_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Francesco_De_Martino_edu_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+
+	SRI_Fausto_Gullo_agr_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Emilio_Sereni_agr_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Giuseppe_Di_Vittorio_agr_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+transport_minister = { ### Transport Minister ###
+
+	SRI_Cesare_Sessa_tra_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Guido_Molinelli_tra_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Emilio_Sereni_tra_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Pietro_Mancini_tra_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Riccardo_Lombardi_tra_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+
+	SRI_Onorato_Damen_def_bol = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Mario_Palermo_def_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Vittorio_Vidali_def_spa = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Nicola_Bombacci_def_rev = {
+		allowed = {original_tag = SRI}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	SRI_Luigi_Longo_cos = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Ilio_Barontini_cos = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Pietro_Secchia_cos = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	SRI_Pompeo_Colajanni_carm = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Ilio_Barontini_carm = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Antonio_Carini_carm = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRI_Walter_Audisio_carm = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Cino_Moscatelli_carm = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Giancarlo_Pajetta_carm = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+	SRI_Domenico_Baffigo_cnav = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	SRI_Umberto_Nobile_cair = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_air_force
+			cair_naval_aviation_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Ugo_Macchieraldo_cair = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SRI_Nicola_Ugo_Stame_cair = {
+		allowed = {original_tag = SRI}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+sp_theorist = { ### Theorist ###
+
+	SRI_Bruno_Pontecorvo_theo = {
+		allowed = {original_tag = ITA}
+		research_bonus = {
+			nuclear = 0.1
+		}
+		traits = {
+			sp_theorist
+			nuclear_theorist
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+}

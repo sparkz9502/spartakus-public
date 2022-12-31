@@ -1,0 +1,18 @@
+﻿add_namespace = nz
+
+### 		###
+###   MISC  ###
+### 		###
+
+country_event = { # Intro Event
+	id = nz.0
+	title = nz.0.t
+	desc = nz.0.d
+	picture = GFX_newzealandflag.tga
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = nz.0.a
+	}
+}

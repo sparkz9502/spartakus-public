@@ -1,0 +1,26 @@
+
+state={
+	id=783
+	name="STATE_783"
+
+	history={
+		owner = ITA
+		victory_points = {
+			9598 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = ITA
+		add_core_of = VNZ
+
+	}
+
+	provinces={
+		6631 9598 13569 
+	}
+	manpower=390500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

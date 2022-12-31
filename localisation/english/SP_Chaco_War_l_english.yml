@@ -1,0 +1,69 @@
+﻿l_english:
+
+### Events ###
+
+chacowar.1.t:0 "The Chaco Dispute"
+chacowar.1.d:0 "Bolivia and Paraguay have been locked in a conflict for decades over the disputed Gran Chaco region. There have been multiple attempts to establish a defined border in the past, but these have all failed in spite of foreign arbitration. As a result, the border can only be determined by loose ''de facto'' borders displayed by the dozens of military outposts dotted throughout the region.\n\nThe dispute was once of a relatively mild nature, with occasional conflicts between military explorers. In recent years the conflict has greatly intensified, in significant part because of speculated but unproven oil deposits. In 1927 a Paraguayan patrol was captured by Bolivian forces and its commander was killed. A brief war erupted in 1928, with both sides seizing land, but a return to the status quo was achieved under international pressure. Neither side was ready for a protracted war at that point, and in the aftermath an arms race would begin.\n\nIt is now 1932 and both sides have accumulated significant amounts of weaponry. War is on the horizon and everyone knows it. It is simply a matter of when, not if, the conflict erupts again."
+chacowar.1.a:0 "Interesting."
+
+chacowar.2.t:0 "Pitiantutá Lake Incident"
+chacowar.2.d:0 "A significant incident has erupted in the Chaco region. In spite of orders from President Salamanca to avoid hostilities, one of our detachments has captured and burned down a Paraguayan fort at Pitiantutá Lake. The lake was spotted by aerial scouts in April, but our forces were unaware of the Paraguayan presence until they arrived to claim the area. It remains to be seen what the Paraguayan response will be."
+chacowar.2.a:0 "This looks bad."
+
+chacowar.3.t:0 "Pitiantutá Lake Incident"
+chacowar.3.d:0 "In a shocking act of aggression in the Chaco region, Bolivian forces have attacked our forces at the Fortín Carlos Antonio López near the Pitiantutá Lake. Our troops were defeated and the fort was burned down by the Bolivians. This cannot go unprotested!"
+chacowar.3.a:0 "They will pay!"
+
+chacowar.4.t:0 "A Stand Off Begins"
+chacowar.4.d:0 "In the aftermath of the Pitiantutá Lake Incident the Paraguayans have predictably lodged a diplomatic protest. The high command has insisted to President Salamanca that the incident was actually provoked by the Paraguayans. Whatever the case, the Paraguayans seem likely to counterattack."
+chacowar.4.a:0 "Let's see what they do."
+
+chacowar.5.t:0 "The Paraguayan Counterattack"
+chacowar.5.d:0 "The Paraguayans have counterattacked near Pitiantutá Lake, recapturing the area. The high command has delivered reports of supposed Paraguayan atrocities, convincing President Salamanca to reverse his pacifistic policies. War seems to be on the horizon."
+chacowar.5.a:0 "Blasted barbarians!"
+
+chacowar.6.t:0 "The Counterattack at Pitiantutá Lake"
+chacowar.6.d:0 "Our forces have counterattacked at Pitiantutá Lake, recapturing the area of the ruined fort after a brief skirmish. The Bolivians have only shown increasing aggression in response. With war seemingly inevitable, mobilization has begun."
+chacowar.6.a:0 "Good work!"
+
+chacowar.7.t:0 "An Act of War"
+chacowar.7.d:0 "The Paraguayan counterattack has convinced President Salamanca to move towards escalating the conflict, ordering the high command to occupy three Paraguayan forts in the Chaco. Mobilization of both sides is underway, with this situation marking the beginning of war."
+chacowar.7.a:0 "Bolivia will prevail!"
+
+chacowar.8.t:0 "Ceasefire in the Chaco"
+chacowar.8.d:0 "Bolivian forces have triumphed in the Chaco, pushing Paraguayan forces east of the Paraguay river. Both sides have agreed to a ceasefire, with negotiations commencing to sign a peace treaty."
+chacowar.8.a:0 "Will this last?"
+
+chacowar.9.t:0 "Ceasefire in the Chaco"
+chacowar.9.d:0 "Paraguayan forces have triumphed in the Chaco, pushing Bolivian forces far to the north. Both sides have agreed to a ceasefire, with negotiations commencing to sign a peace treaty."
+chacowar.9.a:0 "Will this last?"
+
+chacowar.10.t:0 "Chaco Peace Treaty"
+chacowar.10.d:0 "Years have passed since the Chaco War, with negotiations being complicated by the changing political situations in both Bolivia and Paraguay. The Paraguayans have proposed peace terms where they would retain a portion of the southeastern Chaco in exchange for renouncing claims on the rest of the area. We could refuse, but it would anger Paraguay and the international community."
+chacowar.10.a:0 "These terms are acceptable."
+chacowar.10.b:0 "Returning land? Nonsense!"
+
+chacowar.11.t:0 "The Bolivians Agree to Peace Terms"
+chacowar.11.d:0 "After years of negotiations since the Chaco War, the Bolivians have finally agreed to our peace terms, where they will cede a small portion of land in the southeastern Chaco in exchange for our renouncement of other claims."
+chacowar.11.a:0 "Hooray!"
+
+chacowar.12.t:0 "The Bolivians Refuse Peace Terms"
+chacowar.12.d:0 "Years of negotiations since the Chaco War have gone to waste, with the Bolivians refusing our peace terms. They have outright refused to cede any portion of the Chaco region to us, effectively ending negotiations for good. This dispute seemingly did not end with the war."
+chacowar.12.a:0 "Bastards!"
+
+chacowar.13.t:0 "Chaco Peace Treaty"
+chacowar.13.d:0 "Years have passed since the Chaco War, with negotiations being complicated by the changing political situations in both Paraguay and Bolivia. The Bolivians have proposed peace terms where they would retain a portion of the northern Chaco in exchange for renouncing claims on the rest of the area. We could refuse, but it would anger Bolivia and the international community."
+chacowar.13.a:0 "These terms are acceptable."
+chacowar.13.b:0 "Returning land? Nonsense!"
+
+chacowar.14.t:0 "The Paraguayans Agree to Peace Terms"
+chacowar.14.d:0 "After years of negotiations since the Chaco War, the Paraguayans have finally agreed to our peace terms, where they will cede a small portion of land in the northern Chaco in exchange for our renouncement of other claims."
+chacowar.14.a:0 "Hooray!"
+
+chacowar.15.t:0 "The Paraguayans Refuse Peace Terms"
+chacowar.15.d:0 "Years of negotiations since the Chaco War have gone to waste, with the Paraguayans refusing our peace terms. They have outright refused to cede any portion of the Chaco region to us, effectively ending negotiations for good. This dispute seemingly did not end with the war."
+chacowar.15.a:0 "Bastards!"
+
+### Tooltips ###
+
+SP_chaco_war_treaty_tt:0 "§YIt will take years for a peace treaty to be ready.§!"

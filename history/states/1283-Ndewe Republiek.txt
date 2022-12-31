@@ -1,0 +1,30 @@
+
+state={
+	id=1283
+	name="STATE_1283"
+
+	history={
+		owner = OTT
+		add_core_of = OTT
+		add_claim_by = ARM
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			6991 = {
+				bunker = 2
+
+			}
+		}
+		victory_points = {
+			6991 7 
+		}
+
+	}
+
+	provinces={
+		652 6991 9954 
+	}
+	manpower=363537
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,30 @@
+
+state={
+	id=980
+	name="STATE_980"
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		add_claim_by = OTT
+		victory_points = {
+			12029 2 
+		}
+		buildings = {
+			infrastructure = 3
+			12029 = {
+				naval_base = 3
+			}
+			
+		}
+
+	}
+
+	provinces={
+		12029 
+	}
+	manpower=200000
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

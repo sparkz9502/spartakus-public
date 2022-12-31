@@ -1,0 +1,147 @@
+defined_text = {
+	name = GetCZEPetkaStatus
+	text = {
+		trigger = {
+			check_variable = {
+				var = CZE_petka_left_wing_influence
+				value = 40
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = CZE_petka_left_wing_influence
+				value = 60
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = CZE_petka_balanced
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = {
+						var = CZE_petka_left_wing_influence
+						value = 30
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = CZE_petka_left_wing_influence
+						value = 40
+						compare = less_than
+					}
+				}
+				AND = {
+					check_variable = {
+						var = CZE_petka_right_wing_influence
+						value = 30
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = CZE_petka_right_wing_influence
+						value = 40
+						compare = less_than
+					}
+				}
+			}
+		}
+		localization_key = CZE_petka_imbalanced
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { CZE_petka_left_wing_influence < 30 }
+				check_variable = { CZE_petka_right_wing_influence < 30 }
+			}
+		}
+		localization_key = CZE_petka_collapsing
+	}
+}
+
+defined_text = {
+	name = GetCZEPetkaVariables
+	text = {
+		trigger = {
+			check_variable = {
+				var = CZE_petka_left_wing_influence
+				value = 40
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = CZE_petka_left_wing_influence
+				value = 60
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = CZE_petka_balanced_variable
+	}
+	text = {
+		trigger = {
+			OR = {
+				AND = {
+					check_variable = {
+						var = CZE_petka_left_wing_influence
+						value = 30
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = CZE_petka_left_wing_influence
+						value = 40
+						compare = less_than
+					}
+				}
+				AND = {
+					check_variable = {
+						var = CZE_petka_right_wing_influence
+						value = 30
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = CZE_petka_right_wing_influence
+						value = 40
+						compare = less_than
+					}
+				}
+			}
+		}
+		localization_key = CZE_petka_imbalanced_variable
+	}
+	text = {
+		trigger = {
+			OR = {
+				check_variable = { CZE_petka_left_wing_influence < 30 }
+				check_variable = { CZE_petka_right_wing_influence < 30 }
+			}
+		}
+		localization_key = CZE_petka_collapsing_variable
+	}
+}
+
+defined_text = {
+	name = GetCZENatMotto
+	text = {
+		trigger = {
+			has_socialist_government = yes
+		}
+		localization_key = CZE_workers_unite
+	}
+	text = {
+		trigger = {
+			has_government = national_corporatist
+		}
+		localization_key = CZE_nothing_but_the_nation
+	}
+	text = {
+		localization_key = CZE_truth_prevails
+	}
+}
+
+defined_text = {
+	name = GetCZEFascistParty
+	text = {
+		trigger = { has_completed_focus = CZE_party_national_unity }
+		localization_key = CZE_national_unity_party
+	}
+	text = {
+		localization_key = CZE_national_corporatist_party
+	}
+}

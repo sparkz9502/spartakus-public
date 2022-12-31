@@ -1,0 +1,69 @@
+defined_text = {
+	name = GetColony
+	text = {
+		trigger = {
+			check_variable = { colony = 1 }
+		}
+		localization_key = var_colony.1
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 2 }
+		}
+		localization_key = var_colony.2
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 3 }
+		}
+		localization_key = var_colony.3
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 4 }
+		}
+		localization_key = var_colony.4
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 5 }
+		}
+		localization_key = var_colony.5
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 6 }
+		}
+		localization_key = var_colony.6
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 7 }
+		}
+		localization_key = var_colony.7
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 8 }
+		}
+		localization_key = var_colony.8
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 9 }
+		}
+		localization_key = var_colony.9
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 10 }
+		}
+		localization_key = var_colony.10
+	}
+	text = {
+		trigger = {
+			check_variable = { colony = 11 }
+		}
+		localization_key = var_colony.11
+	}
+}

@@ -1,0 +1,5 @@
+STJ_No_Serb_Service = { # on Province
+    conscription_factor = -0.8
+	local_org_regain = -0.05
+	supply_consumption_factor = 0.1
+}

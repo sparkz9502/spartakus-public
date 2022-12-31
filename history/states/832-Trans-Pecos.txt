@@ -1,0 +1,26 @@
+state={
+	id=832
+	name="STATE_832"
+	manpower = 172000
+
+	state_category = wasteland
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+		}
+
+		add_core_of = USA
+		victory_points = {
+			10740 1
+		}
+	}
+
+	provinces={
+		10740 10894 5038 1954
+		
+	}
+
+
+}

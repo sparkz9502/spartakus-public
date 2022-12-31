@@ -1,0 +1,44 @@
+﻿capital = 427
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+add_ideas = {
+	### Laws ###
+	recruitment_colonial
+	governance_abs
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = BAR_sayajirao_iii_gaekwad
+
+### Starting Tech ###
+set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
+}
+
+### Politics ###
+
+set_politics = {
+	ruling_party = right_wing_populist
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 3
+    spartacist = 4
+    revolutionary_socialist = 3
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 19
+    right_wing_populist = 69
+    national_syndicalist = 0
+    national_corporatist = 2
+}

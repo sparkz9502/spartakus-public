@@ -1,0 +1,33 @@
+
+state={
+	id=1113
+	name="STATE_1113"
+	
+	resources={
+		coal=18.000
+		bauxite=1.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			10332 1 
+		}
+		victory_points = {
+			15294 2 
+		}
+
+	}
+
+	provinces={
+		1579 7574 8120 10401 15280 15284 15286 15287 15290 15292 
+	}
+	manpower=5340000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

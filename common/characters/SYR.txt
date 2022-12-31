@@ -1,0 +1,15 @@
+characters={
+    SYR_taj_al-din_al-hasani = {
+        name = "Taj al-Din al-Hasani"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SYR/Portrait_Taj_Al-Din_Al-Hasani.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            ideology = authoritarian_conservative_subtype
+            id=-1
+        }
+    }
+}

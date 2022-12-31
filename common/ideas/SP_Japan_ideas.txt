@@ -1,0 +1,834 @@
+ideas = {
+
+##################
+# Japanese Ideas #
+##################
+
+	country = {
+	
+		JAP_SP_liberty = {
+			picture = JAP_liberty
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = 0.5
+				consumer_goods_factor = +0.15
+				war_support_factor = -0.1
+				conscription_factor = -0.15
+			}
+		}
+	
+		JAP_SP_liberty_2 = {
+			picture = JAP_liberty
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = +0.15
+				war_support_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+	
+		JAP_SP_mantetsu = {
+			picture = JAP_mantetsu
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				local_resources_factor = 0.10
+			}
+		}
+	
+		JAP_SP_peace_preservation = {
+			picture = ast_classify_aliens
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				drift_defence_factor = 0.25
+				bolshevist_drift = -0.05
+				spartacist_drift = -0.05
+				revolutionary_socialist_drift = -0.05
+				reformist_socialist_drift = -0.05
+			}
+		}
+
+#################
+# South Pacific #
+#################
+	
+		JAP_SP_nanyo = {
+			picture = JAP_ssdc
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_dockyard = 0.15
+				production_speed_dockyard_factor = 0.2
+				consumer_goods_factor = -0.03
+			}
+		}
+	
+		JAP_SP_civil_administration = {
+			picture = idea_hun_treaty_of_trianon
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.5
+				line_change_production_efficiency_factor = 0.15	
+
+			}
+		}
+	
+		JAP_SP_corporate_administration = {
+			picture = JAP_nanko_admin
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.03
+				min_export = -0.05
+				consumer_goods_factor = -0.03
+				production_speed_dockyard_factor = 0.2
+				industrial_capacity_dockyard = 0.15
+				production_factory_start_efficiency_factor = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				industry_repair_factor = 0.05
+			}
+		}
+	
+		JAP_SP_naval_administration = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = 0.05
+				spotting_chance = 0.1
+				navy_max_range_factor = 0.15
+				production_speed_coastal_bunker_factor = 0.15
+			}
+			targeted_modifier = {
+				tag = USA
+				defense_bonus_against = 0.1
+			}
+		}
+	
+		JAP_SP_mandate_naval_expansion = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				experience_gain_navy_factor = 0.30
+			}
+			equipment_bonus = {
+				submarine = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+				destroyer = {
+					build_cost_ic = -0.15
+					instant = yes
+				}
+			}
+		}
+
+###########
+# Formosa #
+###########
+	
+		JAP_SP_doka_1 = {
+			picture = JAP_doka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.2
+			}
+		}
+		
+		JAP_SP_doka_2 = {
+			picture = JAP_doka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.02
+				political_power_gain = 0.2
+				research_speed_factor = 0.03
+			}
+		}
+		
+		JAP_SP_doka_3 = {
+			picture = JAP_doka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.5
+				research_speed_factor = 0.03
+			}
+		}
+	
+		JAP_SP_kominka_1 = {
+			picture = JAP_kominka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				mobilization_speed = 0.05
+				conscription = 0.01
+			}
+		}
+	
+		JAP_SP_kominka_2 = {
+			picture = JAP_kominka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				mobilization_speed = 0.05
+				stability_factor = 0.03
+				conscription = 0.02
+			}
+		}
+	
+		JAP_SP_kominka_3 = {
+			picture = JAP_kominka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = 0.05
+				mobilization_speed = 0.05
+				stability_factor = 0.03
+				conscription = 0.02
+				special_forces_cap = 0.05
+			}
+		}
+	
+		JAP_SP_opium_licenses = {
+			picture = idea_prc_permit_opium_trade
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.2
+				consumer_goods_factor = -0.05
+			}
+		}
+	
+		JAP_SP_opium_licenses_2 = {
+			picture = idea_prc_permit_opium_trade
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = -0.05
+			}
+		}
+	
+		JAP_SP_opium_licenses_3 = {
+			picture = idea_prc_permit_opium_trade
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+	
+		JAP_SP_opium_ban = {
+			picture = JAP_opium
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.5
+				conscription = 0.08
+			}
+		}
+	
+		JAP_SP_opium_ban_2 = {
+			picture = JAP_opium
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				conscription = 0.08
+			}
+		}
+	
+		JAP_SP_opium_ban_3 = {
+			picture = JAP_opium
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.08
+			}
+		}
+
+#########
+# Korea #
+#########
+	
+		JAP_SP_assimilation_1 = {
+			picture = JAP_assimilation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				political_power_gain = -0.5
+			}
+		}
+		
+		JAP_SP_assimilation_2 = {
+			picture = JAP_assimilation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -1
+			}
+		}
+		
+		JAP_SP_assimilation_3 = {
+			picture = JAP_assimilation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				army_org_Factor = 0.1
+			}
+		}
+		
+		JAP_SP_assimilation_4 = {
+			picture = JAP_assimilation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = -0.05
+				army_org_Factor = 0.1
+				conscription = 0.15
+			}
+		}
+
+		
+		JAP_SP_cooperation_1 = {
+			picture = JAP_cooperation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+			}
+		}
+		
+		JAP_SP_cooperation_2 = {
+			picture = JAP_cooperation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.25
+			}
+		}
+		
+		JAP_SP_cooperation_3 = {
+			picture = JAP_cooperation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.25
+				research_speed_factor = 0.03
+			}
+		}
+		
+		JAP_SP_cooperation_4 = {
+			picture = JAP_cooperation
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				local_resources_factor = 0.15
+				global_building_slots_factor = 0.25
+				research_speed_factor = 0.03
+				conscription = 0.15
+			}
+		}
+		
+		JAP_SP_fake_conscription = {
+			picture = JAP_doka
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.15
+			}
+		}
+
+###########
+# ECONOMY #
+###########
+	
+		JAP_SP_india_1 = {
+			picture = generic_trade
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		JAP_SP_india_2 = {
+			picture = generic_trade
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				consumer_goods_factor = -0.05
+				min_export = -0.05
+			}
+		}
+		
+		JAP_SP_spending_1 = {
+			picture = generic_coins
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				equipment_conversion_speed = 0.05
+			}
+		}
+		
+		JAP_SP_spending_2 = {	
+			picture = generic_coins
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = -0.1
+				equipment_conversion_speed = 0.05
+				production_speed_buildings_factor = 0.1
+				min_export = -0.05
+			}
+		}
+		
+		JAP_SP_fiscal = {	
+			picture = generic_foreign_capital
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_arms_factory_factor = -0.1	
+				equipment_conversion_speed = 0.05
+				production_speed_buildings_factor = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				min_export = -0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		JAP_SP_fiscal_fake = {	
+			picture = generic_foreign_capital
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		JAP_SP_zaibatsu_economy_1 = { #fewer but better factories	
+			picture = jap_zaibatsu_ally
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = -0.1
+			}
+		}
+		
+		JAP_SP_zaibatsu_economy_2 = { #fewer but better factories	
+			picture = jap_zaibatsu_ally
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		
+		JAP_SP_zaibatsu_economy_3 = { #fewer but better factories	
+			picture = jap_zaibatsu_ally
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = -0.20
+				global_building_slots_factor = -0.05
+			}
+		}
+		
+		JAP_SP_local_economy_1 = {	#more factories, more construction, more resistant to bombing
+			picture = jap_zaibatsu_control
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.1
+				line_change_production_efficiency_factor = -0.1
+			}
+		}
+		
+		JAP_SP_local_economy_2 = {	#more factories, more construction, more resistant to bombing
+			picture = jap_zaibatsu_control
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.15
+				production_factory_max_efficiency_factor = -0.05
+				industry_air_damage_factor = -0.05
+				production_factory_start_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = -0.1
+			}
+		}
+		
+		JAP_SP_local_economy_3 = {	#more factories, more construction, more resistant to bombing
+			picture = jap_zaibatsu_control
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.2
+				production_factory_max_efficiency_factor = -0.1
+				industry_air_damage_factor = -0.05
+				production_factory_start_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = -0.1
+				industry_repair_factor = 0.1
+			}
+		}
+		
+		JAP_SP_secure_zaibatsu = {
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.25
+				production_factory_efficiency_gain_factor = 0.1
+				line_change_production_efficiency_factor = 0.1
+				production_speed_buildings_factor = -0.20
+				global_building_slots_factor = -0.0
+				production_speed_arms_factory_factor = -0.1	
+				equipment_conversion_speed = 0.05
+				min_export = -0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+		
+		JAP_SP_secure_local = {
+			picture = generic_flexible_foreign_policy2
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_speed_buildings_factor = 0.3
+				production_factory_max_efficiency_factor = -0.05
+				industry_air_damage_factor = -0.05
+				production_factory_start_efficiency_factor = 0.1
+				line_change_production_efficiency_factor = -0.1
+				industry_repair_factor = 0.1
+				production_speed_arms_factory_factor = -0.1	
+				equipment_conversion_speed = 0.05
+				min_export = -0.1
+				consumer_goods_factor = -0.1
+			}
+		}
+	
+##############
+# Depression #
+##############
+		
+		JAP_SP_depression_economy = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.20
+				production_factory_max_efficiency_factor = -0.15
+				production_speed_buildings_factor = -0.15
+			}
+		}
+		
+		JAP_SP_depression_economy_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.1
+				production_speed_buildings_factor = -0.05
+			}
+		}
+		
+		JAP_SP_depression_economy_3 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+		
+		JAP_SP_depression_unrest = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.10
+				conscription_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+			}
+		}
+		
+		JAP_SP_depression_unrest_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				war_support_factor = -0.10
+				conscription_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+			}
+		}
+		
+		JAP_SP_depression_unrest_3 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.05
+				conscription_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+			}
+		}
+		
+		JAP_SP_depression_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = JAP
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				war_support_factor = -0.05
+			}
+		}
+	}
+}

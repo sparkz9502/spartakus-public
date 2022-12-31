@@ -1,0 +1,21 @@
+
+state={
+	id=919
+	name="STATE_919"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		7987 14298 14306 14308 14321 14323 14329 14330 14333 14334 14349 14354 14382 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

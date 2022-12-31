@@ -1,0 +1,24 @@
+
+state={
+	id=268
+	name="STATE_268"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			14158 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		14158 14160 
+	}
+	manpower=85200
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

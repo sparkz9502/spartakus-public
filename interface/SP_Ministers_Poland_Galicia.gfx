@@ -1,0 +1,111 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### PGA
+################################################################################################################################################################################################
+
+#Head of Government
+
+spriteType = {
+	name = "GFX_idea_PGA_Volodymyr_Zatonsky_hog_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Volodymyr_Zatonsky.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PGA_Adolf_Warski_hog_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Adolf_Warski.tga"
+}
+
+#Minister Without Portfolio
+
+spriteType = {
+	name = "GFX_idea_PGA_Edward_Prochniak_mwp_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Edward_Prochniak.tga"
+}
+
+#Foreign Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Jakub_Hanecki_for_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Jakub_Hanecki.tga"
+}
+
+#Economy Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Alfred_Lampe_eco_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Alfred_Lampe.tga"
+}
+
+#Security Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Teodor_Duracz_sec_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Teodor_Duracz.tga"
+}
+
+#Education Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Feliks_Kon_edu_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Feliks_Kon.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PGA_Maria_Koszutska_edu_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Maria_Koszutska.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PGA_Volodymyr_Zatonsky_edu_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Volodymyr_Zatonsky.tga"
+}
+
+#Agriculture Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Stanislaw_Kosior_agr_bol"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Stanislaw_Kosior.tga"
+}
+
+#Transgender Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Stanislaw_Bobinski_tra_spa"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Stanislaw_Bobinski.tga"
+}
+
+#Defence Minister
+
+spriteType = {
+	name = "GFX_idea_PGA_Jozef_Unszlicht_def_bol"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Jozef_Unszlicht.tga"
+}
+
+#Chief of Staff
+
+spriteType = {
+	name = "GFX_idea_PGA_Vladimir_Lazarevich_cos"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Vladimir_Lazarevich.tga"
+}
+
+#Chief of Army
+
+spriteType = {
+	name = "GFX_idea_PGA_Wladyslaw_Korczyc_carm"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Wladyslaw_Korczyc.tga"
+}
+
+#Chief of Air Force
+
+spriteType = {
+	name = "GFX_idea_PGA_Jerzy_Zietek_cair"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Jerzy_Zietek.tga"
+}
+
+#Theorist
+
+spriteType = {
+	name = "GFX_idea_PGA_Stefan_Banach_theo"
+	texturefile = "gfx/interface/ministers/PGA/PGA_Stefan_Banach.tga"
+}
+}

@@ -1,0 +1,29 @@
+##############
+### Livonian ###
+##############
+
+LIV_clique_influence = {
+	allowed = {
+		original_tag = LIV
+	}
+	visible = {
+		NOT = {
+			has_country_flag = LIV_power_struggle_ended
+		}
+	}
+	icon = generic_crisis
+	
+	picture = GFX_decision_cat_picture_chi_political_support
+}
+
+LIV_native_uprising = {
+	allowed = {
+		original_tag = LIV
+	}
+	visible = {
+		has_global_flag = LIV_latvian_revolt
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_latvian_uprising
+}

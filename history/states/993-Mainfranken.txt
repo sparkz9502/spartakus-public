@@ -1,0 +1,35 @@
+
+state={
+	id=993
+	name="STATE_993"
+
+	history={
+		owner = GER
+		#add_core_of = BAV
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			3474 1 
+		}
+		victory_points = {
+			6421 1 
+		}
+		victory_points = {
+			9416 2 
+		}
+		victory_points = {
+			11404 1 
+		}
+
+	}
+
+	provinces={
+		3474 6421 6594 9416 9572 11404 11417 13116 15185 
+	}
+	manpower=1394000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

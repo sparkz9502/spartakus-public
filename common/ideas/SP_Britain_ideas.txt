@@ -1,0 +1,67 @@
+### UK ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		UK_the_irish_question_idea_1 = {
+			modifier = {
+			}
+			picture = FRA_matignon_agreements
+		}
+		UK_the_irish_question_idea_2 = {
+			modifier = {
+				stability_factor = -0.025
+				political_power_cost = 0.05
+			}
+			picture = FRA_matignon_agreements
+		}
+		UK_the_irish_question_idea_3 = {
+			modifier = {
+				stability_factor = -0.05
+				political_power_cost = 0.10
+			}
+			picture = FRA_matignon_agreements
+		}
+		UK_recovering_economy = {
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				political_power_cost = 0.05
+				stability_factor = -0.05
+			}
+			picture = great_depression
+		}
+		UK_pacifism = {
+			modifier = {
+				war_support_factor = -0.10
+				conscription_factor = -0.25
+				training_time_factor = 0.50
+				army_morale_factor = -0.10
+				experience_gain_army_factor = -0.50
+				mobilization_speed = -0.50
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_arms_factory_factor = -0.10
+			}
+			picture = quenched_militarism
+		}
+		UK_hawkish_military_command = {
+			modifier = {
+				political_power_cost = 0.05
+				training_time_factor = -0.10
+				army_org_factor = 0.10
+				planning_speed = 0.10
+				max_planning = 0.10
+				invasion_preparation = -0.10
+				defence = 0.10
+				offence = 0.10
+				send_volunteers_tension = -0.10
+				ai_focus_aggressive_factor = 0.20
+			}
+			picture = GFX_hawkish_military_command
+		}
+	}
+}

@@ -1,0 +1,19 @@
+
+state={
+	id=1291
+	name="STATE_1291"
+	provinces={
+		8157 8240 10938 
+	}
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = BOL
+	}
+	manpower=471700
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

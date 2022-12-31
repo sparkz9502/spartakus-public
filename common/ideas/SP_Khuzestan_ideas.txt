@@ -1,0 +1,27 @@
+### Khuzestan Ideas ###
+ideas = {
+
+	country = {
+	
+		KHU_Tribal_Confederation = {
+			picture = KHU_Tribal_Confederation
+			modifier = {
+				political_power_gain = -0.20
+				stability_factor = 0.05
+				conscription_factor = 0.10
+			}
+		}
+		
+		KHU_British_Exploitation = {
+			picture = hol_caved_to_the_british
+			modifier = {
+				stability_factor = -0.10
+				political_power_gain = -0.10
+				local_resources_factor = 0.10
+				min_export = 0.20
+				industrial_factory_donations = 1
+			}
+		}
+	
+	}
+}

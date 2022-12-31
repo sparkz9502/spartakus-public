@@ -1,0 +1,41 @@
+
+state={
+	id=1261
+	name="STATE_1261"
+
+	history={
+		owner = WUR
+		add_core_of = WUR
+		add_claim_by = GER
+		victory_points = {
+			9557 3 
+		}
+		victory_points = {
+			15178 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			9557 = {
+				bunker = 3
+			}
+			15178 = {
+				bunker = 2
+			}
+			13612 = {
+				bunker = 2
+			}
+			13608 = {
+				bunker = 2
+			}
+		}
+
+	}
+
+	provinces={
+		9557 13608 13612 15178 
+	}
+	manpower=302100
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

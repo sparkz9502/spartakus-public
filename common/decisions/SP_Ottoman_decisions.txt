@@ -1,0 +1,175 @@
+# Ottoman National Questions
+OTT_national_questions = {
+	OTT_thrace_referendum = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			has_country_flag = OTT_conducting_referendums
+		}
+		allowed = {
+			has_country_flag = OTT_conducting_referendums
+		}
+		cost = 25
+		complete_effect = {
+			country_event = {
+				id = ott_diplo.1
+			}
+		}
+	}
+	
+	OTT_aegean_isles_referendum = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			has_country_flag = OTT_conducting_referendums
+		}
+		allowed = {
+			has_country_flag = OTT_conducting_referendums
+		}
+		cost = 25
+		complete_effect = {
+			country_event = {
+				id = ott_diplo.12
+			}
+		}
+	}
+	
+	OTT_aegean_coring = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			owns_state = 187
+		}
+		allowed = {
+			owns_state = 187
+		}
+		cost = 10
+		days_remove = 60
+		modifier = {
+			political_power_gain = -0.2
+		}
+		removal_effect = {
+			OTT = {
+				add_state_core = 187
+			}
+		}
+	}
+	
+	OTT_thrace_coring = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			owns_state = 184
+		}
+		allowed = {
+			owns_state = 184
+		}
+		cost = 10
+		days_remove = 60
+		modifier = {
+			political_power_gain = -0.2
+		}
+		removal_effect = {
+			OTT = {
+				add_state_core = 184
+			}
+		}
+	}
+	
+	OTT_kars_referendum = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			has_country_flag = OTT_conducting_referendums
+		}
+		allowed = {
+			has_country_flag = OTT_conducting_referendums
+		}
+		cost = 25
+		complete_effect = {
+			country_event = {
+				id = ott_diplo.4
+			}
+		}
+	}
+	
+	OTT_kars_coring = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			owns_state = 990
+		}
+		allowed = {
+			owns_state = 990
+		}
+		cost = 10
+		days_remove = 60
+		modifier = {
+			political_power_gain = -0.2
+		}
+		removal_effect = {
+			OTT = {
+				add_state_core = 990
+			}
+		}
+	}
+	
+	OTT_syrian_referendum = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			has_country_flag = OTT_conducting_referendums
+		}
+		allowed = {
+			has_country_flag = OTT_conducting_referendums
+		}
+		cost = 25
+		complete_effect = {
+			country_event = {
+				id = ott_diplo.7
+			}
+		}
+	}
+	
+	OTT_iskenderun_coring = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			owns_state = 1012
+		}
+		allowed = {
+			owns_state = 1012
+		}
+		cost = 10
+		days_remove = 60
+		modifier = {
+			political_power_gain = -0.2
+		}
+		complete_effect = {
+			OTT = {
+				add_state_core = 1012
+			}
+		}
+	}
+	
+	OTT_hasake_coring = {
+		fire_only_once = yes
+		visible = {
+			tag = OTT
+			owns_state = 680
+		}
+		allowed = {
+			owns_state = 680
+		}
+		cost = 10
+		days_remove = 60
+		modifier = {
+			political_power_gain = -0.2
+		}
+		complete_effect = {
+			OTT = {
+				add_state_core = 680
+			}
+		}
+	}
+}

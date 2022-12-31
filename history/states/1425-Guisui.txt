@@ -1,0 +1,26 @@
+
+state={
+	id=1425
+	name="STATE_1425"
+	provinces={
+		7158 7631 10424 12403 
+	}
+	resources={
+		coal=1
+	}
+	history={
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			7631 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=1456400
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

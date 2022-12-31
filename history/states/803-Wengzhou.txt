@@ -1,0 +1,22 @@
+
+state={
+	id=803
+	name="STATE_803"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1698 1922 1943 2074 4947 5736 8031 10881 10911 12739 14982 15029 15615 
+	}
+	manpower=218000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

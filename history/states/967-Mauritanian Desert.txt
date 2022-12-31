@@ -1,0 +1,21 @@
+
+state={
+	id=967
+	name="STATE_967"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		7943 14366 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

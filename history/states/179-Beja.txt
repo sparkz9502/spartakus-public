@@ -1,0 +1,34 @@
+
+state={
+	id=179
+	name="STATE_179"
+	
+	resources={
+		copper=2
+	}
+
+	history={
+		victory_points = {
+			9869 3 
+		}
+		victory_points = {
+			6933 1 
+		}
+		owner = POR
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = POR
+		add_core_of = PRM
+
+	}
+
+	provinces={
+		980 3846 3866 3886 3926 6884 6933 6986 9765 9819 9869 
+	}
+	manpower=721400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

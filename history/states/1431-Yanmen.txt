@@ -1,0 +1,28 @@
+
+state={
+	id=1431
+	name="STATE_1431"
+	resources={
+		coal=4.000
+	}
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			4469 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1027 1203 4093 4469 10053 
+	}
+	manpower=997600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

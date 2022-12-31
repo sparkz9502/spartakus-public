@@ -1,0 +1,25 @@
+
+state={
+	id=604
+	name="STATE_604"
+
+	history={
+		owner = KMC
+		add_core_of = KMC
+		victory_points = {
+			10796 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2053 2099 4536 7997 10750 10796 10834 10865 11448 12815 12846 13146 
+	}
+	manpower=104000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

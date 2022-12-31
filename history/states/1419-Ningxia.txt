@@ -1,0 +1,20 @@
+
+state={
+	id=1419
+	name="STATE_1419"
+	provinces={
+		1985 3742 7803 8055 8081 8127 10724 
+	}
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=1023000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

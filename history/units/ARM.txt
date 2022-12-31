@@ -1,0 +1,128 @@
+﻿division_template = {
+	name = "Hetevakayin Brigad"
+	division_names_group = ARM_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 3 y = 0 }
+	}
+	
+	support = {
+		artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Hetselazorayin Brigad"
+	division_names_group = ARM_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+        artillery = { x = 0 y = 0 }
+        engineer = { x = 0 y = 1 }
+		recon = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1. Hetevakayin Brigad"
+		location = 12320
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Hetevakayin Brigad"
+		location = 12441
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "3. Hetevakayin Brigad"
+		location = 11708
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "4. Hetevakayin Brigad"
+		location = 10472
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "5. Hetevakayin Brigad"
+		location = 12320
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "6. Hetevakayin Brigad"
+		location = 1467
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "7. Hetevakayin Brigad"
+		location = 15662
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "8. Hetevakayin Brigad"
+		location = 6642
+		division_template = "Hetevakayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "1. Hetselazorayin Brigad"
+		location = 12320
+		division_template = "Hetselazorayin Brigad"
+		start_experience_factor = 0.3
+	}
+	division = {
+		name = "2. Hetselazorayin Brigad"
+		location = 10472
+		division_template = "Hetselazorayin Brigad"
+		start_experience_factor = 0.3
+	}
+}
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ARM"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "ARM"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "ARM"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

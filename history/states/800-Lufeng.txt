@@ -1,0 +1,23 @@
+
+state={
+	id=800
+	name="STATE_800"
+
+	history={
+		owner = MON
+		add_core_of = MON
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1689 1728 1774 1781 1791 1798 1834 1855 1859 4697 4751 4777 4858 4882 7676 7773 7799 7808 7843 7864 7870 7881 10539 10560 10563 10623 10634 10669 10695 12520 12544 12579 12614 12649 12675 12695 
+	}
+	manpower=368300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

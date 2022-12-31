@@ -1,0 +1,21 @@
+
+state={
+	id=949
+	name="STATE_949"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		1115 2044 5101 7954 10771 10788 11951 13645 14458 14489 14495 15532 15537 
+	}
+	manpower=295800
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

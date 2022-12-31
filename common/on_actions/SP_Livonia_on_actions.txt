@@ -1,0 +1,28 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			   LIV = {
+					set_variable = {
+						var = LIV.liberal_clique
+						value = 6
+					}
+					set_variable = {
+						var = LIV.conservative_clique
+						value = 8
+					}
+					set_variable = {
+						var = LIV.monarchist_clique
+						value = 10
+					}
+					set_variable = {
+						var = LIV.military_regime_clique
+						value = 12
+					}
+					set_variable = {
+						var = LIV.nationalist_clique
+						value = 8
+					}
+				}
+        }
+    }
+}

@@ -1,0 +1,36 @@
+﻿division_template = {
+	name = "Regimentu Sardu"
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	division = {
+		name = "1a Regimentu Sardu 'Tàtari'"
+		location = 9772
+		division_template = "Regimentu Sardu"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+	division = {
+		name = "2a Regimentu Sardu 'Casteddu'"
+		location = 11773
+		division_template = "Regimentu Sardu"
+		start_experience_factor = 0
+		start_equipment_factor = 0.7
+	}
+}	
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

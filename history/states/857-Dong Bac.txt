@@ -1,0 +1,29 @@
+
+state={
+	id=857
+	name="STATE_857"
+	
+	resources={
+		coal=6
+		raremetals=2
+	}
+
+	history={
+		owner = INC
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = VNA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1073 1157 7015 7093 7518 9948 12065 
+	}
+	manpower=2558300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

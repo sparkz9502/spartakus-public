@@ -1,0 +1,32 @@
+
+state={
+	id=659
+	name="STATE_659"
+
+	history={
+		owner = UAE
+		add_core_of = UAE
+		add_claim_by = YEM
+		victory_points = {
+			13712 1 
+		}
+		victory_points = {
+			5074 1 
+		}
+		buildings = {
+			infrastructure = 1
+			8000 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		2029 4976 5074 8000 12821 12894 13079 13710 13711 13712 13714 13715 13716 13718 
+	}
+	manpower=870000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

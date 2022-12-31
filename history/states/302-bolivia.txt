@@ -1,0 +1,32 @@
+state={
+	id=302
+	name="STATE_302"
+	resources={
+		raremetals=9
+		copper=4
+	}
+	
+	state_category = large_town
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		add_core_of = BOL
+		victory_points = {
+			5230 5
+		}
+
+	}
+
+	provinces={
+		13195 5230 8225 5188 13174
+	}
+	manpower=676400
+	buildings_max_level_factor=1.000
+}

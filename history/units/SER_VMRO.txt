@@ -1,0 +1,31 @@
+﻿ division_template = {
+	name = "Malka Cheta"	# Infantry Division	
+	division_names_group = BUL_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+	}
+	support = { 
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## VMRO Chetas ########
+	division = {
+		name = "VMRO Cheta"  			
+		location = 907
+		division_template = "Malka Cheta"	
+		start_experience_factor = 0.4	
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "VMRO Cheta"  			
+		location = 6886
+		division_template = "Malka Cheta"	
+		start_experience_factor = 0.4	
+		start_equipment_factor = 0.8
+	}
+}

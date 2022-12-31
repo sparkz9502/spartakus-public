@@ -1,0 +1,34 @@
+
+state={
+	id=153
+	name="STATE_153"
+	resources={
+		copper=1.000
+	}
+
+	history={
+		owner = AUS
+		victory_points = {
+			673 1 
+		}
+		victory_points = {
+			11618 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		add_core_of = AUS
+		add_core_of = AWR
+
+	}
+
+	provinces={
+		671 673 6678 9633 9636 11618 11634 
+	}
+	manpower=393400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

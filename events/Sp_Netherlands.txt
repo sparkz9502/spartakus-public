@@ -1,0 +1,36 @@
+###########################
+# Netherlands Events
+###########################
+
+add_namespace = hol
+add_namespace = holflv
+
+# Flavor Events
+
+country_event = {
+	id = holflv.1
+	title = holflv.1.title
+	desc = holflv.1.desc
+	picture = GFX_afsluitdijk_complete
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = holflv.1.a
+	}
+}
+
+country_event = {
+	id = holflv.2
+	title = holflv.2.title
+	desc = holflv.2.desc
+	picture = GFX_afsluitdijk_opened
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = holflv.2.a
+	}
+}

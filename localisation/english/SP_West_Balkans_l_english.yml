@@ -1,0 +1,209 @@
+﻿l_english:
+
+### EthnoMap ###
+
+wbprov.6799:0 "§fTuzla§!"
+wbprov.6983:0 "§oBanja Luka§!"
+wbprov.6614:0 "§fCazin§!"
+wbprov.9586:0 "§fBihać§!"
+wbprov.6619:0 "§oPrijedor§!"
+wbprov.9588:0 "§fGradiška§!"
+wbprov.11572:0 "§fDoboj§!"
+wbprov.6957:0 "§dLivno§!"
+wbprov.9922:0 "§fZenica§!"
+wbprov.606:0 "§oBijeljina§!"
+wbprov.11741:0 "§oZvornik§!"
+wbprov.11899:0 "§fSarajevo§!"
+wbprov.11574:0 "§dBrčko§!"
+wbprov.15334:0 "§oTrebinje§!"
+wbprov.9894:0 "§dMostar§!"
+wbprov.984:0 "§oKnin§!"
+
+regprov.6799:0 "Tuzla"
+regprov.6983:0 "Banja Luka"
+regprov.6614:0 "Cazin"
+regprov.9586:0 "Bihać"
+regprov.6619:0 "Prijedor"
+regprov.9588:0 "Gradiška"
+regprov.11572:0 "Doboj"
+regprov.6957:0 "Livno"
+regprov.9922:0 "Zenica"
+regprov.606:0 "Bijeljina"
+regprov.11741:0 "Zvornik"
+regprov.11899:0 "Sarajevo"
+regprov.11574:0 "Brčko"
+regprov.15334:0 "Trebinje"
+regprov.9894:0 "Mostar"
+regprov.984:0 "Knin"
+
+### Opinions ###
+
+### Events ###
+
+#generic
+WestBalkans.1.t:0 "Enable Ethno Map Assist? (Currently Bosnia-Only)"
+WestBalkans.1.d:0 ""
+WestBalkans.1.a:0 "Sounds useful!"
+WestBalkans.1.b:0 "No thanks!"
+
+#instability
+EthnoDissent.2.t:0 "Autonomist Organizations Recruiting"
+EthnoDissent.2.d:0 "Moderate nationalist organizations campaigning for securing the rights and greater independence of particular minority ethnic groups in our country have been growing their ranks, especially among the youth. How should we respond?"
+EthnoDissent.2.a:0 "Attempt to control these groups."
+EthnoDissent.2.b:0 "They have the right to organize!"
+
+### Parties ###
+
+### Focuses ###
+
+### Ideas ###
+
+Bosniak_Dissent:0 "Bosniak Dissent"
+Bosniak_Dissent_desc:0 "While organizations such as the Young Muslims and the Bosnian Muslim Organization are on the rise, the Bosniak people do not yet possess as much of a united of a set of nationalist mythos as Serbs and Croats do, nor are they as generally populous or politically influential. Regardless, due to past and present hostilities with its neighbors, the Bosniak people will not easily surrender to foreign rule and the influence of the aforementioned organizations will only grow. §rWe will receive significant penalties for as long as we unlawfully possess any predominately Bosniak territory.§!"
+Croat_Dissent:0 "Croat Dissent"
+Croat_Dissent_desc:0 "The Croats have a nearly millenium-spanning history of foreign rule, mostly under Hungary and Venice. Due to the trauma of constant subjugation, the Croats have a particularly strong nationalist orientation and will prove troublesome to occupy, particularly by any of their neighbors or Hungary. §rWe will receive significant penalties for as long as we unlawfully possess any predominately Croat territory.§!"
+Serb_Dissent:0 "Serb Dissent"
+Serb_Dissent_desc:0 "Serbia has perhaps the most developed and strengthened strand of south Slavic nationalism of all its neighbors, originating from the mythologization of its struggle against and under the Ottomans since the late middle ages into the 19th century, during which at no point it has lost its older national and religious identity. §rWe will receive significant penalties for as long as we unlawfully possess any predominately Serb territory.§!"
+
+### Decisions ###
+
+YUG_Release_Countries:0 "Release Countries"
+YUG_Release_Bosnia:0 "Release Bosnia"
+YUG_Release_Croatia:0 "Release Croatia"
+YUG_Release_Serbia:0 "Release Serbia"
+
+#Literacy
+
+#ideas
+WB_Idea_Illiteracy_High:0 "Very High Illiteracy"
+WB_Idea_Illiteracy:0 "High Illiteracy"
+
+#variables
+SER_literacy_rate_low_variable:0 "§RProjected Literacy Rate:§! §R[?SER.literacy_rate|0]%§!"
+SER_literacy_rate_medium_variable:0 "§YProjected Literacy Rate:§! §Y[?SER.literacy_rate|0]%§!"
+SER_literacy_rate_high_variable:0 "§GProjected Literacy Rate:§! §G[?SER.literacy_rate|0]%§!"
+
+STJ_literacy_rate_low_variable:0 "§RProjected Literacy Rate:§! §R[?STJ.literacy_rate|0]%§!"
+STJ_literacy_rate_medium_variable:0 "§YProjected Literacy Rate:§! §Y[?STJ.literacy_rate|0]%§!"
+STJ_literacy_rate_high_variable:0 "§GProjected Literacy Rate:§! §G[?STJ.literacy_rate|0]%§!"
+
+BOS_literacy_rate_low_variable:0 "§RProjected Literacy Rate:§! §R[?BOS.literacy_rate|0]%§!"
+BOS_literacy_rate_medium_variable:0 "§YProjected Literacy Rate:§! §Y[?BOS.literacy_rate|0]%§!"
+BOS_literacy_rate_high_variable:0 "§GProjected Literacy Rate:§! §G[?BOS.literacy_rate|0]%§!"
+
+ALB_literacy_rate_low_variable:0 "§RProjected Literacy Rate:§! §R[?ALB.literacy_rate|0]%§!"
+ALB_literacy_rate_medium_variable:0 "§YProjected Literacy Rate:§! §Y[?ALB.literacy_rate|0]%§!"
+ALB_literacy_rate_high_variable:0 "§GProjected Literacy Rate:§! §G[?ALB.literacy_rate|0]%§!"
+
+### Decisions ###
+
+#Map Assit
+YUG_Map_Assist:0 "West Balkans Ethnic Overlay"
+YUG_Map_Assist_desc:0 "If you are unsure of what ethnic group is predominant in a particular area and want to avoid occupying another one and incurring dissent, you can use this overlay to check the general composition of the general areas of VPs.\n\nThe colors are as follows:\n§oOrange - Serb§!\n§dBlue - Croat§!\n§fGreen - Bosniak§!"
+YUG_Map_Assist_Enable:0 "Enable Ethnic Overlay"
+YUG_Map_Assist_Disable:0 "Disable Ethnic Overlay"
+
+#ser
+SER_Literacy:0 "Mass Illiteracy in Serbia"
+SER_Literacy_desc:0 "While exact numbers are hard to procure, it can be safely said that Yugoslav countries have a massive illiteracy problem, particularly in Bosnia and south Serbia. We can address this through a variety of actions and programs, but it will be a long and arduous process.\n\nLiteracy has a low base growth rate that can be increased through decisions and the focus tree. \n\n[GetSERLiteracyVariables]"
+SER_Additional_Funding:0 "Additional funding for schools §Y(Yearly)§!"
+SER_Subsidize_Textbooks:0 "Subsidize textbooks"
+SER_New_Teaching_Standards:0 "Introduce new teaching standards"
+SER_Modernize_Curriculum:0 "Modernize the curriculum"
+SER_Expand_Adult_Education:0 "Expand adult education"
+
+#stj
+STJ_Literacy:0 "Mass Illiteracy in Croatia"
+STJ_Literacy_desc:0 "While exact numbers are hard to procure, it can be safely said that Yugoslav countries have a massive illiteracy problem, particularly in Bosnia and south Serbia. We can address this through a variety of actions and programs, but it will be a long and arduous process.\n\nLiteracy has a low base growth rate that can be increased through decisions and the focus tree. \n\n[GetSTJLiteracyVariables]"
+STJ_Additional_Funding:0 "Additional funding for schools §Y(Yearly)§!"
+STJ_Subsidize_Textbooks:0 "Subsidize textbooks"
+STJ_New_Teaching_Standards:0 "Introduce new teaching standards"
+STJ_Modernize_Curriculum:0 "Modernize the curriculum"
+STJ_Expand_Adult_Education:0 "Expand adult education"
+
+#bos
+BOS_Literacy:0 "Mass Illiteracy in Bosnia and Herzegovina"
+BOS_Literacy_desc:0 "While exact numbers are hard to procure, it can be safely said that Yugoslav countries have a massive illiteracy problem, particularly in Bosnia and south Serbia. We can address this through a variety of actions and programs, but it will be a long and arduous process.\n\nLiteracy has a low base growth rate that can be increased through decisions and the focus tree. \n\n[GetBOSLiteracyVariables]"
+BOS_Additional_Funding:0 "Additional funding for schools §Y(Yearly)§!"
+BOS_Subsidize_Textbooks:0 "Subsidize textbooks"
+BOS_New_Teaching_Standards:0 "Introduce new teaching standards"
+BOS_Modernize_Curriculum:0 "Modernize the curriculum"
+BOS_Expand_Adult_Education:0 "Expand adult education"
+
+
+#alb
+ALB_Literacy:0 "Mass Illiteracy in Albania"
+ALB_Literacy_desc:0 "While exact numbers are hard to procure, it can be safely said that Albania faces a massive illiteracy problem, particularly in the rural province of Mat and the Southern region of Gjirokastra. We can address this through a variety of actions and programs, but it will be a long and arduous process.\n\nLiteracy has a low base growth rate that can be increased through decisions and the focus tree. \n\n[GetALBLiteracyVariables]"
+ALB_Additional_Funding:0 "Additional funding for schools §Y(Yearly)§!"
+ALB_Subsidize_Textbooks:0 "Subsidize textbooks"
+ALB_New_Teaching_Standards:0 "Introduce new teaching standards"
+ALB_Open_Schools_in_Mat:0 "Open schools in Mat"
+ALB_Open_Schools_in_Gjirokastra:0 "Open schools in Gjirokastra"
+ALB_Adopt_Western_Education_System:0 "Adopt Western education system"
+ALB_Adopt_Eleven_Year_Curriculum:0 "Adopt eleven year curriculum"
+ALB_Expand_Vocational_Education:0 "Expand vocational education"
+
+#state decisions
+SER_Open_Schools_in_Macva_and_Kolubara:0 "Open Schools in Mačva and Kolubara"
+SER_Open_Schools_in_Sumadija:0 "Open Schools in Šumadija"
+SER_Open_Schools_in_Timok:0 "Open Schools in Timok"
+SER_Open_Schools_in_Pomoravlje:0 "Open Schools in Pomoravlje"
+SER_Open_Schools_in_Pirot:0 "Open Schools in Pirot"
+SER_Open_Schools_in_Kosovo_Serb:0 "Open Albanian-Exclusionary Schools in Kosovo"
+SER_Open_Schools_in_Kosovo_Inclusive:0 "Open Albanian-Inclusive Schools in Kosovo"
+
+BOS_Open_Schools_Far_Northwest:0 "Open Schools Far Northwest"
+BOS_Open_Schools_in_Krajina:0 "Open Schools in Krajina"
+BOS_Open_Schools_in_Brcko:0 "Open Schools in Brčko"
+BOS_Open_Schools_in_Semberija:0 "Open Schools in Semberija"
+BOS_Open_Schools_in_Tropolje:0 "Open Schools in Tropolje"
+BOS_Empower_Franciscans_in_Tropolje:0 "Empower Franciscans in Tropolje"
+BOS_Open_Schools_in_Herzegovina:0 "Open Schools in Herzegovina"
+BOS_Empower_Franciscans_in_Herzegovina:0 "Empower Franciscans in Herzegovina"
+BOS_Open_Schools_in_Tuzla:0 "Open Schools in Tuzla"
+BOS_Open_Schools_in_Podrinje:0 "Open Schools in Podrinje"
+BOS_Open_Schools_in_Trebinje:0 "Open Schools in Trebinje"
+
+### Flags ###
+
+YUG_Map_Assist_Enabled:0 "Has enabled the map overlay"
+
+Bosniak_Dissent_Flag:0 "We possess Bosniak-majority territory"
+Croat_Dissent_Flag:0 "We possess Croat-majority territory"
+Serb_Dissent_Flag:0 "We possess Serb-majority territory"
+Serbs_cant_read:0 "Mass Illiteracy in Serbia"
+Croats_cant_read:0 "Mass Illiteracy in Croatia"
+Bosnians_cant_read:0 "Mass Illiteracy in Bosnia and Herzegovina"
+Albanians_cant_read:0 "Mass Illiteracy in Albania"
+
+### Tooltips ###
+
+WBLiteracy_boost_tooltip:0 "§GCompleting this focus will grant a 0.1% trimonthly growth boost to our literacy rate.§!"
+Minority_Literacy:0 "§GEmancipating our minorities will enable more of them to achieve a higher degree of education, adding a overall +1% to projected literacy.§!"
+
+WBAdditional_Funding:0 "We can additionaly fund schools each years to add a overall §G+1%§! to projected literacy."
+WBSubsidize_Textbooks:0 "Subsidizing the production and distribution of textbooks will make access to education easier for this generation, adding a overall §G+1%§! to projected literacy.\n\n"
+WBNew_Teaching_Standards:0 "Improving the standards of teaching in our country will make the education system more efficient, adding a overall §G+1%§! to projected literacy.\n\n"
+WBModernize_Curriculum:0 "Our schools are struggling with antiquated methods of teaching and a poorly defined curriculum. Resolving this will make education more efficient, adding a overall §G+1%§! to projected literacy.\n\n"
+WBExpand_Adult_Education:0 "Most of our illiterate population is older, so offering them a chance at education in their age is vital. This will add a overall §G+1%§! to projected literacy.\n\n"
+
+
+SER_Schools_Macva_Kolubara:0 "The west of Serbia is one of the relatively more literate regions alongside Šumadija, but rural areas, particularly along §YLoznica§!, are still struggling with over §R70%§! of the population illiterate.\n\n§GFunding the opening of more schools in this area will add a overall +3% to projected literacy.§!\n"
+SER_Schools_Sumadija:0 "Šumadija is perhaps the most literate region of Serbia, being close to the capital and moderately developed. Still, less than §Y50%§! of its population is literate.\n\n§GFunding the opening of more schools in this area will add a overall +2% to projected literacy.§!\n"
+SER_Schools_Timok:0 "The portion of northern Serbia east of the Timok river is the least developed one, with much of it over §R70%§! illiterate.\n\n§GFunding the opening of more schools in this area will add a overall +3% to projected literacy.§!\n"
+SER_Schools_Pomoravlje:0 "The southwestern bank of the Morava river is generally even more backwards than the northeastern, and struggling to keep up with the north. It's also less populated, so while bringing a proper education will be harder, it won't yield in a great increase in literacy.\n\n§GFunding the opening of more schools in this area will add a overall +2% to projected literacy.§!\n"
+SER_Schools_Pirot:0 "The southeast of core Serbia has a generally more concentrated as well as smaller population, which makes expanding the education system there easier than in the rest of the country.\n\n§GFunding the opening of more schools in this area will add a overall +1% to projected literacy.§!\n"
+SER_Schools_Kosovo_Serb:0 "Unlike the rest of Serbia, the majority of Kosovo's population is made up of Albanians. However, this government is strongly oriented towards Serbian nationalism, so it will pursue an education system on Kosovo that prioritizes education in the Serbian language.\n\n§YFunding the opening of more schools in this area will add a overall +1% to projected literacy, but will also anger the local Albanian population.§!\n"
+SER_Schools_Kosovo_Inclusive:0 "Unlike the rest of Serbia, the majority of Kosovo's population is made up of Albanians. This government supports equal rights for all its citizens, so it will pursue an education system on Kosovo that will allow both Serb and Albanian students equal access to schooling.\n\n§GFunding the opening of more schools in this area will add a overall +3% to projected literacy.§!\n"
+
+BOS_Schools_Far_Northwest:0 "The furthest northwest of Bosnia is as thoroughly lacking in terms of education as the rest of the country. Only §YBihać§! sports a meager §R30%§! of literate population, while the area around §YCazin§! is well below the national average with not even §R10%§! of the population able to read.\n\n§GFunding the opening of more schools in this area will add a overall +2% to projected literacy.§!\n"
+BOS_Schools_in_Krajina:0 "Bosnian Krajina varies widely in its still generally abysmal literacy rate. While more affluent Serb merchants are able to afford their children an education and the north remains somewhere above the national average, the south, as well as §YPrijedor§! are struggling to catch up, with a literacy hardly at §R10%§! or even less in some places.\n\n§GFunding the opening of more schools in this area will add a overall +3% to projected literacy.§!\n"
+BOS_Schools_in_Brcko:0 "The literacy in Brčko is relatively high compared to the rest of Bosnia, at double the national average at the start of the 30s. It's also a smaller and less populated area, so while expanding the education system here will be cheaper, it will have less of an effect on the country as a whole.\n\n§GFunding the opening of more schools in this area will add a overall +1% to projected literacy.§!\n"
+BOS_Schools_in_Semberija:0 "Semberija is a small plain secluded between the Drina and Sava rivers, most of its population sharply split between the rural Serbs and urban Bosniaks. Its relatively developed and urbanized nature results in a literacy rate surprisingly well above the average, with over §Y40%§! of the population literate. Therefore, it is not a priority and due to its small scale the effect of working on it would be low.\n\n§GFunding the opening of more schools in this area will add a overall +1% to projected literacy.§!\n"
+BOS_Schools_in_Tropolje:0 "Tropolje represents perhaps the most backwards and underdeveloped area of Bosnia, only notable for its agriculture. The literacy rate of this region is absolutely abysmal, and almost all educated people belong to the Catholic clergy. Due to the rough terrain and disparate village structure, building a network of schools here will be exceptionally difficult.\n\n§GFunding the opening of more schools in this area will add a overall +1% to projected literacy.§!\n"
+BOS_Franciscans_in_Tropolje:0 "The Franciscan Order has long been the sole authority on education in these parts. While it may seem backwards, religious education is certainly the easiest way to get into educating the populace here, and will make the Croatian people feel like they have more of a voice in Bosnia.\n\n§GSupporting the Franciscans in this area will add a overall +1% to projected literacy and mildly increase §BCroat§! approval.§!\n"
+BOS_Schools_in_Herzegovina:0 "Herzegovina is the expansive, Croat-dominated region of Bosnia surrounding the Neretva river. Other than the south and the city of §YMostar§!, which stand at around §R30%§! literacy, Herzegovina is generally steadily at or below the national average.\n\n§GFunding the opening of more schools in this area will add a overall +2% to projected literacy.§!\n"
+BOS_Franciscans_in_Herzegovina:0 "The Franciscan Order has long been the sole authority on education in these parts. While it may seem backwards, religious education is certainly the easiest way to get into educating the populace here, and will make the Croatian people feel like they have more of a voice in Bosnia.\n\n§GSupporting the Franciscans in this area will add a overall +1% to projected literacy and mildly increase §BCroat§! approval.§!\n"
+BOS_Schools_in_Tuzla:0 "The area west of the city of §YTuzla§! is fairly homogenous in terms of literacy, generally fluctuating between §R10%§! and §R20%§!.\n\n§GFunding the opening of more schools in this area will add a overall +3% to projected literacy.§!\n"
+BOS_Schools_in_Podrinje:0 "The western bank of the Drina river is one of the least literate parts of Bosnia, with few able to read outside §YZvornik§!.\n\n§GFunding the opening of more schools in this area will add a overall +2% to projected literacy.§!\n"
+BOS_Schools_in_Trebinje:0 "Despite not being particularly developed, the area around §YTrebinje§! is surprisingly literate compared to the rest of the country, the city itself standing at around §R40%§!.\n\n§GFunding the opening of more schools in this area will add a overall +2% to projected literacy.§!\n"

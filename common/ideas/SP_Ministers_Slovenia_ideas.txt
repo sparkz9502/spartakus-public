@@ -1,0 +1,691 @@
+ideas = {
+
+################################################################################################################################################################################################
+### SLV
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	SLV_Boris_Kidric_hog_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Lovro_Klemencic_hog_rev = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Albert_Kramer_hog_lco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Anton_Korosec_hog_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Marko_Natlacen_hog_aco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	SLV_Edvard_Kardelj_for_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Bogumil_Vosnjak_for_lco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Alojzij_Kuhar_for_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Franc_Snoj_for_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Izidor_Cankar_for_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Lambert_Ehrlich_for_aco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	SLV_Boris_Kidric_eco_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Franc_Leskosek_eco_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Gregor_Zerjav_eco_lco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Anton_Rojina_eco_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Franc_Snoj_eco_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Miha_Krek_eco_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Joze_Basaj_eco_aco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	SLV_Ivan_Macek_sec_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Tone_Tomsic_sec_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Franjo_Lipold_sec_lco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Alojzij_Juvan_sec_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Josip_Leskovar_sec_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Lovro_Hacin_sec_aco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	SLV_Boris_Kidric_def_spa = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Karl_Novak_def_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Vladimir_Vauhnik_def_sco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Albert_Ilovar_def_aco = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	SLV_Franc_Rozman_cos = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Jakob_Avsic_cos = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Anton_Kokalj_cos = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Ernest_Peterlin_cos = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	SLV_Franc_Rozman_carm = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Rudolf_Maister_carm = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Leon_Rupnik_carm = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Milko_Vizjak_carm = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	SLV_Ivan_Kern_cnav = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Metod_Koch_cnav = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Franjo_Vucer_cnav = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	SLV_France_Pirc_cair = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Rudolf_Maister_cair = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	SLV_Milko_Vizjak_cair = {
+		allowed = {original_tag = SLV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

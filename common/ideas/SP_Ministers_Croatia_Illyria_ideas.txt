@@ -1,0 +1,1330 @@
+ideas = {
+################################################################################################################################################################################################
+### CRO
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	CRO_Andrija_Hebrang_hog_bol = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ante_Ciliga_hog_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_August_Cesarec_hog_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Ribar_hog_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Subasic_hog_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladko_Macek_hog_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Antun_pl_Mihalovic_hog_aco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ante_Pavelic_hog_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	CRO_Aleksa_Dundic_for_bol = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Ribar_for_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Svetozar_Delic_for_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Miroslav_Krleza_for_rev = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladimir_Nazor_for_rev = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Juraj_Krnjevic_for_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladko_Macek_for_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Antun_pl_Mihalovic_for_aco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Milan_Budak_for_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Mladen_Lorkovic_for_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	CRO_Aleksa_Dundic_eco_bol = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_tank_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_August_Cesarec_eco_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Ribar_eco_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_August_Kosutic_eco_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Andres_eco_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Krajac_eco_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Stanko_Sverljuga_eco_aco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Dido_Kvaternik_eco_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	CRO_Ante_Ciliga_sec_spa = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladimir_Copic_sec_rev = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Srdjan_Budisavljevic_sec_lco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Djuro_Basaricek_sec_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Pernar_sec_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivo_Krbek_sec_sco = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vilko_Begic_sec_rwp = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Andrija_Artukovic_sec_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Mladen_Lorkovic_sec_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_crooked_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	CRO_Andrija_Hebrang_def_bol = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladimir_Copic_def_rev = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vilko_Begic_def_rwp = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Adalbert_Rogulja_def_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Mladen_Lorkovic_def_nsy = {
+		allowed = {
+			OR = {
+				original_tag = CRO
+				original_tag = STJ
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	CRO_Vladimir_Copic_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Fedor_Dragojlov_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Mihajlo_Lukic_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Marko_Mesic_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Viktor_Pavicic_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Ivan_Percevic_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Slavko_Kvaternik_cos = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	CRO_Aleksa_Dundic_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladimir_Copic_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Fedor_Dragojlov_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Miroslav_Navratil_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Slavko_Stancer_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vilko_Begic_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Slavko_Kvaternik_carm = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	CRO_Bogdan_Pecotic_cnav = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Marijan_Polic_cnav = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Nikola_Steinfel_cnav = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Djuro_Jakcin_cnav = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	CRO_Viktor_Bubanj_cair = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Emil_Uzelac_cair = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Miroslav_Navratil_cair = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	CRO_Vladimir_Kren_cair = {
+		allowed = {original_tag = CRO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

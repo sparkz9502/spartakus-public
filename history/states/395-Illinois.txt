@@ -1,0 +1,45 @@
+
+state={
+	id=395
+	name="STATE_395"
+	
+	resources={
+		coal=66
+		oil=6
+	}
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			fuel_silo = 1
+			air_base = 3
+
+		}
+		add_core_of = USA
+		victory_points = {
+			12368 1 
+		}
+		victory_points = {
+			12312 1 
+		}
+		victory_points = {
+			1527 1 
+		}
+		victory_points = {
+			12697 3 
+		}
+		victory_points = {
+			9682 1 
+		}
+
+	}
+
+	provinces={
+		720 954 1527 1604 1655 4508 4590 6737 7611 7626 7831 10339 10393 10457 10461 11589 12305 12312 12365 12497 12697 
+	}
+	manpower=3069000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

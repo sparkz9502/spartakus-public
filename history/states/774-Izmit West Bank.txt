@@ -1,0 +1,33 @@
+
+state={
+	id=774
+	name="STATE_774"
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+		}
+		victory_points = {
+			11829 15 
+		}
+		victory_points = {
+			11811 7 
+		}
+		victory_points = {
+			3851 2 
+		}
+		add_core_of = OTT
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		11829 
+	}
+	manpower=437660
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

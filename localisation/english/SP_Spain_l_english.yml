@@ -1,0 +1,55 @@
+﻿l_english:
+
+### Leader Traits ###
+
+### Decisions ###
+
+### Ideas ###
+
+SPR_Agrarian_Question_idea:0 "The Agrarian Question"
+SPR_Agrarian_Question_idea_desc:0 "Ever since the Reconquista unfolded many centuries ago, the distribution of land in the South of Spain tended to create big parcels owned by large landlords, while the peasants that farm them do not have right to their land and are paid extremely low wages, living in precarious conditions. It is time for us to fix this situation and to redistribute the land so that who farms it shall be its owner."
+SPR_Military_Unrest_idea:0 "Military Unrest"
+SPR_Military_Unrest_idea_desc:0 "In 1931, Minister of War Manuel Azaña carried on with a series of military reforms, aiming at reducing the bloated officer corps and reaorganizing and streamlining our armed forces, as well as closing down the Zaragozan Military Academy. However, these reforms are not of the liking of many powerful men, and despite recent events, the officer corps is slowly leaning hard right. We must watch over them closely."
+SPR_Unstable_Coalition_idea:0 "Unstable Coalition"
+SPR_Unstable_Coalition_idea_desc:0 "Having the right-republicans left our governing program over our solution to the issue of religion, we are free to govern together with the left-republicans and the socialists, despite having made president the right-republican Niceto Alcalá-Zamora. We must establish reforms in order to conduct Spain towards a progressive direction, however, at a moments notice any tiny issue will blow up and we will be forced to change our plans."
+SPR_Decelerating_Economy_idea:0 "Decelerating Economy"
+SPR_Decelerating_Economy_idea_desc:0 "The Spanish Economy isn't doing very well after the economic deceleration which started occurring in recent times. We must take steps to revitalize our economic sector and for Spain to stay competitive again."
+SPR_Generalized_Illiteracy_idea:0 "Generalized Illiteracy"
+SPR_Generalized_Illiteracy_idea_desc:0 "Ever since we have come to power in 1931, our country has had a huge illiteracy issue. We must give a precedent to the rest of the world and continue our extensive literacy programs, so that workers and peasants know how to read and we can progress as a nation."
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+
+SPR_bolshevist_party:0 "PCE"
+SPR_bolshevist_party_long:0 "Partido Comunista de España"
+SPR_spartacist_party:0 "PSOE (caballerista)"
+SPR_spartacist_party_long:0 "Partido Socialista Obrero Español (Caballerista Wing)"
+SPR_reformist_socialist_party:0 "PSOE (prietista)"
+SPR_reformist_socialist_party_long:0 "Partido Socialista Obrero Español (Prietista Wing)"
+SPR_revolutionary_socialist_party:0 "CNT"
+SPR_revolutionary_socialist_party_long:0 "Confederación Nacional del Trabajo"
+SPR_social_democrat_party:0 "PSOE"
+SPR_social_democrat_party_long:0 "Partido Republicano Radical Socialista"
+SPR_social_liberal_party:0 "AR / PRRS"
+SPR_social_liberal_party_long:0 "Acción Republicana"
+SPR_liberal_conservative_party:0 "PRR"
+SPR_liberal_conservative_party_long:0 "Derecha Liberal Republicana"
+SPR_social_conservative_party:0 "DLR"
+SPR_social_conservative_party_long:0 "Partido Republicano Radical"
+SPR_authoritarian_conservative_party:0 "PAE"
+SPR_authoritarian_conservative_party_long:0 "Partido Agrario Español"
+SPR_right_wing_populist_party:0 "CT"
+SPR_right_wing_populist_party_long:0 "Comunión Tradicionalista"
+SPR_national_syndicalist_party:0 "JCAH"
+SPR_national_syndicalist_party_long:0 " Juntas Castellanas de Actuación Hispánica "
+SPR_national_corporatist_party:0 "PNE"
+SPR_national_corporatist_party_long:0 "Partido Nacionalista Español"
+
+### Focuses ###
+
+### Leader Descriptions ###
+
+### Events ###

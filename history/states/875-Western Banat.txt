@@ -1,0 +1,27 @@
+
+state={
+	id=875
+	name="STATE_875"
+
+	history={
+		owner = ROM
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = SER
+		add_claim_by = HUN
+		add_core_of = ROM
+		victory_points = {
+			3614 4 
+		}
+
+	}
+
+	provinces={
+		614 3614 6643 11787 
+	}
+	manpower=616400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,582 @@
+characters={
+    CZE_tomas_garrigue_masaryk = {
+        name = "Tomáš Garrigue Masaryk"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Tomas_Masaryk.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_TOMAS_MASARYK_DESC"
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_TOMAS_MASARYK_DESC"
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_TOMAS_MASARYK_DESC"
+            expire = "1965.1.1"
+            ideology = social_liberal_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_TOMAS_MASARYK_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_TOMAS_MASARYK_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_TOMAS_MASARYK_DESC"
+            expire = "1965.1.1"
+            ideology = right_wing_populist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CZE_hans_knirsch = {
+        name = "Hans Knirsch"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Hans_Knirsch.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HANS_KNIRSCH_DESC"
+            expire = "1965.1.1"
+            ideology = national_syndicalist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CZE_radola_gajda = {
+        name = "Radola Gajda"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Radola_Gajda.tga"
+            }
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Radola_Gajda.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_RADOLA_GAJDA_DESC"
+            expire = "1965.1.1"
+            ideology = national_corporatist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                winter_specialist
+                commando
+            }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_bohumir_smeral = {
+        name = "Bohumír Šmeral"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Bohumir_Smeral.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_BOHUMIR_SMERAL_DESC"
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CZE_alois_muna = {
+        name = "Alois Muna"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Alois_Muna.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ALOIS_MUNA_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CZE_bohumil_jilek = {
+        name = "Bohumil Jílek"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Bohumil_Jilek.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_BOHUMIL_JILEK_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CZE_bohuslav_vrbensky = {
+        name = "Bohuslav Vrbenský"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Bohuslav_Vrbensky.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_BOHUSLAV_VRBENSKY_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    ### Field Marshal
+
+    CZE_jan_syrovy = {
+        name = "Jan Syrový"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Jan_Syrovy.tga"
+            }
+        }
+        field_marshal={
+            traits = {
+                trait_CZE_legionnaire
+                old_guard
+                commando
+            }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CZE_ludvik_krejci = {
+        name = "Ludvík Krejčí"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Ludvik_Krejci.tga"
+            }
+        }
+        field_marshal={
+            traits = {
+                trait_CZE_legionnaire
+                old_guard
+                inflexible_strategist
+                defensive_doctrine
+            }
+            skill = 4
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+
+    CZE_josef_bily = {
+        name = "Josef Bílý"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Josef_Bily.tga"
+            }
+        }
+        field_marshal={
+            traits = {
+                old_guard
+                trait_mountaineer
+            }
+            skill = 4
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    ### Corps Commander
+
+    CZE_josef_snejdarek = {
+        name = "Josef Šnejdárek"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Josef_Snejdarek.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                old_guard
+                trait_reckless
+            }
+            skill = 3
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+
+    CZE_vojtech_luza = {
+        name = "Vojtěch Luža"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Vojtech_Luza.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                harsh_leader
+                armor_officer
+                adaptable
+            }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CZE_sergej_vojcechovsky = {
+        name = "Sergej Vojcechovský"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Sergej_Vojcechovsky.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                old_guard
+                winter_specialist
+            }
+            skill = 2
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_lev_prchala = {
+        name = "Lev Prchala"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Lev_Prchala.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                old_guard
+                ranger
+            }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_alois_elias = {
+        name = "Alois Eliáš"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Alois_Elias.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                politically_connected
+                trait_engineer
+            }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_hugo_vojta = {
+        name = "Hugo Vojta"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Hugo_Vojta.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                bearer_of_artillery
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+
+    CZE_bohuslav_vseticka = {
+        name = "Bohuslav Všetička"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Bohuslav_Vseticka.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                bearer_of_artillery
+            }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CZE_rudolf_medek = {
+        name = "Rudolf Medek"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Rudolf_Medek.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                trickster
+                commando
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_frantisek_balate = {
+        name = "František Balátě"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Frantisek_Balate.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                trait_cautious
+            }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_antonin_basl = {
+        name = "Antonín Basl"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Antonin_Basl.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                hill_fighter
+                infantry_leader
+            }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_frantisek_blaha = {
+        name = "František Bláha"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Frantisek_Blaha.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                ranger
+            }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 4
+            legacy_id=-1
+        }
+    }
+
+    CZE_frantisek_slunecko = {
+        name = "František Slunečko"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Frantisek_Slunecko.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                infantry_leader
+            }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_zdenek_novak = {
+        name = "Zdeněk Novák"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Zdenek_Novak.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_CZE_legionnaire
+                bearer_of_artillery
+            }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 4
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CZE_vaclav_moravek = {
+        name = "Václav Morávek"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Vaclav_Moravek.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trickster
+                trait_engineer
+                bearer_of_artillery
+            }
+            skill = 1
+            attack_skill = 2
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CZE_emanuel_moravec = {
+        name = "Emanuel Moravec"
+        portraits={
+            army={
+                large = "gfx/leaders/CZE/Portrait_Czechia_Emanuel_Moravec.tga"
+            }
+        }
+        corps_commander={
+            traits = {
+                trait_engineer
+                trickster
+                trait_CZE_legionnaire
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+}

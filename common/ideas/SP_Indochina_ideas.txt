@@ -1,0 +1,23 @@
+### Indochine ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {	
+		VNA_national_resurrection = {
+			modifier = {
+				political_power_factor = 0.1
+				surrender_limit = 1	
+			}
+			
+			picture = VNA_annamite_revolt
+		}
+		VNA_unorganised = {
+			modifier = {
+				army_org_factor = -0.3
+			}
+			picture = VNA_annamite_revolt2
+		}		
+	}
+}

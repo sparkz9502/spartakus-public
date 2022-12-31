@@ -1,0 +1,37 @@
+characters={
+    ETH_haile_selassie = {
+        name = "Haile Selassie"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ETH/Portrait_Haile_Selassie.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HAILE_SELASSIE_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    ETH_seyoum_mengesha = {
+        name = "Seyoum Mengesha"
+        portraits={
+            army={
+                large = "gfx/leaders/Africa/Portrait_Africa_Generic_land_3.dds"
+            }
+        }
+        corps_commander={
+            traits = {  desert_fox }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+}

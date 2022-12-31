@@ -1,0 +1,16 @@
+add_namespace = CRB
+
+country_event = { # Establishing CRB
+	id = CRB.1
+	title = CRB.1.t
+	desc = CRB.1.desc
+	picture = GFX_CRB_establish_CRB
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = CRB.1.a
+	}
+}

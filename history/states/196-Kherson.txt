@@ -1,0 +1,32 @@
+
+state={
+	id=196
+	name="STATE_196"
+	resources={
+		iron=109
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			11561 5
+		}
+		victory_points = {
+			3755 1
+		}
+		add_core_of = SOV
+		#add_core_of = UKR
+
+	}
+
+	provinces={
+		568 721 737 767 3573 3755 6423 9419 9573 9712 11422 11561 11715 
+	}
+	manpower=1830900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,21 @@
+
+state={
+	id=911
+	name="STATE_911"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		1994 4902 5136 10893 15550 
+	}
+	manpower=100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=1242
+	name="STATE_1242"
+
+	history={
+		owner = USA
+		victory_points = {
+			9450 30 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 6
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		9450 9682 12368 
+	}
+	manpower=4254200
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

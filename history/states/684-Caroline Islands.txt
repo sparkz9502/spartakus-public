@@ -1,0 +1,34 @@
+
+state={
+	id=684
+	name="STATE_684"
+
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			13030 = {
+				naval_base = 1
+
+			}
+			13031 = {
+				naval_base = 1
+
+			}
+			13032 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		13030 13031 13032 
+	}
+	manpower=2670
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

@@ -1,0 +1,34 @@
+### Gilan Soviet Ideas ###
+ideas = {
+
+	country = {
+	
+		GLN_Heirs_of_the_Jangal_Movement = {
+			picture = GLN_Jangal_Heir
+			modifier = {
+				conscription_factor = 0.10
+				war_support_factor = 0.10
+				army_morale_factor = 0.05
+			}
+		}
+	
+		GLN_Economic_Modernization = {
+			picture = Economic_Modernization
+			modifier = {
+				consumer_goods_factor = -0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.10
+			}
+		}
+		
+		GLN_Traditionalist_Resistance = {
+			picture = GLN_Trad_Resistance
+			modifier = {
+				political_power_gain = -0.15
+				stability_factor = -0.20
+				war_support_factor = -0.10
+			}
+		}
+	
+	}
+}

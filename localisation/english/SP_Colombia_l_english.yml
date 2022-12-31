@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+COL_bolshevist_party:0 "PCC"
+COL_bolshevist_party_long:0 "Partido Comunista de Colombia"
+COL_spartacist_party:0 "PCC"
+COL_spartacist_party_long:0 "Partido Comunista de Colombia"
+COL_revolutionary_socialist_party:0 "PCC"
+COL_revolutionary_socialist_party_long:0 "Partido Comunista de Colombia"
+COL_reformist_socialist_party:0 "PLC(S)"
+COL_reformist_socialist_party_long:0 "Partido Liberal Colombiano (Socialistas)"
+COL_social_democrat_party:0 "PLC(Sd)"
+COL_social_democrat_party_long:0 "Partido Liberal Colombiano (Socialdemócratas)"
+COL_social_liberal_party:0 "PLC(L)"
+COL_social_liberal_party_long:0 "Partido Liberal Colombiano (Liberales)"
+COL_liberal_conservative_party:0 "PCC(M)"
+COL_liberal_conservative_party_long:0 "Partido Conservador Colombiano (Moderados)"
+COL_social_conservative_party:0 "PCC(D)"
+COL_social_conservative_party_long:0 "Partido Conservador Colombiano (Derecha)"
+COL_authoritarian_conservative_party:0 "Militar"
+COL_authoritarian_conservative_party_long:0 "Militar"
+COL_right_wing_populist_party:0 "MRC"
+COL_right_wing_populist_party_long:0 "Movimiento de Renovación Colombiano"
+COL_national_syndicalist_party:0 "Leopardos"
+COL_national_syndicalist_party_long:0 "Leopardos"
+COL_national_corporatist_party:0 "Leopardos"
+COL_national_corporatist_party_long:0 "Leopardos"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

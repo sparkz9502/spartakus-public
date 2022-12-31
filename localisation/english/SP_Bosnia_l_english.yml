@@ -1,0 +1,123 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+bosnia.1.t:0 "A New Flag?"
+bosnia.1.d:0 "The flag currently used by the ONS and the provisional government is is inspired by the flag used by Husein Gradaščević during the Bosnian Revolt in the 1830s, as well as one briefly used in 1878. The fact the flag only represents our Bosniak Muslim population is alienating Serbs and Croats whose support is crucial in these times."
+bosnia.1.a:0 "Keep the crescent moon"
+bosnia.1.b:0 "Use the Bosnian fleur-de-lis"
+bosnia.1.c:0 "Create a new tricolor"
+bosnia.1.e:0 "Represent all three nations equally"
+
+BOSinternal.2.t:0 "Serbs Feel Ignored by Education Reforms"
+BOSinternal.2.d:0 "Many Serbs are beginning to argue that, for whatever convoluted secret reason it might be, the current government is intentionally supporting education in Bosniak-majority areas while completely neglecting theirs. This is a bad sign, and if we intent to maintain a balance, we should focus on building schools in predominately Serb states as well.\n\nRemember that you can use the ethnic overlay in the decisions tab to check the ethnic composition of your states."
+BOSinternal.2.a:0 "Not Ideal!"
+BOSinternal.3.t:0 "Croats Feel Ignored by Education Reforms"
+BOSinternal.3.d:0 "Many Croats are beginning to argue that, for whatever convoluted secret reason it might be, the current government is intentionally supporting education in Bosniak-majority areas while completely neglecting theirs. This is a bad sign, and if we intent to maintain a balance, we should focus on building schools in predominately Croat states as well.\n\nRemember that you can use the ethnic overlay in the decisions tab to check the ethnic composition of your states."
+BOSinternal.3.a:0 "Not Ideal!"
+BOSinternal.4.t:0 "Bosniaks Feel Ignored by Education Reforms"
+BOSinternal.4.d:0 "Many Bosniaks are beginning to argue that, for whatever convoluted secret reason it might be, the current government is intentionally supporting education in Serb-majority areas while completely neglecting theirs. This is a bad sign, and if we intent to maintain a balance, we should focus on building schools in predominately Bosniak states as well.\n\nRemember that you can use the ethnic overlay in the decisions tab to check the ethnic composition of your states."
+BOSinternal.4.a:0 "Not Ideal!"
+BOSinternal.5.t:0 "Croats Feel Ignored by Education Reforms"
+BOSinternal.5.d:0 "Many Croats are beginning to argue that, for whatever convoluted secret reason it might be, the current government is intentionally supporting education in Serb-majority areas while completely neglecting theirs. This is a bad sign, and if we intent to maintain a balance, we should focus on building schools in predominately Croat states as well.\n\nRemember that you can use the ethnic overlay in the decisions tab to check the ethnic composition of your states."
+BOSinternal.5.a:0 "Not Ideal!"
+BOSinternal.6.t:0 "Serbs Feel Ignored by Education Reforms"
+BOSinternal.6.d:0 "Many Serbs are beginning to argue that, for whatever convoluted secret reason it might be, the current government is intentionally supporting education in Croat-majority areas while completely neglecting theirs. This is a bad sign, and if we intent to maintain a balance, we should focus on building schools in predominately Serb states as well.\n\nRemember that you can use the ethnic overlay in the decisions tab to check the ethnic composition of your states."
+BOSinternal.6.a:0 "Not Ideal!"
+BOSinternal.7.t:0 "Bosniaks Feel Ignored by Education Reforms"
+BOSinternal.7.d:0 "Many Bosniaks are beginning to argue that, for whatever convoluted secret reason it might be, the current government is intentionally supporting education in Croat-majority areas while completely neglecting theirs. This is a bad sign, and if we intent to maintain a balance, we should focus on building schools in predominately Bosniak states as well.\n\nRemember that you can use the ethnic overlay in the decisions tab to check the ethnic composition of your states."
+BOSinternal.7.a:0 "Not Ideal!"
+
+###Parties###
+
+BOS_bolshevist_party:0 "KPJ"
+BOS_bolshevist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+BOS_spartacist_party:0 "KPJ"
+BOS_spartacist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+BOS_revolutionary_socialist_party:0 "GVR"
+BOS_revolutionary_socialist_party_long:0 "General Worker's Council of Bosnia and Herzegovina (Generalno Vijeće Radnika BiH)"
+BOS_reformist_socialist_party:0 "GVR"
+BOS_reformist_socialist_party_long:0 "General Worker's Council of Bosnia and Herzegovina (Generalno Vijeće Radnika BiH)"
+BOS_social_democrat_party:0 "ONS (Germanofili)"
+BOS_social_democrat_party_long:0 "National Salvation Committee (Odbor Narodnog Spasa)"
+BOS_social_liberal_party:0 "ONS (Oportunisti)"
+BOS_social_liberal_party_long:0 "National Salvation Committee (Odbor Narodnog Spasa)"
+BOS_liberal_conservative_party:0 "ONS (Anglofili)"
+BOS_liberal_conservative_party_long:0 "National Salvation Committee (Odbor Narodnog Spasa)"
+BOS_social_conservative_party:0 "BMO"
+BOS_social_conservative_party_long:0 "Bosnian Muslim Organization (Bosanska Muslimanska Organizacija)"
+BOS_authoritarian_conservative_party:0 "SH. Autonomisti"
+BOS_authoritarian_conservative_party_long:0 "Serbian and Croat Autonomists (Srpski i Hrvatski Autonomisti)"
+BOS_right_wing_populist_party:0 "Četnici"
+BOS_right_wing_populist_party_long:0 "Chetniks (Četnici)"
+BOS_national_syndicalist_party:0 "Mladi Muslimani"
+BOS_national_syndicalist_party_long:0 "Young Muslims (Mladi Muslimani)"
+BOS_national_corporatist_party:0 "HRP"
+BOS_national_corporatist_party_long:0 "Croatian Revolutionary Movement (Hrvatski Revolucionarni Pokret)"
+
+BOS_national_corporatist_party_nationalists:0 "Hadžiefendićeva Legija"
+BOS_national_corporatist_party_nationalists_long:0 "Hadžiefendić's Legion (Hadžiefendić Legija)"
+
+### Focuses ###
+
+### Ideas ###
+
+BOS_Workers_Revolt:0 "Workers Revolt"
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+#Internal
+BOS_internal:0 "The Three People's of Bosnia"
+BOS_internal_explanation:0 "§YHelp§!"
+
+bosniaks_faction_header:0 "§GBosniaks§!"
+bosniaks_faction_party:0 "§WParties and Factions:§!\n§yBMO, Mladi Muslimani§!\n§gUlema, Cities§!"
+bosniaks_faction_approval:0 "[GetBosniakApproval]"
+
+serbs_faction_header:0 "§RSerbs§!"
+serbs_faction_party:0 "§WParties and Factions:§!\n§yMinor Serb Parties§!\n§gMerchants, Villages§!"
+serbs_faction_approval:0 "[GetSerbApproval]"
+
+croats_faction_header:0 "§BCroats§!"
+croats_faction_party:0 "§WParties and Factions:§!\n§yHRP, Minor Croat Parties§!\n§gFranciscans, Villages§!"
+croats_faction_approval:0 "[GetCroatApproval]"
+
+bosniaks_faction_approval_looming_catastrophe:0 "§WApproval:§!\n§RLooming Catastrophe§!"
+bosniaks_faction_approval_pathetic:0 "§WApproval:§!\n§RPathetic§!"
+bosniaks_faction_approval_low:0 "§WApproval:§!\n§RLow§!"
+bosniaks_faction_approval_uncertain:0 "§WApproval:§!\n§YUncertain§!"
+bosniaks_faction_approval_moderate:0 "§WApproval:§!\n§YModerate§!"
+bosniaks_faction_approval_high:0 "§WApproval:§!\n§GHigh§!"
+bosniaks_faction_approval_very_high:0 "§WApproval:§!\n§GVery High§!"
+bosniaks_faction_approval_near_unanimous:0 "§WApproval:§!\n§GNear Unanimous§!"
+
+serbs_faction_approval_looming_catastrophe:0 "§WApproval:§!\n§RLooming Catastrophe§!"
+serbs_faction_approval_pathetic:0 "§WApproval:§!\n§RPathetic§!"
+serbs_faction_approval_low:0 "§WApproval:§!\n§RLow§!"
+serbs_faction_approval_uncertain:0 "§WApproval:§!\n§YUncertain§!"
+serbs_faction_approval_moderate:0 "§WApproval:§!\n§YModerate§!"
+serbs_faction_approval_high:0 "§WApproval:§!\n§GHigh§!"
+serbs_faction_approval_very_high:0 "§WApproval:§!\n§GVery High§!"
+serbs_faction_approval_near_unanimous:0 "§WApproval:§!\n§GNear Unanimous§!"
+
+croats_faction_approval_looming_catastrophe:0 "§WApproval:§!\n§RLooming Catastrophe§!"
+croats_faction_approval_pathetic:0 "§WApproval:§!\n§RPathetic§!"
+croats_faction_approval_low:0 "§WApproval:§!\n§RLow§!"
+croats_faction_approval_uncertain:0 "§WApproval:§!\n§YUncertain§!"
+croats_faction_approval_moderate:0 "§WApproval:§!\n§YModerate§!"
+croats_faction_approval_high:0 "§WApproval:§!\n§GHigh§!"
+croats_faction_approval_very_high:0 "§WApproval:§!\n§GVery High§!"
+croats_faction_approval_near_unanimous:0 "§WApproval:§!\n§GNear Unanimous§!"
+
+### Equipment ###
+
+### Cosmetic ###
+
+BOS_sli_peaceful:0 "DS BiH"
+BOS_sli_peaceful_long:0 "Demokratska Stranka Bosne i Hercegovine"

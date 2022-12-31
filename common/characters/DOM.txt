@@ -1,0 +1,19 @@
+characters={
+    DOM_rafael_trujillo_molina = {
+        name = "Rafael Trujillo Molina"
+        portraits={
+            civilian={
+                large = "gfx/leaders/DOM/Portrait_Rafael_Trujillo_Molina.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_RAFAEL_TRUJILLO_DESC"
+            expire = "1965.1.1"
+            ideology = nationalist_conservatism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

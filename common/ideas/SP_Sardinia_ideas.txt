@@ -1,0 +1,25 @@
+### Sardinia Ideas ###
+ideas = {
+
+    country = {
+
+		SRD_Sardinia_in_Revolt_idea = {
+			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.2
+				surrender_limit = 0.15
+			}
+			picture = Sardinia_in_Revolt
+		}
+		
+		SRD_A_Democratic_Vision_idea = {
+			modifier = {
+				political_power_cost = -0.05
+				stability_factor = 0.10
+			}
+			picture = SRD_A_Democratic_Vision
+		}
+		
+    }
+	
+}

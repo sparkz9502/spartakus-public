@@ -1,0 +1,73 @@
+﻿capital = 43
+
+set_oob = "HUN"
+
+add_ideas = {
+	recruitment_1825
+	governance_bure
+	trade_aut
+	economy_indzing
+	mobilization_2
+}
+
+recruit_character = HUN_jozsef_pogany
+recruit_character = HUN_imre_nagy
+recruit_character = HUN_julier_ferenc
+recruit_character = HUN_geza_lakatos
+recruit_character = HUN_otto_steinbruck
+recruit_character = HUN_karoly_beregfy
+recruit_character = HUN_jeno_tombor
+recruit_character = HUN_koloman_wallisch
+
+set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.6
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1		
+	tech_engineers = 1
+	tech_field_hospital = 1
+	tech_signal_company = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_politics = {	
+	ruling_party = bolshevist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 14
+    spartacist = 17
+    revolutionary_socialist = 1
+    reformist_socialist = 4
+    social_democrat = 6
+    social_liberal = 1
+    liberal_conservative = 7
+    social_conservative = 4
+    authoritarian_conservative = 10
+    right_wing_populist = 32
+    national_syndicalist = 1
+    national_corporatist = 3
+}
+
+set_country_flag = coalition_spartacist
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_reformist_socialist
+
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_liberal_conservative
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist

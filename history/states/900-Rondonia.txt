@@ -1,0 +1,21 @@
+
+state={
+	id=900
+	name="STATE_900"
+
+	history={
+		owner = BRA
+		add_core_of = BRA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		2204 13307 
+	}
+	manpower=1000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

@@ -1,0 +1,404 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Pěší divize"
+	division_names_group = CZE_INF_01
+	is_locked = yes
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Horská divize"
+	division_names_group = CZE_MNT_01
+	is_locked = yes
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Jezdecká brigáda"
+	division_names_group = CZE_CAV_01
+	is_locked = yes
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		artillery_brigade = { x = 0 y = 3 }
+	}
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = { # "1. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11542
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "2. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 6418
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "3. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 9414
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "4. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 3462
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "5. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 5283
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "6. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 557
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "7. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 421
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "8. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 3414
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "9. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 6576
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "10. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 6590
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "11. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 9567
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "12. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 6590
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "13. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 494
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "14. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 569
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "15. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 13553
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "16. horská divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 6440
+		division_template = "Horská divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "17. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 445
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "18. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6440
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "19. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 15450
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "20. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 11511
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "21. horská divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 11511
+		division_template = "Horská divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = { # "22. divize"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 9555
+		division_template = "Pěší divize"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "1. jezdecká brigáda"
+		location = 494
+		division_template = "Jezdecká brigáda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "2. jezdecká brigáda"
+		location = 569
+		division_template = "Jezdecká brigáda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "3. jezdecká brigáda"
+		location = 3462
+		division_template = "Jezdecká brigáda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+	division = {
+		name = "4. jezdecká brigáda"
+		location = 11556
+		division_template = "Jezdecká brigáda"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.9
+	}
+}
+
+#############
+## AIR OOB ##
+#############
+
+air_wings = {
+	9 = { 
+		fighter_equipment_0 =  {
+			owner = "CZE" 
+			amount = 36
+		}
+		tac_bomber_equipment_0 =  {
+			owner = "CZE" 
+			amount = 60
+		}
+		CAS_equipment_1 =  {
+			owner = "CZE" 
+			amount = 24
+		}
+	}
+
+	75 = {
+		fighter_equipment_0 =  {
+			owner = "CZE" 
+			amount = 48
+		}
+		CAS_equipment_1 =  {
+			owner = "CZE" 
+			amount = 24
+		}
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 3
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "CZE"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "CZE" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "CZE" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

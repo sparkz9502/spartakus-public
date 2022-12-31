@@ -1,0 +1,45 @@
+
+state={
+	id=331
+	name="STATE_331"
+	
+	resources={
+		iron=14
+		copper=1
+	}
+
+	history={
+		owner = NEW
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			12505 = {
+				naval_base = 1
+
+			}
+			15209 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			12505 3	
+		}
+		victory_points = {
+			15209 1 
+		}
+		victory_points = {
+			7788 1 
+		}
+		add_core_of = NEW
+
+	}
+
+	provinces={
+		7758 7788 12505 12680 12698 15201 15202 15203 15205 15206 15207 15208 15209 15210 15211 15212 15213 15214 
+	}
+	manpower=295000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

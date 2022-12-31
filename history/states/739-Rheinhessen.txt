@@ -1,0 +1,28 @@
+
+state={
+	id=739
+	name="STATE_739"
+
+	history={
+		owner = RHI
+		add_core_of = RHI
+		add_claim_by = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			11560 = {
+				bunker = 3
+			}
+		}
+		victory_points = {
+			11560 7 
+		}
+	}
+
+	provinces={
+		11560 
+	}
+	manpower=405600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

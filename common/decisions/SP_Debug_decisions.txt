@@ -1,0 +1,531 @@
+#######################
+### Debug Decisions ###
+#######################
+
+debug_decisions = {
+
+	#General#
+
+	allow_manually_releasing_tags = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			set_global_flag = SP_release_nations_debug
+		}	
+	}
+	
+	merge_britain_and_france_factions = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = {
+			if = {
+				limit = {
+					is_in_faction_with = FRA
+				}
+				every_country = {
+					limit = {
+						is_in_faction_with = FRA
+					}
+					ENG = {
+						add_to_faction = PREV
+					}
+				}
+			}
+			if = {
+				limit = {
+					NOT = {
+						is_in_faction_with = FRA
+					}
+				}
+				every_other_country = {
+					limit = {
+						is_in_faction_with = FRA
+					}
+					ENG = {
+						add_to_faction = PREV
+					}
+				}
+			}
+		}	
+	}
+
+	#German Partition#
+
+	create_reactionary_poland = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			every_state = {
+				limit = {
+					is_core_of = PGA
+				}
+				add_core_of = POL
+			}
+			POL = {
+				annex_country = {
+					target = PGA
+					transfer_troops = no
+				}
+			}
+			POL = {
+				transfer_state = 86
+				add_state_core = 86
+				transfer_state = 776
+				add_state_core = 776
+				transfer_state = 85
+				add_state_core = 85
+				transfer_state = 777
+				add_state_core = 777
+			}
+		}	
+	}
+	
+	cede_czech_and_rhenish_lands = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			RHI = {
+				transfer_state = 51
+			}
+			CZE = {
+				transfer_state = 69
+			}
+		}	
+	}
+	
+	create_south_german_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			WUR = {
+				set_cosmetic_tag = WUR_SGF
+				add_state_core = 42
+				add_state_core = 739
+				add_state_core = 993
+				transfer_state = 993
+				add_state_core = 54
+				transfer_state = 54
+				add_state_core = 53
+				transfer_state = 53
+				add_state_core = 52
+				transfer_state = 52
+				add_state_core = 1263
+				transfer_state = 1263
+				set_country_flag = GFN_formed_new_nation
+			}
+		}	
+	}
+	
+	create_west_german_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			RHI = {
+				set_cosmetic_tag = RHI_WGF
+				add_state_core = 55
+				transfer_state = 55
+				add_state_core = 57
+				transfer_state = 57
+				add_state_core = 1168
+				transfer_state = 1168
+				add_state_core = 1258
+				add_state_core = 59
+				transfer_state = 59
+				add_state_core = 1266
+				transfer_state = 1266
+				add_state_core = 1252
+				transfer_state = 1252
+				add_state_core = 56
+				transfer_state = 56
+				add_state_core = 1267
+				transfer_state = 1267
+				add_state_core = 58
+				transfer_state = 58
+				set_country_flag = GFN_formed_new_nation
+			}
+		}	
+	}
+	
+	create_east_german_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			PRS = {
+				set_cosmetic_tag = PRS_EGF
+				add_state_core = 1264
+				transfer_state = 1264
+				add_state_core = 64
+				transfer_state = 64
+				add_state_core = 68
+				transfer_state = 68
+				add_state_core = 61
+				transfer_state = 61
+				add_state_core = 62
+				transfer_state = 62
+				add_state_core = 63
+				transfer_state = 63
+				add_state_core = 1341
+				transfer_state = 1341
+				add_state_core = 1048
+				transfer_state = 1048
+				add_state_core = 1339
+				transfer_state = 1339
+				add_state_core = 1265
+				transfer_state = 1265
+				add_state_core = 60
+				transfer_state = 60
+				add_state_core = 65
+				transfer_state = 65
+				add_state_core = 1364
+				transfer_state = 1364
+				add_state_core = 66
+				transfer_state = 66
+				add_state_core = 67
+				transfer_state = 67
+				add_state_core = 5
+				transfer_state = 5
+				add_state_core = 1096
+				transfer_state = 1096
+				add_state_core = 1365
+				transfer_state = 1365
+				add_state_core = 85
+				set_country_flag = GFN_formed_new_nation
+			}
+		}	
+	}
+	
+	create_prussia = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			PRS = {
+				add_state_core = 1264
+				transfer_state = 1264
+				add_state_core = 64
+				transfer_state = 64
+				add_state_core = 68
+				transfer_state = 68
+				add_state_core = 61
+				transfer_state = 61
+				add_state_core = 62
+				transfer_state = 62
+				add_state_core = 63
+				transfer_state = 63
+				add_state_core = 1341
+				transfer_state = 1341
+				add_state_core = 1048
+				transfer_state = 1048
+				add_state_core = 1339
+				transfer_state = 1339
+				add_state_core = 66
+				transfer_state = 66
+				add_state_core = 67
+				transfer_state = 67
+				add_state_core = 5
+				transfer_state = 5
+				add_state_core = 1096
+				transfer_state = 1096
+				add_state_core = 1365
+				transfer_state = 1365
+				add_state_core = 85
+			}
+		}	
+	}
+	
+	create_saxony = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			SAX = {
+				add_state_core = 1364
+				transfer_state = 1364
+				add_state_core = 65
+				transfer_state = 65
+				add_state_core = 60
+				transfer_state = 60
+				add_state_core = 1265
+				transfer_state = 1265
+			}
+		}	
+	}
+	
+	create_hanover = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			HAN = {
+				add_state_core = 58
+				transfer_state = 58
+				add_state_core = 1267
+				transfer_state = 1267
+				add_state_core = 1266
+				transfer_state = 1266
+				add_state_core = 59
+				transfer_state = 59
+				add_state_core = 56
+				transfer_state = 56
+				add_state_core = 1252
+				transfer_state = 1252
+				add_state_core = 839
+				add_state_core = 1357
+			}
+		}	
+	}
+	
+	create_rhenish_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			RHI = {
+				set_cosmetic_tag = RHI_RFD
+				add_state_core = 55
+				transfer_state = 55
+				add_state_core = 1168
+				transfer_state = 1168
+				add_state_core = 57
+				transfer_state = 57
+				add_state_core = 1258
+				set_country_flag = GFN_formed_new_nation
+			}
+		}	
+	}
+	
+	create_bavaria = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			BAV = {
+				add_state_core = 993
+				transfer_state = 993
+				add_state_core = 54
+				transfer_state = 54
+				add_state_core = 53
+				transfer_state = 53
+				add_state_core = 52
+				transfer_state = 52
+				add_state_core = 1263
+				transfer_state = 1263
+				add_state_core = 1261
+				transfer_state = 1261
+				add_state_core = 1260
+				transfer_state = 1260
+			}
+		}	
+	}
+	
+	create_berlin = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+			country_exists = PRS
+		}
+		
+		complete_effect = {
+			BER = {
+				add_state_core = 1264
+				transfer_state = 1264
+			}
+			PRS = {	
+				set_capital = 66
+			}
+		}	
+	}
+	
+	create_hesse_westphalia = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			WES = {
+				add_state_core = 57
+				transfer_state = 57
+				add_state_core = 1168
+				transfer_state = 1168
+				add_state_core = 55
+				transfer_state = 55
+				add_state_core = 1258
+				add_state_core = 739
+			}
+		}	
+	}
+	
+	livonian_east_prussia = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		available = {
+			NOT = {
+				country_exists = GER
+			}
+		}
+		
+		complete_effect = {
+			LIV = {
+				add_state_core = 5
+				transfer_state = 5
+				add_state_core = 1096
+				transfer_state = 1096
+				add_state_core = 1365
+				transfer_state = 1365
+				add_state_core = 85
+			}
+		}	
+	}
+}

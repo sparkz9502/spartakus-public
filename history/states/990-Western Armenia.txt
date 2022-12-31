@@ -1,0 +1,36 @@
+
+state={
+	id=990
+	name="STATE_990"
+
+	history={
+		owner = ARM
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			789 = {
+				bunker = 1
+
+			}
+
+		}
+		add_core_of = ARM
+		add_claim_by = OTT
+		add_claim_by = SOV
+		victory_points = {
+			10472 3 
+		}
+		victory_points = {
+			15662 1 
+		}
+
+	}
+
+	provinces={
+		789 10472 12376 15662 15663 15665 15666 15667 
+	}
+	manpower=484536
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

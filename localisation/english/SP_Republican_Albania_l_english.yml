@@ -1,0 +1,33 @@
+l_english:
+
+### Ideas ###
+
+### Focuses ###
+
+### Ministers ###
+
+### Parties ###
+RSH_bolshevist_party:0 "PB(K)"
+RSH_bolshevist_party_long:0 "Unity Party - Kelmendi (Partia e Bashkimit - Kelmendit)"
+RSH_spartacist_party:0 "PB(K)"
+RSH_spartacist_party_long:0 "Unity Party - Kelmendi (Partia e Bashkimit - Kelmendit)"
+RSH_revolutionary_socialist_party:0 "PB(K)"
+RSH_revolutionary_socialist_party_long:0 "Unity Party - Kelmendi (Partia e Bashkimit - Kelmendit)"
+RSH_reformist_socialist_party:0 "PB(N)"
+RSH_reformist_socialist_party_long:0 "Unity Party - Noli (Partia e Bashkimit - Nolit)"
+RSH_social_democrat_party:0 "PB(N)"
+RSH_social_democrat_party_long:0 "Unity Party - Noli (Partia e Bashkimit - Nolit)"
+RSH_social_liberal_party:0 "PLD"
+RSH_social_liberal_party_long:0 "Liberal Democratic Party (Partia Liberale Demokratike)"
+RSH_liberal_conservative_party:0 "PLD"
+RSH_liberal_conservative_party_long:0 "Liberal Democratic Party (Partia Liberale Demokratike)"
+RSH_social_conservative_party:0 "Partia Përparimtare"
+RSH_social_conservative_party_long:0 "Progressive Party (Partia Përparimtare)"
+RSH_authoritarian_conservative_party:0 "Partia Përparimtare"
+RSH_authoritarian_conservative_party_long:0 "Progressive Party (Partia Përparimtare)"
+RSH_right_wing_populist_party:0 "Partia Popullore"
+RSH_right_wing_populist_party_long:0 "Popular Party (Partia Popullore)"
+RSH_national_syndicalist_party:0 "Partia Popullore"
+RSH_national_syndicalist_party_long:0 "Popular Party (Partia Popullore)"
+RSH_national_corporatist_party:0 "Partia Popullore"
+RSH_national_corporatist_party_long:0 "Popular Party (Partia Popullore)"

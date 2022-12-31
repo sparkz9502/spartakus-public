@@ -1,0 +1,213 @@
+bookmarks = {
+	bookmark = {
+		name = "SPARTAKUS_NAME"
+		desc = "SPARTAKUS_DESC"
+		date = 1932.1.1.1
+		picture = "GFX_select_date_1932"
+		default_country = "GER"
+		default = yes
+	
+		"GER"={
+			history = "GER_SP_GATHERING_STORM_DESC"
+			ideology = spartacist
+			ideas = {
+				GER_Civil_War_Recovery
+				GER_Rotfrontkampferbund
+				GER_Terrorism
+			}
+			focuses = {
+			}
+		}
+		"SOV"={
+			history = "SOV_SP_GATHERING_STORM_DESC"
+			ideology = bolshevist
+			ideas = { 
+				SOV_NEP
+			}
+			focuses = {
+			}
+		}
+		"ENG"={
+			history = "ENG_SP_GATHERING_STORM_DESC"
+			ideology = social_liberal
+			ideas = {
+				UK_recovering_economy
+				UK_pacifism
+				UK_hawkish_military_command
+			}
+			focuses = {
+			}
+		}
+		"FRA"={
+			history = "FRA_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_conservative
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		"USA"={
+			history = "USA_SP_GATHERING_STORM_DESC"
+			ideology = liberal_conservative
+			ideas = {
+				USA_booming_economy
+				USA_tariff_act
+				USA_impending_drought
+			}
+			focuses = {
+			}
+		}
+		"ITA"={
+			history = "ITA_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_conservative
+			ideas = {
+				ITA_Ghastly_Memories
+				ITA_Red_Decade
+				ITA_Fascist_Sympathies
+			}
+			focuses = {
+			}
+		}
+		"JAP"={
+			history = "JAP_SP_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+				JAP_SP_liberty
+				JAP_SP_mantetsu
+			}
+			focuses = {
+				JAP_restoration
+				JAP_nanyo_mantetsu
+				JAP_navy_kk
+			}
+		}
+
+		"---"={
+			history = "OTHER_SP_GATHERING_STORM_DESC"
+		}
+		
+		"WUR"={
+			minor = yes
+			history = "WUR_SP_GATHERING_STORM_DESC"
+			ideology = authoritarian_conservative
+			ideas = {
+				WUR_sore_loser
+				WUR_developing_economy
+				WUR_french_foreign_policy
+			}
+			focuses = {
+			}
+		}
+		"POR"={
+			minor = yes
+			history = "POR_SP_GATHERING_STORM_DESC"
+			ideology = spartacist
+			ideas = {
+				POR_divided_country
+				POR_revolution
+			}
+			focuses = {
+			}
+		}
+		"ROM"={
+			minor = yes
+			history = "ROM_SP_GATHERING_STORM_DESC"
+			ideology = liberal_conservative
+			ideas = {
+				ROM_king_michael
+				ROM_rural_population
+			}
+			focuses = {
+				ROM_conference
+				ROM_conscription
+				ROM_roads
+			}
+		}
+		"OTT"={
+			minor = yes
+			history = "OTT_SP_GATHERING_STORM_DESC"
+			ideology = social_conservative
+			ideas = {
+				OTT_sick_man_in_recovery
+				OTT_influential_army
+				OTT_sons_of_rome
+			}
+			focuses = {
+				OTT_ottomanism
+				OTT_ottoman_nation
+				OTT_sick_man_no_more
+			}
+		}
+		"SWE"={
+			minor = yes
+			history = "SWE_SP_GATHERING_STORM_DESC"
+			ideology = liberal_conservative
+			ideas = {
+				SWE_socialist_reforms
+				SWE_enemies_of_the_republic
+				SWE_international_trade
+			}
+			focuses = {
+			}
+		}
+		
+		"SER"={
+			minor = yes
+			history = "SER_SP_GATHERING_STORM_DESC"
+			ideology = right_wing_populist
+			ideas = {
+				SER_The_Decade_of_Silence
+				SER_Decree_on_the_Colonization_of_the_Southern_Regions
+			}
+			focuses = {
+			    SER_Fair_Elections
+				SER_Communist_Coup
+				SER_Military_Government
+			}
+		}
+		
+		"CHI"={
+			minor = yes
+			history = "CHI_SP_GATHERING_STORM_DESC"
+			ideology = social_democrat
+			ideas = {
+			}
+			focuses = {
+			}
+		}
+		
+		"LIV"={
+			minor = yes
+			history = "LIV_SP_GATHERING_STORM_DESC"
+			ideology = right_wing_populist
+			ideas = {
+				LIV_military_with_state
+				LIV_freikorps
+				LIV_baltic_conscription_crisis
+			}
+			focuses = {
+			}
+		}
+		
+		"GRE"={
+			minor = yes
+			history = "GRE_SP_GATHERING_STORM_DESC"
+			ideology = national_corporatist
+			ideas = {
+				GRE_Political_Factionalism
+				GRE_Booming_Economy
+				GRE_Foreign_Debts
+			}
+			focuses = {
+				GRE_The_Future_of_the_Republic
+				GRE_The_Inomeni_Antipolitevsi
+				GRE_The_Ethnikos_Synaspismos
+			}
+		}
+
+		effect = {
+			randomize_weather = 22345 # <- Obligatory in every bookmark !
+			#123 = { rain_light = yes }
+		}
+	}
+}

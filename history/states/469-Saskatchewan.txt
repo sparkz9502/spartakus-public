@@ -1,0 +1,34 @@
+
+state={
+	id=469
+	name="STATE_469"
+	
+	resources={
+		coal=2
+		oil=1
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			10611 5 
+		}
+		victory_points = {
+			4739 1 
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		1788 3481 3769 4739 9669 10552 10611 10656 11440 12593 12603 12663 
+	}
+	manpower=921800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

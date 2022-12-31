@@ -1,0 +1,43 @@
+
+state={
+	id=827
+	name="STATE_827"
+	resources={
+		raremetals=3
+	}
+
+	history={
+		owner = VNA
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = VNA
+		victory_points = {
+			4379 3 
+		}
+		victory_points = {
+			4405 1 
+		}
+		INC = {
+			set_province_controller = 4379
+			set_province_controller = 1302
+			set_province_controller = 10129
+			set_province_controller = 9988
+			set_province_controller = 4397
+			set_province_controller = 10016
+			set_province_controller = 11936
+			set_province_controller = 7280
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1302 4379 4397 7280 9988 10016 10129 11909 11936 12297 
+	}
+	manpower=2460000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

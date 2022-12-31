@@ -1,0 +1,33 @@
+
+state={
+	id=151
+	name="STATE_151"
+
+	history={
+		owner = SWI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 4
+			11601 = {
+				bunker = 3
+
+			}
+
+		}
+		victory_points = {
+			663 20 
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		658 661 663 3660 3662 11601 11623 13126 15499 
+	}
+	manpower=1610727
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

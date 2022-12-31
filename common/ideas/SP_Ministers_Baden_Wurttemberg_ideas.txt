@@ -1,0 +1,85 @@
+ideas = {
+################################################################################################################################################################################################
+### WUR
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	WUR_Alfred_Hugenberg_hog_rwp = {
+		allowed = {original_tag = WUR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_local_tyrant
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+}
+
+economy_minister = { ### Economy Minister ###
+	WUR_Adam_Stegerwald_eco_sco = {
+		allowed = {original_tag = WUR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	WUR_Albert_Speer_eco_rwp = {
+		allowed = {original_tag = WUR}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+
+}
+
+defence_minister = { ### Defence Minister ###
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+}
+}

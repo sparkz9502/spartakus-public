@@ -1,0 +1,190 @@
+###########################
+# Albona Focus Tree
+# By Sybil
+###########################
+
+focus_tree = {
+	id = SP_Albona_Labin
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LAB
+		}
+	}
+	default = no
+	
+	focus = {
+		id = LAB_Congress_of_the_Miners_Committee
+		icon = GFX_goal_ideology_revolutionary_socialist
+		cost = 7.00
+		completion_reward = {
+		add_political_power = 100
+			add_stability = 0.05
+		}
+		x = 6
+		y = 1
+
+	}
+
+    focus = {
+		id = LAB_The_Miners_Republic
+		icon = GFX_Workers_Support
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Congress_of_the_Miners_Committee
+		}
+		mutually_exclusive = {
+		    focus = LAB_The_Istrian_Republic
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 2
+
+	}	
+	
+	focus = {
+		id = LAB_Worker_Democracy
+		icon = GFX_KTG_Elections
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_The_Miners_Republic
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 3
+
+	}	
+	
+	focus = {
+		id = LAB_Self_Administration
+		icon = GFX_goal_syndicalist_industry
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Worker_Democracy
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 4
+
+	}
+
+    focus = {
+		id = LAB_Educate_the_Working_Class
+		icon = GFX_goal_propaganda_soviet
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Self_Administration
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 5
+
+	}	
+	
+	focus = {
+		id = LAB_The_Istrian_Republic
+		icon = GFX_goal_ideology_social_democrat
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Congress_of_the_Miners_Committee
+		}
+		mutually_exclusive = {
+		    focus = LAB_The_Miners_Republic
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 2
+
+	}
+	
+	focus = {
+		id = LAB_Reconstruct_A_Sabor
+		icon = GFX_Room_Meeting
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_The_Istrian_Republic
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 3
+
+	}
+	
+	focus = {
+		id = LAB_SUCC
+		icon = GFX_goal_socialist_infrastructure
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Reconstruct_A_Sabor
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 4
+
+	}
+	
+	focus = {
+		id = LAB_Reduce_Inequality
+		icon = GFX_Boring_Bills
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_SUCC
+		}
+		completion_reward = {
+		}
+		x = 9
+		y = 5
+
+	}
+	
+	focus = {
+		id = LAB_Then_Perish
+		icon = GFX_Stomp_out_the_Weak
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_The_Miners_Republic
+			focus = LAB_The_Istrian_Republic
+		}
+		completion_reward = {
+		}
+		x = 6
+		y = 3
+
+	}
+	
+	focus = {
+		id = LAB_Tolerance
+		icon = GFX_goal_UK_art_avantgarde
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Then_Perish
+		}
+		completion_reward = {
+		}
+		x = 6
+		y = 4
+
+	}
+	
+	focus = {
+		id = LAB_Not_Italian_Nor_Croat
+		icon = GFX_goal_liberty
+		cost = 7.00
+		prerequisite = {
+			focus = LAB_Tolerance
+		}
+		completion_reward = {
+		}
+		x = 6
+		y = 5
+
+	}
+}

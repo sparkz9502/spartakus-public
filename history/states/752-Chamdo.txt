@@ -1,0 +1,22 @@
+
+state={
+	id=752
+	name="STATE_752"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4131 4146 4889 7978 8021 8109 10820 12843 12900 14102 14104 14124 14464 14490 14513 
+	}
+	manpower=2650400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

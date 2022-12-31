@@ -1,0 +1,426 @@
+characters={
+	FRA_maxime_weygand={
+		name="Maxime Weygand"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_maxime_weygand.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Maxime_Weygand.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero career_officer cavalry_officer defensive_doctrine }
+			skill=2
+			attack_skill=1
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_charles_de_gaulle={
+		name="Charles De Gaulle"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_charles_de_gaulle.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Charles_De_Gaulle.dds"
+			}
+		}
+		corps_commander={
+			traits={ media_personality harsh_leader armor_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	FRA_philippe_leclerc={
+		name="Philippe Leclerc"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_philippe_leclerc.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/portrait_france_philippe_leclerc.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_reckless armor_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	FRA_henri_giraud={
+		name="Henri Giraud"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_henri_giraud.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/portrait_france_henri_giraud.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious infantry_officer trickster }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	FRA_charles_huntziger={
+		name="Charles Huntziger"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_charles_huntziger.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/portrait_france_charles_huntziger.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	FRA_jeanmarie_charles_abrial={
+		name="Jean-Marie Charles Abrial"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_jean-marie_charles_abrial.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean-Marie_Charles_Abrial.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_jeanpierre_esteva={
+		name="Jean-Pierre Esteva"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_jean-pierre_esteva.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean-Pierre_Esteva.dds"
+			}
+		}
+		navy_leader={
+			traits={ seawolf }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_jean_de_laborde={
+		name="Jean de Laborde"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_jean_de_laborde.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Jean_de_Laborde.dds"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_hubert_lyautey={
+		name="Hubert Lyautey"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_Hubert_Lyautey.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HUBERT_LYAUTEY_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	FRA_louis_franchet_despèrey={
+		name="Louis Franchet d'Espèrey"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero career_officer desert_fox offensive_doctrine }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_edmond_buat={
+		name="Edmond Buat"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist organizer infantry_leader skilled_staffer expert_delegator }
+			skill=4
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_marieeugène_debeney={
+		name="Marie-Eugène Debeney"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_françois_darlan={
+		name="François Darlan"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_francois_darlan.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Francois_Darlan.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_renéÉmile_godfroy={
+		name="René-Émile Godfroy"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_FRA_rene-emile_godfroy.dds"
+			}
+			army={
+				large="gfx/leaders/FRA/Portrait_France_Rene-Emile_Godfroy.dds"
+			}
+		}
+		navy_leader={
+			traits={ old_guard_navy spotter }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_charles_davout={
+		name="Charles Davout"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_4.dds"
+			}
+		}
+		country_leader={
+			ideology=centrist_leninism
+			expire="1942.1.1.1"
+			id=-1
+		}
+	}
+	FRA_eugène_courbet={
+		name="Eugène Courbet"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=religious_marxism
+			traits={ undistinguished_suit }
+			expire="1942.1.1.1"
+			id=-1
+		}
+	}
+	FRA_august_de_saint_arnaud={
+		name="August de Saint Arnaud"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=collectivist_anarchism
+			traits={ undistinguished_suit }
+			expire="1942.1.1.1"
+			id=-1
+		}
+	}
+	FRA_michel_gouraud={
+		name="Michel Gouraud"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=austromarxism
+			traits={ undistinguished_suit }
+			expire="1943.1.1.1"
+			id=-1
+		}
+	}
+	FRA_Édouard_exelmans={
+		name="Édouard Exelmans"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Soviet_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=agrarian_populism
+			traits={ undistinguished_suit }
+			expire="1943.1.1.1"
+			id=-1
+		}
+	}
+	FRA_lucien_dupetitthouars={
+		name="Lucien Dupetit-Thouars"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Soviet_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=agrarian_liberalism
+			expire="1943.1.1.1"
+			id=-1
+		}
+	}
+	FRA_paul_harispe={
+		name="Paul Harispe"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=moderate_agrarian_conservatism
+			traits={ undistinguished_suit }
+			expire="1944.1.1.1"
+			id=-1
+		}
+	}
+	FRA_nicolas_hamelin={
+		name="Nicolas Hamelin"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+			}
+		}
+		country_leader={
+			ideology=paternalistic_conservatism
+			traits={ undistinguished_suit }
+			expire="1944.1.1.1"
+			id=-1
+		}
+	}
+	FRA_Éttiene_gouraud={
+		name="Éttiene Gouraud"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=semi_democratic_military_junta
+			expire="1944.1.1.1"
+			id=-1
+		}
+	}
+	FRA_napoléon_murat={
+		name="Napoléon Murat"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=synarchism
+			traits={ undistinguished_suit }
+			expire="1945.1.1.1"
+			id=-1
+		}
+	}
+	FRA_françois_courbet={
+		name="François Courbet"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		country_leader={
+			ideology=fordism
+			traits={ undistinguished_suit }
+			expire="1945.1.1.1"
+			id=-1
+		}
+	}
+}

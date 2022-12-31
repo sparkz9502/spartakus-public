@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "FNG_infantry_entity"
+		name = "KMC_infantry_entity"
+	}
+	
+	entity = {
+		clone = "FNG_infantry_2_entity"
+		name = "KMC_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "FNG_infantry_3_entity"
+		name = "KMC_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "FNG_infantry_rider_entity"
+		name = "KMC_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "FNG_infantry_mg_rider_entity"
+		name = "KMC_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "FNG_cavalry_entity"
+		name = "KMC_cavalry_entity"
+	}
+
+	entity = {
+		clone = "FNG_cavalry_2_entity"
+		name = "KMC_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "FNG_cavalry_rifle_combined_entity"
+		name = "KMC_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "FNG_cavalry_mg_combined_entity"
+		name = "KMC_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "FNG_motorized_entity"
+		name = "KMC_motorized_entity"
+	}
+	
+	entity = {
+		clone = "FNG_mechanized_entity"
+		name = "KMC_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "FNG_artillery_entity"
+		name = "KMC_artillery_entity"
+	}
+	
+	
+	

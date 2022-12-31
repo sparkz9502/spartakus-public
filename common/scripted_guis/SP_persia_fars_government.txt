@@ -1,0 +1,16 @@
+scripted_gui = {
+
+	fars_government_decision_ui = {
+		context_type = decision_category
+		window_name = "fars_government_decision_ui_window"
+		visible = { 
+			OR = {
+				tag = PER
+				tag = KHO
+				tag = KHU
+			}
+		}
+	}
+	
+}
+

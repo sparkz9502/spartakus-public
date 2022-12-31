@@ -1,0 +1,40 @@
+
+state={
+	id=107
+	name="STATE_107"
+
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 5
+			
+			11586 = {
+				bunker = 2
+			}
+
+		}
+		victory_points = {
+			11586 20 
+		}
+		# 107 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 11586
+				# }
+			# }
+		# }
+		add_core_of = SER
+
+	}
+
+	provinces={
+		11586 
+	}
+	manpower=378800
+	buildings_max_level_factor=1.000
+	state_category=city
+}

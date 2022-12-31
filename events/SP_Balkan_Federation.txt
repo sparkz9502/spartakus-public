@@ -1,0 +1,221 @@
+﻿###########################
+# Balkan Federation Events
+###########################
+# By Last Witch of Illyrith (im gay)
+###########################
+
+add_namespace = bfed
+
+country_event = { #Invite Bulgaria
+	id = bfed.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event bfed.1"}
+	title = bfed.1.t
+	desc = bfed.1.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	trigger = {
+	        tag = SER
+	BUL = {
+		    OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = reformist_socialist
+			    } 
+	    }
+	SER = {
+		    OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = reformist_socialist
+			    } 
+	    }
+    }
+
+	fire_only_once = yes
+
+	option = {
+		name = bfed.1.a # yay
+		ai_chance = {
+			factor = 100
+		}
+		BUL = { country_event = { days = 1 id = bfed.2 } }
+	}
+	
+	option = {
+		name = bfed.1.b # nay
+		ai_chance = {
+			factor = 0
+		}
+		add_political_power = 25
+	}
+}
+
+country_event = { #Invited to Yugoslavia
+	id = bfed.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event bfed.2"}
+	title = bfed.2.t
+	desc = bfed.2.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = bfed.2.a # yay
+		ai_chance = {
+			factor = 100
+		}
+		if = {
+        limit = { 
+		SER = { has_country_flag = SER_milan_gorkic_first_term } 
+		}
+         BUL = {
+			set_country_flag = BUL_Autonomous_SR_Bulgaria
+
+			set_cosmetic_tag = BUL
+		}
+		BUL = {
+                    get_current_government_type = yes
+               }
+               SER = { puppet = BUL }
+               BUL = {
+                    restore_previous_government_type = yes 
+               }
+         else = { 
+          BUL = {
+			set_country_flag = BUL_Balkan_Federal_Bulgaria
+
+			set_cosmetic_tag = BF_BUL
+		 }
+        }
+      }
+	}
+	
+	option = {
+		name = bfed.2.b # nay
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #Yugo-Hungary Land Deal
+	id = bfed.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event bfed.3"}
+	title = bfed.3.t
+	desc = bfed.3.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = bfed.3.a # Cede it all
+		ai_chance = {
+			factor = 100
+		}
+		every_owned_state = {
+
+			limit = {
+				is_core_of = SER
+				is_owned_by = HUN
+			}
+
+			SER = {
+				transfer_state = PREV
+			}
+		}
+		SER = { country_event = { days = 1 id = bfed.4 } } 
+	}
+	
+	option = {
+		name = bfed.3.b # Cede it, but keep Vajdasag
+		ai_chance = {
+			factor = 0
+		}
+		every_owned_state = {
+
+			limit = {
+				is_core_of = SER
+				is_owned_by = HUN
+			}
+
+			SER = {
+				transfer_state = PREV
+			}
+		}
+		HUN = {
+				transfer_state = 45
+			}
+		SER = { country_event = { days = 1 id = bfed.4 } } 
+	}
+	
+	option = {
+		name = bfed.3.c # nay
+		ai_chance = {
+			factor = 0
+		}
+	}
+}
+
+country_event = { #Yugo-Hungary Land Deal part 2
+	id = bfed.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event bfed.4"}
+	title = bfed.4.t
+	desc = bfed.4.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = bfed.4.a # We don't want this
+		ai_chance = {
+			factor = 100
+		}
+		every_owned_state = {
+
+			limit = {
+				is_core_of = HUN
+				is_owned_by = SER
+			}
+
+			HUN = {
+				transfer_state = PREV
+			}
+		}
+	}
+	
+	option = {
+		name = bfed.4.b # We don't want Vajdasag
+		ai_chance = {
+			factor = 0
+		}
+		every_owned_state = {
+
+			limit = {
+				is_core_of = HUN
+				is_owned_by = SER
+			}
+
+			HUN = {
+				transfer_state = PREV
+			}
+		}
+		SER = {
+				transfer_state = 1343
+				transfer_state = 1002
+				transfer_state = 984
+			}
+	}
+	
+	option = {
+		name = bfed.4.c # nayCE
+		ai_chance = {
+			factor = 0
+		}
+	}
+}

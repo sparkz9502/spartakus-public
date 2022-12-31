@@ -1,0 +1,143 @@
+﻿l_english:
+
+### Head of Government ###
+OTT_Ahmet_Tevfik_Pasa_hog_aco:0 "Ahmet Tevfik Paşa"
+OTT_Mustafa_Kemal_Pasha_hog_ref:0 "Mustafa Kemal Paşa"
+OTT_Salih_Bozok_hog_ref:0 "Bozoklu Salih Paşa"
+OTT_Hikmet_Kivilcimli_hog_rev:0 "Kıvılcımlı Hikmet Bey"
+OTT_Mehmet_Ali_Aybar_hog_rev:0 "Mehmet Ali Bey"
+OTT_Sefik_Husnu_hog_bol:0 "Şefik Hüsnü Bey"
+OTT_Ethem_Nejat_hog_spa:0 "Ethem Nejat Bey"
+OTT_Ali_Fethi_Okyar_hog_sli:0 "Ali Fethi Paşa"
+OTT_Sultanzade_Mehmed_Sabahaddin_hog_sli:0 "Sultanzade Mehmed Sabahaddin"
+OTT_Kazim_Karabekir_hog_sco:0 "Musa Kazım Karabekir Paşa"
+OTT_Mehmed_Cavid_Bey_hog_rwp:0 "Mehmed Cavid Bey"
+OTT_Ismet_Inonu_hog_ref:0 "Mustafa İsmet Paşa"
+OTT_Selahattin_Koseoglu_hog_rwp:0 "Hüseyin Selahattin Paşa"
+OTT_Fevzi_Cakmak_hog_aco:0 "Mustafa Fevzi Paşa"
+OTT_Nihal_Atsiz_hog_nco:0 "Hüseyin Nihal Paşa"
+OTT_Kasim_Gulek_hog_ref:0 "Kasım Bey"
+
+### Minister w/o Portfolio ###
+OTT_Giorgos_Seferis_mwp_sde:0 "Giorgos Seferis"
+OTT_Konstantinos_Spanoudis_mwp_sli:0 "Konstantinos Spanoudis"
+OTT_Chrysanthos_Mentis_Bostantzoglou_mwp_sde:0 "Chrysanthos Mentis Bostancıoğlu"
+
+### Foreign Minister ###
+OTT_Ali_Fethi_Okyar_for_sli:0 "Ali Fethi Bey"
+OTT_Ali_Fuat_Cebesoy_for_lco:0 "Ali Fuat Paşa"
+OTT_Kasim_Gulek_for_ref:0 "Kasım Bey"
+OTT_Ali_Kemal_Bey_for_sli:0 "Ali Kemal Bey"
+OTT_Ali_Adnan_Menderes_for_lco:0 "Ali Adnan Bey"
+OTT_Mehmet_Fuat_Koprulu_for_nco:0 "Köprülüzade Mehmet Fuat Bey"
+OTT_Mustafa_Necati_Ugural_for_sco:0 "Mustafa Necati Bey"
+OTT_Riza_Nur_for_lco:0 "Rıza Nur Bey"
+OTT_Muhammed_Hamdi_Yazir_for_rwp:0 "Muhammed Hamdi Yazır"
+OTT_Sukru_Saracoglu_for_ref:0 "Mehmed Şükrü Bey"
+OTT_Ismet_Inonu_for_ref:0 "Mustafa İsmet Paşa"
+OTT_Selahattin_Adil_for_ref:0 "Selahattin Paşa"
+OTT_Fahrettin_Altay_for_ref:0 "Fahrettin Paşa"
+OTT_Suleyman_Sefik_Soylemezoglu_for_rwp:0 "Süleyman Şefik Söylemezoğlu"
+OTT_Zeki_Velidi_Togan_for_nsy:0 "Zeki Velidi Bey"
+
+
+### Economy Minister ###
+OTT_Ahmet_Ferit_Tek_eco_rwp:0 "Ahmet Ferit Bey"
+OTT_Kasim_Gulek_eco_ref:0 "Kasım Bey"
+OTT_Nazim_Hikmet_Ran_eco:0 "Nazım Hikmet Bey"
+OTT_Mahmut_Celal_Bayar_eco_sco:0 "Mahmut Celal Bey"
+OTT_Sirri_Day_eco_ref:0 "Sırrı Bey"
+OTT_Ali_Fuat_Cebesoy_eco_lco:0 "Ali Fuat Paşa"
+OTT_Mehmet_Sakir_Kesebir_eco_nco:0 "Mehmet Şakir Bey"
+OTT_Berc_Keresteciyan_Bey_eco_sde:0 "Berç Keresteciyan Bey"
+OTT_Haci_Omer_Sabanci_eco_lco:0 "Hacı Ömer Bey"
+OTT_Hasan_Fehmi_Atac_eco_ref:0 "Hasan Fehmi Paşa"
+OTT_Mehmet_Ali_Aybar_eco_rev:0 "Mehmet Ali Bey"
+OTT_Mehmet_Fuat_Koprulu_eco_lco:0 "Köprülüzade Mehmet Fuat Paşa"
+OTT_Zuhtu_Hilmi_Velibese_eco_sli:0 "Zühtü Hilmi Paşa"
+OTT_Hasan_Husnu_Saka_eco_ref:0 "Hasan Hüsnü Bey"
+OTT_Kara_Kemal_Bey_eco_nco:0 "Kara Kemal Bey"
+OTT_Mehmed_Cavid_Bey_eco_rwp:0 "Mehmed Cavid Bey"
+OTT_Mustafa_Seref_Ozkan_eco_aco:0 "Mustafa Şeref Paşa"
+OTT_Sevket_Rasit_Hatipoglu_eco_ref:0 "Şevket Raşit Bey"
+OTT_Nuri_Demirag_eco_lco:0 "Nuri Bey"
+OTT_Mehmed_Recep_Peker_eco_rev:0 "Mehmed Recep Bey"
+
+### Security Minister ###
+OTT_Sultanzade_Mehmed_Sabahaddin_sec_sli:0 "Sultanzade Mehmed Sabahaddin"
+OTT_Ahmet_Agaoglu_sec_nsy:0 "Ahmet Bey Ağayev"
+OTT_Feridun_Fikri_Dusunsel_sec_sli:0 "Feridun Fikri Paşa"
+OTT_Ibrahim_Refik_Saydam_sec_ref:0 "İbrahim Refik Paşa"
+OTT_Bekir_Refik_Koraltan_sec_aco:0 "Bekir Refik Paşa"
+OTT_Kazim_Karabekir_sec_sco:0 "Musa Kazım Karabekir Paşa"
+OTT_Refik_Sevket_Ince_sec_sco:0 "Refik Şevket Paşa"
+OTT_Mustafa_Sabri_Efendi_sec_sco:0 "Mustafa Sabri Efendi"
+OTT_Ahmet_Naci_Eldeniz_sec_ref:0 "Ahmet Naci Paşa"
+OTT_Kazim_Fikri_Ozalp_sec_ref:0 "Kazım Fikri Paşa"
+OTT_Mehmet_Semsettin_Gunaltay_sec_nco:0 "Mehmet Şemsettin Bey"
+OTT_Mustafa_Necati_Ugural_sec_ref:0 "Mustafa Necati Paşa"
+OTT_Yunus_Nadi_Abalioglu_sec_sde:0 "Yunus Nadi Bey"
+OTT_Mehmed_Recep_Peker_sec_rev:0 "Mehmed Recep Bey"
+OTT_Fevzi_Cakmak_sec_nsy:0 "Mustafa Fevzi Paşa"
+OTT_Sadri_Maksudi_Arsal_sec_nco:0 "Sadri Maksudi Bey"
+OTT_Yusuf_Kemal_Tengirsenk_sec_nco:0 "Yusuf Kemal Bey"
+
+### Education Minister ###
+OTT_Riza_Nur_edu_lco:0 "Rıza Nur Bey"
+OTT_Resat_Fuat_Baraner_edu_spa:0 "Reşat Fuat Bey"
+OTT_Resat_Muhlis_Erkmen_edu_ref:0 "Reşat Muhlis Paşa"
+OTT_Mehmet_Semsettin_Gunaltay_edu_nco:0 "Mehmet Şemsettin Bey"
+OTT_Mustafa_Necati_Ugural_edu_ref:0 "Mustafa Necati Paşa"
+OTT_Mehmed_Recep_Peker_edu_rev:0 "Mehmed Recep Bey"
+OTT_Yusuf_Kemal_Tengirsenk_edu_nco:0 "Yusuf Kemal Bey"
+
+### Agriculture Minister ###
+OTT_Zekai_Apaydin_agr_sli:0 "Zekai Bey"
+OTT_Mehmet_Sukru_Kaya_agr_ref:0 "Mehmet Şükrü Bey"
+OTT_Hasan_Fehmi_Atac_agr_ref:0 "Hasan Fehmi Bey"
+OTT_Mehmet_Sabri_Toprak_agr_rev:0 "Mehmet Sabri Bey"
+
+### Transport Minister ###
+OTT_Ali_Cetinkaya_tra_ref:0 "Kel Ali Paşa"
+OTT_Cevdet_Kerim_Incedayi_tra_ref:0 "Cevdet Kerim Paşa"
+OTT_Mehmet_Fahri_Engin_tra_ref:0 "Mehmet Fahri Bey"
+OTT_Ali_Fuat_Cebesoy_tra_lco:0 "Ali Fuat Paşa"
+OTT_Sukru_Kocak_tra_sli:0 "Şükrü Koçak Paşa"
+OTT_Kasim_Gulek_tra_ref:0 "Kasım Bey"
+OTT_Mehmed_Sukru_Saracoglu_tra_ref:0 "Mehmed Şükrü Bey"
+
+### Defence Minister ###
+OTT_Ali_Fethi_Okyar_def_sli:0 "Ali Fethi Bey"
+OTT_Mehmet_Recep_Peker_def_rev:0 "Mehmet Recep Bey"
+OTT_Zekai_Apaydin_def_sli:0 "Zekai Bey"
+
+### Chief of Staff ###
+OTT_Mustafa_Kemal_Pasa_cos:0 "Mustafa Kemal Paşa"
+OTT_Mehmed_Cemal_Mersinli_cos:0 "Mehmed Cemal Paşa"
+OTT_Kazim_Karabekir_cos:0 "Musa Kazım Karabekir Paşa"
+OTT_Fevzi_Cakmak_cos:0 "Mustafa Fevzi Paşa"
+OTT_Osman_Fuat_Efendi_cos:0 "Osman Fuat Efendi"
+OTT_Salih_Bozok_cos:0 "Bozoklu Salih Paşa"
+
+### Chief of Army ###
+OTT_Fevzi_Cakmak_carm:0 "Mustafa Fevzi Paşa"
+OTT_Cemil_Cahit_Toydemir_carm:0 "Cemil Cahit Paşa"
+OTT_Fahrettin_Altay_carm:0 "Fahrettin Paşa"
+OTT_Omer_Fahri_Turkkan_carm:0 "Ömer Fahri Paşa"
+OTT_Salih_Bozok_carm:0 "Bozoklu Salih Paşa"
+
+
+### Chief of Navy ###
+OTT_Rauf_Orbay_cnav:0 "Hüseyin Rauf Paşa"
+OTT_Mehmet_Fahri_Engin_cnav:0 "Mehmet Fahri Paşa"
+OTT_Mahmud_Muhtar_Katircioglu_cnav:0 "Mahmud Muhtar Paşa"
+
+### Chief of Air Force ###
+OTT_Vecihi_Hurkus_cair:0 "Vecihi Paşa"
+OTT_Ahmet_Ali_Celikten_cair:0 "Ahmet Ali Paşa"
+OTT_Ismail_Sefik_Bey_cair:0 "İsmail Şefik Bey"
+
+### Theorist ###
+OTT_Sultanzade_Mehmed_Sabahaddin_theo:0 "Sultanzade Mehmed Sabahaddin"
+OTT_Nazim_Hikmet_theo:0 "Nazım Hikmet Bey"
+OTT_Suat_Dervis_theo:0 "Suat Derviş Hanım"

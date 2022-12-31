@@ -1,0 +1,54 @@
+﻿capital = 315
+
+set_oob = "CUB"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_exec
+	trade_laif
+	economy_indzing
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+
+set_war_support = 0.1
+set_convoys = 20
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 8
+    spartacist = 2
+    revolutionary_socialist = 5
+    reformist_socialist = 1
+    social_democrat = 0
+    social_liberal = 3
+    liberal_conservative = 10
+    social_conservative = 13
+    authoritarian_conservative = 32
+    right_wing_populist = 19
+    national_syndicalist = 7
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Gerardo Machado"
+	desc = "POLITICS_GERARDO_MACHADO_DESC"
+	picture = "Gerardo_Machado.dds"
+	expire = "1965.1.1"
+	ideology = authoritarian_republicanism
+	traits = {
+		#
+	}
+}

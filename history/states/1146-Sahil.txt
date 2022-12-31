@@ -1,0 +1,28 @@
+
+state={
+	id=1146
+	name="STATE_1146"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 1
+			12725 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1174 1977 2003 2046 2088 3987 4138 4963 7066 7989 8105 10784 10836 12725 12796 12862 12881 13783 13888 14189 14190 14191 14192 14197 14198 14203 14209 14251 14865 
+	}
+	manpower=830800
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

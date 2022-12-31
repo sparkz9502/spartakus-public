@@ -1,0 +1,34 @@
+
+state={
+	id=211
+	name="STATE_211"
+	manpower = 554900
+
+	resources={
+	}
+
+
+	state_category = small_town
+
+	history={
+		owner = BUL
+		victory_points = {
+			9902 5
+		}
+		victory_points = {
+			6967 3
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			9902 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = BUL
+	}
+
+	provinces={
+		6967 9888 9902 9919
+	}
+}

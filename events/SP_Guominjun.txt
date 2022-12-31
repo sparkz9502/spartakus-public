@@ -1,0 +1,190 @@
+add_namespace = KMC
+add_namespace = KMC_expel
+
+news_event = { # KMC secures North China
+	id = KMC.100
+	title = KMC.100.t
+	desc = KMC.100.d
+	picture = GFX_KMC_NorthChina
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = KMC.100.a
+	}
+}
+
+country_event = { #Overstreched Warlord
+	id = KMC.1
+	title = KMC.1.t
+	desc = KMC.1.d
+	#picture = GFX_GER_EbertJr
+
+	is_triggered_only = yes
+
+	option = {
+		name = KMC.1.a
+	}
+}
+
+country_event = { #Northwest Army Problem
+	id = KMC.2
+	title = KMC.2.t
+	desc = KMC.2.d
+	#picture = GFX_GER_EbertJr
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KMC.2.a #accept Yang Hucheng and his fellow
+		create_corps_commander = {
+			name = "Yang Hucheng"
+			picture = "Portrait_Yang_Hucheng.tga"
+			traits = { trait_cautious trait_CHI_nwa }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			id = 1221
+		}
+		army_experience = 20
+		add_stability = -0.05
+	}
+	option = {
+		name = KMC.2.b #not accept them
+		army_experience = -20
+		add_stability = 0.15
+	delete_unit_template_and_units = {
+	division_template = "Xibeijun"
+	}
+	}
+}
+
+country_event = { #2nd Army of KMC
+	id = KMC.3
+	title = KMC.3.t
+	desc = KMC.3.d
+	#picture = GFX_GER_EbertJr
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KMC.3.a #Continue the rebuild plan (WIP)
+		create_corps_commander = {
+			name = "Deng Baoshan"
+			picture = "Portrait_Deng_Baoshan.tga"
+			traits = { trait_cautious trait_CHI_2ndkmc }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+			id = 1220
+		}
+		create_field_marshal = {
+			name = "Yue Weijun"
+			picture = "Portrait_Yue_Weijun.tga"
+			traits = {
+			organizer trait_CHI_2ndkmc
+			}
+			skill = 1
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			id = 1203
+		}
+		division_template = {
+			name = "Guomin Er Jun"
+			#division_names_group = 
+			is_locked = yes
+			regiments = {
+				infantry = { x = 0 y = 0 }
+				infantry = { x = 0 y = 1 }
+				infantry = { x = 0 y = 2 }
+				infantry = { x = 1 y = 0 }
+				infantry = { x = 1 y = 1 }
+			}
+		}
+		random_owned_state = {
+			prioritize = { 1413 }
+			create_unit = {
+			division = "name = \"19th Division'\" division_template = \"Guomin Er Jun\"  start_experience_factor = 0.4"
+			owner = KMC
+			}
+		}
+		add_political_power = -50
+		army_experience = 10
+	}
+	option = {
+		name = KMC.3.b #forget the rebuild plan
+		army_experience = -10
+		add_stability = -0.15
+	}
+}
+
+country_event = { #Zhensongjun
+	id = KMC.4
+	title = KMC.4.t
+	desc = KMC.4.d
+	#picture = GFX_GER_EbertJr
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KMC.4.a #keep the loyal part (WIP)
+		army_experience = 20
+		add_stability = -0.20
+	}
+	option = {
+		name = KMC.4.b #expel all of them
+		army_experience = -10
+		add_stability = 0.30
+		random_unit_leader = {
+			limit = { has_id = 1228 }
+			set_nationality = NAN
+
+		}	
+		remove_unit_leader = 1228
+	NAN = {
+		random_unit_leader= {
+		limit = {has_id=1228}
+		unit_leader_event = KMC_expel.1
+		}
+	}
+	delete_unit_template_and_units = {
+	division_template = "Zhensongjun"
+	}
+	}
+}
+
+
+country_event = { #Zhensongjun in Nanjing
+	id = KMC_expel.1
+	title = KMC_expel.1.t
+	desc = KMC_expel.1.d
+	#picture = GFX_GER_EbertJr
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = KMC_expel.1.a #accept them
+		add_political_power = -10
+	}
+	option = {
+		name = KMC.4.b #not to accept
+		add_political_power = -15
+		hidden_effect = {
+			THIS = {
+				retire = yes
+			}
+		}	
+	}
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=1329
+	name="STATE_1329"
+
+	history={
+		owner = ARM
+		add_claim_by = SOV
+		victory_points = {
+			15653 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4660 15653 
+	}
+	manpower=120000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

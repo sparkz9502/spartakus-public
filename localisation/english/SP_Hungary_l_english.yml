@@ -1,0 +1,42 @@
+﻿l_english:
+
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Ideas
+
+# Focuses
+
+# Traits
+
+### Parties ###
+
+HUN_bolshevist_party:0 "KMP"
+HUN_bolshevist_party_long:0 "Party of Communists in Hungary (Kommunisták Magyarországi Pártja)"
+HUN_spartacist_party:0 "KMP"
+HUN_spartacist_party_long:0 "Party of Communists in Hungary (Kommunisták Magyarországi Pártja)"
+HUN_revolutionary_socialist_party:0 "KMP"
+HUN_revolutionary_socialist_party_long:0 "Party of Communists in Hungary (Kommunisták Magyarországi Pártja)"
+HUN_reformist_socialist_party:0 "MSZMP"
+HUN_reformist_socialist_party_long:0 "Socialist Workers' Party of Hungary (Magyarországi Szocialista Munkáspárt)"
+HUN_social_democrat_party:0 "MSZDP"
+HUN_social_democrat_party_long:0 "Social Democratic Party of Hungary (Magyarországi Szociáldemokrata Párt)"
+HUN_social_liberal_party:0 "PRP"
+HUN_social_liberal_party_long:0 "Civil Radical Party (Polgári Radikális Párt)"
+HUN_liberal_conservative_party:0 "F48P"
+HUN_liberal_conservative_party_long:0 "Party of Independence and '48 (Függetlenségi és 48-as Párt)"
+HUN_social_conservative_party:0 "KSZNP"
+HUN_social_conservative_party_long:0 "Christian Social People's Party (Keresztényszociális Néppárt)"
+HUN_authoritarian_conservative_party:0 "OKGFP"
+HUN_authoritarian_conservative_party_long:0 "National Smallholders' and Farmers' Party (Országos Kisgazda- és Földműves Párt)"
+HUN_right_wing_populist_party:0 "KNP"
+HUN_right_wing_populist_party_long:0 "Christian National Party (Keresztény Nemzeti Párt)"
+HUN_national_syndicalist_party:0 "MNFP"
+HUN_national_syndicalist_party_long:0 "Hungarian National Independence Party (Magyar Nemzeti Függetlenségi Párt)"
+HUN_national_corporatist_party:0 "MNFP"
+HUN_national_corporatist_party_long:0 "Hungarian National Independence Party (Magyar Nemzeti Függetlenségi Párt)"
+
+# Opinion Modifiers

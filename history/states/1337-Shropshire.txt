@@ -1,0 +1,21 @@
+
+state={
+	id=1337
+	name="STATE_1337"
+
+	history={
+		owner = MAG
+		add_core_of = MAG
+		buildings = {
+			infrastructure = 1
+		}
+
+	}
+
+	provinces={
+		2200 5231 8180 8246 11015 12648 12908 12956 14020 14675 14731 14740 14777 14838 
+	}
+	manpower=1325500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

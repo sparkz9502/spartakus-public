@@ -1,0 +1,30 @@
+
+state={
+	id=780
+	name="STATE_780"
+	resources={
+		coal=18.000
+	}
+
+	history={
+		victory_points = {
+			11531 5
+		}
+		owner = FRA
+		add_claim_by = GER
+		add_core_of = RHI
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		11531 
+	}
+	manpower=814600
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

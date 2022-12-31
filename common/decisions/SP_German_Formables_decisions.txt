@@ -1,0 +1,263 @@
+#########################################
+### German Formable Nations Decisions ###
+#########################################
+
+GFN_formable_nations = {
+
+	#Baden-Wurttemberg#
+
+	WUR_form_south_german_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = WUR
+			NOT = {
+				country_exists = GER
+			}
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		available = {
+			has_global_flag = GFN_allies_allow_sgf
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		complete_effect = {
+			set_cosmetic_tag = WUR_SGF
+			add_state_core = 42
+			add_state_core = 739
+			add_state_core = 993
+			add_state_core = 54
+			add_state_core = 53
+			add_state_core = 52
+			add_state_core = 1263
+			set_country_flag = GFN_formed_new_nation
+		}	
+	}
+	
+	WUR_form_german_empire = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = WUR
+			NOT = {
+				country_exists = GER
+			}
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		available = {
+			has_global_flag = GFN_allies_allow_emp
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		complete_effect = {
+			set_cosmetic_tag = WUR_EMP
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = GER
+						is_claimed_by = GER
+					}
+					NOT = {
+						OR = {
+							is_core_of = WUR
+							is_claimed_by = CZE
+						}
+					}
+				}
+				add_core_of = WUR
+			}
+			set_country_flag = GFN_formed_new_nation
+		}	
+	}
+	
+	#Rhenish Republic#
+	
+	RHI_form_rhenish_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = RHI
+			NOT = {
+				country_exists = GER
+			}
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		available = {
+			has_global_flag = GFN_allies_allow_rfd
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_cosmetic_tag = RHI_RFD
+			add_state_core = 55
+			add_state_core = 57
+			add_state_core = 1168
+			add_state_core = 1258
+			set_country_flag = GFN_formed_new_nation
+		}	
+	}
+	
+	RHI_form_west_german_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = RHI
+			NOT = {
+				country_exists = GER
+			}
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		available = {
+			has_global_flag = GFN_allies_allow_wgf
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_cosmetic_tag = RHI_WGF
+			add_state_core = 55
+			add_state_core = 57
+			add_state_core = 1168
+			add_state_core = 1258
+			add_state_core = 59
+			add_state_core = 1266
+			add_state_core = 1252
+			add_state_core = 56
+			add_state_core = 1267
+			add_state_core = 58
+			set_country_flag = GFN_formed_new_nation
+		}	
+	}
+	
+	RHI_form_german_republic = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = RHI
+			NOT = {
+				country_exists = GER
+			}
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		available = {
+			has_global_flag = GFN_allies_allow_grp
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		fire_only_once = yes
+		
+		complete_effect = {
+			set_cosmetic_tag = RHI_GRP
+			every_state = {
+				limit = {
+					OR = {
+						is_core_of = GER
+						is_claimed_by = GER
+					}
+					NOT = {
+						OR = {
+							is_core_of = RHI
+							is_claimed_by = CZE
+						}
+					}
+				}
+				add_core_of = WUR
+			}
+			set_country_flag = GFN_formed_new_nation
+		}	
+	}
+	
+	#Prussia#
+	
+	PRS_form_east_german_federation = {
+		icon = generic_prepare_civil_war
+
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = PRS
+			NOT = {
+				country_exists = GER
+			}
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		available = {
+			has_global_flag = GFN_allies_allow_egf
+			NOT = {
+				has_country_flag = GFN_formed_new_nation
+			}
+		}
+		
+		complete_effect = {
+			set_cosmetic_tag = PRS_EGF
+			add_state_core = 42
+			set_country_flag = GFN_formed_new_nation
+		}	
+	}
+
+}

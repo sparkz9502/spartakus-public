@@ -1,0 +1,32 @@
+
+state={
+	id=420
+	name="STATE_420"
+
+	history={
+		owner = GLN
+		buildings = {
+			infrastructure = 2
+			arms_factory = 2
+			industrial_complex = 1
+			15133 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GLN
+		add_claim_by = PER
+		victory_points = {
+			15133 7 
+		}
+
+	}
+
+	provinces={
+		4609 4901 12748 15133 
+	}
+	manpower=514700
+	buildings_max_level_factor=1.000
+	state_category=town
+}

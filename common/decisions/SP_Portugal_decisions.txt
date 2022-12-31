@@ -1,0 +1,901 @@
+POR_economy = {
+
+	POR_santa_luzia_dam_mission = {
+		icon = generic_prepare_civil_war
+		allowed = { tag = POR }
+		activation = {
+			has_completed_focus = POR_recovery_electricity_2_left
+		}
+		visible = {
+			has_completed_focus = POR_recovery_electricity_2_left
+		}
+		available = {
+			NOT = {
+				owns_state = 181
+			}
+		}
+
+		fire_only_once = yes
+		is_good = yes
+		cancel_if_not_visible = yes
+		
+		days_mission_timeout = 1825
+		timeout_effect = {
+			custom_effect_tooltip = POR_constructing_dam_tt
+			country_event = {
+				id = por.45
+			}
+			remove_ideas = POR_constructing_dam
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+}
+
+POR_wars = {
+
+	POR_reclaim_azores = {
+
+		icon = generic_independence
+
+		available = {
+			tag = POR
+			ENG = { 
+				owns_state = 698
+			}
+			OR = {
+				SOV = {
+					has_war_with = ENG
+				}
+				GER = {
+					has_war_with = ENG
+				}
+			}
+		}
+
+		cost = 20
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 200
+		}
+		
+		visible = {
+			has_completed_focus = POR_triumphant_republic
+			NOT = {
+				OR = {
+					is_in_faction_with = GER
+					is_in_faction_with = SOV
+				}
+			}
+		}
+		complete_effect = {
+			declare_war_on = {
+				target = ENG
+				type = take_core_state
+			}
+		}	
+	}
+	
+	# POR_seize_olivenza = {
+
+		# icon = generic_independence
+
+		# available = {
+			# tag = POR
+			# has_completed_focus = POR_recovery_final
+			# AND = {
+				# SPR = { 
+					# owns_state = 940
+				# }
+				# OR = {
+					# #SPR = {
+						# #has_war_with = whatevertagsocialistswillhave
+					# #}
+				# }
+			# }
+		# }
+
+		# cost = 20
+		# fire_only_once = yes
+
+		# ai_will_do = {
+			# factor = 200
+		# }
+		
+		# visible = {
+			# has_completed_focus = POR_triumphant_republic
+		# }
+		# complete_effect = {
+			# POR = { transfer_state = 940 }
+			# hidden_effect {
+				# SPR = { 
+				# country_event = { 
+					# id = notinthegameyet
+					# } 
+				# }
+			# }
+		# }	
+	# }
+}
+
+POR_civil_war = {
+
+	POR_lost_estremadura = {
+		icon = generic_prepare_civil_war
+		allowed = { tag = POR }
+		activation = {
+			has_war_with = PRM
+		    NOT = {
+				controls_state = 974
+			}
+		}
+		visible = {
+			has_war_with = PRM
+		    NOT = {
+				controls_state = 974
+			}
+		}
+		
+		available = {
+			controls_state = 974
+		}
+		
+		cancel_if_not_visible = yes
+		fire_only_once = no
+		is_good = no
+		
+		days_mission_timeout = 180
+		timeout_effect = {
+			custom_effect_tooltip = POR_lost_estremadura_tt
+			hidden_effect = {
+				PRM = {
+					country_event = peace.1
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	POR_lost_beira = {
+		icon = generic_prepare_civil_war
+		allowed = { tag = PRM }
+		activation = {
+			has_war_with = POR
+		    NOT = {
+				controls_state = 181
+			}
+		}
+		visible = {
+			has_war_with = POR
+		    NOT = {
+				controls_state = 181
+			}
+		}
+		
+		available = {
+			controls_state = 181
+		}
+		
+		cancel_if_not_visible = yes
+		fire_only_once = no
+		is_good = no
+		
+		days_mission_timeout = 180
+		timeout_effect = {
+			custom_effect_tooltip = PRM_lost_beira_tt
+			hidden_effect = {
+				POR = {
+					country_event = peace.1
+				}
+			}
+		}
+		
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	
+	POR_bring_out_great_war_stockpiles = {
+
+		icon = generic_prepare_civil_war
+
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			OR = {
+				tag = POR
+				tag = PRM
+			}
+		}
+		days_remove = 35
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 250
+				producer = POR
+			}
+		}	
+	}
+	
+	POR_transition_to_war_economy = {
+
+		icon = ger_military_buildup
+
+		
+
+		cost = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			OR = {
+				tag = POR
+				tag = PRM
+			}
+		}
+		days_remove = 120
+		modifier = {
+			political_power_gain = -0.10
+			consumer_goods_factor = 0.10
+			stability_factor = -0.05
+		}
+		remove_effect = {
+			increase_mobilization = yes
+		}	
+	}
+	
+	POR_requisition_civilian_rifles = {
+
+		icon = generic_prepare_civil_war
+		
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			OR = {
+				tag = POR
+				tag = PRM
+			}
+		}
+		days_remove = 35
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+			war_support_factor = -0.05
+			stability_factor = -0.05
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 250
+				producer = POR
+			}
+			add_war_support = -0.05
+			add_stability = -0.05
+		}	
+	}
+	
+	POR_expand_emergency_rationing = {
+
+		icon = generic_break_treaty
+
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			OR = {
+				tag = POR
+				tag = PRM
+			}
+		}
+		days_remove = 60
+		modifier = {
+			consumer_goods_factor = 0.25
+		}
+		remove_effect = {
+			custom_effect_tooltip = POR_emergency_rationing
+			set_country_flag = POR_rationed_food
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = POR
+			}
+		}	
+	}
+	
+	POR_mobilize_more_volunteers = {
+
+		icon = oppression
+
+		cost = 20
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			OR = {
+				tag = POR
+				tag = PRM
+			}
+		}
+		days_remove = 30
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.1
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					tag = POR
+				}
+				112 = {
+					create_unit = {
+						division = "name = \"8a Brigada Republicana\" division_template = \"Brigada Republicana\" start_experience_factor = 0.1" prioritize_location = 11805
+						owner = POR
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = PRM
+				}
+				180 = {
+					create_unit = {
+						division = "name = \"5a Legião Portuguesa\" division_template = \"Legião Portuguesa\" start_experience_factor = 0.1" prioritize_location = 9817
+						owner = PRM
+					}
+				}
+			}
+		}	
+	}
+	
+	POR_conscript_the_police = {
+
+		icon = generic_army_support
+
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			OR = {
+				tag = POR
+				tag = PRM
+			}
+		}
+		days_remove = 30
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.1
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					tag = POR
+				}
+				112 = {
+					create_unit = {
+						division = "name = \"Guarda Republicana\" division_template = \"Brigada Republicana\" start_experience_factor = 0.1" prioritize_location = 11805
+						owner = POR
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = PRM
+				}
+				180 = {
+					create_unit = {
+						division = "name = \"Guarda Municipal\" division_template = \"Legião Portuguesa\" start_experience_factor = 0.1" prioritize_location = 9817
+						owner = PRM
+					}
+				}
+			}
+		}	
+	}
+
+}
+
+POR_civil_war_germany = {
+
+	POR_establish_german_contacts = {
+
+		icon = generic_form_nation
+
+		
+
+		cost = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 14
+		modifier = {
+			political_power_gain = -0.10
+		}
+		remove_effect = {
+			custom_effect_tooltip = POR_german_contacts
+			set_country_flag = POR_german_contacts
+		}	
+	}
+	
+	POR_smuggle_german_rifles = {
+
+		icon = generic_prepare_civil_war
+
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 35
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 100
+				producer = GER
+			}
+		}	
+	}
+	
+	POR_purchase_german_fighters = {
+
+		icon = generic_air
+
+		
+
+		cost = 40
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 35
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.10
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_0
+				amount = 20
+				producer = GER
+			}
+		}	
+	}
+	
+	POR_import_german_vegetables = {
+
+		icon = generic_break_treaty
+
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 35
+		modifier = {
+			consumer_goods_factor = 0.10
+		}
+		remove_effect = {
+			custom_effect_tooltip = POR_german_vegetables
+			set_country_flag = POR_imported_food
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = GER
+			}
+		}	
+	}
+	
+	POR_petition_for_german_volunteers = {
+
+		icon = generic_army_support
+
+		
+
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 7
+		modifier = {
+			political_power_gain = -0.10
+		}
+		remove_effect = {
+			#will have event
+		}	
+	}
+}
+
+POR_civil_war_soviet = {
+	POR_establish_soviet_contacts = {
+
+		icon = generic_form_nation
+
+		
+
+		cost = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 14
+		modifier = {
+			political_power_gain = -0.10
+		}
+		remove_effect = {
+			custom_effect_tooltip = POR_soviet_contacts
+			set_country_flag = POR_soviet_contacts
+		}	
+	}
+	
+	POR_smuggle_soviet_rifles = {
+
+		icon = generic_prepare_civil_war
+
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 35
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 100
+				producer = SOV
+			}
+		}	
+	}
+	
+	POR_purchase_old_soviet_rifles = {
+
+		icon = generic_prepare_civil_war
+
+		
+
+		cost = 30
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 35
+		modifier = {
+			political_power_gain = -0.25
+			command_power_gain = -0.5
+			consumer_goods_factor = 0.10
+		}
+		remove_effect = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 100
+				producer = SOV
+			}
+		}	
+	}
+	
+	POR_import_soviet_grain = {
+
+		icon = generic_break_treaty
+
+		
+
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 35
+		modifier = {
+			consumer_goods_factor = 0.10
+		}
+		remove_effect = {
+			custom_effect_tooltip = POR_soviet_vegetables
+			set_country_flag = POR_imported_food
+			add_equipment_to_stockpile = {
+				type = support_equipment
+				amount = 50
+				producer = GER
+			}
+		}	
+	}
+	
+	POR_petition_for_soviet_volunteers = {
+
+		icon = generic_army_support
+
+		
+
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 7
+		modifier = {
+			political_power_gain = -0.10
+		}
+		remove_effect = {
+			#will have event
+		}	
+	}
+}
+
+POR_education = {
+	POR_expand_rural_schools = {
+	
+		cost = 25
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 100
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+	
+	POR_nationalize_church_schools = {
+		cost = 50
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+			OR = {
+				has_government = spartacist
+				has_government = reformist_socialist
+			}
+		}
+		days_remove = 50
+		modifier = {
+			stability_factor = -0.05
+		}
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+	
+	POR_socio_political_education = {
+		cost = 10
+		fire_only_once = no
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+			has_government = spartacist
+		}
+		days_remove = 20
+		modifier = {
+			political_power_gain = -0.05
+		}
+		remove_effect = {
+			add_popularity {
+				ideology = spartacist popularity = 0.03
+			}
+			improve_literacy = yes
+		}
+	}
+	
+	POR_mandatory_schooling = {
+		cost = 100
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+			OR = {
+				has_government = spartacist
+				has_government = reformist_socialist
+			}
+		}
+		days_remove = 10
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+	
+	POR_workplace_education = {
+		cost = 25
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+			OR = {
+				has_government = spartacist
+				has_government = revolutionary_socialist
+			}
+		}
+		days_remove = 60
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+	
+	POR_modern_schools = {
+		cost = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+			OR = {
+				has_government = revolutionary_socialist
+			}
+		}
+		days_remove = 120
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+	
+	POR_foreign_expertise = {
+		cost = 10
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+			OR = {
+				has_government = reformist_socialist
+			}
+		}
+		days_remove = 50
+		modifier = {
+			political_power_gain = -0.05
+		}
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+	
+	POR_mobile_libraries = {
+		cost = 20
+		fire_only_once = yes
+
+		ai_will_do = {
+			factor = 100
+		}
+		
+		visible = {
+			tag = POR
+		}
+		days_remove = 160
+		remove_effect = {
+			improve_literacy = yes
+		}
+	}
+}

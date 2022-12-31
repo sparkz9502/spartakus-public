@@ -1,0 +1,94 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+ustates.1.t:0 "The 1932 Democratic Convention"
+ustates.1.d:0 "Democratic Party delegates have arrived in Chicago to select their Presidential nominee, with Al Smith and Henry Ford emerging as the front-runners. Henry Ford, the previous Democratic nominee in 1928, has continued to present himself as a champion of economic prosperity, though he has been accused of sympathy with the far-right. Meanwhile, Al Smith, former governor of New York, is noted for his Catholicism and his opposition to Prohibition, which has spurred opposition from southern conservatives. The delegates cast their votes, and the nominee shall be…"
+ustates.1.a:0 "Alfred Smith"
+ustates.1.b:0 "Henry Ford"
+ustates.2.t:0 "Progressives Negotiate with Hoover"
+ustates.2.d:0 "With Republican divisions sowing from the economic depression, various progressive leaders have approached President Hoover in regards to economic policy. In exchange for their support, the progressives have asked Hoover to support various interventionist measures, despite Hoover’s personal support of laissez-faire economics."
+ustates.2.a:0 "The party must stick together."
+ustates.2.b:0 "What is this, the socialist party?"
+ustates.3.t:0 "The 1932 Republican Convention"
+ustates.3.d:0 "Republican Party delegates have arrived in Chicago to select their Presidential nominee, with President Hoover emerging as a clear front-runner. However, Senator George W. Norris from Nebraska and former Senator Joseph I. France from Maryland have both launched insurgent progressive campaigns, seeking to pressure Hoover towards their viewpoints. The delegates cast their votes, and the nominee shall be…"
+ustates.3.a:0 "Herbert Hoover"
+ustates.3.b:0 "George Norris"
+ustates.3.c:0 "Joseph France"
+ustates.4.t:0 "The 1932 Presidential Election"
+ustates.4.d:0 "After an exhausting campaign season under the backdrop of economic crisis, American citizens line up at the polls to vote for their next President. The votes are tallied, and the winner shall be..."
+ustates.4.a:0 "Herbert Hoover"
+ustates.4.b:0 "George Norris"
+ustates.4.c:0 "Joseph France"
+ustates.4.e:0 "Henry Ford"
+ustates.4.f:0 "Alfred Smith"
+ustates.5.t:0 "1933 Inaguration"
+ustates.5.d:0 "Although the election occurs in November, the President has to wait until March to be formally inaugurated. With the depression only getting worse, the President has a busy schedule ahead of him."
+ustates.5.a:0 "Good luck, President Hoover!"
+ustates.5.b:0 "Good luck, President Norris!"
+ustates.5.c:0 "Good luck, President France!"
+ustates.5.e:0 "Good luck, President Ford!"
+ustates.5.f:0 "Good luck, President Smith!"
+ustates.6.t:0 "Progressives Abandon Hoover"
+ustates.6.d:0 "Progressive Republicans are indignant at Hoover for his stubborn insistence on laissez-faire policy despite the present economic crisis. Hoover’s nomination despite this has brought the progressive wing over the edge, leading numerous progressive bulwarks to refuse to support him in the general election."
+ustates.6.a:0 "Uh oh!"
+ustates.7.t:0 "Progressives Back Hoover"
+ustates.7.d:0 "After a series of negotiations, Hoover’s campaign and progressive Republicans have agreed on a joint platform of cautious economic interventionism and reform. For now, inter-party tensions have been quelled."
+ustates.7.a:0 "Excellent!"
+ustates.8.t:0 "Internal Division in Republican Party"
+ustates.8.d:0 "Hoover’s shock defeat in the convention has increased tensions between progressive and conservative Republicans, with conservatives expressing concern towards the nominee’s economic interventionist stances. Though a facade of party unity still remains, the cracks have grown a bit bigger."
+ustates.8.a:0 "Darn."
+ustates.9.t:0 "Concerning Harvests"
+ustates.9.d:0 "As the summer comes to a close, a number of reports from Great Plains farmers noted continued issues with drought and soil erosion that have marked this decade. If this continues, then this could lead to agricultural disaster."
+ustates.9.a:0 "Let's hope the situation gets better next year."
+
+### Parties ###
+
+USA_bolshevist_party:0 "FFLP (WPA)"
+USA_bolshevist_party_long:0 "Federated Farmer–Labor Party (Workers' Party of America)"
+USA_spartacist_party:0 "FFLP (WPA)"
+USA_spartacist_party_long:0 "Federated Farmer–Labor Party (Workers' Party of America)"
+USA_revolutionary_socialist_party:0 "SLP"
+USA_revolutionary_socialist_party_long:0 "Socialist Labor Party"
+USA_reformist_socialist_party:0 "FFLP (SPA)"
+USA_reformist_socialist_party_long:0 "Federated Farmer–Labor Party (Socialist Party of America)"
+USA_social_democrat_party:0 "FFLP (PP)"
+USA_social_democrat_party_long:0 "Federated Farmer–Labor Party (Progressive Party)"
+USA_social_liberal_party:0 "Republican Party"
+USA_social_liberal_party_long:0 "Republican Party"
+USA_liberal_conservative_party:0 "Republican Party"
+USA_liberal_conservative_party_long:0 "Republican Party"
+USA_social_conservative_party:0 "Democratic Party"
+USA_social_conservative_party_long:0 "Democratic Party"
+USA_authoritarian_conservative_party:0 "Democratic Party"
+USA_authoritarian_conservative_party_long:0 "Democratic Party"
+USA_right_wing_populist_party:0 "Prohibition Party"
+USA_right_wing_populist_party_long:0 "Prohibition Party"
+USA_national_syndicalist_party:0 "Union Party"
+USA_national_syndicalist_party_long:0 "Union Party"
+USA_national_corporatist_party:0 "Christian Party"
+USA_national_corporatist_party_long:0 "Christian Party"
+
+### Focus ###
+
+### Ideas ###
+USA_booming_economy:0 "Booming Economy"
+USA_booming_economy_desc:0 "Despite hardships elsewhere in the world and various issues with workers strikes, our economy has reached levels never seen before. Our isolationist and protectionist market prevented our country from being negatively affected by the London Stock Market crash in 1929. However, many warn that this abnormal boom could be the calm before the storm. Lets hope they are wrong..."
+
+USA_tariff_act:0 "Smoot–Hawley Tariff Act"
+USA_tariff_act_desc:0 "The Tariff Act of 1930, commonly known as the Smoot–Hawley Tariff Act, is a protectionist trade policy that places tariffs on over 20,000 imported goods. Economic analysts warn that these tariffs were unnecessary considering the booming economy, and the gradual retaliatory tariffs by our trade partners may have some unexpected consequences."
+
+USA_impending_drought:0 "Impending Drought"
+USA_impending_drought_desc:0 "§RNot taking proper precautions quick enough could lead to a major disaster.\n§!The Midwest throughout the 1920's experienced unusually rich weather with perfect rainfall and relatively moderate winter weather. However, in the summer of 1930, much of the midwest experienced extremely dry, hot weather that resulted in much of the rich soil turning to dust. 1931 saw similar conditions, and experts warn this could turn into a full blown agricultural crisis."
+
+USA_neutrality_movement:0 "Neutrality Movement"
+USA_neutrality_movement_desc:0 "We lost over 100,000 good men during the Great War, and achieved almost none of the Fourteen Points that President Woodrow Wilson created to rebuild the world after the war. He failed to establish the United States as a world power, and the idea of a League of Nations was thrown out entirely. Over a decade later, our people are still extremely unwilling to engage in any sort of conflict overseas."
+
+USA_great_depression:0 "The Great Depression"
+USA_great_depression_desc:0 "The days of the American golden age are over, coming to an abrupt end with a massive market crash on March 16th, 1932. We have entered a new, harsher age which some say we may not survive..."
+
+### Flags ###
+
+### Tooltips ###

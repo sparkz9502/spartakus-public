@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+PAR_bolshevist_party:0 "PCP"
+PAR_bolshevist_party_long:0 "Paraguayan Communist Party (Partido Comunista Paraguayo)"
+PAR_spartacist_party:0 "PCP"
+PAR_spartacist_party_long:0 "Paraguayan Communist Party (Partido Comunista Paraguayo)"
+PAR_revolutionary_socialist_party:0 "Anarquistas"
+PAR_revolutionary_socialist_party_long:0 "Anarchists (Anarquistas)"
+PAR_reformist_socialist_party:0 "LNI"
+PAR_reformist_socialist_party_long:0 "National Independent League (Liga Nacional Independiente)"
+PAR_social_democrat_party:0 "LNI"
+PAR_social_democrat_party_long:0 "National Independent League (Liga Nacional Independiente)"
+PAR_social_liberal_party:0 "CD"
+PAR_social_liberal_party_long:0 "Democratic Centre (Centro Democrático)"
+PAR_liberal_conservative_party:0 "PL"
+PAR_liberal_conservative_party_long:0 "Liberal Party (Partido Liberal)"
+PAR_social_conservative_party:0 "PNR"
+PAR_social_conservative_party_long:0 "Republican National Party - Colorado Party (Partido Nacional Republicano - Partido Colorado)"
+PAR_authoritarian_conservative_party:0 "FAP"
+PAR_authoritarian_conservative_party_long:0 "Armed Forces of Paraguay (Fuerzas Armadas de Paraguay)"
+PAR_right_wing_populist_party:0 "-"
+PAR_right_wing_populist_party_long:0 "-"
+PAR_national_syndicalist_party:0 "-"
+PAR_national_syndicalist_party_long:0 "-"
+PAR_national_corporatist_party:0 "-"
+PAR_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

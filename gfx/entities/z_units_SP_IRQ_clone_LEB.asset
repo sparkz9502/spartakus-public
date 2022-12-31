@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "IRQ_infantry_entity"
+		name = "SYR_infantry_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_infantry_2_entity"
+		name = "SYR_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_infantry_3_entity"
+		name = "SYR_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "IRQ_infantry_rider_entity"
+		name = "SYR_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "IRQ_infantry_mg_rider_entity"
+		name = "SYR_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_entity"
+		name = "SYR_cavalry_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_2_entity"
+		name = "SYR_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_rifle_combined_entity"
+		name = "SYR_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "IRQ_cavalry_mg_combined_entity"
+		name = "SYR_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "IRQ_motorized_entity"
+		name = "SYR_motorized_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_mechanized_entity"
+		name = "SYR_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "IRQ_artillery_entity"
+		name = "SYR_artillery_entity"
+	}
+	
+	
+	

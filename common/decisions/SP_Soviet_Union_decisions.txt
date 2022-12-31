@@ -1,0 +1,102 @@
+##############################
+### Soviet Union Decisions ###
+##############################
+
+SOV_Congress_of_Soviets_GUI = {
+
+	SOV_COS_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovcos.100
+		}
+	}
+
+}
+
+
+SOV_New_Economic_Policy = {
+
+	SOV_NEP_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovnep.100
+		}
+	}
+
+	
+}
+
+SOV_famine_gui = {
+
+	SOV_famine_warning = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovfam.100
+		}
+	}
+
+	
+}
+
+
+SOV_First_Five_Year_Plan = {
+
+	SOV_FYP_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovfyp.100
+		}
+	}
+
+	
+}
+
+
+SOV_Constructions = {
+
+	SOV_Construction_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovcon.100
+		}
+	}
+	
+	## Missions??? Should use up civ factories.
+	
+	SOV_Transsiberian_Railway = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovcon.200
+		}
+	}
+	
+	SOV_White_Sea_Canal = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = sovcon.300
+		}
+	}
+
+	
+}

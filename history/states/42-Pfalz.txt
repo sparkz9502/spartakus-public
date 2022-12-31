@@ -1,0 +1,33 @@
+
+state={
+	id=42
+	name="STATE_42"
+
+	history={
+		owner = RHI
+		add_core_of = RHI
+		add_claim_by = GER
+		#add_core_of = BAV
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			3558 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			11547 2 
+		}
+		victory_points = {
+			3558 5 
+		}
+
+	}
+
+	provinces={
+		563 3558 11547 
+	}
+	manpower=1013163
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,37 @@
+
+state={
+	id=121
+	name="STATE_121"
+	resources={
+		coal=8.000
+		oil=9.000
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			9392 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			fuel_silo = 1
+			air_base = 3
+			arms_factory = 1
+			9392 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		9314 9383 9392 11378 15362 
+	}
+	manpower=905700
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

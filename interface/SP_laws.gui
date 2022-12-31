@@ -1,0 +1,849 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "laws_open"
+		position = { x = 0 y = 0 }
+		
+		buttonType = {
+			name = "open_laws_button"
+			position = { x = 372 y = 151 }
+			spriteType = "GFX_laws_icon"
+		}
+		
+		instantTextboxType = {
+			name = "open_laws_text"
+			position = { x = 354 y = 150 }
+			font = "hoi_18mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "OPEN_LAWS_BUTTON"
+			format = center
+			alwaystransparent = yes
+		}
+	}
+
+	containerWindowType = {
+		name = "laws_menu"
+		position = { x = 546 y = 4 }
+		size = { width = 550 height = 670 }
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_laws_bg"
+		}
+		
+		instantTextboxType = {
+			name = "name"
+			position = { x = 124 y = 10 }
+			font = "hoi_30header"
+			text = "Laws & Policies"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		buttonType = {
+			name = "close_laws_button"
+			position = { x = 511 y = 9 }
+			spriteType = "GFX_closebutton"
+			format = center
+			pdx_tooltip = "FACTION_JOINING_CLOSE"
+			shortcut = "ESCAPE"
+		}
+		
+		#Trade
+		
+		instantTextboxType = {
+			name = "trade"
+			position = { x = 2 y = 212 }
+			font = "hoi_24header"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Trade"
+			format = center
+		}
+		
+		iconType ={
+			name = "trade_aut"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=240 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "trade_aut_name"
+			position = { x = 2 y = 242 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Trade_Aut_Text"
+			format = center
+			pdx_tooltip = "trade_aut_desc"
+		}
+		
+		iconType ={
+			name = "trade_nat"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=260 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "trade_nat_name"
+			position = { x = 2 y = 262 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Trade_Nat_Text"
+			format = center
+			pdx_tooltip = "trade_nat_desc"
+		}
+		
+		iconType ={
+			name = "trade_pro"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=280 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "trade_pro_name"
+			position = { x = 2 y = 282 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Trade_Pro_Text"
+			format = center
+			pdx_tooltip = "trade_pro_desc"
+		}
+		
+		iconType ={
+			name = "trade_sempro"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=300 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "trade_sempro_name"
+			position = { x = 2 y = 302 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Trade_Sempro_Text"
+			format = center
+			pdx_tooltip = "trade_sempro_desc"
+		}
+		
+		iconType ={
+			name = "trade_laif"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=320 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "trade_laif_name"
+			position = { x = 2 y = 322 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Trade_Laif_Text"
+			format = center
+			pdx_tooltip = "trade_laif_desc"
+		}
+		
+		#Economy
+		
+		instantTextboxType = {
+			name = "economy"
+			position = { x = 2 y = 59 }
+			font = "hoi_24header"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy"
+			format = center
+		}
+		
+		iconType ={
+			name = "economy_hyind"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=87 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "economy_hyind_name"
+			position = { x = 2 y = 89 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy_Hyind_Text"
+			format = center
+			pdx_tooltip = "economy_hyind_desc"
+		}
+		
+		iconType ={
+			name = "economy_ind"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=107 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "economy_ind_name"
+			position = { x = 2 y = 109 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy_Ind_Text"
+			format = center
+			pdx_tooltip = "economy_ind_desc"
+		}
+		
+		iconType ={
+			name = "economy_semind"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=127 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "economy_semind_name"
+			position = { x = 2 y = 129 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy_Semind_Text"
+			format = center
+			pdx_tooltip = "economy_semind_desc"
+		}
+		
+		iconType ={
+			name = "economy_indzing"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=147 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "economy_indzing_name"
+			position = { x = 2 y = 149 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy_Indzing_Text"
+			format = center
+			pdx_tooltip = "economy_indzing_desc"
+		}
+		
+		iconType ={
+			name = "economy_unind"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=167 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "economy_unind_name"
+			position = { x = 2 y = 169 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy_Unind_Text"
+			format = center
+			pdx_tooltip = "economy_unind_desc"
+		}
+		
+		iconType ={
+			name = "economy_undev"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=187 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "economy_undev_name"
+			position = { x = 2 y = 189 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Economy_Undev_Text"
+			format = center
+			pdx_tooltip = "economy_undev_desc"
+		}
+		
+		#Governance
+		
+		instantTextboxType = {
+			name = "governance"
+			position = { x = 176 y = 59 }
+			font = "hoi_24header"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance"
+			format = center
+		}
+		
+		iconType ={
+			name ="governance_bure"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=87 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_bure_name"
+			position = { x = 174 y = 89 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Bure_Text"
+			format = center
+			pdx_tooltip = "governance_bure_desc"
+		}
+		
+		iconType ={
+			name ="governance_coun"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=107 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_coun_name"
+			position = { x = 174 y = 109 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Coun_Text"
+			format = center
+			pdx_tooltip = "governance_coun_desc"
+		}
+		
+		iconType ={
+			name ="governance_col"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=127 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_col_name"
+			position = { x = 174 y = 129 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Col_Text"
+			format = center
+			pdx_tooltip = "governance_col_desc"
+		}
+		
+		iconType ={
+			name ="governance_par"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=147 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_par_name"
+			position = { x = 174 y = 149 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Par_Text"
+			format = center
+			pdx_tooltip = "governance_par_desc"
+		}
+		
+		iconType ={
+			name ="governance_exec"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=167 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_exec_name"
+			position = { x = 174 y = 169 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Exec_Text"
+			format = center
+			pdx_tooltip = "governance_exec_desc"
+		}
+		
+		iconType ={
+			name ="governance_tot"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=187 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_tot_name"
+			position = { x = 174 y = 189 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Tot_Text"
+			format = center
+			pdx_tooltip = "governance_tot_desc"
+		}
+		
+		iconType ={
+			name ="governance_abs"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=207 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_abs_name"
+			position = { x = 174 y = 209 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Abs_Text"
+			format = center
+			pdx_tooltip = "governance_abs_desc"
+		}
+		
+		iconType ={
+			name ="governance_tri"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=227 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_tri_name"
+			position = { x = 174 y = 229 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Tri_Text"
+			format = center
+			pdx_tooltip = "governance_tri_desc"
+		}
+		
+		iconType ={
+			name ="governance_colo"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=247 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "governance_colo_name"
+			position = { x = 174 y = 249 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Governance_Colo_Text"
+			format = center
+			pdx_tooltip = "governance_colo_desc"
+		}
+		
+		#Recruitment
+		
+		instantTextboxType = {
+			name = "recruitment"
+			position = { x = 347 y = 59 }
+			font = "hoi_24header"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Recruitment"
+			format = center
+		}
+		
+		iconType ={
+			name ="recruitment_1660"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=118 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_1660_name"
+			position = { x = 347 y = 120 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Conscription_16_60_Text"
+			format = center
+			pdx_tooltip = "recruitment_1660_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_1850"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=138 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_1850_name"
+			position = { x = 347 y = 140 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Conscription_18_50_Text"
+			format = center
+			pdx_tooltip = "recruitment_1850_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_1840"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=158 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_1840_name"
+			position = { x = 347 y = 160 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Conscription_18_40_Text"
+			format = center
+			pdx_tooltip = "recruitment_1840_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_1835"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=178 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_1835_name"
+			position = { x = 347 y = 180 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Conscription_18_35_Text"
+			format = center
+			pdx_tooltip = "recruitment_1835_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_1830"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=198 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_1830_name"
+			position = { x = 347 y = 200 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Conscription_18_30_Text"
+			format = center
+			pdx_tooltip = "recruitment_1830_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_1825"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=218 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_1825_name"
+			position = { x = 347 y = 220 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Conscription_18_25_Text"
+			format = center
+			pdx_tooltip = "recruitment_1825_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_volunteer"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=238 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_volunteer_name"
+			position = { x = 347 y = 240 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Volunteer_Only_Text"
+			format = center
+			pdx_tooltip = "recruitment_volunteer_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_colonial"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=258 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_colonial_name"
+			position = { x = 347 y = 260 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Colonial_Army_Text"
+			format = center
+			pdx_tooltip = "recruitment_colonial_desc"
+		}
+		
+		iconType ={
+			name ="recruitment_disarmed"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=278 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "recruitment_disarmed_name"
+			position = { x = 347 y = 280 }
+			font = "hoi_16mbs"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Disarmed_Text"
+			format = center
+			pdx_tooltip = "recruitment_disarmed_desc"
+		}
+		
+		buttonType = {
+			name = "recruitment_decrease_button"
+			position = { x = 417 y = 302 }
+			spriteType = "GFX_laws_arrow_down"
+			format = center
+			pdx_tooltip = "RECRUITMENT_DECREASE"
+		}
+		
+		buttonType = {
+			name = "recruitment_increase_button"
+			position = { x = 417 y = 87 }
+			spriteType = "GFX_laws_arrow_up"
+			format = center
+			pdx_tooltip = "RECRUITMENT_INCREASE"
+		}
+		
+		#Unions
+		
+		instantTextboxType = {
+			name = "unions"
+			position = { x = 176 y = 272 }
+			font = "hoi_24header"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Unions"
+			format = center
+		}
+		
+		#Suffrage
+		
+		instantTextboxType = {
+			name = "suffrage"
+			position = { x = 176 y = 385 }
+			font = "hoi_24header"
+			maxWidth = 200
+			maxHeight = 20
+			text = "Suffrage"
+			format = center
+		}
+		
+		#Mobilization
+		
+		iconType ={
+			name ="mobilization_bg"
+			spriteType = "GFX_mobilization_bg"
+			position = { x=0 y=530 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType ={
+			name ="mobilization_red_1"
+			spriteType = "GFX_mobilization_red"
+			position = { x=45 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_broken_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_2"
+			spriteType = "GFX_mobilization_red"
+			position = { x=91 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_2_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_3"
+			spriteType = "GFX_mobilization_red"
+			position = { x=137 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_3_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_4"
+			spriteType = "GFX_mobilization_red"
+			position = { x=183 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_4_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_5"
+			spriteType = "GFX_mobilization_red"
+			position = { x=229 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_5_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_6"
+			spriteType = "GFX_mobilization_red"
+			position = { x=275 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_6_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_7"
+			spriteType = "GFX_mobilization_red"
+			position = { x=321 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_7_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_8"
+			spriteType = "GFX_mobilization_red"
+			position = { x=367 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_8_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_9"
+			spriteType = "GFX_mobilization_red"
+			position = { x=413 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_9_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_red_10"
+			spriteType = "GFX_mobilization_red"
+			position = { x=459 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_10_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_1"
+			spriteType = "GFX_mobilization_green"
+			position = { x=45 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_1_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_2"
+			spriteType = "GFX_mobilization_green"
+			position = { x=91 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_2_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_3"
+			spriteType = "GFX_mobilization_green"
+			position = { x=137 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_3_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_4"
+			spriteType = "GFX_mobilization_green"
+			position = { x=183 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_4_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_5"
+			spriteType = "GFX_mobilization_green"
+			position = { x=229 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_5_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_6"
+			spriteType = "GFX_mobilization_green"
+			position = { x=275 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_6_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_7"
+			spriteType = "GFX_mobilization_green"
+			position = { x=321 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_7_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_8"
+			spriteType = "GFX_mobilization_green"
+			position = { x=367 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_8_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_9"
+			spriteType = "GFX_mobilization_green"
+			position = { x=413 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_9_desc"
+		}
+		
+		iconType ={
+			name ="mobilization_green_10"
+			spriteType = "GFX_mobilization_green"
+			position = { x=459 y=560 }
+			Orientation = "UPPER_LEFT"
+			pdx_tooltip = "mobilization_10_desc"
+		}
+		
+		buttonType = {
+			name = "mobilization_decrease_button"
+			position = { x = 13 y = 546 }
+			spriteType = "GFX_mobilization_leftarrow"
+			format = center
+			pdx_tooltip = "MOBILIZATION_DECREASE"
+		}
+		
+		buttonType = {
+			name = "mobilization_increase_button"
+			position = { x = 508 y = 546 }
+			spriteType = "GFX_mobilization_rightarrow"
+			format = center
+			pdx_tooltip = "MOBILIZATION_INCREASE"
+		}
+	}
+}

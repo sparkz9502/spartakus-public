@@ -1,0 +1,23 @@
+
+state={
+	id=969
+	name="STATE_969"
+
+	history={
+		owner = EAF
+		add_core_of = KEN
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4117 5160 11145 13073 13771 13777 14241 14851 
+	}
+	manpower=1687400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

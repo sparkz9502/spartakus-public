@@ -1,0 +1,397 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "bolshevist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="bolshevist_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="bolshevist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="bolshevist_icon"
+			spriteType = "GFX_bolshevist_small"
+			
+			pdx_tooltip = "bolshevist_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "spartacist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="spartacist_text"
+			position = { x= 1 y = 3 }
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="spartacist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="spartacist_icon"
+			spriteType = "GFX_spartacist_small"
+			
+			pdx_tooltip = "spartacist_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "revolutionary_socialist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="revolutionary_socialist_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="revolutionary_socialist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="revolutionary_socialist_icon"
+			spriteType = "GFX_revolutionary_socialist_small"
+			
+			pdx_tooltip = "revolutionary_socialist_topbar_tooltip"
+		}
+	}
+	
+	containerWindowType = {
+		name = "reformist_socialist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="reformist_socialist_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="reformist_socialist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="reformist_socialist_icon"
+			spriteType = "GFX_reformist_socialist_small"
+			
+			pdx_tooltip = "reformist_socialist_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "social_democrat_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="social_democrat_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+		}
+
+		iconType ={
+			name ="social_democrat_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="social_democrat_icon"
+			spriteType = "GFX_social_democrat_small"
+			
+			pdx_tooltip = "social_democrat_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "social_liberal_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="social_liberal_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="social_liberal_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="social_liberal_icon"
+			spriteType = "GFX_social_liberal_small"
+			
+			pdx_tooltip = "social_liberal_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "liberal_conservative_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="liberal_conservative_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="liberal_conservative_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="liberal_conservative_icon"
+			spriteType = "GFX_liberal_conservative_small"
+			
+			pdx_tooltip = "liberal_conservative_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "social_conservative_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="social_conservative_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="social_conservative_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="social_conservative_icon"
+			spriteType = "GFX_social_conservative_small"
+			
+			pdx_tooltip = "social_conservative_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "authoritarian_conservative_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="authoritarian_conservative_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="authoritarian_conservative_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="authoritarian_conservative_icon"
+			spriteType = "GFX_authoritarian_conservative_small"
+			
+			pdx_tooltip = "authoritarian_conservative_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "right_wing_populist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="right_wing_populist_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="right_wing_populist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="right_wing_populist_icon"
+			spriteType = "GFX_right_wing_populist_small"
+			
+			pdx_tooltip = "right_wing_populist_topbar_tooltip"
+		}
+	}
+
+	containerWindowType = {
+		name = "national_syndicalist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="national_syndicalist_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="national_syndicalist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="national_syndicalist_icon"
+			spriteType = "GFX_national_syndicalist_small"
+			
+			pdx_tooltip = "national_syndicalist_topbar_tooltip"
+		}
+	}
+	
+	containerWindowType = {
+		name = "national_corporatist_container"
+		position = { x = 176 y = 6 }
+		
+		instantTextBoxType = {
+			name ="national_corporatist_text"
+			position = { x= 1 y = 3}
+			font = "hoi_18mbs"
+			text = "[?ROOT.SP_ruling_party_pop|0]%"
+			format = right
+			maxWidth = 60
+			maxHeight = 24
+			fixedsize = yes
+			
+			pdx_tooltip = "SP_PARTY_POP_EFFECT"
+			pdx_tooltip_delayed = "party_popularity_delayed_tooltip"
+		}
+
+		iconType ={
+			name ="national_corporatist_cover_icon"
+			spriteType = "GFX_generic_box_smallest_cover"
+			position = { x=-5 y=0 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="national_corporatist_icon"
+			spriteType = "GFX_national_corporatist_small"
+			
+			pdx_tooltip = "national_corporatist_topbar_tooltip"
+		}
+	}
+}

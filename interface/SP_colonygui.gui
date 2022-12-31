@@ -1,0 +1,28 @@
+guiTypes = {
+	containerWindowType = {
+		name = "colonygui_container"
+		position = {x=175 y=-93}
+		size = { width=140 height=104 }
+		
+		background = {
+			name = "colonygui_bg"
+			spriteType = "GFX_colonygui_bg"
+		}
+
+		instantTextboxType = {
+			name = "colonygui_title"
+			position = { x = 0 y = 5 }
+			font = "hoi_20bs"
+			text = "Colony Info"
+			maxWidth = 140
+			maxHeight = 20
+			format = center
+		}
+
+		iconType = {
+			name = "colony_icon"
+			position = {x=11 y=25}
+			pdx_tooltip = "COLONY_INFO"
+		}
+	}
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=189
+	name="STATE_189"
+	resources={
+	}
+
+	history={
+		owner = LIT
+		victory_points = {
+			6376 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = LIT
+
+	}
+
+	provinces={
+		3337 3354 6229 6314 6376 9483 9499 9731 15175 
+	}
+	manpower=768000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

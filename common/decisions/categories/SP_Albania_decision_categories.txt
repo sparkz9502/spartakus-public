@@ -1,0 +1,60 @@
+#############
+### Albania #
+#############
+
+ALB_decisions_investment = {
+	allowed = { tag = ALB }
+	visible = {
+		has_completed_focus = ALB_privatization
+	}
+	icon = GFX_decision_category_generic_economy
+}
+
+ALB_decisions_attache = {
+	allowed = { tag = ALB }
+	visible = {
+		has_completed_focus = ALB_attaches
+	}
+	icon = GFX_decision_category_military_operation
+}
+
+ALB_decisions_army = {
+	allowed = { tag = ALB }
+	visible = {
+		has_completed_focus = ALB_staff
+	}
+	icon = GFX_decision_category_military_operation
+}
+
+ALB_decisions_nationalism = {
+	allowed = { tag = ALB }
+	visible = {
+		OR = {
+			has_completed_focus = ALB_communist_nationalism
+			has_completed_focus = ALB_irredentism
+		}
+	}
+	icon = GFX_decision_category_border_war
+}
+
+ALB_decisions_epirus = {
+	allowed = { tag = ALB }
+	visible = {
+		has_country_flag = ALB_epirus
+		NOT = {
+			controls_state = 766
+		}
+	}
+	icon = GFX_decision_category_border_conflicts
+}
+
+ALB_decisions_kosovo = {
+	allowed = { tag = ALB }
+	visible = {
+		has_country_flag = ALB_kosovo
+			NOT = {
+				controls_state = 765
+			}
+	}
+	icon = GFX_decision_category_border_conflicts
+}

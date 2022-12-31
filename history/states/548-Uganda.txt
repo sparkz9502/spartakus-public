@@ -1,0 +1,24 @@
+
+state={
+	id=548
+	name="STATE_548"
+	resources={
+		rubber=1.000
+	}
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_core_of = UGA
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		1140 7133 8223 10037 11940 12929 13177 13887 13889 
+	}
+	manpower=1972000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

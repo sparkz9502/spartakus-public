@@ -1,0 +1,33 @@
+
+state={
+	id=336 #Singapore
+	name="STATE_336"
+	resources={
+		rubber=34
+	}
+	history={
+		owner = ENG
+		add_core_of = MLY
+		victory_points = {
+			12299 20 # Singapore
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			industrial_complex = 1
+			12299 = {
+				naval_base = 8
+				bunker = 1
+				coastal_bunker = 3
+			}
+		}
+
+	}
+
+	provinces={
+		12299
+	}
+	manpower=1160000
+	buildings_max_level_factor=2
+	state_category=town
+}

@@ -1,0 +1,256 @@
+on_actions = {
+    on_startup = {
+        effect = {
+		        CRO = {
+				limit = {
+				is_ai = no 
+				}
+				country_event = { id = WestBalkans.1 }
+				}
+				SER = {
+				limit = {
+				is_ai = no 
+				}
+				country_event = { id = WestBalkans.1 }
+				}
+				MNT = {
+				limit = {
+				is_ai = no 
+				}
+				country_event = { id = WestBalkans.1 }
+				}
+		        CRO = {
+				country_event = WBLiteracy.1
+			    }
+		}	
+    }
+	
+	on_state_control_changed = {
+	effect = {
+	    if = {
+			limit = {
+			    OR = {
+					tag = SER
+					tag = STJ
+					tag = SLV
+					tag = MNT
+					tag = MKE
+					tag = BSE
+				}
+				FROM.FROM = {
+					OR = {
+						state = 1009
+						state = 1206
+						state = 1211
+					}
+				}
+				NOT = { has_country_flag = Is_Yugoslavia }
+			}
+			add_ideas = Bosniak_Dissent
+			set_country_flag = Bosniak_Dissent_Flag
+		}
+	}
+	}
+	
+	on_state_control_changed = {
+	effect = {
+	    if = {
+                limit = {
+                    FROM = {
+						has_idea = Bosniak_Dissent
+						NOT = {
+							OR = {
+								controls_state = 1009
+								controls_state = 1206
+								controls_state = 1211
+							}
+						}
+					}
+					FROM.FROM = {
+						OR = {
+							state = 1009
+							state = 1206
+							state = 1211
+						}
+					}
+                }
+				FROM = { 
+				remove_ideas = Bosniak_Dissent
+                clr_country_flag = Bosniak_Dissent_Flag
+				}
+			}
+		}
+	}
+	
+	on_state_control_changed = {
+	effect = {
+	    if = {
+			limit = {
+			    OR = {
+					tag = SER
+					tag = BOS
+					tag = SLV
+					tag = MNT
+					tag = MKE
+					tag = BSE
+					tag = HUN
+				}
+				FROM.FROM = {
+					OR = {
+						state = 103
+						state = 1202
+						state = 109
+						state = 1203
+						state = 1204
+						state = 1200
+						state = 1210
+						state = 996
+						state = 1008
+						state = 1262
+						state = 1201
+						state = 163
+						state = 1207
+						state = 1205
+					}
+				}
+				NOT = { has_country_flag = Is_Yugoslavia }
+			}
+			add_ideas = Croat_Dissent
+			set_country_flag = Croat_Dissent_Flag
+		}
+	}
+	}
+	
+	on_state_control_changed = {
+	effect = {
+	    if = {
+                limit = {
+                    FROM = {
+						has_idea = Croat_Dissent
+						NOT = {
+							OR = {
+								controls_state = 103
+							    controls_state = 1202
+							    controls_state = 109
+							    controls_state = 1203
+							    controls_state = 1204
+						    	controls_state = 1200
+								controls_state = 1210
+						    	controls_state = 996
+						    	controls_state = 1008
+						     	controls_state = 1262
+							    controls_state = 1201
+							    controls_state = 163
+						     	controls_state = 1207
+							    controls_state = 1205
+							}
+						}
+					}
+					FROM.FROM = {
+						OR = {
+							state = 103
+							state = 1202
+							state = 109
+							state = 1203
+							state = 1204
+							state = 1200
+							state = 1210
+							state = 996
+							state = 1008
+							state = 1262
+							state = 1201
+							state = 163
+							state = 1207
+							state = 1205
+						}
+					}
+                }
+				FROM = { 
+				remove_ideas = Croat_Dissent
+                clr_country_flag = Croat_Dissent_Flag
+				}
+			}
+		}
+	}
+	
+	on_state_control_changed = {
+	effect = {
+	    if = {
+			limit = {
+			    OR = {
+					tag = STJ
+					tag = BOS
+					tag = SLV
+					tag = MNT
+					tag = MKE
+					tag = BUL
+				}
+				FROM.FROM = {
+					OR = {
+						state = 104
+						state = 1209
+						state = 1208
+						state = 1155
+						state = 1194
+						state = 1193
+						state = 107
+						state = 1192
+						state = 767
+						state = 841
+					}
+				}
+				NOT = { has_country_flag = Is_Yugoslavia }
+			}
+			add_ideas = Serb_Dissent
+			set_country_flag = Serb_Dissent_Flag
+		}
+	}
+	}
+	
+	on_state_control_changed = {
+	effect = {
+	    if = {
+                limit = {
+                    FROM = {
+						has_idea = Serb_Dissent
+						NOT = {
+							OR = {
+								controls_state = 104
+							    controls_state = 1209
+							    controls_state = 1208
+							    controls_state = 1155
+							    controls_state = 1194
+						    	controls_state = 1193
+					    		controls_state = 107
+						    	controls_state = 1192
+						    	controls_state = 767
+					     		controls_state = 841
+							}
+						}
+					}
+					FROM.FROM = {
+						OR = {
+							state = 104
+							state = 1209
+							state = 1208
+							state = 1155
+							state = 1194
+							state = 1193
+							state = 107
+							state = 1192
+							state = 767
+							state = 841
+						}
+					}
+                }
+				FROM = { 
+				remove_ideas = Serb_Dissent
+                clr_country_flag = Serb_Dissent_Flag
+				}
+			}
+		}
+	}
+	
+	#SLOVENE STATES - 102 1010 1094 736 1362
+		
+}

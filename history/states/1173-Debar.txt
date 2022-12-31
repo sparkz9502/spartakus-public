@@ -1,0 +1,29 @@
+
+state={
+	id=1173
+	name="STATE_1173"
+	resources={
+		raremetals=18
+	}
+	provinces={
+		833 867 14548 
+	}
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			867 1
+		}
+		add_core_of = SER
+		add_core_of = MKE
+		add_claim_by = BUL
+		add_core_of = ALB
+
+	}
+	manpower=518800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

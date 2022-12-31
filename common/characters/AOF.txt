@@ -1,0 +1,16 @@
+characters={
+	AOF_ministry_of_the_colonies={
+		name="Ministry of the Colonies"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_Ministry_of_the_Colonies.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FRA_MINISTRY_OF_COLONIES_DESC"
+			ideology=colonial_administration
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

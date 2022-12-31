@@ -1,0 +1,20 @@
+
+state={
+	id=1133
+	name="STATE_1133"
+	provinces={
+		1148 4004 7021 9936 9981 10036 11912 11958 12011 14267 14269 14270 14271 14272 
+	}
+	history={
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=1546495
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

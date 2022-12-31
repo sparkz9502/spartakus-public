@@ -1,0 +1,22 @@
+
+state={
+	id=1285
+	name="STATE_1285"
+
+	history={
+		owner = IRQ
+		add_core_of = IRQ
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		10811 
+	}
+	manpower=72400
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

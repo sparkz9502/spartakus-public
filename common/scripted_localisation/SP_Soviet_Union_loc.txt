@@ -1,0 +1,545 @@
+defined_text = {
+	name = GetLeninComemmorationAccepted
+	text = {
+		trigger = {
+			any_country = {
+				has_country_flag = lenin_comemmoration_accepted
+			}
+		}
+		localization_key = lenin_death_accepted
+	}
+	text = {
+		trigger = {
+			all_country = {
+				NOT = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_accepted_none
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclined
+	text = {
+		trigger = {
+			any_country = {
+				has_country_flag = lenin_comemmoration_politely_declined
+			}
+		}
+		localization_key = lenin_death_politely_declined
+	}
+	text = {
+		trigger = {
+			all_country = {
+				NOT = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_politely_declined_none
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclined
+	text = {
+		trigger = {
+			any_country = {
+				has_country_flag = lenin_comemmoration_rudely_declined
+			}
+		}
+		localization_key = lenin_death_rudely_declined
+	}
+	text = {
+		trigger = {
+			all_country = {
+				NOT = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_rudely_declined_none
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedGER
+	text = {
+		trigger = {
+			GER = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				POL = { has_country_flag = lenin_comemmoration_accepted }
+				HUN = { has_country_flag = lenin_comemmoration_accepted }
+				SLO = { has_country_flag = lenin_comemmoration_accepted }
+				POR = { has_country_flag = lenin_comemmoration_accepted }
+				MON = { has_country_flag = lenin_comemmoration_accepted }
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GLN = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_GER_comma
+	}
+	text = {
+		trigger = {
+			GER = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_GER
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedGER
+	text = {
+		trigger = {
+			GER = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				POL = { has_country_flag = lenin_comemmoration_politely_declined }
+				HUN = { has_country_flag = lenin_comemmoration_politely_declined }
+				SLO = { has_country_flag = lenin_comemmoration_politely_declined }
+				POR = { has_country_flag = lenin_comemmoration_politely_declined }
+				MON = { has_country_flag = lenin_comemmoration_politely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_GER_comma
+	}
+	text = {
+		trigger = {
+			GER = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_GER
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedGER
+	text = {
+		trigger = {
+			GER = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				POL = { has_country_flag = lenin_comemmoration_rudely_declined }
+				HUN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				SLO = { has_country_flag = lenin_comemmoration_rudely_declined }
+				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
+				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_GER_comma
+	}
+	text = {
+		trigger = {
+			GER = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_GER
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedPOL
+	text = {
+		trigger = {
+			POL = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				HUN = { has_country_flag = lenin_comemmoration_accepted }
+				SLO = { has_country_flag = lenin_comemmoration_accepted }
+				POR = { has_country_flag = lenin_comemmoration_accepted }
+				MON = { has_country_flag = lenin_comemmoration_accepted }
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GLN = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_POL_comma
+	}
+	text = {
+		trigger = {
+			POL = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_POL
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedPOL
+	text = {
+		trigger = {
+			POL = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				HUN = { has_country_flag = lenin_comemmoration_politely_declined }
+				SLO = { has_country_flag = lenin_comemmoration_politely_declined }
+				POR = { has_country_flag = lenin_comemmoration_politely_declined }
+				MON = { has_country_flag = lenin_comemmoration_politely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_POL_comma
+	}
+	text = {
+		trigger = {
+			POL = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_POL
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedPOL
+	text = {
+		trigger = {
+			POL = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				HUN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				SLO = { has_country_flag = lenin_comemmoration_rudely_declined }
+				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
+				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_POL_comma
+	}
+	text = {
+		trigger = {
+			POL = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_POL
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedHUN
+	text = {
+		trigger = {
+			HUN = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				SLO = { has_country_flag = lenin_comemmoration_accepted }
+				POR = { has_country_flag = lenin_comemmoration_accepted }
+				MON = { has_country_flag = lenin_comemmoration_accepted }
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GLN = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_HUN_comma
+	}
+	text = {
+		trigger = {
+			HUN = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_HUN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedHUN
+	text = {
+		trigger = {
+			HUN = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				SLO = { has_country_flag = lenin_comemmoration_politely_declined }
+				POR = { has_country_flag = lenin_comemmoration_politely_declined }
+				MON = { has_country_flag = lenin_comemmoration_politely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_HUN_comma
+	}
+	text = {
+		trigger = {
+			HUN = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_HUN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedHUN
+	text = {
+		trigger = {
+			HUN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				SLO = { has_country_flag = lenin_comemmoration_rudely_declined }
+				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
+				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_HUN_comma
+	}
+	text = {
+		trigger = {
+			HUN = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_HUN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedSLO
+	text = {
+		trigger = {
+			SLO = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				POR = { has_country_flag = lenin_comemmoration_accepted }
+				MON = { has_country_flag = lenin_comemmoration_accepted }
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GLN = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_SLO_comma
+	}
+	text = {
+		trigger = {
+			SLO = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_SLO
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedSLO
+	text = {
+		trigger = {
+			SLO = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				POR = { has_country_flag = lenin_comemmoration_politely_declined }
+				MON = { has_country_flag = lenin_comemmoration_politely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_SLO_comma
+	}
+	text = {
+		trigger = {
+			SLO = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_SLO
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedSLO
+	text = {
+		trigger = {
+			SLO = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				POR = { has_country_flag = lenin_comemmoration_rudely_declined }
+				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_SLO_comma
+	}
+	text = {
+		trigger = {
+			SLO = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_SLO
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedPOR
+	text = {
+		trigger = {
+			POR = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				MON = { has_country_flag = lenin_comemmoration_accepted }
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GLN = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_POR_comma
+	}
+	text = {
+		trigger = {
+			POR = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_POR
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedPOR
+	text = {
+		trigger = {
+			POR = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				MON = { has_country_flag = lenin_comemmoration_politely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_POR_comma
+	}
+	text = {
+		trigger = {
+			POR = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_POR
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedPOR
+	text = {
+		trigger = {
+			POR = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_POR_comma
+	}
+	text = {
+		trigger = {
+			POR = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_POR
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedMON
+	text = {
+		trigger = {
+			MON = { has_country_flag = lenin_comemmoration_accepted }
+			OR = {
+				TAN = { has_country_flag = lenin_comemmoration_accepted }
+				GLN = { has_country_flag = lenin_comemmoration_accepted }
+			}
+		}
+		localization_key = lenin_death_MON_comma
+	}
+	text = {
+		trigger = {
+			MON = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_MON
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedMON
+	text = {
+		trigger = {
+			MON = { has_country_flag = lenin_comemmoration_politely_declined }
+			OR = {
+				TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+			}
+		}
+		localization_key = lenin_death_MON_comma
+	}
+	text = {
+		trigger = {
+			MON = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_MON
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedMON
+	text = {
+		trigger = {
+			MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+			OR = {
+				TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+				GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			}
+		}
+		localization_key = lenin_death_MON_comma
+	}
+	text = {
+		trigger = {
+			MON = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_MON
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedTAN
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_accepted }
+			GLN = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_TAN_comma
+	}
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_TAN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedTAN
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+			GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_TAN_comma
+	}
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_TAN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedTAN
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+			GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_TAN_comma
+	}
+	text = {
+		trigger = {
+			TAN = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_TAN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationAcceptedGLN
+	text = {
+		trigger = {
+			GLN = { has_country_flag = lenin_comemmoration_accepted }
+		}
+		localization_key = lenin_death_GLN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationPolitelyDeclinedGLN
+	text = {
+		trigger = {
+			GLN = { has_country_flag = lenin_comemmoration_politely_declined }
+		}
+		localization_key = lenin_death_GLN
+	}
+}
+
+defined_text = {
+	name = GetLeninComemmorationRudelyDeclinedGLN
+	text = {
+		trigger = {
+			GLN = { has_country_flag = lenin_comemmoration_rudely_declined }
+		}
+		localization_key = lenin_death_GLN
+	}
+}

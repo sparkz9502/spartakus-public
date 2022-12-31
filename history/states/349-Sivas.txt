@@ -1,0 +1,36 @@
+
+state={
+	id=349
+	name="STATE_349"
+	resources={
+		raremetals=10.000
+	}
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = OTT
+		victory_points = {
+			7620 4 
+		}
+		victory_points = {
+			9860 3 
+		}
+		victory_points = {
+			9777 10 
+		}
+		victory_points = {
+			3903 2 
+		}
+
+	}
+
+	provinces={
+		804 933 960 3862 3935 3964 9900 9915 11826 11844 
+	}
+	manpower=392821
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

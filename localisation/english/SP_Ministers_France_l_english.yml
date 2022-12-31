@@ -1,0 +1,46 @@
+﻿l_english:
+### Head of Government ###
+FRA_Philippe_Petain_hog_rwp:0 "Philippe Pétain"
+FRA_Hubert_Lyautey_hog_rwp:0 "Hubert Lyautey"
+
+### Minister Without Portfolio ###
+FRA_Andre_Tardieu_mwp_aco:0 "André Tardieu"
+
+### Foreign Minister ###
+FRA_Louis_Barthou_for_lco:0 "Louis Barthou"
+FRA_Andre_Tardieu_for_aco:0 "André Tardieu"
+
+### Economy Minister ###
+FRA_Frederic_Francois_Marsal_eco_sco:0 "Frédéric François-Marsal"
+
+### Security Minister ###
+FRA_Edouard_Daladier_sec_sli:0 "Édouard Daladier"
+FRA_Jean_Chiappe_sec_rwp:0 "Jean Chiappe"
+
+### Education Minister ###
+FRA_Leon_Berard_edu_sco:0 "Léon Bérard"
+
+### Agriculture Minister ###
+FRA_Armand_Achille_Fould_agr_sco:0 "Armand Achille-Fould"
+
+### Transport Minister ###
+FRA_Pierre_Etienne_Flandin_tra_sco:0 "Pierre-Etienne Flandin"
+
+### Defence Minister ###
+FRA_Pierre_Laval_def_sde:0 "Pierre Laval"
+FRA_Philippe_Petain_def_rwp:0 "Philippe Pétain"
+
+### Chief of Staff ###
+FRA_Maxime_Weygand_cos:0 "Maxime Weygand"
+
+### Chief of Army ###
+FRA_Hubert_Lyautey_carm:0 "Hubert Lyautey"
+
+### Chief of Navy ###
+FRA_Georges_Durand_Viel_cnav:0 "Georges Durand-Viel"
+
+### Chief of Air Force ###
+FRA_Victor_Denain_cair:0 "Victor Denain"
+
+### Theorist ###
+FRA_Pierre_de_Coubertin_theo:0 "Pierre de Coubertin"

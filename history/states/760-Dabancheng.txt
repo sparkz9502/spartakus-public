@@ -1,0 +1,38 @@
+
+state={
+	id=760
+	name="STATE_760"
+	
+	resources={
+		iron=2
+	}
+
+	history={
+		owner = SWI
+		victory_points = {
+			6666 10 
+		}
+		victory_points = {
+			11590 3
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			3612 = {
+				bunker = 2
+
+			}
+
+		}
+		add_core_of = SWI
+
+	}
+
+	provinces={
+		3612 6666 6683 9622 11590 13124 
+	}
+	manpower=829546
+	buildings_max_level_factor=1.000
+	state_category=town
+}

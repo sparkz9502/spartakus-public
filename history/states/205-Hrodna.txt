@@ -1,0 +1,24 @@
+
+state={
+	id=205
+	name="STATE_205"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 3
+		}
+		victory_points = {
+			11300 3 
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		274 352 3345 6365 9301 11235 11284 11300 11369 
+	}
+	manpower=1149000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

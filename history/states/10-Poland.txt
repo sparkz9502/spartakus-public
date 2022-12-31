@@ -1,0 +1,25 @@
+state={
+	id=10
+	name="STATE_10"
+	provinces={
+		467 524 3544 6567 9400 11492 
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		victory_points = { 3544 20 }
+		victory_points = { 6567 2 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 3
+			industrial_complex = 2
+			anti_air_building = 2
+			air_base = 5
+		}
+	}
+
+	manpower=3089000
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,104 @@
+﻿capital = 4
+set_oob = "AUS"
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.35
+
+add_ideas = {
+	### Laws ###
+	recruitment_1830
+	governance_exec
+	trade_sempro
+	economy_semind
+	mobilization_3
+}
+
+### Country Leaders ###
+recruit_character = AUS_wilhelm_miklas
+recruit_character = AUS_adolf_scharf
+recruit_character = AUS_alfred_klahr
+recruit_character = AUS_alfred_proksch
+recruit_character = AUS_franz_winkler
+recruit_character = AUS_johann_koplenig
+recruit_character = AUS_johann_schober
+recruit_character = AUS_richard_steidle
+recruit_character = AUS_theodor_korner
+
+### Field Marshals ###
+
+### Generals ###
+recruit_character = AUS_karl_eglseer
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_engineers = 1
+	tech_support = 1		
+	tech_mountaineers = 1
+	gw_artillery  = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	motorised_infantry = 1
+	
+	### Air ###
+	early_fighter = 1
+}
+### Tanks - NSB ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+### Tanks - no NSB ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1930.11.9"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 2
+    revolutionary_socialist = 11
+    reformist_socialist = 7
+    social_democrat = 16
+    social_liberal = 0
+    liberal_conservative = 7
+    social_conservative = 3
+    authoritarian_conservative = 45
+    right_wing_populist = 4
+    national_syndicalist = 0
+    national_corporatist = 5
+}
+
+set_country_flag = coalition_liberal_conservative
+
+set_country_flag = banned_bolshevist
+set_country_flag = banned_spartacist
+set_country_flag = banned_revolutionary_socialist
+set_country_flag = banned_reformist_socialist
+
+### Diplomacy ###
+
+set_country_flag = SP_embargoed_socialists

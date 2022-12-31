@@ -1,0 +1,26 @@
+
+state={
+	id=1063
+	name="STATE_1063"
+	resources={
+		oil=3
+	}
+
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 1
+			10953 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = ARG
+	}
+
+	provinces={
+		8161 8176 10953 11005 13218 13219 13220 13221 13222 
+	}
+	manpower=48900
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=414
+	name="STATE_414"
+
+	history={
+		owner = KHO
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = PER
+		add_core_of = KHO
+		victory_points = {
+			15025 1 
+		}
+
+	}
+
+	provinces={
+		10890 15002 15025 15031 15038 15049 15051 15061 15065 15067 15071 15072 
+	}
+	manpower=116600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,70 @@
+﻿capital = 11
+
+set_oob = "LIT"
+
+set_research_slots = 3
+set_convoys = 25
+set_stability = 0.25
+set_war_support = 0.5
+
+add_ideas = {
+	#LIT_Vytautas Petrulis_hog_lco
+	recruitment_1825
+	governance_exec
+	trade_pro
+	economy_unind
+	mobilization_2
+}
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	early_fighter = 1
+}
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 7
+    spartacist = 2
+    revolutionary_socialist = 1
+    reformist_socialist = 2
+    social_democrat = 13
+    social_liberal = 18
+    liberal_conservative = 15
+    social_conservative = 33
+    authoritarian_conservative = 2
+    right_wing_populist = 6
+    national_syndicalist = 1
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_social_conservative
+
+create_country_leader = {
+	name = "Aleksandras Stulginskis"
+	desc = "POLITICS_ALEKSANDRAS_STULGINSKIS_DESC"
+	picture = "Portrait_Aleksandras_Stulginskis.tga"
+	expire = "1965.1.1"
+	ideology = moderate_agrarian_conservatism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Antanas Smetona"
+	desc = "POLITICS_ANTANAS_SMETONA_DESC"
+	picture = "Portrait_Antanas_Smetona.tga"
+	expire = "1965.1.1"
+	ideology = reactionary_republicanism
+	traits = {
+		#
+	}
+}

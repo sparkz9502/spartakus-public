@@ -1,0 +1,7 @@
+mobilization_decisions = {
+	icon = GFX_generic_political_actions
+}
+
+governance_decisions = {
+	icon = GFX_generic_political_actions
+}

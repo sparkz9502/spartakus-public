@@ -1,0 +1,89 @@
+﻿capital = 279
+
+add_ideas = {
+	recruitment_volunteer
+	governance_exec
+	trade_sempro
+	economy_indzing
+	mobilization_1
+}
+
+set_oob = "CHL"
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	early_battleship = 1
+	transport = 1
+}
+
+set_convoys = 20
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1931.10.4"
+	election_frequency = 72  #but 4 years after this one in 1938.
+	elections_allowed = no
+}
+
+set_country_flag = coalition_liberal_conservative
+set_country_flag = coalition_social_conservative
+
+set_popularities = {
+    bolshevist = 2
+    spartacist = 4
+    revolutionary_socialist = 10
+	reformist_socialist = 6
+    social_democrat = 13
+    social_liberal = 21
+    liberal_conservative = 19
+    social_conservative = 22
+    authoritarian_conservative = 0
+    right_wing_populist = 3
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_stability = 0.5
+set_war_support = 0.6
+
+recruit_character = CHL_juan_esteban_montero
+recruit_character = CHL_arturo_alessandri
+recruit_character = CHL_carlos_contreras_labarca
+recruit_character = CHL_carlos_ibanez_del_campo
+recruit_character = CHL_escudero_oscar_otarola
+recruit_character = CHL_hector_rodriguez
+recruit_character = CHL_jorge_gonzalez_von_marees
+recruit_character = CHL_jose_santos_salas
+
+### Ship Variants ###zsxaa
+
+create_equipment_variant = {
+	name = "Capitán O`Brien Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+create_equipment_variant = {
+	name = "Serrano Class"
+	type = destroyer_1
+	upgrades = {
+		ship_torpedo_upgrade = 1
+		destroyer_engine_upgrade = 1
+		ship_ASW_upgrade = 1
+		ship_anti_air_upgrade = 1
+	}
+}

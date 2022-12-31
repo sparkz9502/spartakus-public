@@ -1,0 +1,44 @@
+
+state={
+	id=785
+	name="STATE_785"
+	resources={
+		iron=453.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			11516 7 
+		}
+		victory_points = {
+			5291 2 
+		}
+		victory_points = {
+			521 1 
+		}
+		buildings = {
+			infrastructure = 3
+			air_base = 1
+			industrial_complex = 2
+			5291 = {
+				bunker = 2
+			}
+			11516 = {
+				bunker = 1
+			}
+			521 = {
+				bunker = 1
+			}
+		}
+
+	}
+
+	provinces={
+		521 3546 3560 5291 6545 11488 11516 11642 
+	}
+	manpower=593800
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

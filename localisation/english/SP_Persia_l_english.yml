@@ -1,0 +1,86 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+PER_bolshevist_party:0 "HKI"
+PER_bolshevist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+PER_spartacist_party:0 "HKI"
+PER_spartacist_party_long:0 "Communist Party (Hezb-e Kommunist-e Iran)"
+PER_revolutionary_socialist_party:0 "FJEI"
+PER_revolutionary_socialist_party_long:0 "Revolutionary Republican Party of Iran (Ferqa-ye Jomhuri-e Enqelabi-e Iran)"
+PER_reformist_socialist_party:0 "HS"
+PER_reformist_socialist_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+PER_social_democrat_party:0 "HS"
+PER_social_democrat_party_long:0 "Socialist Party (Hizb-e Socialyist)"
+PER_social_liberal_party:0 "HD"
+PER_social_liberal_party_long:0 "Democrat Party (Hezb-e Demowkrat)"
+PER_liberal_conservative_party:0 "HJ"
+PER_liberal_conservative_party_long:0 "Revival Party (Hezb-e Tajaddod)"
+PER_social_conservative_party:0 "HE"
+PER_social_conservative_party_long:0 "Reformers' Party (Hezb-e Eslahtalaban)"
+PER_authoritarian_conservative_party:0 "Qajar"
+PER_authoritarian_conservative_party_long:0 "Qajar Dynasty (Khandane Qajar)"
+PER_right_wing_populist_party:0 "HIN"
+PER_right_wing_populist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+PER_national_syndicalist_party:0 "HIN"
+PER_national_syndicalist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+PER_national_corporatist_party:0 "HIN"
+PER_national_corporatist_party_long:0 "New Iran Party (Hezb-e Iran-e Now)"
+
+### Focuses ###
+
+### Ideas ###
+
+PER_A_Persia_Divided:0 "A Persia Divided"
+PER_A_Persia_Divided_desc:0 "The Great War and its aftermath was not easy for Persia, with the subsequent chaos leading to the secession of the Khuzestan and Gilan regions. Khuzestan in particular is crippling given its control of the expansive oil deposits, which far outproduce what little is available in the Fars region. Though the consequences of this situation are overwhelmingly negative, one can take some solace in knowing this is the most independent the Persian nation has been in centuries."
+PER_The_Cossack_Regime:0 "The Cossack Regime"
+PER_The_Cossack_Regime_desc:0 "Amidst the post-war political chaos the primary effective fighting force in Persia, the Persian Cossack Division, seized control of Tehran under the leadership of Vsevolod Starosselsky in 1921. Though this temporarily alleviated the disfunctionality of the central government, it also caused the British to take a hostile stance against us. Years later the government continues to be run through a combination of civilian politicians and Cossack leaders, including Reza Khan, a rising star and close associate of Starosselsky."
+PER_Resistance_to_Centralization:0 "Resistance to Centralization"
+PER_Resistance_to_Centralization_desc:0 "After seizing power, the Cossack government quickly set about centralizing the Persian governance system in order to curb further separatist tendencies. The effectiveness of this strategy has been questioned, with ongoing revolts in Baluchistan and Kurdistan driving an already unstable situation to the brink of collapse. This is not limited just to regional armed opposition, but also to opposition within the government. Religious conservatives and sections of the Qajar nobility continue to fight back against a disruption of the status quo. Not all is lost, however, for the once unruly tribes in the Fars region have largely supported our efforts. However, there is still much more to be done."
+PER_Republican_Opposition:0 "Republican Opposition"
+PER_Republican_Opposition_desc:0 "The opposition is not limited just to unruly tribes and hardline traditionalists, but also secular anti-Qajar republicans. Gilan stands as a stronghold of these tendencies, but a movement is also growing in the autonomous region of Khorasan, led by the Gendarmerie leader Mohammad Taqi Pessian. His schemes have been tolerated due to his effective governance, but there is a growing current in Tehran seeking his removal due to alleged Bolshevik sympathies. True or not, there isn't much that can be done for now."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+PER_fars_government_explanation:0 "Fars Government Explanation"
+
+PER_fars_government_gui:0 "Fars Government Influence"
+
+british_influence_header:0 "§LBritish Influence§!"
+british_influence_party:0 "§WFaction:§!\n§gQajar Dynasty§!"
+british_influence_support:0 "§WInfluence:§!\n§RHigh§!"
+#"[GetbritishSeparatistSupport]"
+#british_influence_insurgency_level:0 "[GetbritishInsurgencyLevel]"
+
+white_russian_influence_header:0 "§LWhite Russian Influence§!"
+white_russian_influence_party:0 "§WFaction:§!\n§gFree Russia Corps§!"
+white_russian_influence_support:0 "§WInfluence:§!\n§YNotable§!"
+#"[GetWhiteRussianSeparatistSupport]"
+#white_russian_influence_insurgency_level:0 "[GetWhiteRussianInsurgencyLevel]"
+
+iranian_influence_header:0 "§LIranian Influence§!"
+iranian_influence_party:0 "§WFaction:§!\n§gRevival Party§!"
+iranian_influence_support:0 "§WInfluence:§!\n§GLow§!"
+#"[GetIranianSeparatistSupport]"
+#Iranian_influence_insurgency_level:0 "[GetIranianInsurgencyLevel]"
+
+influence_overwhelming:0 "§WInfluence:§!\n§ROverwhelming§!"
+influence_high:0 "§WInfluence:§!\n§RHigh§!"
+influence_significant:0 "§WInfluence:§!\n§YSignificant§!"
+influence_notable:0 "§WInfluence:§!\n§YNotable§!"
+influence_moderate:0 "§WInfluence:§!\n§GModerate§!"
+influence_low:0 "§WInfluence:§!\n§GLow§!"
+
+#separatists_insurgency_level_high:0 "§WInsurgent Activity:§!\n§RHigh§!"
+#separatists_insurgency_level_medium:0 "§WInsurgent Activity:§!\n§YMedium§!"
+#separatists_insurgency_level_low:0 "§WInsurgent Activity:§!\n§GLow§!"
+
+### Equipment ###

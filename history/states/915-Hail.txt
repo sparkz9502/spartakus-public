@@ -1,0 +1,30 @@
+
+state={
+	id=915
+	name="STATE_915"
+
+	history={
+		owner = SAU
+		add_core_of = SAU
+		victory_points = {
+			5058 1 
+		}
+		victory_points = {
+			10901 1 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		2057 5027 5058 7970 8101 10815 10901 12455 13708 
+	}
+	manpower=345600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

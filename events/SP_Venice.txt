@@ -1,0 +1,22 @@
+﻿################################
+# Venice/Republican Italy Events
+################################
+# By sparkz
+################################
+
+add_namespace = vnz
+
+country_event = {
+	id = vnz.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event vnz.1"}
+	title = vnz.1.t
+	desc = vnz.1.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = vnz.1.a
+		ai_chance = { factor = 20 }
+	}
+}

@@ -1,0 +1,86 @@
+characters={
+    BMR_thakin_nu = {
+        name = "Thakin Nu"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BMR/Portrait_U_Nu.dds"
+            }
+            army={
+                large = "gfx/leaders/BMR/Portrait_U_Nu.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_U_NU_DESC"
+            expire = "1960.1.1" 
+            ideology = bolshevist_subtype
+            traits = {}
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_U_NU_DESC"
+            expire = "1960.1.1" 
+            ideology = spartacist_subtype
+            traits = {}
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_U_NU_DESC"
+            expire = "1960.1.1" 
+            ideology = revolutionary_socialist_subtype
+            traits = {}
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_U_NU_DESC"
+            expire = "1960.1.1" 
+            ideology = reformist_socialist_subtype
+            traits = {}
+            id=-1
+        }
+        field_marshal={
+            traits = { politically_connected }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 2
+            legacy_id=-1
+        }  
+    }
+
+    BMR_baw_maw = {
+        name = "Baw Maw"
+        portraits={
+            army={
+                large = "gfx/leaders/BMR/Portrait_Baw_Maw.dds"
+            }
+        }
+        corps_commander={
+            traits = { infantry_officer politically_connected }
+            skill = 3
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    BMR_aung_san = {
+        name = "Aung San"
+        portraits={
+            army={
+                large = "gfx/leaders/BMR/Portrait_Aung_San.dds"
+            }
+        }
+        corps_commander={
+            traits = { harsh_leader politically_connected }
+            skill = 2
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 1
+            logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+}

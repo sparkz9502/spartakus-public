@@ -1,0 +1,56 @@
+﻿l_english:
+
+# Events
+
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+CAN_empire:0 "Member of the British Empire"
+CAN_empire_desc:0 "§gThe Dominion of Canada is a part of the greater British Empire, and is responsible to the United Kingdom of Great Britain and Northern Ireland that leads it. As a Dominion of the United Kingdom, Canada enjoys a high level of self-government not seen by many subjects of the Empire, but is still legally bound by the British Parliament. While some are content with this situation, many, spurred on by memories of Canadian troops the Great War, despise the current system, and desire something much more for Canada..."    
+
+
+# Focuses
+
+
+# Parties
+CAN_bolshevist_party:0 "CPC"
+CAN_bolshevist_party_long:0 "Communist Party of Canada - Leninist"
+CAN_spartacist_party:0 "CPC"
+CAN_spartacist_party_long:0 "Communist Party of Canada - Orthodox Marxist"
+CAN_reformist_socialist_party:0 "ILP"
+CAN_reformist_socialist_party_long:0 "Ginger Group"
+CAN_revolutionary_socialist_party:0 "OBU"
+CAN_revolutionary_socialist_party_long:0 "One Big Union"
+CAN_social_democrat_party:0 "PPC"
+CAN_social_democrat_party_long:0 "Progressive Party of Canada"
+CAN_social_liberal_party:0 "L-L"
+CAN_social_liberal_party_long:0 "Liberal-Labour"
+CAN_liberal_conservative_party:0 "Liberal Party"
+CAN_liberal_conservative_party_long:0 "Liberal Party of Canada"
+CAN_social_conservative_party:0 "Conservative Party"
+CAN_social_conservative_party_long:0 "Liberal-Conservative Party of Canada"
+CAN_authoritarian_conservative_party:0 "Loyalists"
+CAN_authoritarian_conservative_party_long:0 "Loyalists"
+# CAN_right_wing_populist_party:0 ""
+# CAN_right_wing_populist_party_long:0 ""
+# CAN_national_syndicalist_party:0 ""
+# CAN_national_syndicalist_party_long:0 ""
+# CAN_national_corporatist_party:0 ""
+# CAN_national_corporatist_party_long:0 ""
+CAN_ccf_party:0 "CCF"
+CAN_ccf_party_long:0 "Co-operative Commonwealth Federation"
+CAN_socred_party:0 "Socreds"
+CAN_socred_party_long:0 "Social Credit Party of Canada"
+CAN_conservative_party:0 "Conservative Party"
+CAN_conservative_party_long:0 "Conservative Party of Canada"
+CAN_national_unity_party:0 "NUP"
+CAN_national_unity_party_long:0 "National Unity Party"
+
+
+# Opinion Modifiers
+

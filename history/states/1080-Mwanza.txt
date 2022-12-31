@@ -1,0 +1,23 @@
+
+state={
+	id=1080
+	name="STATE_1080"
+
+	history={
+		owner = EAF
+		add_core_of = KEN
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2066 5079 13135 14878 14894 14897 14901 
+	}
+	manpower=216900
+	buildings_max_level_factor=1.000
+	state_category = pastoral
+}

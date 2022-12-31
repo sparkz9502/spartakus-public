@@ -1,0 +1,23 @@
+
+state={
+	id=1371
+	name="STATE_1371"
+	provinces={
+		7 82 120 132 158 195 3026 3073 3115 3149 3153 6045 6081 6134 6212 9106 9233 11024 11041 11079 11081 11121 11132 13118 
+	}
+	history={
+		owner = FIN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			158 3 
+		}
+		add_core_of = FIN
+
+	}
+	manpower=296700
+	state_category=rural
+	buildings_max_level_factor=1.000
+}

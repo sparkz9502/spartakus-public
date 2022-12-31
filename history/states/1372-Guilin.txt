@@ -1,0 +1,24 @@
+
+state={
+	id=1372
+	name="STATE_1372"
+	provinces={
+		1023 7128 7168 7210 15578 
+	}
+	history={
+		owner = GXC
+		add_core_of = GXC
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1023 3 
+		}
+
+	}
+	manpower=1858000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,36 @@
+
+state={
+	id=867
+	name="STATE_867"
+	resources={
+		rubber=2.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = TRV
+		victory_points = {
+			1238 5
+		}
+		victory_points = {
+			1321 2 
+		}
+		victory_points = {
+			15217 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1238 1321 10130 15217 
+	}
+	manpower=3700000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

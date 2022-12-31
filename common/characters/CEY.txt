@@ -1,0 +1,94 @@
+characters={
+    CEY_george_v={
+		name="George V"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=bolshevist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=spartacist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=revolutionary_socialist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=reformist_socialist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=social_democrat_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=social_liberal_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=liberal_conservative_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=social_conservative_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=authoritarian_conservative_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=right_wing_populist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=national_syndicalist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			ideology=national_corporatist_subtype
+			traits={ ENG_George_V_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

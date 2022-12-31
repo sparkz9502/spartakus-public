@@ -1,0 +1,30 @@
+
+state={
+	id=1045
+	name="STATE_1045"
+	resources={
+		iron=309
+		raremetals=1
+		copper=42
+	}
+
+	history={
+		owner = USA
+		victory_points = {
+			4854 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = USA
+
+	}
+
+	provinces={
+		709 751 4854 5205 10599 13159 
+	}
+	manpower=320000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

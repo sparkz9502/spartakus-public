@@ -1,0 +1,470 @@
+guiTypes = {
+	containerWindowType = {
+		name = "coalition_bolshevist_arrow"
+		position = { x=341 y=309 }	
+		size = { width=20 height=20 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_bolshevist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_spartacist_arrow"
+		position = { x=341 y=325 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_spartacist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_revolutionary_socialist_arrow"
+		position = { x=341 y=341 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x = 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_revolutionary_socialist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_reformist_socialist_arrow"
+		position = { x=341 y=357 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_reformist_socialist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_social_democrat_arrow"
+		position = { x=341 y=373 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_social_democrat_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_social_liberal_arrow"
+		position = { x=341 y=389 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_social_liberal_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_liberal_conservative_arrow"
+		position = { x=341 y=405 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_liberal_conservative_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_social_conservative_arrow"
+		position = { x=341 y=421 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_social_conservative_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_authoritarian_conservative_arrow"
+		position = { x=341 y=437 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_authoritarian_conservative_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_right_wing_populist_arrow"
+		position = { x=341 y=453 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_right_wing_populist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_national_syndicalist_arrow"
+		position = { x=341 y=469 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_national_syndicalist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "coalition_national_corporatist_arrow"
+		position = { x=341 y=485 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="coalition_arrow"
+			spriteType = "GFX_coalition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "coalition_party_national_corporatist_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_bolshevist_arrow"
+		position = { x=341 y=309 }	
+		size = { width=20 height=20 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_spartacist_arrow"
+		position = { x=341 y=325 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_revolutionary_socialist_arrow"
+		position = { x=341 y=341 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x = 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_reformist_socialist_arrow"
+		position = { x=341 y=357 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_social_democrat_arrow"
+		position = { x=341 y=373 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_social_liberal_arrow"
+		position = { x=341 y=389 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_liberal_conservative_arrow"
+		position = { x=341 y=405 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_social_conservative_arrow"
+		position = { x=341 y=421 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_authoritarian_conservative_arrow"
+		position = { x=341 y=437 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_right_wing_populist_arrow"
+		position = { x=341 y=453 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_national_syndicalist_arrow"
+		position = { x=341 y=469 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "opposition_national_corporatist_arrow"
+		position = { x=341 y=485 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="opposition_arrow"
+			spriteType = "GFX_opposition_arrow"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "opposition_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_bolshevist_x"
+		position = { x=341 y=309 }	
+		size = { width=20 height=20 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_spartacist_x"
+		position = { x=341 y=325 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_revolutionary_socialist_x"
+		position = { x=341 y=341 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x = 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_reformist_socialist_x"
+		position = { x=341 y=357 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_social_democrat_x"
+		position = { x=341 y=373 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_social_liberal_x"
+		position = { x=341 y=389 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_liberal_conservative_x"
+		position = { x=341 y=405 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_social_conservative_x"
+		position = { x=341 y=421 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_authoritarian_conservative_x"
+		position = { x=341 y=437 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_right_wing_populist_x"
+		position = { x=341 y=453 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_national_syndicalist_x"
+		position = { x=341 y=469 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+	containerWindowType = {
+		name = "banned_national_corporatist_x"
+		position = { x=341 y=485 }	
+		size = { width=330 height=18 }
+		
+		iconType = {
+			name ="banned_party"
+			spriteType = "GFX_banned_party"
+			position = { x= 0 y = 0 }
+			
+			pdx_tooltip = "banned_party_tt"
+		}
+	}
+}

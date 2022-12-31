@@ -1,0 +1,72 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+LAB_bolshevist_party:0 "Sindikati Rudara"
+LAB_bolshevist_party_long:0 "Sindikati Rudara"
+LAB_spartacist_party:0 "Sindikati Rudara"
+LAB_spartacist_party_long:0 "Sindikati Rudara"
+LAB_revolutionary_socialist_party:0 "Sindikati Rudara"
+LAB_revolutionary_socialist_party_long:0 "Sindikati Rudara"
+LAB_reformist_socialist_party:0 "Sindikati Rudara"
+LAB_reformist_socialist_party_long:0 "Sindikati Rudara"
+LAB_social_democrat_party:0 "Gradska Administracija"
+LAB_social_democrat_party_long:0 "Gradska Administracija"
+LAB_social_liberal_party:0 "SJ/CdU"
+LAB_social_liberal_party_long:0 "Sabor Jedinstva/Congresso dell'Unità"
+LAB_liberal_conservative_party:0 "SJ/CdU"
+LAB_liberal_conservative_party_long:0 "Sabor Jedinstva/Congresso dell'Unità"
+LAB_social_conservative_party:0 "SJ/CdU"
+LAB_social_conservative_party_long:0 "Sabor Jedinstva/Congresso dell'Unità"
+LAB_authoritarian_conservative_party:0 "-"
+LAB_authoritarian_conservative_party_long:0 "-"
+LAB_right_wing_populist_party:0 "-"
+LAB_right_wing_populist_party_long:0 "-"
+LAB_national_syndicalist_party:0 "-"
+LAB_national_syndicalist_party_long:0 "-"
+LAB_national_corporatist_party:0 "-"
+LAB_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+LAB_Congress_of_the_Miners_Committee:0 "Congress of the Miners Committee"
+LAB_Congress_of_the_Miners_Committee_desc:0 ""
+LAB_The_Miners_Republic:0 "The Miners Republic"
+LAB_The_Miners_Republic_desc:0 ""
+LAB_Worker_Democracy:0 "Workplace Democracy"
+LAB_Worker_Democracy_desc:0 ""
+LAB_Self_Administration:0 "Self-Administration"
+LAB_Self_Administration_desc:0 ""
+LAB_Educate_the_Working_Class:0 "Educate the Working Class"
+LAB_Educate_the_Working_Class_desc:0 ""
+
+LAB_The_Istrian_Republic:0 "The Istrian Republic"
+LAB_The_Istrian_Republic_desc:0 "" 
+LAB_Reconstruct_A_Sabor:0 "Reconstruct the Sabor"
+LAB_Reconstruct_A_Sabor_desc:0 ""
+LAB_SUCC:0 "Limited Self-Administration"
+LAB_SUCC_desc:0 ""
+LAB_Reduce_Inequality:0 "Reduce Class Division"
+LAB_Reduce_Inequality_desc:0 ""
+
+LAB_Then_Perish:0 "Purge the Reactionaries"
+LAB_Then_Perish_desc:0 ""
+LAB_Tolerance:0 "Progressive Culture"
+LAB_Tolerance_desc:0 ""
+LAB_Not_Italian_Nor_Croat:0 "Not Italian Nor Croat"
+LAB_Not_Italian_Nor_Croat_desc:0 ""
+
+### Ideas ###
+LAB_Miners_Uprising:0 "Kova je Nasa!"
+LAB_Miners_Uprising_desc:0 "With the collapse of the Italian state into a disastrous civil war, the miners in Istria, long exploited and mistreated by the Italian administration in the Labinština mines, had declared a general strike, and soon thereafter, an independent socialist republic. The miners are organized under socialist principles of self-management and supported by the farmers and local population, driven by the motto of 'Kova je Nasa!' (the mine is ours). While their forces, in particular, the miners' Red Guard, are miniscule compared to every other contender in the Italian civil war, they are capable of a stalwart defense of their strategically posiioned home territory and are supported both by Slavic communists as well as the Socialist Republic of Italy."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

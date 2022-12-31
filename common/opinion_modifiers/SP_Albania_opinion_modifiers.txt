@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	
+	ALB_om_investment = { value = 25 }
+	ALB_om_nationalization = { value = -50 }
+	
+}

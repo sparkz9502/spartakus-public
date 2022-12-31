@@ -1,0 +1,3806 @@
+##################################################
+# Yugoslavia and the Republic of Serbia Focus Tree
+# By Sybil/LWOI
+##################################################
+
+focus_tree = {
+	id = SP_Serbia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SER
+		}
+	}
+	default = no
+	
+	continuous_focus_position = { x = 2750 y = 1000 }
+	
+	focus = {
+		id = SER_DS_Victory
+		icon = GFX_goal_ideology_social_liberal
+		cost = 1.00
+		x = 44
+		y = 11
+		available = {
+			has_country_flag = SER_First_Elections_DS
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_DS_Victory"
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = SER_Declare_Federal_Yugoslavia
+		icon = GFX_SER_Declare_FPRY
+		cost = 2.00
+		x = 10
+		y = 0
+		available = {
+			has_country_flag = SER_Red_Belgrade_flag
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Declare_Federal_Yugoslavia"
+			set_cosmetic_tag = SER_FPRY
+			set_country_flag = Is_Yugoslavia
+			hidden_effect = {
+				set_party_name = {
+					ideology = national_syndicalist
+					long_name = SER_national_syndicalist_party_nationalists_long
+					name = SER_national_syndicalist_party_nationalists
+				}
+				set_party_name = {
+					ideology = right_wing_populist
+					long_name = SER_right_wing_populist_party_nationalists_long
+					name = SER_right_wing_populist_party_nationalists
+				}
+				set_party_name = {
+					ideology = authoritarian_conservative
+					long_name = SER_authoritarian_conservative_party_nationalists_long
+					name = SER_authoritarian_conservative_party_nationalists
+				}
+				set_party_name = {
+					ideology = social_conservative
+					long_name = SER_social_conservative_party_nationalists_long
+					name = SER_social_conservative_party_nationalists
+				}
+				set_party_name = {
+					ideology = liberal_conservative
+					long_name = SER_liberal_conservative_party_nationalists_long
+					name = SER_liberal_conservative_party_nationalists
+				}
+				set_party_name = {
+					ideology = social_liberal
+					long_name = SER_social_liberal_party_nationalists_long
+					name = SER_social_liberal_party_nationalists
+				}
+				set_party_name = {
+					ideology = social_democrat
+					long_name = SER_social_democrat_party_nationalists_long
+					name = SER_social_democrat_party_nationalists
+				}
+				set_party_name = {
+					ideology = reformist_socialist
+					long_name = SER_reformist_socialist_party_nationalists_long
+					name = SER_reformist_socialist_party_nationalists
+				}
+				ITA = {
+					hidden_effect = {
+						country_event = {
+							days = 3
+							id = serbia.20
+						}
+					}
+				}
+				set_country_flag = Commiugoslavia
+			}
+		}
+	}
+	focus = {
+		id = SER_The_Airforce_Question
+		icon = GFX_goal_generic_air_fighter2
+		cost = 3.00
+		x = 26
+		y = 0
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			has_country_flag = SER_Developing_Modern_Industries
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_The_Airforce_Question"
+			add_political_power = 25
+		}
+	}
+	focus = {
+		id = SER_SEArbia
+		icon = GFX_Passenger_Cruiser
+		cost = 5.00
+		x = 36
+		y = 0
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_SEArbia"
+			custom_effect_tooltip = SER_Finally_Got_Sea
+			increase_ruling_party_popularity_by_2 = yes
+		}
+	}
+	focus = {
+		id = SER_The_Reconstruction_Presidency
+		icon = GFX_FPRY_Tito
+		cost = 0.00
+		x = 10
+		y = 11
+		available = {
+			always = no
+		}
+		bypass = {
+			has_country_flag = SER_Reconstruction_Begins
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_The_Reconstruction_Presidency"
+		}
+	}
+	focus = {
+		id = SER_Form_the_SSRNJ
+		icon = GFX_Workers_Support
+		cost = 8.00
+		x = 7
+		y = 12
+		prerequisite = {
+			focus = SER_The_Reconstruction_Presidency
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Form_the_SSRNJ"
+			add_ideas = FPRY_SSRNJ
+		}
+	}
+	focus = {
+		id = SER_Establish_OZNA
+		icon = GFX_goal_MAF_secret_police
+		cost = 4.00
+		x = 9
+		y = 12
+		prerequisite = {
+			focus = SER_The_Reconstruction_Presidency
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Establish_OZNA"
+			add_ideas = FPRY_OZNA
+		}
+	}
+	focus = {
+		id = SER_Establish_JNA
+		icon = GFX_Red_Army
+		cost = 4.00
+		x = 11
+		y = 12
+		prerequisite = {
+			focus = SER_The_Reconstruction_Presidency
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Establish_JNA"
+			add_ideas = FPRY_JNA
+		}
+	}
+	focus = {
+		id = SER_Progressive_Internationalism
+		icon = GFX_goal_FRA_World_Revolution
+		cost = 8.00
+		x = 13
+		y = 12
+		prerequisite = {
+			focus = SER_The_Reconstruction_Presidency
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Progressive_Internationalism"
+		}
+	}
+	focus = {
+		id = SER_Illyria_in_Our_Sights
+		icon = GFX_attack_illyria
+		cost = 5.00
+		x = 3
+		y = 10
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Illyria_in_Our_Sights"
+			hidden_effect = {
+				SER = {
+					country_event = {
+						days = 10
+						id = serbia.31
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					tag = BOS
+					has_socialist_government = yes
+				}
+				SER = {
+					annex_country = {
+						target = BOS
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					tag = STJ
+					has_socialist_government = yes
+				}
+				SER = {
+					annex_country = {
+						target = BOS
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					tag = SLV
+					has_socialist_government = yes
+				}
+				SER = {
+					annex_country = {
+						target = BOS
+					}
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = CRO
+					}
+				}
+				country_event = {
+					days = 1
+					id = serbia.26
+				}
+			}
+			every_country = {
+				limit = {
+					OR = {
+						tag = BOS
+						tag = STJ
+						tag = SLV
+					}
+					NOT = {
+						has_socialist_government = yes
+					}
+				}
+				country_event = {
+					days = 1
+					id = serbia.40
+				}
+			}
+			add_state_core = 794
+			add_state_core = 1204
+			add_state_core = 1209
+			add_state_core = 1205
+			add_state_core = 1009
+			add_state_core = 1206
+			add_state_core = 1208
+			add_state_core = 1207
+			add_state_core = 104
+			add_state_core = 1210
+			add_state_core = 1211
+			add_state_core = 1203
+			add_state_core = 109
+			add_state_core = 1202
+			add_state_core = 102
+			add_state_core = 103
+			add_state_core = 163
+			add_state_core = 1175
+			add_state_core = 1200
+			add_state_core = 962
+			add_state_core = 996
+			add_state_core = 1008
+			add_state_core = 1201
+			add_state_core = 736
+			add_state_core = 1010
+			add_state_core = 1198
+			add_state_core = 1340
+			add_state_core = 1155
+		}
+	}
+	focus = {
+		id = SER_Integrate_Montenegro
+		icon = GFX_attack_montenegro
+		cost = 4.00
+		x = 3
+		y = 9
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 100
+			modifier = {
+				factor = 0
+				has_war = yes
+			}
+		}
+		bypass = {
+			MNT = {
+				NOT = {
+					owns_state = 105
+				}
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Integrate_Montenegro"
+			MNT = {
+				country_event = {
+					days = 1
+					id = serbia.21
+				}
+			}
+			add_state_core = 105
+			add_state_core = 1172
+			add_state_core = 1174
+			add_state_core = 1153
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade
+		icon = GFX_Leninist_Policies
+		cost = 0.00
+		x = 25
+		y = 11
+		available = {
+			always = no
+		}
+		bypass = {
+			has_country_flag = SER_mosa_pijade_first_term
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade"
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic
+		icon = GFX_goal_red_star_gold_wreath
+		cost = 0.00
+		x = 31
+		y = 11
+		available = {
+			always = no
+		}
+		bypass = {
+			has_country_flag = SER_milan_gorkic_first_term
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic"
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic
+		icon = GFX_goal_red_star_dove
+		cost = 0.00
+		x = 37
+		y = 11
+		available = {
+			always = no
+		}
+		bypass = {
+			has_country_flag = SER_kosta_novakovic_first_term
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic"
+		}
+	}
+	focus = {
+		id = SER_Basic_Workers_Self_Management
+		icon = GFX_SP_focus_trade_unions
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Form_the_SSRNJ
+		}
+		x = 5
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Basic_Workers_Self_Management"
+		}
+	}
+	focus = {
+		id = SER_Develop_Market_Socialism
+		icon = GFX_tblra_union_agreement
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Form_the_SSRNJ
+		}
+		x = 7
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Develop_Market_Socialism"
+		}
+	}
+	focus = {
+		id = SER_Destroy_Bureaucracy
+		icon = GFX_goal_economic_control
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Basic_Workers_Self_Management
+		}
+		prerequisite = {
+			focus = SER_Develop_Market_Socialism
+		}
+		x = 6
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Destroy_Bureaucracy"
+		}
+	}
+	focus = {
+		id = SER_Development_in_the_West
+		icon = GFX_goal_construction
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Destroy_Bureaucracy
+		}
+		x = 5
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Development_in_the_West"
+		}
+	}
+	focus = {
+		id = SER_Development_in_the_East
+		icon = GFX_goal_construction
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Destroy_Bureaucracy
+		}
+		x = 7
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Development_in_the_East"
+		}
+	}
+	focus = {
+		id = SER_Global_Trading
+		icon = GFX_goal_world_markets
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Development_in_the_West
+		}
+		prerequisite = {
+			focus = SER_Development_in_the_East
+		}
+		x = 6
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Global_Trading"
+		}
+	}
+	focus = {
+		id = SER_Democratic_Alignment
+		icon = GFX_SER_Elections_with_Liberals
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Declare_Federal_Yugoslavia
+		}
+		mutually_exclusive = {
+			focus = SER_Ban_Other_Parties
+		}
+		x = 8
+		y = 1
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Democratic_Alignment"
+			add_stability = 0.05
+			country_event = {
+				id = serbia.5
+			}
+		}
+	}
+	focus = {
+		id = SER_Ban_Other_Parties
+		icon = GFX_SER_Ban_Liberals
+		cost = 1.00
+		prerequisite = {
+			focus = SER_Declare_Federal_Yugoslavia
+		}
+		mutually_exclusive = {
+			focus = SER_Democratic_Alignment
+		}
+		x = 12
+		y = 1
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Ban_Other_Parties"
+			add_stability = -0.05
+			SP_clear_coalition_effect = yes
+			add_ban_social_democrat = yes
+			add_ban_social_liberal = yes
+			set_country_flag = coalition_spartacist
+            set_country_flag = coalition_revolutionary_socialist
+			hidden_effect = {
+				country_event = {
+					days = 5
+					id = serbia.8
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Crackdown_on_Nationalists
+		icon = GFX_SER_Chetnocide
+		cost = 1.00
+		prerequisite = {
+			focus = SER_Ban_Other_Parties
+			focus = SER_Democratic_Alignment
+		}
+		x = 10
+		y = 2
+		available = {
+			has_socialist_government = yes
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Crackdown_on_Nationalists"
+			custom_effect_tooltip = SER_Chetnocide_Tooltip
+			hidden_effect = {
+				country_event = {
+					id = antichetnik.1
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Workshop_Network
+		icon = GFX_SER_Workshops
+		cost = 2.00
+		prerequisite = {
+			focus = SER_Crackdown_on_Nationalists
+		}
+		x = 8
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Workshop_Network"
+			add_political_power = 15
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+			}
+			add_timed_idea = {
+				idea = SER_Guerilla_Arms
+				days = 150
+			}
+		}
+	}
+	focus = {
+		id = SER_Sremska_Ruta
+		icon = GFX_SER_Sremska_Ruta
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Workshop_Network
+		}
+		x = 1
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Sremska_Ruta"
+		}
+	}
+	focus = {
+		id = SER_Land_Seizures
+		icon = GFX_SER_Seize_Capitalist_Land
+		cost = 1.00
+		prerequisite = {
+			focus = SER_Crackdown_on_Nationalists
+		}
+		x = 12
+		y = 3
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Land_Seizures"
+			add_political_power = 35
+			add_timed_idea = {
+				idea = SER_Temporarily_Increased_Peasant_Support
+				days = 150
+			}
+		}
+	}
+	focus = {
+		id = SER_Create_an_Army_Political_Directorate
+		icon = GFX_SER_Army_Political_Directorate
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Crackdown_on_Nationalists
+		}
+		prerequisite = {
+			focus = SER_Workshop_Network
+		}
+		prerequisite = {
+			focus = SER_Land_Seizures
+		}
+		x = 10
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Create_an_Army_Political_Directorate"
+		}
+	}
+	focus = {
+		id = SER_Elected_Officers
+		icon = GFX_KTG_Elections
+		available = {
+			NOT = {
+				has_country_flag = SER_Central_Command_Selected
+			}
+		}
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Create_an_Army_Political_Directorate
+		}
+		x = 12
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Elected_Officers"
+			set_country_flag = SER_Elected_Officers_Selected
+		}
+	}
+	focus = {
+		id = SER_Strategy_of_our_Own
+		icon = GFX_To_The_Last_Man
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Elected_Officers
+		}
+		x = 12
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Strategy_of_our_Own"
+		}
+	}
+	focus = {
+		id = SER_Dinaric_Warfare
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Strategy_of_our_Own
+		}
+		x = 12
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Dinaric_Warfare"
+		}
+	}
+	focus = {
+		id = SER_Arrest_Suspected_Nationalists
+		icon = GFX_Lock_Them_Up
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Progressive_Internationalism
+		}
+		x = 13
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Arrest_Suspected_Nationalists"
+		}
+	}
+	focus = {
+		id = SER_Groundworks_of_Socialism
+		icon = GFX_Overthrow_Government
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Land_Seizures
+		}
+		x = 13
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Groundworks_of_Socialism"
+		}
+	}
+	focus = {
+		id = SER_Socialization
+		icon = GFX_goal_red_star_green_wreath
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Groundworks_of_Socialism
+		}
+		x = 15
+		y = 5
+		available = {
+			has_socialist_government = yes
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Socialization"
+			add_ideas = SER_Socialization_In_Progress
+			country_event = {
+				days = 300
+				id = serbia.10
+			}
+			custom_effect_tooltip = SER_Nationalization_Tip
+		}
+	}
+	focus = {
+		id = SER_Modern_Industry
+		icon = GFX_CommunistProductionFocus
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Socialization
+		}
+		x = 14
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Modern_Industry"
+			random_owned_state = {
+				prioritize = { 107 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = SER_Developing_Modern_Industries
+		}
+	}
+	focus = {
+		id = SER_Resolve_Bosnia
+		icon = GFX_Risky_Deal
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Progressive_Internationalism
+		}
+		x = 15
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Resolve_Bosnia"
+		}
+	}
+	focus = {
+		id = SER_Local_Womens_Organizations
+		icon = GFX_Womens_Rights
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Resolve_Bosnia
+		}
+		prerequisite = {
+			focus = SER_Arrest_Suspected_Nationalists
+		}
+		x = 14
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Local_Womens_Organizations"
+		}
+	}
+	focus = {
+		id = SER_Anti_Colonialism
+		icon = GFX_goal_POR_burden_empire
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Local_Womens_Organizations
+		}
+		x = 15
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Anti_Colonialism"
+		}
+	}
+	focus = {
+		id = SER_Expand_Pioneers
+		icon = GFX_Pioneers
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Local_Womens_Organizations
+		}
+		x = 13
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Expand_Pioneers"
+		}
+	}
+	focus = {
+		id = SER_Invite_Kardelj
+		icon = GFX_goal_unknown
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Socialization
+		}
+		x = 16
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Invite_Kardelj"
+		}
+	}
+	focus = {
+		id = SER_Yugoslav_Self_Management
+		icon = GFX_Restructure_Management
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Invite_Kardelj
+		}
+		x = 16
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Yugoslav_Self_Management"
+		}
+	}
+	focus = {
+		id = SER_Encourage_Urbanization
+		icon = GFX_Encourage_Urbanization
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Modern_Industry
+		}
+		x = 14
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Encourage_Urbanization"
+		}
+	}
+	focus = {
+		id = SER_Mobilize_the_Peasantry
+		icon = GFX_goal_Workers_Paradise
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Land_Seizures
+		}
+		x = 18
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Mobilize_the_Peasantry"
+		}
+	}
+	focus = {
+		id = SER_Finalize_Land_Redistribution
+		icon = GFX_goal_agrarian_reform
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Land_Seizures
+		}
+		x = 20
+		y = 4
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Finalize_Land_Redistribution"
+		}
+	}
+	focus = {
+		id = SER_Begin_Forceful_Collectivization
+		icon = GFX_goal_forced_res
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Finalize_Land_Redistribution
+		}
+		prerequisite = {
+			focus = SER_Mobilize_the_Peasantry
+		}
+		mutually_exclusive = {
+			focus = SER_Begin_Voluntary_Collectivization
+		}
+		x = 18
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Begin_Forceful_Collectivization"
+		}
+
+	}
+	focus = {
+		id = SER_Make_Peasants_Proletarians
+		icon = GFX_tblra_union_agreement
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Begin_Forceful_Collectivization
+		}
+		x = 18
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Make_Peasants_Proletarians"
+		}
+	}
+	focus = {
+		id = SER_Begin_Voluntary_Collectivization
+		icon = GFX_Voluntary_Collectivization
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Finalize_Land_Redistribution
+		}
+		prerequisite = {
+			focus = SER_Mobilize_the_Peasantry
+		}
+		mutually_exclusive = {
+			focus = SER_Begin_Forceful_Collectivization
+		}
+		x = 20
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Begin_Voluntary_Collectivization"
+		}
+	}
+	focus = {
+		id = SER_Improve_Peasants_Quality_of_Life
+		icon = GFX_Suburban_Development
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Begin_Voluntary_Collectivization
+		}
+		x = 20
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Improve_Peasants_Quality_of_Life"
+		}
+	}
+	focus = {
+		id = SER_Agricultural_Mechanization
+		icon = GFX_CommunistAgricultureFocus
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Make_Peasants_Proletarians
+			focus = SER_Improve_Peasants_Quality_of_Life
+		}
+		x = 19
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Agricultural_Mechanization"
+			hidden_effect = {
+				country_event = {
+					days = 40
+					id = serbia.16
+				}
+			}
+			add_political_power = 25
+			add_ideas = SER_Agricultural_Mechanization_Idea
+			custom_effect_tooltip = SER_happyfarmers
+		}
+	}
+	focus = {
+		id = SER_Established_Proletarian_Dictatorship
+		icon = GFX_Socialist_Consolidation
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Agricultural_Mechanization
+		}
+		prerequisite = {
+			focus = SER_Encourage_Urbanization
+		}
+		x = 16
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Established_Proletarian_Dictatorship"
+		}
+	}
+	focus = {
+		id = SER_Proletarian_Women
+		icon = GFX_goal_women_industry
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Established_Proletarian_Dictatorship
+		}
+		prerequisite = {
+			focus = SER_Encourage_Urbanization
+		}
+		x = 12
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Proletarian_Women"
+			add_ideas = SER_SZDJ
+		}
+	}
+	focus = {
+		id = SER_New_Schools
+		icon = GFX_SP_focus_education
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Established_Proletarian_Dictatorship
+		}
+		x = 18
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_New_Schools"
+			custom_effect_tooltip = WBLiteracy_boost_tooltip
+			hidden_effect = {
+				country_event = {
+					days = 90
+					id = WBLiteracy.10
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_State_Education
+		icon = GFX_State_Control
+		cost = 7.00
+		prerequisite = {
+			focus = SER_New_Schools
+		}
+		mutually_exclusive = {
+			focus = SER_Moderna_Skola
+		}
+		x = 20
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_State_Education"
+			add_ideas = SER_State_Education_Early
+			hidden_effect = {
+				country_event = {
+					days = 500
+					id = serbia.11
+				}
+				country_event = {
+					days = 1000
+					id = serbia.12
+				}
+				country_event = {
+					days = 2000
+					id = serbia.13
+				}
+			}
+			custom_effect_tooltip = SER_StateEd_Tip
+		}
+	}
+	focus = {
+		id = SER_Convert_Zmaj_into_IPM
+		icon = GFX_Focus_Grain
+		cost = 3.00
+		prerequisite = {
+			focus = SER_The_Airforce_Question
+		}
+		x = 24
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			has_socialist_government = yes
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Convert_Zmaj_into_IPM"
+			add_political_power = 25
+			add_timed_idea = {
+				idea = SER_Airforce_on_Hold
+				days = 356
+			}
+		}
+	}
+	focus = {
+		id = SER_Merge_Remnants_of_Zmaj_with_Rogozarski
+		icon = GFX_Army_Factories
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Convert_Zmaj_into_IPM
+		}
+		x = 24
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			NOT = {
+				has_idea = SER_Airforce_on_Hold
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Merge_Remnants_of_Zmaj_with_Rogozarski"
+			add_political_power = 25
+			add_ideas = SER_Airforce_Development_Accelerated
+		}
+	}
+	focus = {
+		id = SER_Support_the_Ikarus_IK_1
+		icon = GFX_focus_YUG_ikarus
+		cost = 3.00
+		prerequisite = {
+			focus = SER_The_Airforce_Question
+		}
+		x = 26
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Support_the_Ikarus_IK_1"
+			air_experience = 5
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.75
+				uses = 1
+				technology = fighter1
+			}
+		}
+	}
+	focus = {
+		id = SER_Support_Dusan_Stankovs_Bomber_Initiative
+		icon = GFX_goal_generic_air_bomber
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Support_the_Ikarus_IK_1
+		}
+		x = 26
+		y = 3
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Support_Dusan_Stankovs_Bomber_Initiative"
+			air_experience = 5
+			add_tech_bonus = {
+				name = stankov_bomber_bonus
+				bonus = 0.75
+				uses = 1
+				technology = early_bomber
+			}
+		}
+	}
+	focus = {
+		id = SER_Contract_with_Breguet
+		icon = GFX_French_Unity
+		cost = 3.00
+		prerequisite = {
+			focus = SER_The_Airforce_Question
+		}
+		x = 28
+		y = 1
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			OR = {
+				has_government = social_liberal
+				has_government = liberal_conservative
+			}
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Contract_with_Breguet"
+			add_political_power = 15
+			air_experience = 15
+		}
+	}
+	focus = {
+		id = SER_Found_the_State_Airplane_Factory
+		icon = GFX_Business_Bills
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Contract_with_Breguet
+		}
+		x = 28
+		y = 2
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			date > 1933.2.2
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Found_the_State_Airplane_Factory"
+			add_political_power = 25
+			1192 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_ideas = SER_DFA
+		}
+	}
+	focus = {
+		id = SER_Airbases_in_Bosnia
+		icon = GFX_Expand_Airfields
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Merge_Remnants_of_Zmaj_with_Rogozarski
+			focus = SER_Found_the_State_Airplane_Factory
+		}
+		prerequisite = {
+			focus = SER_Support_Dusan_Stankovs_Bomber_Initiative
+		}
+		x = 22
+		y = 4
+		available = {
+			has_full_control_of_state = 1009
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Airbases_in_Bosnia"
+			add_political_power = -15
+			109 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Airbases_in_Croatia
+		icon = GFX_Expand_Airfields
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Merge_Remnants_of_Zmaj_with_Rogozarski
+			focus = SER_Found_the_State_Airplane_Factory
+		}
+		prerequisite = {
+			focus = SER_Support_Dusan_Stankovs_Bomber_Initiative
+		}
+		x = 24
+		y = 4
+		available = {
+			has_full_control_of_state = 109
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Airbases_in_Croatia"
+			add_political_power = -15
+			109 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Replace_Unexperienced_Senior_Officers
+		icon = GFX_Serbian_Officers
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Merge_Remnants_of_Zmaj_with_Rogozarski
+			focus = SER_Found_the_State_Airplane_Factory
+		}
+		prerequisite = {
+			focus = SER_Support_Dusan_Stankovs_Bomber_Initiative
+		}
+		x = 26
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Replace_Unexperienced_Senior_Officers"
+			add_political_power = -30
+			air_experience = 20
+		}
+	}
+	focus = {
+		id = SER_Devise_New_Training_Methods
+		icon = GFX_goal_officers
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Merge_Remnants_of_Zmaj_with_Rogozarski
+			focus = SER_Found_the_State_Airplane_Factory
+		}
+		prerequisite = {
+			focus = SER_Support_Dusan_Stankovs_Bomber_Initiative
+		}
+		x = 28
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Devise_New_Training_Methods"
+			air_experience = 15
+			add_equipment_to_stockpile = {
+				type = fighter_equipment_1
+				amount = 15
+				producer = SER
+			}
+		}
+	}
+	focus = {
+		id = SER_Ikarus_451_Concept
+		icon = GFX_Jet_Research
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Devise_New_Training_Methods
+		}
+		x = 28
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			date > 1943.1.1
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Ikarus_451_Concept"
+			add_tech_bonus = {
+				name = ik451_bonus
+				bonus = 0.25
+				uses = 1
+				technology = jet_fighter1
+			}
+		}
+	}
+	focus = {
+		id = SER_Security_Initiative
+		icon = GFX_goal_anti_air
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Merge_Remnants_of_Zmaj_with_Rogozarski
+			focus = SER_Found_the_State_Airplane_Factory
+		}
+		prerequisite = {
+			focus = SER_Support_Dusan_Stankovs_Bomber_Initiative
+		}
+		x = 30
+		y = 4
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Security_Initiative"
+			add_political_power = 15
+			add_war_support = 0.03
+			107 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = anti_air_building
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Party_Purge
+		icon = GFX_Purge_the_Revolution
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic
+		}
+		x = 30
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Party_Purge"
+			add_political_power = 100
+			add_stability = -0.03
+			army_experience = 15
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = spartacist
+				popularity = -0.05
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.05
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Forced_Labor
+		icon = GFX_goal_forced_con
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic_Party_Purge
+		}
+		x = 30
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Forced_Labor"
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Reeducation
+		icon = GFX_goal_propaganda_soviet
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic_Forced_Labor
+		}
+		x = 30
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Reeducation"
+			add_political_power = 25
+			add_stability = 0.03
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.05
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Eliminate_Church_Power
+		icon = GFX_A_Second_Kulturkampf
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic
+		}
+		x = 32
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Eliminate_Church_Power"
+			add_political_power = -25
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Industrialize
+		icon = GFX_Factory_Town
+		cost = 12.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic_Eliminate_Church_Power
+		}
+		x = 32
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Industrialize"
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Cooperate_with_Neighbors
+		icon = GFX_Hungarian_Deal
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic_Industrialize
+		}
+		x = 32
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Cooperate_with_Neighbors"
+			every_country = {
+				limit = {
+					tag = HUN
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = ROM
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = BUL
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = ALB
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = GRE
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = SRI
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = AWR
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+			every_country = {
+				limit = {
+					tag = LAB
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Milan_Gorkic_Total_National_Reorganization
+		icon = GFX_goal_generic_forceful_treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic_Cooperate_with_Neighbors
+		}
+		prerequisite = {
+			focus = SER_Presidency_Milan_Gorkic_Reeducation
+		}
+		x = 31
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Milan_Gorkic_Total_National_Reorganization"
+			custom_effect_tooltip = SER_DissectYugo_tooltip
+			set_country_flag = SER_DissectYugo
+			hidden_effect = {
+				set_cosmetic_tag = SER
+				every_owned_state = {
+					limit = {
+						is_core_of = BOS
+						is_owned_by = SER
+					}
+					BOS = {
+						transfer_state = PREV
+					}
+				}
+				BOS = {
+					set_country_flag = BOS_Autonomous_SR_Bosnia
+					set_cosmetic_tag = BOS_FPRY
+					add_popularity = {
+						ideology = spartacist
+						popularity = 0.2
+					}
+					add_popularity = {
+						ideology = social_liberal
+						popularity = -0.4
+					}
+					add_popularity = {
+						ideology = social_conservative
+						popularity = -0.2
+					}
+					add_popularity = {
+						ideology = authoritarian_democrat
+						popularity = -1
+					}
+					add_popularity = {
+						ideology = national_syndicalist
+						popularity = -1
+					}
+					add_popularity = {
+						ideology = national_corporatist
+						popularity = -1
+					}
+					create_country_leader = {
+						name = "Milan Gorkić"
+						desc = ""
+						picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Gorkic.tga"
+						expire = "1965.1.1"
+						ideology = bolshevist_subtype
+					}
+					load_oob = BOS_Gorkic
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = SLV
+						is_owned_by = SER
+					}
+					SLV = {
+						transfer_state = PREV
+					}
+				}
+				SLV = {
+					set_country_flag = SLV_Autonomous_SR_Slovenia
+					set_cosmetic_tag = SLV_FPRY
+					add_popularity = {
+						ideology = spartacist
+						popularity = 0.2
+					}
+					add_popularity = {
+						ideology = revolutionary_socialist
+						popularity = 0.2
+					}
+					add_popularity = {
+						ideology = authoritarian_democrat
+						popularity = -1
+					}
+					add_popularity = {
+						ideology = national_syndicalist
+						popularity = -1
+					}
+					add_popularity = {
+						ideology = national_corporatist
+						popularity = -1
+					}
+					create_country_leader = {
+						name = "Milan Gorkić"
+						desc = ""
+						picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Gorkic.tga"
+						expire = "1965.1.1"
+						ideology = bolshevist_subtype
+					}
+					load_oob = SLV_Gorkic
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = STJ
+						is_owned_by = SER
+						NOT = {
+							state = 794
+						}
+					}
+					STJ = {
+						transfer_state = PREV
+					}
+				}
+				STJ = {
+					set_country_flag = STJ_Autonomous_SR_Croatia
+					set_cosmetic_tag = STJ_FPRY
+					add_popularity = {
+						ideology = spartacist
+						popularity = 0.2
+					}
+					add_popularity = {
+						ideology = revolutionary_socialist
+						popularity = 0.2
+					}
+					add_popularity = {
+						ideology = bolshevist
+						popularity = 0.03
+					}
+					add_popularity = {
+						ideology = authoritarian_democrat
+						popularity = -1
+					}
+					create_country_leader = {
+						name = "Milan Gorkić"
+						desc = ""
+						picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Gorkic.tga"
+						expire = "1965.1.1"
+						ideology = bolshevist_subtype
+					}
+					load_oob = STJ_Gorkic
+					hidden_effect = {
+						set_party_name = {
+							ideology = reformist_socialist
+							long_name = STJ_reformist_socialist_HRSS_long
+							name = STJ_reformist_socialist_HRSS
+						}
+						create_country_leader = {
+							name = "Stjepan Radić"
+							desc = ""
+							picture = "gfx/leaders/CRO/Portrait_illyria_stjepan_radic.tga"
+							expire = "1965.1.1"
+							ideology = reformist_socialist_subtype
+						}
+					}
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = MNT
+						is_owned_by = SER
+						NOT = {
+							state = 1172
+							state = 108
+						}
+					}
+					MNT = {
+						transfer_state = PREV
+					}
+				}
+				MNT = {
+					set_country_flag = MNT_Autonomous_SR_Montenegro
+					set_cosmetic_tag = MNT_FPRY
+					add_popularity = {
+						ideology = spartacist
+						popularity = 0.3
+					}
+					add_popularity = {
+						ideology = bolshevist
+						popularity = 0.1
+					}
+					create_country_leader = {
+						name = "Milan Gorkić"
+						desc = ""
+						picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Gorkic.tga"
+						expire = "1965.1.1"
+						ideology = bolshevist_subtype
+					}
+					load_oob = MNT_Gorkic
+				}
+				every_owned_state = {
+					limit = {
+						is_core_of = MKE
+						is_owned_by = SER
+					}
+					MKE = {
+						transfer_state = PREV
+					}
+				}
+				MKE = {
+					set_country_flag = MKE_Autonomous_SR_Macedonia
+					set_cosmetic_tag = MKE_FPRY
+					create_country_leader = {
+						name = "Milan Gorkić"
+						desc = ""
+						picture = "gfx/leaders/SER/Portrait_Serbia_Milan_Gorkic.tga"
+						expire = "1965.1.1"
+						ideology = bolshevist_subtype
+					}
+					load_oob = MKE_Gorkic
+				}
+				STJ = {
+					get_current_government_type = yes
+				}
+				SER = {
+					puppet = STJ
+				}
+				STJ = {
+					restore_previous_government_type = yes
+					set_politics = {
+						ruling_party = bolshevist
+						elections_allowed = no
+					}
+				}
+				BOS = {
+					get_current_government_type = yes
+				}
+				SER = {
+					puppet = BOS
+				}
+				BOS = {
+					restore_previous_government_type = yes
+					set_politics = {
+						ruling_party = bolshevist
+						elections_allowed = no
+					}
+				}
+				MNT = {
+					get_current_government_type = yes
+				}
+				SER = {
+					puppet = MNT
+				}
+				MNT = {
+					restore_previous_government_type = yes
+					set_politics = {
+						ruling_party = bolshevist
+						elections_allowed = no
+					}
+				}
+				SLV = {
+					get_current_government_type = yes
+				}
+				SER = {
+					puppet = SLV
+				}
+				SLV = {
+					restore_previous_government_type = yes
+					set_politics = {
+						ruling_party = bolshevist
+						elections_allowed = no
+					}
+				}
+				MKE = {
+					get_current_government_type = yes
+				}
+				SER = {
+					puppet = MKE
+				}
+				MKE = {
+					restore_previous_government_type = yes
+					set_politics = {
+						ruling_party = bolshevist
+						elections_allowed = no
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Scrapping_up_a_Navy
+		icon = GFX_IRE_medium_industry
+		cost = 5.00
+		prerequisite = {
+			focus = SER_SEArbia
+		}
+		mutually_exclusive = {
+			focus = SER_Purchasing_up_a_Navy
+		}
+		x = 33
+		y = 1
+		available = {
+			has_socialist_government = yes
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Scrapping_up_a_Navy"
+			add_political_power = -25
+			add_equipment_to_stockpile = {
+				type = convoy_1
+				amount = 20
+				producer = SER
+			}
+		}
+	}
+	focus = {
+		id = SER_Request_Comintern_Support
+		icon = GFX_goal_navy_decision
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Scrapping_up_a_Navy
+		}
+		x = 33
+		y = 2
+		available = {
+			has_socialist_government = yes
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Request_Comintern_Support"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Foreign_Ships
+		icon = GFX_Communist_Navy
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Request_Comintern_Support
+		}
+		x = 33
+		y = 3
+		available = {
+			has_socialist_government = yes
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Foreign_Ships"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Purchasing_up_a_Navy
+		icon = GFX_Cash_and_Carry
+		cost = 5.00
+		prerequisite = {
+			focus = SER_SEArbia
+		}
+		mutually_exclusive = {
+			focus = SER_Scrapping_up_a_Navy
+		}
+		x = 39
+		y = 1
+		available = {
+			NOT = {
+				has_socialist_government = yes
+			}
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Purchasing_up_a_Navy"
+			add_political_power = -25
+		}
+	}
+	focus = {
+		id = SER_Coastal_Defence
+		icon = GFX_goal_generic_coastal_navy
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Scrapping_up_a_Navy
+			focus = SER_Purchasing_up_a_Navy
+		}
+		x = 36
+		y = 2
+		available = {
+			any_state = {
+					is_coastal = yes
+					is_owned_by = ROOT
+				}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Coastal_Defence"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_River_Fleet
+		icon = GFX_goal_bluewater_navy
+		cost = 6.00
+		prerequisite = {
+			focus = SER_Coastal_Defence
+		}
+		x = 36
+		y = 3
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_River_Fleet"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Buy_British_Ships
+		icon = GFX_British_Battleship_Programme
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Purchasing_up_a_Navy
+		}
+		x = 39
+		y = 2
+		available = {
+			OR = {
+				NOT = {
+					has_socialist_government = yes
+				}
+			}
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Buy_British_Ships"
+			add_political_power = -25
+		}
+	}
+	focus = {
+		id = SER_Fund_Naval_Researchers
+		icon = GFX_goal_double_research
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Buy_British_Ships
+		}
+		x = 39
+		y = 3
+		available = {
+			OR = {
+				NOT = {
+					has_socialist_government = yes
+				}
+			}
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Fund_Naval_Researchers"
+			add_political_power = -25
+		}
+	}
+	focus = {
+		id = SER_Developing_A_Proper_Naval_Industry
+		icon = GFX_Industrial_Progress
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Foreign_Ships
+		}
+		prerequisite = {
+			focus = SER_River_Fleet
+		}
+		prerequisite = {
+			focus = SER_Fund_Naval_Researchers
+		}
+		x = 36
+		y = 4
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Developing_A_Proper_Naval_Industry"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Submarine_Research
+		icon = GFX_goal_generic_navy_submarine
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Developing_A_Proper_Naval_Industry
+		}
+		mutually_exclusive = {
+			focus = SER_A_Coastal_Defence_Is_Enough
+		}
+		x = 33
+		y = 5
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Submarine_Research"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_A_Coastal_Defence_Is_Enough
+		icon = GFX_Root_out_Funding
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Submarine_Research
+		}
+		mutually_exclusive = {
+			focus = SER_Submarine_Research
+		}
+		x = 35
+		y = 5
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_A_Coastal_Defence_Is_Enough"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Navy_in_Istria
+		icon = GFX_goal_navy_hat_ships
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Developing_A_Proper_Naval_Industry
+		}
+		x = 37
+		y = 6
+		available = {
+			OR = {
+				owns_state = 795
+				owns_state = 1362
+				owns_state = 1201
+				owns_state = 1262
+				owns_state = 1008
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Navy_in_Istria"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Navy_in_Dalmatia
+		icon = GFX_goal_navy_hat_ships
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Developing_A_Proper_Naval_Industry
+		}
+		x = 38
+		y = 5
+		available = {
+			OR = {
+				owns_state = 1200
+				owns_state = 962
+				owns_state = 996
+				owns_state = 163
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Navy_in_Dalmatia"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Navy_in_Montenegro
+		icon = GFX_goal_navy_hat_ships
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Developing_A_Proper_Naval_Industry
+		}
+		x = 39
+		y = 6
+		available = {
+			OR = {
+				owns_state = 1175
+				owns_state = 105
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Navy_in_Montenegro"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Subsidized_Agriculture
+		icon = GFX_AUS_agriculture
+		cost = 5.00
+		prerequisite = {
+			focus = SER_DS_Victory
+		}
+		x = 42
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Subsidized_Agriculture"
+			add_ideas = SER_Agrisubsidies
+		}
+	}
+	focus = {
+		id = SER_Grants_to_MIN
+		icon = GFX_RAJ_indian_railways
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Subsidized_Agriculture
+		}
+		x = 42
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Grants_to_MIN"
+			add_ideas = SER_Grants_to_MIN_Idea
+			random_owned_state = {
+				prioritize = { 767 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			set_country_flag = SER_Developing_Modern_Industries
+		}
+	}
+	focus = {
+		id = SER_Urbanization
+		icon = GFX_goal_ITA_urban
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Grants_to_MIN
+		}
+		x = 42
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Urbanization"
+			add_ideas = SER_Urbanizing
+			random_owned_state = {
+				prioritize = { 107 }
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Rural_Schools
+		icon = GFX_SP_focus_education
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Urbanization
+		}
+		x = 41
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Rural_Schools"
+			custom_effect_tooltip = WBLiteracy_boost_tooltip
+			hidden_effect = {
+				country_event = {
+					days = 90
+					id = WBLiteracy.10
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_End_DSCR
+		icon = GFX_Kosovo_Flames_Focus
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Urbanization
+		}
+		x = 43
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_End_DSCR"
+			hidden_effect = {
+				remove_ideas = SER_Decree_on_the_Colonization_of_the_Southern_Regions
+			}
+			custom_effect_tooltip = Minority_Literacy
+			add_to_variable = {
+				SER.literacy_rate = 1
+			}
+			add_stability = 0.03
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.01
+			}
+		}
+	}
+	focus = {
+		id = SER_Working_Women
+		icon = GFX_goal_women_industry
+		cost = 5.00
+		prerequisite = {
+			focus = SER_End_DSCR
+		}
+		x = 43
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Working_Women"
+			add_ideas = SER_SZDJ
+		}
+	}
+	focus = {
+		id = SER_Industrialization_Plan
+		icon = GFX_goal_factory_complex
+		cost = 12.00
+		prerequisite = {
+			focus = SER_DS_Victory
+		}
+		x = 46
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Industrialization_Plan"
+			add_ideas = SER_Intervening_in_Industrialization
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Land_Reform
+		icon = GFX_goal_agrarian_reform
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Industrialization_Plan
+		}
+		x = 46
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Land_Reform"
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.1
+			}
+			add_ideas = SER_Land_Reform_Idea
+		}
+	}
+	focus = {
+		id = SER_Civic_Nationalism
+		icon = GFX_goal_generic_national_unity
+		cost = 5.00
+		prerequisite = {
+			focus = SER_Land_Reform
+		}
+		x = 46
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Civic_Nationalism"
+			add_stability = 0.05
+			add_political_power = 100
+		}
+	}
+	focus = {
+		id = SER_The_Sandzak_Conference
+		icon = GFX_goal_foreign_diplomacy
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Civic_Nationalism
+		}
+		x = 46
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_The_Sandzak_Conference"
+			SER = {
+				transfer_state = 108
+			}
+		}
+	}
+	focus = {
+		id = SER_Defense_of_the_Republic
+		icon = GFX_Serbian_Officers
+		cost = 6.00
+		prerequisite = {
+			focus = SER_The_Sandzak_Conference
+		}
+		x = 46
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Defense_of_the_Republic"
+			add_ideas = SER_Stalwart_Republic
+		}
+	}
+	focus = {
+		id = SER_Execute_Operation_Gvardijan
+		icon = GFX_Yugoslavia_Partisans
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Establish_OZNA
+		}
+		prerequisite = {
+			focus = SER_Establish_JNA
+		}
+		x = 10
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Execute_Operation_Gvardijan"
+		}
+	}
+	focus = {
+		id = SER_Internal_Purge
+		icon = GFX_Anti_Democracy
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Develop_Market_Socialism
+		}
+		prerequisite = {
+			focus = SER_Execute_Operation_Gvardijan
+		}
+		x = 8
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Internal_Purge"
+		}
+	}
+	focus = {
+		id = SER_Brotherhood_and_Unity
+		icon = GFX_Socialist_Yugoslavia
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Execute_Operation_Gvardijan
+		}
+		x = 10
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Brotherhood_and_Unity"
+		}
+	}
+	focus = {
+		id = SER_Build_Spomeniks
+		icon = GFX_FPRY_Spomenik
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Brotherhood_and_Unity
+		}
+		x = 9
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Build_Spomeniks"
+		}
+	}
+	focus = {
+		id = SER_Total_Peoples_Defense
+		icon = GFX_goal_Fortification_Effort
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Brotherhood_and_Unity
+		}
+		x = 11
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Total_Peoples_Defense"
+		}
+	}
+	focus = {
+		id = SER_Novosadski_Dogovor
+		icon = GFX_Room_Meeting
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Arrest_Suspected_Nationalists
+		}
+		prerequisite = {
+			focus = SER_Execute_Operation_Gvardijan
+		}
+		x = 12
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Novosadski_Dogovor"
+		}
+	}
+	focus = {
+		id = SER_Research_Nuclear_Energy
+		icon = GFX_goal_nuclear
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Build_Spomeniks
+		}
+		prerequisite = {
+			focus = SER_Total_Peoples_Defense
+		}
+		prerequisite = {
+			focus = SER_Development_in_the_West
+		}
+		prerequisite = {
+			focus = SER_Development_in_the_East
+		}
+		prerequisite = {
+			focus = SER_Anti_Colonialism
+		}
+		prerequisite = {
+			focus = SER_Expand_Pioneers
+		}
+		x = 10
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Research_Nuclear_Energy"
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_Begin_Red_Terror
+		icon = GFX_goal_reign_of_terror
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade
+		}
+		x = 24
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_Begin_Red_Terror"
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_Cleanse_Fifth_Column
+		icon = GFX_goal_spy_purge
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade_Begin_Red_Terror
+		}
+		x = 24
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_Cleanse_Fifth_Column"
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_Eliminate_Montenegrin_Chieftains
+		icon = GFX_Imprison_the_King
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade_Cleanse_Fifth_Column
+		}
+		x = 24
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_Eliminate_Montenegrin_Chieftains"
+			country_event = {
+				days = 20
+				id = serbia.33
+			}
+		}
+	}
+	focus = {
+		id = SER_Arm_Proletarians
+		icon = GFX_SER_Arm_Proletarians
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Workshop_Network
+		}
+		x = 10
+		y = 4
+		completion_reward = {
+			army_experience = 10
+			country_event = {
+				id = yugomilitary.1
+			}
+		}
+	}
+	focus = {
+		id = SER_Central_Command
+		icon = GFX_Red_Army
+		cost = 7.00
+		available = {
+		NOT = {
+		has_country_flag = SER_Elected_Officers_Selected
+		}
+		}
+		prerequisite = {
+			focus = SER_Create_an_Army_Political_Directorate
+		}
+		prerequisite = {
+			focus = SER_Arm_Proletarians
+		}
+		x = 8
+		y = 6
+		completion_reward = {
+			add_ideas = SER_Tyrannical_Officers
+			army_experience = 25
+			set_country_flag = SER_Central_Command_Selected
+		}
+	}
+	focus = {
+		id = SER_Expand_the_Role_of_Military_Councils
+		icon = GFX_goal_planning_bonus
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Central_Command
+			focus = SER_Elected_Officers
+		}
+		x = 10
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Expand_the_Role_of_Military_Councils"
+		}
+	}
+	focus = {
+		id = SER_Kill_More_Chetniks
+		icon = GFX_Purge_the_Monarchy
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Expand_the_Role_of_Military_Councils
+		}
+		x = 10
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Kill_More_Chetniks"
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Moderate_Religious_Policy
+		icon = GFX_goal_faith_and_state
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic
+		}
+		x = 38
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Moderate_Religious_Policy"
+			add_political_power = 25
+			add_stability = 0.03
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Support_Red_Aid
+		icon = GFX_German_Deal
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic_Moderate_Religious_Policy
+		}
+		x = 38
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Support_Red_Aid"
+			every_country = {
+				limit = {
+					NOT = {
+						tag = SER
+					}
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Youth_Work_Brigades
+		icon = GFX_Soldiers_for_Workers
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic_Support_Red_Aid
+		}
+		x = 38
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Youth_Work_Brigades"
+			add_political_power = 25
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Ready_for_War
+		icon = GFX_goal_focus_communist_army
+		cost = 15.00
+		prerequisite = {
+			focus = SER_Refined_Army
+		}
+		x = 10
+		y = 9
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Ready_for_War"
+			hidden_effect = {
+				load_oob = SER_Narodnooslobilacka_Armija
+			}
+			custom_effect_tooltip = SER_Narodnooslobilacka_Armija_Tip
+		}
+	}
+	focus = {
+		id = SER_Hej_Slaveni
+		icon = GFX_focus_YUG_pan_slavic_congress
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Ready_for_War
+		}
+		x = 10
+		y = 10
+		available = {
+			owns_state = 109
+			owns_state = 102
+			owns_state = 1009
+			owns_state = 105
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Hej_Slaveni"
+			set_country_flag = YugoCleared
+			add_state_core = 875
+			add_state_core = 1002
+			add_state_core = 45
+			add_state_core = 1010
+			add_state_core = 984
+			add_state_core = 1094
+			add_state_core = 1262
+			add_state_core = 1330
+			add_state_core = 1362
+			country_event = {
+				days = 10
+				id = serbiacomelections.1
+			}
+			every_country = {
+				limit = {
+					tag = HUN
+					OR = {
+						has_socialist_government = yes
+					}
+				}
+				country_event = {
+					days = 30
+					id = bfed.3
+				}
+			}
+			hidden_effect = {
+				736 = {
+					set_state_name = "Gorica"
+				}
+				1200 = {
+					set_state_name = "Split"
+				}
+				962 = {
+					set_state_name = "Šibenik"
+				}
+				1201 = {
+					set_state_name = "Pula"
+				}
+				1008 = {
+					set_state_name = "Rijeka"
+				}
+				996 = {
+					set_state_name = "Zadar"
+				}
+				set_province_name = {
+					id = 3943
+					name = "Zadar"
+				}
+				set_province_name = {
+					id = 11901
+					name = "Split"
+				}
+				set_province_name = {
+					id = 3924
+					name = "Šibenik"
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_State_Atheism
+		icon = GFX_Purge_Reformist_Clergy
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade
+		}
+		x = 26
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_State_Atheism"
+			add_political_power = 100
+			add_stability = -0.05
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_Learn_From_NEP
+		icon = GFX_Planned_Economy
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade_State_Atheism
+		}
+		x = 26
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_Learn_From_NEP"
+			add_political_power = 25
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_Leninist_Diplomacy
+		icon = GFX_Commie_Treaty
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade_Learn_From_NEP
+		}
+		x = 26
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_Leninist_Diplomacy"
+			every_country = {
+				limit = {
+					has_government = bolshevist
+				}
+				add_opinion_modifier = {
+					target = SER
+					modifier = large_increase
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Mosa_Pijade_New_Yugoslav_State
+		icon = GFX_Communist_Pride
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade_Eliminate_Montenegrin_Chieftains
+		}
+		prerequisite = {
+			focus = SER_Presidency_Mosa_Pijade_Leninist_Diplomacy
+		}
+		x = 25
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Mosa_Pijade_New_Yugoslav_State"
+			hidden_effect = {
+				SER = {
+					country_event = {
+						days = 22
+						id = lateyugoslavia.1
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Correct_Leftist_Errors
+		icon = GFX_Communist_Discourse
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic
+		}
+		x = 36
+		y = 12
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Correct_Leftist_Errors"
+			add_political_power = 50
+			add_stability = 0.05
+			army_experience = 15
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.01
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Ethnic_Autonomy
+		icon = GFX_goal_volunteer_alliance
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic_Correct_Leftist_Errors
+		}
+		x = 36
+		y = 13
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Ethnic_Autonomy"
+			add_political_power = 25
+			add_stability = -0.03
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.03
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Build_Universities
+		icon = GFX_KTG_Bookstack
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic_Ethnic_Autonomy
+		}
+		x = 36
+		y = 14
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Build_Universities"
+			add_political_power = 25
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.25
+				uses = 2
+				category = construction_tech
+			}
+		}
+	}
+	focus = {
+		id = SER_Presidency_Kosta_Novakovic_Peaceful_Recovery
+		icon = GFX_Soviet_Investments
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic_Build_Universities
+		}
+		prerequisite = {
+			focus = SER_Presidency_Kosta_Novakovic_Youth_Work_Brigades
+		}
+		x = 37
+		y = 15
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Presidency_Kosta_Novakovic_Peaceful_Recovery"
+			remove_ideas = SER_Liberatory_War_Recovery
+			hidden_effect = {
+				SER = {
+					country_event = {
+						days = 60
+						id = lateyugoslavia.1
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Advanced_Military_Industry
+		icon = GFX_Focus_Military_Mobilisation
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Development_in_the_West
+		}
+		prerequisite = {
+			focus = SER_Development_in_the_East
+		}
+		prerequisite = {
+			focus = SER_Build_Spomeniks
+		}
+		prerequisite = {
+			focus = SER_Total_Peoples_Defense
+		}
+		x = 8
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Advanced_Military_Industry"
+		}
+	}
+	focus = {
+		id = SER_Fund_Cultural_Institutions
+		icon = GFX_goal_UK_art_avantgarde
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Anti_Colonialism
+		}
+		prerequisite = {
+			focus = SER_Expand_Pioneers
+		}
+		x = 12
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Fund_Cultural_Institutions"
+			country_event = {
+				days = 25
+				id = sgm.yugo.1
+			}
+		}
+	}
+	focus = {
+		id = SER_Promote_Yugoslav_Identity
+		icon = GFX_goal_new_treaty
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Anti_Colonialism
+		}
+		prerequisite = {
+			focus = SER_Expand_Pioneers
+		}
+		x = 14
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Promote_Yugoslav_Identity"
+		}
+	}
+	focus = {
+		id = SER_Rapid_Westernization
+		icon = GFX_Leading_Torch
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Global_Trading
+		}
+		prerequisite = {
+			focus = SER_Advanced_Military_Industry
+		}
+		prerequisite = {
+			focus = SER_Fund_Cultural_Institutions
+		}
+		prerequisite = {
+			focus = SER_Promote_Yugoslav_Identity
+		}
+		mutually_exclusive = {
+			focus = SER_Yugoslav_Nationalism
+		}
+		x = 9
+		y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Rapid_Westernization"
+		}
+	}
+	focus = {
+		id = SER_Yugoslav_Nationalism
+		icon = GFX_Total_War
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Global_Trading
+		}
+		prerequisite = {
+			focus = SER_Advanced_Military_Industry
+		}
+		prerequisite = {
+			focus = SER_Fund_Cultural_Institutions
+		}
+		prerequisite = {
+			focus = SER_Promote_Yugoslav_Identity
+		}
+		mutually_exclusive = {
+			focus = SER_Rapid_Westernization
+		}
+		x = 11
+		y = 17
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Yugoslav_Nationalism"
+		}
+	}
+	focus = {
+		id = SER_Intellectual_Center
+		icon = GFX_goal_brain
+		cost = 4.00
+		prerequisite = {
+			focus = SER_Rural_Schools
+		}
+		x = 41
+		y = 16
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Intellectual_Center"
+			add_research_slot = 1
+			add_stability = 0.05
+			add_political_power = 50
+		}
+	}
+	focus = {
+		id = SER_Yugoimport
+		icon = GFX_Yugoimport
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Establish_Official_Comintern_Diplomacy
+		}
+		prerequisite = {
+			focus = SER_Crvena_Zastava
+		}
+		x = 5
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Yugoimport"
+			add_ideas = SER_Formed_Yugoimport
+			random_owned_state = {
+				prioritize = { 107 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Union_of_Pioneers_of_Yugoslavia
+		icon = GFX_Pioneers
+		cost = 7.00
+		prerequisite = {
+			focus = SER_New_Schools
+		}
+		x = 16
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Union_of_Pioneers_of_Yugoslavia"
+			add_ideas = SER_Pioneers
+			custom_effect_tooltip = WBLiteracy_boost_tooltip
+			hidden_effect = {
+					country_event = {
+							days = 90
+							id = WBLiteracy.10
+						}
+				}
+		}
+	}
+	focus = {
+		id = SER_Minority_Cooperation
+		icon = GFX_goal_LBR_whiter_pale
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Encourage_Urbanization
+		}
+		prerequisite = {
+			focus = SER_Established_Proletarian_Dictatorship
+		}
+		x = 14
+		y = 9
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Minority_Cooperation"
+			add_stability = 0.03
+			custom_effect_tooltip = Minority_Literacy
+			add_to_variable = {
+				SER.literacy_rate = 1
+			}
+		}
+	}
+	focus = {
+		id = SER_Kosovar_Repatriation
+		icon = GFX_ALB_kosovo
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Minority_Cooperation
+		}
+		x = 14
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Kosovar_Repatriation"
+			hidden_effect = {
+				random_list = {
+					90 = {
+						country_event = {
+							days = 3
+							id = serbia.14
+						}
+					}
+					10 = {
+						country_event = {
+							days = 3
+							id = serbia.15
+						}
+					}
+				}
+			}
+			custom_effect_tooltip = SER_Kosovar_Repatriation_Tip
+		}
+	}
+	focus = {
+		id = SER_Moderna_Skola
+		icon = GFX_goal_KTG_Educate_natives
+		cost = 3.00
+		prerequisite = {
+			focus = SER_New_Schools
+		}
+		mutually_exclusive = {
+			focus = SER_State_Education
+		}
+		x = 18
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Moderna_Skola"
+			add_ideas = SER_Community_Education
+		}
+	}
+	focus = {
+		id = SER_Crvena_Zastava
+		icon = GFX_Zastava
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Arm_Proletarians
+		}
+		x = 5
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Crvena_Zastava"
+			add_ideas = SER_Zastava_Koop
+			random_owned_state = {
+				prioritize = { 1192 }
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 1
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 1
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Women_in_Combat
+		icon = GFX_goal_women_snipers
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Proletarian_Women
+		}
+		x = 12
+		y = 10
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Women_in_Combat"
+			add_ideas = SER_KFZ
+		}
+	}
+	focus = {
+		id = SER_Improve_the_Nis_Airbase
+		icon = GFX_goal_industry_air
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Replace_Unexperienced_Senior_Officers
+		}
+		x = 26
+		y = 5
+		ai_will_do = {
+			factor = 10
+		}
+		available = {
+			has_full_control_of_state = 767
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Improve_the_Nis_Airbase"
+			767 = {
+				add_extra_state_shared_building_slots = 3
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Hold_a_Military_Air_Race
+		icon = GFX_Aerial_Fleet
+		cost = 3.00
+		prerequisite = {
+			focus = SER_Improve_the_Nis_Airbase
+		}
+		x = 26
+		y = 6
+		ai_will_do = {
+				factor = 10
+			}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Hold_a_Military_Air_Race"
+			custom_effect_tooltip = SER_Air_Race_Effects
+			hidden_effect = {
+				random_list = {
+					15 = {
+						country_event = {
+							days = 7
+							id = serbiair.1
+						}
+					}
+					65 = {
+						country_event = {
+							days = 7
+							id = serbiair.2
+						}
+					}
+					15 = {
+						country_event = {
+							days = 7
+							id = serbiair.3
+						}
+					}
+					5 = {
+						country_event = {
+							days = 7
+							id = serbiair.4
+						}
+					}
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Build_Zagreb_Airport
+		icon = GFX_Expand_Airfields
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Airbases_in_Croatia
+		}
+		x = 24
+		y = 5
+		available = {
+			has_full_control_of_state = 109
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Build_Zagreb_Airport"
+			add_political_power = -25
+			109 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = air_base
+					level = 5
+					instant_build = yes
+				}
+			}
+		}
+	}
+	focus = {
+		id = SER_Cruiser_Research
+		icon = GFX_goal_generic_navy_cruiser
+		cost = 7.00
+		prerequisite = {
+			focus = SER_Submarine_Research
+		}
+		x = 33
+		y = 6
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Cruiser_Research"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Focus_on_Civilian_Industries
+		icon = GFX_Noble_Funds
+		cost = 5.00
+		prerequisite = {
+			focus = SER_A_Coastal_Defence_Is_Enough
+		}
+		x = 35
+		y = 6
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_owned_by = ROOT
+			}
+		}
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Focus_on_Civilian_Industries"
+			add_political_power = 15
+		}
+	}
+	focus = {
+		id = SER_Establish_Official_Comintern_Diplomacy
+		icon = GFX_GER_diplomacy
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Sremska_Ruta
+		}
+		x = 1
+		y = 5
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Establish_Official_Comintern_Diplomacy"
+		}
+	}
+	focus = {
+		id = SER_Infiltrate_Montenegro
+		icon = GFX_goal_shadow_government
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Establish_Official_Comintern_Diplomacy
+		}
+		x = 1
+		y = 6
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Infiltrate_Montenegro"
+		}
+	}
+	focus = {
+		id = SER_Spiridon
+		icon = GFX_LEC_Passports2
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Infiltrate_Montenegro
+		}
+		x = 3
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Spiridon"
+		}
+	}
+	focus = {
+		id = SER_Learn_from_Comintern
+		icon = GFX_goal_focus_communist_army
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Central_Command
+		}
+		x = 8
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Learn_from_Comintern"
+		}
+	}
+	focus = {
+		id = SER_Modernize_Forces
+		icon = GFX_goal_military_academy
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Learn_from_Comintern
+		}
+		prerequisite = {
+			focus = SER_Yugoimport
+		}
+		x = 8
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Modernize_Forces"
+		}
+	}
+	focus = {
+		id = SER_Refined_Army
+		icon = GFX_Military_Syndicalist_Economy
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Modernize_Forces
+			focus = SER_Dinaric_Warfare
+		}
+		x = 10
+		y = 8
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Refined_Army"
+		}
+	}
+	focus = {
+		id = SER_Invest_in_Military_Technology
+		icon = GFX_Serbian_Military_Research
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Yugoimport
+		}
+		x = 5
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Invest_in_Military_Technology"
+		}
+	}
+	focus = {
+		id = SER_Agitators_Everywhere
+		icon = GFX_SER_Agitators_Everywhere
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Infiltrate_Montenegro
+		}
+		x = 1
+		y = 7
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_Agitators_Everywhere"
+		}
+	}
+}

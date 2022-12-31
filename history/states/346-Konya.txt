@@ -1,0 +1,24 @@
+
+state={
+	id=346
+	name="STATE_346"
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			940 15 
+		}
+		add_core_of = OTT
+
+	}
+
+	provinces={
+		940 3788 11792 11860 
+	}
+	manpower=514384
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,73 @@
+scripted_gui = {
+
+	major_events_gui = {
+		context_type = player_context
+		window_name = "major_events_gui"
+		visible = { 
+			is_ai = no
+			has_global_flag = show_major_events_gui
+		}
+		
+		effects = {
+			major_events_gui_close_button_click = {
+				clr_global_flag = show_major_events_gui
+				clr_global_flag = portuguesecivilwar_major_event
+				clr_global_flag = italiancivilwar_major_event
+				clr_global_flag = thegreatdepression_major_event
+				clr_global_flag = britainwithdraws_major_event
+				clr_global_flag = fallofbritain_major_event
+				clr_global_flag = falloffrance_major_event
+				clr_global_flag = fallofgermany_major_event
+				clr_global_flag = fallofjapan_major_event
+				clr_global_flag = japanwithdraws_major_event
+				clr_global_flag = ussrwithdraws_major_event
+			}
+		}
+		
+		triggers = {
+			
+			PortugueseCivilWar_visible = {
+				has_global_flag = portuguesecivilwar_major_event
+			}
+			
+			ItalianCivilWar_visible = {
+				has_global_flag = italiancivilwar_major_event
+			}
+			
+			TheGreatDepression_visible = {
+				has_global_flag = thegreatdepression_major_event
+			}
+			
+			BritainWithdraws_visible = {
+				has_global_flag = britainwithdraws_major_event
+			}
+			
+			FallofBritain_visible = {
+				has_global_flag = fallofbritain_major_event
+			}
+			
+			FallofFrance_visible = {
+				has_global_flag = falloffrance_major_event
+			}
+			
+			FallofGermany_visible = {
+				has_global_flag = fallofgermany_major_event
+			}
+			
+			FallofJapan_visible = {
+				has_global_flag = fallofjapan_major_event
+			}
+			
+			JapanWithdraws_visible = {
+				has_global_flag = japanwithdraws_major_event
+			}
+			
+			USSRWithdraws_visible = {
+				has_global_flag = ussrwithdraws_major_event
+			}
+			
+		}
+	}
+	
+}
+

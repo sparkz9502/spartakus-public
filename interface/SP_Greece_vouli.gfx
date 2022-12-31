@@ -1,0 +1,15 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_GRE_parliament_party_icon"
+		texturefile = "gfx/interface/GRE_parliament_parties.dds"
+		noOfFrames = 5 # number of parties you have in the gfx file
+	}
+	spriteType = {
+		name = "GFX_GRE_parliament_empty_button"
+		texturefile = "gfx/interface/GRE_parliament_empty_button.dds"
+	}
+	spriteType = {
+		name = "GFX_GRE_parliament_backround"
+		texturefile = "gfx/interface/vouli_gui_background.dds"
+	}
+}

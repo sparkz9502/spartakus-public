@@ -1,0 +1,20 @@
+
+state={
+	id=924
+	name="STATE_924"
+
+	history={
+		owner = EAF
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		13556 
+	}
+	manpower=30000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

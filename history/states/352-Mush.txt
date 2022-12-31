@@ -1,0 +1,28 @@
+
+state={
+	id=352
+	name="STATE_352"
+	resources={
+		raremetals=5.000
+	}
+
+	history={
+		owner = OTT
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			9858 2 
+		}
+
+	}
+
+	provinces={
+		876 6965 9860 
+	}
+	manpower=225490
+	buildings_max_level_factor=1.000
+	state_category=rural
+	local_supplies=0.000
+}

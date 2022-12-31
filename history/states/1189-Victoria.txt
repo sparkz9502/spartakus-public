@@ -1,0 +1,22 @@
+
+state={
+	id=1189
+	name="STATE_1189"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		14841 14847 14853 14857 14862 14863 14872 
+	}
+	manpower=250500
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

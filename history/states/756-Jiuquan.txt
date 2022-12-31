@@ -1,0 +1,29 @@
+
+state={
+	id=756
+	name="STATE_756"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_claim_by = BMR
+		victory_points = {
+			7562 1 
+		}
+		victory_points = {
+			7909 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4175 7400 7647 7909 7974 12317 
+	}
+	manpower=334400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

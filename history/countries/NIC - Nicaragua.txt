@@ -1,0 +1,56 @@
+﻿capital = 317
+
+set_oob = "NIC"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_war_support = 0.1
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 1
+    spartacist = 2
+    revolutionary_socialist = 34
+    reformist_socialist = 1
+    social_democrat = 1
+    social_liberal = 31
+    liberal_conservative = 1
+    social_conservative = 28
+    authoritarian_conservative = 0
+    right_wing_populist = 1
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "José María Moncada"
+	desc = "POLITICS_JOSE_MARIA_MONCADA_DESC"
+	picture = "Portrait_Jose_Maria_Moncada.tga"
+	expire = "1965.1.1"
+	ideology = moderate_radicalism
+	traits = {
+		#
+	}
+}

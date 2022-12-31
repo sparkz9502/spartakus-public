@@ -1,0 +1,21 @@
+
+state={
+	id=1494
+	name="STATE_1494"
+	provinces={
+		12716 13423 13425 13429 
+	}
+	
+	history={
+		owner = CFA
+		add_core_of = CFA
+		add_claim_by = VEN
+		buildings = {
+			infrastructure = 1
+		}
+	}
+	
+	manpower=61400
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

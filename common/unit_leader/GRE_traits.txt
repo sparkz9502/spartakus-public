@@ -1,0 +1,26 @@
+leader_traits = {
+	
+##################################
+# status traits
+##################################
+	
+	trait_GRE_venizelist = {
+		type = all
+		trait_type = status_trait
+		
+		modifier = {
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
+		}
+	}
+	
+	trait_GRE_monarchist = {
+		type = all
+		trait_type = status_trait
+		
+		modifier = {
+			army_core_attack_factor = 0.05
+			army_core_defence_factor = 0.05
+		}
+	}
+}

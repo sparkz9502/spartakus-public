@@ -1,0 +1,30 @@
+
+state={
+	id=543
+	name="STATE_543"
+
+	history={
+		owner = MAG
+		add_core_of = MAG
+		victory_points = {
+			5106 1 
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			5222 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		2217 5106 5128 5185 5222 8188 10566 10993 14018 14029 14702 14712 14721 14736 14742 14753 14845 
+	}
+	manpower=2527800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

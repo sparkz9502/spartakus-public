@@ -1,0 +1,91 @@
+##############
+### Czechia ###
+##############
+
+CZE_dealing_with_Gajda = {
+	allowed = { tag = CZE }
+	visible = {
+		NOT = {
+			has_country_flag = CZE_Gajda_dealt_with
+			date > 1933.01.21
+		}
+	}
+	icon = CZE_Gajda_mission_icon
+	picture = Portrait_Czechia_Radola_Gajda
+}
+
+CZE_managing_petka = {
+	allowed = { tag = CZE }
+	visible = {
+		OR = {
+			has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+			has_government = social_conservative
+			has_government = authoritarian_conservative
+			has_government = right_wing_populist
+		}
+		NOT = { has_country_flag = petka_dissolved }
+	}
+	icon = CZE_petka_decision_icon
+	scripted_gui = CZE_petka_decision_ui
+}
+
+CZE_industrial_investments_cat = {
+	allowed = { tag = CZE }
+	icon = generic_industry
+}
+
+CZE_fortifications_cat = {
+	allowed = { tag = CZE }
+	visible = {
+		has_completed_focus = CZE_fortifications_focus
+		NOT = { has_socialist_government = yes }
+	}
+	icon = CZE_fortifications_icon
+	picture = CZE_fortifications_picture
+}
+
+CZE_secret_police_cat = {
+	allowed = { tag = CZE }
+	visible = {
+		NOT = { has_socialist_government = yes }
+	}
+	icon = CZE_secret_police_icon
+}
+
+CZE_communist_nationalisation_cat = {
+	allowed = { tag = CZE }
+	visible = {
+		has_country_flag = CZE_communist_nationalisation_unlocked
+		NOT = { has_war = yes }
+	}
+	icon = generic_industry
+}
+
+CZE_shut_down_opposition_press_fascist_cat = {
+	allowed = { tag = CZE }
+	visible = { has_completed_focus = CZE_shut_down_opposition_press_fascist }
+	icon = generic_poitical_actions
+}
+
+CZE_construction_investments_cat = {
+	allowed = { tag = CZE }
+	visible = { always = no }
+}
+
+CZE_production_investments_cat = {
+	allowed = { tag = CZE }
+	visible = { always = no }
+}
+
+CZE_excavation_investments_cat = {
+	allowed = { tag = CZE }
+	visible = { always = no }
+}
+
+CZE_communist_negotiate_territory_cat = {
+	allowed = { tag = CZE }
+	visible = { has_completed_focus = CZE_establish_relations_combloc }
+	icon = generic_foreign_policy
+}

@@ -1,0 +1,18 @@
+﻿add_namespace = ast
+
+### 		###
+###   MISC  ###
+### 		###
+
+country_event = { # Variables Debug
+	id = ast.0
+	title = ast.0.t
+	desc = ast.0.d
+	picture = GFX_aussieflag.tga
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ast.0.a
+	}
+}

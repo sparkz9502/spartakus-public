@@ -1,0 +1,69 @@
+characters={
+    CIN_indian_council_of_leftists = {
+        name = "Indian Council of Leftists"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CIN/GFX_Indian_Council_of_Leftists.tga"
+            }
+        }
+        country_leader={
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+
+    CIN_jawaharlal_nehru = {
+        name = "Jawaharlal Nehru"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CIN/GFX_Portrait_Jawaharlal_Nehru.tga"
+            }
+        }
+        country_leader={
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+
+    CIN_manabendra_nath_roy = {
+        name = "Manabendra Nath Roy"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CIN/GFX_Portrait_MN_Roy.tga"
+            }
+        }
+        country_leader={
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+
+    CIN_sardaar_bhagat_singh = {
+        name = "Sardaar Bhagat Singh"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CIN/GFX_Portrait_HOS_Bhagat_Singh.tga"
+            }
+        }
+        country_leader={
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=540
+	name="STATE_540"
+
+	history={
+		owner = PRM
+		buildings = {
+			infrastructure = 1
+			8248 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			8248 1 
+		}
+		victory_points = {
+			10966 1 
+		}
+
+	}
+
+	provinces={
+		2126 4051 5158 8219 8248 10966 12958 12981 14611 14718 14761 14774 14781 14798 14807 14811 14821 14823 14824 14826 14836 
+	}
+	manpower=2135100
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

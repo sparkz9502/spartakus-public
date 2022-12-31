@@ -1,0 +1,399 @@
+ideas = {
+
+###################
+#  Albania Ideas  #
+###################
+
+	country = {
+	
+		ALB_aristocracy = {
+			picture = British_Ties
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = 0.05
+				political_power_gain = 0.5
+				trade_opinion_factor = 0.4
+			}
+		}
+
+	#### Foreign Industry
+	
+		ALB_italian_industry = {
+			picture = ALB_industry
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = { 
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = -0.25
+				min_export = 0.2
+				consumer_goods_factor = 0.05
+			}
+		}
+	
+		ALB_italian_industry_2 = {
+			picture = ALB_foreign_ownership
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = { 
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = -0.25
+				min_export = 0.2
+				consumer_goods_factor = 0.05
+			}
+		}
+	
+		ALB_italian_industry_3 = {
+			picture = ALB_foreign_ownership
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_buildings_factor = -0.25
+				min_export = 0.3
+				consumer_goods_factor = 0.05
+			}
+		}
+	
+		ALB_italian_industry_4 = {
+			picture = ALB_foreign_ownership
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				production_factory_efficiency_gain_factor = 0.05
+				production_speed_buildings_factor = -0.25
+				min_export = 0.35
+				research_speed_factor = 0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+	
+		ALB_local_excellence = {
+			picture = jap_supremacy_of_will
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.1
+			}
+		}
+
+	#### Kanun
+	
+		ALB_military_culture = {
+			picture = ALB_book
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.15
+				conscription = 0.05
+				experience_gain_army = 0.05
+				stability_factor = -0.1
+			}
+		}
+	
+		ALB_military_culture_2 = { #disarm the tribes
+			picture = ALB_book
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				conscription = 0.05
+				experience_gain_army = 0.05
+			}
+		}
+	
+		ALB_military_culture_3 = { #arm the tribes
+			picture = ALB_book
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_defence_factor = 0.15
+				conscription = 0.1
+				experience_gain_army = 0.05
+				stability_factor = -0.05
+			}
+		}
+
+	#### Literacy
+	
+		ALB_illiteracy = {
+			picture = Backwards_Technology
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = { 
+				research_speed_factor = -0.15
+			}
+		}
+	
+		ALB_illiteracy_2 = {
+			picture = Backwards_Technology
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				research_speed_factor = -0.1
+			}
+		}
+
+	#### Urbanization
+	
+		ALB_urbanization_1 = {
+			picture = Planned_Economy
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.1
+			}
+		}
+	
+		ALB_urbanization_2 = {
+			picture = Planned_Economy
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				MONTHLY_POPULATION = 0.25
+			}
+		}
+	
+		ALB_employment = {
+			picture = man_five_year_plan_industry
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = 0.05
+				line_change_production_efficiency_factor = 0.05
+				production_factory_efficiency_gain_factor = 0.05
+			}
+		}
+
+	#### Rural Population
+	
+		ALB_exploitation = {
+			picture = ast_all_in
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.1
+			}
+		}
+	
+		ALB_exploitation_2 = {
+			picture = ast_all_in
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				local_resources_factor = 0.15
+				consumer_goods_factor = -0.05
+			}
+		}
+
+	#### Depression
+	
+		ALB_currency_crash = {
+			picture = chi_hyper_inflation5
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = -0.5
+				production_factory_max_efficiency_factor = -0.1
+			}
+		}
+	
+		ALB_failing_business = {
+			picture = Economic_Meltdown
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_efficiency_gain_factor = -0.2
+				local_resources_factor = -0.2
+			}
+		}
+	
+		ALB_trade_crisis = {
+			picture = capital_outflow
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				trade_opinion_factor = -0.5
+				production_speed_buildings_factor = -0.3
+				consumer_goods_factor = 0.2
+			}
+		}
+	
+		ALB_depression_1 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				stability_factor = -0.1
+				production_factory_max_efficiency_factor = -0.1
+				production_factory_efficiency_gain_factor = -0.1
+				industrial_capacity_factory = -0.2
+				production_factory_start_efficiency_factor = -0.5
+			}
+		}
+	
+		ALB_depression_2 = {
+			picture = great_depression
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				production_factory_max_efficiency_factor = -0.05
+				production_factory_efficiency_gain_factor = -0.05
+				industrial_capacity_factory = -0.1
+				production_factory_start_efficiency_factor = -0.1
+			}
+		}
+
+	#### Army
+	
+		ALB_kachaks = {
+			picture = yug_yugoslavian_general_staff
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				army_core_attack_factor = 0.1
+				out_of_supply_factor = -0.1
+				attrition = -0.1
+			}
+		}
+	
+		ALB_countryside_eyes = {
+			picture = Binoculars
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				recon_factor = 0.1
+				army_org_Factor = 0.1
+			}
+		}
+	
+		ALB_generals = {
+			picture = general_staff
+
+			allowed = {
+				original_tag = ALB
+			}
+
+			removal_cost = -1
+			modifier = {
+				max_planning = 0.1
+				planning_speed = 0.1
+				land_reinforce_rate = 0.05
+				training_time_army_factor = -0.1
+			}
+		}
+	
+	}
+
+###################
+#  Ministers  #
+###################
+	
+	security_minister = {
+		ALB_drita_sec = {
+			allowed = { original_tag = ALB }
+			visible = {
+			}
+			traits = {
+				security_minister
+				social_liberal
+				sec_highland_queen
+			}
+				cancel_if_invalid = yes
+		}
+	}
+}

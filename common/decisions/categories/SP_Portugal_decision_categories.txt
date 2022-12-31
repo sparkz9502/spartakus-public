@@ -1,0 +1,87 @@
+################
+### Portugal ###
+################
+
+POR_economy = {
+	visible = {
+		has_global_flag = POR_civil_war_over
+	}
+	allowed = {
+		OR = {
+			original_tag = POR
+			original_tag = PRM
+		}
+	}
+}
+
+POR_wars = {
+	visible = {
+		has_global_flag = POR_civil_war_over
+	}
+	allowed = {
+		OR = {
+			original_tag = POR
+			original_tag = PRM
+		}
+	}
+}
+
+POR_civil_war = {
+	visible = {
+		NOT = {
+			has_global_flag = POR_civil_war_over
+		}
+	}
+	allowed = {
+		OR = {
+			original_tag = POR
+			original_tag = PRM
+		}
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_portuguese_civil_war
+}
+
+POR_civil_war_germany = {
+	visible = {
+		NOT = {
+			has_global_flag = POR_civil_war_over
+		}
+	}
+	allowed = {
+		OR = {
+			original_tag = POR
+		}
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_socialist_german_flag
+}
+
+POR_civil_war_soviet = {
+	visible = {
+		NOT = {
+			has_global_flag = POR_civil_war_over
+		}
+	}
+	allowed = {
+		OR = {
+			original_tag = POR
+		}
+	}
+	icon = border_conflicts
+	
+	picture = GFX_decision_cat_soviet_flag
+}
+
+POR_education = {
+	visible = {
+		has_country_flag = POR_educate
+	}
+	allowed = {
+		OR = {
+			original_tag = POR
+		}
+	}
+}

@@ -1,0 +1,323 @@
+﻿####################
+# Chaco War Events #
+#################################################
+# By Last Witch of Illyrith (im gay) and sparkz #
+#################################################
+
+add_namespace = chacowar
+
+country_event = { #Conflict Intro
+	id = chacowar.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.1"}
+	title = chacowar.1.t
+	desc = chacowar.1.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Mhm
+		name = chacowar.1.a
+	}
+}
+
+country_event = { #BOL: The Pitiantuta Lake incident
+	id = chacowar.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.2"}
+	title = chacowar.2.t
+	desc = chacowar.2.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #oh
+		name = chacowar.2.a
+		PAR = {
+			country_event = chacowar.3
+	    }
+	}
+}
+
+country_event = { #PAR: The Pitiantuta Lake incident
+	id = chacowar.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.3"}
+	title = chacowar.3.t
+	desc = chacowar.3.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #prepare to drive them out
+		name = chacowar.3.a
+		BOL = {
+			country_event = { id = chacowar.4 days = 10 }
+	    }
+	}
+}
+
+country_event = { #Stand-Off Begins
+	id = chacowar.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.4"}
+	title = chacowar.4.t
+	desc = chacowar.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #get ready
+		name = chacowar.4.a
+		country_event = { id = chacowar.5 days = 20 }
+	}
+}
+
+country_event = { #BOL: Bolivians Driven out 
+	id = chacowar.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.5"}
+	title = chacowar.5.t
+	desc = chacowar.5.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #get ready
+		name = chacowar.5.a
+		PAR = {
+			country_event = { id = chacowar.6 days = 1 }
+	    }
+	}
+}
+
+country_event = { #PAR: Bolivians Driven Out
+	id = chacowar.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.6"}
+	title = chacowar.6.t
+	desc = chacowar.6.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #uh oh
+		name = chacowar.6.a
+		BOL = {
+			country_event = { id = chacowar.7 days = 2 }
+	    }
+	}
+}
+
+country_event = { #Salamanca Changes Policy - War! 
+	id = chacowar.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.7"}
+	title = chacowar.7.t
+	desc = chacowar.7.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #lets go!!!
+		name = chacowar.7.a
+		BOL = { 
+		    declare_war_on = {
+				target = PAR
+				type = take_state_focus
+				generator = { 1014 } 
+			}
+		}
+		set_global_flag = SP_Chaco_War_Active
+	}
+}
+
+country_event = { #Ceasefire - Bolivia Wins 
+	id = chacowar.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.8"}
+	title = chacowar.8.t
+	desc = chacowar.8.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = chacowar.8.a
+		custom_effect_tooltip = SP_chaco_war_treaty_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = BOL
+				}
+				country_event = { id = chacowar.10 days = 1136 }
+			}
+		}
+	}
+}
+
+country_event = { #Ceasefire - Paraguay Wins 
+	id = chacowar.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.9"}
+	title = chacowar.9.t
+	desc = chacowar.9.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = chacowar.9.a
+		custom_effect_tooltip = SP_chaco_war_treaty_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					tag = PAR
+				}
+				country_event = { id = chacowar.13 days = 1136 }
+			}
+		}
+	}
+}
+
+country_event = { #BOL: Peace Treaty - Bolivia Won
+	id = chacowar.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.10"}
+	title = chacowar.10.t
+	desc = chacowar.10.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #we agree (cede 1014)
+		name = chacowar.10.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_stability = 0.1
+		remove_state_claim = 1014
+		add_state_core = 1013
+		add_state_core = 688
+		PAR = {
+			transfer_state = 1014
+			add_state_core = 1014
+			remove_state_claim = 688
+			remove_state_claim = 1013
+			country_event = chacowar.11
+		}
+	}
+	
+	option = { #we don't agree (don't cede 1014)
+		name = chacowar.10.a
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_stability = -0.1
+		PAR = {	country_event = chacowar.12 }
+	}
+}
+
+country_event = { #PAR: Peace Treaty - Bolivia Agrees
+	id = chacowar.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.11"}
+	title = chacowar.11.t
+	desc = chacowar.11.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #hooray!
+		name = chacowar.11.a
+	}
+}
+
+country_event = { #PAR: Peace Treaty - Bolivia Refuses
+	id = chacowar.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.12"}
+	title = chacowar.12.t
+	desc = chacowar.12.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #fuck
+		name = chacowar.12.a
+		add_war_support = 0.1
+	}
+}
+
+country_event = { #PAR: Peace Treaty - Paraguay Won
+	id = chacowar.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.13"}
+	title = chacowar.13.t
+	desc = chacowar.13.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #we agree (cede 1013)
+		name = chacowar.13.a
+		ai_chance = {
+			factor = 100
+		}
+		
+		add_stability = 0.1
+		remove_state_claim = 1013
+		add_state_core = 688
+		add_state_core = 1014
+		BOL = {
+			transfer_state = 1013
+			add_state_core = 1013
+			remove_state_claim = 1014
+			remove_state_claim = 688
+			country_event = chacowar.14
+		}
+	}
+	
+	option = { #we don't agree (don't cede 1013)
+		name = chacowar.10.a
+		ai_chance = {
+			factor = 0
+		}
+		
+		add_stability = -0.1
+		BOL = {	country_event = chacowar.15 }
+	}
+}
+
+country_event = { #BOL: Peace Treaty - Paraguay Agrees
+	id = chacowar.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.14"}
+	title = chacowar.14.t
+	desc = chacowar.14.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #hooray!
+		name = chacowar.14.a
+	}
+}
+
+country_event = { #BOL: Peace Treaty - Paraguay Refuses
+	id = chacowar.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event chacowar.15"}
+	title = chacowar.15.t
+	desc = chacowar.15.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #fuck
+		name = chacowar.15.a
+		add_war_support = 0.1
+	}
+}

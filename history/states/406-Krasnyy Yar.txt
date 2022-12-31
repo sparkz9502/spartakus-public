@@ -1,0 +1,33 @@
+
+state={
+	id=406
+	name="STATE_406"
+	resources={
+		oil=11.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+			3618 = {
+				naval_base = 1
+			}
+			11701 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			3618 1 
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		464 468 475 477 554 615 642 1517 3515 3593 3618 3622 4523 4563 4620 6514 6523 6564 6615 7322 7541 9453 9469 10262 11442 11455 11457 11469 11578 11701 
+	}
+	manpower=379000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

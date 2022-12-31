@@ -1,0 +1,49 @@
+﻿capital = 104
+set_research_slots = 1
+set_stability = 0.3
+set_war_support = 0.6
+
+add_ideas = {
+	### Laws ###
+	recruitment_1830
+	governance_abs
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = BSE_chetnik_congress
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = right_wing_populist
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 0
+    revolutionary_socialist = 7
+    reformist_socialist = 0
+    social_democrat = 10
+    social_liberal = 19
+    liberal_conservative = 2
+    social_conservative = 22
+    authoritarian_conservative = 5
+    right_wing_populist = 34
+    national_syndicalist = 0
+    national_corporatist = 1
+}

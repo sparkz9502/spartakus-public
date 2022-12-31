@@ -1,0 +1,27 @@
+
+state={
+	id=275
+	name="STATE_275"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 3
+
+		}
+		victory_points = {
+			14724 10
+		}
+		add_core_of = SAF
+
+	}
+
+	provinces={
+		14724 
+	}
+	manpower=284000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

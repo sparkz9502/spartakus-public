@@ -1,0 +1,22 @@
+
+state={
+	id=956
+	name="STATE_956"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		5221 10594 12504 13961 13973 13976 13979 13981 13985 13990 13991 13992 13993 13994 13996 13998 13999 14000 14001 14002 14008 14009 14010 14012 14013 14015 
+	}
+	manpower=649600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

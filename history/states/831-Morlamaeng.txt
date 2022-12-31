@@ -1,0 +1,33 @@
+
+state={
+	id=831
+	name="STATE_831"
+	
+	resources={
+		raremetals=7
+	}
+
+	history={
+		owner = BMR
+		add_core_of = RAJ
+		add_core_of = BMR
+		buildings = {
+			infrastructure = 1
+
+		}
+		RAJ = {
+			set_province_controller = 1403
+		}
+		victory_points = {
+			1403 2 
+		}
+
+	}
+
+	provinces={
+		1403 4293 4336 7441 12238 12256 
+	}
+	manpower=1010700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

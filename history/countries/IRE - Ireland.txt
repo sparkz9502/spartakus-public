@@ -1,0 +1,205 @@
+﻿capital = 1068
+
+set_oob = "IRE"
+
+set_research_slots = 3
+
+set_stability = 0.60
+set_war_support = 0.00
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+}
+
+add_ideas = {
+	recruitment_volunteer
+	governance_par
+	trade_sempro
+	economy_indzing
+	mobilization_1
+	
+	IRE_memories_of_the_republic
+	IRE_depressed_economy
+	IRE_loyalist_militia
+}
+
+set_cosmetic_tag = IRE_UK_crndom
+
+set_convoys = 10
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 0
+    revolutionary_socialist = 4
+    reformist_socialist = 27
+    social_democrat = 7
+    social_liberal = 28
+    liberal_conservative = 13
+    social_conservative = 11
+    authoritarian_conservative = 4
+    right_wing_populist = 6
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_social_liberal
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_reformist_socialist
+
+create_country_leader = {
+	name = "Roderick Connolly"
+	desc = "POLITICS_Roderick_Connolly_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_Roderick_Connolly.tga"
+	expire = "1965.1.1"
+	ideology = bolshevist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Roderick Connolly"
+	desc = "POLITICS_Roderick_Connolly_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_Roderick_Connolly.tga"
+	expire = "1965.1.1"
+	ideology = spartacist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "James Larkin"
+	desc = "POLITICS_James_Larkin_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_James_Larkin.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "James Larkin"
+	desc = "POLITICS_James_Larkin_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_James_Larkin.tga"
+	expire = "1965.1.1"
+	ideology = reformist_socialist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		IRE_foreign_monarchy_trait
+		IRE_compromising_king_trait
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		IRE_foreign_monarchy_trait
+		IRE_compromising_king_trait
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		IRE_foreign_monarchy_trait
+		IRE_compromising_king_trait
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		IRE_foreign_monarchy_trait
+		IRE_compromising_king_trait
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_conservative_subtype
+	traits = {
+		IRE_foreign_monarchy_trait
+		IRE_compromising_king_trait
+	}
+}
+
+create_country_leader = {
+	name = "George V"
+	desc = "POLITICS_George_V_DESC"
+	picture = "gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		IRE_foreign_monarchy_trait
+		IRE_compromising_king_trait
+	}
+}
+
+create_country_leader = {
+	name = "Gearóid Ó Cuinneagáin"
+	desc = "POLITICS_Gearoid_O_Cuinneagain_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_Gearoid_O_Cuinneagain.tga"
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
+	traits = {
+		
+	}
+}
+
+create_country_leader = {
+	name = "Eoin O'Duffy"
+	desc = "POLITICS_Eoin_ODuffy_DESC"
+	picture = "gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {
+		
+	}
+}
+
+create_corps_commander = {
+	name = "Michael Costello"
+	portrait_path = "gfx/leaders/ENG/Portrait_Britain_Generic_land_4.dds"
+	traits = {  }
+	skill = 2
+	attack_skill = 2
+	defense_skill = 2
+	planning_skill = 1
+	logistics_skill = 2
+}

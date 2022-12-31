@@ -1,0 +1,178 @@
+spriteTypes = {
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_PER_Ziaeddin_Tabatabaee_hog_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Ziaeddin_Tabatabaee.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Hassan_Pirnia_hog_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Hassan_Pirnia.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Reza_Khan_hog_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Reza_Khan.tga"
+}
+
+#Minister Without Portfolio
+spriteType = {
+	name = "GFX_idea_PER_Reza_Khan_mwp_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Reza_Khan.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_PER_Abolhasan_Haerizadeh_for_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Abolhasan_Haerizadeh.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Firouz_Nosrat-ed-Dowleh_for_sco"
+	texturefile = "gfx/interface/ministers/PER/PER_Firouz_Nosrat-ed-Dowleh.tga"
+}
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_PER_Mohammad_Ali_Foroughi_eco_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad_Ali_Foroughi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Mohammad_Mosaddegh_eco_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad_Mosaddegh.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Firouz_Nosrat-ed-Dowleh_eco_sco"
+	texturefile = "gfx/interface/ministers/PER/PER_Firouz_Nosrat-ed-Dowleh.tga"
+}
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_PER_Ali-Akbar_Davar_sec_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Ali-Akbar_Davar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Amanullah_Jahanbani_sec_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Amanullah_Jahanbani.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Abdolhossein_Teymourtash_sec_ncp"
+	texturefile = "gfx/interface/ministers/PER/PER_Abdolhossein_Teymourtash.tga"
+}
+
+#Education Minister
+spriteType = {
+	name = "GFX_idea_PER_Mohammad_Mosaddegh_edu_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad_Mosaddegh.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Mohammad_Tadayyon_edu_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad_Tadayyon.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Hassan_Modarres_edu_sco"
+	texturefile = "gfx/interface/ministers/PER/PER_Hassan_Modarres.tga"
+}
+
+#Agriculture Minister
+spriteType = {
+	name = "GFX_idea_PER_Mohammad_Ali_Foroughi_agr_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad_Ali_Foroughi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Nikolai_Markov_agr_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Nikolai_Markov.tga"
+}
+
+#Transport Minister
+spriteType = {
+	name = "GFX_idea_PER_Abolhasan_Haerizadeh_tra_lco"
+	texturefile = "gfx/interface/ministers/PER/PER_Abolhasan_Haerizadeh.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Mohammad_Mirza_Firouz_tra_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad_Mirza_Firouz.tga"
+}
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_PER_Reza_Khan_def_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Reza_Khan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Sardar_Homayoun_def_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Sardar_Homayoun.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Vsevolod_Starosselsky_def_aco"
+	texturefile = "gfx/interface/ministers/PER/PER_Vsevolod_Starosselsky.tga"
+}
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_PER_Nikolai_Vadbolsky_cos"
+	texturefile = "gfx/interface/ministers/PER/PER_Nikolai_Vadbolsky.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Reza_Khan_cos"
+	texturefile = "gfx/interface/ministers/PER/PER_Reza_Khan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Vsevolod_Starosselsky_cos"
+	texturefile = "gfx/interface/ministers/PER/PER_Vsevolod_Starosselsky.tga"
+}
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_PER_Amanullah_Jahanbani_carm"
+	texturefile = "gfx/interface/ministers/PER/PER_Amanullah_Jahanbani.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Amir_Abdollah_Tahmasebi_carm"
+	texturefile = "gfx/interface/ministers/PER/PER_Amir_Abdollah_Tahmasebi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Karim_Buzarjomehri_carm"
+	texturefile = "gfx/interface/ministers/PER/PER_Karim_Buzarjomehri.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Mohammad-Hosayn_Ayrom_carm"
+	texturefile = "gfx/interface/ministers/PER/PER_Mohammad-Hosayn_Ayrom.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PER_Pavel_Shatilov_carm"
+	texturefile = "gfx/interface/ministers/PER/PER_Pavel_Shatilov.tga"
+}
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_PER_Gholamali_Bayandor_cnav"
+	texturefile = "gfx/interface/ministers/PER/PER_Gholamali_Bayandor.tga"
+}
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_PER_Ahmad_Khan_Nakhjavan_cair"
+	texturefile = "gfx/interface/ministers/PER/PER_Ahmad_Khan_Nakhjavan.tga"
+}
+
+#Theorist
+
+}

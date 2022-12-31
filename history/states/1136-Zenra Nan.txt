@@ -1,0 +1,29 @@
+
+state={
+	id=1136
+	name="STATE_1136"
+
+	history={
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+			1177 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			12085 3 
+		}
+		victory_points = {
+			1177 1 
+		}
+	}
+
+	provinces={
+		1177 4126 10110 11948 12085 14256 14260 
+	}
+	manpower=4032700
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,57 @@
+﻿capital = 267
+set_oob = "AFG"
+set_research_slots = 2
+set_stability = 0.2
+set_war_support = 0.5
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_abs
+	trade_pro
+	economy_unind
+	mobilization_2
+}
+
+### Country Leaders ###
+recruit_character = AFG_amanullah_khan
+
+### Field Marshals ###
+recruit_character = AFG_mohammed_nadir_shah
+
+### Generals ###
+recruit_character = AFG_shah_wali_khan
+
+### Starting Tech ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+
+### Politics ###
+
+set_politics = {
+	ruling_party = authoritarian_conservative
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 1
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 2
+    liberal_conservative = 2
+    social_conservative = 10
+    authoritarian_conservative = 54
+    right_wing_populist = 31
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+### Diplomacy ###
+
+add_opinion_modifier = { target = SOV modifier = AFG_SOV_friendship }
+reverse_add_opinion_modifier = { target = SOV modifier = AFG_SOV_friendship }

@@ -1,0 +1,47 @@
+﻿capital = 689
+set_oob = "CFA"
+set_research_slots = 0
+set_convoys = 50
+set_stability = 0.35
+set_war_support = 0.2
+set_cosmetic_tag = CFA_UK
+
+add_ideas = {
+	### Laws ###
+	recruitment_colonial
+	governance_colo
+	trade_laif
+	economy_unind
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = CFA_george_v
+
+### Starting Tech ###
+set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 2
+    spartacist = 6
+    revolutionary_socialist = 4
+    reformist_socialist = 11
+    social_democrat = 8
+    social_liberal = 14
+    liberal_conservative = 3
+    social_conservative = 10
+    authoritarian_conservative = 42
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}

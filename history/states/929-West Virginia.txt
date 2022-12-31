@@ -1,0 +1,32 @@
+state={
+	id=929
+	name="STATE_929"
+	
+	resources={
+		coal=168
+		oil=6
+	}
+
+	history={
+		owner=USA
+		add_core_of=USA
+		buildings={
+			infrastructure = 2
+			industrial_complex=1
+		}
+		victory_points = {
+			10441 1
+		}
+		victory_points = {
+			6971 1
+		}
+	}
+
+	provinces={
+		801 3941 3975 4627 6850 6958 6971 7466 7588 7646 9923 10441 11888
+		}
+		
+	manpower=1729200
+	buildings_max_level_factor=1
+	state_category=small_town
+}

@@ -1,0 +1,29 @@
+
+state={
+	id=877
+	name="STATE_877"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 2
+			14082 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			14082 3 
+		}
+
+	}
+
+	provinces={
+		1951 14082 14101 14114 14139 14937 
+	}
+	manpower=753800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

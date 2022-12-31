@@ -1,0 +1,496 @@
+###########################
+# Livonia Focus Tree
+# By sparkz
+###########################
+
+focus_tree = {
+	id = LIV_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = LIV
+		}
+	}
+
+	shared_focus = LIV_Economy
+	shared_focus = LIV_Army_Start
+	shared_focus = LIV_Army_Mil_Navy1
+	shared_focus = LIV_Air1	
+	shared_focus = LIV_Diplomacy
+	
+	focus = {
+		id = LIV_Right_Wing_Focus
+		icon = GFX_goal_ideology_right_wing_populist
+		x = 23
+		y = 12
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	# Rosenberg/Heydrich Path
+	
+	focus = {
+		id = LIV_Nationalist_Government
+		icon = GFX_Rosenberg_Coup
+		prerequisite = { focus = LIV_Right_Wing_Focus }
+		relative_position_id = LIV_Right_Wing_Focus
+		x = 4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	# Catholic Branch
+	
+	focus = {
+		id = LIV_Church_Coup
+		icon = GFX_Catholic_2
+		prerequisite = { focus = LIV_Right_Wing_Focus }
+		relative_position_id = LIV_Right_Wing_Focus
+		x = -4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	# Catholics - Purging the Orthodox Church
+	
+	focus = {
+		id = LIV_Controlling_the_Orthodox_Church
+		icon = GFX_Orthodox_Orgy
+		prerequisite = { focus = LIV_Church_Coup }
+		relative_position_id = LIV_Church_Coup
+		x = -4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Seize_Church_Property
+		icon = GFX_goal_tax_church
+		mutually_exclusive = { focus = LIV_Impose_Heavy_Taxation }
+		prerequisite = { focus = LIV_Controlling_the_Orthodox_Church }
+		relative_position_id = LIV_Controlling_the_Orthodox_Church
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Impose_Heavy_Taxation
+		icon = GFX_goal_admin_bribe
+		mutually_exclusive = { focus = LIV_Seize_Church_Property }
+		prerequisite = { focus = LIV_Controlling_the_Orthodox_Church }
+		relative_position_id = LIV_Controlling_the_Orthodox_Church
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Jail_Leaders
+		icon = GFX_goal_Freedom
+		prerequisite = { focus = LIV_Impose_Heavy_Taxation focus = LIV_Seize_Church_Property }
+		relative_position_id = LIV_Controlling_the_Orthodox_Church
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Outlaw_Orthodox_Worship
+		icon = GFX_Repress_Freedom
+		prerequisite = { focus = LIV_Jail_Leaders }
+		mutually_exclusive = { focus = LIV_Impose_Church_Restrictions }
+		relative_position_id = LIV_Controlling_the_Orthodox_Church
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Impose_Church_Restrictions
+		icon = GFX_Purge_Reformist_Clergy
+		prerequisite = { focus = LIV_Jail_Leaders }
+		mutually_exclusive = { focus = LIV_Outlaw_Orthodox_Worship }
+		relative_position_id = LIV_Controlling_the_Orthodox_Church
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	# Catholics - Rooting out Protestants
+	
+	focus = {
+		id = LIV_Root_Out_Protestants
+		icon = GFX_Protestantism
+		prerequisite = { focus = LIV_Church_Coup }
+		relative_position_id = LIV_Church_Coup
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Purge_Heydrich_Bloc
+		icon = GFX_goal_purge_opposition
+		prerequisite = { focus = LIV_Root_Out_Protestants }
+		relative_position_id = LIV_Root_Out_Protestants
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Eliminate_Protestant_Leaders
+		icon = GFX_Subterfuge
+		prerequisite = { focus = LIV_Purge_Heydrich_Bloc }
+		relative_position_id = LIV_Root_Out_Protestants
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Raze_Riga_Cathedral
+		icon = GFX_goal_burning_globe
+		prerequisite = { focus = LIV_Purge_Heydrich_Bloc }
+		relative_position_id = LIV_Root_Out_Protestants
+		x = 1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Outlaw_Lutheranism
+		icon = GFX_goal_ideology_national_corporatist
+		prerequisite = { focus = LIV_Raze_Riga_Cathedral focus = LIV_Eliminate_Protestant_Leaders }
+		relative_position_id = LIV_Root_Out_Protestants
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	# Catholics - Purging Moderate Clergy
+	
+	focus = {
+		id = LIV_Purge_Moderate_Clergy	
+		icon = GFX_goal_backstab
+		prerequisite = { focus = LIV_Church_Coup }
+		relative_position_id = LIV_Church_Coup
+		x = 4
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Church_Informants	
+		icon = GFX_goal_secret_police
+		prerequisite = { focus = LIV_Purge_Moderate_Clergy	 }
+		relative_position_id = LIV_Purge_Moderate_Clergy
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Arrest_Disloyal_Clergy
+		icon = GFX_goal_MAF_Kulturkampf
+		prerequisite = { focus = LIV_Church_Informants }
+		relative_position_id = LIV_Purge_Moderate_Clergy
+		x = 1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Propaganda_Campaign
+		icon = GFX_focus_Catholic_Education
+		prerequisite = { focus = LIV_Purge_Moderate_Clergy	 }
+		relative_position_id = LIV_Purge_Moderate_Clergy
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_New_Education
+		icon = GFX_goal_KTG_Bookstack
+		prerequisite = { focus = LIV_Propaganda_Campaign }
+		relative_position_id = LIV_Purge_Moderate_Clergy
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_A_Church_Reborn
+		icon = GFX_BEL_Improve_Catholic_Relations
+		prerequisite = { focus = LIV_New_Education }
+		prerequisite = { focus = LIV_Arrest_Disloyal_Clergy }
+		relative_position_id = LIV_Purge_Moderate_Clergy
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	# Catholics - Teutonic Restoration
+	
+	focus = {
+		id = LIV_Teutonic_Restoration
+		icon = GFX_LIV_teuton_restoration
+		prerequisite = { focus = LIV_A_Church_Reborn }
+		prerequisite = { focus = LIV_Outlaw_Lutheranism }
+		prerequisite = { focus = LIV_Impose_Church_Restrictions focus = LIV_Outlaw_Orthodox_Worship }
+		relative_position_id = LIV_Church_Coup
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Avenge_Grunwald
+		icon = GFX_Teutonic_Man
+		prerequisite = { focus = LIV_Teutonic_Restoration }
+		relative_position_id = LIV_Church_Coup
+		x = -2
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Strike_the_Lithuanians
+		icon = GFX_goal_flag_lithuania
+		prerequisite = { focus = LIV_Avenge_Grunwald }
+		relative_position_id = LIV_Church_Coup
+		x = -3
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Reclaiming_Ostpreussen
+		icon = GFX_Brandenburg_Gate_Destruction
+		prerequisite = { focus = LIV_Avenge_Grunwald }
+		relative_position_id = LIV_Church_Coup
+		x = -1
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_A_Teutonic_Legacy_Secured
+		icon = GFX_goal_teutoniclivonia
+		prerequisite = { focus = LIV_Reclaiming_Ostpreussen focus = LIV_Strike_the_Lithuanians focus = LIV_Appeal_for_Catholic_Volunteers focus = LIV_Request_Foreign_Arms  }
+		relative_position_id = LIV_Church_Coup
+		x = 0
+		y = 8
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_The_Eastern_Crusade
+		icon = GFX_PAP_holy_war
+		available = {
+			has_war_with = SOV
+		}
+		prerequisite = { focus = LIV_Teutonic_Restoration }
+		relative_position_id = LIV_Church_Coup
+		x = 2
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Appeal_for_Catholic_Volunteers
+		icon = GFX_teutonicrevengea
+		available = {
+			has_war_with = SOV
+		}
+		prerequisite = { focus = LIV_The_Eastern_Crusade }
+		relative_position_id = LIV_Church_Coup
+		x = 1
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = LIV_Request_Foreign_Arms
+		icon = GFX_goal_Arms_Export
+		available = {
+			has_war_with = SOV
+		}
+		prerequisite = { focus = LIV_The_Eastern_Crusade }
+		relative_position_id = LIV_Church_Coup
+		x = 3
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+}

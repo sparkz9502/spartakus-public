@@ -1,0 +1,617 @@
+###########################
+# Fash Puppet Focus Tree
+# By NatSpi
+###########################
+
+focus_tree = {
+	id = SP_Puppet_Fascist
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			is_puppet = yes
+			has_authoritarian_government = yes
+		}
+	}
+	default = no
+	focus = {
+		id = FasP_local_rightwing_leaders
+		icon = GFX_goal_generic_military_mission
+		cost = 8.60
+		x = 3
+		y = 0
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_rightwing_unity_govt
+		icon = GFX_goal_generic_diplomatic_treaty
+		cost = 4.30
+		prerequisite = {
+			focus = FasP_local_rightwing_leaders
+		}
+		mutually_exclusive = {
+			focus = FasP_pure_fascist_govt
+		}
+		x = 2
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+			set_country_flag = coalition_authoritarian_conservative
+			set_country_flag = coalition_right_wing_populist
+			set_country_flag = coalition_national_syndicalist
+			set_country_flag = coalition_national_corporatist
+		}
+
+	}
+	focus = {
+		id = FasP_pure_fascist_govt
+		icon = GFX_goal_generic_strike_at_democracy1
+		cost = 4.30
+		prerequisite = {
+			focus = FasP_local_rightwing_leaders
+		}
+		mutually_exclusive = {
+			focus = FasP_rightwing_unity_govt
+		}
+		x = 4
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 50
+			if = {
+				limit = {
+					overlord = {
+						NOT = { has_same_government_as_ROOT = yes }
+					}
+				}
+				overlord = {
+					ROOT = { copy_government_of_PREV = yes }
+				}
+			}
+			if = {
+				limit = { has_far_right_government = yes }
+				set_country_flag = coalition_national_syndicalist
+				set_country_flag = coalition_national_corporatist
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_rightwing_propaganda
+		icon = GFX_goal_propaganda_axis
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_rightwing_unity_govt
+		}
+		prerequisite = {
+			focus = FasP_pure_fascist_govt
+		}
+		x = 1
+		y = 2
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_cultural_organisations
+		icon = GFX_goal_generic_national_unity
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_rightwing_unity_govt
+		}
+		prerequisite = {
+			focus = FasP_pure_fascist_govt
+		}
+		x = 3
+		y = 2
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.01
+				}
+			}
+			add_political_power = 30
+		}
+
+	}
+	focus = {
+		id = FasP_purge_degenerate_art
+		icon = GFX_goal_UK_art_avantgarde
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_rightwing_unity_govt
+		}
+		prerequisite = {
+			focus = FasP_pure_fascist_govt
+		}
+		x = 5
+		y = 2
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = FasP_rightwing_militias
+		icon = GFX_goal_conscription
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_rightwing_propaganda
+		}
+		prerequisite = {
+			focus = FasP_cultural_organisations
+		}
+		prerequisite = {
+			focus = FasP_purge_degenerate_art
+		}
+		x = 2
+		y = 3
+		
+		completion_reward = {
+			add_stability = 0.025
+			if = {
+				limit = {
+					overlord = { has_government = authoritarian_conservative }
+				}
+				add_ideas = SP_Puppet_rightwing_militias_authdem_idea
+			}
+			else_if = {
+				limit = {
+					overlord = { has_government = right_wing_populist }
+				}
+				add_ideas = SP_Puppet_rightwing_militias_rwpop_idea
+			}
+			else_if = {
+				limit = {
+					overlord = { has_government = national_syndicalist }
+				}
+				add_ideas = SP_Puppet_rightwing_militias_natsyn_idea
+			}
+			else_if = {
+				limit = {
+					overlord = { has_government = national_corporatist }
+				}
+				add_ideas = SP_Puppet_rightwing_militias_natcorp_idea
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_sponsor_rightwing_thought
+		icon = GFX_goal_propaganda_axis
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_rightwing_propaganda
+		}
+		prerequisite = {
+			focus = FasP_cultural_organisations
+		}
+		prerequisite = {
+			focus = FasP_purge_degenerate_art
+		}
+		x = 4
+		y = 3
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_purge_dissidents
+		icon = GFX_Army_Purge
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_rightwing_militias
+		}
+		prerequisite = {
+			focus = FasP_sponsor_rightwing_thought
+		}
+		x = 3
+		y = 4
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.01
+				}
+			}
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = FasP_remove_moderate_functionaries
+		icon = GFX_Purge_Politicians
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_purge_dissidents
+		}
+		mutually_exclusive = {
+			focus = FasP_harass_moderates
+			focus = FasP_ban_opposition
+		}
+		x = 1
+		y = 5
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.025
+		}
+
+	}
+	focus = {
+		id = FasP_harass_moderates
+		icon = GFX_goal_enlist_the_police
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_purge_dissidents
+		}
+		mutually_exclusive = {
+			focus = FasP_remove_moderate_functionaries
+			focus = FasP_ban_opposition
+		}
+		x = 3
+		y = 5
+		
+		completion_reward = {
+			add_political_power = 20
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.01
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_ban_opposition
+		icon = GFX_goal_purge_opposition
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_purge_dissidents
+		}
+		mutually_exclusive = {
+			focus = FasP_remove_moderate_functionaries
+			focus = FasP_harass_moderates
+		}
+		x = 5
+		y = 5
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_new_upper_class
+		icon = GFX_goal_collaborate_local_elites2
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_remove_moderate_functionaries
+			focus = FasP_harass_moderates
+			focus = FasP_ban_opposition
+		}
+		x = 4
+		y = 6
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.01
+				}
+			}
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = FasP_subjugiate_economy
+		icon = GFX_goal_state_economy
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_remove_moderate_functionaries
+			focus = FasP_harass_moderates
+			focus = FasP_ban_opposition
+		}
+		x = 2
+		y = 6
+		
+		completion_reward = {
+			add_ideas = SP_Puppet_Fascist_subjugated_economy_idea
+		}
+
+	}
+	focus = {
+		id = FasP_one_party_state
+		icon = GFX_goal_unknown
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_subjugiate_economy
+		}
+		prerequisite = {
+			focus = FasP_new_upper_class
+		}
+		x = 3
+		y = 7
+		
+		completion_reward = {
+			if = {
+				limit = { authoritarian_conservative < 0.25 }
+				add_popularity = {
+					ideology = authoritarian_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { right_wing_populist < 0.25 }
+				add_popularity = {
+					ideology = right_wing_populist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_syndicalist < 0.25 }
+				add_popularity = {
+					ideology = national_syndicalist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { national_corporatist < 0.25 }
+				add_popularity = {
+					ideology = national_corporatist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = FasP_victory_for_rightwing
+		icon = GFX_goal_generic_support_fascism
+		cost = 8.60
+		prerequisite = {
+			focus = FasP_one_party_state
+		}
+		x = 3
+		y = 8
+		
+		completion_reward = {
+			SP_clear_coalition_effect = yes
+			if = {
+				limit = {
+					overlord = {
+						NOT = { has_same_government_as_ROOT = yes }
+					}
+				}
+				overlord = {
+					ROOT = { copy_government_of_PREV = yes }
+				}
+			}
+			if = {
+				limit = { has_far_right_government = yes }
+				set_country_flag = coalition_national_syndicalist
+				set_country_flag = coalition_national_corporatist
+			}
+			if = {
+				limit = {
+					check_variable = { party_popularity@ruling_party < 0.25 }
+				}
+				increase_ruling_party_popularity_by_10 = yes
+			}
+			else = { increase_ruling_party_popularity_by_5 = yes }
+		}
+
+	}
+}

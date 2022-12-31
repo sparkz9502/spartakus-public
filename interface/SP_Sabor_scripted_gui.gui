@@ -1,0 +1,87 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "sabor_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height=330 }
+		
+		iconType = {
+			name ="sabor_gui_background"
+			spriteType = "GFX_sabor_gui_background"
+			position = { x=6 y = -18 }
+		}
+		
+		iconType = {
+			name ="sabor_icon"
+			spriteType = "GFX_sabor_icon"
+			position = { x= 25	 y = 25 }
+		}
+
+		instantTextBoxType = {
+			name ="sabor_header"
+			position = { x = 180 y = 3 }
+			font = "hoi_18mbs"
+			text = "sabor_header"
+			format = center
+			maxHeight = 24
+			maxWidth = 300
+		}
+		
+		iconType = {
+			name ="HRSS_icon"
+			spriteType = "GFX_HRSS_icon"
+			position = { x= 30 y = 180 }
+		}
+		
+		instantTextBoxType = {
+			name ="HRSS_seats"
+			position = { x = -25 y = 270 }
+			font = "hoi_18mbs"
+			text = "HRSS_seats_number"
+			format = center
+		}
+		
+		iconType = {
+			name ="HSP_icon"
+			spriteType = "GFX_HSP_icon"
+			position = { x= 155 y = 180 }
+		}
+
+		instantTextBoxType = {
+			name ="HSP_seats"
+			position = { x = 100 y = 270 }
+			font = "hoi_18mbs"
+			text = "HSP_seats_number"
+			format = center
+		}
+		
+		iconType = {
+			name ="HRP_icon"
+			spriteType = "GFX_HRP_icon"
+			position = { x= 280 y = 180 }
+		}
+		
+		instantTextBoxType = {
+			name ="HRP_seats"
+			position = { x = 225 y = 270 }
+			font = "hoi_18mbs"
+			text = "HRP_seats_number"
+			format = center
+		}
+		
+		iconType = {
+			name ="KPJ_icon"
+			spriteType = "GFX_KPJ_icon"
+			position = { x= 405 y = 180 }
+		}
+		
+		instantTextBoxType = {
+			name ="KPJ_seats"
+			position = { x = 350 y = 270 }
+			font = "hoi_18mbs"
+			text = "KPJ_seats_number"
+			format = center
+		}
+
+	}
+}

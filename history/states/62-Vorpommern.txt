@@ -1,0 +1,34 @@
+
+state={
+	id=62
+	name="STATE_62"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			6282 10
+		}
+		victory_points = {
+			9388 1
+		}
+		buildings = {
+			infrastructure = 3
+			dockyard = 1
+			industrial_complex = 1
+			6282 = {
+				naval_base = 4
+				coastal_bunker = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		349 3340 6282 9388 
+	}
+	manpower=806200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

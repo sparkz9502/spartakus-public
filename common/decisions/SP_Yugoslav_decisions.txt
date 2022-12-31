@@ -1,0 +1,1138 @@
+#MAP ASSIST 
+
+YUG_Map_Assist = {
+
+	YUG_Map_Assist_Enable = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+		NOT = {
+		has_global_flag = YUG_Map_Assist_Enabled
+		}
+		}
+		visible = {
+		NOT = {
+		has_global_flag = YUG_Map_Assist_Enabled
+		}
+		}
+		complete_effect = {
+		set_global_flag = YUG_Map_Assist_Enabled
+		set_province_name = {
+			id = 6799
+			name = wbprov.6799 
+		}
+		set_province_name = {
+			id = 6983
+			name = wbprov.6983 
+		}
+		set_province_name = {
+			id = 6614
+			name = wbprov.6614
+		}
+		set_province_name = {
+			id = 9586
+			name = wbprov.9586
+		}
+		set_province_name = {
+			id = 6619
+			name = wbprov.6619
+		}
+		set_province_name = {
+			id = 9588
+			name = wbprov.9588
+		}
+		set_province_name = {
+			id = 11572
+			name = wbprov.11572
+		}
+		set_province_name = {
+			id = 6957
+			name = wbprov.6957
+		}
+		set_province_name = {
+			id = 9922
+			name = wbprov.9922
+		}
+		set_province_name = {
+			id = 606
+			name = wbprov.606
+		}
+	    set_province_name = {
+			id = 11741
+			name = wbprov.11741
+		}
+		set_province_name = {
+			id = 11899
+			name = wbprov.11899
+		}
+		set_province_name = {
+			id = 11574
+			name = wbprov.11574
+		}
+		set_province_name = {
+			id = 15334
+			name = wbprov.15334
+		}
+		set_province_name = {
+			id = 9894
+			name = wbprov.9894
+		}
+		set_province_name = {
+			id = 984
+			name = wbprov.984
+		}
+	    }
+	}
+	
+	YUG_Map_Assist_Disable = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		available = {
+		has_global_flag = YUG_Map_Assist_Enabled
+		}
+		visible = {
+		has_global_flag = YUG_Map_Assist_Enabled
+		}
+		complete_effect = {
+		clr_global_flag = YUG_Map_Assist_Enabled
+		set_province_name = {
+			id = 6799
+			name = regprov.6799 
+		}
+		set_province_name = {
+			id = 6983
+			name = regprov.6983 
+		}
+		set_province_name = {
+			id = 6614
+			name = regprov.6614
+		}
+		set_province_name = {
+			id = 9586
+			name = regprov.9586
+		}
+		set_province_name = {
+			id = 6619
+			name = regprov.6619
+		}
+		set_province_name = {
+			id = 9588
+			name = regprov.9588
+		}
+		set_province_name = {
+			id = 11572
+			name = regprov.11572
+		}
+		set_province_name = {
+			id = 6957
+			name = regprov.6957
+		}
+		set_province_name = {
+			id = 9922
+			name = regprov.9922
+		}
+		set_province_name = {
+			id = 606
+			name = regprov.606
+		}
+	    set_province_name = {
+			id = 11741
+			name = regprov.11741
+		}
+		set_province_name = {
+			id = 11899
+			name = regprov.11899
+		}
+		set_province_name = {
+			id = 11574
+			name = regprov.11574
+		}
+		set_province_name = {
+			id = 15334
+			name = regprov.15334
+		}
+		set_province_name = {
+			id = 9894
+			name = regprov.9894
+		}
+		set_province_name = {
+			id = 984
+			name = regprov.984
+		}
+	    }
+	}
+	
+}
+
+#YUG SR Influence
+
+YUG_Internal = {
+
+	YUG_Internal_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = YUGInfluence.0
+		}
+	}
+	
+}
+
+# Anti-dissent
+
+YUG_Release_Countries = {
+
+	YUG_Release_Bosnia = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Bosniak_Dissent_Flag
+        }
+		fire_only_once = yes
+        cost = 0
+        complete_effect = {
+			every_owned_state = {
+
+			limit = {
+				is_core_of = BOS
+				NOT = {
+				is_core_of = ROOT
+				}
+				is_owned_by = ROOT
+			}
+
+			BOS = {
+				transfer_state = PREV
+			}
+		}
+		}
+	}
+	
+	YUG_Release_Croatia = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Croat_Dissent_Flag
+        }
+		fire_only_once = yes
+        cost = 0
+        complete_effect = {
+			every_owned_state = {
+
+			limit = {
+				is_core_of = STJ
+				NOT = {
+				is_core_of = ROOT
+				}
+				is_owned_by = ROOT
+			}
+
+			STJ = {
+				transfer_state = PREV
+			}
+		}
+		}
+	}
+	
+	YUG_Release_Serbia = { 
+		icon = GFX_decision_generic_nationalism
+        available = {
+		has_country_flag = Serb_Dissent_Flag
+        }
+		fire_only_once = yes
+        cost = 0
+        complete_effect = {
+			every_owned_state = {
+
+			limit = {
+				is_core_of = SER
+				NOT = {
+				is_core_of = ROOT
+				}
+				is_owned_by = ROOT
+			}
+
+			SER = {
+				transfer_state = PREV
+			}
+		}
+		}
+	}
+}
+	
+# Literacy
+
+SER_Literacy = {
+
+    SER_Additional_Funding = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		days_remove = 365
+		days_re_enable = 365
+        cost = 25
+        complete_effect = {
+		custom_effect_tooltip = WBAdditional_Funding
+		add_to_variable = { SER.literacy_rate = 0.1 } 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	SER_Subsidize_Textbooks = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBSubsidize_Textbooks
+		add_to_variable = { SER.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_New_Teaching_Standards = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBNew_Teaching_Standards
+		add_to_variable = { SER.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Modernize_Curriculum = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBModernize_Curriculum
+		add_to_variable = { SER.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Expand_Adult_Education = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBExpand_Adult_Education
+		add_to_variable = { SER.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Macva_and_Kolubara = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1194
+		}
+
+		highlight_states = { state = 1194 }
+
+		on_map_mode = map_only
+
+		cost = 100
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Macva_Kolubara
+			add_to_variable = { SER.literacy_rate = 3 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Sumadija = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1192
+		}
+
+		highlight_states = { state = 1192 }
+
+		on_map_mode = map_only
+
+		cost = 75
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Sumadija
+			add_to_variable = { SER.literacy_rate = 2 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Timok = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 767
+		}
+
+		highlight_states = { state = 767 }
+
+		on_map_mode = map_only
+
+		cost = 100
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Timok
+			add_to_variable = { SER.literacy_rate = 3 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Pomoravlje = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1193
+		}
+
+		highlight_states = { state = 1193 }
+
+		on_map_mode = map_only
+
+		cost = 100
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Pomoravlje
+			add_to_variable = { SER.literacy_rate = 3 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Pirot = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 841
+		}
+
+		highlight_states = { state = 841 }
+
+		on_map_mode = map_only
+
+		cost = 50
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Pirot
+			add_to_variable = { SER.literacy_rate = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Kosovo_Serb = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 765
+			OR = {
+			has_government = national_syndicalist
+			has_government = national_corporatist
+			has_government = liberal_conservative
+		    }
+		}
+
+		highlight_states = { state = 765 }
+
+		on_map_mode = map_only
+
+		cost = 50
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Kosovo_Serb
+			add_to_variable = { SER.literacy_rate = 1 } 
+			add_stability = -0.05
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	SER_Open_Schools_in_Kosovo_Inclusive = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 765
+			OR = {
+			has_government = bolshevist
+			has_government = spartacist
+			has_government = revolutionary_socialist
+			has_government = reformist_socialist
+			has_government = social_democrat
+			has_government = social_liberal
+		    }
+		}
+
+		highlight_states = { state = 765 }
+
+		on_map_mode = map_only
+
+		cost = 50
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = SER_Schools_Kosovo_Inclusive
+			add_to_variable = { SER.literacy_rate = 3 } 
+			add_stability = 0.01
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+} 
+
+BOS_Literacy = {
+
+	BOS_Additional_Funding = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		days_remove = 365
+		days_re_enable = 365
+        cost = 25
+        complete_effect = {
+		custom_effect_tooltip = WBAdditional_Funding
+		add_to_variable = { BOS.literacy_rate = 0.1 } 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	BOS_Subsidize_Textbooks = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBSubsidize_Textbooks
+		add_to_variable = { BOS.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_New_Teaching_Standards = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBNew_Teaching_Standards
+		add_to_variable = { BOS.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Modernize_Curriculum = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBModernize_Curriculum
+		add_to_variable = { BOS.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Expand_Adult_Education = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBExpand_Adult_Education
+		add_to_variable = { BOS.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_Far_Northwest = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1211
+		}
+
+		highlight_states = { state = 1211 }
+
+		on_map_mode = map_only
+
+		cost = 50
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_Far_Northwest
+			add_to_variable = { BOS.literacy_rate = 2 } 
+			add_to_variable = { Bosniak_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Krajina = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 104
+		}
+
+		highlight_states = { state = 104 }
+
+		on_map_mode = map_only
+
+		cost = 100
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Krajina
+			add_to_variable = { BOS.literacy_rate = 3 } 
+			add_to_variable = { Serb_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Brcko = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1205
+		}
+
+		highlight_states = { state = 1205 }
+
+		on_map_mode = map_only
+
+		cost = 25
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Brcko
+			add_to_variable = { BOS.literacy_rate = 1 } 
+			add_to_variable = { Croat_Schools = 1 } 		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Semberija = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1209
+		}
+
+		highlight_states = { state = 1209 }
+
+		on_map_mode = map_only
+
+		cost = 25
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Semberija
+			add_to_variable = { BOS.literacy_rate = 1 } 
+			add_to_variable = { Serb_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Tropolje = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1210
+		}
+
+		highlight_states = { state = 1210 }
+
+		on_map_mode = map_only
+
+		cost = 125
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Tropolje
+			add_to_variable = { BOS.literacy_rate = 1 } 
+			add_to_variable = { Croat_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Empower_Franciscans_in_Tropolje = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1210
+			OR = {
+			has_government = social_liberal
+			has_government = national_corporatist
+		    }
+		}
+
+		highlight_states = { state = 1210 }
+
+		on_map_mode = map_only
+
+		cost = 25
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Franciscans_in_Tropolje
+			add_to_variable = { BOS.literacy_rate = 1 } 
+			add_to_variable = { croats_faction_approval_variable = 3 } 
+			add_to_variable = { Croat_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Herzegovina = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1207
+		}
+
+		highlight_states = { state = 1207 }
+
+		on_map_mode = map_only
+
+		cost = 100
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Herzegovina
+			add_to_variable = { BOS.literacy_rate = 2 } 
+			add_to_variable = { Croat_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Empower_Franciscans_in_Herzegovina = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1207
+			OR = {
+			has_government = social_liberal
+			has_government = national_corporatist
+		    }
+		}
+
+		highlight_states = { state = 1207 }
+
+		on_map_mode = map_only
+
+		cost = 25
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Franciscans_in_Herzegovina
+			add_to_variable = { BOS.literacy_rate = 1 } 
+			add_to_variable = { croats_faction_approval_variable = 7 } 
+			add_to_variable = { Croat_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Tuzla = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1206
+		}
+
+		highlight_states = { state = 1206 }
+
+		on_map_mode = map_only
+
+		cost = 100
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Tuzla
+			add_to_variable = { BOS.literacy_rate = 3 } 
+			add_to_variable = { Bosniak_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Podrinje = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1155
+		}
+
+		highlight_states = { state = 1155 }
+
+		on_map_mode = map_only
+
+		cost = 75
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Podrinje
+			add_to_variable = { BOS.literacy_rate = 2 } 
+			add_to_variable = { Serb_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	BOS_Open_Schools_in_Trebinje = {
+
+		icon = category_eng_concessions_to_the_trade_unions
+
+		available = {
+			has_full_control_of_state = 1208
+		}
+
+		highlight_states = { state = 1208 }
+
+		on_map_mode = map_only
+
+		cost = 75
+
+		fire_only_once = yes
+
+		cancel_if_not_visible = yes
+
+		complete_effect = {
+			custom_effect_tooltip = BOS_Schools_in_Trebinje
+			add_to_variable = { BOS.literacy_rate = 2 } 
+			add_to_variable = { Serb_Schools = 1 } 
+		}
+		
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+} 
+
+STJ_Literacy = {
+
+        STJ_Additional_Funding = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		days_remove = 365
+		days_re_enable = 365
+        cost = 25
+        complete_effect = {
+		custom_effect_tooltip = WBAdditional_Funding
+		add_to_variable = { STJ.literacy_rate = 0.1 } 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	STJ_Subsidize_Textbooks = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBSubsidize_Textbooks
+		add_to_variable = { STJ.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	STJ_New_Teaching_Standards = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBNew_Teaching_Standards
+		add_to_variable = { STJ.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	STJ_Modernize_Curriculum = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		fire_only_once = yes
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBModernize_Curriculum
+		add_to_variable = { STJ.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+	STJ_Expand_Adult_Education = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+		custom_effect_tooltip = WBExpand_Adult_Education
+		add_to_variable = { STJ.literacy_rate = 1 } 
+		}
+		ai_will_do = {
+			factor = 10
+		}
+	}
+	
+} 
+
+ALB_Literacy = {
+
+    ALB_Additional_Funding = { 
+		icon = GFX_decision_generic_book
+        available = {
+        }
+		days_remove = 365
+		days_re_enable = 365
+        cost = 25
+        complete_effect = {
+		custom_effect_tooltip = WBAdditional_Funding
+		add_to_variable = { ALB.literacy_rate = 0.1 } 
+		}
+		ai_will_do = {
+			factor = 100
+		}
+	}
+
+	ALB_Subsidize_Textbooks = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+		}
+	}
+	
+	ALB_Open_Schools_in_Mat = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 75
+        complete_effect = {
+		}
+	}
+	
+	ALB_New_Teaching_Standards = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 50
+        complete_effect = {
+		}
+	}
+	
+	ALB_Adopt_Western_Education_System = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        	OR = {
+			has_government = national_syndicalist
+			has_government = national_corporatist
+			has_government = social_conservative
+			has_government = liberal_conservative
+			has_government = social_liberal
+        }
+        cost = 125
+        complete_effect = {
+		}
+	}
+
+	ALB_Adopt_Eleven_Year_Curriculum = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+            OR = {
+			has_government = bolshevist
+			has_government = spartacist
+			has_government = revolutionary_socialist
+			has_government = reformist_socialist
+			has_government = social_democrat
+        }
+        cost = 125
+        complete_effect = {
+		}
+	}
+	
+	ALB_Expand_Vocational_Education = { 
+		icon = GFX_decision_generic_book
+		fire_only_once = yes
+        available = {
+        }
+        cost = 100
+        complete_effect = {
+		}
+	}
+	
+} 

@@ -1,0 +1,14 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_coalition_arrow"
+		texturefile = "gfx/interface/coalition_arrow.dds"
+	}
+	spriteType = {
+		name = "GFX_opposition_arrow"
+		texturefile = "gfx/interface/opposition_arrow.dds"
+	}
+	spriteType = {
+		name = "GFX_banned_party"
+		texturefile = "gfx/interface/banned_party.dds"
+	}
+}

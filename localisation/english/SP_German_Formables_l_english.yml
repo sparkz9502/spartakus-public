@@ -1,0 +1,37 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+GFN_formed_new_nation:0 " Formed a §dNew Nation§!"
+
+GFN_allies_allow_sgf:0 "@FRA§YFrance§! and @ENG§YBritain§! have §Gallowed§! the formation of the §nSouth German Federation§!"
+GFN_allies_allow_emp:0 "@FRA§YFrance§! and @ENG§YBritain§! have §Gallowed§! the formation of the §cGerman Empire§!"
+GFN_allies_allow_rfd:0 "@FRA§YFrance§! and @ENG§YBritain§! have §Gallowed§! the formation of the §gRhenish Federation§!"
+GFN_allies_allow_wgf:0 "@FRA§YFrance§! and @ENG§YBritain§! have §Gallowed§! the formation of the §LWest German Federation§!"
+GFN_allies_allow_grp:0 "@FRA§YFrance§! and @ENG§YBritain§! have §Gallowed§! the formation of the §cGerman Republic§!"
+GFN_allies_allow_egf:0 "@FRA§YFrance§! and @ENG§YBritain§! have §Gallowed§! the formation of the §gEast German Federation§!"
+
+### Tooltips ###
+
+### Decisions ###
+
+GFN_form_nations:0 "German Formable Nations"
+
+WUR_form_south_german_federation:0 "Form the §nSouth German Federation§!"
+WUR_form_german_empire:0 "Form the §cGerman Empire§!"
+RHI_form_rhenish_federation:0 "Form the §gRhenish Federation§!"
+RHI_form_west_german_federation:0 "Form the §LWest German Federation§!"
+RHI_form_german_republic:0 "Form the §cGerman Republic§!"
+PRS_form_east_german_federation:0 "Form the §gEast German Federation§!"
+
+### Equipment ###
+
+### Opinion Modifiers ###

@@ -1,0 +1,231 @@
+﻿division_template = {
+	name = "District Infantry"
+
+	division_names_group = CAN_GAR_01
+	
+	is_locked = yes
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+	}
+}
+division_template = {
+	name = "District Cavalry"
+
+	division_names_group = CAN_CAV_01
+	
+	is_locked = yes
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	## 1st Military District ##
+	division= {	
+		#name = "1st District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11695 # London ONT
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 2nd Military District ##
+	division= {	
+		#name = "2nd District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3775 # Toronto
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "2nd District Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 3775 # Toronto
+		division_template = "District Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 3rd Military District ##
+	division= {	
+		#name = "3rd District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 3778 # Ottawa
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 4th Military District ##
+	division= {	
+		#name = "4th District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4345 # Montreal
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	division= {	
+		#name = "4th District Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 4345 # Montreal
+		division_template = "District Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 5th Military District ##
+	division= {	
+		#name = "5th District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 12149 # Quebec City
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 6th Military District ##
+	division= {	
+		#name = "6th District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 7361  # Halifax
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 7th Military District ##
+	division= {	
+		#name = "7th District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 4285 # Saint John
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+
+	## 10th Military District ##
+	division= {	
+		#name = "10th District Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 4872  # Winnipeg
+		division_template = "District Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	## 11th Military District ##
+	division= {	
+		#name = "11th District Infantry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 4428 # Vancouver
+		division_template = "District Infantry"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	## 12th Military District ##
+	division= {	
+		#name = "12th District Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 12603  # Regina SASK
+		division_template = "District Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+	
+	## 13th Military District ##
+	division= {	
+		#name = "13th District Cavalry"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 3706  # Calgary ALB
+		division_template = "District Cavalry" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.3
+
+	}
+}
+
+air_wings = {
+	### Royal Canadian Air Force (RCAF)-- New South Wales
+	276 = {
+		# RCAF Station Trenton (ONT) -- Westland Wapitis
+		nav_bomber_equipment_1 =  {
+			owner = "CAN" 
+			amount = 24
+		}
+	}
+}
+
+##### Starting Production #####
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "CAN"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+}

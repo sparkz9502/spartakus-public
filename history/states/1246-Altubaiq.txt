@@ -1,0 +1,21 @@
+
+state={
+	id=1246
+	name="STATE_1246"
+
+	history={
+		owner = PRM
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2120 5155 12935 13963 14023 14030 14034 14597 14605 
+	}
+	manpower=342300
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

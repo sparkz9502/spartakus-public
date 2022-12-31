@@ -1,0 +1,542 @@
+add_namespace = CHI
+add_namespace = cpcrevolution
+
+
+### CPC Uprising
+news_event = {
+	id = cpcrevolution.1
+	title = cpcrevolution.1.t
+	desc = cpcrevolution.1.d
+	picture = GFX_news_event_wuhan_uprising
+	is_triggered_only = yes
+
+	option = {
+		name = cpcrevolution.1.a
+	}
+}
+
+### Introductions ###
+
+country_event = {#Introduction of relation between KMT and CPC
+	id = CHI.1
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.1" }
+	title = CHI.1.t
+	desc = CHI.1.d
+	picture = GFX_news_event_peasant_army
+
+	is_triggered_only = yes
+
+	option = { # KMT
+		name = CHI.1.a
+		country_event = { id = CHI.2 }
+		}
+	option = { # CPC
+		name = CHI.1.b
+		country_event = { id = CHI.3 }
+		}
+	option = { # no intros
+		name = CHI.1.c
+		}
+}
+#Need to trigger in histroy/countries
+
+
+country_event = {#Introduce KMT
+	id = CHI.2
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.2" }
+	title = CHI.2.t
+	desc = CHI.2.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # go back
+		name = CHI.2.a
+		country_event = { id = CHI.1 }
+		}
+	option = { # exit
+		name = CHI.2.b
+		}
+}
+
+country_event = {#Introduce CPC
+	id = CHI.3
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.2" }
+	title = CHI.3.t
+	desc = CHI.3.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # go back
+		name = CHI.3.a
+		country_event = { id = CHI.1 }
+		}
+	option = { # exit
+		name = CHI.3.b
+		}
+}
+
+
+
+### Civil War Event Chain ###
+
+## prologue ##
+
+country_event = {#Peasant Army besige Changsha
+	id = CHI.101
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.101" }
+	title = CHI.101.t
+	desc = CHI.101.d
+	picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # seek a solution
+		name = CHI.101.a
+		country_event = { id = CHI.102 }
+		}
+}
+
+country_event = {#Seek solutions
+	id = CHI.102
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.102" }
+	title = CHI.102.t
+	desc = CHI.102.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # appoint Tang and Cheng hold a conference
+		name = CHI.102.a
+		country_event = { id = CHI.103 days = 5}
+		}
+		
+	option = { # hire scamps to threat peasants
+		name = CHI.102.b
+		country_event = { id = CHI.109 days = 14 }
+		}
+		
+	option = { # force troops to concede
+		name = CHI.102.c
+		country_event = { id = CHI.112 days = 14 }
+		}
+}
+
+country_event = {#Conference
+	id = CHI.103
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.103" }
+	title = CHI.103.t
+	desc = CHI.103.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # fully accept peasant's appeals
+		name = CHI.103.a
+		custom_effect_tooltip = chi_army_not_pleased
+			hidden_effect = {
+			country_event = { id = CHI.104 days = 3}
+			}
+		}
+		
+	option = { # partly accept appeals
+		name = CHI.103.b
+			hidden_effect = {
+			country_event = { id = CHI.105 days = 3}
+			}
+		}
+		
+	option = { # deadlock
+		name = CHI.103.c
+		custom_effect_tooltip = chi_takes_time
+			hidden_effect = {
+			country_event = { id = CHI.108 days = 14}
+			}
+		}
+}
+
+country_event = {#Conference result - Accept peasants' appeals
+	id = CHI.104
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.104" }
+	title = CHI.104.t
+	desc = CHI.104.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # fully accept peasant's appeals - situation C
+		name = CHI.104.a
+		}
+}
+#effects needed
+
+country_event = {#Conference step 2
+	id = CHI.105
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.104" }
+	title = CHI.105.t
+	desc = CHI.105.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # do more concedes
+		name = CHI.105.a
+		hidden_effect = {
+			country_event = { id = CHI.106 days = 3}
+			}
+		}
+		
+	option = { # refuse to concede
+		name = CHI.105.b
+		hidden_effect = {
+			country_event = { id = CHI.107 days = 3}
+			}
+		}
+}
+#effects needed
+
+country_event = {#Conference result - consensus reached - situation A
+	id = CHI.106
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.106" }
+	title = CHI.106.t
+	desc = CHI.106.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # conference - situation A
+		name = CHI.106.a
+		}
+		
+}
+#effects needed
+
+country_event = {#Conference result - consensus failed - situation B
+	id = CHI.107
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.107" }
+	title = CHI.107.t
+	desc = CHI.107.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # conference - situation B
+		name = CHI.107.a
+		}
+		
+}
+#effects needed
+
+country_event = {#Conference result - deadlock
+	id = CHI.108
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.108" }
+	title = CHI.108.t
+	desc = CHI.108.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # bribe peasants' leaders
+		name = CHI.108.a
+		custom_effect_tooltip = chi_rely_on_fortunate
+		hidden_effect = {
+			country_event = { id = CHI.115 days = 3}
+			}
+		}
+
+	option = { # establish an investiation comittee
+		name = CHI.108.b
+		custom_effect_tooltip = chi_takes_longer_time
+		hidden_effect = {
+			country_event = { id = CHI.116 days = 30}
+			}
+		}
+}
+#effects needed
+
+country_event = {#Hire scamps
+	id = CHI.109
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.109" }
+	title = CHI.109.t
+	desc = CHI.109.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # kidnap their families
+		name = CHI.109.a
+		hidden_effect ={
+			country_event = { id = CHI.110 days = 3}
+			}
+		}
+
+	option = { # beat the leaders
+		name = CHI.109.b
+		hidden_effect = {
+			country_event = { id = CHI.111 days = 3}
+			}
+		}
+}
+#effects needed
+
+country_event = {#result - peasants win
+	id = CHI.110
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.110" }
+	title = CHI.110.t
+	desc = CHI.110.d
+	#picture = GFX_news_event_peasant_armyPl
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # plot exposed - situation C
+		name = CHI.110.a
+		}		
+}
+#effects needed
+
+country_event = {#result - peasants lose
+	id = CHI.111
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.111" }
+	title = CHI.111.t
+	desc = CHI.111.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # plot in effect - situation D
+		name = CHI.111.a
+		}		
+}
+#effects needed
+
+country_event = {#force troops to concede
+	id = CHI.112
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.112" }
+	title = CHI.112.t
+	desc = CHI.112.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # hold revolutionary ideal studies
+		name = CHI.112.a
+		hidden_effect = {
+			country_event = { id = CHI.113 days = 7}
+			}
+		}
+
+	option = { # remove rebellious officers
+		name = CHI.112.b
+		hidden_effect = {
+			country_event = { id = CHI.114 days = 7}
+			}
+		}
+}
+#effects needed
+
+country_event = {#result - troops lose
+	id = CHI.113
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.113" }
+	title = CHI.113.t
+	desc = CHI.113.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # peasant won by study -situation C
+		name = CHI.113.a
+		}		
+}
+#effects needed
+
+country_event = {#result - troops rebel
+	id = CHI.114
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.114" }
+	title = CHI.114.t
+	desc = CHI.114.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # troops rebel -situation D
+		name = CHI.114.a
+		}		
+}
+#effects needed
+
+
+country_event = {#try bribe peasants' leaders
+	id = CHI.115
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.115" }
+	title = CHI.115.t
+	desc = CHI.115.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # try to bribe
+		name = CHI.114.a
+		hidden_effect = {
+			random_list={
+				50 = { country_event = { id = CHI.117 days = 3} } #bribe success
+				50 = { country_event = { id = CHI.118 days = 3} } #bribe exposed
+				}
+		}
+}
+}
+#effects needed
+
+country_event = {#establish an investiation committee
+	id = CHI.116
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.116" }
+	title = CHI.116.t
+	desc = CHI.116.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # investigation start
+		name = CHI.116.a
+		hidden_effect = {
+			random_list={
+				50 = { country_event = { id = CHI.119 days = 3} } #investigation success
+				50 = { country_event = { id = CHI.120 days = 3} } #no progress
+				}
+			}
+		}
+}
+#effects needed
+
+country_event = {#bribe success
+	id = CHI.117
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.117" }
+	title = CHI.117.t
+	desc = CHI.117.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # bribe success - situation D
+		name = CHI.117.a
+		}		
+}
+#effects needed
+
+country_event = {#bribe exposed
+	id = CHI.118
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.118" }
+	title = CHI.118.t
+	desc = CHI.118.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # bribe exposed - situation C
+		name = CHI.118.a
+		}		
+}
+#effects needed
+
+country_event = {#investiation success
+	id = CHI.119
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.119" }
+	title = CHI.119.t
+	desc = CHI.119.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # investiation - situation C
+		name = CHI.119.a
+		}		
+}
+#effects needed
+
+country_event = {#investiation no progress
+	id = CHI.120
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.120" }
+	title = CHI.120.t
+	desc = CHI.120.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { # no progress -situation D
+		name = CHI.120.a
+		}		
+}
+#effects needed
+
+
+### Decisions ###
+country_event = {#Custom Affairs
+	id = CHI.201
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.201" }
+	title = CHI.201.t
+	desc = CHI.201.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { #Establish a tariff barrier
+		name = CHI.201.a
+		add_stability = 0.05
+		add_political_power = -50
+		set_country_flag = CHI_tariff_barrier
+	}
+
+	option = { #seek negotiations
+		name = CHI.201.b
+		add_stability =  0.02
+		set_country_flag = CHI_custom_negotiation
+	}
+
+	option = { # seek foreign experts in MCS' help - left +1
+		name = CHI.201.c
+		add_stability =  -0.05
+		add_to_variable = {
+			var = Wang_tendency_left
+			value = 1
+		}
+	}	
+}
+
+country_event = {#Tariff Negotiation
+	id = CHI.202
+	immediate = { log = "[GetDateText]: [Root.GetName]: event CHI.202" }
+	title = CHI.202.t
+	desc = CHI.202.d
+	#picture = GFX_news_event_peasant_army
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = { 
+		name = CHI.202.a
+		add_ideas = CHI_negotiated_tariffs
+	}
+}

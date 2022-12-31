@@ -1,0 +1,442 @@
+ideas = {
+################################################################################################################################################################################################
+### SRD
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	SRD_Emilio_Lussu_hog_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Pietro_Mastino_hog_sde = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Anselmo_Contu_hog_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Camillo_Bellieni_hog_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+	SRD_Emilio_Lussu_mwp_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			minister_without_portfolio
+			mwp_champion_of_the_sards
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	SRD_Mario_Berlinguer_for_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Silvio_Mastio_for_sde = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Giovanni_Battista_Melis_for_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	SRD_Alessandro_Nanni_eco_rev = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Davide_Cova_eco_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Stefano_Siglienti_eco_sde = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Battista_Bardanzellu_eco_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Gavino_Alivia_eco_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	SRD_Mario_Berlinguer_sec_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Pietro_Mastino_sec_sde = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_preserver_of_culture
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Anselmo_Contu_sec_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Enrico_Endrich_sec_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Luigi_Oggiano_sec_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = { ### Education Minister
+	SRD_Filiberto_Farci_edu_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = { ### Agriculture Minister
+	SRD_Paolo_Pili_agr_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			agriculture_minister
+			agr_inexperienced_agriculturalist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = { ### Transport Minister
+
+}
+
+defence_minister = { ### Defence Minister ###
+	SRD_Luigi_Polano_def_spa = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Gonario_Pinna_def_ref = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	SRD_Francesco_Fancello_def_sde = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	SRD_Giuseppe_Musinu_def_sli = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	SRD_Giuseppe_Musinu_carm = {
+		allowed = {original_tag = SRD}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+}
+
+sp_theorist = { ### Theorist ###
+	
+}
+}

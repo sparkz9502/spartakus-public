@@ -1,0 +1,86 @@
+characters={
+    ARM_aghasi_khanjian = {
+        name = "Aghasi Khanjian"
+        portraits={
+            civilian={
+				large = "gfx/leaders/ARM/Portrait_Hovhannes_Kajaznuni.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+
+    ARM_mariam_vardanian = {
+        name = "Mariam Vardanian"
+        portraits={
+            civilian{
+				large = "gfx/leaders/ARM/Portrait_Hovhannes_Kajaznuni.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+
+    ARM_hovhannes_kajaznuni = {
+        name = "Hovhannes Kajaznuni"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ARM/Portrait_Hovhannes_Kajaznuni.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HOVHANNES_KAJAZNUNI_DESC"
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+
+    ARM_mikayel_papadjanian = {
+        name = "Mikayel Papadjanian"
+        portraits={
+            civilian={
+				large = "gfx/leaders/ARM/Portrait_Hovhannes_Kajaznuni.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = social_liberal_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+
+    ARM_drastamat_kanayan = {
+        name = "Drastamat Kanayan"
+        portraits={
+            civilian={
+				large = "gfx/leaders/ARM/Portrait_Hovhannes_Kajaznuni.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = right_wing_populist_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+}

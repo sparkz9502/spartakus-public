@@ -1,0 +1,42 @@
+﻿division_template = {
+	name = "Proleterska Brigada"	# Infantry Division	
+	division_names_group = SER_PROLEINF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = { 
+	    engineer = { x = 0 y = 0 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	division = {
+		name = "Splitska Partizanska"  			
+		location = 11901
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.4	
+		start_equipment_factor = 0.8
+	}
+	
+	division = {
+		name = "1. Dinarski Odred"  			
+		location = 6957
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.4	
+		start_equipment_factor = 0.7
+	}
+	
+	division = {
+		name = "2. Dinarski Odred"  			
+		location = 3985
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.4	
+		start_equipment_factor = 0.7
+	}
+	
+}

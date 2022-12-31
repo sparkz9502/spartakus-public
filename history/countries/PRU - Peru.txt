@@ -1,0 +1,84 @@
+﻿capital = 303
+
+set_oob = "PRU"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_indzing
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+set_convoys = 50
+set_stability = 0.35
+set_war_support = 0.2
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 3
+    revolutionary_socialist = 35
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 9
+    liberal_conservative = 30
+    social_conservative = 11
+    authoritarian_conservative = 0
+    right_wing_populist = 12
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Augusto Bernardino Leguía"
+	desc = "POLITICS_AUGUSTO_LEGUIA_DESC"
+	picture = "Portrait_Augusto_Leguia.tga"
+	expire = "1965.1.1"
+	ideology = conservative_liberalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Víctor Raúl Haya de la Torre"
+	desc = "POLITICS_VICTOR_RAUL_HAYA_TORRE_DESC"
+	picture = "Portrait_Victor_Raul_Haya_Torre.tga"
+	expire = "1965.1.1"
+	ideology = anarcho_syndicalism
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Luis Miguel Sánchez Cerro"
+	desc = "POLITICS_LUIS_CERRO_DESC"
+	picture = "Portrait_Luis_Miguel_Sanchez_Cerro.dds"
+	expire = "1965.1.1"
+	ideology = military_junta
+	traits = {
+		#
+	}
+}

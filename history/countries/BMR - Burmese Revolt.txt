@@ -1,0 +1,70 @@
+﻿capital = 1074
+set_oob = "BMR"
+set_research_slots = 1
+set_stability = 0.1
+set_war_support = 0.7
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_col
+	trade_aut
+	economy_unind
+	mobilization_1
+	
+	### National Spirits ###
+	BMR_The_Great_Burma_Revolt
+	BMR_The_Legacy_of_Saya_San
+	BMR_Disorganized_Militias
+	BMR_Questionable_Support
+	BMR_Political_Disunity
+	
+	### Ministers ###
+	BUR_U_Nu_hog_rev
+	BUR_Aung_San_for_rev
+	BUR_Mahn_Ba_Khaing_eco_rev
+	BUR_Thakin_Mya_sec_spa
+	BUR_Abdul_Razak_def_rev
+	BUR_Thakin_Soe_cos
+	BUR_Than_Tun_carm
+}
+
+### Country Leaders ###
+recruit_character = BMR_thakin_nu
+
+### Generals ###
+recruit_character = BMR_aung_san
+recruit_character = BMR_baw_maw
+
+### Starting Tech ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = revolutionary_socialist
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 8
+    spartacist = 2
+    revolutionary_socialist = 33
+    reformist_socialist = 10
+    social_democrat = 0
+    social_liberal = 0
+    liberal_conservative = 9
+    social_conservative = 31
+    authoritarian_conservative = 0
+    right_wing_populist = 7
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_spartacist
+set_country_flag = coalition_reformist_socialist

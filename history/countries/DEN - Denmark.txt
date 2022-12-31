@@ -1,0 +1,59 @@
+﻿capital = 37
+
+set_oob = "DEN"
+
+add_ideas = {
+	recruitment_1825
+	governance_par
+	trade_sempro
+	economy_semind
+	mobilization_1
+}
+
+set_research_slots = 3
+set_stability = 0.9
+set_war_support = 0.1
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	cv_early_fighter = 1
+	early_submarine = 1
+	early_destroyer = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 2
+    revolutionary_socialist = 1
+    reformist_socialist = 21
+    social_democrat = 2
+    social_liberal = 11
+    liberal_conservative = 28
+    social_conservative = 18
+    authoritarian_conservative = 17
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_social_conservative
+
+set_convoys = 40
+
+recruit_character = DEN_christian_x
+recruit_character = DEN_wilhelm_wain_prior

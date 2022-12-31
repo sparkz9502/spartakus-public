@@ -1,0 +1,1385 @@
+#######################
+### Greece Events   ###
+#######################
+### By Kolokommouna ###
+#######################
+
+add_namespace = gre
+add_namespace = grepolitical
+add_namespace = greflavour
+add_namespace = grefocus
+add_namespace = greelection
+add_namespace = grecommie
+add_namespace = grecoups
+
+###########################
+# Greek Focus Events
+###########################
+
+news_event = { # Second Coup - Venizelist
+	id = grefocus.1
+	title = grefocus.1.t
+	desc = grefocus.1.desc
+	picture = GFX_GRE_Plastiras_news
+
+	trigger = {
+		focus_progress = {
+			focus = GRE_The_King_as_a_Figurehead
+			progress > 25
+		}
+	}
+
+	option = {
+		name = grefocus.1.a
+		every_unit_leader = {
+			limit = { has_trait = trait_GRE_venizelist }
+			retire = yes
+		}
+		remove_ideas = GRE_Divided_Military_less
+		swap_ideas = {
+			remove_idea = GRE_Political_Factionalism
+			add_idea = GRE_Political_Factionalism_less
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.02
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.01
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.02
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.01
+		}
+	}
+}
+
+country_event = { # Monarchist Debate
+	id = grefocus.2
+	title = grefocus.2.t
+	desc = grefocus.2.desc
+
+	trigger = {
+		focus_progress = {
+			focus = GRE_The_King_as_a_Figurehead
+			progress > 50
+		}
+	}
+
+	option = {
+		name = grefocus.2.a
+		add_political_power = -10
+	}
+}
+
+news_event = { # Hardline Coup
+	id = grefocus.3
+	title = grefocus.3.t
+	desc = grefocus.3.desc
+	picture = GFX_GRE_Kondylis_news
+
+	trigger = {
+		focus_progress = {
+			focus = GRE_The_King_as_a_Figurehead
+			progress > 75
+		}
+	}
+
+	option = {
+		name = grefocus.3.a
+		set_politics = {
+			ruling_party = authoritarian_conservative
+			elections_allowed = no
+		}
+		remove_all_ministers
+		remove_all_mil_ministers
+		add_ideas = {
+			GRE_Georgios_Kondylis_hog_ade
+			GRE_Ioannis_Theotokis_mwp_ade
+			GRE_Georgios_Kondylis_def_ade
+			GRE_Georgios_Kartalis_eco_ade
+			GRE_Dimitrios_Maximos_for_sco
+			GRE_Ioannis_Rallis_sec_ade
+			GRE_Panagiotis_Kanellopoulos_edu_sco
+			GRE_Agamemnon_Schliemann_agr_ade
+			GRE_Georgios_Stratos_tra_sco
+			GRE_Aristeidis_Chasapidis_cos
+			GRE_Georgios_Kondylis_carm
+			GRE_Dimitrios_Oikonomou_cnav
+			GRE_Georgios_Reppas_cair
+		}
+	}
+	option = {
+		name = grefocus.3.b
+		remove_unit_leader = 101
+		remove_unit_leader = 102
+		if = {
+			limit = { has_idea = GRE_Georgios_Reppas_cair }
+			swap_ideas = {
+				remove_idea = GRE_Georgios_Reppas_cair
+				add_idea = GRE_Ioannis_Rallis_cair
+			}
+		}
+		if = {
+			limit = { has_idea = GRE_Dimitrios_Oikonomou_cnav }
+			swap_ideas = {
+				remove_idea = GRE_Dimitrios_Oikonomou_cnav
+				add_idea = GRE_Sofoklis_Dousmanis_cnav
+			}
+		}
+		hidden_effect = {
+			every_unit_leader = {
+				limit = { has_id = 104 }
+				promote_leader = yes
+			}
+			create_corps_commander = {
+				name = "Geórgios Tsokáloglou"
+				portrait_path = "gfx/leaders/GRE/Europe/Portrait_Greece_Georgios_Tsokaloglou.tga"
+				traits = {
+					trait_GRE_monarchist
+				}
+				skill = 1
+				attack_skill = 1
+				defense_skill = 1
+				planning_skill = 1
+				logistics_skill = 1
+			}
+			create_corps_commander = {
+				name = "Vasíleios Vráchnos"
+				portrait_path = "gfx/leaders/GRE/Europe/Portrait_Greece_Vasileios_Vrachnos.tga"
+				traits = {
+					trait_mountaineer
+					trait_GRE_monarchist
+				}
+				skill = 2
+				attack_skill = 2
+				defense_skill = 3
+				planning_skill = 2
+				logistics_skill = 3
+			}
+		}
+	}
+}
+
+country_event = { # Gold Standard
+	id = grefocus.4
+	title = grefocus.4.t
+	desc = grefocus.4.desc
+	picture = GFX_GRE_Greek_National_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = grefocus.4.a
+		ai_chance = { base = 50 }
+		hidden_effect = {
+			set_country_flag = GRE_gold_standard_yes_flag
+		}
+		custom_effect_tooltip = "The decision to continue the Gold Standard will be made available"
+	}
+	option = {
+		name = grefocus.4.b
+		ai_chance = { base = 50 }
+		hidden_effect = {
+			set_country_flag = GRE_gold_standard_no_flag
+		}
+		custom_effect_tooltip = "The decision to abandon the Gold Standard will be made available"
+	}
+}
+
+country_event = { # Farming Crisis
+	id = grefocus.5
+	title = grefocus.5.t
+	desc = grefocus.5.desc
+	picture = GFX_GRE_Greek_National_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = grefocus.5.a
+		ai_chance = { base = 50 }
+		hidden_effect = {
+			set_country_flag = GRE_farmers_flag
+		}
+		custom_effect_tooltip = "The decision to help the peasantry will be made available"
+	}
+	option = {
+		name = grefocus.5.b
+		ai_chance = { base = 50 }
+		hidden_effect = {
+			set_country_flag = GRE_AKE_flag
+		}
+		custom_effect_tooltip = "The decision to help the AKE will be made available"
+	}
+}
+
+country_event = { # Farmers' Market Collapse
+	id = grefocus.6
+	title = grefocus.6.t
+	desc = grefocus.6.desc
+	picture = GFX_GRE_Greek_National_Bank
+
+	trigger = {
+		has_country_flag = GRE_farming_crisis_flag
+		date > 1934.05.05
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = grefocus.6.a
+		hidden_effect = {
+			clr_country_flag = GRE_farming_crisis_flag
+		}
+		custom_effect_tooltip = gre_socialist_militancy_up
+		add_to_variable = {
+			var = gre_socialist_militancy
+			value = 1
+		}
+		add_ideas = GRE_Agri_Markets_bad
+	}
+}
+
+###########################
+# Greek Flavor Events
+###########################
+
+country_event = { # Intro - History
+	id = greflavour.1
+	title = greflavour.1.t
+	desc = greflavour.1.desc
+	picture = GFX_GRE_Demonstrations_for_the_Republic
+
+	is_triggered_only = yes
+
+	option = {
+		name = greflavour.1.a
+		add_political_power = -5
+		country_event = { id = greflavour.2 days = 1 }
+	}
+}
+
+country_event = { # Intro - Economy
+	id = greflavour.2
+	title = greflavour.2.t
+	desc = greflavour.2.desc
+	picture = GFX_GRE_Greek_National_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = greflavour.2.a
+		add_political_power = 5
+	}
+}
+
+country_event = { # The Great Depression
+	id = greflavour.3
+	title = greflavour.3.t
+	desc = greflavour.3.desc
+	picture = GFX_GRE_Greek_National_Bank
+
+	is_triggered_only = yes
+
+	option = {
+		name = greflavour.3.a
+		add_political_power = -50
+		hidden_effect = {
+			swap_ideas = {
+				remove_idea = GRE_Foreign_Debts
+				add_idea = GRE_Foreign_Debts_worse
+			}
+			set_country_flag = GRE_farming_crisis_flag
+			set_country_flag = GRE_debts_start
+			set_variable = {
+				var = gre_eng_loans_var
+				value = 2
+			}
+			set_variable = {
+				var = gre_fra_loans_var
+				value = 3
+			}
+			set_variable = {
+				var = gre_ita_loans_var
+				value = 6
+			}
+			clamp_variable = {
+				var = gre_eng_loans_var
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = gre_fra_loans_var
+				min = 0
+				max = 100
+			}
+			clamp_variable = {
+				var = gre_ita_loans_var
+				min = 0
+				max = 100
+			}
+		}
+		swap_ideas = {
+			remove_idea = GRE_Booming_Economy
+			add_idea = GRE_Megali_Ifesi
+		}
+		custom_effect_tooltip = gre_socialist_militancy_up
+		add_to_variable = {
+			var = gre_socialist_militancy
+			value = 1
+		}
+	}
+}
+
+country_event = { # Venizelos Dies
+	id = greflavour.4
+	title = greflavour.4.t
+	desc = {
+		text = greflavour.4.desc.soc
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	desc = {
+		text = greflavour.4.desc
+		trigger = {
+			NOT = { has_socialist_government = yes }
+		}
+	}
+	picture = GFX_GRE_Venizelos_Dead
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { has_socialist_government = yes }
+		name = greflavour.4.a
+		set_country_flag = GRE_Eleftherios_Venizelos_dead_flag
+		hidden_effect = {
+			random_list = {
+				50 = { set_country_flag = GRE_Sofoulis_in_charge }
+				50 = { set_country_flag = GRE_Venizelos_in_charge }
+			}
+		}
+	}
+	option = {
+		name = greflavour.4.b
+		ai_chance = { base = 50 }
+		set_country_flag = GRE_Eleftherios_Venizelos_dead_flag
+		if = {
+			limit = { has_idea = GRE_Eleftherios_Venizelos_hog_lco }
+			add_ideas = GRE_Themistoklis_Sofoulis_hog_lco
+		}
+		if = {
+			limit = { has_idea = GRE_Themistoklis_Sofoulis_mwp_lco }
+			swap_ideas = {
+				add_idea = GRE_Sofoklis_Venizelos_mwp_lco
+				remove_idea = GRE_Themistoklis_Sofoulis_mwp_lco
+			}
+		}
+		hidden_effect = { set_country_flag = GRE_Sofoulis_in_charge }
+	}
+	option = {
+		name = greflavour.4.c
+		ai_chance = { base = 50 }
+		set_country_flag = GRE_Eleftherios_Venizelos_dead_flag
+		if = {
+			limit = { has_idea = GRE_Eleftherios_Venizelos_hog_lco }
+			add_ideas = GRE_Sofoklis_Venizelos_hog_lco
+		}
+		if = {
+			limit = { has_idea = GRE_Sofoklis_Venizelos_mwp_lco }
+			swap_ideas = {
+				add_idea = GRE_Themistoklis_Sofoulis_mwp_lco
+				remove_idea = GRE_Sofoklis_Venizelos_mwp_lco
+			}
+		}
+		hidden_effect = { set_country_flag = GRE_Venizelos_in_charge }
+	}
+}
+
+country_event = { # Tsaldaris Dies
+	id = greflavour.5
+	title = greflavour.5.t
+	desc = {
+		text = greflavour.5.desc.soc
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	desc = {
+		text = greflavour.5.desc
+		trigger = {
+			NOT = { has_socialist_government = yes }
+		}
+	}
+	picture = GFX_GRE_Tsaldaris_Dead
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { has_socialist_government = yes }
+		name = greflavour.5.a
+		set_country_flag = GRE_Panagis_Tsaldaris_dead_flag
+		hidden_effect = {
+			random_list = {
+				50 = { set_country_flag = GRE_Tsaldaris_in_charge }
+				50 = { set_country_flag = GRE_Pezmazoglou_in_charge }
+			}
+		}
+	}
+	option = {
+		name = greflavour.5.b
+		ai_chance = { base = 50 }
+		set_country_flag = GRE_Panagis_Tsaldaris_dead_flag
+		if = {
+			limit = { has_idea = GRE_Panagis_Tsaldaris_hog_sco }
+			add_ideas = GRE_Kostantinos_Tsaldaris_hog_sco
+		}
+		if = {
+			limit = { has_idea = GRE_Kostantinos_Tsaldaris_mwp_sco }
+			swap_ideas = {
+				add_idea = GRE_Georgios_Pezmazoglou_mwp_sco
+				remove_idea = GRE_Kostantinos_Tsaldaris_mwp_sco
+			}
+		}
+		hidden_effect = { set_country_flag = GRE_Tsaldaris_in_charge }
+	}
+	option = {
+		name = greflavour.5.c
+		ai_chance = { base = 50 }
+		set_country_flag = GRE_Panagis_Tsaldaris_dead_flag
+		if = {
+			limit = { has_idea = GRE_Panagis_Tsaldaris_hog_sco }
+			add_ideas = GRE_Georgios_Pezmazoglou_hog_sco
+		}
+		if = {
+			limit = { has_idea = GRE_Georgios_Pezmazoglou_mwp_sco }
+			swap_ideas = {
+				add_idea = GRE_Kostantinos_Tsaldaris_mwp_sco
+				remove_idea = GRE_Georgios_Pezmazoglou_mwp_sco
+			}
+		}
+		hidden_effect = { set_country_flag = GRE_Pezmazoglou_in_charge }
+	}
+}
+
+country_event = { # Kondylis Dies
+	id = greflavour.6
+	title = greflavour.6.t
+	desc = {
+		text = greflavour.6.desc.soc
+		trigger = {
+			has_socialist_government = yes
+		}
+	}
+	desc = {
+		text = greflavour.6.desc
+		trigger = {
+			NOT = { has_socialist_government = yes }
+		}
+	}
+	picture = GFX_GRE_Kondylis_Dead
+
+	is_triggered_only = yes
+
+	option = {
+		trigger = { has_socialist_government = yes }
+		name = greflavour.6.a
+		set_country_flag = GRE_Georgios_Kondylis_dead_flag
+	}
+	option = {
+		name = greflavour.6.b
+		if = {
+			limit = { has_idea = GRE_Georgios_Kondylis_def_ade }
+			add_ideas = GRE_Alexandros_Papagos_def_ade
+		}
+		if = {
+			limit = { has_idea = GRE_Georgios_Kondylis_carm }
+			add_ideas = GRE_Alexandros_Papagos_carm
+		}
+		if = {
+			limit = { any_unit_leader = { has_id = 101 } }
+			remove_unit_leader = 101
+			every_unit_leader = {
+				limit = { has_id = 102 }
+				promote_leader = yes
+			}
+		}
+		set_country_flag = GRE_Georgios_Kondylis_dead_flag
+	}
+}
+
+############################
+### Greek Commie Events
+############################
+
+country_event = { # Bezantakos's Escape
+	id = grecommie.1
+	title = grecommie.1.t
+	desc = grecommie.1.desc
+	picture = GFX_GRE_Bezantakos
+
+	is_triggered_only = yes
+
+	option = {
+		name = grecommie.1.a
+		custom_effect_tooltip = gre_socialist_militancy_up
+		add_to_variable = {
+			var = gre_socialist_militancy
+			value = 1
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.005
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.005
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.01
+			}
+		}
+	}
+}
+
+country_event = { # Austerity Response
+	id = grecommie.2
+	title = grecommie.2.t
+	desc = grecommie.2.desc
+	picture = GFX_GRE_Zachariadis
+
+	is_triggered_only = yes
+
+	option = {
+		name = grecommie.2.a
+		ai_chance = { base = 35 }
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.005
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.005
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.01
+			}
+		}
+	}
+	option = {
+		name = grecommie.2.b
+		ai_chance = { base = 65 }
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.005
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.005
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.01
+		}
+		hidden_effect = {
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.01
+			}
+		}
+		custom_effect_tooltip = gre_socialist_militancy_up
+		add_to_variable = {
+			var = gre_socialist_militancy
+			value = 1
+		}
+	}
+}
+
+############################
+### Greek Election Events
+############################
+
+country_event = { # 1932 Elections
+	id = greelection.1
+	title = greelection.1.t
+	desc = greelection.1.desc
+	picture = GFX_GRE_Elections
+
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			set_politics = {
+				ruling_party = liberal_conservative
+				last_election = "1928.3.5"
+				election_frequency = 48
+				elections_allowed = yes
+			}
+			country_event = { id = greelection.2 days = 161 }
+
+			set_variable = {
+				var = var_party_1_seats
+				value = 2
+			}
+			set_variable = {
+				var = var_party_2_seats
+				value = 15
+			}
+			set_variable = {
+				var = var_party_3_seats
+				value = 84
+			}
+			set_variable = {
+				var = var_party_4_seats
+				value = 84
+			}
+			set_variable = {
+				var = var_party_5_seats
+				value = 15
+			}
+
+			clear_array = GRE_parliament_seat_array
+
+			add_to_array = { GRE_parliament_seat_array = var_party_1_seats } # KKE-AKE
+			add_to_array = { GRE_parliament_seat_array = var_party_2_seats } # AEK-PK
+			add_to_array = { GRE_parliament_seat_array = var_party_3_seats } # KF
+			add_to_array = { GRE_parliament_seat_array = var_party_4_seats } # LK
+			add_to_array = { GRE_parliament_seat_array = var_party_5_seats } # GLRE-KE
+
+			GRE_parliament_gui_positions = yes
+
+			reload_GRE_parliament_gui = yes
+		}
+	}
+
+	option = {
+		name = greelection.1.a
+		add_political_power = -50
+	}
+}
+
+country_event = { # 1933 Elections
+	id = greelection.2
+	title = greelection.2.t
+	desc = greelection.2.desc
+	picture = GFX_GRE_Elections
+
+	is_triggered_only = yes
+
+	option = {
+		name = greelection.2.a
+		ai_chance = { base = 50 }
+		custom_effect_tooltip = venizelists_won_tt
+		hidden_effect = {
+			set_country_flag = GRE_1933_venizelists
+			country_event = { id = grecoups.1 days = 1 }
+			country_event = { id = gre.3 days = 93 }
+
+			set_variable = {
+				var = var_party_1_seats
+				value = 12
+			}
+			set_variable = {
+				var = var_party_2_seats
+				value = 17
+			}
+			set_variable = {
+				var = var_party_3_seats
+				value = 84
+			}
+			set_variable = {
+				var = var_party_4_seats
+				value = 71
+			}
+			set_variable = {
+				var = var_party_5_seats
+				value = 16
+			}
+
+			clear_array = GRE_parliament_seat_array
+
+			add_to_array = { GRE_parliament_seat_array = var_party_1_seats } # KKE-AKE
+			add_to_array = { GRE_parliament_seat_array = var_party_2_seats } # AEK-PK
+			add_to_array = { GRE_parliament_seat_array = var_party_3_seats } # KF
+			add_to_array = { GRE_parliament_seat_array = var_party_4_seats } # LK
+			add_to_array = { GRE_parliament_seat_array = var_party_5_seats } # GLRE-KE
+
+			GRE_parliament_gui_positions = yes
+
+			reload_GRE_parliament_gui = yes
+		}
+	}
+	option = {
+		name = greelection.2.b
+		ai_chance = { base = 50 }
+		custom_effect_tooltip = oppositionists_won_tt
+		hidden_effect = {
+			set_politics = {	
+				ruling_party = social_conservative
+				elections_allowed = yes
+			}
+			clr_country_flag = coalition_liberal_conservative
+			clr_country_flag = coalition_social_liberal
+			clr_country_flag = coalition_social_democrat
+			set_country_flag = coalition_social_conservative
+			set_country_flag = coalition_authoritarian_conservative
+			set_country_flag = coalition_right_wing_populist
+			set_country_flag = coalition_national_syndicalist
+			set_country_flag = coalition_national_corporatist
+			remove_all_ministers
+			remove_all_mil_ministers
+			add_ideas = {
+				GRE_Panagis_Tsaldaris_hog_sco
+				GRE_Kostantinos_Tsaldaris_mwp_sco
+				GRE_Georgios_Kondylis_def_aco
+				GRE_Spyridon_Loverdos_eco_sco
+				GRE_Dimitrios_Maximos_for_sco
+				GRE_Ioannis_Moutzouridis_sec_sco
+				GRE_Panagiotis_Kanellopoulos_edu_sco
+				GRE_Agamemnon_Schliemann_agr_aco
+				GRE_Georgios_Stratos_tra_sco
+				GRE_Aristeidis_Chasapidis_cos
+				GRE_Georgios_Kondylis_carm
+				GRE_Dimitrios_Oikonomou_cnav
+				GRE_Georgios_Reppas_cair
+			}
+			set_country_flag = GRE_1933_monarchists
+			country_event = { id = grecoups.1 days = 1 }
+			country_event = { id = gre.3 days = 93 }
+
+			set_variable = {
+				var = var_party_1_seats
+				value = 12
+			}
+			set_variable = {
+				var = var_party_2_seats
+				value = 16
+			}
+			set_variable = {
+				var = var_party_3_seats
+				value = 71
+			}
+			set_variable = {
+				var = var_party_4_seats
+				value = 84
+			}
+			set_variable = {
+				var = var_party_5_seats
+				value = 17
+			}
+
+			clear_array = GRE_parliament_seat_array
+
+			add_to_array = { GRE_parliament_seat_array = var_party_1_seats } # KKE-AKE
+			add_to_array = { GRE_parliament_seat_array = var_party_2_seats } # AEK-PK
+			add_to_array = { GRE_parliament_seat_array = var_party_3_seats } # KF
+			add_to_array = { GRE_parliament_seat_array = var_party_4_seats } # LK
+			add_to_array = { GRE_parliament_seat_array = var_party_5_seats } # GLRE-KE
+
+			GRE_parliament_gui_positions = yes
+
+			reload_GRE_parliament_gui = yes
+		}
+	}
+}
+
+##########################
+### Greece Coups Events
+##########################
+
+country_event = { # First Coup
+	id = grecoups.1
+	title = grecoups.1.t
+	desc = {
+		text = grecoups.1.desc.kond
+		trigger = {
+			has_country_flag = GRE_1933_venizelists
+		}
+	}
+	desc = {
+		text = grecoups.1.desc.plas
+		trigger = {
+			has_country_flag = GRE_1933_monarchists
+		}
+	}
+
+	is_triggered_only = yes
+
+	option = {
+		name = grecoups.1.a
+		ai_chance = { base = 80 }
+		set_country_flag = GRE_immediate_coup
+		if = {
+			limit = { has_country_flag = GRE_1933_venizelists }
+			country_event = { id = gre.1 days = 1 }
+			hidden_effect = {
+				OTT = { country_event = { id = gre.1 } }
+				BUL = { country_event = { id = gre.1 } }
+				ALB = { country_event = { id = gre.1 } }
+				SER = { country_event = { id = gre.1 } }
+				ROM = { country_event = { id = gre.1 } }
+				ITA = { country_event = { id = gre.1 } }
+			}
+		}
+		else_if = {
+			limit = { has_country_flag = GRE_1933_monarchists }
+			country_event = { id = gre.2 days = 1 }
+			hidden_effect = {
+				OTT = { country_event = { id = gre.2 } }
+				BUL = { country_event = { id = gre.2 } }
+				ALB = { country_event = { id = gre.2 } }
+				SER = { country_event = { id = gre.2 } }
+				ROM = { country_event = { id = gre.2 } }
+				ITA = { country_event = { id = gre.2 } }
+			}
+		}
+	}
+	option = {
+		name = grecoups.1.b
+		ai_chance = { base = 20 }
+		unlock_decision_category_tooltip = GRE_coup_decisions
+		add_to_variable = {
+			var = gre_gov_suspicion
+			value = 20
+		}
+		add_to_variable = {
+			var = gre_mil_preparations
+			value = 5
+		}
+		hidden_effect = {
+			unlock_decision_category_tooltip = GRE_coup_decisions_gov
+			set_country_flag = GRE_planned_coup
+		}
+	}
+}
+
+news_event = { # Kondylis Failure
+	id = gre.1
+	title = gre.1.t
+	desc = gre.1.desc
+	picture = GFX_GRE_Kondylis_news
+
+	is_triggered_only = yes
+
+	option = {
+		name = gre.1.a
+		if = {
+			limit = { tag = GRE }
+			remove_unit_leader = 101
+			remove_unit_leader = 102
+			remove_unit_leader = 104
+			swap_ideas = {
+				remove_idea = GRE_Divided_Military
+				add_idea = GRE_Divided_Military_less
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.01
+			}
+		}
+	}
+}
+
+news_event = { # Plastiras Failure
+	id = gre.2
+	title = gre.2.t
+	desc = gre.2.desc
+	picture = GFX_GRE_Plastiras_news
+
+	is_triggered_only = yes
+
+	option = {
+		name = gre.2.a
+		if = {
+			limit = { tag = GRE }
+			remove_unit_leader = 100
+			remove_unit_leader = 109
+			remove_unit_leader = 110
+			swap_ideas = {
+				remove_idea = GRE_Divided_Military
+				add_idea = GRE_Divided_Military_less
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.01
+			}
+		}
+	}
+}
+
+country_event = { # Planned Coup - Success
+	id = grecoups.2
+	title = grecoups.2.t
+	desc = {
+		text = grecoups.2.desc.kscp
+		trigger = {
+			has_government = liberal_conservative
+		}
+	}
+	desc = {
+		text = grecoups.2.desc.pscp
+		trigger = {
+			has_government = social_conservative
+		}
+	}
+	picture = GFX_GRE_Kondylis_Plastiras
+
+	is_triggered_only = yes
+	
+	option = {
+		name = grecoups.2.a
+		if = {
+			limit = {
+				has_country_flag = GRE_1933_monarchists
+			}
+			clr_country_flag = GRE_1933_monarchists
+			set_country_flag = GRE_success_venizelists
+			set_politics = {
+				ruling_party = liberal_conservative
+				elections_allowed = yes
+			}
+			remove_all_ministers
+			remove_all_mil_ministers
+			add_ideas = {
+				GRE_Eleftherios_Venizelos_hog_lco
+				GRE_Themistoklis_Sofoulis_mwp_lco
+				GRE_Nikolaos_Plastiras_def_lco
+				GRE_Emmanouil_Tsouderos_eco_lco
+				GRE_Andreas_Michalakopoulos_for_lco
+				GRE_Pantelis_Karasevdas_sec_lco
+				GRE_Michail_Kyrkos_edu_sli
+				GRE_Alexandros_Papanastasiou_agr_sde
+				GRE_Petros_Levantis_tra_lco
+				GRE_Theodoros_Manetas_cos
+				GRE_Georgios_Katechakis_carm
+				GRE_Alexandros_Hatzikyriakos_cnav
+				GRE_Georgios_Katechakis_cair
+			}
+			set_country_flag = coalition_liberal_conservative
+			set_country_flag = coalition_social_liberal
+			set_country_flag = coalition_social_democrat
+			clr_country_flag = coalition_social_conservative
+			clr_country_flag = coalition_authoritarian_conservative
+			clr_country_flag = coalition_right_wing_populist
+			clr_country_flag = coalition_national_syndicalist
+			clr_country_flag = coalition_national_corporatist
+			remove_unit_leader = 101
+			remove_unit_leader = 102
+			remove_unit_leader = 104
+			remove_unit_leader = 105
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.01
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = GRE_1933_venizelists
+			}
+			clr_country_flag = GRE_1933_venizelists
+			set_country_flag = GRE_success_conservatives
+			set_politics = {
+				ruling_party = social_conservative
+				elections_allowed = yes
+			}
+			remove_all_ministers
+			remove_all_mil_ministers
+			add_ideas = {
+				GRE_Panagis_Tsaldaris_hog_sco
+				GRE_Kostantinos_Tsaldaris_mwp_sco
+				GRE_Georgios_Kondylis_def_ade
+				GRE_Spyridon_Loverdos_eco_sco
+				GRE_Dimitrios_Maximos_for_sco
+				GRE_Ioannis_Moutzouridis_sec_sco
+				GRE_Panagiotis_Kanellopoulos_edu_sco
+				GRE_Agamemnon_Schliemann_agr_ade
+				GRE_Georgios_Stratos_tra_sco
+				GRE_Aristeidis_Chasapidis_cos
+				GRE_Georgios_Kondylis_carm
+				GRE_Dimitrios_Oikonomou_cnav
+				GRE_Georgios_Reppas_cair
+			}
+			clr_country_flag = coalition_liberal_conservative
+			clr_country_flag = coalition_social_liberal
+			clr_country_flag = coalition_social_democrat
+			set_country_flag = coalition_social_conservative
+			set_country_flag = coalition_authoritarian_conservative
+			set_country_flag = coalition_right_wing_populist
+			set_country_flag = coalition_national_syndicalist
+			set_country_flag = coalition_national_corporatist
+			remove_unit_leader = 100
+			remove_unit_leader = 103
+			remove_unit_leader = 103
+			remove_unit_leader = 110
+			
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.01
+			}
+		}
+		swap_ideas = {
+			remove_idea = GRE_Divided_Military
+			add_idea = GRE_Divided_Military_less
+		}
+	}
+}
+
+country_event = { # Planned Coup - Failure
+	id = grecoups.3
+	title = grecoups.3.t
+	desc = {
+		text = grecoups.3.desc.kfcp
+		trigger = {
+			has_government = liberal_conservative
+		}
+	}
+	desc = {
+		text = grecoups.3.desc.pfcp
+		trigger = {
+			has_government = social_conservative
+		}
+	}
+	picture = GFX_GRE_Kondylis_Plastiras
+
+	is_triggered_only = yes
+	
+	option = {
+		name = grecoups.3.a
+		if = {
+			limit = {
+				has_country_flag = GRE_1933_monarchists
+			}
+			clr_country_flag = GRE_1933_monarchists
+			set_country_flag = GRE_failure_venizelists
+			remove_unit_leader = 100
+			remove_unit_leader = 103
+			remove_unit_leader = 103
+			remove_unit_leader = 110
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.01
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = GRE_1933_venizelists
+			}
+			clr_country_flag = GRE_1933_venizelists
+			set_country_flag = GRE_failure_conservatives
+			remove_unit_leader = 101
+			remove_unit_leader = 102
+			remove_unit_leader = 104
+			remove_unit_leader = 105
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.01
+			}
+		}
+		swap_ideas = {
+			remove_idea = GRE_Divided_Military
+			add_idea = GRE_Divided_Military_less
+		}
+	}
+}
+
+country_event = { # Coup Infiltration Decision event
+	id = grecoups.4
+
+	trigger = {
+		has_active_mission = GRE_execute_the_coup
+		check_variable = {
+			var = gre_gov_suspicion
+			value = 30
+			compare = greater_than_or_equals
+		}
+	}
+
+	hidden = yes
+
+	option = {
+		name = grecoups.4.a
+		activate_mission = GRE_infiltrate_the_other_faction
+	}
+}
+
+country_event = { # Gov Susp
+	id = grecoups.5
+	title = grecoups.5.t
+	desc = grecoups.5.desc
+	picture = GFX_GRE_Kondylis_Plastiras
+
+	trigger = {
+		has_active_mission = GRE_execute_the_coup
+		check_variable = {
+			var = gre_gov_suspicion
+			value = 95
+			compare = greater_than_or_equals
+		}
+		check_variable = {
+			var = gre_gov_suspicion
+			value = 70
+			compare = greater_than_or_equals
+		}
+	}
+
+	option = {
+		name = grecoups.5.a
+		if = {
+			limit = {
+				has_country_flag = GRE_1933_monarchists
+			}
+			clr_country_flag = GRE_1933_monarchists
+			set_country_flag = GRE_failure_venizelists
+			remove_unit_leader = 100
+			remove_unit_leader = 103
+			remove_unit_leader = 103
+			remove_unit_leader = 110
+			add_popularity = {
+				ideology = social_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = -0.01
+			}
+		}
+		else_if = {
+			limit = {
+				has_country_flag = GRE_1933_venizelists
+			}
+			clr_country_flag = GRE_1933_venizelists
+			set_country_flag = GRE_failure_conservatives
+			remove_unit_leader = 101
+			remove_unit_leader = 102
+			remove_unit_leader = 104
+			remove_unit_leader = 105
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_democrat
+				popularity = 0.01
+			}
+			add_popularity = {
+				ideology = social_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative
+				popularity = -0.02
+			}
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = -0.01
+			}
+		}
+		swap_ideas = {
+			remove_idea = GRE_Divided_Military
+			add_idea = GRE_Divided_Military_less
+		}
+	}
+}
+
+news_event = { # Assasination Attempt
+	id = gre.3
+	title = gre.3.t
+	desc = {
+		text = gre.3.desc.pan
+		trigger = {
+			has_government = liberal_conservative
+		}
+	}
+	desc = {
+		text = gre.3.desc.ven
+		trigger = {
+			has_government = social_conservative
+		}
+	}
+	picture = GFX_GRE_Assasination_Attempt
+
+	is_triggered_only = yes
+
+	option = {
+		name = gre.3.a
+		add_political_power = -5
+	}
+}

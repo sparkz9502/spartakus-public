@@ -1,0 +1,61 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+#flavor
+
+crnagoraflavor.1.t:0 "King Danilo Sues Metro-Goldwyn-Mayer"
+crnagoraflavor.1.d:0 "Ernst Lubitsch's 'The Merry Widow', a movie scheduled to release later this year, has just been hit by a $4000 lawsuit by none other than the King of Montenegro. The film supposedly depicts 'Prince Danilo of Montenegro' seducing a commoner and then rejecting her because it could impoverish the royal treasury. He then regrets his actions and tries to win her back, but fails to convince her of his true love. The film bears no relation to reality. Danilo considers this an attack on his image regardless, and demands reshooting and compensation."
+crnagoraflavor.1.a:0 "Nothing we can do about it..."
+crnagoraflavor.2.t:0 "MGM Lawsuit Successful"
+crnagoraflavor.2.d:0 "It appears that the court is on our royalty's side. 'The Merry Widow' is to be re-shot. In addition to demoting the Prince to a Captain, the date of the action was changed from 1905 to 1885, when the real Prince was a young boy. And of course, the lawsuit money is ours."
+crnagoraflavor.2.a:0 "Okay...?"
+crnagoraflavor.3.t:0 "MGM Lawsuit Fails!"
+crnagoraflavor.3.d:0 "The Parisian court has ruled out allegations of slander against the king. The lawsuit is going to be dropped, and 'The Merry Widow' is to be released without any alterations to the original script."
+crnagoraflavor.3.a:0 "If Montenegro can't even sue a film studio, what power does it have?"
+
+#regular
+
+crnagora.1.t:0 "Kotor is Vulnerable"
+crnagora.1.d:0 "The rightfully Montenegrin gulf of Kotor for which we have fought valiantly during the Great War has been under Italian puppet control for years. Now that Illyria is in strife, the strategically important port there is also threatened. As we are closely aligned to them, the Italians wouldn't mind if we took it for it's own apparent good."
+crnagora.1.a:0 "Take it..."
+
+###Parties###
+
+MNT_bolshevist_party:0 "KPJ"
+MNT_bolshevist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+MNT_spartacist_party:0 "KPJ"
+MNT_spartacist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+MNT_revolutionary_socialist_party:0 "KPJ"
+MNT_revolutionary_socialist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+MNT_reformist_socialist_party:0 "SPJ"
+MNT_reformist_socialist_party_long:0 "Socialist Party of Yugoslavia (Socijalistička Partija Jugoslavije)"
+MNT_social_democrat_party:0 "DS"
+MNT_social_democrat_party_long:0 "Democratic Party (Demokratska Stranka)"
+MNT_social_liberal_party:0 "DS"
+MNT_social_liberal_party_long:0 "Democratic Party (Demokratska Stranka)"
+MNT_liberal_conservative_party:0 "-"
+MNT_liberal_conservative_party_long:0 "-"
+MNT_social_conservative_party:0 "Bjelaši"
+MNT_social_conservative_party_long:0 "Whites (Bjelaši)"
+MNT_authoritarian_conservative_party:0 "Zelenaši"
+MNT_authoritarian_conservative_party_long:0 "Greens (Zelenaši)"
+MNT_right_wing_populist_party:0 "Bjelaši"
+MNT_right_wing_populist_party_long:0 "Whites (Bjelaši)"
+MNT_national_syndicalist_party:0 "Zelenaški Ekstremisti"
+MNT_national_syndicalist_party_long:0 "Greens Extremists (Zelenaški Ekstremisti)"
+MNT_national_corporatist_party:0 "Zelenaški Ekstremisti"
+MNT_national_corporatist_party_long:0 "Greens Extremists (Zelenaški Ekstremisti)"
+
+### Focuses ###
+
+### Ideas ###
+
+MNT_Montenegrin_Militarism:0 "Montenegrin Militarism"
+MNT_Montenegrin_Militarism_desc:0 "Montenegro has always been a thorn in the eye of powers such as the Ottomans seeking to conquer it, well-protected by it's harsh terrain and strong tribes. Even in the 20th century, it had been capable of fielding a, relatively to its size, gargantuan army in the Great War, and could possibly do so again under future pressure."
+     
+### Flags ###
+
+### Tooltips ###

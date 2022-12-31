@@ -1,0 +1,35 @@
+
+state={
+	id=29
+	name="STATE_29"
+	resources={
+		coal=38.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			arms_factory = 2
+			11606 = {
+				bunker = 1
+			}
+		}
+		victory_points = {
+			11483 20 
+		}
+		victory_points = {
+			11606 6 
+		}
+
+	}
+
+	provinces={
+		7712 11483 11606 
+	}
+	manpower=1769400
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

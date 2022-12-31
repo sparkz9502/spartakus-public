@@ -1,0 +1,31 @@
+
+state={
+	id=1245
+	name="STATE_1245"
+
+	history={
+		owner = SOV
+		victory_points = {
+			3653 2 
+		}
+		buildings = {
+			infrastructure = 2
+			3653 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = SOV
+		add_claim_by = OTT
+		
+
+	}
+
+	provinces={
+		3653 
+	}
+	manpower=154000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

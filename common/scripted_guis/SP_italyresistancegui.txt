@@ -1,0 +1,405 @@
+scripted_gui = {
+
+	italy_resistance_map = {
+		context_type = player_context
+		window_name = "italy_resistance_gui"
+		visible = { 
+			is_ai = no
+			tag = ITA
+			NOT = {
+				OR = {
+					has_global_flag = ITA_civil_war_ongoing
+					has_global_flag = ITA_civil_war_over
+				}
+			}
+			has_country_flag = italy_resistance_gui
+		}
+		
+		effects = {
+			resistance_gui_close_button_click = {
+				clr_country_flag = italy_resistance_gui
+			}
+		}
+		
+		dirty = italy_resistance_gui_update
+		
+		triggers = {
+			abruzzimolise_green_visible = {
+				var = abruzzimolise_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			abruzzimolise_yellow_visible = {
+				check_variable = {
+					var = abruzzimolise_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = abruzzimolise_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			abruzzimolise_red_visible = {
+				check_variable = {
+					var = abruzzimolise_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			emiliaromagna_green_visible = {
+				var = emiliaromagna_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			emiliaromagna_yellow_visible = {
+				check_variable = {
+					var = emiliaromagna_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = emiliaromagna_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			emiliaromagna_red_visible = {
+				check_variable = {
+					var = emiliaromagna_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			lazioumbria_green_visible = {
+				var = lazioumbria_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			lazioumbria_yellow_visible = {
+				check_variable = {
+					var = lazioumbria_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = lazioumbria_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			lazioumbria_red_visible = {
+				check_variable = {
+					var = lazioumbria_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			liguria_green_visible = {
+				var = liguria_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			liguria_yellow_visible = {
+				check_variable = {
+					var = liguria_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = liguria_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			liguria_red_visible = {
+				check_variable = {
+					var = liguria_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			lombardia_green_visible = {
+				var = lombardia_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			lombardia_yellow_visible = {
+				check_variable = {
+					var = lombardia_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = lombardia_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			lombardia_red_visible = {
+				check_variable = {
+					var = lombardia_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			marche_green_visible = {
+				var = marche_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			marche_yellow_visible = {
+				check_variable = {
+					var = marche_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = marche_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			marche_red_visible = {
+				check_variable = {
+					var = marche_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			piemonte_green_visible = {
+				var = piemonte_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			piemonte_yellow_visible = {
+				check_variable = {
+					var = piemonte_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = piemonte_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			piemonte_red_visible = {
+				check_variable = {
+					var = piemonte_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			sardegna_green_visible = {
+				var = sardegna_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			sardegna_yellow_visible = {
+				check_variable = {
+					var = sardegna_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = sardegna_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			sardegna_red_visible = {
+				check_variable = {
+					var = sardegna_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			sicilia_green_visible = {
+				var = sicilia_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			sicilia_yellow_visible = {
+				check_variable = {
+					var = sicilia_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = sicilia_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			sicilia_red_visible = {
+				check_variable = {
+					var = sicilia_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			toscana_green_visible = {
+				var = toscana_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			toscana_yellow_visible = {
+				check_variable = {
+					var = toscana_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = toscana_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			toscana_red_visible = {
+				check_variable = {
+					var = toscana_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			veneto_green_visible = {
+				var = veneto_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			veneto_yellow_visible = {
+				check_variable = {
+					var = veneto_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = veneto_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			veneto_red_visible = {
+				check_variable = {
+					var = veneto_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			veneziagiulia_green_visible = {
+				var = veneziagiulia_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			veneziagiulia_yellow_visible = {
+				check_variable = {
+					var = veneziagiulia_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = veneziagiulia_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			veneziagiulia_red_visible = {
+				check_variable = {
+					var = veneziagiulia_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+			
+			veneziatridentina_green_visible = {
+				var = veneziatridentina_resistance
+					check_variable = {
+					value = 3
+					compare = less_than_or_equals
+				}
+			}
+			veneziatridentina_yellow_visible = {
+				check_variable = {
+					var = veneziatridentina_resistance
+					value = 4
+					compare = greater_than_or_equals
+				}
+				check_variable = {
+					var = veneziatridentina_resistance
+					value = 7
+					compare = less_than_or_equals
+				}
+			}
+			veneziatridentina_red_visible = {
+				check_variable = {
+					var = veneziatridentina_resistance
+					value = 8
+					compare = greater_than_or_equals
+				}
+			}
+		}
+	}
+	
+	italy_resistance_map_open = {
+		context_type = player_context
+		window_name = "italy_resistance_gui_open"
+		parent_window_token = politics_tab
+		
+		visible = {
+			is_ai = no
+			tag = ITA
+			NOT = {
+				OR = {
+					has_global_flag = ITA_civil_war_ongoing
+					has_global_flag = ITA_civil_war_over
+				}
+			}
+		}
+		
+		effects = {
+			resistance_gui_open_button_click = {
+				set_country_flag = italy_resistance_gui
+				add_to_variable = { italy_resistance_gui_update = 1 }
+			}
+		}
+	}
+	
+}
+

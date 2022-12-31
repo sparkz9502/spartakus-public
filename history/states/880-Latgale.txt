@@ -1,0 +1,29 @@
+
+state={
+	id=880
+	name="STATE_880"
+
+	history={
+		owner = LIV
+		victory_points = {
+			310 3 
+		}
+		victory_points = {
+			222 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		add_core_of = LIV
+		add_core_of = LAT
+
+	}
+
+	provinces={
+		222 310 319 341 6459 7482 9275 15171 
+	}
+	manpower=630230
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

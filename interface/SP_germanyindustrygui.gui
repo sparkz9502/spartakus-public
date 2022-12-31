@@ -1,0 +1,39 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "germany_industry_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height=65 }
+
+		instantTextBoxType = {
+			name ="GER_industry_header"
+			position = { x = 75 y = 0 }
+			font = "hoi_36header"
+			text = "GER_industry_header"
+			format = center
+			maxWidth = 350
+		}
+		
+		instantTextBoxType = {
+			name ="GER_industry_text"
+			position = { x = 25 y = 30 }
+			font = "hoi_30header"
+			text = "GER_industry_text"
+			format = center
+			maxWidth = 450
+		}
+		
+		iconType = {
+			name ="GER_factory_icon"
+			spriteType = "GFX_endgame_industry_button"
+			position = { x= 55	 y = 0 }
+		}
+		
+		iconType = {
+			name ="GER_factory_icon_2"
+			spriteType = "GFX_endgame_civ_industry_button"
+			position = { x= 390	 y = 0 }
+		}
+
+	}
+}

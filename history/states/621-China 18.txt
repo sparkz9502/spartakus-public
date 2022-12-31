@@ -1,0 +1,29 @@
+
+state={
+	id=621
+	name="STATE_621"
+	
+	resources={
+		iron=2
+	}
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			4525 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4525 7048 12331 
+	}
+	manpower=767600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

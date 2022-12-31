@@ -1,0 +1,26 @@
+
+state={
+	id=870
+	name="STATE_870"
+
+	history={
+		owner = CNR
+		add_core_of = CNR
+		add_core_of = BRD
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			2220 1 
+		}
+
+	}
+
+	provinces={
+		2220 14681 
+	}
+	manpower=2013000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,759 @@
+ideas = {
+
+################################################################################################################################################################################################
+### BOS
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	BOS_Djuro_Pucar_hog_spa = {
+		allowed = {
+			OR = {
+				original_tag = BOS
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = BOS
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Mehmed_Spaho_hog_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Vladimir_Corovic_hog_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Vladimir_Laxa_hog_aco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Dzafer_beg_Kulenovic_hog_rwp = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	BOS_Veselin_Maslesa_for_spa = {
+		allowed = {
+			OR = {
+				original_tag = BOS
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = BOS
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Ivo_Andric_for_sli = {
+		allowed = {
+			OR = {
+				original_tag = BOS
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = BOS
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Dzemaludin_ef_Causevic_for_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Jovan_Ducic_for_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Dzafer_beg_Kulenovic_for_rwp = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Mehmed_Alajbegovic_for_nsy = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	BOS_Avdo_Humo_eco_spa = {
+		allowed = {
+			OR = {
+				original_tag = BOS
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = BOS
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Dimitrije_Mitrinovic_eco_lco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Barisa_Smoljan_eco_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Mehmed_Spaho_eco_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Osman_Vilovic_eco_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Nikola_Mandic_eco_rwp = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Nesad_Topcic_eco_nsy = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	BOS_Dzemal_Bijedic_sec_spa = {
+		allowed = {
+			OR = {
+				original_tag = BOS
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = BOS
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Nurija_Pozderac_sec_sde = {
+		allowed = {
+			OR = {
+				original_tag = BOS
+				original_tag = SER
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		visible = {
+			OR = {
+				original_tag = BOS
+				has_country_flag = Is_Yugoslavia
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	BOS_Ibrahim_ef_Fejic_sec_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Ivo_Andric_sec_sli = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Danilo_Dimovic_sec_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Fehim_ef_Spaho_sec_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Halid_beg_Hrasnica_sec_sco = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Hakija_Hadzic_sec_nsy = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	BOS_Rodoljub_Colakovic_def_spa = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Ibrahim_Pjanic_def_rwp = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Muhamed_Hadziefendic_def_rwp = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Hakija_Hadzic_def_nsy = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	BOS_Sulejman_Filipovic_cos = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Ibrahim_Pjanic_cos = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Ivan_Markulj_cos = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	BOS_Vlado_Segrt_carm = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Georg_Dragicevic_carm = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Muhamed_Hadziefendic_carm = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	BOS_Josip_Mazar_cnav = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Georg_Dragicevic_cnav = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Muhamed_Hadziefendic_cnav = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	BOS_Rudi_Cajavec_cair = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Franjo_Dzal_cair = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BOS_Cvitan_Galic_cair = {
+		allowed = {original_tag = BOS}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

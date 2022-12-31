@@ -1,0 +1,49 @@
+﻿l_english:
+
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+EST_war_warning_tt:0 "§RThis will mean war with Livonia. Troops will be deployed to aid in the conflict. This is very risky and will result in our annexation if we lose.\n§!"
+
+EST_no_war_warning_tt:0 "§RThis will mean remaining a loyal subject to Livonia. There may never be another opportunity to free yourself, so choose wisely.\n§!"
+
+# Ideas
+
+EST_subordinate_to_livonia:0 "Subordinate to Livonia"
+EST_vaps_movement:0 "Vaps Movement"
+
+# Focuses
+
+# Traits
+
+### Parties ###
+
+EST_bolshevist_party:0 "BKP"
+EST_bolshevist_party_long:0 "Baltic Communist Party (Balti Kommunistlik Partei)"
+EST_spartacist_party:0 "BKP"
+EST_spartacist_party_long:0 "Baltic Communist Party (Balti Kommunistlik Partei)"
+EST_revolutionary_socialist_party:0 "BKP"
+EST_revolutionary_socialist_party_long:0 "Baltic Communist Party (Balti Kommunistlik Partei)"
+EST_reformist_socialist_party:0 "EISTP"
+EST_reformist_socialist_party_long:0 "Estonian Independent Socialist Workers' Party (Eesti Iseseisev Sotsialistlik Tööliste Partei)"
+EST_social_democrat_party:0 "ESDTP"
+EST_social_democrat_party_long:0 "Estonian Social Democratic Workers' Party (Eesti Sotsiaaldemokraatiline Tööliste Partei)"
+EST_social_liberal_party:0 "PAVK"
+EST_social_liberal_party_long:0 "Farmers', Settlers' and Smallholders' Group (Pöllumeeste, Asunikkude ja Väikemaapidajate Koondis)"
+EST_liberal_conservative_party:0 "PK"
+EST_liberal_conservative_party_long:0 "Farmers' Assemblies (Põllumeeste Kogud)"
+EST_social_conservative_party:0 "RKE"
+EST_social_conservative_party_long:0 "National Centre Party (Rahvuslik Keskerakond)"
+EST_authoritarian_conservative_party:0 "Isamaaliit"
+EST_authoritarian_conservative_party_long:0 "Patriotic League (Isamaaliit)"
+EST_right_wing_populist_party:0 "RNSE"
+EST_right_wing_populist_party_long:0 "Russian National Union in Estonia (Russkiy Natsional'nyy Soyuz v Estonii)"
+EST_national_syndicalist_party:0 "DBPE"
+EST_national_syndicalist_party_long:0 "German-Baltic Party in Estonia (Deutsch-Baltische Partei in Estland)"
+EST_national_corporatist_party:0 "EVKL"
+EST_national_corporatist_party_long:0 "Union of Participants in the Estonian War of Independence (Eesti Vabadussõjalaste Keskliit)"
+
+# Opinion Modifiers

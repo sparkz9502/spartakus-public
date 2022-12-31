@@ -1,0 +1,34 @@
+
+state={
+	id=219
+	name="STATE_219"
+	resources={
+		coal=8.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			6380 30 
+		}
+		victory_points = {
+			6414 20 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 8
+
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		6380 6414 
+	}
+	manpower=3421000
+	buildings_max_level_factor=1.000
+	state_category=megalopolis
+}

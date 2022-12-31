@@ -1,0 +1,172 @@
+add_namespace = NAN
+
+### Intros ###
+
+country_event = { # menu
+	id = NAN.1
+	title = NAN.1.t
+	desc = NAN.1.d
+	#picture = NAN_CRB_establish_CRB
+	
+	is_triggered_only = yes
+	
+	option = { # inner factions
+		name = NAN.1.a 
+		country_event = { id = NAN.2 }
+	}
+	option = { # relations with other warlords
+	name = NAN.1.b
+		country_event = { id = NAN.3 }
+	}
+	option = { # exit
+	name = NAN.1.c
+	}
+}
+
+country_event = { # inner factions
+	id = NAN.2
+	title = NAN.2.t
+	desc = NAN.2.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # back to menu
+		name = NAN.2.a 
+		country_event = { id = NAN.1 }
+	}
+	option = { # exit
+	name = NAN.2.b
+	}
+}
+
+country_event = { # relations with warlords
+	id = NAN.3
+	title = NAN.3.t
+	desc = NAN.3.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # back to menu
+		name = NAN.3.a 
+		country_event = { id = NAN.1 }
+	}
+	option = { # exit
+	name = NAN.3.b
+	}
+}
+
+### Arson & Labor law reformation - needs to be rework
+
+country_event = { # a weird Strike
+	id = NAN.100
+	title = NAN.100.t
+	desc = NAN.100.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # concede temporarily
+		name = NAN.100.a 
+	}
+	option = { # supress it
+	name = NAN.100.b
+}
+}
+
+country_event = { # Unexcepted Arson - concede
+	id = NAN.101
+	title = NAN.101.t
+	desc = NAN.101.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = NAN.101.a
+	}
+}
+
+country_event = { # Unexcepted Arson - supress
+	id = NAN.102
+	title = NAN.102.t
+	desc = NAN.102.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = NAN.102.a
+	}
+}
+
+country_event = { # investigation - collecting evidences
+	id = NAN.103
+	title = NAN.103.t
+	desc = NAN.103.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = NAN.103.a
+	}
+}
+
+country_event = { # investigation - deadlock
+	id = NAN.104
+	title = NAN.104.t
+	desc = NAN.104.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # frame Wuhan
+		name = NAN.104.a
+	}
+	option = { # frame Hu Hanmin
+		name = NAN.104.b
+	}
+
+}
+
+country_event = { # restart order
+	id = NAN.105
+	title = NAN.105.t
+	desc = NAN.105.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = NAN.105.a
+	}
+}
+
+
+country_event = { # solution
+	id = NAN.106
+	title = NAN.106.t
+	desc = NAN.106.d
+	#picture = NAN_CRB_establish_CRB
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = { # strengthen KMT's power
+		name = NAN.106.a
+	}
+	option = { # cooperate with captialists
+		name = NAN.106.a
+	}
+
+}

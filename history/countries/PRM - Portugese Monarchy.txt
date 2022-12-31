@@ -1,0 +1,91 @@
+﻿capital = 180
+
+set_oob = "PRM"
+
+recruit_character = PRM_manuel_ii
+recruit_character = PRM_henrique_mitchell_de_paiva_couceiro
+recruit_character = PRM_tomás_antónio_garcia_rosado
+recruit_character = PRM_josé_augusto_alves_roçadas
+recruit_character = PRM_josé_norton_de_matos
+recruit_character = PRM_eugénio_castro_de_menezes
+recruit_character = PRM_josé_adriano_pequito_rebelo
+recruit_character = PRM_francisco_rolão_preto
+recruit_character = PRM_manuel_sarmento_rodrigues
+recruit_character = PRM_joão_do_canto_e_castro
+recruit_character = PRM_américo_rodrigues_tomás
+recruit_character = PRM_teodoro_rodrigues
+recruit_character = PRM_tiago_vidigal
+recruit_character = PRM_pascoal_da_cunha
+recruit_character = PRM_mário_de_oliveira
+
+
+add_ideas = {
+	recruitment_1825
+	governance_abs
+	trade_pro
+	economy_indzing
+	mobilization_2
+	
+	POR_divided_country
+	PRM_restoration
+	POR_illiteracy
+	POR_Henrique_Mitchell_de_Paiva_Cabral_Couceiro_hog_rwp
+	POR_Luis_Almeida_Braga_for_rwp
+	POR_Jose_Hipolito_Vaz_Raposo_eco_nsy
+	POR_Afonso_Lucas_sec_sco
+	POR_Antonio_De_Oliveira_Salazar_def_ncp
+	POR_JA_Silva_Bastos_cos_ade
+	POR_JBarros_Rodrigues_carm_rwp
+	POR_Jaime_Afreixo_cnav_ade
+	POR_Ortins_Bettencourt_cair_ade
+}
+
+set_research_slots = 3
+
+set_technology = {
+	
+	infantry_weapons = 1
+	tech_support = 1	
+	gw_artillery = 1
+	early_fighter = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	CAS1 = 1
+}
+
+set_politics = {	
+	ruling_party = right_wing_populist
+	last_election = "1888.1.1"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 2
+    spartacist = 10
+    revolutionary_socialist = 12
+    reformist_socialist = 5
+    social_democrat = 8
+    social_liberal = 4
+    liberal_conservative = 3
+    social_conservative = 9
+    authoritarian_conservative = 17
+    right_wing_populist = 11
+    national_syndicalist = 14
+    national_corporatist = 5
+}
+
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_authoritarian_conservative
+set_country_flag = coalition_national_syndicalist
+set_country_flag = coalition_national_corporatist
+
+set_country_flag = banned_bolshevist
+set_country_flag = banned_spartacist
+set_country_flag = banned_revolutionary_socialist
+set_country_flag = banned_reformist_socialist
+
+set_convoys = 25
+set_stability = 0.1
+set_war_support = 0.45

@@ -1,0 +1,23 @@
+state=
+{
+	id=337
+	name="STATE_337"
+	manpower = 24000
+	
+	state_category = tiny_island
+	
+	history={
+		owner = DEN
+		victory_points = {
+			13003 1
+		}
+		buildings = {
+			infrastructure = 1
+			13003 = {
+				naval_base = 1
+			}
+		}
+		add_core_of = DEN
+	}
+	provinces= { 13003 }
+}

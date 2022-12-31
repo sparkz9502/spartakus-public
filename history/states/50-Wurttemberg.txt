@@ -1,0 +1,54 @@
+
+state={
+	id=50
+	name="STATE_50"
+	resources={
+		iron=5
+	}
+
+	history={
+		owner = WUR
+		add_core_of = WUR
+		add_claim_by = GER
+		victory_points = {
+			9517 20 
+		}
+		victory_points = {
+			11499 2 
+		}
+		victory_points = {
+			6555 1 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+			9545 = {
+				bunker = 2
+			}
+			11499 = {
+				bunker = 3
+			}
+			3690 = {
+				bunker = 2
+			}
+			9655 = {
+				bunker = 2
+			}
+			6934 = {
+				bunker = 2
+			}
+			9517 = {
+				bunker = 3
+			}
+		}
+	}
+
+	provinces={
+		519 694 3690 6555 6934 9517 9545 9655 11486 11499 13563 13567 
+	}
+	manpower=3080200
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

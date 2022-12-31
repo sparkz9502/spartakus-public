@@ -1,0 +1,21 @@
+state={
+	id=1039
+	name="STATE_1039"
+	provinces={
+		6763 
+	}
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		#add_core_of = AZR
+		#add_core_of = GEO
+
+	}
+	manpower=43000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

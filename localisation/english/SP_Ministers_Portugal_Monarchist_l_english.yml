@@ -1,0 +1,87 @@
+﻿l_english:
+
+### Head of Government ###
+PRM_Henrique_Mitchell_de_Paiva_Cabral_Couceiro_hog_rwp:0 "Henrique Mitchell de Paiva Cabral Couceiro"
+PRM_Maria_Adelaide_de_Braganza_hog_rwp:0 "Maria Adelaide de Bragança"
+PRM_Alberto_Monsaraz_hog_nsy:0 "Alberto Monsaraz"
+PRM_Francisco_Rolao_Preto_hog_nsy:0 "Francisco Rolão Preto"
+PRM_Antonio_De_Oliveira_Salazar_hog_ncp:0 "Antonio De Oliveira Salazar"
+PRM_Antonio_Lopes_Mateus_hog_ncp:0 "António Lopes Mateus"
+PRM_Jaime_Afreixo_hog_ncp:0 "Jaime Afreixo"
+
+### Foreign Minister ###
+PRM_Alfonso_Costa_for_sco:0 "Alfonso Costa"
+PRM_DFezas_Vital_for_sco:0 "D.Fezas Vital"
+PRM_Quintao_Meireles_for_sco:0 "Quintão Meireles"
+PRM_Abel_de_Abreu_Sotto_Mayor_for_aco:0 "Abel de Abreu Sotto Mayor"
+PRM_Alfredo_Pimenta_for_aco:0 "Alfredo Pimenta"
+PRM_Jose_Caeiro_da_Mata_for_aco:0 "José Caeiro da Mata"
+PRM_Paulo_Cunha_for_aco:0 "Paulo Cunha"
+PRM_Xavier_Cordeiro_for_aco:0 "Xavier Cordeiro"
+PRM_Luis_Almeida_Braga_for_rwp:0 "Luis Almeida Braga"
+PRM_Maria_Adelaide_de_Braganza_for_rwp:0 "Maria Adelaide de BraganÇa"
+PRM_Martinho_Nobre_de_Melo_for_rwp:0 "Martinho Nobre de Melo"
+PRM_Afonso_Lopes_Vieira_for_nsy:0 "Afonso Lopes Vieira"
+PRM_Jose_Adriano_Pequito_Rebelo_for_nsy:0 "José Adriano Pequito Rebelo"
+PRM_Antonio_De_Oliveira_Salazar_for_ncp:0 "Antonio De Oliveira Salazar"
+PRM_Ruy_Ulrich_for_ncp:0 "Ruy Ulrich"
+
+### Economy Minister ###
+PRM_Antonio_M_B_Ferreira_eco_sco:0 "Antonio M. B. Ferreira"
+PRM_Joao_Chagas_eco_sco:0 "João Chagas"
+PRM_Vasco_Carvalho_eco_sco:0 "Vasco Carvalho"
+PRM_Antonio_Sardinho_eco_aco:0 "Antonio Sardinho"
+PRM_Armindo_Monteiro_eco_aco:0 "Armindo Monteiro"
+PRM_Joao_Nunes_Costa_eco_aco:0 "Joao Nunes Costa"
+PRM_Raul_Brandao_eco_aco:0 "Raul Brandao"
+PRM_Henrique_Mitchell_Paiva_Couceiro_eco_rwp:0 "Henrique Mitchell Paiva Couceiro"
+PRM_Joao_de_Almeida_eco_rwp:0 "João de Almeida"
+PRM_Jose_Hipolito_Vaz_Raposo_eco_rwp:0 "José Hipólito Vaz Raposo"
+PRM_Jose_Norton_de_Matos_eco_rwp:0 "José Norton de Matos"
+PRM_Julio_da_Costa_Pinto_eco_rwp:0 "Julio da Costa Pinto"
+PRM_Alberto_Monsaraz_eco_nsy:0 "Alberto Monsaraz"
+PRM_Jose_Hipolito_Vaz_Raposo_eco_nsy:0 "José Hipólito Vaz Raposo"
+
+### Security Minister ###
+PRM_Afonso_Lucas_sec_sco:0 "Afonso Lucas"
+PRM_Alfredo_Pimenta_sec_aco:0 "Alfredo Pimenta"
+PRM_Henrique_Galvao_sec_aco:0 "Henrique Galvao"
+PRM_JCosta_Leite_sec_aco:0 "J.Costa Leite"
+PRM_Martinho_Nobre_Melo_sec_aco:0 "Martinho Nobre Melo"
+PRM_Mario_Pais_Sousa_sec_aco:0 "Mario Pais Sousa"
+PRM_JBotelho_Moniz_sec_rwp:0 "J.Botelho Moniz"
+PRM_Jose_Hipolito_Vaz_Raposo_sec_rwp:0 "José Hipólito Vaz Raposo"
+PRM_Francisco_Rolao_Preto_sec_nsy:0 "Francisco Rolão Preto"
+PRM_Jose_Hipolito_Vaz_Raposo_sec_nsy:0 "José Hipólito Vaz Raposo"
+PRM_Antonio_De_Oliveira_Salazar_sec_ncp:0 "Antonio De Oliveira Salazar"
+
+### Defence Minister ###
+PRM_Augusto_Vasconcellos_def_aco:0 "Augusto Vasconcellos"
+PRM_Joao_Pereira_Bastos_def_aco:0 "Joao Pereira Bastos"
+PRM_Julio_Dantas_def_aco:0 "Julio Dantas"
+PRM_Pedro_Teotonio_Pereira_def_aco:0 "Pedro Teotónio Pereira"
+PRM_Joao_de_Almeida_def_rwp:0 "João de Almeida"
+PRM_Luis_Carlos_de_Lima_de_Almeida_Braga_def_nsy:0 "Luís Carlos de Lima de Almeida Braga"
+PRM_Antonio_De_Oliveira_Salazar_def_ncp:0 "Antonio De Oliveira Salazar"
+
+### Chief of Staff ###
+PRM_Raul_Brandao_cos:0 "Raul Brandao"
+PRM_Eduardo_A_Marques_cos:0 "Eduardo A. Marques"
+PRM_JA_Silva_Bastos_cos:0 "J.A. Silva Bastos"
+PRM_Tasso_Miranda_Cabral_cos:0 "Tasso Miranda Cabral"
+
+### Chief of Army ###
+PRM_JA_Lobato_Guerra_carm:0 "J.A. Lobato Guerra"
+PRM_JBarros_Rodrigues_carm:0 "J.Barros Rodrigues"
+PRM_Rolao_Pretea_carm:0 "Rolao Pretea"
+PRM_Jose_Norton_de_Matos_carm:0 "J.M. Norton Matos"
+
+### Chief of Navy ###
+PRM_Quintao_Meireles_cnav:0 "Quintão Meireles"
+PRM_Americo_Deus_Tomas_cnav:0 "Americo Deus Tomas"
+PRM_Jaime_Afreixo_cnav:0 "Jaime Afreixo"
+
+### Chief of Air Force ###
+PRM_Manuel_Gouveia_cair:0 "Manuel Gouveia"
+PRM_Ortins_Bettencourt_cair:0 "Ortins Bettencourt"
+PRM_Jose_Adriano_Pequito_Rebelo_cair:0 "José Adriano Pequito Rebelo"

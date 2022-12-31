@@ -1,0 +1,13 @@
+BOS_internal = {
+
+	BOS_internal_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = BOSinternal.0
+		}
+	}
+	
+}

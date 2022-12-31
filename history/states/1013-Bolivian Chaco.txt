@@ -1,0 +1,24 @@
+state={
+	id=1013
+	name="STATE_1013"
+	provinces={
+		12916 13257 13690 13694 13697 13699 13700 13701 13702 13703 
+	}
+	resources={
+	}
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = PAR
+		victory_points = {
+			13694 1
+		}
+
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

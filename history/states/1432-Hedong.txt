@@ -1,0 +1,28 @@
+
+state={
+	id=1432
+	name="STATE_1432"
+	resources={
+		coal=3.000
+	}
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		victory_points = {
+			7571 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1034 1575 4634 7571 
+	}
+	manpower=1658900
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

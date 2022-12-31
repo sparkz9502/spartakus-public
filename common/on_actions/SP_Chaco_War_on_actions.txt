@@ -1,0 +1,71 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			PAR = {
+				#intro
+				country_event = { id = chacowar.1 days = 3 }
+			}
+			BOL = {
+				#intro
+				country_event = { id = chacowar.1 days = 3 }
+				#war event chain
+				country_event = { id = chacowar.2 days = 165 }
+			}
+		}
+    }
+	
+	#ROOT is new controller #FROM is old controller #FROM.FROM is state ID
+	on_state_control_changed = {
+		effect = {
+            if = { #Bolivian Victory
+                limit = {
+                    has_global_flag = SP_Chaco_War_Active
+					ROOT = {
+						tag = BOL
+						controls_state = 1014
+					}
+					FROM = { tag = PAR }
+					FROM.FROM = { state = 1014 }
+				}
+				white_peace = PAR
+				clr_global_flag = SP_Chaco_War_Active
+				BOL = {
+					transfer_state = 1014
+					country_event = chacowar.8
+				}
+				PAR = {
+					country_event = chacowar.8
+				}
+			}
+			else_if = { #Paraguayan Victory
+				limit = {
+                    has_global_flag = SP_Chaco_War_Active
+					ROOT = {
+						tag = PAR
+						controls_state = 688
+						controls_state = 1013
+					}
+					FROM = { tag = BOL }
+					FROM.FROM = { 
+						OR = {
+							state = 688
+							state = 1013
+						}
+					}
+				}
+				white_peace = BOL
+				clr_global_flag = SP_Chaco_War_Active
+				PAR = {
+					transfer_state = 688
+					transfer_state = 1013
+					country_event = chacowar.9
+				}
+				BOL = {
+					country_event = chacowar.9
+				}
+			}
+		}
+	}
+}
+
+

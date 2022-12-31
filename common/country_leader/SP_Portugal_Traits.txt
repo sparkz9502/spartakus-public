@@ -1,0 +1,13 @@
+###################
+#Portuguese Traits#
+###################
+
+leader_traits = {
+
+	POR_apprehensive_monarch = {
+		random = no
+		war_support_factor = -0.05
+		political_power_factor = -0.03
+	}
+
+}

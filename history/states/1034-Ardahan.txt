@@ -1,0 +1,29 @@
+
+state={
+	id=1034
+	name="STATE_1034"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			11753 = {
+				bunker = 2
+
+			}
+
+		}
+		add_core_of = SOV
+		add_claim_by = OTT
+		add_claim_by = ARM
+
+	}
+
+	provinces={
+		7454 10403 11753 
+	}
+	manpower=120643
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

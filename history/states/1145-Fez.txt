@@ -1,0 +1,29 @@
+
+state={
+	id=1145
+	name="STATE_1145"
+
+	history={
+		owner = MOR
+		add_core_of = MOR
+		victory_points = {
+			14453 5 
+		}
+		victory_points = {
+			14508 1 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		989 1111 1126 4154 7008 7958 11939 12760 14422 14437 14451 14453 14468 14474 14480 14508 14532 14533 
+	}
+	manpower=1169000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

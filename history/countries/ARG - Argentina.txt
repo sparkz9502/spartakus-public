@@ -1,0 +1,116 @@
+﻿capital = 1060
+set_oob = "ARG"
+set_naval_oob = "ARG_naval"
+set_research_slots = 3
+set_convoys = 100
+set_stability = 0.4
+set_war_support = 0.3
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_indzing
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = ARG_hipolito_yrigoyen
+recruit_character = ARG_agustin_pedro_justo
+recruit_character = ARG_angel_borlenghi
+recruit_character = ARG_federico_pinedo
+recruit_character = ARG_julio_argentino_pascual_roca
+recruit_character = ARG_lisandro_de_la_torre
+recruit_character = ARG_manuel_carles
+recruit_character = ARG_nimio_de_anguin
+recruit_character = ARG_rodolfo_jose_ghioldi
+recruit_character = ARG_victorio_codovilla
+
+### Field Marshals ###
+recruit_character = ARG_arturo_rawson
+
+### Generals ###
+recruit_character = ARG_jose_felix_uriburu
+recruit_character = ARG_juan_pistarini
+
+### Admirals ###
+recruit_character = ARG_alberto_teisaire
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	
+	### Air ###
+	early_fighter = 1
+	CAS1 = 1
+}
+### Navy - MtG ###
+if = {
+	limit = {
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_secondary_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
+		mtg_transport = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = {
+		not = { has_dlc = "Man the Guns" }
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1930.3.2"
+	election_frequency = 48
+	elections_allowed = yes
+}
+
+set_popularities = {
+    bolshevist = 2
+    spartacist = 6
+    revolutionary_socialist = 2
+    reformist_socialist = 9
+    social_democrat = 6
+    social_liberal = 41
+    liberal_conservative = 10
+    social_conservative = 19
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 5
+}
+
+set_country_flag = coalition_reformist_socialist

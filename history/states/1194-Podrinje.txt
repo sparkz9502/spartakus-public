@@ -1,0 +1,45 @@
+
+state={
+	id=1194
+	name="STATE_1194"
+	resources={
+		coal = 1
+	}
+	provinces={
+		797 3609 3956 14904 
+	}
+	history={
+		owner = SER
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			
+			797 = {
+				bunker = 3
+			}
+			
+			14904 = {
+				bunker = 2
+			}
+			
+			3956 = {
+				bunker = 2
+			}
+
+		}
+		victory_points = {
+			797 5 
+		}
+		victory_points = {
+			14904 1 
+		}
+		victory_points = {
+			3956 5 
+		}
+		add_core_of = SER
+
+	}
+	manpower=520790
+	state_category = town
+	buildings_max_level_factor=1.000
+}

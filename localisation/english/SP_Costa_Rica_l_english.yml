@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+COS_bolshevist_party:0 "PCCR"
+COS_bolshevist_party_long:0 "Partido Comunista de Costa Rica"
+COS_spartacist_party:0 "PCCR"
+COS_spartacist_party_long:0 "Partido Comunista de Costa Rica"
+COS_revolutionary_socialist_party:0 "PCCR"
+COS_revolutionary_socialist_party_long:0 "Partido Comunista de Costa Rica"
+COS_reformist_socialist_party:0 "PT"
+COS_reformist_socialist_party_long:0 "Partido Trabajadores"
+COS_social_democrat_party:0 "PRN"
+COS_social_democrat_party_long:0 "Partido Republicano Nacional"
+COS_social_liberal_party:0 "PRN"
+COS_social_liberal_party_long:0 "Partido Republicano Nacional"
+COS_liberal_conservative_party:0 "PUN"
+COS_liberal_conservative_party_long:0 "Partido Unión Nacional"
+COS_social_conservative_party:0 "PCR"
+COS_social_conservative_party_long:0 "Partido Club Republicano"
+COS_authoritarian_conservative_party:0 "Militar"
+COS_authoritarian_conservative_party_long:0 "Militar"
+COS_right_wing_populist_party:0 "PN"
+COS_right_wing_populist_party_long:0 "Partido Nacionalista"
+COS_national_syndicalist_party:0 "PNT"
+COS_national_syndicalist_party_long:0 "Partido Nacional de los Trabajadores"
+COS_national_corporatist_party:0 "PNC"
+COS_national_corporatist_party_long:0 "Partido Nacional Corporatista"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

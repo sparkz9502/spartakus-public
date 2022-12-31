@@ -1,0 +1,24 @@
+
+state={
+	id=1373
+	name="STATE_1373"
+	provinces={
+		1114 1172 1196 1383 1522 1653 4210 4501 5009 10346 10413 10776 12262 12282 
+	}
+	history={
+		owner = YUN
+		add_core_of = YUN
+		victory_points = {
+			1522 3 
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+	manpower=4233900
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

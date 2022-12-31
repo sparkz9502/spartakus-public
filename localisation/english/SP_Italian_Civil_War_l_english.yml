@@ -1,0 +1,146 @@
+﻿l_english:
+
+### Events ###
+
+#Separatists
+
+itacwseparatists.1.t:0 "Hostage Situation in Venice"
+itacwseparatists.1.d:0 "Amidst the increasingly violent separatist insurgency in Venice, militants reportedly ambushed a vehicle carrying three local government officials in an apparent kidnapping almost two days ago.\n\nThe identities of the officials have not been publicly announced yet, but the Carabinieri were able to track the militants to a villa in the Venetian countryside. In a midnight operation, the Carabinieri attempted to storm the villa as the militants slept. However, they seem to have been tipped off, for a dozen or so militants quickly engaged in a firefight with the officers. Two officers were killed, and another is in critical condition.\n\nIt seems the militants had intended to either ransom the officials or deliver some other type of demand. Now, however, with their plans spoiled, they are threatening to execute the officials if they are not assured safe passage from the villa without any arrests.\n\nGiven the potential political repercussions of whatever decision is made here, the Carabinieri have directly asked for government intervention. There seems to be three clear options: order the Carabinieri to storm the villa, offer safe passage but then arrest the militants, or offer safe passage and hold up our end of the deal by letting them free. What will it be?"
+itacwseparatists.1.a:0 "Storm the villa. No tolerance for terrorists."
+itacwseparatists.1.b:0 "Negotiate, then arrest the militants once they surrender."
+itacwseparatists.1.c:0 "Negotiate, and then allow the militants to go free."
+
+itacwseparatists.2.t:0 "Hostage Situation in Venice - Hostages Killed"
+itacwseparatists.2.d:0 "Although there was some disagreement within the ranks of the Carabinieri over the order to storm the villa, they complied nonetheless. Officers rushed into the building only to be met with a hail of gunfire. More officers were killed, and they were ultimately forced to retreat. The army had already been notified of the situation and elements of 19th Infantry Division were called for reinforcement.\n\nAnother attempt was made to storm the building the following night. A Corporal by the name of Gaio Cavagnaro tossed a grenade into one of the rooms of the villa which caused part of the structure to collapse, and soldiers soon rushed into the building.\n\nThe ensuing events are unclear, but in the chaos all of the hostages were killed. Whether it was at the hands of the separatists or the soldiers is unknown, but public opinion already seems to be turning against us. Only one of the eighteen militants survived the firefight, albeit in critical condition. After a brief and unsuccessful interrogation at a local hospital, he succumbed to his injuries. Two soldiers and three additional Carabinieri were killed."
+itacwseparatists.2.a:0 "Can you do anything right?"
+
+itacwseparatists.3.t:0 "Hostage Situation in Venice - Hostages Rescued"
+itacwseparatists.3.d:0 "The order to storm the villa was met with major disagreement within the ranks of the Carabinieri. Ultimately, against orders, they refused to immediately storm the building, fearing the potential for casualties. The Carabinieri instead created a distraction by ''negotiating'' with the separatists, presumably so that they would let their guard down. They were apparently able to build enough trust to the point that an officer was allowed to enter the building and ensure that the hostages were safe and alive, which was confirmed.\n\nThe following night, under the cover of darkness, elements of the Carabinieri stormed the building and rapidly disarmed the surprised militants, many of whom were sleeping. A single militant was shot nonfatally in the leg after they tried to reach for a rifle. Besides that, there were no casualties reported, and all hostages were extracted alive. Among the assets seized were eleven rifles, four sidearms, a box of ammunition and about 5,000 lire."
+itacwseparatists.3.a:0 "Perhaps they had the better idea."
+
+itacwseparatists.4.t:0 "Hostage Situation in Venice - Separatists Arrested"
+itacwseparatists.4.d:0 "The Carabinieri were apparently relieved to be given the order to negotiate after having lost two of their comrades already. Negotiations commenced the following day, and the militants were falsely promised safe passage as long as they surrendered their weapons. The primary separatist negotiator believed the Carabinieri, but after a discussion amongst the militants they ceased negotiations.\n\nThe Carabinieri continued to besiege the building for the next two days with no word from the militants. Eventually, it seems some of the separatists were convinced to rethink their decision after running low on food and other supplies. Negotiations resumed, and the separatists demanded food and water in exchange for surrendering the following day. Although this request was initially denied out of fear of prolonging a resolution, it was eventually granted after discussion amongst the high ranking Carabinieri.\n\nThe separatists kept their word, and surrendered the following day after receiving supplies. They were quickly betrayed, as requested by our order, and were all arrested as soon as they had all abandoned their weapons. Although some of the militants tried to resist, no casualties were sustained, and all hostages were rescued unharmed. Among the assets seized were eleven rifles, four sidearms, a box of ammunition and about 5,000 lire."
+itacwseparatists.4.a:0 "That went surprisingly well."
+
+itacwseparatists.5.t:0 "Hostage Situation in Venice - Some Separatists Escape"
+itacwseparatists.5.d:0 "The Carabinieri were apparently relieved to be given the order to negotiate after having lost two of their comrades already. Negotiations commenced the following day, and the militants were falsely promised safe passage as long as they surrendered their weapons and the hostages. The primary separatist negotiator believed the Carabinieri, but after a discussion amongst the militants they ceased negotiations.\n\nThe Carabinieri continued to besiege the building for the next two days with no word from the militants. Eventually, it seems some of the separatists were convinced to rethink their decision after running low on food and other supplies. Negotiations resumed, and the separatists demanded food and water in exchange for surrendering the following day. This request was denied in fear of prolonging a resolution despite disagreement amongst the high ranking Carabinieri.\n\nThe separatists made additional appeals for food and water the following day, but this request was again denied. This apparently aroused suspicion amongst the militants, and they came to a universal agreement to refuse to surrender. With supplies nearly gone, the militants fled the building in the middle of the night and headed for the nearby hills. The Carabinieri on guard that night noticed, albeit late, and tried to chase the separatists. Two militants were captured and another was killed in a brief firefight, but the rest escaped and their locations are currently unknown. In positive news, the hostages were found left in the villa in relatively good condition, albeit hungry and dehydrated."
+itacwseparatists.5.a:0 "At least the hostages are alive."
+
+itacwseparatists.6.t:0 "Hostage Situation in Venice - Separatists Leave Peacefully"
+itacwseparatists.6.d:0 "The Carabinieri were apparently relieved to be given the order to negotiate after having lost two of their comrades already. Negotiations commenced the following day, and the militants were promised safe passage as long as they surrendered their weapons and the hostages. The primary separatist negotiator believed the Carabinieri, but after a discussion amongst the militants they ceased negotiations.\n\nThe following day, however, negotiations resumed, and a Carabinieri officer was allowed to enter the villa to check on the hostages. The separatists were revealed to be low on food and water and other supplies, and agreed to surrender the hostages if they received said supplies. Although this request was initially denied out of fear of prolonging a resolution, it was eventually granted after discussion amongst the high ranking Carabinieri.\n\nAfter receiving the promised supplies, the separatists released the hostages and left the area in a truck supplied by the Carabinieri, leaving their weapons in the villa. Although the truck was later recovered in Vicenza, it is unknown where the militants went afterwards. Our intelligence services have already begun looking into tracking them. The decision to let the separatists go free was challenged by many, but it is possible that this will pay off in the long term in the form of increased sympathies towards our side."
+itacwseparatists.6.a:0 "Hopefully they consider our kindness in the future."
+
+itacwseparatists.7.t:0 "Hostage Situation in Venice - A Firefight Ensues"
+itacwseparatists.7.d:0 "The Carabinieri were apparently relieved to be given the order to negotiate after having lost two of their comrades already. Negotiations commenced the following day, and the militants were promised safe passage as long as they surrendered their weapons and the hostages. The primary separatist negotiator believed the Carabinieri, but after a discussion amongst the militants they ceased negotiations.\n\nThe following day, however, negotiations resumed, and a Carabinieri officer was allowed to enter the villa to check on the hostages. The separatists were revealed to be low on food and water and other supplies, and agreed to surrender the hostages if they received said supplies. This request was denied out of fear of prolonging a resolution, and the separatists countered this by requesting to be allowed to keep their weapons instead. Under pressure to follow through with the given orders, the Carabinieri reluctantly agreed.\n\nThe following night, the militants followed through with the agreement. They released the hostages and then began heading for the truck supplied by the Carabinieri when, in a confusing chain of events, gunfire erupted between the militants and the Carabinieri. It is unknown who fired first or why it happened, and an investigation is already underway, but within a few minutes seven separatists and four Carabinieri were killed. six separatists were wounded and arrested, while the rest fled into the surrounding hills."
+itacwseparatists.7.a:0 "Well, we tried at least."
+
+#Coup
+
+itacw.1.t:0 "Fascist Officers Attempt a Coup!"
+itacw.1.d:0 "Today, November 17th 1932, a group of pro-fascist officers and soldiers led by the 65 year old fascist sympathizer General Emilio De Bono have gathered in Rome. Although they command some soldiers and members of the local garrison, it appears the majority of the military has remained neutral so far. \n\nThey have submitted three demands:\n\n1. Immediatedly release all fascists imprisoned during the 1922 March on Rome and afterwards, including Benito Mussolini.\n\n2. Cede control of the military to General Emilio de Bono, and dismiss Marshal Pietro Badoglio.\n\n3. Abolish the Governo Militare, reverse the ban on the National Fascist Party (PNF), and allow the Grand Council of Fascism to form a government.\n\nThese demands are quite absurd, but as with 1922 the option to retaliate or not is left up to King Vittorio Emanuele III. Badoglio is confident that the military would easily crush this coup just like in the March on Rome, and has advised declaring a state of siege. However, intelligence gathered in the years following the ascension of the Governo Militare have suggested the existence of significant fascist influence within the military. There may be the possibility of civil war.\n\nSo what will it be?"
+itacw.1.a:0 "Crush the traitors!"
+itacw.1.b:0 "This was inevitable, we must give in."
+
+#Coup Fails Event Chain
+
+itacw.2.t:0 "[GetNewspaperHeader] State of Siege Declared in Rome"
+itacw.2.d:0 "In response to the coup attempt, a state of siege has been declared in Rome. The military has been authorized to use lethal force to suppress rogue military elements and the fascist paramilitary Blackshirts.\n\nIn the meantime, the King has apparently fled Rome to avoid the potential bloodshed. One can only wonder what this will mean for the future of Italy."
+itacw.2.a:0 "Order must be restored."
+
+itacw.3.t:0 "Prominent Fascists Escape Prison"
+itacw.3.d:0 "Amidst the violence and chaos that ensued following the declaration of a state of siege, a number of prominent fascists have escaped from prison with the help of fascist soldiers and supporters. It is believed that among them is Benito Mussolini, the longtime fascist figurehead who has been imprisoned since the March on Rome in 1922. Their whereabouts are currently unknown, but they have likely fled Rome."
+itacw.3.a:0 "I'm sure we will find them eventually."
+
+itacw.4.t:0 "[GetNewspaperHeader] The Military Crushes the Coup"
+itacw.4.d:0 "After a few days of fighting, the army has successfully crushed the fascist rebels in Rome and various other cities across italy. They now seem to pose little threat to the reign of the Governo Militare.\n\nThough this is surely a great news for the King, the whereabouts of the escaped fascist criminals still remains unknown. The Carabinieri are already on the hunt, but this is undoubtedly more than just an annoyance for the government."
+itacw.4.a:0 "It seems things haven't changed since 1922."
+
+itacw.5.t:0 "[GetNewspaperHeader] Fascists Flee to the South"
+itacw.5.d:0 "After days of searching, the Carabinieri have tracked Mussolini and a number of other escaped fascist criminals to Southern Italy. Their exact location is still in question, and their plans and intentions still remain unknown. The fact that they may still be in Italy has raised a number of questions, and the Carabinieri have been quick to launch a regionwide hunt.\n\nThe southern regions are, however, notably a stronghold for fascism and nationalism. It is possible that they are being sheltered by locals. The populace has, regardless, been asked to report any suspicious activity."
+itacw.5.a:0 "I wonder what they are planning?"
+
+#Coup Succeeds Event Chain
+
+itacw.10.t:0 "Fascists Take Power in Rome"
+itacw.10.d:0 ""
+itacw.10.a:0 "Per l'onore d'Italia."
+
+itacw.11.t:0 "Fascists Released from Prison"
+itacw.11.d:0 ""
+itacw.11.a:0 "Great..."
+
+itacw.12.t:0 "Kingdom of Italy Abolished"
+itacw.12.d:0 "To the shock of many Italians, including many fascists, the Kingdom of Italy has been officially abolished on the order of Il Duce Benito Mussolini himself. Mussolini delivered a public speech not long after publicizing the new constitution. In that speech he labelled the King as a ''traitor to the nation'' and called for the arrest and execution of the King and his family. He reportedly ended the speech in a coughing fit, with speculation already spreading that he may be ill.\n\nIt seems the King and the royal family were tipped off, however, for they have already fled the country, and are believed to currently be in Illyria. It remains unknown what will become of Illyria, which is led by a King from the House of Savoy, the same royal house that ruled Italy just yesterday.\n\nThe new constitution designates Italy as a "Social Republic". It remains unknown what the reaction will be from the Italian political class as well as the population, but cracks already seem to be emerging within the military. The next few weeks will be crucial."
+itacw.12.a:0 "For the Social Republic!"
+
+itacw.13.t:0 "Unrest in the Military"
+itacw.13.d:0 ""
+itacw.13.a:0 "Unfortunate, but we will survive."
+
+#Socialist Unrest
+
+itacw.20.t:0 "[GetNewspaperHeader] Socialists Launch a General Strike"
+itacw.20.d:0 "Amidst the chaos in Rome, the underground Partito Comunista d'Italia and a number of socialist trade unions have sponsored a general strike against the fascists and the government.\n\nAs millions of workers flood into the streets to protest, one cannot avoid drawing comparisons between this and the ten years of unrest during the Decennio Rosso. Journalists have been quick to speculate on whether this is merely the calm before the storm."
+itacw.20.a:0 "Cursed reds!"
+
+itacw.21.t:0 "Workers Occupy Factories in the North"
+itacw.21.d:0 "Industrial workers have rapidly begun occupying factories in the northern industrialized regions, especially in the cities of Milano, Torino, Bologna, Firenze and Genoa, and to a lesser extent in Venezia, Roma, Napoli and Palermo.\n\nMany of the workers are armed, and the factory owners have been quick to call for the military to intervene and restore order. We have no choice but to do so before this grows into something much much worse."
+itacw.21.a:0 "This can't be good."
+
+itacw.22.t:0 "[GetNewspaperHeader] The Military Fires on Strikers in Milan!"
+itacw.22.d:0 "Today, during a mass protest by strikers in the city of Milan, an intervening military unit fired on the crowd. Dozens have been reported dead and countless injured. The military claims the crowd came too close to their barricades, threw stones and wielded firearms. A number of local witnesses as well as the strike organizers contradict such accounts.\n\nRegardless, this has only inflamed an already fragile situation. This disorganized unrest is quickly developing into organized anger. A number of military commanders have been quick to point out the risk of a revolution. At this point, it is impossible to rule out such a situation."
+itacw.22.a:0 "Who ordered that?!?"
+
+itacw.23.t:0 "Communists Rally the Workers"
+itacw.23.d:0 "Amidst the current crisis, the Partito Comunista d'Italia has emerged from their underground operations, defying the ban placed on them in 1929. They have openly declared their support for the strike and their revolutionary intentions through the illegal publication of their newspaper, l'Unità. They have been joined by a number of radical politicians and supporters from the legal Partito Socialista Unitario and Partito Repubblicano Italiano.\n\nThere is little that can be done immediately to suppress them. The loyalties of various military units has been called into question in the wake of the ''Milan Massacre'', and the Carabinieri have focused much of their resources and efforts elsewhere. At this point, it seems a socialist revolution is unavoidable."
+itacw.23.a:0 "Uh oh."
+
+itacw.24.t:0 "Seperatists Agitate in Venice and Sardinia"
+itacw.24.d:0 "As our control over the industrial north continues to wither, a new threat has arisen: the separatists. They have been a plague for years now, but they have mostly stuck to underground guerilla operations. However, with disaster seemingly on the horizon, they have been quick to reemerge to take advantage of the situation.\n\nIn both Venice and Sardinia, separatist paramilitaries have escalated their conflict with the army and the police, and pro-separatist crowds have seized government buildings. It seems more regions are slipping from our grasp. With the situation spiraling further out of control, it really does seem like it may be impossible to avoid the coming storm."
+itacw.24.a:0 "Is this a joke?"
+
+itacw.30.t:0 "Rise of the Turin Workers' Council"
+itacw.30.d:0 ""
+itacw.30.a:0 "So it begins..."
+itacw.30.b:0 "(Switch to Socialist Italy)"
+
+itacw.31.t:0 "Opposition Seizes Control of Sardinia"
+itacw.31.d:0 ""
+itacw.31.a:0 "Can this get any worse?"
+itacw.31.b:0 "(Switch to Sardinia)"
+
+itacw.32.t:0 "Opposition Seizes Control of Venice"
+itacw.32.d:0 ""
+itacw.32.a:0 "I guess it can get worse."
+itacw.32.b:0 "(Switch to Venice)"
+
+itacw.33.t:0 "Rise of the Albona Republic"
+itacw.33.d:0 ""
+itacw.33.a:0 "More of them?"
+itacw.33.b:0 "(Switch to Albona Republic)"
+
+itacw.40.t:0 "The La Spezia Revolt"
+itacw.40.d:0 "Unfortunate news has arrived from the north. At the military port of La Spezia, discontented sailors inspired by the socialist rebellion in Turin and Genoa have deposed their officers and seized the ships. Around half of the entire fleet is based in La Spezia. If the fleet is allowed to fall into the hands of the reds, the results could be catastrophic. Beyond the implications it could have on the war front, the success of this rebellion could inspire further defections not only in the navy but also in the army. A repeat of the Revolt of the Bersaglieri cannot be allowed.\n\nThis situation is not entirely unexpected. The naval command has, for many months, reported discontent within the ranks of the sailors. Though outright acts of rebellion have been rare since the Badoglio regime seized power, there have been covert actions. Only months ago, a group of sailors were arrested and tried for treason after a plot to seize a destroyer and defect to Germany was discovered. A major source of this discontent can be traced to the wage decrease implemented after the economic crisis began last year.\n\nHowever, not all hope is lost. As it currently stands, the La Spezia revolt is isolated. As long as the rebellion is contained and the insurgents in the north are prevented from coming to their aid, it can be crushed. Action, however, will need to be swift. The situation in the north is uncertain and further rebellions are certain to be witnessed, so the fleet must be secured as soon as possible."
+itacw.40.a:0 "Damned reds!"
+
+itacwglobal.1.a:0 "[GetNewspaperHeader] Chaos in Rome!"
+itacwglobal.1.d:0 ""
+itacwglobal.1.d_fascist:0 ""
+itacwglobal.1.a:0 "Interesting."
+
+### Flags ###
+
+ITA_civil_war_ongoing:0 "The §FItalian Civil War§! has begun."
+
+### Tooltips ###
+
+ITA_will_become_ILN_tt:0 "§RYou will tag switch to the Italian Legion. It is highly recommended to pause your game before clicking this.§!\n"
+ITA_civil_war_socialists_tt:0 "§YSocialist militias will rise in Piedmont, in and around the city of Turin.§! §RThe Taurinense Alpine Division, based in Turin, has been disbanded after sustaining heavy losses.§!\n"
+ITA_civil_war_sardinia_tt:0 "§YSardinian separatists militias will seize control of the island.§! §RDefections from the local garrison mean our control will be entirely lost.§! §GHowever, there may be future opportunities to foster anti-separatist resistance.§!\n"
+ITA_civil_war_venice_tt:0 "§YVenetian separatist militias will seize part of the region.§! §RSome military and police elements have defected, and the city of Venice was taken easily.§! §GHowever, part of the military has remained loyal and has contested control of the countryside.§!\n"
+ITA_civil_war_albona_tt:0 "§YArmed miners will rise up in the Albona region in Istria.§!\n"
+ITA_civil_war_fascists_tt:0 "§YFascist militias will rise in Puglia, Basilicata and Calabria.§! §RSome of the military in the region have defected.§! §GIf we recapture the region, it is likely that some of the population will join our cause in the fight against the socialists.§!\n"
+
+ITA_La_Spezia_Revolt_tt:0 "§RLa Spezia must be resecured and held long enough to crush the revolt, or else the fleet will fall into the hands of the reds.§!"
+
+### Decisions ###

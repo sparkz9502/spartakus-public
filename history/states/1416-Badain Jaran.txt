@@ -1,0 +1,20 @@
+state={
+	id=1416
+	name="STATE_1416"
+	provinces={
+		10770 
+	}
+	history={
+		owner = ZHO
+		add_core_of = ZHO
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+	manpower=1
+	state_category = wasteland
+	impassable = yes
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=1249
+	name="STATE_1249"
+
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4984 2 
+		}
+		victory_points = {
+			12844 10 
+		}
+		add_core_of = RAJ
+
+	}
+
+	provinces={
+		7998 12041 12844 15058 15144 15358 15360 15420 
+	}
+	manpower=2221000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

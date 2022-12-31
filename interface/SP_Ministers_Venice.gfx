@@ -1,0 +1,270 @@
+spriteTypes = {
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_VNZ_Italico_Corradino_Cappellotto_hog_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Italico_Corradino_Cappellotto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Guido_Bergamo_hog_sde"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Guido_Bergamo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Guido_Giacometti_hog_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Guido_Giacometti.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Carlo_Caldera_hog_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Carlo_Caldera.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giovanni_Battista_Gianquinto_hog_spa"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giovanni_Battista_Gianquinto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Bonaventura_Ferrazzutto_hog_rev"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Bonaventura_Ferrazzutto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Alessandro_Marcello_Del_Majno_hog_lco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Alessandro_Marcello_Del_Majno.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Ferruccio_Morterra_hog_sde"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Ferruccio_Morterra.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Celeste_Bastianetto_hog_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Celeste_Bastianetto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giuseppe_Bettiol_hog_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giuseppe_Bettiol.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Umberto_Merlin_hog_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Umberto_Merlin.tga"
+}
+
+#Foreign Minister
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giovanni_Tonetti_for_spa"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giovanni_Tonetti.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Aldo_Fedeli_for_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Aldo_Fedeli.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Igino_Borin_for_rev"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Igino_Borin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Vitale_Giovanni_Gallina_for_sli"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Vitale_Giovanni_Gallina.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Andrea_Emo_Capodilista_for_lco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Andrea_Emo_Capodilista.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Pietro_Lizier_for_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Pietro_Lizier.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Antonio_Ferrarese_for_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Antonio_Ferrarese.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_VNZ_Alberto_Fogagnolo_eco_spa"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Alberto_Fogagnolo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Alcide_Malagugini_eco_rev"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Alcide_Malagugini.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Bonaventura_Ferrazzutto_eco_rev"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Bonaventura_Ferrazzutto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Ferruccio_Morterra_eco_sde"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Ferruccio_Morterra.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giovanni_Battista_Cicogna_eco_lco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giovanni_Battista_Cicogna.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Gino_Luzzatto_eco_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Gino_Luzzatto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Gerolamo_Lino_Moro_eco_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Gerolamo_Lino_Moro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Antonio_Pavan_eco_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Antonio_Pavan.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_VNZ_Lina_Merlin_sec_rev"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Lina_Merlin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Tommaso_Tonello_sec_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Tommaso_Tonello.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Ernesto_Pietriboni_sec_sli"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Ernesto_Pietriboni.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Ugo_Vallenari_sec_sde"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Ugo_Vallenari.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Andrea_Da_Mosto_sec_lco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Andrea_Da_Mosto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Angelo_Spanio_sec_lco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Angelo_Spanio.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giovanni_Favaretto_Fisca_sec_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giovanni_Favaretto_Fisca.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Cesarino_Crescente_sec_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Cesarino_Crescente.tga"
+}
+
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_VNZ_Ugo_Facco_De_Lagarda_def_sde"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Ugo_Facco_De_Lagarda.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Ugo_Luca_def_sli"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Ugo_Luca.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Marcantonio_Bragadin_def_ref"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Marcantonio_Bragadin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giovanni_Barbini_def_sco"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giovanni_Barbini.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_VNZ_Arduino_Polla_cos"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Arduino_Polla.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Mario_Lizzero_cos"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Mario_Lizzero.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Dino_Candotti_cos"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Dino_Candotti.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giacomo_Miari_de_Cumani_cos"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giacomo_Miari_de_Cumani.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_VNZ_Michele_Vaccaro_carm"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Michele_Vaccaro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Gino_Beltrame_carm"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Gino_Beltrame.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Aldo_Moretti_carm"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Aldo_Moretti.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Giovanni_Cleva_carm"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Giovanni_Cleva.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Antonio_Scaramuzza_carm"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Antonio_Scaramuzza.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_VNZ_Isidoro_Wiel_cnav"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Isidoro_Wiel.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_VNZ_Guido_Masiero_cair"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Guido_Masiero.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_VNZ_Sebastiano_Bedendo_cair"
+	texturefile = "gfx/interface/ministers/VNZ/VNZ_Sebastiano_Bedendo.tga"
+}
+
+}

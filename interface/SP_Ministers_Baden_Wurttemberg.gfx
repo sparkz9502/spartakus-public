@@ -1,0 +1,34 @@
+spriteTypes = {
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_WUR_Alfred_Hugenberg_hog_rwp"
+	texturefile = "gfx/interface/ministers/WUR/WUR_Alfred_Hugenberg.tga"
+}
+
+#Foreign Minister
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_WUR_Adam_Stegerwald_eco_sco"
+	texturefile = "gfx/interface/ministers/WUR/WUR_Adam_Stegerwald.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_WUR_Albert_Speer_eco_rwp"
+	texturefile = "gfx/interface/ministers/WUR/WUR_Albert_Speer.tga"
+}
+
+#Security Minister
+
+#Defence Minister
+
+#Chief of Staff
+
+#Chief of Army
+
+#Chief of Navy
+
+#Chief of Air Force
+
+}

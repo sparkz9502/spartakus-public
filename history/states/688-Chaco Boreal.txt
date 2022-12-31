@@ -1,0 +1,30 @@
+
+state={
+	id=688
+	name="STATE_688"
+	resources={
+	}
+
+	history={
+		owner = BOL
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = PAR
+		victory_points = {
+			8203 2
+		}
+		victory_points = {
+			13685 1
+		}
+
+	}
+
+	provinces={
+		5165 8203 13252 13685 13689 13691 13692 13693 13695 13696 13698 15611 15612 
+	}
+	manpower=20000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

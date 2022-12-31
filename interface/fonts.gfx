@@ -1,0 +1,93 @@
+bitmapfonts = {
+
+	#a = Violet
+	#A = Dark Purple
+	#i = Blue
+	#I = Dark Blue
+	#c = Field Grey
+	#C = Forest Green
+	#d = Teal Blue
+	#D = Indigo Blue
+	#e = Orangish Red
+	#E = Brownish Red
+	#f = Light Green
+	#F = Dark Green
+	#j = Eggshell White
+	#h = Indigo
+	#z = Dark Indigo
+	#l = Light Green
+	#J = Olive
+	#m = Hot Pink
+	#k = Magenta
+	#o = Orange
+	#O = Brownish Orange
+	#p = Bright Pink
+	#P = Purple
+	#x = Red
+	#K = Dark Red
+	#t = Cyan
+	#s = Turquoise
+	#y = Lemon Yellow
+	#N = Coffee Brown
+	#n = Jet Grey
+
+	textcolors = {
+		M = { 35 206 255 }
+		L = { 195 176 145 }
+		W = { 255 255 255 }
+		B = { 0 0 255 }
+		G = { 0 159 3 }
+		R = { 255 50 50 }
+		b = { 0 0 0 }
+		g = { 176 176 176 }
+		Y = { 255 189 0 }
+		H = { 255 189 0 }
+		T = { 255 255 255 }
+		a = { 122 0 255 }
+		A = { 61 0 122 }
+		i = { 0 0 255 }
+		I = { 0 0 122 }
+		c = { 77 93 83 }
+		C = { 0 122 61 }
+		d = { 0 122 255 }
+		D = { 0 61 122 }
+		e = { 255 122 122 }
+		E = { 122 61 61 }
+		f = { 122 255 122 }
+		F = { 61 122 61 }
+		j = { 235 227 200 }
+		h = { 122 122 255 }
+		z = { 61 61 122 }
+		l = { 122 255 0 }
+		J = { 128 128 0 }
+		m = { 255 0 122 }
+		k = { 122 0 61 }
+		o = { 255 122 0 }
+		O = { 122 61 0 }
+		p = { 255 0 255 }
+		P = { 122 0 122 }
+		x = { 255 0 0 }
+		K = { 122 0 0 }
+		t = { 0 255 255 }
+		s = { 0 122 122 }
+		y = { 255 255 0 }
+		N = { 111 78 55 }
+		n = { 122 122 122 }
+	}
+	
+	### NORMAL
+
+	#Small debug font
+
+	bitmapfont = {
+		name = "garamond_12"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+	
+	bitmapfont = {
+		name = "cw_3d_debug"
+		path = "gfx/fonts/garamond_12"
+		color = 0xffffffff
+	}
+}

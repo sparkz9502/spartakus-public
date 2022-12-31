@@ -1,0 +1,25 @@
+
+state={
+	id=1191
+	name="STATE_1191"
+	resources={
+		coal=1.000
+	}
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		14839 14840 14842 14849 14852 14856 14866 14870 14871 14876 14884 
+	}
+	manpower=323579
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1127
+	name="STATE_1127"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		2100 12834 12842 14414 14450 14465 
+	}
+	manpower=316600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

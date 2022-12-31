@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+URG_bolshevist_party:0 "PCU"
+URG_bolshevist_party_long:0 "Partido Comunista del Uruguay"
+URG_spartacist_party:0 "PCU"
+URG_spartacist_party_long:0 "Partido Comunista del Uruguay"
+URG_revolutionary_socialist_party:0 "Anarquistas"
+URG_revolutionary_socialist_party_long:0 "Anarquistas"
+URG_reformist_socialist_party:0 "PSU"
+URG_reformist_socialist_party_long:0 "Partido Socialista del Uruguay"
+URG_social_democrat_party:0 "PSU"
+URG_social_democrat_party_long:0 "Partido Socialista del Uruguay"
+URG_social_liberal_party:0 "PNR"
+URG_social_liberal_party_long:0 "Partido Nacional Radical"
+URG_liberal_conservative_party:0 "PC"
+URG_liberal_conservative_party_long:0 "Partido Colorado"
+URG_social_conservative_party:0 "PN"
+URG_social_conservative_party_long:0 "Partido Nacional"
+URG_authoritarian_conservative_party:0 "Militar"
+URG_authoritarian_conservative_party_long:0 "Militar Patria y Ejército"
+URG_right_wing_populist_party:0 "PNI"
+URG_right_wing_populist_party_long:0 "Partido Nacional Independiente"
+URG_national_syndicalist_party:0 "FU"
+URG_national_syndicalist_party_long:0 "Falange Uruguaya"
+URG_national_corporatist_party:0 "PNa"
+URG_national_corporatist_party_long:0 "Partido Nacionalista"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

@@ -1,0 +1,347 @@
+characters={
+	RHI_ludwig_kaas={
+		name="Ludwig Kaas"
+		portraits={
+			civilian={
+				large="gfx\leaders\RHI\Portrait_Ludwig_Kaas.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_LUDWIG_KAAS_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHI_hans_adam_dorten={
+		name="Hans Adam Dorten"
+		portraits={
+			civilian={
+				large="gfx\leaders\RHI\Portrait_Hans_Adam_Dorten.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HANS_ADAM_DORTEN_DESC"
+			ideology=liberal_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHI_erich_kochweser={
+		name="Erich Koch-Weser"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Soviet_Generic_1.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ERICH_KOCH_WESER_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHI_otto_wels={
+		name="Otto Wels"
+		portraits={
+			civilian={
+				large="gfx\leaders\RHI\Portrait_Otto_Wells.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OTTO_WELS_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHI_artur_dinter={
+		name="Artur Dinter"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARTUR_DINTER_DESC"
+			ideology=national_corporatist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	RHI_walter_model={
+		name="Walter Model"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist politically_connected trait_cautious defensive_doctrine }
+			skill=3
+			attack_skill=2
+			defense_skill=4
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RHI_wilhelm_ritter_von_leeb={
+		name="Wilhelm Ritter von Leeb"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+			}
+		}
+		corps_commander={
+			traits={ old_guard infantry_officer }
+			skill=3
+			attack_skill=4
+			defense_skill=3
+			planning_skill=1
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	RHI_georghans_reinhardt={
+		name="Georg-Hans Reinhardt"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious armor_officer }
+			skill=3
+			attack_skill=1
+			defense_skill=2
+			planning_skill=4
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RHI_alfred_jodl={
+		name="Alfred Jodl"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_4.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			traits={ politically_connected career_officer }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RHI_sepp_dietrich={
+		name="Sepp Dietrich"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist politically_connected trait_reckless armor_officer }
+			skill=4
+			attack_skill=2
+			defense_skill=3
+			planning_skill=4
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	RHI_hasso_von_manteuffel={
+		name="Hasso von Manteuffel"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_6.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/portrait_europe_generic_land_6.dds"
+			}
+		}
+		corps_commander={
+			traits={ career_officer trait_cautious armor_officer }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RHI_albert_kesselring={
+		name="Albert Kesselring"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_7.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+			}
+		}
+		corps_commander={
+			traits={ brilliant_strategist war_hero trait_cautious }
+			skill=4
+			attack_skill=2
+			defense_skill=4
+			planning_skill=3
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
+	RHI_gotthard_heinrici={
+		name="Gotthard Heinrici"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_8.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/portrait_europe_generic_land_8.dds"
+			}
+		}
+		corps_commander={
+			traits={ trait_cautious infantry_officer trait_engineer }
+			skill=3
+			attack_skill=3
+			defense_skill=1
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	RHI_günther_lütjens={
+		name="Günther Lütjens"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+			}
+		}
+		navy_leader={
+			traits={ superior_tactician }
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=0
+		}
+	}
+	RHI_walter_hoffmann={
+		name="Walter Hoffmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=bolshevist_subtype
+			traits={ undistinguished_suit }
+			expire="1952.1.1.1"
+			id=-1
+		}
+	}
+	RHI_otto_muller={
+		name="Otto Muller"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=religious_marxism
+			expire="1943.1.1.1"
+			id=-1
+		}
+	}
+	RHI_theodor_behrmann={
+		name="Theodor Behrmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_USA_Generic_1.tga"
+			}
+		}
+		country_leader={
+			ideology=baathism
+			traits={ undistinguished_suit }
+			expire="1949.1.1.1"
+			id=-1
+		}
+	}
+	RHI_hermann_beisswenger={
+		name="Hermann Beisswenger"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=reformist_socialist_subtype
+			expire="1940.1.1.1"
+			id=-1
+		}
+	}
+	RHI_heinz_sturm={
+		name="Heinz Sturm"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			ideology=theocracy
+			traits={ undistinguished_suit }
+			expire="1947.1.1.1"
+			id=-1
+		}
+	}
+	RHI_wilhelm_lang={
+		name="Wilhelm Lang"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
+			}
+		}
+		country_leader={
+			ideology=authoritarian_populism
+			expire="1937.1.1.1"
+			id=-1
+		}
+	}
+	RHI_joachim_hartmann={
+		name="Joachim Hartmann"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
+			}
+		}
+		country_leader={
+			ideology=fascist_syndicalism
+			traits={ undistinguished_suit }
+			expire="1944.1.1.1"
+			id=-1
+		}
+	}
+}

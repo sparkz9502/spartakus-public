@@ -1,0 +1,30 @@
+
+state={
+	id=701
+	name="STATE_701"
+	resources={
+
+	}
+
+	history={
+		owner = BMR
+		add_core_of = BMR
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		victory_points = {
+			12127 2 
+		}
+
+	}
+
+	provinces={
+		1417 10154 10283 10344 12127 12284 
+	}
+	manpower=1874600
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

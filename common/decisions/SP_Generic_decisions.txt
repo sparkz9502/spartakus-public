@@ -1,0 +1,492 @@
+mobilization_decisions = {
+
+	AI_increase_mobilization = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = no
+        cost = 200
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			NOT = {
+				has_country_flag = SP_no_mobilization_flag
+			}
+			if = {
+				limit = {
+					has_idea = mobilization_1
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.1
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_2
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.2
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_3
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.3
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_4
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_5
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_6
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.6
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_7
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.7
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_8
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.8
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_9
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.9
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = mobilization_10
+				}
+				always = no
+			}
+			else = {
+				always = no
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision AI_increase_mobilization target: [From.GetName]"
+			increase_mobilization = yes
+		}
+		ai_will_do = {
+			factor = 150
+			modifier = {
+				factor = 3
+				date > 1933.01.01
+			}
+			modifier = {
+				factor = 5
+				date > 1934.01.01
+			}
+			modifier = {
+				factor = 10
+				date > 1935.01.01
+			}
+			modifier = {
+				factor = 20
+				date > 1936.01.01
+			}
+			modifier = {
+				factor = 30
+				date > 1937.01.01
+			}
+			modifier = {
+				factor = 50
+				has_war = yes
+			}
+			modifier = {
+				factor = 10
+				has_idea = mobilization_1
+			}
+			modifier = {
+				factor = 5
+				has_idea = mobilization_2
+			}
+			modifier = {
+				factor = 3
+				has_idea = mobilization_3
+			}
+			modifier = {
+				factor = 2
+				has_idea = mobilization_4
+			}
+			modifier = {
+				factor = 0
+				num_of_civilian_factories < 5
+			}
+		}
+	}
+	
+	AI_increase_conscription = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = no
+        cost = 150
+		visible = {
+			is_ai = yes
+		}
+		available = {
+			NOT = {
+				has_country_flag = SP_no_conscription_flag
+			}
+			if = {
+				limit = {
+					has_idea = recruitment_disarmed
+				}
+				always = no
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_colonial
+				}
+				always = no
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_volunteer
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.25
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_1825
+				}
+				OR = {
+					has_war = yes
+					has_war_support > 0.4
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_1830
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.5
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_1835
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.65
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_1840
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.75
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_1850
+				}
+				AND = {
+					has_war = yes
+					has_war_support > 0.9
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = recruitment_1660
+				}
+				always = no
+			}
+			else = {
+				always = no
+			}
+		}
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision AI_increase_conscription target: [From.GetName]"
+			increase_conscription = yes
+			set_country_flag = { #chill out for a bit before increasing again
+				flag = ai_recent_conscription
+				days = 180
+				value = 1
+			}
+		}
+		ai_will_do = {
+			factor = 200
+			modifier = {
+				factor = 5
+				date > 1936.01.01
+			}
+			modifier = {
+				factor = 5
+				has_idea = recruitment_volunteer
+			}
+			modifier = {
+				factor = 2
+				has_idea = recruitment_1825
+			}
+			modifier = {
+				factor = 25
+				has_war = yes
+			}
+			modifier = {
+				factor = 0.75
+				has_idea = recruitment_1835
+			}
+			modifier = {
+				factor = 0.5
+				has_idea = recruitment_1840
+			}
+			modifier = {
+				factor = 0.25
+				has_idea = recruitment_1850
+			}
+			modifier = {
+				factor = 50
+				has_manpower < 1000
+			}
+			modifier = {
+				factor = 0
+				has_country_flag = ai_recent_conscription
+			}
+			modifier = { #much stronger than the enemy, unless at zero manpower
+				factor = 0
+				has_war = yes
+				enemies_strength_ratio < 0.5
+				has_manpower > 0
+			}
+		}
+	}
+	
+}
+
+# Governance Decisions
+governance_decisions = {
+
+	governance_party_pop_bonus = { 
+		icon = GFX_decision_generic_political_discourse
+		fire_only_once = no
+        cost = 75
+		days_remove = 60
+		days_re_enable = 365
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision governance_party_pop_bonus target: [From.GetName]"
+		}
+		modifier = {
+			stability_factor = -0.05
+			political_power_gain = -0.15
+		}
+		remove_effect = {
+			increase_ruling_party_popularity_by_3 = yes
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				check_variable = { ROOT.party_popularity@ruling_party < 0.25 }
+			}
+			modifier = {
+				factor = 3
+				check_variable = { ROOT.party_popularity@ruling_party < 0.1 }
+			}
+		}
+	}
+	
+	governance_stability_bonus = { 
+		icon = GFX_decision_eng_trade_unions_demand
+		fire_only_once = no
+		available = {
+			has_stability < 0.50
+		}
+		cancel_trigger = {
+			has_stability > 0.75
+		}
+        cost = 100
+		days_remove = 70
+		days_re_enable = 180
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision governance_stability_bonus target: [From.GetName]"
+		}
+		modifier = {
+			stability_weekly = 0.005
+			political_power_gain = -0.20
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_stability < 0.25
+			}
+			modifier = {
+				factor = 5
+				has_stability < 0.10
+			}
+			modifier = {
+				factor = 10
+				has_stability < 0
+			}
+		}
+	}
+	
+	governance_war_support_bonus = { 
+		icon = GFX_decision_generic_prepare_civil_war
+		fire_only_once = no
+		available = {
+			threat > 0.5
+			has_war_support < 0.75
+		}
+		cancel_trigger = {
+			has_war_support > 0.90
+		}
+        cost = 100
+		days_remove = 70
+		days_re_enable = 180
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision governance_war_support_bonus target: [From.GetName]"
+		}
+		modifier = {
+			war_support_weekly = 0.005
+			political_power_gain = -0.20
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				has_war_support < 0.75
+			}
+			modifier = {
+				factor = 5
+				has_war_support < 0.50
+			}
+			modifier = {
+				factor = 10
+				has_war_support < 0.25
+			}
+			modifier = {
+				factor = 20
+				has_war_support < 0.05
+			}
+		}
+	}
+	
+	governance_construction_bonus = { 
+		icon = GFX_decision_generic_industry
+		fire_only_once = no
+        cost = 150
+		days_remove = 90
+		days_re_enable = 180
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision governance_construction_bonus target: [From.GetName]"
+		}
+		modifier = {
+			political_power_gain = -0.20
+			consumer_goods_factor = -0.03
+			production_speed_buildings_factor = 0.1
+		}
+		remove_effect = {
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 0
+				num_of_available_civilian_factories < 1
+			}
+			modifier = {
+				factor = 2
+				num_of_available_civilian_factories > 15
+			}
+			modifier = {
+				factor = 3
+				num_of_available_civilian_factories > 30
+			}
+			modifier = {
+				factor = 0
+				num_of_available_civilian_factories > 50
+			}
+		}
+	}
+	
+	governance_building_slot_bonus = { 
+		icon = GFX_decision_generic_construction
+		fire_only_once = no
+		visible = {
+			any_owned_state = {
+				NOT = { has_state_flag = SP_building_slot_flag }
+				is_fully_controlled_by = ROOT
+			}
+		}
+        cost = 50
+		days_remove = 30
+		days_re_enable = 180
+		complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision governance_building_slot_bonus target: [From.GetName]"
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.05
+			political_power_gain = -0.10
+		}
+		remove_effect = {
+			random_owned_state = {
+				limit = {
+					is_fully_controlled_by = ROOT
+					free_building_slots = {
+						building = industrial_complex
+						size > 1
+						include_locked = yes
+					}
+					NOT = { has_state_flag = SP_building_slot_flag }
+				}
+				add_extra_state_shared_building_slots = 1
+				set_state_flag = SP_building_slot_flag
+			}
+		}
+		ai_will_do = {
+			factor = 1
+			modifier = {
+				factor = 2
+				any_owned_state = { free_building_slots = { building = industrial_complex size < 1 include_locked = no } }
+			}
+		}
+	}
+	
+}

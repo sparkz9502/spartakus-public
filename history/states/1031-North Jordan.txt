@@ -1,0 +1,20 @@
+state={
+	id=1031
+	name="STATE_1031"
+	provinces={
+		4486 
+	}
+
+	history={
+		owner = SYR
+		add_core_of = SYR
+		victory_points = { 4486 2 }
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	manpower=51230
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

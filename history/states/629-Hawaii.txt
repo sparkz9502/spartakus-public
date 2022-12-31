@@ -1,0 +1,28 @@
+
+state={
+	id=629
+	name="STATE_629"
+	manpower = 368300
+	state_category = rural
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 2
+			air_base = 5
+			industrial_complex = 1
+			4180 = {
+				naval_base = 10
+			}
+		}
+		victory_points = {
+			4180 5
+		}
+		victory_points = {
+			12021 1
+		}
+	}
+
+	provinces={
+		4180 7112 7195 10048 12021
+	}
+}

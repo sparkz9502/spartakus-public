@@ -1,0 +1,28 @@
+
+state={
+	id=113
+	name="STATE_113"
+
+	history={
+		owner = IRE
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = IRE
+		victory_points = {
+			285 1 
+		}
+		victory_points = {
+			9310 1 
+		}
+
+	}
+
+	provinces={
+		285 303 3342 7377 9310 
+	}
+	manpower=394300
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

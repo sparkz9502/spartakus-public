@@ -1,0 +1,2781 @@
+########################
+### Greece Decisions ###
+########################
+
+GRE_coup_decisions = {
+
+	GRE_execute_the_coup = {
+
+		priority = 10
+
+		icon = GFX_decision_gre_faction_management
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 185
+
+		fire_only_once = yes
+
+		activation = {
+			has_country_flag = GRE_planned_coup
+			NOT = {
+				has_country_flag = GRE_success_venizelists
+				has_country_flag = GRE_success_conservatives
+				has_country_flag = GRE_failure_venizelists
+				has_country_flag = GRE_failure_conservatives
+			}
+		}
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		is_good = yes
+
+		timeout_effect = {
+			if = {
+				limit = {
+					check_variable = {
+						var = gre_gov_suspicion
+						value = 60
+						compare = less_than
+					}
+					check_variable = {
+						var = gre_mil_preparations
+						value = 85
+						compare = greater_than_or_equals
+					}
+				}
+				country_event = { id = grecoups.2 }
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = gre_gov_suspicion
+						value = 60
+						compare = greater_than_or_equals
+					}
+					check_variable = {
+						var = gre_mil_preparations
+						value = 85
+						compare = less_than
+					}
+				}
+				country_event = { id = grecoups.3 }
+			}
+		}
+	}
+
+	GRE_bribe_guards_and_officials = {
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		available = {
+			NOT = {
+				custom_trigger_tooltip = {
+					tooltip = GRE_bribe_guards_and_officials_tt
+					has_idea = GRE_Army_Corruption
+				}
+				custom_trigger_tooltip = {
+					tooltip = GRE_anti_corruption_measures_tt
+					has_country_flag = GRE_Anti_Corruption_Measures_taken
+				}
+			}
+		}
+
+		cost = 40
+
+		fire_only_once = no
+
+		ai_will_do = {
+			base = 200
+		}
+
+		days_re_enable = 10
+
+		complete_effect = {
+			hidden_effect = { add_ideas = GRE_Army_Corruption }
+			custom_effect_tooltip = "Will reduce the amount of Government Suspicion gained by actions"
+			custom_effect_tooltip = "Lose 15% Government Suspicion"
+			add_to_variable = {
+				var = gre_gov_suspicion
+				value = -15
+			}
+		}
+	}
+
+	GRE_promote_sympathetic_officers = {
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 22
+
+		fire_only_once = no
+
+		days_remove = 7
+
+		complete_effect = {
+			if = {
+				limit = { has_idea = GRE_Army_Corruption }
+				custom_effect_tooltip = "Gain 10% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = 10
+				}
+				custom_effect_tooltip = "Gain 5% Government Suspicion"
+				add_to_variable = {
+					var = gre_gov_suspicion
+					value = 5
+				}
+				hidden_effect = { remove_ideas = GRE_Army_Corruption }
+			}
+			else_if = {
+				limit = { NOT = { has_idea = GRE_Army_Corruption } }
+				custom_effect_tooltip = "Gain 10% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = 10
+				}
+				custom_effect_tooltip = "Gain 15% Government Suspicion"
+				add_to_variable = {
+					var = gre_gov_suspicion
+					value = 15
+				}
+			}
+		}
+	}
+
+	GRE_move_troops_to_strategic_locations = {
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 30
+
+		fire_only_once = no
+
+		days_remove = 7
+
+		complete_effect = {
+			if = {
+				limit = { has_idea = GRE_Army_Corruption }
+				custom_effect_tooltip = "Gain 15% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = 15
+				}
+				custom_effect_tooltip = "Gain 5% Government Suspicion"
+				add_to_variable = {
+					var = gre_gov_suspicion
+					value = 5
+				}
+				hidden_effect = { remove_ideas = GRE_Army_Corruption }
+			}
+			else_if = {
+				limit = { NOT = { has_idea = GRE_Army_Corruption } }
+				custom_effect_tooltip = "Gain 10% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = 15
+				}
+				custom_effect_tooltip = "Gain 15% Government Suspicion"
+				add_to_variable = {
+					var = gre_gov_suspicion
+					value = 15
+				}
+			}
+		}
+	}
+
+	GRE_secure_necessary_supplies = {
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 15
+
+		fire_only_once = no
+
+		days_remove = 7
+
+		complete_effect = {
+			if = {
+				limit = { has_idea = GRE_Army_Corruption }
+				custom_effect_tooltip = "Gain 5% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = 5
+				}
+				custom_effect_tooltip = "Gain 5% Government Suspicion"
+				add_to_variable = {
+					var = gre_gov_suspicion
+					value = 5
+				}
+				hidden_effect = { remove_ideas = GRE_Army_Corruption }
+			}
+			else_if = {
+				limit = { NOT = { has_idea = GRE_Army_Corruption } }
+				custom_effect_tooltip = "Gain 5% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = 5
+				}
+				custom_effect_tooltip = "Gain 10% Government Suspicion"
+				add_to_variable = {
+					var = gre_gov_suspicion
+					value = 10
+				}
+			}
+		}
+	}
+
+	GRE_hide_activities = {
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = GRE_hide_activities_tt
+				NOT = { has_country_flag = GRE_infiltrate_the_other_faction_flag }
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		cost = 30
+
+		fire_only_once = no
+
+		days_remove = 10
+
+		complete_effect = {
+			custom_effect_tooltip = "Lose 5% Military Preparations"
+			add_to_variable = {
+				var = gre_mil_preparations
+				value = -5
+			}
+			if = {
+				limit = {
+					check_variable = {
+						var = gre_gov_suspicion
+						value = 31
+						compare = less_than
+					}
+				}
+				remove_mission = GRE_infiltrate_the_other_faction
+				hidden_effect = { add_ideas = GRE_Hide_Activities_idea }
+			}
+			else_if = {
+				limit = {
+					check_variable = {
+						var = gre_gov_suspicion
+						value = 31
+						compare = greater_than_or_equals
+					}
+				}
+				custom_effect_tooltip = "Lose 15% Military Preparations"
+				add_to_variable = {
+					var = gre_mil_preparations
+					value = -15
+				}
+			}
+		}
+	}
+
+	GRE_root_out_other_spies = {
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		available = {
+			if = {
+				limit = { has_country_flag = GRE_1933_monarchists }
+				custom_trigger_tooltip = {
+					tooltip = GRE_root_out_mon_spies_tt
+					has_country_flag = GRE_infiltrate_the_other_faction_flag
+				}
+			}
+			else_if = {
+				limit = { has_country_flag = GRE_1933_venizelists }
+				custom_trigger_tooltip = {
+					tooltip = GRE_root_out_ven_spies_tt
+					has_country_flag = GRE_infiltrate_the_other_faction_flag
+				}
+			}
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		days_remove = 10
+
+		complete_effect = {
+			custom_effect_tooltip = "Lose 15% Military Preparations"
+			add_to_variable = {
+				var = gre_mil_preparations
+				value = -15
+			}
+			activate_mission = GRE_infiltrate_the_other_faction
+		}
+	}
+
+}
+
+GRE_coup_decisions_gov = {
+
+	GRE_vouli_polemics = {
+
+		priority = 11
+
+		icon = GFX_decision_generic_political_discourse
+
+		allowed = { tag = GRE }
+
+		visible = {
+			tag = GRE
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cost = 30
+
+		fire_only_once = no
+
+		days_remove = 65
+
+		complete_effect = {
+			remove_mission = GRE_destroy_opposite_faction
+			remove_mission = GRE_anti_corruption_measures
+			add_stability = -0.05
+		}
+		remove_effect = {
+			activate_mission = GRE_destroy_opposite_faction
+			activate_mission = GRE_anti_corruption_measures
+			add_stability = -0.02
+		}
+	}
+
+	GRE_anti_corruption_measures = {
+
+		days_mission_timeout = 90
+
+		fire_only_once = yes
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		activation = {
+			has_country_flag = GRE_planned_coup
+			NOT = {
+				has_country_flag = GRE_success_venizelists
+				has_country_flag = GRE_success_conservatives
+				has_country_flag = GRE_failure_venizelists
+				has_country_flag = GRE_failure_conservatives
+			}
+		}
+
+		visible = {
+			tag = GRE
+			custom_trigger_tooltip = {
+				tooltip = GRE_vouli_polemics_tt
+				NOT = { has_country_flag = GRE_vouli_polemics_flag }
+			}
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_Anti_Corruption_Measures_taken
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		timeout_effect = {
+			custom_effect_tooltip = "Lose 20% Military Preparations"
+			add_to_variable = {
+				var = gre_mil_preparations
+				value = -20
+			}
+			custom_effect_tooltip = "Gain 15% Government Suspicion"
+			add_to_variable = {
+				var = gre_gov_suspicion
+				value = 15
+			}
+			custom_effect_tooltip = "Will no longer be able to use the \"Bribe Guards and Officials\" decision"
+			hidden_effect = { set_country_flag = GRE_Anti_Corruption_Measures_taken }
+		}
+	}
+
+	GRE_destroy_opposite_faction = {
+
+		priority = 10
+
+		days_mission_timeout = 90
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		fire_only_once = yes
+
+		activation = {
+			has_country_flag = GRE_planned_coup
+			NOT = {
+				has_country_flag = GRE_success_venizelists
+				has_country_flag = GRE_success_conservatives
+				has_country_flag = GRE_failure_venizelists
+				has_country_flag = GRE_failure_conservatives
+			}
+		}
+
+		visible = {
+			tag = GRE
+			custom_trigger_tooltip = {
+				tooltip = GRE_vouli_polemics_tt
+				NOT = { has_country_flag = GRE_vouli_polemics_flag }
+			}
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		timeout_effect = {
+			custom_effect_tooltip = "Lose 30% Military Preparations"
+			add_to_variable = {
+				var = gre_mil_preparations
+				value = -30
+			}
+			custom_effect_tooltip = "Gain 20% Government Suspicion"
+			add_to_variable = {
+				var = gre_gov_suspicion
+				value = 20
+			}
+		}
+	}
+
+	GRE_infiltrate_the_other_faction = {
+
+		priority = 1
+
+		days_mission_timeout = 70
+
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		fire_only_once = yes
+
+		activation = {
+			has_country_flag = GRE_planned_coup
+			NOT = {
+				has_country_flag = GRE_success_venizelists
+				has_country_flag = GRE_success_conservatives
+				has_country_flag = GRE_failure_venizelists
+				has_country_flag = GRE_failure_conservatives
+			}
+		}
+
+		visible = {
+			tag = GRE
+			custom_trigger_tooltip = {
+				tooltip = GRE_hide_activities_tt2
+				NOT = { has_idea = GRE_Hide_Activities_idea }
+			}
+			hidden_trigger = {
+				has_country_flag = GRE_planned_coup
+				NOT = {
+					has_country_flag = GRE_success_venizelists
+					has_country_flag = GRE_success_conservatives
+					has_country_flag = GRE_failure_venizelists
+					has_country_flag = GRE_failure_conservatives
+					has_socialist_government = yes
+				}
+			}
+		}
+
+		cancel_if_not_visible = yes
+
+		timeout_effect = {
+			custom_effect_tooltip = "Gain 30% Government Suspicion"
+			add_to_variable = {
+				var = gre_gov_suspicion
+				value = 30
+			}
+			if = {
+				limit = { has_country_flag = GRE_1933_monarchists }
+				custom_effect_tooltip = "Infiltrates the Venizelist faction"
+			}
+			else_if = {
+				limit = { has_country_flag = GRE_1933_venizelists }
+				custom_effect_tooltip = "Infiltrates the Monarchist faction"
+			}
+			hidden_effect = { set_country_flag = GRE_infiltrate_the_other_faction_flag }
+		}
+	}
+
+}
+
+GRE_industrialisation = {
+
+	GRE_civ_athens = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			47 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 40
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.2
+			production_speed_buildings_factor = -0.4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			47 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_manpower = 500
+			}
+		}
+	}
+
+	GRE_civ_salonika = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			982 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 40
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.2
+			production_speed_buildings_factor = -0.4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			982 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_manpower = 500
+			}
+		}
+	}
+
+	GRE_civ_thessaly = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			768 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -250 }
+		
+		remove_effect = {
+			768 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+
+			}
+			add_manpower = 250
+		}
+	}
+
+	GRE_civ_macedonia = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			769 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -250 }
+		
+		remove_effect = {
+			769 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 250
+			}
+		}
+	}
+
+	GRE_civ_sterea_hellas = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			1358 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -250 }
+		
+		remove_effect = {
+			1358 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 250
+			}
+		}
+	}
+
+	GRE_civ_epirus = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			185 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -250 }
+		
+		remove_effect = {
+			185 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 250
+			}
+		}
+	}
+
+	GRE_civ_peloponnese = {
+		icon = GFX_decision_generic_factory
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			186 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Industrialisation_Programme
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -250 }
+		
+		remove_effect = {
+			186 = {
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 250
+			}
+		}
+	}
+
+	GRE_port_athens = {
+		icon = GFX_decision_generic_naval
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			47 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Enlarge_the_Naval_Industry
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			47 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 500
+			}
+		}
+	}
+
+	GRE_port_salonika = {
+		icon = GFX_decision_generic_naval
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			982 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Enlarge_the_Naval_Industry
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			982 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 500
+			}
+		}
+	}
+
+	GRE_port_volos = {
+		icon = GFX_decision_generic_naval
+		allowed = { tag = GRE }
+		cost = 15
+		visible = {
+			768 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_Enlarge_the_Naval_Industry
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 0
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			768 = {
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 1
+				add_manpower = 500
+			}
+		}
+	}
+
+	GRE_inf_athens = {
+		icon = GFX_decision_generic_construction
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			47 = {
+				is_owned_and_controlled_by = GRE
+				infrastructure < 10
+			}
+			has_completed_focus = GRE_Invest_in_Infastructure
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			47 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_manpower = 500
+		}
+	}
+
+	GRE_inf_salonika = {
+		icon = GFX_decision_generic_construction
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			982 = {
+				is_owned_and_controlled_by = GRE
+				infrastructure < 10
+			}
+			has_completed_focus = GRE_Invest_in_Infastructure
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			982 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+			add_manpower = 500
+		}
+	}
+
+	GRE_inf_sterea_hellas = {
+		icon = GFX_decision_generic_construction
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			1358 = {
+				is_owned_and_controlled_by = GRE
+				infrastructure < 10
+			}
+			has_completed_focus = GRE_Invest_in_Infastructure
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			1358 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_manpower = 500
+		}
+	}
+
+	GRE_inf_macedonia = {
+		icon = GFX_decision_generic_construction
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			769 = {
+				is_owned_and_controlled_by = GRE
+				infrastructure < 10
+			}
+			has_completed_focus = GRE_Invest_in_Infastructure
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.1
+			production_speed_buildings_factor = -0.2
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -500 }
+		
+		remove_effect = {
+			769 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_manpower = 500
+		}
+	}
+
+	GRE_mil_athens = {
+		icon = GFX_decision_generic_industry
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			47 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_End_of_the_Depression
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.2
+			production_speed_buildings_factor = -0.4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -1000 }
+		
+		remove_effect = {
+			47 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_manpower = 1000
+			}
+		}
+	}
+
+	GRE_mil_salonika = {
+		icon = GFX_decision_generic_industry
+		allowed = { tag = GRE }
+		cost = 20
+		visible = {
+			982 = {
+				is_owned_and_controlled_by = GRE
+			}
+			has_completed_focus = GRE_End_of_the_Depression
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 30
+		fire_only_once = yes
+		is_good = yes
+		modifier = {
+			local_resources_factor = -0.2
+			production_speed_buildings_factor = -0.4
+		}
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		complete_effect = { add_manpower = -1000 }
+		
+		remove_effect = {
+			982 = {
+				add_building_construction = {
+					type = arms_factory
+					level = 2
+					instant_build = yes
+				}
+				add_extra_state_shared_building_slots = 2
+				add_manpower = 1000
+			}
+		}
+	}
+
+}
+
+GRE_debt_repayments = {
+
+	GRE_eng_monthly_payments = {
+		allowed = { tag = GRE }
+		priority = 100
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			ENG = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_eng_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 30
+		cancel_if_not_visible = yes
+		is_good = yes
+
+		activation = {
+			tag = GRE
+			has_country_flag = GRE_debts_start
+		}
+
+		timeout_effect = {
+			custom_effect_tooltip = "Pay 1% of our debt to the Anglos"
+			add_to_variable = {
+				var = gre_eng_loans_var
+				value = 1
+			}
+		}
+	}
+
+	GRE_fra_monthly_payments = {
+		allowed = { tag = GRE }
+		priority = 10
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			FRA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_fra_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 30
+		cancel_if_not_visible = yes
+		is_good = yes
+
+		activation = {
+			tag = GRE
+			has_country_flag = GRE_debts_start
+		}
+
+		timeout_effect = {
+			custom_effect_tooltip = "Pay 1% of our debt to the French"
+			add_to_variable = {
+				var = gre_fra_loans_var
+				value = 1
+			}
+		}
+	}
+
+	GRE_ita_monthly_payments = {
+		allowed = { tag = GRE }
+		priority = 1
+		icon = GFX_decision_hol_attract_foreign_investors
+
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			ITA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_fra_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+		available = {
+			hidden_trigger = { always = no }
+		}
+
+		days_mission_timeout = 30
+		cancel_if_not_visible = yes
+		is_good = yes
+
+		activation = {
+			tag = GRE
+			has_country_flag = GRE_debts_start
+		}
+
+		timeout_effect = {
+			custom_effect_tooltip = "Pay 1% of our debt to the Italians"
+			add_to_variable = {
+				var = gre_ita_loans_var
+				value = 1
+			}
+		}
+	}
+
+	GRE_eng_debts = {
+		allowed = { tag = GRE }
+		icon = GFX_decision_gre_paying_ifc_debt
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			ENG = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gre_eng_loans_tt
+				check_variable = {
+					var = gre_eng_loans_var
+					value = 100
+					compare = equals
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_worse
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_f_i
+					remove_idea = GRE_Foreign_Debts_worse
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_f
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_f
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_i
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_i
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b
+				}
+				remove_ideas = GRE_Foreign_Debts_b
+			}
+		}
+	}
+
+	GRE_fra_debts = {
+		allowed = { tag = GRE }
+		icon = GFX_decision_gre_paying_ifc_debt
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			FRA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gre_fra_loans_tt
+				check_variable = {
+					var = gre_fra_loans_var
+					value = 100
+					compare = equals
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_worse
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b_i
+					remove_idea = GRE_Foreign_Debts_worse
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_f
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_f
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_f_i
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_i
+					remove_idea = GRE_Foreign_Debts_f_i
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_f
+				}
+				remove_ideas = GRE_Foreign_Debts_f
+			}
+		}
+	}
+
+	GRE_ita_debts = {
+		allowed = { tag = GRE }
+		icon = GFX_decision_gre_paying_ifc_debt
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			ITA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = gre_ita_loans_tt
+				check_variable = {
+					var = gre_ita_loans_var
+					value = 100
+					compare = equals
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_worse
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b_f
+					remove_idea = GRE_Foreign_Debts_worse
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_f_i
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_f
+					remove_idea = GRE_Foreign_Debts_f_i
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_f
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_f
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_i
+				}
+				remove_ideas = GRE_Foreign_Debts_i
+			}
+		}
+	}
+
+	GRE_eng_collapse = {
+		allowed = { tag = GRE }
+		cost = 30
+		icon = GFX_decision_gre_paying_ifc_debt
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			ENG = {
+				OR = {
+					exists = no
+					has_socialist_government = yes
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_worse
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_f_i
+					remove_idea = GRE_Foreign_Debts_worse
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_f
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_f
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_i
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_i
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b
+				}
+				remove_ideas = GRE_Foreign_Debts_b
+			}
+		}
+	}
+
+	GRE_fra_collapse = {
+		allowed = { tag = GRE }
+		cost = 30
+		icon = GFX_decision_gre_paying_ifc_debt
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			FRA = {
+				OR = {
+					exists = no
+					has_socialist_government = yes
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_worse
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b_i
+					remove_idea = GRE_Foreign_Debts_worse
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_f
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_f
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_f_i
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_i
+					remove_idea = GRE_Foreign_Debts_f_i
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_f
+				}
+				remove_ideas = GRE_Foreign_Debts_f
+			}
+		}
+	}
+
+	GRE_ita_collapse = {
+		allowed = { tag = GRE }
+		cost = 30
+		icon = GFX_decision_gre_paying_ifc_debt
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			ITA = {
+				OR = {
+					exists = no
+					has_socialist_government = yes
+				}
+			}
+		}
+		
+		cancel_if_not_visible = yes
+		days_remove = 20
+		fire_only_once = yes
+		
+		remove_effect = {
+			if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_worse
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b_f
+					remove_idea = GRE_Foreign_Debts_worse
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_f_i
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_f
+					remove_idea = GRE_Foreign_Debts_f_i
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_b_f
+				}
+				swap_ideas = {
+					add_idea = GRE_Foreign_Debts_b
+					remove_idea = GRE_Foreign_Debts_b_f
+				}
+			}
+			else_if = {
+				limit = {
+					has_idea = GRE_Foreign_Debts_i
+				}
+				remove_ideas = GRE_Foreign_Debts_i
+			}
+		}
+	}
+
+	GRE_eng_small_payment = {
+		allowed = { tag = GRE }
+		cost = 15
+		icon = GFX_decision_hol_attract_foreign_investors
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			has_completed_focus = GRE_Deal_with_the_Loans
+			ENG = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_eng_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable  = 20
+
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		targeted_modifier = {
+			tag = ENG
+			consumer_goods_factor = 0.02
+		}
+		remove_effect = {
+			custom_effect_tooltip = "Pay 4% of our debt to the Anglos"
+			add_to_variable = {
+				var = gre_eng_loans_var
+				value = 4
+			}
+		}
+	}
+
+	GRE_eng_large_payment = {
+		allowed = { tag = GRE }
+		cost = 30
+		icon = GFX_decision_hol_attract_foreign_investors
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			has_completed_focus = GRE_Deal_with_the_Loans
+			ENG = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_eng_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable  = 20
+
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		targeted_modifier = {
+			tag = ENG
+			consumer_goods_factor = 0.04
+		}
+		remove_effect = {
+			custom_effect_tooltip = "Pay 8% of our debt to the Anglos"
+			add_to_variable = {
+				var = gre_eng_loans_var
+				value = 8
+			}
+		}
+	}
+
+	GRE_fra_small_payment = {
+		allowed = { tag = GRE }
+		cost = 15
+		icon = GFX_decision_hol_attract_foreign_investors
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			has_completed_focus = GRE_Deal_with_the_Loans
+			FRA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_fra_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable  = 20
+
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		targeted_modifier = {
+			tag = FRA
+			consumer_goods_factor = 0.02
+		}
+		remove_effect = {
+			custom_effect_tooltip = "Pay 4% of our debt to the French"
+			add_to_variable = {
+				var = gre_fra_loans_var
+				value = 4
+			}
+		}
+	}
+
+	GRE_fra_large_payment = {
+		allowed = { tag = GRE }
+		cost = 30
+		icon = GFX_decision_hol_attract_foreign_investors
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			has_completed_focus = GRE_Deal_with_the_Loans
+			FRA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_fra_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable  = 20
+
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		targeted_modifier = {
+			tag = FRA
+			consumer_goods_factor = 0.04
+		}
+		remove_effect = {
+			custom_effect_tooltip = "Pay 8% of our debt to the French"
+			add_to_variable = {
+				var = gre_fra_loans_var
+				value = 8
+			}
+		}
+	}
+
+	GRE_ita_small_payment = {
+		allowed = { tag = GRE }
+		cost = 15
+		icon = GFX_decision_hol_attract_foreign_investors
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			has_completed_focus = GRE_Deal_with_the_Loans
+			ITA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_ita_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable  = 20
+
+		modifier = {
+			consumer_goods_factor = 0.05
+		}
+		targeted_modifier = {
+			tag = ITA
+			consumer_goods_factor = 0.03
+		}
+		remove_effect = {
+			custom_effect_tooltip = "Pay 4% of our debt to the Italians"
+			add_to_variable = {
+				var = gre_ita_loans_var
+				value = 4
+			}
+		}
+	}
+
+	GRE_ita_large_payment = {
+		allowed = { tag = GRE }
+		cost = 30
+		icon = GFX_decision_hol_attract_foreign_investors
+		visible = {
+			hidden_trigger = {
+				has_country_flag = GRE_debts_start
+			}
+			has_completed_focus = GRE_Deal_with_the_Loans
+			ITA = {
+				AND = {
+					exists = yes
+					has_socialist_government = no
+				}
+			}
+			check_variable = {
+				var = gre_ita_loans_var
+				value = 100
+				compare = less_than
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable  = 20
+
+		modifier = {
+			consumer_goods_factor = 0.1
+		}
+		targeted_modifier = {
+			tag = ITA
+			consumer_goods_factor = 0.06
+		}
+		remove_effect = {
+			custom_effect_tooltip = "Pay 8% of our debt to the Italians"
+			add_to_variable = {
+				var = gre_ita_loans_var
+				value = 8
+			}
+		}
+	}
+}
+
+GRE_equipment = {
+
+	GRE_buy_equipment_from_the_british = {
+		icon = GFX_decision_guns_british
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_The_Pyrkal_Company
+			}
+		}
+		available = {
+			GRE = { NOT = { has_socialist_government = yes } }
+			ENG = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { infantry_equipment > 799 }
+				has_equipment = { support_equipment > 199 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Arms_Payment_Anglo_idea
+				days = 25
+			}
+		}
+		remove_effect = {
+			ENG = {
+				send_equipment = {
+					type = infantry_equipment
+					amount = 800
+					target = GRE
+				}
+				send_equipment = {
+					type = support_equipment
+					amount = 200
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_equipment_from_the_french = {
+		icon = GFX_decision_guns_french
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_The_Pyrkal_Company
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Arms_Payment_Anglo_idea
+				has_idea = GRE_Arms_Payment_French_idea
+				has_idea = GRE_Arms_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			FRA = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { infantry_equipment > 799 }
+				has_equipment = { support_equipment > 199 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Arms_Payment_French_idea
+				days = 25
+			}
+		}
+		remove_effect = {
+			FRA = {
+				send_equipment = {
+					type = infantry_equipment
+					amount = 800
+					target = GRE
+				}
+				send_equipment = {
+					type = support_equipment
+					amount = 200
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_equipment_from_the_italians = {
+		icon = GFX_decision_guns_italian
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_The_Pyrkal_Company
+				NOT = { has_country_flag = ITA_civil_war_ongoing }
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Arms_Payment_Anglo_idea
+				has_idea = GRE_Arms_Payment_French_idea
+				has_idea = GRE_Arms_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ITA = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { infantry_equipment > 799 }
+				has_equipment = { support_equipment > 199 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Arms_Payment_Italian_idea
+				days = 25
+			}
+		}
+		remove_effect = {
+			ITA = {
+				send_equipment = {
+					type = infantry_equipment
+					amount = 800
+					target = GRE
+				}
+				send_equipment = {
+					type = support_equipment
+					amount = 200
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_artillery_from_the_british = {
+		icon = GFX_decision_artillery_british
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_The_Pyrkal_Company
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Arms_Payment_Anglo_idea
+				has_idea = GRE_Arms_Payment_French_idea
+				has_idea = GRE_Arms_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ENG = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { artillery_equipment > 399 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Arms_Payment_Anglo_idea
+				days = 25
+			}
+		}
+		remove_effect = {
+			ENG = {
+				send_equipment = {
+					type = artillery_equipment
+					amount = 400
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_artillery_from_the_french = {
+		icon = GFX_decision_artillery_french
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_The_Pyrkal_Company
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Arms_Payment_Anglo_idea
+				has_idea = GRE_Arms_Payment_French_idea
+				has_idea = GRE_Arms_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			FRA = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { artillery_equipment > 399 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Arms_Payment_French_idea
+				days = 25
+			}
+		}
+		remove_effect = {
+			FRA = {
+				send_equipment = {
+					type = artillery_equipment
+					amount = 400
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_artillery_from_the_italians = {
+		icon = GFX_decision_artillery_italian
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_The_Pyrkal_Company
+				NOT = { has_country_flag = ITA_civil_war_ongoing }
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Arms_Payment_Anglo_idea
+				has_idea = GRE_Arms_Payment_French_idea
+				has_idea = GRE_Arms_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ITA = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { artillery_equipment > 399 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 30
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Arms_Payment_Anglo_idea
+				days = 25
+			}
+		}
+		remove_effect = {
+			ENG = {
+				send_equipment = {
+					type = artillery_equipment
+					amount = 400
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_a_british_destroyer = {
+		icon = GFX_decision_naval_british
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Hellenic_Shipyards
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Ship_Payment_Anglo_idea
+				has_idea = GRE_Ship_Payment_French_idea
+				has_idea = GRE_Ship_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ENG = {
+				NOT = { has_socialist_government = yes }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Ship_Payment_Anglo_idea
+				days = 50
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					ENG = {
+						has_tech = early_destroyer
+						NOT = {
+							has_tech = basic_destroyer
+							has_tech = improved_destroyer
+							has_tech = advanced_destroyer
+						}
+					}
+				}
+				create_ship = {
+					type = destroyer_1
+					equipment_variant = "A/B/C/D Class"
+					creator = ENG
+				}
+			}
+			else_if = {
+				limit = {
+					ENG = {
+						has_tech = early_destroyer
+						has_tech = basic_destroyer
+						NOT = {
+							has_tech = improved_destroyer
+							has_tech = advanced_destroyer
+						}
+					}
+				}
+				create_ship = {
+					type = destroyer_2
+					equipment_variant = "G/H/I Class"
+					creator = ENG
+				}
+			}
+			else_if = {
+				limit = {
+					ENG = {
+						has_tech = early_destroyer
+						has_tech = basic_destroyer
+						has_tech = improved_destroyer
+						NOT = {
+							has_tech = advanced_destroyer
+						}
+					}
+				}
+				create_ship = {
+					type = destroyer_3
+					equipment_variant = "J/K/N Class"
+					creator = ENG
+				}
+			}
+			else_if = {
+				limit = {
+					ENG = {
+						has_tech = early_destroyer
+						has_tech = basic_destroyer
+						has_tech = improved_destroyer
+						has_tech = advanced_destroyer
+					}
+				}
+				create_ship = {
+					type = destroyer_4
+					equipment_variant = "Battle Class"
+					creator = ENG
+				}
+			}
+		}
+	}
+
+	GRE_buy_a_french_light_cruiser = {
+		icon = GFX_decision_naval_french
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Hellenic_Shipyards
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Ship_Payment_Anglo_idea
+				has_idea = GRE_Ship_Payment_French_idea
+				has_idea = GRE_Ship_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			FRA = {
+				NOT = { has_socialist_government = yes }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Ship_Payment_French_idea
+				days = 80
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					FRA = {
+						has_tech = early_light_cruiser
+						NOT = {
+							has_tech = basic_light_cruiser
+							has_tech = improved_light_cruiser
+							has_tech = advanced_light_cruiser
+						}
+					}
+				}
+				create_ship = {
+					type = light_cruiser_1
+					equipment_variant = "Duguay-Trouin Class"
+					creator = FRA
+				}
+			}
+			else_if = {
+				limit = {
+					FRA = {
+						has_tech = early_light_cruiser
+						has_tech = basic_light_cruiser
+						NOT = {
+							has_tech = improved_light_cruiser
+							has_tech = advanced_light_cruiser
+						}
+					}
+				}
+				create_ship = {
+					type = light_cruiser_2
+					equipment_variant = "La Gallissonnière Class"
+					creator = FRA
+				}
+			}
+			else_if = {
+				limit = {
+					FRA = {
+						has_tech = early_light_cruiser
+						has_tech = basic_light_cruiser
+						has_tech = improved_light_cruiser
+						NOT = {
+							has_tech = advanced_light_cruiser
+						}
+					}
+				}
+				create_ship = {
+					type = light_cruiser_3
+					equipment_variant = "De Grasse Class"
+					creator = FRA
+				}
+			}
+			else_if = {
+				limit = {
+					FRA = {
+						has_tech = early_light_cruiser
+						has_tech = basic_light_cruiser
+						has_tech = improved_light_cruiser
+						has_tech = advanced_light_cruiser
+					}
+				}
+				create_ship = {
+					type = light_cruiser_4
+					equipment_variant = "Colbert Class"
+					creator = FRA
+				}
+			}
+		}
+	}
+
+	GRE_buy_a_french_heavy_cruiser = {
+		icon = GFX_decision_naval_french
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Hellenic_Shipyards
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Ship_Payment_Anglo_idea
+				has_idea = GRE_Ship_Payment_French_idea
+				has_idea = GRE_Ship_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			FRA = {
+				NOT = { has_socialist_government = yes }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Ship_Payment_French_idea
+				days = 120
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					FRA = {
+						has_tech = early_heavy_cruiser
+						NOT = {
+							has_tech = basic_heavy_cruiser
+							has_tech = improved_heavy_cruiser
+							has_tech = advanced_heavy_cruiser
+						}
+					}
+				}
+				create_ship = {
+					type = heavy_cruiser_1
+					equipment_variant = "Suffren Class"
+					creator = FRA
+				}
+			}
+			else_if = {
+				limit = {
+					FRA = {
+						has_tech = early_heavy_cruiser
+						has_tech = basic_heavy_cruiser
+						NOT = {
+							has_tech = improved_heavy_cruiser
+							has_tech = advanced_heavy_cruiser
+						}
+					}
+				}
+				create_ship = {
+					type = heavy_cruiser_2
+					equipment_variant = "Algérie Class"
+					creator = FRA
+				}
+			}
+			else_if = {
+				limit = {
+					FRA = {
+						has_tech = early_heavy_cruiser
+						has_tech = basic_heavy_cruiser
+						has_tech = improved_heavy_cruiser
+						NOT = {
+							has_tech = advanced_heavy_cruiser
+						}
+					}
+				}
+				create_ship = {
+					type = heavy_cruiser_3
+					equipment_variant = "Saint Louis Class"
+					creator = FRA
+				}
+			}
+			else_if = {
+				limit = {
+					FRA = {
+						has_tech = early_heavy_cruiser
+						has_tech = basic_heavy_cruiser
+						has_tech = improved_heavy_cruiser
+						has_tech = advanced_heavy_cruiser
+					}
+				}
+				create_ship = {
+					type = heavy_cruiser_4
+					equipment_variant = "Forbin Class"
+					creator = FRA
+				}
+			}
+		}
+	}
+
+	GRE_buy_a_british_battlecruiser = {
+		icon = GFX_decision_naval_british
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Hellenic_Shipyards
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Ship_Payment_Anglo_idea
+				has_idea = GRE_Ship_Payment_French_idea
+				has_idea = GRE_Ship_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ENG = {
+				NOT = { has_socialist_government = yes }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Ship_Payment_Anglo_idea
+				days = 150
+			}
+		}
+		remove_effect = {
+			if = {
+				limit = {
+					ENG = {
+						has_tech = early_battlecruiser
+						NOT = {
+							has_tech = basic_battlecruiser
+						}
+					}
+				}
+				create_ship = {
+					type = battle_cruiser_1
+					equipment_variant = "Admirad Class"
+					creator = ENG
+				}
+			}
+			else_if = {
+				limit = {
+					ENG = {
+						has_tech = early_battlecruiser
+						has_tech = basic_battlecruiser
+					}
+				}
+				create_ship = {
+					type = battle_cruiser_2
+					equipment_variant = "Princess Royal Class"
+					creator = ENG
+				}
+			}
+		}
+	}
+
+	GRE_buy_fighter_planes_from_the_british = {
+		icon = GFX_decision_plane_british
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Expand_Air_Production
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Plane_Payment_Anglo_idea
+				has_idea = GRE_Plane_Payment_French_idea
+				has_idea = GRE_Plane_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ENG = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { fighter_equipment > 19 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Plane_Payment_Anglo_idea
+				days = 40
+			}
+		}
+		remove_effect = {
+			ENG = {
+				send_equipment = {
+					type = fighter_equipment
+					amount = 20
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_bomber_planes_from_the_french = {
+		icon = GFX_decision_plane_french
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Expand_Air_Production
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Plane_Payment_Anglo_idea
+				has_idea = GRE_Plane_Payment_French_idea
+				has_idea = GRE_Plane_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			FRA = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { tac_bomber_equipment > 19 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Plane_Payment_French_idea
+				days = 40
+			}
+		}
+		remove_effect = {
+			FRA = {
+				send_equipment = {
+					type = tac_bomber_equipment
+					amount = 20
+					target = GRE
+				}
+			}
+		}
+	}
+
+	GRE_buy_CAS_planes_from_the_italians = {
+		icon = GFX_decision_plane_italian
+		allowed = { tag = GRE }
+		cost = 10
+		visible = {
+			hidden_trigger = {
+				has_completed_focus = GRE_Expand_Air_Production
+				NOT = { has_country_flag = ITA_civil_war_ongoing }
+			}
+		}
+		available = {
+			NOT = {
+				has_idea = GRE_Plane_Payment_Anglo_idea
+				has_idea = GRE_Plane_Payment_French_idea
+				has_idea = GRE_Plane_Payment_Italian_idea
+			}
+			GRE = { NOT = { has_socialist_government = yes } }
+			ITA = {
+				NOT = { has_socialist_government = yes }
+				has_equipment = { CAS_equipment > 19 }
+			}
+		}
+
+		cancel_if_not_visible = yes
+		days_re_enable = 60
+		
+		complete_effect = {
+			add_timed_idea = {
+				idea = GRE_Plane_Payment_Italian_idea
+				days = 40
+			}
+		}
+		remove_effect = {
+			ITA = {
+				send_equipment = {
+					type = CAS_equipment
+					amount = 20
+					target = GRE
+				}
+			}
+		}
+	}
+
+}

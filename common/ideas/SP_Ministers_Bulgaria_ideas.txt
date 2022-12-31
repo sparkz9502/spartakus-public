@@ -1,0 +1,1149 @@
+ideas = {
+	
+################################################################################################################################################################################################
+### BUL - Bulgaria
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	BUL_Vasil_kolarov_hog_bol = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			#
+		}
+		cancel_if_invalid = no
+	}
+	BUL_Georgi_Dimitrov_hog_spa = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Khristo_Kabakchiev_hog_rev = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Yanko_Sakazov_hog_sde = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+	
+	BUL_Alexander_Stamboliyski_hog_sde = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Atanas_Burov_hog_sli = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_corporate_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Stoyan_Kosturkov_hog_lco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Georgi_Mihov_Dimitrov_hog_sco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Aleksandar_Malinov_hog_aco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_government
+			authoritarian_conservative
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+	
+	BUL_Aleksandar_Tsankov_hog_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Bogdan_Filov_hog_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Petar_Todorov_hog_nsy = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_reformist_soldier
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Kimon_Georgiev_hog_ncp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	BUL_Mincho_Neychev_for_bol = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Traicho_Kostov_for_spa = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Dimitar_Vlahov_for_rev = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Dimo_Kazasov_for_sde = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Stoyan_Danev_for_sli = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Venelin_Ganev_for_lco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Konstantin_Mouraviev_for_sco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Nikola_Mushanov_for_aco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			foreign_minister
+			authoritarian_conservative
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Andrey_Toshev_for_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Kimon_Georgiev_for_ncp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	BUL_Kiril_Lazarov_eco_bol = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Ivan_Stefanov_eco_spa = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Smile_Vojdanov_eco_rev = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Sotir_Yanev_eco_sde = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Todor_Vlaykov_eco_lco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Aleksandar_Obbov_eco_sco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Todor_Krastev_eco_aco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Georgi_Kyoseivanov_eco_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Kosta_Boyadzhiev_eco_nsy = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Stancho_Cholakov_eco_ncp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	BUL_Georgi_Tsankov_sec_bol = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Georgi_Tsankov_sec_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Georgi_Damyanov_sec_spa = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Hristo_Tatarchev_sec_rev = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_health_and_safety
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Grigor_Cheshmedjiev_sec_sde = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Mihail_Madzharov_sec_sli = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Joseph_Fedenhecht_sec_lco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Dimitar_Gichev_sec_sco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Aleksandar_Girginov_sec_aco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Pencho_Zlatev_sec_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_iron_fisted_general
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Ivan_Harizanov_sec_nsy = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Petar_Milev_sec_ncp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	BUL_Ivan_Bachvarov_def_spa = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_intel
+			spartacist
+			int_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Vladimir_Stoychev_def_sde = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_intel
+			social_democrat
+			int_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Konstantin_Lukash_def_sli = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_intel
+			social_liberal
+			int_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Vasil_Kutinchev_def_aco = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_intel
+			authoritarian_conservative
+			int_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Ivan_Valkov_def_rwp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_intel
+			right_wing_populist
+			int_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Damyan_Velchev_def_ncp = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			head_of_intel
+			national_corporatist
+			int_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	BUL_Ivan_Bachvarov_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_commando_operations
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Konstantin_Lukash_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Nikola_Ivanov_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Nikola_Nedev_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Racho_Petrov_Stoyanov_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Stiliyan_Kovachev_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Hristo_Lukov_cos = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	BUL_Ferdinand_Kozovsky_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Vasil_Kolarov_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Vladimir_Stoychev_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Danail_Nikolaev_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Ivan_Valkov_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Konstantin_Ivanov_Bekyarov_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Vasil_Kutinchev_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Vladimir_Vazov_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Hristo_Lukov_carm = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	BUL_Simeon_Vankov_cnav = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Dimitar_Dobrev_cnav = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	BUL_Radul_Milkov_cair = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUL_Prodan_Tarakchiev_cair = {
+		allowed = {original_tag = BUL}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_naval_aviation_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

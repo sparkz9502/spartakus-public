@@ -1,0 +1,6 @@
+scripted_gui = {
+	coal_shortage_topbar_icon = {
+		window_name = "coal_shortage_container"
+		visible = { has_idea = SP_coal_shortage }
+	}
+}

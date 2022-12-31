@@ -1,0 +1,61 @@
+﻿capital = 405
+
+set_oob = "TRK"
+
+set_technology = {
+	
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_research_slots = 2
+
+set_politics = {	
+	ruling_party = right_wing_populist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 11
+    spartacist = 0
+    revolutionary_socialist = 2
+    reformist_socialist = 2
+    social_democrat = 4
+    social_liberal = 11
+    liberal_conservative = 1
+    social_conservative = 2
+    authoritarian_conservative = 4
+    right_wing_populist = 42
+    national_syndicalist = 21
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Mohammed Alim Khan"
+	desc = "POLITICS_MOHAMMED_ALIM_KHAN_DESC"
+	picture = "Portrait_Mohammed_Alim_Khan.tga"
+	expire = "1965.1.1"
+	ideology = absolute_monarchism
+	traits = {
+	}
+}
+
+add_ideas = {
+	recruitment_1830
+	governance_abs
+	trade_pro
+	economy_undev
+	mobilization_1
+	
+	TRK_pan_turkic_movement
+	TRK_bolshevik_raiding
+}
+
+Basmachi_raiding_state_setup = yes
+activate_targeted_decision  = { target = SOV decision = Basmachi_raiding_dec }
+activate_targeted_decision  = { target = AFG decision = Basmachi_raiding_dec }

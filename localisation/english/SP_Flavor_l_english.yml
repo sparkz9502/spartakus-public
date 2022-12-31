@@ -1,0 +1,59 @@
+﻿l_english:
+
+### Events ###
+
+#flavor.0.t:0 ""
+#flavor.0.d:0 ""
+#flavor.0.a:""
+
+#sportsflavor.0.t:0 ""
+#sportsflavor.0.d:0 ""
+#sportsflavor.0.a:""
+
+#The Shape of Things to Come
+
+flavor.1.t:0 "The Shape of Things to Come"
+flavor.1.d:0 "The Shape of Things to Come, a science fiction alternate future novel by H. G. Wells, was released today. The book speculates on events from 1933 to 2106 from the perspective of a diplomat, Dr Philip Raven, who is said to have experienced visions of a history book published in 2106.\n\nIn the book, Wells describes a world where the escalated western economic crisis results in civil wars and unrest across Europe preceding a 2nd Great War over the Rhineland region. As with the Great War, this fictional war bogs down until the 1950's, when constant bombardments from 'air torpedoes' lay waste to the warring powers before a plague wipes out much of the population.\n\nFrom the ashes of this world, the 'Dictatorship of the Air' rises, abolishing class and religion through mass purges. This dictatorship is eventually overthrown in a bloodless coup, and the Wells ends the book with noting society has turned utopian, made up only of extremely intelligent individuals.\n\nThe book has received both praise and criticism from all spectrums. Critics have claimed the book is tainted with political bias based on Wells' socialist views, and others have described the book as 'plain out childish fantasy'. Others have praised it for being a solid work of fiction.\n\nOne can only wonder how much of Wells' predictions will come true."
+flavor.1.a:"Who doesn't love a good work of fiction?"
+flavor.1.b:"Not exactly what we had in mind..."
+flavor.1.c:"Is this SOCIALIST propaganda?!?"
+
+#A Legionary Dream
+
+flavor.2.title:0 "A Legionary Dream"
+flavor.2.desc:0 "Today marks the day that the novel “A Legionary Dream” was published; the author’s name is unknown, only going by “the Chancellor”. The book portrays Europe in the year 2126 after a devastating conflict in the 21st century returned the continent back to the stone age. In the year 2126, 106 years after the world changing war, civilization has gradually built back up to its pre-war status, with new countries, leaders and groups emerging all over the continent. The eponymous nation, the Legion, is one of the major powers in this new Europe, and is readying itself for the coming war.\n\nThe book ends with a war between an 'unknown state' and the Legion.\n\nThe book seems to be open ended, with many expecting a sequel, while “the Chancellor” has yet to reveal themself to the public..."
+flavor.2.a:0 "Truly the darkest timeline…"
+
+#Baltic Cup
+
+sportsflavor.1.t:0 "The Baltic Cup of [GetDateTextSimple]"
+sportsflavor.1.d:0 "Since 1928, the nations of Livonia, Estonia and Lithuania have met every year to play a football tournament. This has become known as the Baltic Cup, and despite some controversies and political troubles between the participants, the tournament is commencing this year, [GetDateTextSimple].\n\nThe tournament includes three matches. Whoever loses the first match moves on to face the team that hasn't played yet. Whoever wins the second match goes on to face the winner of the first match. The winner of the final third match is the winner of the tournament. One can only wonder who will take the trophy this time."
+sportsflavor.1.a:"Go [Root.GetName]!"
+
+sportsflavor.2.t:0 "[Root.GetName] wins the [GetDateTextSimple] Baltic Cup!"
+sportsflavor.2.d:0 "We have managed to emerge victorious in the Baltic Cup of [GetDateTextSimple] after defeating our opponents in all the matches. This truly is a great day for all the peoples of [Root.GetName]. Lets hope we can keep this up next year."
+sportsflavor.2.a:0 "Naturally we win."
+
+sportsflavor.3.t:0 "[Root.GetName] loses the [GetDateTextSimple] Baltic Cup"
+sportsflavor.3.d:0 "We have, unfortunately, lost the Baltic Cup of [GetDateTextSimple]. Our opponents were too much to handle. This is a sad day for the peoples of [Root.GetName], and we can only hope to make up for this next year."
+sportsflavor.3.a:0 "Maybe next time."
+
+#Balkan Cup
+
+#Yugoslavia team (Balkan Cup)
+sportsflavor.7.t:0 "The Creation of a Yugoslavian football team"
+sportsflavor.7.d:0 "With the upcoming Balkan cup in mind, many Yugoslavists support the idea of a united Yugoslav team. Players from both Serbia and Illyria would come together and assemble a football team uniting them under one banner. While this idea is quite popular in the two nations, the Kingdom of Italy on the other side remains sceptical seeing Yugoslavian unity as a threat against there posessions on the Adriatic coast. An invitation was already sent to Montenegro but was sadly refused despite the White movement supporting the initiative. The games are nearing and we need to decide quickly!"
+sportsflavor.7.a:0 "We support the idea!"
+sportsflavor.7.b:0 "We can't risk it..."
+
+sportsflavor.8.t:0 "The Creation of a Yugoslavian football team"
+sportsflavor.8.d:0 "With the upcoming Balkan cup in mind, Serbia has sent us an invitation to assemble a united Yugoslav team. Players from both Illyria and Serbia would come together and play under one banner in the 1932 Balkan cup. While this idea is quite popular in the two nations, the Kingdom of Italy on the other hand remains sceptical seeing Yugoslavian unity as a threat against there posessions on the Adriatic coast. An invitation was already sent to Montenegro by Serbia but was refused. The games are nearing quickly, what will it be?"
+sportsflavor.8.a:0 "We will play as a united team!"
+sportsflavor.8.b:0 "Italy is right on our doorstep..."
+
+sportsflavor.9.t:0 ""
+sportsflavor.9.d:0 "With the upcoming Balkan cup in mind, Serbia has sent us an invitation to assemble a united Yugoslav team. Players from both Illyria and Serbia would come together and play under one banner in the 1932 Balkan cup. While this idea is quite popular in the two nations, the Kingdom of Italy on the other hand remains sceptical seeing Yugoslavian unity as a threat against there posessions on the Adriatic coast. An invitation was already sent to Montenegro by Serbia but was refused. The games are nearing quickly, what will it be?"
+sportsflavor.9.a:0 "We will play as a united team!"
+
+
+

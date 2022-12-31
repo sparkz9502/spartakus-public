@@ -1,0 +1,35 @@
+
+state={
+	id=679
+	name="STATE_679"
+
+	history={
+		owner = PAL
+		victory_points = {
+			12883 1 
+		}
+		victory_points = {
+			5037 5 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			12883 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = PAL
+		add_claim_by = SAU
+
+	}
+
+	provinces={
+		1923 4981 5037 12883 14156 
+	}
+	manpower=601942
+	buildings_max_level_factor=1.000
+	state_category=town
+}

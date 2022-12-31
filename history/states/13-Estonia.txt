@@ -1,0 +1,41 @@
+
+state={
+	id=13
+	name="STATE_13"
+	resources={
+	}
+
+	history={
+		owner = EST
+		victory_points = {
+			3152 10 
+		}
+		victory_points = {
+			83 1 
+		}
+		victory_points = {
+			9079 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 2
+			3152 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = EST
+
+	}
+
+	provinces={
+		83 496 567 3074 3152 9079 11426 
+	}
+	manpower=457100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

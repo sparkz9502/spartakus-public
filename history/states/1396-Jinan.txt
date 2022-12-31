@@ -1,0 +1,30 @@
+
+state={
+	id=1396
+	name="STATE_1396"
+	resources={
+		coal=2.000
+	}
+
+	history={
+		owner = SHA
+		add_core_of = SHA
+		victory_points = {
+			1069 10 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			industrial_complex = 3
+
+		}
+
+	}
+
+	provinces={
+		1069 4037 4071 4089 10072 10102 12045 12074 
+	}
+	manpower=10800300
+	state_category = city
+	buildings_max_level_factor=1.000
+}

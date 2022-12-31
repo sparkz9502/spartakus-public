@@ -1,0 +1,42 @@
+﻿l_english:
+
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+# Ideas
+
+# Focuses
+
+# Traits
+
+### Parties ###
+
+SLO_bolshevist_party:0 "KSS"
+SLO_bolshevist_party_long:0 "Communist Party of Slovakia (Komunistická Strana Slovenska)"
+SLO_spartacist_party:0 "KSS"
+SLO_spartacist_party_long:0 "Communist Party of Slovakia (Komunistická Strana Slovenska)"
+SLO_revolutionary_socialist_party:0 "KSS"
+SLO_revolutionary_socialist_party_long:0 "Communist Party of Slovakia (Komunistická Strana Slovenska)"
+SLO_reformist_socialist_party:0 "UDPSD/MNSZDP"
+SLO_reformist_socialist_party_long:0 "Hungarian-German Social Democratic Party (Ungarisch-Deutsche Partei der Sozialdemokraten/Magyar és Német Szociál-Demokrata Párt)"
+SLO_social_democrat_party:0 "SSDS"
+SLO_social_democrat_party_long:0 "Slovak Social Democratic Party (Slovenská Sociálnodemokratická Strana)"
+SLO_social_liberal_party:0 "SDS"
+SLO_social_liberal_party_long:0 "Slovak Democratic Party (Slovenská Demokratická Strana)"
+SLO_liberal_conservative_party:0 "NRSR"
+SLO_liberal_conservative_party_long:0 "National Republican Peasant Party (Národní Republikánské Strany Rolnické)"
+SLO_social_conservative_party:0 "SNS"
+SLO_social_conservative_party_long:0 "Slovak National Party (Slovenská Národná Strana)"
+SLO_authoritarian_conservative_party:0 "MNP"
+SLO_authoritarian_conservative_party_long:0 "Hungarian National Party (Magyar Nemzeti Párt)"
+SLO_right_wing_populist_party:0 "KDP"
+SLO_right_wing_populist_party_long:0 "Carpathian German Party (Karpatendeutsche Partei)"
+SLO_national_syndicalist_party:0 "SLS"
+SLO_national_syndicalist_party_long:0 "Slovak People's Party (Slovenská Ludová Strana)"
+SLO_national_corporatist_party:0 "SLS"
+SLO_national_corporatist_party_long:0 "Slovak People's Party (Slovenská Ludová Strana)"
+
+# Opinion Modifiers

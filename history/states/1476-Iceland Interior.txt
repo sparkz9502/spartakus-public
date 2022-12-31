@@ -1,0 +1,21 @@
+
+state={
+	id=1476
+	name="STATE_1476"
+
+	history={
+		owner = ICE
+		buildings = {
+			infrastructure = 0
+		}
+		add_core_of = ICE
+	}
+
+	provinces={
+		13572 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

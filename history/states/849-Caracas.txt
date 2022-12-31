@@ -1,0 +1,29 @@
+
+state={
+	id=849
+	name="STATE_849"
+
+	history={
+		owner = VEN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+			8113 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = VEN
+		victory_points = {
+			8113 5 
+		}
+	}
+
+	provinces={
+		5317 8113 
+	}
+	manpower=801800
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

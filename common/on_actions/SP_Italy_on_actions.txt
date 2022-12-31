@@ -1,0 +1,14 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			ITA = {
+				country_event = { id = itaflv.1 days = 88 }
+				country_event = { id = itaflv.2 days = 110 }
+				country_event = { id = itaflv.3 days = 203 }
+				country_event = { id = itaflv.4 days = 392 }
+				
+				#country_event = { id = itacw.1 days = 320 }
+			}
+		}
+    }
+}

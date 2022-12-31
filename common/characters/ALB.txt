@@ -1,0 +1,190 @@
+characters={
+	ALB_ali_kelmendi = {
+		name = "Ali Kelmendi"
+		portraits={
+			civilian={
+				large = "gfx/leaders/ALB/Portrait_ALB_Kelmendi.tga"
+			}
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = bolshevist_subtype
+			traits = {
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = spartacist_subtype
+			traits = {
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = revolutionary_socialist_subtype
+			traits = {
+			}
+			id=-1
+		}
+	}
+
+	ALB_fan_noli = {
+		name = "Fan Noli"
+		portraits={
+			civilian={
+				large = "gfx/leaders/ALB/Portrait_ALB_Noli.tga"
+			}
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = reformist_socialist_subtype
+			traits = {
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			traits = {
+			}
+			id=-1
+		}
+	}
+
+	ALB_herthe_i = {
+		name = "Herthe I"
+		portraits={
+			civilian={
+				large = "gfx/leaders/ALB/Portrait_ALB_Herbert.tga"
+			}
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = social_liberal_subtype
+			traits = {
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = liberal_conservative_subtype
+			traits = {
+				ALB_blind
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			traits = {
+				ALB_blind
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = authoritarian_conservative_subtype
+			traits = {
+				ALB_blind
+			}
+			id=-1
+		}
+	}
+
+	ALB_ahmet_zogu = {
+		name = "Ahmet Zogu"
+		portraits={
+			civilian={
+				large = "gfx/leaders/ALB/Portrait_ALB_Zogu.tga"
+			}
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = right_wing_populist_subtype
+			traits = {
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = national_syndicalist_subtype
+			traits = {
+			}
+			id=-1
+		}
+		country_leader={
+			desc = ""
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			traits = {
+			}
+			id=-1
+		}
+	}
+
+	ALB_jocelyn_percy = {
+		name = "Jocelyn Percy"
+		portraits={
+			army={
+				large = "gfx/leaders/ALB/Portrait_ALB_Jocelyn_Percy.tga"
+			}
+		}
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	ALB_xhemal_aranitasi = {
+		name = "Xhemal Aranitasi"
+		portraits={
+			army={
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	ALB_prenk_pervizi = {
+		name = "Prenk Pervizi"
+		portraits={
+			army={
+				large = "gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

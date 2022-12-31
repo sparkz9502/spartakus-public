@@ -1,0 +1,31 @@
+
+state={
+	id=698
+	name="STATE_698"
+
+	history={
+		owner = PRM
+		victory_points = {
+			1751 3 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			1751 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = POR
+		add_core_of = PRM
+
+	}
+
+	provinces={
+		1751 15494 
+	}
+	manpower=253900
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

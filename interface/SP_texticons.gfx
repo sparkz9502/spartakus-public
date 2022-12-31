@@ -1,0 +1,73 @@
+spriteTypes = {	
+	spriteType = {
+		name = "GFX_unit_militia_icon_small"
+		texturefile = "gfx/texticons/unit_militia_icon_small.dds"
+		legacy_lazy_load = no
+		noOfFrames = 2
+	}
+	
+	spriteType = {
+		name = "GFX_nato_unit_militia_icon_small"
+		texturefile = "gfx/texticons/nato_unit_militia_icon_small.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_infantry_weapons_texticon"
+		texturefile = "gfx/interface/texticons/infantry_weapons_texticon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_command_power_texticon"
+		texturefile = "gfx/interface/command_power_icon.dds"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_war_support_texticon"
+		texturefile = "gfx/interface/texticons/war_support_texticon.tga"
+		legacy_lazy_load = no
+	}
+	
+	spriteType = {
+		name = "GFX_latvian_farmers_union_big_texticon"
+		texturefile = "gfx/interface/texticons/latvian_farmers_union_big_texticon.dds"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_military_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_military_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_monarchy_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_monarchy_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_ratniks_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_ratniks_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_BKP_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_BKP_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_BZNS_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_BZNS_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_Bulgarian_SP_big_texticon"
+		texturefile = "gfx/interface/texticons/Bulgarian_SP_big_texticon.tga"
+		legacy_lazy_load = no
+	}
+	spriteType = {
+		name = "GFX_secret_police_texticon"
+		texturefile = "gfx/interface/texticons/secret_police_texticon.dds"
+		legacy_lazy_load = no
+	}
+}

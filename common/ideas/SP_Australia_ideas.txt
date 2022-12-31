@@ -1,0 +1,23 @@
+ideas = {
+
+###################
+# Australia Ideas #
+###################
+
+	country = {
+	
+		AST_empire = {
+			picture = stiff_upper_lip
+		}
+		
+		AST_depression = {
+			modifier = {
+				war_support_factor = -0.25
+				consumer_goods_factor = 0.25
+				production_speed_buildings_factor = -0.25
+				industrial_capacity_factory = -0.25
+			}
+			picture = great_depression
+		}
+	}
+}

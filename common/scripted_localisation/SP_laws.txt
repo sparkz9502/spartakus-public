@@ -1,0 +1,359 @@
+#Economy
+
+defined_text = {
+	name = GetEconomyHyind
+	text = {
+		trigger = {
+			has_idea = economy_hyind
+		}
+		localization_key = Economy_Hyind_Text_Active
+	}
+	text = {
+		localization_key = Economy_Hyind_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetEconomyInd
+	text = {
+		trigger = {
+			has_idea = economy_ind
+		}
+		localization_key = Economy_Ind_Text_Active
+	}
+	text = {
+		localization_key = Economy_Ind_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetEconomySemind
+	text = {
+		trigger = {
+			has_idea = economy_semind
+		}
+		localization_key = Economy_Semind_Text_Active
+	}
+	text = {
+		localization_key = Economy_Semind_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetEconomyIndzing
+	text = {
+		trigger = {
+			has_idea = economy_indzing
+		}
+		localization_key = Economy_Indzing_Text_Active
+	}
+	text = {
+		localization_key = Economy_Indzing_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetEconomyUnind
+	text = {
+		trigger = {
+			has_idea = economy_unind
+		}
+		localization_key = Economy_Unind_Text_Active
+	}
+	text = {
+		localization_key = Economy_Unind_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetEconomyUndev
+	text = {
+		trigger = {
+			has_idea = economy_undev
+		}
+		localization_key = Economy_Undev_Text_Active
+	}
+	text = {
+		localization_key = Economy_Undev_Text_Inactive
+	}
+}
+
+#Trade
+
+defined_text = {
+	name = GetTradeAut
+	text = {
+		trigger = {
+			has_idea = trade_aut
+		}
+		localization_key = Trade_Aut_Text_Active
+	}
+	text = {
+		localization_key = Trade_Aut_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetTradeNat
+	text = {
+		trigger = {
+			has_idea = trade_nat
+		}
+		localization_key = Trade_Nat_Text_Active
+	}
+	text = {
+		localization_key = Trade_Nat_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetTradePro
+	text = {
+		trigger = {
+			has_idea = trade_pro
+		}
+		localization_key = Trade_Pro_Text_Active
+	}
+	text = {
+		localization_key = Trade_Pro_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetTradeSempro
+	text = {
+		trigger = {
+			has_idea = trade_sempro
+		}
+		localization_key = Trade_Sempro_Text_Active
+	}
+	text = {
+		localization_key = Trade_Sempro_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetTradeLaif
+	text = {
+		trigger = {
+			has_idea = trade_laif
+		}
+		localization_key = Trade_Laif_Text_Active
+	}
+	text = {
+		localization_key = Trade_Laif_Text_Inactive
+	}
+}
+
+#Governance
+
+defined_text = {
+	name = GetGovernanceBure
+	text = {
+		trigger = {
+			has_idea = governance_bure
+		}
+		localization_key = Governance_Bure_Text_Active
+	}
+	text = {
+		localization_key = Governance_Bure_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceCoun
+	text = {
+		trigger = {
+			has_idea = governance_coun
+		}
+		localization_key = Governance_Coun_Text_Active
+	}
+	text = {
+		localization_key = Governance_Coun_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceCol
+	text = {
+		trigger = {
+			has_idea = governance_col
+		}
+		localization_key = Governance_Col_Text_Active
+	}
+	text = {
+		localization_key = Governance_Col_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernancePar
+	text = {
+		trigger = {
+			has_idea = governance_par
+		}
+		localization_key = Governance_Par_Text_Active
+	}
+	text = {
+		localization_key = Governance_Par_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceExec
+	text = {
+		trigger = {
+			has_idea = governance_exec
+		}
+		localization_key = Governance_Exec_Text_Active
+	}
+	text = {
+		localization_key = Governance_Exec_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceTot
+	text = {
+		trigger = {
+			has_idea = governance_tot
+		}
+		localization_key = Governance_Tot_Text_Active
+	}
+	text = {
+		localization_key = Governance_Tot_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceAbs
+	text = {
+		trigger = {
+			has_idea = governance_abs
+		}
+		localization_key = Governance_Abs_Text_Active
+	}
+	text = {
+		localization_key = Governance_Abs_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceTri
+	text = {
+		trigger = {
+			has_idea = governance_tri
+		}
+		localization_key = Governance_Tri_Text_Active
+	}
+	text = {
+		localization_key = Governance_Tri_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetGovernanceColo
+	text = {
+		trigger = {
+			has_idea = governance_colo
+		}
+		localization_key = Governance_Colo_Text_Active
+	}
+	text = {
+		localization_key = Governance_Colo_Text_Inactive
+	}
+}
+
+#Recruitment
+
+defined_text = {
+	name = GetRecruitment1660
+	text = {
+		trigger = {
+			has_idea = recruitment_1660
+		}
+		localization_key = Conscription_16_60_Text_Active
+	}
+	text = {
+		localization_key = Conscription_16_60_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitment1850
+	text = {
+		trigger = {
+			has_idea = recruitment_1850
+		}
+		localization_key = Conscription_18_50_Text_Active
+	}
+	text = {
+		localization_key = Conscription_18_50_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitment1840
+	text = {
+		trigger = {
+			has_idea = recruitment_1840
+		}
+		localization_key = Conscription_18_40_Text_Active
+	}
+	text = {
+		localization_key = Conscription_18_40_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitment1835
+	text = {
+		trigger = {
+			has_idea = recruitment_1835
+		}
+		localization_key = Conscription_18_35_Text_Active
+	}
+	text = {
+		localization_key = Conscription_18_35_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitment1830
+	text = {
+		trigger = {
+			has_idea = recruitment_1830
+		}
+		localization_key = Conscription_18_30_Text_Active
+	}
+	text = {
+		localization_key = Conscription_18_30_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitment1825
+	text = {
+		trigger = {
+			has_idea = recruitment_1825
+		}
+		localization_key = Conscription_18_25_Text_Active
+	}
+	text = {
+		localization_key = Conscription_18_25_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitmentVolunteer
+	text = {
+		trigger = {
+			has_idea = recruitment_volunteer
+		}
+		localization_key = Volunteer_Only_Text_Active
+	}
+	text = {
+		localization_key = Volunteer_Only_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitmentColonial
+	text = {
+		trigger = {
+			has_idea = recruitment_colonial
+		}
+		localization_key = Colonial_Army_Text_Active
+	}
+	text = {
+		localization_key = Colonial_Army_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetRecruitmentDisarmed
+	text = {
+		trigger = {
+			has_idea = recruitment_disarmed
+		}
+		localization_key = Disarmed_Text_Active
+	}
+	text = {
+		localization_key = Disarmed_Text_Inactive
+	}
+}

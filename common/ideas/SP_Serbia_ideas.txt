@@ -1,0 +1,605 @@
+### Serbian Ideas
+ideas = {
+    ##############
+    # Country ideas
+    ##############
+
+    country = {
+	
+		# Start
+
+        SER_The_Decade_of_Silence = {
+            picture = SER_eotds
+            modifier = {
+			    right_wing_populist_drift = -0.1
+				bolshevist_drift = 0.03
+				spartacist_drift = 0.01
+				stability_factor = -0.30
+				industrial_capacity_factory = -0.25
+				production_speed_buildings_factor = -0.25
+            }
+        }
+		
+		SER_Decree_on_the_Colonization_of_the_Southern_Regions = {
+            picture = Kosovo_Flames
+            modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.3
+            }
+        }
+		
+		SER_Great_Depression_idea = {
+			picture = great_depression
+			modifier = {
+				consumer_goods_factor = 0.15
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.10
+				production_factory_max_efficiency_factor = -0.05
+				stability_factor = -0.20
+			}
+		}
+		
+		SER_Airforce_on_Hold = {
+            picture = idea_man_five_year_plan_air
+			modifier = {
+			consumer_goods_factor = -0.05
+			production_speed_air_base_factor = -0.5
+		  }
+		    equipment_bonus = {
+			    fighter_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = 0.25
+				}
+            }
+        }
+		
+		SER_Airforce_Development_Accelerated = {
+            picture = idea_man_five_year_plan_air
+			modifier = {
+			production_speed_air_base_factor = 0.1
+		    }
+		    research_bonus = {
+				air_equipment = 0.15
+			}
+		    equipment_bonus = {
+			    fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.05
+				}
+            }
+        }
+		
+		SER_DFA = {
+            picture = idea_man_five_year_plan_air
+			modifier = {
+			production_speed_air_base_factor = 0.1
+		    }
+		    research_bonus = {
+				air_equipment = 0.10
+			}
+		    equipment_bonus = {
+			    fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				cv_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				jet_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				cv_CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				CAS_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				cv_nav_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				rocket_interceptor_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				jet_tac_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				jet_strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				heavy_fighter_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				strat_bomber_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+				transport_plane_equipment = {
+					instant = yes
+					build_cost_ic = -0.03
+				}
+            }
+        }
+		
+		SER_Nationalization_In_Progress = {
+            picture = FRA_national_mobilization_focus
+            modifier = {
+				political_power_gain = -0.3
+				stability_factor = -0.05
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.05
+				production_factory_max_efficiency_factor = -0.1
+            }
+        }
+		
+		SER_Nationalization_Finished = {
+            picture = generic_central_management
+            modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.1
+            }
+        }
+		
+		SER_Socialization_In_Progress = {
+            picture = FRA_national_mobilization_focus
+            modifier = {
+				political_power_gain = -0.1
+				stability_factor = -0.03
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.03
+            }
+        }
+		
+		SER_Socialization_Finished = {
+            picture = generic_goods_red_bonus
+            modifier = {
+				political_power_gain = 0.2
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.1
+            }
+        }
+		
+		SER_Tyrannical_Officers = {
+            picture = death_men
+            modifier = {
+				army_morale_factor = -0.1
+				army_org_factor = 0.20
+				max_planning = 0.1
+				experience_gain_army = 0.1
+            }
+        }
+		
+		SER_Elected_Officers = {
+            picture = Red_Militia_Idea
+            modifier = {
+				army_morale_factor = 0.1
+				army_org_factor = -0.05
+				experience_gain_army = 0.1
+            }
+        }
+		
+		SER_State_Education_Early = {
+            picture = generic_army_war_college
+            modifier = {
+			  political_power_gain = 0.1
+            }
+        }
+		
+		SER_State_Education_Mid = {
+            picture = generic_army_war_college
+            modifier = {
+			  political_power_gain = 0.2
+            }
+        }
+		
+		SER_State_Education_Late = {
+            picture = generic_army_war_college
+            modifier = {
+			  political_power_gain = 0.2
+			  stability_factor = 0.05
+            }
+        }
+		
+		SER_Pioneers = {
+            picture = SER_Pioneers
+            modifier = {
+			  stability_factor = 0.03
+            }
+        }
+		
+		SER_State_Education_Adopted = {
+            picture = generic_army_war_college
+            modifier = {
+			  political_power_gain = 0.3
+			  stability_factor = 0.05
+			  production_factory_max_efficiency_factor = 0.1
+			  war_support_factor = 0.2
+            }
+        }
+		
+		SER_Community_Education = {
+            picture = generic_army_war_college
+            modifier = {
+			  political_power_gain = 0.2
+			  stability_factor = 0.03
+            }
+        }
+		
+		SER_Community_Education_2 = {
+            picture = generic_army_war_college
+            modifier = {
+			  political_power_gain = 0.2
+			  stability_factor = 0.05
+			  production_factory_max_efficiency_factor = 0.1
+			  consumer_goods_factor = -0.05
+            }
+        }
+		
+		SER_Kosovars_Returning = {
+            picture = prc_the_long_march2
+            modifier = {
+			  stability_factor = -0.05
+			  MONTHLY_POPULATION = 0.5
+            }
+        }
+		
+		SER_SZDJ = {
+            picture = economic_control_icon
+            modifier = {
+			  political_power_gain = 0.1
+			  stability_factor = 0.03
+			  industrial_capacity_factory = 0.03
+			  production_factory_max_efficiency_factor = 0.1
+            }
+        }
+		
+		SER_KFZ = {
+            picture = YUG_yugoslavian_general_staff
+            modifier = {
+			  conscription_factor = 0.25
+			  consumer_goods_factor = 0.05
+            }
+        }
+		
+		SER_Agricultural_Mechanization_Idea = {
+            picture = generic_agrarian_society
+            modifier = {
+			  political_power_gain = 0.1
+			  consumer_goods_factor = -0.1
+            }
+        }
+		
+		SER_Formed_Yugoimport = {
+            picture = YUG_local_militias
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+            modifier = { 
+			production_speed_arms_factory_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+            }
+        }
+		
+		SER_Zastava_Koop = {
+            picture = YUG_local_militias
+			equipment_bonus = {
+				infantry_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+				artillery_equipment = {
+					build_cost_ic = -0.05
+					instant = yes
+				}
+			}
+            modifier = { 
+			production_speed_arms_factory_factor = 0.1
+			production_speed_industrial_complex_factor = 0.1
+            }
+        }
+		
+		SER_Agrisubsidies = {
+            picture = generic_agrarian_society
+            modifier = {
+			  stability_factor = 0.03
+			  consumer_goods_factor = -0.1
+			  MONTHLY_POPULATION = 0.1
+            }
+        }
+		
+		SER_Grants_to_MIN_Idea = {
+            picture = generic_build_infrastructure
+            modifier = {
+				production_speed_buildings_factor = 0.1
+				stability_factor = 0.03
+				conscription = 0.01
+			}
+        }
+		
+		SER_Intervening_in_Industrialization = {
+            picture = generic_central_management
+            modifier = {
+				political_power_gain = 0.01
+				stability_factor = 0.03
+				industrial_capacity_factory = 0.03
+				production_factory_max_efficiency_factor = 0.05
+            }
+        }
+		
+		SER_Encouraging_Industrialization = {
+            picture = generic_goods_red_bonus
+            modifier = {
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				production_speed_buildings_factor = 0.05
+            }
+        }
+		
+		SER_Land_Reform_Idea = {
+            picture = generic_agrarian_reform
+            modifier = {
+			  political_power_gain = 0.2
+			  stability_factor = 0.05
+			  consumer_goods_factor = -0.1
+			  war_support_factor = 0.1
+            }
+        }
+		
+		SER_Foreign_Investors = {
+            picture = generic_goods_red_bonus
+            modifier = {
+			    political_power_gain = 0.01
+				stability_factor = 0.03
+				industrial_capacity_factory = 0.1
+				production_factory_max_efficiency_factor = 0.1
+				production_speed_buildings_factor = 0.1
+            }
+        }
+		
+		SER_Urbanizing = {
+            picture = ROM_agricultural_icon
+            modifier = {
+			    political_power_gain = 0.01
+				industrial_capacity_factory = 0.05
+				consumer_goods_factor = 0.03
+            }
+        }
+		
+		SER_Monarchist_Agitation = {
+            picture = enemies_of_republic
+            modifier = {
+			    political_power_gain = -0.01
+				industrial_capacity_factory = -0.05
+				stability_factor = -0.05
+				war_support_factor = -0.3
+            }
+        }
+		
+		SER_Stalwart_Republic = {
+            picture = SER_Defense_of_the_Republic
+            modifier = {
+			    political_power_gain = 0.01
+				industrial_capacity_factory = 0.05
+				stability_factor = 0.05
+				war_support_factor = 0.3
+            }
+        }
+		
+		SER_Liberatory_War_Recovery = {
+            picture = officers_purged
+            modifier = {
+			    political_power_gain = -0.05
+				stability_factor = -0.2
+				army_morale_factor = -0.1
+				industrial_capacity_factory = -0.1
+				consumer_goods_factor = -0.1
+				MONTHLY_POPULATION = 0.1
+            }
+        }
+		
+		FPRY_SSRNJ = {
+            picture = trotskyite_plot_purged
+            modifier = {
+			    political_power_gain = 0.02
+				stability_factor = 0.05
+				industrial_capacity_factory = 0.02
+				production_factory_max_efficiency_factor = 0.02
+            }
+        }
+		
+		FPRY_OZNA = {
+            picture = nkvd_2
+            modifier = {
+			    special_forces_cap = 0.05
+				special_forces_training_time_factor = -0.1
+            }
+        }
+		
+		FPRY_JNA = {
+            picture = YUG_all_yugoslavian_regiments
+            modifier = {
+			    max_command_power = 25
+				command_power_gain_mult = 0.1
+				planning_speed = 0.1
+            }
+        }
+		
+		SER_Guerilla_Arms = {
+            picture = YUG_all_yugoslavian_regiments
+            modifier = {
+				war_support_factor = 0.05
+				conscription_factor = 0.01
+            }
+        }
+		
+		SER_Temporarily_Increased_Peasant_Support = {
+            picture = YUG_all_yugoslavian_regiments
+            modifier = {
+			    bolshevist_drift = 0.01
+				spartacist_drift = 0.01
+				war_support_factor = 0.05
+				conscription_factor = 0.01
+            }
+        }
+		
+		SER_Proles_Armed_Lax = {
+            picture = redstar_guns
+            modifier = {
+			    political_power_gain = -0.01
+				stability_factor = -0.1
+				war_support_factor = 0.1
+				conscription_factor = 0.05
+            }
+        }
+		
+		SER_Proles_Armed_Moderate = {
+            picture = redstar_guns
+            modifier = {
+				stability_factor = -0.03
+				war_support_factor = 0.05
+				conscription_factor = 0.03
+            }
+        }
+		
+		SER_Proles_Armed_Pure = {
+            picture = redstar_guns
+            modifier = {
+			    political_power_gain = 0.01
+				stability_factor = 0.03
+				war_support_factor = 0.05
+				conscription_factor = 0.01
+            }
+        }		
+	}
+}

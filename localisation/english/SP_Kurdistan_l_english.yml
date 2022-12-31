@@ -1,0 +1,48 @@
+﻿l_english:
+
+# Events
+
+
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+
+# Focuses
+
+
+# Parties
+KUR_bolshevist_party:0 "TKP - K"
+KUR_bolshevist_party_long:0 "Türkiye Komünist Partisi - Kurdistan"
+KUR_spartacist_party:0 "TKP - K"
+KUR_spartacist_party_long:0 "Türkiye Komünist Partisi - Kurdistan"
+KUR_reformist_socialist_party:0 "OSF - K"
+KUR_reformist_socialist_party_long:0 "Osmanlı Sosyalist Fırkası - Kurdistan"
+KUR_revolutionary_socialist_party:0 "TICSF - K"
+KUR_revolutionary_socialist_party_long:0 "Türkiye İşçi ve Çiftçi Sosyalist Fırkası - Kurdistan"
+KUR_social_democrat_party:0 "SDF - K"
+KUR_social_democrat_party_long:0 "Sosyal Demokrat Fırkası - Kurdistan"
+KUR_social_liberal_party:0 "HİF - K"
+KUR_social_liberal_party_long:0 "Hürriyet ve İtilâf Fırkası - Kurdistan"
+KUR_liberal_conservative_party:0 "TCF - K"
+KUR_liberal_conservative_party_long:0 "Terakkiperver Cumhuriyet Fırkası - Kurdistan"
+KUR_social_conservative_party:0 "İOC - K"
+KUR_social_conservative_party_long:0 "İttihad-ı Osmanî Cemiyeti - Kurdistan"
+KUR_authoritarian_conservative_party:0 "Military Commission"
+KUR_authoritarian_conservative_party_long:0 "Franco-British Military Advisory Commission"
+KUR_right_wing_populist_party:0 "CTK"
+KUR_right_wing_populist_party_long:0 "Cemiyeta Tealiya Kurd"
+KUR_national_syndicalist_party:0 "AF - K"
+KUR_national_syndicalist_party_long:0 "Ahali Fırkası - Kurdistan"
+KUR_national_corporatist_party:0 "MSH - K"
+KUR_national_corporatist_party_long:0 "Milli Selamet Hareketi - Kurdistan"
+
+
+# Opinion Modifiers
+
+
+# Leader descriptions

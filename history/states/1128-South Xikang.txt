@@ -1,0 +1,25 @@
+
+state={
+	id=1128
+	name="STATE_1128"
+
+	history={
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14046 3 
+		}
+
+	}
+
+	provinces={
+		2067 4999 7294 10726 10841 12819 14038 14039 14041 14043 14045 14046 14051 14053 
+	}
+	manpower=5084500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

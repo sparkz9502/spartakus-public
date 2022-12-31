@@ -1,0 +1,21 @@
+####################
+#Bulgarian Speeches# 
+####################
+
+soundeffect = {
+	name = "BUL_georgiev_speech"
+	sounds = {
+		sound = BUL_georgiev_speech
+	}
+	volume = 1.3
+}
+
+soundeffect = {
+	name = "BUL_ura"
+	sounds = {
+		sound = BUL_ura
+	}
+	volume = 1.3
+}
+
+

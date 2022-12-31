@@ -1,0 +1,209 @@
+###########################
+# Spain Focus Tree
+# By Alguien
+###########################
+
+focus_tree = {
+	id = SPR_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SPR
+		}
+	}
+	
+	#Azaña
+	
+	focus = {
+		id = SPR_jesuits
+		icon = goal_WIP
+		x = 1
+		y = 0
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SPR_divorce_law
+		icon = goal_WIP
+		prerequisite = { focus = SPR_jesuits }
+		relative_position_id = SPR_jesuits
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = SPR_catalan_autonomy
+		icon = goal_WIP
+		prerequisite = { focus = SPR_divorce_law }
+		relative_position_id = SPR_jesuits
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_kickstart_agrarian_reform
+		icon = goal_WIP
+		prerequisite = { focus = SPR_divorce_law }
+		relative_position_id = SPR_jesuits
+		x = 1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_affront_textiles_crisis
+		icon = goal_WIP
+		prerequisite = { focus = SPR_divorce_law }
+		relative_position_id = SPR_jesuits
+		x = 3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_nationalize_factories
+		icon = goal_WIP
+		prerequisite = { focus = SPR_affront_textiles_crisis }
+		relative_position_id = SPR_jesuits
+		x = 2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_search_raw_materials
+		icon = goal_WIP
+		prerequisite = { focus = SPR_nationalize_factories}
+		relative_position_id = SPR_jesuits
+		x = 2
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_incentivize_alternatives
+		icon = goal_WIP
+		prerequisite = { focus = SPR_affront_textiles_crisis }
+		relative_position_id = SPR_jesuits
+		x = 4
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_invest_heavy_industry
+		icon = goal_WIP
+		prerequisite = { focus = SPR_incentivize_alternatives }
+		relative_position_id = SPR_jesuits
+		x = 4
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_casas_viejas
+		icon = goal_WIP
+		prerequisite = { focus = SPR_catalan_autonomy }
+		prerequisite = { focus = SPR_kickstart_agrarian_reform }
+		relative_position_id = SPR_jesuits
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_schedule_municipal_elections
+		icon = goal_WIP
+		prerequisite = { focus = SPR_casas_viejas }
+		relative_position_id = SPR_jesuits
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = SPR_cast_the_ballots
+		icon = goal_WIP
+		prerequisite = { focus = SPR_schedule_municipal_elections }
+		relative_position_id = SPR_jesuits
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+
+		completion_reward = {
+		}
+	}
+		
+}

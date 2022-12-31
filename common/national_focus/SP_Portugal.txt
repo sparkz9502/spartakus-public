@@ -1,0 +1,4033 @@
+################################
+# Republican Portugal Focus Tree
+# By sparkz and dudugs :)
+################################
+
+focus_tree = {
+	id = portugal_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = POR
+		}
+	}
+	default = no
+	
+	focus = {
+		id = POR_triumphant_republic
+		icon = GFX_goal_national_mobilization
+		x = -9
+		y = 0
+		cost = 1
+	    available = {
+			has_global_flag = POR_civil_war_over
+		}
+		ai_will_do = {
+			factor = 1000
+		}
+		completion_reward = {	
+			add_political_power = 100
+			add_ideas = POR_a_triumphant_nation
+		}
+	}
+	
+	#Anarchoids
+	
+	focus = {
+		id = POR_anarchists_elected
+		relative_position_id = POR_triumphant_republic
+		icon = GFX_AnarchistFlag
+		prerequisite = { focus = POR_triumphant_republic }
+		mutually_exclusive = {
+			focus = POR_socialists_elected
+			focus = POR_communists_elected
+		}
+	    available = {
+			has_country_flag = POR_anarchists_elected_flag
+		}
+		x = 0
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_communalize_agriculture
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_red_star_gold_wreath
+		prerequisite = { focus = POR_anarchists_elected }
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			179 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 2
+    				instant_build = yes
+				}
+			}
+			181 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 2
+    				instant_build = yes
+				}
+			}
+			1028 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 2
+    				instant_build = yes
+				}
+			}
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = POR_anarchist_feminism
+		icon = GFX_AnarchaFeminism
+		relative_position_id = POR_anarchists_elected
+		prerequisite = { focus = POR_communalize_agriculture }
+		x = -2	
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_reduce_focus_on_urbanization
+		icon = GFX_focus_small_farms
+		relative_position_id = POR_anarchists_elected
+		prerequisite = { focus = POR_communalize_agriculture }
+		x = -4	
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			179 = {
+				add_manpower = 6000
+				add_extra_state_shared_building_slots = 1
+			}
+			181 = {
+				add_manpower = 4000
+				add_extra_state_shared_building_slots = 1
+			}
+			1028 = {
+				add_manpower = 2000
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_integrate_the_UAP
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_Pride_of_The_Left
+		prerequisite = { focus = POR_anarchist_feminism }
+		prerequisite = { focus = POR_reduce_focus_on_urbanization }
+		x = -3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			custom_effect_tooltip = POR_no_strikes_tt
+			add_ideas = POR_integrated_uap
+		}
+	}
+	
+	focus = {
+		id = POR_individualistic_anarchism
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_Upset_the_Balance
+		prerequisite = { focus = POR_integrate_the_UAP }		
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_abolition_of_state_and_capital
+		icon = GFX_The_Scourge
+		relative_position_id = POR_anarchists_elected
+		prerequisite = { focus = POR_anarchists_elected } 
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_transition_to_anarchism_1
+		}
+	}
+	
+	focus = {
+		id = POR_deconstruct_hierarchy
+		icon = GFX_Imprison_the_King
+		relative_position_id = POR_anarchists_elected
+		prerequisite = { focus = POR_abolition_of_state_and_capital } 
+			
+		x = 0
+		y = 2z
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			swap_ideas = {
+				remove_idea = POR_transition_to_anarchism_1
+				add_idea = POR_transition_to_anarchism_2
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_denounce_the_evil_of_god
+		icon = GFX_Enshrine_Secularism
+		relative_position_id = POR_anarchists_elected
+		prerequisite = { focus = POR_deconstruct_hierarchy } 
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_kill_god
+			add_timed_idea = { idea = POR_church_looted  days = 100 }
+		}
+	}
+	
+	focus = {
+		id = POR_implementation_of_mutualism
+		icon = GFX_goal_red_star_green_wreath
+		relative_position_id = POR_anarchists_elected
+		prerequisite = { focus = POR_deconstruct_hierarchy } 
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_mutualism_lol
+		}
+	}
+	
+	focus = {
+		id = POR_mobilize_against_monarchist_rebels
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_focus_communist_army
+		prerequisite = { focus = POR_denounce_the_evil_of_god }
+		prerequisite = { focus = POR_implementation_of_mutualism }
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			country_event = por.161
+		}
+	}
+	
+	focus = {
+		id = POR_horizontalidade
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_ideology_revolutionary_socialist
+		prerequisite = { focus = POR_anarchists_elected }
+		x = 3
+		y = 1	
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = revolutionary_socialist popularity = 0.10
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_cooperative_ownership_of_production
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_CommunistProductionFocus
+		prerequisite = { focus = POR_horizontalidade }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_establish_direct_workplace_democracy
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_AnarchoIndustry
+		prerequisite = { focus = POR_horizontalidade }
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_decentralized_communal_federation
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_syndicalism
+		prerequisite = { focus = POR_cooperative_ownership_of_production }
+		prerequisite = { focus = POR_establish_direct_workplace_democracy }
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			has_completed_focus = POR_deconstruct_hierarchy
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_transition_to_anarchism_2
+				add_idea = POR_transition_to_anarchism_3
+			}
+			add_governance_col = true
+		}
+	}
+	
+	focus = {
+		id = POR_freethinking
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_Spark_the_Brain
+		prerequisite = { focus = POR_cooperative_ownership_of_production }
+		prerequisite = { focus = POR_establish_direct_workplace_democracy }
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = POR_education
+			set_country_flag = POR_educate
+		}
+	}
+	
+	focus = {
+		id = POR_abolition_of_wages
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_AbolitionofWages
+		prerequisite = { focus = POR_individualistic_anarchism }
+		x = -2
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_elected_army_officers
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_HOL_military_union
+		prerequisite = { focus = POR_freethinking }
+		x = 2
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_elected_officers
+		}
+	}
+	
+	focus = {
+		id = POR_reaffirm_support_for_the_FAI
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_FAICooperation
+		prerequisite = { focus = POR_mobilize_against_monarchist_rebels }
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_spread_anarchist_values_globally
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_FRA_World_Revolution
+		prerequisite = { focus = POR_abolition_of_wages }
+		prerequisite = { focus = POR_reaffirm_support_for_the_FAI }
+		x = -1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_support_anarchists_in_south_america
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_South_American_Relations
+		prerequisite = { focus = POR_elected_army_officers }
+		prerequisite = { focus = POR_reaffirm_support_for_the_FAI }
+		x = 1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_a_workers_federation
+		relative_position_id = POR_anarchists_elected
+		icon = GFX_goal_anarcho_communism
+		x = 0
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_support_anarchists_in_south_america focus = POR_spread_anarchist_values_globally }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_transition_to_anarchism_3
+				add_idea = POR_anarchist_commune
+			}
+		}
+	}
+	
+	#Communists
+	
+	focus = {
+		id = POR_communists_elected
+		relative_position_id = POR_triumphant_republic
+		icon = GFX_goal_flag_socialist_portugal
+		prerequisite = { focus = POR_triumphant_republic }
+		mutually_exclusive = {
+			focus = POR_socialists_elected
+			focus = POR_anarchists_elected
+		}
+	    available = {
+			has_country_flag = POR_communists_elected_flag
+		}
+		x = 10
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+	}
+	
+	focus = {
+		id = POR_socialize_agriculture
+		relative_position_id = POR_communists_elected
+		icon = GFX_CommunistAgricultureFocus
+		prerequisite = { focus = POR_communists_elected }
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_socialized_agriculture
+		}
+	}
+	
+	focus = {
+		id = POR_spartacist_feminism
+		icon = GFX_goal_women_industry
+		relative_position_id = POR_communists_elected
+		prerequisite = { focus = POR_socialize_agriculture }
+		x = -2	
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_expanded_womens_rights
+		}
+	}
+	
+	focus = {
+		id = POR_balanced_urbanization
+		icon = GFX_Encourage_Urbanization
+		relative_position_id = POR_communists_elected
+		prerequisite = { focus = POR_socialize_agriculture }
+		x = -4	
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			180 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+			1028 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+			181 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+			974 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+			112 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+			179 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+			1295 = {
+				add_manpower = 1000
+				add_extra_state_shared_building_slots = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_expand_union_membership
+		relative_position_id = POR_communists_elected
+		icon = GFX_tblra_union_agreement
+		prerequisite = { focus = POR_spartacist_feminism }
+		prerequisite = { focus = POR_balanced_urbanization }
+		x = -3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_expanded_unions
+		}
+	}
+	
+	focus = {
+		id = POR_merge_with_PSP
+		relative_position_id = POR_communists_elected
+		icon = GFX_CommunistBillsFocus
+		prerequisite = { focus = POR_expand_union_membership }		
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_political_power = -25
+			add_popularity {
+				ideology = spartacist popularity = 0.03
+			}
+			set_party_name = { 
+				ideology = spartacist
+				long_name = POR_bolshevist_party_uerded_long
+				name = POR_bolshevist_party_uerded
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_workers_youth
+		icon = GFX_Pioneers
+		relative_position_id = POR_communists_elected
+		prerequisite = { focus = POR_communists_elected } 
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_worker_youth
+		}
+	}
+	
+	focus = {
+		id = POR_integrate_paramilitaries
+		icon = GFX_Red_Army
+		relative_position_id = POR_communists_elected
+		prerequisite = { focus = POR_workers_youth } 
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_integrated_paramilitary		
+		}
+	}
+	
+	focus = {
+		id = POR_break_down_church_influence
+		icon = GFX_Reduce_Catholic_Dominance
+		relative_position_id = POR_communists_elected
+		prerequisite = { focus = POR_integrate_paramilitaries } 
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_militant_secularism
+		}
+	}
+	
+	focus = {
+		id = POR_ban_the_corrupt_liberals
+		icon = GFX_goal_HOL_council_communism
+		relative_position_id = POR_communists_elected
+		prerequisite = { focus = POR_integrate_paramilitaries } 
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			custom_effect_tooltip = POR_banned_libtards_tt
+			add_political_power = -20
+			hidden_effect = {
+				set_country_flag = social_democrat_banned
+				set_country_flag = social_liberal_banned
+				set_country_flag = liberal_conservative_banned
+				add_popularity = {
+					ideology = social_democrat popularity = -0.03
+				}
+				add_popularity = {
+					ideology = social_liberal popularity = -0.02
+				}
+				add_popularity = {
+					ideology = liberal_conservative popularity = -0.01
+				}	
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_crush_the_monarchist_rebels
+		relative_position_id = POR_communists_elected
+		icon = GFX_Communist_Repression_2
+		prerequisite = { focus = POR_break_down_church_influence }
+		prerequisite = { focus = POR_ban_the_corrupt_liberals }
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			country_event = por.14
+		}
+	}
+	
+	focus = {
+		id = POR_ditadura_do_proletariado
+		relative_position_id = POR_communists_elected
+		icon = GFX_Socialist_Consolidation
+		prerequisite = { focus = POR_communists_elected }
+		x = 3
+		y = 1	
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_transition_to_socialism_1
+		}
+	}
+	
+	focus = {
+		id = POR_workers_control_of_production
+		relative_position_id = POR_communists_elected
+		icon = GFX_Military_Syndicalist_Economy
+		prerequisite = { focus = POR_ditadura_do_proletariado }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_transition_to_socialism_1
+				add_idea = POR_transition_to_socialism_2
+			}
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = POR_establish_soviet_democracy
+		relative_position_id = POR_communists_elected
+		icon = GFX_Workers_Support
+		prerequisite = { focus = POR_ditadura_do_proletariado }
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = spartacist popularity = 0.03
+			}
+			add_governance_coun = true
+		}
+	}
+	
+	focus = {
+		id = POR_comintern_economic_ties
+		relative_position_id = POR_communists_elected
+		icon = GFX_World_Ablaze_Communist
+		prerequisite = { focus = POR_workers_control_of_production }
+		prerequisite = { focus = POR_establish_soviet_democracy }
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_popularity = {
+				ideology = spartacist popularity = 0.03
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_educational_revolution
+		relative_position_id = POR_communists_elected
+		icon = GFX_Communist_Science
+		prerequisite = { focus = POR_workers_control_of_production }
+		prerequisite = { focus = POR_establish_soviet_democracy }
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = POR_education
+			set_country_flag = POR_educate
+		}
+	}
+	
+	focus = {
+		id = POR_infrastructural_revolution
+		relative_position_id = POR_communists_elected
+		icon = GFX_Revolution
+		prerequisite = { focus = POR_merge_with_PSP }
+		x = -2
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = POR_infra_rev
+				days = 120
+			}
+			180 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = air_base
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+   					type = naval_base
+    				level = 3
+    				instant_build = yes
+    				province = 9817	
+				}
+			}
+			1028 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			181 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			974 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			112 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+    				type = air_base
+    				level = 1
+    				instant_build = yes
+				}
+				add_building_construction = {
+   					type = naval_base
+    				level = 1
+    				instant_build = yes
+    				province = 11805
+				}
+			}
+			179 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			1295 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_centralize_the_army_structure
+		relative_position_id = POR_communists_elected
+		icon = GFX_Soviet_Army_2
+		prerequisite = { focus = POR_educational_revolution }
+		x = 2
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_centralized_army
+		}
+	}
+	
+	focus = {
+		id = POR_support_spanish_communists
+		relative_position_id = POR_communists_elected
+		icon = GFX_goal_communist_brigades
+		prerequisite = { focus = POR_crush_the_monarchist_rebels }
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_support_colonial_resistance_movements
+		relative_position_id = POR_communists_elected
+		icon = GFX_goal_flames_of_rebellion
+		prerequisite = { focus = POR_infrastructural_revolution }
+		prerequisite = { focus = POR_support_spanish_communists }
+		x = -1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_cooperation_with_brazilian_communists
+		relative_position_id = POR_communists_elected
+		icon = GFX_Brazil
+		prerequisite = { focus = POR_centralize_the_army_structure }
+		prerequisite = { focus = POR_support_spanish_communists }
+		x = 1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_a_workers_republic
+		relative_position_id = POR_communists_elected
+		icon = GFX_Lenin_Cult
+		x = 0
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_cooperation_with_brazilian_communists focus = POR_support_colonial_resistance_movements }
+		completion_reward = {	
+			swap_ideas = {
+				remove_idea = POR_transition_to_socialism_3
+				add_idea = POR_united_commune	
+			}
+			add_political_power = 100
+		}
+	}
+	
+	#Commie Leader Trees
+	
+	focus = {
+		id = POR_chairman_alvaro_cunhal
+		icon = GFX_POR_Chairman_Alvaro_Cunhal
+		available = {
+			has_country_flag = POR_alvaro_cunhal_elected
+		}
+		x = -3
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_forge_relations_with_the_peasantry
+		relative_position_id = POR_chairman_alvaro_cunhal
+		icon = GFX_focus_small_farms
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_chairman_alvaro_cunhal }
+		completion_reward = {	
+			179 = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.33
+						local_manpower = 0.10
+						state_production_speed_buildings_factor = 0.33
+					}
+				}
+			}
+			181 = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.33
+						local_manpower = 0.10
+						state_production_speed_buildings_factor = 0.33
+					}
+				}
+			}
+			1028 = {
+				add_state_modifier = {
+					modifier = {
+						local_resources = 0.33
+						local_manpower = 0.10
+						state_production_speed_buildings_factor = 0.33
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_support_the_arts
+		relative_position_id = POR_chairman_alvaro_cunhal
+		icon = GFX_goal_UK_art_avantgarde
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_chairman_alvaro_cunhal }
+		completion_reward = {	
+			add_war_support = 0.2
+			add_political_power = 50
+		}
+	}
+	
+	focus = {
+		id = POR_fulfill_democratic_centralism
+		relative_position_id = POR_chairman_alvaro_cunhal
+		icon = GFX_Communist_Pride
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_support_the_arts }
+		prerequisite = { focus = POR_forge_relations_with_the_peasantry }
+		completion_reward = {	
+			add_coalition_bolshevist = yes
+		}
+	}
+	
+	focus = {
+		id = POR_chairman_bento_goncalves
+		icon = GFX_POR_Chairman_Bento_Goncalves
+		available = {
+			has_country_flag = POR_bento_goncalves_elected
+		}
+		x = 1
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_shorten_industrial_workdays
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_tblra_union_agreement
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_chairman_bento_goncalves }
+		completion_reward = {	
+			add_political_power = 100
+			add_idea = POR_shorter_workdays
+		}
+	}
+	
+	focus = {
+		id = POR_negotiate_with_the_anarchosyndicalists
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_goal_syndicalist_industry
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_chairman_bento_goncalves }
+		completion_reward = {	
+			add_coalition_revolutionary_socialist = yes
+		}
+	}
+	
+	focus = {
+		id = POR_unify_the_party
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_Communist_Star
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_negotiate_with_the_anarchosyndicalists }
+		prerequisite = { focus = POR_shorten_industrial_workdays }
+		completion_reward = {	
+			add_coalition_bolshevist = yes
+		}
+	}
+	
+	focus = {
+		id = POR_chairman_julio_fogaca
+		icon = GFX_POR_Chairman_Julio_Fogaca
+		available = {
+			has_country_flag = POR_julio_fogaca_elected
+		}
+		x = 5
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_decriminalize_homosexuality
+		relative_position_id = POR_chairman_julio_fogaca
+		icon = GFX_Gay_Communism
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_chairman_julio_fogaca }
+		completion_reward = {	
+			add_stability = 0.1
+			add_war_support = 0.1
+		}
+	}
+	
+	focus = {
+		id = POR_mend_divides_with_reformists
+		relative_position_id = POR_chairman_julio_fogaca
+		icon = GFX_Risky_Deal
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_chairman_julio_fogaca }
+		completion_reward = {	
+			add_coalition_reformist_socialist = yes
+		}
+	}
+	
+	focus = {
+		id = POR_forge_a_progressive_party
+		relative_position_id = POR_chairman_julio_fogaca
+		icon = GFX_goal_ideology_spartacist
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_mend_divides_with_reformists }
+		prerequisite = { focus = POR_decriminalize_homosexuality }
+		completion_reward = {	
+			add_coalition_bolshevist = yes
+		}
+	}
+	
+	focus = {
+		id = POR_align_with_the_USSR
+		relative_position_id = POR_chairman_bento_goncalves
+		mutually_exclusive = { focus = POR_align_with_germany }
+		icon = GFX_Soviet_Bastion
+		x = -2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_unify_the_party focus = POR_fulfill_democratic_centralism }
+		completion_reward = {	
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_adopt_soviet_deep_operations
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_Soviet_Strides
+		x = -1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_align_with_the_USSR }
+		completion_reward = {	
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = cat_mass_assault
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_import_soviet_tanks
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_Tanks_Across_the_Border
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_align_with_the_USSR }
+		completion_reward = {	
+			add_equipment_to_stockpile = {
+				type = gw_tank_equipment
+				amount = 100
+				producer = SOV
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_align_with_germany
+		relative_position_id = POR_chairman_bento_goncalves
+		mutually_exclusive = { focus = POR_align_with_the_USSR }
+		icon = GFX_German_Deal
+		x = 2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_unify_the_party focus = POR_forge_a_progressive_party }
+		completion_reward = {	
+			add_opinion_modifier = {
+				target = GER
+				modifier = small_increase
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_adopt_german_squad_tactics
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_German_Military_Mission
+		x = 1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_align_with_germany }
+		completion_reward = {	
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_german_naval_training
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_German_Battleship_Programme
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_align_with_germany }
+		completion_reward = {	
+			navy_experience = 50
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = naval_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_our_new_friends
+		relative_position_id = POR_chairman_bento_goncalves
+		icon = GFX_Commie_Treaty
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_adopt_german_squad_tactics focus = POR_adopt_soviet_deep_operations }
+		prerequisite = { focus = POR_import_soviet_tanks focus = POR_german_naval_training }
+		completion_reward = {
+			if = {
+    			limit = {
+        			has_completed_focus = POR_align_with_germany
+    			}   
+    			GER = { add_to_faction = POR }
+			}
+			else = {
+    			limit = {
+        			has_completed_focus = POR_align_with_the_USSR
+    			}
+    			if = {
+					limit = {
+						SOV = {
+							is_in_faction_with = GER
+						}
+					}
+					GER = {add_to_faction = POR}
+				} else = {
+					SOV = {add_to_faction = POR}
+				}
+			}
+		}
+	}
+	
+	#Demsuccs
+
+	focus = {
+		id = POR_socialists_elected
+		relative_position_id = POR_triumphant_republic
+		icon = GFX_POR_flag
+		prerequisite = { focus = POR_triumphant_republic }
+		available = {
+			has_country_flag = POR_socialists_elected_flag
+		}
+		mutually_exclusive = {
+			focus = POR_communists_elected
+			focus = POR_anarchists_elected
+		}
+		x = -10
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_redistribute_farmland
+		relative_position_id = POR_socialists_elected
+		icon = GFX_focus_prc_agrarian_socialism
+		prerequisite = { focus = POR_socialists_elected }
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_political_power = 100
+			add_manpower = 1000
+		}
+	}
+	
+	focus = {
+		id = POR_implement_universal_suffrage
+		icon = GFX_Womens_Rights
+		relative_position_id = POR_socialists_elected
+		prerequisite = { focus = POR_redistribute_farmland }
+		x = -2	
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_popularity {
+				ideology = reformist_socialist popularity = 0.08
+			}
+			add_popularity {
+				ideology = social_democrat popularity = 0.02
+			}
+			add_popularity {
+				ideology = social_liberal popularity = 0.02
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_support_agriculturalism
+		icon = GFX_Farmsteads
+		relative_position_id = POR_socialists_elected
+		prerequisite = { focus = POR_redistribute_farmland }
+		x = -4	
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_agrinerds
+		}
+	}
+	
+	focus = {
+		id = POR_reforms_for_workers_rights
+		relative_position_id = POR_socialists_elected
+		icon = GFX_Commie_Treaty
+		prerequisite = { focus = POR_implement_universal_suffrage }
+		prerequisite = { focus = POR_support_agriculturalism }
+		x = -3
+		y = 3	
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_expanded_rights
+		}
+	}
+	
+	focus = {
+		id = POR_appease_the_radicals
+		relative_position_id = POR_socialists_elected
+		icon = GFX_Risky_Deal
+		prerequisite = { focus = POR_reforms_for_workers_rights }		
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_popularity {
+				ideology = revolutionary_socialist popularity = 0.03
+			}
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = POR_calm_class_tensions
+		icon = GFX_goal_broken_red_star
+		relative_position_id = POR_socialists_elected
+		prerequisite = { focus = POR_socialists_elected } 
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_popularity {
+				ideology = spartacist popularity = -0.02
+			}
+			add_popularity {
+				ideology = bolshevist popularity = -0.01
+			}
+			add_stability = 0.10
+		}
+	}
+	
+	focus = {
+		id = POR_disarm_paramilitaries
+		icon = GFX_goal_HOL_ban_paramilitary_left
+		relative_position_id = POR_socialists_elected
+		prerequisite = { focus = POR_calm_class_tensions } 
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_stability = -0.05
+			add_equipment_to_stockpile = {
+
+				type = infantry_equipment_0
+
+				amount = 500
+
+			}
+			random_owned_state = {
+				limit = {
+					industrial_complex > 0
+				}
+				damage_building = {
+					type = industrial_complex
+					damage = 0.2
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_respect_secularization
+		icon = GFX_BEL_Improve_Catholic_Relations
+		relative_position_id = POR_socialists_elected
+		prerequisite = { focus = POR_disarm_paramilitaries } 
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_respected_secularism
+		}
+	}
+	
+	focus = {
+		id = POR_liberalize_politics
+		icon = GFX_Compassionaite_Politics
+		relative_position_id = POR_socialists_elected
+		prerequisite = { focus = POR_disarm_paramilitaries } 
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_stability = 0.025
+			add_popularity {
+				ideology = spartacist popularity = -0.03
+			}
+			add_popularity {
+				ideology = bolshevist popularity = -0.03
+			}
+			add_popularity {
+				ideology = revolutionary_socialist popularity = -0.03
+			}
+			add_popularity {
+				ideology = reformist_socialist popularity = 0.05
+			}
+			add_popularity {
+				ideology = social_democrat popularity = 0.03
+			}
+			add_popularity {
+				ideology = social_liberal popularity = 0.03
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_negotiate_with_monarchist_rebels
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_HOL_CNA_restored_stability
+		prerequisite = { focus = POR_respect_secularization }
+		prerequisite = { focus = POR_liberalize_politics }
+		x = 0
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			country_event = {
+				id = por.101
+				days = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_a_gradual_revolution
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_red_star
+		prerequisite = { focus = POR_socialists_elected }
+		x = 3
+		y = 1	
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_gradual_rev
+		}
+	}
+	
+	focus = {
+		id = POR_promote_self_management
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_economic_control
+		prerequisite = { focus = POR_a_gradual_revolution }
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_gradual_rev
+				add_idea = POR_gradual_rev2
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_socialist_parliamentarism
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_government_centralised_icon
+		prerequisite = { focus = POR_a_gradual_revolution }
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_governance_par = true
+		}
+	}
+	
+	focus = {
+		id = POR_open_up_the_economy
+		relative_position_id = POR_socialists_elected
+		icon = GFX_Free_Trade
+		prerequisite = { focus = POR_promote_self_management }
+		prerequisite = { focus = POR_socialist_parliamentarism }
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_trade_nat = true
+		}
+	}
+	
+	focus = {
+		id = POR_educational_reforms
+		relative_position_id = POR_socialists_elected
+		icon = GFX_SP_focus_education
+		prerequisite = { focus = POR_promote_self_management }
+		prerequisite = { focus = POR_socialist_parliamentarism }
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = POR_education
+			set_country_flag = POR_educate
+		}
+	}
+	
+	focus = {
+		id = POR_infrastructural_reforms
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_socialist_infrastructure
+		prerequisite = { focus = POR_appease_the_radicals }
+		x = -2
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			180 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			181 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			974 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			112 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_restrain_political_influence_in_the_army
+		relative_position_id = POR_socialists_elected
+		icon = GFX_Military_Restrictions
+		prerequisite = { focus = POR_educational_reforms }
+		x = 2
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_ideas = POR_apolitical_army
+		}
+	}
+	
+	focus = {
+		id = POR_support_democracy_in_spain
+		relative_position_id = POR_socialists_elected
+		icon = GFX_Influence_Spain
+		prerequisite = { focus = POR_negotiate_with_monarchist_rebels }
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_reconcile_with_our_colonialist_past
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_red_star_dove
+		prerequisite = { focus = POR_infrastructural_reforms }
+		prerequisite = { focus = POR_support_democracy_in_spain }
+		x = -1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_cooperate_with_other_reformist_socialists
+		relative_position_id = POR_socialists_elected
+		icon = GFX_Three_Arrows
+		prerequisite = { focus = POR_restrain_political_influence_in_the_army }
+		prerequisite = { focus = POR_support_democracy_in_spain }
+		x = 1
+		y = 6
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+		}
+	}
+	
+	focus = {
+		id = POR_a_socialist_republic
+		relative_position_id = POR_socialists_elected
+		icon = GFX_goal_ideology_reformist_socialist
+		x = 0
+		y = 7
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_cooperate_with_other_reformist_socialists focus = POR_reconcile_with_our_colonialist_past }
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_gradual_rev2
+				add_idea = POR_lib_republic
+			}
+			add_political_power = 100
+		}
+	}
+
+#Demsucc Leader Trees
+	
+	focus = {
+		id = POR_prime_minister_jds
+		#icon = GFX_POR_Chairman_Alvaro_Cunhal
+		#available = {
+		#	has_country_flag = POR_alvaro_cunhal_elected
+		#}
+		x = -21
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_prevent_again
+		relative_position_id = POR_prime_minister_jds
+		#icon = GFX_focus_small_farms
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_prime_minister_jds }
+		completion_reward = {
+			add_ideas = POR_safeguarded_republicanism
+		}
+	}
+	
+	focus = {
+		id = POR_appeal_to_exiles
+		relative_position_id = POR_prime_minister_jds
+		#icon = GFX_goal_UK_art_avantgarde
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_prime_minister_jds }
+		completion_reward = {
+			add_manpower = 10000
+			#load oob for 2 french divs
+		}
+	}
+	
+	focus = {
+		id = POR_second_canhoto_gov
+		relative_position_id = POR_prime_minister_jds
+		#icon = GFX_Communist_Pride
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_appeal_to_exiles }
+		prerequisite = { focus = POR_prevent_again }
+		completion_reward = {
+			add_coalition_social_democrat = yes
+			add_coalition_social_liberal = yes
+		}
+	}
+	
+	focus = {
+		id = POR_pm_tony_sergio
+		#icon = GFX_POR_Chairman_Bento_Goncalves
+		#available = {
+		#	has_country_flag = POR_bento_goncalves_elected
+		#}
+		x = -17
+		y = 9
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+		}
+	}
+	
+	focus = {
+		id = POR_educational_focus
+		relative_position_id = POR_pm_tony_sergio
+		#icon = GFX_tblra_union_agreement
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_pm_tony_sergio }
+		completion_reward = {
+			add_ideas = POR_enshrined_pedagogy
+		}
+	}
+	
+	focus = {
+		id = POR_promote_cooperatism
+		relative_position_id = POR_pm_tony_sergio
+		icon = GFX_goal_syndicalist_industry
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_pm_tony_sergio }
+		completion_reward = {	
+			add_coalition_revolutionary_socialist = yes
+		}
+	}
+	
+	focus = {
+		id = POR_triumphant_repulicanism
+		relative_position_id = POR_pm_tony_sergio
+		#icon = GFX_Communist_Star
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_promote_cooperatism }
+		prerequisite = { focus = POR_educational_focus }
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+		}
+	}
+
+	focus = {
+		id = POR_affirm_neutrality
+		relative_position_id = POR_pm_tony_sergio
+		#icon = GFX_Communist_Star
+		x = -2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_triumphant_repulicanism focus = POR_second_canhoto_gov }
+		completion_reward = {
+			add_ideas = POR_neutral
+		}
+	}
+
+	#anarkiddie later paths
+
+	focus = {
+		id = POR_proudhonists_dominant
+		icon = GFX_goal_syndicalist_industry
+		x = -10
+		y = 9
+		cost = 5
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = POR_open_markets
+		icon = GFX_goal_syndicalist_industry
+		x = 0
+		y = 1
+		relative_position_id = POR_proudhonists_dominant
+		prerequisite = { focus = POR_proudhonists_dominant }
+		cost = 5
+		completion_reward = {
+			add_trade_nat = true
+			add_ideas = POR_ph_markets
+		}
+	}
+
+	focus = {
+		id = POR_sideline_statists
+		icon = GFX_goal_syndicalist_industry
+		x = 1
+		y = 1
+		relative_position_id = POR_open_markets
+		prerequisite = { focus = POR_open_markets focus = POR_siphon_spartacists }
+		cost = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_anarchist_commune
+				add_idea = POR_anarchist_commune2
+			}
+		}	
+	}
+
+	focus = {
+		id = POR_pragmatic_anarchism
+		icon = GFX_goal_syndicalist_industry
+		x = 0
+		y = 2
+		relative_position_id = POR_open_markets
+		prerequisite = { focus = POR_open_markets }
+		prerequisite = { focus = POR_sideline_statists}
+		cost = 5
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+			increase_ruling_party_popularity_by_3 = yes
+		}
+	}
+
+	focus = {
+		id = POR_gateway_to_reds
+		icon = GFX_goal_syndicalist_industry
+		x = 0
+		y = 1
+		relative_position_id = POR_pragmatic_anarchism
+		prerequisite = { focus = POR_pragmatic_anarchism }
+		cost = 5
+		completion_reward = {
+			add_offsite_building = { type = industrial_complex level = 2 }
+			swap_ideas = {
+				remove_idea = POR_ph_markets
+				add_idea = POR_ph_markets2
+			}
+			add_opinion_modifier = {
+				target = SOV
+				modifier = small_increase
+			}
+			add_opinion_modifier = {
+				target = GER
+				modifier = small_increase
+			}
+			add_opinion_modifier = {
+				target = FRA
+				modifier = small_increase
+			}
+			add_opinion_modifier = {
+				target = ENG
+				modifier = small_increase
+			}
+		}
+	}
+
+	focus = {
+		id = POR_syndicalist_dominance
+		icon = GFX_goal_syndicalist_industry
+		x = -8
+		y = 9
+		cost = 5
+		completion_reward = {
+			
+		}
+	}
+
+
+	focus = {
+		id = POR_siphon_spartacists
+		icon = GFX_goal_syndicalist_industry
+		x = 0
+		y = 1
+		relative_position_id = POR_syndicalist_dominance
+		prerequisite = { focus = POR_syndicalist_dominance }
+		cost = 5
+		completion_reward = {
+			add_popularity {
+				ideology = spartacist popularity = -0.05
+			}
+			add_popularity {
+				ideology = bolshevist popularity = -0.05
+			}
+			add_popularity {
+				ideology = revolutionary_socialist popularity = 0.1
+			}
+		}
+	}
+
+	focus = {
+		id = POR_universal_revolution
+		icon = GFX_goal_syndicalist_industry
+		x = 0
+		y = 2
+		relative_position_id = POR_siphon_spartacists
+		prerequisite = { focus = POR_siphon_spartacists }
+		prerequisite = { focus = POR_sideline_statists }
+		cost = 5
+		completion_reward = {
+			add_ideas = POR_uni_rev
+			add_political_power = 50
+		}
+	}
+
+	focus = {
+		id = POR_international_brigades
+		icon = GFX_goal_syndicalist_industry
+		x = 0
+		y = 1
+		relative_position_id = POR_universal_revolution
+		prerequisite = { focus = POR_universal_revolution }
+		cost = 5
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_uni_rev
+				add_idea = POR_uni_rev2
+			}
+		}
+	}
+	
+	# Civil War Recovery
+	
+	focus = {
+		id = POR_recovery
+		icon = GFX_goal_graveyard
+		x = 14
+		y = 0
+		bypass = {
+			has_global_flag = POR_civil_war_over
+		}
+		available = {
+			has_global_flag = POR_civil_war_over
+		}
+		ai_will_do = {
+			factor = 100
+		}
+		cost = 0
+		completion_reward = {	
+			custom_effect_tooltip = POR_bypass_tt
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_agriculture
+		icon = GFX_Farmsteads
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = -6
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			country_event = por.40
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_agriculture_2_right
+		icon = GFX_Focus_Wine
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_agriculture }
+		available = { has_country_flag = POR_wine_industry }
+		mutually_exclusive = { focus = POR_recovery_agriculture_2_left }
+		x = -5
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_ideas = POR_wine_exports
+			add_timed_idea = {
+				idea = POR_struggling_agricultural_industry
+				days = 140
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_agriculture_2_left
+		icon = GFX_Wheat_Yields
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_agriculture }
+		available = { has_country_flag = POR_wheat_industry }
+		mutually_exclusive = { focus = POR_recovery_agriculture_2_right }
+		x = -7
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_ideas = POR_thriving_agriculture
+			add_timed_idea = {
+				idea = POR_struggling_wine_industry
+				days = 140
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_rations
+		icon = GFX_goal_USA_new_deal
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = -2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			country_event = por.41
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_rations_2_right
+		icon = GFX_Feed_the_People
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_rations }
+		available = { has_country_flag = POR_extend_rationing }
+		mutually_exclusive = { focus = POR_recovery_rations_2_left }
+		x = -1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = POR_extended_rationing
+				days = 365
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_rations_2_left
+		icon = GFX_goal_famine
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_rations }
+		available = { has_country_flag = POR_end_rationing }
+		mutually_exclusive = { focus = POR_recovery_rations_2_right }
+		x = -3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = POR_ended_rationing
+				days = 365
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_economy
+		icon = GFX_goal_HOL_black_monday
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = 2
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {	
+			country_event = por.42
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_economy_2_right
+		icon = GFX_Soldiers_for_Workers
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_economy }
+		available = { has_country_flag = POR_militias_to_work }
+		mutually_exclusive = { focus = POR_recovery_economy_2_left }
+		x = 3
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_ideas = POR_militias_working
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_economy_2_left
+		icon = GFX_goal_women_industry
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_economy }
+		available = { has_country_flag = POR_female_workforce_expansion }
+		mutually_exclusive = { focus = POR_recovery_economy_2_right }
+		x = 1
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_ideas = POR_female_workforce
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_electricity
+		icon = GFX_goal_Schelle
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery }
+		x = 6
+		y = 1
+		cost = 1
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			country_event = por.43
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_electricity_2_right
+		icon = GFX_Factory_Town
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_electricity }
+		available = { has_country_flag = POR_tejo_power_plant }
+		mutually_exclusive = { focus = POR_recovery_electricity_2_left }
+		x = 7
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			custom_effect_tooltip = POR_expanding_power_plant_tt
+			add_timed_idea = {
+				idea = POR_expanding_power_plant
+				days = 365
+			}
+			hidden_effect = {
+				country_event = {
+					id = por.44
+					days = 365
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_electricity_2_left
+		icon = GFX_goal_dam
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_electricity }
+		available = { has_country_flag = POR_santa_luzia_dam }
+		mutually_exclusive = { focus = POR_recovery_electricity_2_right }
+		x = 5
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			custom_effect_tooltip = POR_constructing_dam_tt
+			add_ideas = POR_constructing_dam
+		}
+	}
+	
+	focus = {
+		id = POR_recovery_final
+		icon = GFX_goal_construction_engineering
+		relative_position_id = POR_recovery
+		prerequisite = { focus = POR_recovery_agriculture_2_left focus = POR_recovery_agriculture_2_right }
+		prerequisite = { focus = POR_recovery_rations_2_left focus = POR_recovery_rations_2_right }
+		prerequisite = { focus = POR_recovery_economy_2_left focus = POR_recovery_economy_2_right  }
+		prerequisite = { focus = POR_recovery_electricity_2_left focus = POR_recovery_electricity_2_right }
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 200
+		}
+		completion_reward = {
+			add_stability = 0.08
+			swap_ideas = {
+				remove_idea = POR_recovering_civil_war
+				add_idea = POR_economic_woes
+			}
+		}
+	}
+
+	focus = {
+		id = POR_navy
+		icon = GFX_goal_generic_sea_focused_navy
+		prerequisite = { focus = POR_army }
+		relative_position_id = POR_army
+		x = -8
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_war_support = 0.025
+			navy_experience = 25
+		}
+	}
+	
+	focus = {
+		id = POR_1910_naval_plan
+		icon = GFX_goal_Large_Navy
+		prerequisite = { focus = POR_navy }	
+        mutually_exclusive = { focus = POR_auxiliary_navy }				
+		x = 2
+		y = 1
+		relative_position_id = POR_navy
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 180
+		}
+		completion_reward = {
+				navy_experience = 10
+				180 = {
+					add_extra_state_shared_building_slots = 1
+					add_building_construction = {
+						type = dockyard
+						level = 1
+						instant_build = yes
+					}
+				}
+		}	
+	}
+	
+	focus = {
+		id = POR_a_grand_armada
+		icon = GFX_goal_navy_hat_ships
+		prerequisite = { focus = POR_1910_naval_plan}				
+		x = 2
+		y = 2
+		relative_position_id = POR_navy
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = fleet_in_being_bonus
+				bonus = 0.5
+				uses = 2
+				category = fleet_in_being_tree
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_botafogo
+		icon = GFX_goal_BEL_Battleship_Investements
+		prerequisite = { focus = POR_a_grand_armada }				
+		x = 2
+		y = 3
+		relative_position_id = POR_navy
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			navy_experience = 25
+			add_tech_bonus = {
+				name = capital_ships_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 2
+				technology = basic_battlecruiser
+				technology = basic_battleship
+				technology = improved_battleship
+				technology = advanced_battleship
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_dockyard
+		icon = GFX_Naval_Supplies
+		prerequisite = { focus = POR_auxiliary_navy focus = POR_1910_naval_plan } 
+		x = 0
+		y = 2
+		relative_position_id = POR_navy
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+			112 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					province = 970
+					instant_build = yes
+				}
+			}			
+		}
+	}
+	
+	focus = {
+		id = POR_modernize_ports
+		icon = GFX_Naval_Operations
+		prerequisite = { focus = POR_dockyard } 
+		x = 0
+		y = 3
+		relative_position_id = POR_navy
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 180
+			controls_state = 112
+		}
+		completion_reward = {
+			navy_experience = 5
+			180 = {
+				add_building_construction = {
+					type = naval_base
+					level = 3
+					province = 9817
+					instant_build = yes
+				}
+			}
+			1295 = {
+				add_building_construction = {
+					type = naval_base
+					level = 1
+					province = 3790
+					instant_build = yes
+				}
+			}			
+		}
+	}
+	
+	focus = {
+		id = POR_auxiliary_navy
+		icon = GFX_Small_Navy
+		prerequisite = { focus = POR_navy }	
+        mutually_exclusive = { focus = POR_1910_naval_plan }		
+		x = -2
+		y = 1
+		relative_position_id = POR_navy
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 180
+		}
+		completion_reward = {
+			navy_experience = 10
+			180 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+
+	focus = {
+		id = POR_destroyers
+		icon = GFX_goal_navy_decision
+		prerequisite = { focus = POR_auxiliary_navy }				
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		relative_position_id = POR_navy
+		completion_reward = {	
+			navy_experience = 25
+			add_tech_bonus = {
+				name = cr_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_destroyer
+				technology = basic_destroyer
+				technology = improved_destroyer
+				technology = advanced_destroyer
+			}	
+		}
+	}
+
+	focus = {
+		id = POR_uboat
+		icon = GFX_goal_generic_navy_anti_submarine
+		prerequisite = { focus = POR_destroyers }				
+		x = -2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		relative_position_id = POR_navy
+		completion_reward = {
+			navy_experience = 25
+			add_tech_bonus = {
+				name = dd_bonus
+				bonus = 0.5
+				ahead_reduction = 1
+				uses = 1
+				technology = early_submarine
+				technology = basic_submarine
+				technology = improved_submarine
+				technology = advanced_submarine
+			}	
+		}
+	}	
+
+	focus = {
+		id = POR_economic
+		icon = GFX_goal_production
+		x = 14
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		prerequisite = { focus = POR_recovery_final }
+		completion_reward = {
+			add_political_power = 20
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}	
+		}
+		
+	}
+	
+	focus = {
+		id = POR_military_industry
+		icon = GFX_goal_forced_mil
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_economic } 		
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = POR_guns
+		icon = GFX_goal_generic_military_sphere
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_military_industry } 		
+		x = -4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_rifle_production	
+		}
+	}
+	
+	focus = {
+		id = POR_armylogis
+		icon = GFX_goal_generic_air_production
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_military_industry } 		
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		
+		completion_reward = {	
+			add_tech_bonus = {
+				name = industry_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_tankfactory
+		icon = GFX_Focus_Military_Mobilisation
+		prerequisite = { focus = POR_armylogis }
+		prerequisite = { focus = POR_guns }
+		relative_position_id = POR_economic
+		x = -3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_electronics_industry
+		icon = GFX_goal_electronics
+		prerequisite = { focus = POR_tankfactory } 
+		relative_position_id = POR_economic		
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_tech_bonus = {
+				name = electronics_bonus
+				bonus = 0.5
+				uses = 1
+				category = electronics
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_fishing_industry
+		icon = GFX_Focus_Fish
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_economic } 		
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = POR_foreign_workforce
+		relative_position_id = POR_economic
+		icon = GFX_goal_generic_positive_trade_relations
+		prerequisite = { focus = POR_economic } 		
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			112 = {
+				add_manpower = 1500
+			}
+			180 = {
+				add_manpower = 1000
+			}
+			179 = {
+				add_manpower = 500
+			}
+			181 = {
+				add_manpower = 500
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_new_communes
+		icon = GFX_Soviet_Investments
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_foreign_workforce } 	
+		prerequisite = { focus = POR_fishing_industry } 		
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_tech_bonus = {
+				name = industrial_bonus
+				bonus = 0.5
+				uses = 1
+				category = industry
+			}
+			random_owned_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}
+	
+	focus = {
+		id = POR_wood_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Tropical_Wood
+		prerequisite = { focus = POR_new_communes } 		
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 180
+		}
+		completion_reward = {	
+			180 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_glass_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Glass
+		prerequisite = { focus = POR_wood_industry } 		
+		x = -1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_oil_industry
+		relative_position_id = POR_economic
+		icon = GFX_goal_basic_oil
+		prerequisite = { focus = POR_new_communes } 		
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 179
+		}
+		completion_reward = {	
+			179 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = synthetic_refinery
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_automotive_industry
+		relative_position_id = POR_economic
+		icon = GFX_Automobile_Production
+		prerequisite = { focus = POR_oil_industry } 		
+		x = 1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_ideas = POR_automotive_exports
+		}
+	}
+	
+	focus = {
+		id = POR_gold_reserves
+		icon = GFX_goal_gold_reserve
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_economic } 		
+		x = 3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {	
+			add_stability = 0.06
+			add_political_power = -10
+		}
+	}
+
+	focus = {
+		id = POR_railway
+		icon = GFX_goal_Fix_Shitty_Rails
+		relative_position_id = POR_economic
+		prerequisite = { focus = POR_gold_reserves } 		
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 180
+			controls_state = 181
+			controls_state = 179
+			controls_state = 112
+		}
+		completion_reward = {
+			add_political_power = -50
+			180 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			181 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			179 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			112 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}	
+	
+	focus = {
+		id = POR_lisbon_infra
+		relative_position_id = POR_economic
+		icon = GFX_goal_generic_construction
+		prerequisite = { focus = POR_gold_reserves } 		
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {
+			add_stability = 0.025
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}	
+		}
+	}
+
+	focus = {
+		id = POR_paper_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Paper
+		prerequisite = { focus = POR_lisbon_infra } 	
+		prerequisite = { focus = POR_railway }
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			112 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}			
+		}
+	}	
+	
+	focus = {
+		id = POR_iron_industry
+		relative_position_id = POR_economic
+		icon = GFX_Southern_Steel
+		prerequisite = { focus = POR_paper_industry } 		
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 181
+		}
+		completion_reward = {	
+			add_resource = {
+				type = iron
+				amount = 8
+				state = 181
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_copper_industry
+		relative_position_id = POR_economic
+		icon = GFX_Focus_Copper
+		prerequisite = { focus = POR_economic } 		
+		x = 6
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 179
+		}
+		completion_reward = {	
+			add_resource = {
+				type = copper
+				amount = 3
+				state = 179
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_tungsten_mines
+		relative_position_id = POR_economic
+		icon = GFX_goal_tungsten_mining
+		prerequisite = { focus = POR_copper_industry } 		
+		x = 6
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 181
+		}
+		completion_reward = {	
+			add_resource = {
+				type = raremetals
+				amount = 20
+				state = 181
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_coal_mines
+		relative_position_id = POR_economic
+		icon = GFX_goal_generic_coal_mining
+		prerequisite = { focus = POR_tungsten_mines } 		
+		x = 5
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 112
+		}
+		completion_reward = {	
+			add_resource = {
+				type = coal
+				amount = 3
+				state = 112
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_zinc_mines
+		relative_position_id = POR_economic
+		icon = GFX_Zinc
+		prerequisite = { focus = POR_tungsten_mines } 			
+		x = 7
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 179
+		}
+		completion_reward = {	
+			add_resource = {
+				type = raremetals
+				amount = 2
+				state = 179
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_pyrite_mines
+		relative_position_id = POR_economic
+		icon = GFX_goal_generic_construction2
+		prerequisite = { focus = POR_zinc_mines }
+		prerequisite = { focus = POR_coal_mines }  		
+		x = 6
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		available = {
+			controls_state = 179
+		}
+		completion_reward = {	
+			179 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_control_inflation
+		relative_position_id = POR_economic
+		icon = GFX_goal_gold_up
+		prerequisite = { focus = POR_economic }  		
+		x = -6
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_political_power = -25
+			swap_ideas = {
+				remove_idea = POR_economic_woes
+				add_idea = POR_economic_woes_1
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_restart_trade
+		relative_position_id = POR_economic
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		prerequisite = { focus = POR_control_inflation }  		
+		x = -6
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_economic_woes_1
+				add_idea = POR_economic_woes_2
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_subsidize_agriculture
+		relative_position_id = POR_economic
+		icon = GFX_goal_agriculture2
+		prerequisite = { focus = POR_restart_trade }  		
+		x = -7
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			swap_ideas = {
+				remove_idea = POR_economic_woes_2
+				add_idea = POR_economic_woes_3
+			}
+			increase_ruling_party_popularity_by_3 = yes
+		}
+	}
+	
+	focus = {
+		id = POR_nationalize_the_banks
+		relative_position_id = POR_economic
+		icon = GFX_goal_government_centralised_icon
+		prerequisite = { focus = POR_restart_trade }  		
+		x = -5
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_political_power = -50
+			add_stability = 0.05
+		}
+	}
+	focus = {
+		id = POR_stabilize_the_economy
+		relative_position_id = POR_economic
+		icon = GFX_focus_generic_self_management
+		prerequisite = { focus = POR_nationalize_the_banks }  
+		prerequisite = { focus = POR_subsidize_agriculture } 		
+		x = -6
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			remove_ideas = POR_economic_woes_3
+			add_timed_idea = { 
+				idea = POR_economic_woes_4
+				days = 365
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_a_bright_future
+		icon = GFX_goal_oil_research
+		relative_position_id = POR_economic	
+		prerequisite = { focus = POR_iron_industry } 
+		prerequisite = { focus = POR_electronics_industry } 
+		prerequisite = { focus = POR_automotive_industry } 
+		prerequisite = { focus = POR_glass_industry }
+		prerequisite = { focus = POR_pyrite_mines }
+		prerequisite = { focus = POR_stabilize_the_economy }
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 25
+		}
+		completion_reward = {
+			add_stability = 0.025
+			add_research_slot = 1	
+		}
+	}
+	
+	#Army
+	
+	focus = {
+		id = POR_army
+		icon = GFX_goal_POR_army
+		available = {
+			has_completed_focus = POR_recovery_final
+		}
+		x = 33
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+		army_experience = 20	
+		}
+	}
+	
+	focus = {
+		id = POR_expanded_military_arsenals
+		icon = GFX_Army_Factories
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_army } 		
+		x = 1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+				producer = POR
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_logistical_improvements
+		icon = GFX_Old_Train
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_army } 		
+		x = -1
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_war_support = 0.025
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = logistics_tech
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_tactics_for_a_new_era
+		icon = GFX_Focus_Red_Army
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_expanded_military_arsenals } 	
+		prerequisite = { focus = POR_logistical_improvements } 			
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_superior_firepower
+		icon = GFX_goal_doctrine_fire_superiority
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_tactics_for_a_new_era}
+		mutually_exclusive = { focus = POR_grand_battleplan }		
+		x = -1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_superior_firepower_2
+		icon = GFX_goal_offensive_army
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_superior_firepower }
+		x = -1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = POR_superior_firepower_idea
+		}
+	}
+	
+	focus = {
+		id = POR_grand_battleplan
+		icon = GFX_The_Big_Push
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_tactics_for_a_new_era }
+		mutually_exclusive = { focus = POR_superior_firepower }
+		x = 1
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			army_experience = 10
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_grand_battleplan_2
+		icon = GFX_Swing_the_Sword
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_grand_battleplan }
+		x = 1
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = POR_grand_battleplan_idea
+		}
+	}
+	
+	focus = {
+		id = POR_army_modernization
+		icon = GFX_Renewed_Arms
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_army } 		
+		x = 3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			army_experience = 10
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_new_rifle_designs
+		icon = GFX_goal_double_research
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_army_modernization } 		
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_new_artillery_designs
+		relative_position_id = POR_army
+		icon = GFX_goal_national_artillery
+		prerequisite = { focus = POR_army_modernization } 		
+		x = 4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = artillery
+				
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_armored_designs
+		icon = GFX_goal_light_tanks
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_new_artillery_designs }
+		prerequisite = { focus = POR_new_rifle_designs } 		
+		x = 3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 1
+				category = cat_light_armor
+			}		
+		}
+	}
+
+	focus = {
+		id = POR_modern_communications_systems
+		icon = GFX_goal_radio
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_armored_designs } 		
+		x = 3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+						add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				technology = radio
+				category = recon_tech
+			}	
+		}
+	}	
+	
+	
+	focus = {
+		id = POR_recruitment_drive
+		icon = GFX_To_The_Last_Man
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_army } 		
+		x = -3
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = POR_grande_exercito
+		}
+	}
+	
+	focus = {
+		id = POR_draft_cards
+		icon = GFX_Focus_Conscription_Act
+		prerequisite = { focus = POR_recruitment_drive } 		
+		relative_position_id = POR_army		
+		x = -4
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			swap_ideas = {
+				remove_idea = POR_grande_exercito
+				add_idea = POR_grande_exercito_draft
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_standardized_equipment
+		icon = GFX_Red_Army_Hat
+		prerequisite = { focus = POR_recruitment_drive } 		
+		relative_position_id = POR_army		
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_ideas = POR_standardized_equipment_idea
+			add_tech_bonus = {
+				name = infantry_weapons_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_mass_munitions
+		icon = GFX_goal_munitions_factories
+		prerequisite = { focus = POR_draft_cards }
+		prerequisite = { focus = POR_standardized_equipment } 		
+		relative_position_id = POR_army		
+		x = -3
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			swap_ideas = {
+				remove_idea = POR_standardized_equipment_idea
+				add_idea = POR_mass_munitions_idea
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_establish_proper_reserves
+		icon = GFX_Recruitment_Drive
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_mass_munitions } 		
+		x = -3
+		y = 4
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = -500
+				producer = POR
+			}
+			add_manpower = 20000	
+		}
+	}
+	
+	focus = {
+		id = POR_an_army_reborn
+		icon = GFX_Army_March
+		relative_position_id = POR_army
+		prerequisite = { focus = POR_superior_firepower_2 focus = POR_grand_battleplan_2 }
+		prerequisite = { focus = POR_establish_proper_reserves }
+		prerequisite = { focus = POR_modern_communications_systems } 		
+		x = 0
+		y = 5
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			custom_effect_tooltip = POR_merge_army_ideas
+			army_experience = 25
+			add_war_support = 0.10
+			if = {
+				limit = {
+					has_completed_focus = POR_superior_firepower_2
+				}   
+				add_ideas = POR_army_merge_superior_firepower
+			}
+			if = {
+				limit = {
+					has_completed_focus = POR_grand_battleplan_2
+				}   
+				add_ideas = POR_army_merge_grand_battleplan
+			}
+			hidden_effect = {
+				remove_ideas = POR_mass_munitions_idea
+				remove_ideas = POR_grande_exercito_draft
+				if = {
+					limit = {
+						has_idea = POR_grand_battleplan_idea
+					}   
+					remove_ideas = POR_grand_battleplan_idea
+				}
+				if = {
+					limit = {
+						has_idea = POR_superior_firepower_idea
+					}   
+					remove_ideas = POR_superior_firepower_idea
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_airforce
+		icon = GFX_POR_airforce
+		prerequisite = { focus = POR_army } 
+		relative_position_id = POR_army
+		x = 8
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_war_support = 0.025
+			air_experience = 25
+					if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = {
+						set_country_flag = aviation_effort_AB
+					}
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = {
+						set_country_flag = aviation_effort_AB
+					}
+				}
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_anti_air
+		icon = GFX_goal_anti_air
+		prerequisite = { focus = POR_airforce }
+		relative_position_id = POR_airforce
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			add_stability = 0.025
+			112 = {
+				add_building_construction = {
+				type = anti_air_building
+				level = 2
+				instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_enhanced_plane_production
+		icon = GFX_goal_industry_air
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_anti_air } 		
+		x = -2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {	
+			add_ideas = POR_plane_production
+		}
+	}
+	
+	focus = {
+		id = POR_new_air_doctrines
+		icon = GFX_goal_generic_air_doctrine
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_enhanced_plane_production } 		
+		x = -2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_bomber
+		icon = GFX_goal_generic_air_bomber
+		mutually_exclusive = { focus = POR_all_around }
+		prerequisite = { focus = POR_airforce } 	
+		relative_position_id = POR_airforce		
+		x = 0
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		add_ideas = POR_bombing_doctrine
+		air_experience = 10
+		add_tech_bonus = {		
+			name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = strategic_destruction_tree
+			}
+		}
+	}
+	
+	focus = {
+		id = POR_cas_focus
+		icon = GFX_goal_bombs_away
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_bomber } 		
+		x = 0
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		air_experience = 25
+		add_tech_bonus = {
+				name = CAS_bonus
+				bonus = 0.5
+				uses = 1
+				category = cas_bomber
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_strategic_bombing
+		icon = GFX_Aerial_Offensive
+		prerequisite = { focus = POR_cas_focus } 		
+		relative_position_id = POR_airforce
+		x = 0
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {		
+				name = air_doc_bonus
+					bonus = 0.5
+					uses = 1
+					category = strategic_destruction_tree
+				}
+			add_tech_bonus = {
+				name = bomber_bonus
+					bonus = 0.5
+					uses = 1
+					category = cat_strategic_bomber
+				}	
+		}
+	}
+	
+	focus = {
+		id = POR_all_around
+		icon = GFX_Aerial_Fleet_2
+		mutually_exclusive = { focus = POR_bomber }
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_airforce } 		
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		add_ideas = POR_flexible_doctrine
+		air_experience = 10
+		add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = operational_integrity_tree
+			}	
+		}
+	}
+	
+	focus = {
+		id = POR_fighters
+		icon = GFX_goal_generic_air_fighter2
+		relative_position_id = POR_airforce
+		prerequisite = { focus = POR_all_around } 		
+		x = 2
+		y = 2
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+		air_experience = 25
+        add_tech_bonus = {
+				name = fighter_bonus
+					bonus = 0.5
+					uses = 1
+					category = light_fighter
+				}	
+		}
+	}
+	
+	focus = {
+		id = POR_tactical_bombing
+		icon = GFX_Aerial_Fleet
+		prerequisite = { focus = POR_fighters } 		
+		relative_position_id = POR_airforce
+		x = 2
+		y = 3
+		cost = 5
+		ai_will_do = {
+			factor = 10
+		}
+		completion_reward = {
+			air_experience = 25
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = operational_integrity_tree
+			}
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 1
+				category = tactical_bomber
+			}
+		}
+	}
+
+}

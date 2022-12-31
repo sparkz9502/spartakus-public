@@ -1,0 +1,56 @@
+﻿units = {
+	division = { #"21a Guardie Rosse 'Milano'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		} 
+		location = 3780
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"22a Guardie Rosse 'Giacinto Serrati'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		} 
+		location = 9165
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"23a Guardie Rosse 'Maggio'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		} 
+		location = 607
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"24a Guardie Rosse 'Contadini'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		} 
+		location = 3776
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"25a Guardie Rosse 'Italia'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		} 
+		location = 969
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"26a Guardie Rosse 'Repubblicano'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		} 
+		location = 773
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+}

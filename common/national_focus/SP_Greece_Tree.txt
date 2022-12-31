@@ -1,0 +1,21 @@
+focus_tree = {
+	id = SP_Greece_First_Tree
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = GRE
+		}
+	}
+
+	default = no
+	continuous_focus_position = { x = 3200 y = 1000 }
+
+	shared_focus = GRE_The_Future_of_the_Republic
+	shared_focus = GRE_Our_Place_in_the_World
+	shared_focus = GRE_Deal_with_Great_Depression
+
+	shared_focus = GRE_Eleftheron_To_Efpsychon
+	shared_focus = GRE_Mega_to_tis_Thallasis_Kratos
+	shared_focus = GRE_Aien_Ypsikratin
+}

@@ -1,0 +1,927 @@
+﻿###########################
+# Illyria Events
+###########################
+# By Last Witch of Illyrith (im gay)
+###########################
+
+add_namespace = illyria
+add_namespace = illyriaplot
+add_namespace = illyriatito
+
+#Introduction
+
+country_event = { 
+	id = illyria.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.1"}
+	title = illyria.1.t
+	desc = illyria.1.d
+	picture = GFX_report_event_generic_military_parade
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.1.a # rise and shine mr radic 
+		country_event = { id = illyria.3 }
+	}
+}
+
+#Italy Increases Military Presence
+
+country_event = { 
+	id = illyria.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.2"}
+	title = illyria.2.t
+	desc = illyria.2.d
+	picture = GFX_report_event_generic_military_parade
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.2.a # helpful!
+		add_political_power = 50
+		add_stability = 0.05
+		add_ideas = CRO_Italian_Support
+	}
+}
+
+#The Council of National Salvation
+
+country_event = { 
+	id = illyria.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.3"}
+	title = illyria.3.t
+	desc = illyria.3.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.3.a # traitors...
+		country_event = { id = illyria.40 }
+	}
+}
+
+#Radic's Proclamation
+
+country_event = { 
+	id = illyria.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.5"}
+	title = illyria.5.t
+	desc = illyria.5.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.5.a # get the fucker
+	    ai_chance = {
+			factor = 10
+		}
+		set_country_flag = RadicInPrison
+		add_political_power = -50
+		custom_effect_tooltip = CRO_RadicCaught_Tooltip
+		hidden_effect = { country_event = { days = 6 id = illyria.6 } }
+		hidden_effect = {
+		STJ = {
+		set_politics = {
+				ruling_party = liberal_conservative
+			}
+		}
+		}
+	}
+	
+	option = {
+		name = illyria.5.b # whoops
+	    ai_chance = {
+			factor = 90
+		}
+		set_country_flag = RadicTime2
+		add_political_power = -25
+		custom_effect_tooltip = CRO_RadicOnTheRun_Tooltip
+		hidden_effect = { country_event = { days = 6 id = illyria.6 } }
+	}
+}
+
+#Libs ANGERY
+
+country_event = { 
+	id = illyria.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.6"}
+	title = illyria.6.t
+	desc = illyria.6.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.6.a # shit
+		set_country_flag = RadicInPrison2
+		add_political_power = -50
+		hidden_effect = { country_event = { days = 7 id = illyria.7 } }
+	}
+}
+
+#Libs ATTACK
+
+country_event = { 
+	id = illyria.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.7"}
+	title = illyria.7.t
+	desc = illyria.7.d
+	picture = GFX_report_event_fascist_militia
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.7.a # SHIT
+	    ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = CRO_cw
+		hidden_effect = {
+			STJ = {
+			    set_country_flag = CROLiberalsRiseUp
+				transfer_state = 1202
+				transfer_state = 1203
+				transfer_state = 1204
+				transfer_state = 794
+				transfer_state = 1205
+				transfer_state = 1207
+				load_oob = "STJ"
+				give_military_access = BOS
+			}
+			BOS = {
+			    set_country_flag = BOSLiberalsRiseUp
+				transfer_state = 1009
+				transfer_state = 1206
+				transfer_state = 104
+				transfer_state = 1211
+				transfer_state = 1209
+				load_oob = "BOS"
+				give_military_access = STJ
+			}
+			declare_war_on = {
+				target = STJ
+				type = civil_war
+			}
+			declare_war_on = {
+				target = BOS
+				type = annex_everything
+			}
+		}
+		hidden_effect = { 
+		SER = {
+			limit = {
+				has_government = social_liberal
+			}
+		country_event = { days = 3 id = serbia.28 }
+        }		
+		MNT = { country_event = { days = 6 id = crnagora.1 } }
+		}
+	}
+	
+	option = {
+		name = illyria.7.b # GOOD
+		ai_chance = {
+			factor = 0
+		}
+		custom_effect_tooltip = CRO_cw
+		hidden_effect = {
+			STJ = {
+			    set_country_flag = CROLiberalsRiseUp
+				transfer_state = 1202
+				transfer_state = 1203
+				transfer_state = 1204
+				transfer_state = 794
+				transfer_state = 1205
+				transfer_state = 1207
+				load_oob = "STJ"
+				give_military_access = BOS
+			}
+			BOS = {
+			    set_country_flag = BOSLiberalsRiseUp
+				transfer_state = 1009
+				transfer_state = 1206
+				transfer_state = 104
+				transfer_state = 1211
+				transfer_state = 1209
+				load_oob = "BOS"
+				give_military_access = STJ
+			}
+			declare_war_on = {
+				target = STJ
+				type = civil_war
+			}
+			declare_war_on = {
+				target = BOS
+				type = annex_everything
+			}
+		}
+		hidden_effect = {
+        SER = {
+			limit = {
+				has_government = social_liberal
+			}
+		country_event = { days = 3 id = serbia.28 }
+        }				
+		MNT = { country_event = { days = 6 id = crnagora.1 } }
+		}
+		STJ = {
+		change_tag_from = CRO
+		}
+	}
+	
+	option = {
+		name = illyria.7.c # GOODsnia
+		ai_chance = {
+			factor = 0
+		}
+		custom_effect_tooltip = CRO_cw
+		hidden_effect = {
+			set_country_flag = CROLiberalsRiseUp
+			STJ = {
+			    set_country_flag = CROLiberalsRiseUp
+				transfer_state = 1202
+				transfer_state = 1203
+				transfer_state = 1204
+				transfer_state = 794
+				transfer_state = 1205
+				transfer_state = 1207
+				load_oob = "STJ"
+				give_military_access = BOS
+			}
+			BOS = {
+			    set_country_flag = BOSLiberalsRiseUp
+				transfer_state = 1009
+				transfer_state = 1206
+				transfer_state = 104
+				transfer_state = 1211
+				transfer_state = 1209
+				load_oob = "BOS"
+				give_military_access = STJ
+			}
+			declare_war_on = {
+				target = STJ
+				type = civil_war
+			}
+			declare_war_on = {
+				target = BOS
+				type = annex_everything
+			}
+		}
+		hidden_effect = { 
+		SER = {
+			limit = {
+				has_government = social_liberal
+			}
+		country_event = { days = 3 id = serbia.28 }
+        }	
+		MNT = { country_event = { days = 6 id = crnagora.1 } }
+		}
+		BOS = {
+		change_tag_from = CRO
+		}
+	}
+}
+
+#Troubles in Slovenia
+country_event = { 
+	id = illyria.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.10"}
+	title = illyria.10.t
+	desc = illyria.10.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.10.a # shit shit shit
+		add_political_power = -50
+		hidden_effect = { country_event = { days = 20 id = illyria.11 } }
+	}
+}
+
+#AIF In Ljubljana
+country_event = { 
+	id = illyria.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.11"}
+	title = illyria.11.t
+	desc = illyria.11.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.11.a # shit shit SHI
+		add_political_power = -50
+		SER = { load_oob = "SER_Anti_Imperialist_Front" }
+	}
+}
+
+#Tuzla FUCKING DIES
+country_event = { 
+	id = illyria.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.12"}
+	title = illyria.12.t
+	desc = illyria.12.d
+	picture = GFX_Tuzla_SANK
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.12.a # Fuck
+		ai_chance = {
+			factor = 10
+		}
+		add_political_power = -300
+		country_event = { days = 5 id = illyria.20 }
+		country_event = { days = 7 id = illyria.13 }
+	}
+	option = {
+		name = illyria.12.b # Fuck
+		ai_chance = {
+			factor = 40
+		}
+		add_political_power = -200
+		country_event = { days = 5 id = illyria.30 }
+		country_event = { days = 7 id = illyria.13 }
+	}
+	option = {
+		name = illyria.12.c # Fuck
+		ai_chance = {
+			factor = 50
+		}
+		add_political_power = -100
+		country_event = { days = 7 id = illyria.13 }
+	}
+}
+
+#Workers Dissatisfied
+country_event = { 
+	id = illyria.13
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.13"}
+	title = illyria.13.t
+	desc = illyria.13.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.13.a # dingus
+		add_stability = -0.05
+		add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.03
+		}
+		if = {
+        limit = { has_idea = CRO_Great_Depression }
+         political_power = -50
+		 hidden_effect = { country_event = { days = 12 id = illyria.15 } }
+         else = { 
+          political_power = -50
+          }
+        }
+		
+	}
+}
+
+#Great Depression Hits Illyria
+country_event = { 
+	id = illyria.14
+	immediate = {
+	log = "[GetDateText]: [Root.GetName]: event illyria.14"
+	hidden_effect = { set_country_flag = CRO_Depressed }
+	}
+	title = illyria.14.t
+	desc = illyria.14.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = illyria.14.a # oh goodness mine
+		add_ideas = CRO_Great_Depression
+		add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.05
+		}
+	}
+}
+
+#Workers Send Demands
+country_event = { 
+	id = illyria.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.15"}
+	title = illyria.15.t
+	desc = illyria.15.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.15.a # cave in
+		add_political_power = -50
+		add_stability = -0.1
+		
+	}
+	
+	option = {
+		name = illyria.15.b # no
+		custom_effect_tooltip = CRO_Bad_Idea
+		hidden_effect = { country_event = { days = 5 id = illyria.16 } }
+		
+	}
+}
+
+#Strikes!
+country_event = { 
+	id = illyria.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.16"}
+	title = illyria.16.t
+	desc = illyria.16.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.16.a # cave in
+		add_political_power = -150
+		add_stability = -0.1
+		
+	}
+	
+	option = {
+		name = illyria.16.b # NO!!!
+		hidden_effect = { country_event = { days = 13 id = illyria.17 } }
+		
+	}
+}
+
+#General Council of Workers
+country_event = { 
+	id = illyria.17
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.17"}
+	title = illyria.17.t
+	desc = illyria.17.d
+	picture = GFX_report_event_generic_rally
+	
+	immediate = {
+	hidden_effect = {
+		     BOS = {
+			 set_politics = {
+			     ruling_party = revolutionary_socialist
+			     elections_allowed = no}
+
+set_popularities = {
+    bolshevist = 5
+    spartacist = 7
+    revolutionary_socialist = 22
+    reformist_socialist = 3
+    social_democrat = 6
+    social_liberal = 17
+    liberal_conservative = 4
+    social_conservative = 22
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 8
+}
+			if = {
+            limit = { has_unit_leader = 666 }
+            remove_unit_leader = 666
+			    }
+		    }
+		}
+	}
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.17.a # troops!
+		add_political_power = -150
+		add_stability = -0.1
+		
+		hidden_effect = {
+		BOS = {
+			    set_country_flag = BOSCommiesriseup
+				transfer_state = 1206
+				transfer_state = 104
+				load_oob = "BOS_Communist"
+				add_ideas = BOS_Workers_Revolt
+			}
+			declare_war_on = {
+				target = BOS
+				type = annex_everything
+			}
+	    BOS = {
+			set_province_controller = 11741
+			set_province_controller = 11741
+			set_province_controller = 9588
+			set_province_controller = 6983
+			set_province_controller = 6619
+			set_province_controller = 15336
+			set_province_controller = 9586
+		}
+	}
+		
+	}
+	
+	option = {
+		name = illyria.17.b # rise up gamers
+		add_political_power = -150
+		add_stability = -0.1
+		
+		hidden_effect = {
+		BOS = {
+			    set_country_flag = BOSCommiesriseup
+				transfer_state = 1206
+				transfer_state = 104
+				load_oob = "BOS_Communist"
+				add_ideas = BOS_Workers_Revolt
+			}
+			declare_war_on = {
+				target = BOS
+				type = annex_everything
+			}
+	    BOS = {
+			set_province_controller = 11741
+			set_province_controller = 11741
+			set_province_controller = 9588
+			set_province_controller = 6983
+			set_province_controller = 6619
+			set_province_controller = 15336
+			set_province_controller = 9586
+		}
+	}
+		BOS = {
+		change_tag_from = CRO
+		}
+	}
+}
+
+#Ineffective Slavic ban
+country_event = { 
+	id = illyria.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.18"}
+	title = illyria.18.t
+	desc = illyria.18.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.18.a # bruh momentum
+		add_political_power = -50
+	}
+}
+
+#Slavic Ban Enforced
+country_event = { 
+	id = illyria.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.19"}
+	title = illyria.19.t
+	desc = illyria.19.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.19.a # epic
+		add_political_power = 25
+	}
+}
+
+#Poor Response - Political Instability
+country_event = { 
+	id = illyria.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.20"}
+	title = illyria.20.t
+	desc = illyria.20.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.20.a # fucc sorry
+		ai_chance = {
+			factor = 95
+		}
+		add_stability = -0.1
+		add_popularity = {
+				ideology = social_liberal
+				popularity = 0.05
+		}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.05
+		}
+	}
+	
+	option = {
+		name = illyria.20.b # authoritarianism time
+		ai_chance = {
+			factor = 5
+		}
+		delete_unit_template_and_units = { division_template = "Ilirska Divizija" }
+		add_stability = -0.5
+		add_popularity = {
+				ideology = social_liberal
+				popularity = -0.05
+		}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = -0.05
+		}
+	}
+}
+
+#Mediocre Response - Petitioning
+country_event = { 
+	id = illyria.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.30"}
+	title = illyria.30.t
+	desc = illyria.30.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.30.a # fucc
+		add_stability = -0.2
+		add_popularity = {
+				ideology = social_liberal
+				popularity = 0.05
+		}
+		add_popularity = {
+				ideology = social_democrat
+				popularity = 0.05
+		}
+	}
+}
+
+#HRSS INTRO
+
+country_event = { 
+	id = illyria.40
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyria.40"}
+	title = illyria.40.t
+	desc = illyria.40.d
+	picture = GFX_report_event_generic_rally
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyria.40.a # not good.
+	}
+}
+
+
+###Lorkovic Plot###
+
+country_event = { 
+	id = illyriaplot.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyriaplot.1"}
+	title = illyriaplot.1.t
+	desc = illyriaplot.1.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyriaplot.1.a # hmmm
+		hidden_effect = { country_event = { days = 7 id = illyriaplot.2 } }
+	}
+}
+
+country_event = { 
+	id = illyriaplot.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyriaplot.2"}
+	title = illyriaplot.2.t
+	desc = illyriaplot.2.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyriaplot.2.a # who could be behind this???
+		hidden_effect = { country_event = { days = 1 id = illyriaplot.3 } }
+	}
+}
+
+country_event = { 
+	id = illyriaplot.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyriaplot.3"}
+	title = illyriaplot.3.t
+	desc = illyriaplot.3.d
+	picture = GFX_report_event_soviet_purge_trial
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyriaplot.3.a # nah
+		hidden_effect = { country_event = { days = 5 id = illyriaplot.4 } }
+	}
+	
+	option = {
+		name = illyriaplot.3.b # nah
+		add_political_power = -50
+		add_stability = -0.1
+		hidden_effect = { country_event = { days = 5 id = illyriaplot.4 } }
+		remove_ideas = CRO_Mladen_Lorkovic_for_nsy
+	}
+}
+
+country_event = { 
+	id = illyriaplot.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyriaplot.4"}
+	title = illyriaplot.4.t
+	desc = illyriaplot.4.d
+	picture = GFX_report_event_soviet_purge_trial
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+    
+	immediate = {
+	hidden_effect = {
+	CRO = {
+			remove_ideas = CRO_Mladen_Lorkovic_for_nsy
+			}
+	}
+	}
+	
+	option = {
+		name = illyriaplot.4.a # accept
+		every_state = {
+				limit = { is_core_of = CRO }
+
+				add_core_of = STJ
+			}
+			every_state = {
+				limit = { is_claimed_by = CRO }
+
+				add_claim_by = STJ
+			}
+			random_owned_controlled_state = {
+				STJ = { transfer_state = PREV }
+			}
+			transfer_navy = { target = STJ }
+			CRO = {
+				STJ = { transfer_technology = yes }
+			}
+			STJ = {
+				annex_country = { target = CRO transfer_troops = no }
+				set_global_flag = Lorkovic_Coup_Success
+				change_tag_from = CRO
+			}
+			STJ = {
+			 set_politics = {
+			     ruling_party = national_corporatist
+			     elections_allowed = no
+		        }		 
+			 }
+	}
+	
+	option = {
+		name = illyriaplot.4.b # no
+		add_political_power = -50
+		add_stability = -0.1
+		hidden_effect = {
+			STJ = {
+			    set_country_flag = CROFashRiseUp
+				transfer_state = 1207
+				transfer_state = 1210
+				transfer_state = 1211
+				transfer_state = 103
+				transfer_state = 1205
+				transfer_state = 1207
+				transfer_state = 1155
+				transfer_state = 1209
+				transfer_state = 1206
+				transfer_state = 1009
+				transfer_state = 1208
+				transfer_state = 1204
+				transfer_state = 794
+				load_oob = "STJ_RW"
+			}
+			declare_war_on = {
+				target = STJ
+				type = civil_war
+			}
+		}
+		hidden_effect = {			
+		MNT = { country_event = { days = 6 id = crnagora.1 } }
+		}
+		STJ = {
+			 set_politics = {
+			     ruling_party = national_corporatist
+			     elections_allowed = no
+		        }		 
+			 }
+	}
+	
+	option = {
+		name = illyriaplot.4.c # Ugh
+		add_political_power = -50
+		add_stability = -0.1
+		hidden_effect = {
+			STJ = {
+			    set_country_flag = CROFashRiseUp
+				transfer_state = 1207
+				transfer_state = 1210
+				transfer_state = 1211
+				transfer_state = 103
+				transfer_state = 1205
+				transfer_state = 1207
+				transfer_state = 1155
+				transfer_state = 1209
+				transfer_state = 1206
+				transfer_state = 1009
+				transfer_state = 1208
+				transfer_state = 1204
+				transfer_state = 794
+				load_oob = "STJ_RW"
+			}
+			declare_war_on = {
+				target = STJ
+				type = civil_war
+			}
+		}
+		hidden_effect = {			
+		MNT = { country_event = { days = 6 id = crnagora.1 } }
+		}
+		STJ = {
+			 set_politics = {
+			     ruling_party = national_corporatist
+			     elections_allowed = no
+		        }		 
+			 }
+		STJ = {
+		change_tag_from = CRO
+		}
+	}
+}
+
+###Tito###
+
+#Introduction
+
+country_event = { 
+	id = illyriatito.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event illyriatito.1"}
+	title = illyriatito.1.t
+	desc = illyriatito.1.d
+	picture = GFX_report_event_communist_leader
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = illyriatito.1.a # ahhhh 
+	}
+}

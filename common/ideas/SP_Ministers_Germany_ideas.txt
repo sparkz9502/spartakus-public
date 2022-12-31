@@ -1,0 +1,958 @@
+ideas = {
+################################################################################################################################################################################################
+### GER
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	GER_Bernhard_Baestlein_hog_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Ernst_Thaelmann_hog_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Walter_Ulbricht_hog_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Karl_Liebknecht_hog_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_revolutionary_figurehead
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Milly_Witkop_hog_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+	GER_Clara_Zetkin_mwp_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			minister_without_portfolio
+			mwp_renowned_suffragette
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	GER_Helmet_Herzfelde_for_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Walter_Ulbricht_for_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_stiff_opportunist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Karl_Liebknecht_for_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Paul_Levi_for_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Gustav_Landauer_for_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Heinrich_Mann_for_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	GER_Albert_Kuntz_eco_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Willi_Muenzenberg_eco_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Willi_Stoph_eco_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Hermann_Duncker_eco_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_popular_trade_unionist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Rudolf_Egelhofer_eco_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Augustin_Souchy_eco_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Alex_Moeller_eco_ref = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	GER_Hilde_Benjamin_sec_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Julius_Leber_sec_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Otto_Grotewohl_sec_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Walter_Ulbricht_sec_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Hans_Kippenberger_sec_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Paul_Levi_sec_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_accomplished_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Fritz_Kater_sec_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Silvio_Gesell_sec_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = { ### Education Minister ###
+	GER_Erich_Weinert_edu_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Ernst_Toller_edu_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Erich_Muehsam_edu_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			education_minister
+			edu_political_philosopher
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Georg_Ledebour_edu_ref = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			education_minister
+			edu_old_school_intellectual
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = {
+	GER_Ernst_Goldenbaum_agr_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Paul_Scholz_agr_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_collectivist_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Franz_Pilarski_agr_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_veteran_farmer
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Fritz_Selbmann_agr_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_inexperienced_agriculturalist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Edwin_Hoernle_agr_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_champion_of_the_peasantry
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Rudolf_Albrecht_agr_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_calculated_collectivist
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Friedrich_Martin_agr_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_reluctant_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Paul_Roch_agr_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			agriculture_minister
+			agr_collectivist_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Otto_Reimers_agr_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			agriculture_minister
+			agr_calculated_collectivist
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Friedrich_Wehmer_agr_ref = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Otto_Korting_agr_ref = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			agriculture_minister
+			agr_veteran_farmer
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Ernst_Walter_Beer_agr_ref = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			agriculture_minister
+			agr_calculated_collectivist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = {
+	GER_Hugo_Eberlein_tra_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			transport_minister
+			tra_inexperienced_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	GER_Ernst_Thaelmann_def_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_revolutionary_veteran
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Ernst_Wollweber_def_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Heinrich_Mueller_def_bol = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Hugo_Eberlein_def_spa = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_naval_intelligence_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Willi_Muenzenberg_def_rev = {
+		allowed = {original_tag = GER}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	GER_Ludwig_Renn_cos = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Ernst_Wollweber_cos = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Ernst_Thaelmann_cos = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+	GER_Albert_Schreiner_carm = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Hans_Kahle_carm = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Rudolf_Egelhofer_carm = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Erwin_Rommel_carm = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Ernst_Volckheim_carm = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	GER_Hans_Paasche_cnav = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_navy
+			cnav_strategic_defence_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Lothar_von_Arnauld_cnav = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	GER_Walter_Kreiser_cair = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_air_force
+			cair_innovative_aircraft_designer
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Kurt_Student_cair = {
+		allowed = {original_tag = GER}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = { ### Theorist ###
+	GER_Magnus_Hirschfeld_theo = {
+		allowed = {original_tag = GER}
+		traits = {
+			sp_theorist
+			progressive_sexologist
+		}
+		cancel_if_invalid = no
+	}
+
+	GER_Albert_Einstein_theo = {
+		allowed = {original_tag = GER}
+		research_bonus = { #placeholder
+			rocketry = 0.1
+		}
+		traits = {
+			sp_theorist
+			master_physicist
+		}
+		cancel_if_invalid = no
+	}
+	
+	GER_Leo_Szilard_theo = {
+		allowed = {original_tag = GER}
+		research_bonus = {
+			nuclear = 0.1
+		}
+		traits = {
+			sp_theorist
+			nuclear_theorist
+		}
+		cancel_if_invalid = no
+	}
+}
+}

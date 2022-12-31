@@ -1,0 +1,33 @@
+
+state={
+	id=1019
+	name="STATE_1019"
+	resources={
+		rubber=55.000
+		raremetals=11
+	}
+
+	history={
+		owner = MLY
+		victory_points = {
+			12215 2 
+		}
+		victory_points = {
+			1364 1 
+		}
+		add_core_of = MLY
+		add_core_of = PRK
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1364 1376 4310 12215 13705 
+	}
+	manpower=875200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

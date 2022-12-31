@@ -1,0 +1,28 @@
+on_actions = {
+
+	#FROM is country getting invited.
+	on_offer_join_faction = {
+		effect = {
+
+			save_global_event_target_as = faction_leader
+			#Faction LEADER
+			# if = {
+				# limit = {
+					# tag = FACTION_LEADER
+				# }
+				# set_global_flag = JF_FACTION_LEADER
+			# }
+			FROM = {
+				save_global_event_target_as = faction_member
+				#Faction MEMBER
+				# if = {
+					# limit = {
+						# tag = FACTION_MEMBER
+					# }
+					# set_global_flag = JF_FACTION_MEMBER
+				# }
+			}
+			set_global_flag = show_faction_joining_alert
+		}
+	}
+}

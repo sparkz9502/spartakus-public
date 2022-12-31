@@ -1,0 +1,1115 @@
+ideas = {
+################################################################################################################################################################################################
+### PRM
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	PRM_Henrique_Mitchell_de_Paiva_Cabral_Couceiro_hog_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Maria_Adelaide_de_Braganza_hog_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Alberto_Monsaraz_hog_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_old_admiral
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Francisco_Rolao_Preto_hog_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Antonio_De_Oliveira_Salazar_hog_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Antonio_Lopes_Mateus_hog_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Jaime_Afreixo_hog_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_old_admiral
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Ruy_Ulrich_for_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	PRM_Alfonso_Costa_for_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_DFezas_Vital_for_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Quintao_Meireles_for_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Abel_de_Abreu_Sotto_Mayor_for_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_general_staffer
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Alfredo_Pimenta_for_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jose_Caeiro_da_Mata_for_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Paulo_Cunha_for_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Xavier_Cordeiro_for_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Luis_Almeida_Braga_for_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Maria_Adelaide_de_Braganza_for_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Martinho_Nobre_de_Melo_for_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Afonso_Lopes_Vieira_for_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Jose_Adriano_Pequito_Rebelo_for_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Antonio_De_Oliveira_Salazar_for_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+
+	PRM_Antonio_M_B_Ferreira_eco_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_tank_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Joao_Chagas_eco_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Vasco_Carvalho_eco_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_theoretical_scientist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Antonio_Sardinho_eco_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Armindo_Monteiro_eco_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_battle_fleet_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Joao_Nunes_Costa_eco_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_battlefield_support_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Raul_Brandao_eco_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Henrique_Mitchell_Paiva_Couceiro_eco_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Joao_de_Almeida_eco_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jose_Hipolito_Vaz_Raposo_eco_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jose_Norton_de_Matos_eco_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Julio_da_Costa_Pinto_eco_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Alberto_Monsaraz_eco_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_battle_fleet_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jose_Hipolito_Vaz_Raposo_eco_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+
+	PRM_Afonso_Lucas_sec_sco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Alfredo_Pimenta_sec_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Henrique_Galvao_sec_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_JCosta_Leite_sec_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Martinho_Nobre_Melo_sec_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Mario_Pais_Sousa_sec_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_crooked_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_JBotelho_Moniz_sec_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jose_Hipolito_Vaz_Raposo_sec_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Francisco_Rolao_Preto_sec_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jose_Hipolito_Vaz_Raposo_sec_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Antonio_De_Oliveira_Salazar_sec_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+
+	PRM_Augusto_Vasconcellos_def_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Joao_Pereira_Bastos_def_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Julio_Dantas_def_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Pedro_Teotonio_Pereira_def_aco = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Joao_de_Almeida_def_rwp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Luis_Carlos_de_Lima_de_Almeida_Braga_def_nsy = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Antonio_De_Oliveira_Salazar_def_ncp = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	PRM_Raul_Brandao_cos = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Eduardo_A_Marques_cos = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_JA_Silva_Bastos_cos = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Tasso_Miranda_Cabral_cos = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	PRM_JA_Lobato_Guerra_carm = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_JBarros_Rodrigues_carm = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Rolao_Pretea_carm = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Jose_Norton_de_Matos_carm = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+	PRM_Quintao_Meireles_cnav = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Americo_Deus_Tomas_cnav = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Jaime_Afreixo_cnav = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	PRM_Manuel_Gouveia_cair = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	PRM_Ortins_Bettencourt_cair = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_naval_aviation_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	PRM_Jose_Adriano_Pequito_Rebelo_cair = {
+		allowed = {original_tag = PRM}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

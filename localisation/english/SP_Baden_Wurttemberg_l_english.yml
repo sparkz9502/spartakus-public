@@ -1,0 +1,51 @@
+﻿l_english:
+
+### Ideas ###
+WUR_Sore_Loser:0 "Sore Loser"
+WUR_Sore_Loser_desc:0 "Baden-Württemberg has always been considered one of the more conservative areas of the former German Empire. While revolutionary unrest took place in 1918 and 1919, it was on a more limited nature than in other areas of the country, and largely restricted to the industrial cities of Stuttgart and Mannheim. During the civil war the area remained under the solid control of the Whites, with an offensive by the Spartacists in 1920 being repelled with the aid of the French. The bureaucracy and military of the country is dominated by supporters of the Whites, including exiles, who remain adamant in their belief that the Spartacist victory was a ''Bolshevik plot'' undesired by most of the German populace. A large section of the Baden-Württemberger population agrees with this sentiment. It is clear that the destiny of the country is to bring order to the rest of Germany, but there is doubt that such prospects are realistic."
+WUR_Guided_Foreign_Policy:0 "Guided Foreign Policy"
+WUR_Guided_Foreign_Policy_desc:0 "Although officially independent, Baden-Württemberg is nonetheless greatly influenced by the French. The state would not exist, after all, if the French hadn't intervened in the final stages of the civil war. Likewise, without continued French military support the Spartacists would swept into the region long ago. There are many clear benefits to this arrangement, but there is a catch: it is quite clear that France does not intend for Germany to be united, and this runs contrary to the aspirations of the political forces in Baden-Württemberg. Breaking free from this grip is not impossible but must come at the right time."
+WUR_Memories_of_the_Blutmai:0 "Memories of the Blutmai"
+WUR_Memories_of_the_Blutmai_desc:0 "In May 1925 our country was shook by an attempted uprising by Spartacist-minded traitors within our nation. In a week long ordeal that necessitated the intervention of the French, many were killed and the country was left forever scarred, with the event becoming known as the ''Blutmai'', or Bloody May. Though our propaganda has sought to portray the participants as a minority, driven by Spartacist and Bolshevik agents, it is undeniable that a not so insignificant section of the population sympathizes with our socialist enemy, and the scars of 1925 are still yet to be healed. Our situation is more stabilized and another uprising is unlikely, but there is still the risk of sabotage in the future if war should come to our land. We must root out these tendencies or risk defeat from within."
+WUR_Light_Reparations:0 "Light Reparations"
+WUR_Light_Reparations_desc:0 "While Baden-Württemberg was allowed by the French to control its own political system, this has come at a price. The Weimar Republic was slated to pay large reparations to the victorious Entente powers in order to compensate for the destruction caused by German forces. The rise of the Spartacist regime halted these efforts, with their government outright refusing to pay any sort of reparations. The burden thus fell on the Rhenish Republic and Baden-Württemberg. The Rhenish reparations are clearly harsher and their occupation is more direct, but Baden-Württemberg was not spared. Although the reparations are relatively light, miniscule in fact compared to what the French had intended for the Weimar Republic to pay, these payments are an obstacle to the development of the economy and armed forces. We must find a way to do away this burden."
+
+### Decisions ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+WUR_bolshevist_party:0 "KPD"
+WUR_bolshevist_party_long:0 "Communist Party of Germany (Kommunistische Partei Deutschlands)"
+WUR_spartacist_party:0 "KPD"
+WUR_spartacist_party_long:0 "Communist Party of Germany (Kommunistische Partei Deutschlands)"
+WUR_revolutionary_socialist_party:0 "FAUD"
+WUR_revolutionary_socialist_party_long:0 "Free Worker's Union of Germany (Freie Arbeiter Union Deutschlands)"
+WUR_reformist_socialist_party:0 "VSPD"
+WUR_reformist_socialist_party_long:0 "United Social Democratic Party of Germany (Vereinigte Sozialdemokratische Partei Deutschlands)"
+WUR_social_democrat_party:0 "SPD"
+WUR_social_democrat_party_long:0 "Social Democratic Party of Germany (Sozialdemokratische Partei Deutschlands)"
+WUR_social_liberal_party:0 "DDP"
+WUR_social_liberal_party_long:0 "German Democratic Party (Deutsche Demokratische Partei)"
+WUR_liberal_conservative_party:0 "DVP"
+WUR_liberal_conservative_party_long:0 "German People's Party (Deutsche Volkspartei)"
+WUR_social_conservative_party:0 "Zentrum"
+WUR_social_conservative_party_long:0 "German Centre Party (Deutsche Zentrumspartei)"
+WUR_authoritarian_conservative_party:0 "DBB"
+WUR_authoritarian_conservative_party_long:0 "German Farmer's League (Deutscher Bauernbund)"
+WUR_right_wing_populist_party:0 "DNVP"
+WUR_right_wing_populist_party_long:0 "German National People's Party (Deutschnationale Volkspartei)"
+WUR_national_syndicalist_party:0 "DVFP"
+WUR_national_syndicalist_party_long:0 "German Völkisch Freedom Party (Deutschvölkische Freiheitspartei)"
+WUR_national_corporatist_party:0 "DVLP"
+WUR_national_corporatist_party_long:0 "German Fatherland Party (Deutsche Vaterlandspartei)"
+
+### Focuses ###
+
+### Leader Descriptions ###
+
+### Events ###

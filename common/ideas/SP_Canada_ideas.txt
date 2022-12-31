@@ -1,0 +1,13 @@
+ideas = {
+
+###################
+# Australia Ideas #
+###################
+
+	country = {
+	
+		CAN_empire = {
+			picture = stiff_upper_lip
+		}
+	}
+}

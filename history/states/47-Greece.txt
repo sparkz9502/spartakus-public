@@ -1,0 +1,88 @@
+
+state={
+	id=47
+	name="STATE_47"
+
+	history={
+		owner = GRE
+		victory_points = {
+			4109 25 
+		}
+		victory_points = {
+			7211 5 
+		}
+		victory_points = {
+			976 5 
+		}
+		victory_points = {
+			6930 5 
+		}
+		victory_points = {
+			3980 2 
+		}
+		victory_points = {
+			1205 1 
+		}
+		victory_points = {
+			3973 5 
+		}
+		victory_points = {
+			9916 2 
+		}
+		victory_points = {
+			3914 3 
+		}
+		victory_points = {
+			6990 1 
+		}
+		victory_points = {
+			9930 3 
+		}
+		victory_points = {
+			7096 3 
+		}
+		victory_points = {
+			10203 1 
+		}
+		victory_points = {
+			3844 2 
+		}
+		victory_points = {
+			12058 1 
+		}
+		victory_points = {
+			11965 1 
+		}
+		victory_points = {
+			8435 2 
+		}
+		victory_points = {
+			6550 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 2
+			industrial_complex = 3
+			air_base = 4
+			dockyard = 1
+			4109 = {
+				naval_base = 9
+
+			}
+			3401 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		3401 3988 4109 
+	}
+	manpower=1212500
+	buildings_max_level_factor=1.000
+	state_category=city
+}

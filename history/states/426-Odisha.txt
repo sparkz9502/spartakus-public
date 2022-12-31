@@ -1,0 +1,31 @@
+
+state={
+	id=426
+	name="STATE_426"
+	resources={
+		coal=11.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			1538 2 
+		}
+		victory_points = {
+			12307 5 
+		}
+
+	}
+
+	provinces={
+		1059 1101 1538 10060 10428 14997 
+	}
+	manpower=2760000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

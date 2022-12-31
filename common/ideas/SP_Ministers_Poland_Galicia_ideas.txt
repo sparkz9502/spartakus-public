@@ -1,0 +1,309 @@
+ideas = {
+################################################################################################################################################################################################
+### PGA
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+
+	PGA_Adolf_Warski_hog_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_old_revolutionary
+		}
+		cancel_if_invalid = no
+	}
+
+	PGA_Volodymyr_Zatonsky_hog_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+minister_without_portfolio = { ### Minister w/o Portfolio ###
+
+	PGA_Edward_Prochniak_mwp_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			minister_without_portfolio
+			mwp_modern_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	
+	PGA_Jakub_Hanecki_for_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+
+	PGA_Alfred_Lampe_eco_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+
+	PGA_Teodor_Duracz_sec_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_accomplished_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+education_minister = { ### Education Minister ###
+
+	PGA_Feliks_Kon_edu_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_political_philosopher
+		}
+		cancel_if_invalid = no
+	}
+
+	PGA_Maria_Koszutska_edu_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+
+	PGA_Volodymyr_Zatonsky_edu_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_scientific_scholar
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+
+	PGA_Stanislaw_Kosior_agr_bol = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			agriculture_minister
+			agr_collectivist_bureaucrat
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+transport_minister = { ### Transport Minister ###
+
+	PGA_Stanislaw_Bobinski_tra_spa = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			transport_minister
+			tra_resource_extraction_focus
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	
+	PGA_Jozef_Unszlicht_def_bol = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_revolutionary_veteran
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	PGA_Vladimir_Lazarevich_cos = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	PGA_Wladyslaw_Korczyc_carm = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	PGA_Jerzy_Zietek_cair = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+sp_theorist = { ### Theorist ###
+
+	PGA_Stefan_Banach_theo = {
+		allowed = {original_tag = PGA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			renowned_mathematician
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

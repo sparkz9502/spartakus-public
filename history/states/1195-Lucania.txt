@@ -1,0 +1,23 @@
+
+state={
+	id=1195
+	name="STATE_1195"
+	provinces={
+		3958 3968 6972 9856 
+	}
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			3958 1
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+	manpower=507800
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

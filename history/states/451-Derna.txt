@@ -1,0 +1,36 @@
+
+state={
+	id=451
+	name="STATE_451"
+
+	history={
+		owner = INA
+		add_core_of = INA
+		add_core_of = LBA
+		victory_points = {
+			1130 1 
+		}
+		victory_points = {
+			7082 1 
+		}
+		victory_points = {
+			1060 1 
+		}
+		buildings = {
+			infrastructure = 1
+			1130 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1060 1130 1204 4060 4136 4151 7082 9992 10120 13785 
+	}
+	manpower=46800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

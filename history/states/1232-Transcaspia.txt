@@ -1,0 +1,40 @@
+
+state={
+	id=1232
+	name="STATE_1232"
+	resources={
+		oil=4.000
+	}
+
+	history={
+		owner = TCS
+		victory_points = {
+			7477 1 
+		}
+		victory_points = {
+			15154 4 
+		}
+		victory_points = {
+			10359 1 
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			7477 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_claim_by = SOV
+		add_core_of = TCS
+
+	}
+
+	provinces={
+		1593 7477 7491 7563 10359 12333 12359 15141 15146 15149 15154 15161 15162 15164 15165 15166 15167 
+	}
+	manpower=739000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

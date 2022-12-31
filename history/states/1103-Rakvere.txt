@@ -1,0 +1,37 @@
+
+state={
+	id=1103
+	name="STATE_1103"
+	resources={
+		oil=3.000
+	}
+
+	history={
+		victory_points = {
+			11443 1 
+		}
+		victory_points = {
+			4640 3 
+		}
+		owner = EST
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4640 = {
+				bunker = 1
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = EST
+
+	}
+
+	provinces={
+		4640 11057 11127 11443 14016 
+	}
+	manpower=212170
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

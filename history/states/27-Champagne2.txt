@@ -1,0 +1,35 @@
+
+state={
+	id=27
+	name="STATE_27"
+	resources={
+		coal=2
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			3652 4 
+		}
+		victory_points = {
+			3681 1
+		}
+		victory_points = {
+			667 1
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		648 667 680 817 3506 3650 3652 3669 3681 9609 9625 9644 11628 11794 
+	}
+	manpower=1403500
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

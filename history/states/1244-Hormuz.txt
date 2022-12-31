@@ -1,0 +1,25 @@
+state={
+	id=1244
+	name="STATE_1244"
+	provinces={
+		14919 
+	}
+	history={
+		owner = RAJ
+		buildings = {
+			infrastructure = 1
+			14919 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = PER
+		victory_points = {
+			14919 1
+		}
+
+	}
+	manpower=5000
+	state_category = tiny_island
+	buildings_max_level_factor=1.000
+}

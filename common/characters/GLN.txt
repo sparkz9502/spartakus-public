@@ -1,0 +1,19 @@
+characters={
+    GLN_jafar_pishevari = {
+        name = "Ja'far Pishevari"
+        portraits={
+            civilian={
+                large = "gfx/leaders/GLN/Portrait_Jafar_Pishevari.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

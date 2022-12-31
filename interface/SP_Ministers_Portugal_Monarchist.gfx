@@ -1,0 +1,369 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### PRM
+################################################################################################################################################################################################
+
+#Head of Government
+
+spriteType = {
+	name = "GFX_idea_PRM_Henrique_Mitchell_de_Paiva_Cabral_Couceiro_hog_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Henrique_Mitchell_de_Paiva_Cabral_Couceiro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Maria_Adelaide_de_Braganza_hog_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Maria_Adelaide_de_Braganza.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Alberto_Monsaraz_hog_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Alberto_Monsaraz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Francisco_Rolao_Preto_hog_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Francisco_Rolao_Preto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_De_Oliveira_Salazar_hog_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_De_Oliveira_Salazar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_Lopes_Mateus_hog_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_Lopes_Mateus.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jaime_Afreixo_hog_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jaime_Afreixo.tga"
+}
+
+#Foreign Minister
+
+spriteType = {
+	name = "GFX_idea_PRM_Alfonso_Costa_for_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Alfonso_Costa.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_DFezas_Vital_for_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_DFezas_Vital.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Quintao_Meireles_for_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Quintao_Meireles.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Abel_de_Abreu_Sotto_Mayor_for_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Abel_de_Abreu_Sotto_Mayor.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Alfredo_Pimenta_for_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Alfredo_Pimenta.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Caeiro_da_Mata_for_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Caeiro_da_Mata.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Paulo_Cunha_for_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Paulo_Cunha.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Xavier_Cordeiro_for_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Xavier_Cordeiro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Luis_Almeida_Braga_for_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Luis_Almeida_Braga.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Maria_Adelaide_de_Braganza_for_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Maria_Adelaide_de_Braganza.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Martinho_Nobre_de_Melo_for_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Martinho_Nobre_de_Melo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Afonso_Lopes_Vieira_for_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Afonso_Lopes_Vieira.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Adriano_Pequito_Rebelo_for_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Adriano_Pequito_Rebelo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_De_Oliveira_Salazar_for_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_De_Oliveira_Salazar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Ruy_Ulrich_for_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Ruy_Ulrich.tga"
+}
+
+#Economy Minister
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_M_B_Ferreira_eco_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_M_B_Ferreira.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Joao_Chagas_eco_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Joao_Chagas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Vasco_Carvalho_eco_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Vasco_Carvalho.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_Sardinho_eco_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_Sardinho.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Armindo_Monteiro_eco_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Armindo_Monteiro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Joao_Nunes_Costa_eco_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Joao_Nunes_Costa.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Raul_Brandao_eco_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Raul_Brandao.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Henrique_Mitchell_Paiva_Couceiro_eco_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Henrique_Mitchell_de_Paiva_Cabral_Couceiro.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Joao_de_Almeida_eco_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Joao_de_Almeida.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Hipolito_Vaz_Raposo_eco_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Hipolito_Vaz_Raposo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Norton_de_Matos_eco_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Norton_de_Matos.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Julio_da_Costa_Pinto_eco_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Julio_da_Costa_Pinto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Alberto_Monsaraz_eco_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Alberto_Monsaraz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Hipolito_Vaz_Raposo_eco_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Hipolito_Vaz_Raposo.tga"
+}
+
+
+#Security Minister
+
+spriteType = {
+	name = "GFX_idea_PRM_Afonso_Lucas_sec_sco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Afonso_Lucas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Alfredo_Pimenta_sec_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Alfredo_Pimenta.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Henrique_Galvao_sec_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Henrique_Galvao.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_JCosta_Leite_sec_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_JCosta_Leite.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Martinho_Nobre_Melo_sec_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Martinho_Nobre_Melo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Mario_Pais_Sousa_sec_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Mario_Pais_Sousa.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_JBotelho_Moniz_sec_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_JBotelho_Moniz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Hipolito_Vaz_Raposo_sec_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Hipolito_Vaz_Raposo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Francisco_Rolao_Preto_sec_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Francisco_Rolao_Preto.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Hipolito_Vaz_Raposo_sec_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Hipolito_Vaz_Raposo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_De_Oliveira_Salazar_sec_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_De_Oliveira_Salazar.tga"
+}
+
+
+#Defence Minister
+
+spriteType = {
+	name = "GFX_idea_PRM_Augusto_Vasconcellos_def_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Augusto_Vasconcellos.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Joao_Pereira_Bastos_def_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Joao_Pereira_Bastos.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Julio_Dantas_def_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Julio_Dantas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Pedro_Teotonio_Pereira_def_aco"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Pedro_Teotonio_Pereira.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Joao_de_Almeida_def_rwp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Joao_de_Almeida.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Luis_Carlos_de_Lima_de_Almeida_Braga_def_nsy"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Luis_Carlos_de_Lima_de_Almeida_Braga.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Antonio_De_Oliveira_Salazar_def_ncp"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Antonio_De_Oliveira_Salazar.tga"
+}
+
+
+#Chief of Staff
+
+spriteType = {
+	name = "GFX_idea_PRM_Raul_Brandao_cos"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Raul_Brandao.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Eduardo_A_Marques_cos"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Eduardo_A_Marques.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_JA_Silva_Bastos_cos"
+	texturefile = "gfx/interface/ministers/PRM/PRM_JA_Silva_Bastos.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Tasso_Miranda_Cabral_cos"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Tasso_Miranda_Cabral.tga"
+}
+
+
+#Chief of Army
+
+spriteType = {
+	name = "GFX_idea_PRM_JA_Lobato_Guerra_carm"
+	texturefile = "gfx/interface/ministers/PRM/PRM_JA_Lobato_Guerra.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_JBarros_Rodrigues_carm"
+	texturefile = "gfx/interface/ministers/PRM/PRM_JBarros_Rodrigues.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Rolao_Pretea_carm"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Rolao_Pretea.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Norton_de_Matos_carm"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Norton_de_Matos.tga"
+}
+
+
+#Chief of Navy
+
+spriteType = {
+	name = "GFX_idea_PRM_Quintao_Meireles_cnav"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Quintao_Meireles.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Americo_Deus_Tomas_cnav"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Americo_Deus_Tomas.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jaime_Afreixo_cnav"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jaime_Afreixo.tga"
+}
+
+
+#Chief of Air Force
+
+spriteType = {
+	name = "GFX_idea_PRM_Manuel_Gouveia_cair"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Manuel_Gouveia.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Ortins_Bettencourt_cair"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Ortins_Bettencourt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_PRM_Jose_Adriano_Pequito_Rebelo_cair"
+	texturefile = "gfx/interface/ministers/PRM/PRM_Jose_Adriano_Pequito_Rebelo.tga"
+}
+}

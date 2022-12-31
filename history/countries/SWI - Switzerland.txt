@@ -1,0 +1,74 @@
+﻿capital = 3
+
+set_oob = "SWI"
+
+set_research_slots = 3
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 0.5
+    spartacist = 3
+    revolutionary_socialist = 1
+    reformist_socialist = 22
+    social_democrat = 7
+    social_liberal = 2
+    liberal_conservative = 26
+    social_conservative = 21
+    authoritarian_conservative = 14
+    right_wing_populist = 1
+    national_syndicalist = 0.5
+    national_corporatist = 2
+}
+
+add_ideas = {
+	recruitment_1825
+	governance_par
+	trade_laif
+	economy_semind
+	mobilization_1
+}
+
+set_stability = 0.7
+set_war_support = 0.1
+
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_authoritarian_conservative
+
+create_country_leader = {
+	name = "Federal Council"
+	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
+	picture = "Portrait_Switzerland_Federal_council.dds"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Henri Guisan"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  winter_specialist }
+	skill = 3
+	attack_skill = 2
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 2
+}

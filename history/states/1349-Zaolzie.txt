@@ -1,0 +1,27 @@
+state={
+	id=1349
+	name="STATE_1349"
+	provinces={
+		13553 
+	}
+	resources={
+		coal=7.000
+	}
+
+	history={
+		owner = CZE
+		add_core_of = CZE
+		add_core_of = PGA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		victory_points = {
+			13553 3
+		}
+	}
+
+	manpower=210000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1367
+	name="STATE_1367"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		14315 15510 15512 15514 15518 15524 15528 15529 15534 15536 15539 15540 15543 15544 15545 15547 15548 
+	}
+	manpower=45000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

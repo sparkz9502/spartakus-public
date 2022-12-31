@@ -1,0 +1,40 @@
+
+state={
+	id=1228
+	name="STATE_1228"
+	resources={
+		iron=14.000
+	}
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			6946 = {
+				naval_base = 2
+			}
+			13559 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			6946 5 
+		}
+		victory_points = {
+			15369 2 
+		}
+		victory_points = {
+			13573 1 
+		}
+
+	}
+
+	provinces={
+		6875 6946 11833 13559 13573 15369 
+	}
+	manpower=1224900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

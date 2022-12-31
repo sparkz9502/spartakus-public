@@ -1,0 +1,96 @@
+###DIPLOMACY AI###
+
+##Factional Relations##
+
+#British Empire and France#
+britain_germany = {
+	enable = {
+		is_in_faction_with = ENG
+		country_exists = GER
+	}
+	abort = {
+		NOT = { country_exists = GER }
+	}
+
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 1000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 1000
+	}
+}
+
+france_germany = {
+	enable = {
+		is_in_faction_with = FRA
+		country_exists = GER
+	}
+	abort = {
+		NOT = { country_exists = GER }
+	}
+
+	ai_strategy = {
+		type = contain
+		id = "GER"
+		value = 1000
+	}
+	ai_strategy = {
+		type = antagonize
+		id = "GER"
+		value = 1000
+	}
+	ai_strategy = {
+		type = conquer
+		id = "GER"
+		value = 1000
+	}
+}
+
+france_defend_rhineland = {
+	enable = {
+		tag = FRA
+		is_in_faction_with = RHI
+		RHI = { has_capitulated = no }
+	}
+	abort = {
+		OR = {
+			NOT = { is_in_faction_with = RHI }
+			RHI = { has_capitulated = yes }
+		}
+	}
+
+	ai_strategy = {
+		type = protect
+		id = "RHI"
+		value = 1000
+	}
+}
+
+france_defend_wurttemberg = {
+	enable = {
+		tag = FRA
+		is_in_faction_with = WUR
+		WUR = { has_capitulated = no }
+	}
+	abort = {
+		OR = {
+			NOT = { is_in_faction_with = WUR }
+			WUR = { has_capitulated = yes }
+		}
+	}
+
+	ai_strategy = {
+		type = protect
+		id = "WUR"
+		value = 1000
+	}
+}

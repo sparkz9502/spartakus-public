@@ -1,0 +1,76 @@
+﻿####### Division Templates #######
+division_template = { 
+	name = "Divisione Coloniale" 
+	division_names_group = ITA_COL_01 
+
+	regiments = { 
+		infantry = { x = 0 y = 0 } 
+		infantry = { x = 0 y = 1 } 
+		infantry = { x = 0 y = 2 } 
+		infantry = { x = 1 y = 0 } 
+		infantry = { x = 1 y = 1 } 
+		infantry = { x = 1 y = 2 } 
+	} 
+
+	priority = 0 
+} 
+
+
+####### OOB #######
+units = { 
+
+	division = { # 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} #  "1a Divisione Coloniale 'Eritrea'" 
+		location = 14176
+		division_template = "Divisione Coloniale" 
+		start_equipment_factor = 1
+	}
+	
+	division = { # 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} #  "2a Divisione Coloniale 'Eritrea'" 
+		location = 12766
+		division_template = "Divisione Coloniale"
+		start_equipment_factor = 1 
+	}
+
+	division = { # 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} #  "3a Divisione Coloniale 'Somalia'" 
+		location = 14164
+		division_template = "Divisione Coloniale" 
+		start_equipment_factor = 1
+	}
+	
+	division = { # 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} #  "4a Divisione Coloniale 'Somalia'" 
+		location = 14164
+		division_template = "Divisione Coloniale" 
+		start_equipment_factor = 1 
+	}
+	
+}
+
+####### Starting Production Queue #######
+instant_effect = { 
+	add_equipment_production = { 
+		equipment = { 
+			type = infantry_equipment_0
+			creator = "ITA" 
+		} 
+
+		requested_factories = 1
+		progress = 0.1 
+		efficiency = 50 
+	} 
+} 

@@ -1,0 +1,34 @@
+
+state={
+	id=937
+	name="STATE_937"
+	
+	resources={
+		raremetals=1
+	}
+
+	history={
+		owner = NOR
+		add_core_of = NOR
+		buildings = {
+			infrastructure = 2
+			9296 = {
+				naval_base = 3
+				coastal_bunker = 1
+
+			}
+
+		}
+		victory_points = {
+			9296 2 
+		}
+
+	}
+
+	provinces={
+		3049 3129 9096 9196 9296 11101 11176 11367 
+	}
+	manpower=155000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

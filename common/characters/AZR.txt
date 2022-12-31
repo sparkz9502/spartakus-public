@@ -1,0 +1,19 @@
+characters={
+	AZR_mahammad_amin_rasulzade = {
+        name = "Mahammad Amin Rasulzade"
+        portraits={
+            civilian={
+                large = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MAHAMMAD_AMIN_RASULZADE_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

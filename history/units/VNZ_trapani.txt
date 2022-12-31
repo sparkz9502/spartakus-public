@@ -1,0 +1,29 @@
+﻿units = {
+	division = { #"21a Divisione GL 'Sicilia'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		} 
+		location = 7059
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"22a Divisione GL 'Trapani'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		} 
+		location = 7059
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+	division = { #"23a Divisione GL 'Rivoluzione'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		} 
+		location = 13609
+		division_template = "Divisione Giustizia e Libertà"
+		start_experience_factor = 0
+	}
+}	

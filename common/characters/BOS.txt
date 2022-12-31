@@ -1,0 +1,123 @@
+characters={
+    BOS_mehmed_spaho = {
+        name = "Mehmed Spaho"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BOS/Portrait_Mehmed_Spaho.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MEHMED_SPAHO_DESC"
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+
+    BOS_salih_safvet_basic = {
+        name = "Salih Safvet Bašić"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BOS/Portrait_Bosnia_Salih_Safvet_Basic.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_SALIH_SAFVET_BASIC_DESC"
+            expire = "1965.1.1"
+            ideology = social_liberal_subtype
+            traits = {
+                progressive_spiritual_leader
+            }
+            id=-1
+        }
+    }
+
+    BOS_avdo_humo = {
+        name = "Avdo Humo"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BOS/Portrait_Avdo_Humo.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_AVDO_HUMO_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_AVDO_HUMO_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_AVDO_HUMO_DESC"
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+
+    BOS_vojislav_kecmanovic = {
+        name = "Vojislav Kecmanović"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BOS/Portrait_Bosnia_Vojislav_Kecmanovic.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+
+    BOS_muhamed_hadziefendic = {
+        name = "Muhamed Hadžiefendić"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BOS/Portrait_Illyria_Muhamed_Hadziefendic.tga"
+            }
+            army={
+                large = "gfx/leaders/BOS/Portrait_Illyria_Muhamed_Hadziefendic.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_CURSED_HADZIEFENDIC_DESC"
+            expire = "1965.1.1"
+            ideology = national_corporatist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+        corps_commander={
+            traits = {
+                old_guard
+            }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+}

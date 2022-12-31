@@ -1,0 +1,32 @@
+state={
+	id=1205
+	name="STATE_1205"
+	provinces={
+		11574 9591 
+	}
+	history={
+		owner = CRO
+		victory_points = {
+			11574 3 
+		}
+		buildings = {
+			infrastructure = 1
+			fuel_silo = 1
+		}
+		# 1205 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 9591
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = STJ
+		add_core_of = BOS
+
+	}
+	manpower=97962
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

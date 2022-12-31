@@ -1,0 +1,41 @@
+
+state={
+	id=838
+	name="STATE_838"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		victory_points = {
+			6788 15
+		}
+		victory_points = {
+			6973 3 
+		}
+		victory_points = {
+			3772 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			6973 = {
+				naval_base = 5
+
+			}
+			6788 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		3772 6788 6973 11891 
+	}
+	manpower=1473000
+	buildings_max_level_factor=1.000
+	state_category=expanding_city
+}

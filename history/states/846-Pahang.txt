@@ -1,0 +1,30 @@
+
+state={
+	id=846
+	name="STATE_846"
+	resources={
+		rubber=18
+		iron=7
+	}
+
+	history={
+		owner = MLY
+		add_core_of = MLY
+		add_core_of = PAH
+		victory_points = {
+			7399 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1392 4367 4384 7399 12255 12271 
+	}
+	manpower=186500
+	buildings_max_level_factor=2.000
+	state_category=pastoral
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=1161
+	name="STATE_1161"
+	state_category = small_island
+	provinces={
+		2489 13033 
+	}
+	history={
+		owner = JAP
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			2489 = {
+				naval_base = 6
+
+			}
+		}
+		victory_points = {
+			2489 1 
+		}
+
+	}
+	manpower=17100
+	buildings_max_level_factor=1.000
+}

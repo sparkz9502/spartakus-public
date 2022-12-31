@@ -1,0 +1,31 @@
+
+state={
+	id=1156
+	name="STATE_1156"
+
+	history={
+		owner = ENG
+		add_core_of = ENG
+		#add_core_of = SCT
+		buildings = {
+			infrastructure = 3
+			6300 = {
+				naval_base = 5
+
+			}
+			dockyard = 1
+
+		}
+		victory_points = {
+			6300 1 
+		}
+
+	}
+
+	provinces={
+		159 6300 6385 11306 15364 
+	}
+	manpower=441300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

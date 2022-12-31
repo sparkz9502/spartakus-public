@@ -1,0 +1,29 @@
+###########################
+# Slovenia Focus Tree
+# By Sybil
+###########################
+
+focus_tree = {
+	id = SP_Slovenia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = SLV
+		}
+	}
+	default = no
+	
+	focus = {
+		id = WIP
+		icon = GFX_
+		cost = 0
+		available = {
+		}
+		completion_reward = {
+		}
+		x = 5
+		y = 1
+
+	}
+}

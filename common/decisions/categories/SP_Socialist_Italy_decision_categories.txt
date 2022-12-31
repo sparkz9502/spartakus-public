@@ -1,0 +1,16 @@
+#################################
+### Socialist Italy Decisions ###
+#################################
+
+SRI_inprov_aid = {
+	allowed = { 
+		tag = SRI
+	}
+	visible = {
+		has_completed_focus = SRI_Aid_from_INPROV
+		NOT = {
+			has_global_flag = ITA_civil_war_over
+		}
+	}
+	icon = GFX_decision_category_spr_the_seeds_of_revolution
+}

@@ -1,0 +1,105 @@
+leader_traits = {
+
+    agr_agricultural_revolutionary = {
+		random = no
+		MONTHLY_POPULATION = 0.30
+		consumer_goods_factor = 0.01
+		political_power_gain = -0.01
+	}
+	
+	theo_fervent_ottomanist = {
+		random = no
+		political_power_gain = -0.03
+		stability_factor = 0.03
+		conscription_factor = 0.05
+		industrial_capacity_factory = 0.05
+	}
+	
+	for_western_cooperator = {
+		random = no
+		social_liberal_drift = 0.01
+		liberal_conservative_drift = 0.01
+		drift_defence_factor = 0.05
+	}
+	
+	eco_economic_nationalist = {
+		random = no
+		production_speed_buildings_factor = 0.04
+		consumer_goods_factor = -0.02
+		stability_factor = -0.08
+		national_corporatist_drift = 0.01
+	}
+	
+	hog_persistent_pragmatist = {
+		random = no
+		political_power_factor = 0.12
+		improve_relations_maintain_cost_factor = -0.6
+		opinion_gain_monthly_factor	= 0.12
+		trade_opinion_factor = 0.12
+	}
+	
+	def_pro_armed_neutrality = {
+		random = no
+		conscription = 0.01
+		war_support_factor = -0.1
+	}
+	
+	edu_racist_surgeon = {
+		random = no
+		research_speed_factor = 0.025
+		war_support_factor = -0.04
+		stability_factor = -0.06
+	}
+	
+	mwp_minister_of_greek_affairs = {
+		random = no
+	}
+	
+	cos_hero_of_dardanelles = {
+		random = no
+		war_support_factor = 0.05
+	}
+	
+	cos_tactical_genius = {
+		random = no
+		army_org_factor = 0.1
+		land_reinforce_rate = 0.05
+		army_speed_factor = 0.05
+		army_core_attack_factor = 0.1
+		army_morale_factor = 0.05
+		attrition = -0.05
+	}
+	
+	mwp_poet_diplomat = {
+		random = no
+		political_power_factor = 0.1
+		resistance_target = -0.1
+		stability_factor = 0.05
+	}
+	
+	theo_inspiring_poet = {
+		random = no
+		conscription_factor = 0.05
+		war_support_factor = 0.05
+		bolshevist_drift = 0.01
+		spartacist_drift = 0.01
+	}
+	
+	hog_revolutionary_anatolian = {
+		random = no
+		political_power_gain = 0.1
+		consumer_goods_factor = -0.05
+		research_speed_factor = 0.035
+	}
+	
+	hog_bane_of_landlords = {
+		random = no
+		political_power_gain = -0.15
+		global_building_slots = 0.1
+		production_speed_buildings_factor = 0.05
+	}
+	
+	for_anglophile = {
+		random = no
+	}
+}

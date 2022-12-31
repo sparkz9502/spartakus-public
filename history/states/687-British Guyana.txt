@@ -1,0 +1,31 @@
+
+state={
+	id=687
+	name="STATE_687"
+	resources={
+		bauxite=18.000
+	}
+
+	history={
+		owner = CFA
+		add_core_of = CFA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			4982 = {
+				naval_base = 1
+			}
+			air_base = 1
+		}
+		victory_points = {
+			4982 3 
+		}
+	}
+
+	provinces={
+		4982 13397 
+	}
+	manpower=256400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

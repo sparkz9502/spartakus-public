@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "VNZ_infantry_entity"
+		name = "SRD_infantry_entity"
+	}
+	
+	entity = {
+		clone = "VNZ_infantry_2_entity"
+		name = "SRD_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "VNZ_infantry_3_entity"
+		name = "SRD_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "VNZ_infantry_rider_entity"
+		name = "SRD_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "VNZ_infantry_mg_rider_entity"
+		name = "SRD_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "VNZ_cavalry_entity"
+		name = "SRD_cavalry_entity"
+	}
+
+	entity = {
+		clone = "VNZ_cavalry_2_entity"
+		name = "SRD_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "VNZ_cavalry_rifle_combined_entity"
+		name = "SRD_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "VNZ_cavalry_mg_combined_entity"
+		name = "SRD_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "VNZ_motorized_entity"
+		name = "SRD_motorized_entity"
+	}
+	
+	entity = {
+		clone = "VNZ_mechanized_entity"
+		name = "SRD_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "VNZ_artillery_entity"
+		name = "SRD_artillery_entity"
+	}
+	
+	
+	

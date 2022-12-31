@@ -1,0 +1,22 @@
+state={
+	id=1021
+	name="STATE_1021"
+	provinces={
+		2087 10629 12609 12880 
+	}
+	history={
+		owner = KMC
+		add_core_of = KMC
+		victory_points = {
+			2087 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=480700
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

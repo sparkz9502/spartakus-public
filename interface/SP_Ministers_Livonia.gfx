@@ -1,0 +1,569 @@
+spriteTypes = {
+################################################################################################################################################################################################
+### LIV
+################################################################################################################################################################################################
+
+#Head of Government
+
+spriteType = {
+	name = "GFX_idea_LIV_Paul_Olberg_hog_sde"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Paul_Olberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Didrok_Volganski_hog_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Didrok_Volganski.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Paul_Schiemann_hog_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Paul_Schiemann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Jazeps_Rancans_hog_lco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Jazeps_Rancans.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Reinhold_K_Zarins_hog_lco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Reinhold_K_Zarins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Manfred_von_Vegesack_hog_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Manfred_von_Vegesack.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Georg_von_Manteuffel-Szoege_hog_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Georg_von_Manteuffel-Szoege.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Anatoly_Lieven_hog_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Anatoly_Lieven.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Adolf_Baron_Pilar_Von_Pilchau_hog_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Adolf_Baron_Pilar_Von_Pilchau.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Hermann_von_Keyserling_hog_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Hermann_von_Keyserling.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Andrievs_Niedra_hog_rwp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Andrievs_Niedra.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Ruediger_von_der_Goltz_hog_rwp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Ruediger_von_der_Goltz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Oskars_Dankers_hog_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Oskars_Dankers.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Reinhard_Heydrich_hog_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Reinhard_Heydrich.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Gustavs_Celmins_hog_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Gustavs_Celmins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Antonijs_Springovics_hog_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Antonijs_Springovics.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Eduard_O_Rurke_hog_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Eduard_O_Rurke.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Eduard_von_der_Ropp_hog_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Eduard_von_der_Ropp.tga"
+}
+
+
+#Foreign Minister
+
+spriteType = {
+	name = "GFX_idea_LIV_Alfons_Bertholds_for_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alfons_Bertholds.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Walter_Anderson_for_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Walter_Anderson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Paul_Schiemann_for_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Paul_Schiemann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Alexander_Riesenkampff_for_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alexander_Riesenkampff.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Viktor_von_Marnitz_for_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Viktor_von_Marnitz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Alfred_Rosenberg_for_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alfred_Rosenberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Ivar_Lissner_for_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Ivar_Lissner.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Adolfs_Tarbunass_for_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Adolfs_Tarbunass.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Antonijs_Urbss_for_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Antonijs_Urbss.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_LIV_Genrich_Eiche_eco_rev"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Genrich_Eiche.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Axel_de_Vries_eco_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Axel_de_Vries.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Erhard_Arnold_Julius_Dehio_eco_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Erhard_Arnold_Julius_Dehio.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Korli_Stalte_eco_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Korli_Stalte.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Karlis_Barons_Sr_eco_lco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Karlis_Barons_Sr.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Leo_Sepp_eco_lco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Leo_Sepp.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Elisabeth_Schiemann_eco_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Elisabeth_Schiemann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Friedrich_Zander_eco_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Friedrich_Zander.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Peter_von_Weymarn_eco_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Peter_von_Weymarn.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Gerhard_Krull_eco_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Gerhard_Krull.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Ernst-Johann_Biron_eco_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Ernst-Johann_Biron.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Oskar_Anderson_eco_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Oskar_Anderson.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Alexander_von_Salza_eco_rwp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alexander_von_Salza.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Alfred_Vendt_eco_rwp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alfred_Vendt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Heinrich_Freiherr_von_Stackelberg_eco_rwp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Heinrich_Freiherr_von_Stackelberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Erhard_Kroeger_eco_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Erhard_Kroeger.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Max_Erwin_von_Scheubner-Richter_eco_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Max_Erwin_von_Scheubner-Richter.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Eduard_Profittlich_eco_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Eduard_Profittlich.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Kazimirs_Dulbinskis_eco_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Kazimirs_Dulbinskis.tga"
+}
+
+
+#Security Minister
+
+spriteType = {
+	name = "GFX_idea_LIV_Eduard_von_Stackelberg_sec_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Eduard_von_Stackelberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Edvins_Magnuss_sec_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Edvins_Magnuss.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Heinrich_Eduard_Karl_von_Stryk_sec_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Heinrich_Eduard_Karl_von_Stryk.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Petor_Damberg_sec_lco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Petor_Damberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Carl_Immanuel_Hesse_sec_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Carl_Immanuel_Hesse.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Felix_Steiner_sec_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Felix_Steiner.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Kurt_Georg_Andersen_sec_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Kurt_Georg_Andersen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Karl_Sigismund_Litzmann_sec_rwp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Karl_Sigismund_Litzmann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Reinhard_Heydrich_sec_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Reinhard_Heydrich.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Adrian_von_Folkersam_sec_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Adrian_von_Folkersam.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Friedrich_Buchardt_sec_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Friedrich_Buchardt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Paul_Rohrbach_sec_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Paul_Rohrbach.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Juozapas_Skvireckas_sec_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Juozapas_Skvireckas.tga"
+}
+
+
+#Intel Minister
+
+spriteType = {
+	name = "GFX_idea_LIV_Augusts_Skadins_def_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Augusts_Skadins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Hellmuth_Kneser_def_sli"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Hellmuth_Kneser.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Reinhold_K_Zarins_def_lco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Reinhold_K_Zarins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Fricis_Celmins_def_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Fricis_Celmins.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Balthasar_Odert_von_Poll_def_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Balthasar_Odert_von_Poll.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Lotars_Selers_def_sco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Lotars_Selers.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Walter_Zapp_def_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Walter_Zapp.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Bernd_Freytag_von_Loringhoven_def_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Bernd_Freytag_von_Loringhoven.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Wessel_von_Loringhoven_def_aco"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Wessel_von_Loringhoven.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Erich_Koch_def_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Erich_Koch.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Hans_Heinrich_Lohse_def_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Hans_Heinrich_Lohse.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Oskar_Angelus_def_nsy"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Oskar_Angelus.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Boleslavs_Sloskans_def_ncp"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Boleslavs_Sloskans.tga"
+}
+
+
+#Chief of Staff
+
+spriteType = {
+	name = "GFX_idea_LIV_Harald_Schultz_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Harald_Schultz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Karlis_Barons_Jr_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Karlis_Barons_Jr.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Heinz_Guderian_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Heinz_Guderian.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Wilfried_Strik-Strikfeldt_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Wilfried_Strik-Strikfeldt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Kurt_Georg_Andersen_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Kurt_Georg_Andersen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Viktor_von_Marnitz_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Viktor_von_Marnitz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Heinrich_Baron_von_Behr_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Heinrich_Baron_von_Behr.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Kurt_Jahn_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Kurt_Jahn.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Ruediger_von_der_Goltz_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Ruediger_von_der_Goltz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Robert_Ritter_von_Doser_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Robert_Ritter_von_Doser.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Wilhelm_Kube_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Wilhelm_Kube.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Peteris_Strods_cos"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Peteris_Strods.tga"
+}
+
+
+#Chief of Army
+
+spriteType = {
+	name = "GFX_idea_LIV_Paul_Bassen-Spiller_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Paul_Bassen-Spiller.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Felix_Steiner_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Felix_Steiner.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Bernd_Freytag_von_Loringhoven_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Bernd_Freytag_von_Loringhoven.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Harold_Alexander_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Harold_Alexander.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Karl_Dormagen_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Karl_Dormagen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Uli_Kinkamegs_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Uli_Kinkamegs.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Wessel_von_Loringhoven_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Wessel_von_Loringhoven.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Hans_Henrici_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Hans_Henrici.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Ruediger_von_der_Goltz_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Ruediger_von_der_Goltz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Robert_Ritter_von_Doser_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Robert_Ritter_von_Doser.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Adrian_von_Folkersam_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Adrian_von_Folkersam.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Viktors_Arajs_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Viktors_Arajs.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Julijans_Vaivods_carm"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Julijans_Vaivods.tga"
+}
+
+
+#Chief of Navy
+
+spriteType = {
+	name = "GFX_idea_LIV_Andrejs_Bertholds_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Andrejs_Bertholds.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Archibald_von_Keyserling_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Archibald_von_Keyserling.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Wolfgang_Luth_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Wolfgang_Luth.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Alexander_von_Salza_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alexander_von_Salza.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Alfred_Vendt_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Alfred_Vendt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Hans-Diedrich_von_Tiesenhausen_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Hans-Diedrich_von_Tiesenhausen.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Konstantins_Cakste_cnav"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Konstantins_Cakste.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_LIV_Leo_Sepp_cair"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Leo_Sepp.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Rudolfs_Bangerskis_cair"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Rudolfs_Bangerskis.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Bruno_Loerzer_cair"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Bruno_Loerzer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_LIV_Erich_Alt_cair"
+	texturefile = "gfx/interface/ministers/LIV/LIV_Erich_Alt.tga"
+}
+}

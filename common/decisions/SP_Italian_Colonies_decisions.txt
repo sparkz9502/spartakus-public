@@ -1,0 +1,345 @@
+########################
+### Italian Colonies ###
+########################
+
+INA_IEA_Industrialization_decisions = {
+
+	INA_IEA_Construct_Civilian_Infrastructure = { 
+		icon = GFX_decision_ger_mefo_bills
+		days_remove = 60
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 10
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_Military_Infrastructure = { 
+		icon = GFX_decision_ger_mefo_bills
+		days_remove = 60
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 10
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_Homes_for_Settlers = { 
+		icon = GFX_decision_ger_mefo_bills
+		days_remove = 60
+        available = {
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		visible = {
+			has_completed_focus = INA_IEA_Build_Homes_for_Colonists
+		}
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 10
+		remove_effect = {
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+				add_manpower = 5000
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+
+	INA_IEA_Construct_a_Textile_Factory = { 
+		icon = GFX_decision_generic_construction
+		days_remove = 180
+        available = {
+			has_country_flag = INA_IEA_Civilian_Infrastructure_Done
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 20
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_a_Motor_Factory = { 
+		icon = GFX_decision_generic_construction
+		days_remove = 180
+        available = {
+			has_country_flag = INA_IEA_Civilian_Infrastructure_Done
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 20
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_a_Cannery = { 
+		icon = GFX_decision_generic_construction
+		days_remove = 180
+        available = {
+			has_country_flag = INA_IEA_Civilian_Infrastructure_Done
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 20
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_a_Cement_Factory = { 
+		icon = GFX_decision_generic_construction
+		days_remove = 180
+        available = {
+			has_country_flag = INA_IEA_Civilian_Infrastructure_Done
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 20
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_an_Armaments_Factory = { 
+		icon = GFX_decision_generic_industry
+		days_remove = 180
+        available = {
+			has_country_flag = INA_IEA_Military_Infrastructure_Done
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 30
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+	INA_IEA_Construct_an_Explosives_Factory = { 
+		icon = GFX_decision_generic_industry
+		days_remove = 180
+        available = {
+			has_country_flag = INA_IEA_Military_Infrastructure_Done
+			custom_trigger_tooltip = {
+				tooltip = INA_IEA_Construction_in_Progress_tt	
+				NOT = {
+					has_country_flag = INA_IEA_Construction_in_Progress
+				}
+			}
+        }
+		fire_only_once = yes
+		complete_effect = {
+			set_country_flag = INA_IEA_Construction_in_Progress
+		}
+        cost = 30
+		remove_effect = {
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+			clr_country_flag = INA_IEA_Construction_in_Progress
+		}
+		modifier = {
+			production_speed_buildings_factor = -0.25
+			conscription_factor = -0.05
+		}
+	}
+	
+}

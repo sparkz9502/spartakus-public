@@ -1,0 +1,34 @@
+﻿l_english:
+###Parties###
+SML_bolshevist_party:0 "-"
+SML_bolshevist_party_long:0 ""
+SML_spartacist_party:0 "-"
+SML_spartacist_party_long:0 ""
+SML_reformist_socialist_party:0 "-"
+SML_reformist_socialist_party_long:0 ""
+SML_revolutionary_socialist_party:0 "-"
+SML_revolutionary_socialist_party_long:0 ""
+SML_social_democrat_party:0 "-"
+SML_social_democrat_party_long:0 ""
+SML_social_liberal_party:0 "-"
+SML_social_liberal_party_long:0 ""
+SML_liberal_conservative_party:0 "-"
+SML_liberal_conservative_party_long:0 ""
+SML_social_conservative_party:0 "-"
+SML_social_conservative_party_long:0 ""
+SML_authoritarian_conservative_party:0 "Colonial Office"
+SML_authoritarian_conservative_party_long:0 "British Colonial Office"
+SML_right_wing_populist_party:0 "-"
+SML_right_wing_populist_party_long:0 ""
+SML_national_syndicalist_party:0 "-"
+SML_national_syndicalist_party_long:0 ""
+SML_national_corporatist_party:0 "-"
+SML_national_corporatist_party_long:0 ""
+
+###Focus###
+
+###Events###
+
+###Ideas###
+SML_british_protection:0 "British Protection"
+SML_legacy_of_the_dervish:0 "Legacy of the Dervish"

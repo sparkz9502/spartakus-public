@@ -1,0 +1,30 @@
+
+state={
+	id=398
+	name="STATE_398"
+	resources={
+		oil=12.000
+		raremetals=52
+		copper=11
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			7375 5 
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		123 189 206 278 390 1307 1336 1365 1380 1754 3000 3041 3127 4314 4326 4372 4802 4874 6025 6202 7318 7346 7375 7898 9283 10216 10286 10551 11025 11111 11195 11228 11307 11352 12175 12187 12216 12527 12587 12626 
+	}
+	manpower=1831000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

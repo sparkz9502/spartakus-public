@@ -1,0 +1,47 @@
+﻿l_english:
+
+# Events
+
+
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+
+# Focuses
+
+
+# Parties
+ARM_bolshevist_party:0 "Bolsheviks"
+ARM_bolshevist_party_long:0 "Communist Party of Armenia (Bolsheviks)"
+ARM_spartacist_party:0 "Bolsheviks"
+ARM_spartacist_party_long:0 "Communist Party of Armenia (Bolsheviks)"
+ARM_revolutionary_socialist_party:0 "Hunchaks"
+ARM_revolutionary_socialist_party_long:0 "Social Democrat Party (Hunchaks)"
+ARM_reformist_socialist_party:0 "Esers"
+ARM_reformist_socialist_party_long:0 "Social-Revolutionary Party (Esers)"
+ARM_social_democrat_party:0 "Dashnaks"
+ARM_social_democrat_party_long:0 "Armenian Revolutionary Federation (Dashnaks)"
+ARM_social_liberal_party:0 "Zhoghovrdakans"
+ARM_social_liberal_party_long:0 "Armenian Populist Party (Zhoghovrdakans)"
+ARM_liberal_conservative_party:0 "Ramgavars"
+ARM_liberal_conservative_party_long:0 "Armenian Democratic Liberal Party (Ramgavars)"
+ARM_social_conservative_party:0 "-"
+ARM_social_conservative_party_long:0 "-"
+ARM_authoritarian_conservative_party:0 "-"
+ARM_authoritarian_conservative_party_long:0 "-"
+ARM_right_wing_populist_party:0 "-"
+ARM_right_wing_populist_party_long:0 "-"
+ARM_national_syndicalist_party:0 "Dashnaks"
+ARM_national_syndicalist_party_long:0 "Armenian Revolutionary Federation (Dashnaks)"
+ARM_national_corporatist_party:0 "-"
+ARM_national_corporatist_party_long:0 "-"
+
+# Opinion Modifiers
+
+
+# Leader descriptions

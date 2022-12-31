@@ -1,0 +1,26 @@
+
+state={
+	id=479
+	name="STATE_479"
+
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			fuel_silo = 1
+		}
+		add_core_of = MEX
+		victory_points = {
+			4956 1 
+		}
+
+	}
+
+	provinces={
+		2060 2083 5015 5021 10769 12721 12835 13088 13472 13476 
+	}
+	manpower=761500
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

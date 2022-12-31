@@ -1,0 +1,30 @@
+
+state={
+	id=1237
+	name="STATE_1237"
+
+	history={
+		owner = GLN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		add_core_of = GLN
+		add_claim_by = PER
+		victory_points = {
+			4637 1 
+		}
+		victory_points = {
+			4580 1 
+		}
+
+	}
+
+	provinces={
+		4580 4637 15125 
+	}
+	manpower=361400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

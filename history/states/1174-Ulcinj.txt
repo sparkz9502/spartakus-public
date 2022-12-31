@@ -1,0 +1,23 @@
+
+state={
+	id=1174
+	name="STATE_1174"
+
+	history={
+		owner = MNT
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_claim_by = SER
+		add_core_of = MNT
+
+	}
+
+	provinces={
+		13654 14549 
+	}
+	manpower=12520
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

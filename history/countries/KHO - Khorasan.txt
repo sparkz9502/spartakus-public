@@ -1,0 +1,74 @@
+﻿capital = 416
+
+set_oob = "KHO"
+
+set_cosmetic_tag = KHO_PER
+
+add_ideas = {
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_unind
+	mobilization_1
+	
+	PER_Republican_Tendencies
+	PER_The_Persian_Gendarmerie
+	PER_A_Haven_for_the_Arts
+	
+	KHO_Mohammad_Taqi_Pessian_hog_sli
+	KHO_Mohammad_Khorasani_mwp_sli
+	KHO_Mirza_Abdolhossein_Sheibani_for_sli
+	KHO_Leon_Dubois_eco_sli
+	KHO_Noureddin_Alamouti_sec_sde
+	KHO_Mohammad-Taqi_Bahar_edu_sli
+	KHO_Leon_Dubois_agr_sli
+	KHO_Iraj_Mirza_tra_sli
+	KHO_Mohammad_Taqi_Pessian_def_sli
+	KHO_Ismail_Khan_Bahador_cos
+	KHO_Mahmoud_Khan_Nowzari_carm
+	KHO_Mohammad_Taqi_Pessian_cair
+}
+
+set_technology = {
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.4
+set_convoys = 5
+
+set_politics = {	
+	ruling_party = social_liberal
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 7
+    spartacist = 0
+    revolutionary_socialist = 1
+    reformist_socialist = 14
+    social_democrat = 5
+    social_liberal = 41
+    liberal_conservative = 15
+    social_conservative = 11
+    authoritarian_conservative = 4
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 2
+}
+
+create_country_leader = {
+	name = "Mohammad Taqi Pessian"
+	desc = "POLITICS_MOHAMMAD_TAQI_PESSIAN_DESC"
+	picture = "Mohammad_Taqi_Pessian.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+	}
+}

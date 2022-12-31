@@ -1,0 +1,27 @@
+
+state={
+	id=1268
+	name="STATE_1268"
+	provinces={
+		311 6363 9364 15200 
+	}
+	resources={
+		coal=2
+	}
+	history={
+		owner = ENG
+		#add_core_of = WAL
+		victory_points = {
+			9364 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+		add_core_of = ENG
+
+	}
+	manpower=552000
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

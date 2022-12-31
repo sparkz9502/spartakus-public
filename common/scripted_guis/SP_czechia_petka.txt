@@ -1,0 +1,19 @@
+scripted_gui = {
+	CZE_petka_decision_ui = {
+		context_type = decision_category
+		window_name = "CZE_petka_decision_ui_window"
+		visible = { 
+			tag = CZE
+			OR = {
+				has_government = social_democrat
+				has_government = social_liberal
+				has_government = liberal_conservative
+				has_government = social_conservative
+				has_government = authoritarian_conservative
+				has_government = right_wing_populist
+			}
+			NOT = { has_country_flag = petka_dissolved }
+		}
+	}
+}
+

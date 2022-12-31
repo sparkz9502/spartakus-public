@@ -1,0 +1,37 @@
+characters={
+    CRB_li_lisan = {
+        name = "Li Lisan"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CRB/Portrait_Li_Lisan.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_LI_LISAN_DESC"
+            expire = "1965.1.1"
+            ideology = centrist_leninism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CRB_peng_dehuai = {
+        name = "Peng Dehuai"
+        portraits={
+            army={
+                large = "gfx/leaders/CRB/Portrait_Peng_Dehuai.tga"
+            }
+        }
+        field_marshal={
+            traits = {  offensive_doctrine harsh_leader career_officer }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+}

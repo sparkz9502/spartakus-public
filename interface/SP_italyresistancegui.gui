@@ -1,0 +1,520 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "italy_resistance_gui_open"
+		position = { x = 0 y = 0 }
+		
+		buttonType = {
+			name = "resistance_gui_open_button"
+			position = { x = 240 y = 17 }
+			spriteType = "GFX_laws_icon"
+			font = "hoi_16mbs"
+			text = "OPEN_RESISTANCE_GUI"
+			format = center
+			pdx_tooltip = "OPEN_RESISTANCE_GUI_TT"
+		}
+	}
+
+	containerWindowType = {
+		name = "italy_resistance_gui"
+		position = { x = 545 y = 80 }
+		size = { width = 1197 height = 698 }
+		moveable = yes
+		click_to_front = yes
+		
+		background = {
+			name = "Background"
+			spriteType = "GFX_italyresistancegui"
+		}
+		
+		buttonType = {
+			name = "resistance_gui_close_button"
+			position = { x = 1155 y = 5 }
+			spriteType = "GFX_closebutton"
+			shortcut = "ESCAPE"
+		}
+		
+		instantTextboxType = {
+			name = "gramsci"
+			position = { x = -60 y = 210 }
+			font = "hoi_18mbs"
+			text = "Antonio Gramsci"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "rosselli"
+			position = { x = -60 y = 431 }
+			font = "hoi_18mbs"
+			text = "Carlo Rosselli"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "mussolini"
+			position = { x = -60 y = 652 }
+			font = "hoi_18mbs"
+			text = "Benito Mussolini"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "crlname1"
+			position = { x = 324 y = 21 }
+			font = "hoi_24header"
+			text = "Revolutionary Liberation"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "crlname2"
+			position = { x = 324 y = 38 }
+			font = "hoi_24header"
+			text = "Committee"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "crldesc"
+			position = { x = 344 y = 64 }
+			font = "hoi_16mbs"
+			text = "CRL_DESC"
+			maxWidth = 266
+			maxHeight = 100
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "glname"
+			position = { x = 322 y = 250 }
+			font = "hoi_24header"
+			text = "Justice and Freedom"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "gldesc"
+			position = { x = 344 y = 285 }
+			font = "hoi_16mbs"
+			text = "GL_DESC"
+			maxWidth = 266
+			maxHeight = 100
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "fashname"
+			position = { x = 324 y = 472 }
+			font = "hoi_24header"
+			text = "National Fascist Party"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "fashdesc"
+			position = { x = 344 y = 506 }
+			font = "hoi_16mbs"
+			text = "FASH_DESC"
+			maxWidth = 266
+			maxHeight = 100
+			format = left
+		}
+		
+		instantTextboxType = {
+			name = "activity"
+			position = { x = 690 y = 372 }
+			font = "hoi_18mbs"
+			text = "Resistance Activity"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "severe"
+			position = { x = 710 y = 400 }
+			font = "hoi_30header"
+			text = "High"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "notable"
+			position = { x = 712 y = 448 }
+			font = "hoi_30header"
+			text = "Medium"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		instantTextboxType = {
+			name = "low"
+			position = { x = 710 y = 496 }
+			font = "hoi_30header"
+			text = "Low"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+		}
+		
+		iconType ={
+			name ="abruzzimolise_green"
+			spriteType = "GFX_abruzzimolise_green"
+			position = { x= 928 y = 285 }
+			
+			pdx_tooltip = "ABRUZZIMOLISE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="abruzzimolise_yellow"
+			spriteType = "GFX_abruzzimolise_yellow"
+			position = { x= 928 y = 285 }
+			
+			pdx_tooltip = "ABRUZZIMOLISE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="abruzzimolise_red"
+			spriteType = "GFX_abruzzimolise_red"
+			position = { x= 928 y = 285 }
+			
+			pdx_tooltip = "ABRUZZIMOLISE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="campania_green"
+			spriteType = "GFX_campania_green"
+			position = { x= 933 y = 350 }
+			
+			pdx_tooltip = "CAMPANIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="lazioumbria_green"
+			spriteType = "GFX_lazioumbria_green"
+			position = { x= 857 y = 231 }
+			
+			pdx_tooltip = "LAZIOUMBRIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="lazioumbria_yellow"
+			spriteType = "GFX_lazioumbria_yellow"
+			position = { x= 857 y = 231 }
+			
+			pdx_tooltip = "LAZIOUMBRIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="lazioumbria_red"
+			spriteType = "GFX_lazioumbria_red"
+			position = { x= 857 y = 231 }
+			
+			pdx_tooltip = "LAZIOUMBRIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="lombardia_green"
+			spriteType = "GFX_lombardia_green"
+			position = { x= 743 y = 30 }
+			
+			pdx_tooltip = "LOMBARDIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="lombardia_yellow"
+			spriteType = "GFX_lombardia_yellow"
+			position = { x= 743 y = 30 }
+			
+			pdx_tooltip = "LOMBARDIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="lombardia_red"
+			spriteType = "GFX_lombardia_red"
+			position = { x= 743 y = 30 }
+			
+			pdx_tooltip = "LOMBARDIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="marche_green"
+			spriteType = "GFX_marche_green"
+			position = { x= 908 y = 219 }
+			
+			pdx_tooltip = "MARCHE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="marche_yellow"
+			spriteType = "GFX_marche_yellow"
+			position = { x= 908 y = 219 }
+			
+			pdx_tooltip = "MARCHE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="marche_red"
+			spriteType = "GFX_marche_red"
+			position = { x= 908 y = 219 }
+			
+			pdx_tooltip = "MARCHE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="piemonte_green"
+			spriteType = "GFX_piemonte_green"
+			position = { x= 645 y = 23 }
+			
+			pdx_tooltip = "PIEMONTE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="piemonte_yellow"
+			spriteType = "GFX_piemonte_yellow"
+			position = { x= 645 y = 23 }
+			
+			pdx_tooltip = "PIEMONTE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="piemonte_red"
+			spriteType = "GFX_piemonte_red"
+			position = { x= 645 y = 23 }
+			
+			pdx_tooltip = "PIEMONTE_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="liguria_green"
+			spriteType = "GFX_liguria_green"
+			position = { x= 678 y = 136 }
+			
+			pdx_tooltip = "LIGURIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="liguria_yellow"
+			spriteType = "GFX_liguria_yellow"
+			position = { x= 678 y = 136 }
+			
+			pdx_tooltip = "LIGURIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="liguria_red"
+			spriteType = "GFX_liguria_red"
+			position = { x= 678 y = 136 }
+			
+			pdx_tooltip = "LIGURIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="puglia_green"
+			spriteType = "GFX_puglia_green"
+			position = { x= 1019 y = 360 }
+			
+			pdx_tooltip = "PUGLIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="calabriabasilicata_green"
+			spriteType = "GFX_calabriabasilicata_green"
+			position = { x= 1017 y = 413 }
+			
+			pdx_tooltip = "CALABRIABASILICATA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="sardegna_green"
+			spriteType = "GFX_sardegna_green"
+			position = { x= 663 y = 341 }
+			
+			pdx_tooltip = "SARDEGNA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="sardegna_yellow"
+			spriteType = "GFX_sardegna_yellow"
+			position = { x= 663 y = 341 }
+			
+			pdx_tooltip = "SARDEGNA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="sardegna_red"
+			spriteType = "GFX_sardegna_red"
+			position = { x= 663 y = 341 }
+			
+			pdx_tooltip = "SARDEGNA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="sicilia_green"
+			spriteType = "GFX_sicilia_green"
+			position = { x= 851 y = 566 }
+			
+			pdx_tooltip = "SICILIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="sicilia_yellow"
+			spriteType = "GFX_sicilia_yellow"
+			position = { x= 851 y = 566 }
+			
+			pdx_tooltip = "SICILIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="sicilia_red"
+			spriteType = "GFX_sicilia_red"
+			position = { x= 851 y = 566 }
+			
+			pdx_tooltip = "SICILIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="toscana_green"
+			spriteType = "GFX_toscana_green"
+			position = { x= 787 y = 162 }
+			
+			pdx_tooltip = "TOSCANA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="toscana_yellow"
+			spriteType = "GFX_toscana_yellow"
+			position = { x= 787 y = 162 }
+			
+			pdx_tooltip = "TOSCANA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="toscana_red"
+			spriteType = "GFX_toscana_red"
+			position = { x= 787 y = 162 }
+			
+			pdx_tooltip = "TOSCANA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="emiliaromagna_green"
+			spriteType = "GFX_emiliaromagna_green"
+			position = { x= 768 y = 117 }
+			
+			pdx_tooltip = "EMILIAROMAGNA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="emiliaromagna_yellow"
+			spriteType = "GFX_emiliaromagna_yellow"
+			position = { x= 768 y = 117 }
+			
+			pdx_tooltip = "EMILIAROMAGNA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="emiliaromagna_red"
+			spriteType = "GFX_emiliaromagna_red"
+			position = { x= 768 y = 117 }
+			
+			pdx_tooltip = "EMILIAROMAGNA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneto_green"
+			spriteType = "GFX_veneto_green"
+			position = { x= 849 y = 51 }
+			
+			pdx_tooltip = "VENETO_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneto_yellow"
+			spriteType = "GFX_veneto_yellow"
+			position = { x= 849 y = 51 }
+			
+			pdx_tooltip = "VENETO_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneto_red"
+			spriteType = "GFX_veneto_red"
+			position = { x= 849 y = 51 }
+			
+			pdx_tooltip = "VENETO_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziagiulia_green"
+			spriteType = "GFX_veneziagiulia_green"
+			position = { x= 984 y = 80 }
+			
+			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziagiulia_yellow"
+			spriteType = "GFX_veneziagiulia_yellow"
+			position = { x= 984 y = 80 }
+			
+			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziagiulia_red"
+			spriteType = "GFX_veneziagiulia_red"
+			position = { x= 984 y = 80 }
+			
+			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziatridentina_green"
+			spriteType = "GFX_veneziatridentina_green"
+			position = { x= 848 y = 20 }
+			
+			pdx_tooltip = "VENEZIATRIDENTINA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziatridentina_yellow"
+			spriteType = "GFX_veneziatridentina_yellow"
+			position = { x= 848 y = 20 }
+			
+			pdx_tooltip = "VENEZIATRIDENTINA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziatridentina_red"
+			spriteType = "GFX_veneziatridentina_red"
+			position = { x= 848 y = 20 }
+			
+			pdx_tooltip = "VENEZIATRIDENTINA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="italyresistancemap"
+			spriteType = "GFX_italyresistancemap"
+			position = { x= 640 y = 16 }
+			alwaystransparent = yes
+		}
+	}
+}

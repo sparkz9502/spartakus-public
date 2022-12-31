@@ -1,0 +1,27 @@
+
+state={
+	id=1358
+	name="STATE_1358"
+	resources={
+		iron=3.000
+		raremetals=14.000
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = GRE
+
+	}
+
+	provinces={
+		976 1109 1205 7127 11895 12001 14371 14374 14380 
+	}
+	manpower=660800
+	buildings_max_level_factor=1.000
+	state_category=town
+}

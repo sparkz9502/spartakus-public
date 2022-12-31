@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+BRA_bolshevist_party:0 "PCdB"
+BRA_bolshevist_party_long:0 "Communist Party of Brazil (Partido Comunista do Brasil)"
+BRA_spartacist_party:0 "PCdB"
+BRA_spartacist_party_long:0 "Communist Party of Brazil (Partido Comunista do Brasil)"
+BRA_revolutionary_socialist_party:0 "UGT"
+BRA_revolutionary_socialist_party_long:0 "General Workers' Union (União Geral dos Trabalhadores)"
+BRA_reformist_socialist_party:0 "PSB"
+BRA_reformist_socialist_party_long:0 "Brazilian Socialist Party (Partido Socialista Brasileiro)"
+BRA_social_democrat_party:0 "PSB"
+BRA_social_democrat_party_long:0 "Brazilian Socialist Party (Partido Socialista Brasileiro)"
+BRA_social_liberal_party:0 "PP"
+BRA_social_liberal_party_long:0 "Progressive Party (Partido Progressista)"
+BRA_liberal_conservative_party:0 "AL"
+BRA_liberal_conservative_party_long:0 "Liberal Alliance (Aliança Liberal)"
+BRA_social_conservative_party:0 "PR"
+BRA_social_conservative_party_long:0 "Republican Party (Partido Republicano)"
+BRA_authoritarian_conservative_party:0 "-" #Estado Novo later
+BRA_authoritarian_conservative_party_long:0 "-"
+BRA_right_wing_populist_party:0 "FAB"
+BRA_right_wing_populist_party_long:0 "Brazilian Armed Forces (Forças Armadas Brasileiras)"
+BRA_national_syndicalist_party:0 "-" #Integralists after 1933
+BRA_national_syndicalist_party_long:0 "-"
+BRA_national_corporatist_party:0 "-" #Integralists after 1933
+BRA_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

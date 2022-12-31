@@ -1,0 +1,55 @@
+GER_agricultural_output_eval = {
+	clamp_variable = {
+		var = GER_agricultural_output_var
+		min = -100
+		max = 100
+	}
+	
+	set_temp_variable = { GER_agricultural_output_var_temp = GER_agricultural_output_var }
+	divide_temp_variable = { GER_agricultural_output_var_temp = 2000 }
+	set_variable = { GER_agricultural_output_var_sta = GER_agricultural_output_var_temp }
+	
+	set_temp_variable = { GER_agricultural_output_var_temp = GER_agricultural_output_var }
+	divide_temp_variable = { GER_agricultural_output_var_temp = 1000 }
+	set_variable = { GER_agricultural_output_var_fac = GER_agricultural_output_var_temp }
+	
+	set_temp_variable = { GER_agricultural_output_var_temp = GER_agricultural_output_var }
+	divide_temp_variable = { GER_agricultural_output_var_temp = 2000 }
+	set_variable = { GER_agricultural_output_var_pop = GER_agricultural_output_var_temp }
+}
+
+GER_clamp_bavaria_stability = {
+	clamp_variable = {
+		var = GER_bavaria_stability
+		min = 0
+		max = 100
+	}
+}
+
+GER_bavaria_add_stability_5 = {
+	custom_effect_tooltip = GER_bavaria_add_stability_5_tt
+	add_to_variable = { GER_bavaria_stability = 5 }
+	GER_clamp_bavaria_stability = yes
+}
+
+GER_bavaria_add_stability_10 = {
+	custom_effect_tooltip = GER_bavaria_add_stability_10_tt
+	add_to_variable = { GER_bavaria_stability = 10 }
+	GER_clamp_bavaria_stability = yes
+}
+
+GER_industry_points_add = {
+	custom_effect_tooltip = GER_industry_points_add_tt
+	add_to_variable = { GER_industry_points_var = 1 }
+	add_to_variable = { germany_industry_gui_update = 1 }
+}
+
+GER_industry_points_remove_1 = {
+	subtract_from_variable = { GER_industry_points_var = 1 }
+	add_to_variable = { germany_industry_gui_update = 1 }
+}
+
+GER_increase_military_readiness = {
+	custom_effect_tooltip = GER_increase_military_readiness_tt
+	#WIP
+}

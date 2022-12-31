@@ -1,0 +1,35 @@
+
+state={
+	id=671
+	name="STATE_671"
+
+	history={
+		owner = VNA
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = VNA
+		victory_points = {
+			12319 1 
+		}
+		INC = {
+			set_province_controller = 4529
+			set_province_controller = 10075
+			set_province_controller = 12008
+			set_province_controller = 12075
+			set_province_controller = 10103
+			set_province_controller = 7280
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4529 10075 10103 12008 12075 12319 
+	}
+	manpower=623400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

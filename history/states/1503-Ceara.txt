@@ -1,0 +1,26 @@
+
+state={
+	id=1503
+	name="STATE_1503"
+	
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+			5107 = {
+				naval_base = 3
+			}
+		}
+		add_core_of = BRA
+		victory_points = {
+			5107 3 
+		}
+	}
+	
+	provinces={
+		2132 2164 2178 5107 8179 13337 
+	}
+	manpower=2017100
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

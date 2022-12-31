@@ -1,0 +1,671 @@
+###########################
+# Italian Colonies Focus Tree
+# By sparkz
+###########################
+
+focus_tree = {
+	id = INA_IEA_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			OR = {
+				tag = INA
+				tag = IEA
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Recovery
+		available = {
+			has_country_flag = INA_IEA_Great_Depression_flag
+		}
+		bypass = {
+			has_country_flag = INA_IEA_Great_Depression_flag
+		}
+		icon = GFX_goal_bankruptcy
+		x = 3
+		y = 0
+		cost = 0
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			custom_effect_tooltip = INA_IEA_Great_Depression_tt
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Public_Works
+		icon = GFX_goal_economic_control
+		x = -2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Recovery }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 10
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Construct_Railways
+		icon = GFX_goal_NFA_Transsaharian_Railroad
+		x = -3
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Public_Works }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_stability = 0.025
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_state = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Invest_in_Roads
+		icon = GFX_Expand_the_Metros
+		x = -1
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Public_Works }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_stability = 0.025
+			random_owned_state = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = infrastructure
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Build_Hospitals
+		icon = GFX_Compassionaite_Politics
+		x = -2
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Invest_in_Roads }
+		prerequisite = { focus = INA_IEA_Construct_Railways }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = 0.05
+			add_political_power = 25
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Build_Schools_for_Settlers
+		icon = GFX_Research_Councils
+		x = -3
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Build_Hospitals }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_manpower = 1000
+			add_stability = 0.05
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Expand_Ports
+		icon = GFX_Naval_Supplies
+		x = -1
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Build_Hospitals }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_political_power = 10
+			IF = {
+				limit = {
+					tag = INA
+				}
+				448 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 1149
+						instant_build = yes
+					}
+				}
+			}
+			
+			IF = {
+				limit = {
+					tag = IEA
+				}
+				550 = {
+					add_building_construction = {
+						type = naval_base
+						level = 3
+						province = 12766
+						instant_build = yes
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Modernize_the_Airports
+		icon = GFX_Expand_Airfields
+		x = -2
+		y = 5
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Expand_Ports }
+		prerequisite = { focus = INA_IEA_Build_Schools_for_Settlers }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_war_support = 0.025
+			random_owned_state = {
+				add_building_construction = {
+					type = air_base
+					level = 3
+					instant_build = yes
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Industrial_Development
+		icon = GFX_Industrial_Progress
+		x = 2
+		y = 1
+		cost = 5
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Recovery }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_stability = 0.05
+			add_political_power = 10
+			custom_effect_tooltip = INA_IEA_Industrial_Development_tt
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Attract_Investors
+		icon = GFX_Business_Bills
+		x = 3
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Industrial_Development }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			country_event = {
+				id = itacolfoc.1
+				days = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Address_Agriculture
+		icon = GFX_goal_agriculture
+		x = 1
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Industrial_Development }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			country_event = {
+				id = itacolfoc.2
+				days = 1
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_New_Factories
+		icon = GFX_goal_factory_complex
+		x = 2
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Address_Agriculture }
+		prerequisite = { focus = INA_IEA_Attract_Investors }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_political_power = 25
+			unlock_decision_category_tooltip = INA_IEA_Industrialization_decisions
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Modernize_Agriculture
+		icon = GFX_goal_agrarian_reform
+		x = 3
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_New_Factories }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_ideas = INA_IEA_Modernized_Agriculture
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Build_Homes_for_Colonists
+		icon = GFX_tblra_union_agreement
+		x = 1
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_New_Factories }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_political_power = 25
+			unlock_decision_tooltip = INA_IEA_Construct_Homes_for_Settlers
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Attract_More_Colonists
+		icon = GFX_goal_KTG_Colonial_Economy_Focus
+		x = 2
+		y = 5
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Build_Homes_for_Colonists }
+		prerequisite = { focus = INA_IEA_Modernize_Agriculture }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			add_political_power = -10
+			add_manpower = 5000
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Crisis_Alleviated
+		icon = GFX_Pile_of_Money
+		x = 0
+		y = 6
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Modernize_the_Airports }
+		prerequisite = { focus = INA_IEA_Attract_More_Colonists }
+		relative_position_id = INA_IEA_Recovery
+		completion_reward = {
+			remove_ideas = INA_IEA_Great_Depression
+		}
+	}
+	
+	#Army Tree
+	
+	focus = {
+		id = INA_IEA_Colonial_Army
+		icon = GFX_Italian_Soldiers
+		x = 11
+		y = 0
+		cost = 2
+		ai_will_do = {
+			factor = 50
+		}
+		completion_reward = {
+			army_experience = 10
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Raise_More_Troops
+		icon = GFX_Italian_Forces
+		mutually_exclusive = { focus = INA_IEA_Reform_the_Army }
+		x = -2
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Colonial_Army }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_manpower = 10000
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Expand_Conscription
+		icon = GFX_Focus_Conscription_Act
+		x = -2
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Raise_More_Troops }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_ideas = INA_IEA_Increased_Conscription
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Raise_a_New_Division
+		icon = GFX_goal_conscription
+		mutually_exclusive = { focus = INA_IEA_Stockpile_Rifles }
+		x = -3
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Expand_Conscription }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			if = {
+				limit = {
+					tag = INA
+				}
+				448 = {
+					create_unit = {
+						division = "name = \"Divisione Coloniale\" division_template = \"Divisione Coloniale\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+						owner = INA
+						prioritize_location = 1149
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = IEA
+				}
+				550 = {
+					create_unit = {
+						division = "name = \"Divisione Coloniale\" division_template = \"Divisione Coloniale\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+						owner = INA
+						prioritize_location = 5091
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Stockpile_Rifles
+		icon = GFX_Renewed_Arms
+		mutually_exclusive = { focus = INA_IEA_Raise_a_New_Division }
+		x = -1
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Expand_Conscription }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 250
+				producer = ITA
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Raise_More_Police
+		icon = GFX_goal_enlist_the_police
+		x = -2
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Stockpile_Rifles focus = INA_IEA_Raise_a_New_Division }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_manpower = 500
+			add_stability = 0.06
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Lower_Wages
+		icon = GFX_Root_out_Funding
+		x = -2
+		y = 5
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Raise_More_Police }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_stability = 0.05
+			add_war_support = -0.08
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Reform_the_Army
+		icon = GFX_Italian_Military_Officers
+		mutually_exclusive = { focus = INA_IEA_Raise_More_Troops }
+		x = 2
+		y = 1
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Colonial_Army }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			army_experience = 10
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Implement_Professional_Training
+		icon = GFX_Prepare_the_Troops
+		x = 2
+		y = 2
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Reform_the_Army }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_ideas = INA_IEA_Professional_Training
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Italian_Officers_Only
+		icon = GFX_Italian_Officer
+		mutually_exclusive = { focus = INA_IEA_Allow_Native_Officers }
+		x = 1
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Implement_Professional_Training }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_ideas = INA_IEA_Italian_Officers
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Allow_Native_Officers
+		icon = GFX_Desert_Officers_2
+		mutually_exclusive = { focus = INA_IEA_Italian_Officers_Only }
+		x = 3
+		y = 3
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Implement_Professional_Training }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_ideas = INA_IEA_Native_Officers
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Raise_a_Cavalry_Brigade
+		icon = GFX_goal_cavalry
+		x = 2
+		y = 4
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Allow_Native_Officers focus = INA_IEA_Italian_Officers_Only }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			if = {
+				limit = {
+					tag = INA
+				}
+				INA = {
+					division_template = {
+						name = "Brigata di Cavalleria"
+						regiments = {
+							cavalry = { x = 0 y = 0 }
+							cavalry = { x = 0 y = 1 }
+						} 
+					}
+				}
+				448 = {
+					create_unit = {
+						division = "name = \"Brigata di Cavalleria\" division_template = \"Brigata di Cavalleria\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+						owner = INA
+						prioritize_location = 1149
+					}
+				}
+			}
+			if = {
+				limit = {
+					tag = IEA
+				}
+				IEA = {
+					division_template = {
+						name = "Brigata di Cavalleria"
+						regiments = {
+							cavalry = { x = 0 y = 0 }
+							cavalry = { x = 0 y = 1 }
+						} 
+					}
+				}
+				550 = {
+					create_unit = {
+						division = "name = \"Brigata di Cavalleria\" division_template = \"Brigata di Cavalleria\" start_experience_factor = 0.1 start_equipment_factor = 0.8"
+						owner = IEA
+						prioritize_location = 5091
+					}
+				}
+			}
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_Raise_Wages
+		icon = GFX_Generic_Bills
+		x = 2
+		y = 5
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Raise_a_Cavalry_Brigade }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_stability = -0.05
+			add_war_support = 0.08
+		}
+	}
+	
+	focus = {
+		id = INA_IEA_A_New_Army
+		icon = GFX_Italian_Africa
+		x = 0
+		y = 6
+		cost = 8.6
+		ai_will_do = {
+			factor = 50
+		}
+		prerequisite = { focus = INA_IEA_Raise_Wages focus = INA_IEA_Lower_Wages }
+		relative_position_id = INA_IEA_Colonial_Army
+		completion_reward = {
+			add_manpower = 5000
+			army_experience = 20
+		}
+	}
+	
+}

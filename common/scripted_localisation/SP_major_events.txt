@@ -1,0 +1,191 @@
+defined_text = {
+	name = GetMajorEventsTitle
+	text = {
+		trigger = {
+			has_global_flag = portuguesecivilwar_major_event
+		}
+		localization_key = portuguesecivilwar_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = italiancivilwar_major_event
+		}
+		localization_key = italiancivilwar_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = thegreatdepression_major_event
+		}
+		localization_key = thegreatdepression_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = britainwithdraws_major_event
+		}
+		localization_key = britainwithdraws_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofbritain_major_event
+		}
+		localization_key = fallofbritain_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = falloffrance_major_event
+		}
+		localization_key = falloffrance_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofgermany_major_event
+		}
+		localization_key = fallofgermany_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofjapan_major_event
+		}
+		localization_key = fallofjapan_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = japanwithdraws_major_event
+		}
+		localization_key = japanwithdraws_major_event_title
+	}
+	text = {
+		trigger = {
+			has_global_flag = ussrwithdraws_major_event
+		}
+		localization_key = ussrwithdraws_major_event_title
+	}
+}
+
+defined_text = {
+	name = GetMajorEventsText
+	text = {
+		trigger = {
+			has_global_flag = portuguesecivilwar_major_event
+		}
+		localization_key = portuguesecivilwar_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = italiancivilwar_major_event
+		}
+		localization_key = italiancivilwar_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = thegreatdepression_major_event
+		}
+		localization_key = thegreatdepression_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = britainwithdraws_major_event
+		}
+		localization_key = britainwithdraws_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofbritain_major_event
+		}
+		localization_key = fallofbritain_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = falloffrance_major_event
+		}
+		localization_key = falloffrance_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofgermany_major_event
+		}
+		localization_key = fallofgermany_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofjapan_major_event
+		}
+		localization_key = fallofjapan_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = japanwithdraws_major_event
+		}
+		localization_key = japanwithdraws_major_event_text
+	}
+	text = {
+		trigger = {
+			has_global_flag = ussrwithdraws_major_event
+		}
+		localization_key = ussrwithdraws_major_event_text
+	}
+}
+
+defined_text = {
+	name = GetMajorEventsClose
+	text = {
+		trigger = {
+			has_global_flag = portuguesecivilwar_major_event
+		}
+		localization_key = portuguesecivilwar_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = italiancivilwar_major_event
+		}
+		localization_key = italiancivilwar_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = thegreatdepression_major_event
+		}
+		localization_key = thegreatdepression_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = britainwithdraws_major_event
+		}
+		localization_key = britainwithdraws_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofbritain_major_event
+		}
+		localization_key = fallofbritain_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = falloffrance_major_event
+		}
+		localization_key = falloffrance_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofgermany_major_event
+		}
+		localization_key = fallofgermany_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = fallofjapan_major_event
+		}
+		localization_key = fallofjapan_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = japanwithdraws_major_event
+		}
+		localization_key = japanwithdraws_major_event_close
+	}
+	text = {
+		trigger = {
+			has_global_flag = ussrwithdraws_major_event
+		}
+		localization_key = ussrwithdraws_major_event_close
+	}
+}

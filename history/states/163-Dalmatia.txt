@@ -1,0 +1,38 @@
+
+state={
+	id=163
+	name="STATE_163"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 1
+			dockyard = 1
+			6889 = {
+				naval_base = 1
+			}
+
+		}
+		# 163 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 6889
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = STJ
+		victory_points = {
+			6889 3
+		}
+
+	}
+
+	provinces={
+		3868 6889 11816 
+	}
+	manpower=60577	
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

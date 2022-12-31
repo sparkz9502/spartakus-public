@@ -1,0 +1,77 @@
+﻿l_english:
+
+### Ideas ###
+
+NEW_struggling_fishing_industry:0 "Struggling Fishing Industry"
+NEW_struggling_fishing_industry_desc:0 "Our fishing industry has been struggling for years now, but saw its most noticable trouble in the aftermath of the 1929 London Market Crash. Fish prices and total exports took a nosedive, and although funds have been diverted to aid the fishing industry, the rampant corruption within the administration means these funds ultimately never made it to their intended targets."
+
+NEW_crashed_fishing_industry:0 "Crashed Fishing Industry"
+NEW_crashed_fishing_industry_desc:0 "The fishing industry, which has been struggling since the 1929 London Market Crash, has now crashed following the disruption of exports after the Wall Street crash in the United States. The fishing industry forms the primary source of income for Newfoundland, and as a result this means a total collapse of our economy."
+
+NEW_crashed_fishing_industry_2:0 "Crashed Fishing Industry"
+NEW_crashed_fishing_industry_2_desc:0 "The fishing industry, which has been struggling since the 1929 London Market Crash, has now crashed following the disruption of exports after the Wall Street crash in the United States. The fishing industry forms the primary source of income for Newfoundland, and as a result this means a total collapse of our economy."
+
+NEW_crashed_fishing_industry_3:0 "Crashed Fishing Industry"
+NEW_crashed_fishing_industry_3_desc:0 "The fishing industry, which has been struggling since the 1929 London Market Crash, has now crashed following the disruption of exports after the Wall Street crash in the United States. The fishing industry forms the primary source of income for Newfoundland, and as a result this means a total collapse of our economy."
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+
+NEW_bolshevist_party:0 "-"
+NEW_bolshevist_party_long:0 "-"
+NEW_spartacist_party:0 "-"
+NEW_spartacist_party_long:0 "-"
+NEW_revolutionary_socialist_party:0 "-"
+NEW_revolutionary_socialist_party_long:0 "-"
+NEW_reformist_socialist_party:0 "-"
+NEW_reformist_socialist_party_long:0 "-"
+NEW_social_democrat_party:0 "FPU"
+NEW_social_democrat_party_long:0 "Fishermen's Protective Union"
+NEW_social_liberal_party:0 "-"
+NEW_social_liberal_party_long:0 "-"
+NEW_liberal_conservative_party:0 "Liberal Party"
+NEW_liberal_conservative_party_long:0 "Liberal Party"
+NEW_social_conservative_party:0 "UNP"
+NEW_social_conservative_party_long:0 "United Newfoundland Party"
+NEW_authoritarian_conservative_party:0 "-"
+NEW_authoritarian_conservative_party_long:0 "-"
+NEW_right_wing_populist_party:0 "-"
+NEW_right_wing_populist_party_long:0 "-"
+NEW_national_syndicalist_party:0 "-"
+NEW_national_syndicalist_party_long:0 "-"
+NEW_national_corporatist_party:0 "-"
+NEW_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Leader descriptions ###
+
+### Events ###
+
+new.1.t:0 "Newfoundland Introduction"
+new.1.d:0 "Newfoundland, also known as the Dominion of Newfoundland, is a British dominion established in 1907, which was previously a self-governing colony that refused confederation with Canada in 1869 and 1892. With this new autonomy, Newfoundland looked to build itself into a respectable, modern part of the British Empire.\n\nNewfoundland met its first debt challenge through an ambitious railroad project which finished in the 1890's. During the Great War, it gained itself even more debt by funding the establishment of its own regiment, of which 90% was destroyed at the first day of the Somme. By the end of the war, Newfoundland found itself in deep, uncontrollable debt.\n\nThis situation continued to get worse in the post-war years. Prime Minister Richard Squires was arrested in 1923 on charges on corruption, but the conservative government that followed was just as unpopular and he was elected once again in 1928 with the support of the Fisherman's Protective Union (FPU).\n\nHowever, only a year after taking office Newfoundland was hit with the effects of the 1929 London Market Crash. Its already fragile economy based primarily on fishing plunged into further chaos. The popularity of Squires and his Liberal Party is dwindling by the day, and with the public debt approaching $100 million any new crisis could mean the end of dominion status."
+new.1.a:0 "Fantastic..."
+
+new.2.t:0 "[GetNewspaperHeader] The Great Depression"
+new.2.d:0 "Disaster has struck! In the United States, the New York Stock Exchange has plunged into a deep crash. The entire capitalist west has been hurt in some way, and Newfoundland is no exception. The Canadian banks are now refusing to provide the loans we so desperately rely on to function. Our already failing exports have taken a major blow, and our beloved fishing industry has collapsed.\n\nThe Squires government is undoubtedly in peril with this escalation of the already existing crisis. Elections are upcoming in June, and there is no doubt that this will significantly change the outcome."
+new.2.a:0 "Help!"
+
+new.3.t:0 "[GetNewspaperHeader] Protestors Gather at the Colonial Building"
+new.3.d:0 "Over 10,000 protestors have gathered at the Colonial Building, the seat of the government, in the capital of St. John's. Although Prime Minister Squires escaped the crowd unscathed, such protests reflect the widespread anger against the corrupt and indebted government. It seems very unlikely, if not impossible, that Squires could win reelection.\n\nAt the same time, there is increasing discontent within the cabinet itself. The Minister of Finance, Peter Cashin, has openly criticized Squires, even accusing him of using funds to pay off his personal legal fees related to his previous corruption charge. Cashin and other cabinet members are now threatening to resign amidst the protests, and the FPU is threatening to pull out of the coalition."
+new.3.a:0 "Lets just calm down!"
+
+new.4.t:0 "Minister of Finance Resigns"
+new.4.d:0 "Peter Cashin, the Minister of Finance and Customs, has resigned today. This followed a series of verbal attacks against Squires and his cronies. Not only does this cripple the government, which has no available replacement, but it is also a terrible tragedy for the public popularity of the Squires government."
+new.4.a:0 "No!"
+
+new.5.t:0 "FPU Leaves Coalition"
+new.5.d:0 "The Fisherman's Protective Union has left the coalition government formed in 1928, taking its cabinet ministers with it in a storm of resignations. They have already begun reorganizing to try and face the conservatives in the upcoming elections, though its questionable if they can succeed.\n\nRegardless, this is undeniably the fatal blow to the Squires administration."
+new.5.a:0 "What now?!?"
+
+new.6.t:0 "1932 Elections"
+new.6.d:0 "Elections are being held today and a few things are apparent. Firstly, the economic situation and the rampant corruption will factor immensely into the outcome. Secondly, the Liberal Party has no chance at holding its power anymore without the support of the Fisherman's Protective Union. Finally, the results may be closer than previously thought, as the FPU has emerged as a formidable contender for the government.\n\nThe conservative United Newfoundland Party has campaigned on the promise to end elections in favor of a British-led government which would ease the economic woes of Newfoundland. The social democratic FPU, on the other hand, has campaigned on the promise for significant economic reform and emergency welfare programmes.\n\nAs the vote tallies are being released, the people of Newfoundland wait eagerly for the results."
+new.6.a:0 "The conservative UNP wins as expected."
+new.6.b:0 "The social democratic FPU takes a surprise victory."

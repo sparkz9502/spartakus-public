@@ -1,0 +1,52 @@
+
+state={
+	id=442
+	name="STATE_442"
+
+	history={
+		owner = RAJ
+		add_core_of = WTH
+		add_core_of = RAJ
+		add_claim_by = AFG
+		victory_points = {
+			12763 2 
+		}
+		victory_points = {
+			4998 10 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			15097 = {
+				bunker = 3
+
+			}
+			4998 = {
+				bunker = 3
+
+			}
+			12717 = {
+				bunker = 3
+
+			}
+			12763 = {
+				bunker = 3
+
+			}
+			4558 = {
+				bunker = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1978 4558 4998 12717 12763 15097 15469 15475 
+	}
+	manpower=2000000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

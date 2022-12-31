@@ -1,0 +1,220 @@
+﻿###########################################################################################################
+# Political Events																		                  #
+###########################################################################################################
+# By sparkz and NatSpi, ~~door wuz ere~~                                                                  #
+###########################################################################################################
+
+add_namespace = sp.political
+
+###########################
+# WW2 Major Event Tests
+###########################
+
+country_event = {
+	id = sp.political.0
+	title = sp.political.0.t
+	desc = sp.political.0.d
+
+	is_triggered_only = yes
+
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = britainwithdraws_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = fallofbritain_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = falloffrance_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = fallofgermany_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = fallofjapan_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = japanwithdraws_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = ussrwithdraws_major_event
+	}
+}
+
+country_event = {
+	id = sp.political.01
+	title = sp.political.01.t
+	desc = sp.political.01.d
+
+	is_triggered_only = yes
+
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = japanwithdraws_major_event
+	}
+	option = {
+		set_global_flag = show_major_events_gui
+		set_global_flag = ussrwithdraws_major_event
+	}
+}
+
+###########################
+# Introduction Events
+###########################
+
+country_event = {
+	id = sp.political.1
+	title = sp.political.1.t
+	desc = sp.political.1.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = sp.political.1.a #Start
+	}
+	option = {
+		name = sp.political.1.c #FAQ
+		country_event = { id = sp.political.2 }
+	}
+}
+
+country_event = {
+	id = sp.political.2 #FAQ
+	title = sp.political.2.t
+	desc = sp.political.2.d
+
+	is_triggered_only = yes
+
+	option = {
+		name = sp.political.2.a
+	}
+}
+
+###########################
+# Setup Events
+###########################
+
+### cores begone :dab: >add all autocores you want to remove here< ###
+
+country_event = {
+	id = sp.political.10
+	immediate = {log = "[GetDateText]: [Root.GetName: event sp.political.10"}
+	hidden = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+	immediate = {
+		SAF = {
+			remove_state_core = 1183
+			remove_state_core = 541
+			remove_state_core = 964
+			remove_state_core = 1001
+			remove_state_core = 1000
+			remove_state_core = 1098
+			remove_state_core = 542
+		}
+		BOL = {
+			remove_state_core = 688
+			remove_state_core = 1013
+		}
+		PAR = {
+			remove_state_core = 1014
+		}
+		EAF = {
+			remove_state_core = 924
+		}
+	}
+}
+
+### Setting up Opinion Modifiers at Gamestart ###
+country_event = {
+	id = sp.political.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: Recalculated opinion modifiers"}
+	title = sp.political.30.t
+	desc = sp.political.30.d
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		SP_ideology_opinion_gamestart_setup = yes
+	}
+
+	option = {
+		name = sp.political.30.a
+	}
+
+}
+
+### Setting up Opinion Modifiers on Government Change ###
+country_event = {
+	id = sp.political.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: Recalculated opinion modifiers"}
+	title = sp.political.31.t
+	desc = sp.political.31.d
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		SP_remove_ideology_opinion = yes
+		SP_ideology_opinion_govtchange_setup = yes
+	}
+
+	option = {
+		name = sp.political.31.a
+	}
+
+}
+
+### Add Coal Shortage ###
+country_event = {
+	id = sp.political.40
+	immediate = {log = "[GetDateText]: [Root.GetName]: Added coal shortage"}
+	title = sp.political.40.t
+	desc = sp.political.40.d
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		add_ideas = SP_coal_shortage
+	}
+
+	option = {
+		name = sp.political.40.a
+	}
+}
+
+### Remove Coal Shortage ###
+country_event = {
+	id = sp.political.41
+	immediate = {log = "[GetDateText]: [Root.GetName]: Removed coal shortage"}
+	title = sp.political.41.t
+	desc = sp.political.41.d
+
+	hidden = yes
+
+	is_triggered_only = yes
+
+	immediate = {
+		remove_ideas = SP_coal_shortage
+	}
+
+	option = {
+		name = sp.political.41.a
+	}
+}
+
+###########################
+# Debug Events
+###########################

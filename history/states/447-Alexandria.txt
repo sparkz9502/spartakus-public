@@ -1,0 +1,35 @@
+
+state={
+	id=447
+	name="STATE_447"
+	resources={
+		oil=2.000
+	}
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		victory_points = {
+			4076 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			dockyard = 1
+			air_base = 2
+			4076 = {
+				naval_base = 5
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		992 3996 4076 4145 7164 
+	}
+	manpower=1747300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,27 @@
+state= {
+	id=818
+	name="STATE_818"
+	manpower = 1000
+
+	
+	state_category = enclave
+
+	history= {
+		owner = USA
+		add_core_of = CUB
+		buildings = {
+			infrastructure = 3
+			13205 = {
+				naval_base = 3
+			}
+		}
+		
+		victory_points = {
+			13205 1
+		}
+
+	}
+	provinces={
+	13205
+	}
+}

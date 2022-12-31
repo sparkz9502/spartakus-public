@@ -1,0 +1,32 @@
+
+state={
+	id=682
+	name="STATE_682"
+	resources={
+		raremetals=55.000
+		copper=19.000
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			7899 1 
+		}
+		victory_points = {
+			9467 1 
+		}
+		add_core_of = CAN
+
+	}
+
+	provinces={
+		602 777 1299 1769 1782 3736 4775 4784 4869 4875 6510 7366 7794 7899 9467 9480 9740 10621 10718 11571 12278 12582 12701 13094 13161 13200 
+	}
+	manpower=249000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

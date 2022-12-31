@@ -1,0 +1,141 @@
+﻿l_english:
+### Head of Government ###
+USA_Charles_Curtis_hog_lco:0 "Charles Curtis"
+USA_Joseph_France_hog_sli:0 "Joseph France"
+USA_George_Norris_hog_sli:0 "George Norris"
+USA_James_Reed_hog_sco:0 "James Reed"
+USA_Joseph_Robinson_hog_sco:0 "Joseph Robinson"
+USA_Henry_Wallace_hog_sde:0 "Henry Wallace"
+USA_William_Bankhead_hog_sco:0 "William Bankhead"
+USA_Frank_Knox_hog_lco:0 "Frank Knox"
+USA_Charles_McNary_hog_lco:0 "Charles McNary"
+USA_Henrik_Shipstead_hog_sde:0 "Henrik Shipstead"
+USA_Phillip_La_Folette_hog_sli:0 "Phillip La Folette"
+USA_Alben_Barkley_hog_sco:0 "Alben Barkley"
+USA_Felix_Frankfurter_hog_sli:0 "Felix Frankfurter"
+USA_Burton_Wheeler_hog_sde:0 "Burton Wheeler"
+USA_Norman_Thomas_hog_ref:0 "Norman Thomas"
+USA_William_Foster_hog_spa:0 "William Foster"
+USA_Theodore_Bilbo_hog_nsy:0 "Theodore Bilbo"
+
+### Minister Without Portfolio ###
+USA_Walter_Brown_mwp_lco:0 "Walter Brown"
+USA_James_Farley_mwp_sco:0 "James Farley"
+USA_Jacob_Coxey_mwp_sde:0 "Jacob Coxey"
+USA_Joseph_Martin_mwp_lco:0 "Joseph Martin"
+USA_Robert_Hannegan_mwp_sco:0 "Robert Hannegan"
+USA_Parley_Christensen_mwp_sde:0 "Parley Christensen"
+USA_Max_Schachtman_mwp_spa:0 "Max Schachtman"
+USA_John_Rankin_mwp_rwp:0 "John Rankin"
+
+### Foreign Minister ###
+USA_Henry_Stimson_for_lco:0 "Henry Stimson"
+USA_Cordell_Hull_for_sco:0 "Cordell Hull"
+USA_Arthur_Vandenberg_for_lco:0 "Arthur Vandenberg"
+USA_James_Byrnes_for_sco:0 "James Byrnes"
+USA_Edward_Stettinus_Jr_for_sli:0 "Edward Stettinus Jr."
+USA_Merlin_Hull_for_sli:0 "Merlin Hull"
+USA_Earl_Browder_for_bol:0 "Earl Browder"
+USA_Eugene_Dennis_for_bol:0 "Eugene Dennis"
+USA_Robert_Reynolds_for_rwp:0 "Robert Reynolds"
+
+### Economy Minister ###
+USA_Ogden_Mills_eco_lco:0 "Ogden Mills"
+USA_Charles_Dawes_eco_lco:0 "Charles Dawes"
+USA_Daniel_Roper_eco_sco:0 "Daniel Roper"
+USA_Henry_Morgenthau_eco_sco:0 "Henry Morgenthau"
+USA_James_Wadsworth_eco_lco:0 "James Wadsworth"
+USA_Bronson_Cutting_eco_sli:0 "Bronson Cutting"
+USA_John_Snyder_eco_sco:0 "John Snyder"
+USA_Rexford_Tugwell_eco_sde:0 "Rexford Tugwell"
+USA_Vito_Marcantonio_eco_ref:0 "Vito Marcantonio"
+USA_Charles_Coughlin_eco_nsy:0 "Charles Coughlin"
+
+### Security Minister ###
+USA_William_Mitchell_sec_lco:0 "William Mitchell"
+USA_Albert_Ottinger_sec_lco:0 "Albert Ottinger"
+USA_Homer_Cummings_sec_sco:0 "Homer Cummings"
+USA_Thomas_Thacher_sec_sco:0 "Thomas Thacher"
+USA_Felix_Frankfurter_sec_sli:0 "Felix Frankfurter"
+USA_Thomas_Dewey_sec_lco:0 "Thomas Dewey"
+USA_Francis_Biddle_sec_sli:0 "Francis Biddle"
+USA_Earl_Warren_sec_sli:0 "Earl Warren"
+USA_J_Edgar_Hoover_sec_aco:0 "J. Edgar Hoover"
+USA_Elizabeth_Flynn_sec_rev:0 "Elizabeth Flynn"
+USA_Hiram_Evans_sec_ncp:0 "Hiram Evans"
+
+### Education Minister ###
+USA_William_Cooper_edu_lco:0 "William Cooper"
+USA_John_Studebaker_edu_sli:0 "John Studebaker"
+USA_Paul_Robeson_edu_spa:0 "Paul Robeson"
+USA_Gerald_Smith_edu_ncp:0 "Gerald Smith"
+
+### Agriculture Minister ###
+USA_Arthur_Hyde_agr_lco:0 "Arthur Hyde"
+USA_Josiah_Bailey_agr_sco:0 "Josiah Bailey"
+USA_Rexford_Tugwell_agr_sde:0 "Rexford Tugwell"
+USA_Claude_Wickard_agr_sco:0 "Claude Wickard"
+USA_William_Lemke_agr_sde:0 "William Lemke"
+USA_Arthur_Ringland_agr_lco:0 "Arthur Ringland"
+USA_Clinton_Anderson_agr_sco:0 "Clinton Anderson"
+USA_James_Cannon_agr_spa:0 "James Cannon"
+USA_William_Murray_agr_nsy:0 "William Murray"
+
+### Transport Minister ###
+USA_Roy_Chapin_tra_lco:0 "Roy Chapin"
+USA_Bronson_Cutting_tra_sli:0 "Bronson Cutting"
+USA_Jesse_Jones_tra_sco:0 "Jesse Jones"
+USA_Henry_Ford_tra_sco:0 "Henry Ford"
+USA_Daniel_Roper_tra_sco:0 "Daniel Roper"
+USA_Robert_Lamont_tra_sco:0 "Robert Lamont"
+USA_George_Norris_tra_sli:0 "George Norris"
+USA_Wendell_Willkie_tra_lco:0 "Wendell Willkie"
+USA_Arthur_James_tra_lco:0 "Arthur James"
+USA_Averell_Harriman_tra_sco:0 "Averell Harriman"
+USA_Francis_Harrington_tra_sli:0 "Francis Harrington"
+USA_AJ_Muste_tra_ref:0 "A.J. Muste"
+USA_Charles_Lindbergh_tra_rwp:0 "Charles Lindbergh"
+
+### Defence Minister ###
+USA_Patrick_Hurley_def_lco:0 "Patrick Hurley"
+USA_Harry_Woodring_def_sco:0 "Harry Woodring"
+USA_Hiram_Johnson_def_sli:0 "Hiram Johnson"
+USA_Henry_Stimson_def_lco:0 "Henry Stimson"
+USA_James_Forrestal_def_sco:0 "James Forrestal"
+USA_Harold_Stassen_def_sli:0 "Harold Stassen"
+USA_James_Ford_def_spa:0 "James Ford"
+USA_George_Van_Horn_Moseley_def_ncp:0 "George Van Horn Moseley"
+
+### Chief of Staff ###
+USA_Douglas_MacArthur_cos:0 "Douglas MacArthur"
+USA_Malin_Craig_cos:0 "Malin Craig"
+USA_George_Marshall_cos:0 "George Marshall"
+USA_Omar_Bradley_cos:0 "Omar Bradley"
+USA_Dwight_Eisenhower_cos:0 "Dwight Eisenhower"
+
+### Chief of Army ###
+USA_Douglas_MacArthur_carm:0 "Douglas MacArthur"
+USA_Malin_Craig_carm:0 "Malin Craig"
+USA_George_Marshall_carm:0 "George Marshall"
+USA_Omar_Bradley_carm:0 "Omar Bradley"
+USA_Dwight_Eisenhower_carm:0 "Dwight Eisenhower"
+
+### Chief of Navy ###
+USA_William_Pratt_cnav:0 "William Pratt"
+USA_William_Standley_cnav:0 "William Standley"
+USA_William_Leahy_cnav:0 "William Leahy"
+USA_Harold_Stark_cnav:0 "Harold Stark"
+USA_Ernest_King_cnav:0 "Ernest King"
+USA_Chester_Nimitz_cnav:0 "Chester Nimitz"
+USA_Edward_Kalbfus_cnav:0 "Edward Kalbfus"
+
+### Chief of Air Force ###
+USA_Benjamin_Foulois_cair:0 "Benjamin Foulois"
+USA_Oscar_Westover_cair:0 "Oscar Westover"
+USA_Frank_Andrews_cair:0 "Frank Andrews"
+USA_Henry_Arnold_cair:0 "Henry Arnold"
+USA_James_Fechet_cair:0 "James Fechet"
+USA_Carl_Spaatz_cair:0 "Carl Spaatz"
+
+#Theorist
+USA_J_Robert_Oppenheimer_theo:0 "J. Robert Oppenheimer"

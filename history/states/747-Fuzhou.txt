@@ -1,0 +1,25 @@
+
+state={
+	id=747
+	name="STATE_747"
+
+	history={
+		owner = ENG
+		add_core_of = SHA
+				victory_points = {
+			4205 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		4205 
+	}
+	manpower=180000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

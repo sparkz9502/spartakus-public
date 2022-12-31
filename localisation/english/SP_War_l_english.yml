@@ -1,0 +1,33 @@
+﻿l_english:
+ST:0 "st"
+ND:0 "nd"
+RD:0 "rd"
+TH:0 "th"
+WAR_NAME:0 "$ORDER$$FIRST$-$SECOND$ War"
+CIVIL_WAR_NAME:0 "$ORDER$$SECOND$ Civil War"
+WAR_TAKE_CORE_NAME:0 "$ORDER$$FIRST$ reclamation of $STATE$"
+WAR_TAKE_CLAIM_NAME:0 "$ORDER$$FIRST$ Aggression for $STATE$"
+SP_separate_peace:0 "Will drop out of all current wars\n"
+
+### The Big War ###
+WAR_NAME_GER_FRA:0 "The Great Revolutionary War"
+WAR_NAME_FRA_GER:0 "The Great Revolutionary War"
+WAR_NAME_GER_ENG:0 "The Great Revolutionary War"
+WAR_NAME_ENG_GER:0 "The Great Revolutionary War"
+WAR_NAME_SOV_ENG:0 "The Great Revolutionary War"
+WAR_NAME_ENG_SOV:0 "The Great Revolutionary War"
+WAR_NAME_SOV_FRA:0 "The Great Revolutionary War"
+WAR_NAME_FRA_SOV:0 "The Great Revolutionary War"
+
+### Indian Wars/Revolts ###
+WAR_NAME_RAJ_BMR:0 "Great Burmese Revolt"
+WAR_NAME_BMR_RAJ:0 "Great Burmese Revolt"
+WAR_NAME_BMR_ENG:0 "Great Burmese Revolt"
+WAR_NAME_ENG_BMR:0 "Great Burmese Revolt"
+
+### Balkan Wars ###
+WAR_NAME_SER_RSE:0 "Serbian Civil War"
+WAR_NAME_SER_CRO:0 "War for the Restoration of Yugoslavia"
+
+### Chaco War ###
+WAR_NAME_BOL_PAR:0 "Chaco War"

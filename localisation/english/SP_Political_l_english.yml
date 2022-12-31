@@ -1,0 +1,388 @@
+﻿l_english:
+
+Bypass_tt:0 "§GThis focus will automatically complete when the conditions are met.§!"
+SP_no_mobilization_flag:0 "§RWe are unable to mobilize our economy manually.§!"
+SP_no_conscription_flag:0 "§RWe are unable to increase our recruitment law manually.§!"
+
+### Starting Events ###
+sp.political.1.t:0 "Spartakus Alpha 0.01 - 'Slightly Buggy'"
+sp.political.1.d:0 "Welcome to Spartakus, a brand new Hearts of Iron IV alternate history modification that is being actively worked on by a talented panel of developers. Development may take a long time, but the mod will eventually end up in a finished state. This is not to say, however, that one day development will suddenly cease. Bug fixes and content additions will continue indefinitely regardless of whether the mod is considered finished or not.\n\nSpartakus is a modification that is based around an alternative history where the Spartacists of the German Revolution succeed in their goal of establishing a Communist society. As a result, various other revolutions are able to survive throughout Europe and abroad. The intent is to explore the aftermath of such a turn of events within a fun mod. Spartakus is inspired heavily by Kaiserreich for its narrative driven mechanics, and as a result includes some familiar systems such as stability and party popularity. You can read on the changes made regarding the stability system below. Spartakus will also be using mechanics seen in previous Hearts of Iron titles such as the minister cabinet system.\n\nSimilar to Kaiserreich, Spartakus is designed with the idea of annexing all states in mind. You should always make sure to annex everything possible, and it is highly recommended to use the Player-Led Peace Conferences mod in order to make this process easier. It is also recommended to annex countries to a single country. Partititioning a country through the peace conference rather than through scripted events may cause issues down the line and could impede your gameplay experience. \n\nSpartakus is in a very early stage. Incomplete countries, buggy events, crashes, and other issues should not be taken as a surprise to anyone. With that said, reporting them would be a major help for a dev team that simply cannot do accident proof playtesting on every single area of the mod. We will try out best, however, and developers identifying issues as quick and early as possible will benefit both you and the development team alike.\n\nHave fun!"
+sp.political.1.a:0 "Cool!"
+sp.political.1.c:0 "I want to know more! (FAQ)"
+
+sp.political.2.t:0 "FAQ"
+sp.political.2.d:0 "Why is puppeting disabled in peace conferences?\n\nSpartakus uses an event based puppeting system in order to allow more dynamic options such as placing specific parties or leaders in power. It also punishes you for outright annexing territory which your country otherwise would not want to or be able to directly control. Territory that is a core of the puppeteer will not be transferred to the puppet state, so your rightful clay will not be stolen from you.\n\nWhy can I not join or create my own faction?\n\nSpartakus restricts joining or creating factions because the modification is intended to be narrative driven. As a result, only factions relevant to the lore and story will be allowed. With that said, many countries have the ability or will have the ability to form factions through national focuses, events and/or decisions.\n\nI want to contribute to the project, where do I sign up?\n\nSpartakus is still in need of developers and contributors of any kind. If you simply want to make a contribution by writing lore or doing research, that is accepted. If you want to go even further by doing codework, or gfx work, that is also a great help. If you wish to help out, contact the Head Developer, sparkz/Hunter9502, over Steam, Discord or Reddit."
+sp.political.2.a:0 "Thanks!"
+
+sp.political.10.t:0 "Removing Autocores"
+sp.political.10.d:0 "If you can see this, make a bug report!"
+sp.political.10.a:0 "Seriously, report it."
+
+sp.political.20.t:0 "Setting Party Popularity Effects"
+sp.political.20.d:0 "If you can see this, make a bug report!"
+sp.political.20.a:0 "Seriously, report it."
+
+sp.political.30.t:0 "Setting Opinion Modifiers"
+sp.political.30.d:0 "If you can see this, make a bug report!"
+sp.political.30.a:0 "Seriously, report it."
+
+sp.political.31.t:0 "Setting Opinion Modifiers"
+sp.political.31.d:0 "If you can see this, make a bug report!"
+sp.political.31.a:0 "Seriously, report it."
+
+SP_capitalist_v_socialist_ideology:0 "Different Ideology"
+SP_liberal_v_right_ideology:0 "Different Ideology"
+SP_similar_ideology:0 "Similar Ideology"
+SP_same_ideology:0 "Same Ideology"
+same_ruling_party:0 "Base"
+different_party_types:0 "Base"
+similar_ruling_party:0 "Base"
+
+can_replace_minister:0 "§RYou cannot replace ministers here. Ministers can only be replaced through scripted actions such as decisions, events and national focuses.§!"
+
+add_bolshevist_coalition_tt:0 "§YBolshevists§! will be added to our ruling coalition.\n"
+add_spartacist_coalition_tt:0 "§YSpartacists§! will be added to our ruling coalition.\n"
+add_revolutionary_socialist_coalition_tt:0 "§YRevolutionary Socialists§! will be added to our ruling coalition.\n"
+add_reformist_socialist_coalition_tt:0 "§YReformist Socialists§! will be added to our ruling coalition.\n"
+add_social_democrat_coalition_tt:0 "§YSocial Democrats§! will be added to our ruling coalition.\n"
+add_social_liberal_coalition_tt:0 "§YSocial Liberals§! will be added to our ruling coalition.\n"
+add_liberal_conservative_coalition_tt:0 "§YLiberal Conservatives§! will be added to our ruling coalition.\n"
+add_social_conservative_coalition_tt:0 "§YSocial Conservatives§! will be added to our ruling coalition.\n"
+add_authoritarian_conservative_coalition_tt:0 "§YAuthoritarian Democrats§! will be added to our ruling coalition.\n"
+add_right_wing_populist_coalition_tt:0 "§YRight Wing Populists§! will be added to our ruling coalition.\n"
+add_national_syndicalist_coalition_tt:0 "§YNational Syndicalists§! will be added to our ruling coalition.\n"
+add_national_corporatist_coalition_tt:0 "§YNational Corporatists§! will be added to our ruling coalition.\n"
+
+remove_bolshevist_coalition_tt:0 "§YBolshevists§! will be removed from our ruling coalition.\n"
+remove_spartacist_coalition_tt:0 "§YSpartacists§! will be removed from our ruling coalition.\n"
+remove_revolutionary_socialist_coalition_tt:0 "§YRevolutionary Socialists§! will be removed from our ruling coalition.\n"
+remove_reformist_socialist_coalition_tt:0 "§YReformist Socialists§! will be removed from our ruling coalition.\n"
+remove_social_democrat_coalition_tt:0 "§YSocial Democrats§! will be removed from our ruling coalition.\n"
+remove_social_liberal_coalition_tt:0 "§YSocial Liberals§! will be removed from our ruling coalition.\n"
+remove_liberal_conservative_coalition_tt:0 "§YLiberal Conservatives§! will be removed from our ruling coalition.\n"
+remove_social_conservative_coalition_tt:0 "§YSocial Conservatives§! will be removed from our ruling coalition.\n"
+remove_authoritarian_conservative_coalition_tt:0 "§YAuthoritarian Democrats§! will be removed from our ruling coalition.\n"
+remove_right_wing_populist_coalition_tt:0 "§YRight Wing Populists§! will be removed from our ruling coalition.\n"
+remove_national_syndicalist_coalition_tt:0 "§YNational Syndicalists§! will be removed from our ruling coalition.\n"
+remove_national_corporatist_coalition_tt:0 "§YNational Corporatists§! will be removed from our ruling coalition.\n"
+
+clear_coalition_tt:0 "Our ruling coalition will be dissolved.\n"
+
+ban_bolshevist_tt:0 "£pol_idea §YBolshevists§! will be §Rbanned§!.\n"
+ban_spartacist_tt:0 "£pol_idea §YSpartacists§! will be §Rbanned§!.\n"
+ban_revolutionary_socialist_tt:0 "£pol_idea §YRevolutionary Socialists§! will be §Rbanned§!.\n"
+ban_reformist_socialist_tt:0 "£pol_idea §YReformist Socialists§! will be §Rbanned§!.\n"
+ban_social_democrat_tt:0 "£pol_idea §YSocial Democrats§! will be §Rbanned§!.\n"
+ban_social_liberal_tt:0 "£pol_idea §YSocial Liberals§! will be §Rbanned§!.\n"
+ban_liberal_conservative_tt:0 "£pol_idea §YLiberal Conservatives§! will be §Rbanned§!.\n"
+ban_social_conservative_tt:0 "£pol_idea §YSocial Conservatives§! will be §Rbanned§!.\n"
+ban_authoritarian_conservative_tt:0 "£pol_idea §YAuthoritarian Democrats§! will be §Rbanned§!.\n"
+ban_right_wing_populist_tt:0 "£pol_idea §YRight Wing Populists§! will be §Rbanned§!.\n"
+ban_national_syndicalist_tt:0 "£pol_idea §YNational Syndicalists§! will be §Rbanned§!.\n"
+ban_national_corporatist_tt:0 "£pol_idea §YNational Corporatists§! will be §Rbanned§!.\n"
+
+remove_ban_bolshevist_tt:0 "£pol_idea §YBolshevists§! will be §Gunbanned§!.\n"
+remove_ban_spartacist_tt:0 "£pol_idea §YSpartacists§! will be §Gunbanned§!.\n"
+remove_ban_revolutionary_socialist_tt:0 "£pol_idea §YRevolutionary Socialists§! will be §Gunbanned§!.\n"
+remove_ban_reformist_socialist_tt:0 "£pol_idea §YReformist Socialists§! will be §Gunbanned§!.\n"
+remove_ban_social_democrat_tt:0 "£pol_idea §YSocial Democrats§! will be §Gunbanned§!.\n"
+remove_ban_social_liberal_tt:0 "£pol_idea §YSocial Liberals§! will be §Gunbanned§!.\n"
+remove_ban_liberal_conservative_tt:0 "£pol_idea §YLiberal Conservatives§! will be §Gunbanned§!.\n"
+remove_ban_social_conservative_tt:0 "£pol_idea §YSocial Conservatives§! will be §Gunbanned§!.\n"
+remove_ban_authoritarian_conservative_tt:0 "£pol_idea §YAuthoritarian Democrats§! will be §Gunbanned§!.\n"
+remove_ban_right_wing_populist_tt:0 "£pol_idea §YRight Wing Populists§! will be §Gunbanned§!.\n"
+remove_ban_national_syndicalist_tt:0 "£pol_idea §YNational Syndicalists§! will be §Gunbanned§!.\n"
+remove_ban_national_corporatist_tt:0 "£pol_idea §YNational Corporatists§! will be §Gunbanned§!.\n"
+
+clear_banned_tt:0 "All banned parties will be §Gunbanned§!.\n"
+
+GetBolshevistDescription:0 "[GetBolshevistDescription]"
+GetSpartacistDescription:0 "[GetSpartacistDescription]"
+GetRevolutionarySocialistDescription:0 "[GetRevolutionarySocialistDescription]"
+GetReformistSocialistDescription:0 "[GetReformistSocialistDescription]"
+GetSocialDemocratDescription:0 "[GetSocialDemocratDescription]"
+GetSocialLiberalDescription:0 "[GetSocialLiberalDescription]"
+GetLiberalConservativeDescription:0 "[GetLiberalConservativeDescription]"
+GetSocialConservativeDescription:0 "[GetSocialConservativeDescription]"
+GetAuthoritarianConservativeDescription:0 "[GetAuthoritarianConservativeDescription]"
+GetRightWingPopulistDescription:0 "[GetRightWingPopulistDescription]"
+GetNationalSyndicalistDescription:0 "[GetNationalSyndicalistDescription]"
+GetNationalCorporatistDescription:0 "[GetNationalCorporatistDescription]"
+
+OPEN_LAWS_BUTTON:0 "Open Laws"
+
+#Economy
+
+Economy_Hyind_Text:0 "[GetEconomyHyind]"
+Economy_Hyind_Text_Active:0 "§YHyperindustrialized§!"
+Economy_Hyind_Text_Inactive:0 "Hyperindustrialized"
+
+Economy_Ind_Text:0 "[GetEconomyInd]"
+Economy_Ind_Text_Active:0 "§YIndustrialized§!"
+Economy_Ind_Text_Inactive:0 "Industrialized"
+
+Economy_Semind_Text:0 "[GetEconomySemind]"
+Economy_Semind_Text_Active:0 "§YSemi-Industrialized§!"
+Economy_Semind_Text_Inactive:0 "Semi-Industrialized"
+
+Economy_Indzing_Text:0 "[GetEconomyIndzing]"
+Economy_Indzing_Text_Active:0 "§YIndustrializing§!"
+Economy_Indzing_Text_Inactive:0 "Industrializing"
+
+Economy_Unind_Text:0 "[GetEconomyUnind]"
+Economy_Unind_Text_Active:0 "§YUnindustrialized§!"
+Economy_Unind_Text_Inactive:0 "Unindustrialized"
+
+Economy_Undev_Text:0 "[GetEconomyUndev]"
+Economy_Undev_Text_Active:0 "§YUndeveloped§!"
+Economy_Undev_Text_Inactive:0 "Undeveloped"
+
+economy_hyind:0 "Hyperindustrialized"
+economy_ind:0 "Industrialized"
+economy_semind:0 "Semi-Industrialized"
+economy_indzing:0 "Industrializing"
+economy_unind:0 "Unindustrialized"
+economy_undev:0 "Undeveloped"
+
+economy_hyind_tt:0 "The §LEconomy§! status will change to §YHyperindustrialized§!"
+economy_ind_tt:0 "The §LEconomy§! status will change to §YIndustrialized§!"
+economy_semind_tt:0 "The §LEconomy§! status will change to §YSemi-Industrialized§!"
+economy_indzing_tt:0 "The §LEconomy§! status will change to §YIndustrializing§!"
+economy_unind_tt:0 "The §LEconomy§! status will change to §YUnindustrialized§!"
+economy_undev_tt:0 "The §LEconomy§! status will change to §YUndeveloped§!"
+
+economy_hyind_desc:0 "The economic development of this country is hyperindustrialized, with large and thriving industrial basins being widespread. The industrial methods and machinery are modern and efficient, and agriculture is widely mechanized. Modern societal developments, such as education and access to contraceptives, have led to lowered birth rates.\n§YModifiers:§!\nFactory Output: §G+15.00%§!\nDockyard Output: §G+15.00%§!\nConstruction Speed: §G+15.00%§!\nResearch Speed: §G+10.00%§!\nMonthly Population: §R-15.0%§!"
+economy_ind_desc:0 "The economic development of this country is industrialized, with numerous healthy industrial centres. The industrial methods and machinery are relatively modern and efficient, and agriculture is notable but nonetheless outinfluenced by the industrial sector. Modern societal developments, such as education and access to contraceptives, have led to lowered birth rates.\n§YModifiers:§!\nFactory Output: §G+10.00%§!\nDockyard Output: §G+10.00%§!\nConstruction Speed: §G+10.00%§!\nResearch Speed: §G+5.00%§!\nMonthly Population: §R-10.0%§!"
+economy_semind_desc:0 "The economic development of this country is semi-industrialized, with a few important industrial centres. The industrial methods and machinery are lacking in modernization and efficiency, and agriculture remains highly influential in the economy. The gradually modernizing societal developments have led to lower birth rates, while remaining higher than in pre-industrial times.\n§YModifiers:§!\nFactory Output: §G+5.00%§!\nDockyard Output: §G+5.00%§!\nConstruction Speed: §G+5.00%§!\nMonthly Population: §G+5.0%§!"
+economy_indzing_desc:0 "The economic development of this country is industrializing, with a small but growing industrial sector. The industrial methods and machinery are decades behind but are gradually modernizing, and the largely unmodernized agricultural sector remains dominant. Increased access to healthcare has led to a drop in death rates, leading to significant population growth.\n§YModifiers:§!\nFactory Output: §R-5.00%§!\nDockyard Output: §R-5.00%§!\n§YCivilian Factory§! construction speed: §G+5.00%§!\nResearch Speed: §R-5.00%§!\nMonthly Population: §G+15.0%§!"
+economy_unind_desc:0 "The economic development of this country is unindustrialized, with only limited urbanization. Agriculture remains extremely dominant, and what little light industry exists is largely unimportant and greatly lacking in modernization. A lack of access to healthcare has led to lower population growth due to high death rates.\n§YModifiers:§!\nStability: §R-5.00%§!\nFactory Output: §R-10.00%§!\nDockyard Output: §R-10.00%§!\nConstruction Speed: §R-10.00%§!\nResearch Speed: §R-10.00%§!\nMonthly Population: §R-10.0%§!"
+economy_undev_desc:0 "The economic development of this country is undeveloped, with little to no urbanization. The economy lacks a coherent organization, with traditional agricultural and societal structures standing dominant and largely unsupervised by any government. An extreme lack of access to healthcare has led to stagnant population growth due to very high death rates.\n§YModifiers:§!\nStability: §R-10.00%§!\nFactory Output: §R-20.00%§!\nDockyard Output: §R-20.00%§!\nConstruction Speed: §R-20.00%§!\nResearch Speed: §R-20.00%§!\nMonthly Population: §R-20.0%§!"
+
+#Trade
+
+Trade_Aut_Text:0 "[GetTradeAut]"
+Trade_Aut_Text_Active:0 "§YAutarkic§!"
+Trade_Aut_Text_Inactive:0 "Autarkic"
+
+Trade_Nat_Text:0 "[GetTradeNat]"
+Trade_Nat_Text_Active:0 "§YNationalistic§!"
+Trade_Nat_Text_Inactive:0 "Nationalistic"
+
+Trade_Pro_Text:0 "[GetTradePro]"
+Trade_Pro_Text_Active:0 "§YProtectionist§!"
+Trade_Pro_Text_Inactive:0 "Protectionist"
+
+Trade_Sempro_Text:0 "[GetTradeSempro]"
+Trade_Sempro_Text_Active:0 "§YSemi-Protectionist§!"
+Trade_Sempro_Text_Inactive:0 "Semi-Protectionist"
+
+Trade_Laif_Text:0 "[GetTradeLaif]"
+Trade_Laif_Text_Active:0 "§YLaissez-Faire§!"
+Trade_Laif_Text_Inactive:0 "Laissez-Faire"
+
+trade_aut:0 "Autarkic Trade"
+trade_nat:0 "Nationalistic Trade"
+trade_pro:0 "Protectionist Trade"
+trade_sempro:0 "Semi-Protectionist Trade"
+trade_laif:0 "Laissez-Faire Trade"
+
+trade_aut_tt:0 "The §LTrade§! law will change to §YAutarkic§!"
+trade_nat_tt:0 "The §LTrade§! law will change to §YNationalistic§!"
+trade_pro_tt:0 "The §LTrade§! law will change to §YProtectionist§!"
+trade_sempro_tt:0 "The §LTrade§! law will change to §YSemi-Protectionist§!"
+trade_laif_tt:0 "The §LTrade§! law will change to §YLaissez-Faire§!"
+
+trade_aut_desc:0 "The trade policy is based around seeking autarky, or self-sufficiency, through conserving natural resources and produced goods for the advancement of the country.\n§YModifiers:§!\nResources to Market: §Y+40.00%§!\nResource Gain Efficiency: §G+10.00%§!\n§YMilitary Factory§! construction speed: §G+5.00%§!\nCivilian intelligence to others: §R+10.00%§!"
+trade_nat_desc:0 "The trade policy is based around conserving resources and goods to achieve self-sufficiency in specific economic sectors, while still embracing the global market.\n§YModifiers:§!\nResources to Market: §Y+50.00%§!\nResource Gain Efficiency: §G+5.00%§!\n§YMilitary Factory§! construction speed: §G+2.50%§!\nCivilian intelligence to others: §R+15.00%§!"
+trade_pro_desc:0 "The trade policy is based around implementing restrictions on imports, which serves to protect domestic producers. This has the adverse effect of reducing influence in the global market, however.\n§YModifiers:§!\nResources to Market: §Y+60.00%§!\nResource Gain Efficiency: §G+2.50%§!\nCivilian intelligence to others: §R+20.00%§!"
+trade_sempro_desc:0 "The trade policy is based around implementing restrictions in specific areas of trade while embracing the free market in other areas.\n§YModifiers:§!\nResources to Market: §Y+70.00%§!\n§YCivilian Factory§! construction speed: §G+5.00%§!\nCivilian intelligence to others: §R+30.00%§!"
+trade_laif_desc:0 "The trade policy is based around reducing as many restrictions as possible on trade for the purpose of embracing the free market.\n§YModifiers:§!\nResources to Market: §Y+80.00%§!\n§YCivilian Factory§! construction speed: §G+10.00%§!\nCivilian intelligence to others: §R+40.00%§!"
+
+#Governance
+
+Governance_Bure_Text:0 "[GetGovernanceBure]"
+Governance_Bure_Text_Active:0 "§YBureaucratic§!"
+Governance_Bure_Text_Inactive:0 "Bureaucratic"
+
+Governance_Coun_Text:0 "[GetGovernanceCoun]"
+Governance_Coun_Text_Active:0 "§YCouncilist§!"
+Governance_Coun_Text_Inactive:0 "Councilist"
+
+Governance_Col_Text:0 "[GetGovernanceCol]"
+Governance_Col_Text_Active:0 "§YCollectivist§!"
+Governance_Col_Text_Inactive:0 "Collectivist"
+
+Governance_Par_Text:0 "[GetGovernancePar]"
+Governance_Par_Text_Active:0 "§YParliamentary§!"
+Governance_Par_Text_Inactive:0 "Parliamentary"
+
+Governance_Exec_Text:0 "[GetGovernanceExec]"
+Governance_Exec_Text_Active:0 "§YExecutive§!"
+Governance_Exec_Text_Inactive:0 "Executive"
+
+Governance_Tot_Text:0 "[GetGovernanceTot]"
+Governance_Tot_Text_Active:0 "§YTotalitarian§!"
+Governance_Tot_Text_Inactive:0 "Totalitarian"
+
+Governance_Abs_Text:0 "[GetGovernanceAbs]"
+Governance_Abs_Text_Active:0 "§YAbsolutist§!"
+Governance_Abs_Text_Inactive:0 "Absolutist"
+
+Governance_Tri_Text:0 "[GetGovernanceTri]"
+Governance_Tri_Text_Active:0 "§YTribalistic§!"
+Governance_Tri_Text_Inactive:0 "Tribalistic"
+
+Governance_Colo_Text:0 "[GetGovernanceColo]"
+Governance_Colo_Text_Active:0 "§YColonialist§!"
+Governance_Colo_Text_Inactive:0 "Colonialist"
+
+governance_bure:0 "Bureaucratic Governance"
+governance_coun:0 "Councilist Governance"
+governance_col:0 "Collectivist Governance"
+governance_par:0 "Parliamentary Governance"
+governance_exec:0 "Executive Governance"
+governance_tot:0 "Totalitarian Governance"
+governance_abs:0 "Absolutist Governance"
+governance_tri:0 "Tribalistic Governance"
+governance_colo:0 "Colonialist Governance"
+
+governance_bure_tt:0 "The §LGovernance§! form will change to §YBureaucratic§!"
+governance_coun_tt:0 "The §LGovernance§! form will change to §YCouncilist§!"
+governance_col_tt:0 "The §LGovernance§! form will change to §YCollectivist§!"
+governance_par_tt:0 "The §LGovernance§! form will change to §YParliamentary§!"
+governance_exec_tt:0 "The §LGovernance§! form will change to §YExecutive§!"
+governance_tot_tt:0 "The §LGovernance§! form will change to §YTotalitarian§!"
+governance_abs_tt:0 "The §LGovernance§! form will change to §YAbsolutist§!"
+governance_tri_tt:0 "The §LGovernance§! form will change to §YTribalistic§!"
+governance_colo_tt:0 "The §LGovernance§! form will change to §YColonialist§!"
+
+governance_bure_desc:0 "The government is bureaucratic, being administered and controlled largely by unelected officials and groups. This is a §xsocialist§! form of government.\n§YModifiers:§!\nConstruction Speed: §G+3.00%§!"
+governance_coun_desc:0 "The government is councilist, being administered by officials elected through a system of workers' councils. This is a §xsocialist§! form of government.\n§YModifiers:§!\nFactory Output: §G+3.00%§!"
+governance_col_desc:0 "The government is collectivist, being administered through some form of popular socialist democracy. This is a §xsocialist§! form of government.\n§YModifiers:§!\nDaily Compliance Gain: §G+0.01%§!"
+governance_par_desc:0 "The government is parliamentary, being administered by officials elected in a representative parliamentary system. This is a §ddemocratic§! form of government.\n§YModifiers:§!\nWar Penalty Stability Modifier: §G+5.00%§!"
+governance_exec_desc:0 "The government is executive, being administered primarily by a single elected official such as a President. This is a §ddemocratic§! form of government.\n§YModifiers:§!\nPolitical Power Gain: §G+3%§!"
+governance_tot_desc:0 "The government is totalitarian, being administered by legally elected officials within an undemocratic system. This is a §gdictatorial§! form of government.\n§YModifiers:§!\nStability: §G+3.00%§!"
+governance_abs_desc:0 "The government is absolutist, being administered largely by an unelected strongman leadership. This is a §gdictatorial§! form of government.\n§YModifiers:§!\nWar Support: §G+3.00%§!"
+governance_tri_desc:0 "The government is tribalistic, being decentrally administered by various tribes and their leaders. This is a §ydisorganized§! form of government.\n§YModifiers:§!\nDivision Attrition: §G-5.0%§!"
+governance_colo_desc:0 "The government is colonialist, being administered by colonial administrators and governors. This is a §ydisorganized§! form of government.\n§YModifiers:§!\nResource Gain Efficiency: §G+5.00%§!"
+
+##Decisions
+
+governance_decisions:0 "Governance Decisions"
+
+governance_party_pop_bonus:0 "Strengthen Our Ruling Party"
+governance_stability_bonus:0 "Stabilize the Country"
+governance_war_support_bonus:0 "Launch a War Propaganda Campaign"
+governance_construction_bonus:0 "Subsidize Industrial Development"
+governance_building_slot_bonus:0 "Clear Land for Industrial Expansion"
+
+#Conscription\
+
+RECRUITMENT_INCREASE:0 "§YIncrease Recruitment Law§!\n£pol_power Political Power Change: §R-150§!.\n\nTo increase your recruitment law, you must meet the conditions stated in the next highest law.\n\n§RIf manual recruitment has been disabled in your nation, or if you have the§! §YColonial Army§! §Ror§! §YDisarmed§! §Rlaw, this will not be available.§!"
+RECRUITMENT_DECREASE:0 "§YDecrease Recruitment Law§!\n£pol_power Political Power Change: §R-50§!.\n\n§RIf manual recruitment has been disabled in your nation, or if you have the§! §YColonial Army§! §Ror§! §YDisarmed§! §Rlaw, this will not be available.§!"
+
+Conscription_16_60_Text:0 "[GetRecruitment1660]"
+Conscription_16_60_Text_Active:0 "§YConscription, 16-60§!"
+Conscription_16_60_Text_Inactive:0 "Conscription, 16-60"
+
+Conscription_18_50_Text:0 "[GetRecruitment1850]"
+Conscription_18_50_Text_Active:0 "§YConscription, 18-50§!"
+Conscription_18_50_Text_Inactive:0 "Conscription, 18-50"
+
+Conscription_18_40_Text:0 "[GetRecruitment1840]"
+Conscription_18_40_Text_Active:0 "§YConscription, 18-40§!"
+Conscription_18_40_Text_Inactive:0 "Conscription, 18-40"
+
+Conscription_18_35_Text:0 "[GetRecruitment1835]"
+Conscription_18_35_Text_Active:0 "§YConscription, 18-35§!"
+Conscription_18_35_Text_Inactive:0 "Conscription, 18-35"
+
+Conscription_18_30_Text:0 "[GetRecruitment1830]"
+Conscription_18_30_Text_Active:0 "§YConscription, 18-30§!"
+Conscription_18_30_Text_Inactive:0 "Conscription, 18-30"
+
+Conscription_18_25_Text:0 "[GetRecruitment1825]"
+Conscription_18_25_Text_Active:0 "§YConscription, 18-25§!"
+Conscription_18_25_Text_Inactive:0 "Conscription, 18-25"
+
+Volunteer_Only_Text:0 "[GetRecruitmentVolunteer]"
+Volunteer_Only_Text_Active:0 "§YVolunteer Only§!"
+Volunteer_Only_Text_Inactive:0 "Volunteer Only"
+
+Colonial_Army_Text:0 "[GetRecruitmentColonial]"
+Colonial_Army_Text_Active:0 "§YColonial Army§!"
+Colonial_Army_Text_Inactive:0 "Colonial Army"
+
+Disarmed_Text:0 "[GetRecruitmentDisarmed]"
+Disarmed_Text_Active:0 "§YDisarmed§!"
+Disarmed_Text_Inactive:0 "Disarmed"
+
+recruitment_1660:0 "Conscription, 16-60"
+recruitment_1850:0 "Conscription, 18-50"
+recruitment_1840:0 "Conscription, 18-40"
+recruitment_1835:0 "Conscription, 18-35"
+recruitment_1830:0 "Conscription, 18-30"
+recruitment_1825:0 "Conscription, 18-25"
+recruitment_volunteer:0 "Volunteer Only"
+recruitment_colonial:0 "Colonial Army"
+recruitment_disarmed:0 "Disarmed Army"
+
+recruitment_1660_tt:0 "The §LRecruitment§! law will change to §YConscription, 16-60§!"
+recruitment_1850_tt:0 "The §LRecruitment§! law will change to §YConscription, 18-50§!"
+recruitment_1840_tt:0 "The §LRecruitment§! law will change to §YConscription, 18-40§!"
+recruitment_1835_tt:0 "The §LRecruitment§! law will change to §YConscription, 18-35§!"
+recruitment_1830_tt:0 "The §LRecruitment§! law will change to §YConscription, 18-30§!"
+recruitment_1825_tt:0 "The §LRecruitment§! law will change to §YConscription, 18-25§!"
+recruitment_volunteer_tt:0 "The §LRecruitment§! law will change to §YVolunteer Only§!"
+recruitment_colonial_tt:0 "The §LRecruitment§! law will change to §YColonial Army§!"
+recruitment_disarmed_tt:0 "The §LRecruitment§! law will change to §YDisarmed§!"
+
+recruitment_1660_desc:0 "All eligible people between the ages of 16 and 60 years old are conscripted to our army.\n§YPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y90%§! War Support\n§YModifiers:§!\nRecruitable Population: §Y25.00%§!\nStability: §R-40.00%§!\nFactory Output: §R-35.00%§!\nDockyard Output: §R-35.00%§!\nConstruction Speed: §R-35.00%§!\nTraining Time: §R+35.00%§!"
+recruitment_1850_desc:0 "All eligible people between the ages of 18 and 50 years old are conscripted to our army.\n§YPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y75%§! War Support\n§YModifiers:§!\nRecruitable Population: §Y15.00%§!\nStability: §R-30.00%§!\nFactory Output: §R-25.00%§!\nDockyard Output: §R-25.00%§!\nConstruction Speed: §R-25.00%§!\nTraining Time: §R+25.00%§!"
+recruitment_1840_desc:0 "All eligible people between the ages of 18 and 40 years old are conscripted to our army.\n§YPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y65%§! War Support\n§YModifiers:§!\nRecruitable Population: §Y10.00%§!\nStability: §R-20.00%§!\nFactory Output: §R-15.00%§!\nDockyard Output: §R-15.00%§!\nConstruction Speed: §R-15.00%§!\nTraining Time: §R+15.00%§!"
+recruitment_1835_desc:0 "All eligible people between the ages of 18 and 35 years old are conscripted to our army.\n§YPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y50%§! War Support\n§YModifiers:§!\nRecruitable Population: §Y7.50%§!\nStability: §R-15.00%§!\nFactory Output: §R-10.00%§!\nDockyard Output: §R-10.00%§!\nConstruction Speed: §R-10.00%§!\nTraining Time: §R+10.00%§!"
+recruitment_1830_desc:0 "All eligible people between the ages of 18 and 30 years old are conscripted to our army.\n§YPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y40%§! War Support\n§YModifiers:§!\nRecruitable Population: §Y5.00%§!\nStability: §R-5.00%§!\nFactory Output: §R-5.00%§!\nDockyard Output: §R-5.00%§!\nConstruction Speed: §R-5.00%§!\nTraining Time: §R+5.00%§!"
+recruitment_1825_desc:0 "All eligible people between the ages of 18 and 25 years old are conscripted to our army.\n§YPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y25%§! War Support\n§YModifiers:§!\nRecruitable Population: §Y2.50%§!"
+recruitment_volunteer_desc:0 "The army is composed entirely of eligible volunteers.\n§YModifiers:§!\nRecruitable Population: §Y1.50%§!\nStability: §G+5.00%§!"
+recruitment_colonial_desc:0 "Only a small amount of the native population is recruited as part of a colonial levy.\n§YModifiers:§!\nRecruitable Population: §Y1.00%§!\nStability: §R-5.00%§!"
+recruitment_disarmed_desc:0 "The army is disarmed and only a very small amount of volunteers can be recruited.\n§YModifiers:§!\nRecruitable Population: §Y0.50%§!\nWar Support: §R-10.00%§!"
+
+#Mobilization
+
+MOBILIZATION_INCREASE:0 "§YIncrease Mobilization Level§!\n£pol_power Political Power Change: §R-200§!.\n\nTo increase your mobilization level, you must meet the conditions stated in the next highest level.\n\n§RIf manual mobilization has been disabled in your nation this will not be available.§!"
+MOBILIZATION_DECREASE:0 "§YDecrease Mobilization Level§!\n£pol_power Political Power Change: §R-50§!.\n\n§RIf manual mobilization has been disabled in your nation this will not be available.§!"
+
+mobilization_broken_desc:0 "If you see this then that means this country has no mobilization idea. This is a bug!"
+mobilization_1_desc:0 "§YMobilization Level 1/10§!\n§YModifiers:§!\nStability: §G+25.00%§!\nConsumer Goods Factories: §Y55.0%§!\n§YCivilian Factory§! construction speed: §R-50.00%§!\n§YMilitary Factory§! construction speed: §R-50.00%§!\n§YDockyard§! construction speed: §R-40.00%§!\nCivilian to Military Factory conversion cost: §R+50.00%§!\nMilitary to Civilian Factory conversion cost: §R+50.00%§!\nFuel Capacity: §R-45.00%§!\nFuel Gain per Oil: §R-60.00%§!"
+mobilization_2_desc:0 "§YMobilization Level 2/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y10%§! War Support\n§YModifiers:§!\nStability: §G+20.00%§!\nConsumer Goods Factories: §Y50.0%§!\n§YCivilian Factory§! construction speed: §R-40.00%§!\n§YMilitary Factory§! construction speed: §R-40.00%§!\n§YDockyard§! construction speed: §R-30.00%§!\nCivilian to Military Factory conversion cost: §R+40.00%§!\nMilitary to Civilian Factory conversion cost: §R+40.00%§!\nFuel Capacity: §R-35.00%§!\nFuel Gain per Oil: §R-50.00%§!"
+mobilization_3_desc:0 "§YMobilization Level 3/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y20%§! War Support\n§YModifiers:§!\nStability: §G+15.00%§!\nConsumer Goods Factories: §Y45.0%§!\n§YCivilian Factory§! construction speed: §R-30.00%§!\n§YMilitary Factory§! construction speed: §R-30.00%§!\n§YDockyard§! construction speed: §R-20.00%§!\nCivilian to Military Factory conversion cost: §R+30.00%§!\nMilitary to Civilian Factory conversion cost: §R+30.00%§!\nFuel Capacity: §R-25.00%§!\nFuel Gain per Oil: §R-40.00%§!"
+mobilization_4_desc:0 "§YMobilization Level 4/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y30%§! War Support\n§YModifiers:§!\nStability: §G+10.00%§!\nConsumer Goods Factories: §Y40.0%§!\n§YCivilian Factory§! construction speed: §R-20.00%§!\n§YMilitary Factory§! construction speed: §R-20.00%§!\n§YDockyard§! construction speed: §R-10.00%§!\nCivilian to Military Factory conversion cost: §R+20.00%§!\nMilitary to Civilian Factory conversion cost: §R+20.00%§!\nFuel Capacity: §R-15.00%§!\nFuel Gain per Oil: §R-30.00%§!"
+mobilization_5_desc:0 "§YMobilization Level 5/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y40%§! War Support\n§YModifiers:§!\nStability: §G+5.00%§!\nConsumer Goods Factories: §Y35.0%§!\n§YCivilian Factory§! construction speed: §R-10.00%§!\n§YMilitary Factory§! construction speed: §R-10.00%§!\nCivilian to Military Factory conversion cost: §R+10.00%§!\nMilitary to Civilian Factory conversion cost: §R+10.00%§!\nFuel Capacity: §R-5.00%§!\nFuel Gain per Oil: §R-20.00%§!"
+mobilization_6_desc:0 "§YMobilization Level 6/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y50%§! War Support\n§YModifiers:§!\nStability: §R-5.00%§!\nConsumer Goods Factories: §Y30.0%§!\n§YMilitary Factory§! construction speed: §G+5.00%§!\nCivilian to Military Factory conversion cost: §G-5.00%§!\nMilitary to Civilian Factory conversion cost: §G-5.00%§!\nFuel Gain per Oil: §R-10.00%§!"
+mobilization_7_desc:0 "§YMobilization Level 7/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y60%§! War Support\n§YModifiers:§!\nStability: §R-10.00%§!\nRecruitable Population Factor: §R-5%§!\nConsumer Goods Factories: §Y25.0%§!\n§YMilitary Factory§! construction speed: §G+10.00%§!\nCivilian to Military Factory conversion cost: §G-10.00%§!\nMilitary to Civilian Factory conversion cost: §G-10.00%§!"
+mobilization_8_desc:0 "§YMobilization Level 8/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y70%§! War Support\n§YModifiers:§!\nStability: §R-15.00%§!\nRecruitable Population Factor: §R-10%§!\nConsumer Goods Factories: §Y20.0%§!\n§YMilitary Factory§! construction speed: §G+15.00%§!\nCivilian to Military Factory conversion cost: §G-15.00%§!\nMilitary to Civilian Factory conversion cost: §G-15.00%§!"
+mobilization_9_desc:0 "§YMobilization Level 9/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y80%§! War Support\n§YModifiers:§!\nStability: §R-20.00%§!\nRecruitable Population Factor: §R-15%§!\nConsumer Goods Factories: §Y15.0%§!\n§YMilitary Factory§! construction speed: §G+20.00%§!\nCivilian to Military Factory conversion cost: §G-20.00%§!\nMilitary to Civilian Factory conversion cost: §G-20.00%§!"
+mobilization_10_desc:0 "§YMobilization Level 10/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y90%§! War Support\n§YModifiers:§!\nStability: §R-25.00%§!\nRecruitable Population Factor: §R-20%§!\nConsumer Goods Factories: §Y10.0%§!\n§YMilitary Factory§! construction speed: §G+25.00%§!\nCivilian to Military Factory conversion cost: §G-25.00%§!\nMilitary to Civilian Factory conversion cost: §G-25.00%§!"
+
+mobilization_1:0 "Mobilization Level 1/10"
+mobilization_2:0 "Mobilization Level 2/10"
+mobilization_3:0 "Mobilization Level 3/10"
+mobilization_4:0 "Mobilization Level 4/10"
+mobilization_5:0 "Mobilization Level 5/10"
+mobilization_6:0 "Mobilization Level 6/10"
+mobilization_7:0 "Mobilization Level 7/10"
+mobilization_8:0 "Mobilization Level 8/10"
+mobilization_9:0 "Mobilization Level 9/10"
+mobilization_10:0 "Mobilization Level 10/10"
+
+mobilization_decisions:0 "Mobilization Decisions"
+AI_increase_mobilization:0 "AI: Increase Mobilization"
+AI_increase_mobilization_desc:0 "This is here so the AI can increase its mobilization level. If you see this outside of observer mode then something is wrong!"
+AI_increase_conscription:0 "AI: Increase Conscription"
+AI_increase_conscription_desc:0 "This is here so the AI can increase its recruitment law. If you see this outside of observer mode then something is wrong!"
+
+#Coal Shortage
+SP_coal_shortage:0 "Coal Shortage"
+coal_shortage_tooltip:0 "Your nation currently has a £resources_strip|7 §YCoal§! shortage, which is impacting the efficiency of the civilian and military industry. This lowers your §YConstruction Speed§! by §R-20%§!."
+
+SP_factional_rivalry:0 "Factional Rivalry"

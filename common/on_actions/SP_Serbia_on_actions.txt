@@ -1,0 +1,17 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			SER = {
+				country_event = { id = serbiatasty.2 days = 34 }
+				country_event = { id = serbiatasty.3 days = 54 }
+				country_event = { id = serbiatasty.4 days = 105 }
+				country_event = { id = serbiatasty.5 days = 979 }
+				country_event = { id = serbiatasty.8 days = 2615 }
+				country_event = { id = serbia.29 days = 15 }
+				country_event = { id = serbia.4 days = 120 }
+			}
+		}
+    }
+}
+
+

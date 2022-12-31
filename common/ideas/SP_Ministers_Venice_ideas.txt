@@ -1,0 +1,821 @@
+ideas = {
+################################################################################################################################################################################################
+### VNZ
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	VNZ_Giovanni_Battista_Gianquinto_hog_spa = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Bonaventura_Ferrazzutto_hog_rev = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Italico_Corradino_Cappellotto_hog_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Guido_Giacometti_hog_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Carlo_Caldera_hog_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Ferruccio_Morterra_hog_sde = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_smiling_oilman
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Guido_Bergamo_hog_sde = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Alessandro_Marcello_Del_Majno_hog_lco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_corporate_suit
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Celeste_Bastianetto_hog_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Giuseppe_Bettiol_hog_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Umberto_Merlin_hog_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+
+	VNZ_Giovanni_Tonetti_for_spa = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			foreign_minister
+			spartacist
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Igino_Borin_for_rev = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			foreign_minister
+			revolutionary_socialist
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Aldo_Fedeli_for_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Vitale_Giovanni_Gallina_for_sli = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Andrea_Emo_Capodilista_for_lco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Pietro_Lizier_for_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Antonio_Ferrarese_for_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	VNZ_Alberto_Fogagnolo_eco_spa = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Alcide_Malagugini_eco_rev = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			economy_minister
+			revolutionary_socialist
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Bonaventura_Ferrazzutto_eco_rev = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			economy_minister
+			revolutionary_socialist
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Gino_Luzzatto_eco_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			economy_minister
+			eco_railway_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Ferruccio_Morterra_eco_sde = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Giovanni_Battista_Cicogna_eco_lco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Gerolamo_Lino_Moro_eco_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_construction_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Antonio_Pavan_eco_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	VNZ_Lina_Merlin_sec_rev = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			security_minister
+			revolutionary_socialist
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Tommaso_Tonello_sec_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			security_minister
+			sec_health_and_safety
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Ugo_Vallenari_sec_sde = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Ernesto_Pietriboni_sec_sli = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Andrea_Da_Mosto_sec_lco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Angelo_Spanio_sec_lco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_media_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Giovanni_Favaretto_Fisca_sec_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_preserver_of_culture
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Cesarino_Crescente_sec_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	VNZ_Marcantonio_Bragadin_def_ref = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			defence_minister
+			def_industrial_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Ugo_Facco_De_Lagarda_def_sde = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Ugo_Luca_def_sli = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Giovanni_Barbini_def_sco = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	VNZ_Arduino_Polla_cos = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Mario_Lizzero_cos = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Dino_Candotti_cos = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Giacomo_Miari_de_Cumani_cos = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	VNZ_Michele_Vaccaro_carm = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Gino_Beltrame_carm = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Giovanni_Cleva_carm = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	VNZ_Aldo_Moretti_carm = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Antonio_Scaramuzza_carm = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	VNZ_Isidoro_Wiel_cnav = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	VNZ_Guido_Masiero_cair = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	VNZ_Sebastiano_Bedendo_cair = {
+		allowed = {original_tag = VNZ}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_naval_aviation_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

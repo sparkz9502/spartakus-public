@@ -1,0 +1,26 @@
+state={
+	id=1180
+	name="STATE_1180"
+	provinces={
+		14773 
+	}
+	history={
+		owner = SAF
+		add_core_of = SAF
+		buildings = {
+			infrastructure = 2
+			14773 = {
+				naval_base = 3
+
+			}
+
+		}
+		victory_points = {
+			14773 1 
+		}
+
+	}
+	manpower=12700
+	state_category = enclave
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=1295
+	name="STATE_1295"
+	provinces={
+		3790 6880 
+	}
+	history={
+		victory_points = {
+			3790 3 
+		}
+		victory_points = {
+			6880 1 
+		}
+		owner = POR
+		buildings = {
+			infrastructure = 2
+			3790 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = POR
+		add_core_of = PRM
+
+	}
+	manpower=300800
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

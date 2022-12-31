@@ -1,0 +1,763 @@
+### Scripted Effects for Opinion Modifiers, Trade Opinions, Coalitions, Party Bans, War Exhaustion, etc
+### Written by NatSpi and sparkz
+
+SP_ideology_opinion_gamestart_setup = {
+	if = {
+		limit = {
+			has_socialist_government = yes
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_elected_government = yes
+					has_authoritarian_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_elected_government = yes
+		}
+		every_country = {
+			limit = {
+				has_elected_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_authoritarian_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_liberal_v_right_ideology
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_authoritarian_government = yes
+		}
+		every_country = {
+			limit = {
+				has_authoritarian_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_elected_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_liberal_v_right_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+	}
+	every_country = {
+		limit = {
+			has_same_government_as_ROOT = yes
+		}
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+	}
+}
+
+SP_ideology_opinion_govtchange_setup = {
+	if = {
+		limit = {
+			has_socialist_government = yes
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				OR = {
+					has_elected_government = yes
+					has_authoritarian_government = yes
+				}
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_elected_government = yes
+		}
+		every_country = {
+			limit = {
+				has_elected_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_authoritarian_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_liberal_v_right_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_liberal_v_right_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_same_government_as_ROOT = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_same_ideology
+			}
+		}
+	}
+	else_if = {
+		limit = {
+			has_authoritarian_government = yes
+		}
+		every_country = {
+			limit = {
+				has_authoritarian_government = yes
+				NOT = { has_same_government_as_ROOT = yes }
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_similar_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_elected_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_liberal_v_right_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_liberal_v_right_ideology
+			}
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+			}
+			add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+			reverse_add_opinion_modifier = {
+				target = ROOT
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+	}
+	every_country = {
+		limit = {
+			has_same_government_as_ROOT = yes
+		}
+		add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+		reverse_add_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+	}
+}
+
+SP_soc_cap_embargo_effect = {
+	if = {
+		limit = {
+			OR = {
+				OR = {
+					original_tag = ENG
+					is_in_faction_with = ENG
+				}
+				OR = {
+					original_tag = FRA
+					is_in_faction_with = FRA
+				}
+				OR = {
+					original_tag = JAP
+					is_subject_of = JAP
+				}
+				OR = {
+					original_tag = ITA
+					is_subject_of = ITA
+				}
+				has_country_flag = SP_embargoed_socialists
+			}
+		}
+		every_country = {
+			limit = {
+				has_socialist_government = yes
+			}
+			add_opinion_modifier = {
+				target = PREV
+				modifier = SP_soc_cap_embargo
+			}
+			reverse_add_opinion_modifier = {
+				target = PREV
+				modifier = SP_soc_cap_embargo
+			}
+		}
+	}
+}
+
+SP_remove_ideology_opinion = {
+	every_country = {
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_similar_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_similar_ideology
+			}
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_different_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_different_ideology
+			}
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_same_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_same_ideology
+			}
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_capitalist_v_socialist_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_capitalist_v_socialist_ideology
+			}
+		}
+		remove_opinion_modifier = {
+			target = ROOT
+			modifier = SP_liberal_v_right_ideology
+		}
+		ROOT = {
+			remove_opinion_modifier = {
+				target = PREV
+				modifier = SP_liberal_v_right_ideology
+			}
+		}
+	}
+}
+
+SP_dynamic_modifier_eval = {
+	
+	set_temp_variable = { SP_ruling_party_pop_div_pp_temp = SP_ruling_party_pop }
+	divide_temp_variable = { SP_ruling_party_pop_div_pp_temp = 100 }
+	set_variable = { SP_ruling_party_pop_div_pp = SP_ruling_party_pop_div_pp_temp }
+	
+	set_temp_variable = { SP_ruling_party_pop_div_stability_temp = SP_ruling_party_pop }
+	divide_temp_variable = { SP_ruling_party_pop_div_stability_temp = 1000 }
+	set_variable = { SP_ruling_party_pop_div_stability = SP_ruling_party_pop_div_stability_temp }
+	
+}
+
+SP_coalition_pop_eval = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		set_country_flag = coalition_bolshevist
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		set_country_flag = coalition_spartacist
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		set_country_flag = coalition_revolutionary_socialist
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		set_country_flag = coalition_reformist_socialist
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		set_country_flag = coalition_social_democrat
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		set_country_flag = coalition_social_liberal
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		set_country_flag = coalition_liberal_conservative
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		set_country_flag = coalition_social_conservative
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		set_country_flag = coalition_authoritarian_conservative
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		set_country_flag = coalition_right_wing_populist
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		set_country_flag = coalition_national_syndicalist
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		set_country_flag = coalition_national_corporatist
+	}
+	set_variable = { SP_ruling_party_pop = 0 }
+	if = {
+		limit = {
+			has_country_flag = coalition_bolshevist
+		}
+		set_temp_variable = { SP_bolshevist_pop = party_popularity@bolshevist }
+		multiply_temp_variable = { SP_bolshevist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_bolshevist_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_spartacist
+		}
+		set_temp_variable = { SP_spartacist_pop = party_popularity@spartacist }
+		multiply_temp_variable = { SP_spartacist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_spartacist_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_revolutionary_socialist
+		}
+		set_temp_variable = { SP_revolutionary_socialist_pop = party_popularity@revolutionary_socialist }
+		multiply_temp_variable = { SP_revolutionary_socialist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_revolutionary_socialist_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_reformist_socialist
+		}
+		set_temp_variable = { SP_reformist_socialist_pop = party_popularity@reformist_socialist }
+		multiply_temp_variable = { SP_reformist_socialist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_reformist_socialist_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_social_democrat
+		}
+		set_temp_variable = { SP_social_democrat_pop = party_popularity@social_democrat }
+		multiply_temp_variable = { SP_social_democrat_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_social_democrat_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_social_liberal
+		}
+		set_temp_variable = { SP_social_liberal_pop = party_popularity@social_liberal }
+		multiply_temp_variable = { SP_social_liberal_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_social_liberal_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_liberal_conservative
+		}
+		set_temp_variable = { SP_liberal_conservative_pop = party_popularity@liberal_conservative }
+		multiply_temp_variable = { SP_liberal_conservative_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_liberal_conservative_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_social_conservative
+		}
+		set_temp_variable = { SP_social_conservative_pop = party_popularity@social_conservative }
+		multiply_temp_variable = { SP_social_conservative_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_social_conservative_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_authoritarian_conservative
+		}
+		set_temp_variable = { SP_authoritarian_conservative_pop = party_popularity@authoritarian_conservative }
+		multiply_temp_variable = { SP_authoritarian_conservative_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_authoritarian_conservative_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_right_wing_populist
+		}
+		set_temp_variable = { SP_right_wing_populist_pop = party_popularity@right_wing_populist }
+		multiply_temp_variable = { SP_right_wing_populist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_right_wing_populist_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_national_syndicalist
+		}
+		set_temp_variable = { SP_national_syndicalist_pop = party_popularity@national_syndicalist }
+		multiply_temp_variable = { SP_national_syndicalist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_national_syndicalist_pop }
+	}
+	if = {
+		limit = {
+			has_country_flag = coalition_national_corporatist
+		}
+		set_temp_variable = { SP_national_corporatist_pop = party_popularity@national_corporatist }
+		multiply_temp_variable = { SP_national_corporatist_pop = 100 }
+		add_to_variable = { SP_ruling_party_pop = SP_national_corporatist_pop }
+	}
+}
+
+add_coalition_bolshevist = {
+	custom_effect_tooltip = add_bolshevist_coalition_tt
+	set_country_flag = coalition_bolshevist
+}
+add_coalition_spartacist = {
+	custom_effect_tooltip = add_spartacist_coalition_tt
+	set_country_flag = coalition_spartacist
+}
+add_coalition_revolutionary_socialist = {
+	custom_effect_tooltip = add_revolutionary_socialist_coalition_tt
+	set_country_flag = coalition_revolutionary_socialist
+}
+add_coalition_reformist_socialist = {
+	custom_effect_tooltip = add_reformist_socialist_coalition_tt
+	set_country_flag = coalition_reformist_socialist
+}
+add_coalition_social_democrat = {
+	custom_effect_tooltip = add_social_democrat_coalition_tt
+	set_country_flag = coalition_social_democrat
+}
+add_coalition_social_liberal = {
+	custom_effect_tooltip = add_social_liberal_coalition_tt
+	set_country_flag = coalition_social_liberal
+}
+add_coalition_liberal_conservative = {
+	custom_effect_tooltip = add_liberal_conservative_coalition_tt
+	set_country_flag = coalition_liberal_conservative
+}
+add_coalition_social_conservative = {
+	custom_effect_tooltip = add_social_conservative_coalition_tt
+	set_country_flag = coalition_social_conservative
+}
+add_coalition_authoritarian_conservative = {
+	custom_effect_tooltip = add_authoritarian_conservative_coalition_tt
+	set_country_flag = coalition_authoritarian_conservative
+}
+add_coalition_right_wing_populist = {
+	custom_effect_tooltip = add_right_wing_populist_coalition_tt
+	set_country_flag = coalition_right_wing_populist
+}
+add_coalition_national_syndicalist = {
+	custom_effect_tooltip = add_national_syndicalist_coalition_tt
+	set_country_flag = coalition_national_syndicalist
+}
+add_coalition_national_corporatist = {
+	custom_effect_tooltip = add_national_corporatist_coalition_tt
+	set_country_flag = coalition_national_corporatist
+}
+
+remove_coalition_bolshevist = {
+	custom_effect_tooltip = remove_bolshevist_coalition_tt
+	clr_country_flag = coalition_bolshevist
+}
+remove_coalition_spartacist = {
+	custom_effect_tooltip = remove_spartacist_coalition_tt
+	clr_country_flag = coalition_spartacist
+}
+remove_coalition_revolutionary_socialist = {
+	custom_effect_tooltip = remove_revolutionary_socialist_coalition_tt
+	clr_country_flag = coalition_revolutionary_socialist
+}
+remove_coalition_reformist_socialist = {
+	custom_effect_tooltip = remove_reformist_socialist_coalition_tt
+	clr_country_flag = coalition_reformist_socialist
+}
+remove_coalition_social_democrat = {
+	custom_effect_tooltip = remove_social_democrat_coalition_tt
+	clr_country_flag = coalition_social_democrat
+}
+remove_coalition_social_liberal = {
+	custom_effect_tooltip = remove_social_liberal_coalition_tt
+	clr_country_flag = coalition_social_liberal
+}
+remove_coalition_liberal_conservative = {
+	custom_effect_tooltip = remove_liberal_conservative_coalition_tt
+	clr_country_flag = coalition_liberal_conservative
+}
+remove_coalition_social_conservative = {
+	custom_effect_tooltip = remove_social_conservative_coalition_tt
+	clr_country_flag = coalition_social_conservative
+}
+remove_coalition_authoritarian_conservative = {
+	custom_effect_tooltip = remove_authoritarian_conservative_coalition_tt
+	clr_country_flag = coalition_authoritarian_conservative
+}
+remove_coalition_right_wing_populist = {
+	custom_effect_tooltip = remove_right_wing_populist_coalition_tt
+	clr_country_flag = coalition_right_wing_populist
+}
+remove_coalition_national_syndicalist = {
+	custom_effect_tooltip = remove_national_syndicalist_coalition_tt
+	clr_country_flag = coalition_national_syndicalist
+}
+remove_coalition_national_corporatist = {
+	custom_effect_tooltip = remove_national_corporatist_coalition_tt
+	clr_country_flag = coalition_national_corporatist
+}
+
+SP_clear_coalition_effect = {
+	custom_effect_tooltip = clear_coalition_tt
+	clr_country_flag = coalition_bolshevist
+	clr_country_flag = coalition_spartacist
+	clr_country_flag = coalition_revolutionary_socialist
+	clr_country_flag = coalition_reformist_socialist
+	clr_country_flag = coalition_social_democrat
+	clr_country_flag = coalition_social_liberal
+	clr_country_flag = coalition_liberal_conservative
+	clr_country_flag = coalition_social_conservative
+	clr_country_flag = coalition_authoritarian_conservative
+	clr_country_flag = coalition_right_wing_populist
+	clr_country_flag = coalition_national_syndicalist
+	clr_country_flag = coalition_national_corporatist
+}
+
+add_ban_bolshevist = {
+	custom_effect_tooltip = ban_bolshevist_tt
+	set_country_flag = banned_bolshevist
+}
+add_ban_spartacist = {
+	custom_effect_tooltip = ban_spartacist_tt
+	set_country_flag = banned_spartacist
+}
+add_ban_revolutionary_socialist = {
+	custom_effect_tooltip = ban_revolutionary_socialist_tt
+	set_country_flag = banned_revolutionary_socialist
+}
+add_ban_reformist_socialist = {
+	custom_effect_tooltip = ban_reformist_socialist_tt
+	set_country_flag = banned_reformist_socialist
+}
+add_ban_social_democrat = {
+	custom_effect_tooltip = ban_social_democrat_tt
+	set_country_flag = banned_social_democrat
+}
+add_ban_social_liberal = {
+	custom_effect_tooltip = ban_social_liberal_tt
+	set_country_flag = banned_social_liberal
+}
+add_ban_liberal_conservative = {
+	custom_effect_tooltip = ban_liberal_conservative_tt
+	set_country_flag = banned_liberal_conservative
+}
+add_ban_social_conservative = {
+	custom_effect_tooltip = ban_social_conservative_tt
+	set_country_flag = banned_social_conservative
+}
+add_ban_authoritarian_conservative = {
+	custom_effect_tooltip = ban_authoritarian_conservative_tt
+	set_country_flag = banned_authoritarian_conservative
+}
+add_ban_right_wing_populist = {
+	custom_effect_tooltip = ban_right_wing_populist_tt
+	set_country_flag = banned_right_wing_populist
+}
+add_ban_national_syndicalist = {
+	custom_effect_tooltip = ban_national_syndicalist_tt
+	set_country_flag = banned_national_syndicalist
+}
+add_ban_national_corporatist = {
+	custom_effect_tooltip = ban_national_corporatist_tt
+	set_country_flag = banned_national_corporatist
+}
+
+remove_ban_bolshevist = {
+	custom_effect_tooltip = remove_ban_bolshevist_tt
+	clr_country_flag = banned_bolshevist
+}
+remove_ban_spartacist = {
+	custom_effect_tooltip = remove_ban_spartacist_tt
+	clr_country_flag = banned_spartacist
+}
+remove_ban_revolutionary_socialist = {
+	custom_effect_tooltip = remove_ban_revolutionary_socialist_tt
+	clr_country_flag = banned_revolutionary_socialist
+}
+remove_ban_reformist_socialist = {
+	custom_effect_tooltip = remove_ban_reformist_socialist_tt
+	clr_country_flag = banned_reformist_socialist
+}
+remove_ban_social_democrat = {
+	custom_effect_tooltip = remove_ban_social_democrat_tt
+	clr_country_flag = banned_social_democrat
+}
+remove_ban_social_liberal = {
+	custom_effect_tooltip = remove_ban_social_liberal_tt
+	clr_country_flag = banned_social_liberal
+}
+remove_ban_liberal_conservative = {
+	custom_effect_tooltip = remove_ban_liberal_conservative_tt
+	clr_country_flag = banned_liberal_conservative
+}
+remove_ban_social_conservative = {
+	custom_effect_tooltip = remove_ban_social_conservative_tt
+	clr_country_flag = banned_social_conservative
+}
+remove_ban_authoritarian_conservative = {
+	custom_effect_tooltip = remove_ban_authoritarian_conservative_tt
+	clr_country_flag = banned_authoritarian_conservative
+}
+remove_ban_right_wing_populist = {
+	custom_effect_tooltip = remove_ban_right_wing_populist_tt
+	clr_country_flag = banned_right_wing_populist
+}
+remove_ban_national_syndicalist = {
+	custom_effect_tooltip = remove_ban_national_syndicalist_tt
+	clr_country_flag = banned_national_syndicalist
+}
+remove_ban_national_corporatist = {
+	custom_effect_tooltip = remove_ban_national_corporatist_tt
+	clr_country_flag = banned_national_corporatist
+}
+
+SP_clear_banned_effect = {
+	custom_effect_tooltip = clear_banned_tt
+	clr_country_flag = banned_bolshevist
+	clr_country_flag = banned_spartacist
+	clr_country_flag = banned_revolutionary_socialist
+	clr_country_flag = banned_reformist_socialist
+	clr_country_flag = banned_social_democrat
+	clr_country_flag = banned_social_liberal
+	clr_country_flag = banned_liberal_conservative
+	clr_country_flag = banned_social_conservative
+	clr_country_flag = banned_authoritarian_conservative
+	clr_country_flag = banned_right_wing_populist
+	clr_country_flag = banned_national_syndicalist
+	clr_country_flag = banned_national_corporatist
+}

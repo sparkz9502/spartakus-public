@@ -1,0 +1,24 @@
+spriteTypes = {	
+
+	spriteType = {
+		name = "GFX_CZE_socdem_logo"
+		texturefile = "gfx/interface/czech_petka_scriptedgui/CZE_socdem_logo.tga"
+	}
+	spriteType = {
+		name = "GFX_CZE_natsoc_logo"
+		texturefile = "gfx/interface/czech_petka_scriptedgui/CZE_natsoc_logo.tga"
+	}
+	spriteType = {
+		name = "GFX_CZE_agrarian_logo"
+		texturefile = "gfx/interface/czech_petka_scriptedgui/CZE_agrarian_logo.tga"
+	}
+	spriteType = {
+		name = "GFX_CZE_popular_logo"
+		texturefile = "gfx/interface/czech_petka_scriptedgui/CZE_popular_logo.tga"
+	}
+	spriteType = {
+		name = "GFX_CZE_natdem_logo"
+		texturefile = "gfx/interface/czech_petka_scriptedgui/CZE_natdem_logo.tga"
+	}
+
+}

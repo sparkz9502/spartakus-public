@@ -1,0 +1,287 @@
+characters={
+	SRI_amadeo_bordiga={
+		name="Amadeo Bordiga"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Amadeo_Bordiga.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AMADEO_BORDIGA_DESC"
+			ideology=left_leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SRI_antonio_gramsci={
+		name="Antonio Gramsci"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Antonio_Gramsci.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANTONIO_GRAMSCI_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SRI_nicola_bombacci={
+		name="Nicola Bombacci"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Nicola_Bombacci.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_NICOLA_BOMBACCI_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SRI_celeste_negarville={
+		name="Celeste Negarville"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Celeste_Negarville.tga"
+			}
+		}
+	}
+	SRI_umberto_terracini={
+		name="Umberto Terracini"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Umberto_Terracini.tga"
+			}
+		}
+	}
+	SRI_mauro_scoccimarro={
+		name="Mauro Scoccimarro"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Mauro_Scoccimarro.tga"
+			}
+		}
+	}
+	SRI_palmiro_togliatti={
+		name="Palmiro Togliatti"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Palmiro_Togliatti.tga"
+			}
+		}
+	}
+	SRI_tito_oro_nobili={
+		name="Tito Oro Nobili"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Tito_Oro_Nobili.tga"
+			}
+		}
+	}
+	SRI_luigi_longo={
+		name="Luigi Longo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Luigi_Longo.tga"
+			}
+		}
+		field_marshal={
+			traits = { offensive_doctrine politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SRI_ilio_barontini={
+		name="Ilio Barontini"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Ilio_Barontini.tga"
+			}
+		}
+		corps_commander={
+			traits = { trickster infantry_officer politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	SRI_pompeo_colajanni={
+		name="Pompeo Colajanni"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Pompeo_Colajanni.tga"
+			}
+		}
+		corps_commander={
+			traits = { organizer trickster politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SRI_pietro_secchia={
+		name="Pietro Secchia"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Pietro_Secchia.tga"
+			}
+		}
+		corps_commander={
+			traits = { organizer politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SRI_cino_moscatelli={
+		name="Cino Moscatelli"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Cino_Moscatelli.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected media_personality }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SRI_mario_muneghina={
+		name="Mario Muneghina"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Mario_Muneghina.tga"
+			}
+		}
+		corps_commander={
+			traits = { organizer politically_connected }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SRI_giancarlo_pajetta={
+		name="Giancarlo Pajetta"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Giancarlo_Pajetta.tga"
+			}
+		}
+		corps_commander={
+			traits = { commando politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SRI_walter_audisio={
+		name="Walter Audisio"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Walter_Audisio.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	SRI_antonio_carini={
+		name="Antonio Carini"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Antonio_Carini.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SRI_venturoli_remigio={
+		name="Venturoli Remigio"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Venturoli_Remigio.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SRI_davide_lajolo={
+		name="Davide Lajolo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Davide_Lajolo.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	SRI_domenico_baffigo={
+		name="Domenico Baffigo"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRI/Portrait_Domenico_Baffigo.tga"
+			}
+		}
+		navy_leader={
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+}

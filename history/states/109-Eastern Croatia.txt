@@ -1,0 +1,32 @@
+
+state={
+	id=109
+	name="STATE_109"
+
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		victory_points = {
+			11581 10 
+		}
+		victory_points = {
+			9611 3 
+		}
+		add_core_of = CRO
+		add_core_of = STJ
+
+	}
+
+	provinces={
+		9611 11581 15345 15346 
+	}
+	manpower=959727
+	buildings_max_level_factor=1.000
+	state_category=large_city
+	local_supplies=0.000
+}

@@ -1,0 +1,63 @@
+################
+###  Serbia  ###
+################
+
+SER_decisions_postwar = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = SER }
+	
+	visible = {
+		has_country_flag = SER_postwar_decisions_activate
+	}
+}
+
+#SER_decisions_unification = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = SER }
+	
+	visible = {
+		has_country_flag = Is_Yugoslavia
+		has_country_flag = YugoCleared
+	}
+}
+
+#SER_decisions_backa = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = SER }
+	
+	visible = {
+		has_country_flag = SER_backa
+		NOT = {
+			controls_state = 45
+			controls_state = 1002
+		}
+	}
+}
+
+#SER_decisions_banat = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_soviet_flag
+	
+	allowed = { original_tag = SER }
+	
+	visible = {
+		has_country_flag = SER_banat
+		NOT = {
+			controls_state = 875
+		}
+	}
+}

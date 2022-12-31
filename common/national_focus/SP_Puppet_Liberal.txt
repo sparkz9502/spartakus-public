@@ -1,0 +1,616 @@
+###########################
+# Lib Puppet Focus Tree
+# By NatSpi
+###########################
+
+focus_tree = {
+	id = SP_Puppet_Liberal
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			is_puppet = yes
+			has_elected_government = yes
+		}
+	}
+	default = no
+	focus = {
+		id = LibP_local_liberal_leaders
+		icon = GFX_goal_collaborate_local_elites
+		cost = 8.60
+		x = 3
+		y = 0
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = LibP_transitionary_coalition_govt
+		icon = GFX_goal_generic_national_unity
+		cost = 4.30
+		prerequisite = {
+			focus = LibP_local_liberal_leaders
+		}
+		mutually_exclusive = {
+			focus = LibP_transitionary_military_govt
+		}
+		x = 2
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+			set_country_flag = coalition_social_democrat
+			set_country_flag = coalition_social_liberal
+			set_country_flag = coalition_liberal_conservative
+			set_country_flag = coalition_social_conservative
+		}
+
+	}
+	focus = {
+		id = LibP_transitionary_military_govt
+		icon = GFX_Military_Government
+		cost = 4.30
+		prerequisite = {
+			focus = LibP_local_liberal_leaders
+		}
+		mutually_exclusive = {
+			focus = LibP_transitionary_coalition_govt
+		}
+		x = 4
+		y = 1
+		
+		completion_reward = {
+			set_politics = {
+				ruling_party = authoritarian_conservative
+				elections_allowed = no
+			}
+			add_political_power = 50
+			set_country_flag = coalition_social_democrat
+			set_country_flag = coalition_social_liberal
+			set_country_flag = coalition_liberal_conservative
+			set_country_flag = coalition_social_conservative
+		}
+
+	}
+	focus = {
+		id = LibP_liberal_propaganda
+		icon = GFX_goal_generic_propaganda
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_transitionary_coalition_govt
+			focus = LibP_transitionary_military_govt
+		}
+		x = 1
+		y = 2
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = LibP_entrepreneurial_organisations
+		icon = GFX_goal_capitalist_system
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_transitionary_coalition_govt
+			focus = LibP_transitionary_military_govt
+		}
+		x = 3
+		y = 2
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.01
+				}
+			}
+			add_political_power = 30
+		}
+
+	}
+	focus = {
+		id = LibP_liberal_trade_unions
+		icon = GFX_SP_focus_trade_unions
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_transitionary_coalition_govt
+			focus = LibP_transitionary_military_govt
+		}
+		x = 5
+		y = 2
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = LibP_loyal_police_force
+		icon = GFX_goal_unknown
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_liberal_propaganda
+		}
+		prerequisite = {
+			focus = LibP_entrepreneurial_organisations
+		}
+		prerequisite = {
+			focus = LibP_liberal_trade_unions
+		}
+		x = 2
+		y = 3
+		
+		completion_reward = {
+			add_stability = 0.025
+			add_ideas = SP_Puppet_Liberal_police_force_idea
+		}
+
+	}
+	focus = {
+		id = LibP_sponsor_liberal_thought
+		icon = GFX_goal_brain
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_liberal_propaganda
+		}
+		prerequisite = {
+			focus = LibP_entrepreneurial_organisations
+		}
+		prerequisite = {
+			focus = LibP_liberal_trade_unions
+		}
+		x = 4
+		y = 3
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = LibP_free_market_reforms
+		icon = GFX_goal_ideology_liberal_conservative
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_loyal_police_force
+		}
+		prerequisite = {
+			focus = LibP_sponsor_liberal_thought
+		}
+		x = 3
+		y = 4
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.01
+				}
+			}
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = LibP_limit_radical_influence
+		icon = GFX_goal_secret_police
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_free_market_reforms
+		}
+		mutually_exclusive = {
+			focus = LibP_harass_radicals
+			focus = LibP_ban_radical_parties
+		}
+		x = 1
+		y = 5
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.025
+		}
+
+	}
+	focus = {
+		id = LibP_harass_radicals
+		icon = GFX_goal_secret_agents
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_free_market_reforms
+		}
+		mutually_exclusive = {
+			focus = LibP_limit_radical_influence
+			focus = LibP_ban_radical_parties
+		}
+		x = 3
+		y = 5
+		
+		completion_reward = {
+			add_political_power = 20
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.01
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = LibP_ban_radical_parties
+		icon = GFX_goal_UK_ban_unions
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_free_market_reforms
+		}
+		mutually_exclusive = {
+			focus = LibP_limit_radical_influence
+			focus = LibP_harass_radicals
+		}
+		x = 5
+		y = 5
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = LibP_limit_govt_econ_controls
+		icon = GFX_goal_generic_self_management
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_limit_radical_influence
+			focus = LibP_harass_radicals
+			focus = LibP_ban_radical_parties
+		}
+		x = 4
+		y = 6
+		
+		completion_reward = {
+			add_ideas = SP_Puppet_Liberal_economy_idea
+		}
+
+	}
+	focus = {
+		id = LibP_limit_military_supervision
+		icon = GFX_goal_unknown
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_limit_radical_influence
+			focus = LibP_harass_radicals
+			focus = LibP_ban_radical_parties
+		}
+		x = 2
+		y = 6
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.01
+				}
+			}
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = LibP_free_elections
+		icon = GFX_goal_generic_elections
+		cost = 8.60
+		prerequisite = {
+			focus = LibP_limit_military_supervision
+		}
+		prerequisite = {
+			focus = LibP_limit_govt_econ_controls
+		}
+		x = 3
+		y = 7
+		
+		completion_reward = {
+			if = {
+				limit = { social_democrat < 0.25 }
+				add_popularity = {
+					ideology = social_democrat
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_liberal < 0.25 }
+				add_popularity = {
+					ideology = social_liberal
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { liberal_conservative < 0.25 }
+				add_popularity = {
+					ideology = liberal_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { social_conservative < 0.25 }
+				add_popularity = {
+					ideology = social_conservative
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { has_government = authoritarian_conservative }
+				if = {
+					limit = {
+						check_variable = { party_popularity@social_democrat > party_popularity@social_liberal }
+						check_variable = { party_popularity@social_democrat > party_popularity@liberal_conservative }
+						check_variable = { party_popularity@social_democrat > party_popularity@social_conservative }
+					}
+					set_politics = {
+						ruling_party = social_democrat
+						elections_allowed = no
+					}
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { party_popularity@social_liberal > party_popularity@social_democrat }
+					check_variable = { party_popularity@social_liberal > party_popularity@liberal_conservative }
+					check_variable = { party_popularity@social_liberal > party_popularity@social_conservative }
+				}
+				set_politics = {
+					ruling_party = social_liberal
+					elections_allowed = no
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { party_popularity@liberal_conservative > party_popularity@social_liberal }
+					check_variable = { party_popularity@liberal_conservative > party_popularity@social_democrat }
+					check_variable = { party_popularity@liberal_conservative > party_popularity@social_conservative }
+				}
+				set_politics = {
+					ruling_party = liberal_conservative
+					elections_allowed = no
+				}
+			}
+			else_if = {
+				limit = {
+					check_variable = { party_popularity@social_conservative > party_popularity@social_liberal }
+					check_variable = { party_popularity@social_conservative > party_popularity@social_democrat }
+					check_variable = { party_popularity@social_conservative > party_popularity@liberal_conservative }
+				}
+				set_politics = {
+					ruling_party = social_conservative
+					elections_allowed = no
+				}
+			}
+			else = {
+				overlord = {
+					ROOT = { copy_government_of_PREV = yes }
+				}
+			}
+			SP_clear_coalition_effect = yes
+		}
+
+	}
+	focus = {
+		id = LibP_victory_for_capitalism
+		icon = GFX_goal_liberty
+		cost = 8.60
+		x = 3
+		y = 8
+		
+		completion_reward = {
+			if = {
+				limit = {
+					check_variable = { party_popularity@ruling_party < 0.25 }
+				}
+				increase_ruling_party_popularity_by_10 = yes
+			}
+			else = { increase_ruling_party_popularity_by_5 = yes }
+		}
+
+	}
+}

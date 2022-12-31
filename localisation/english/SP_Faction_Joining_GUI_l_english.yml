@@ -1,0 +1,21 @@
+﻿l_english:
+  
+FACTION_JOINING_ALERT_TITLE: "Diplomatic Development"
+FACTION_JOINING_ALERT_DESC: "[faction_member.GetFlag] §Y[faction_member.GetName]§! has joined the §Y[faction_leader.GetFactionName]§!."
+ 
+FACTION_JOINING_CLOSE:0 "Close"
+ 
+JF_GENERIC_FLAVOUR:0 "Their aggressive behaviour has marked a change in global balance and could have dire consequences for the stability in Europe and beyond."
+
+JF_GENERIC_FLAVOUR_1932:0 "It has been over a decade since the German Civil War changed the face of world politics. As east and west get closer and closer to conflict, alliances are beginning to form and shift."
+JF_GENERIC_FLAVOUR_1933:0 "The division of Germany will not last forever. As irredentist attitudes continue to grow, the forces of socialism and capitalism grow closer to conflict. More are pressured to pick a side."
+JF_GENERIC_FLAVOUR_1934:0 "With socialist revolutions demanding change across Europe and the entire world, one can only wonder when the final showdown will occur. As the situation gets more heated, picking a side is less of an option and more of a necessity."
+JF_GENERIC_FLAVOUR_1934_FCW:0 "With France now engulfed in a brutal Civil War, the world is watching the situation in Europe closely. With war on the horizon, picking a side is less of an option and more of a necessity."
+JF_GENERIC_FLAVOUR_1935_36:0 "With Europe only a stone throws away from a Second Great War, the geopolitical situation worldwide is rapidly shifting. Choosing a side is no longer an option for most European nations."
+JF_GENERIC_FLAVOUR_WW2_START:0 ""
+JF_GENERIC_FLAVOUR_WW2_MIDWAY:0 ""
+JF_GENERIC_FLAVOUR_WW2_LONG:0 ""
+JF_GENERIC_FLAVOUR_COMINTERN_DEFEAT:0 ""
+JF_GENERIC_FLAVOUR_BRITISH_DEFEAT:0 ""
+JF_GENERIC_FLAVOUR_FRENCH_DEFEAT:0 ""
+JF_GENERIC_FLAVOUR_WESTERN_DEFEAT:0 ""

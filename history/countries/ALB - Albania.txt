@@ -1,0 +1,76 @@
+capital = 44
+OOB = "ALB"
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.4
+set_war_support = 0.5
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_par
+	trade_laif
+	economy_unind
+	mobilization_1
+	
+	### National Spirits ###
+	WB_Idea_Illiteracy_High
+	ALB_aristocracy
+	ALB_military_cultures
+	ALB_italian_industry
+	
+	### Ministers ###
+	ALB_Myfid_Libohova_hog_sco
+	ALB_Mehmet_Konica_for_ade
+	ALB_Fejzi_Alizoti_eco_sco
+	ALB_drita_sec
+	ALB_Hajre_Dizdari_def_sco
+}
+
+### Country Leaders ###
+recruit_character = ALB_herthe_i
+recruit_character = ALB_ahmet_zogu
+recruit_character = ALB_ali_kelmendi
+recruit_character = ALB_fan_noli
+
+### Field Marshals ###
+recruit_character = ALB_jocelyn_percy
+
+### Generals ###
+recruit_character = ALB_prenk_pervizi
+recruit_character = ALB_xhemal_aranitasi
+
+### Starting Tech ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+}
+
+### Politics ###
+
+set_country_flag = Albanians_cant_read
+
+set_politics = {	
+	ruling_party = social_conservative
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 3
+    spartacist = 3
+    revolutionary_socialist = 3
+    reformist_socialist = 22
+    social_democrat = 11
+    social_liberal = 1
+    liberal_conservative = 4
+    social_conservative = 32
+    authoritarian_conservative = 6
+    right_wing_populist = 15
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_social_conservative
+set_country_flag = coalition_authoritarian_conservative

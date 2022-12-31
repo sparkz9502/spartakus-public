@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+GUA_bolshevist_party:0 "PCG"
+GUA_bolshevist_party_long:0 "Partido Comunista de Guatemala"
+GUA_spartacist_party:0 "PCG"
+GUA_spartacist_party_long:0 "Partido Comunista de Guatemala"
+GUA_revolutionary_socialist_party:0 "PCG"
+GUA_revolutionary_socialist_party_long:0 "Partido Comunista de Guatemala"
+GUA_reformist_socialist_party:0 "Socialistas"
+GUA_reformist_socialist_party_long:0 "Socialistas"
+GUA_social_democrat_party:0 "Reformistas"
+GUA_social_democrat_party_long:0 "Reformistas"
+GUA_social_liberal_party:0 "PL(L)"
+GUA_social_liberal_party_long:0 "Partido Liberal (Liberales)"
+GUA_liberal_conservative_party:0 "PL(C)"
+GUA_liberal_conservative_party_long:0 "Partido Liberal (Conservadores)"
+GUA_social_conservative_party:0 "PU"
+GUA_social_conservative_party_long:0 "Partido Unionista"
+GUA_authoritarian_conservative_party:0 "Militar"
+GUA_authoritarian_conservative_party_long:0 "Militar"
+GUA_right_wing_populist_party:0 "PLP"
+GUA_right_wing_populist_party_long:0 "Partido Liberal Progresista"
+GUA_national_syndicalist_party:0 "PNT"
+GUA_national_syndicalist_party_long:0 "Partido Nacional de Trabajadores"
+GUA_national_corporatist_party:0 "MAC"
+GUA_national_corporatist_party_long:0 "Movimiento de Avivamiento Católico"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

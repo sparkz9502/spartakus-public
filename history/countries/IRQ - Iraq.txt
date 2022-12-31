@@ -1,0 +1,59 @@
+﻿capital = 291
+
+set_oob = "IRQ"
+
+set_cosmetic_tag = IRQ_UK
+
+add_ideas = {
+	recruitment_volunteer
+	governance_par
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+	early_fighter = 1
+	CAS1 = 1
+}
+
+set_convoys = 5
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 100
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Faisal I"
+	desc = "POLITICS_FAISAL_I_DESC"
+	picture = "Portrait_Faisal_I.tga"
+	expire = "1965.1.1"
+	ideology = semi_constitutional_monarchism
+	traits = {
+		#
+	}
+}

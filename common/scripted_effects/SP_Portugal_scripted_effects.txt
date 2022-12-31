@@ -1,0 +1,68 @@
+improve_literacy = {
+	IF = {
+		limit = { has_idea = POR_illiteracy}
+		swap_ideas = {
+			remove_idea = POR_illiteracy
+			add_idea = POR_illiteracy_1
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_1}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_1
+			add_idea = POR_illiteracy_2
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_2}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_2
+			add_idea = POR_illiteracy_3
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_3}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_3
+			add_idea = POR_illiteracy_4
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_4}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_4
+			add_idea = POR_illiteracy_5
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_5}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_5
+			add_idea = POR_illiteracy_6
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_6}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_6
+			add_idea = POR_illiteracy_7
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_7}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_7
+			add_idea = POR_illiteracy_8
+		}
+	}
+	ELSE_IF = {
+		limit = { has_idea = POR_illiteracy_8}
+		swap_ideas = {
+			remove_idea = POR_illiteracy_8
+			add_idea = POR_illiteracy_9
+		}
+	}
+	ELSE = {
+		remove_ideas = POR_illiteracy_9
+	}
+}

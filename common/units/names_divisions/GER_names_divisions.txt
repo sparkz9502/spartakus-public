@@ -1,0 +1,407 @@
+﻿# Division template historical names system. Is a new method of naming the divisions based on the names-group assigned to it's template.
+# If we run out of all historical names, the names will be assigned in the old way.
+#
+# Each group has a made up tag. Use it if you want to append more, or replace existing names with the extra txt files (modding).
+#
+# for_countries - lists all countries that can use it. If empty, or entire tag is missing, all countries in the world can use it.
+#
+# can_use - is a trigger that locks/unlocks the group under specific circumstances. The trigger is in a country scope.
+#
+# division_types - is a list of tokens to corresponding unit types. A player can in fact use any group of names for a div.template
+#                  however this tag is a helper for an automated choice (for AI, or if the group must switch on it's own, because
+#                  for example the current one is no longer available due to the can_use trigger saying so).
+#                  In automated choice, the division template must have at least 1 of the following types for it to be chosen.
+#
+# fallback_name - Is going to be used if we run out of the scripted historical names. If you want to use the old division naming
+#                 mechanics to be used for fallbacks, then just skip this option.
+#
+# unordered - It's a list of historical division names that did not have a number. Regardless if such names happened in history or not
+#             this option is available here mainly for a mods.
+#
+# ordered - Is a list of all historical names. 
+#           Numbers must start from 1 and up. 
+#           Numbers can't repeat in one scope.
+#           If you script the name for this group, at the same number (for example in a mod in another file), the name will be override.
+#           All arguments between the brackets must be separated by spaces. Each argument is wrapped in "quotas".
+#           1st argument = The name. It must contain either: 
+#                          %d (for decimal number placement)
+#                          %s (for string number placement - ROMAN numbers like XIV).
+#           2nd argument is optional = A localizable text describing this historical division. The text will be visible in the tooltip
+#                                      where you choose the historical division name.
+#           3rd argument is optional = An URL preferably pointing to the WIKI. It's a future feature that is not currently working in
+#                                      the current game version.
+
+GER_INF_01 = 
+{
+	name = "Infantry Divisions"
+
+	for_countries = { GER AWR }
+
+	can_use = { always = yes }
+
+	division_types = { "infantry" }
+
+	# Number reservation system will tie to another group.
+	#link_numbering_with = { GER_Gar_01 }
+
+	fallback_name = "%d. Infanterie-Division"
+
+	# Names with numbers (only one number per entry). 
+	# It's okay to have gaps in numbering.
+	ordered =
+	{
+		1 = { "%d. Infanterie-Division" }
+		2 = { "%d. Infanterie-Division" }
+		3 = { "%d. Infanterie-Division" }
+		4 = { "%d. Infanterie-Division" }
+		5 = { "%d. Infanterie-Division" }
+		6 = { "%d. Infanterie-Division" }
+		7 = { "%d. Infanterie-Division" }
+		8 = { "%d. Infanterie-Division" }
+		9 = { "%d. Infanterie-Division" }
+		10 = { "%d. Infanterie-Division" }
+		11 = { "%d. Infanterie-Division" }
+		12 = { "%d. Infanterie-Division" }
+		13 = { "%d. Infanterie-Division" }
+		14 = { "%d. Infanterie-Division" }
+		15 = { "%d. Infanterie-Division" }
+		16 = { "%d. Infanterie-Division" }
+		17 = { "%d. Infanterie-Division" }
+		18 = { "%d. Infanterie-Division" }
+		19 = { "%d. Infanterie-Division" }
+		20 = { "%d. Infanterie-Division" }
+		21 = { "%d. Infanterie-Division" }
+		22 = { "%d. Infanterie-Division" }
+		23 = { "%d. Infanterie-Division" }
+		24 = { "%d. Infanterie-Division" }
+		25 = { "%d. Infanterie-Division" }
+		26 = { "%d. Infanterie-Division" }
+		27 = { "%d. Infanterie-Division" }
+		28 = { "%d. Infanterie-Division" }
+		29 = { "%d. Infanterie-Division" }
+		30 = { "%d. Infanterie-Division" }
+		31 = { "%d. Infanterie-Division" }
+		32 = { "%d. Infanterie-Division" }
+		33 = { "%d. Infanterie-Division" }
+		34 = { "%d. Infanterie-Division" }
+		35 = { "%d. Infanterie-Division" }
+		36 = { "%d. Infanterie-Division" }
+		37 = { "%d. Infanterie-Division" }
+		38 = { "%d. Infanterie-Division" }
+		39 = { "%d. Infanterie-Division" }
+		40 = { "%d. Infanterie-Division" }
+		41 = { "%d. Infanterie-Division" }
+		42 = { "%d. Infanterie-Division" }
+		43 = { "%d. Infanterie-Division" }
+		44 = { "%d. Infanterie-Division" }
+		45 = { "%d. Infanterie-Division" }
+		46 = { "%d. Infanterie-Division" }
+		47 = { "%d. Infanterie-Division" }
+		48 = { "%d. Infanterie-Division" }
+		49 = { "%d. Infanterie-Division" }
+		50 = { "%d. Infanterie-Division" }
+		51 = { "%d. Infanterie-Division" }
+		52 = { "%d. Infanterie-Division" }
+		53 = { "%d. Infanterie-Division" }
+		54 = { "%d. Infanterie-Division" }
+		55 = { "%d. Infanterie-Division" }
+		56 = { "%d. Infanterie-Division" }
+		57 = { "%d. Infanterie-Division" }
+		58 = { "%d. Infanterie-Division" }
+		59 = { "%d. Infanterie-Division" }
+		60 = { "%d. Infanterie-Division" }
+		61 = { "%d. Infanterie-Division" }
+		62 = { "%d. Infanterie-Division" }
+		63 = { "%d. Infanterie-Division" }
+		64 = { "%d. Infanterie-Division" }
+		65 = { "%d. Infanterie-Division" }
+		66 = { "%d. Infanterie-Division" }
+		67 = { "%d. Infanterie-Division" }
+		68 = { "%d. Infanterie-Division" }
+		69 = { "%d. Infanterie-Division" }
+		70 = { "%d. Infanterie-Division" }
+		71 = { "%d. Infanterie-Division" }
+		72 = { "%d. Infanterie-Division" }
+		73 = { "%d. Infanterie-Division" }
+		74 = { "%d. Infanterie-Division" }
+		75 = { "%d. Infanterie-Division" }
+		76 = { "%d. Infanterie-Division" }
+		77 = { "%d. Infanterie-Division" }
+		78 = { "%d. Infanterie-Division" }
+		79 = { "%d. Infanterie-Division" }
+		80 = { "%d. Infanterie-Division" }
+		81 = { "%d. Infanterie-Division" }
+		82 = { "%d. Infanterie-Division" }
+		83 = { "%d. Infanterie-Division" }
+		84 = { "%d. Infanterie-Division" }
+		85 = { "%d. Infanterie-Division" }
+		86 = { "%d. Infanterie-Division" }
+		87 = { "%d. Infanterie-Division" }
+		88 = { "%d. Infanterie-Division" }
+		89 = { "%d. Infanterie-Division" }
+		90 = { "%d. Infanterie-Division" }
+		91 = { "%d. Infanterie-Division" }
+		92 = { "%d. Infanterie-Division" }
+		93 = { "%d. Infanterie-Division" }
+		94 = { "%d. Infanterie-Division" }
+		95 = { "%d. Infanterie-Division" }
+		96 = { "%d. Infanterie-Division" }
+		97 = { "%d. Infanterie-Division" }
+		98 = { "%d. Infanterie-Division" }
+		99 = { "%d. Infanterie-Division" }
+		100 = { "%d. Infanterie-Division" }
+	}
+}
+
+GER_MOT_01 = 
+{
+	name = "Motorized Divisions"
+
+	for_countries = { GER AWR }
+
+	division_types = { "motorized"  }
+
+	fallback_name = "%d. Motorisierte-Schützen-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Motorisierte-Schützen-Division" }
+		2 = { "%d. Motorisierte-Schützen-Division" }
+		3 = { "%d. Motorisierte-Schützen-Division" }
+		4 = { "%d. Motorisierte-Schützen-Division" }
+		5 = { "%d. Motorisierte-Schützen-Division" }
+		6 = { "%d. Motorisierte-Schützen-Division" }
+		7 = { "%d. Motorisierte-Schützen-Division" }
+		8 = { "%d. Motorisierte-Schützen-Division" }
+		9 = { "%d. Motorisierte-Schützen-Division" }
+		10 = { "%d. Motorisierte-Schützen-Division" }
+	}
+}
+
+GER_MNT_01 = 
+{
+	name = "Mountain Divisions"
+
+	for_countries = { GER AWR }
+
+	can_use = { always = yes }
+
+	division_types = { "mountaineers"  }
+
+	fallback_name = "%d. Gebirgs-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Gebirgs-Division" }
+		2 = { "%d. Gebirgs-Division" }
+		3 = { "%d. Gebirgs-Division" }
+		4 = { "%d. Gebirgs-Division" }
+		5 = { "%d. Gebirgs-Division" }
+		6 = { "%d. Gebirgs-Division" }
+		7 = { "%d. Gebirgs-Division" }
+		8 = { "%d. Gebirgs-Division" }
+		9 = { "%d. Gebirgs-Division" }
+		10 = { "%d. Gebirgs-Division" }
+	}
+}
+
+GER_MAR_01 = 
+{
+	name = "Marine Divisions"
+
+	for_countries = { GER AWR }
+
+	can_use = { always = yes }
+
+	division_types = { "marine"  }
+
+	fallback_name = "%d. Volksmarine-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Volksmarine-Division" }
+		2 = { "%d. Volksmarine-Division" }
+		3 = { "%d. Volksmarine-Division" }
+		4 = { "%d. Volksmarine-Division" }
+		5 = { "%d. Volksmarine-Division" }
+		6 = { "%d. Volksmarine-Division" }
+		7 = { "%d. Volksmarine-Division" }
+		8 = { "%d. Volksmarine-Division" }
+		9 = { "%d. Volksmarine-Division" }
+		10 = { "%d. Volksmarine-Division" }
+	}
+}
+
+GER_PAR_01 = 
+{
+	name = "Paratrooper Regiments"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper"  }
+
+	fallback_name = "%d. Luftsturm-Regiment"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Luftsturm-Regiment" }
+		2 = { "%d. Luftsturm-Regiment" }
+		3 = { "%d. Luftsturm-Regiment" }
+		4 = { "%d. Luftsturm-Regiment" }
+		5 = { "%d. Luftsturm-Regiment" }
+		6 = { "%d. Luftsturm-Regiment" }
+		7 = { "%d. Luftsturm-Regiment" }
+		8 = { "%d. Luftsturm-Regiment" }
+		9 = { "%d. Luftsturm-Regiment" }
+		10 = { "%d. Luftsturm-Regiment" }
+	}
+}
+
+GER_PAR_02 = 
+{
+	name = "Paratrooper Divisions"
+
+	for_countries = { GER AWR }
+
+	can_use = { always = yes }
+
+	division_types = { "paratrooper"  }
+
+	fallback_name = "%d. Luftsturm-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Luftsturm-Division" }
+		2 = { "%d. Luftsturm-Division" }
+		3 = { "%d. Luftsturm-Division" }
+		4 = { "%d. Luftsturm-Division" }
+		5 = { "%d. Luftsturm-Division" }
+		6 = { "%d. Luftsturm-Division" }
+		7 = { "%d. Luftsturm-Division" }
+		8 = { "%d. Luftsturm-Division" }
+		9 = { "%d. Luftsturm-Division" }
+		10 = { "%d. Luftsturm-Division" }
+	}
+}
+
+GER_ARM_01 = 
+{
+	name = "Panzer Divisions"
+
+	for_countries = { GER AWR }
+
+	can_use = { always = yes }
+
+	division_types = { "light_armor" "medium_armor" "heavy_armor" "modern_armor" }
+
+	fallback_name = "%d. Panzer-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Panzer-Division" }
+		2 = { "%d. Panzer-Division" }
+		3 = { "%d. Panzer-Division" }
+		4 = { "%d. Panzer-Division" }
+		5 = { "%d. Panzer-Division" }
+		6 = { "%d. Panzer-Division" }
+		7 = { "%d. Panzer-Division" }
+		8 = { "%d. Panzer-Division" }
+		9 = { "%d. Panzer-Division" }
+		10 = { "%d. Panzer-Division" }
+	}
+}
+
+GER_CAV_01 = 
+{
+	name = "Cavalry Divisions"
+
+	for_countries = { GER AWR }
+
+	can_use = { always = yes }
+
+	division_types = { "cavalry"  }
+
+	fallback_name = "%d. Kavallerie-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Kavallerie-Division" }
+		2 = { "%d. Kavallerie-Division" }
+		3 = { "%d. Kavallerie-Division" }
+		4 = { "%d. Kavallerie-Division" }
+		5 = { "%d. Kavallerie-Division" }
+		6 = { "%d. Kavallerie-Division" }
+		7 = { "%d. Kavallerie-Division" }
+		8 = { "%d. Kavallerie-Division" }
+		9 = { "%d. Kavallerie-Division" }
+		10 = { "%d. Kavallerie-Division" }
+	}
+	
+}
+
+GER_GRD_01 = 
+{
+	name = "Elite Divisions"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "light_infantry"  }
+
+	fallback_name = "%d. Rote-Garde-Division"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Rote-Garde-Division ''Friedrich Engels''" }
+		2 = { "%d. Rote-Garde-Division ''Jean Jaurès''" }
+		3 = { "%d. Rote-Garde-Division ''Jakow Swerdlow''" }
+		4 = { "%d. Rote-Garde-Division ''Kurt Eisner''" }
+		5 = { "%d. Rote-Garde-Division ''Paula Thiede''" }
+		6 = { "%d. Rote-Garde-Division ''Fritz Weineck''" }
+		7 = { "%d. Rote-Garde-Division ''Johann Knief''" }
+		8 = { "%d. Rote-Garde-Division ''Wilhelm Liebknecht''" }
+		9 = { "%d. Rote-Garde-Division ''Wladimir Lenin''" }
+		10 = { "%d. Rote-Garde-Division ''Karl Marx''" }
+	}
+	
+}
+
+GER_MIL_01 = 
+{
+	name = "Militia Group"
+
+	for_countries = { GER }
+
+	can_use = { always = yes }
+
+	division_types = { "militia"  }
+
+	fallback_name = "%d. Rotfrontkämpfer-Ortsgruppe"
+
+	# Names with numbers (only one number per entry)
+	ordered =
+	{
+		1 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		2 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		3 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		4 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		5 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		6 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		7 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		8 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		9 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+		10 = { "%d. Rotfrontkämpfer-Ortsgruppe" }
+	}
+	
+}

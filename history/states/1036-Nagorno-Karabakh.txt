@@ -1,0 +1,27 @@
+
+state={
+	id=1036
+	name="STATE_1036"
+
+	history={
+		owner = ARM
+		victory_points = {
+			1467 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARM
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		1467 1539 1610 11674 15654 
+	}
+	manpower=138000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

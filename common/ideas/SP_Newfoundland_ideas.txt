@@ -1,0 +1,54 @@
+### Newfoundland ideas
+
+ideas = {
+
+	country = {
+		NEW_empire = {
+			picture = stiff_upper_lip
+		}	
+		NEW_struggling_fishing_industry = {
+			modifier = {
+				consumer_goods_factor = 0.10
+				industrial_capacity_factory = -0.10
+				min_export = -0.10
+				stability_factor = -0.05
+				liberal_conservative_drift = -0.03
+				social_conservative_drift = 0.03
+			}
+			picture = great_depression
+		}
+		NEW_crashed_fishing_industry = {
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+				min_export = -0.20
+				stability_factor = -0.20
+				liberal_conservative_drift = -0.05
+				social_democrat_drift = -0.05
+				social_conservative_drift = 0.10
+			}
+			picture = great_depression
+		}
+		NEW_crashed_fishing_industry_2 = {
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+				min_export = -0.20
+				stability_factor = -0.20
+				liberal_conservative_drift = -0.05
+				social_democrat_drift = 0.05
+				social_conservative_drift = 0.10
+			}
+			picture = great_depression
+		}
+		NEW_crashed_fishing_industry_3 = {
+			modifier = {
+				consumer_goods_factor = 0.25
+				industrial_capacity_factory = -0.25
+				min_export = -0.20
+				stability_factor = -0.20
+			}
+			picture = great_depression
+		}
+	}
+}

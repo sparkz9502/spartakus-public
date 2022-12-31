@@ -1,0 +1,34 @@
+
+state={
+	id=212
+	name="STATE_212"
+
+	history={
+		owner = BUL
+		victory_points = {
+			6923 7
+		}
+		victory_points = {
+			6814 2 
+		}
+		victory_points = {
+			9862 1
+		}
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 2
+
+		}
+		add_core_of = BUL
+
+	}
+
+	provinces={
+		878 893 3937 6814 6923 6952 6982 9862 11813 
+	}
+	manpower=1614400
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

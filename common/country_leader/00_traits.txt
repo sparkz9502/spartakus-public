@@ -1,0 +1,39 @@
+#overwrites vanilla file
+
+leader_traits = {
+
+    puppet_figurehead = { #Tomislav II
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	heir_of_unpopular_dynasty = { #Petar II
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	irrelevant_king = { #Danilo I
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+	progressive_spiritual_leader = { #Salih Safvet Bašić
+		random = no
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+
+}

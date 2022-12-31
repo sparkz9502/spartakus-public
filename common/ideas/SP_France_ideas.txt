@@ -1,0 +1,53 @@
+ideas = {
+
+	country = {
+		FRA_Corporatist_Economy = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_speed_buildings_factor = 0.05
+			}
+			picture = FRA_Corporatist_Economy
+		}
+
+		FRA_Regime_of_Marshals = {
+			modifier = {
+				conscription_factor = 0.10
+				war_support_factor = 0.20
+				political_power_gain = 0.05
+				max_planning = -0.10
+			}
+			picture = FRA_Regime_of_Marshals
+		}
+		
+		FRA_New_Moral_Order = {
+			modifier = {
+				stability_factor = 0.05
+				war_support_factor = 0.1
+				political_power_gain = -0.1
+			}
+			picture = FRA_New_Moral_Order
+		}
+
+		FRA_All_for_the_Army = {
+			modifier = {
+				war_support_factor = 0.1
+				mobilization_speed = 0.05
+				command_power_gain = 0.05
+				production_speed_arms_factory_factor = 0.1
+				production_speed_industrial_complex_factor = -0.3
+				army_morale_factor = 0.05
+			}
+			picture = FRA_All_for_the_Army
+		}
+
+		FRA_Shield_of_Civilization = {
+			modifier = {
+				send_volunteer_size = 1
+				max_dig_in = 1
+				political_power_gain = -0.05
+			}
+			picture = FRA_Shield_of_Civilization
+		}
+	}
+}

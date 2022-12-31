@@ -1,0 +1,32 @@
+
+state={
+	id=434
+	name="STATE_434"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		victory_points = {
+			9991 10 
+		}
+		victory_points = {
+			7179 1 
+		}
+		buildings = {
+			infrastructure = 1
+			9991 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		9991 12010 
+	}
+	manpower=5167100
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

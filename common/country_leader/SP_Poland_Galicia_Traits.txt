@@ -1,0 +1,12 @@
+#####################
+# USSR Traits
+#####################
+
+leader_traits = {
+	PGA_father_of_the_revolution = { # Warski
+	    random = no
+		political_power_gain = 0.04
+		stability_factor = 0.03
+		consumer_goods_factor = -0.02
+	}
+}

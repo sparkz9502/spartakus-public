@@ -1,0 +1,29 @@
+
+state={
+	id=1296
+	name="STATE_1296"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = WTH
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			7903 2 
+		}
+		victory_points = {
+			10898 1 
+		}
+
+	}
+
+	provinces={
+		1971 7049 7084 10735 15404 15407 15418 
+	}
+	manpower=434000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

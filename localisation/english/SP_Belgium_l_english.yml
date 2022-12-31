@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+BEL_bolshevist_party:0 "KPB/PCB"
+BEL_bolshevist_party_long:0 "Communist Party of Belgium (Kommunistische Partij van Belgie/Parti Communiste de Belgique)"
+BEL_spartacist_party:0 "KPB/PCB"
+BEL_spartacist_party_long:0 "Communist Party of Belgium (Kommunistische Partij van Belgie/Parti Communiste de Belgique)"
+BEL_revolutionary_socialist_party:0 "KPB/PCB"
+BEL_revolutionary_socialist_party_long:0 "Communist Party of Belgium (Kommunistische Partij van Belgie/Parti Communiste de Belgique)"
+BEL_reformist_socialist_party:0 "BWP/POB"
+BEL_reformist_socialist_party_long:0 "Belgian Labour Party (Belgische Werkliedenpartij/Parti Ouvrier Belge)"
+BEL_social_democrat_party:0 "BWP/POB"
+BEL_social_democrat_party_long:0 "Belgian Labour Party (Belgische Werkliedenpartij/Parti Ouvrier Belge)"
+BEL_social_liberal_party:0 "LP/PL"
+BEL_social_liberal_party_long:0 "Liberal Party (Liberale Partij/Parti Liberal)"
+BEL_liberal_conservative_party:0 "LP/PL"
+BEL_liberal_conservative_party_long:0 "Liberal Party (Liberale Partij/Parti Liberal)"
+BEL_social_conservative_party:0 "KP/PC"
+BEL_social_conservative_party_long:0 "Catholic Party (Katholieke Partij/Parti Catholique)"
+BEL_authoritarian_conservative_party:0 "-"
+BEL_authoritarian_conservative_party_long:0 "-"
+BEL_right_wing_populist_party:0 "FP"
+BEL_right_wing_populist_party_long:0 "Front Party (Frontpartij)"
+BEL_national_syndicalist_party:0 "Verdinaso"
+BEL_national_syndicalist_party_long:0 "Union of Diets National Solidarists (Verbond van Dietsche Nationaal-Solidaristen)"
+BEL_national_corporatist_party:0 "-"
+BEL_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

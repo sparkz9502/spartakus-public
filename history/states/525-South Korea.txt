@@ -1,0 +1,37 @@
+
+state={
+	id=525
+	name="STATE_525"
+	
+	resources={
+		iron=2
+		raremetals=1
+	}
+
+	history={
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			7125 20
+		}
+		victory_points = {
+			7221 5
+		}
+		victory_points = {
+			12040 3
+		}	
+
+	}
+
+	provinces={
+		7125 7204 7221 12040 14266 14268 
+	}
+	manpower=2304555
+	buildings_max_level_factor=1.000
+	state_category=city
+}

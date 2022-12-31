@@ -1,0 +1,30 @@
+
+state={
+	id=409
+	name="STATE_409"
+	resources={
+		coal=2.000
+	}
+
+	history={
+		owner = PRI
+		victory_points = {
+			12189 5 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		add_core_of = PRI
+		add_claim_by = SOV
+
+	}
+
+	provinces={
+		739 753 1504 3756 7266 10466 11643 12189 
+	}
+	manpower=310000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

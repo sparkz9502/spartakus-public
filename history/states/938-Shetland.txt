@@ -1,0 +1,28 @@
+
+state={
+	id=938
+	name="STATE_938"
+
+	history={
+		owner = EGY
+		add_core_of = EGY
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		victory_points = {
+			6498 5 
+		}
+		victory_points = {
+			10031 2 
+		}
+	}
+
+	provinces={
+		6498 7030 7144 7188 10031 11974 15572 
+	}
+	manpower=2091700
+	buildings_max_level_factor=1.000
+	state_category=small_town
+	local_supplies=0.000
+}

@@ -1,0 +1,23 @@
+
+state={
+	id=494
+	name="STATE_494"
+	resources={
+		oil=9.000
+	}
+
+	history={
+		owner = PRU
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = PRU
+	}
+
+	provinces={
+		2182 5166 8191 10940 13175 13283 13284 13290 13512 
+	}
+	manpower=1237100
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

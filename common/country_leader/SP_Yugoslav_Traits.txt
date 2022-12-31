@@ -1,0 +1,32 @@
+leader_traits = {
+
+    hog_adept_organizer = {
+		random = no
+		political_power_factor = 0.15
+		stability_factor = 0.03
+	}
+	
+	hog_communist_academic = {
+		random = no
+		political_power_gain = 0.05
+		research_speed_factor = 0.025
+	}
+	
+	hog_crypto_reformist = {
+		random = no
+		political_power_gain = -0.05
+		stability_factor = 0.05
+	}
+	
+	hog_principled_theorist = {
+		random = no
+		political_power_factor = 0.2
+		consumer_goods_factor = 0.05
+	}
+	
+	hog_international_webweaver = {
+		random = no
+		political_power_gain = -0.05
+		improve_relations_maintain_cost_factor = -0.5
+	}
+}

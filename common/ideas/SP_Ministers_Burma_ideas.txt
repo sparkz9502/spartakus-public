@@ -1,0 +1,740 @@
+ideas = {
+################################################################################################################################################################################################
+### BUR
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	BUR_U_Nu_hog_rev = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_Ottoma_hog_rev = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Pe_Maung_Tin_hog_sde = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Saw_Ba_U_Gyi_hog_sli = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_May_Aung_hog_sco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_Saw_hog_sco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_Chit_Hlaing_hog_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_flamboyant_tough_guy
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	BUR_Aung_San_for_rev = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_Thant_for_lco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Maung_Gyi_for_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_San_C_Po_for_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_Chit_Hlaing_for_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	BUR_Ba_Win_eco_rev = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Mahn_Ba_Khaing_eco_rev = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Bo_Let_Ya_eco_sde = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_U_May_Aung_eco_sco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Ba_Maw_eco_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Lim_Chin_Tsong_eco_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	BUR_Thakin_Mya_sec_spa = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Po_Kya_sec_sli = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Saw_Hka_Nan_sec_lco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Sao_San_Tun_sec_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Saw_Durmay_sec_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Thakin_Kodaw_Hmaing_sec_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	BUR_Abdul_Razak_def_rev = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Sao_Saimong_def_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Sao_Yang_Wen_Pin_def_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Saya_Gyi_U_Ba_Khin_def_aco = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	BUR_Thakin_Soe_cos = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Sao_Yang_Wen_Pin_cos = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	BUR_Than_Tun_carm = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	BUR_Sao_Kawng_Kiao_Intaleng_carm = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	BUR_Sao_Shwe_Thaik_cnav = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	BUR_Hmu_Aung_cair = {
+		allowed = {
+			OR = {
+				original_tag = BUR
+				original_tag = BMR
+			}
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+}

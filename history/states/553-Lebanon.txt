@@ -1,0 +1,26 @@
+state={
+	id=553
+	name="STATE_553"
+	provinces={
+		792 1108 11919 
+	}
+
+	history={
+		owner = LEB
+		add_core_of = LEB
+		victory_points = { 792 10 }
+		victory_points = { 1108 5 }
+		victory_points = { 11919 2 }
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+			792 = { naval_base = 2 }
+		}
+	}
+
+	manpower=1024000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

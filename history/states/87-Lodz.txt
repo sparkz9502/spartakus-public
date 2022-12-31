@@ -1,0 +1,26 @@
+
+state={
+	id=87
+	name="STATE_87"
+	provinces={
+		493 584 3586 9439 9508 9546 11428 11515 
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		victory_points = { 9508 7 }
+		victory_points = { 584 4 }
+		victory_points = { 11428 3 }
+		victory_points = { 11515 2 }
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			arms_factory = 1
+		}
+	}
+
+	manpower=2632000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

@@ -1,0 +1,33 @@
+
+state={
+	id=459
+	name="STATE_459"
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			1145 20 
+		}
+		buildings = {
+			industrial_complex = 2
+			arms_factory = 1
+			dockyard = 1
+			infrastructure = 3
+			air_base = 5
+			1145 = {
+				naval_base = 2
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1145 7033 7040 7149 9964 14505 14510 14523 14531 14536 14537 
+	}
+	manpower=2058000
+	buildings_max_level_factor=1.000
+	state_category=city
+}

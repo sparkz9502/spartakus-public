@@ -1,0 +1,27 @@
+
+state={
+	id=1026
+	name="STATE_1026"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		buildings = {
+			infrastructure = 2
+			10831 = {
+				naval_base = 1
+			}
+		}
+		victory_points = {
+			10831 1 
+		}
+
+	}
+
+	provinces={
+		1992 8034 10831 14130 14138 14157 
+	}
+	manpower=4264600
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,31 @@
+
+state={
+	id=1097
+	name="STATE_1097"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+			9604 = {
+				naval_base = 2
+			}
+		}
+		victory_points = {
+			9604 2
+		}
+		victory_points = {
+			12263 1 
+		}
+		add_core_of = SOV
+		add_claim_by = PRI
+
+	}
+
+	provinces={
+		675 1267 1325 1343 1397 3963 4290 4404 4701 4805 6774 7249 7309 7672 9589 9604 9733 9749 10722 11575 11719 12136 12192 12261 12263 12638 12678 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

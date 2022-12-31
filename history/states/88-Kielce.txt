@@ -1,0 +1,31 @@
+state={
+	id=88
+	name="STATE_88"
+	provinces={
+		417 442 3410 9412 9427 11398 11413 
+	}
+	resources={
+		coal=15
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		victory_points = { 9427 7 }
+		victory_points = { 6522 2 }
+		victory_points = { 442 3 }
+		victory_points = { 417 3 }
+		victory_points = { 11398 3 }
+		victory_points = { 9412 3 }
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			air_base = 4
+		}
+	}
+
+	manpower=3392800
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

@@ -1,0 +1,25 @@
+
+state={
+	id=589
+	name="STATE_589"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1591 3 
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		1591 1668 1840 4224 4651 4764 4773 4845 7711 7784 7795 7856 10146 10547 10550 10619 10680 12529 12662 13148 13149 13197 
+	}
+	manpower=1215000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,19 @@
+### Croat Ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+
+		MNT_Montenegrin_Militarism = {
+			modifier = {
+				surrender_limit = 0.1
+				conscription = 0.10
+				army_core_defence_factor = 0.10
+				army_morale_factor = 0.1
+			}
+			picture = generic_reserve_divisions
+		}
+	}
+}

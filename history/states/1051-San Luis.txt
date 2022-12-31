@@ -1,0 +1,20 @@
+state={
+	id=1051
+	name="STATE_1051"
+	provinces={
+		5152 5219 12970 
+	}
+	resources={
+		raremetals=1
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARG
+	}
+	manpower=167800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

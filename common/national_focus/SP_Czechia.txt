@@ -1,0 +1,354 @@
+###########################
+# Czechia Focus Tree
+# By NatSpi
+###########################
+
+focus_tree = {
+	id = SP_Czechia
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = CZE
+		}
+	}
+	default = no
+	
+	##########################################
+	# Initial Economic Revitalisation Tree ###
+	##########################################
+	focus = {
+		id = CZE_econ_revitalisation
+		icon = GFX_
+		cost = 2.20
+		available = { 
+			has_idea = CZE_great_depression
+		}
+		completion_reward = {
+			add_political_power = 50
+			country_event = cze.3
+		}
+		x = 3
+		y = 0
+	}
+	focus = {
+		id = CZE_industrial_investments
+		icon = GFX_
+		cost = 0.00
+		prerequisite = {
+			focus = CZE_econ_revitalisation
+		}
+		available = { always = no }
+		bypass = {
+			OR = {
+				has_country_flag = CZE_industrial_investments_first
+				has_completed_focus = CZE_cut_back_rationing
+			}
+		}
+		x = -2
+		y = 1
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_construction_research
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_industrial_investments
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = construction_tech
+			}
+		}
+		x = -3
+		y = 2
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_construction_investments
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_industrial_investments
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = CZE_construction_investments_cat
+		}
+		x = -1
+		y = 2
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_production_research
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_construction_research
+			focus = CZE_construction_investments
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = industry
+			}
+		}
+		x = -3
+		y = 3
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_production_investments
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_construction_research
+			focus = CZE_construction_investments
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = CZE_production_investments_cat
+		}
+		x = -1
+		y = 3
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_excavation_research
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_production_research
+			focus = CZE_production_investments
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				bonus = 0.3
+				uses = 2
+				category = synth_resources
+				category = excavation_tech
+			}
+		}
+		x = -3
+		y = 4
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_resource_extraction
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_production_research
+			focus = CZE_production_investments
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = CZE_excavation_investments_cat
+		}
+		x = -1
+		y = 4
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_agricultural_investments
+		icon = GFX_
+		cost = 0.00
+		prerequisite = {
+			focus = CZE_econ_revitalisation
+		}
+		available = { always = no }
+		bypass = {
+			OR = {
+				has_country_flag = CZE_agricultural_investments_first
+				has_completed_focus = CZE_excavation_research
+				has_completed_focus = CZE_resource_extraction
+			}
+		}
+		x = 2
+		y = 1
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_subsidise_agriculture
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_agricultural_investments
+		}
+		completion_reward = {
+			
+		}
+		x = 1
+		y = 2
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_land_reform
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_agricultural_investments
+		}
+		completion_reward = {
+			# Which land reform policy? 
+		}
+		x = 3
+		y = 2
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_agri_mass_mechanisation
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_subsidise_agriculture
+		}
+		prerequisite = {
+			focus = CZE_land_reform
+		}
+		completion_reward = {
+			
+		}
+		x = 2
+		y = 3
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_cut_back_rationing
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_agri_mass_mechanisation
+		}
+		completion_reward = {
+			# CZE_decrease_rationing_effect = yes
+		}
+		x = 2
+		y = 4
+		relative_position_id = CZE_econ_revitalisation
+	}
+	focus = {
+		id = CZE_econ_revitalisation_complete
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_excavation_research
+		}
+		prerequisite = {
+			focus = CZE_resource_extraction
+		}
+		prerequisite = {
+			focus = CZE_cut_back_rationing
+		}
+		completion_reward = {
+			CZE_great_depression_recovery_effect = yes
+		}
+		x = 0
+		y = 5
+		relative_position_id = CZE_econ_revitalisation
+	}
+	
+	#####################
+	### Military Tree ###
+	#####################
+	focus = {
+		id = CZE_war_prep
+		icon = GFX_
+		cost = 5.00
+		available = {
+			OR = {
+				custom_trigger_tooltip = {
+					tooltip = CZE_fascist_coup_averted_tt
+					NOT = { has_unit_leader = 0911 }
+				}
+				custom_trigger_tooltip = {
+					tooltip = CZE_fascist_coup_succeeded_tt
+					has_government = national_corporatist
+				}
+			}
+		}
+		completion_reward = {
+			army_experience = 10
+			air_experience = 5
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 200
+				producer = CZE
+			}
+			set_division_template_lock = {
+				division_template = "Pěší divize"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Horská divize"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Jezdecká brigáda"
+				is_locked = no
+			}
+			set_division_template_lock = {
+				division_template = "Rychlá divize"
+				is_locked = no
+			}
+		}
+		x = 5
+		y = 6
+	}
+	focus = {
+		id = CZE_army_focus
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_war_prep
+		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				category = land_doctrine
+				category = infantry_weapons
+				category = artillery
+			}
+		}
+		x = -3
+		y = 1
+		relative_position_id = CZE_war_prep
+	}
+	focus = {
+		id = CZE_airforce_focus
+		icon = GFX_
+		cost = 8.60
+		prerequisite = {
+			focus = CZE_war_prep
+		}
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				bonus = 0.35
+				uses = 1
+				category = air_doctrine
+				category = air_equipment
+			}
+		}
+		x = 3
+		y = 1
+		relative_position_id = CZE_war_prep
+	}
+	focus = {
+		id = CZE_fortifications_focus
+		icon = GFX_
+		cost = 5.00
+		prerequisite = {
+			focus = CZE_war_prep
+		}
+		completion_reward = {
+			unlock_decision_category_tooltip = CZE_fortifications_cat
+		}
+		x = 0
+		y = 5
+		relative_position_id = CZE_war_prep
+	}
+}

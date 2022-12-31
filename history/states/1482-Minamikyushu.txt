@@ -1,0 +1,35 @@
+
+state={
+	id=1482
+	name="STATE_1482"
+	resources={
+		coal=27.000
+		raremetals=1.000
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 2
+			air_base = 3
+			dockyard = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4102 5 
+		}
+		victory_points = {
+			1020 2
+		}
+
+	}
+
+	provinces={
+		1020 4102 4198 7178 11949 12032 
+	}
+	manpower=2248000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

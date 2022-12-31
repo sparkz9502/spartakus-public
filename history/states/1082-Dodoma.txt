@@ -1,0 +1,23 @@
+
+state={
+	id=1082
+	name="STATE_1082"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		2176 2206 5224 10988 12911 12967 13790 13794 13795 13800 13801 13805 13808 13810 13814 13818 13819 13824 13827 13828 13829 13833 13834 13836 
+	}
+	manpower=936000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

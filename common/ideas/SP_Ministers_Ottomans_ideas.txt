@@ -1,0 +1,1779 @@
+ideas = {
+################################################################################################################################################################################################
+### OTT
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	OTT_Ahmet_Tevfik_Pasa_hog_aco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_persistent_pragmatist
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mahmut_Celal_Bayar_hog_lco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mustafa_Kemal_Pasha_hog_ref = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			cos_hero_of_dardanelles
+			hog_revolutionary_anatolian
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Salih_Bozok_hog_ref = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_persistent_pragmatist
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Hikmet_Kivilcimli_hog_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_bane_of_landlords
+		}
+	}
+	
+	OTT_Mehmet_Ali_Aybar_hog_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_bane_of_landlords
+		}
+	}
+	
+	OTT_Sefik_Husnu_hog_bol = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			bolshevist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+	}
+	
+	OTT_Ethem_Nejat_hog_spa = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			spartacist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+	}
+
+	OTT_Ali_Fethi_Okyar_hog_sli = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			social_liberal
+			hog_political_protege
+		}
+	}
+
+	OTT_Sultanzade_Mehmed_Sabahaddin_hog_sli = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			social_liberal
+			ottoman_prince
+			theo_fervent_ottomanist
+		}
+	}
+
+	OTT_Kazim_Karabekir_hog_sco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			social_conservative
+			hog_old_general
+		}
+	}
+
+	OTT_Mehmet_Cavid_Bey_hog_rwp = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			right_wing_populist
+			hog_corporate_suit
+		}
+	}
+
+	OTT_Ismet_Inonu_hog_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			reformist_socialist
+			hog_old_general
+		}
+	}
+
+	OTT_Selahattin_Koseoglu_hog_rwp = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			right_wing_populist
+			hog_old_general
+		}
+	}
+
+	OTT_Fevzi_Cakmak_hog_aco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			authoritarian_conservative
+			hog_old_general
+		}
+	}
+
+	OTT_Nihal_Atsiz_hog_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			national_corporatist
+			hog_flamboyant_tough_guy
+		}
+	}
+	
+	OTT_Kasim_Gulek_hog_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			head_of_government
+			reformist_socialist
+			
+		}
+	}
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+
+	OTT_Giorgos_Seferis_mwp_sde = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			mwp_minister_of_greek_affairs
+			mwp_poet_diplomat
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Konstantinos_Spanoudis_mwp_sli = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			mwp_minister_of_greek_affairs
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Chrysanthos_Mentis_Bostantzoglou_mwp_sde = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			mwp_minister_of_greek_affairs
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	OTT_Ali_Fethi_Okyar_for_sli = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_western_cooperator
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Ali_Fuat_Cebesoy_for_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			liberal_conservative
+			for_general_staffer
+		}
+	}
+	
+	OTT_Kasim_Gulek_for_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			reformist_socialist
+			for_great_compromiser
+		}
+	}
+
+	OTT_Ali_Kemal_Bey_for_sli = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			social_liberal
+			for_anglophile
+		}
+	}
+
+	OTT_Ali_Adnan_Menderes_for_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no=
+		traits = {
+			foreign_minister
+			liberal_conservative
+			for_stiff_opportunist
+		}
+	}
+
+	OTT_Mehmet_Fuat_Koprulu_for_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			national_corporatist
+			for_biased_intellectual
+		}
+	}
+	
+	OTT_Mustafa_Necati_Ugural_for_sco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			social_conservative
+			for_general_staffer
+		}
+	}
+
+	OTT_Riza_Nur_for_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			liberal_conservative
+			for_biased_intellectual
+		}
+	}
+
+	OTT_Muhammed_Hamdi_Yazir_for_rwp = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			right_wing_populist
+			for_ideological_crusader
+		}
+	}
+
+	OTT_Sukru_Saracoglu_for_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			reformist_socialist
+			for_great_compromiser
+		}
+	}
+
+	OTT_Ismet_Inonu_for_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			reformist_socialist
+			for_great_compromiser
+		}
+	}
+
+	OTT_Selahattin_Adil_for_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			reformist_socialist
+			foreign_minister
+			for_ideological_crusader
+		}
+	}
+
+	OTT_Fahrettin_Altay_for_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			reformist_socialist
+			for_great_compromiser
+		}
+	}
+
+	OTT_Suleyman_Sefik_Soylemezoglu_for_rwp = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			right_wing_populist
+			for_anglophile
+		}
+	}
+
+	OTT_Zeki_Velidi_Togan_for_nsy = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			foreign_minister
+			national_syndicalist
+			for_ideological_crusader
+		}
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	OTT_Ahmet_Ferit_Tek_eco_rwp = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_economic_nationalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Kasim_Gulek_eco_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			reformist_socialist
+			eco_keynesian_economy
+		}
+	}
+	
+	OTT_Nazim_Hikmet_Ran_eco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_nep_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mahmut_Celal_Bayar_eco_sco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Sirri_Day_eco_ref = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Ali_Fuat_Cebesoy_eco_lco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mehmet_Sakir_Kesebir_eco_nco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Berc_Keresteciyan_Bey_eco_sde = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			social_democrat
+			eco_construction_magnate
+		}
+	}
+
+	OTT_Haci_Omer_Sabanci_eco_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			liberal_conservative
+			eco_resource_industrialist
+		}
+	}
+	
+	OTT_Hasan_Fehmi_Atac_eco_ref = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Mehmet_Ali_Aybar_eco_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			revolutionary_socialist
+			economy_minister
+			eco_industrialiser
+		}
+	}
+
+	OTT_Mehmet_Fuat_Koprulu_eco_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			liberal_conservative
+			eco_laissez_faire_capitalist
+		}
+	}
+
+	OTT_Zuhtu_Hilmi_Velibese_eco_sli = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			social_liberal
+			eco_balanced_budget_economy
+		}
+	}
+
+	OTT_Hasan_Husnu_Saka_eco_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			reformist_socialist
+			eco_keynesian_economy
+		}
+	}
+
+	OTT_Kara_Kemal_Bey_eco_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			national_corporatist
+			eco_corrupt_kleptocrat
+		}
+	}
+
+	OTT_Mehmed_Cavid_Bey_eco_rwp = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			right_wing_populist
+			eco_laissez_faire_capitalist
+		}
+	}
+
+	OTT_Mustafa_Seref_Ozkan_eco_aco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			authoritarian_conservative
+			eco_construction_magnate
+		}
+	}
+
+	OTT_Sevket_Rasit_Hatipoglu_eco_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			reformist_socialist
+			eco_resource_industrialist
+		}
+	}
+
+	OTT_Nuri_Demirag_eco_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			economy_minister
+			liberal_conservative
+			eco_railway_magnate
+		}
+	}
+	
+	OTT_Mehmed_Recep_Peker_eco_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			revolutionary_socialist
+			eco_planned_economy_proponent
+		}
+	}
+}
+
+security_minister = { ### Security Minister ###
+	OTT_Sultanzade_Mehmed_Sabahaddin_sec_sli = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			ottoman_prince
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Ahmet_Agaoglu_sec_nsy = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			national_syndicalist
+			sec_silent_lawyer
+		}
+	}
+
+	OTT_Feridun_Fikri_Dusunsel_sec_sli = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			social_liberal
+			sec_crime_fighter
+		}
+	}
+
+	OTT_Ibrahim_Refik_Saydam_sec_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			reformist_socialist
+			sec_health_and_safety
+		}
+	}
+
+	OTT_Bekir_Refik_Koraltan_sec_aco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			authoritarian_conservative
+			sec_crime_fighter
+		}
+	}
+
+	OTT_Kazim_Karabekir_sec_sco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			social_conservative
+			sec_crime_fighter
+		}
+	}
+
+	OTT_Refik_Sevket_Ince_sec_sco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			social_conservative
+			sec_secret_police_chief
+		}
+	}
+
+	OTT_Mustafa_Sabri_Efendi_sec_sco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			right_wing_populist
+			sec_man_of_the_people
+		}
+	}
+
+	OTT_Ahmet_Naci_Eldeniz_sec_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			reformist_socialist
+			sec_man_of_the_people
+		}
+	}
+	
+	OTT_Kazim_Fikri_Ozalp_sec_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			reformist_socialist
+			sec_secret_police_chief
+		}
+	}
+
+	OTT_Mehmet_Semsettin_Gunaltay_sec_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			national_corporatist
+			sec_back_stabber
+		}
+	}
+
+	OTT_Mustafa_Necati_Ugural_sec_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			reformist_socialist
+			sec_silent_lawyer
+		}
+	}
+
+	OTT_Yunus_Nadi_Abalioglu_sec_sde = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			social_democrat
+			sec_media_magnate
+		}
+	}
+
+	OTT_Mehmed_Recep_Peker_sec_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			paternal_autocrat
+			sec_efficient_sociopath
+		}
+	}
+
+	OTT_Fevzi_Cakmak_sec_aco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			authoritarian_conservative
+			sec_secret_police_chief
+		}
+	}
+
+	OTT_Sadri_Maksudi_Arsal_sec_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			national_corporatist
+			sec_compassionate_gentleman
+		}
+	}
+
+	OTT_Yusuf_Kemal_Tengirsenk_sec_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			security_minister
+			national_corporatist
+			sec_silent_lawyer
+		}
+	}
+}
+
+education_minister = { ### Education Minister ###
+	OTT_Riza_Nur_edu_lco = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			education_minister
+			edu_racist_surgeon
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Resat_Fuat_Baraner_edu_spa = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Resat_Muhlis_Erkmen_edu_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			education_minister
+			reformist_socialist
+			edu_academic_reformer
+		}
+	}
+	
+	OTT_Mehmet_Semsettin_Gunaltay_edu_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			education_minister
+			national_corporatist
+			
+		}
+	}
+	
+	OTT_Mustafa_Necati_Ugural_edu_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			education_minister
+			reformist_socialist
+			
+		}
+	}
+	
+	OTT_Mehmed_Recep_Peker_edu_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			education_minister
+			revolutionary_socialist
+		}
+	}
+	
+	OTT_Yusuf_Kemal_Tengirsenk_edu_nco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			education_minister
+			national_corporatist
+		}
+	}
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+	OTT_Zekai_Apaydin_agr_sli = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			agriculture_minister
+			agr_agricultural_revolutionary
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mehmet_Sukru_Kaya_agr_ref = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			agriculture_minister
+			
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Hasan_Fehmi_Atac_agr_ref = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			agriculture_minister
+			
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mehmet_Sabri_Toprak_agr_rev = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			agriculture_minister
+			
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	OTT_Ali_Fethi_Okyar_def_sli = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_pro_armed_neutrality
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mehmed_Recep_Peker_def_rev = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			defence_minister
+			revolutionary_socialist
+			
+		}
+	}
+	
+	OTT_Zekai_Apaydin_def_sli = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = { ### Transport Minister ###
+	OTT_Ali_Cetinkaya_tra_sli = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			social_liberal
+			
+		}
+	}
+	
+	OTT_Cevdet_Kerim_Incedayi_tra_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			reformist_socialist
+			
+		}
+	}
+	
+	OTT_Mehmet_Fahri_Engin_tra_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			reformist_socialist
+			
+		}
+	}
+	
+	OTT_Ali_Fuat_Cebesoy_tra_lco = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			liberal_conservative
+			
+		}
+	}
+	
+	OTT_Sukru_Kocak_tra_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			reformist_socialist
+			
+		}
+	}
+	
+	OTT_Kasim_Gulek_tra_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			reformist_socialist
+			
+		}
+	}
+	
+	OTT_Mehmed_Sukru_Saracoglu_tra_ref = {
+		allowed = { original_tag = OTT }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		cancel_if_invalid = no
+		traits = {
+			transport_minister
+			reformist_socialist
+		}
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	OTT_Mustafa_Kemal_Pasa_cos = {
+		allowed = {original_tag = OTT}
+		traits = {
+			chief_of_staff
+			cos_hero_of_dardanelles
+			cos_tactical_genius
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mehmed_Cemal_Mersinli_cos = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Mehmed_Cemal_Pasa_dead }
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Kazim_Karabekir_cos = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Kazim_Karabekir_dead }
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Fevzi_Cakmak_cos = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Fevzi_Cakmak_dead }
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Osman_Fuad_Efendi_cos = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Osman_Fuad_Efendi_dead }
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_commando_operations
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Salih_Bozok_cos = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Salih_Bozok_dead }
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+	OTT_Fevzi_Cakmak_carm = {
+		allowed = {original_tag = OTT}
+		available = {
+		}
+		traits = {
+			chief_of_army
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Cemil_Cahit_Toydemir_carm = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Cemil_Cahit_Pasa_dead }
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Fahrettin_Altay_carm = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Fahrettin_Pasa_dead }
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Omer_Fahri_Turkkan_carm = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Fakhri_Pasa_dead }
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Salih_Bozok_carm = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Salih_Pasa_dead }
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	OTT_Rauf_Orbay_cnav = {
+		allowed = {original_tag = OTT}
+		available = {
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Mehmet_Fahri_Engin_cnav = {
+		allowed = { original_tag = OTT }
+		available = {
+		}
+		cancel_if_invalid = no
+		traits = {
+			chief_of_navy
+		}
+	}
+	
+	OTT_Mahmud_Muhtar_Katircioglu_cnav = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Mahmud_Muhtar_Pasa_dead }
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+	OTT_Vecihi_Hurkus_cair = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Vecihi_Pasa_dead }
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Ahmet_Ali_Celikten_cair = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Ahmet_Ali_Pasa_dead }
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	OTT_Ismail_Sefik_Bey_cair = {
+		allowed = { original_tag = OTT }
+		available = { }
+		visible = {
+			NOT = { has_country_flag = Ismail_Sefik_Bey_dead }
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = { ### Theorist ###
+	OTT_Sultanzade_Mehmed_Sabahaddin_theo = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			ottoman_prince
+			theo_fervent_ottomanist
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Nazim_Hikmet_theo = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			theo_inspiring_poet
+		}
+		cancel_if_invalid = no
+	}
+	
+	OTT_Suat_Dervis_theo = {
+		allowed = {original_tag = OTT}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			mwp_renowned_suffragette
+		}
+		cancel_if_invalid = no
+	}
+}
+
+}

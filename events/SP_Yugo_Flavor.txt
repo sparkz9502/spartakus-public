@@ -1,0 +1,261 @@
+﻿###########################
+# Yugoslav Flavor
+###########################
+# By Sybil/LWOI
+###########################
+
+add_namespace = serbiatasty
+add_namespace = yugotasty
+
+#Tiger Tyres
+
+country_event = {
+    id = serbiatasty.1
+    immediate = {log = "[GetDateText]: [Root.GetName]: event serbiatasty.1"}
+    title = serbiatasty.1.t
+    desc = serbiatasty.1.d
+    picture = GFX_report_event_generic_factory
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = SER
+        date > 1935.4.7
+        owns_state = 841
+		controls_state = 841
+    }
+
+    mean_time_to_happen = {
+        days = 2
+    }
+
+    option = {
+        name = serbiatasty.1.a # okay
+
+        add_political_power = 15
+        841 = {
+            limit = {
+                free_building_slots = {
+                    building = industrial_complex
+                    size > 0
+                    include_locked = yes
+                }
+            }
+            add_extra_state_shared_building_slots = 1
+            add_building_construction = {
+                type = industrial_complex
+                level = 1
+                instant_build = yes
+            }
+        }
+    }
+}
+
+country_event = { #Church of St. George completed
+	id = serbiatasty.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiatasty.2"}
+	title = serbiatasty.2.t
+	desc = serbiatasty.2.d
+	picture = GFX_SER_Cukarica_Church
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbiatasty.2.a # mhm
+		add_political_power = 10
+	}
+}
+
+country_event = { #Peasants Struggle
+	id = serbiatasty.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiatasty.2"}
+	title = serbiatasty.3.t
+	desc = serbiatasty.3.d
+	picture = GFX_Food_Riot
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbiatasty.3.a # let's hope it won't escalate!
+		add_political_power = -50
+		1192 = {
+		add_manpower = -853
+		}
+		1193 = {
+		add_manpower = -413
+		}
+		767 = {
+		add_manpower = -204
+		}
+		765 = {
+		add_manpower = -122
+		}
+		1194 = {
+		add_manpower = -38
+		}
+		841 = {
+		add_manpower = -12
+		}
+		106 = {
+		add_manpower = -9
+		}
+	}
+	option = {
+		name = serbiatasty.3.b # let's hope it won't escalate!
+		add_political_power = -50
+		1192 = {
+		add_manpower = -21
+		}
+		1193 = {
+		add_manpower = -11
+		}
+		767 = {
+		add_manpower = -7
+		}
+		765 = {
+		add_manpower = -7
+		}
+		1194 = {
+		add_manpower = -1
+		}
+	}
+}
+
+country_event = { #Communists Arrested
+	id = serbiatasty.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiatasty.4"}
+	title = serbiatasty.4.t
+	desc = serbiatasty.4.d
+	picture = GFX_SER_Communist_Terrorists
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbiatasty.4.a # mhm
+		add_political_power = -5
+	}
+}
+
+country_event = { # Astronomical Society Ruđer Bošković
+	id = serbiatasty.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiatasty.5"}
+	title = serbiatasty.5.t
+	desc = serbiatasty.5.d
+
+	is_triggered_only = yes
+
+	option = { # Flavor
+		name = serbiatasty.5.a
+		add_political_power = 5
+	}
+}
+
+country_event = { # Belgrade Zoo
+	id = serbiatasty.6
+	title = serbiatasty.6.t
+	desc = serbiatasty.6.d
+	
+	fire_only_once = yes
+
+	trigger = {
+        tag = SER
+        date > 1936.7.12
+		SER = {
+        NOT = {
+		        has_government = bolshevist
+				has_government = spartacist
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+		}
+		}
+    }
+
+	option = { # Flavor
+		name = serbiatasty.6.a
+		add_political_power = 10
+	}
+}
+
+country_event = { # Belgrade Zoo
+	id = serbiatasty.7
+	title = serbiatasty.6.t
+	desc = serbiatasty.7.d
+	
+	fire_only_once = yes
+
+	trigger = {
+        tag = SER
+        date > 1936.7.12
+	  SER = {
+        OR = {
+		        has_government = bolshevist
+				has_government = spartacist
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+		}
+      }
+	}
+
+	option = { # Flavor
+		name = serbiatasty.6.a
+		add_political_power = 10
+	}
+}
+
+country_event = { # Politikin Zabavnik
+	id = serbiatasty.8
+	title = serbiatasty.8.t
+	desc = serbiatasty.8.d
+	picture = GFX_Zabavnik
+	
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { # Flavor
+		name = serbiatasty.8.a
+		add_political_power = 5
+	}
+}
+
+
+
+country_event = { # Veljko Milatovic kills Krsto Popovic
+    id = yugotasty.1
+    immediate = {log = "[GetDateText]: [Root.GetName]: event yugotasty.1"}
+    title = yugotasty.1.t
+    desc = yugotasty.1.d
+
+    fire_only_once = yes
+
+    trigger = {
+        tag = SER
+        date > 1947.1.7
+        owns_state = 105
+		controls_state = 105
+		SER = {
+        OR = {
+		        has_government = bolshevist
+				has_government = spartacist
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+		}
+      }
+    }
+
+    mean_time_to_happen = {
+        days = 1
+    }
+
+    option = {
+        name = yugotasty.1.a # nice
+
+        add_political_power = 15
+    }
+}

@@ -1,0 +1,76 @@
+﻿capital = 13
+
+set_oob = "EST"
+
+set_research_slots = 2
+
+add_ideas = {
+	recruitment_1825
+	governance_abs
+	trade_pro
+	economy_indzing
+	mobilization_1
+	
+	EST_subordinate_to_livonia
+	EST_vaps_movement
+	EST_Kaarel_Eenpalu_hog_ade
+	EST_Karl_Selter_for_ade
+	EST_Alfred_Vendt_eco_rwp
+	EST_Oskar_Angelus_sec_nsy
+	EST_Jueri_Uluots_def_lco
+	EST_Johan_Laidoner_carm_ade
+	EST_Johannes_Soodla_cos_nsy
+	EST_Voldemar_Mere_cnav_ade
+	EST_Leo_Sepp_cair_lco
+}
+
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+	
+}
+
+set_convoys = 20
+
+LIV = {
+	set_autonomy = {
+		target = EST
+		autonomous_state = sp_protectorate
+	}
+}
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 11
+    spartacist = 5
+    revolutionary_socialist = 1
+    reformist_socialist = 4
+    social_democrat = 7
+    social_liberal = 8
+    liberal_conservative = 15
+    social_conservative = 11
+    authoritarian_conservative = 20
+    right_wing_populist = 2
+    national_syndicalist = 1
+    national_corporatist = 15
+}
+
+set_country_flag = coalition_liberal_conservative
+
+set_country_flag = banned_bolshevist
+set_country_flag = banned_spartacist
+set_country_flag = banned_revolutionary_socialist
+set_country_flag = banned_national_corporatist
+
+recruit_character = EST_johan_laidoner
+recruit_character = EST_artur_sirk
+recruit_character = EST_gustav_jonson
+recruit_character = EST_konstantin_pats
+recruit_character = EST_johan_pitka

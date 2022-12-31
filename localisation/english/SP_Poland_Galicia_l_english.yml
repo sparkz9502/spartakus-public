@@ -1,0 +1,37 @@
+﻿l_english:
+
+### Ideas ###
+
+### Focuses ###
+
+### Parties ###
+PGA_bolshevist_party:0 "KPP-KPSH"
+PGA_bolshevist_party_long:0 "Communist Party of Poland-Communist Party of Eastern Galicia (Komunistyczna Partia Polski-Komunistyczna Partija Schidnoji Halyczyny)"
+PGA_spartacist_party:0 "KPP-KPSH"
+PGA_spartacist_party_long:0 "Communist Party of Poland-Communist Party of Eastern Galicia (Komunistyczna Partia Polski-Komunistyczna Partija Schidnoji Halyczyny)"
+PGA_revolutionary_socialist_party:0 "KPP-KPSH"
+PGA_revolutionary_socialist_party_long:0 "Communist Party of Poland-Communist Party of Eastern Galicia (Komunistyczna Partia Polski-Komunistyczna Partija Schidnoji Halyczyny)"
+PGA_reformist_socialist_party:0 "PNS"
+PGA_reformist_socialist_party_long:0 "Party of Independent Socialists (Partia Niezależnych Socjalistów)"
+PGA_social_democrat_party:0 "PPS"
+PGA_social_democrat_party_long:0 "Polish Socialist Party (Polska Partia Socjalistyczna)"
+PGA_social_liberal_party:0 "SL"
+PGA_social_liberal_party_long:0 "People's Party (Stronnictwo Ludowe)"
+PGA_liberal_conservative_party:0 "PC"
+PGA_liberal_conservative_party_long:0 "Polish Centre (Polskie Centrum)"
+PGA_social_conservative_party:0 "PSChD"
+PGA_social_conservative_party_long:0 "Polish Christian Democratic Party (Polskie Stronnictwo Chrześcijańskiej Demokracji)"
+PGA_authoritarian_conservative_party:0 "NPR"
+PGA_authoritarian_conservative_party_long:0 "National Workers' Party (Narodowa Partia Robotnicza)"
+PGA_right_wing_populist_party:0 "ND"
+PGA_right_wing_populist_party_long:0 "National Democracy (Narodowa Demokracja)"
+PGA_national_syndicalist_party:0 "ND"
+PGA_national_syndicalist_party_long:0 "National Democracy (Narodowa Demokracja)"
+PGA_national_corporatist_party:0 "OUN"
+PGA_national_corporatist_party_long:0 "Organization of Ukrainian Nationalists (Orhanizatsiya Ukrayins'kykh Natsionalistiv)"
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Misc ###

@@ -1,0 +1,26 @@
+state={
+	id=89
+	name="STATE_89"
+	provinces={
+		3743 6431 6460 9425 11411 11550 
+	}
+	resources={
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		#add_core_of = UKR
+		victory_points = { 6483 1 }
+		victory_points = { 11411 3 }
+		buildings = {
+			infrastructure = 2
+			fuel_silo = 1
+			air_base = 3
+		}
+	}
+
+	manpower=1480300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

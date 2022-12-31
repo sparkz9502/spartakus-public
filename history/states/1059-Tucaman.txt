@@ -1,0 +1,21 @@
+
+state={
+	id=1059
+	name="STATE_1059"
+	provinces={
+		8216 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = ARG
+		victory_points = {
+			8216 1 
+		}
+	}
+	manpower=467400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

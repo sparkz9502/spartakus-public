@@ -1,0 +1,25 @@
+
+state={
+	id=1423
+	name="STATE_1423"
+
+	history={
+		owner = FNG
+		add_core_of = FNG
+		victory_points = {
+			7897 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1545 4649 7526 7613 7767 7897 10379 13664 13665 13672 
+	}
+	manpower=2367600
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

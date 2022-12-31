@@ -1,0 +1,66 @@
+### Wuhan Government Decisions ###
+
+
+
+# Civil War prologue #
+CHI_Wang_tendency_decisions = {
+
+	CHI_custom_affairs = { 
+		fire_only_once = yes
+		allowed = {tag = CHI}
+        cost = 90
+        complete_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision CHI_custom_affairs"
+			country_event = { id = CHI.201 }
+		}
+	}
+
+	CHI_custom_regulation = {
+		allowed = {tag = CHI}
+		available = {
+			has_country_flag = CHI_custom_negotiation
+		}
+	
+		visible = {
+			has_country_flag = CHI_custom_negotiation
+		}
+	
+		days_remove = 180
+		modifier = {
+			political_power_gain = -0.05
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision CHI_custom_regulation"
+			add_stability =  0.05
+			add_political_power = 50
+		}
+	}
+
+	CHI_establish_tariff_barrier = {
+		allowed = {
+		original_tag = CHI
+		}
+		available = {
+		has_country_flag = CHI_tariff_barrier
+		#has_completed_focus = 
+		}
+	
+		visible = {
+		has_country_flag = CHI_tariff_barrier
+		}
+	
+		days_remove = 180
+		modifier = {
+			political_power_gain = 0.05
+			industrial_capacity_factory = -0.05
+			consumer_goods_factor = 0.05
+		}
+		remove_effect = {
+			log = "[GetDateText]: [Root.GetName]: Decision CHI_custom_regulation"
+			add_stability =  0.05
+			add_political_power = 50
+			add_ideas = CHI_tariff_barrier
+		}
+	}
+	
+}

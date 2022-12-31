@@ -1,0 +1,29 @@
+state={
+	id=1029
+	name="STATE_1029"
+	provinces={
+		13709 
+	}
+	history={
+		owner = RAJ
+		#add_core_of = ADE
+		add_claim_by = YEM
+		victory_points = {
+			13709 1
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 4
+			industrial_complex = 1
+			13709 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+	manpower=50000
+	state_category=town
+	buildings_max_level_factor=1.000
+}

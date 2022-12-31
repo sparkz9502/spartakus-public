@@ -1,0 +1,93 @@
+﻿l_english:
+
+### Head of Government ###
+GER_Bernhard_Baestlein_hog_bol:0 "Bernhard Bästlein"
+GER_Ernst_Thaelmann_hog_bol:0 "Ernst Thälmann"
+GER_Walter_Ulbricht_hog_bol:0 "Walter Ulbricht"
+GER_Karl_Liebknecht_hog_spa:0 "Karl Liebknecht"
+GER_Milly_Witkop_hog_rev:0 "Milly Witkop"
+
+### Minister Without Portfolio ###
+GER_Clara_Zetkin_mwp_spa:0 "Clara Zetkin"
+
+### Foreign Minister ###
+GER_Helmet_Herzfelde_for_bol:0 "Helmet Herzfelde"
+GER_Walter_Ulbricht_for_bol:0 "Walter Ulbricht"
+GER_Karl_Liebknecht_for_spa:0 "Karl Liebknecht"
+GER_Paul_Levi_for_spa:0 "Paul Levi"
+GER_Gustav_Landauer_for_rev:0 "Gustav Landauer"
+GER_Heinrich_Mann_for_rev:0 "Heinrich Mann"
+
+### Economy Minister ###
+GER_Albert_Kuntz_eco_bol:0 "Albert Kuntz"
+GER_Willi_Muenzenberg_eco_bol:0 "Willi Münzenberg"
+GER_Willi_Stoph_eco_bol:0 "Willi Stoph"
+GER_Hermann_Duncker_eco_spa:0 "Hermann Duncker"
+GER_Rudolf_Egelhofer_eco_spa:0 "Rudolf Egelhofer"
+GER_Augustin_Souchy_eco_rev:0 "Augustin Souchy"
+GER_Alex_Moeller_eco_ref:0 "Alex Möller"
+
+### Security Minister ###
+GER_Hilde_Benjamin_sec_bol:0 "Hilde Benjamin"
+GER_Julius_Leber_sec_bol:0 "Julius Leber"
+GER_Otto_Grotewohl_sec_bol:0 "Otto Grotewohl"
+GER_Walter_Ulbricht_sec_bol:0 "Walter Ulbricht"
+GER_Hans_Kippenberger_sec_spa:0 "Hans Kippenberger"
+GER_Paul_Levi_sec_spa:0 "Paul Levi"
+GER_Fritz_Kater_sec_rev:0 "Fritz Kater"
+GER_Silvio_Gesell_sec_rev:0 "Silvio Gesell"
+
+### Education Minister ###
+GER_Erich_Weinert_edu_bol:0 "Erich Weinert"
+GER_Ernst_Toller_edu_spa:0 "Ernst Toller"
+GER_Erich_Muehsam_edu_rev:0 "Erich Mühsam"
+GER_Georg_Ledebour_edu_ref:0 "Georg Ledebour"
+
+### Agriculture Minister ###
+GER_Ernst_Goldenbaum_agr_bol:0 "Ernst Goldenbaum"
+GER_Paul_Scholz_agr_bol:0 "Paul Scholz"
+GER_Franz_Pilarski_agr_bol:0 "Franz Pilarski"
+GER_Fritz_Selbmann_agr_spa:0 "Fritz Selbmann"
+GER_Edwin_Hoernle_agr_spa:0 "Edwin Hoernle"
+GER_Rudolf_Albrecht_agr_spa:0 "Rudolf Albrecht"
+GER_Friedrich_Martin_agr_spa:0 "Friedrich Martin"
+GER_Paul_Roch_agr_spa:0 "Paul Roch"
+GER_Otto_Reimers_agr_rev:0 "Otto Reimers"
+GER_Friedrich_Wehmer_agr_ref:0 "Friedrich Wehmer"
+GER_Otto_Korting_agr_ref:0 "Otto Körting"
+GER_Ernst_Walter_Beer_agr_ref:0 "Ernst-Walter Beer"
+
+### Transport Minister ###
+GER_Hugo_Eberlein_tra_spa:0 "Hugo Eberlein"
+
+### Defence Minister ###
+GER_Ernst_Thaelmann_def_bol:0 "Ernst Thälmann"
+GER_Ernst_Wollweber_def_bol:0 "Ernst Wollweber"
+GER_Heinrich_Mueller_def_bol:0 "Heinrich Müller"
+GER_Hugo_Eberlein_def_spa:0 "Hugo Eberlein"
+GER_Willi_Muenzenberg_def_rev:0 "Willi Münzenberg"
+
+### Chief of Staff ###
+GER_Ludwig_Renn_cos:0 "Ludwig Renn"
+GER_Ernst_Wollweber_cos:0 "Ernst Wollweber"
+GER_Ernst_Thaelmann_cos:0 "Ernst Thälmann"
+
+### Chief of Army ###
+GER_Albert_Schreiner_carm:0 "Albert Schreiner"
+GER_Hans_Kahle_carm:0 "Hans Kahle"
+GER_Rudolf_Egelhofer_carm:0 "Rudolf Egelhofer"
+GER_Erwin_Rommel_carm:0 "Erwin Rommel"
+GER_Ernst_Volckheim_carm:0 "Ernst Volckheim"
+
+### Chief of Navy ###
+GER_Hans_Paasche_cnav:0 "Hans Paasche"
+GER_Lothar_von_Arnauld_cnav:0 "Lothar von Arnauld"
+
+### Chief of Air Force ###
+GER_Walter_Kreiser_cair:0 "Walter Kreiser"
+GER_Kurt_Student_cair:0 "Kurt Student"
+
+### Theorist ###
+GER_Magnus_Hirschfeld_theo:0 "Magnus Hirschfeld"
+GER_Albert_Einstein_theo:0 "Albert Einstein"
+GER_Leo_Szilard_theo:0 "Leo Szilard"

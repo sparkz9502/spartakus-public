@@ -1,0 +1,25 @@
+
+state={
+	id=1475
+	name="STATE_1475"
+	provinces={
+		4991 10842 13085 13444 13446 
+	}
+	history={
+		owner = GUA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			13085 = {
+				naval_base = 1
+
+			}
+
+		}
+		add_core_of = GUA
+
+	}
+	manpower=777900
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,1699 @@
+ideas = {
+################################################################################################################################################################################################
+### ENG
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	ENG_Winston_Churchill_hog_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Austen_Chamberlain_hog_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Edward_Wood_hog_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Stanley_Baldwin_hog_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Clement_Attlee_hog_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Oswald_Mosley_hog_ref = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Duff_Cooper_hog_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Herbert_Samuel_hog_sli = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Ethel_Mannin_hog_rev = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Ramsay_Macdonald_hog_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Ernest_Bevin_hog_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Robert_Gascoyne_Cecil_hog_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+minister_without_portfolio = { ### Minister w/o Portfolio ###
+	ENG_Anthony_Eden_mwp_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Stanley_Baldwin_mwp_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Eustace_Percy_mwp_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Leslie_Burgin_mwp_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Maurice_Hankey_mwp_aco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Arthur_Greenwood_mwp_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_William_Jowitt_mwp_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_AV_Alexander_mwp_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	ENG_Samuel_Hoare_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Anthony_Eden_for_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Edward_Wood_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Ernest_Bevin_for_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Philip_Cunliffe_Lister_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Malcolm_Macdonald_for_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_James_Henry_Thomas_for_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_William_Ormsby_Gore_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_George_Lloyd_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Walter_Guinness_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Robert_Gascoyne_Cecil_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Oliver_Stanley_for_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_George_Henry_Hall_for_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Arthur_Creech_Jones_for_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Jim_Griffiths_for_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+		ENG_Neville_Chamberlain_eco_lco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				liberal_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Stanley_Baldwin_eco_lco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				liberal_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Winston_Churchill_eco_sco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				liberal_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_John_Simon_eco_sli = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				social_liberal
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Kingsley_Wood_eco_lco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				liberal_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_John_Anderson_eco_aco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				authoritarian_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Hugh_Dalton_eco_sde = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				social_democrat
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Stafford_Cripps_eco_sde = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				social_democrat
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Austen_Chamberlain_eco_lco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				liberal_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Oswald_Mosley_eco_ref = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				reformist_socialist
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+		
+		ENG_Brendan_Bracken_eco_sco = {
+			allowed = {original_tag = ENG}
+			available = {
+				has_country_flag = can_replace_minister
+			}
+			traits = {
+				social_conservative
+				economy_minister
+			}
+			cancel_if_invalid = no
+		}
+}
+
+security_minister = { ### Security Minister ###
+	
+	ENG_Herbert_Samuel_sec_sli = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Austen_Chamberlain_sec_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_John_Simon_sec_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Ramsay_Macdonald_sec_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Stanley_Baldwin_sec_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Samuel_Hoare_sec_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_John_Gilmore_sec_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_John_Anderson_sec_aco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Herbert_Morrison_sec_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Donald_Somervell_sec_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_James_Chuter_Ede_sec_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_David_Maxwell_Fyfe_sec_aco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = { ### Education Minister ###
+
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+
+}
+
+transport_minister = { ### Transport Minister ###
+
+}
+
+defence_minister = { ### Defence Minister ###
+	ENG_Duff_Cooper_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Thomas_Inskip_def_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Ernle_Chatfield_def_aco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Winston_Churchill_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Clement_Attlee_def_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_AV_Alexander_def_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Edward_Wood_def_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Leslie_Hore_Belisha_def_lco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Oliver_Stanley_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Anthony_Eden_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_David_Margesson_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_PJ_Grigg_def_aco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Jack_Lawson_def_sde = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Frederick_Bellenger_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Emanuel_Shinwell_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_John_Strachey_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+	
+	ENG_Antony_Head_def_sco = {
+		allowed = {original_tag = ENG}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	ENG_Archibald_Montgomery_Massingbird_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		
+
+	}
+	
+	ENG_JFC_Fuller_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		
+
+	}
+	
+	ENG_Claude_Auchinleck_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		
+
+	}
+	
+	ENG_Cyril_Deverell_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+		}
+		
+
+	}
+	
+	ENG_John_Vereker_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		
+
+	}
+	
+	ENG_Edmund_Ironside_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		
+
+	}
+	
+	ENG_John_Dill_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_commando_operations
+		}
+		
+
+	}
+	
+	ENG_Alan_Brooke_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+			cos_pessimistic_fool
+		}
+		
+
+	}
+	
+	ENG_Bernard_Montgomery_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+		}
+		
+
+	}
+	
+	ENG_William_Slim_cos = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		
+
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+
+	ENG_Archibald_Montgomery_Massingbird_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		
+
+	}
+	
+	ENG_Archibald_Wavell_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		
+
+	}
+	
+	ENG_Cyril_Deverell_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		
+
+	}
+	
+	ENG_John_Vereker_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		
+
+	}
+	
+	ENG_Edmund_Ironside_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		
+
+	}
+	
+	ENG_John_Dill_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		
+
+	}
+	
+	ENG_Alan_Brooke_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		
+
+	}
+	
+	ENG_Bernard_Montgomery_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		
+
+	}
+	
+	ENG_William_Slim_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		
+
+	}
+	
+	ENG_Claude_Auchinleck_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		
+
+	}
+	
+	ENG_JFC_Fuller_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		
+
+	}
+
+	ENG_Harold_Alexander_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		
+
+	}
+	
+	ENG_Neil_Ritchie_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+	}
+	
+	ENG_Alan_Cunningham_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_doctrine_of_autonomy
+		}
+		
+
+	}
+	
+	ENG_Richard_Oconnor_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		
+
+	}
+	
+	ENG_Henry_Wilson_carm = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+	}
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	ENG_Lord_Chatfield_cnav = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		
+
+	}
+	
+	ENG_Roger_Backhouse_cnav = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		
+
+	}
+	
+	ENG_Winston_Churchill_cnav = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_navy
+			cnav_narrow_minded_imbecile
+		}
+	}
+	
+	ENG_Dudley_Pound_cnav = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		
+
+	}
+	
+	ENG_Viscount_Cunningham_cnav = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_navy
+			cnav_strategic_defence_proponent
+		}
+		
+
+	}
+	
+	ENG_John_Cunningham_cnav = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+	}
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	ENG_Edward_Ellington_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		
+
+	}
+	
+	ENG_Cyril_Newall_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+
+	}
+	
+	ENG_Lord_Portal_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		
+
+	}
+	
+	ENG_Arthur_Tedder_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		
+
+	}
+	
+	ENG_John_Slessor_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_naval_aviation_doctrine
+		}
+		
+
+	}
+	
+	ENG_John_Salmond_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+	}
+	
+	ENG_Arthur_Harris_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_bomber_harris
+		}
+	}
+	
+	ENG_Hugh_Dowding_cair = {
+		allowed = {
+			original_tag = ENG
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+	}
+
+}
+
+sp_theorist = { ### Theorist ###
+
+	ENG_Bernard_Montgomery_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		
+		research_bonus = {
+			cat_grand_battle_plan = 0.15
+		}
+	}
+	
+	ENG_James_Somerville_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		research_bonus = {
+			cat_fleet_in_being = 0.15
+		}
+	}
+	
+	ENG_Tom_Phillips_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		research_bonus = {
+			naval_doctrine = 0.10
+		}
+	}
+	
+	ENG_Hugh_Dowding_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		
+		research_bonus = {
+			air_doctrine = 0.10
+		}
+	}
+	
+	ENG_Arthur_Harris_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		research_bonus = {
+			cat_strategic_destruction = 0.15
+		}
+	}
+	
+	ENG_James_Chadwick_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		research_bonus = {
+			nuclear = 0.15
+		}
+	}
+	
+	ENG_Frank_Whittle_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+		
+		research_bonus = {
+			rocketry = 0.15
+		}
+	}
+
+	ENG_JFC_Fuller_theo = {
+		
+		allowed = {
+			original_tag = ENG
+		}
+
+		research_bonus = {
+			cat_mobile_warfare = 0.15
+		}
+	}
+	
+}
+}

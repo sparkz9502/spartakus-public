@@ -1,0 +1,24 @@
+state={
+	id=1172
+	name="STATE_1172"
+	provinces={
+		14554 
+	}
+	history={
+		owner = MNT
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14554 1
+		}
+		add_claim_by = SER
+		add_core_of = MNT
+		add_core_of = KOS
+		add_core_of = ALB
+
+	}
+	manpower=32430
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

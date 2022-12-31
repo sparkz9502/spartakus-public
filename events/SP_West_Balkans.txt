@@ -1,0 +1,371 @@
+###########################
+# West Balkans Events
+###########################
+# By Sybil/LWOI
+###########################
+
+add_namespace = WestBalkans
+add_namespace = YUGInfluence
+add_namespace = WBLiteracy
+
+
+### YUGInfluence Events
+
+country_event = { #Cyclical Event Trigger
+	id = YUGInfluence.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event YUGInfluence.1"}
+	title = YUGInfluence.1.t
+	desc = YUGInfluence.1.d
+	
+	hidden = yes
+	
+	trigger = {
+	OR = {
+		      has_country_flag = Bosniak_Dissent_Flag
+	          has_country_flag = Croat_Dissent_Flag
+		      has_country_flag = Serb_Dissent_Flag
+	        }
+	}
+	
+	is_triggered_only = yes
+
+	immediate = {
+		country_event = { days = 30 id = YUGInfluence.1 }
+        random_list = {
+			100 = {
+		    country_event = { days = 1 id = YUGInfluence.2 }
+				}
+		    }
+    }
+}
+
+country_event = { #Autonomist Organizations Recruiting
+	id = YUGInfluence.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event YUGInfluence.2"}
+	title = YUGInfluence.2.t
+	desc = YUGInfluence.2.d
+	
+	is_triggered_only = yes
+
+	option = { #Attempt to control them
+		name = YUGInfluence.2.a
+		ai_chance = {
+			factor = 50
+		}
+		add_political_power = -50
+		
+	}
+	
+	option = { # They have the right to organize
+		name = YUGInfluence.2.b
+		ai_chance = {
+			factor = 50
+	    }
+		add_stability = -0.01
+    }
+}
+
+### Literacy Events
+
+country_event = { #Setvariables
+	id = WBLiteracy.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.1"}
+	title = WBLiteracy.1.t
+	desc = WBLiteracy.1.d
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	add_to_variable = { SER.literacy_rate = 34 } 
+	add_to_variable = { STJ.literacy_rate = 65 }
+    add_to_variable = { BOS.literacy_rate = 13 } 	
+	add_to_variable = { ALB.literacy_rate = 18 } 
+	country_event = { days = 90 id = WBLiteracy.2 }
+	}
+}
+
+country_event = { #Trimonthly Growth
+	id = WBLiteracy.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.2"}
+	title = WBLiteracy.2.t
+	desc = WBLiteracy.2.d
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	add_to_variable = { SER.literacy_rate = 0.1 } 
+	add_to_variable = { CRO.literacy_rate = 0.1 }
+    add_to_variable = { BOS.literacy_rate = 0.1 } 	
+	add_to_variable = { ALB.literacy_rate = 0.1 } 	
+	country_event = { days = 90 id = WBLiteracy.2 }
+	}
+}
+
+country_event = { #Serbs can Read? 1
+	id = WBLiteracy.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.3"}
+	title = WBLiteracy.3.t
+	desc = WBLiteracy.3.d
+	
+	trigger = {
+	    OR = {
+	    tag = SER
+        tag = RSE
+        }		
+		check_variable = { SER.literacy_rate > 39 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.3.a
+		ai_chance = {
+			factor = 100
+	    }
+		swap_ideas = {
+				remove_idea = WB_Idea_Illiteracy_High add_idea = WB_Idea_Illiteracy
+		}
+    }
+}
+
+country_event = { #Serbs can Read? 2
+	id = WBLiteracy.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.4"}
+	title = WBLiteracy.4.t
+	desc = WBLiteracy.4.d
+	
+	trigger = {
+	    OR = {
+	    tag = SER
+        tag = RSE
+        }		
+		check_variable = { SER.literacy_rate > 79 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.4.a
+		ai_chance = {
+			factor = 100
+	    }
+		clr_country_flag = Serbs_cant_read
+		remove_ideas = WB_Idea_Illiteracy
+    }
+}
+
+country_event = { #Croats can Read?
+	id = WBLiteracy.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.5"}
+	title = WBLiteracy.5.t
+	desc = WBLiteracy.5.d
+	
+	trigger = {
+	    OR = {
+	    tag = STJ
+        }		
+		check_variable = { CRO.literacy_rate > 79 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.5.a
+		ai_chance = {
+			factor = 100
+	    }
+		clr_country_flag = Croats_cant_read
+		remove_ideas = WB_Idea_Illiteracy
+    }
+}
+
+country_event = { #Bosnians Can Read? 1
+	id = WBLiteracy.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.6"}
+	title = WBLiteracy.6.t
+	desc = WBLiteracy.6.d
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { BOS.literacy_rate > 39 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.6.a
+		ai_chance = {
+			factor = 100
+	    }
+		swap_ideas = {
+				remove_idea = WB_Idea_Illiteracy_High add_idea = WB_Idea_Illiteracy
+		}
+    }
+}
+
+country_event = { #Bosnians can Read? 2
+	id = WBLiteracy.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.7"}
+	title = WBLiteracy.7.t
+	desc = WBLiteracy.7.d
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { BOS.literacy_rate > 79 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.7.a
+		ai_chance = {
+			factor = 100
+	    }
+		clr_country_flag = Bosnians_cant_read
+		remove_ideas = WB_Idea_Illiteracy
+    }
+}
+
+country_event = { #Albanians Can Read? 1
+	id = WBLiteracy.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.6"}
+	title = WBLiteracy.8.t
+	desc = WBLiteracy.8.d
+	
+	trigger = {
+	    OR = {
+	    tag = ALB
+        }		
+		check_variable = { ALB.literacy_rate > 39 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.8.a
+		ai_chance = {
+			factor = 100
+	    }
+		swap_ideas = {
+				remove_idea = WB_Idea_Illiteracy_High add_idea = WB_Idea_Illiteracy
+		}
+    }
+}
+
+country_event = { #Albanians can Read? 2
+	id = WBLiteracy.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.7"}
+	title = WBLiteracy.9.t
+	desc = WBLiteracy.9.d
+	
+	trigger = {
+	    OR = {
+	    tag = ALB
+        }		
+		check_variable = { ALB.literacy_rate > 79 }
+    }
+	
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	fire_only_once = yes
+	
+	option = { # Finally!
+		name = WBLiteracy.9.a
+		ai_chance = {
+			factor = 100
+	    }
+		clr_country_flag = Albanians_cant_read
+		remove_ideas = WB_Idea_Illiteracy
+    }
+}
+
+country_event = { #Growth Booster 1 - Serbia
+	id = WBLiteracy.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event WBLiteracy.8"}
+	title = WBLiteracy.10.t
+	desc = WBLiteracy.10.d
+	
+	hidden = yes
+	is_triggered_only = yes
+	
+	immediate = {
+	add_to_variable = { SER.literacy_rate = 0.1 }
+	country_event = { days = 90 id = WBLiteracy.10 }
+	}
+}
+
+### Vriska
+
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+#@@@@@@&00000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@000@@@@@@@@
+#@@@@00000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@@000000@@@@@@@
+#@@@&&00000000000000@@@@@@@@@@@@@@@@@@@@@@@@@@@000000@@@@@@@
+#@@&&&&0000000000000&0@@@@@@@@@@@@@@@@@@*@@@@@0000*&00@@@@@@
+#@&&&&&&00&&&00&&&&&0&&@@@@@@@@((((@@@@*@@@@@&0&/*/&&&@@@@@@
+#@&&&&&&00&&&&&&&&&&&0&&@@@@@@(((@@@@@&**(((((&&&**&&&@@@@@@
+#@&&&&&&&&&&0000&&0&&&0&&@@@@@(((((((((**(//((((((*0&&@@@@@@
+#@&&&&&&&&&000000&00&&00&&@@@@((((((((((((&@@@@@@((0&&@@@@@@
+#@@&&&&&&&&&000000&&&&&000&@@@(((((((((@&@0/,@@@&@(&&&@@@@@@
+#@@@&&&&000&000000&&&&&&000&&@@@(((((&,/,**,,,,,,/&(&@@@@@@@
+#@@@@&0&&00&&&000&&&&&&&&&000&&@@@&(((,(**,,,,*,,,&0&@@@@@@@
+#@@@@@&0&&&&&&&&&&&&00&&&&&&000&&@@&(((/,,/  .(*,@(&&@@@@@@@
+#@@@@@@&00&&&&&00&&&&&&&&&&&&&0000(((/(((@,,,,(@@&&0@@@@@@@@
+#@@@@@@@&00&&&&&&&&&&&&&&&&00&&&0(///////((((/&&&&0&@@@@@@@@
+#@@@@@@@@0&00&&&&&&&&&&&&&&&&00,/////////*./////&&0@@@@@@@@@
+#@@@@@@@@@@&&000&&&&&&&0&&&&,,,,,///////*...,///,0@@@@@@@@@@
+#@@@@@@@@&0&@&&000&&&&&&&,,,,,00((((//////.//&&,,,&@@@@@@@@@
+#@@@@@@@@@@&0&@@&&0000&,,,,,0000((((/////////&00&,,@@@@@@@@@
+#@@@@@@@@@0@@@@&&&0&&0&000,,,,,0((((/////////0&0&@,,(@@@@@@@
+#@@@@@@@@@@@@@@&&&&00&&00&000/,,,,,,,,////////00&@@,,@@@@@@@
+#@@@@@@@@@@@@@@@@@&&&&&&&@&00000(((////////////&@@@@,,@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@&&&000000((((/////////////&@@@@,,@@@@@
+#@@@@@@@@@@@@@@@@@@@0&&00000000((((//////////////(&@@@,@@@@@
+#@@@@@@@@@@@@@@@@@@&&000000000(((((//////////////(((@@/,@@@@
+#@@@@@@@@@@@@@@@@@&&00000000&(((&&////////////////((@@@,,,@@
+#@@@@@@@@@@@@@@@@0&00000000(((0&&@@//////&00(//////(@@@,@,,@
+#@@@@@@@@@@@@@@@@&&000000(((0&&&@@@/////@@&00//////@@@@@@@@@
+#@@@@@@@@@@@@@@@&&000000((00&&@@@@@/////@@000(/////&@@@@@@@@
+#@@@@@@@@@@@@@@&&000000(&&&&@@@@@@&/////@@@(&0//////@@@@@@@@
+#@@@@@@@@@@@0&&0000000(&&@@@@@@@@@//////&@(@&&//////@@@@@@@@
+#@@@@@@@@@@&&&&&&&&&@@(@@@@@@@@@@@@/////@@&@@00////(@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@&@@@@@@@@@@@@0//(00@@@@00000@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@00000@@@@&000@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@000@@@@000@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@00@@@@00@@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@00@@.00@@@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@000@.0@@@@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@00@@@@@@@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@00@@@@@@@@@@@@@@@@@@@@
+#@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@00@@@@@@@@@@@@@@@@@@@

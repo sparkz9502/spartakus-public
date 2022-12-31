@@ -1,0 +1,70 @@
+spriteTypes = {
+	spriteType = {
+		name = "GFX_menupicture"
+		texturefile = "gfx/interface/menupicture.dds"				
+	}
+	spriteType = {
+		name = "GFX_separatist_gui_background"
+		texturefile = "gfx/interface/separatist_gui_background.tga"			
+	}
+	spriteType = {
+		name = "GFX_minister_bg"
+		texturefile = "gfx/interface/minister_bg.tga"				
+	}
+	spriteType = {
+		name = "GFX_laws_bg"
+		texturefile = "gfx/interface/laws_bg.tga"				
+	}
+	spriteType = {
+		name = "GFX_laws_icon"
+		texturefile = "gfx/interface/laws_icon.tga"				
+	}
+	spriteType = {
+		name = "GFX_mobilization_bg"
+		texturefile = "gfx/interface/mobilization_bg.tga"				
+	}
+	spriteType = {
+		name = "GFX_mobilization_green"
+		texturefile = "gfx/interface/mobilization_green.tga"				
+	}
+	spriteType = {
+		name = "GFX_mobilization_red"
+		texturefile = "gfx/interface/mobilization_red.tga"				
+	}
+	spriteType = {
+		name = "GFX_mobilization_leftarrow"
+		texturefile = "gfx/interface/mobilization_leftarrow.tga"				
+	}
+	spriteType = {
+		name = "GFX_mobilization_rightarrow"
+		texturefile = "gfx/interface/mobilization_rightarrow.tga"				
+	}
+	spriteType = {
+		name = "GFX_laws_arrow_up"
+		texturefile = "gfx/interface/laws_arrow_up.tga"				
+	}
+	spriteType = {
+		name = "GFX_laws_arrow_down"
+		texturefile = "gfx/interface/laws_arrow_down.tga"				
+	}
+	spriteType = {
+		name = "GFX_coal_shortage"
+		texturefile = "gfx/interface/coal_shortage.tga"				
+	}
+	SpriteType = {
+		name = "GFX_naval_bomber4_medium"
+		texturefile = "gfx/interface/technologies/naval_bomber4.dds"
+	}
+	SpriteType = {
+		name = "GFX_fighter4_medium"
+		texturefile = "gfx/interface/technologies/fighter4.dds"
+	}
+	SpriteType = {
+		name = "GFX_tactical_bomber4_medium"
+		texturefile = "gfx/interface/technologies/tactical_bomber4.dds"
+	}
+	SpriteType = {
+		name = "GFX_CAS4_medium"
+		texturefile = "gfx/interface/technologies/CAS4.dds"
+	}
+}

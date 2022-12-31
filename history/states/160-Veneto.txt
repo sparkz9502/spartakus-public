@@ -1,0 +1,49 @@
+
+state={
+	id=160
+	name="STATE_160"
+
+	history={
+		owner = ITA
+		victory_points = {
+			11584 12 
+		}
+		victory_points = {
+			15647 2 
+		}
+		victory_points = {
+			3604 4 
+		}
+		victory_points = {
+			9582 1 
+		}
+		victory_points = {
+			603 7 
+		}
+		victory_points = {
+			15374 1 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 2
+			fuel_silo = 1
+			air_base = 3
+			11584 = {
+				naval_base = 2
+
+			}
+
+		}
+		add_core_of = ITA
+		add_core_of = VNZ
+
+	}
+
+	provinces={
+		603 3604 9582 11584 13621 15374 15646 15647 
+	}
+	manpower=4123300
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

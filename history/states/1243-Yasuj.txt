@@ -1,0 +1,29 @@
+
+state={
+	id=1243
+	name="STATE_1243"
+	resources={
+		oil=7.000
+	}
+
+	history={
+		owner = KHU
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = KHU
+		add_claim_by = PER
+		victory_points = {
+			14987 1 
+		}
+
+	}
+
+	provinces={
+		14970 14987 15022 
+	}
+	manpower=311000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

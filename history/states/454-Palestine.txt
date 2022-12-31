@@ -1,0 +1,40 @@
+
+state={
+	id=454
+	name="STATE_454"
+
+	history={
+		owner = PAL
+		add_core_of = PAL
+		victory_points = {
+			1086 5 
+		}
+		victory_points = {
+			4206 2 
+		}
+		victory_points = {
+			14908 3 
+		}
+		victory_points = {
+			7107 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			air_base = 1
+			4206 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1065 1086 1201 4206 7107 14908 
+	}
+	manpower=674000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

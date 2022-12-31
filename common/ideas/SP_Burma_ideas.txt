@@ -1,0 +1,89 @@
+### Burma Revolt ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+	
+		#Starting
+		BMR_The_Great_Burma_Revolt = {
+			modifier = {
+				surrender_limit = 0.1
+				army_morale_factor = 0.1
+			}
+			picture = generic_communism_drift_bonus
+		}
+		
+		BMR_The_Legacy_of_Saya_San = {
+			modifier = {
+				war_support_factor = 0.05
+			}
+			picture = ENG_the_war_to_end_all_wars
+		}
+		
+		BMR_Disorganized_Militias = {
+			modifier = {
+				conscription_factor = 0.1
+				army_org_factor = -0.25
+			}
+			picture = chi_army_corruption
+		}
+		
+		BMR_Questionable_Support = {
+			modifier = {
+				war_support_factor = -0.1
+			}
+			picture = prc_low_popular_support2
+		}
+		
+		BMR_Political_Disunity = {
+			modifier = {
+				stability_factor = -0.1
+				political_power_gain = -0.25
+			}
+			picture = chi_incompetent_officers
+		}
+		
+		#Added
+		BMR_Guerilla_Tactics_Idea = {
+			modifier = {
+				conscription_factor = 0.1
+				army_attack_factor = 0.05
+				army_org_factor = -0.1
+			}
+			picture = chi_army_corruption3
+		}
+		
+		BMR_Built_Support = {
+			modifier = {
+				war_support_factor = 0.05
+				stability_factor = 0.05
+			}
+			picture = prc_low_popular_support3
+		}
+		
+		BMR_Independents_Purged = {
+			modifier = {
+				political_power_gain = -0.1
+			}
+			picture = jap_the_unthinkable_option
+		}
+		
+		BMR_Recruitment_Increased = {
+			modifier = {
+				conscription = 0.005
+			}
+			picture = generic_communist_army
+		}
+		
+		BMR_Still_Alive = {
+			modifier = {
+				surrender_limit = 0.1
+				war_support_factor = 0.1
+				army_defence_factor = 0.05
+			}
+			picture = generic_fortify_the_borders
+		}
+	}
+}

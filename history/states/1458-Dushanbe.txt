@@ -1,0 +1,27 @@
+
+state={
+	id=1458
+	name="STATE_1458"
+
+	history={
+		owner = TRK
+		buildings = {
+			infrastructure = 1
+			arms_factory = 1
+
+		}
+		add_core_of = TRK
+		add_claim_by = SOV
+		victory_points = {
+			10205 3 
+		}
+
+	}
+
+	provinces={
+		1216 1384 1919 7224 10205 12218 12239 12250 12430 12722 
+	}
+	manpower=1728000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

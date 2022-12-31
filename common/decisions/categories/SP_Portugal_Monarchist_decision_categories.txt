@@ -1,0 +1,14 @@
+#####################
+### Evil Portugal ###
+#####################
+
+PRM_projects = {
+	visible = {
+		has_country_flag = PRM_pfocus
+	}
+	allowed = {
+		OR = {
+			original_tag = PRM
+		}
+	}
+}

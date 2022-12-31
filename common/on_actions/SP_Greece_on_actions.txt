@@ -1,0 +1,40 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			GRE = {
+				country_event = { id = greflavour.1 days = 1 }
+				country_event = { id = greelection.1 days = 268 }
+				country_event = { id = grecommie.1 days = 64 }
+				country_event = { id = greflavour.4 days = 1539 }
+				country_event = { id = greflavour.5 days = 1594 }
+				country_event = { id = greflavour.6 days = 1490 }
+
+				GRE_parliament_gui_initial = yes
+
+				set_variable = {
+					var = gre_socialist_militancy
+					value = 0
+				}
+
+				set_variable = {
+					var = gre_gov_suspicion
+					value = 0
+				}
+				set_variable = {
+					var = gre_mil_preparations
+					value = 0
+				}
+				clamp_variable = {
+					var = gre_gov_suspicion
+					min = 0
+					max = 100
+				}
+				clamp_variable = {
+					var = gre_mil_preparations
+					min = 0
+					max = 100
+				}
+			}
+		}
+    }
+}

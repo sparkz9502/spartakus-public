@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+### Parties ###
+
+MLT_bolshevist_party:0 "PL"
+MLT_bolshevist_party_long:0 "Partit Laburista"
+MLT_spartacist_party:0 "PL"
+MLT_spartacist_party_long:0 "Partit Laburista"
+MLT_revolutionary_socialist_party:0 "PL"
+MLT_revolutionary_socialist_party_long:0 "Partit Laburista"
+MLT_reformist_socialist_party:0 "PL"
+MLT_reformist_socialist_party_long:0 "Partit Laburista"
+MLT_social_democrat_party:0 "PL"
+MLT_social_democrat_party_long:0 "Partit Laburista"
+MLT_social_liberal_party:0 "PK"
+MLT_social_liberal_party_long:0 "Partit Kostituzzjonali"
+MLT_liberal_conservative_party:0 "PK"
+MLT_liberal_conservative_party_long:0 "Partit Kostituzzjonali"
+MLT_social_conservative_party:0 "PN"
+MLT_social_conservative_party_long:0 "Partit Nazzjonalista"
+MLT_authoritarian_conservative_party:0 "OMSM"
+MLT_authoritarian_conservative_party_long:0 "Ordni Militari Sovran ta' Malta"
+MLT_right_wing_populist_party:0 "OMSM"
+MLT_right_wing_populist_party_long:0 "Ordni Militari Sovran ta' Malta"
+MLT_national_syndicalist_party:0 "PNF-M"
+MLT_national_syndicalist_party_long:0 "Partito Nazionale Fascista Maltese"
+MLT_national_corporatist_party:0 "PNF-M"
+MLT_national_corporatist_party_long:0 "Partito Nazionale Fascista Maltese"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

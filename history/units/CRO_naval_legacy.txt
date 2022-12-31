@@ -1,0 +1,13 @@
+units = {
+
+	### Naval OOB ###
+fleet = {				
+		name = "Ilirska Ratna Mornarica"			
+		naval_base = 163
+		task_force = {
+			name = "Ilirska Ratna Mornarica"			
+			location = 6889 # Dubrovnik
+			ship = { name = "IRM Ljudevit Gaj" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = CRO } } }
+		}
+	}
+}

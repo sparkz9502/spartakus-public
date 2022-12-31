@@ -1,0 +1,155 @@
+characters={
+    CHL_carlos_contreras_labarca = {
+        name = "Carlos Contreras Labarca"
+        portraits={
+            civilian={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+            }
+        }
+        country_leader={
+            desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_CARLOS_CONTRERAS_LABARCA_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_jose_santos_salas = {
+        name = "José Santos Salas"
+        portraits={
+            civilian={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_navy_1.dds" #WIP
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JOSE_SANTOS_SALAS_DESC"
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_juan_esteban_montero = {
+        name = "Juan Esteban Montero"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CHL/Portrait_Juan_Esteban_Montero.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JUAN_ESTEBAN_MONTERO_DESC"
+            expire = "1965.1.1"
+            ideology = social_liberal_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_arturo_alessandri = {
+        name = "Arturo Alessandri"
+        portraits={
+            civilian={
+                #large = "GFX_Portrait_chile_arturo_alessandri"
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_6.dds"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ARTURO_ALESSANDRI_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_hector_rodriguez = {
+        name = "Héctor Rodríguez"
+        portraits={
+            civilian={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_2.dds" #WIP
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HECTOR_RODRIGUEZ_DESC"
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_carlos_ibanez_del_campo = {
+        name = "Carlos Ibáñez del Campo"
+        portraits={
+            civilian={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds" #WIP
+            }
+        }
+        country_leader={
+            desc = "POLITICS_CARLOS_IBANEZ_DEL_CAMPO_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_jorge_gonzalez_von_marees = {
+        name = "Jorge González von Marées"
+        portraits={
+            civilian={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds" #WIP
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JORGE_GONZÁLEZ_VON_MARÉES_DESC"
+            expire = "1965.1.1"
+            ideology = national_corporatist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+    CHL_escudero_oscar_otarola = {
+        name = "Escudero Oscar Otárola"
+        portraits={
+            army={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_land_5.dds"
+            }
+        }
+        corps_commander={
+            traits = { trait_mountaineer }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 2
+            planning_skill = 4
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+}

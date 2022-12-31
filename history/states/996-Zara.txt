@@ -1,0 +1,31 @@
+
+state={
+	id=996
+	name="STATE_996"
+
+	history={
+		owner = ITA
+		add_core_of = ITA
+		add_core_of = CRO
+		add_core_of = STJ
+		buildings = {
+			infrastructure = 2
+			3943 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			3943 3 
+		}
+
+	}
+
+	provinces={
+		3943 
+	}
+	manpower=20300
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

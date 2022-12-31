@@ -1,0 +1,36 @@
+
+state={
+	id=22
+	name="STATE_22"
+	resources={
+		coal=5
+		bauxite=49
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		victory_points = {
+			9898 5 
+		}
+		victory_points = {
+			11877 2 
+		}
+		victory_points = {
+			6960 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			fuel_silo = 1
+		}
+
+	}
+
+	provinces={
+		752 760 943 3754 3946 6770 6915 6917 6960 6962 9728 9898 11709 11711 11716 11877 
+	}
+	manpower=1927000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

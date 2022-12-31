@@ -1,0 +1,34 @@
+
+state={
+	id=1344
+	name="STATE_1344"
+	provinces={
+		3713 3731 6751 9690 11520 
+	}
+	resources={
+		coal=6
+		iron=5
+	}
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+
+		}
+		victory_points = {
+			6751 7
+		}
+		victory_points = {
+			11520 1
+		}
+		victory_points = {
+			3731 1
+		}
+		add_core_of = HUN
+
+	}
+	manpower=1150000
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

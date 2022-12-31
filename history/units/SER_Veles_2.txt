@@ -1,0 +1,33 @@
+﻿division_template = {
+	name = "Proleterska Brigada"	# Infantry Division	
+	division_names_group = SER_PROLEINF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+	support = { 
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## Macedonian Communists ########
+	division = {
+		name = "Prilepska Brigada"  			
+		location = 974
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2	
+		start_equipment_factor = 0.5
+	}
+	
+		division = {
+		name = "Gevgelijska Brigada"  			
+		location = 3833
+		division_template = "Proleterska Brigada" 
+		start_experience_factor = 0.2	
+		start_equipment_factor = 0.5
+	}
+}

@@ -1,0 +1,32 @@
+
+state={
+	id=1335
+	name="STATE_1335"
+	provinces={
+		9269 9332 9397 11297 11317 
+	}
+	history={
+		owner = ENG
+		victory_points = {
+			11297 10 
+		}
+		victory_points = {
+			9269 5 
+		}
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 2
+			dockyard = 2
+			11297 = {
+				naval_base = 5
+
+			}
+
+		}
+		add_core_of = ENG
+
+	}
+	manpower=952300
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

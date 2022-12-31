@@ -1,0 +1,122 @@
+spriteTypes = {	
+#####################################################################################################################################################################################
+### OTT
+#####################################################################################################################################################################################
+
+#Ahmet Tevfik Pasha
+spriteType = {
+	name = "GFX_idea_OTT_Ahmet_Tevfik_Pasa_hog_aco"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Ahmet_Tevfik_Pasha.tga"
+}
+
+#Mustafa Kemal Pasha
+
+spriteType = {
+	name = "GFX_idea_OTT_Mustafa_Kemal_Pasa_hog_ref"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Mustafa_Kemal_Pasha.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_OTT_Mustafa_Kemal_Pasha_cos"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Mustafa_Kemal_Pasha.tga"
+}
+
+#Prince Sabahaddin
+spriteType = {
+	name = "GFX_idea_OTT_Sultanzade_Mehmed_Sabahaddin_sec_sli"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Sultanzade_Mehmed_Sabahaddin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_OTT_Sultanzade_Mehmed_Sabahaddin_theo"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Sultanzade_Mehmed_Sabahaddin.tga"
+}
+
+#Ali Fethi Okyar
+spriteType = {
+	name = "GFX_idea_OTT_Ali_Fethi_Okyar_hog_sli"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Ali_Fethi_Okyar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_OTT_Ali_Fethi_Okyar_for_sli"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Ali_Fethi_Okyar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_OTT_Ali_Fethi_Okyar_def_sli"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Ali_Fethi_Okyar.tga"
+}
+
+#Ahmet Ferit Tek
+spriteType = {
+	name = "GFX_idea_OTT_Ahmet_Ferit_Tek_eco_rwp"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Ahmet_Ferit_Tek.tga"
+}
+
+#Nazim Hikmet Ran
+spriteType = {
+	name = "GFX_idea_OTT_Nazim_Hikmet_eco_bol"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Nazim_Hikmet.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_OTT_Nazim_Hikmet_theo"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Nazim_Hikmet.tga"
+}
+
+#Riza Nur
+spriteType = {
+	name = "GFX_idea_OTT_Riza_Nur_edu_lco"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Riza_Nur.tga"
+}
+
+#Resat Fuat Baraner
+spriteType = {
+    name = "GFX_idea_OTT_Resat_Fuat_Baraner_edu_spa"
+    texturefile = "gfx/interface/ministers/OTT/OTT_Resat_Fuat_Baraner.tga"
+}
+
+#Zekai Apaydin
+spriteType = {
+	name = "GFX_idea_OTT_Zekai_Apaydin_agr_sli"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Zekai_Apaydin.tga"
+}
+
+#Fevzi Cakmak
+spriteType = {
+	name = "GFX_idea_OTT_Fevzi_Cakmak_hog_aco"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Fevzi_Cakmak.tga"
+}
+spriteType = {
+	name = "GFX_idea_OTT_Fevzi_Cakmak_sec_aco"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Fevzi_Cakmak.tga"
+}
+spriteType = {
+	name = "GFX_idea_OTT_Fevzi_Cakmak_cos"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Fevzi_Cakmak.tga"
+}
+spriteType = {
+	name = "GFX_idea_OTT_Fevzi_Cakmak_carm"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Fevzi_Cakmak.tga"
+}
+
+#Rauf Orbay
+spriteType = {
+	name = "GFX_idea_OTT_Rauf_Orbay_cnav"
+	texturefile = "gfx/interface/ministers/OTT/OTT_Rauf_Orbay.tga"
+}
+
+#Giorgos Seferis
+spriteType = {
+    name = "GFX_idea_OTT_Giorgos_Seferis_mwp_sde"
+    texturefile = "gfx/interface/ministers/OTT/OTT_Giorgos_Seferis.tga"
+}
+
+#Suat Dervish
+spriteType = {
+    name = "GFX_idea_OTT_Suat_Dervis_theo"
+    texturefile = "gfx/interface/ministers/OTT/OTT_Suat_Dervis.tga"
+}
+
+}

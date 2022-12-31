@@ -1,0 +1,30 @@
+
+state={
+	id=876
+	name="STATE_876"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		add_core_of = DAH
+		buildings = {
+			infrastructure = 2
+			14086 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			14086 1 
+		}
+
+	}
+
+	provinces={
+		10919 12762 14086 14091 14125 14133 14142 14149 
+	}
+	manpower=1132900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

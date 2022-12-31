@@ -1,0 +1,20 @@
+
+state={
+	id=1400
+	name="STATE_1400"
+	provinces={
+		1882 4914 4964 7940 8018 10787 10817 12899 15587 15589 
+	}
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=118400
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=272
+	name="STATE_272"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		victory_points = {
+			4948 10 
+		}
+		victory_points = {
+			14281 1 
+		}
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			air_base = 4
+			arms_factory = 1
+			4948 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4948 7972 8015 12710 14281 14391 14401 14412 
+	}
+	manpower=1282200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

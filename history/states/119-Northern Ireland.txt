@@ -1,0 +1,37 @@
+
+state={
+	id=119
+	name="STATE_119"
+	
+	resources={
+		coal=1
+		iron=1
+	}
+
+	history={
+		owner = ENG
+		buildings = {
+			infrastructure = 3
+			276 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+		victory_points = {
+			276 4
+		}
+		victory_points = {
+			3242 1
+		}
+
+	}
+
+	provinces={
+		276 3217 3242 3329 
+	}
+	manpower=673700
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

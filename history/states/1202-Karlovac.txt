@@ -1,0 +1,43 @@
+
+state={
+	id=1202
+	name="STATE_1202"
+
+	history={
+		owner = CRO
+		victory_points = {
+			15342 5 
+		}
+		victory_points = {
+			15343 5 
+		}
+		buildings = {
+			infrastructure = 3
+            industrial_complex = 1
+			fuel_silo = 1
+		}
+		# 1202 = {
+			# add_province_modifier = {
+				# static_modifiers = {
+					# railway 
+				# }
+				# province = {
+					# id = 15343
+					# id = 3596
+					# id = 15342
+
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = STJ
+
+	}
+
+	provinces={
+		3592 15342 15343 15344 
+	}
+	manpower=236565
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

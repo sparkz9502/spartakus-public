@@ -1,0 +1,177 @@
+﻿###########################
+# Shitty Serbia Events
+###########################
+# By Sybil/LWOI
+###########################
+
+add_namespace = serbCR
+
+### Counter-Revolution ###
+
+country_event = { #Counter-Revolution Begins
+	id = serbCR.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.1"}
+	title = serbCR.1.t
+	desc = serbCR.1.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.1.a # bruh
+		country_event = { days = 4 id = serbCR.2 }
+       
+	}
+}
+
+country_event = { #Veles Uprising
+	id = serbCR.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.2"}
+	title = serbCR.2.t
+	desc = serbCR.2.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.2.a # bruh
+		SER = { load_oob = "SER_Veles" } 
+		SER = { country_event = { days = 1 id = serbia.44 } } 
+        country_event = { days = 5 id = serbCR.3 }
+		hidden_effect = { country_event = { days = 12 id = serbCR.9 } } 
+	}
+}
+
+country_event = { #Seeking French Support
+	id = serbCR.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.3"}
+	title = serbCR.3.t
+	desc = serbCR.3.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.3.a # bruh
+       
+	}
+}
+
+country_event = { #Bor Mine Falls
+	id = serbCR.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.4"}
+	title = serbCR.4.t
+	desc = serbCR.4.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.4.a # bruh
+        FRA = { country_event = { days = 2 id = serbCR.5 } }
+	}
+}
+
+country_event = { #Bor Mine Falls - France
+	id = serbCR.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.5"}
+	title = serbCR.5.t
+	desc = serbCR.5.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.5.a # bruh
+       
+	}
+}
+
+country_event = { #More French Support
+	id = serbCR.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.6"}
+	title = serbCR.6.t
+	desc = serbCR.6.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.6.a # bruh
+	}
+}
+
+
+country_event = { #Selecting a Leadership
+	id = serbCR.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.7"}
+	title = serbCR.7.t
+	desc = serbCR.7.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.7.a # bruh
+	}
+}
+
+country_event = { #Aftermath of the War
+	id = serbCR.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.8"}
+	title = serbCR.8.t
+	desc = serbCR.8.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.8.a # bruh
+	}
+}
+
+country_event = { #VMRO Plundering
+	id = serbCR.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbCR.9"}
+	title = serbCR.9.t
+	desc = serbCR.9.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbCR.9.a # bruh
+		IMR = {
+			set_country_flag = VMRO_Plundering
+				hidden_effect = { transfer_state = 106 }
+				load_oob = "SER_VMRO"
+			}
+		hidden_effect = {
+			    SER = {
+		     	set_province_controller = 3833
+                set_province_controller = 974
+		     	set_province_controller = 11856
+	    		set_province_controller = 3865
+				set_province_controller = 11832
+		        }
+			}
+		declare_war_on = {
+				target = IMR
+				type = civil_war
+			}
+		SER = { declare_war_on = {
+				target = IMR
+				type = civil_war
+			}
+		}
+	}
+}

@@ -1,0 +1,28 @@
+
+state={
+	id=539
+	name="STATE_539"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		victory_points = {
+			5139 1 
+		}
+		buildings = {
+			infrastructure = 2
+			5139 = {
+				naval_base = 2
+			}
+			
+		}
+
+	}
+
+	provinces={
+		5139 8207 10948 13625 13653 13756 13758 13760 13761 14201 14255 
+	}
+	manpower=387300
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

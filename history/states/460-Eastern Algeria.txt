@@ -1,0 +1,35 @@
+
+state={
+	id=460
+	name="STATE_460"
+	resources={
+		iron=26.000
+	}
+
+	history={
+		owner = FRA
+		add_core_of = FRA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			14525 7 
+		}
+		victory_points = {
+			10059 2 
+		}
+		victory_points = {
+			1160 3 
+		}
+
+	}
+
+	provinces={
+		1058 1141 1160 4046 7081 10059 10078 11953 12034 12051 14511 14515 14522 14525 14528 14535 14538 
+	}
+	manpower=2343837
+	buildings_max_level_factor=1.000
+	state_category=town
+}

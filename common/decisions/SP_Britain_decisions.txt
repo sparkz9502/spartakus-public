@@ -1,0 +1,67 @@
+# Great Burmese Revolt
+ENG_Burmese_revolt_cat = {
+	ENG_join_war_against_BMR = { # Join the Raj in their war against the Burmese revolt
+		allowed = { tag = ENG }
+		visible = {
+			RAJ = { has_war_with = BMR }
+			ENG = {
+				NOT = { has_war_with = BMR }
+			}
+		}
+		available = {
+			RAJ = { has_war_with = BMR }
+		}
+		complete_effect = {
+			add_political_power = -50
+			add_stability = -0.10
+			add_war_support = -0.10
+			add_to_war = {
+				targeted_alliance = RAJ
+				enemy = BMR
+			}
+			activate_mission = ENG_defeat_BMR_mission
+			hidden_effect = { add_ideas = RAJ_BMR_revolt }
+		}
+		ai_will_do = { factor = 0 } # AI will only join by event
+	}
+	ENG_defeat_BMR_mission = {
+		allowed = { always = no }
+		available = {
+			NOT = { country_exists = BMR }
+		}
+		is_good = no
+		days_mission_timeout = ENG_defeat_BMR_days?120
+		timeout_effect = {
+			add_political_power = -75
+			add_stability = -0.025
+			add_war_support = -0.01
+			activate_mission = ENG_defeat_BMR_mission
+		}
+		complete_effect = {
+			add_political_power = 25
+			add_stability = 0.05
+			add_war_support = 0.025
+		}
+	}
+	RAJ_call_ENG_to_BMR_war = {
+		allowed = { tag = RAJ }
+		visible = { has_war_with = BMR }
+		available = { has_war_with = BMR }
+		complete_effect = {
+			custom_effect_tooltip = RAJ_call_ENG_to_war_tt
+			custom_effect_tooltip = if_other_party_accepts_tt
+			effect_tooltip = {
+				ENG = {
+					add_to_war = {
+						targeted_alliance = RAJ
+						enemy = BMR
+					}
+				}
+			}
+			hidden_effect = {
+				ENG = { country_event = ukempire.10 }
+			}
+		}
+		ai_will_do = { factor = 0 } # AI will only call UK by event
+	}
+}

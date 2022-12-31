@@ -1,0 +1,241 @@
+
+# Sabor
+STJ_Sabor = {
+
+	STJ_Sabor_explanation = { 
+		icon = GFX_description_icon
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = Sabor.0
+		}
+	}
+	
+	STJ_Economy_dec = { 
+		icon = GFX_coalition_arrow
+		available = { always = no }
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		}
+	}
+	
+	STJ_HRSS_Begin_Mass_Agrarian_Reform = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborEco.1
+		}
+	}
+	
+	STJ_HRSS_Extend_Welfare = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborEco.2
+		}
+	}
+	
+	STJ_HRSS_Debate_the_Future_of_our_Development = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborEco.3
+		}
+	}
+	
+	STJ_HSP_Invite_Foreign_Investors = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HSP_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborEco.4
+		}
+	}
+	
+	STJ_HSP_Fund_New_Industries = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HSP_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborEco.5
+		}
+	}
+	
+	STJ_HRP_Introduce_Corporatism = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRP_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborEco.6
+		}
+	}
+	
+	STJ_Social_dec = { 
+		icon = GFX_coalition_arrow
+		available = { always = no }
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		}
+	}
+	
+	STJ_HRSS_Adopt_Anti_Clerical_Policies = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborSoc.1
+		}
+	}
+	
+	STJ_HRSS_Ensure_Rights_of_Serbs = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborSoc.2
+		}
+	}
+	
+	STJ_HRSS_Organize_Peasant_Councils = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborSoc.3
+		}
+	}
+	
+	STJ_HSP_Promote_Traditionalism = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HSP_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborSoc.4
+		}
+	}
+	
+	STJ_HSP_Curtail_Serb_Organizations = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HSP_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborSoc.5
+		}
+	}
+	
+	STJ_HRP_Nationalist_Propaganda = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRP_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborSoc.6
+		}
+	}
+	
+	STJ_Military_dec = { 
+		icon = GFX_coalition_arrow
+		available = { always = no }
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+		}
+	}
+	
+	STJ_HRSS_Expand_PDF = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborMil.1
+		}
+	}
+	
+	STJ_HRSS_Expand_CDF = { 
+		icon = GFX_decision_ger_mefo_bills
+		allowed = { 
+		tag = STJ
+        check_variable = { STJ_HRSS_SEATS_NUMBER > 50 }
+		}
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = SaborMil.2
+		}
+	}
+	
+}

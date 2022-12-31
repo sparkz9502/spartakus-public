@@ -1,0 +1,90 @@
+﻿ division_template = {
+	name = "Teritorijalna Odbrana"	# Infantry Division	
+	division_names_group = CRO_INF_01
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	support = { 
+	}
+}
+ division_template = {
+	name = "Proleterska Divizija"	# Infantry Division	
+	division_names_group = CRO_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+	support = { 
+	}
+}
+division_template = {
+	name = "Alpinisticka Pjesadija"		# Mountain Brigade
+	division_names_group = CRO_MTN_01
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+	}
+}
+division_template = {
+	name = "Konjica" 			# Cavalry Division
+	division_names_group = CRO_CAV_01
+	# Note: regiments within the brigade were battalion-sized units
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Tenkovski Bataljon" 			# Tank Battalion
+	division_names_group = CRO_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		infantry = { x = 1 y = 0 }       
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+
+
+units = {
+	######## LAND UNITS ########
+	
+	######## Army ########
+	division = {
+		name = "Podgorička TO"  			
+		location = 9809
+		division_template = "Teritorijalna Odbrana"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.7
+	}
+}
+	
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "MNT"
+		}
+		requested_factories = 1
+		progress = 0.37
+		efficiency = 100
+	}
+	
+} 

@@ -1,0 +1,27 @@
+
+state={
+	id=1340
+	name="STATE_1340"
+	provinces={
+		984 3596 15365 
+	}
+	resources={
+		bauxite=18
+	}
+	history={
+		owner = CRO
+		victory_points = {
+			984 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CRO
+		add_core_of = STJ
+
+	}
+	manpower=326684
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

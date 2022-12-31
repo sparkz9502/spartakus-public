@@ -1,0 +1,43 @@
+﻿
+units = {
+	division = {  
+		name = "1st Takasago Giyūtai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 12068
+		division_template = "Hohei Shidan"
+		start_experience_factor = 1
+	}
+	division = {  
+		name = "2nd Takasago Giyūtai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 12068
+		division_template = "Hohei Shidan"
+		start_experience_factor = 1
+	}
+	division = {  
+		name = "3rd Takasago Giyūtai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 12068
+		division_template = "Hohei Shidan"
+		start_experience_factor = 1
+	}
+	division = {  
+		name = "4th Takasago Giyūtai"
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 12068
+		division_template = "Hohei Shidan"
+		start_experience_factor = 1
+	}
+}

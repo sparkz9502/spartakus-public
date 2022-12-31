@@ -1,0 +1,36 @@
+
+state={
+	id=1252
+	name="STATE_1252"
+	
+	resources={
+		coal=2
+		iron=8
+	}
+
+	history={
+		owner = GER
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			241 = {
+				coastal_bunker = 2
+			}
+		}
+		add_core_of = GER
+		victory_points = {
+			11388 4
+		}
+		victory_points = {
+			241 1
+		}
+
+	}
+
+	provinces={
+		241 247 309 9281 11233 11264 11388 
+	}
+	manpower=1089000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

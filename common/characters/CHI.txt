@@ -1,0 +1,212 @@
+characters={
+    CHI_wang_jingwei = {
+        name = "Wang Jingwei"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CHI/Portrait_Wang_Jingwei.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_WANG_JINGWEI_DESC"
+            expire = "1965.1.1"
+            ideology = agrarian_populism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+
+    ## Field Marshals and Generals
+
+    CHI_tu_yu-ming = {
+        name = "Tu Yu-ming"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_du_yuming"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+            }
+        }
+        field_marshal={
+            traits = { defensive_doctrine trait_cautious armor_officer harsh_leader }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CHI_hsueh_yueh = {
+        name = "Hsueh Yueh"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_xue_yue"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+            }
+        }
+        field_marshal={
+            traits = { offensive_doctrine trait_reckless brilliant_strategist war_hero }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 1
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CHI_tai_an-lan = {
+        name = "Tai An-lan"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_tai_an_lan"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_3.dds"
+            }
+        }
+        field_marshal={
+            traits = {  offensive_doctrine trait_reckless career_officer }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+
+    CHI_wang_yao-wu = {
+        name = "Wang Yao-wu"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_wang_yaowu"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
+            }
+        }
+        field_marshal={
+            traits = { defensive_doctrine trait_cautious infantry_officer }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CHI_sun_li_jen = {
+        name = "Sun Li Jen"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_sun_li_jen"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_5.dds"
+            }
+        }
+        corps_commander={
+            traits = { brilliant_strategist }
+            skill = 4
+            attack_skill = 5
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CHI_hu_zongnan = {
+        name = "Hu Zongnan"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_hu_zongnan"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
+            }
+        }
+        corps_commander={
+            traits = { politically_connected }
+            skill = 4
+            attack_skill = 4
+            defense_skill = 3
+            planning_skill = 3
+            logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+
+    CHI_gu_zhutong = {
+        name = "Gu Zhutong"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_gu_zhutong"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
+            }
+        }
+        corps_commander={
+            traits = { career_officer }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CHI_wei_lihuang = {
+        name = "Wei Lihuang"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_wei_lihuang"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+            }
+        }
+        corps_commander={
+            traits = { infantry_officer }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CHI_fu_zuoyi = {
+        name = "Fu Zuoyi"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_fu_zuoyi"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+            }
+        }
+        corps_commander={
+            traits = { }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    CHI_zhang_xueliang = {
+        name = "Zhang Xueliang"
+        portraits={
+            army={
+                #gfx = "GFX_portrait_chi_zhang_xueliang"
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
+            }
+        }
+        field_marshal={
+            traits = { }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 3
+            planning_skill = 2
+            logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+}

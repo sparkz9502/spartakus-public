@@ -1,0 +1,26 @@
+
+state={
+	id=410
+	name="STATE_410"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14962 1 
+		}
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		2070 13082 14910 14912 14916 14920 14924 14936 14938 14939 14946 14949 14962 14978 14983 
+	}
+	manpower=453600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

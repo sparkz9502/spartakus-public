@@ -1,0 +1,526 @@
+ideas = {
+
+#################
+# Livonia Ideas #
+#################
+
+	country = {
+	
+		LIV_military_with_state = {
+			picture = Military_with_a_State
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.10
+				consumer_goods_factor = 0.10
+				army_morale_factor = 0.05
+				war_support_factor = 0.10
+			}
+		}
+		
+		LIV_freikorps = {
+			picture = Freikorps
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.10
+				army_org_factor = -0.20
+				stability_factor = -0.10
+			}
+		}
+		
+		LIV_reformed_freikorps_1 = {
+			picture = Freikorps
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = -0.15
+				stability_factor = -0.05
+			}
+		}
+		
+		LIV_reformed_freikorps_2 = {
+			picture = Freikorps
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = -0.10
+				stability_factor = -0.025
+			}
+		}
+		
+		LIV_reformed_freikorps_3 = {
+			picture = Freikorps
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = -0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		LIV_reformed_freikorps_4 = {
+			picture = Freikorps
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.05
+				army_org_factor = 0.05
+				army_morale_factor = 0.05
+				war_support_factor = 0.05
+			}
+		}
+		
+		LIV_baltic_conscription_crisis = {
+			picture = Recruitment_Crisis
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.5
+				war_support_factor = -0.05
+				stability_factor = -0.10
+			}
+		}
+		
+		LIV_german_army = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.30
+				war_support_factor = 0.10
+				army_org_factor = 0.05
+			}
+		}
+		
+		LIV_german_army_prussian = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.25
+				war_support_factor = 0.10
+				army_org_factor = 0.10
+			}
+		}
+		
+		LIV_mixed_army = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.05
+				stability_factor = 0.05
+				army_org_factor = -0.10
+			}
+		}
+		
+		LIV_baltic_army = {
+			picture = generic_infantry_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.10
+				stability_factor = 0.10
+				army_morale_factor = 0.05
+			}
+		}
+		
+		LIV_arm_peasants = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription = 0.025
+				army_core_defence_factor = 0.1
+				stability_factor = -0.05
+			}
+		}
+		
+		LIV_professional_military = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.2
+				war_support_factor = 0.05
+				army_org_factor = 0.10
+				training_time_army_factor = 0.1
+			}
+		}
+		
+		LIV_large_military = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = 0.2
+				stability_factor = -0.05
+				army_org_factor = -0.10
+				training_time_army_factor = -0.1
+			}
+		}
+		
+		LIV_mobile_warfare = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				motorized_attack_factor = 0.05
+				army_armor_attack_factor = 0.05
+				army_speed_factor = 0.1
+				army_attack_factor = 0.1
+			}
+		}
+		
+		LIV_superior_firepower = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				army_artillery_attack_factor = 0.1
+				army_artillery_defence_factor = 0.1
+				army_attack_factor = 0.05
+				army_defence_factor = 0.05
+			}
+		}
+		
+		LIV_fort = {
+			picture = FRA_fortification_focus
+			modifier = {
+				production_speed_bunker_factor = 0.2
+				production_speed_coastal_bunker_factor = 0.2
+			}
+
+		}
+		
+		LIV_grand_battleplan = {
+			picture = generic_manpower_bonus
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				max_planning = 0.1
+				planning_speed = 0.05
+				army_org_factor = 0.05
+				army_defence_factor = 0.1
+			}
+		}
+		
+		LIV_scrapping_baden = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_dockyard_factor = 0.1
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		LIV_restoring_baden = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_dockyard_factor = -0.1
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		LIV_large_ship_sale_payment = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.05
+			}
+		}
+		
+		LIV_small_ship_sale_payment = {
+			picture = generic_the_london_naval_treaty
+
+			allowed = {
+				original_tag = LIV
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = 0.03
+			}
+		}
+		
+		LIV_small_ship_sale_profit = {
+			picture = generic_the_london_naval_treaty
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.03
+			}
+		}
+		
+		LIV_large_ship_sale_profit = {
+			picture = generic_the_london_naval_treaty
+			
+			allowed = {
+				always = yes
+			}
+
+			allowed_civil_war = {
+				always = yes
+			}
+
+			removal_cost = -1
+
+			modifier = {
+				consumer_goods_factor = -0.05
+			}
+		}
+		
+		LIV_soldiers_pensions = {
+			picture = generic_goods_red_bonus
+			modifier = {
+				consumer_goods_factor = 0.05
+				war_support_factor = 0.05
+			}
+
+		}
+
+		LIV_Depression = {
+			picture = FRA_factory_strikes
+			modifier = {
+				production_factory_max_efficiency_factor = -0.2
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = -0.1
+				conscription_factor = -0.15
+			}
+
+		}
+		
+		LIV_Liberal_Economy = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				political_power_gain = 0.1
+			}
+
+		}
+		
+		LIV_Market_Economy = {
+			picture = generic_production_bonus
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_speed_buildings_factor = 0.05
+				political_power_gain = -0.05
+			}
+
+		}
+		
+		LIV_State_Economy = {
+			picture = generic_production_bonus
+			modifier = {
+				industrial_capacity_factory = 0.1
+				production_speed_bunker_factor = 0.05
+				political_power_gain = -0.10
+			}
+
+		}
+	}
+}

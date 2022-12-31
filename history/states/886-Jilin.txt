@@ -1,0 +1,30 @@
+
+state={
+	id=886
+	name="STATE_886"
+
+	history={
+		owner = FNG
+		add_core_of = FNG
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+			arms_factory = 1
+
+		}
+		victory_points = {
+			4572 5
+		}
+		victory_points = {
+			1567 5
+		}
+
+	}
+
+	provinces={
+		946 1567 3913 3932 4503 4572 4633 6947 7523 7652 7663 9866 9883 11744 11850 11864 
+	}
+	manpower=5453100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

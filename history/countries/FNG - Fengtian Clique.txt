@@ -1,0 +1,66 @@
+﻿capital = 716
+OOB = "FNG"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_abs
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+set_research_slots = 3
+set_stability = 0.35
+set_war_support = 0.4
+set_technology = {
+	#### MOD ####
+	#### General ####
+	
+	#### Navy ####
+	early_destroyer = 1
+	early_light_cruiser = 1
+	#### Tanks ####
+	gwtank = 1
+	#### INF ####
+	infantry_weapons = 1
+	tech_support = 1
+	tech_recon = 1	
+	tech_engineers = 1
+	tech_military_police = 1
+	gw_artillery = 1
+	#### AIR ####
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 3
+    spartacist = 12
+    revolutionary_socialist = 1
+    reformist_socialist = 3
+    social_democrat = 18
+    social_liberal = 1
+    liberal_conservative = 8
+    social_conservative = 7
+    authoritarian_conservative = 34
+    right_wing_populist = 11
+    national_syndicalist = 1
+    national_corporatist = 1
+}
+
+add_ideas = { 
+}
+
+set_convoys = 30
+
+recruit_character = FNG_zhang_zuolin
+recruit_character = FNG_zhang_xueliang
+recruit_character = FNG_wan_fulin

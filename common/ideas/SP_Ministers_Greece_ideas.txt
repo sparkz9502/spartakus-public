@@ -1,0 +1,1769 @@
+ideas = {
+################################################################################################################################################################################################
+### GRE
+##########################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	GRE_Andronikos_Haitas_hog_bol = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_bolshevist_chairman
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Patsias_Giatsopoulos_hog_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_revolutionary_figurehead
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Fragiskos_Tzoulati_hog_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { has_country_flag = AM_in_charge }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Gavriilidis_hog_rev = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Aristotelis_Sideris_hog_ref = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Papanastasiou_hog_sde = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Eleftherios_Venizelos_hog_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { NOT = { has_country_flag = GRE_Eleftherios_Venizelos_dead_flag } }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_veteran_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Themistoklis_Sofoulis_hog_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { has_country_flag = GRE_Sofoulis_in_charge }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Sofoklis_Venizelos_hog_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { has_country_flag = GRE_Venizelos_in_charge }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Panagis_Tsaldaris_hog_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { NOT = { has_country_flag = GRE_Panagis_Tsaldaris_dead_flag } }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_veteran_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Tsaldaris_hog_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { has_country_flag = GRE_Tsaldaris_in_charge }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Pezmazoglou_hog_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { has_country_flag = GRE_Pezmazoglou_in_charge }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_gentleman_politician
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Kondylis_hog_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { NOT = { has_country_flag = GRE_Georgios_Kondylis_dead_flag } }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_military_brute
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Demertzis_hog_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Metaxas_hog_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_old_general
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Koryzis_hog_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	GRE_Georgis_Siantos_for_bol = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Kordatos_for_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Apostolos_Vogiatzis_for_rev = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Zavitsanos_for_sde = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Athanasiadis_for_sli = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Andreas_Michalakopoulos_for_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Dimitrios_Maximos_for_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Mercouris_for_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+	GRE_Nikolaos_Ploubidis_mwp_bol = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			minister_without_portfolio
+			mwp_head_of_the_EGSEE
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Ioannidis_mwp_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			minister_without_portfolio
+			mwp_beloved_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Milonas_mwp_sde = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			minister_without_portfolio
+			mwp_president_of_the_boule
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Themistoklis_Sofoulis_mwp_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+			mwp_president_of_the_boule
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Sofoklis_Venizelos_mwp_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+			mwp_president_of_the_boule
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Tsaldaris_mwp_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+			mwp_president_of_the_boule
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Pezmazoglou_mwp_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+			mwp_president_of_the_boule
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Theotokis_mwp_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			minister_without_portfolio
+			mwp_president_of_the_boule
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Speras_mwp_nsy = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_syndicalist
+			minister_without_portfolio
+			mwp_traitorous_union_boss
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	GRE_Kostantinos_Theos_eco_bol = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_nep_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Pantelis_Pouliopoulos_eco_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Serafim_Maximos_eco_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_planned_economy_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Loukas_Karliaftis_eco_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { has_country_flag = AM_in_charge }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Dimitrios_Stratis_eco_ref = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Kafantaris_eco_sli = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Papandreou_eco_sli = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Emmanouil_Tsouderos_eco_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Spyridon_Loverdos_eco_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Pezmazoglou_eco_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Kartalis_eco_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_resource_industrialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Koryzis_eco_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	GRE_Stergios_Anastasiadis_sec_bol = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Chrisa_Hatzivasileiou_sec_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			security_minister
+			sec_woman_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Dimitrios_Hatzigiannis_sec_rev = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Georgiadis_sec_ref = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Anastasios_Bakalbasis_sec_sde = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Pantelis_Karasevdas_sec_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_media_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Moutzouridis_sec_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Rallis_sec_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostantinos_Maniadakis_sec_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = { ### Education Minister ###
+	GRE_Dimitrios_Glinos_edu_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Svolos_edu_ref = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Michail_Kyrkos_edu_sli = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			education_minister
+			edu_master_of_economics
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Panagiotis_Kanellopoulos_edu_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			education_minister
+			edu_old_school_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Nikolaos_Louvaris_edu_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			education_minister
+			edu_theologist_academic
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	GRE_Aristeidis_Velouchiotis_def_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			defence_minister
+			def_revolutionary_veteran
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Stefanos_Sarafis_def_ref = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Nikolaos_Plastiras_def_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Kondylis_def_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { NOT = { has_country_flag = GRE_Georgios_Kondylis_dead_flag } }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Papagos_def_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Metaxas_def_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+	GRE_Ioannis_Sofianopoulos_agr_rev = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			agriculture_minister
+			agr_champion_of_the_peasantry
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Spyridon_Hasiotis_agr_rev = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			agriculture_minister
+			agr_veteran_farmer
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Papanastasiou_agr_sde = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Dimitrios_Irakleidis_agr_sde = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			agriculture_minister
+			agr_veteran_farmer
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Agamemnon_Schliemann_agr_aco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			agriculture_minister
+			agr_conservative_landowner
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = { ### Transport Minister ###
+	GRE_Kostantinos_Lazaridis_tra_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			transport_minister
+			tra_resource_extraction_focus
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Kordatos_tra_spa = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			transport_minister
+			tra_apolitical_administrator
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Petros_Levantis_tra_lco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Stratos_tra_sco = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_military_focus
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Ioannis_Rallis_tra_ncp = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			national_corporatist
+			transport_minister
+			tra_military_focus
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = {
+	GRE_Stefanos_Sarafis_cos = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+	
+	GRE_Aristeidis_Velouchiotis_cos = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Vasileios_Samariniotis_cos = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Theodoros_Manetas_cos = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Aristeidis_Chasapidis_cos = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = {
+	GRE_Aristeidis_Velouchiotis_carm = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	GRE_Vasileios_Samariniotis_carm = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Katechakis_carm = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Kondylis_carm = {
+		allowed = {
+			original_tag = GRE
+		}
+		visible = { NOT = { has_country_flag = GRE_Georgios_Kondylis_dead_flag } }
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Papagos_carm = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = {
+	GRE_Kostantinos_Georgiadis_cnav = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Alexandros_Hatzikyriakos_cnav = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Dimitrios_Oikonomou_cnav = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = yes
+	}
+
+	GRE_Sofoklis_Dousmanis_cnav = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_air_force = {
+	GRE_Lefteris_Apostolou_cair = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Katechakis_cair = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Georgios_Reppas_cair = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = yes
+	}
+
+	GRE_Ioannis_Rallis_cair = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = {
+
+	GRE_Giannis_Ritsos_theo = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			theo_socialist_poet
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Kostis_Palamas_theo = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			theo_megaloideatis_poet
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Chrysostomos_I_of_Athens_theo = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			theo_religious_leader
+		}
+		cancel_if_invalid = no
+	}
+
+	GRE_Sevastianos_Foulidis = {
+		allowed = {
+			original_tag = GRE
+		}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			theo_fanatical_intelligence_officer
+		}
+		cancel_if_invalid = no
+	}
+}
+}

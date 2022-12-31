@@ -1,0 +1,38 @@
+ideas = {
+
+##################
+# Somaliland Ideas #
+##################
+
+	country = {
+
+		SML_british_protection = {
+			picture = Brit_Influence
+
+			allowed = {
+				original_tag = SML
+			}
+
+			removal_cost = -1
+			modifier = {
+				political_power_gain = -0.1
+				stability_factor = 0.1
+			}
+		}
+
+		SML_legacy_of_the_dervish = {
+			picture = death_men
+
+			allowed = {
+				original_tag = SML
+			}
+
+			removal_cost = -1
+			modifier = {
+				war_support_factor = -0.1
+				stability_factor = -0.05
+				conscription_factor = -0.1
+			}
+		}
+	}
+}

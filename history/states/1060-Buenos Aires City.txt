@@ -1,0 +1,33 @@
+state={
+	id=1060
+	name="STATE_1060"
+	provinces={
+		12364 
+	}
+	history={
+		owner = ARG
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			dockyard = 1
+			air_base = 4
+			industrial_complex = 1
+			fuel_silo = 1
+			12364 = {
+				naval_base = 7
+				bunker = 1
+				coastal_bunker = 1
+
+			}
+
+		}
+		add_core_of = ARG
+		victory_points = {
+			12364 10 
+		}
+
+	}
+	manpower=2477600
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

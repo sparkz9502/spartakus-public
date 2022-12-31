@@ -1,0 +1,47 @@
+defined_text = {
+    name = GetBigFarmStatus
+    text = {
+        trigger = {
+            check_variable = {
+                var = GER.big_farm_status
+                value = 1
+                compare = greater_than_or_equals
+            }
+        }
+        localization_key = GER_ready
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = GER.big_farm_status
+                value = 0
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = GER_not_ready
+    }
+}
+
+defined_text = {
+    name = GetSmallFarmStatus
+    text = {
+        trigger = {
+            check_variable = {
+                var = GER.small_farm_status
+                value = 1
+                compare = greater_than_or_equals
+            }
+        }
+        localization_key = GER_ready
+    }
+    text = {
+        trigger = {
+            check_variable = {
+                var = GER.small_farm_status
+                value = 0
+                compare = less_than_or_equals
+            }
+        }
+        localization_key = GER_not_ready
+    }
+}

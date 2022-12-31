@@ -1,0 +1,315 @@
+ideas = {
+################################################################################################################################################################################################
+### KHO
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	KHO_Soleiman_Eskandari_hog_ref = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Hassan_Taqizadeh_hog_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Mohammad_Taqi_Pessian_hog_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_respected_war_hero
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = {
+	KHO_Mohammad_Khorasani_mwp_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			minister_without_portfolio
+			mwp_nationalistic_liberal
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	KHO_Mirza_Abdolhossein_Sheibani_for_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	KHO_Iraj_Mirza_eco_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			eco_mixed_economy
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Leon_Dubois_eco_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_keynesian_economy
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	KHO_Noureddin_Alamouti_sec_sde = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_accomplished_lawyer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = {
+	KHO_Mohammad_Gonabadi_edu_sde = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Ahmad_Bahar_edu_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			education_minister
+			edu_political_philosopher
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Mohammad-Taqi_Bahar_edu_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = {
+	KHO_Leon_Dubois_agr_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = {
+	KHO_Iraj_Mirza_tra_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	KHO_Mohammad_Taqi_Pessian_def_sli = {
+		allowed = {original_tag = KHO}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	KHO_Ismail_Khan_Bahador_cos = {
+		allowed = {original_tag = KHO}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Mohammad_Taqi_Pessian_cos = {
+		allowed = {original_tag = KHO}
+		traits = {
+			chief_of_staff
+			cos_calculated_strategist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+	KHO_Ahmad_Amir-Ahmadi_carm = {
+		allowed = {original_tag = KHO}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Mahmoud_Khan_Nowzari_carm = {
+		allowed = {original_tag = KHO}
+		traits = {
+			chief_of_army
+			carm_infantry_tactics_theorist
+		}
+		cancel_if_invalid = no
+	}
+	
+	KHO_Mahmud_Puladeen_carm = {
+		allowed = {original_tag = KHO}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	KHO_Mohammad_Taqi_Pessian_cair = {
+		allowed = {original_tag = KHO}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = { ### Theorist ###
+
+}
+}

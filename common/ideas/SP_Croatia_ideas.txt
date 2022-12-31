@@ -1,0 +1,133 @@
+### Croat Ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+
+		STJ_Nationalist_Vigor = {
+			modifier = {
+				surrender_limit = 0.1
+				conscription = 0.005
+				war_support_factor = 0.1
+				army_morale_factor = 0.1
+			}
+			picture = FRA_national_mobilization_focus
+		}
+		
+		STJ_Big_Welfare = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.03
+				production_factory_max_efficiency_factor = 0.03
+				stability_factor = 0.1
+			}
+			picture = Big_Money_Idea
+		}
+		
+		STJ_Big_Welfare_2 = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				industrial_capacity_factory = 0.05
+				production_factory_max_efficiency_factor = 0.05
+				stability_factor = 0.15
+			}
+			picture = Big_Money_Idea
+		}
+		
+		STJ_Anti_Landlordist_Policies = {
+			modifier = {
+				consumer_goods_factor = -0.05
+				stability_factor = -0.05
+				reformist_socialist_drift = 0.02
+			}
+			picture = eng_tackle_capitalism
+		}
+		
+		STJ_Peasant_Orgs = {
+			modifier = {
+				consumer_goods_factor = -0.03
+				political_power_gain = 0.03
+				stability_factor = 0.03
+				army_core_defence_factor = 0.1
+			}
+			picture = HUN_treaty_of_triannon
+		}
+		
+		STJ_Progressivism = {
+			modifier = {
+				political_power_gain = 0.01
+			    research_speed_factor = 0.02
+			}
+			picture = generic_victors_of_ww1
+		}
+		
+		STJ_Growing_Tourism_Industry = {
+			modifier = {
+				political_power_gain = 0.01
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.03
+			}
+			picture = eng_steady_as_she_goes
+		}
+		
+		STJ_Infrastructure_of_the_Future = {
+			modifier = {
+				political_power_gain = 0.01
+				production_speed_buildings_factor = 0.05
+				stability_factor = 0.03
+			}
+			picture = FRA_motorized_focus
+		}
+		
+		STJ_Nationalist_Propaganda = {
+			modifier = {
+				conscription = 0.002
+				war_support_factor = 0.05
+			}
+			picture = MEX_politicised_army
+		}
+		
+		STJ_Catholic_Bastion = {
+			modifier = {
+				political_power_gain = 0.01
+				stability_factor = 0.03
+				research_speed_factor = -0.01
+			}
+			picture = WIP
+		}
+		
+		STJ_Popular_Political_Participation = {
+			modifier = {
+				political_power_gain = -0.01
+			}
+			picture = WIP
+		}
+		
+		STJ_Growing_Cult_of_Personality = {
+			modifier = {
+			}
+			picture = WIP
+		}
+		
+		STJ_Dissolution_of_the_HRSS_Tent = {
+			modifier = {
+			bolshevist_drift = 0.01
+			spartacist_drift = 0.05
+			social_conservative_drift = 0.4
+			national_corporatist_drift = 0.01
+			}
+			picture = WIP
+		}
+		
+		STJ_Dissolution_of_the_HRSS_Tent_HRP = {
+			modifier = {
+			bolshevist_drift = 0.01
+			spartacist_drift = 0.05
+			national_corporatist_drift = 0.5
+			}
+			picture = WIP
+		}
+	}
+}

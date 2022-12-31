@@ -1,0 +1,37 @@
+
+state={
+	id=465
+	name="STATE_465"
+	manpower = 408200
+	state_category = rural
+	
+	resources={
+		copper=2
+	}
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 2
+			4285 = {
+				naval_base = 2
+			
+			}
+		}
+		victory_points = {
+			12289 1
+		}
+		victory_points = {
+			4285 2
+		}
+		victory_points = {
+			1424 1
+		}
+		add_core_of = CAN
+		
+	}
+
+	provinces={
+		634 1424 4285 4342 4362 4432 7379 12289
+	}
+}

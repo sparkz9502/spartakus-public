@@ -1,0 +1,24 @@
+
+state={
+	id=964
+	name="STATE_964"
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14835 1 
+		}
+
+	}
+
+	provinces={
+		2229 14651 14652 14659 14684 14689 14691 14698 14703 14709 14711 14728 14743 14745 
+	}
+	manpower=163800
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

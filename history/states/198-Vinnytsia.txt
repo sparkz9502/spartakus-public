@@ -1,0 +1,25 @@
+
+state={
+	id=198
+	name="STATE_198"
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			9481 3
+		}
+		add_core_of = SOV
+		#add_core_of = UKR
+
+	}
+
+	provinces={
+		476 6480 9481 9533 11464 11490 
+	}
+	manpower=2108200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

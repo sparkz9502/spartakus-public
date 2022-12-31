@@ -1,0 +1,27 @@
+
+state={
+	id=1210
+	name="STATE_1210"
+
+	history={
+		owner = CRO
+		victory_points = {
+			6957 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = CRO
+		add_core_of = STJ
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		3985 6957 15335 
+	}
+	manpower=90694
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

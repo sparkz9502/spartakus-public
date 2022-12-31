@@ -1,0 +1,27 @@
+
+state={
+	id=1333
+	name="STATE_1333"
+
+	history={
+		owner = FRA
+		add_core_of = MOR
+		victory_points = {
+			9945 1 
+		}
+		buildings = {
+			infrastructure = 2
+			9945 = {
+				naval_base = 2
+			}
+		}
+
+	}
+
+	provinces={
+		9945 
+	}
+	manpower=60000
+	buildings_max_level_factor=1.000
+	state_category=enclave
+}

@@ -1,0 +1,336 @@
+spriteTypes = {	
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_GER_Bernhard_Baestlein_hog_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Bernhard_Baestlein.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Thaelmann_hog_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Thaelmann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Walter_Ulbricht_hog_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Walter_Ulbricht.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Karl_Liebknecht_hog_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Karl_Liebknecht.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Milly_Witkop_hog_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Milly_Witkop.tga"
+}
+
+#Minister Without Portfolio
+spriteType = {
+	name = "GFX_idea_GER_Clara_Zetkin_mwp_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Clara_Zetkin.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_GER_Helmet_Herzfelde_for_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Helmet_Herzfelde.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Walter_Ulbricht_for_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Walter_Ulbricht.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Karl_Liebknecht_for_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Karl_Liebknecht.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Paul_Levi_for_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Paul_Levi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Gustav_Landauer_for_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Gustav_Landauer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Heinrich_Mann_for_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Heinrich_Mann.tga"
+}
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_GER_Albert_Kuntz_eco_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Albert_Kuntz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Willi_Muenzenberg_eco_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Willi_Muenzenberg.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Willi_Stoph_eco_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Willi_Stoph.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Hermann_Duncker_eco_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Hermann_Duncker.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Rudolf_Egelhofer_eco_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Rudolf_Egelhofer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Augustin_Souchy_eco_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Augustin_Souchy.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Alex_Moeller_eco_ref"
+	texturefile = "gfx/interface/ministers/GER/GER_Alex_Moeller.tga"
+}
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_GER_Hilde_Benjamin_sec_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Hilde_Benjamin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Julius_Leber_sec_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Julius_Leber.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Otto_Grotewohl_sec_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Otto_Grotewohl.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Walter_Ulbricht_sec_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Walter_Ulbricht.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Hans_Kippenberger_sec_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Hans_Kippenberger.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Paul_Levi_sec_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Paul_Levi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Fritz_Kater_sec_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Fritz_Kater.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Silvio_Gesell_sec_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Silvio_Gesell.tga"
+}
+
+#Education Minister
+spriteType = {
+	name = "GFX_idea_GER_Erich_Weinert_edu_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Erich_Weinert.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Toller_edu_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Toller.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Erich_Muehsam_edu_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Erich_Muehsam.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Georg_Ledebour_edu_ref"
+	texturefile = "gfx/interface/ministers/GER/GER_Georg_Ledebour.tga"
+}
+
+#Agriculture Minister
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Goldenbaum_agr_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Goldenbaum.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Paul_Scholz_agr_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Paul_Scholz.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Franz_Pilarski_agr_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Franz_Pilarski.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Fritz_Selbmann_agr_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Fritz_Selbmann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Edwin_Hoernle_agr_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Edwin_Hoernle.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Rudolf_Albrecht_agr_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Rudolf_Albrecht.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Friedrich_Martin_agr_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Friedrich_Martin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Paul_Roch_agr_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Paul_Roch.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Otto_Reimers_agr_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Otto_Reimers.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Friedrich_Wehmer_agr_ref"
+	texturefile = "gfx/interface/ministers/GER/GER_Friedrich_Wehmer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Otto_Korting_agr_ref"
+	texturefile = "gfx/interface/ministers/GER/GER_Otto_Korting.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Walter_Beer_agr_ref"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Walter_Beer.tga"
+}
+
+#Transport Minister
+spriteType = {
+	name = "GFX_idea_GER_Hugo_Eberlein_tra_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Hugo_Eberlein.tga"
+}
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Thaelmann_def_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Thaelmann.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Wollweber_def_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Wollweber.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Heinrich_Mueller_def_bol"
+	texturefile = "gfx/interface/ministers/GER/GER_Heinrich_Mueller.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Hugo_Eberlein_def_spa"
+	texturefile = "gfx/interface/ministers/GER/GER_Hugo_Eberlein.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Willi_Muenzenberg_def_rev"
+	texturefile = "gfx/interface/ministers/GER/GER_Willi_Muenzenberg.tga"
+}
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_GER_Ludwig_Renn_cos"
+	texturefile = "gfx/interface/ministers/GER/GER_Ludwig_Renn.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Wollweber_cos"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Wollweber.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Thaelmann_cos"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Thaelmann.tga"
+}
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_GER_Albert_Schreiner_carm"
+	texturefile = "gfx/interface/ministers/GER/GER_Albert_Schreiner.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Hans_Kahle_carm"
+	texturefile = "gfx/interface/ministers/GER/GER_Hans_Kahle.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Rudolf_Egelhofer_carm"
+	texturefile = "gfx/interface/ministers/GER/GER_Rudolf_Egelhofer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Erwin_Rommel_carm"
+	texturefile = "gfx/interface/ministers/GER/GER_Erwin_Rommel.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Ernst_Volckheim_carm"
+	texturefile = "gfx/interface/ministers/GER/GER_Ernst_Volckheim.tga"
+}
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_GER_Hans_Paasche_cnav"
+	texturefile = "gfx/interface/ministers/GER/GER_Hans_Paasche.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Lothar_von_Arnauld_cnav"
+	texturefile = "gfx/interface/ministers/GER/GER_Lothar_von_Arnauld.tga"
+}
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_GER_Walter_Kreiser_cair"
+	texturefile = "gfx/interface/ministers/GER/GER_Walter_Kreiser.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Kurt_Student_cair"
+	texturefile = "gfx/interface/ministers/GER/GER_Kurt_Student.tga"
+}
+
+#Theorist
+spriteType = {
+	name = "GFX_idea_GER_Magnus_Hirschfeld_theo"
+	texturefile = "gfx/interface/ministers/GER/GER_Magnus_Hirschfeld.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Albert_Einstein_theo"
+	texturefile = "gfx/interface/ministers/GER/GER_Albert_Einstein.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_GER_Leo_Szilard_theo"
+	texturefile = "gfx/interface/ministers/GER/GER_Leo_Szilard.tga"
+}
+}

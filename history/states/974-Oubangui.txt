@@ -1,0 +1,39 @@
+
+state={
+	id=974
+	name="STATE_974"
+	resources={
+		coal=1
+	}
+
+	history={
+		owner = POR
+		add_core_of = POR
+		add_core_of = PRM
+		victory_points = {
+			6924 3 
+		}
+		victory_points = {
+			3798 5 
+		}
+		victory_points = {
+			3861 3 
+		}
+		victory_points = {
+			799 2 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		799 844 924 3798 3861 11768 
+	}
+	manpower=1138100
+	buildings_max_level_factor=1.000
+	state_category=town
+}

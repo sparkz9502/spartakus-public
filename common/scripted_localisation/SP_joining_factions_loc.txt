@@ -1,0 +1,145 @@
+
+defined_text = { # Country
+	name = FACTION_JOINING_ALERT_FLAVOUR
+
+	#Flames generic faction banter
+	text = {
+		trigger = {
+			date < 1933.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_1932
+	}
+	
+	text = {
+		trigger = {
+			SOV = {
+				exists = no
+			}
+			GER = {
+				exists = no
+			}
+		}
+		localization_key = JF_GENERIC_FLAVOUR_COMINTERN_DEFEAT
+	}
+
+	text = {
+		trigger = {
+			ENG = {
+				exists = no
+			}
+		}
+		localization_key = JF_GENERIC_FLAVOUR_BRITISH_DEFEAT
+	}
+
+	text = {
+		trigger = {
+			FRA = {
+				exists = no
+			}
+		}
+		localization_key = JF_GENERIC_FLAVOUR_FRENCH_DEFEAT
+	}
+	
+	text = {
+		trigger = {
+			ENG = {
+				exists = no
+			}
+			FRA = {
+				exists = no
+			}
+		}
+		localization_key = JF_GENERIC_FLAVOUR_WESTERN_DEFEAT
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				GER = {
+					has_war_with = ENG
+				}
+				SOV = {
+					has_war_with = ENG
+				}
+				GER = {
+					has_war_with = FRA
+				}
+				SOV = {
+					has_war_with = FRA
+				}
+			}
+			date < 1935.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_WW2_START
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				GER = {
+					has_war_with = ENG
+				}
+				SOV = {
+					has_war_with = ENG
+				}
+				GER = {
+					has_war_with = FRA
+				}
+				SOV = {
+					has_war_with = FRA
+				}
+			}
+			date < 1939.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_WW2_MIDWAY
+	}
+
+	text = {
+		trigger = {
+			OR = {
+				GER = {
+					has_war_with = ENG
+				}
+				SOV = {
+					has_war_with = ENG
+				}
+				GER = {
+					has_war_with = FRA
+				}
+				SOV = {
+					has_war_with = FRA
+				}
+			}
+			date < 1941.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_WW2_LONG
+	}
+
+	text = {
+		trigger = {
+			date < 1934.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_1933
+	}
+
+	text = {
+		trigger = {
+			date < 1935.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_1934
+	}
+
+	text = {
+		trigger = {
+			date < 1937.01.01
+		}
+		localization_key = JF_GENERIC_FLAVOUR_1935_36
+	}
+
+	text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = JF_GENERIC_FLAVOUR
+	}
+}

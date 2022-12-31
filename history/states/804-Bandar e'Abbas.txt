@@ -1,0 +1,28 @@
+
+state={
+	id=804
+	name="STATE_804"
+
+	history={
+		owner = PER
+		victory_points = {
+			14922 1 
+		}
+		buildings = {
+			infrastructure = 1
+			14922 = {
+				naval_base = 1
+			}
+
+		}
+		add_core_of = PER
+
+	}
+
+	provinces={
+		1889 4959 12863 14915 14922 14925 
+	}
+	manpower=285100
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

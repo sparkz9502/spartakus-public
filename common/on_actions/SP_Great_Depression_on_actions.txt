@@ -1,0 +1,30 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			USA = {
+				news_event = { id = depression.1 days = 75 }
+			}
+			ROM = {
+				country_event = { id = rom.14 days = 80 }
+			}
+			ALB = {
+				country_event = { id = alb.6 days = 80 }
+			}
+			NEW = {
+				country_event = { id = new.2 days = 80 }
+			}
+			SER = {
+				country_event = { id = serbia.30 days = 82 }
+			}
+			CRO = {
+				country_event = { id = illyria.14 days = 85 }
+			}
+			ITA = {
+				country_event = { id = itapol.1 days = 80 }
+			}
+			GRE = {
+				country_event = { id = greflavour.3 days = 80 }
+			}
+		}
+    }
+}

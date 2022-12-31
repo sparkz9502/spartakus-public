@@ -1,0 +1,612 @@
+###############################
+# African Portugal Focus Tree
+# By Dudugs
+###############################
+
+focus_tree = {
+    id = SP_PEX
+	default = no
+    continuous_focus_position = { x = -1 y = 2000 }
+    focus = {
+        id = PEX_rebuild_gov
+        icon = GFX_focus_generic_monarchy_1
+        cost = 10
+        completion_reward = {
+			swap_ideas = {
+				remove_idea = PRM_destroyed_gov
+				add_idea = PRM_weak_gov
+			}
+			add_political_power = 50
+        }
+        x = 0
+        y = 0
+    }
+
+    focus = {
+        id = PEX_eject_old_gov
+        icon = GFX_focus_eng_move_to_secure_the_dominions
+        cost = 10
+        prerequisite = { focus = PEX_rebuild_gov }
+        mutually_exclusive = {
+            focus = PEX_trust_admin
+        }
+        completion_reward = {
+			add_political_power = 200
+			every_owned_state = {
+				add_compliance = -10 
+			}
+        }
+        x = -1
+        y = 1
+    }
+
+    focus = {
+        id = PEX_trust_admin
+        icon = GFX_focus_por_luso_tropicalism
+        cost = 10
+        prerequisite = { focus = PEX_rebuild_gov }
+        mutually_exclusive = {
+            focus = PEX_eject_old_gov
+        }
+        completion_reward = {
+			every_owned_state = {
+				add_compliance = 20 
+			}
+        }
+        x = 1
+        y = 1
+    }
+
+    focus = {
+        id = PEX_deus_patria_rei
+        icon = GFX_focus_generic_monarchy_2
+        cost = 10
+        prerequisite = { focus = PEX_eject_old_gov
+        focus = PEX_trust_admin }
+        completion_reward = {
+			remove_ideas = PRM_weak_gov
+			add_political_power = 50
+        }
+        x = 0
+        y = 2
+    }
+
+    focus = {
+        id = PEX_contacts
+        icon = GFX_focus_prc_infiltration
+        cost = 10
+        prerequisite = { focus = PEX_deus_patria_rei}
+        completion_reward = {
+			add_ideas = PRM_mainland_contacts
+			POR = {
+				add_stability = -0.1
+			}
+        }
+        x = 0
+        y = 3
+    }
+
+    focus = {
+        id = PEX_homecoming
+        icon = GFX_focus_por_the_kingdom_reunited
+        cost = 10
+        prerequisite = { focus = PEX_contacts}
+        completion_reward = {
+			add_political_power = 100
+			add_stability = 0.1
+			swap_ideas = {
+				remove_idea = PRM_mainland_contacts
+				add_idea = PRM_mainland_contacts_2
+			}
+        }
+        x = 0
+        y = 4
+    }
+
+    focus = {
+        id = PEX_antirev_war
+        icon = GFX_focus_spr_crush_the_revolution
+        cost = 10
+        prerequisite = { focus = PEX_eject_old_gov
+        focus = PEX_trust_admin }
+        completion_reward = {
+			add_war_support = 0.2
+			add_manpower = 5000
+        }
+        x = 4
+        y = 2
+    }
+
+    focus = {
+        id = PEX_service_citizenship
+        icon = GFX_focus_generic_little_entente
+        cost = 10
+        prerequisite = { focus = PEX_antirev_war }
+        mutually_exclusive = {
+            focus = PEX_1385
+        }
+        completion_reward = {
+			add_ideas = PRM_service_citizenship
+        }
+        x = -1
+        y = 1
+        relative_position_id = PEX_antirev_war
+    }
+
+    focus = {
+        id = PEX_1385
+        icon = GFX_focus_generic_military_mission
+        cost = 10
+        prerequisite = { focus = PEX_antirev_war }
+        mutually_exclusive = {
+            focus = PEX_service_citizenship
+        }
+        completion_reward = {
+			add_ideas = PRM_1385
+        }
+        x = 1
+        y = 1
+        relative_position_id = PEX_antirev_war
+    }
+
+    focus = {
+        id = PEX_salvage
+        icon = GFX_goal_generic_small_arms
+        cost = 10
+        prerequisite = {
+            focus = PEX_service_citizenship
+            focus = PEX_1385
+        }
+        completion_reward = {
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 500
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 100
+				producer = ENG
+			}
+			add_equipment_to_stockpile = {
+				type = infantry_equipment_0
+				amount = 30
+				producer = GER
+			}
+			add_equipment_to_stockpile = {
+				type = support_equipment_1
+				amount = 200
+			}
+			add_equipment_to_stockpile = {
+				type = artillery_equipment_1
+				amount = 10
+			}
+		}
+        x = -1
+        y = 2
+        relative_position_id = PEX_antirev_war
+    }
+
+    focus = {
+        id = PEX_old_guns
+        icon = GFX_focus_focus_fra_maquis
+        cost = 10
+        prerequisite = {
+            focus = PEX_salvage
+        }
+        completion_reward = {
+			add_ideas = PRM_recycle_guns
+		}
+        x = -2
+        y = 1
+        relative_position_id = PEX_salvage
+    }
+
+    focus = {
+        id = PEX_new_tactics
+        icon = GFX_goal_generic_position_armies
+        cost = 10
+        prerequisite = {
+            focus = PEX_old_guns
+        }
+        completion_reward = {
+			swap_ideas = {
+				remove_idea = PRM_recycle_guns
+				add_idea = PRM_recycle_guns_2
+			}
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = land_doctrine
+			}
+		}
+        x = -2
+        y = 2
+        relative_position_id = PEX_salvage
+    }
+    
+    focus = {
+        id = PEX_portucale
+        icon = GFX_focus_por_portuguese_legion
+        cost = 10
+        prerequisite = {
+            focus = PEX_new_tactics
+        }
+        completion_reward = {
+			add_ideas = PRM_portucale
+		}
+        x = -2
+        y = 3
+        relative_position_id = PEX_salvage
+    }
+
+    focus = {
+        id = PEX_naval_tradition
+        icon = GFX_goal_generic_navy_doctrines_tactics
+        cost = 10
+        prerequisite = {
+            focus = PEX_salvage
+        }
+        completion_reward = {
+			add_tech_bonus = {
+				bonus = 1
+				uses = 2
+				category = naval_doctrine
+			}
+			navy_experience = 100
+		}
+        x = 0
+        y = 1
+        relative_position_id = PEX_salvage
+    }
+        
+    focus = {
+        id = PEX_support_brits
+        icon = GFX_goal_generic_navy_cruiser
+        cost = 10
+        prerequisite = {
+            focus = PEX_naval_tradition
+        }
+        completion_reward = {
+			add_ideas = PRM_support
+		}
+        x = 0
+        y = 2
+        relative_position_id = PEX_salvage
+    }
+            
+    focus = {
+        id = PEX_raf
+        icon = GFX_focus_chi_flying_tigers
+        cost = 10
+        prerequisite = {
+            focus = PEX_salvage
+        }
+        completion_reward = {
+			add_ideas = PRM_air
+			ENG = {
+				add_ideas = PRM_air
+			}
+		}
+        x = 2
+        y = 1
+        relative_position_id = PEX_salvage
+    }
+                
+    focus = {
+        id = PEX_makeshift
+        icon = GFX_focus_generic_africa_production
+        cost = 10
+        prerequisite = {
+            focus = PEX_service_citizenship
+            focus = PEX_1385
+        }
+        completion_reward = {
+			540 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = dockyard
+					level = 1
+					instant_build = yes		
+				}
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes		
+				}
+			}
+			950 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes		
+				}
+			}
+		}
+        x = 2
+        y = 2
+        relative_position_id = PEX_antirev_war
+    }
+
+    focus = {
+        id = PEX_benefactors
+        icon = GFX_focus_eng_the_sun_never_sets
+        cost = 10
+        completion_reward = {
+			add_stability = 0.05
+			add_offsite_building = { type = industrial_complex level = 2 }
+			add_offsite_building = { type = arms_factory level = 1 }
+		}
+        x = 9
+        y = 0
+    }
+
+    focus = {
+        id = PEX_beg
+        icon = GFX_focus_generic_concessions
+        cost = 10
+        prerequisite = {
+            focus = PEX_benefactors
+        }
+        completion_reward = {
+			swap_ideas = {
+				remove_idea = PRM_no_capital
+				add_idea = PRM_no_labour
+			}
+		}
+        x = 0
+        y = 1
+        relative_position_id = PEX_benefactors
+    }
+
+    focus = {
+        id = PEX_crit
+        icon = GFX_focus_generic_africa_infrastructure
+        cost = 10
+        prerequisite = {
+            focus = PEX_beg
+        }
+        completion_reward = {
+			916 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes		
+				}
+			}
+			540 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes		
+				}
+			}
+			951 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes		
+				}
+			}
+			950 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes		
+				}
+			}
+			1246 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes		
+				}
+			}
+			544 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes		
+				}
+			}
+			540 = {
+				add_extra_state_shared_building_slots = 2
+				add_building_construction = {
+					type = industrial_complex
+					level = 2
+					instant_build = yes		
+				}
+			}
+			950 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes		
+				}
+			}
+		}
+        x = -2
+        y = 2
+        relative_position_id = PEX_benefactors
+    }
+        
+    focus = {
+        id = PEX_border
+        icon = GFX_focus_generic_manpower
+        cost = 10
+        prerequisite = {
+            focus = PEX_beg
+        }
+        completion_reward = {
+			remove_ideas = PRM_uncontrolled_border
+			add_timed_idea = { idea = PRM_controlled_border days = 365}
+		}
+        x = 0
+        y = 2
+        relative_position_id = PEX_benefactors
+    }
+            
+    focus = {
+        id = PEX_hunt
+        icon = GFX_goal_generic_major_war
+        cost = 10
+        prerequisite = {
+            focus = PEX_border
+        }
+        completion_reward = {
+			every_owned_state = {
+				add_resistance = -10
+				add_resistance_target = -25
+			}
+		}
+        x = 0
+        y = 3
+        relative_position_id = PEX_benefactors
+    }
+                
+    focus = {
+        id = PEX_manikongo
+        icon = GFX_focus_rom_handle_king
+        cost = 10
+        prerequisite = {
+            focus = PEX_hunt
+        }
+        completion_reward = {
+			add_popularity {
+				ideology = right_wing_populist popularity = 0.05
+				916 = {
+					 add_compliance = 30
+				}
+			}
+		}
+        x = 0
+        y = 4
+        relative_position_id = PEX_benefactors
+    }
+
+                    
+    focus = {
+        id = PEX_slave_labour
+        icon = GFX_focus_CZE_german_puppet
+        cost = 10
+        prerequisite = {
+            focus = PEX_manikongo
+        }
+		mutually_exclusive = {
+            focus = PEX_request_brits
+        }
+        completion_reward = {
+			swap_ideas = {
+				remove_idea = PRM_no_labour
+				add_idea = PRM_native_labour
+			}
+		}
+        x = 0
+        y = 5
+        relative_position_id = PEX_benefactors
+    }
+    
+    focus = {
+        id = PEX_anglophobes
+        icon = GFX_goal_tripartite_pact
+        cost = 10
+        prerequisite = {
+            focus = PEX_beg
+        }
+        completion_reward = {
+			add_popularity {
+				ideology = right_wing_populist popularity = 0.10
+			}
+		}
+        x = 3
+        y = 3
+        relative_position_id = PEX_benefactors
+    }
+        
+    focus = {
+        id = PEX_comfort_phobes
+        icon = GFX_focus_por_the_pink_map
+        cost = 10
+        prerequisite = {
+            focus = PEX_anglophobes
+        }
+        mutually_exclusive = {
+            focus = PEX_suasd
+        }
+        completion_reward = {
+			add_political_power = 100
+		#ADD STUFF HERE LATER
+		}
+        x = 2
+        y = 4
+        relative_position_id = PEX_benefactors
+    }
+            
+    focus = {
+        id = PEX_suasd
+        icon = GFX_goal_generic_political_pressure
+        cost = 10
+        prerequisite = {
+            focus = PEX_anglophobes
+        }
+        mutually_exclusive = {
+            focus = PEX_comfort_phobes
+        }
+        completion_reward = {
+			add_popularity {
+				ideology = national_corporatist popularity = -0.05
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = -0.05
+				add_political_power = 100
+			}
+		}
+        x = 4
+        y = 4
+        relative_position_id = PEX_benefactors
+    }
+                
+    focus = {
+        id = PEX_request_brits
+        icon = GFX_goal_generic_production
+        cost = 10
+        prerequisite = {
+            focus = PEX_suasd
+        }
+		mutually_exclusive = {
+            focus = PEX_slave_labour
+        }
+        completion_reward = {
+			ENG = {
+				country_event = prm.7
+			}
+		}
+        x = 4
+        y = 5
+        relative_position_id = PEX_benefactors
+    }
+
+    focus = {
+        id = PEX_ambition
+        icon = GFX_focus_generic_africa_factory
+        cost = 10
+        prerequisite = {
+            focus = PEX_slave_labour
+            focus = PEX_request_brits
+        }
+        prerequisite = {
+            focus = PEX_crit
+        }
+        prerequisite = {
+            focus = PEX_makeshift
+        }
+        completion_reward = {
+			unlock_decision_category_tooltip = PRM_projects
+			set_country_flag = PRM_pfocus
+		}
+        x = -2
+        y = 6
+        relative_position_id = PEX_benefactors
+    }
+}

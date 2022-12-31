@@ -1,0 +1,62 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			###French###
+			
+			#French Algeria (Departments)
+			set_variable = { 1148.colony = 1 }
+			set_variable = { 459.colony = 1 }
+			set_variable = { 460.colony = 1 }
+			
+			#French Algeria (Southern Territories)
+			set_variable = { 805.colony = 2 }
+			set_variable = { 1149.colony = 2 }
+			set_variable = { 1150.colony = 2 }
+			set_variable = { 513.colony = 2 }
+			set_variable = { 514.colony = 2 }
+			set_variable = { 1151.colony = 2 }
+			set_variable = { 1154.colony = 2 }
+			
+			#French Mauritania
+			set_variable = { 557.colony = 3 }
+			set_variable = { 968.colony = 3 }
+			set_variable = { 967.colony = 3 }
+			
+			#French Senegal
+			set_variable = { 272.colony = 4 }
+			set_variable = { 1127.colony = 4 }
+			
+			#French Sudan
+			set_variable = { 556.colony = 5 }
+			set_variable = { 295.colony = 5 }
+			set_variable = { 949.colony = 5 }
+			set_variable = { 860.colony = 5 }
+			set_variable = { 1370.colony = 5 }
+			
+			#French Guinea
+			set_variable = { 806.colony = 6 }
+			set_variable = { 966.colony = 6 }
+			
+			#French Ivory Coast
+			set_variable = { 807.colony = 7 }
+			set_variable = { 963.colony = 7 }
+			
+			#French Upper Volta
+			set_variable = { 808.colony = 8 }
+			set_variable = { 1124.colony = 8 }
+			
+			#French Togoland Mandate
+			set_variable = { 877.colony = 9 }
+			
+			#French Dahomey
+			set_variable = { 876.colony = 10 }
+			
+			#French Niger
+			set_variable = { 1126.colony = 11 }
+			set_variable = { 809.colony = 11 }
+			set_variable = { 1368.colony = 11 }
+			set_variable = { 910.colony = 11 }
+			
+        }
+    }
+}

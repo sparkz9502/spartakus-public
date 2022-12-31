@@ -1,0 +1,27 @@
+state={
+	id=1017
+	name="STATE_1017"
+	resources={
+		rubber=8
+		iron=5
+	}
+	provinces={
+		1348 4355 12199 
+	}
+	history={
+		owner = MLY
+		add_core_of = MLY
+		add_core_of = TRG
+		victory_points = {
+			12199 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=189000
+	state_category=pastoral
+	buildings_max_level_factor=1.000
+}

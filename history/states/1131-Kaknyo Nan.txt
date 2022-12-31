@@ -1,0 +1,33 @@
+
+state={
+	id=1131
+	name="STATE_1131"
+	
+	resources={
+		coal=3
+		iron=2
+	}
+
+	history={
+		owner = JAP
+		add_core_of = KOR
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			14274 5
+		}
+		victory_points = {
+			898 5
+		}
+
+	}
+
+	provinces={
+		848 852 898 906 959 3803 3852 3860 3904 3981 6822 6922 6928 6944 9899 10083 11878 14274 14276 14277 
+	}
+	manpower=2449058
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

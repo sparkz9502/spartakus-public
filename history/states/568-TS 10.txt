@@ -1,0 +1,27 @@
+
+state={
+	id=568
+	name="STATE_568"
+	resources={
+		coal=11.000
+	}
+
+	history={
+		owner = SOV
+		buildings = {
+			infrastructure = 2
+		}
+		victory_points = {
+			4724 3
+		}
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		1777 1850 1876 4690 4711 4724 4782 4818 4853 7744 7815 10570 10639 10712 12523 12563 12621 12628 12666 12691 
+	}
+	manpower=1728000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

@@ -1,0 +1,341 @@
+defined_text = {
+	name = GetBosniakApproval
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 91
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_near_unanimous
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 81
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 90
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_very_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 66
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 80
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 51
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 65
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_moderate
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 41
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 50
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_uncertain
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 21
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 40
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 11
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 20
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_pathetic
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = bosniaks_faction_approval_variable
+				value = 10
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = bosniaks_faction_approval_looming_catastrophe
+	}
+}
+
+defined_text = {
+	name = GetSerbApproval
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 91
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_near_unanimous
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 81
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 90
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_very_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 66
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 80
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 51
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 65
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_moderate
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 41
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 50
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_uncertain
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 21
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 40
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 11
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 20
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_pathetic
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = serbs_faction_approval_variable
+				value = 10
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = serbs_faction_approval_looming_catastrophe
+	}
+}
+
+defined_text = {
+	name = GetCroatApproval
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 91
+				compare = greater_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_near_unanimous
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 81
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 90
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_very_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 66
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 80
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_high
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 51
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 65
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_moderate
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 41
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 50
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_uncertain
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 21
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 40
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_low
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 11
+				compare = greater_than_or_equals
+			}
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 20
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_pathetic
+	}
+	text = {
+		trigger = {
+			check_variable = {
+				var = croats_faction_approval_variable
+				value = 10
+				compare = less_than_or_equals
+			}
+		}
+		localization_key = croats_faction_approval_looming_catastrophe
+	}
+}

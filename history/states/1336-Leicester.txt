@@ -1,0 +1,35 @@
+
+state={
+	id=1336
+	name="STATE_1336"
+	resources={
+		coal=33
+		iron=25
+	}
+
+	history={
+		owner = ENG
+		victory_points = {
+			11382 5 
+		}
+		victory_points = {
+			11279 5 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 5
+
+		}
+		add_core_of = ENG
+
+	}
+
+	provinces={
+		6237 9268 11279 11382 
+	}
+	manpower=2338900
+	buildings_max_level_factor=1.000
+	state_category=small_metropolis
+}

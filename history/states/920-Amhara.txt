@@ -1,0 +1,27 @@
+
+state={
+	id=920
+	name="STATE_920"
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			14290 1 
+		}
+
+	}
+
+	provinces={
+		1984 2009 2040 2072 4954 5041 7944 13137 14162 14181 14290 
+	}
+	manpower=4510000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

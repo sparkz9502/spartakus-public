@@ -1,0 +1,33 @@
+# Deal With Oppositions
+NOR_deal_with_opposition_decision_cat = {
+	
+	NOR_sieze_equipment_from_samfundsvernet = {
+		allowed = { tag = NOR }
+		visible = {
+			has_completed_focus = NOR_crush_right_wing_militas
+		}
+		available = {
+			has_completed_focus = NOR_crush_right_wing_militas
+		}
+		complete_effect = {
+		}
+		ai_will_do = { factor = 0 } # AI will only join by event
+	}
+}
+# Norwegian Expantionism
+NOR_expantionist_norway_decision_cat = {
+	
+	NOR_greenland_negotiate_with_danes = {
+		allowed = { tag = NOR }
+		visible = {
+			has_completed_focus = NOR_expantionist_norway
+		}
+		available = {
+			has_completed_focus = NOR_greenland_case
+			DEN = { controls_state = 101 }
+		}
+		complete_effect = {
+		}
+		ai_will_do = { factor = 0 } # AI will only join by event
+	}
+}

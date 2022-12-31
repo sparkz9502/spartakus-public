@@ -1,0 +1,46 @@
+ideas = {
+
+#######################
+#  Khorasan Ideas  #
+#######################
+
+	country = {
+	
+		PER_Republican_Tendencies = {
+			picture = KHO_Republican_Tendencies
+			modifier = {
+				political_power_gain = -0.10
+				industrial_capacity_factory = 0.05
+				war_support_factor = 0.10
+			}
+			targeted_modifier = {
+				tag = PER
+				attack_bonus_against = 0.1
+			}
+			targeted_modifier = {
+				tag = PER
+				defense_bonus_against = 0.1
+			}
+		}
+	
+		PER_The_Persian_Gendarmerie = {
+			picture = KHO_Persian_Gendarmerie
+			modifier = {
+				army_core_attack_factor = 0.05
+				army_core_defence_factor = 0.05
+				army_org_factor = 0.10
+				army_morale_factor = 0.10
+				conscription = 0.01
+			}
+		}
+	
+		PER_A_Haven_for_the_Arts = {
+			picture = KHO_A_Haven_for_Arts
+			modifier = {
+				political_power_gain = 0.05
+				stability_factor = 0.10
+			}
+		}
+	
+	}
+}

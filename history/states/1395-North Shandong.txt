@@ -1,0 +1,26 @@
+
+state={
+	id=1395
+	name="STATE_1395"
+
+	history={
+		owner = SHX
+		add_core_of = SHX
+		add_core_of = SHA
+		victory_points = {
+			11962 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		1084 7160 7189 11962 12093 
+	}
+	manpower=4487400
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

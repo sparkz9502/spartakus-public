@@ -1,0 +1,28 @@
+
+state={
+	id=1094
+	name="STATE_1094"
+
+	history={
+		owner = CRO
+		add_core_of = SLV
+		add_core_of = CRO
+		add_claim_by = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			3654 2 
+		}
+
+	}
+
+	provinces={
+		665 3654 
+	}
+	manpower=146320
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

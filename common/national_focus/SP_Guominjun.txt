@@ -1,0 +1,293 @@
+### Guominjun Focus
+
+
+##Military Focus
+focus_tree = {
+	id = KMC_Focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = KMC
+		}
+	}
+	default = no
+
+	
+	focus = {
+		id = KMC_overstreched_warlord
+		icon = GFX_focus_cze_german_puppet
+		cost = 1.00
+		x = 5
+		y = 0
+		ai_will_do = {
+			factor = 90
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus KMC_overstreched_warlord"
+			add_political_power = 30
+			hidden_effect = {
+				country_event = {
+					id = KMC.1
+				}
+			}
+		}
+		search_filters = { FOCUS_FILTER_POLITICAL }
+	}
+	
+	focus = {
+		id = KMC_northwest_army_problem
+		icon = GFX_wip
+		cost = 2.00
+		prerequisite = {
+			focus = KMC_overstreched_warlord
+		}
+		x = 5
+		y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus KMC_northwest_army_problem"
+		country_event = { id = KMC.2 days = 1 }
+	}
+	}
+
+
+	focus = {
+		id = KMC_2nd_army_of_KMC
+		icon = GFX_wip
+		cost = 2.00
+		prerequisite = {
+			focus = KMC_overstreched_warlord
+		}
+		x = 3
+		y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus KMC_2nd_army_of_KMC"
+		country_event = { id = KMC.3 days = 1 }
+	}
+	}
+	focus = {
+		id = KMC_Zhensongjun_problem
+		icon = GFX_wip
+		cost = 2.00
+		prerequisite = {
+			focus = KMC_overstreched_warlord
+		}
+		x = 7
+		y = 1
+	completion_reward = {
+		log = "[GetDateText]: [Root.GetName]: Focus KMC_Zhensongjun_problem"
+		country_event = { id = KMC.4 days = 1 }
+	}
+	}
+	focus = {
+		id = KMC_ma_clique_problem
+		icon = GFX_wip
+		cost = 3.00
+		prerequisite = {
+			focus = KMC_2nd_army_of_KMC
+		}
+		prerequisite = {
+			focus = KMC_Zhensongjun_problem
+		}
+		prerequisite = {
+			focus = KMC_northwest_army_problem
+		}
+		x = 5
+		y = 2
+
+	}
+	focus = {
+		id = KMC_maintain_a_grand_army
+		icon = GFX_focus_generic_little_entente
+		cost = 5.00
+		prerequisite = {
+			focus = KMC_ma_clique_problem
+		}
+		mutually_exclusive = {
+			focus = KMC_streamline_the_army
+		}
+		x = 3
+		y = 3
+
+	}
+	focus = {
+		id = KMC_improve_command_chain
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_maintain_a_grand_army
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = KMC_streamline_the_army
+		icon = GFX_focus_usa_honor_the_confederacy
+		cost = 5.00
+		prerequisite = {
+			focus = KMC_ma_clique_problem
+		}
+		mutually_exclusive = {
+			focus = KMC_maintain_a_grand_army
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = KMC_upgrade_infantry_equipments
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_maintain_a_grand_army
+			focus = KMC_streamline_the_army
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = KMC_introduce_artillery_factories
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_upgrade_infantry_equipments
+		}
+		x = 5
+		y = 5
+
+	}
+	focus = {
+		id = KMC_dare_to_die_corp
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_streamline_the_army
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = KMC_establish_fire_superiority
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_dare_to_die_corp
+		}
+		x = 7
+		y = 5
+
+	}
+	focus = {
+		id = KMC_model_regiment
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_maintain_a_grand_army
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = KMC_parental_authority_in_army
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_improve_command_chain
+		}
+		x = 1
+		y = 5
+
+	}
+	focus = {
+		id = KMC_cronyism
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_parental_authority_in_army
+		}
+		x = 1
+		y = 6
+
+	}
+	focus = {
+		id = KMC_pistol_guard
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_model_regiment
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = KMC_positional_warfare
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_pistol_guard
+		}
+		x = 3
+		y = 6
+
+	}
+	focus = {
+		id = KMC_big_knive_regiment
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_introduce_artillery_factories
+		}
+		x = 5
+		y = 6
+
+	}
+	focus = {
+		id = KMC_improve_individual_capacity
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_establish_fire_superiority
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = KMC_reform_northwestern_academy
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_streamline_the_army
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = KMC_revolutionary_ideals_education
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_reform_northwestern_academy
+		}
+		x = 9
+		y = 5
+
+	}
+	focus = {
+		id = KMC_enhance_discipline
+		icon = GFX_wip
+		cost = 6.00
+		prerequisite = {
+			focus = KMC_revolutionary_ideals_education
+		}
+		x = 9
+		y = 6
+
+	}
+}

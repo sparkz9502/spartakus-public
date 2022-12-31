@@ -1,0 +1,20 @@
+
+state={
+	id=1186
+	name="STATE_1186"
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		950 1192 10111 12083 
+	}
+	manpower=674400
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

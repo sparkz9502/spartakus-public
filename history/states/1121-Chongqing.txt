@@ -1,0 +1,22 @@
+
+state={
+	id=1121
+	name="STATE_1121"
+
+	history={
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		10304 10822 12414 
+	}
+	manpower=1218100
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

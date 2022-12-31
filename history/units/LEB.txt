@@ -1,0 +1,43 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Bataillon Mixte de Tirailleurs Sénégalais"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+	}
+	support = {
+	}
+	is_locked = yes
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = {
+		name = "1ère Bat. Mixte de Tirailleurs Sénégalais"
+		location = 792
+		division_template = "Bataillon Mixte de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "LEB"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

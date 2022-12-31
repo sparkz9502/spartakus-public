@@ -1,0 +1,26 @@
+
+state={
+	id=829
+	name="STATE_829"
+
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 1
+
+		}
+		add_core_of = USA
+		victory_points = {
+			3957 25 
+		}
+
+	}
+
+	provinces={
+		3957 
+	}
+	manpower=486900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

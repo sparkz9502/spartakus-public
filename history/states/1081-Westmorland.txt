@@ -1,0 +1,22 @@
+
+state={
+	id=1081
+	name="STATE_1081"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 0
+		}
+	}
+
+	provinces={
+		10902 
+	}
+	manpower=500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

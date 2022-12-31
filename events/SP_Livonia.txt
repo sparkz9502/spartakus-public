@@ -1,0 +1,1906 @@
+﻿###########################
+# Livonia Events
+###########################
+
+add_namespace = liv
+add_namespace = livext
+add_namespace = livfoc
+add_namespace = livflv
+add_namespace = livpol
+
+country_event = { #Introduction Part 1
+	id = liv.1
+	title = liv.1.t
+	desc = liv.1.d
+	picture = GFX_livonianflag
+	
+	is_triggered_only = yes
+
+	option = {
+		name = liv.1.a
+		add_political_power = 5
+	}
+}
+
+country_event = { #Introduction Part 2 Electric Boogaloo
+	id = liv.2
+	title = liv.2.t
+	desc = liv.2.d
+	picture = GFX_livonianflag
+
+	is_triggered_only = yes
+
+	option = {
+		name = liv.2.a
+	}
+}
+
+country_event = { #Clique Explanation
+	id = liv.3
+	title = liv.3.t
+	desc = liv.3.d
+	picture = GFX_report_event_lithuania_army
+
+	is_triggered_only = yes
+
+	option = {
+		name = liv.3.a
+	}
+}
+
+country_event = { #Goltz Train Bombing
+	id = liv.10
+	title = liv.10.t
+	desc = liv.10.d
+	picture = GFX_report_event_chinese_soldiers_city_ruin
+
+	is_triggered_only = yes
+
+	option = {
+		name = liv.10.a
+		custom_effect_tooltip = LIV_train_bombing_tt
+		add_manpower = -17
+		add_stability = -0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = -0.05
+			}
+		}
+	}
+}
+
+country_event = { #The Investigation
+	id = liv.11
+	title = liv.11.t
+	desc = liv.11.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+
+	option = {
+		name = liv.11.a
+		custom_effect_tooltip = LIV_investigation_tt
+		add_political_power = 20
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = -0.05
+			}
+		}
+	}
+}
+
+#Elections
+
+country_event = { #1932 Election - Ugunkrusts Issue
+	id = livpol.1
+	title = livpol.1.t
+	desc = livpol.1.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = livpol.2 days = 3 }
+	}
+
+	option = { #Ask for help from LZS
+		name = livpol.1.a
+		custom_effect_tooltip = LIV_elections_LZS_tt
+		custom_effect_tooltip = LIV_elections_nationalists_tt
+		add_stability = 0.01
+		add_political_power = -25
+		hidden_effect = {
+			add_popularity = {
+				ideology = liberal_conservative popularity = 0.0025
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.0025
+			}
+		}
+	}
+	
+	option = { #We can handle it ourselves
+		name = livpol.1.b
+		custom_effect_tooltip = LIV_elections_military_tt
+		custom_effect_tooltip = LIV_elections_ugunkrusts_tt
+		add_stability = -0.01
+		add_political_power = 25
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.0025
+			}
+			add_popularity = {
+				ideology = national_corporatist popularity = 0.0025
+			}
+		}
+	}
+}
+
+country_event = { #1932 Election - Left Wing Participation
+	id = livpol.2
+	title = livpol.2.t
+	desc = livpol.2.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = livpol.3 days = 3 }
+	}
+
+	option = { #Maintain the Status Quo
+		name = livpol.2.a
+		custom_effect_tooltip = LIV_elections_leftists_tt
+		add_stability = 0.01
+		add_political_power = -25
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_democrat popularity = 0.001
+			}
+			add_popularity = {		
+				ideology = reformist_socialist popularity = 0.001
+			}
+			add_popularity = {	
+				ideology = revolutionary_socialist popularity = 0.001
+			}
+			add_popularity = {		
+				ideology = spartacist popularity = 0.001
+			}
+			add_popularity = {		
+				ideology = bolshevist popularity = 0.001
+			}
+		}
+	}
+	
+	option = { #Ban them from Elections
+		name = livpol.2.b
+		custom_effect_tooltip = LIV_elections_nationalists_tt
+		custom_effect_tooltip = LIV_nationalist_clique_tt
+		add_stability = -0.05
+		add_political_power = 25
+		hidden_effect = {
+			set_country_flag = LIV_leftists_banned
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.005
+			}
+			add_to_variable = {
+				var = LIV.nationalist_clique
+				value = 1
+			}
+		}
+	}
+}
+
+country_event = { #1932 Election - Compensation for Estonian Land
+	id = livpol.3
+	title = livpol.3.t
+	desc = livpol.3.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = livpol.4 days = 3 }
+	}
+
+	option = { #Provide Compensation
+		name = livpol.3.a
+		custom_effect_tooltip = LIV_elections_liberals_tt
+		custom_effect_tooltip = LIV_elections_military_tt
+		add_stability = 0.03
+		add_political_power = -50
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_liberal popularity = 0.0025
+			}
+			add_popularity = {		
+				ideology = right_wing_populist popularity = 0.0025
+			}
+		}
+	}
+	
+	option = { #Hell Naw
+		name = livpol.3.b
+		custom_effect_tooltip = LIV_elections_nationalists_tt
+		add_stability = -0.01
+		add_political_power = 25
+		hidden_effect = {
+			country_event = { id = livpol.30 days = 10 }
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.005
+			}
+		}
+	}
+}
+
+country_event = { #1932 Election - Wenden/Cesis Monument
+	id = livpol.4
+	title = livpol.4.t
+	desc = livpol.4.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+	
+	immediate = {
+		country_event = { id = livpol.5 days = 3 }
+	}
+
+	option = { #Piss Off Estonians
+		name = livpol.4.a
+		custom_effect_tooltip = LIV_elections_nationalists_tt
+		custom_effect_tooltip = LIV_elections_conservatives_tt
+		custom_effect_tooltip = LIV_elections_military_tt
+		add_stability = -0.01
+		add_war_support = -0.01
+		add_political_power = 25
+		hidden_effect = {
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.0015
+			}
+			add_popularity = {
+				ideology = social_conservative popularity = 0.0015
+			}
+			add_popularity = {		
+				ideology = right_wing_populist popularity = 0.0015
+			}
+		}
+	}
+	
+	option = { #How About No
+		name = livpol.4.b
+		custom_effect_tooltip = LIV_elections_liberals_tt
+		custom_effect_tooltip = LIV_liberal_clique_tt
+		add_stability = 0.01
+		add_war_support = 0.01
+		add_political_power = -25
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_liberal popularity = 0.005
+			}
+			add_to_variable = {
+				var = LIV.liberal_clique
+				value = 1
+			}
+		}
+	}
+}
+
+country_event = { #1932 Election
+	id = livpol.5
+	title = livpol.5.t
+	desc = livpol.5.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+
+	option = { #Oof
+		name = livpol.5.a
+		custom_effect_tooltip = LIV_elections_nationalists_tt
+		custom_effect_tooltip = LIV_elections_conservatives_tt
+		custom_effect_tooltip = LIV_elections_liberals_tt
+		if = {
+			limit = {
+				not = {
+					has_country_flag = LIV_leftists_banned
+				}
+			}
+			custom_effect_tooltip = LIV_elections_leftists_tt
+		}
+		custom_effect_tooltip = LIV_militarist_clique_loss_tt
+		add_political_power = -25
+		add_popularity = {		
+			ideology = right_wing_populist popularity = -0.01
+		}
+		hidden_effect = {
+			add_to_variable = {
+				var = LIV.military_regime_clique
+				value = -2
+			}
+			add_popularity = {		
+				ideology = national_syndicalist popularity = 0.025
+			}
+			add_popularity = {		
+				ideology = authoritarian_conservative popularity = 0.025
+			}
+			add_popularity = {		
+				ideology = social_conservative popularity = 0.025
+			}
+			add_popularity = {		
+				ideology = social_liberal popularity = 0.05
+			}
+			if = {
+				limit = {
+					not = {
+						has_country_flag = LIV_leftists_banned
+					}
+				}
+				add_popularity = {		
+					ideology = reformist_socialist popularity = 0.05
+				}
+				add_popularity = {
+					ideology = social_democrat popularity = 0.01
+				}
+				add_popularity = {		
+					ideology = spartacist popularity = 0.005
+				}
+				add_popularity = {	
+					ideology = revolutionary_socialist popularity = 0.001
+				}
+				add_popularity = {		
+					ideology = bolshevist popularity = 0.001
+				}
+			}
+		}
+	}
+}
+
+news_event = { #Great Depression
+	id = livpol.10
+	title = livpol.10.t
+	desc = livpol.10.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = livpol.11 days = 30 }
+		}
+	}
+
+	option = { #Oof
+		name = livpol.10.a
+		add_ideas = LIV_Depression
+		add_stability = -0.10
+		add_political_power = -25
+		add_popularity = {		
+			ideology = right_wing_populist popularity = -0.03
+		}
+	}
+}
+
+country_event = { #Former Landowners Migrate to Estonia
+	id = livpol.30
+	title = livpol.30.t
+	desc = livpol.30.d
+	picture = GFX_report_event_aid_pact
+
+	is_triggered_only = yes
+
+	option = { #Shit!
+		name = livpol.30.a
+		add_stability = -0.03
+		1102 = {
+			add_manpower = -500
+		}
+		191 = {
+			add_manpower = -500
+		}
+		13 = {
+			add_manpower = 1000
+		}
+	}
+}
+
+#Livonia Foci Events
+
+country_event = { #Conscription or Freikorps
+	id = livfoc.1
+	title = livfoc.1.t
+	desc = livfoc.1.d
+	picture = GFX_report_event_lithuania_army
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.1.a
+		custom_effect_tooltip = LIV_focusing_on_conscription_tt
+		set_country_flag = LIV_focused_on_cons_crisis
+		army_experience = 10
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = livfoc.1.b
+		custom_effect_tooltip = LIV_focusing_on_freikorps_tt
+		set_country_flag = LIV_focused_on_freikorps_crisis
+		army_experience = 10
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #Conscription Reform
+	id = livfoc.2
+	title = livfoc.2.t
+	desc = livfoc.2.d
+	picture = GFX_report_event_lithuania_army
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.2.a
+		set_country_flag = LIV_german_army
+		custom_effect_tooltip = LIV_german_army_event_tt
+		add_war_support = 0.10
+		add_stability = -0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.05
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.05
+			}
+		}
+		
+		ai_chance = {
+			factor = 25
+		}
+	}
+	
+	option = {
+		name = livfoc.2.b
+		set_country_flag = LIV_mixed_army
+		custom_effect_tooltip = LIV_mixed_army_event_tt
+		add_war_support = 0.05
+		add_stability = 0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative popularity = 0.05
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative popularity = 0.05
+			}
+		}
+		
+		ai_chance = {
+			factor = 60
+		}
+	}
+	
+	option = {
+		name = livfoc.2.c
+		set_country_flag = LIV_baltic_army
+		custom_effect_tooltip = LIV_baltic_army_event_tt
+		add_war_support = -0.05
+		add_stability = 0.10
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_liberal popularity = 0.05
+			}
+			add_popularity = {
+				ideology = liberal_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_democrat popularity = 0.02
+			}
+		}
+		
+		ai_chance = {
+			factor = 15
+		}
+	}
+}
+
+country_event = { #Freikorps Question
+	id = livfoc.3
+	title = livfoc.3.t
+	desc = livfoc.3.d
+	picture = GFX_report_event_lithuania_army
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livfoc.3.a
+		set_country_flag = LIV_reform_freikorps
+		custom_effect_tooltip = LIV_reform_freikorps_event_tt
+		add_stability = 0.05
+		add_war_support = -0.10
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformist_socialist popularity = 0.03
+			}
+			add_popularity = {
+				ideology = liberal_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_liberal popularity = 0.03
+			}
+		}
+		
+		ai_chance = {
+			factor = 60
+		}
+	}
+
+	option = {
+		name = livfoc.3.b
+		set_country_flag = LIV_support_freikorps
+		custom_effect_tooltip = LIV_support_freikorps_event_tt
+		add_war_support = 0.05
+		add_stability = -0.10
+		hidden_effect = {
+			add_popularity = {
+				ideology = authoritarian_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.03
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.03
+			}
+		}
+		
+		ai_chance = {
+			factor = 40
+		}
+	}
+}
+
+country_event = { #Pensions for Freikorps
+	id = livfoc.4
+	title = livfoc.4.t
+	desc = livfoc.4.d
+	picture = GFX_report_event_lithuania_army
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livfoc.4.a
+		set_country_flag = LIV_provided_pensions
+		custom_effect_tooltip = LIV_provide_pensions_event_tt
+		add_political_power = -50
+		add_ideas = LIV_soldiers_pensions
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.03
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.03
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = livfoc.4.b
+		set_country_flag = LIV_refused_pensions
+		custom_effect_tooltip = LIV_refused_pensions_event_tt
+		add_war_support = -0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformist_socialist popularity = 0.03
+			}
+			add_popularity = {
+				ideology = liberal_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_liberal popularity = 0.03
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #Status of Freikorps Offenders
+	id = livfoc.5
+	title = livfoc.5.t
+	desc = livfoc.5.d
+	picture = GFX_report_event_lithuania_army
+
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = livfoc.5.a
+		set_country_flag = LIV_prosecute_offenders
+		custom_effect_tooltip = LIV_prosecute_offenders_event_tt
+		add_war_support = -0.05
+		add_stability = 0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = reformist_socialist popularity = 0.03
+			}
+			add_popularity = {
+				ideology = liberal_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = social_liberal popularity = 0.03
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = {
+		name = livfoc.5.b
+		set_country_flag = LIV_set_offenders_free
+		custom_effect_tooltip = LIV_set_offenders_free_event_tt
+		add_war_support = 0.05
+		add_stability = -0.05
+		hidden_effect = {
+			add_popularity = {
+				ideology = social_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = authoritarian_conservative popularity = 0.03
+			}
+			add_popularity = {
+				ideology = right_wing_populist popularity = 0.03
+			}
+			add_popularity = {
+				ideology = national_syndicalist popularity = 0.03
+			}
+		}
+		
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #Liberal Agrarian Reform
+	id = livfoc.10
+	title = livfoc.10.t
+	desc = livfoc.10.d
+	picture = GFX_report_event_generic_conference
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.10.a
+		set_country_flag = LIV_schiemann_plan
+		add_stability = 0.05
+		add_political_power = -25
+		add_popularity = {
+			ideology = social_liberal popularity = 0.03
+		}
+		
+		ai_chance = {
+			factor = 70
+		}
+	}
+	
+	option = {
+		name = livfoc.10.b
+		set_country_flag = LIV_ulmanis_plan
+		add_stability = -0.05
+		add_political_power = 25
+		add_popularity = {
+			ideology = liberal_conservative popularity = 0.03
+		}
+		
+		ai_chance = {
+			factor = 30
+		}
+	}
+}
+
+news_event = { #Scrapping the Baden
+	id = livfoc.30
+	title = livfoc.30.t
+	desc = livfoc.30.d
+	picture = GFX_news_event_ast_navy
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.30.a
+		add_ideas = LIV_scrapping_baden
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Restoring the Baden
+	id = livfoc.31
+	title = livfoc.31.t
+	desc = livfoc.31.d
+	picture = GFX_report_event_generic_conference
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.31.a
+		add_ideas = LIV_restoring_baden
+		hidden_effect = {
+			country_event = { id = livfoc.32 days = 365 }
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Deploying the Baden
+	id = livfoc.32
+	title = livfoc.32.t
+	desc = livfoc.32.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.32.a
+		remove_ideas = LIV_restoring_baden
+		hidden_effect = {
+			load_oob = LIV_Baden
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Ask for a Flagship
+	id = livfoc.33
+	title = livfoc.33.t
+	desc = livfoc.33.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.33.a
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_ENG_sale_no
+			}
+		}
+		ENG = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = livfoc.33.b
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_FRA_sale_no
+			}
+		}
+		FRA = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = livfoc.33.c
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_ITA_sale_no
+			}
+		}
+		ITA = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+	option = {
+		name = livfoc.33.d
+		trigger = {
+			NOT = {
+				has_country_flag = LIV_USA_sale_no
+			}
+		}
+		USA = {
+			country_event = {
+				id = livfoc.34
+			}
+		}
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+country_event = { #Request for a Ship
+	id = livfoc.34
+	title = livfoc.34.t
+	desc = livfoc.34.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = { #British sell battleship
+		name = livfoc.34.a
+		trigger = {
+			tag = ENG
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_large_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_ship_sale_payment
+				days = 365
+			}
+		}
+		ENG = {
+			transfer_ship = {
+				prefer_name = "HMS Royal Oak"
+				type = battleship
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 10
+		}
+	}
+	
+	option = { #French sell cruiser
+		name = livfoc.34.b
+		trigger = {
+			tag = FRA
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_small_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_small_ship_sale_payment
+				days = 365
+			}
+		}
+		FRA = {
+			transfer_ship = {
+				prefer_name = "Tourville"
+				type = heavy_cruiser
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Italians sell cruiser
+		name = livfoc.34.c
+		trigger = {
+			tag = ITA
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_small_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_small_ship_sale_payment
+				days = 365
+			}
+		}
+		ITA = {
+			transfer_ship = {
+				prefer_name = "RI Trieste"
+				type = heavy_cruiser
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #Americans sell battleship
+		name = livfoc.34.c
+		trigger = {
+			tag = USA
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_large_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_large_ship_sale_payment
+				days = 365
+			}
+		}
+		USA = {
+			transfer_ship = {
+				prefer_name = "USS Arkansas"
+				type = battleship
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+	
+	option = { #British sell cruiser
+		name = livfoc.34.e
+		trigger = {
+			tag = ENG
+		}
+		add_timed_idea = {
+			idea = add_ideas = LIV_small_ship_sale_profit
+			days = 365
+		}
+		LIV = {
+			country_event = livfoc.35
+			add_timed_idea = {
+				idea = LIV_small_ship_sale_payment
+				days = 365
+			}
+		}
+		ENG = {
+			transfer_ship = {
+				prefer_name = "HMS Hawkins"
+				type = heavy_cruiser
+				target = LIV
+			}
+		}
+		ai_chance = {
+			factor = 75
+		}
+	}
+	
+	option = { #No sale
+		name = livfoc.34.f
+		LIV = {
+			set_country_flag = LIV_sale_no_@ROOT
+			country_event = { 
+				id = livfoc.33
+				days = 3
+			}
+		}
+		ai_chance = {
+			factor = 50
+		}
+	}
+}
+
+country_event = { #Successful Ship Sale
+	id = livfoc.35
+	title = livfoc.35.t
+	desc = livfoc.35.d
+	picture = GFX_report_event_generic_conference
+
+	is_triggered_only = yes
+
+	option = {
+		name = livfoc.35.a
+		custom_effect_tooltip = LIV_successful_ship_sale_tt
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
+
+news_event = { #Latvian Uprising
+	id = livext.1
+	title = livext.1.t
+	desc = livext.1.d
+	picture = GFX_news_event_lithuania_army
+
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_global_flag = LIV_latvian_revolt
+			LIV = {
+				delete_unit_template_and_units = {
+					division_template = "Baltische-Division"
+				}
+			}
+			ENG = {
+				diplomatic_relation = {
+					country = LIV
+					relation = guarantee
+					active = no
+				}
+			}
+			LAT = {
+			
+				transfer_state = 880
+				transfer_state = 12
+				transfer_state = 190
+				
+				add_stability = 0.10
+				
+				add_war_support = 0.10
+				
+				declare_war_on = { 
+					target = LIV 
+					type = take_core_state 
+					generator = { 1071 } 
+					generator = { 1070 } 
+				}
+				
+				load_oob = LAT_revolt
+				
+				add_manpower = 50000
+				
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = 1000
+					producer = LIV
+				}
+
+			}
+			ENG = {
+				give_guarantee = LIV
+			}
+			load_oob = LIV_revolt
+			EST = {
+				country_event = {
+					id = livext.3
+					days = 2
+				}
+			}
+		}
+	}
+
+	option = {
+		name = livext.1.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.10
+		add_war_support = -0.10
+		add_manpower = -25000
+	}
+	
+	option = {
+		name = livext.1.b
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.10
+		add_war_support = -0.10
+		add_manpower = -25000
+		LAT = { change_tag_from = ROOT }
+	}
+}
+
+news_event = { #Estonian Betrayal
+	id = livext.2
+	title = livext.2.t
+	desc = livext.2.d
+	picture = GFX_news_event_lithuania_army
+
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			
+			set_global_flag = LIV_estonian_revolt
+			
+			set_autonomy = {
+				target = EST
+				autonomy_state = autonomy_free
+			}
+			
+			ENG = {
+				diplomatic_relation = {
+					country = LIV
+					relation = guarantee
+					active = no
+				}
+			}
+			
+			EST = {
+			
+				transfer_state = 1101
+				
+				add_stability = 0.10
+				
+				add_war_support = 0.10
+				
+				declare_war_on = { 
+					target = LIV 
+					type = take_core_state 
+					generator = { 191 } 
+					generator = { 1102 } 
+				}
+				
+				load_oob = EST_revolt
+				
+				add_manpower = 50000
+				
+				remove_ideas = EST_subordinate_to_livonia
+				
+				give_military_access = LAT
+				
+				diplomatic_relation = {
+					country = LAT
+					relation = non_aggression_pact
+					active = yes
+				}
+				
+				add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = 500
+					producer = LIV
+				}
+
+			}
+			
+			LAT = {
+				give_military_access = EST
+				diplomatic_relation = {
+					country = EST
+					relation = non_aggression_pact
+					active = yes
+				}
+			}
+			
+			ENG = {
+				give_guarantee = LIV
+			}
+		}
+	}
+
+	option = {
+		name = livext.2.a
+		ai_chance = {
+			factor = 100
+		}
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_manpower = -5000
+	}
+	
+	option = {
+		name = livext.2.b
+		ai_chance = {
+			factor = 0
+		}
+		add_stability = -0.05
+		add_war_support = -0.05
+		add_manpower = -5000
+		EST = { change_tag_from = ROOT }
+	}
+}
+
+country_event = { #Estonian Intervention Choice
+	id = livext.3
+	title = livext.3.t
+	desc = livext.3.d
+	picture = GFX_news_event_lithuania_army
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livext.3.a
+		ai_chance = {
+			factor = 100
+		}
+		custom_effect_tooltip = EST_war_warning_tt
+		add_stability = 0.05
+		add_war_support = 0.05
+		LIV = {
+			country_event = {
+				id = livext.2
+				days = 2
+			}
+		}
+	}
+	option = {
+		name = livext.3.b
+		ai_chance = {
+			factor = 0
+		}
+		custom_effect_tooltip = EST_no_war_warning_tt
+		add_stability = -0.05
+		add_war_support = -0.05
+	}
+}
+
+# Flavor Events
+
+news_event = { #Livonian Ethnographic Open-Air Museum Opens - May 1932
+	id = livflv.1
+	title = livflv.1.t
+	desc = livflv.1.d
+	picture = GFX_Ethnographic_Museum
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.1.a
+	}
+}
+
+news_event = { #Austra Skujiņa Dies - September 5th 1932
+	id = livflv.2
+	title = livflv.2.t
+	desc = livflv.2.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.2.a
+	}
+}
+
+news_event = { #Hermanis Matisons Dies - November 16th 1932
+	id = livflv.3
+	title = livflv.3.t
+	desc = livflv.3.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.3.a
+	}
+}
+
+news_event = { #8th Latvian Song and Dance Festival - June 18th 1933
+	id = livflv.4
+	title = livflv.4.t
+	desc = livflv.4.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.4.a
+	}
+}
+
+news_event = { #Ernests Vīgners Dies - May 25th 1933
+	id = livflv.5
+	title = livflv.5.t
+	desc = livflv.5.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.5.a
+	}
+}
+
+news_event = { #Anna Brigadere Dies - June 25th 1933
+	id = livflv.6
+	title = livflv.6.t
+	desc = livflv.6.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.6.a
+	}
+}
+
+news_event = { #Ugunkrusts Banned - April 12th 1933
+	id = livflv.7
+	title = livflv.7.t
+	desc = livflv.7.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.7.a
+	}
+}
+
+news_event = { #Pērkonkrusts Formed - May 12th 1933
+	id = livflv.8
+	title = livflv.8.t
+	desc = livflv.8.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.8.a
+	}
+}
+
+news_event = { #Jānis Pommers Dies - October 12th 1934
+	id = livflv.9
+	title = livflv.9.t
+	desc = livflv.9.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.9.a
+	}
+}
+
+news_event = { #Freedom Monument Opens - November 18th 1935
+	id = livflv.10
+	title = livflv.10.t
+	desc = livflv.10.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.10.a
+	}
+}
+
+news_event = { #Unity Ride Starts - September 5th 1936
+	id = livflv.11
+	title = livflv.11.t
+	desc = livflv.11.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.11.a
+	}
+}
+
+news_event = { #Brothers' Cemetary Consecrated - November 11th 1936
+	id = livflv.12
+	title = livflv.12.t
+	desc = livflv.12.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.12.a
+	}
+}
+
+news_event = { #Large Storm in Semigallia and Livland - July 4th 1936
+	id = livflv.13
+	title = livflv.13.t
+	desc = livflv.13.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.13.a
+	}
+}
+
+news_event = { #Construction of the Ministry of Finance Begins - May 8th 1937
+	id = livflv.14
+	title = livflv.14.t
+	desc = livflv.14.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.14.a
+	}
+}
+
+news_event = { #Anatoly Lieven Falls Ill - April 3rd 1937
+	id = livflv.15
+	title = livflv.15.t
+	desc = livflv.15.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.15.a
+	}
+}
+
+news_event = { #Jānis Akuraters Dies - July 25th 1937
+	id = livflv.16
+	title = livflv.16.t
+	desc = livflv.16.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.16.a
+	}
+}
+
+news_event = { #Great Ludza Fire - June 11th 1938
+	id = livflv.17
+	title = livflv.17.t
+	desc = livflv.17.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.17.a
+	}
+}
+
+news_event = { #9th Latvian Song and Dance Festival - June 18th 1938
+	id = livflv.18
+	title = livflv.18.t
+	desc = livflv.18.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.18.a
+	}
+}
+
+news_event = { #Pēteris Šmits Dies - June 18th 1938
+	id = livflv.19
+	title = livflv.19.t
+	desc = livflv.19.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.19.a
+	}
+}
+
+news_event = { #Andrejs Petrevics Dies - July 4th 1939
+	id = livflv.20
+	title = livflv.20.t
+	desc = livflv.20.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.20.a
+	}
+}
+
+news_event = { #Livonian General Electric Established - December 22nd 1939
+	id = livflv.21
+	title = livflv.21.t
+	desc = livflv.21.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.21.a
+	}
+}
+
+news_event = { #Fisherman's Son Premieres - January 22nd 1940
+	id = livflv.22
+	title = livflv.22.t
+	desc = livflv.22.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.22.a
+	}
+}
+
+news_event = { #Tuckum/Tukums War Monument Erected - May 19th 1940
+	id = livflv.23
+	title = livflv.23.t
+	desc = livflv.23.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.23.a
+	}
+}
+
+news_event = { #Latgale Song Festival - June 15th 1940
+	id = livflv.24
+	title = livflv.24.t
+	desc = livflv.24.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.24.a
+	}
+}
+
+news_event = { #Kārlis Padegs Dies - April 19th 1940
+	id = livflv.25
+	title = livflv.25.t
+	desc = livflv.25.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.25.a
+	}
+}
+
+news_event = { #Latvija Underground Newspaper Issued - November 18th 1941
+	id = livflv.26
+	title = livflv.26.t
+	desc = livflv.26.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.26.a
+	}
+}
+
+news_event = { #Livonian National Youth Theater Opened - January 10th 1941
+	id = livflv.27
+	title = livflv.27.t
+	desc = livflv.27.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.27.a
+	}
+}
+
+news_event = { #Fricis Apšenieks Dies - April 25th 1941
+	id = livflv.28
+	title = livflv.28.t
+	desc = livflv.28.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.28.a
+	}
+}
+
+news_event = { #Voldemārs Maldonis Dies - February 22nd 1941
+	id = livflv.29
+	title = livflv.29.t
+	desc = livflv.29.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.29.a
+	}
+}
+
+news_event = { #Resistance Members Arrested - November 14th 1942
+	id = livflv.30
+	title = livflv.30.t
+	desc = livflv.30.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.30.a
+	}
+}
+
+news_event = { #Mass Murderer Terrifies Riga - December 20th 1942
+	id = livflv.31
+	title = livflv.31.t
+	desc = livflv.31.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.31.a
+	}
+}
+
+news_event = { #Andrievs Niedra Dies - September 25th 1942
+	id = livflv.32
+	title = livflv.32.t
+	desc = livflv.32.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.32.a
+	}
+}
+
+news_event = { #Jānis Rozītis Dies - May 3rd 1942
+	id = livflv.33
+	title = livflv.33.t
+	desc = livflv.33.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.33.a
+	}
+}
+
+news_event = { #10th Latvian Song and Dance Festival - June 16th 1942
+	id = livflv.34
+	title = livflv.34.t
+	desc = livflv.34.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.34.a
+	}
+}
+
+news_event = { #Kārlis Bētiņš Dies - March 28th 1943
+	id = livflv.35
+	title = livflv.35.t
+	desc = livflv.35.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.35.a
+	}
+}
+
+news_event = { #Peaceful Protests in Pernau - October 3rd 1943
+	id = livflv.36
+	title = livflv.36.t
+	desc = livflv.36.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.36.a
+	}
+}
+
+news_event = { #Gustavs Celmiņš Arrested - March 14th 1944
+	id = livflv.37
+	title = livflv.37.t
+	desc = livflv.37.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.37.a
+	}
+}
+
+news_event = { #Livonian National Symphony Orchestra Established - October 8th 1944
+	id = livflv.38
+	title = livflv.38.t
+	desc = livflv.38.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.38.a
+	}
+}
+
+news_event = { #Voldemārs Veiss Dies - April 17th 1944
+	id = livflv.39
+	title = livflv.39.t
+	desc = livflv.39.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.39.a
+	}
+}
+
+news_event = { #Kārlis Skalbe Dies - April 15th 1945
+	id = livflv.40
+	title = livflv.40.t
+	desc = livflv.40.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.40.a
+	}
+}
+
+news_event = { #Vilhelms Purvītis Dies - January 14th 1945
+	id = livflv.41
+	title = livflv.41.t
+	desc = livflv.41.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.41.a
+	}
+}
+
+news_event = { #11th Latvian Song and Dance Festival - June 17th 1945
+	id = livflv.42
+	title = livflv.42.t
+	desc = livflv.42.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.42.a
+	}
+}
+
+news_event = { #Fire in Riga - August 4th 1946
+	id = livflv.43
+	title = livflv.43.t
+	desc = livflv.43.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.43.a
+	}
+}
+
+news_event = { #Trolley System Opens in Riga - December 1st 1946
+	id = livflv.44
+	title = livflv.44.t
+	desc = livflv.44.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.44.a
+	}
+}
+
+news_event = { #Eriks Ādamsons Dies - February 28th 1946
+	id = livflv.45
+	title = livflv.45.t
+	desc = livflv.45.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.45.a
+	}
+}
+
+news_event = { #Rüdiger von der Goltz Dies - November 4th 1946
+	id = livflv.46
+	title = livflv.46.t
+	desc = livflv.46.d
+	picture = GFX_livonianflag
+
+	
+	is_triggered_only = yes
+
+	option = {
+		name = livflv.46.a
+	}
+}

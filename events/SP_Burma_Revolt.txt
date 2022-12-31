@@ -1,0 +1,140 @@
+﻿###########################
+# Burma Revolt Events
+###########################
+
+add_namespace = bmr
+
+country_event = {
+	id = bmr.1
+	title = bmr.1.t
+	desc = bmr.1.d
+	picture = GFX_BMR
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = bmr.1.a
+	}
+}
+
+#Ask for Foreign Volunteers
+
+country_event = {
+	id = bmr.10
+	title = bmr.10.t
+	desc = bmr.10.d
+	picture = GFX_BMR_volunteers
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		trigger = { 
+			tag = SOV
+		}
+		name = bmr.10.a
+		ai_chance = { factor = 100 }
+		add_manpower = -2000
+		set_country_flag = BMR_sent_volunteers
+		send_equipment = {
+			target = BMR
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = { BMR = { country_event = { id = bmr.11 days = 1 }}}
+	}
+	
+	option = {
+		trigger = { 
+			tag = GER
+		}
+		name = bmr.10.b
+		ai_chance = { factor = 100 }
+		add_manpower = -2000
+		set_country_flag = BMR_sent_volunteers
+		send_equipment = {
+			target = BMR
+			type = infantry_equipment
+			amount = 500
+		}
+		hidden_effect = { BMR = { country_event = { id = bmr.12 days = 1 }}}
+	}
+	
+	option = {
+		name = bmr.10.c
+		ai_chance = { factor = 0 }
+		add_political_power = -50
+	}
+}
+
+#Soviet Volunteers Arrive
+
+country_event = {
+	id = bmr.11
+	title = bmr.11.t
+	desc = bmr.11.d
+	picture = GFX_BMR_volunteers
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = bmr.11.a
+		ai_chance = { factor = 100 }
+
+		add_manpower = 2000
+
+		load_oob = BMR_SOV_VOL
+
+		set_global_flag = BMR_SOV_VOL
+	}
+}
+
+#German Volunteers Arrive
+
+country_event = {
+	id = bmr.12
+	title = bmr.12.t
+	desc = bmr.12.d
+	picture = GFX_BMR_volunteers
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = bmr.12.a
+		ai_chance = { factor = 100 }
+
+		add_manpower = 2000
+
+		load_oob = BMR_GER_VOL
+
+		set_global_flag = BMR_GER_VOL
+	}
+}
+
+#Foreign Exiles Arrive
+
+country_event = {
+	id = bmr.13
+	title = bmr.13.t
+	desc = bmr.13.d
+	picture = GFX_BMR_volunteers
+
+	is_triggered_only = yes
+	
+	fire_only_once = yes
+
+	option = {
+		name = bmr.13.a
+		ai_chance = { factor = 100 }
+
+		add_manpower = 2000
+
+		load_oob = BMR_EXILES_VOL
+	}
+}

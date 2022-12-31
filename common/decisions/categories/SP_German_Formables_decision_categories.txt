@@ -1,0 +1,16 @@
+###############################
+### German Formable Nations ###
+###############################
+
+GFN_formable_nations = {
+	allowed = {
+		OR = {
+			tag = RHI
+			tag = WUR
+			tag = PRS
+		}
+	}
+	visible = {
+	}
+	icon = GFX_decision_category_generic_independence
+}

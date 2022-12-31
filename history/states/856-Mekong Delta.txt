@@ -1,0 +1,33 @@
+
+state={
+	id=856
+	name="STATE_856"
+
+	history={
+		owner = VNA
+		add_core_of = INC
+		add_core_of = VIN
+		add_core_of = VNA
+		INC = {
+			set_province_controller = 1423
+			set_province_controller = 12288
+			set_province_controller = 4223
+			set_province_controller = 4284
+			set_province_controller = 4341
+			set_province_controller = 7331
+			set_province_controller = 7303
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1396 1423 4223 4284 4341 7303 7331 12133 12288 
+	}
+	manpower=2654500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

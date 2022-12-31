@@ -1,0 +1,25 @@
+
+state={
+	id=1135
+	name="STATE_1135"
+
+	history={
+		owner = SOV
+		add_core_of = SOV
+		add_claim_by = TCS
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			15153 1 
+		}
+
+	}
+
+	provinces={
+		756 1632 4482 4549 4599 4958 5003 7560 7924 9605 10357 10414 10435 10510 10742 12161 12474 15151 15153 15155 15156 15157 15163 
+	}
+	manpower=348000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

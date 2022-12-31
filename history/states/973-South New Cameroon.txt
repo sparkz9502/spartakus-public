@@ -1,0 +1,23 @@
+
+state={
+	id=973
+	name="STATE_973"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 0
+
+		}
+
+	}
+
+	provinces={
+		15108 
+	}
+	manpower=1
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

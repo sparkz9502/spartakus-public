@@ -1,0 +1,53 @@
+### Spain Ideas ###
+ideas = {
+
+    country = {
+
+		#Start
+
+		SPR_Agrarian_Question_idea = {
+			modifier = {
+				global_building_slots_factor  = -0.40
+				stability_factor = -0.20
+				monthly_population = -0.15
+			}
+			picture = GFX_idea_SPR_Agrarian_Question
+		}
+		
+		SPR_Military_Unrest_idea = {
+			modifier = {
+				stability_factor = -0.15
+				war_support_factor = -0.15
+				army_org_factor = -0.20
+			}
+			picture = GFX_idea_enemies_of_republic
+		}
+		
+		SPR_Unstable_Coalition_idea = {
+			modifier = {
+				stability_weekly = -0.01
+				war_support_factor = -0.20
+				political_power_gain = -0.25
+			}
+			picture = GFX_idea_Spanish_Republic_Flag_Burning
+		}
+		
+		SPR_Decelerating_Economy_idea = {
+			modifier = {
+				consumer_goods_factor = 0.1
+				production_speed_buildings_factor = -0.15
+				production_factory_efficiency_gain_factor = -0.15
+			}
+			picture = GFX_idea_capital_outflow
+		}
+		
+		SPR_Generalized_Illiteracy_idea = {
+			modifier = {
+				political_power_gain = -0.05
+				research_speed_factor = -0.1
+			}
+			picture = GFX_idea_Illiteracy_Idea
+		}
+    }
+	
+}

@@ -1,0 +1,14 @@
+#################
+###  Croatia  ###
+#################
+
+STJ_Sabor = {
+	icon = usa_congress
+	allowed = {
+		original_tag = STJ
+	}
+
+	scripted_gui = sabor_decision_ui	
+
+	priority = 85
+}

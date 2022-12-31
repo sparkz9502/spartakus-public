@@ -1,0 +1,198 @@
+defined_text = {
+	name = CoupDecisions
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_venizelists
+		}
+		localization_key = GRE_Coup_Decisions_con
+	}
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_monarchists
+		}
+		localization_key = GRE_Coup_Decisions_ven
+	}
+}
+
+defined_text = {
+	name = RootOutOtherSpies
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_venizelists
+		}
+		localization_key = GRE_Root_Out_Ven_Spies
+	}
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_monarchists
+		}
+		localization_key = GRE_Root_Out_Mon_Spies
+	}
+}
+
+defined_text = {
+	name = CoupDecisionsGov
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_venizelists
+		}
+		localization_key = GRE_Coup_Decisions_Gov_con
+	}
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_monarchists
+		}
+		localization_key = GRE_Coup_Decisions_Gov_ven
+	}
+}
+
+defined_text = {
+	name = DestroyOppositeFaction
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_venizelists
+		}
+		localization_key = GRE_Destroy_Mon_Faction
+	}
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_monarchists
+		}
+		localization_key = GRE_Destroy_Ven_Faction
+	}
+}
+
+defined_text = {
+	name = InfiltrateTheOtherFaction
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_venizelists
+		}
+		localization_key = GRE_Infiltrate_The_Mon_Faction
+	}
+	text = {
+		trigger = {
+			has_country_flag = GRE_1933_monarchists
+		}
+		localization_key = GRE_Infiltrate_The_Ven_Faction
+	}
+}
+
+defined_text = {
+	name = GetGREParliamentPartyName
+	text = {
+		trigger = {
+			check_variable = { v = 1 }
+		}
+		localization_key = party_1_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 2 }
+		}
+		localization_key = party_2_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 3 }
+		}
+		localization_key = party_3_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 4 }
+		}
+		localization_key = party_4_text
+	}
+	text = {
+		trigger = {
+			check_variable = { v = 5 }
+		}
+		localization_key = party_5_text
+	}
+	text = {
+		localization_key = "Error"
+	}
+}
+
+defined_text = {
+	name = GetGREParliamentSeatName
+	text = {
+		trigger = {
+			set_temp_variable = { temp_seat = GRE_parliament_main_index }
+			add_to_temp_variable = { temp_seat = 1 }
+			check_variable = { temp_seat > 0 }
+		}
+		localization_key = GRE_parliament_seat_text
+	}
+}
+
+defined_text = {
+	name = GreSenate
+	text = {
+		trigger = {
+			has_completed_focus = GRE_Strenghten_the_Senate
+		}
+		localization_key = GRE_Senate_Empowered
+	}
+	text = {
+		trigger = {
+			has_completed_focus = GRE_Enact_Direct_Democratic_Reforms
+		}
+		localization_key = GRE_Senate_Weakened
+	}
+	text = {
+		trigger = {
+			NOT = {
+				AND = {
+					has_completed_focus = GRE_Strenghten_the_Senate
+					has_completed_focus = GRE_Enact_Direct_Democratic_Reforms
+				}
+			}
+		}
+		localization_key = GRE_Senate_Influential
+	}
+}
+
+defined_text = {
+	name = GreCoalition
+	text = {
+		trigger = {
+			GRE = { has_idea = GRE_coalition_pth_idea }
+		}
+		localization_key = GRE_coalition_exceptional
+	}
+	text = {
+		trigger = {
+			GRE = { has_idea = GRE_coalition_ptw_idea }
+		}
+		localization_key = GRE_coalition_powerfull
+	}
+	text = {
+		trigger = {
+			GRE = { has_idea = GRE_coalition_pon_idea }
+		}
+		localization_key = GRE_coalition_strong
+	}
+	text = {
+		localization_key = GRE_coalition_adequate
+	}
+	text = {
+		trigger = {
+			GRE = {	has_idea = GRE_coalition_non_idea }
+		}
+		localization_key = GRE_coalition_weak
+	}
+	text = {
+		trigger = {
+			GRE = {	has_idea = GRE_coalition_ntw_idea}
+		}
+		localization_key = GRE_coalition_powerless
+	}
+	text = {
+		trigger = {
+			GRE = { has_idea = GRE_coalition_nth_idea}
+		}
+		localization_key = GRE_coalition_disasterous
+	}
+}

@@ -1,0 +1,22 @@
+state={
+	id=1365
+	name="STATE_1365"
+	provinces={
+		3380 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			3380 1 
+		}
+		
+	}
+	manpower=172000
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

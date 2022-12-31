@@ -1,0 +1,86 @@
+############
+#
+# Infantry
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "CHI_infantry_entity"
+		name = "YUN_infantry_entity"
+	}
+	
+	entity = {
+		clone = "CHI_infantry_2_entity"
+		name = "YUN_infantry_2_entity"
+	}
+	
+	entity = {
+		clone = "CHI_infantry_3_entity"
+		name = "YUN_infantry_3_entity"
+	}
+
+############
+#
+# Cavalry
+#
+############
+	
+	##### - Clones - #####
+
+	entity = {
+		clone = "CHI_infantry_rider_entity"
+		name = "YUN_infantry_rider_entity"
+	}
+
+	entity = {
+		clone = "CHI_infantry_mg_rider_entity"
+		name = "YUN_infantry_mg_rider_entity"
+	}
+
+	entity = {
+		clone = "CHI_cavalry_entity"
+		name = "YUN_cavalry_entity"
+	}
+
+	entity = {
+		clone = "CHI_cavalry_2_entity"
+		name = "YUN_cavalry_mg_entity"
+	}
+
+	entity = {
+		clone = "CHI_cavalry_rifle_combined_entity"
+		name = "YUN_cavalry_rifle_combined_entity"
+	}
+
+	entity = {
+		clone = "CHI_cavalry_mg_combined_entity"
+		name = "YUN_cavalry_mg_combined_entity"
+	}
+
+############
+#
+# Vehicles
+#
+############
+	
+	##### - Clones - #####
+	
+	entity = {
+		clone = "CHI_motorized_entity"
+		name = "YUN_motorized_entity"
+	}
+	
+	entity = {
+		clone = "CHI_mechanized_entity"
+		name = "YUN_mechanized_entity"
+	}
+	
+	entity = {
+		clone = "CHI_artillery_entity"
+		name = "YUN_artillery_entity"
+	}
+	
+	
+	

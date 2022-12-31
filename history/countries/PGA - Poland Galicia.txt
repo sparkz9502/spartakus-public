@@ -1,0 +1,100 @@
+﻿capital = 10
+
+set_oob = "PGA"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_coun
+	trade_aut
+	economy_semind
+	mobilization_2
+
+	PGA_Volodymyr_Zatonsky_hog_spa
+	PGA_Edward_Prochniak_mwp_spa
+	PGA_Jakub_Hanecki_for_spa
+	PGA_Alfred_Lampe_eco_spa
+	PGA_Teodor_Duracz_sec_spa
+	PGA_Feliks_Kon_edu_spa
+	PGA_Stanislaw_Kosior_agr_bol
+	PGA_Stanislaw_Bobinski_tra_spa
+	PGA_Jozef_Unszlicht_def_bol
+	PGA_Vladimir_Lazarevich_cos
+	PGA_Wladyslaw_Korczyc_carm
+	PGA_Jerzy_Zietek_cair
+	PGA_Stefan_Banach_theo
+}
+
+recruit_character = PGA_adolf_warski
+recruit_character = PGA_roman_dmowski
+recruit_character = PGA_roman_rybarski
+recruit_character = PGA_józef_unszlicht
+recruit_character = PGA_marcin_piotrowski
+recruit_character = PGA_kacper_dąbrowski
+recruit_character = PGA_michał_kowalski
+recruit_character = PGA_filip_piotrowski
+recruit_character = PGA_tomasz_szymański
+recruit_character = PGA_maksymilian_kowalski
+recruit_character = PGA_igor_wojciechowski
+recruit_character = PGA_maksymilian_szymański
+recruit_character = PGA_grzegorz_kowalski
+
+
+set_research_slots = 3
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_mountaineers = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	gw_artillery = 1
+	interwar_antiair = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	CAS1 = 1
+	early_destroyer = 1
+	early_submarine = 1	
+	trench_warfare = 1
+}
+
+set_politics = {	
+	ruling_party = spartacist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 11
+    spartacist = 18
+    revolutionary_socialist = 6
+    reformist_socialist = 10
+    social_democrat = 5
+    social_liberal = 19
+    liberal_conservative = 3
+    social_conservative = 13
+    authoritarian_conservative = 2
+    right_wing_populist = 6
+    national_syndicalist = 4
+    national_corporatist = 3
+}
+
+set_country_flag = coalition_bolshevist
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_reformist_socialist
+
+set_country_flag = banned_social_democrat
+set_country_flag = banned_social_liberal
+set_country_flag = banned_liberal_conservative
+set_country_flag = banned_social_conservative
+set_country_flag = banned_authoritarian_conservative
+set_country_flag = banned_right_wing_populist
+set_country_flag = banned_national_syndicalist
+set_country_flag = banned_national_corporatist
+
+set_convoys = 10
+

@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			AST = {
+				country_event = { id = ast.0 days = 2 }
+			}
+        }
+    }
+}

@@ -1,0 +1,22 @@
+
+state={
+	id=1370
+	name="STATE_1370"
+
+	history={
+		owner = AOF
+		add_core_of = AOF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1095 5035 8061 14373 14383 14396 14399 15521 15526 15531 15535 15541 
+	}
+	manpower=32100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

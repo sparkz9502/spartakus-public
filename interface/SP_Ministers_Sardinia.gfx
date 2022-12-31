@@ -1,0 +1,156 @@
+spriteTypes = {
+
+#Head of Government
+
+spriteType = {
+	name = "GFX_idea_SRD_Emilio_Lussu_hog_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Emilio_Lussu.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Pietro_Mastino_hog_sde"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Pietro_Mastino.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Camillo_Bellieni_hog_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Camillo_Bellieni.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Anselmo_Contu_hog_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Anselmo_Contu.tga"
+}
+
+#Minister Without Portfolio
+
+spriteType = {
+	name = "GFX_idea_SRD_Emilio_Lussu_mwp_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Emilio_Lussu.tga"
+}
+
+#Foreign Minister
+
+spriteType = {
+	name = "GFX_idea_SRD_Mario_Berlinguer_for_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Mario_Berlinguer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Silvio_Mastio_for_sde"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Silvio_Mastio.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Giovanni_Battista_Melis_for_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Giovanni_Battista_Melis.tga"
+}
+
+#Economy Minister
+
+spriteType = {
+	name = "GFX_idea_SRD_Alessandro_Nanni_eco_rev"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Alessandro_Nanni.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Davide_Cova_eco_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Davide_Cova.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Stefano_Siglienti_eco_sde"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Stefano_Siglienti.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Battista_Bardanzellu_eco_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Battista_Bardanzellu.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Gavino_Alivia_eco_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Gavino_Alivia.tga"
+}
+
+#Security Minister
+
+spriteType = {
+	name = "GFX_idea_SRD_Mario_Berlinguer_sec_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Mario_Berlinguer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Pietro_Mastino_sec_sde"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Pietro_Mastino.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Anselmo_Contu_sec_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Anselmo_Contu.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Enrico_Endrich_sec_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Enrico_Endrich.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Luigi_Oggiano_sec_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Luigi_Oggiano.tga"
+}
+
+#Education Minister
+
+spriteType = {
+	name = "GFX_idea_SRD_Filiberto_Farci_edu_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Filiberto_Farci.tga"
+}
+
+#Agriculture Minister
+
+spriteType = {
+	name = "GFX_idea_SRD_Paolo_Pili_agr_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Paolo_Pili.tga"
+}
+
+#Transport Minister
+
+#Defence Minister
+
+spriteType = {
+	name = "GFX_idea_SRD_Luigi_Polano_def_spa"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Luigi_Polano.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Gonario_Pinna_def_ref"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Gonario_Pinna.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Francesco_Fancello_def_sde"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Francesco_Fancello.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SRD_Giuseppe_Musinu_def_sli"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Giuseppe_Musinu.tga"
+}
+
+#Chief of Staff
+
+#Chief of Army
+
+spriteType = {
+	name = "GFX_idea_SRD_Giuseppe_Musinu_carm"
+	texturefile = "gfx/interface/ministers/SRD/SRD_Giuseppe_Musinu.tga"
+}
+
+#Chief of Navy
+
+#Chief of Air Force
+
+#Theorist
+
+}

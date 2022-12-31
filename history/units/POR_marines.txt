@@ -1,0 +1,18 @@
+﻿division_template = {
+	name = "Fuzileiros Navais" #Marines
+	is_locked = yes	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+	}
+}
+units = {
+	division = {
+		name = "Fuzileiros Navais"
+		location = 11805
+		division_template = "Fuzileiros Navais"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1		
+
+}

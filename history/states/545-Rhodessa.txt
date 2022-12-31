@@ -1,0 +1,29 @@
+
+state={
+	id=545
+	name="STATE_545"
+	resources={
+		raremetals=16.000
+	}
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+
+		}
+		victory_points = {
+			10929 3 
+		}
+
+	}
+
+	provinces={
+		2216 10929 14861 14867 14873 14881 14882 14888 14891 14892 14895 14898 14899 
+	}
+	manpower=614000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

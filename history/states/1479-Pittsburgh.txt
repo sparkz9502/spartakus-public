@@ -1,0 +1,29 @@
+
+state={
+	id=1479
+	name="STATE_1479"
+	resources={
+		coal=151
+	}
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 4
+			industrial_complex = 4
+			
+		}
+		add_core_of = USA
+		victory_points = {
+			11800 20 
+		}
+
+	}
+	
+	provinces={
+		880 3802 9789 11789 11800 
+	}
+	manpower=2596000
+	state_category = small_metropolis
+	buildings_max_level_factor=1.000
+}

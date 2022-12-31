@@ -1,0 +1,40 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+BSE_bolshevist_party:0 "KPJ"
+BSE_bolshevist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+BSE_spartacist_party:0 "KPJ"
+BSE_spartacist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+BSE_revolutionary_socialist_party:0 "KPJ"
+BSE_revolutionary_socialist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+BSE_reformist_socialist_party:0 "SPJ"
+BSE_reformist_socialist_party_long:0 "Socialist Party of Yugoslavia (Socijalistička Partija Jugoslavije)"
+BSE_social_democrat_party:0 "DS (Ljevi)"
+BSE_social_democrat_party_long:0 "Democratic Party (Demokratska Stranka)"
+BSE_social_liberal_party:0 "DS (Desni)"
+BSE_social_liberal_party_long:0 "Democratic Party (Demokratska Stranka)"
+BSE_liberal_conservative_party:0 "-"
+BSE_liberal_conservative_party_long:0 "-"
+BSE_social_conservative_party:0 "-"
+BSE_social_conservative_party_long:0 "-"
+BSE_authoritarian_conservative_party:0 "-"
+BSE_authoritarian_conservative_party_long:0 "-"
+BSE_right_wing_populist_party:0 "Četnici"
+BSE_right_wing_populist_party_long:0 "Chetniks (Četnici)"
+BSE_national_syndicalist_party:0 "-"
+BSE_national_syndicalist_party_long:0 "-"
+BSE_national_corporatist_party:0 "-"
+BSE_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###

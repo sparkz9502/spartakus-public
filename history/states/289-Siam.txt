@@ -1,0 +1,42 @@
+
+state={
+	id=289
+	name="STATE_289"
+
+	history={
+		owner = SIA
+		buildings = {
+			infrastructure = 2
+			arms_factory = 1
+			industrial_complex = 4
+			air_base = 3
+			dockyard = 1
+			7408 = {
+				naval_base = 4
+				coastal_bunker = 1
+
+			}
+			1427 = {
+				coastal_bunker = 1
+
+			}
+			12220 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			7408 15 
+		}
+		add_core_of = SIA
+
+	}
+
+	provinces={
+		1427 4319 4348 4388 4392 7367 7408 7587 10193 10221 10250 12122 12220 
+	}
+	manpower=5522400
+	buildings_max_level_factor=1.000
+	state_category=city
+}

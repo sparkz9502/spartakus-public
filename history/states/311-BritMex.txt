@@ -1,0 +1,30 @@
+
+state={
+	id=311
+	name="STATE_311"
+
+	history={
+		owner = CFA
+		add_core_of = CFA
+		buildings = {
+			infrastructure = 2
+			2077 = {
+				naval_base = 1
+
+			}
+
+		}
+		victory_points = {
+			2077 1
+		}
+		add_claim_by = GUA
+
+	}
+
+	provinces={
+		2077 13447 
+	}
+	manpower=51000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

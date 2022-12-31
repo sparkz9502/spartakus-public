@@ -1,0 +1,28 @@
+
+state={
+	id=1299
+	name="STATE_1299"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			15249 10 
+		}
+		victory_points = {
+			5063 1 
+		}
+
+	}
+
+	provinces={
+		1405 4353 5063 7119 10210 10270 12142 12182 15247 15249 15253 15265 15268 
+	}
+	manpower=1610000
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

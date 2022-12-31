@@ -1,0 +1,789 @@
+﻿l_english:
+
+### Opinions ###
+
+### Decisions ###
+
+LIV_clique_influence:0 "Military Clique Influence"
+LIV_clique_influence_desc:0 "Livonia was established with a permanent military regime in mind. The status of whether Livonia was a republic, a monarchy, a dictatorship or anything else was left officially unclarified. Despite this, Livonia was pressured to hold elections in 1926 by the officially legal Latvian Farmers Union and its supporters.\n\nThese were merely mock elections, as the electorate was divided between the German and Balt list, with the German list receiving the two-thirds of the seats. This all but secured the power of the military regime and its representatives, who consistently gained a majority of votes from the Baltic-German electorate until 1931, when economic troubles stemming from the 1929 London Market Crash reduced confidence in the regime.\n\nSignificant support has arisen for reform, whether backwards or forwards, and naturally elements within the military regime have been forced to take sides.\n\nWith major issues now arising, such as conscription question and the status of Freikorps, all elements of the military will have to pick a side.\n\n§RWhichever clique emerges dominant may impose their own vision for a Livonian government.§!\n\n§YLiberal Clique§! influence at: §Y[?LIV.liberal_clique|0]§!\n§MConservative Clique§! influence at: §Y[?LIV.conservative_clique|0]§!\n§LMonarchist Clique§! influence at: §Y[?LIV.monarchist_clique|0]§!\n§GMilitarist Clique§! influence at: §Y[?LIV.military_regime_clique|0]§!\n§gNationalist Clique§! influence at: §Y[?LIV.nationalist_clique|0]§!"
+
+LIV_clique_explanation:0 "Influence System Explanation"
+
+### Events ###
+
+#liv.1.t:0 ""
+#liv.1.d:0 ""
+#liv.1.a:0 ""
+#liv.1.b:0 ""
+#liv.1.c:0 ""
+
+liv.1.t:0 "Livonia"
+liv.1.d:0 "In the midst of the post-Great War chaos, a new nation was born: Livonia. An extension of decades of German minority rule over the Baltics, Livonia is more of a military with a state than anything. In fact, the vast majority of the cabinet is made up of aristocratic military officials of which many are veterans of the Baltische Landeswehr, an all German army which was formed to combat the Bolsheviks, Latvians and Estonians. The blue and white flag of the Baltische Landeswehr also remains the flag of Livonia, affirming the military history of this young nation.\n\nLivonia has, since its inception, been ruled by Rüdiger von der Goltz, once Major General and now Field Marshall. His leadership saw the Baltische Landeswehr achieve multiple great victories over both the Bolsheviks, and later, the Estonians at the Battle of Cēsis, where his troops were bolstered by Freikorps fleeing from the German Civil War. British diplomatic and naval support for the Livonians would result in the Baltische Landeswehr making temporary peace with the Estonians, and soon after liberating the Latgale region, they would make an armistice in February 1920 with the Russian Reds who had come to focus on Germany and Poland. With this secured, they would strike northwards and subjugate the Estonians in May and June of 1920, annexing the southern half and installing a puppet regime under Johan Laidoner in the north. Although Livonia never directly involved itself in the German Civil War, it became a haven for fleeing White forces throughout the conflict.\n\nThe rule of Marshall von der Goltz is waning, however. Now 66 years old, his role has become increasingly sidelined in favor of ‘younger’ generals such as Heinz Guderian and Alfred Fletcher. Livonia faces many issues ahead that it must resolve if it wants to survive the inevitable world conflict ahead."
+liv.1.a:0 "What kind of issues do we have?"
+
+liv.2.t:0 ""
+liv.2.d:0 ""
+liv.2.a:0 ""
+
+liv.3.t:0 "Influence System Explanation"
+liv.3.d:0 "Livonia includes a variable-based dynamic influence system to represent its military oriented political scene. This influence model is used to determine and change a number of things ranging from policies, to events and event outcomes, to decisions and even who eventually takes power.\n\nVarious events will provide opportunities to change the makeup of the military influences. Additionally, some decisions and national focuses may offer similar opportunities. Everything is connected in Livonia and all major decisions you make will have an impact in some way on this system. You will be notified every time the influence makeup changes and you can keep track by looking at the influence panel in the decisions tab.\n\nChoose wisely and please don't skip through events. Have fun!"
+liv.3.a:0 "Cool."
+
+liv.10.t:0 "Bombing in Riga!"
+liv.10.d:0 "Early this morning, an explosion could be heard throughout Riga coming from the Central Station. Reports spread quickly of anything from derailment, to a bombing, to a collapse and even to an air raid, and hysteria soon ensued.\n\nHowever, as the dust settled, soldiers rushed to the station to find the train of Mar. Rüdiger von der Goltz bombed, with metal strewn about and the station building itself partly collapsed. All seventeen killed in the blast were civilians, though multiple government officials and military officials present were injured. Goltz in particular has managed to escape with only a few cuts and burns and it is believed he will survive the ordeal and will be able to continue ruling. However, it is without a doubt that this means the beginning of a new era for Livonia. \n\nThe most pressing question is, who did it? It is without a doubt this was an assassination attempt directed towards von der Goltz himself. Multiple groups have shown interest in ousting him, but immediate suspicion lies on the underground communist movements and the Latvian nationalists under Gustavs Celmins. However, the Livländische Nationalistische Partei under Alfred Rosenberg have called for reprisals against supporters of the Latvijas Zemnieku savienība (Latvian Farmers Union) of Kārlis Ulmanis, placing the blame for the bombing on them. The Latvian Farmers Union and the Baltische Demokratische Partei have in turn blamed the LNP and the Freikorps for the bombing.\n\nAn official investigation is already underway, but nothing can be done to stop the coming hostilities."
+liv.10.a:0 "What will happen now!?!"
+
+liv.11.t:0 "The Investigation Begins"
+liv.11.d:0 "In the aftermath of the bombing at the Riga Central Station, the new government under Alfred Fletcher has organized an investigation to root out the perpetrators of the bombing. Leads and eyewitness accounts point in many different conflicting directions, but the investigative team has promised it will find the plotters.\n\nThe most accepted leads point towards underground communist cells operating in Riga. However, others have disputed these leads, arguing that the munitions used would only be available to established, well equipped and funded groups such as the Freikorps.\n\nWe will have to see what the investigators uncover in the coming weeks."
+liv.11.a:0 "Find the perpetrators!"
+
+livpol.1.t:0 "The Pērkonkrusts Question"
+livpol.1.d:0 "The Ugunkrusts are a Latvian ultranationalist fringe group that has presented many problems for our regime. They have engaged in a low level guerilla campaign against the Freikorps, who themselves have been a major problem. They are believed to be aided by Lithuania, though no conclusive evidence has emerged connecting the two.\n\nRegardless of the details behind them, one thing is for sure: their influence is growing. The only way to counter this is by gaining the favor of Latvians. A few moderate elements within our regime have suggested reaching out to the widely popular Latvian Farmer's Union (LZS) to help curb the influence of the Ugunkrusts. While this might anger some of the far right elements within our regime, it may ultimately prove useful."
+livpol.1.a:0 "We shall reach out to the LZS."
+livpol.1.b:0 "I think we can handle a few angry Latvian's ourselves."
+
+livpol.2.t:0 "Left Wing Election Participation"
+livpol.2.d:0 "Since elections began in 1926 we have allowed the participation of leftist parties which have, in general, remained relatively tame. The Latvian Social Democratic Worker's Party (LSDSP) is by far the most popular left wing party in Livonia, though it lost much of its influence in 1929 to the Latvian Farmer's Union and the Baltic Democratic Party. The more moderate alternative, the Baltic Social Democratic Party (BSDP) of former SPD politician Otto Braun, lost much of its popularity in the last election as well but they seem to be growing in influence in a response to the persistent economic and social struggles we have endured. On the fringe left, suspected communists and anarchists have participated under the 'Baltic Worker's Party' (BKP), while the Menshevik party (SDML) has little political influence anymore.\n\nSo, with all this in mind, elements within the military and the administration, especially those of the Livonian Nationalist Party, have demanded a complete ban on these parties which would begin with barring them from elections. It would surely anger a lot of our population but may be useful for preventing internal issues when war breaks out with the Soviet Union."
+livpol.2.a:0 "There is no reason to take such drastic measures."
+livpol.2.b:0 "A ban from elections sounds like a great plan."
+
+livpol.3.t:0 "Compensation for Estonian Land"
+livpol.3.d:0 "As the German Civil War entered its final stages thousands of wealthy Germans in East Prussia and elsewhere fled to Livonia. Many were former landowners and thus were eager to gain new land in the Baltic. Lands owned by ethnic Latvians and Estonians were quickly snatched up by these migrants often without any approval from the government.\n\nOver a decade later, there are still hundreds of former landowning families who have consistently demanded compensation. Now a substantial group of Estonian former landowners are demanding compensation immediately and they have received the political backing of the Baltic Democratic Party (BDP). Most of the elements within the government are indifferent, though the Livonian Nationalist Party has immediately and vocally opposed providing compensation. What should we do?"
+livpol.3.a:0 "Compensation is fair enough."
+livpol.3.b:0 "You have got to be joking..."
+
+livpol.4.t:0 "Monument at Cēsis"
+livpol.4.d:0 "It has been over 13 years since the Baltische Landeswehr emerged triumphant over the Estonian Army at the Battle of Cēsis, or Wenden as it is known in German. There has been significant movements since then by the Baltic-German population in favor of erecting a monument to the fallen German soldiers. This has naturally been opposed by the Estonian locals as well as the Estonian regime under Laidoner in the north.\n\nAs with most things related to our short history, the Livonian Nationalist Party has been quick to exploit the situation and has called for a grand monument to be constructed honoring the triumph of the 'brave Nordic race' over the 'savage Marxian natives'. The Baltic Reform Party has also supported the establishment of a monument though under less offensive terms, and Marshall Goltz seems to also be in favor of the creation of a monument.\n\nGiven the Baltic Democratic Party was a merge between the German-Baltic Democratic Party and the Estonian Democratic Party, it is no surprise that they would come to the defense of the Estonians. They have instead supported the creation of a politically neutral museum dedicated to the Baltic Wars of Independence.\n\nWho should we side with?"
+livpol.4.a:0 "We must honor our brave heroes."
+livpol.4.b:0 "A war museum sounds much better."
+
+livpol.5.t:0 "1932 Election Results"
+livpol.5.d:0 "Nearly all votes have been counted and its quite clear that the military regime has lost its wide support from the Baltic-German populace, gaining only around 40% of the vote. Indeed, many have turned towards the liberal, conservative and nationalist parties, and there is now talks within the regime of a new monarchist party being formed in a reaction to these results.\n\nThis is a clear reflection of a loss of faith and if we want to retain our hold this needs to be corrected soon."
+livpol.5.a:0 "This is not good."
+
+livpol.30.t:0 "Former Landowners Migrate to Estonia"
+livpol.30.d:0 "We recently denied monetary compensation to Estonian landowners who lost their land to German migrants. Although this has caused an uproar beyond just the landowners and their families themselves, this has prompted hundreds of them to migrate to Estonia. For Estonian landowners who still have their land, this has surely been quite a shock for them, and we should probably refrain from angering the Estonian population for at least a little while."
+livpol.30.a:0 "That wasn't supposed to happen..."
+
+livfoc.1.t:0 "The Landeswehr Reforms"
+livfoc.1.d:0 "The Baltische Landeswehr is the dominating force of Livonia in many ways. Not only does it function as the defense force, but it also runs the government as a military dictatorship all but in name. Though the Latvian, Andreivs Niedra, is officially the head of government, everyone knows he lacks any power being surrounded by a cabinet made entirely of military veterans and aristocrats. This has, however, resulted in some issues with our relatively reactionary military bereaucracy. \n\nThe right wing Freikorps militias, which are officially unconnected with the Baltische Landeswehr, have been allowed to run rampant through the countryside. These Freikorps have been responsible for many terrible crimes. On top of this, lack of funding and care for Latvian and Estonian recruitment has resulted in a massive conscription crisis that has seriously hurt our military capabilities. \n\nWe can only choose to reform one of these issues at a time. Which will it be?"
+livfoc.1.a:0 "We shall focus on resolving the Conscription Crisis."
+livfoc.1.b:0 "We shall focus on deciding the fate of the Freikorps."
+
+livfoc.2.t:0 "The Question of Conscription Reform"
+livfoc.2.d:0 "Ever since our mostly German army crushed the Estonian and Latvian resistance and established the Livonian state, the Baltic natives have actively resisted our attempts to recruit them and very little has been done by our military bureaucracy to provide incentives for them to join our ranks. The few Baltic regiments have been provided with little supplies and often are deprived of proper weaponry or weaponry at all. All of this combined has resulted in an extremely troublesome conscription crisis, and it is clear that in order to prepare for the years to come the fate of the Balts in our army has to be decided."
+livfoc.2.a:0 "Enough! Establish a German-only army."
+livfoc.2.b:0 "Reform! Establish a Mixed army of Germans and Balts."
+livfoc.2.c:0 "End this! Establish a Balt-only army."
+
+livfoc.3.t:0 "The Freikorps Question"
+livfoc.3.d:0 "The Freikorps are central to the reason our state exists in the first place. Had it not been for the influx of Freikorps refugees from Germany, we very well may have lost at Cesis. However, the days of internal threats to Livonia's security are mostly over, and the Freikorps are a relic of the past.\n\nThough they significantly bolster our defense capabilities, they operate under independent commands and hold sympathies mainly to the Livonian Nationalist Party of Alfred Rosenberg, and some hold sympathies and even oaths to the Catholic Church in Livonia. They also are known among the Latvian and Estonian population for killing livestock, looting farms, robbing homes and for committing various atrocities, including murder.\n\nWe must choose carefully between maintaining the Freikorps in the status quo, which may end up causing us troubles with the nationalists, or we can choose to reform the Freikorps which is a plan supported by the more liberal elements in our nation.\n\nWe must choose quickly to be prepared for the coming conflict, so what will it be?"
+livfoc.3.a:0 "We must reform and integrate those dastardly Freikorps!"
+livfoc.3.b:0 "They were justified. We must continue to support the Freikorps."
+
+livfoc.4.t:0 "Pensions for the Veterans?"
+livfoc.4.d:0 "As the Freikorps elements were not very well documented nor officially a part of the Livonian military, none of its members have received any state pensions. Many have blamed the various thefts committed by the Freikorps on disgruntled veterans who have lacked any financial support to pursue a secure civilian life.\n\nSome political elements representing the Freikorps, namely the Livonian Nationalist Party, has presented a pension plan which, while costly, would certainly help increase national support and trust for future conflicts.\n\nOpposed to this plan are the more democratic elements, such as the BRP, LZS, BSDP and BDP. Rejecting these pensions would increase their support for our regime.\n\nSo what will it be?"
+livfoc.4.a:0 "Pensions for the heroes couldn't possibly do any harm."
+livfoc.4.b:0 "They knew what they signed up for. Forget the pensions."
+
+livfoc.5.t:0 "Status of Freikorps Offenders?"
+livfoc.5.d:0 "The post-war Freikorps have been known across Livonia to have commited various robberies, assaults and even more gruesome crimes such as murder. This is a major point of contention among the native populace, who have often seen said Freikorps offenders go completely unpunished.\n\nThe Latvian Farmers Union under Karlis Ulmanis has consistently advocated for instituting harsher punishments against these offenders. In the midst of our army reforms, Ulmanis has requested we implement some or all of his plans for ending these crimes.\n\nCertainly implementing Ulmanis' plans would help gain some benefits among the troubled Latvian populace and native populace overall, however it would also anger the far right wing forces within our nation. What shall it be?"
+livfoc.5.a:0 "A few arrests to make an example should do."
+livfoc.5.b:0 "No way! They were just defending themselves."
+
+livfoc.10.t:0 "Agrarian Reform Programme"
+livfoc.10.d:0 "The Great Depression hit our farmers harder than expected. While our liberalization and relaxation of the economy has helped relieve some of the strain on our farmers, it is undeniable that an agrarian reform plan is desparately needed to resolve this situation to the fullest extent.\n\nTwo representatives have presented their plans:\n\nThe Paul Schiemann plan comes from the side of the Baltische Demokratische Partei, and it was clearly devised by our president Paul Schiemann. It involves extensive reform of the tax code and better distribution and faster exportation of our crops.\n\nHowever, there is an alternative. While a minority of the government support this plan, Karlis Ulmanis of the Latvian Farmers Union has presented the Ulmanis Plan. It involves restributing land only to the natives, and also involves the taxation of rich German farmers. While it would certainly anger our German populace, enacting his plan may win over support in the long run."
+livfoc.10.a:0 "Paul Schiemann has done a fine job. Enact his long awaited plan."
+livfoc.10.b:0 "Heed the words of Karlis Ulmanis! He speaks for his people, of course."
+
+livfoc.30.t:0 "Scrapping of the SMS Baden"
+livfoc.30.d:0 "Today is a sad day for all of the Livonian peoples. An announcement was made from the high naval command deeming the damage to the SMS Baden, a battleship gifted to Livonia from the remains of the German High Seas Fleet, to be too severe to repair.\n\nThe damage was taken during the Bornholm Incident in 1927, where the escort fleet for the Baden was attacked by a patrol from the Socialist Republic of Germany. The ship has sat in the Riga harbour pending repairs ever since.\n\nAlthough they will be scrapping the Baden for its metal and parts, the high command has also announced will be pursuing the purchase of a replacement flagship from another country.""
+livfoc.30.a:0 "...und das ist Badens Ehr!"
+
+livfoc.33.t:0 "Purchasing a New Flagship"
+livfoc.33.d:0 ""
+livfoc.33.a:0 "Ask the British"
+livfoc.33.b:0 "Ask the French"
+livfoc.33.c:0 "Ask the Italians"
+livfoc.33.e:0 "Ask the Americans"
+
+livext.1.t:0 "The Latvian Uprising"
+livext.1.d:0 "The coup from the Livländische Nationalistische Partei has not been met well by the native Latvian populace. The various pogroms and terror campaigns implemented by the Rosenberg regime have brought Baltic German-Latvian relations to a boiling point. The Latvian people are once again trying to seek total freedom by rising up across their native land, armed and ready for battle.\n\nWhile they do have questionable support at this early stage, allowing such a revolt to drag on too long could be disastrous. We should crush this as soon as possible."
+livext.1.a:0 "Ach mein Gott!"
+livext.1.b:0 "Ach mein Gott! (Play as Latvia)"
+
+livext.2.t:0 "The Estonian Betrayal"
+livext.2.d:0 "The coup from the Livländische Nationalistische Partei was not well received with the Estonians either, apparently, and they have turned on us in an utter act of treachery! Of course... the Estonians were not spared from terror either, but that does not matter.\n\nUnlike the Latvians, the Estonians appear to have large amounts of support throughout the Estonian populated lands they occupy, as well as the lands we occupy. Many have risen up, and it is more than likely that the Latvians and Estonians are working together. This will be a tough fight, but in the end the Estonians will be crushed again like many years ago at Cēsis and properly subjugated."
+livext.2.a:0 "Verdammt!"
+livext.2.b:0 "Verdammt! (Play as Estonia)"
+
+livext.3.t:0 "Our Reaction to the Latvian Revolt"
+livext.3.d:0 "In the south, the Latvians have begun a valiant campaign to liberate themselves from Livonia. Soon after, many within our great nation have called for war against Livonia in unity with our Latvian brothers.\n\nThere are risks to intervening in such a conflict. Although many of our brethren will rise up on command to fight the Germans, there is also the chance that we may lose and be entirely subjugated. The new regime holds no mercy, and our people will be in immense danger if such a terrible fate were to befell us.\n\nWe do not have much time to weigh our options. We must make a choice quickly, or this opportunity may be lost forever."
+livext.3.a:0 "Mu isamaa, mu õnn ja rõõm!"
+livext.3.b:0 "We must remain loyal..."
+
+livflv.1.t:0 "Livonian Ethnographic Open-Air Museum Opens"
+livflv.1.d:0 "Today the Livonian Ethnographic Open-Air Museum was opened to the public near Riga. It was originally commisioned by the Livonian Council of Monuments in 1924, although the first historical buildings for display were only acquired in 1928. The museum currently contains six authentic buildings from the Livland (Vidžemė) region dating back to the 18th century. The museum is intended to provide a window back into historical Livonia, and its employees dress and act as if they belonged to the era the buildings originated from.\n\nThe museum has been met with intrigue and excitement from many inside and outside Livonia and it is expected to become a prominent tourist attraction."
+livflv.1.a:0 "Very interesting."
+
+livflv.2.t:0 ""
+livflv.2.d:0 ""
+livflv.2.a:0 ""
+
+livflv.3.t:0 ""
+livflv.3.d:0 ""
+livflv.3.a:0 ""
+
+livflv.4.t:0 ""
+livflv.4.d:0 ""
+livflv.4.a:0 ""
+
+livflv.5.t:0 ""
+livflv.5.d:0 ""
+livflv.5.a:0 ""
+
+livflv.6.t:0 ""
+livflv.6.d:0 ""
+livflv.6.a:0 ""
+
+livflv.7.t:0 ""
+livflv.7.d:0 ""
+livflv.7.a:0 ""
+
+livflv.8.t:0 ""
+livflv.8.d:0 ""
+livflv.8.a:0 ""
+
+livflv.9.t:0 ""
+livflv.9.d:0 ""
+livflv.9.a:0 ""
+
+livflv.10.t:0 ""
+livflv.10.d:0 ""
+livflv.10.a:0 ""
+
+livflv.11.t:0 ""
+livflv.11.d:0 ""
+livflv.11.a:0 ""
+
+livflv.12.t:0 ""
+livflv.12.d:0 ""
+livflv.12.a:0 ""
+
+livflv.13.t:0 ""
+livflv.13.d:0 ""
+livflv.13.a:0 ""
+
+livflv.14.t:0 ""
+livflv.14.d:0 ""
+livflv.14.a:0 ""
+
+livflv.15.t:0 ""
+livflv.15.d:0 ""
+livflv.15.a:0 ""
+
+livflv.16.t:0 ""
+livflv.16.d:0 ""
+livflv.16.a:0 ""
+
+livflv.17.t:0 ""
+livflv.17.d:0 ""
+livflv.17.a:0 ""
+
+livflv.18.t:0 ""
+livflv.18.d:0 ""
+livflv.18.a:0 ""
+
+livflv.19.t:0 ""
+livflv.19.d:0 ""
+livflv.19.a:0 ""
+
+livflv.20.t:0 ""
+livflv.20.d:0 ""
+livflv.20.a:0 ""
+
+livflv.21.t:0 ""
+livflv.21.d:0 ""
+livflv.21.a:0 ""
+
+livflv.22.t:0 ""
+livflv.22.d:0 ""
+livflv.22.a:0 ""
+
+livflv.23.t:0 ""
+livflv.23.d:0 ""
+livflv.23.a:0 ""
+
+livflv.24.t:0 ""
+livflv.24.d:0 ""
+livflv.24.a:0 ""
+
+livflv.25.t:0 ""
+livflv.25.d:0 ""
+livflv.25.a:0 ""
+
+livflv.26.t:0 ""
+livflv.26.d:0 ""
+livflv.26.a:0 ""
+
+livflv.27.t:0 ""
+livflv.27.d:0 ""
+livflv.27.a:0 ""
+
+livflv.28.t:0 ""
+livflv.28.d:0 ""
+livflv.28.a:0 ""
+
+livflv.29.t:0 ""
+livflv.29.d:0 ""
+livflv.29.a:0 ""
+
+livflv.30.t:0 ""
+livflv.30.d:0 ""
+livflv.30.a:0 ""
+
+livflv.31.t:0 ""
+livflv.31.d:0 ""
+livflv.31.a:0 ""
+
+livflv.32.t:0 ""
+livflv.32.d:0 ""
+livflv.32.a:0 ""
+
+livflv.33.t:0 ""
+livflv.33.d:0 ""
+livflv.33.a:0 ""
+
+livflv.34.t:0 ""
+livflv.34.d:0 ""
+livflv.34.a:0 ""
+
+livflv.35.t:0 ""
+livflv.35.d:0 ""
+livflv.35.a:0 ""
+
+livflv.36.t:0 ""
+livflv.36.d:0 ""
+livflv.36.a:0 ""
+
+livflv.37.t:0 ""
+livflv.37.d:0 ""
+livflv.37.a:0 ""
+
+livflv.38.t:0 ""
+livflv.38.d:0 ""
+livflv.38.a:0 ""
+
+livflv.39.t:0 ""
+livflv.39.d:0 ""
+livflv.39.a:0 ""
+
+livflv.40.t:0 ""
+livflv.40.d:0 ""
+livflv.40.a:0 ""
+
+livflv.41.t:0 ""
+livflv.41.d:0 ""
+livflv.41.a:0 ""
+
+livflv.42.t:0 ""
+livflv.42.d:0 ""
+livflv.42.a:0 ""
+
+livflv.43.t:0 ""
+livflv.43.d:0 ""
+livflv.43.a:0 ""
+
+livflv.44.t:0 ""
+livflv.44.d:0 ""
+livflv.44.a:0 ""
+
+livflv.45.t:0 ""
+livflv.45.d:0 ""
+livflv.45.a:0 ""
+
+livflv.46.t:0 ""
+livflv.46.d:0 ""
+livflv.46.a:0 ""
+
+### Parties ###
+
+LIV_bolshevist_party:0 "BKP"
+LIV_bolshevist_party_long:0 "Baltic Communist Party (Baltische Kommunistische Partei/Baltijas Komunistiskā partija/Balti Kommunistlik Partei)"
+LIV_spartacist_party:0 "BKP"
+LIV_spartacist_party_long:0 "Baltic Communist Party (Baltische Kommunistische Partei/Baltijas Komunistiskā partija/Balti Kommunistlik Partei)"
+LIV_revolutionary_socialist_party:0 "EISTP"
+LIV_revolutionary_socialist_party_long:0 "Estonian Independent Socialist Workers' Party (Eesti Iseseisev Sotsialistlik Tööliste Partei)"
+LIV_reformist_socialist_party:0 "LSDSP"
+LIV_reformist_socialist_party_long:0 "Latvian Social Democratic Workers' Party (Latvijas Sociāldemokrātiskā Strādnieku partija)"
+LIV_social_democrat_party:0 "DbSP"
+LIV_social_democrat_party_long:0 "German-Baltic Social Democratic Party (Deutsch-baltische Sozialdemokratische Partei)"
+LIV_social_liberal_party:0 "BDP"
+LIV_social_liberal_party_long:0 "Baltic Democratic Party (Baltische Demokratische Partei/Baltijas Demokrātiskā partija/Balti Demokraatlik Partei)"
+LIV_liberal_conservative_party:0 "LZS"
+LIV_liberal_conservative_party_long:0 "Latvian Farmers' Union (Latvijas Zemnieku savienība)"
+LIV_social_conservative_party:0 "DbRP"
+LIV_social_conservative_party_long:0 "German-Baltic Reform Party (Deutsch-baltische Reform-Partei)"
+LIV_authoritarian_conservative_party:0 "HB"
+LIV_authoritarian_conservative_party_long:0 "Ducal Movement (Herzogliche Bewegung)"
+LIV_right_wing_populist_party:0 "Militärregierung"
+LIV_right_wing_populist_party_long:0 "Military Government/National League (Militärregierung/Nationaler Bund)"
+LIV_national_syndicalist_party:0 "DbVP"
+LIV_national_syndicalist_party_long:0 "German-Baltic People's Party (Deutsch-baltische Volkspartei)"
+LIV_national_corporatist_party:0 "Pērkonkrusts"
+LIV_national_corporatist_party_long:0 "Thunder Cross (Pērkonkrusts)"
+
+### Focuses ###
+
+LIV_Economy:0 "Rebuilding the Nation"
+LIV_Economy_desc:0 ""
+
+LIV_Economy_Liberal:0 "A Liberalized Economy"
+LIV_Economy_Liberal_desc:0 ""
+
+LIV_Economy_Liberal2:0 "Agrarian Reform Programme"
+LIV_Economy_Liberal2_desc:0 ""
+
+LIV_Economy_Liberal3_Right:0 "Distribute Farmlands"
+LIV_Economy_Liberal3_Right_desc:0 ""
+
+LIV_Economy_Liberal3_Left:0 "Distribute Cattle"
+LIV_Economy_Liberal3_Left_desc:0 ""
+
+LIV_Economy_Liberal4:0 "End the Rationing"
+LIV_Economy_Liberal4_desc:0 ""
+
+LIV_Economy_Liberal5:0 "Labor Reforms"
+LIV_Economy_Liberal5_desc:0 ""
+
+LIV_Economy_Liberal6:0 "Reopen the Factories"
+LIV_Economy_Liberal6_desc:0 ""
+
+LIV_Economy_Liberal7:0 "Workers Pensions"
+LIV_Economy_Liberal7_desc:0 ""
+
+LIV_Economy_Liberal8:0 "Livländische Autobahn"
+LIV_Economy_Liberal8_desc:0 ""
+
+LIV_Economy_Liberal9_Left:0 "Increase Wood Exports"
+LIV_Economy_Liberal9_Left_desc:0 ""
+
+LIV_Economy_Liberal9_Right:0 "Increase Grain Exports"
+LIV_Economy_Liberal9_Right_desc:0 ""
+
+LIV_Economy_Liberal10:0 "Expand Steel Plants"
+LIV_Economy_Liberal10_desc:0 ""
+
+LIV_Economy_Liberal_End:0 "Tax the Wealthy"
+LIV_Economy_Liberal_End_desc:0 ""
+
+LIV_Economy_Market:0 "A Free Market Economy"
+LIV_Economy_Market_desc:0 ""
+
+LIV_Economy_Market2:0 "Privatize the Rails"
+LIV_Economy_Market2_desc:0 ""
+
+LIV_Economy_Market3_Left:0 "Subsidize Rail Expansions"
+LIV_Economy_Market3_Left_desc:0 ""
+
+LIV_Economy_Market3_Right:0 "Encourage Road Investments"
+LIV_Economy_Market3_Right_desc:0 ""
+
+LIV_Economy_Market4:0 "Exploit Estonian Oil Shale"
+LIV_Economy_Market4_desc:0 ""
+
+LIV_Economy_Market5:0 "Bribe the Unions"
+LIV_Economy_Market5_desc:0 ""
+
+LIV_Economy_Market6:0 "Fund Loyal Unions"
+LIV_Economy_Market6_desc:0 ""
+
+LIV_Economy_Market7:0 "Enact Harsh Labor Laws"
+LIV_Economy_Market7_desc:0 ""
+
+LIV_Economy_Market8:0 "Appeal to Foreign Corporations"
+LIV_Economy_Market8_desc:0 ""
+
+LIV_Economy_Market9_Left:0 "Privatize the Military Industries"
+LIV_Economy_Market9_Left_desc:0 ""
+
+LIV_Economy_Market9_Right:0 "Privatize the Food Industries"
+LIV_Economy_Market9_Right_desc:0 ""
+
+LIV_Economy_Market10:0 "The Baltic Tax Haven"
+LIV_Economy_Market10_desc:0 ""
+
+LIV_Economy_Market_End:0 "A Corporate Paradise"
+LIV_Economy_Market_End_desc:0 ""
+
+LIV_Economy_Right:0 "A State Economy"
+LIV_Economy_Right_desc:0 ""
+
+LIV_Economy_Right2:0 "Planned Economy"
+LIV_Economy_Right2_desc:0 "Every prosperous country has to rely on its scientists. We have to invest in our future now for a brighter tomorrow. Knowledge will always be a powerful weapon, and a source of economic and social prosperity."
+
+LIV_Economy_Right3_Right:0 "Electronic Research Investments"
+LIV_Economy_Right3_Right_desc:0 ""
+
+LIV_Economy_Right3_Left:0 "Industrial Investments"
+LIV_Economy_Right3_Left_desc:0 ""
+
+LIV_Economy_Right4:0 "Requisition Gold Reserves"
+LIV_Economy_Right4_desc:0 ""
+
+LIV_Economy_Right5:0 "Outlaw Trade Unions"
+LIV_Economy_Right5_desc:0 ""
+
+LIV_Economy_Right6:0 "Raid the Factories"
+LIV_Economy_Right6_desc:0 ""
+
+LIV_Economy_Right7:0 "Crush the Unions"
+LIV_Economy_Right7_desc:0 ""
+
+LIV_Economy_Right8:0 "Riga-Reval Railway"
+LIV_Economy_Right8_desc:0 ""
+
+LIV_Economy_Right9_Right:0 "Investments from the Banks"
+LIV_Economy_Right9_Right_desc:0 ""
+
+LIV_Economy_Right9_Left:0 "Investments from the Church"
+LIV_Economy_Right9_Left_desc:0 ""
+
+LIV_Economy_Right10:0 "Munitions Production Expansion"
+LIV_Economy_Right10_desc:0 ""
+
+LIV_Economy_Right_End:0 "Seize the Factories"
+LIV_Economy_Right_End_desc:0 ""
+
+LIV_Economy_End:0 "Recovery from Crisis"
+LIV_Economy_End_desc:0 ""
+
+LIV_Army_Start:0 "The Baltische Landeswehr"
+LIV_Army_Start_desc:0 ""
+
+LIV_Cons_Reform:0 "Conscription Reform"
+LIV_Cons_Reform_desc:0 ""
+
+LIV_Cons_Reform2:0 "The Freikorps Issue"
+LIV_Cons_Reform2_desc:0 ""
+
+LIV_German_Army:0 "A German Army"
+LIV_German_Army_desc:0 ""
+
+LIV_German_Army_2:0 "Dissolve the Native Divisions"
+LIV_German_Army_2_desc:0 ""
+
+LIV_German_Army_3:0 "Institute Prussian Discipline"
+LIV_German_Army_3_desc:0 ""
+
+LIV_German_Army_4:0 "Deploy the Elite Guards"
+LIV_German_Army_4_desc:0 ""
+
+LIV_Mixed_Army:0 "A Mixed Army"
+LIV_Mixed_Army_desc:0 ""
+
+LIV_Mixed_Army_2:0 "Multilingual Officer Corps"
+LIV_Mixed_Army_2_desc:0 ""
+
+LIV_Mixed_Army_3:0 "Resolving Disorganization"
+LIV_Mixed_Army_3_desc:0 ""
+
+LIV_Mixed_Army_4:0 "A Livonian Army"
+LIV_Mixed_Army_4_desc:0 ""
+
+LIV_Baltic_Army:0 "A Baltic Army"
+LIV_Baltic_Army_desc:0 ""
+
+LIV_Baltic_Army_2:0 "Modernization Program"
+LIV_Baltic_Army_2_desc:0 ""
+
+LIV_Baltic_Army_3:0 "Balt Officer Corps"
+LIV_Baltic_Army_3_desc:0 ""
+
+LIV_Baltic_Army_4:0 "Mass Recruitment Campaign"
+LIV_Baltic_Army_4_desc:0 ""
+
+LIV_Army_Reform_Finish:0 "Completing Conscription Reform"
+LIV_Army_Reform_Finish_desc:0 ""
+
+LIV_Reform_Freikorps:0 "Reformation of the Freikorps"
+LIV_Reform_Freikorps_desc:0 ""
+
+LIV_Reform_Freikorps_2:0 "Crush the Leadership"
+LIV_Reform_Freikorps_2_desc:0 ""
+
+LIV_Reform_Freikorps_3:0 "Nationalize the Militias"
+LIV_Reform_Freikorps_3_desc:0 ""
+
+LIV_Reform_Freikorps_4:0 "A New Elite Force"
+LIV_Reform_Freikorps_4_desc:0 ""
+
+LIV_Support_Freikorps:0 "Support for the Freikorps"
+LIV_Support_Freikorps_desc:0 ""
+
+LIV_Support_Freikorps_2:0 "Coordinate Operations"
+LIV_Support_Freikorps_2_desc:0 ""
+
+LIV_Support_Freikorps_3:0 "Modernize the Freikorps"
+LIV_Support_Freikorps_3_desc:0 ""
+
+LIV_Support_Freikorps_4:0 "A Freikorps Reborn"
+LIV_Support_Freikorps_4_desc:0 ""
+
+LIV_Freikorps_Center:0 "Pensions for Veterans?"
+LIV_Freikorps_Center_desc:0 ""
+
+LIV_Freikorps_Center_2:0 "Status of Offenders?"
+LIV_Freikorps_Center_2_desc:0 ""
+
+LIV_Freikorps_Issue_Finish:0 "Resolving the Freikorps Issue"
+LIV_Freikorps_Issue_Finish_desc:0 ""
+
+LIV_Army_Doc:0 "War Games"
+LIV_Army_Doc_desc:0 ""
+
+LIV_Army_Mob:0 "Rapid Warfare"
+LIV_Army_Mob_desc:0 ""
+
+LIV_Army_Fpo:0 "Artillery Corps"
+LIV_Army_Fpo_desc:0 ""
+
+LIV_Army_Gbp:0 "Centralised Planning"
+LIV_Army_Gbp_desc:0 ""
+
+LIV_Army_Mob_Tank:0 "Blitzkrieg Doctrine"
+LIV_Army_Mob_Tank_desc:0 ""
+
+LIV_Army_Fpo_Arty:0 "Mass Bombardment Doctrine"
+LIV_Army_Fpo_Arty_desc:0 ""
+
+LIV_Army_Gbp_Plan:0 "Defense-in-Depth Doctrine"
+LIV_Army_Gbp_Plan_desc:0 ""
+
+LIV_Army_Doc_Pro:0 "A Professional Army"
+LIV_Army_Doc_Pro_desc:0 ""
+
+LIV_Army_Doc_Man:0 "An Expanded Army"
+LIV_Army_Doc_Man_desc:0 ""
+
+LIV_Prepare_War:0 "Preparing for War"
+LIV_Prepare_War_desc:0 ""
+
+LIV_Fortress_Livland:0 "Prepare Fortress Livland"
+LIV_Fortress_Livland_desc:0 ""
+
+LIV_Arm_Peasants:0 "Arm the Peasants"
+LIV_Arm_Peasants_desc:0 ""
+
+LIV_Fortress_Riga:0 "Raising Fortress Riga"
+LIV_Fortress_Riga_desc:0 ""
+
+LIV_Riga_Mil_Factories:0 "Military Sector Expansion"
+LIV_Riga_Mil_Factories_desc:0 ""
+
+LIV_Riga_Civ_Factories:0 "Consumer Sector Expansion"
+LIV_Riga_Civ_Factories_desc:0 ""
+
+LIV_Army_Mil_Navy1:0 "A Fleet for Livonia"
+LIV_Army_Mil_Navy1_desc:0 ""
+
+LIV_Restore_SMS_Baden:0 "Restore the SMS Baden"
+LIV_Restore_SMS_Baden_desc:0 ""
+
+LIV_Scrap_SMS_Baden:0 "Scrap the SMS Baden"
+LIV_Scrap_SMS_Baden_desc:0 ""
+
+LIV_Seek_New_Flagship:0 "Seek a New Flagship"
+LIV_Seek_New_Flagship_desc:0 ""
+
+LIV_Commerce_Raiding:0 "Commerce Raiding"
+LIV_Commerce_Raiding_desc:0 ""
+
+LIV_Cruiser_Investments:0 "Cruiser Investments"
+LIV_Cruiser_Investments_desc:0 ""
+
+LIV_Destroyer_Investments:0 "Destroyer Investments"
+LIV_Destroyer_Investments_desc:0 ""
+
+LIV_U_Boat_Investments:0 "U-Boat Investments"
+LIV_U_Boat_Investments_desc:0 ""
+
+LIV_Civilian_Fleet:0 "Expand the Civilian Fleet"
+LIV_Civilian_Fleet_desc:0 ""
+
+LIV_Coastal_Batteries:0 "Construct Coastal Batteries"
+LIV_Coastal_Batteries_desc:0 ""
+
+LIV_Air1:0 "An Airforce for Livonia"
+LIV_Air1_desc:0 ""
+
+LIV_Fighter_Fleet:0 "Fighter Fleet"
+LIV_Fighter_Fleet_desc:0 ""
+
+LIV_Air_Defenses:0 "Invest in Air Defences"
+LIV_Air_Defenses_desc:0 ""
+
+LIV_Bomber_Fleet:0 "Bomber Fleet"
+LIV_Bomber_Fleet_desc:0 ""
+
+LIV_Air_Doc:0 "Enhanced Bombing Tactics"
+LIV_Air_Doc_desc:0 ""
+
+LIV_Naval_Bombers:0 "Naval Aerial Escorts"
+LIV_Naval_Bombers_desc:0 ""
+
+LIV_Air_End:0 "New Air Bases"
+LIV_Air_End_desc:0 ""
+
+LIV_Education_Ger:0 "Education Reform"
+LIV_Education_Ger_desc:0 ""
+
+### Right Wing Path
+
+LIV_Avenge_Grunwald:0 "Avenging Grunwald"
+LIV_Avenge_Grunwald_desc:0 ""
+
+LIV_Eliminate_Protestant_Leaders:0 "Eliminate Protestant Leaders"
+LIV_Eliminate_Protestant_Leaders_desc:0 ""
+
+LIV_Raze_Riga_Cathedral:0 "Raze the Riga Cathedral"
+LIV_Raze_Riga_Cathedral_desc:0 ""
+
+LIV_Controlling_the_Orthodox_Church:0 "Controlling the Orthodox Church"
+LIV_Controlling_the_Orthodox_Church_desc:0 ""
+
+LIV_Seize_Church_Property:0 "Seize Church Properties"
+LIV_Seize_Church_Property_desc:0 ""
+
+LIV_Impose_Heavy_Taxation:0 "Impose Heavy Taxation"
+LIV_Impose_Heavy_Taxation_desc:0 ""
+
+LIV_Jail_Leaders:0 "Jail Church Leaders"
+LIV_Jail_Leaders_desc:0 ""
+
+LIV_Outlaw_Orthodox_Worship:0 "Outlaw Orthodox Worship"
+LIV_Outlaw_Orthodox_Worship_desc:0 ""
+
+LIV_Impose_Church_Restrictions:0 "Impose Major Restrictions"
+LIV_Impose_Church_Restrictions_desc:0 ""
+
+### Ideas ###
+
+LIV_military_with_state:0 "Military with a State"
+LIV_military_with_state_desc:0 "Livonia is often remarked as a 'Military with a State' for its mass militarization. This is, however, necessary for their survival. The Baltic natives are often considered unreliable, and a small defense force would mean certain death in the face of a strong Soviet state to the east. Each and every German in these lands are prepared for war."
+
+LIV_freikorps:0 "The Freikorps"
+LIV_freikorps_desc:0 "A significant amount of our army holds far right wing sympathies as a part of the so called Freikorps. These Freikorps, of whom many fled to our lands after the defeat in Germany, were crucial in securing the independence of Livonia. However, they have also caused various heartaches for the government by tarnishing our reputation among the Baltic natives. Burgulary, rape and murder are rampant among these Freikorps divisions. We can do something about this, but at the cost of losing some of our fighting force."
+
+LIV_baltic_conscription_crisis:0 "Native Conscription Crisis"
+LIV_baltic_conscription_crisis_desc:0 "Although Livonia is well known for its mass conscription of Germans, the Baltic natives themselves make up only a very small portion of the military and often are organized into independent militias whom lack proper equipment. Their lack of representation in the government also fuels many natives to avoid entering the army, and Estonians in particular are more compelled to serve in the Estonian puppet regime in the north."
+
+LIV_german_army:0 "A German Army"
+LIV_german_army_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. Instead of bringing these troops to the same standard as our German units, we have eliminated Baltic recruitment eentirely at the cost of manpower."
+
+LIV_german_army_prussian:0 "A Prussian Army"
+LIV_german_army_prussian_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. Instead of bringing these troops to the same standard as our German units, we have eliminated Baltic recruitment eentirely at the cost of manpower."
+
+LIV_mixed_army:0 "A Mixed Army"
+LIV_mixed_army_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. While it is true we may never truly convince every native to join, a military no longer divided by nationality will surely convince enough to bolster our ranks significantly."
+
+LIV_baltic_army:0 "A Baltic Army"
+LIV_baltic_army_desc:0 "Previously our military was mostly organized into seperate units with Latvians and Estonians generally being placed in undermanned, undersupplied divisions. While it is true we may never truly convince every native to join, the elimination of German favoritism through ending future German recruitment will help bolster our ranks to numbers never seen before."
+
+LIV_arm_peasants:0 "Peasants Armed"
+LIV_arm_peasants_desc:0 "Our peasants have been armed in preperation for the inevitable showdown with the Bolshevik menace."
+
+LIV_fort:0 "Fortress Livland"
+LIV_fort_desc:0 "We have started our program for establishing fortifications along our border in order to secure ourselves in the coming storm. Some say we are becoming a fort with a state. How funny..."
+
+LIV_professional_military:0 "Professional Military"
+LIV_professional_military_desc:0 "We have chosen to reform our military into a professional, smaller force."
+
+LIV_large_military:0 "Expanded Military"
+LIV_large_military_desc:0 "We have chosen to reform our military into a a less professional but much larger force."
+
+LIV_mobile_warfare:0 "Mobile Doctrine Training"
+LIV_mobile_warfare_desc:0 ""
+
+LIV_superior_firepower:0 "Superior Firepower Training"
+LIV_superior_firepower_desc:0 ""
+
+LIV_grand_battleplan:0 "Grand Battleplan Training"
+LIV_grand_battleplan_desc:0 ""
+
+LIV_Depression:0 "Great Depression Effects"
+LIV_Depression_desc:0 ""
+
+LIV_Liberal_Economy:0 "A Liberal Economy"
+LIV_Liberal_Economy_desc:0 ""
+
+LIV_State_Economy:0 "A State Economy"
+LIV_State_Economy_desc:0 ""
+
+LIV_Market_Economy:0 "A Free Market Economy"
+LIV_Market_Economy_desc:0 ""
+
+LIV_scrapping_baden:0 "Scrapping the Baden"
+LIV_scrapping_baden_desc:0 ""
+
+### Flags ###
+
+LIV_kaiser:0 "The Kaiser has been Restored in Germany"
+
+LIV_focused_on_cons_crisis:0 "§GThe military has focused on resolving the conscription crisis.§!"
+
+LIV_freikorps_reform_finished:0 "§GThe Freikorps issue has been completely resolved.§!"
+
+LIV_focused_on_freikorps_crisis:0 "§GThe military has focused on resolving the Freikorps issue.§!"
+
+LIV_conscription_reform_finished:0 "§GThe Conscription crisis has been completely resolved.§!"
+
+LIV_Nationalist_Government:0 "§GThe Nationalists have taken power.§!"
+
+LIV_liberal_government:0 "§GThe Liberals have taken power.§!"
+
+LIV_ducal_government:0 "§GThe Ducal Supporters have taken power.§!"
+
+### Tooltips ###
+
+LIV_elections_LZS_tt:0 "§YThe Latvian Farmer's Union will gain popularity and influence.\n§!"
+
+LIV_elections_military_tt:0 "§YThe Militärregierung will gain popularity and influence.\n§!"
+
+LIV_elections_nationalists_tt:0 "§YThe Livonian Nationalist Party will gain popularity and influence.\n§!"
+
+LIV_elections_leftists_tt:0 "§YLeftist parties will gain popularity and influence.\n§!"
+
+LIV_elections_liberals_tt:0 "§YThe Baltic Democratic Party will gain popularity and influence.\n§!"
+
+LIV_elections_conservatives_tt:0 "§YThe Baltic Reform Party will gain popularity and influence.\n§!"
+
+LIV_elections_ugunkrusts_tt:0 "§YThe Ugunkrusts will gain more popularity and influence.\n§!"
+
+LIV_nationalist_clique_tt:0 "§RThe Nationalist clique in the military will gain more influence.\n§!"
+
+LIV_liberal_clique_tt:0 "§RThe Liberal clique in the military will gain more influence.\n§!"
+
+LIV_militarist_clique_tt:0 "§RThe Militarist clique in the military will gain more influence.\n§!"
+
+LIV_militarist_clique_loss_tt:0 "§RThe Militarist clique in the military will lose influence.\n§!"
+
+LIV_baltic_army_warning_tt:0 "§RThough this will significantly bolster our manpower reserve, a strong native army may cause issues in the future.\n§!"
+
+LIV_german_army_balts_tt:0 "§RThe Baltic divisions will be disbanded. We will need to raise new German divisions to replace them.\n§!"
+
+LIV_german_army_elites_tt:0 "§GAn elite German-only division will be raised in Riga.\n§!"
+
+LIV_german_army_event_tt:0 "§RRight-wing elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_mixed_army_event_tt:0 "§RConservative elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_baltic_army_event_tt:0 "§RLiberal elements that support this policy will gain more influence over our government.\n§!"
+
+LIV_train_bombing_tt:0 "§RThis is the start of a political crisis. Your previous choices will affect the outcome of this struggle.\n§!"
+
+LIV_investigation_tt:0 "§RThe investigation into the bombing will begin. This could be dangerous.\n§!"
+
+LIV_prosecute_offenders_event_tt:0 "§RFreikorps offenders will be prosecuted. This will anger the nationalists, but will gain us favor with the natives.\n§!"
+
+LIV_set_offenders_free_event_tt:0 "§RFreikorps offenders will be set free. This will anger the natives, but will gain us favor with the nationalist.\n§!"

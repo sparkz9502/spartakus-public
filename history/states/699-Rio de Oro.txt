@@ -1,0 +1,26 @@
+
+state={
+	id=699
+	name="STATE_699"
+
+	history={
+		owner = SPR
+		add_claim_by = MOR
+		victory_points = {
+			8038 1 
+		}
+		buildings = {
+			infrastructure = 1
+			8038 = {
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		4133 4920 5012 7979 8038 10875 13762 13769 13780 13781 13782 14247 
+	}
+	manpower=32000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

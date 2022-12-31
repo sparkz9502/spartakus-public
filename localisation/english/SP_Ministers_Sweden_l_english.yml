@@ -1,0 +1,115 @@
+﻿l_english:
+################################################################################################################################################################################################
+### SWE
+################################################################################################################################################################################################
+
+### Head of Government ###
+SWE_Zeth_Hoglund_hog_bol:0 "Zeth Höglund"
+SWE_Nils_Flyg_hog_bol:0 "Nils Flyg"
+SWE_Sven_Linderot_hog_bol:0 "Sven Linderot"
+SWE_Frans_Severin_hog_spa:0 "Frans Severin"
+SWE_Karl_Kilbom_hog_rev:0 "Karl Kilbom"
+SWE_Oesten_Unden_hog_rev:0 "Östen Undén"
+SWE_Per_Albin_Hansson_hog_sde:0 "Per Albin Hansson"
+SWE_Axel_Pehrsson_Bramstorp_hog_sli:0 "Axel Pehrsson Bramstorp"
+SWE_Bertil_Ohlin_hog_lco:0 "Bertil Ohlin"
+SWE_Goesta_Bagge_hog_sco:0 "Gösta Bagge"
+SWE_Sven_Hedin_hog_aco:0 "Sven Hedin"
+SWE_Axel_Rappe_hog_rwp:0 "Axel Rappe"
+SWE_Helge_Jung_hog_rwp:0 "Helge Jung"
+SWE_Martin_Ekstroem_hog_nsy:0 "Martin Ekström"
+
+### Foreign Minister ###
+SWE_Hilding_Hagberg_for_bol:0 "Hilding Hagberg"
+SWE_Albert_Jensen_for_spa:0 "Albert Jensen"
+SWE_Fredrik_Stroem_for_rev:0 "Fredrik Ström"
+SWE_Karl_Kilbom_for_rev:0 "Karl Kilbom"
+SWE_Erik_Palmstierna_for_sde:0 "Erik Palmstierna"
+SWE_Richard_Sandler_for_sde:0 "Richard Sandler"
+SWE_Karl_Gustaf_Westman_for_sli:0 "Karl Gustaf Westman"
+SWE_Gustaf_Andersson_i_Rasjoen_for_lco:0 "Gustaf Andersson i Rasjön"
+SWE_Christian_Guenther_for_sco:0 "Christian Günther"
+SWE_Harald_Malmberg_for_aco:0 "Harald Malmberg"
+SWE_Carl_August_Ehrensvard_for_rwp:0 "Carl August Ehrensvard"
+SWE_Erik_von_Rosen_for_nsy:0 "Erik von Rosen"
+
+### Economy Minister ###
+SWE_Sven_Linderot_eco_bol:0 "Sven Linderot"
+SWE_Gustav_Sjoestroem_eco_spa:0 "Gustav Sjöström"
+SWE_Anna_Johansson_Visborg_eco_rev:0 "Anna Johansson Visborg"
+SWE_Per_Edvin_Skold_eco_sde:0 "Per Edvin Skold"
+SWE_Per_Ernst_Wigforss_eco_sde:0 "Per Ernst Wigforss"
+SWE_Arthur_Heiding_eco_sli:0 "Arthur Heiding"
+SWE_Ernst_Trygger_eco_lco:0 "Ernst Trygger"
+SWE_Gustav_Cassel_eco_lco:0 "Gustav Cassel"
+SWE_Arthur_Linden_eco_sco:0 "Arthur Lindén"
+SWE_Marcus_Wallenberg_eco_rwp:0 "Marcus Wallenberg"
+SWE_Fritiof_Domoe_eco_nsy:0 "Fritiof Domö"
+
+### Security Minister ###
+SWE_Gustav_Johansson_sec_bol:0 "Gustav Johansson"
+SWE_Karl_Kilbom_sec_spa:0 "Karl Kilbom"
+SWE_Anders_Lindstedt_sec_sde:0 "Anders Lindstedt"
+SWE_Arvid_G_Richert_sec_sde:0 "Arvid G. Richert"
+SWE_Karl_Schlyter_sec_sde:0 "Karl Schlyter"
+SWE_Richard_J_Sandler_sec_sde:0 "Richard J. Sandler"
+SWE_Axel_T_Aedelsvaerd_sec_sli:0 "Axel T. Ädelsvärd"
+SWE_Gustav_Andersson_Rasjoen_sec_sli:0 "Gustav Andersson Rasjön"
+SWE_KG_Westman_sec_sli:0 "K.G. Westman"
+SWE_Thorwald_Bergquist_sec_sli:0 "Thorwald Bergquist"
+SWE_Peter_GA_Wijkman_sec_lco:0 "Peter G.A. Wijkman"
+SWE_Carlos_Adlercreutz_sec_aco:0 "Carlos Adlercreutz"
+SWE_Sven_Hedin_sec_rwp:0 "Sven Hedín"
+
+### Defence Minister ###
+SWE_Gustav_Johansson_def_bol:0 "Gustav Johansson"
+SWE_Nisse_Latt_def_spa:0 "Nisse Latt"
+SWE_August_Spaangberg_def_rev:0 "August Spångberg"
+SWE_Ivar_Vennerstrom_def_sde:0 "Ivar Vennerstrom"
+SWE_Gustaf_Moeller_def_sde:0 "Gustaf Möller"
+SWE_Harry_'Revolver_Harry'_Sodermann_def_sde:0 "Harry 'Revolver Harry' Sodermann"
+SWE_Janne_Nilsson_def_sli:0 "Janne Nilsson"
+SWE_Thorwald_Bergquist_def_lco:0 "Thorwald Bergquist"
+SWE_Georg_Andren_def_sco:0 "Georg Andrén"
+SWE_Carlos_Adlercreutz_def_aco:0 "Carlos Adlercreutz"
+SWE_Archibald_Douglas_def_rwp:0 "Archibald Douglas"
+SWE_Per_Engdahl_def_nsy:0 "Per Engdahl"
+
+### Chief of Staff ###
+SWE_Ernst_af_Klercker_cos:0 "Ernst af Klercker"
+SWE_Per_Sylvan_cos:0 "Per Sylvan"
+SWE_Axel_Rappe_cos:0 "Axel Rappe"
+SWE_Carl_August_Ehrensvaerd_cos:0 "Carl August Ehrensvärd"
+SWE_Olof_Thoernell_cos:0 "Olof Thörnell"
+SWE_Oscar_Nygren_cos:0 "Oscar Nygren"
+SWE_Martin_Ekstroem_cos:0 "Martin Ekström"
+
+### Chief of Army ###
+SWE_Axel_Pettersson_carm:0 "Axel Pettersson"
+SWE_Bengt_Nordenskioeld_carm:0 "Bengt Nordenskiöld"
+SWE_Helge_Jung_carm:0 "Helge Jung"
+SWE_Axel_Bredberg_carm:0 "Axel Bredberg"
+SWE_Axel_Rappe_carm:0 "Axel Rappe"
+SWE_Olof_Thoernell_carm:0 "Olof Thörnell"
+SWE_Oscar_Nygren_carm:0 "Oscar Nygren"
+SWE_Per_Sylvan_carm:0 "Per Sylvan"
+SWE_Archibald_Douglas_carm:0 "Archibald Douglas"
+SWE_Martin_Ekstroem_carm:0 "Martin Ekström"
+
+### Chief of Navy ###
+SWE_Otto_Lybeck_cnav:0 "Otto Lybeck"
+SWE_Per_M_Eriksson_cnav:0 "Per M. Eriksson"
+SWE_Erik_Palmstierna_cnav:0 "Erik Palmstierna"
+SWE_Helge_Stroembaeck_cnav:0 "Helge Strömbäck"
+SWE_Goesta_Ehrensvaerd_cnav:0 "Gösta Ehrensvärd"
+SWE_Fabian_Tamm_cnav:0 "Fabian Tamm"
+SWE_Charles_de_Champs_cnav:0 "Charles de Champs"
+SWE_Charles_de_Champs_cnav:0 "Charles de Champs"
+
+### Chief of Air Force ###
+SWE_Anton_Nilsson_cair:0 "Anton Nilsson"
+SWE_Krister_Reuterswaerd_cair:0 "Krister Reuterswärd"
+SWE_Axel_Ljungdahl_cair:0 "Axel Ljungdahl"
+SWE_Bengt_Nordenskioeld_cair:0 "Bengt Nordenskiöld"
+SWE_Torsten_Friis_cair:0 "Torsten Friis"
+SWE_Axel_Gyllenkrok_cair:0 "Axel Gyllenkrok"

@@ -1,0 +1,23 @@
+
+state={
+	id=1406
+	name="STATE_1406"
+
+	history={
+		owner = SIK
+		add_core_of = SIK
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		1766 2015 7949 12119 15617 15618 15619 15620 
+	}
+	manpower=933040
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

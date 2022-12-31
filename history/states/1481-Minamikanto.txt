@@ -1,0 +1,41 @@
+state={
+	id=1481
+	name="STATE_1481" # Minamianto
+	manpower = 9958000
+	
+	state_category = megalopolis
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			infrastructure = 4
+			air_base = 6
+			industrial_complex = 4
+			arms_factory = 1
+			dockyard = 1
+			fuel_silo = 1
+			9998 = {
+				naval_base = 8
+			}
+			1182 = {
+				naval_base = 10
+			}	
+		}
+		victory_points = {
+			1182 35
+		}
+		victory_points = {
+			9998 20
+		}
+		victory_points = {
+			1097 5
+		}
+		victory_points = {
+			4188 5
+		}	
+	}
+	provinces={
+		1097 1182 9998 4184 4188 
+	}
+}

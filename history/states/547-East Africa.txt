@@ -1,0 +1,27 @@
+
+state={
+	id=547
+	name="STATE_547"
+
+	history={
+		owner = EAF
+		add_core_of = KEN
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			1939 3 
+		}
+
+	}
+
+	provinces={
+		1939 2151 5196 6020 10860 10962 13620 13639 14848 14885 14889 14890 14893 14900 
+	}
+	manpower=1249900
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

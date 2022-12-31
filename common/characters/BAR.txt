@@ -1,0 +1,18 @@
+characters={
+    BAR_sayajirao_iii_gaekwad = {
+        name = "H.H.M.G. Sayajirao III Gaekwad of Baroda"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BAR/GFX_Portrait_Sayajirao_III_Gaekwad.tga"
+            }
+        }
+        country_leader={
+            expire = "1960.1.1"
+            ideology = right_wing_populist_subtype
+            traits = {
+                
+            }
+            id=-1
+        }
+    }
+}

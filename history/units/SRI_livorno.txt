@@ -1,0 +1,38 @@
+﻿units = {
+	division = { #"17a Guardie Rosse 'Ancona'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		} 
+		location = 13573
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"18a Guardie Rosse 'L'Ordine Nuovo'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		} 
+		location = 6946
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"19a Guardie Rosse 'Livorno'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		} 
+		location = 11833
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+	division = { #"20a Guardie Rosse 'Luigi Longo'" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		} 
+		location = 6875
+		division_template = "Guardie Rosse"
+		start_experience_factor = 0
+	}
+}

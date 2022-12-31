@@ -1,0 +1,32 @@
+
+state={
+	id=450
+	name="STATE_450"
+
+	history={
+		owner = INA
+		add_core_of = INA
+		add_core_of = LBA
+		victory_points = {
+			11954 3 
+		}
+		buildings = {
+			infrastructure = 1
+			air_base = 1
+			industrial_complex = 1
+			11954 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		4063 4120 10123 11954 
+	}
+	manpower=101500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

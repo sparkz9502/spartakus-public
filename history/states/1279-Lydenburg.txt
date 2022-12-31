@@ -1,0 +1,24 @@
+
+state={
+	id=1279
+	name="STATE_1279"
+
+	history={
+		owner = OTT
+		add_core_of = OTT
+		add_claim_by = ARM
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		9858 10399 11797 11853 
+	}
+	manpower=143902
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

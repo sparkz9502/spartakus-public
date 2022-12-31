@@ -1,0 +1,17 @@
+on_actions = {
+    on_startup = {
+        effect = {
+		every_country = {
+		    limit = {
+				OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+			    } 
+			}
+			country_event = { id = sgm.1 days = 330 }
+		}
+        }
+    }
+}

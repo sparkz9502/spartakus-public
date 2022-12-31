@@ -1,0 +1,49 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+TCS_bolshevist_party:0 "VKP"
+TCS_bolshevist_party_long:0 "Vsesojuznaja kommunisticheskaja partija"
+TCS_spartacist_party:0 "VKP"
+TCS_spartacist_party_long:0 "Vsesojuznaja kommunisticheskaja partija"
+TCS_revolutionary_socialist_party:0 "Anarkhisty"
+TCS_revolutionary_socialist_party_long:0 "Anarkhisty"
+TCS_reformist_socialist_party:0 "Right SRs"
+TCS_reformist_socialist_party_long:0 "Sotsialisticheskaya revolyutsionnaya partiya"
+TCS_social_democrat_party:0 "Mensheviks"
+TCS_social_democrat_party_long:0 "Rossiyskaya sotsial-demokraticheskaya rabochaya partiya (Mensheviki)"
+TCS_social_liberal_party:0 "K-D"
+TCS_social_liberal_party_long:0 "Konstitutsionno-Demokraticheskaya Partiya"
+TCS_liberal_conservative_party:0 "L-D"
+TCS_liberal_conservative_party_long:0 "Liberalno-Demokraticheskaya Partiya"
+TCS_social_conservative_party:0 "KP"
+TCS_social_conservative_party_long:0 "Konservativnaya partiya"
+TCS_authoritarian_conservative_party:0 "PDR"
+TCS_authoritarian_conservative_party_long:0 "Partiya demokraticheskikh reform"
+TCS_right_wing_populist_party:0 "Bandity"
+TCS_right_wing_populist_party_long:0 "Bandity"
+TCS_national_syndicalist_party:0 "Basmachestvo"
+TCS_national_syndicalist_party_long:0 "Basmachestvo"
+TCS_national_corporatist_party:0 "Basmachestvo"
+TCS_national_corporatist_party_long:0 "Basmachestvo"
+
+### Focuses ###
+
+### Ideas ###
+
+TCS_bandit_state:0 "Bandit State"
+TCS_bandit_state_desc:0 "Transcaspia was once a (relatively) safe haven for Mensheviks and the Right SRs. It was once ruled by a council based government of railway workers which controlled the western section of the Trans-Caspian Railway. Though it still controls the railway, when British troops pulled out in 1919 the Menshevik-SR government collapsed and was replaced with a warlord government under Turkmen chieftan Oraz Sirdar. With the Bolsheviks occupied in Europe, the Transcaspian government survived this ordeal, but just barely. Over time the warlord government evolved into a bandit government which exploited the dire situation in Persia. With almost no economy of its own, Transcaspia relies on stolen goods from periodic raids across the border."
+TCS_bandit_army:0 "Bandit Army"
+TCS_bandit_army_desc:0 "With any bandit state comes a bandit army, and Transcaspia delivers. It would likely be a stretch to even call it an army, given it is actually just a large band of misfit raiders, but Transcaspia claims its army is professional regardless. The 'army' is small and would, at the current stage, stand little chance against its northern neighbor. However, Chieftan Sirdar does have plans to claim the entirety of Turkestan, and to do this he will need to make a bigger and better army."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

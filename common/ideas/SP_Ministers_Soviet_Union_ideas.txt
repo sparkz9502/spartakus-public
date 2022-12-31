@@ -1,0 +1,483 @@
+ideas = {
+################################################################################################################################################################################################
+### SOV
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	SOV_Alexei_Rykov_hog_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_practical_generalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Lev_Kamenev_hog_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_factional_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	SOV_Nikolai_Bukharin_hog_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_favourite_of_the_party
+		}
+		cancel_if_invalid = no
+	}
+
+	SOV_Vyacheslav_Molotov_hog_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	SOV_Grigory_Zinoviev_hog_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_ambitious_party_boss
+		}
+		cancel_if_invalid = no
+	}
+
+	SOV_Mikhail_Tomsky_hog_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			head_of_government
+			hog_ambitious_union_boss
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+minister_without_portfolio = { ### Minister w/o Portfolio ###
+
+	SOV_Grigory_Zinoviev_mwp_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			minister_without_portfolio
+			hog_ambitious_party_boss
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+foreign_minister = { ### Foreign Minister ###
+	
+	SOV_Maksim_Litvinov_for_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+
+	SOV_Vyacheslav_Molotov_for_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Georgy_Chicherin_for_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Christian_Rakovsky_for_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+economy_minister = { ### Economy Minister ###
+	SOV_Nikolai_Bukharin_eco_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			economy_minister
+			eco_nep_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+security_minister = { ### Security Minister ###
+	
+	SOV_Felix_Dzerzhinsky_sec_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_iron_felix
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Alexei_Rykov_sec_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+education_minister = { ### Education Minister ###
+
+	SOV_Anatoly_Lunacharsky_edu_spa = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			spartacist
+			education_minister
+			edu_millenarian_visionary
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+agriculture_minister = { ### Agriculture Minister ###
+
+	SOV_Andrei_Kolegayev_agr_rev = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			revolutionary_socialist
+			agriculture_minister
+			agr_champion_of_the_peasantry
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+transport_minister = { ### Transport Minister ###
+
+	SOV_Janis_Rudzutaks_tra_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			transport_minister
+			tra_apolitical_administrator
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Moisei_Rukhimovich_tra_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			transport_minister
+			tra_resource_extraction_focus
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Andrey_Andreyev_tra_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			transport_minister
+			tra_railway_enthusiast
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+defence_minister = { ### Defence Minister ###
+	
+	SOV_Mikhail_Frunze_def_bol = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			bolshevist
+			defence_minister
+			def_unity_of_command
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_staff = { ### Chief of Staff ###
+
+	SOV_Mikhail_Frunze_cos = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_deep_battle
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Mikhail_Tukhachevsky_cos = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_staff
+			cos_deep_battle
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_army = { ### Chief of Army ###
+	SOV_Mikhail_Frunze_carm = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	SOV_Mikhail_Tukhachevsky_carm = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	SOV_Vladimir_Orlov_cnav = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_navy
+			cnav_strategic_defence_proponent
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	SOV_Yakov_Alksnis_cair = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+}
+
+sp_theorist = { ### Theorist ###
+
+	SOV_David_Riazanov_theo = {
+		allowed = {original_tag = SOV}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			sp_theorist
+			maverick_marxologist
+		}
+		cancel_if_invalid = no
+	}
+	
+}
+}

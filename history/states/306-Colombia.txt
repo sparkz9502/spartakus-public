@@ -1,0 +1,21 @@
+
+state={
+	id=306
+	name="STATE_306"
+
+	history={
+		owner = COL
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+		}
+		add_core_of = COL
+	}
+
+	provinces={
+		7993 12845 13433 
+	}
+	manpower=1699300
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

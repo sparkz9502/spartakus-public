@@ -1,0 +1,25 @@
+
+state={
+	id=975
+	name="STATE_975"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			2081 1 
+		}
+
+	}
+
+	provinces={
+		1152 1473 1883 1993 2081 3181 4897 7919 8078 9152 12888 13627 13846 13860 14475 
+	}
+	manpower=638000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

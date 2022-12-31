@@ -1,0 +1,24 @@
+
+state={
+	id=1287
+	name="STATE_1287"
+	provinces={
+		3605 3635 3778 4270 6625 6630 
+	}
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = CAN
+		victory_points = {
+			3778 10
+		}
+
+	}
+	manpower=408400
+	state_category = town
+	buildings_max_level_factor=1.000
+}

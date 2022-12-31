@@ -1,0 +1,232 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### SLV
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_SLV_Boris_Kidric_hog_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Boris_Kidric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Lovro_Klemencic_hog_rev"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Lovro_Klemencic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Albert_Kramer_hog_lco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Albert_Kramer.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Anton_Korosec_hog_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Anton_Korosec.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Marko_Natlacen_hog_aco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Marko_Natlacen.tga"
+}
+
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_SLV_Edvard_Kardelj_for_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Edvard_Kardelj.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Bogumil_Vosnjak_for_lco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Bogumil_Vosnjak.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Alojzij_Kuhar_for_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Alojzij_Kuhar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Franc_Snoj_for_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franc_Snoj.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Izidor_Cankar_for_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Izidor_Cankar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Lambert_Ehrlich_for_aco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Lambert_Ehrlich.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_SLV_Boris_Kidric_eco_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Boris_Kidric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Franc_Leskosek_eco_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franc_Leskosek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Gregor_Zerjav_eco_lco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Gregor_Zerjav.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Anton_Rojina_eco_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Anton_Rojina.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Franc_Snoj_eco_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franc_Snoj.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Miha_Krek_eco_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Miha_Krek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Joze_Basaj_eco_aco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Joze_Basaj.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_SLV_Ivan_Macek_sec_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Ivan_Macek.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Tone_Tomsic_sec_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Tone_Tomsic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Franjo_Lipold_sec_lco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franjo_Lipold.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Alojzij_Juvan_sec_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Alojzij_Juvan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Josip_Leskovar_sec_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Josip_Leskovar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Lovro_Hacin_sec_aco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Lovro_Hacin.tga"
+}
+
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_SLV_Boris_Kidric_def_spa"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Boris_Kidric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Karl_Novak_def_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Karl_Novak.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Vladimir_Vauhnik_def_sco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Vladimir_Vauhnik.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Albert_Ilovar_def_aco"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Albert_Ilovar.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_SLV_Franc_Rozman_cos"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franc_Rozman.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Jakob_Avsic_cos"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Jakob_Avsic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Anton_Kokalj_cos"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Anton_Kokalj.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Ernest_Peterlin_cos"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Ernest_Peterlin.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_SLV_Franc_Rozman_carm"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franc_Rozman.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Rudolf_Maister_carm"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Rudolf_Maister.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Leon_Rupnik_carm"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Leon_Rupnik.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Milko_Vizjak_carm"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Milko_Vizjak.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_SLV_Ivan_Kern_cnav"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Ivan_Kern.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Metod_Koch_cnav"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Metod_Koch.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Franjo_Vucer_cnav"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Franjo_Vucer.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_SLV_France_Pirc_cair"
+	texturefile = "gfx/interface/ministers/SLV/SLV_France_Pirc.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Rudolf_Maister_cair"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Rudolf_Maister.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SLV_Milko_Vizjak_cair"
+	texturefile = "gfx/interface/ministers/SLV/SLV_Milko_Vizjak.tga"
+}
+}

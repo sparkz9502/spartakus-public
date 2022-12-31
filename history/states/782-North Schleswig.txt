@@ -1,0 +1,24 @@
+state= {
+	id=782
+	name="STATE_782"
+	manpower = 184700
+	state_category = pastoral
+	
+	history={
+		owner = DEN
+		add_core_of = DEN
+		add_claim_by = GER
+		victory_points = {
+			11251 1
+		}
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}
+
+	provinces= {
+		332 11251
+ 	}
+}

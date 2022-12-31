@@ -1,0 +1,132 @@
+guiTypes = {
+
+	containerWindowType = {
+		name = "fars_government_decision_ui_window"
+		position = { x = 0 y = 0 }
+		size = { width = 100% height=230 }
+		
+		iconType = {
+			name ="separatist_gui_background" ##change later
+			spriteType = "GFX_separatist_gui_background"
+			position = { x=6 y = -18 }
+		}
+
+		iconType = {
+			name ="british_influence_icon"
+			spriteType = "GFX_british_influence_flag"
+			position = { x= 55	 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name ="british_influence_header"
+			position = { x = 0 y = 80 }
+			font = "hoi_20bs"
+			text = "british_influence_header"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="british_influence_party"
+			position = { x = 0 y = 113 }
+			font = "hoi_18mbs"
+			text = "british_influence_party"
+			format = center
+		}
+
+		instantTextBoxType = {
+			name ="british_influence_support"
+			position = { x = 0 y = 148 }
+			font = "hoi_18mbs"
+			text = "british_influence_support"
+			format = center
+		}
+		
+		#instantTextBoxType = {
+		#	name ="british_influence_insurgency_level"
+		#	position = { x = 0 y = 163 }
+		#	font = "hoi_18mbs"
+		#	text = "british_influence_insurgency_level"
+		#	format = center
+		#}
+
+		iconType = {
+			name ="white_russian_influence_icon"
+			spriteType = "GFX_white_russian_influence_flag"
+			position = { x= 212	 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name ="white_russian_influence_header"
+			position = { x = 160 y = 80 }
+			font = "hoi_20bs"
+			text = "white_russian_influence_header"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="white_russian_influence_party"
+			position = { x = 160 y = 113 }
+			font = "hoi_18mbs"
+			text = "white_russian_influence_party"
+			format = center
+		}
+
+		instantTextBoxType = {
+			name ="white_russian_influence_support"
+			position = { x = 160 y = 148 }
+			font = "hoi_18mbs"
+			text = "white_russian_influence_support"
+			format = center
+		}
+		
+		#instantTextBoxType = {
+		#	name ="white_russian_influence_insurgency_level"
+		#	position = { x = 160 y = 163 }
+		#	font = "hoi_18mbs"
+		#	text = "white_russian_influence_insurgency_level"
+		#	format = center
+		#}
+		
+		iconType = {
+			name ="iranian_influence_icon"
+			spriteType = "GFX_iranian_influence_flag"
+			position = { x= 370	 y = 0 }
+		}
+
+		instantTextBoxType = {
+			name ="iranian_influence_header"
+			position = { x = 315 y = 80 }
+			font = "hoi_20bs"
+			text = "iranian_influence_header"
+			format = center
+			maxHeight = 24
+		}
+		
+		instantTextBoxType = {
+			name ="iranian_influence_party"
+			position = { x = 315 y = 113 }
+			font = "hoi_18mbs"
+			text = "iranian_influence_party"
+			format = center
+		}
+
+		instantTextBoxType = {
+			name ="iranian_influence_support"
+			position = { x = 315 y = 148 }
+			font = "hoi_18mbs"
+			text = "iranian_influence_support"
+			format = center
+		}
+		
+		#instantTextBoxType = {
+		#	name ="iranian_influence_insurgency_level"
+		#	position = { x = 315 y = 183 }
+		#	font = "hoi_18mbs"
+		#	text = "iranian_influence_insurgency_level"
+		#	format = center
+		#}
+
+	}
+}

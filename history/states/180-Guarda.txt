@@ -1,0 +1,43 @@
+
+state={
+	id=180
+	name="STATE_180"
+
+	history={
+		owner = PRM
+		victory_points = {
+			9817 15
+		}
+		victory_points = {
+			11673 3 
+		}
+		victory_points = {
+			15495 4 
+		}
+		victory_points = {
+			15496 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 2
+			dockyard = 1
+			air_base = 1
+			9817 = {
+				naval_base = 3
+
+			}
+
+		}
+		add_core_of = POR
+		add_core_of = PRM
+
+	}
+
+	provinces={
+		9817 11673 15495 15496 
+	}
+	manpower=1477500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

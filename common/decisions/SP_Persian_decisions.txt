@@ -1,0 +1,44 @@
+########################
+### Persia Decisions ###
+########################
+
+PER_fars_government_gui = {
+
+	PER_fars_government_explanation = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		complete_effect = {
+			country_event = perfg.100
+		}
+	}
+	
+	# PER_fire_british = { 
+		# icon = GFX_decision_ger_mefo_bills
+		# ai_will_do = {
+			# factor = 0
+		# }
+		# complete_effect = {
+		# }
+	# }
+	
+	# PER_fire_russians = { 
+		# icon = GFX_decision_ger_mefo_bills
+		# ai_will_do = {
+			# factor = 0
+		# }
+		# complete_effect = {
+		# }
+	# }
+	
+	# PER_fire_iranians = { 
+		# icon = GFX_decision_ger_mefo_bills
+		# ai_will_do = {
+			# factor = 0
+		# }
+		# complete_effect = {
+		# }
+	# }
+	
+}

@@ -1,0 +1,52 @@
+﻿capital = 301
+
+set_oob = "PAR"
+
+add_ideas = {
+	recruitment_1825
+	governance_exec
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gw_artillery = 1
+	early_fighter = 1
+}
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 4
+    spartacist = 14
+    revolutionary_socialist = 1
+    reformist_socialist = 4
+    social_democrat = 3
+    social_liberal = 7
+    liberal_conservative = 36
+    social_conservative = 31
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+create_country_leader = {
+	name = "Emiliano González Navero"
+	desc = "POLITICS_EMILIANO_NAVERO_DESC"
+	picture = "Portrait_Emiliano_Gonzalez_Navero.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}

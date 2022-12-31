@@ -1,0 +1,56 @@
+﻿l_english:
+
+### Decisions ###
+
+### Ideas ###
+
+HLF_Red_Militia:0 "Red Militia"
+HLF_Red_Militia_desc:0 ""
+
+HLF_Ten_Must_Kill:0 "Order of Ten Must-Kill"
+HLF_Ten_Must_Kill_desc:0 ""
+
+HLF_Peasant_Association:0 "Revolutionary Peasant Association"
+HLF_Peasant_Association_desc:0 ""
+
+### Tooltips ###
+
+### Opinion Modifiers ###
+
+### Parties ###
+
+HLF_bolshevist_party:0 "CPC"
+HLF_bolshevist_party_long:0 "Communist Party of China"
+HLF_spartacist_party:0 "CPC"
+HLF_spartacist_party_long:0 "Communist Party of China"
+HLF_revolutionary_socialist_party:0 "CPC"
+HLF_revolutionary_socialist_party_long:0 "Communist Party of China"
+HLF_reformist_socialist_party:0 "KMT(L)"
+HLF_reformist_socialist_party_long:0 "Kuomintang (Leftists)"
+HLF_social_democrat_party:0 "KMT"
+HLF_social_democrat_party_long:0 "Kuomintang"
+HLF_social_liberal_party:0 "KMT"
+HLF_social_liberal_party_long:0 "Kuomintang"
+HLF_liberal_conservative_party:0 "KMT(R)"
+HLF_liberal_conservative_party_long:0 "Kuomintang (Rightists)"
+HLF_social_conservative_party:0 "KMT"
+HLF_social_conservative_party_long:0 "Kuomintang"
+HLF_authoritarian_conservative_party:0 "KMT"
+HLF_authoritarian_conservative_party_long:0 "Kuomintang"
+HLF_right_wing_populist_party:0 "KMT"
+HLF_right_wing_populist_party_long:0 "Kuomintang"
+HLF_national_syndicalist_party:0 "KMT"
+HLF_national_syndicalist_party_long:0 "Kuomintang"
+HLF_national_corporatist_party:0 "KMT"
+HLF_national_corporatist_party_long:0 "Kuomintang"
+
+HLF_bolshevist_description:0 ""
+
+### Focuses ###
+
+### Leader descriptions ###
+POLITICS_PENG_PAI_DESC:0 "§GDate of Birth:§! §g22 October 1896§!\n§GOverview:§! §gThough born in a wealth landlord family in Haifeng, Peng never truly identified his well-off background. When he studied in Japan, Peng was heavily affected by the Rice Riots (Kome sōdō) and the October Revolution in Russia, thus become a sympathizer of labors. It is such sympathy that made him to be expelled by Japan authority, but it also granted him the determination to thoroughly break with his family background. Since then, a Christian landlord died, with a socialism revolutionist rebirthed. \n\nOn returning Guangdong, Peng was assigned a high position by Chen Jiongming, who is also from a rich landlord family in Haifeng, and now the leader of Guangdong. He thought Peng could be his ally considering Peng’s family background, but then dismissed him after realizing his tendency of promoting a revolution. This grant him a chance to fully devoted to peasant movements by establishing the General Peasant Association in Haifeng, and then spread this organization to whole Guangdong province. Notwithstanding Chen Jiongming and many aligned merchants and landlords see Peng as the most dangerous enemy, Peng finally managed to find his place in Dr. Sun Yat-Sen’s theory and CPC’s principles. By establishing Peasant Movement Training Institute (PMTI), Peng profoundly influenced a group of youngsters’ thoughts, including Mao Zedong and Ho Chi Minh. \n\nWhen reactionaries’ showing off their guns, trying to threat the revolution, never will Peng, the vanguard of peasant revolution flinch. He stood firmly when confronting Chiang’s plot, and will stand firm if confronting Wang Jingwei’s threat. It is all because of his oath to the revolution when he decided to devote himself-- Live for the peasants, and die for the peasants!"
+### Events ###
+HLF.1.t:0 "Hailufeng Riot!"
+HLF.1.desc:0 "Peng Pai has trained a lot of peasant movement leaders for us during the Northern Expedition; in the meantime, however, he makes no secret of his radical political standing. In Guangdong, chronic conflict between the peasant association he led and the local militias never ends. They are not willing to make any compromise, even with the intervention by our commissioners. To make things worse, they show no respect to the law and use lynch whenever they want to. The peasant association has become the shadow government in nearby areas.\n\nNowadays, as the conflict between the KMT and the CPC came out into open, it’s unsurprising that Peng Pai has called up his "Red Guard" and openly rebelled at Hailufeng. He announced the "Ten Kill Orders", threatening to launch bloody revenges against "reactionary officers" and “bullying landlords". Now we can only hope the army led by Ye Ting stationed there will be able to clean up this group of rioters in a timely manner, killing this open riot in the cradle."
+HLF.1.a:0 "Sir, General Ye has led his troops to join the red bandits!"

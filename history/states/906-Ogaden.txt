@@ -1,0 +1,23 @@
+
+state={
+	id=906
+	name="STATE_906"
+
+	history={
+		owner = ETH
+		add_core_of = ETH
+		victory_points = {
+			14285 1 
+		}
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		4909 4995 5047 7980 10891 12757 12812 14285 14292 
+	}
+	manpower=2033600
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,17 @@
+defined_text = {
+	name = GetTibet1a
+	text = {
+		trigger = {
+			OR = {
+				tag = YUN
+				tag = XSM
+				tag = SCH
+				tag = SIK
+			}
+		}
+		localization_key = tibet.1.a.warlords
+	}
+	text = {
+		localization_key = tibet.1.a.world
+	}
+}

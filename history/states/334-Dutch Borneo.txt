@@ -1,0 +1,29 @@
+
+state={
+	id=334
+	name="STATE_334"
+	resources={
+
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+			1316 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1230 1304 1316 2170 2222 4279 4335 4409 10282 12129 
+	}
+	manpower=802447
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,6 @@
+opinion_modifiers = {
+	
+	JAP_timor_negative = { value = -25 }
+	JAP_timor_positive = { value = 25 }
+	JAP_pacific_buildup = { value = -30 }
+}

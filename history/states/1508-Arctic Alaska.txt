@@ -1,0 +1,19 @@
+state={
+	id=1508
+	name="STATE_1508"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 0
+		}
+	}
+	
+	provinces={
+		13069 
+	}
+	manpower=5000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable = yes
+}

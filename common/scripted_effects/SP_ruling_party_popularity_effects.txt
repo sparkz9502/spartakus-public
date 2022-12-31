@@ -1,0 +1,2229 @@
+### Ruling Party Popularity Effects
+### Written by sparkz
+#
+# How to use:
+#
+#	increase_ruling_party_popularity_by_# = yes
+#	decrease_ruling_party_popularity_by_# = yes
+#
+#	You can only increase/decrease by a maximum of 10%
+
+increase_ruling_party_popularity_by_1 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.01
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_2 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.02
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_3 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.03
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_4 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.04
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_5 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.05
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_6 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.06
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_7 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.07
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_8 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.08
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_9 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.09
+		}
+	}
+}
+
+increase_ruling_party_popularity_by_10 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = 0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.10
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_1 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.01
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.01
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_2 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.02
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.02
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_3 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.03
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.03
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_4 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.04
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.04
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_5 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.05
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.05
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_6 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.06
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.06
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_7 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.07
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.07
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_8 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.08
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.08
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_9 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.09
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.09
+		}
+	}
+}
+
+decrease_ruling_party_popularity_by_10 = {
+	if = {
+		limit = {
+			has_government = bolshevist
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = spartacist
+		}
+		add_popularity = {
+			ideology = spartacist
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = revolutionary_socialist
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = reformist_socialist
+		}
+		add_popularity = {
+			ideology = reformist_socialist
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_democrat
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_liberal
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = liberal_conservative
+		}
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = social_conservative
+		}
+		add_popularity = {
+			ideology = social_conservative
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = authoritarian_conservative
+		}
+		add_popularity = {
+			ideology = authoritarian_conservative
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = right_wing_populist
+		}
+		add_popularity = {
+			ideology = right_wing_populist
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_syndicalist
+		}
+		add_popularity = {
+			ideology = national_syndicalist
+			popularity = -0.10
+		}
+	}
+	if = {
+		limit = {
+			has_government = national_corporatist
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = -0.10
+		}
+	}
+}

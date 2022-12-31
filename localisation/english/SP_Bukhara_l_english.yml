@@ -1,0 +1,49 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+TRK_bolshevist_party:0 "YB"
+TRK_bolshevist_party_long:0 "Young Bukharians (Yosh Buxoroliklar)"
+TRK_spartacist_party:0 "YB"
+TRK_spartacist_party_long:0 "Young Bukharians (Yosh Buxoroliklar)"
+TRK_revolutionary_socialist_party:0 "CSIP"
+TRK_revolutionary_socialist_party_long:0 "Left Socialist-Revolutionary Party (Chapdagi Sotsialistik-Inqilobchi Partiyasi)"
+TRK_reformist_socialist_party:0 "RSDIP(M)"
+TRK_reformist_socialist_party_long:0 "Russian Social Democratic Labour Party (Mensheviks) (Rossiya Sotsial-Demokratik Ishchilar Partiyasi (Mensheviklar)"
+TRK_social_democrat_party:0 "SIP"
+TRK_social_democrat_party_long:0 "Socialist-Revolutionary Party (Sotsialistik-Inqilobchi Partiyasi)"
+TRK_social_liberal_party:0 "KDP"
+TRK_social_liberal_party_long:0 "Constitutional Democratic Party (Konstitutsiyaviy Demokratik Partiya)"
+TRK_liberal_conservative_party:0 "PP"
+TRK_liberal_conservative_party_long:0 "Progressive Party (Progressiv Partiya)"
+TRK_social_conservative_party:0 "OP"
+TRK_social_conservative_party_long:0 "Octobrist Party (Oktobristlar Partiyasi)"
+TRK_authoritarian_conservative_party:0 "DIP"
+TRK_authoritarian_conservative_party_long:0 "Party of Democratic Reform (Demokratik Islohotlar Partiyasi)"
+TRK_right_wing_populist_party:0 "Mangit"
+TRK_right_wing_populist_party_long:0 "Manghit Dynasty (Mangit)"
+TRK_national_syndicalist_party:0 "TOH"
+TRK_national_syndicalist_party_long:0 "Turkestan Liberation Movement (Turkiston Ozodlik Harakati)"
+TRK_national_corporatist_party:0 "TOH"
+TRK_national_corporatist_party_long:0 "Turkestan Liberation Movement (Turkiston Ozodlik Harakati)"
+
+### Focuses ###
+
+### Ideas ###
+
+TRK_pan_turkic_movement:0 "Pan-Turkic Movement"
+TRK_pan_turkic_movement_desc:0 "Bukhara is the center of the Pan-Turkic movement which seeks to unite all the Turkic peoples in Central Asia and even across the world. Bolstered by Turkish nationalist Enver Pasha, the movement to establish a Turkic state has grown in size rapidly. Groups aligned with this movement have engaged in various instances of sabotage and resistance within Bolshevik controlled lands. If the Emir does not accept and embrace this movement he may find his position in danger."
+TRK_bolshevik_raiding:0 "Bolshevik Raiding"
+TRK_bolshevik_raiding_desc:0 "Bukhara is constantly harassed by Bolshevik bandits, primarily by Bukharans aligned with Bolsheviks who call themselves the 'Young Bukharans'. On their own they lack the support to overthrow the government, but with safe refuge in the Soviet Union they are able to engage in banditry and sabotage which is annoying to say the least."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

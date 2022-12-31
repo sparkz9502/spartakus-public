@@ -1,0 +1,23 @@
+
+state={
+	id=332
+	name="STATE_332"
+
+	history={
+		owner = NEW
+		buildings = {
+			infrastructure = 0
+
+		}
+		add_core_of = NEW
+
+	}
+
+	provinces={
+		1426 1785 4720 4787 12503 13180 
+	}
+	manpower=4800
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+	impassable=yes
+}

@@ -1,0 +1,27 @@
+
+state={
+	id=353
+	name="STATE_353"
+
+	history={
+		owner = OTT
+		add_core_of = OTT
+		add_claim_by = ARM
+		victory_points = {
+			6919 2 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		3965 3979 6919 6976 9868 9886 
+	}
+	manpower=136732
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

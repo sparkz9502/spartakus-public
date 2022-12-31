@@ -1,0 +1,16 @@
+##############
+### British ###
+##############
+
+ENG_Burmese_revolt_cat = {
+	allowed = {
+		OR = {
+			tag = RAJ
+			tag = ENG
+		}
+	}
+	visible = {
+		RAJ = { has_war_with = BMR }
+		NOT = { has_global_flag = SP_Raj_collapse }
+	}	
+}

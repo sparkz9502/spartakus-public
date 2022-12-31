@@ -1,0 +1,61 @@
+﻿l_english:
+
+### Head of Government ###
+BOS_Djuro_Pucar_hog_spa:0 "Djuro Pucar"
+BOS_Mehmed_Spaho_hog_sco:0 "Mehmed Spaho"
+BOS_Vladimir_Corovic_hog_sco:0 "Vladimir Corovic"
+BOS_Vladimir_Laxa_hog_aco:0 "Vladimir Laxa"
+BOS_Dzafer_beg_Kulenovic_hog_rwp:0 "Dzafer beg Kulenovic"
+
+### Foreign Minister ###
+BOS_Veselin_Maslesa_for_spa:0 "Veselin Maslesa"
+BOS_Ivo_Andric_for_sli:0 "Ivo Andric"
+BOS_Dzemaludin_ef_Causevic_for_sco:0 "Dzemaludin ef. Causevic"
+BOS_Jovan_Ducic_for_sco:0 "Jovan Ducic"
+BOS_Dzafer_beg_Kulenovic_for_rwp:0 "Dzafer beg Kulenovic"
+BOS_Mehmed_Alajbegovic_for_nsy:0 "Mehmed Alajbegovic"
+
+### Economy Minister ###
+BOS_Avdo_Humo_eco_spa:0 "Avdo Humo"
+BOS_Dimitrije_Mitrinovic_eco_lco:0 "Dimitrije Mitrinovic"
+BOS_Barisa_Smoljan_eco_sco:0 "Barisa Smoljan"
+BOS_Mehmed_Spaho_eco_sco:0 "Mehmed Spaho"
+BOS_Osman_Vilovic_eco_sco:0 "Osman Vilovic"
+BOS_Nikola_Mandic_eco_rwp:0 "Nikola Mandic"
+BOS_Nesad_Topcic_eco_nsy:0 "Nesad Topcic"
+
+### Security Minister ###
+BOS_Dzemal_Bijedic_sec_spa:0 "Dzemal Bijedic"
+BOS_Nurija_Pozderac_sec_sde:0 "Nurija Pozderac"
+BOS_Ivo_Andric_sec_sli:0 "Ivo Andric"
+BOS_Danilo_Dimovic_sec_sco:0 "Danilo Dimovic"
+BOS_Fehim_ef_Spaho_sec_sco:0 "Fehim ef. Spaho"
+BOS_Halid_beg_Hrasnica_sec_sco:0 "Halid beg Hrasnica"
+BOS_Ibrahim_ef_Fejic_sec_sco:0 "Ibrahim ef. Fejic"
+BOS_Hakija_Hadzic_sec_nsy:0 "Hakija Hadzic"
+
+### Defence Minister ###
+BOS_Rodoljub_Colakovic_def_spa:0 "Rodoljub Colakovic"
+BOS_Ibrahim_Pjanic_def_rwp:0 "Ibrahim Pjanic"
+BOS_Muhamed_Hadziefendic_def_rwp:0 "Muhamed Hadziefendic"
+BOS_Hakija_Hadzic_def_nsy:0 "Hakija Hadzic"
+
+### Chief of Staff ###
+BOS_Sulejman_Filipovic_cos:0 "Sulejman Filipovic"
+BOS_Ibrahim_Pjanic_cos:0 "Ibrahim Pjanic"
+BOS_Ivan_Markulj_cos:0 "Ivan Markulj"
+
+### Chief of Army ###
+BOS_Vlado_Segrt_carm:0 "Vlado Segrt"
+BOS_Georg_Dragicevic_carm:0 "Georg Dragicevic"
+BOS_Muhamed_Hadziefendic_carm:0 "Muhamed Hadziefendic"
+
+### Chief of Navy ###
+BOS_Josip_Mazar_cnav:0 "Josip Mazar"
+BOS_Georg_Dragicevic_cnav:0 "Georg Dragicevic"
+BOS_Muhamed_Hadziefendic_cnav:0 "Muhamed Hadziefendic"
+
+### Chief of Air Force ###
+BOS_Rudi_Cajavec_cair:0 "Rudi Cajavec"
+BOS_Franjo_Dzal_cair:0 "Franjo Dzal"
+BOS_Cvitan_Galic_cair:0 "Cvitan Galic"

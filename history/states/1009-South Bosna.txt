@@ -1,0 +1,40 @@
+
+state={
+	id=1009
+	name="STATE_1009"
+
+	history={
+		owner = CRO
+		victory_points = {
+			11899 10 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		# 1009 = {
+			# add_province_modifier = {
+				# static_modifiers = {
+					# railway 
+				# }
+				# province = {
+					# id = 15336
+					# id = 11899
+
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		11899 15336 
+	}
+	manpower=200549
+	buildings_max_level_factor=1.000
+	state_category=town
+}

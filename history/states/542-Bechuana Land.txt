@@ -1,0 +1,24 @@
+
+state={
+	id=542
+	name="STATE_542"
+
+	history={
+		owner = SAF
+		victory_points = {
+			1580 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1580 10525 13905 13911 13915 13916 13918 13923 13924 13925 13932 13934 13935 13936 13938 
+	}
+	manpower=166700
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

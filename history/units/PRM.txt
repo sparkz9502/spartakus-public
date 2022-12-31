@@ -1,0 +1,197 @@
+﻿division_template = {
+	name = "Divisão de Infanteria" #Infantry
+	division_names_group = POR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+
+division_template = {
+	name = "Brigada de Cavalaria" #Cavalry
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Força de Caçadores"	#Elite Troops	
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+	
+division_template = {
+	name = "Legião Portuguesa" #Militia	
+	is_locked = yes
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+	}
+}
+
+units = {
+	#Infantry
+	division = {
+		name = "2a Divisão de Infantaria"
+		location = 938
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "3a Divisão de Infantaria"
+		location = 6924
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	#Cavalry
+	division = {
+		name = "1a Brigada de Cavalaria"
+		location = 9787
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "Cavalaria do Porto"
+		location = 9817
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	#Militias
+	division = {
+		name = "1a Legião Portuguesa"
+		location = 6996
+		division_template = "Legião Portuguesa"
+		start_experience_factor = 0
+		start_equipment_factor = 0.9
+
+	}
+	
+	division = {
+		name = "2a Legião Portuguesa"
+		location = 9787
+		division_template = "Legião Portuguesa"
+		start_experience_factor = 0
+		start_equipment_factor = 0.9
+
+	}
+	
+	division = {
+		name = "3a Legião Portuguesa"
+		location = 6924
+		division_template = "Legião Portuguesa"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "4a Legião Portuguesa"
+		location = 11885
+		division_template = "Legião Portuguesa"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+	}
+	#Caçadores
+	division = {
+		name = "1a Força de Caçadores"
+		location = 9817
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "Caçadores de Azores"
+		location = 1751
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1a Caçadores de Angola"
+		location = 8248
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	
+	division = {
+		name = "2a Caçadores de Angola"
+		location = 10966
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "1a Caçadores de Moçambique"
+		location = 8245
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+	division = {
+		name = "2a Caçadores de Moçambique"
+		location = 2123
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+
+}
+
+
+### Aeronáutica Militar ###
+air_wings = {
+	180 = {
+		# Noite Esquadrão de Bombardeiro  -- Ju 52/3m bombers
+		tac_bomber_equipment_0 = {
+			owner = "PRM" 
+			amount = 6
+		}
+		# Dia Esquadrão de Bombardeiro  -- Vickers Valparaiso light bombers
+		CAS_equipment_1 = {
+			owner = "PRM" 
+			amount = 6
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "PRM"
+		}
+		requested_factories = 2
+		progress = 0.50
+		efficiency = 100
+	}
+}

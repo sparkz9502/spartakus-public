@@ -1,0 +1,22 @@
+
+state={
+	id=1125
+	name="STATE_1125"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		14085 14103 14110 14132 
+	}
+	manpower=293700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

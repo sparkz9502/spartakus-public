@@ -1,0 +1,1547 @@
+################################
+# Kingdom of Italy Focus Tree
+# By sparkz
+################################
+
+focus_tree = {
+	id = SP_Italy
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ITA
+		}
+	}
+	continuous_focus_position = {
+		x = 500
+		y = 2000
+	}
+	default = no
+	
+	#########################
+	## Pre-Civil War Trees ##
+	#########################
+	
+	###Starting Political Tree###
+	
+	focus = {
+		id = ITA_matters_of_state
+		icon = GFX_Italian_Soldiers
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = itafoc.1
+			add_stability = 0.05
+		}
+		x = 10
+		y = 0
+	}
+	
+	focus = {
+		id = ITA_badoglios_address
+		icon = GFX_Badoglio
+		cost = 1
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = itafoc.2
+		}
+		relative_position_id = ITA_matters_of_state
+		prerequisite = { focus = ITA_matters_of_state }
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_renew_the_anti_socialist_laws
+		icon = GFX_Renew_Anti_Socialist_Laws
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = itafoc.3
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_badoglios_address }
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_protect_the_blueshirts
+		icon = GFX_Protect_the_Blueshirts
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			add_popularity = {
+				ideology = right_wing_populist
+				popularity = 0.01
+			}
+			add_ideas = ITA_The_Blueshirts
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_renew_the_anti_socialist_laws }
+		x = -3
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_promote_federzoni
+		icon = GFX_Federzoni
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			add_political_power = -50
+			add_ideas = ITA_Luigi_Federzoni_sec_rwp
+		}
+		relative_position_id = ITA_badoglios_address
+		mutually_exclusive = { focus = ITA_a_patriotic_military }
+		prerequisite = { focus = ITA_protect_the_blueshirts }
+		x = -4
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_a_patriotic_military
+		icon = GFX_goal_generic_army_cooperation
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			army_experience = 5
+			add_timed_idea = {
+				idea = ITA_Renewed_Military_Patriotism
+				days = 365
+			}
+		}
+		relative_position_id = ITA_badoglios_address
+		mutually_exclusive = { focus = ITA_promote_federzoni }
+		prerequisite = { focus = ITA_protect_the_blueshirts }
+		x = -2
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_rekindle_revanchist_sentiments
+		icon = GFX_Italian_Empire
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_political_power = 25
+			add_war_support = 0.10
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_promote_federzoni focus = ITA_a_patriotic_military }
+		x = -3
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_abolish_the_administrative_districts
+		icon = GFX_goal_government_centralised_icon
+		cost = 4
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_political_power = -10
+			add_timed_idea = {
+				idea = ITA_Reduced_Administrative_Burdens
+				days = 60
+			}
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_badoglios_address }
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_expand_military_control
+		icon = GFX_Italian_Forces
+		cost = 7
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			add_political_power = -40
+			add_stability = 0.08
+		}
+		relative_position_id = ITA_badoglios_address
+		mutually_exclusive = { focus = ITA_suppress_regional_identities }
+		prerequisite = { focus = ITA_abolish_the_administrative_districts }
+		x = -1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_suppress_regional_identities
+		icon = GFX_Crush_Resistance
+		cost = 7
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			add_stability = -0.05
+			ITA_sardegna_resistance_negative = yes
+			ITA_veneto_resistance_negative = yes
+		}
+		relative_position_id = ITA_badoglios_address
+		mutually_exclusive = { focus = ITA_expand_military_control }
+		prerequisite = { focus = ITA_abolish_the_administrative_districts }
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_the_question_of_the_fascists
+		icon = GFX_FascistQuestion
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = itafoc.4
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_suppress_regional_identities focus = ITA_expand_military_control }
+		x = 0
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_rally_around_the_king
+		icon = GFX_Rally_Around_the_King
+		cost = 4
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ITA_Royal_Publicity_Tour
+				days = 90
+			}
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_the_question_of_the_fascists }
+		x = 0
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_agreements_with_the_liberals
+		icon = GFX_Room_Meeting
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_weaken_nationalist = yes
+			add_political_power = 30
+			add_stability = 0.03
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_badoglios_address }
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_strengthen_ties_with_big_business
+		icon = GFX_Business_Bills
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_political_power = -50
+			2 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_agreements_with_the_liberals }
+		x = 3
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_investments_in_the_colonies
+		icon = GFX_goal_generic_foreign_investments
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			INA = {
+				add_ideas = ITA_Italian_Investments
+			}
+			IEA = {
+				add_ideas = ITA_Italian_Investments
+			}
+		}
+		relative_position_id = ITA_badoglios_address
+		mutually_exclusive = { focus = ITA_expand_deployments_in_sardinia }
+		prerequisite = { focus = ITA_strengthen_ties_with_big_business }
+		x = 4
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_expand_deployments_in_sardinia
+		icon = GFX_SardiniaDeploy
+		cost = 6
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			add_manpower = -5000
+			ITA_sardegna_resistance_negative = yes
+		}
+		relative_position_id = ITA_badoglios_address
+		mutually_exclusive = { focus = ITA_investments_in_the_colonies }
+		prerequisite = { focus = ITA_strengthen_ties_with_big_business }
+		x = 2
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_strengthen_the_bureaucracy
+		icon = GFX_Focus_Government_Bureaucracy
+		cost = 4
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.04
+		}
+		relative_position_id = ITA_badoglios_address
+		prerequisite = { focus = ITA_investments_in_the_colonies focus = ITA_expand_deployments_in_sardinia }
+		x = 3
+		y = 4
+	}
+	
+	###Depression Economic Tree###
+	
+	focus = {
+		id = ITA_disaster_strikes
+		icon = GFX_ita_disaster_strikes
+		cost = 0
+		available = {
+			always = no
+		}
+		allow_branch = {
+			#has_country_flag = ITA_unlock_econ_tree
+		}
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		x = 22
+		y = 0
+	}
+	
+	#Corporatist Tree#
+	
+	focus = {
+		id = ITA_experiments_with_corporatism
+		icon = GFX_corporatist_experiment
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			custom_effect_tooltip = ITA_Econ_Corp
+		}
+		relative_position_id = ITA_disaster_strikes
+		mutually_exclusive = { focus = ITA_pragmatic_economic_liberalism }
+		prerequisite = { focus = ITA_disaster_strikes }
+		x = -5
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_national_council_of_corporations
+		icon = GFX_corporatist_council
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_stability = 0.04
+			custom_effect_tooltip = ITA_Corp_Council
+			add_popularity = {
+				ideology = national_corporatist
+				popularity = 0.03
+			}
+		}
+		relative_position_id = ITA_experiments_with_corporatism
+		prerequisite = { focus = ITA_experiments_with_corporatism }
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_curb_the_rural_exodus
+		icon = GFX_curb_rural_exodus
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_political_power = -60
+			ITA_sicilia_resistance_negative = yes
+			117 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			115 = {
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
+		relative_position_id = ITA_national_council_of_corporations
+		prerequisite = { focus = ITA_national_council_of_corporations }
+		x = 1
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_expand_trade_restrictions
+		icon = GFX_Focus_Export_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_trade_nat = yes
+			add_political_power = -30
+		}
+		relative_position_id = ITA_national_council_of_corporations
+		prerequisite = { focus = ITA_national_council_of_corporations }
+		x = -1
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_expand_public_works_spending
+		icon = GFX_goal_generic_construct_public_housing
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ITA_Increase_Public_Spending
+				days = 90
+			}
+			add_political_power = -30
+		}
+		relative_position_id = ITA_national_council_of_corporations
+		prerequisite = { focus = ITA_curb_the_rural_exodus }
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_implement_price_controls
+		icon = GFX_Focus_Examine_Foreign_Laws
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ITA_Price_Controls
+				days = 60
+			}
+		}
+		relative_position_id = ITA_national_council_of_corporations
+		prerequisite = { focus = ITA_expand_trade_restrictions }
+		x = -1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_dabble_in_autarky
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ITA_Experiments_with_Autarky
+				days = 90
+			}
+		}
+		relative_position_id = ITA_national_council_of_corporations
+		prerequisite = { focus = ITA_expand_public_works_spending }
+		prerequisite = { focus = ITA_implement_price_controls }
+		x = 0
+		y = 3
+	}
+	
+	#Liberal Tree#
+	
+	focus = {
+		id = ITA_pragmatic_economic_liberalism
+		icon = GFX_Torch_of_Liberty
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			custom_effect_tooltip = ITA_Econ_Libtard
+		}
+		relative_position_id = ITA_disaster_strikes
+		mutually_exclusive = { focus = ITA_experiments_with_corporatism }
+		prerequisite = { focus = ITA_disaster_strikes }
+		x = 5
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_slash_public_spending
+		icon = GFX_goal_generic_seize_money
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = itafoc.5
+			add_timed_idea = {
+				idea = ITA_Slash_Public_Spending
+				days = 90
+			}
+		}
+		relative_position_id = ITA_pragmatic_economic_liberalism
+		prerequisite = { focus = ITA_pragmatic_economic_liberalism }
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_abandon_the_gold_standard
+		icon = GFX_generic_The_Gold_Standard
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_stability = 0.07
+			add_political_power = -50
+		}
+		relative_position_id = ITA_slash_public_spending
+		prerequisite = { focus = ITA_slash_public_spending }
+		x = 1
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_cut_public_sector_wages
+		icon = GFX_Economic_Collapse
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			if = {
+				limit = {
+					has_idea = ITA_Slash_Public_Spending
+				}
+				modify_timed_idea = {
+					idea = ITA_Slash_Public_Spending
+					days = 30
+				}
+			}
+			else = {
+				limit = {
+					NOT = {
+						has_idea = ITA_Slash_Public_Spending
+					}
+				}
+				add_timed_idea = {
+					idea = ITA_Slash_Public_Spending
+					days = 30
+				}
+			}
+			add_stability = -0.05
+		}
+		relative_position_id = ITA_slash_public_spending
+		prerequisite = { focus = ITA_slash_public_spending }
+		x = -1
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_stabilize_the_lira
+		icon = GFX_generic_financial_markets
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_timed_idea = {
+				idea = ITA_Stabilizing_Currency
+				days = 60
+			}
+		}
+		relative_position_id = ITA_slash_public_spending
+		prerequisite = { focus = ITA_abandon_the_gold_standard }
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_push_a_flexible_trade_policy
+		icon = GFX_Generic_Market_Economy
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_trade_sempro = yes
+			add_stability = 0.03
+		}
+		relative_position_id = ITA_slash_public_spending
+		prerequisite = { focus = ITA_cut_public_sector_wages }
+		x = -1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_restructure_the_tax_rates
+		icon = GFX_Cash_and_Carry
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			add_political_power = 40
+		}
+		relative_position_id = ITA_slash_public_spending
+		prerequisite = { focus = ITA_stabilize_the_lira }
+		prerequisite = { focus = ITA_push_a_flexible_trade_policy }
+		x = 0
+		y = 3
+	}
+	
+	#Middle Trees#
+	
+	focus = {
+		id = ITA_crisis_in_the_banks
+		icon = GFX_bank_crisis
+		cost = 1
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			country_event = itafoc.6
+		}
+		relative_position_id = ITA_disaster_strikes
+		prerequisite = { focus = ITA_experiments_with_corporatism focus = ITA_pragmatic_economic_liberalism }
+		x = 0
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_tighten_state_supervision
+		icon = GFX_Focus_Central_Planned_Economy
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			add_political_power = -50
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		mutually_exclusive = { focus = ITA_bail_them_out }
+		prerequisite = { focus = ITA_crisis_in_the_banks }
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_bail_them_out
+		icon = GFX_goal_bag_of_money
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			add_stability = -0.05
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		mutually_exclusive = { focus = ITA_tighten_state_supervision }
+		prerequisite = { focus = ITA_crisis_in_the_banks }
+		x = 2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_call_upon_beneduce
+		icon = GFX_ITA_beneduce
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_nationalist = yes
+			add_ideas = ITA_Alberto_Beneduce_eco_sde
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_tighten_state_supervision }
+		x = -1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_restructure_the_bank_of_italy
+		icon = GFX_generic_banking_legislation
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			#country_event = 
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_call_upon_beneduce }
+		x = -2
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_call_upon_volpi
+		icon = GFX_ITA_volpi
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			ITA_strengthen_orthodox = yes
+			#need to add Volpi as minister
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_bail_them_out }
+		x = 1
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_confidence_of_the_industrialists
+		icon = GFX_SP_focus_trade_unions
+		cost = 3
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_call_upon_volpi }
+		x = 2
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_establish_the_IMI
+		icon = GFX_ITA_IMI
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			add_stability = 0.03
+			add_ideas = ITA_IMI
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_call_upon_beneduce focus = ITA_call_upon_volpi }
+		x = 0
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_crisis_in_the_steel_industry
+		icon = GFX_Southern_Steel
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_establish_the_IMI }
+		x = -4
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_crisis_in_hydroelectrics
+		icon = GFX_Focus_Generic_Hydroelectricity
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_establish_the_IMI }
+		x = -2
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_crisis_in_the_shipyards
+		icon = GFX_Naval_Supplies
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_establish_the_IMI }
+		x = 0
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_crisis_in_agriculture
+		icon = GFX_generic_Farming_Crisis
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_establish_the_IMI }
+		x = 2
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_crisis_in_the_factories
+		icon = GFX_goal_factory_complex
+		cost = 2
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_establish_the_IMI }
+		x = 4
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_is_it_over
+		icon = GFX_generic_End_of_Depression
+		cost = 0
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = ITA_pranked_1_tt	
+				always = no
+			}
+		}
+		completion_reward = {
+			custom_effect_tooltip = ITA_pranked_2_tt
+		}
+		relative_position_id = ITA_crisis_in_the_banks
+		prerequisite = { focus = ITA_crisis_in_the_steel_industry }
+		prerequisite = { focus = ITA_crisis_in_hydroelectrics }
+		prerequisite = { focus = ITA_crisis_in_the_shipyards }
+		prerequisite = { focus = ITA_crisis_in_agriculture }
+		prerequisite = { focus = ITA_crisis_in_the_factories }
+		x = 0
+		y = 5
+	}
+	
+	##########################
+	## Post-Civil War Trees ##
+	##########################
+	
+	focus = {
+		id = ITA_civil_war_victory
+		icon = GFX_Italian_Uprising
+		available = { 
+			always = no
+		}
+		allow_branch = {
+			has_global_flag = ITA_civil_war_over
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		x = 10
+		y = 8
+	}
+	
+	focus = {
+		id = ITA_democracy_restored
+		icon = GFX_KTG_Elections
+		available = { 
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_civil_war_victory
+		prerequisite = { focus = ITA_civil_war_victory }
+		x = 0
+		y = 1
+	}
+	
+	###National Democratic Alliance Tree###
+	
+	focus = {
+		id = ITA_national_democratic_alliance
+		icon = GFX_ITA_National_Democratic_Alliance
+		available = { 
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_democracy_restored
+		prerequisite = { focus = ITA_democracy_restored }
+		x = -12
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_prime_minister_bonomi
+		icon = GFX_ITA_Bonomi
+		available = {
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_national_democratic_alliance
+		prerequisite = { focus = ITA_national_democratic_alliance }
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_prime_minister_nitti
+		icon = GFX_ITA_Nitti
+		available = {
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_national_democratic_alliance
+		prerequisite = { focus = ITA_national_democratic_alliance }
+		x = 2
+		y = 1
+	}
+	
+	###Liberal Union Tree###
+	
+	focus = {
+		id = ITA_liberal_union
+		icon = GFX_ITA_Liberal_Union
+		available = { 
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_democracy_restored
+		prerequisite = { focus = ITA_democracy_restored }
+		x = 0
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_prime_minister_orlando
+		icon = GFX_ITA_Orlando
+		available = {
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_liberal_union
+		prerequisite = { focus = ITA_liberal_union }
+		x = -2
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_prime_minister_de_nicola
+		icon = GFX_ITA_De_Nicola
+		available = {
+			always = no
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_liberal_union
+		prerequisite = { focus = ITA_liberal_union }
+		x = 2
+		y = 1
+	}
+	
+	###Catholic Action Tree###
+	
+	focus = {
+		id = ITA_catholic_action
+		icon = GFX_ITA_Catholic_Action
+		available = { 
+			always = no
+		}
+		cost = 0
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_democracy_restored
+		prerequisite = { focus = ITA_democracy_restored }
+		x = 12
+		y = 1
+	}
+	
+	#Ferrari Path - Catholic Left#
+	
+	focus = {
+		id = ITA_prime_minister_ferrari
+		icon = GFX_ITA_Ferrari
+		available = {
+			always = no
+		}
+		cost = 0
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_catholic_action }
+		x = -3
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_CA_trial_of_the_militarists
+		icon = GFX_goal_generic_imprison_people
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_prime_minister_ferrari }
+		x = -4
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_CA_agrarian_reform_in_south
+		icon = GFX_ITA_Agrarian_Reform
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_trial_of_the_militarists }
+		x = -3
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_CA_uphold_class_collaborationism
+		icon = GFX_Room_Meeting
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_trial_of_the_militarists }
+		x = -5
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_CA_ethical_private_industry
+		icon = GFX_BEL_Catholic_Construction
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_agrarian_reform_in_south }
+		x = -3
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_CA_both_secularism_and_christianity
+		icon = GFX_Secularism
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_uphold_class_collaborationism }
+		x = -5
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_CA_the_popular_democratic_vision
+		icon = GFX_ITA_Popular_Democracy
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_both_secularism_and_christianity }
+		prerequisite = { focus = ITA_CA_ethical_private_industry }
+		x = -4
+		y = 5
+	}
+	
+	focus = {
+		id = ITA_CA_the_constitutional_reform
+		icon = GFX_ITA_Constitutional_Reform
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		mutually_exclusive = { focus = ITA_CA_the_secret_agreement }
+		prerequisite = { focus = ITA_CA_the_popular_democratic_vision }
+		x = -3
+		y = 6
+	}
+	
+	#De Gasperi Path - Catholic Right#
+	
+	focus = {
+		id = ITA_prime_minister_de_gasperi
+		icon = GFX_ITA_De_Gasperi
+		available = {
+			always = no
+		}
+		cost = 5
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_catholic_action }
+		x = 3
+		y = 1
+	}
+	
+	focus = {
+		id = ITA_CA_ties_with_the_vatican
+		icon = GFX_goal_accord_with_pope
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_prime_minister_de_gasperi }
+		x = 4
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_CA_autonomy_for_south_tyrol
+		icon = GFX_ITA_South_Tyrol
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_ties_with_the_vatican }
+		x = 5
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_CA_the_move_towards_regionalism
+		icon = GFX_ITA_Regionalism
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_autonomy_for_south_tyrol }
+		x = 5
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_CA_loans_for_construction_entrepreneurs
+		icon = GFX_goal_generic_build_housing
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_ties_with_the_vatican }
+		x = 3
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_CA_funds_for_the_industrialists
+		icon = GFX_Industrial_Progress
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_loans_for_construction_entrepreneurs }
+		x = 3
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_CA_the_christian_democratic_vision
+		icon = GFX_ITA_Christian_Democracy
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		prerequisite = { focus = ITA_CA_funds_for_the_industrialists }
+		prerequisite = { focus = ITA_CA_the_move_towards_regionalism }
+		relative_position_id = ITA_catholic_action
+		x = 4
+		y = 5
+	}
+	
+	focus = {
+		id = ITA_CA_the_secret_agreement
+		icon = GFX_ITA_Secret_Agreement
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		mutually_exclusive = { focus = ITA_CA_the_constitutional_reform }
+		prerequisite = { focus = ITA_CA_the_christian_democratic_vision }
+		x = 3
+		y = 6
+	}
+	
+	#General Tree#
+	
+	focus = {
+		id = ITA_CA_restructure_the_tax_code
+		icon = GFX_Expand_the_Topke_System
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_prime_minister_de_gasperi focus = ITA_prime_minister_ferrari }
+		x = -2
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_CA_healthcare_reforms
+		icon = GFX_ITA_Healthcare_Insurance
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_prime_minister_de_gasperi focus = ITA_prime_minister_ferrari }
+		x = 0
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_CA_reforms_in_the_justice_system
+		icon = GFX_End_Judicial_Corruption
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_prime_minister_de_gasperi focus = ITA_prime_minister_ferrari }
+		x = 2
+		y = 2
+	}
+	
+	focus = {
+		id = ITA_CA_confederation_of_workers
+		icon = GFX_Christian_Trade_Unions
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_restructure_the_tax_code }
+		prerequisite = { focus = ITA_CA_healthcare_reforms}
+		prerequisite = { focus = ITA_CA_reforms_in_the_justice_system }
+		x = -1
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_CA_establish_housing_fund
+		icon = GFX_goal_generic_construct_public_housing
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_restructure_the_tax_code }
+		prerequisite = { focus = ITA_CA_healthcare_reforms}
+		prerequisite = { focus = ITA_CA_reforms_in_the_justice_system }
+		x = 1
+		y = 3
+	}
+	
+	focus = {
+		id = ITA_CA_an_end_to_protectionism
+		icon = GFX_goal_generic_positive_trade_relations_gold
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_confederation_of_workers }
+		prerequisite = { focus = ITA_CA_establish_housing_fund }
+		x = 0
+		y = 4
+	}
+	
+	focus = {
+		id = ITA_CA_establish_compulsory_education
+		icon = GFX_Compulsory_Education
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_an_end_to_protectionism }
+		x = -1
+		y = 5
+	}
+	
+	focus = {
+		id = ITA_CA_subsidies_for_parents
+		icon = GFX_goal_generic_loans
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_an_end_to_protectionism }
+		x = 1
+		y = 5
+	}
+	
+	focus = {
+		id = ITA_CA_fulfillment_of_the_malines_code
+		icon = GFX_Catholic_2
+		available = {
+			has_government = social_conservative
+		}
+		cost = 5
+		ai_will_do = {
+			factor = 80
+		}
+		completion_reward = {
+		}
+		relative_position_id = ITA_catholic_action
+		prerequisite = { focus = ITA_CA_the_secret_agreement focus = ITA_CA_the_constitutional_reform }
+		prerequisite = { focus = ITA_CA_subsidies_for_parents }
+		prerequisite = { focus = ITA_CA_establish_compulsory_education }
+		x = 0
+		y = 7
+	}
+	
+	###################
+	## Military Tree ##
+	###################
+	
+	focus = {
+		id = ITA_lessons_from_the_civil_war
+		icon = GFX_Italy_Must_Die
+		cost = 5
+		available = {
+			always = no
+		}
+		ai_will_do = {
+			factor = 40
+		}
+		completion_reward = {
+			custom_effect_tooltip = Bypass_tt
+		}
+		x = 35
+		y = 0
+	}
+
+}

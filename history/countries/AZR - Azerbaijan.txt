@@ -1,0 +1,45 @@
+﻿capital = 229
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.5
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_indzing
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = AZR_mahammad_amin_rasulzade
+
+### Starting Tech ###
+set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
+}
+
+### Politics ###
+
+set_politics = {
+	ruling_party = liberal_conservative
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 40
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 15
+    social_liberal = 0
+    liberal_conservative = 35
+    social_conservative = 0
+    authoritarian_conservative = 0
+    right_wing_populist = 10
+    national_syndicalist = 0
+    national_corporatist = 0
+}

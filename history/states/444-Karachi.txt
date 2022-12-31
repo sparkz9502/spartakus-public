@@ -1,0 +1,32 @@
+
+state={
+	id=444
+	name="STATE_444"
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		add_core_of = WTH
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			8066 2 
+		}
+		victory_points = {
+			12774 2 
+		}
+		victory_points = {
+			15296 5 
+		}
+
+	}
+
+	provinces={
+		1179 7917 12774 15043 15103 15296 15297 15402 
+	}
+	manpower=303000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

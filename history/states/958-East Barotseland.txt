@@ -1,0 +1,25 @@
+
+state={
+	id=958
+	name="STATE_958"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			13954 1 
+		}
+
+	}
+
+	provinces={
+		10538 13647 13941 13945 13946 13953 13954 13959 
+	}
+	manpower=200375
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

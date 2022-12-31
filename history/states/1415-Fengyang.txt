@@ -1,0 +1,24 @@
+
+state={
+	id=1415
+	name="STATE_1415"
+	provinces={
+		1161 10040 11916 11973 
+	}
+	history={
+		owner = SHA
+		add_core_of = SHA
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			11916 2 
+		}
+
+	}
+	manpower=4164500
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

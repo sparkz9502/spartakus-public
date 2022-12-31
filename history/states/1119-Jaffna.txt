@@ -1,0 +1,30 @@
+
+state={
+	id=1119
+	name="STATE_1119"
+
+	history={
+		owner = CEY
+		add_core_of = CEY
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+			10201 = {
+				naval_base = 5
+
+			}
+
+		}
+		victory_points = {
+			10201 4 
+		}
+
+	}
+
+	provinces={
+		7344 10201 10287 
+	}
+	manpower=763400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

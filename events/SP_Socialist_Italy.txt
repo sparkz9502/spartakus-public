@@ -1,0 +1,44 @@
+﻿###########################
+# Socialist Italy Events
+###########################
+# By sparkz
+###########################
+
+add_namespace = sri
+add_namespace = srifoc
+add_namespace = sripol
+add_namespace = srifor
+add_namespace = sriflv
+
+###########################
+# Socialist Italian Focus Events
+###########################
+
+country_event = {
+	id = srifoc.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srifoc.1"}
+	title = srifoc.1.t
+	desc = srifoc.1.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+
+	option = {
+		name = srifoc.1.a
+	}
+	option = {
+		name = srifoc.1.b
+	}
+}
+
+###########################
+# Socialist Italian Flavor Events
+###########################
+
+###########################
+# Socialist Italian Political Events
+###########################
+
+###########################
+# Socialist Italian Foreign Events
+###########################

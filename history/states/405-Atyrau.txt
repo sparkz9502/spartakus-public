@@ -1,0 +1,32 @@
+
+state={
+	id=405
+	name="STATE_405"
+	resources={
+		raremetals=2.000
+	}
+
+	history={
+		owner = SOV
+		victory_points = {
+			1573 3 
+		}
+		victory_points = {
+			10671 2 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = SOV
+		add_core_of = TRK
+
+	}
+
+	provinces={
+		1554 1573 1623 1649 4629 7501 7639 7641 7775 8099 10348 10470 10485 10671 
+	}
+	manpower=1737000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,9 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			OTT = {
+				country_event = { id = ott.1 days = 1 }
+			}
+		}
+    }
+}

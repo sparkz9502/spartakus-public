@@ -1,0 +1,191 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### BUR
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_BUR_U_Nu_hog_rev"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_Nu.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_Ottoma_hog_rev"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_Ottoma.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Pe_Maung_Tin_hog_sde"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Pe_Maung_Tin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Saw_Ba_U_Gyi_hog_sli"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Saw_Ba_U_Gyi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_May_Aung_hog_sco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_May_Aung.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_Saw_hog_sco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_Saw.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_Chit_Hlaing_hog_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_Chit_Hlaing.tga"
+}
+
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_BUR_Aung_San_for_rev"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Aung_San.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_Thant_for_lco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_Thant.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Maung_Gyi_for_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Maung_Gyi.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_San_C_Po_for_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_San_C_Po.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_Chit_Hlaing_for_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_Chit_Hlaing.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_BUR_Ba_Win_eco_rev"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Ba_Win.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Mahn_Ba_Khaing_eco_rev"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Mahn_Ba_Khaing.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Bo_Let_Ya_eco_sde"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Bo_Let_Ya.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_U_May_Aung_eco_sco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_U_May_Aung.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Ba_Maw_eco_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Ba_Maw.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Lim_Chin_Tsong_eco_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Lim_Chin_Tsong.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_BUR_Thakin_Mya_sec_spa"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Thakin_Mya.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Po_Kya_sec_sli"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Po_Kya.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Saw_Hka_Nan_sec_lco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Saw_Hka_Nan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Sao_San_Tun_sec_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Sao_San_Tun.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Saw_Durmay_sec_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Saw_Durmay.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Thakin_Kodaw_Hmaing_sec_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Thakin_Kodaw_Hmaing.tga"
+}
+
+
+#Intel Minister
+spriteType = {
+	name = "GFX_idea_BUR_Abdul_Razak_def_rev"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Abdul_Razak.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Sao_Saimong_def_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Sao_Saimong.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Sao_Yang_Wen_Pin_def_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Sao_Yang_Wen_Pin.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Saya_Gyi_U_Ba_Khin_def_aco"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Saya_Gyi_U_Ba_Khin.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_BUR_Thakin_Soe_cos"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Thakin_Soe.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Sao_Yang_Wen_Pin_cos"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Sao_Yang_Wen_Pin.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_BUR_Than_Tun_carm"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Than_Tun.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BUR_Sao_Kawng_Kiao_Intaleng_carm"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Sao_Kawng_Kiao_Intaleng.tga"
+}
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_BUR_Sao_Shwe_Thaik_cnav"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Sao_Shwe_Thaik.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_BUR_Hmu_Aung_cair"
+	texturefile = "gfx/interface/ministers/BUR/BUR_Hmu_Aung.tga"
+}
+}

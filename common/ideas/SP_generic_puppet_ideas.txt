@@ -1,0 +1,141 @@
+### UK ideas
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		# Communist
+		SP_Puppet_Communist_militias_lenin_idea = {
+			modifier = {
+				bolshevist_drift = 0.025
+				spartacist_drift = 0.01
+				revolutionary_socialist_drift = 0.01
+				reformist_socialist_drift = 0.01
+			}
+			cancel = { bolshevist > 0.45 }
+			picture = GFX_idea_generic_communist_army
+		}
+		SP_Puppet_Communist_militias_marx_idea = {
+			modifier = {
+				spartacist_drift = 0.025
+				bolshevist_drift = 0.01
+				revolutionary_socialist_drift = 0.01
+				reformist_socialist_drift = 0.01
+			}
+			cancel = { spartacist > 0.45 }
+			picture = GFX_idea_generic_communist_army
+		}
+		SP_Puppet_Communist_militias_revsoc_idea = {
+			modifier = {
+				revolutionary_socialist_drift = 0.025
+				bolshevist_drift = 0.01
+				spartacist_drift = 0.01
+				reformist_socialist_drift = 0.01
+			}
+			cancel = { revolutionary_socialist > 0.45 }
+			picture = GFX_idea_generic_communist_army
+		}
+		SP_Puppet_Communist_militias_demsoc_idea = {
+			modifier = {
+				reformist_socialist_drift = 0.025
+				bolshevist_drift = 0.01
+				spartacist_drift = 0.01
+				revolutionary_socialist_drift = 0.01
+			}
+			cancel = { reformist_socialist > 0.45 }
+			picture = GFX_idea_generic_communist_army
+		}
+		SP_Puppet_Communist_land_reform_idea = {
+			modifier = {
+				political_power_gain = 0.10
+				global_building_slots_factor = 0.15
+			}
+			picture = GFX_idea_generic_agrarian_reform
+		}
+		SP_Puppet_Communist_expropriate_private_property_idea = {
+			modifier = {
+				consumer_goods_factor = -0.10
+				production_speed_buildings_factor = 0.10
+			}
+			picture = GFX_idea_economic_control_icon
+		}
+		
+		#Fascist
+		SP_Puppet_rightwing_militias_authdem_idea = {
+			modifier = {
+				authoritarian_conservative_drift = 0.025
+				right_wing_populist_drift = 0.01
+				national_syndicalist_drift = 0.01
+				national_corporatist_drift = 0.01
+			}
+			cancel = { authoritarian_conservative > 0.45 }
+			picture = GFX_idea_generic_manpower_bonus
+		}
+		SP_Puppet_rightwing_militias_rwpop_idea = {
+			modifier = {
+				right_wing_populist_drift = 0.025
+				authoritarian_conservative_drift = 0.01
+				national_syndicalist_drift = 0.01
+				national_corporatist_drift = 0.01
+			}
+			cancel = { right_wing_populist > 0.45 }
+			picture = GFX_idea_generic_manpower_bonus
+		}
+		SP_Puppet_rightwing_militias_natsyn_idea = {
+			modifier = {
+				national_syndicalist_drift = 0.025
+				authoritarian_conservative_drift = 0.01
+				right_wing_populist_drift = 0.01
+				national_corporatist_drift = 0.01
+			}
+			cancel = { national_syndicalist > 0.45 }
+			picture = GFX_idea_generic_manpower_bonus
+		}
+		SP_Puppet_rightwing_militias_natcorp_idea = {
+			modifier = {
+				national_corporatist_drift = 0.025
+				authoritarian_conservative_drift = 0.01
+				right_wing_populist_drift = 0.01
+				national_syndicalist_drift = 0.01
+			}
+			cancel = { national_corporatist > 0.45 }
+			picture = GFX_idea_generic_manpower_bonus
+		}
+		SP_Puppet_Fascist_subjugated_economy_idea = {
+			modifier = {
+				consumer_goods_factor = -0.05
+				production_factory_max_efficiency_factor = 0.10
+				political_power_gain = 0.05
+			}
+			picture = GFX_idea_state_economy
+		}
+		
+		# Liberal
+		SP_Puppet_Liberal_police_force_idea = {
+			modifier = {
+				stability_factor = 0.025
+				social_democrat_drift = 0.01
+				social_liberal_drift = 0.01
+				liberal_conservative_drift = 0.01
+				social_conservative_drift = 0.01
+			}
+			cancel = {
+				OR = {
+					social_democrat > 0.40
+					social_liberal > 0.40
+					liberal_conservative > 0.40
+					social_conservative > 0.40
+				}
+			}
+			picture = GFX_idea_generic_reserve_divisions
+		}
+		SP_Puppet_Liberal_economy_idea = {
+			modifier = {
+				production_factory_max_efficiency_factor = 0.15
+				industrial_capacity_factory = 0.075
+			}
+			picture = GFX_idea_generic_trade
+		
+	}
+}

@@ -1,0 +1,27 @@
+### Wuhan ideas ###
+
+ideas = {
+
+# Country ideas
+
+	country = {
+		CHI_tariff_barrier = {
+			modifier = {
+			production_speed_industrial_complex_factor = 0.15
+			production_speed_buildings_factor = 0.15
+			industrial_capacity_factory = -0.1
+			production_factory_efficiency_gain_factor = -0.1
+			}
+			#picture = Great_Revolution
+		}
+		CHI_negotiated_tariffs = {
+			modifier = {
+			production_factory_efficiency_gain_factor = 0.1
+			industrial_capacity_factory = 0.1
+			production_speed_industrial_complex_factor = -0.15
+			production_speed_buildings_factor = -0.15
+			}
+			#picture = Red_Militia
+		}
+		}
+	}

@@ -1,0 +1,232 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### BOS
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_BOS_Djuro_Pucar_hog_spa"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Djuro_Pucar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Mehmed_Spaho_hog_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Mehmed_Spaho.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Vladimir_Corovic_hog_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Vladimir_Corovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Vladimir_Laxa_hog_aco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Vladimir_Laxa.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Dzafer_beg_Kulenovic_hog_rwp"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Dzafer_beg_Kulenovic.tga"
+}
+
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_BOS_Veselin_Maslesa_for_spa"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Veselin_Maslesa.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Ivo_Andric_for_sli"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Ivo_Andric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Dzemaludin_ef_Causevic_for_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Dzemaludin_ef_Causevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Jovan_Ducic_for_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Jovan_Ducic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Dzafer_beg_Kulenovic_for_rwp"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Dzafer_beg_Kulenovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Mehmed_Alajbegovic_for_nsy"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Mehmed_Alajbegovic.tga"
+}
+
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_BOS_Avdo_Humo_eco_spa"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Avdo_Humo.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Dimitrije_Mitrinovic_eco_lco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Dimitrije_Mitrinovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Barisa_Smoljan_eco_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Barisa_Smoljan.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Mehmed_Spaho_eco_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Mehmed_Spaho.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Osman_Vilovic_eco_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Osman_Vilovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Nikola_Mandic_eco_rwp"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Nikola_Mandic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Nesad_Topcic_eco_nsy"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Nesad_Topcic.tga"
+}
+
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_BOS_Dzemal_Bijedic_sec_spa"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Dzemal_Bijedic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Nurija_Pozderac_sec_sde"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Nurija_Pozderac.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Ivo_Andric_sec_sli"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Ivo_Andric.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Danilo_Dimovic_sec_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Danilo_Dimovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Fehim_ef_Spaho_sec_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Fehim_ef_Spaho.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Halid_beg_Hrasnica_sec_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Halid_beg_Hrasnica.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Ibrahim_ef_Fejic_sec_sco"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Ibrahim_ef_Fejic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Hakija_Hadzic_sec_nsy"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Hakija_Hadzic.tga"
+}
+
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_BOS_Rodoljub_Colakovic_def_spa"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Rodoljub_Colakovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Ibrahim_Pjanic_def_rwp"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Ibrahim_Pjanic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Muhamed_Hadziefendic_def_rwp"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Muhamed_Hadziefendic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Hakija_Hadzic_def_nsy"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Hakija_Hadzic.tga"
+}
+
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_BOS_Sulejman_Filipovic_cos"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Sulejman_Filipovic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Ibrahim_Pjanic_cos"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Ibrahim_Pjanic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Ivan_Markulj_cos"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Ivan_Markulj.tga"
+}
+
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_BOS_Vlado_Segrt_carm"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Vlado_Segrt.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Georg_Dragicevic_carm"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Georg_Dragicevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Muhamed_Hadziefendic_carm"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Muhamed_Hadziefendic.tga"
+}
+
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_BOS_Josip_Mazar_cnav"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Josip_Mazar.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Georg_Dragicevic_cnav"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Georg_Dragicevic.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Muhamed_Hadziefendic_cnav"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Muhamed_Hadziefendic.tga"
+}
+
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_BOS_Rudi_Cajavec_cair"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Rudi_Cajavec.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Franjo_Dzal_cair"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Franjo_Dzal.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_BOS_Cvitan_Galic_cair"
+	texturefile = "gfx/interface/ministers/BOS/BOS_Cvitan_Galic.tga"
+}
+}

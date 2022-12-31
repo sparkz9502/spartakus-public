@@ -1,0 +1,20 @@
+
+state={
+	id=546
+	name="STATE_546"
+
+	history={
+		owner = SPR
+		add_core_of = SPR
+		buildings = {
+			infrastructure = 2
+		}
+	}
+
+	provinces={
+		798 948 3909 3954 7213 9812 11737 
+	}
+	manpower=252800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

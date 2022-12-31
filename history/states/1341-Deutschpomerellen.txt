@@ -1,0 +1,23 @@
+
+state={
+	id=1341
+	name="STATE_1341"
+	provinces={
+		9252 11260 11288 
+	}
+	history={
+		owner = GER
+		add_core_of = GER
+		buildings = {
+			infrastructure = 3
+
+		}
+		victory_points = {
+			9252 1
+		}
+
+	}
+	manpower=301100
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

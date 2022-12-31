@@ -1,0 +1,18 @@
+on_actions = {
+	on_startup = {
+        effect = {
+			ENG = {
+				# Intro event
+				country_event = { id = uk.0 hours = 6 }
+				# News - CPGB on Burmese Revolt
+				news_event = { id = uknews.1 days = 9 }
+			}
+			IRE = {
+				# Intro event
+				country_event = { id = ire.0 hours = 6 }
+				# Decennial of Bloody Saturday
+				country_event = { id = ire.1 days = 14 }
+			}
+        }
+	}
+}

@@ -1,0 +1,21 @@
+state={
+	id=1355
+	name="STATE_1355"
+	provinces={
+		6580 9452 11399 11466 
+	}
+
+	history={
+		owner = PGA
+		add_core_of = PGA
+		#add_core_of = UKR
+		victory_points = { 9452 5 }
+		victory_points = { 11399 3 }
+		buildings = {
+			infrastructure = 2
+		}
+	}
+	manpower=1042900
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

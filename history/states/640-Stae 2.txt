@@ -1,0 +1,29 @@
+
+state={
+	id=640
+	name="STATE_640"
+
+	history={
+		owner = RAJ
+		add_core_of = BMR
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			1492 7 
+		}
+		victory_points = {
+			12256 2 
+		}
+
+	}
+
+	provinces={
+		1492 4202 4626 12404 12449 
+	}
+	manpower=1696300
+	buildings_max_level_factor=1.000
+	state_category=town
+}

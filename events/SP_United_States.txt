@@ -1,0 +1,522 @@
+﻿###########################
+# USA Events
+###########################
+
+add_namespace = ustates # Base American Events
+
+# 1932 Democratic Convention
+country_event = {
+	id = ustates.1
+	title = ustates.1.t
+	desc = ustates.1.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	# Al Smith
+	option = {
+		name = ustates.1.a
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		set_country_flag = alfred_smith_democrat_1932
+	}
+	
+	# Henry Ford
+	option = {
+		name = ustates.1.b
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		set_country_flag = henry_ford_democrat_1932
+	}
+}
+
+# 1932 Republican Convention - Hoover/Progressive Agreement
+country_event = {
+	id = ustates.2
+	title = ustates.2.t
+	desc = ustates.2.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Hoover compromises w/ Progressives
+	option = {
+		name = ustates.2.a
+		
+		ai_chance = {
+			factor = 50
+		}	
+		
+		set_country_flag = herbert_hoover_compromises
+		
+		hidden_effect = {
+			country_event = { id = ustates.7 days = 10 }
+		}
+	}
+	
+	# Hoover rejects compromise
+	option = {
+		name = ustates.2.b
+		
+		ai_chance = {
+			factor = 50
+		}	
+		
+		set_country_flag = herbert_hoover_rejects_compromise
+	}
+}
+
+# 1932 Republican Convention - Actual
+country_event = {
+	id = ustates.3
+	title = ustates.3.t
+	desc = ustates.3.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Herbert Hoover
+	option = {
+		name = ustates.3.a
+		
+		ai_chance = {
+			factor = 60
+		}
+		
+		set_country_flag = herbert_hoover_republican_1932
+		
+		hidden_effect = {
+			if = {
+				limit = {
+					has_country_flag = herbert_hoover_rejects_compromise
+				}
+				country_event = { id = ustates.6 days = 30 }
+			}
+		}
+	}
+	
+	# George Norris
+	option = {
+		trigger = {
+			has_country_flag = herbert_hoover_rejects_compromise
+		}
+		
+		name = ustates.3.b
+		
+		ai_chance = {
+			factor = 30
+		}
+		
+		set_country_flag = george_norris_republican_1932
+		
+		hidden_effect = {
+			country_event = { id = ustates.8 days = 30 }
+		}
+	}
+	
+	# Joseph France
+	option = {
+		trigger = {
+			has_country_flag = herbert_hoover_rejects_compromise
+		}
+		
+		name = ustates.3.c
+		
+		ai_chance = {
+			factor = 10
+		}
+		
+		set_country_flag = joseph_france_republican_1932
+		
+		hidden_effect = {
+			country_event = { id = ustates.8 days = 30 }
+		}
+	}
+}
+
+# 1932 Presidential Election
+country_event = {
+	id = ustates.4
+	title = ustates.4.t
+	desc = ustates.4.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Herbert Hoover
+	option = {
+		trigger = {
+			has_country_flag = herbert_hoover_republican_1932
+		}
+		
+		name = ustates.4.a
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.01
+		}
+		
+		set_country_flag = herbert_hoover_wins_1932
+	}
+	
+	# George Norris
+	option = {
+		trigger = {
+			has_country_flag = george_norris_republican_1932
+		}
+		
+		name = ustates.4.b
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.01
+		}
+		
+		set_country_flag = george_norris_wins_1932
+	}
+	
+	# Joseph France
+	option = {
+		trigger = {
+			has_country_flag = joseph_france_republican_1932
+		}
+		
+		name = ustates.4.c
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.01
+		}
+		
+		set_country_flag = joseph_france_wins_1932
+	}
+	
+	# Henry Ford
+	option = {
+		trigger = {
+			has_country_flag = henry_ford_democrat_1932
+		}
+		
+		name = ustates.4.e
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.01
+		}
+		
+		set_country_flag = henry_ford_wins_1932
+		
+	}
+	
+	# Alfred Smith
+	option = {
+		trigger = {
+			has_country_flag = alfred_smith_democrat_1932
+		}
+		
+		name = ustates.4.f
+		
+		ai_chance = {
+			factor = 50
+		}
+		
+		add_popularity = {
+			ideology = social_conservative
+			popularity = 0.01
+		}
+		
+		set_country_flag = alfred_smith_wins_1932
+	}
+}
+
+# 1932 Inauguration
+country_event = {
+	id = ustates.5
+	title = ustates.5.t
+	desc = ustates.5.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	# Herbert Hoover
+	option = {
+		name = ustates.5.a
+	
+		trigger = {
+			has_country_flag = herbert_hoover_wins_1932
+		}
+	}
+	
+	# George Norris
+	option = {
+		name = ustates.5.b
+		
+		trigger = {
+			has_country_flag = george_norris_wins_1932
+		}
+		
+		retire_country_leader = yes
+		
+		create_country_leader = {
+			name = "George Norris"
+			desc = "POLITICS_GEORGE_NORRIS_DESC"
+			picture = "Portrait_George_Norris.dds"
+			expire = "1965.1.1"
+			ideology = national_liberalism
+		}
+		
+		hidden_effect = {
+			remove_ideas_with_trait = head_of_government
+			remove_ideas_with_trait = minister_without_portfolio
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economy_minister
+			remove_ideas_with_trait = security_minister
+			remove_ideas_with_trait = education_minister
+			remove_ideas_with_trait = agriculture_minister
+			remove_ideas_with_trait = transport_minister
+			remove_ideas_with_trait = defence_minister
+		}
+				
+		add_ideas = {
+			USA_Joseph_France_hog_sli
+			USA_Walter_Brown_mwp_lco
+			USA_Henry_Stimson_for_lco
+			USA_Charles_Dawes_eco_lco
+			USA_Albert_Ottinger_sec_lco
+			USA_Arthur_Hyde_agr_lco
+			USA_Bronson_Cutting_tra_sli
+			USA_Patrick_Hurley_def_lco
+			USA_John_Studebaker_edu_sli
+		}
+	}
+	
+	# Joseph France
+	option = {
+		name = ustates.5.c
+	
+		trigger = {
+			has_country_flag = joseph_france_wins_1932
+		}
+		
+		retire_country_leader = yes
+		
+		create_country_leader = {
+			name = "Joseph France"
+			desc = "POLITICS_JOSEPH_FRANCE_DESC"
+			picture = "Portrait_Joseph_France.dds"
+			expire = "1965.1.1"
+			ideology = national_liberalism
+		}
+		
+		hidden_effect = {
+			remove_ideas_with_trait = head_of_government
+			remove_ideas_with_trait = minister_without_portfolio
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economy_minister
+			remove_ideas_with_trait = security_minister
+			remove_ideas_with_trait = education_minister
+			remove_ideas_with_trait = agriculture_minister
+			remove_ideas_with_trait = transport_minister
+			remove_ideas_with_trait = defence_minister
+		}
+				
+		add_ideas = {
+			USA_George_Norris_hog_sli
+			USA_Walter_Brown_mwp_lco
+			USA_Henry_Stimson_for_lco
+			USA_Charles_Dawes_eco_lco
+			USA_Albert_Ottinger_sec_lco
+			USA_Arthur_Hyde_agr_lco
+			USA_Bronson_Cutting_tra_sli
+			USA_Patrick_Hurley_def_lco
+			USA_John_Studebaker_edu_sli
+		}
+	}
+	
+	# Henry Ford
+	option = {
+		name = ustates.5.e
+	
+		trigger = {
+			has_country_flag = henry_ford_wins_1932
+		}
+		
+		set_politics = {
+			ruling_party = social_conservative
+		}
+		
+		hidden_effect = {
+			remove_ideas_with_trait = head_of_government
+			remove_ideas_with_trait = minister_without_portfolio
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economy_minister
+			remove_ideas_with_trait = security_minister
+			remove_ideas_with_trait = education_minister
+			remove_ideas_with_trait = agriculture_minister
+			remove_ideas_with_trait = transport_minister
+			remove_ideas_with_trait = defence_minister
+		}
+		
+		add_ideas = {
+			USA_James_Reed_hog_sco
+			USA_James_Farley_mwp_sco
+			USA_Cordell_Hull_for_sco
+			USA_Daniel_Roper_eco_sco
+			USA_Homer_Cummings_sec_sco
+			USA_Josiah_Bailey_agr_sco
+			USA_Jesse_Jones_tra_sco
+			USA_Harry_Woodring_def_sco
+			USA_John_Studebaker_edu_sli
+		}
+	}
+	
+	# Alfred Smith
+	option = {
+		name = ustates.5.f
+	
+		trigger = {
+			has_country_flag = alfred_smith_wins_1932
+		}
+		
+		set_politics = {
+			ruling_party = social_conservative
+		}
+
+		retire_country_leader = yes
+		
+		create_country_leader = {
+			name = "Alfred Smith"
+			desc = "POLITICS_ALFRED_SMITH_DESC"
+			picture = "Portrait_Alfred_Smith.dds"
+			expire = "1965.1.1"
+			ideology = traditional_conservatism
+		}
+		
+		hidden_effect = {
+			remove_ideas_with_trait = head_of_government
+			remove_ideas_with_trait = minister_without_portfolio
+			remove_ideas_with_trait = foreign_minister
+			remove_ideas_with_trait = economy_minister
+			remove_ideas_with_trait = security_minister
+			remove_ideas_with_trait = education_minister
+			remove_ideas_with_trait = agriculture_minister
+			remove_ideas_with_trait = transport_minister
+			remove_ideas_with_trait = defence_minister
+		}
+				
+		add_ideas = {
+			USA_Joseph_Robinson_hog_sco
+			USA_James_Farley_mwp_sco
+			USA_Cordell_Hull_for_sco
+			USA_Daniel_Roper_eco_sco
+			USA_Homer_Cummings_sec_sco
+			USA_Josiah_Bailey_agr_sco
+			USA_Henry_Ford_tra_sco
+			USA_Harry_Woodring_def_sco
+			USA_John_Studebaker_edu_sli
+		}
+	}
+}
+
+# 1932 Elections - Progressives Abandon GOP
+country_event = {
+	id = ustates.6
+	title = ustates.6.t
+	desc = ustates.6.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ustates.6.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = social_liberal
+			popularity = 0.04
+		}
+	}
+}
+
+# 1932 Elections - Progressives Back Hoover
+country_event = {
+	id = ustates.7
+	title = ustates.7.t
+	desc = ustates.7.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ustates.7.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = 0.01
+		}
+	}
+}
+
+# 1932 Elections - Internal Divisions in GOP
+country_event = {
+	id = ustates.8
+	title = ustates.8.t
+	desc = ustates.8.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ustates.8.a
+		add_popularity = {
+			ideology = liberal_conservative
+			popularity = -0.01
+		}
+	}
+}
+
+# Concerning Harvests (1932)
+country_event = {
+	id = ustates.9
+	title = ustates.9.t
+	desc = ustates.9.d
+	picture = GFX_report_event_election_vote
+	
+	fire_only_once = yes
+	is_triggered_only = yes
+	
+	option = {
+		name = ustates.9.a
+	}
+}

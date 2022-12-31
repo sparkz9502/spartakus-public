@@ -1,0 +1,34 @@
+
+state={
+	id=1110
+	name="STATE_1110"
+	resources={
+		raremetals=18.000
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = RAJ
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			4062 5 
+		}
+		victory_points = {
+			4204 1 
+		}
+		victory_points = {
+			10088 10 
+		}
+
+	}
+
+	provinces={
+		4104 10088 10116 12063 
+	}
+	manpower=5300000
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

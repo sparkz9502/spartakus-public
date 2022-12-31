@@ -1,0 +1,32 @@
+
+state={
+	id=595
+	name="STATE_595"
+
+	history={
+		owner = NAN
+		add_core_of = NAN
+		victory_points = {
+			4196 10 
+		}
+		victory_points = {
+			10069 2 
+		}
+		victory_points = {
+			1094 2 
+		}
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 2
+
+		}
+
+	}
+
+	provinces={
+		1094 1166 4099 4169 4196 7027 10069 
+	}
+	manpower=4033100
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

@@ -1,0 +1,44 @@
+﻿########################
+## DIVISION TEMPLATES ##
+########################
+
+division_template = {
+	name = "Régiment de Tirailleurs Sénégalais"
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+	}
+	support = {
+	}
+	is_locked = yes
+}
+
+##############
+## LAND OOB ##
+##############
+
+units = {
+	division = {
+		name = "17ème Reg. de Tirailleurs Sénégalais"
+		location = 4111
+		division_template = "Régiment de Tirailleurs Sénégalais"
+		start_experience_factor = 0.1
+		start_equipment_factor = 0.8
+	}
+}
+
+#########################
+## STARTING PRODUCTION ##
+#########################
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SYR"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}

@@ -1,0 +1,10 @@
+on_actions = {
+    on_startup = {
+        effect = {
+			CRO = {
+				country_event = { id = illyria.1 }
+				country_event = { id = illyriatito.1 days = 5 }
+			}
+		}
+    }
+}

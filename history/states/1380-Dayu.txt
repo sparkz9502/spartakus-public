@@ -1,0 +1,25 @@
+state={
+	id=1380
+	name="STATE_1380"
+	provinces={
+		9970 
+	}
+	resources={
+		raremetals=57
+	}
+	history={
+		owner = CHI
+		add_core_of = CHI
+		victory_points = {
+			9970 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=144500
+	state_category = wasteland
+	buildings_max_level_factor=1.000
+}

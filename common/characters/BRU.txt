@@ -1,0 +1,16 @@
+characters={
+	BRU_ahmad_tajuddin={
+		name="Ahmad Tajuddin"
+		portraits={
+			civilian={
+				large="gfx/leaders/BRU/Portrait_Ahmad_Tajuddin.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AHMAD_TAJUDDIN_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

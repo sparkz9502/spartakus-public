@@ -1,0 +1,34 @@
+
+state={
+	id=1288
+	name="STATE_1288"
+
+	history={
+		owner = CAN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 1
+			12149 = {
+				naval_base = 2
+
+			}
+		}
+		add_core_of = CAN
+		#add_core_of = QUE
+		victory_points = {
+			12149 5 
+		}
+		victory_points = {
+			4769 1
+		}
+
+	}
+
+	provinces={
+		983 1356 4419 4769 7291 9601 12149 12223 13160 
+	}
+	manpower=380600
+	buildings_max_level_factor=1.000
+	state_category=town
+}

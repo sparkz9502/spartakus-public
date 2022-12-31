@@ -1,0 +1,56 @@
+﻿l_english:
+
+### Ideas ###
+RHI_French_Oversight:0 "French Oversight"
+RHI_French_Oversight_desc:0 "The French undeniably hold significant sway over our nation, if it can even be called that. They appoint the presidency and maintain significant influence in politics and the economy through the Inter-Allied Rhineland High Commission, which has been dominated by the French and their Belgian allies ever since the withdrawal of the British and Americans from our affairs. A large amount of our industry is under the control of foreign corporations or otherwise operates under significant French influence, leaving little under the control of Rhenish Germans. Additionally, the French have absolute authority over our foreign policy, making any sort of independent diplomacy impossible. There may be room in the future to negotiate these terms and expand our freedoms, but it is unknown to what extent."
+RHI_Military_Restrictions:0 "Military Restrictions"
+RHI_Military_Restrictions_desc:0 "As one of the preconditions for our limited autonomy the French have restricted our military to a small force of 30,000 soldiers organized in five ''Protection Divisions''. They are meant to function both as a wartime auxiliary defensive force and a domestic policing force, but their practical use is limited. If we wish to have a stake in the coming conflict and ensure our survival these restrictions must be lifted, but it will take some convincing to get the French to relent, who were already reluctant enough to allow the Baden-Württemberger army."
+RHI_Heirs_of_Weimar:0 "Heirs of Weimar"
+RHI_Heirs_of_Weimar_desc:0 "Although nominally a separatist state, the Rhenish Republic is undoubtedly the closest heir to the Weimar Republic and the liberal republican vision. Many prominent politicians from that era are active in our political scene and continue to advocate for the return of the republican system, and the Weimar government-in-exile holds significant influence. The French have little interest in these ambitions but have not taken any significant actions to suppress this sentiment thus far, and it also remains to be seen how practical an embracement by our government of such positions would actually be."
+RHI_The_Artaman_League:0 "The Artaman League"
+RHI_The_Artaman_League_desc:0 "The Artaman League is a rising far-right political force in the Rhenish Republic, chiefly led by Richard Walther Darré. The movement blends nationalism with agrarianism and a rejection of urban life, along with a hint of Francophilia in part driven by Darré's French Huguenot ancestry. Nonetheless, they are undeniably German nationalists and part of the movement, particularly the paramilitary youth league, maintains the traditional nationalist distaste for the French occupiers. They have achieved an impressive amount of influence, taking advantage of economic instability and distaste for the Rhenish nationalists to rapidly become the second largest party in the Rhineland. In an effort to moderate the movement, Staatskanzler Adenauer invited them to the ruling coalition in 1929, but this has yet to halt their growth and has in fact only been a nuisance for the Christian People's Party."
+
+### Parties ###
+RHI_bolshevist_party:0 "KPD"
+RHI_bolshevist_party_long:0 "Communist Party of Germany (Kommunistische Partei Deutschlands)"
+RHI_spartacist_party:0 "KPD"
+RHI_spartacist_party_long:0 "Communist Party of Germany (Kommunistische Partei Deutschlands)"
+RHI_reformist_socialist_party:0 "RRVP"
+RHI_reformist_socialist_party_long:0 "Rhenish-Republican People's Party (Rheinisch-republikanische Volkspartei)"
+RHI_revolutionary_socialist_party:0 "FAUD"
+RHI_revolutionary_socialist_party_long:0 "Free Worker's Union of Germany (Freie Arbeiter Union Deutschlands)"
+RHI_social_democrat_party:0 "SPD"
+RHI_social_democrat_party_long:0 "Social Democratic Party of Germany (Sozialdemokratische Partei Deutschlands)"
+RHI_social_liberal_party:0 "RDP"
+RHI_social_liberal_party_long:0 "Rhenish Democratic Party (Rheinische Demokratische Partei)"
+RHI_liberal_conservative_party:0 "RVV"
+RHI_liberal_conservative_party_long:0 "Rhenish People's Association (Rheinische Volksvereinigung)"
+RHI_social_conservative_party:0 "CVP"
+RHI_social_conservative_party_long:0 "Christian People's Party (Christliche Volkspartei)"
+RHI_authoritarian_conservative_party:0 "CNBL"
+RHI_authoritarian_conservative_party_long:0 "Christian-National Peasants' and Farmers' Party (Christlich-Nationale Bauern- und Landvolkpartei)"
+RHI_right_wing_populist_party:0 "WP"
+RHI_right_wing_populist_party_long:0 "Economic Party (Wirtschaftspartei)"
+RHI_national_syndicalist_party:0 "DVLP"
+RHI_national_syndicalist_party_long:0 "German Fatherland Party (Deutsche Vaterlandspartei)"
+RHI_national_corporatist_party:0 "AG"
+RHI_national_corporatist_party_long:0 "Artaman League (Artamanen-Gesellschaft)"
+
+### Decisions ###
+
+### Tooltips ###
+RHI_Army_tt:0 "§RWe are unable to raise new troops or increase our conscription law.§!"
+
+### Flags ###
+
+### Traits ###
+
+### Opinion Modifiers ###
+
+### Focus ###
+
+### National Spirits ###
+
+### Leader Descriptions ###
+
+### Events ###

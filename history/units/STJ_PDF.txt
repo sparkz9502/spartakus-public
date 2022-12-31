@@ -1,0 +1,57 @@
+﻿ division_template = {
+	name = "Hrvatska Seljačka Zaštita"	# Infantry Division	
+	division_names_group = CRO_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 1 y = 0 }
+		militia = { x = 1 y = 1 }
+		militia = { x = 1 y = 2 }
+	}
+	support = { 
+	}
+}
+
+
+units = {
+	division = {
+		name = "Pogranična Hrvatska Seljačka Zaštita"  			
+		location = 591
+		division_template = "Hrvatska Seljačka Zaštita"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Slavonska Hrvatska Seljačka Zaštita"  			
+		location = 6647
+		division_template = "Hrvatska Seljačka Zaštita"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Primorska Hrvatska Seljačka Zaštita"  			
+		location = 6889
+		division_template = "Hrvatska Seljačka Zaštita"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Međimurska Hrvatska Seljačka Zaštita"  			
+		location = 15327
+		division_template = "Hrvatska Seljačka Zaštita"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+	
+	division = {
+		name = "Srpska Seljačka Zaštita"  			
+		location = 984
+		division_template = "Hrvatska Seljačka Zaštita"
+		start_experience_factor = 0.2
+		start_equipment_factor = 0.5
+	}
+}

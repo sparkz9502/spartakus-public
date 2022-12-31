@@ -1,0 +1,29 @@
+
+state={
+	id=805
+	name="STATE_805"
+	
+	resources={
+		iron=3.000
+	}
+
+	history={
+		owner = FRA
+		buildings = {
+			infrastructure = 1
+		}
+		victory_points = {
+			14394 1 
+		}
+		victory_points = {
+			14409 1 
+		}
+	}
+
+	provinces={
+		14389 14394 14402 14406 14409 14411 14415 14425 14436 14442 14446 14457 
+	}
+	manpower=183000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

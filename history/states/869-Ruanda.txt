@@ -1,0 +1,26 @@
+
+state={
+	id=869
+	name="STATE_869"
+
+	history={
+		owner = CNR
+		add_core_of = CNR
+		add_core_of = RWA
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14671 1 
+		}
+
+	}
+
+	provinces={
+		9962 14671 
+	}
+	manpower=1615000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

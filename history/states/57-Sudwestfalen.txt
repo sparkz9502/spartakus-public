@@ -1,0 +1,50 @@
+
+state={
+	id=57
+	name="STATE_57"
+	resources={
+		coal=62.000
+		iron=59.000
+		copper=8.000
+	}
+
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			495 25 
+		}
+		victory_points = {
+			15643 15 
+		}
+		victory_points = {
+			3398 2 
+		}
+		victory_points = {
+			9443 3 
+		}
+		victory_points = {
+			3075 7 
+		}
+		buildings = {
+			infrastructure = 4
+			arms_factory = 2
+			industrial_complex = 4
+			air_base = 3
+			anti_air_building = 1
+			495 = {
+				bunker = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		495 3075 3398 9443 11431 15643 
+	}
+	manpower=2732300
+	buildings_max_level_factor=1.000
+	state_category=small_metropolis
+}

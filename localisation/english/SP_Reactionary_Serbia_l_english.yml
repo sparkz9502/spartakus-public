@@ -1,0 +1,56 @@
+﻿l_english:
+
+### Bookmark ###
+
+### Opinions ###
+
+### Events ###
+serbCR.1.t:0 "Suppress the Rebels!"
+serbCR.1.d:0 ""
+serbCR.1.a:0 "To Belgrade!"
+serbCR.2.t:0 "Communists in Veles!"
+serbCR.2.d:0 "The city of Veles has long been one of the firmest strongholds of the KPJ in the south of the country. With our chetniks focused on quelling the revolt in the north, the Macedonian communists have used the opportunity to organize a small militia in their headquarters, and fight in the hills in the mountains for their freedom."
+SerbCR.2.a:0 "We'll get them too!"
+
+###Parties###
+
+RSE_bolshevist_party:0 "KPJ"
+RSE_bolshevist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+RSE_spartacist_party:0 "KPJ"
+RSE_spartacist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+RSE_revolutionary_socialist_party:0 "KPJ"
+RSE_revolutionary_socialist_party_long:0 "Communist Party of Yugoslavia (Komunistička Partija Jugoslavije)"
+RSE_reformist_socialist_party:0 "SPJ"
+RSE_reformist_socialist_party_long:0 "Socialist Party of Yugoslavia (Socijalistička Partija Jugoslavije)"
+RSE_social_democrat_party:0 "DS"
+RSE_social_democrat_party_long:0 "Democratic Party (Demokratska Stranka)"
+RSE_social_liberal_party:0 "DS"
+RSE_social_liberal_party_long:0 "Democratic Party (Demokratska Stranka)"
+RSE_liberal_conservative_party:0 "NRS"
+RSE_liberal_conservative_party_long:0 "People's Radical Party (Narodna Radikalna Stranka)"
+RSE_social_conservative_party:0 "NRS"
+RSE_social_conservative_party_long:0 "People's Radical Party (Narodna Radikalna Stranka)"
+RSE_authoritarian_conservative_party:0 "Monarhisti"
+RSE_authoritarian_conservative_party_long:0 "Monarchists (Monarhisti)"
+RSE_right_wing_populist_party:0 "Antikomunisti"
+RSE_right_wing_populist_party_long:0 "Anticommunists (Antikomunisti)"
+RSE_national_syndicalist_party:0 "-"
+RSE_national_syndicalist_party_long:0 "-"
+RSE_national_corporatist_party:0 "-"
+RSE_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###
+
+### Opinion Modifiers ###
+
+### Clear Later ###

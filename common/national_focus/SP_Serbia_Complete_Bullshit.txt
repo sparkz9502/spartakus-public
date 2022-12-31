@@ -1,0 +1,267 @@
+###############################
+# Reactionary Serbia Focus Tree
+# By Sybil
+###############################
+
+focus_tree = {
+	id = Serbia_Reactionary
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RSE
+		}
+	}
+	default = no
+
+	focus = {
+		id = SER_Wartime_Monarchism
+		icon = GFX_goal_support_fascism
+		cost = 5.00
+		ai_will_do = {
+			factor = 90
+		}
+		available = {
+		}
+		completion_reward = {
+			log = "[GetDateText]: [Root.GetName]: Focus SER_SBOR"
+			add_political_power = 50
+			add_ideas = {
+		SER_Dimitrije_Ljotic_hog_nsy
+        SER_Velibor_Jonic_for_nsy
+        SER_Mihailo_Olcan_eco_nsy
+        SER_Svetozar_Vujkovic_sec_rwp
+        SER_Dragomir_Jovanovic_int_rwp
+		}
+		set_country_flag = SBORbia
+		}
+		x = 6
+		y = 1
+
+	}
+	focus = {
+		id = SER_Gearing_Up
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Nacertanije
+			focus = SER_Svi_Na_Kongres
+		}
+		x = 6
+		y = 3
+
+	}
+	
+	focus = {
+		id = SER_Military_Industry_to_the_Forefront
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Nacertanije
+			focus = SER_Svi_Na_Kongres
+		}
+		x = 6
+		y = 4
+
+	}
+	
+	focus = {
+		id = SER_Pursue_Appeasement
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Nacertanije
+			focus = SER_Svi_Na_Kongres
+		}
+		x = 4
+		y = 3
+
+	}
+	
+	focus = {
+		id = SER_RW_Land_Reform
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Pursue_Appeasement
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = SER_Class_Collaborationism
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_RW_Land_Reform
+		}
+		x = 4
+		y = 5
+		completion_reward = {
+		add_war_support = 0.1
+		}
+
+	}
+	
+	focus = {
+		id = SER_Sweeping_Kosovo_Under_the_Rug
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Pursue_Appeasement
+		}
+		x = 2
+		y = 4
+
+	}
+	
+	focus = {
+		id = SER_Oh_No
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Sweeping_Kosovo_Under_the_Rug
+		}
+		x = 2
+		y = 5
+
+	}
+	
+	focus = {
+		id = SER_Arrest_Communists
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Nacertanije
+			focus = SER_Svi_Na_Kongres
+		}
+		x = 8
+		y = 3
+
+	}
+	
+	focus = {
+		id = SER_Ban_Liberal_Parties
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Arrest_Communists
+		}
+		x = 8
+		y = 4
+
+	}
+	
+	focus = {
+		id = SER_Church_Authority
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Ban_Liberal_Parties
+		}
+		x = 8
+		y = 5
+
+	}
+	
+	focus = {
+		id = SER_Stricten_Censorship
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Arrest_Communists
+		}
+		completion_reward = {
+		add_war_support = 0.1
+		}
+		x = 10
+		y = 4
+
+	}
+	
+	focus = {
+		id = SER_Enforce_Cyrillic
+		icon = GFX_A_Stronger_Military
+		cost = 8.00
+		prerequisite = {
+			focus = SER_Stricten_Censorship
+		}
+		x = 10
+		y = 5
+
+	}
+	
+	focus = {
+		id = SER_March_West
+		icon = GFX_goal_offensive_army
+		cost = 10.00
+		prerequisite = {
+			focus = SER_Military_Industry_to_the_Forefront
+		}
+		x = 6
+		y = 5
+
+	}
+	
+	focus = {
+		id = SER_Velika_Srbija
+		icon = GFX_goal_offensive_army
+		cost = 10.00
+		prerequisite = {
+			focus = SER_March_West
+		}
+		completion_reward = {
+		add_war_support = -0.15
+		}
+		x = 3
+		y = 6
+
+	}
+	
+	focus = {
+		id = SER_Veca_Srbija
+		icon = GFX_goal_offensive_army
+		cost = 10.00
+		prerequisite = {
+			focus = SER_March_West
+		}
+		completion_reward = {
+		add_war_support = -0.3
+		}
+		x = 5
+		y = 6
+
+	}
+	
+	focus = {
+		id = SER_Najveca_Srbija
+		icon = GFX_goal_offensive_army
+		cost = 10.00
+		prerequisite = {
+			focus = SER_March_West
+		}
+		completion_reward = {
+		add_war_support = -0.5
+		}
+		x = 7
+		y = 6
+
+	}
+	
+	focus = {
+		id = SER_Unitary_Yugoslavia
+		icon = GFX_goal_offensive_army
+		cost = 10.00
+		prerequisite = {
+			focus = SER_March_West
+		}
+		completion_reward = {
+		add_war_support = -0.35
+		}
+		x = 9
+		y = 6
+
+	}
+}
+

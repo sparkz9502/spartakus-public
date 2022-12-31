@@ -1,0 +1,46 @@
+
+state={
+	id=1266
+	name="STATE_1266"
+
+	history={
+		owner = GER
+		add_core_of = GER
+		victory_points = {
+			3326 12
+		}
+		victory_points = {
+			6298 2 
+		}
+		victory_points = {
+			374 1 
+		}
+		victory_points = {
+			6218 1 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			dockyard = 2
+			fuel_silo = 1
+			air_base = 2
+			3326 = {
+				naval_base = 3
+				coastal_bunker = 3
+			}
+			374 = {
+				naval_base = 1
+				coastal_bunker = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		374 3234 3271 3326 6218 6263 6298 6325 6349 9264 
+	}
+	manpower=1460500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

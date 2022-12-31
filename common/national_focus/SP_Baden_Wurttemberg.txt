@@ -1,0 +1,17 @@
+##############################
+# Baden-Wurttemberg Focus Tree
+# By sparkz
+##############################
+
+#focus_tree = {
+#	id = WUR_focus
+#	country = {
+#		factor = 0
+#		
+#		modifier = {
+#			add = 10
+#			tag = WUR
+#		}
+#	}
+#	default = no
+#)

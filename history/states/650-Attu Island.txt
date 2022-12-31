@@ -1,0 +1,21 @@
+state={
+	id=650
+	name="STATE_650"
+	
+	history={
+		owner = USA
+		buildings = {
+			infrastructure = 1
+			13067 = {
+				naval_base = 1
+			}
+		}
+	}
+	
+	provinces={ 
+		13067
+	}
+	
+	manpower=30
+	state_category = tiny_island
+}

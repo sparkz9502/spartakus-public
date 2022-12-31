@@ -1,0 +1,69 @@
+﻿l_english:
+# Events
+
+# Decisions & Missions
+
+# Custom Tooltips
+
+### Focuses ###
+
+#Bucard
+FRA_Bucard_Government:0 "The Bucard Government"
+FRA_Bucard_Government_desc:0 ""
+
+#A Stable Executive
+FRA_A_stable_executive:0 "A Stable Executive"
+FRA_A_stable_executive_desc:0 ""
+
+#Foreign Policy
+FRA_Influence_Abroad:0 "French Influence Abroad"
+FRA_Influence_Abroad_desc:0 ""
+FRA_Offer_Croatia_Protection:0 "Offer Croatia Protection"
+FRA_Offer_Croatia_Protection_desc:0 "Croatia is now a friendly sovereign state conveniently connecting the Mediterranean with the cominterns southern border. We should offer them a pact to ensure they don't fall to the enemy soon. Additionally, their port town of Zadar could be a convenient staging ground for invading Hungary, and the fledgling Croatian nation may easily hand it over under the conditions we expand the ports there."
+FRA_Offer_Bosnia_Protection:0 "Offer Bosnia Protection"
+FRA_Offer_Bosnia_Protection_desc:0 "Bosnia stands the midst of the split between east and west and could provide us with many useful resources. Being a friendly capitalist state threatened by nearby communists, it'd certainly accept joining our sphere."
+
+# Ideas #
+FRA_Corporatist_Economy:0 "Corporatist Economy"
+FRA_Corporatist_Economy_desc:0 "Corporatism in France has deep historical roots. Corporatist thought is embodied in the great thinkers of the French nation, such as Marquis René de La Tour du Pin, Count Albert de Mun and Charles Maurras. With the Coup of May 25 and the installation of a regime enormously influenced by these intellectuals, the French economy began its march towards further corporatization while initially avoiding an official restructuring. The Labour Charter of October 1931, created under the tutelage of Marshal Pétain, placed the proletariat and private industry under the protection and direction of the French State. This charter officially marked the process of corporatization of the French economy, although much remains to be done. Yet to be seen is the effectiveness promised by the authorities, and as a result there is widespread skepticism among various sectors of French politics. Firstly, there are the former liberals within the Maréchaliste Party that oppose the economic shift. Secondly, there are the Christian corporatists who are more interested in ideologically rigid economic paternalism over developing a real economy. Lastly, there are the industry leaders, who are intrigued by corporatism but are skeptic of ideology and the lack of proven results. All of this is complicated by the figures behind the Labour Charter: a Maurassian Marshal, a former neo-socialist minister and a young former trade unionist."
+FRA_Regime_of_Marshals:0 "Regime of Marshals"
+FRA_Regime_of_Marshals_desc:0 "The Coup d'Etat of 25 May 1925 is for France synonymous with total change. This time, however, there is no royal or imperial restoration like the other coups, nor a revolution like France has known, but rather a military dictatorship of great duration. The Régime des Maréchaux began quickly and in 1927 the French National and Social Republic was declared. The Grand Council of the State and Empire was established as the domination of the Army over French politics took hold. A military career quickly became the easiest way of reaching prominence. However, the remains of the former parliamentary republican regime have yet to be fully dismantled. Three-quarters of non-military political figures are former politicians of the Third Republic and in the opinion of some these vestiges must be eradicated to be rebuilt anew. There are still many officials who do not follow the new line of thinking, as the austere military discipline repels many sympathizers and personal opposition is not particularly repressed. Even so, what the political powers require will eventually be met, and those who resist will be crushed or forgotten as long as the regime gets its way."
+FRA_New_Moral_Order:0 "New Moral Order"
+FRA_New_Moral_Order_desc:0 "''With the grace of God, the dedication of our army, which will always be the servant of the law, with the support of all honest people, we will continue to work towards the liberation of our territory, and the restoration of the moral order of our country. We will maintain internal peace and the principles on which our society is based.'' This is the expression used by Marshal-President MacMahon on April 28th, 1873. This Moral Order of 1873-1876 was one of a young Third Republic, a period of clerical and military domination aimed initially at preparing France for the return of a hypothetical king and then faced with the failure to install a conservative and authoritarian power over a Republic that frightened the castellans who had created it. The New Moral Order that France is going through today is very similar, but there is no royal restoration in sight (for the moment) and no popular rejection. The previous Moral Order failed for these reasons and this New Moral Order has, after more than 40 years of parliamentary scandals, succeeded."
+FRA_All_for_the_Army:0 "Tout pour l’Armée!"
+FRA_All_for_the_Army_desc:0 "The French Army valiantly repelled the foreign enemy in 1918 and expelled the domestic enemy in 1925. Peace, however, was short lived, and new enemies stand on the doorstep. The seizure of power by the military provided a much needed boost to the French Armed Forces, and the budget has only increased over the years since. Massive human, financial and scientific resources have been allotted not only towards the Army, but also towards the Navy and towards the newly established Air Force. Technical innovations are advancing at an unprecedented rate, as new and improved designs take root for everything from tanks, to rifles, to uniforms, to ships, to planes and beyond. To put it simply, the French Armed Forces are matched only by a handful of countries, and is quickly rising to become the best army in the world. However, this comes at a great cost that many would rather ignore. The funds are increasingly lacking for certain economic sectors that desperately need it and the economy is still quite fragile as the process of corporatization has just barely begun. Many warnings have been delivered by French captains of industry who denounce these policies that, according to them, makes the French economy: ''a marathon runner that will collapse with fatigue before the finish line''. A change of policy, however, looks far off given the great power enjoyed by the military under the Lyautey regime."
+FRA_Shield_of_Civilization:0 "Shield of Civilization"
+FRA_Shield_of_Civilization_desc:0 "The ''shield of civilization'' is the name given to France by the American industrialist Henry Ford in 1921 during a speech in Paris while being hosted by French Prime Minister Alexandre Millerand, welcoming his policy aiming to form an anti-communist bloc against the Bolshevik threat. Millerand is no longer in power but the shield is still there and can even be said to be reinforced. Everywhere, the anti-communists of all kinds defend Marshal Lyautey and the new Republic for their righteousness in the face of the red danger. The Lyautey regime has spread warnings throughout the free world of Marxist socialism and many notable thinkers and political leaders have praised the French political model. However, Lyautey is ageing, and the question of what will become of France after his passing has yet to be addressed. Will this so-called shield still stand years from now? The answer of the French regime would, of course, be yes. The reality however is that French politics are bound for a rocky future as political leaders scramble to place themselves as the primary heir to the ''Chef''."
+
+# Traits
+
+### Parties ###
+FRA_bolshevist_party:0 "PC-SFIC (L)"
+FRA_bolshevist_party_long:0 "Communist Party-French Section of the Communist International (Leninist Centre) (Parti communiste-Section française de l'Internationale communiste (Centre léniniste))"
+FRA_spartacist_party:0 "PC-SFIC"
+FRA_spartacist_party_long:0 "Communist Party-French Section of the Communist International (Parti communiste-Section française de l'Internationale communiste)"
+FRA_revolutionary_socialist_party:0 "SFIO (SdG)"
+FRA_revolutionary_socialist_party_long:0 "French Section of the Workers' International (Left Socialists) (Section Française de l'Internationale Ouvrière (Socialistes de gauche))"
+FRA_reformist_socialist_party:0 "SFIO"
+FRA_reformist_socialist_party_long:0 "French Section of the Workers' International (Section Française de l'Internationale Ouvrière)"
+FRA_social_democrat_party:0 "USR"
+FRA_social_democrat_party_long:0 "Social-Republican Union (Union social-républicain)"
+FRA_social_liberal_party:0 "PRR"
+FRA_social_liberal_party_long:0 "Radical Republican Party (Parti républican-radical)"
+FRA_liberal_conservative_party:0 "LUN (P)"
+FRA_liberal_conservative_party_long:0 "National Union League (Poincarists) (Ligue d'union nationale (Poincaristes))"
+FRA_social_conservative_party:0 "LUN (M)"
+FRA_social_conservative_party_long:0 "National Union League (Marinists) (Ligue d'union nationale (Marinistes))"
+FRA_authoritarian_conservative_party:0 "LUN (T)"
+FRA_authoritarian_conservative_party_long:0 "National Union League (Tardieuists) (Ligue d'union nationale (Tardieusistes))"
+FRA_right_wing_populist_party:0 "LUN (M)"
+FRA_right_wing_populist_party_long:0 "National Union League (Marshalists) (Ligue d'union nationale (Maréchalistes))"
+FRA_national_syndicalist_party:0 "AF"
+FRA_national_syndicalist_party_long:0 "French Action (Action Française)"
+FRA_national_corporatist_party:0 "LFCF"
+FRA_national_corporatist_party_long:0 "French Combat Legion of the Francisque (Légion française de combat de la Françisque)"
+
+# Opinion Modifiers
+
+# Leader
+POLITICS_HUBERT_LYAUTEY_DESC:0 "§GDate of Birth:§! §g17 November 1854§!\n§GPlace of Birth:§! §gNancy, France§!\n§GFather:§! §gLéon Just Eusèbe Lyautey§!\n§GMother:§! §gLaurence Grimoult de Villemotte§!\n§GSpouse:§! §gInès de Bourgoing§!\n§GOverview:§! §gLouis Hubert Gonzalve Lyautey is, through his father, from a family of Franche-Comté origin, which had gained its prestige from the campaigns of Napoleon. Through his mother, he descends from the Norman noble family Grimoult de Villemotte. At 19 years old, Lyautey met Count Albert de Mun, theoretician of Social Catholicism, a movement of which he became very involved in. Monarchist by ''reason'', legitimist by ''romanticism'', Lyautey did not hide his views as France returned to republicanism and anticlericalism in 1879.\n\nLyautey returned to military school in 1873 and graduated two years later, after which he joined the School of the General Staff. He became a lieutenant and, on holiday, left for two months on a trip to Algeria where he criticized the colonization of the territory and advocated a ''more civilized and humane system''. Rising up the ranks of the hierarchy, he became a favorite among his subordinates due to his paternalistic attitude. He was posted to Indochina in 1894, and here he stressed that the colonial policy should be that of cooperation and respect rather than destruction. After the Algeciras Conference in 1906, Lyautey was sent to command an army in the Conquest of Morocco. In 1912, after the Agadir Crisis, Lyautey was appointed Governor General of Morocco where he employed the policies he had pushed for in Indochina, placing a puppet Sultan in power and cooperating with the locals.\n\nIn December 1916 he became Minister of War as the Great War raged on, but he resigned in April 1917 amidst division and chaos in the government. He welcomed Alexandre Millerand's hardline policy against the communists while being extremely critical of his social and colonial policies, especially in Syria. The Rif War and the victory of the Lefts Cartel brought an end to his governership, and he returned to France in a state of near retirement. Soon, Lyautey began to openly criticize the policies of the Republican-Radical's and 25 May 1925 he led a coup with the support of the far-right leagues, installing a provisional regime for 2 years.\n\nIn 1927, following the adoption by referendum of a new constitution, Lyautey became President of the new French National and Social Republic. He soon obtained the title of ''Chef de la Nation'', which merged the Head of State with the Head of Government. The real power, however, increasingly lies in the hands of Vice President André Tardieu as Lyautey grows older and weaker.§!"

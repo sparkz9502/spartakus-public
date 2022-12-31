@@ -1,0 +1,44 @@
+﻿capital = 314
+
+set_oob = "ELS"
+
+add_ideas = {
+	recruitment_volunteer
+	governance_tot
+	trade_pro
+	economy_unind
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	early_fighter = 1
+}
+set_war_support = 0.1
+set_convoys = 5
+
+set_politics = {	
+	ruling_party = national_syndicalist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 18
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 5
+    social_democrat = 33
+    social_liberal = 7
+    liberal_conservative = 9
+    social_conservative = 18
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 10
+    national_corporatist = 0
+}
+
+recruit_character = ELS_maximiliano_hernandez_martinez

@@ -1,0 +1,33 @@
+
+state={
+	id=843
+	name="STATE_843"
+	resources={
+	}
+
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			12113 1 
+		}
+		buildings = {
+			infrastructure = 1
+			12113 = {
+				naval_base = 1
+			}
+			14906 = {
+				naval_base = 1
+			}
+
+		}
+
+	}
+
+	provinces={
+		12113 14906 
+	}
+	manpower=53237
+	buildings_max_level_factor=1.000
+	state_category=small_island
+}

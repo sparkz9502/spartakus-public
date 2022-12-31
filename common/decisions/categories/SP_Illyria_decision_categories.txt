@@ -1,0 +1,16 @@
+#################
+###  Croatia  ###
+#################
+
+CRO_Italian_Support = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_generic_fort
+	
+	allowed = { original_tag = ITA }
+	
+	visible = {
+		has_country_flag = ITA_Support_Illyria
+	}
+}

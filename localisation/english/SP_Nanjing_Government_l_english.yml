@@ -1,0 +1,62 @@
+﻿l_english:
+
+
+### Leader Descriptions ###
+POLITICS_SUN_KE_DESC:0 "§GDate of Birth:§! §g20 October 1891§!\n§GPlace of Birth:§! §gXiangshan, Guangdong§!\n§GOverview:§! §gBeing the only child of Dr.Sun Yat-sen, the founding father of ROC, Sun Fo naturally followed his father’s pace, devoting himself in to the revolution. The fame of "the crown prince of revolution" is a gift and curse. He is anxiously trying to prove himself not being the appendage of his father, nor a uncapable blockhead. \n\n When Nanjing and Wuhan split in the April of 1928, Sun Fo, being the figurehead of Guangzhou, proposed a draft of purging leftists in Guangzhou. Due to the coup d’état launched by Chiang failing to be supported by the mass, as well as the worsening situation of Northern Expedition, Sun decided to devote himself to the revolution once again. Nonetheless, his firm standpoint of anti-communism has caused wide criticism, saying that he is a careerist and reactionary who wish to steal the power of Wuhan. Under such situation, an invitation from Nanjing becomes his life-saving straw. \n\n Thus, by declaring that he would study abroad, Sun had not even taken his step out of China, but rather merely selected Hongkong as his transfer stop, and directly come to Nanjing. With Chiang Kai-shek and Hu Hanmin was struggling for power, Sun's arrival provided Nanjing a third selection. Considering threat of Wuhan, Chiang and Hu agreed Sun Fo to act as the leader de facto, and Sun managed to re-balanced the politic game of Nanjing. \n\n By the year of 1932, Sun Fo finally become the legitimate figurehead of Nanjing Government. However, before he could take Wuhan down, he would have to face a crisis even bigger - To terminate the endless power struggle within Nanjing, or be terminated by the power struggle itself."
+
+
+### Events ###
+
+NAN.1.t:0 "Introduction - Aftermath of the 4.12 incident"
+NAN.1.d:0 "The Nanjing Government of the Republic of China is the result of the split of Kuomintang in 1927, when Chiang Kai-shek together with the conservatives couped against the leftists of Kuomintang. The coup, though aimed to purge the communists in order to follow the "orthodox Three People's Principles", but consequently led to a heavy loss in its legitimacy, with the Nanjing Government becomes a weird government.\n\nBasically, the Nanjing Government is a modern government with revolutionary ideals, far more progressive and mordern than Beiyang's, yet it can barely compete with the Wuhan Government under leftists control. Because of the tension relation with Wuhan, Nanjing can merely conduct policies favors the peasants, the laborers and sometimes even entrepreneurs, because those landlords, captialists and local gentries whose interest may be harmed will accuse such policies and officers as potential leftists. The only way the Nanjing Government could survive is to cooperate with plutocrat in Jiangsu and Zhejiang, shielded by the common interest of industrialization, and play the role of promoter for the local industries. This makes the Nanjing Government moving away from social revolution that they once believed in gradually.\n\nAnother negative consequent of the coup is that the power balance of factions within Nanjing was destablized. Losing the legitmacy of leading a social revolution, the biggest source of legitimacy of Nanjing is to "overthrow the warlords", thus makes the "Whampoa Clique" represents the power of the army becomes a influential faction. Yet the power of the Party was falling due to losses of young party members. Power struggles shaped by this Army-Party struggle will soon or late determine the leader of Nanjing.\n\nBut the coup did come with some positive effects. We now have the standpoint to repair relations with western powers that hostile to communism. We are also able to align with those factions hostile to the CPC. The Wuhan Government will finally collapse, because they will never solve the problem of the guiding ideology of the National Revolution. When that day comes, we will prove that only us could reconstruct China."
+NAN.1.a:0 "I wish to know more about factions in Nanjing."
+NAN.1.b:0 "I wish to know more about our relations with other factions."
+NAN.1.c:0 "I'm well prepared."
+
+NAN.2.t:0 "Power struggle in Nanjing"
+NAN.2.d:0 "Basically, it is now the Army and the Party competing the leadership of the Nanjing Government. The Party used to be the sole leader of Kuomintang controlled areas, yet the 4.12 incident heavily damaged the controlling system of Kuomintang itself, because most of the primary branches of Kuomintang was ran by CPC members or leftist sympathizers, and most of them are killed or fled to Wuhan, leaving the Party Governance system crippled. Hu Hanmin now struggles to rebuild Kuomintang's authority, but that's still far from success. \n\nThe failing of the Party's power witnesses the rising of Army's power when Chiang Kai-shek led his Whampoa students saved the Nanjing Government's legitimacy in the battlefield. Since then, the power of army starts to infiltrate our governance system. Though Chiang suffered from disastrous loss when capturing Xuzhou, he and his clique's influence sees no decrease.\n\nApart from this two main factions, there are still two minor factions. Sun Fo's defction to Nanjing brings them the legitimacy they are thirst for, played as the mediator between Hu and Chiang, and becomes the figure head of the Nanjing Government, yet it is clear that he cannot truly compete with either Hu or Chiang. The Western Hills Group is another faction within Nanjing. They are hard-liners against communism, posing to be the orthodox Sun Yat-sen's followers. Though it is nearly impossible for these senior members take control, their attitude is what we cannot ignore."
+NAN.2.a:0 "I see, so how about the relations with other factions?"
+NAN.2.b:0 "I'm well prepared."
+
+NAN.3.t:0 "Our relations"
+NAN.3.d:0 ""
+NAN.3.a:0 ""
+NAN.3.b:0 ""
+
+
+
+
+NAN.100.t:0 "A Weird Strike"
+NAN.100.d:0 "We are trying to fix our relationship with the British, the USA and even the Japan since 1928 when we broke up with commies in Wuhan. Since we are controlling the most developed areas in China, with plutocrats in Zhejiang and Jiangsu standing with us, we had just signed few contracts with them, allowing us selling products to them in exchange for new weapons. \n\n Yet not all citizens are satisified with these contracts. A Strike broke out in Shanghai days ago, claiming those deals are "Sacrificing laborers' blood and sweat, only to grant warlords weapons against laborers". These slogans are not unfamiliar to us, the CPC often use these words againt us. This time, however, our agents report that those CPC agents didn't show up in the march of protestors, but rather also shocked. This indicates that seems that leftists in Wuhan knows nothing about this strike before, which is a weird phenomenon. There are also some entrepreneurs not satisfied, complaining that the production target is too high for them that hinders their normal management.\n\n We can't get slack at this strike. Even if the leftists did't incite this strike, they are also able to get involved in this, bringing chaos and unrests. But since there are also some officials and entrepreneurs not satisified to the deals, maybe we can concede to the strike, promising that we will come out a more reasonable production target for them."
+NAN.100.a:0 "We can negotiate."
+NAN.100.b:0 "We cannot risk threats from Wuhan."
+
+NAN.101.t:0 "An Unexcepted Arson"
+NAN.101.d:0 "While we are still debating for clauses about the export trade, a bad news has just shocked the whole Shanghai. Someone sneaked in Sanyou Coroperation's factory buildings and set a fire last evening. \n\n Luckily no one was hurt in the arson, but the raw materials and the stocks are all lost, and machines are heavily damaged, which makes Sanyou's capacity surely unable to meet with conditions that we had just reach a consensus on. \n\n We are quite sure that this arson is a deliberate crime, aiming to undermine our export trade contract, but we currently has no idea about the suspect."
+NAN.101.a:0 "Start the investigation."
+
+NAN.102.t:0 "An Unexcepted Arson"
+NAN.102.d:0 "Bad news comes continuously. Shortly after we supress the strike, last night, someone sneaked in Sanyou coroperation and set fire on their factory. It was too late for us to put out the fire, and all stocks together with raw materials were burn to ashes, with machines also heavily damaged. \n\n It is clear enough that the arson should be a deliberate crime, and our agents are ready to hunt for the suspects. What is important for us now, however, is to come out with a restart plan for Sanyou. Sanyou plans to expand its factory in Hangzhou, but not all workers in Shanghai are qualified to move to new factory in Hangzhou. We prefer to rebuild their factory in Shanghai and offer them aids, but to our surprise, they are rather reluctent to our plan."
+NAN.102.a:0 "Restart the cooperation is the most urgent thing."
+
+NAN.103.t:0 "Investigation Starts"
+NAN.103.d:0 "It is already a hard job for us to find suspects in an case with few witnesses, and now it is even harder for the authorties are urgeing us to solve the case in limited time.Not to mention we are not allowed to investigate certain suspects. Rumors say that the authority worries it may be even worse if we figured out that those troubling groups are related to the arson. \n\n According to the witnesses, some Japanese monks are the most suspicious. They sneaked near the factory weeks before and was caught, beated and expelled by workers of Sanyou. Our informants in the Green Gang, however, collected some information that could prove the Green Gang is somehow involved in the arson. Finally, we should always be aware of the leftists. Though it is not our duty to deal with 'red spys' but any, even if not the most convincing clues were to find, then the arson will become a political incident between Wuhan and Nanjing."
+NAN.103.a:0 "Be careful."
+
+NAN.104.t:0 "Investigation in a deadlock"
+NAN.104.d:0 "The deadline is approaching yet we actually made poor progress. Foreign affairs office warned us not to involve foreigners in the arson, while there proves to be no evidence that the leftists set the fire. Seems we have to use some unconventional methods.\n\nThere are numerous homeless wanderers whose death won't be news. We could use a dead body claiming that he is the arsonist. The problem for us now is how to frame his identity. The arsonist is absolutely the enemy of our government and our party, yet it is common sense that both the government and the party is composed of various fations. They have different enemies, and we can choose the most valuable as the identity of the "arsonist". General Chiang Kai-Shek, though forced to retire afther the failure in Xuzhou, his faction is still powerful, and his return just lack a cause. But such political investment could be risky if Chiang failed to back in power. Frame Wuhan will be less risky for they are the common enemy of us. But some of us afraid if this may escalate tension between us."
+NAN.104.a:0 "We'll help Chiang back to the government."
+NAN.104.b:0 "How dangerous will it be to frame leftists?"
+
+NAN.105.t:0 ""
+NAN.105.d:0 ""
+NAN.105.a:0 ""
+
+NAN.106.t:0 ""
+NAN.106.d:0 ""
+NAN.106.a:0 ""
+
+NAN.107.t:0 ""
+NAN.107.d:0 ""
+NAN.107.a:0 ""
+

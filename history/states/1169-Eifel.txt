@@ -1,0 +1,36 @@
+
+state={
+	id=1169
+	name="STATE_1169"
+	resources={
+		coal=18.000
+		iron=5.000
+	}
+
+	history={
+		owner = RHI
+		add_core_of = RHI
+		add_claim_by = GER
+		victory_points = {
+			3547 10 
+		}
+		victory_points = {
+			11435 1 
+		}
+		victory_points = {
+			9575 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+		}
+	}
+
+	provinces={
+		3547 7448 9522 9575 11435 11470 
+	}
+	manpower=1739500
+	buildings_max_level_factor=1.000
+	state_category=large_town
+	local_supplies=0.000
+}

@@ -1,0 +1,53 @@
+﻿l_english:
+
+# Events
+tibet.1.t:0 "Death of the 13th Dalai Lama"
+tibet.1.desc:0 "Tragedy has stricken Tibet as what was known as the 13th Dalai Lama has died.  His ambitions for expansion and reform in the age of machines will not go unforgotten.  However his death has caused a minor power vacuum in the small nation and it is hoped that the next Dalai Lama is discovered and appointed soon.  In the meantime, avid followers mourn his death."
+tibet.1.a:0 "[GetTibet1a]"
+tibet.1.a.world:0 "May he rest in peace"
+tibet.1.a.warlords:0 "Good riddance"
+
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+
+
+# Focuses
+
+
+# Parties
+TIB_bolshevist_party:0 "Leninist"
+TIB_bolshevist_party_long:0 "Leninist"
+TIB_spartacist_party:0 "Marxist"
+TIB_spartacist_party_long:0 "Marxist"
+TIB_reformist_socialist_party:0 "Democratic Socialist"
+TIB_reformist_socialist_party_long:0 "Democratic Socialist"
+TIB_revolutionary_socialist_party:0 "Revolutionary Socialist"
+TIB_revolutionary_socialist_party_long:0 "Revolutionary Socialist"
+TIB_social_democrat_party:0 "Social Democrat"
+TIB_social_democrat_party_long:0 "Social Democrat"
+TIB_social_liberal_party:0 "Social Liberal"
+TIB_social_liberal_party_long:0 "Social Liberal"
+TIB_liberal_conservative_party:0 "Liberal Conservative"
+TIB_liberal_conservative_party_long:0 "Liberal Conservative"
+TIB_social_conservative_party:0 "Social Conservative"
+TIB_social_conservative_party_long:0 "Social Conservative"
+TIB_authoritarian_conservative_party:0 "Authoritarian Democrat"
+TIB_authoritarian_conservative_party_long:0 "Authoritarian Democrat"
+TIB_right_wing_populist_party:0 "Right Wing Populist"
+TIB_right_wing_populist_party_long:0 "Right Wing Populist"
+TIB_national_syndicalist_party:0 "National Syndicalist"
+TIB_national_syndicalist_party_long:0 "National Syndicalist"
+TIB_national_corporatist_party:0 "National Corporatist"
+TIB_national_corporatist_party_long:0 "National Corporatist"
+
+
+# Opinion Modifiers
+
+
+# Leader descriptions
+

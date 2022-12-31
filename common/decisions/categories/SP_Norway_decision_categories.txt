@@ -1,0 +1,31 @@
+################
+###  Norway  ###
+################
+
+NOR_deal_with_opposition_decision_cat = {
+	
+	icon = category_generic_political_actions
+	
+	allowed = { original_tag = NOR }
+	
+	visible = {
+		OR = {
+			has_completed_focus = NOR_crush_right_wing_militas
+			has_completed_focus = NOR_laws_against_radicals
+			has_completed_focus = NOR_anti_communist_laws
+			has_completed_focus = NOR_dissolve_parliament
+		}
+	}
+}
+NOR_expantionist_norway_decision_cat = {
+	
+	icon = category_generic_political_actions
+
+	picture = GFX_decision_cat_generic_scandinavia
+	
+	allowed = { original_tag = NOR }
+	
+	visible = {
+		has_completed_focus = NOR_expantionist_norway
+	}
+}

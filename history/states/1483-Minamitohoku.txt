@@ -1,0 +1,27 @@
+state={
+	id=1483
+	name="STATE_1483" # Minamitohoku
+	manpower = 3731000
+	state_category = large_town
+	resources={
+		copper=12
+	}
+
+	history={
+		owner = JAP
+		add_core_of = JAP
+		buildings = {
+			arms_factory = 1
+			industrial_complex = 2		
+			infrastructure = 2
+			air_base = 6
+		}		
+		victory_points = {
+			7169 8
+		}	
+	}
+	
+	provinces={
+		4118 4122 1024 4153 4067 7169
+	}
+}

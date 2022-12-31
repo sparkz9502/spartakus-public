@@ -1,0 +1,100 @@
+﻿###########################
+# Montenegro Events
+###########################
+# By Last Witch of Illyrith (im gay)
+###########################
+
+add_namespace = crnagora
+add_namespace = crnagoraflavor
+
+###########################
+# Montenegrin Flavor Events
+###########################
+
+country_event = { #Damn Danilo sues Metro-Goldwyn-Mayer
+	id = crnagoraflavor.1
+	title = crnagoraflavor.1.t
+	desc = crnagoraflavor.1.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	trigger = {
+		tag = MNT
+		date > 1934.2.2
+	}
+
+
+	option = { #Nothing we can do about it...
+		name = crnagoraflavor.1.a 
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			random_list = {
+					95 = { country_event = { id = crnagoraflavor.2 } }
+					5 = { country_event = { id = crnagoraflavor.3 } }
+				}
+			}
+	}
+}
+
+country_event = { #Damn Danilo sues Metro-Goldwyn-Mayer - Blows Over
+	id = crnagoraflavor.2
+	title = crnagoraflavor.2.t
+	desc = crnagoraflavor.2.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #Huh
+		name = crnagoraflavor.2.a 
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 1
+	}
+}
+
+country_event = { #Damn Danilo sues Metro-Goldwyn-Mayer - Lawsuit Fails
+	id = crnagoraflavor.3
+	title = crnagoraflavor.3.t
+	desc = crnagoraflavor.3.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #If Montenegro can't even sue a film studio, what power does it have?
+		name = crnagoraflavor.3.a 
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -10
+	}
+}
+
+country_event = { #Seize Kotor?
+	id = crnagora.1
+	title = crnagora.1.t
+	desc = crnagora.1.d
+	picture = GFX_report_event_journalists_speech
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = { #Of course!
+		name = crnagora.1.a 
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 75
+		MNT = {
+				transfer_state = 1175
+			}
+	}
+}

@@ -1,0 +1,437 @@
+﻿###########################
+# JAPANESE EVENTS
+###########################
+
+add_namespace = jap
+add_namespace = japvietnam
+
+# Intro Event
+country_event = {
+	id = jap.1
+	title = jap.1.t
+	desc = jap.1.d
+	picture = GFX_JAP_introduction
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.1.a
+		ai_chance = { factor = 100 }	
+		add_political_power = 10
+		hidden_effect = {
+			country_event = { id = jap.6 }
+		}	
+	}
+	option = {
+		name = jap.1.b
+		ai_chance = { factor = 100 }		
+	}
+}
+
+# Diplomacy History
+country_event = {
+	id = jap.6
+	title = jap.6.t
+	desc = jap.6.d
+	picture = GFX_JAP_anglo
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.6.a
+		ai_chance = { factor = 100 }	
+		hidden_effect = {
+			country_event = { id = jap.1 }
+			add_political_power = -10
+		}		
+	}
+}
+
+# Sakuradamon Incident
+country_event = {
+	id = jap.2
+	title = jap.2.t
+	desc = jap.2.d
+	picture = GFX_JAP_sakuradamon
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1932.1.9
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = jap.2.a
+		ai_chance = { factor = 100 }	
+		add_stability = -0.01	
+	}
+}
+
+# 1932 Election
+country_event = {
+	id = jap.3
+	title = jap.3.t
+	desc = jap.3.d
+	picture = GFX_JAP_election
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1932.2.20
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	immediate = {
+		hidden_effect = {
+			set_political_party = {
+				ideology = bolshevist
+				popularity = 1
+			}
+			set_political_party = {
+				ideology = spartacist
+				popularity = 1
+			}
+			set_political_party = {
+				ideology = revolutionary_socialist
+				popularity = 4
+			}
+			set_political_party = {
+				ideology = reformist_socialist
+				popularity = 8
+			}
+			set_political_party = {
+				ideology = social_democrat
+				popularity = 35
+			}
+			set_political_party = {
+				ideology = social_liberal
+				popularity = 6
+			}
+			set_political_party = {
+				ideology = liberal_conservative
+				popularity = 8
+			}
+			set_political_party = {
+				ideology = social_conservative
+				popularity = 28
+			}
+			set_political_party = {
+				ideology = authoritarian_conservative
+				popularity = 2
+			}
+			set_political_party = {
+				ideology = right_wing_populist
+				popularity = 1
+			}
+			set_political_party = {
+				ideology = national_syndicalist
+				popularity = 2
+			}
+			set_political_party = {
+				ideology = national_corporatist
+				popularity = 4
+			}
+			set_country_flag = JAP_1932_elections
+		}
+	}
+	
+	option = {
+		name = jap.3.a
+		ai_chance = { factor = 100 }	
+		hidden_effect = {
+			country_event = { id = jap.8 }
+		}	
+	}
+	
+	option = {
+		name = jap.3.b
+		ai_chance = { factor = 100 }	
+		custom_effect_tooltip = JAP_results
+		add_political_power = 10	
+	}
+}
+
+# Results Breakdown
+country_event = {
+	id = jap.8
+	title = jap.8.t
+	desc = jap.8.d
+	picture = GFX_JAP_election
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.8.a
+		ai_chance = { factor = 100 }		
+		custom_effect_tooltip = JAP_results
+		add_political_power = 10		
+	}
+}
+
+###########################
+# KOREA EVENTS
+###########################
+
+###########################
+# TAIWAN EVENTS
+###########################
+
+# Opium Ban Local Police / No More Political Power Malus
+country_event = {
+	id = jap.10
+	title = jap.10.t
+	desc = jap.10.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.10.a
+		swap_ideas = {
+			remove_idea = JAP_SP_opium_ban
+			add_idea = JAP_SP_opium_ban_2
+		}
+	}
+}
+
+# Opium Ban Acceptance / No More Stability Malus
+country_event = {
+	id = jap.11
+	title = jap.11.t
+	desc = jap.11.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.11.a
+		swap_ideas = {
+			remove_idea = JAP_SP_opium_ban_2
+			add_idea = JAP_SP_opium_ban_3
+		}
+	}
+}
+
+# Opium Licensing Establishment / No More Political Power Malus
+country_event = {
+	id = jap.12
+	title = jap.12.t
+	desc = jap.12.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.12.a
+		swap_ideas = {
+			remove_idea = JAP_SP_opium_licenses
+			add_idea = JAP_SP_opium_licenses_2
+		}
+	}
+}
+
+# Opium Licensing Acceptance / No More Stability Malus
+country_event = {
+	id = jap.13
+	title = jap.13.t
+	desc = jap.13.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.13.a
+		swap_ideas = {
+			remove_idea = JAP_SP_opium_licenses_2
+			add_idea = JAP_SP_opium_licenses_3
+		}
+	}
+}
+
+###########################
+# FOREIGN EVENTS
+###########################
+
+# Nauru Deal
+country_event = {
+	id = jap.9
+	title = jap.9.t
+	desc = jap.9.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.9.a #hell yea
+		ai_chance = { factor = 95 }		
+		effect_tooltip = {
+			JAP = { transfer_state = 725 }
+		}
+		hidden_effect = {
+		JAP = {
+			country_event = {
+				id = jap.14
+				hours = 4
+			}
+		}
+		}
+	}
+	option = {
+		name = jap.9.b #no
+		ai_chance = { factor = 5 }		
+	}
+}
+
+# Nauru Deal Accepted
+country_event = {
+	id = jap.14
+	title = jap.14.t
+	desc = jap.14.d
+	picture = GFX_report_event_generic_sign_treaty1
+    is_triggered_only = yes
+	
+	option = {
+		name = jap.14.a
+		JAP = { transfer_state = 725 }
+	}
+}
+
+###########################
+# FLAVOR EVENTS
+###########################
+
+# Omori Bank robbery
+country_event = {
+	id = jap.4
+	title = jap.4.t
+	desc = jap.4.d
+	picture = GFX_report_event_gathering_protest
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1932.8.6
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #don't press it
+		name = jap.4.a
+		ai_chance = { factor = 80 }		
+		add_political_power = -15
+			add_popularity = {
+				ideology = bolshevist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = spartacist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = -0.01
+			}
+			add_popularity = {
+				ideology = reformist_socialist
+				popularity = -0.01
+			}
+	}
+
+	option = { #use this to shut down the communists / unlocks anti-communist decisions
+		name = jap.4.b
+		ai_chance = { factor = 20 }	
+		add_political_power = -50
+		add_stability = -0.05
+		unlock_decision_category_tooltip = JAP_decisions_anticommunist
+		hidden_effect = { set_country_flag = JAP_anticommunist }
+	}
+}
+
+# Shirokiya Department Store fire
+country_event = {
+	id = jap.5
+	title = jap.5.t
+	desc = jap.5.d
+	picture = GFX_JAP_fire
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1932.12.16
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = {
+		name = jap.5.a
+		ai_chance = { factor = 100 }	
+	}
+}
+
+# Sanriku earthquake
+country_event = {
+	id = jap.7
+	title = jap.7.t
+	desc = jap.7.d
+	picture = GFX_JAP_sanriku
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1933.3.2
+	}
+
+	mean_time_to_happen = {
+		days = 1
+	}
+	
+	option = { #take away building slots 	
+		name = jap.7.a
+		ai_chance = { factor = 100 }	
+		533 = {
+			damage_building = {
+			type = infrastructure
+			damage = 1
+			}
+			damage_building = {
+			type = industrial_complex
+			damage = 1
+			}
+		}
+	}	
+}
+
+###########################
+# DEPRESSION EVENTS
+###########################
+
+#Depression Fire
+country_event = {
+	id = jap.15
+	title = jap.15.t
+	desc = jap.15.d
+	picture = GFX_report_event_generic_riot
+	fire_only_once = yes
+
+	trigger = {
+		tag = JAP
+		date > 1934.6.1
+		NOT = { has_country_flag = JAP_economy_safe } 
+	}
+
+	mean_time_to_happen = {
+		days = 12
+	}
+	
+	option = {
+		name = jap.15.a
+		ai_chance = { factor = 100 }
+		add_ideas = JAP_SP_depression_economy
+		add_ideas = JAP_SP_depression_unrest
+	}
+}
+
+

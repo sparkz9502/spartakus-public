@@ -1,0 +1,439 @@
+#made by sparkz
+
+ITA_icw_socialists_scripted_effect = {
+	custom_effect_tooltip = ITA_civil_war_socialists_tt
+	hidden_effect = {
+		set_global_flag = ITA_civil_war_ongoing
+		set_stability = 0.7
+		set_war_support = 0.7
+		remove_ideas = ITA_Great_Depression
+		remove_ideas = ITA_Great_War_Memories
+		add_timed_idea = {
+			idea = ITA_Shattered_Army_idea
+			days = 60
+		}
+		country_event = {
+			id = itacw.31
+			hours = 12
+		}
+		every_state = {
+			limit = { is_core_of = ITA }
+			add_core_of = SRI
+		}
+		SRI = {
+			set_cosmetic_tag = SRI_TUR
+			transfer_state = 158
+			transfer_state = 1359
+			transfer_state = 844
+			retire_country_leader = yes
+			add_country_leader_role = {
+				character = SRI_celeste_negarville
+				promote_leader = yes
+				country_leader = {
+					desc = "POLITICS_CELESTE_NEGARVILLE_DESC"
+					ideology = spartacist_subtype
+					expire = "1965.1.1"
+					id=-1
+				}
+			}
+			set_politics = {				
+				ruling_party = spartacist
+				elections_allowed = no
+			}
+			unlock_national_focus = SRI_The_Turin_Uprising
+			load_oob = SRI
+			add_ideas = SRI_Italian_Civil_War_idea
+			add_ideas = SRI_The_Red_Army_idea
+			add_ideas = SRI_The_War_Economy_idea
+			add_ideas = SRI_A_Socialist_Vision_idea
+			add_timed_idea = {
+				idea = SRI_Revolutionary_Fury_idea
+				days = 60
+			}
+			inherit_technology = ITA
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2500
+				producer = SRI
+			}
+		}
+		set_province_controller = 11721
+		set_province_controller = 770
+		set_province_controller = 11723
+		set_province_controller = 771
+		set_province_controller = 9741
+		set_province_controller = 776
+		set_province_controller = 11570
+		set_province_controller = 6635
+		country_lock_all_division_template = no
+		delete_unit_template_and_units = {
+			division_template = "Divisione di Fanteria"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Divisione Alpina"
+		}
+		delete_unit_template_and_units = {
+			division_template = "Reggimento di Cavalleria"
+		}
+		if = {
+			limit = { original_tag = ITA }
+			load_oob = ITA_civil_war
+			add_ideas = ITA_Italian_Civil_War_idea
+			set_politics = {				
+				ruling_party = authoritarian_conservative
+				last_election = "1888.6.15"
+				election_frequency = 48
+				elections_allowed = no
+			}
+            set_popularities = {
+                bolshevist = 2
+                spartacist = 4
+                revolutionary_socialist = 7
+                reformist_socialist = 2
+                social_democrat = 14
+                social_liberal = 17
+                liberal_conservative = 24
+                social_conservative = 21
+                authoritarian_conservative = 0
+                right_wing_populist = 3
+                national_syndicalist = 2
+                national_corporatist = 4
+            }
+		}
+		if = {
+			limit = { original_tag = ILN }
+			load_oob = ILN_civil_war
+			add_ideas = ILN_Italian_Civil_War_idea
+		}
+		declare_war_on = {
+			target = SRI
+			type = annex_everything
+		}
+		CRO = {
+			country_event = {
+				id = itacw.50
+				days = 3
+			}
+		}
+		ITA = {
+			end_puppet = CRO
+		}
+	}
+}
+
+ITA_icw_socialists_milan_scripted_effect = {
+	hidden_effect = {
+		transfer_state = 159
+		transfer_state = 1361
+		SRI = {
+			load_oob = SRI_milan
+		}
+		if = {
+			limit = {
+				has_global_flag = ITA_fascists_in_power
+			}
+			ILN = {
+				set_province_controller = 15181
+				set_province_controller = 11726
+				set_province_controller = 6661
+				set_province_controller = 11587
+				set_province_controller = 11568
+				set_province_controller = 15507
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = ITA_fascists_in_power
+				}
+			}
+			ITA = {
+				set_province_controller = 15181
+				set_province_controller = 11726
+				set_province_controller = 6661
+				set_province_controller = 11587
+				set_province_controller = 11568
+				set_province_controller = 15507
+			}
+		}
+	}
+}
+
+ITA_icw_socialists_genoa_scripted_effect = {
+	hidden_effect = {
+		transfer_state = 838
+		SRI = {
+			load_oob = SRI_genoa
+		}
+		if = {
+			limit = {
+				has_global_flag = ITA_fascists_in_power
+			}
+			ILN = {
+				set_province_controller = 6973
+				set_province_controller = 11891
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = ITA_fascists_in_power
+				}
+			}
+			ITA = {
+				set_province_controller = 6973
+				set_province_controller = 11891
+			}
+		}
+	}
+}
+
+ITA_icw_socialists_bologna_scripted_effect = {
+	hidden_effect = {
+		transfer_state = 161
+		transfer_state = 1325
+		transfer_state = 1197
+		SRI = {
+			load_oob = SRI_bologna
+		}
+		if = {
+			limit = {
+				has_global_flag = ITA_fascists_in_power
+			}
+			ILN = {	
+				set_province_controller = 6985
+				set_province_controller = 3976
+				set_province_controller = 3773
+				set_province_controller = 15370
+				set_province_controller = 15372
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = ITA_fascists_in_power
+				}
+			}
+			ITA = {
+				set_province_controller = 6985
+				set_province_controller = 3976
+				set_province_controller = 3773
+				set_province_controller = 15370
+				set_province_controller = 15372
+			}
+		}
+	}
+}
+
+ITA_icw_socialists_livorno_scripted_effect = {
+	hidden_effect = {
+		transfer_state = 1228
+		SRI = {
+			load_oob = SRI_livorno
+		}
+		if = {
+			limit = {
+				has_global_flag = ITA_fascists_in_power
+			}
+			ILN = {
+				set_province_controller = 15369
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = ITA_fascists_in_power
+				}
+			}
+			ITA = {
+				set_province_controller = 15369
+			}
+		}
+	}
+}
+
+ITA_icw_sardinia_scripted_effect = {
+	custom_effect_tooltip = ITA_civil_war_sardinia_tt
+	hidden_effect = {
+		country_event = {
+			id = itacw.32
+			hours = 8
+		}
+		SRD = {
+			transfer_state = 114
+			transfer_state = 1199
+			load_oob = SRD
+		}
+		declare_war_on = {
+			target = SRD
+			type = annex_everything
+		}
+	}
+}
+
+ITA_icw_venice_scripted_effect = {
+	custom_effect_tooltip = ITA_civil_war_venice_tt
+	hidden_effect = {
+		country_event = {
+			id = itacw.33
+			days = 1
+		}
+		VNZ = {
+			transfer_state = 160
+			transfer_state = 783
+			transfer_state = 759
+			set_politics = {				
+				ruling_party = reformist_socialist
+				elections_allowed = no
+			}
+			load_oob = VNZ
+			add_ideas = VNZ_Italian_Civil_War_idea
+			add_ideas = VNZ_The_Liberation_Army_idea
+			add_ideas = VNZ_The_War_Economy_idea
+			add_ideas = VNZ_A_Democratic_Vision_idea
+			add_timed_idea = {
+				idea = VNZ_Revolutionary_Fury_idea
+				days = 60
+			}
+			inherit_technology = ITA
+			add_equipment_to_stockpile = {
+				type = infantry_equipment
+				amount = 2500
+				producer = VNZ
+			}
+		}
+		set_province_controller = 603
+		set_province_controller = 6631
+		set_province_controller = 13582
+		set_province_controller = 9613
+		set_province_controller = 3657
+		set_province_controller = 15182
+		set_province_controller = 13569
+		declare_war_on = {
+			target = VNZ
+			type = annex_everything
+		}
+		SRI = {
+			declare_war_on = {
+				target = VNZ
+				type = annex_everything
+			}
+		}
+		160 = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 2
+				instant_build = yes
+			}
+		}
+	}
+}
+
+ITA_icw_venice_ravenna_scripted_effect = {
+	hidden_effect = {
+		transfer_state = 1507
+		VNZ = {
+			load_oob = VNZ_ravenna
+			set_province_controller = 6793
+		}
+	}
+}
+
+ITA_icw_venice_ancona_scripted_effect = {
+	hidden_effect = {
+		transfer_state = 157
+		transfer_state = 1196
+		transfer_state = 742
+		VNZ = {
+			load_oob = VNZ_ancona
+		}
+		if = {
+			limit = {
+				has_global_flag = ITA_fascists_in_power
+			}
+			ILN = {
+				set_province_controller = 11882
+				set_province_controller = 3910
+				set_province_controller = 9838
+				set_province_controller = 9794
+				set_province_controller = 963
+				set_province_controller = 13592
+				set_province_controller = 13584
+			}
+		}
+		if = {
+			limit = {
+				NOT = {
+					has_global_flag = ITA_fascists_in_power
+				}
+			}
+			ITA = {
+				set_province_controller = 11882
+				set_province_controller = 3910
+				set_province_controller = 9838
+				set_province_controller = 9794
+				set_province_controller = 963
+				set_province_controller = 13592
+				set_province_controller = 13584
+			}
+		}
+	}
+}
+
+ITA_icw_venice_trapani_scripted_effect = {
+	hidden_effect = {
+		#transfer_state = 115
+		#transfer_state = 1326
+		VNZ = {
+			load_oob = VNZ_trapani
+			set_province_controller = 7059
+			set_province_controller = 13609
+		}
+	}
+}
+
+ITA_icw_albona_scripted_effect = {
+	custom_effect_tooltip = ITA_civil_war_albona_tt
+	hidden_effect = { 
+		LAB = {
+			set_politics = {				
+				ruling_party = revolutionary_socialist
+				elections_allowed = no
+			}
+			transfer_state = 1262
+			load_oob = "LAB"
+		}
+		1262 = {
+			add_building_construction = {
+				type = bunker
+				level = 4
+				province = 15184
+				instant_build = yes
+			}
+		}
+		1262 = {
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}
+		1262 = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+			}
+		}
+		declare_war_on = {
+			target = LAB
+			type = annex_everything
+		}
+		VNZ = {
+			declare_war_on = {
+				target = LAB
+				type = annex_everything
+			}
+		}
+	}
+}

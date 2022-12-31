@@ -1,0 +1,174 @@
+﻿###########################
+# Flavor Events
+###########################
+# By sparkz
+###########################
+
+add_namespace = flavor
+add_namespace = sportsflavor
+
+# The Shape of Things to Come
+
+country_event = {
+	id = flavor.1
+	title = flavor.1.t
+	desc = flavor.1.d
+	picture = GFX_shape_of_things_to_come
+	
+	is_triggered_only = yes
+
+	option = {
+		trigger = {
+			NOT = {
+				has_socialist_government = yes
+				tag = ENG
+			}
+		}
+		name = flavor.1.a
+	}
+	option = {
+		trigger = {
+			has_socialist_government = yes
+		}
+		name = flavor.1.b
+	}
+	option = {
+		trigger = {
+			tag = ENG
+		}
+		name = flavor.1.c
+	}
+}
+
+#A Legionary Dream
+
+country_event = {
+	id = flavor.2
+	title = flavor.2.title
+	desc = flavor.2.desc
+	picture = GFX_a_legionary_dream
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = flavor.2.a
+	}
+}
+
+# Baltic Cup 1932
+
+news_event = {
+	id = sportsflavor.1
+	title = sportsflavor.1.t
+	desc = sportsflavor.1.d
+	picture = GFX_Baltic_Cup
+
+	is_triggered_only = yes
+	
+	immediate = {
+		if = {
+			limit = {
+				tag = LIV
+			}
+			hidden_effect = {
+				random_list = {
+					33 = {
+						LIV = {
+							news_event = {
+								id = sportsflavor.2
+								days = 2
+							}
+						}
+						EST = {
+							news_event = {
+								id = sportsflavor.3
+								days = 2
+							}
+						}
+						LIT = {
+							news_event = {
+								id = sportsflavor.3
+								days = 2
+							}
+						}
+					}
+					33 = {
+						LIT = {
+							news_event = {
+								id = sportsflavor.2
+								days = 2
+							}
+						}
+						EST = {
+							news_event = {
+								id = sportsflavor.3
+								days = 2
+							}
+						}
+						LIV = {
+							news_event = {
+								id = sportsflavor.3
+								days = 2
+							}
+						}
+					}
+					33 = {
+						EST = {
+							news_event = {
+								id = sportsflavor.2
+								days = 2
+							}
+						}
+						LIV = {
+							news_event = {
+								id = sportsflavor.3
+								days = 2
+							}
+						}
+						LIT = {
+							news_event = {
+								id = sportsflavor.3
+								days = 2
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	option = {
+		name = sportsflavor.1.a	
+	}
+}
+
+news_event = {
+	id = sportsflavor.2 #We Won
+	title = sportsflavor.2.t
+	desc = sportsflavor.2.d
+	picture = GFX_Baltic_Cup
+
+	is_triggered_only = yes
+
+	option = {
+		name = sportsflavor.2.a
+		add_political_power = 5
+	}
+}
+
+news_event = {
+	id = sportsflavor.3 #We Suck
+	title = sportsflavor.3.t
+	desc = sportsflavor.3.d
+	picture = GFX_Baltic_Cup
+
+	is_triggered_only = yes
+
+	option = {
+		name = sportsflavor.3.a
+		add_political_power = -5
+	}
+}
+

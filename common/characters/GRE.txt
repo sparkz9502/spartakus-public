@@ -1,0 +1,409 @@
+characters={
+	GRE_nikolaos_zachariadis = {
+		name = "Nikólaos Zachariádis"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Nikolaos_Zachariadis.tga"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_NIKOLAOS_ZACHARIADIS"
+			traits = {
+				hos_the_greek_bukharin
+			}
+			expire = "1965.1.1"
+			ideology = bolshevist_subtype
+			id=-1
+		}
+	}
+
+	GRE_pantelis_pouliopoulos = {
+		name = "Pantelís Pouliópoulos"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Pantelis_Pouliopoulos.tga"
+			}
+		}
+		country_leader={
+			desc = "POLITICS_PANTELIS_POULIOPOULOS"
+			traits = {
+				hos_the_greek_lenin
+			}
+			expire = "1965.1.1"
+			ideology = spartacist_subtype
+			id=-1
+		}
+	}
+
+	GRE_ioannis_sofianopoulos = {
+		name = "Ioánnis Sofianópoulos"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Ioannis_Sofianopoulos.tga"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = revolutionary_socialist_subtype
+			id=-1
+		}
+	}
+
+	GRE_avraam_benaroghia = {
+		name = "Avraám Benaróghia"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Avraam_Benaroghia.tga"
+			}
+		}
+		country_leader={
+			expire = "1965.1.1"
+			ideology = reformist_socialist_subtype
+			id=-1
+		}
+	}
+
+	GRE_alexandros_zaimis = {
+		name = "Aléxandros Zaímis"
+		portraits={
+			civilian={
+				large = "gfx/leaders/GRE/Portrait_Greece_Alexandros_Zaimis.tga"
+			}
+		}
+		country_leader={
+			traits = {
+				hos_president_of_the_hellenic_republic
+				hos_old_incapable_leader
+			}
+			expire = "1965.1.1"
+			ideology = social_democrat_subtype
+			id=-1
+		}
+		country_leader={
+			traits = {
+				hos_president_of_the_hellenic_republic
+				hos_old_incapable_leader
+			}
+			expire = "1965.1.1"
+			ideology = social_liberal_subtype
+			id=-1
+		}
+		country_leader={
+			traits = {
+				hos_president_of_the_hellenic_republic
+				hos_old_incapable_leader
+			}
+			expire = "1965.1.1"
+			ideology = liberal_conservative_subtype
+			id=-1
+		}
+		country_leader={
+			traits = {
+				hos_president_of_the_hellenic_republic
+				hos_old_incapable_leader
+			}
+			expire = "1965.1.1"
+			ideology = social_conservative_subtype
+			id=-1
+		}
+	}
+
+	GRE_georgios_kondylis = {
+		name = "Geórgios Kondýlis"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Georgios_Kondylis.tga"
+			}
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Georgios_Kondylis_mil.tga"
+			}
+		}
+		country_leader={
+			traits = {
+				hos_antivasileas
+			}
+			expire = "1965.1.1"
+			ideology = semi_constitutional_monarchism
+			id=-1
+		}
+		field_marshal={
+			traits = {
+				politically_connected
+				harsh_leader
+				fast_planner
+				trait_GRE_monarchist
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	GRE_georgios_ii = {
+		name = "Geórgios II Glücksburg"
+		portraits={
+			civilian={
+				large="gfx/leaders/GRE/Portrait_Greece_Georgios_II.tga"
+			}
+		}
+		country_leader={
+			traits = {
+				hos_king_of_the_hellenes
+			}
+			expire = "1965.1.1"
+			ideology = absolute_monarchism
+			id=-1
+		}
+		country_leader={
+			traits = {
+				hos_king_of_the_hellenes
+			}
+			expire = "1965.1.1"
+			ideology = national_syndicalist_subtype
+			id=-1
+		}
+		country_leader={
+			traits = {
+				hos_king_of_the_hellenes
+			}
+			expire = "1965.1.1"
+			ideology = national_corporatist_subtype
+			id=-1
+		}
+	}
+
+	# Venizelist Faction
+	GRE_nikolaos_plastiras = {
+		name = "Nikólaos Plastíras"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Nikolaos_Plastiras.tga"
+			}
+		}
+		field_marshal={
+			traits = {
+				politically_connected
+				trait_cautious
+				infantry_officer
+				trait_GRE_venizelist
+			}
+			skill = 5
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+
+	GRE_alexandros_othonaios = {
+		name = "Aléxandros Othonaíos"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Europe/Portrait_Greece_Alexandros_Othonaios.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				skilled_staffer
+				politically_connected
+				trait_GRE_venizelist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	GRE_theodoros_manetas = {
+		name = "Theódoros Manétas"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Dimitrios_Psarros.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				politically_connected
+				trait_GRE_venizelist
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	GRE_alexandros_mazarakis = {
+		name = "Aléxandros Mazarákis"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Manolis_Mantakas.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				thorough_planner
+				trait_GRE_venizelist
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+
+	GRE_napoleon_zervas = {
+		name = "Napoléon Zérvas"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Napoleon_Zervas.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				commando
+				harsh_leader
+				trait_GRE_venizelist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	GRE_konstantinos_manetas = {
+		name = "Konstantínos Manétas"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Evripidis_Bakirtzis.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+				trait_GRE_venizelist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+		# Monarchist Faction
+	GRE_alexandros_papagos = {
+		name = "Aléxandros Papágos"
+		portraits={
+			army={
+				large="gfx/leaders/GRE/Portrait_Greece_Alexandros_Papagos.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				cavalry_officer
+				thorough_planner
+				trait_GRE_monarchist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	GRE_konstantinos_bakopoulos = {
+		name = "Konstantínos Bakópoulos"
+		#picture = "gfx/leaders/GRE/Portrait_Greece_Alexandros_Papagos.tga"
+		# actual portrait needed
+		corps_commander={
+			traits = {
+				organizer
+				trait_GRE_monarchist
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+
+	GRE_konstantinos_mazarakis = {
+		name = "Konstantínos Mazarákis"
+		#portrait_path = "gfx/leaders/GRE/Europe/Portrait_Greece_Ioannis_Metaxas.tga"
+		# actual portrait needed
+		corps_commander={
+			traits = {
+				commando
+				trait_GRE_monarchist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	GRE_georgios_grivas = {
+		name = "Geórgios Grívas"
+		portraits={
+			army={
+				large = "gfx/leaders/GRE/Europe/Portrait_Greece_Georgios_Grivas.tga"		
+			}
+		}
+		corps_commander={
+			traits = {
+				infantry_officer
+				trait_GRE_monarchist
+			}
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+
+	GRE_konstantinos_davakis = {
+		name = "Konstantínos Davákis"
+		portraits={
+			army={
+				large = "gfx/leaders/GRE/Europe/Portrait_Greece_Konstantinos_Davakis.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				armor_officer
+				organizer
+				trait_GRE_monarchist
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

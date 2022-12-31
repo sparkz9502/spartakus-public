@@ -1,0 +1,459 @@
+### Civil Wars
+
+northern_hemisphere_spring = {
+	OR = {
+		AND = {
+			date > 1932.3.20
+			date < 1932.6.21
+		}
+		AND = {
+			date > 1933.3.20
+			date < 1933.6.21
+		}
+		AND = {
+			date > 1934.3.20
+			date < 1934.6.21
+		}
+		AND = {
+			date > 1935.3.20
+			date < 1935.6.21
+		}
+		AND = {
+			date > 1936.3.20
+			date < 1936.6.21
+		}
+		AND = {
+			date > 1937.3.20
+			date < 1937.6.21
+		}
+		AND = {
+			date > 1938.3.20
+			date < 1938.6.21
+		}
+		AND = {
+			date > 1939.3.20
+			date < 1939.6.21
+		}
+		AND = {
+			date > 1940.3.20
+			date < 1940.6.21
+		}
+		AND = {
+			date > 1941.3.20
+			date < 1941.6.21
+		}
+		AND = {
+			date > 1942.3.20
+			date < 1942.6.21
+		}
+		AND = {
+			date > 1943.3.20
+			date < 1943.6.21
+		}
+		AND = {
+			date > 1944.3.20
+			date < 1944.6.21
+		}
+		AND = {
+			date > 1945.3.20
+			date < 1945.6.21
+		}
+		AND = {
+			date > 1946.3.20
+			date < 1946.6.21
+		}
+		AND = {
+			date > 1947.3.20
+			date < 1947.6.21
+		}
+		AND = {
+			date > 1948.3.20
+			date < 1948.6.21
+		}
+		AND = {
+			date > 1949.3.20
+			date < 1949.6.21
+		}
+		AND = {
+			date > 1950.3.20
+			date < 1950.6.21
+		}
+	}
+}
+
+northern_hemisphere_summer = {
+	OR = {
+		AND = {
+			date > 1932.6.21
+			date < 1932.9.22
+		}
+		AND = {
+			date > 1933.6.21
+			date < 1933.9.22
+		}
+		AND = {
+			date > 1934.6.21
+			date < 1934.9.22
+		}
+		AND = {
+			date > 1935.6.21
+			date < 1935.9.22
+		}
+		AND = {
+			date > 1936.6.21
+			date < 1936.9.22
+		}
+		AND = {
+			date > 1937.6.21
+			date < 1937.9.22
+		}
+		AND = {
+			date > 1938.6.21
+			date < 1938.9.22
+		}
+		AND = {
+			date > 1939.6.21
+			date < 1939.9.22
+		}
+		AND = {
+			date > 1940.6.21
+			date < 1940.9.22
+		}
+		AND = {
+			date > 1941.6.21
+			date < 1941.9.22
+		}
+		AND = {
+			date > 1942.6.21
+			date < 1942.9.22
+		}
+		AND = {
+			date > 1943.6.21
+			date < 1943.9.22
+		}
+		AND = {
+			date > 1944.6.21
+			date < 1944.9.22
+		}
+		AND = {
+			date > 1945.6.21
+			date < 1945.9.22
+		}
+		AND = {
+			date > 1946.6.21
+			date < 1946.9.22
+		}
+		AND = {
+			date > 1947.6.21
+			date < 1947.9.22
+		}
+		AND = {
+			date > 1948.6.21
+			date < 1948.9.22
+		}
+		AND = {
+			date > 1949.6.21
+			date < 1949.9.22
+		}
+		AND = {
+			date > 1950.6.21
+			date < 1950.9.22
+		}
+	}
+}
+
+northern_hemisphere_autumn = {
+	OR = {
+		AND = {
+			date > 1932.9.22
+			date < 1932.12.21
+		}
+		AND = {
+			date > 1933.9.22
+			date < 1933.12.21
+		}
+		AND = {
+			date > 1934.9.22
+			date < 1934.12.21
+		}
+		AND = {
+			date > 1935.9.22
+			date < 1935.12.21
+		}
+		AND = {
+			date > 1936.9.22
+			date < 1936.12.21
+		}
+		AND = {
+			date > 1937.9.22
+			date < 1937.12.21
+		}
+		AND = {
+			date > 1938.9.22
+			date < 1938.12.21
+		}
+		AND = {
+			date > 1939.9.22
+			date < 1939.12.21
+		}
+		AND = {
+			date > 1940.9.22
+			date < 1940.12.21
+		}
+		AND = {
+			date > 1941.9.22
+			date < 1941.12.21
+		}
+		AND = {
+			date > 1942.9.22
+			date < 1942.12.21
+		}
+		AND = {
+			date > 1943.9.22
+			date < 1943.12.21
+		}
+		AND = {
+			date > 1944.9.22
+			date < 1944.12.21
+		}
+		AND = {
+			date > 1945.9.22
+			date < 1945.12.21
+		}
+		AND = {
+			date > 1946.9.22
+			date < 1946.12.21
+		}
+		AND = {
+			date > 1947.9.22
+			date < 1947.12.21
+		}
+		AND = {
+			date > 1948.9.22
+			date < 1948.12.21
+		}
+		AND = {
+			date > 1949.9.22
+			date < 1949.12.21
+		}
+		AND = {
+			date > 1950.9.22
+			date < 1950.12.21
+		}
+	}
+}
+
+northern_hemisphere_winter = {
+	OR = {
+		AND = {
+			date > 1932.12.21
+			date < 1932.3.20
+		}
+		AND = {
+			date > 1933.12.21
+			date < 1933.3.20
+		}
+		AND = {
+			date > 1934.12.21
+			date < 1934.3.20
+		}
+		AND = {
+			date > 1935.12.21
+			date < 1935.3.20
+		}
+		AND = {
+			date > 1936.12.21
+			date < 1936.3.20
+		}
+		AND = {
+			date > 1937.12.21
+			date < 1937.3.20
+		}
+		AND = {
+			date > 1938.12.21
+			date < 1938.3.20
+		}
+		AND = {
+			date > 1939.12.21
+			date < 1939.3.20
+		}
+		AND = {
+			date > 1940.12.21
+			date < 1940.3.20
+		}
+		AND = {
+			date > 1941.12.21
+			date < 1941.3.20
+		}
+		AND = {
+			date > 1942.12.21
+			date < 1942.3.20
+		}
+		AND = {
+			date > 1943.12.21
+			date < 1943.3.20
+		}
+		AND = {
+			date > 1944.12.21
+			date < 1944.3.20
+		}
+		AND = {
+			date > 1945.12.21
+			date < 1945.3.20
+		}
+		AND = {
+			date > 1946.12.21
+			date < 1946.3.20
+		}
+		AND = {
+			date > 1947.12.21
+			date < 1947.3.20
+		}
+		AND = {
+			date > 1948.12.21
+			date < 1948.3.20
+		}
+		AND = {
+			date > 1949.12.21
+			date < 1949.3.20
+		}
+		AND = {
+			date > 1950.12.21
+			date < 1950.3.20
+		}
+	}
+}
+
+#State scope
+is_controlled_by_ROOT_or_subject = {
+	custom_trigger_tooltip = {
+		tooltip = is_controlled_by_ROOT_or_subject
+		CONTROLLER = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+			}
+		}
+	}
+}
+
+#Country scope
+is_free_or_subject_of_root = {
+	OR = {
+		is_subject = no
+		is_subject_of = ROOT
+	}
+}
+
+#State scope
+is_controlled_by_ROOT_or_ally = {
+	custom_trigger_tooltip = {
+		tooltip = is_controlled_by_ROOT_or_ally
+		CONTROLLER = {
+			OR = {
+				tag = ROOT
+				is_subject_of = ROOT
+				is_in_faction_with = ROOT
+			}
+		}
+	}
+}
+
+can_ROOT_get_wargoal_on_THIS = {
+	exists = yes
+	NOT = { is_in_faction_with = ROOT }
+	NOT = { is_subject_of = ROOT }
+}
+
+#Country scope
+is_JAP_or_ally_of_JAP = {
+	OR = {
+		tag = JAP
+		is_in_faction_with = JAP
+		is_subject_of = JAP
+	}
+}
+
+is_border_conflict_defender_vs_FROM = {
+	has_variable = ROOT.defender_state_vs_@FROM
+}
+
+has_not_initiated_border_incident_with_FROM = {
+	custom_trigger_tooltip = {
+		tooltip = not_initiated_border_incident_with_FROM
+		NOT = {		
+			any_state = {
+				check_variable = { FROM.defender_state_vs_@PREV = id }
+			}
+		}
+	}
+}
+
+has_not_initiated_border_incident_with_ROOT = {
+	custom_trigger_tooltip = {
+		tooltip = not_initiated_border_incident_with_ROOT
+		NOT = {
+			any_state = {
+				check_variable = { ROOT.defender_state_vs_@PREV = id }
+			}
+		}
+	}
+}
+
+#State scope
+has_ROOT_at_least_1_div_in_current_state_scope = {
+	custom_trigger_tooltip = {
+		tooltip = at_least_one_division_in_state
+		ROOT = { divisions_in_state = { state = PREV size > 0 } }
+	}
+}
+
+
+ai_air_doctrine_tier_1_trigger = {
+	OR = {
+		has_tech = naval_strike_tactics
+		has_tech = direct_ground_support
+		has_tech = low_echelon_support
+	}
+}
+
+ai_air_doctrine_tier_2_trigger = {
+	OR = {
+		has_tech = multialtitude_flying
+		has_tech = hunt_and_destroy
+		has_tech = operational_destruction
+	}
+}
+ai_air_doctrine_tier_3_trigger = {
+	OR = {
+		has_tech = flying_fortress
+		has_tech = naval_strike_torpedo_tactics
+		has_tech = infiltration_bombing
+	}
+}
+
+ai_land_doctrine_tier_1_trigger = {
+	OR = {
+		has_tech = elastic_defence
+		has_tech = mobile_defence
+		has_tech = grand_assault
+		has_tech = defence_in_depth
+	}
+}
+
+ai_land_doctrine_tier_2_trigger = {
+	OR = {
+		has_tech = kampfgruppe
+		has_tech = mechanised_offensive
+		has_tech = branch_interoperation
+		has_tech = infiltration_assault
+		has_tech = vast_offensives
+		has_tech = large_front_offensive
+	}
+}
+
+SOV_save_pp_for_manpower_trouble = {
+	has_manpower < 1000000
+	has_political_power < 200
+	surrender_progress > 0	
+}

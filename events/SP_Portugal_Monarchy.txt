@@ -1,0 +1,219 @@
+﻿###########################
+# Portugal Republic Events
+###########################
+
+add_namespace = prm
+
+# Intro Event
+country_event = {
+	id = prm.1
+	title = prm.1.t
+	desc = prm.1.d
+	picture = GFX_portugalmonarchyflag
+    is_triggered_only = yes
+	fire_only_once = yes
+	
+	option = {
+		name = prm.1.a
+		ai_chance = { factor = 100 }
+	}
+}
+
+country_event = {
+	id = prm.2
+	title = prm.2.t
+	desc = prm.2.d
+	picture = GFX_report_event_british_artillery
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.2.a
+		add_manpower = -100
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			POR = {
+				country_event = { days = 3 id = por.3 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = prm.3
+	title = prm.3.t
+	desc = prm.3.d
+	picture = GFX_report_event_british_artillery
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.3.a
+		add_manpower = -100
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			load_oob = PRM_marines
+		}
+	}
+}
+
+country_event = { # End of the Civil War
+	id = prm.4
+	title = prm.4.t
+	desc = prm.4.d
+	picture = GFX_report_event_spain_civil_war_soldiers
+
+	is_triggered_only = yes
+
+	option = {
+		name = prm.4.a
+
+		add_political_power = 100
+		remove_ideas = {
+			POR_divided_country
+			PRM_restoration
+		}
+		add_ideas = PRM_recovering_civil_war
+		delete_unit_template_and_units = { division_template = "Brigada Monarquista" }
+		hidden_effect = {
+			POR = {
+				country_event = { days = 10 id = prm.5 }
+			}
+		}
+	}
+}
+
+country_event = {
+	id = prm.5
+	title = prm.5.t
+	desc = prm.5.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.5.a
+		custom_effect_tooltip = PRM_navy_tt
+		delete_unit_template_and_units = { division_template = "Fuzileiros Navais" }
+		hidden_effect = {
+			load_oob = PRM_navy
+		}
+	}
+}
+
+country_event = {
+	id = prm.6
+	title = prm.6.t
+	desc = prm.6.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.6.a
+		remove_ideas = {
+			POR_divided_country
+			PRM_restoration
+		}
+		add_ideas = {
+			PRM_uncontrolled_border
+			PRM_no_capital
+			PRM_destroyed_gov
+		}
+		every_owned_state = {
+			add_compliance = -30
+			add_resistance = 10
+			add_resistance_target = 30
+		}
+		add_popularity = {
+			ideology = spartacist 
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = bolshevist 
+			popularity = -0.15
+		}
+		add_popularity = {
+			ideology = revolutionary_socialist 
+			popularity = -0.10
+		}
+		add_popularity = {
+			ideology = reformist_socialist 
+			popularity = -0.05
+		}
+		load_focus_tree = SP_PEX
+	}
+}
+
+country_event = {
+	id = prm.7
+	title = prm.7.t
+	desc = prm.7.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.7.a
+		ai_chance = {
+			factor = 5
+		}
+		PRM = {
+			country_event = prm.8
+		}
+	}
+	option = {
+		name = prm.7.b
+		ai_chance = {
+			factor = 95
+		}
+		PRM = {
+			country_event = prm.9
+		}
+		add_political_power = -10
+	}
+}
+
+country_event = {
+	id = prm.8
+	title = prm.8.t
+	desc = prm.8.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.8.a
+		add_popularity {
+			ideology = right_wing_populist popularity = -0.05
+		}
+	}
+}
+
+country_event = {
+	id = prm.9
+	title = prm.9.t
+	desc = prm.9.d
+	picture = GFX_report_event_french_resistance_02
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = prm.9.a
+			swap_ideas = {
+				remove_idea = PRM_no_labour
+				add_idea = PRM_foreign_labour
+			}
+	}
+}

@@ -1,0 +1,35 @@
+
+state={
+	id=751
+	name="STATE_751"
+	resources={
+		rubber=12.000
+		raremetals=2
+	}
+
+	history={
+		owner = MLY
+		add_core_of = MLY
+		add_core_of = KEL
+		victory_points = {
+			7329 2 
+		}
+		buildings = {
+			infrastructure = 2
+			air_base = 2
+			7329 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		7329 10227 
+	}
+	manpower=378600
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

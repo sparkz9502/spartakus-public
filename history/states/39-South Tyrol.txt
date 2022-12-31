@@ -1,0 +1,27 @@
+
+state={
+	id=39
+	name="STATE_39"
+
+	history={
+		owner = ITA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+
+		}
+		victory_points = {
+			9630 1 
+		}
+		add_core_of = AUS
+		add_core_of = ITA
+
+	}
+
+	provinces={
+		656 6675 9630 11615 13617 
+	}
+	manpower=269600
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=855
+	name="STATE_855"
+	resources={
+		rubber=4.000
+	}
+
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = BRA
+		add_claim_by = BOL
+
+	}
+
+	provinces={
+		5216 10960 13301 13330 13524 13526 13530 
+	}
+	manpower=78100
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=957
+	name="STATE_957"
+	resources={
+		raremetals=6.000
+		copper=44.000
+	}
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13646 13648 13966 13969 13971 13972 13974 13977 13983 13987 13989 
+	}
+	manpower=100740
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

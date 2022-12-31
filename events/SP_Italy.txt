@@ -1,0 +1,568 @@
+﻿###########################
+# Monarchist Italy Events #
+###########################
+
+add_namespace = ita
+add_namespace = itaext
+add_namespace = itafoc
+add_namespace = itaflv
+add_namespace = itapol
+add_namespace = itapostcw
+
+##################
+## Intro Events ##
+##################
+
+country_event = { #Introduction to Italy - The Conflicts
+	id = ita.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ita.1"}
+	title = ita.1.t
+	desc = ita.1.d
+	picture = GFX_ITA_flag_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ita.1.a
+		country_event = {
+			id = ita.2
+		}
+	}
+	
+	option = { #stop events
+		name = ita.1.b
+	}
+}
+
+country_event = { #Introduction to Italy - The Early Years
+	id = ita.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ita.2"}
+	title = ita.2.t
+	desc = ita.2.d
+	picture = GFX_ITA_socialist_uprising
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ita.2.a
+		country_event = {
+			id = ita.3
+		}
+	}
+	
+	option = { #stop events
+		name = ita.2.b
+	}
+}
+
+country_event = { #Introduction to Italy - The Years of Lead
+	id = ita.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ita.3"}
+	title = ita.3.t
+	desc = ita.3.d
+	picture = GFX_ITA_Luigi_Sturzo
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ita.3.a
+		country_event = {
+			id = ita.4
+		}
+	}
+	
+	option = { #stop events
+		name = ita.3.b
+	}
+}
+
+country_event = { #Introduction to Italy - The Governo Militare
+	id = ita.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event ita.4"}
+	title = ita.4.t
+	desc = ita.4.d
+	picture = GFX_ITA_pietro_badoglio
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = ita.4.a
+	}
+}
+
+##################
+## Focus Events ##
+##################
+
+country_event = { #The King and the Prime Minister
+	id = itafoc.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itafoc.1"}
+	title = itafoc.1.t
+	desc = itafoc.1.d
+	picture = GFX_ITA_pietro_badoglio
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itafoc.1.a
+	}
+}
+
+country_event = { #Badoglio's Address
+	id = itafoc.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itafoc.2"}
+	title = itafoc.2.t
+	desc = itafoc.2.d
+	picture = GFX_ITA_pietro_badoglio
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itafoc.2.a
+	}
+}
+
+country_event = { #Renewal of the Anti-Socialist Laws
+	id = itafoc.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itafoc.3"}
+	title = itafoc.3.t
+	desc = itafoc.3.d
+	picture = GFX_ITA_arrests
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itafoc.3.a
+		add_stability = 0.03
+		set_party_name = { 
+			ideology = social_democrat 
+			long_name = ITA_pdl_long
+			name = ITA_pdl
+		}
+	}
+}
+
+country_event = { #The Question of the Fascists
+	id = itafoc.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itafoc.4"}
+	title = itafoc.4.t
+	desc = itafoc.4.d
+	picture = GFX_ITA_fascist_coup
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itafoc.4.a
+		ITA_strengthen_nationalist = yes
+		add_stability = -0.03
+	}
+	
+	option = {
+		name = itafoc.4.b
+		ITA_strengthen_orthodox = yes
+		add_political_power = -10
+	}
+}
+
+country_event = { #Rising Discontent
+	id = itafoc.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itafoc.5"}
+	title = itafoc.5.t
+	desc = itafoc.5.d
+	picture = GFX_ITA_great_depression
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itafoc.5.a
+		add_popularity = {
+			ideology = spartacist
+			popularity = 0.03
+		}
+		ITA_piemonte_resistance_positive = yes
+	}
+}
+
+country_event = { #Crisis in the Banks
+	id = itafoc.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itafoc.6"}
+	title = itafoc.6.t
+	desc = itafoc.6.d
+	picture = GFX_ITA_great_depression
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itafoc.6.a
+		ITA_strengthen_nationalist = yes
+		add_stability = -0.05
+	}
+	
+	option = {
+		name = itafoc.6.b
+		ITA_strengthen_orthodox = yes
+		158 = {
+			remove_building = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}
+		}
+		ITA_piemonte_resistance_positive = yes
+	}
+}
+
+##########################
+## Pre-Civil War Events ##
+##########################
+
+country_event = { #Market Crash in the United States!
+	id = itapol.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapol.1"}
+	title = itapol.1.t
+	desc = itapol.1.d
+	picture = GFX_ITA_great_depression
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { 
+				id = itapol.2 
+				days = 180
+			}
+		}
+	}
+	
+	option = {
+		name = itapol.1.a
+		swap_ideas = {
+			remove_idea = ITA_Red_Decade
+			add_idea = ITA_Great_Depression_1
+		}
+	}
+}
+
+country_event = { #Declines in International Trade
+	id = itapol.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapol.2"}
+	title = itapol.2.t
+	desc = itapol.2.d
+	picture = GFX_ITA_great_depression
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { 
+				id = itapol.3 
+				days = 125
+			}
+		}
+	}
+	
+	option = {
+		name = itapol.2.a
+		swap_ideas = {
+			remove_idea = ITA_Great_Depression_1
+			add_idea = ITA_Great_Depression_2
+		}
+	}
+}
+
+country_event = { #A Breaking Point
+	id = itapol.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapol.3"}
+	title = itapol.3.t
+	desc = itapol.3.d
+	picture = GFX_ITA_great_depression
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		
+	}
+	
+	option = {
+		name = itapol.3.a
+		swap_ideas = {
+			remove_idea = ITA_Great_Depression_2
+			add_idea = ITA_Great_Depression_3
+		}
+		activate_mission = ITA_rising_communist_resistance
+		activate_mission = ITA_rising_republican_resistance
+		set_country_flag = ITA_unlock_econ_tree
+		mark_focus_tree_layout_dirty = yes
+		complete_national_focus = ITA_disaster_strikes
+	}
+}
+
+country_event = { #May Day 1933
+	id = itapol.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapol.10"}
+	title = itapol.10.t
+	desc = itapol.10.d
+	picture = GFX_ITA_socialist_factory_occupation
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itapol.10.a
+		add_stability = -0.05
+	}
+}
+
+###########################
+## Post-Civil War Events ##
+###########################
+
+country_event = { #The End of the Civil War
+	id = itapostcw.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapostcw.1"}
+	title = itapostcw.1.t
+	desc = itapostcw.1.d
+	picture = GFX_ITA_flag_parade
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itapostcw.1.a
+		ai_chance = {
+			factor = 100
+		}
+		country_event = {
+			id = itapostcw.2
+			days = 30
+		}
+		custom_effect_tooltip = ITA_Political_Campaigns
+		add_stability = 0.05
+		add_political_power = 50
+		
+		hidden_effect = {
+			mark_focus_tree_layout_dirty = yes
+			complete_national_focus = ITA_civil_war_victory
+			complete_national_focus = ITA_democracy_restored
+			set_party_name = { 
+				ideology = bolshevist 
+				long_name = ITA_pcdi_simple_long
+				name = ITA_pcdi_simple
+			}
+			set_party_name = { 
+				ideology = spartacist
+				long_name = ITA_pcdi_simple_long
+				name = ITA_pcdi_simple
+			}
+			set_party_name = { 
+				ideology = revolutionary_socialist
+				long_name = ITA_pcdi_simple_long
+				name = ITA_pcdi_simple
+			}
+			set_party_name = { 
+				ideology = social_conservative 
+				long_name = ITA_dc_long
+				name = ITA_dc
+			}
+			set_party_name = { 
+				ideology = authoritarian_conservative 
+				long_name = ITA_pnm_long
+				name = ITA_pnm
+			}
+			set_party_name = { 
+				ideology = national_syndicalist
+				long_name = ITA_pnf_simple_long
+				name = ITA_pnf_simple
+			}
+			set_party_name = { 
+				ideology = national_corporatist
+				long_name = ITA_pnf_simple_long
+				name = ITA_pnf_simple
+			}
+			set_variable = {
+				var = ITA.var_nda
+				value = 0
+			}
+			set_variable = {
+				var = ITA.var_lib
+				value = 0
+			}
+			set_variable = {
+				var = ITA.var_pca
+				value = 0
+			}
+		}
+	}
+}
+
+country_event = { #Victory of the Popular Catholic Action
+	id = itapostcw.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapostcw.10"}
+	title = itapostcw.10.t
+	desc = itapostcw.10.d
+	picture = GFX_ITA_Popular_Catholic_Action
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itapostcw.10.a
+		ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+			set_popularities = {
+				bolshevist = 2
+				spartacist = 8
+				revolutionary_socialist = 10
+				reformist_socialist = 2
+				social_democrat = 14
+				social_liberal = 10
+				liberal_conservative = 17
+				social_conservative = 28
+				authoritarian_conservative = 1
+				right_wing_populist = 5
+				national_syndicalist = 2
+				national_corporatist = 1
+			}
+		}
+	}
+}
+
+country_event = { #Formation of the Ferrari Cabinet
+	id = itapostcw.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapostcw.20"}
+	title = itapostcw.20.t
+	desc = itapostcw.20.d
+	picture = GFX_ITA_Ferrari_Event
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itapostcw.20.a
+		ai_chance = {
+			factor = 100
+		}
+		add_ideas = {
+			ITA_Francesco_Luigi_Ferrari_hog_sco
+			ITA_Giovanni_Gronchi_mwp_sco
+			ITA_Giuseppe_Brusasca_for_sco
+			ITA_Meuccio_Ruini_eco_sde
+			ITA_Adone_Zoli_sec_sco
+			ITA_Paolo_Rossi_edu_sde
+			ITA_Amintore_Fanfani_agr_sco
+			ITA_Piero_Malvestiti_tra_sco
+			ITA_Luigi_Gasparotto_def_sde
+		}
+		hidden_effect = {
+			SP_clear_coalition_effect = yes
+			add_coalition_social_democrat = yes
+			
+			set_politics = {	
+				ruling_party = social_conservative
+				last_election = "1888.6.15"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
+	}
+}
+
+country_event = { #Formation of the De Gasperi Cabinet
+	id = itapostcw.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itapostcw.21"}
+	title = itapostcw.21.t
+	desc = itapostcw.21.d
+	picture = GFX_ITA_De_Gasperi_Speech
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itapostcw.21.a
+		ai_chance = {
+			factor = 100
+		}
+		add_ideas = {
+			ITA_Alcide_De_Gasperi_hog_sco
+			ITA_Paolo_Cappa_mwp_sco
+			ITA_Alessandro_Casati_for_lco
+			ITA_Giuseppe_Micheli_eco_sco
+			ITA_Salvatore_Aldisio_sec_sco
+			ITA_Gaetano_Martino_edu_lco
+			ITA_Antonio_Segni_agr_sco
+			ITA_Guido_Corbellini_tra_sco
+			ITA_Mario_Cingolani_def_sco
+		}
+		hidden_effect = {
+			SP_clear_coalition_effect = yes
+			add_coalition_liberal_conservative = yes
+			
+			set_politics = {	
+				ruling_party = social_conservative
+				last_election = "1888.6.15"
+				election_frequency = 48
+				elections_allowed = no
+			}
+		}
+	}
+}
+
+###################
+## Flavor Events ##
+###################
+
+###Death Events###
+
+news_event = { #Death of Filippo Turati
+	id = itaflv.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itaflv.1"}
+	title = itaflv.1.t
+	desc = itaflv.1.d
+	picture = GFX_ITA_Turati
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itaflv.1.a
+	}
+}
+
+news_event = { #Death of Giuseppe Peano
+	id = itaflv.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itaflv.2"}
+	title = itaflv.2.t
+	desc = itaflv.2.d
+	picture = GFX_ITA_Peano
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itaflv.2.a
+	}
+}
+
+news_event = { #Death of Errico Malatesta
+	id = itaflv.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itaflv.3"}
+	title = itaflv.3.t
+	desc = itaflv.3.d
+	picture = GFX_ITA_Malatesta
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itaflv.3.a
+		add_stability = 0.001
+	}
+}
+
+news_event = { #Death of Carlo Petitti di Roreto
+	id = itaflv.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event itaflv.4"}
+	title = itaflv.4.t
+	desc = itaflv.4.d
+	picture = GFX_ITA_Roreto
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = itaflv.4.a
+	}
+}

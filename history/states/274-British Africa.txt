@@ -1,0 +1,31 @@
+
+state={
+	id=274
+	name="STATE_274"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		victory_points = {
+			14070 1 
+		}
+		buildings = {
+			air_base = 1
+			infrastructure = 2
+			14070 = {
+				naval_base = 2
+
+			}
+			industrial_complex = 1
+
+		}
+
+	}
+
+	provinces={
+		13136 14067 14068 14070 14071 14076 14077 
+	}
+	manpower=1715000
+	buildings_max_level_factor=1.000
+	state_category=town
+}

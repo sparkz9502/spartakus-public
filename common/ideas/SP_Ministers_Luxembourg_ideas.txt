@@ -1,0 +1,338 @@
+ideas = {
+################################################################################################################################################################################################
+### LUX
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	LUX_Joseph_Bech_hog_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Pierre_Dupong_hog_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = { ### Minister Without Portfolio ###
+	LUX_Pierre_Krier_mwp_ref = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			minister_without_portfolio
+			mwp_modern_statesman
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	LUX_Joseph_Bech_for_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	LUX_Pierre_Dupong_eco_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	LUX_Etienne_Schmit_sec_sli = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Nicolas_Braunshausen_sec_sli = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_efficient_sociopath
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Norbert_Dumont_sec_sli = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Joseph_Bech_sec_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = { ### Education Minister ###
+	LUX_Joseph_Bech_edu_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			education_minister
+			edu_old_school_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Nicolas_Margue_edu_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = {
+	LUX_Joseph_Bech_agr_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_reluctant_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Nicolas_Margue_agr_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = {
+	LUX_Victor_Bodson_tra_ref = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Rene_Blum_tra_ref = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			reformist_socialist
+			transport_minister
+			tra_railway_enthusiast
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Albert_Clemang_tra_sli = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			transport_minister
+			tra_resource_extraction_focus
+		}
+		cancel_if_invalid = no
+	}
+	
+	LUX_Etienne_Schmit_tra_sli = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			transport_minister
+			tra_apolitical_administrator
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	LUX_Pierre_Dupong_def_sco = {
+		allowed = {original_tag = LUX}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	LUX_Felix_Bourbon-Parma_cos = {
+		allowed = {original_tag = LUX}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+
+}
+
+chief_of_navy = { ### Chief of Navy ###
+
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+
+}
+
+sp_theorist = { ### Theorist ###
+
+}
+}

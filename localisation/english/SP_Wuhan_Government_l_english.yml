@@ -1,0 +1,130 @@
+﻿l_english:
+
+
+### Leader Descriptions ###
+POLITICS_WANG_JINGWEI_DESC:0 "§GDate of Birth:§! §g4 May 1883§!\n§GPlace of Birth:§! §gSanshui, Guangdong§!\n§GOverview:§! §gThe young and promising leader of leftists, hero of Xinhai Revolution, trusted and diligent secretary Of Dr.Sun Yat-sen... While Wang is granted with so many halos, the problems that whether he is suitable for his position remains to be a question. With the process of revolution, it seems that the halos cannot cover up the questions on his abilities anymore. \n\n After the death of Dr. Sun Yat-sen, Wang once successfully build up his position by promoting the united front between KMT and CPC. However, when Chiang Kai-shek and Hu Hanmin were trying to challenge his position together with the rightists reluctant to the coalition, Wang could barely defend his position. Luckily, the smooth result of the Northern Expedition and the hasty reactionary coups held by the rightists had saved Wang's fame. When Wuhan successfully united most of, if not all, revolutionaries, reactionaries in Nanjing seemed to be abandoned by the mass, and suffered from heavy loss. Achieving an elegant success, though the future of Wuhan seems to be promising, those questions on whether Wang is a capable leader haunt once again. While the CPC and radical leftists consider the revolution is far less than success, those gentries together with generals and soldiers whose interest was impaired during reforms are clamoring to expel all leftists. \n\n By the year of 1932, Wang has been thrown to a dilemma - to quit the position of leader of KMT would be more like to commit suicide in terms of politics, while to stay in the position means he would have to make bitter decisions that would certainly enrage a certain faction who are able to overthrow him. It is hard to say whether Wang weight the revolutionary ideals more, or he is just concerning how to solidify his position."
+
+### Events ###
+cpcrevolution.1.t:0 "[GetNewspaperHeader]China falls into chaos again"
+cpcrevolution.1.d:0 "Following the Xinhai revolution that deposed the last of the Qing emperors, the civil war had long plagued China. Northern Expedition in 1927 seemed to have solved the problem once for all, yet with the conflict between Kuomintang and CPC break out these days, it is clear shown that the illusion of peace was destroyed. This conflict indicated that the consensus between the powerful factions formed after the Northern Expedition does not exist anymore. \n\n But for other powers around China, it may not be bad news. Various powers, with Japan takes the lead, intend to intervene such chaos, in order to get more benefits."
+cpcrevolution.1.a:0 "Again？"
+
+CHI.1.t:0 "Status of Wuhan Government"
+CHI.1.d:0 "With the smooth progress of Northern Expedition, the legitimacy of National Government has been established. Yet due to the counter-revolution plot launched by rightists, there leaves an embarassing situation that Wuhan Government and Nanjing Government co-exists. Nanjing claims that we are infiltrated by foreign powers, they just simply don't know, or wishes to cover up the true meaning of KMT-CPC Collaboration."
+CHI.1.a:0 "Tell me about the standpoint of KMT."
+CHI.1.b:0 "Tell me about the standpoint of CPC."
+CHI.1.c:0 "I'm well prepared."
+
+CHI.2.t:0 "KMT's Standpoint"
+CHI.2.d:0 ""
+CHI.2.a:0 "That's fine, bring me back."
+CHI.2.b:0 "That's enough for me."
+
+CHI.3.t:0 "CPC's Standpoint"
+CHI.3.d:0 ""
+CHI.3.a:0 "That's fine, bring me back."
+CHI.3.b:0 "That's enough for me."
+
+CHI.101.t:0 "Peasant Army Besiges Changsha!"
+CHI.101.d:0 "test"
+CHI.101.a:0 "We must seek out a solution."
+
+CHI.102.t:0 "Seek out solutions"
+CHI.102.d:0 ""
+CHI.102.a:0 "Hold a conference between the representatives. Appoint Tang Shengzhi in charge of it."
+CHI.102.b:0 "We can not risk exposing such accident to the mass. Maybe we should do some dirty works."
+CHI.102.c:0 "The problem is within the Army. We should reorganize the Army first."
+
+CHI.103.t:0 "Conference Begins"
+CHI.103.d:0 ""
+CHI.103.a:0 "We should accept peasants' appeals as soon as possible. "
+chi_army_not_pleased:0 "§RThe Army may not take this readily...§!"
+CHI.103.b:0 "We are not going to accept all the appeals, but we can accpet some of them first."
+CHI.103.c:0 "There are too many conflicts, we shold let them debate. "
+chi_takes_time:0 "§RThis takes time...§!"
+
+CHI.104.t:0 "Conference Result - Fully Accept Peasants appeals"
+CHI.104.d:0 ""
+CHI.104.a:0 "This is a necessary sacrifice."
+
+CHI.105.t:0 "Conference Continues"
+CHI.105.d:0 ""
+CHI.105.a:0 "A solution favors peasants will do no harms."
+CHI.105.b:0 "We shall not concede more. What if other groups imitate their moves?"
+
+CHI.106.t:0 "Conference Result - Consensus Reached"
+CHI.106.d:0 ""
+CHI.106.a:0 "A nice move towards the social revoluton!"
+
+CHI.107.t:0 "Conference Result - Mediation Failed"
+CHI.107.d:0 ""
+CHI.107.a:0 "Anyway, the conference avoids further dissents."
+
+CHI.108.t:0 "Conference Deadlock"
+CHI.108.d:0 ""
+CHI.108.a:0 "Bribe the peasants' representatives."
+chi_rely_on_fortunate:0 "§YWe will have to rely on our fortunate...§!"
+CHI.108.b:0 "Establish an investiation committee."
+chi_takes_longer_time:0 "§YThis really takes time and may not have a pleasing result...§!"
+
+CHI.109.t:0 "Dirty Work"
+CHI.109.d:0 ""
+CHI.109.a:0 "Kidnap their leader's families. DON'T BE RECKLESS!"
+CHI.109.b:0 "We cannot offer them a pleasing concede, but you can offer them a nice punch and shut them up."
+
+CHI.110.t:0 "Plot Exposed!"
+CHI.110.d:0 ""
+CHI.110.a:0 "Damn."
+
+CHI.111.t:0 "Peasants concedes"
+CHI.111.d:0 ""
+CHI.111.a:0 "Do we really need to go so far?"
+
+CHI.112.t:0 "Deal with the Army"
+CHI.112.d:0 ""
+CHI.112.a:0 "We can rely on reasonable officers and soldiers. Let them \"convince\" the rebellious ones."
+CHI.112.b:0 "Directly remove rebellious officers."
+
+CHI.113.t:0 "Consensus within the Army"
+CHI.113.d:0 ""
+CHI.113.a:0 "Not bad."
+
+CHI.114.t:0 "The Army Rebels!"
+CHI.114.d:0 ""
+CHI.114.a:0 "What?"
+
+CHI.115.t:0 "Underground Deals"
+CHI.115.d:0 ""
+CHI.115.a:0 "It depends, indeed."
+
+CHI.116.t:0 "Committee's Progress"
+CHI.116.d:0 ""
+CHI.116.a:0 "But without a clear conclusion?"
+
+CHI.117.t:0 "Dealt"
+CHI.117.d:0 ""
+CHI.117.a:0 "Nice, but we shall block this message."
+
+CHI.118.t:0 "Bribe exposed"
+CHI.118.d:0 ""
+CHI.118.a:0 "Who will be in charge of this scandal?"
+
+CHI.119.t:0 "Conclusion: Favor the Peasants"
+CHI.119.d:0 ""
+CHI.119.a:0 "That's enough, no more debates please."
+
+CHI.120.t:0 "Conclusion: Favor the Officers"
+CHI.120.d:0 ""
+CHI.120.a:0 "That's enough, no more debates please."
+
+
+### Decisions ###
+
+CHI_Wang_tendency_decisions:0 "Debates in Wuhan Government"
+CHI_Wang_tendency_decisions_desc:0 "The Wuhan Government is composed of various factions, and their platforms are largely collided. With crisises approaching, we are no longer able to make compromises when making decisions.\n\n Chairman Wang will have to decide carefully whose proposal will be chosen, for it will affect the power balance between factions, and in the worst situation, it may lead to coups. §RTo aviod this, Wang will try to balance the favored faction by changing his own stances as the Chairman of Wuhan Nationalist Government.§!\n\nWang could wisely use his power to seek peace, but he is becoming increasingly depended to the position. Will he able to appease those factions hostile to each other or intensify the conflicts? And will he addicted to the power and lose the faith of the revolution?\n\n Wang's current tendency towards leftists:[?CHI.Wang_tendency_left|-0]\nWang's current tendency towards rightits:[?CHI.Wang_tendency_right|-0]"
+
+CHI.201.t:0 "The Customs’ Affairs"
+CHI.201.d:0 "Chinese Maritime Customs Service were controlled by British employers since 1854. The foreigners’ interference had made China unable to maintain tariff autonomy for a long time. In September, 1931, the government announced that it would take measures to re-control the Customs Service. It had been three months and the Customs in Guangzhou, Jiujiang and Wuhan, and other places had been rebuilt. What should we do to establish a new Customs’ policy?"
+CHI.201.a:0 "Establish tariff barriers."
+CHI.201.b:0 "Start negotiation."
+CHI.201.c:0 "Turn to foreign experts for help."

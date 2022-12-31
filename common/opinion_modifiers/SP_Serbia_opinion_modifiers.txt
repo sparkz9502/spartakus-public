@@ -1,0 +1,9 @@
+opinion_modifiers = {
+	
+	SER_Action_Against = { 
+	trade = yes
+	value = -200 
+	}
+	SER_Embargo_Against = { value = -150 }
+	
+}

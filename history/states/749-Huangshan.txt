@@ -1,0 +1,33 @@
+
+state={
+	id=749
+	name="STATE_749"
+	
+	resources={
+		raremetals=20
+	}
+
+	history={
+		owner = RAJ
+		add_core_of = BMR
+		add_core_of = RAJ
+		victory_points = {
+			1315 3 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			4275 1 
+		}
+
+	}
+
+	provinces={
+		1296 1315 1385 4275 4408 7295 10217 12125 12292 
+	}
+	manpower=1498200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

@@ -1,0 +1,31 @@
+state={
+	id=1069
+	name="STATE_1069"
+	provinces={
+		3379 
+	}
+	history={
+		owner = ENG
+		victory_points = {
+			3379 10 
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 1
+			air_base = 1
+			dockyard = 1
+			3379 = {
+				naval_base = 4
+
+			}
+
+		}
+		add_core_of = ENG
+		add_core_of = IRE
+
+	}
+	manpower=415200
+	buildings_max_level_factor=1.000
+	state_category=town
+}

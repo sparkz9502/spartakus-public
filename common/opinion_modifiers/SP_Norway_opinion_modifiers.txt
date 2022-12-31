@@ -1,0 +1,11 @@
+opinion_modifiers = {
+	
+	NOR_stop_trade_with_capitalists_opinion = { value = -30 }
+	NOR_international_recovery_opinion = { value = 20 }
+	NOR_monarchist_bonds_opinion = { value = 15 }
+	NOR_pan_europa_consept_good_opinion = { value = 10 }
+	NOR_pan_europa_consept_bad_opinion = { value = -15 }
+	NOR_embassy_in_moscow_opinion = { value = 20 }
+	NOR_embassy_in_berlin_opinion = { value = 20 }
+	NOR_improve_british_relations_opinion = { value = 20 }
+}

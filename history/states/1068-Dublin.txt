@@ -1,0 +1,29 @@
+state={
+	id=1068
+	name="STATE_1068"
+	provinces={
+		11293 
+	}
+	history={
+		owner = IRE
+		victory_points = {
+			11293 12
+		}
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+			industrial_complex = 3
+			air_base = 3
+			11293 = {
+				naval_base = 6
+
+			}
+
+		}
+		add_core_of = IRE
+
+	}
+	manpower=619000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

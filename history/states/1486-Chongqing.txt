@@ -1,0 +1,26 @@
+
+state={
+	id=1486
+	name="STATE_1486"
+	provinces={
+		6999 14049 
+	}
+	history={
+		owner = SCH
+		add_core_of = SCH
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 1
+			arms_factory = 1
+			air_base = 1
+
+		}
+		victory_points = {
+			6999 25 
+		}
+
+	}
+	manpower=7100000
+	state_category = city
+	buildings_max_level_factor=1.000
+}

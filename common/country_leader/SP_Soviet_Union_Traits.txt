@@ -1,0 +1,11 @@
+#####################
+# USSR Traits
+#####################
+
+leader_traits = {
+	SOV_factional_compromiser_trait = {
+		random = no
+		political_power_gain = 0.02
+		stability_factor = 0.05
+	}
+}

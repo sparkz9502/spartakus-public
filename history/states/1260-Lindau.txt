@@ -1,0 +1,21 @@
+
+state={
+	id=1260
+	name="STATE_1260"
+
+	history={
+		owner = EAF
+		add_core_of = EAF
+		add_claim_by = EGY
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		2096 7154 7996 10026 10049 10859 13880 14232 
+	}
+	manpower=348700
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

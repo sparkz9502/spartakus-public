@@ -1,0 +1,1302 @@
+﻿instant_effect = {
+	### Tank Variants ###
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		create_equipment_variant = {
+			name = "A7V"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_heavy_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = secondary_turret_hmg
+				special_type_slot_2 = secondary_turret_hmg
+				special_type_slot_3 = secondary_turret_hmg
+				special_type_slot_4 = secondary_turret_hmg
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 4
+			}
+			obsolete = yes
+			icon = "gfx/interface/technologies/Germany/GER_gwtank.dds"
+		}
+		create_equipment_variant = {
+			name = "Panzerkampfwagen 29"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_christie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 6
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "gfx/interface/technologies/Germany/GER_basic_light_tank.tga"
+		}
+		create_equipment_variant = {
+			name = "Panzerkampfwagen 27"
+			type = heavy_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_close_support_gun
+				turret_type_slot = tank_heavy_three_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = secondary_turret_hmg
+				special_type_slot_3 = secondary_turret_hmg
+				special_type_slot_4 = secondary_turret_hmg
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 5
+				tank_nsb_armor_upgrade = 3
+			}
+			icon = "gfx/interface/technologies/Germany/GER_basic_heavy_tank.tga"
+		}
+	}
+	
+	### Starting Production ###
+
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "GER"
+		}
+		requested_factories = 6
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 3
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				creator = "GER" 
+				version_name = "Panzerkampfwagen 29"
+			}
+			requested_factories = 3
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+				creator = "GER" 
+			}
+			requested_factories = 3
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}
+
+### Templates ###
+
+division_template = {
+	name = "Infanterie-Division"
+	division_names_group = GER_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 0 y = 3 }
+        infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+		infantry = { x = 1 y = 3 }
+        infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+		infantry = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		recon = { x = 0 y = 1 }
+		field_hospital = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Panzer-Division"
+	division_names_group = GER_ARM_01
+
+	regiments = {
+		light_armor = { x = 0 y = 0 }
+		light_armor = { x = 0 y = 1 }
+        light_armor = { x = 1 y = 0 }
+		light_armor = { x = 1 y = 1 }
+		motorized = { x = 2 y = 0 }
+        motorized = { x = 2 y = 1 }
+		mot_artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+        mot_recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Motorisierte-Schützen-Division"
+	division_names_group = GER_MOT_01
+
+	regiments = {
+		motorized = { x = 0 y = 0 }
+	    motorized = { x = 0 y = 1 }
+		motorized = { x = 0 y = 2 }
+		motorized = { x = 1 y = 0 }
+		motorized = { x = 1 y = 1 }
+		motorized = { x = 1 y = 2 }
+		mot_artillery_brigade = { x = 2 y = 0 }
+		mot_artillery_brigade = { x = 2 y = 1 }
+	}
+	
+	support = {
+        engineer = { x = 0 y = 0 }
+		mot_recon = { x = 0 y = 1 }
+		maintenance_company = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+		logistics_company = { x = 0 y = 4 }
+	}
+}
+
+division_template = {
+	name = "Kavallerie-Division"
+	division_names_group = GER_CAV_01
+	
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+        cavalry = { x = 0 y = 1 }
+        cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 2 y = 0 }
+		cavalry = { x = 2 y = 1 }
+		cavalry = { x = 3 y = 0 }
+		cavalry = { x = 3 y = 1 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+		signal_company = { x = 0 y = 3 }
+	}
+}
+
+division_template = {
+	name = "Gebirgs-Division"
+	division_names_group = GER_MNT_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+	    mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+		artillery_brigade = { x = 3 y = 0 }
+	}
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rote-Garde-Division"
+	division_names_group = GER_GRD_01
+
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+        light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+        light_infantry = { x = 2 y = 0 }
+		light_infantry = { x = 2 y = 1 }
+		light_infantry = { x = 2 y = 2 }
+	}
+	
+	priority = 2
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	    recon = { x = 0 y = 1 }
+		artillery = { x = 0 y = 2 }
+	}
+}
+
+division_template = {
+	name = "Volksmarine-Division"		
+	division_names_group = GER_MAR_01
+	
+	regiments = {
+		marine = { x = 0 y = 0 }
+		marine = { x = 0 y = 1 }
+		marine = { x = 1 y = 0 }
+   		marine = { x = 1 y = 1 }
+		marine = { x = 2 y = 0 }
+		marine = { x = 2 y = 1 }
+	}
+	
+	priority = 2
+	
+	support = {
+		engineer = { x = 0 y = 0 }
+	}
+}
+
+division_template = {
+	name = "Luftsturm-Regiment"		
+	division_names_group = GER_PAR_01
+	
+	regiments = {
+		paratrooper = { x = 0 y = 0 }
+		paratrooper = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Rotfrontkämpfer-Ortsgruppe"
+	division_names_group = GER_MIL_01
+	
+	is_locked = yes
+
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		militia = { x = 0 y = 3 }
+		militia = { x = 0 y = 4 }
+	}
+	
+	priority = 0
+}
+
+units = {
+	#Berlin-Stettin (6521-West Berlin, 11505-East Berlin, 6282-Stettin)
+
+	division = { #"1. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 6521
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"21. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 21
+		} 
+		location = 6282
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"1. Rote-Garde-Division ''Friedrich Engels''" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 6521
+		division_template = "Rote-Garde-Division"
+		start_experience_factor = 0.1 
+	}
+	
+	division = { #"1. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 6521
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0 
+	}
+	
+	division = { #"2. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 11505
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0 
+	}
+	
+	#Saxony (3535-Leipzig, 6559-Dresden, 9471-Karl-Marx-Stadt)
+	
+	division = { #"4. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 3535
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0 
+	}
+	
+	division = { #"2. Rote-Garde-Division ''Jean Jaurès''" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 3535
+		division_template = "Rote-Garde-Division"
+		start_experience_factor = 0.1 
+	}
+	
+	division = { #"1. Motorisierte-Schützen-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 3535
+		division_template = "Motorisierte-Schützen-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"6. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		} 
+		location = 6559
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0 
+	}
+	
+	division = { #"7. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		} 
+		location = 9471
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0 
+	}
+	
+	division = { #"7. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 7
+		} 
+		location = 6559
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	#German Bohemia (6470-Karlsbad, 11432-Aussig, 11401-Reichenberg)
+	
+	division = { #"4. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 6470
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"11. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		} 
+		location = 11432
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"15. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		} 
+		location = 11401
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	#Thuringia-Magdeburg (6524-Erfurt, 6487-Halle)
+	
+	division = { #"5. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		} 
+		location = 6524
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"10. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		} 
+		location = 6487
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0 
+	}
+	
+	#Silesia (9570-Breslau, 6464-Kattowitz)
+	
+	division = { #"3. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 9570
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"37. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 37
+		} 
+		location = 9570
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"8. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		} 
+		location = 6464
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"9. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		} 
+		location = 3485
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	#East Prussia-Pomerelia (6332-Friedrich-Engels-Stadt, 362-Danzig)
+	
+	division = { #"10. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 10
+		} 
+		location = 6332
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"12. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		} 
+		location = 348
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"13. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		} 
+		location = 362
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"3. Kavallerie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 15196
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	#Hamburg-Holstein (6389-Kiel, 9347-Hamburg)
+	
+	division = { #"1. Volksmarine-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 6389
+		division_template = "Volksmarine-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8 
+	}
+	
+	division = { #"18. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 18
+		} 
+		location = 317
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"20. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 20
+		} 
+		location = 6389
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"9. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 9
+		} 
+		location = 9347
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	#Lower Saxony (11360-Volkshaven, 11388-Osnabruck, 3326-Bremen)
+	
+	division = { #"24. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 24
+		} 
+		location = 11388
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"25. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 25
+		} 
+		location = 3326
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"4. Kavallerie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 11264
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"12. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 12
+		} 
+		location = 3326
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	#Westfalen (495-Dortmund, 15643-Bochum)
+	
+	division = { #"1. Kavallerie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 15643
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"15. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 15
+		} 
+		location = 495
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"3. Rote-Garde-Division ''Yakov Sverdlov''" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 495
+		division_template = "Rote-Garde-Division"
+		start_experience_factor = 0.1 
+	} 
+	
+	#Ostrhein (6469-Essen, 15188-Dusseldorf, 15644-Duisburg, 6570-Ost Koln, 15642-Wuppertal)
+	
+	division = { #"4. Motorisierte-Schützen-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 4
+		} 
+		location = 6570
+		division_template = "Motorisierte-Schützen-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"22. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 22
+		} 
+		location = 15188
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"2. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 15642
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"11. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 11
+		} 
+		location = 15642
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"13. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 13
+		} 
+		location = 6469
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"6. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 6
+		} 
+		location = 6469
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"14. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		} 
+		location = 15188
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"16. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		} 
+		location = 6570
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	division = { #"2. Motorisierte-Schützen-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 15644
+		division_template = "Motorisierte-Schützen-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"5. Kavallerie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		} 
+		location = 3512
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"3. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"26. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 26
+		} 
+		location = 15188
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"28. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 28
+		} 
+		location = 15644
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"27. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 27
+		} 
+		location = 6570
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"30. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 30
+		} 
+		location = 529
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"29. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 29
+		} 
+		location = 3512
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"31. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 31
+		} 
+		location = 6570
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"33. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 33
+		} 
+		location = 15644
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"35. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 35
+		} 
+		location = 529
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"40. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 40
+		} 
+		location = 529
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	} 
+	
+	division = { #"1. Panzer-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 15188
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "GER" version_name = "Panzerkampfwagen 29" } }
+	}
+	
+	#Hesse (6488-Frankfurt, 6444-Wiesbaden)
+	
+	division = { #"34. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 34
+		} 
+		location = 6488
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"32. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 32
+		} 
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"36. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 36
+		} 
+		location = 6444
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"3. Motorisierte-Schützen-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 3
+		} 
+		location = 6488
+		division_template = "Motorisierte-Schützen-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"17. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		} 
+		location = 6488
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+	
+	#Bavaria (11544-Nurnberg, 692-Munchen)
+	
+	division = { #"1. Gebirgs-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 1
+		} 
+		location = 11638
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"42. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 42
+		} 
+		location = 532
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"41. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 41
+		} 
+		location = 6594
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"17. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 17
+		} 
+		location = 15593
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"19. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 19
+		} 
+		location = 15185
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"38. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 38
+		} 
+		location = 15596
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"39. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 39
+		} 
+		location = 9666
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"5. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 5
+		} 
+		location = 6540
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"14. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 14
+		} 
+		location = 692
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"16. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 16
+		} 
+		location = 2101
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"23. Infanterie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 23
+		} 
+		location = 3571
+		division_template = "Infanterie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"2. Panzer-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 15594
+		division_template = "Panzer-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "GER" version_name = "Panzerkampfwagen 29" } }
+	}
+	
+	division = { #"2. Kavallerie-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 11544
+		division_template = "Kavallerie-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"2. Gebirgs-Division" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 2
+		} 
+		location = 9652
+		division_template = "Gebirgs-Division"
+		start_experience_factor = 0.1 
+		start_equipment_factor = 0.8
+	}
+	
+	division = { #"8. Rotfrontkämpfer-Ortsgruppe" 
+		division_name = {
+			is_name_ordered = yes
+			name_order = 8
+		} 
+		location = 692
+		division_template = "Rotfrontkämpfer-Ortsgruppe"
+		start_experience_factor = 0.0
+	}
+}
+
+air_wings = {
+	5 = { 	
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 1"
+	}
+
+	1264 = { 	
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 2"
+	
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Jagdgeschwader 6"
+	}
+
+	66 = {
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 5"
+		
+		tac_bomber_equipment_0 = {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 2"
+	}
+
+	57 = { 	
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Jagdgeschwader 3"
+
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 3"
+
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 4"
+		
+		CAS_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Schlachtgeschwader 1"
+	}
+
+	51 = { 		
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 120
+		}
+		name = "Jagdgeschwader 4"
+
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 5"
+		
+		CAS_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Schlachtgeschwader 2"
+	}
+	
+	52 = { 		
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 7"
+
+		tac_bomber_equipment_0 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 6"
+	}
+
+	58 = { 	
+		nav_bomber_equipment_1 =  {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Torpedogeschwader 1"
+	}
+}

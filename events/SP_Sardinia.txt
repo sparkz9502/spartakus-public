@@ -1,0 +1,458 @@
+﻿###########################
+# Sardinia Events
+###########################
+# By sparkz
+###########################
+
+add_namespace = srd
+
+country_event = {
+	id = srd.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.1"}
+	title = srd.1.t
+	desc = srd.1.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = srd.2 days = 3 }
+		}
+	}
+	
+	option = {
+		name = srd.1.a
+		ai_chance = { factor = 20 }
+		
+		add_ideas = SRD_Camillo_Bellieni_hog_sli
+		custom_effect_tooltip = SRD_Socialists_Furious_tt
+		set_country_flag = SRD_Socialists_Angry
+		remove_coalition_reformist_socialist = yes
+	}
+
+	option = {
+		name = srd.1.b
+		ai_chance = { factor = 70 }
+		
+		add_ideas = SRD_Anselmo_Contu_hog_sli
+		add_ideas = SRD_Emilio_Lussu_mwp_ref
+		set_variable = { SRD_Socialist_Satisfaction = 0 }
+		custom_effect_tooltip = SRD_Socialists_Satisfied_tt
+	}
+	
+	option = {
+		name = srd.1.c
+		ai_chance = { factor = 10 }
+		
+		add_ideas = SRD_Emilio_Lussu_hog_ref
+		set_country_flag = SRD_Socialists_Appeased
+		custom_effect_tooltip = SRD_Socialists_Appeased_tt
+	}
+}
+
+country_event = {
+	id = srd.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.2"}
+	title = srd.2.t
+	desc = srd.2.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = srd.3 days = 3 }
+		}
+	}
+	
+	option = {
+		name = srd.2.a
+		trigger = {
+			NOT = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+		}
+		ai_chance = { factor = 20 }
+		
+		add_ideas = SRD_Mario_Berlinguer_for_ref
+		add_to_variable = { SRD_Socialist_Satisfaction = 1 }
+		custom_effect_tooltip = SRD_Socialists_Happy_tt
+	}
+
+	option = {
+		name = srd.2.b
+		ai_chance = { factor = 50 }
+		
+		add_ideas = SRD_Silvio_Mastio_for_sde
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		custom_effect_tooltip = SRD_All_Satisfied_tt
+	}
+	
+	option = {
+		name = srd.2.c
+		ai_chance = { factor = 30 }
+		
+		add_ideas = SRD_Giovanni_Battista_Melis_for_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		add_to_variable = { SRD_Socialist_Satisfaction = -1 }
+		custom_effect_tooltip = SRD_Socialists_Upset_tt
+	}
+}
+
+country_event = {
+	id = srd.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.3"}
+	title = srd.3.t
+	desc = srd.3.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = srd.4 days = 3 }
+		}
+	}
+	
+	option = {
+		name = srd.3.a
+		trigger = {
+			NOT = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+		}
+		ai_chance = { factor = 20 }
+		
+		add_ideas = SRD_Davide_Cova_eco_ref
+		add_to_variable = { SRD_Socialist_Satisfaction = 1 }
+		custom_effect_tooltip = SRD_Socialists_Happy_tt
+	}
+
+	option = {
+		name = srd.3.b
+		ai_chance = { factor = 40 }
+		
+		add_ideas = SRD_Stefano_Siglienti_eco_sde
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		custom_effect_tooltip = SRD_All_Satisfied_tt
+	}
+	
+	option = {
+		name = srd.3.c
+		ai_chance = { factor = 20 }
+		
+		add_ideas = SRD_Battista_Bardanzellu_eco_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		add_to_variable = { SRD_Socialist_Satisfaction = -1 }
+		custom_effect_tooltip = SRD_Socialists_Upset_tt
+	}
+	
+	option = {
+		name = srd.3.e
+		ai_chance = { factor = 20 }
+		
+		add_ideas = SRD_Gavino_Alivia_eco_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		add_to_variable = { SRD_Socialist_Satisfaction = -1 }
+		custom_effect_tooltip = SRD_Socialists_Upset_tt
+	}
+}
+
+country_event = {
+	id = srd.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.4"}
+	title = srd.4.t
+	desc = srd.4.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = srd.5 days = 3 }
+		}
+	}
+	
+	option = {
+		name = srd.4.a
+		trigger = {
+			NOT = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+		}
+		ai_chance = { factor = 30 }
+		
+		add_ideas = SRD_Mario_Berlinguer_sec_ref
+		add_to_variable = { SRD_Socialist_Satisfaction = 1 }
+		custom_effect_tooltip = SRD_Socialists_Happy_tt
+		add_ideas = SRD_Filiberto_Farci_edu_ref
+		add_ideas = SRD_Paolo_Pili_agr_sli
+	}
+
+	option = {
+		name = srd.4.b
+		ai_chance = { factor = 50 }
+		
+		add_ideas = SRD_Luigi_Oggiano_sec_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		custom_effect_tooltip = SRD_All_Satisfied_tt
+		add_ideas = SRD_Filiberto_Farci_edu_ref
+		add_ideas = SRD_Paolo_Pili_agr_sli
+	}
+	
+	option = {
+		name = srd.4.c
+		ai_chance = { factor = 10 }
+		
+		add_ideas = SRD_Anselmo_Contu_sec_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		add_to_variable = { SRD_Socialist_Satisfaction = -1 }
+		custom_effect_tooltip = SRD_Socialists_Upset_tt
+		add_ideas = SRD_Filiberto_Farci_edu_ref
+		add_ideas = SRD_Paolo_Pili_agr_sli
+	}
+	
+	option = {
+		name = srd.4.e
+		ai_chance = { factor = 10 }
+		
+		add_ideas = SRD_Enrico_Endrich_sec_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		add_to_variable = { SRD_Socialist_Satisfaction = -1 }
+		custom_effect_tooltip = SRD_Socialists_Upset_tt
+		add_ideas = SRD_Filiberto_Farci_edu_ref
+		add_ideas = SRD_Paolo_Pili_agr_sli
+	}
+}
+
+country_event = {
+	id = srd.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.5"}
+	title = srd.5.t
+	desc = srd.5.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	immediate = {
+		hidden_effect = {
+			country_event = { id = srd.6 days = 3 }
+		}
+	}
+	
+	option = {
+		name = srd.5.a
+		trigger = {
+			NOT = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+		}
+		ai_chance = { factor = 20 }
+		
+		add_ideas = SRD_Gonario_Pinna_def_ref
+		add_to_variable = { SRD_Socialist_Satisfaction = 1 }
+		custom_effect_tooltip = SRD_Socialists_Happy_tt
+	}
+
+	option = {
+		name = srd.5.b
+		ai_chance = { factor = 40 }
+		
+		add_ideas = SRD_Francesco_Fancello_def_sde
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		custom_effect_tooltip = SRD_All_Satisfied_tt
+	}
+	
+	option = {
+		name = srd.5.c
+		ai_chance = { factor = 40 }
+		
+		add_ideas = SRD_Giuseppe_Musinu_def_sli
+		if = {
+			limit = {
+				has_country_flag = SRD_Socialists_Angry
+			}
+			custom_effect_tooltip = SRD_No_Socialist_tt
+		}
+		add_to_variable = { SRD_Socialist_Satisfaction = -1 }
+		custom_effect_tooltip = SRD_Socialists_Upset_tt
+	}
+}
+
+country_event = {
+	id = srd.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.6"}
+	title = srd.6.t
+	desc = srd.6.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = srd.6.a
+		custom_effect_tooltip = SRD_Is_This_The_End_tt
+		hidden_effect = {
+			if = {
+				limit = {
+					AND = {
+						NOT = {
+							has_country_flag = SRD_Socialists_Appeased
+						}
+						OR = {
+							has_country_flag = SRD_Socialists_Angry
+							check_variable = { SRD_Socialist_Satisfaction < 0 }
+						}
+					}
+				}
+				country_event = { id = srd.7 days = 1 }
+			}
+			if = {
+				limit = {
+					AND = {
+						NOT = {
+							has_country_flag = SRD_Socialists_Angry
+						}
+						OR = {
+							has_country_flag = SRD_Socialists_Appeased
+							check_variable = { SRD_Socialist_Satisfaction = 0 }
+							check_variable = { SRD_Socialist_Satisfaction > 0 }
+						}
+					}
+				}
+				set_country_flag = SRD_Provisional_Govt_Formed
+			}
+		}
+	}
+}
+
+country_event = {
+	id = srd.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.7"}
+	title = srd.7.t
+	desc = srd.7.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = srd.7.a
+		ai_chance = { factor = 40 }
+		
+		add_stability = -0.10
+		set_politics = { ruling_party = reformist_socialist }
+		add_popularity = { ideology = reformist_socialist popularity = 0.1 }
+		remove_coalition_social_liberal = yes
+		add_ideas = SRD_Pietro_Mastino_hog_sde
+		add_ideas = SRD_Silvio_Mastio_for_sde
+		add_ideas = SRD_Alessandro_Nanni_eco_rev
+		add_ideas = SRD_Mario_Berlinguer_sec_ref
+		add_ideas = SRD_Filiberto_Farci_edu_ref
+		add_ideas = SRD_Paolo_Pili_agr_sli
+		add_ideas = SRD_Luigi_Polano_def_spa
+		add_ideas = SRD_Alessandro_Nanni_eco_rev
+		set_country_flag = SRD_Provisional_Govt_Formed
+		custom_effect_tooltip = SRD_Is_This_The_End_2_tt
+	}
+	
+	option = {
+		name = srd.7.b
+		ai_chance = { factor = 60 }
+		
+		add_political_power = -50
+		add_ideas = SRD_Pietro_Mastino_sec_sde
+		hidden_effect = {
+			country_event = { id = srd.8 days = 1 }
+		}
+	}
+}
+
+country_event = {
+	id = srd.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.8"}
+	title = srd.8.t
+	desc = srd.8.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = srd.8.a
+		add_popularity = { ideology = reformist_socialist popularity = -0.05 }
+		set_country_flag = SRD_Provisional_Govt_Formed
+		custom_effect_tooltip = SRD_Is_This_The_End_2_tt
+	}
+}
+
+country_event = {
+	id = srd.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.9"}
+	title = srd.9.t
+	desc = srd.9.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = srd.9.a
+	}
+}
+
+country_event = {
+	id = srd.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event srd.9"}
+	title = srd.10.t
+	desc = srd.10.d
+	picture = GFX_GER_KPDCongress
+
+	is_triggered_only = yes
+	
+	option = {
+		name = srd.10.a
+	}
+}

@@ -1,0 +1,76 @@
+﻿capital = 1382
+
+add_ideas = {
+	recruitment_volunteer
+	governance_col
+	trade_aut
+	economy_unind
+	mobilization_1
+	
+	HLF_Red_Militia
+	HLF_Ten_Must_Kill
+	HLF_Peasant_Association
+}
+
+set_oob = "HLF"
+set_research_slots = 3
+set_stability = 0.45
+set_war_support = 0.6
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+	mass_assault = 1
+	fleet_in_being = 1
+	early_destroyer = 1
+	early_light_cruiser = 1
+}
+
+set_politics = {	
+	ruling_party = bolshevist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 40
+    spartacist = 20
+    revolutionary_socialist = 20
+    reformist_socialist = 16
+    social_democrat = 4
+    social_liberal = 0
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_convoys = 100
+
+create_country_leader = {
+	name = "Peng Pai"
+	desc = "POLITICS_PENG_PAI_DESC"
+	picture = "Portrait_Peng_Pai.tga"
+	expire = "1965.1.1"
+	ideology = spartacist_leninism
+	traits = {
+		#
+	}
+}
+
+create_field_marshal = {
+	name = "Ye Ting"
+	picture = "Portrait_Ye_Ting.tga"
+	traits = { defensive_doctrine trait_cautious infantry_officer }
+	skill = 3
+	attack_skill = 3
+	defense_skill = 2
+	planning_skill = 2
+	logistics_skill = 2
+}

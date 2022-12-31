@@ -1,0 +1,1840 @@
+﻿###########################
+# Serbia and Yugoslavia Events
+###########################
+# By Sybil/LWOI
+###########################
+
+add_namespace = serbia
+add_namespace = serbiair
+add_namespace = filipovic_returns
+add_namespace = serbiacomelections
+add_namespace = yugomilitary
+add_namespace = antichetnik
+
+#VIDOVDAN
+
+news_event = {
+	id = serbia.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.1"}
+	title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_Vidovdan
+	
+	fire_only_once = yes
+
+	trigger = {
+	    OR = {
+		tag = SER
+		tag = RSE
+		}
+		date > 1932.6.24
+		date < 1932.7.1
+	}
+	
+	mean_time_to_happen = {
+		days = 2
+	}
+
+	immediate = {
+		hidden_effect = {
+			news_event = { days = 365 id = serbia.2 }
+			news_event = { days = 730 id = serbia.2 }
+			news_event = { days = 1095 id = serbia.2 }
+			news_event = { days = 1460 id = serbia.2 }
+			news_event = { days = 1825 id = serbia.2 }
+			news_event = { days = 2190 id = serbia.2 }
+			news_event = { days = 2555 id = serbia.2 }
+			news_event = { days = 2920 id = serbia.2 }
+			news_event = { days = 3285 id = serbia.2 }
+			news_event = { days = 3650 id = serbia.2 }
+			news_event = { days = 4015 id = serbia.2 }
+			news_event = { days = 4380 id = serbia.2 }
+			news_event = { days = 4745 id = serbia.2 }
+		}
+	}
+
+	option = {
+		name = serbia.1.a # okay
+
+		add_political_power = 5
+		custom_effect_tooltip = SER_vidovdan
+	}
+}
+
+#VIDOVDAN repeater
+
+news_event = {
+	id = serbia.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.2"}
+	title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_Vidovdan
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.1.a # okay
+
+		add_political_power = 5
+	}
+}
+
+#EoTDoS
+
+country_event = { #Demands of the Public
+	id = serbia.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.3"}
+	title = serbia.3.t
+	desc = serbia.3.d
+	picture = GFX_report_event_albanian_partisans
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.3.a # nice
+
+		add_political_power = -100
+	}
+}
+
+country_event = { #May Day in Kragujevac
+	id = serbia.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.4"}
+	title = serbia.4.t
+	desc = serbia.4.d
+	picture = GFX_SER_Mayday
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.4.a # oh no
+
+		hidden_effect = { country_event = { days = 6 id = serbia.6 } }
+		add_political_power = -100
+	}
+}
+
+country_event = { #First Elections
+	id = serbia.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.5"}
+	title = serbia.5.t
+	desc = serbia.5.d
+	picture = GFX_report_event_election_vote
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	option = {
+		name = serbia.5.a # DS
+	    ai_chance = {
+			factor = 100
+		}
+		set_cosmetic_tag = Federation_of_Yugoslavia
+		hidden_effect = { 
+		SP_clear_coalition_effect = yes
+		SP_clear_banned_effect = yes
+		set_country_flag = coalition_social_democrat
+		set_country_flag = coalition_social_conservative
+		set_country_flag = SER_First_Elections_DS
+		set_politics = {
+				ruling_party = social_liberal
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.05
+			}
+			add_ideas = { SER_Milan_Grol_for_sli } 
+			add_ideas = { SER_Kosta_Kumanudi_eco_sli }
+			add_ideas = { SER_Dragoljub_Jovanovic_sec_sde }
+			add_ideas = { SER_Dusan_Popov_def_lco }
+		    add_ideas = { SER_Ljubomir_Davidovic_hog_sli }
+		hidden_effect = {
+		remove_ideas = SER_The_Decade_of_Silence
+		}
+		}
+		
+	}
+	
+	option = {
+		name = serbia.5.b # KPJ meddles
+	    ai_chance = {
+			factor = 100
+		}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.05
+			}
+			add_popularity = {
+				ideology = bolshevist
+				popularity = -0.05
+			}
+		add_political_power = -25	}
+	
+	option = {
+		name = serbia.5.c # KPJ wins
+	    ai_chance = {
+			factor = 100
+		}
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.03
+			}
+		add_political_power = -100
+	}
+}
+
+
+country_event = { #Belgrade Revolts
+	id = serbia.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.6"}
+	title = serbia.6.t
+	desc = serbia.6.d
+	picture = GFX_SER_Mayday
+	
+	immediate = { 
+	hidden_effect = {
+	SER = {
+	        set_cosmetic_tag = SER_Red_Belgrade
+			add_political_power = 50
+			remove_ideas = SER_The_Decade_of_Silence
+			remove_ideas = SER_Decree_on_the_Colonization_of_the_Southern_Regions
+			add_recruitment_1825 = yes
+			add_governance_coun = yes
+			SP_clear_coalition_effect = yes
+			SP_clear_banned_effect = yes
+           set_country_flag = banned_liberal_conservative
+           set_country_flag = banned_social_conservative
+           set_country_flag = banned_authoritarian_conservative
+           set_country_flag = banned_right_wing_populist
+           set_country_flag = banned_national_syndicalist
+           set_country_flag = banned_national_corporatist
+
+			set_politics = {
+				ruling_party = bolshevist
+			}
+			add_popularity = {
+				ideology = spartacist
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = bolshevist
+				popularity = 0.1
+			}
+			add_popularity = {
+				ideology = revolutionary_socialist
+				popularity = 0.02
+			}
+			add_popularity = {
+				ideology = social_liberal
+				popularity = 0.1
+			}
+			
+            set_country_flag = SER_Red_Belgrade_flag
+			set_country_flag = coalition_spartacist
+            set_country_flag = coalition_revolutionary_socialist
+			set_country_flag = coalition_social_democrat
+			set_country_flag = coalition_social_liberal
+			hidden_effect = {
+			if = {
+            limit = { has_unit_leader = 205 }
+            remove_unit_leader = 205
+            }
+			if = {
+            limit = { has_unit_leader = 206 }
+            remove_unit_leader = 206
+            }
+			if = {
+            limit = { has_unit_leader = 207 }
+            remove_unit_leader = 207
+            }
+			if = {
+            limit = { has_unit_leader = 208 }
+            remove_unit_leader = 208
+            }
+			if = {
+            limit = { has_unit_leader = 209 }
+            remove_unit_leader = 209
+            }
+			if = {
+            limit = { has_unit_leader = 210 }
+            remove_unit_leader = 210
+            }
+			}
+			hidden_effect = {
+			delete_unit_template_and_units = { division_template = "Četa" }
+			delete_unit_template_and_units = { division_template = "Pešadijska Divizija (Režimski Oficiri)" }
+			delete_unit_template_and_units = { division_template = "Pešadijska Artiljerijska Divizija (Režimski Oficiri)" }
+			}
+			create_corps_commander = {
+            name = "Moša Pijade"
+            portrait_path = "gfx/leaders/SER/Portrait_Serbia_Cica_Janko.tga"
+            traits = {
+			harsh_leader
+			media_personality
+			politically_connected
+            }
+            skill = 1
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 2
+            logistics_skill = 2
+            }
+			create_corps_commander = {
+            name = "Todor Vujasinović"
+            portrait_path = "gfx/leaders/SER/Portrait_Serbia_Todor_Vujasinovic.tga"
+            traits = {
+			organizer
+            }
+            skill = 2
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 3
+            logistics_skill = 2
+            }
+			create_corps_commander = {
+            name = "Sava Kovačević"
+            portrait_path = "gfx/leaders/SER/Portrait_Sava_Kovacevic.tga"
+            traits = {
+			trickster
+			commando
+			trait_mountaineer
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 2
+            planning_skill = 3
+            logistics_skill = 2
+            }
+			create_corps_commander = {
+            name = "Janko Jovanović"
+            portrait_path = "gfx/leaders/SER/Portrait_Janko_Jovanovic.tga"
+            traits = {
+			politically_connected
+            }
+            skill = 1
+            attack_skill = 1
+            defense_skill = 1
+            planning_skill = 2
+            logistics_skill = 1
+            }
+			create_corps_commander = {
+            name = "Milovan Đilas"
+            portrait_path = "gfx/leaders/MNT/Portrait_Milovan_Djilas.tga"
+            traits = {
+			harsh_leader
+			trait_reckless
+            }
+            skill = 1
+            attack_skill = 2
+            defense_skill = 1
+            planning_skill = 1
+            logistics_skill = 1
+            }
+			add_ideas = {
+		        SER_Sinisa_Stankovic_hog_spa
+                SER_Bozidar_Puric_for_lco
+                SER_Pavle_Savic_eco_spa
+                SER_Ljubomir_Davidovic_sec_sli
+				SER_Koca_Popovic_cos
+		}
+		remove_ideas_with_trait = defence_minister
+		country_event = { days = 1 id = serbia.19 }
+		country_event = { days = 300 id = serbia.25 }	
+        }		
+	RSE = {
+			set_country_flag = RSE_Revolted
+				transfer_state = 841
+				transfer_state = 1193
+				transfer_state = 767
+				transfer_state = 1194
+				transfer_state = 106
+				transfer_state = 1173
+				transfer_state = 1176
+				transfer_state = 765
+				load_oob = "RSE"
+			}
+    HUN = {
+			country_event = {
+			id = filipovic.0 days = 1
+			}
+		}			
+	}
+	}
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.6.a # lets do it gamers
+		
+	}
+	
+	option = {
+		name = serbia.6.b # lets do it gamers
+		RSE = {
+		change_tag_from = SER
+		}
+	}
+}	
+
+country_event = { #libs protest
+	id = serbia.8
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.8"}
+	title = serbia.8.t
+	desc = serbia.8.d
+	picture = GFX_report_event_gathering_protest
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.8.a # cry more
+     	ai_chance = {
+			factor = 45
+		}
+		add_political_power = -25
+		add_popularity = {
+				ideology = social_liberal
+				popularity = 0.03
+			}
+		    add_popularity = {
+				ideology = social_conservative
+				popularity = 0.03
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = 0.03
+			}
+	}
+	
+	option = {
+		name = serbia.8.b # cops
+	    ai_chance = {
+			factor = 55
+		}
+		add_political_power = -70
+		add_popularity = {
+				ideology = social_liberal
+				popularity = -0.03
+			}
+		    add_popularity = {
+				ideology = social_conservative
+				popularity = -0.03
+			}
+			add_popularity = {
+				ideology = liberal_conservative
+				popularity = -0.03
+			}
+	}
+}
+
+country_event = { #nationalization is finished
+	id = serbia.9
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.9"}
+	title = serbia.9.t
+	desc = serbia.9.d
+	picture = GFX_report_event_generic_communist_congress
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.9.a # oh rad
+		remove_ideas = SER_Nationalization_In_Progress
+		add_ideas = SER_Nationalization_Finished
+		remove_ideas = SER_Great_Depression_idea
+	}
+}
+
+country_event = { #socialization is finished
+	id = serbia.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.10"}
+	title = serbia.10.t
+	desc = serbia.10.d
+	picture = GFX_report_event_generic_communist_congress
+	
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.10.a # oh rad
+		remove_ideas = SER_Socialization_In_Progress
+		add_ideas = SER_Socialization_Finished
+		remove_ideas = SER_Great_Depression_idea
+	}
+}
+
+country_event = { #State Ed 1
+	id = serbia.11
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.11"}
+	title = serbia.11.t
+	desc = serbia.11.d
+
+	picture = GFX_report_event_serbia
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = SER_State_Education_Early
+			add_ideas = SER_State_Education_Mid
+		}
+	}
+}
+
+country_event = { #State Ed 2
+	id = serbia.12
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.12"}
+	title = serbia.12.t
+	desc = serbia.12.d
+
+	picture = GFX_report_event_serbia
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = SER_State_Education_Mid
+			add_ideas = SER_State_Education_Late
+		}
+	}
+}
+
+country_event = { #State Ed 3
+	id = serbia.13
+	immediate = {log = "[GetDat	eText]: [Root.GetName]: event serbia.13"}
+	title = serbia.13.t
+	desc = serbia.13.d
+
+	picture = GFX_report_event_serbia
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+	
+	hidden = yes
+
+	immediate = {
+		hidden_effect = {
+			remove_ideas = SER_State_Education_Late
+			add_ideas = SER_State_Education_Adopted
+		}
+	}
+}
+
+country_event = { #Kosovar Repatriation Request Success 
+	id = serbia.14
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.14"}
+	title = serbia.14.t
+	desc = serbia.14.d
+
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.14.a # nice
+		765 = {
+		add_manpower = 51224
+		}
+		add_timed_idea = {
+            idea = SER_Kosovars_Returning
+            days = 700
+        } 
+	}
+}
+
+country_event = { #Kosovar Repatriation Request Fail
+	id = serbia.15
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.15"}
+	title = serbia.15.t
+	desc = serbia.15.d
+
+	picture = GFX_report_event_generic_read_write
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.15.a # why in the goddamn
+		add_political_power = -10
+	}
+}
+
+country_event = { #Rural Communist support growing
+	id = serbia.16
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.16"}
+	title = serbia.16.t
+	desc = serbia.16.d
+
+	picture = GFX_report_event_generic_truck
+
+	fire_only_once = yes
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.16.a # aw thanks
+		add_political_power = 150
+		add_stability = 0.15
+		add_popularity = {
+				ideology = bolshevist
+				popularity = 0.05
+			}
+	}
+}
+
+### Global News - Serbia Adopts Constitution 
+news_event = {
+	id = serbia.18
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.18"}
+	title = serbia.18.t
+	desc = serbia.18.d
+	picture = GFX_news_event_generic_parliament
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		trigger = {
+		    has_authoritarian_government = yes
+			has_elected_government = yes
+			has_socialist_government = yes
+		}
+		name = serbia.18.a
+	}
+}
+
+### Global News - Serbia Turns Communist 
+news_event = {
+	id = serbia.19
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.19"}
+	title = serbia.19.t
+	desc = serbia.19.d
+	picture = GFX_SER_Yugoslav_Fighters_news
+	is_triggered_only = yes
+	major = yes
+	
+	option = {
+		trigger = {
+		    has_authoritarian_government = yes
+			has_elected_government = yes
+			has_socialist_government = yes
+		}
+		name = serbia.19.a
+	}
+}
+
+country_event = { #Italy - React to FPRY
+	id = serbia.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.20"}
+	title = serbia.20.t
+	desc = serbia.20.d
+	picture = GFX_report_event_generic_military_parade
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.20.a # fuck em up
+	    ai_chance = {
+			factor = 90
+		}
+		add_political_power = -10
+		add_opinion_modifier = { target = SER modifier = embargo }
+		add_opinion_modifier = { target = SER modifier = large_decrease }
+		hidden_effect = { SER = { add_opinion_modifier = { target = ITA modifier = large_decrease } } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = CRO modifier = large_decrease } } }
+		hidden_effect = { CRO = { add_opinion_modifier = { target = SER modifier = large_decrease } } }
+		set_country_flag = ITA_Support_Illyria
+		CRO = { country_event = { days = 3 id = illyria.2 } }
+	}
+	
+	option = {
+		name = serbia.20.b # dunk on em
+	    ai_chance = {
+			factor = 9
+		}
+		add_political_power = -30
+		add_opinion_modifier = { target = SER modifier = embargo }
+		add_opinion_modifier = { target = SER modifier = medium_decrease }
+		hidden_effect = { SER = { add_opinion_modifier = { target = ITA modifier = medium_decrease } } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = CRO modifier = large_decrease } } }
+		hidden_effect = { CRO = { add_opinion_modifier = { target = SER modifier = large_decrease } } }
+	}
+	
+	option = {
+		name = serbia.20.c # let em go
+	    ai_chance = {
+			factor = 1
+		}
+		add_political_power = -50
+		add_opinion_modifier = { target = SER modifier = small_decrease }
+		hidden_effect = { SER = { add_opinion_modifier = { target = ITA modifier = small_decrease } } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = CRO modifier = large_decrease } } }
+		hidden_effect = { CRO = { add_opinion_modifier = { target = SER modifier = large_decrease } } }
+	}
+}
+
+country_event = { #Ultimatum to Montenegro
+	id = serbia.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.21"}
+	title = serbia.21.t
+	desc = serbia.21.d
+	picture = GFX_report_event_generic_military_parade
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.21.a # we yieeeeld
+	    ai_chance = {
+			factor = 1
+		}
+		SER = { annex_country = { target = MNT } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = ITA modifier = medium_decrease } } }
+		hidden_effect = { ITA = { add_opinion_modifier = { target = SER modifier = medium_decrease } } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = CRO modifier = small_decrease } } }
+		hidden_effect = { CRO = { add_opinion_modifier = { target = SER modifier = small_decrease } } }
+		set_global_flag = MNTAcceptedUltimatum
+		CRO = { country_event = { days = 1 id = serbia.22 } }
+		ITA = { country_event = { days = 1 id = serbia.22 } }
+		SER = { country_event = { hours = 1 id = serbia.23 } }
+	}
+	
+	option = {
+		name = serbia.21.b # fuck you yugoslavia
+	    ai_chance = {
+			factor = 99
+		}
+		ITA = {
+			cancel_guarantee = MNT
+		}
+		SER = { 
+		    declare_war_on = {
+			target = MNT
+			type = annex_everything
+		    }
+		}
+		add_political_power = 50
+		hidden_effect = { SER = { add_opinion_modifier = { target = ITA modifier = medium_decrease } } }
+		hidden_effect = { ITA = { add_opinion_modifier = { target = SER modifier = medium_decrease } } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = CRO modifier = small_decrease } } }
+		hidden_effect = { CRO = { add_opinion_modifier = { target = SER modifier = small_decrease } } }
+		SER = { country_event = { hours = 1 id = serbia.24 } }
+		set_global_flag = MNTFightsOn
+	}
+}
+
+country_event = { #montenegro falls
+	id = serbia.22
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.22"}
+	title = serbia.22.t
+	desc = serbia.22.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.22.a # oh fuck too late
+		add_political_power = -100
+	}
+}
+
+country_event = { #montenegro surrenders
+	id = serbia.23
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.23"}
+	title = serbia.23.t
+	desc = serbia.23.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.23.a # nice
+		add_political_power = 50
+	}
+}
+
+country_event = { #montenegro refuses
+	id = serbia.24
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.24"}
+	title = serbia.24.t
+	desc = serbia.24.d
+	picture = GFX_report_event_soldiers_marching
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.24.a # not nice
+		add_political_power = -50
+	}
+}
+
+country_event = { #the portugese return
+	id = serbia.25
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.25"}
+	title = serbia.25.t
+	desc = serbia.25.d
+	picture = GFX_report_event_spain_civil_war_volunteers_02
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.25.a # dang wow
+		add_political_power = 50
+		create_corps_commander = {
+            name = "Žikica Jovanović"
+            portrait_path = "gfx/leaders/SER/Portrait_Serbia_Zikica_Jovanovic.tga"
+            traits = {
+			war_hero
+			commando
+			ambusher
+			expert_improviser
+            }
+            skill = 3
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 1
+            logistics_skill = 3
+            }
+	}
+}
+
+country_event = { #Threaten Illyria
+	id = serbia.26
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.26"}
+	title = serbia.26.t
+	desc = serbia.26.d
+	picture = GFX_report_event_yugoslavia_partisans
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.26.a
+	    ai_chance = {
+			factor = 95
+		}
+		SER = { 
+		    declare_war_on = {
+			target = ROOT
+			type = annex_everything
+		    }
+		}
+		hidden_effect = { SER = { add_opinion_modifier = { target = ITA modifier = large_decrease } } }
+		hidden_effect = { ITA = { add_opinion_modifier = { target = SER modifier = large_decrease } } }
+		hidden_effect = { SER = { add_opinion_modifier = { target = CRO modifier = large_decrease } } }
+		hidden_effect = { CRO = { add_opinion_modifier = { target = SER modifier = large_decrease } } }
+		set_global_flag = YugoIllyrianWar
+		hidden_effect = {
+		SER = { country_event = { days = 10 id = serbia.31 } }
+		}
+		CRO = {
+		hidden_effect = {
+		country_event = { days = 5 id = illyria.10 }
+		}
+		}
+	}
+}
+
+country_event = { #Illyria has fallen!
+	id = serbia.27
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.27"}
+	title = serbia.27.t
+	desc = serbia.27.d
+	picture = GFX_report_event_yugoslavia_partisans
+
+	trigger = {
+		tag = CRO
+		SER = { 
+		controls_state = 109
+		controls_state = 1008
+		controls_state = 1009
+		}
+		CRO = { has_war_with = SER }
+		has_global_flag = YugoIllyrianWar
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.27.a # enough bloodshed 
+	    ai_chance = {
+			factor = 100
+		}
+		ITA = { white_peace = SER }
+		SER = {
+				transfer_state = 1200
+				transfer_state = 996
+				transfer_state = 1330
+				transfer_state = 962
+			}
+		SER = { annex_country = { target = CRO } }
+		LAB = {
+				transfer_state = 1008
+				transfer_state = 1262
+				transfer_state = 1201
+				transfer_state = 736
+				transfer_state = 1198
+			}
+		set_global_flag = YugoslaviaWon
+		hidden_effect = {
+		SER = { country_event = { days = 5 id = serbia.32 } }
+		}
+	}
+}
+
+country_event = { #Illyria in chaos!
+	id = serbia.28
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.28"}
+	title = serbia.28.t
+	desc = serbia.28.d
+	picture = GFX_report_event_yugoslavia_partisans
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.28.a # send material support and volunteers to the croats and bosniaks 
+		 ai_chance = {
+			factor = 30
+		}
+		STJ = { country_event = { days = 5 id = croatia.1 } }
+		set_global_flag = SerbiaSupportingHRSS
+		hidden_effect = { SER = { add_opinion_modifier = { target = STJ modifier = large_increase } } }
+        hidden_effect = { STJ = { add_opinion_modifier = { target = SER modifier = large_increase } } }		
+	}
+}
+
+country_event = { #economic stagnation
+	id = serbia.29
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.29"}
+	title = serbia.29.t
+	desc = serbia.29.d
+	picture = GFX_ROM_farmpic
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.29.a # sucks
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -50
+	}
+}
+
+country_event = { #great depression! 
+	id = serbia.30
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.30"}
+	title = serbia.30.t
+	desc = serbia.30.d
+	picture = GFX_darkestday3
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.30.a # sucks
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -100
+		add_ideas = SER_Great_Depression_idea
+	}
+}
+
+country_event = { #Tito
+	id = serbia.31
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.31"}
+	title = serbia.31.t
+	desc = serbia.31.d
+	picture = GFX_darkestday3
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.31.a # my drug
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 15
+		create_field_marshal = {
+            name = "Josip Broz Tito"
+            portrait_path = "gfx/leaders/CRO/Portrait_Josip_Broz_Tito.dds"
+            traits = {
+			brilliant_strategist
+			inspirational_leader
+			infantry_officer
+            }
+            skill = 4
+            attack_skill = 3
+            defense_skill = 4
+            planning_skill = 4
+            logistics_skill = 4
+            }
+		SER = { load_oob = "SER_TITO" }
+	}
+}
+
+country_event = { #The war is over
+	id = serbia.32
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.32"}
+	title = serbia.32.t
+	desc = serbia.32.d
+	picture = GFX_SER_Yugoslav_Fighters
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.32.a # yay
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 100
+		add_ideas = SER_Liberatory_War_Recovery
+		set_country_flag = SER_postwar_decisions_activate
+	}
+}
+
+country_event = { #Montenegrin Uprising
+	id = serbia.33
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.33"}
+	title = serbia.33.t
+	desc = serbia.33.d
+	picture = GFX_report_event_albanian_partisans
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.33.a # oh fuck
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = -25
+			MNT = {
+				transfer_state = 105
+				load_oob = "MNT_Pavle"
+			}
+			declare_war_on = {
+				target = MNT
+				type = annex_everything
+			}
+			hidden_effect = {
+			SER = {
+			set_province_controller = 9821
+            set_province_controller = 14555
+			set_province_controller = 11858
+			set_province_controller = 14556
+		}
+		MNT = {
+		if = {
+            limit = { has_unit_leader = 206 }
+            remove_unit_leader = 206
+        }
+		if = {
+            limit = { has_unit_leader = 207 }
+            remove_unit_leader = 207
+        }
+			set_politics = {
+			ruling_party = right_wing_populist
+			elections_allowed = no
+		}
+		add_popularity = { ideology = spartacist popularity = 0.08 }
+		add_popularity = { ideology = bolshevist popularity = 0.02 }
+		retire_country_leader = yes
+		
+		create_country_leader = {
+			name = "Pavle Đurišić"
+			desc = ""
+			picture = "Portrait_Pavle_Djurisic.tga"
+			expire = "1965.1.1"
+			ideology = right_wing_populist_subtype
+		}
+		create_corps_commander = {
+	        name = "Pavle Đurišić"
+	        portrait_path = "gfx/leaders/MNT/Portrait_Pavle_Đurišić.tga"
+	        traits = {
+			ambusher
+	}
+	         skill = 2
+	         attack_skill = 1
+	         defense_skill = 3
+	         planning_skill = 2
+	         logistics_skill = 2
+                }
+			}
+		}
+	}
+}
+
+country_event = { #Invite Bulgaria
+	id = serbia.34
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.34"}
+	title = serbia.34.t
+	desc = serbia.34.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	trigger = {
+	        tag = SER
+	BUL = {
+		    OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = reformist_socialist
+			    } 
+	    }
+	SER = {
+		    OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = reformist_socialist
+			    } 
+	    }
+    }
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.34.a # yay
+		ai_chance = {
+			factor = 95
+		}
+		BUL = { country_event = { days = 1 id = serbia.35 } }
+	}
+	
+	option = {
+		name = serbia.34.b # nay
+		ai_chance = {
+			factor = 5
+		}
+		add_political_power = 25
+	}
+}
+
+country_event = { #Invited to Yugoslavia
+	id = serbia.35
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.35"}
+	title = serbia.35.t
+	desc = serbia.35.d
+	picture = GFX_report_event_generic_peaceful_annexation
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.35.a # yay
+		ai_chance = {
+			factor = 80
+		}
+		if = {
+        limit = { 
+		SER = { has_country_flag = SER_milan_gorkic_first_term } 
+		}
+         BUL = {
+			set_country_flag = BUL_Autonomous_SR_Bulgaria
+
+			set_cosmetic_tag = BUL
+		}
+		BUL = {
+                    get_current_government_type = yes
+               }
+               SER = { puppet = BUL }
+               BUL = {
+                    restore_previous_government_type = yes 
+               }
+         else = { 
+          SER = { annex_country = { target = BUL } }
+		  SER = {
+		change_tag_from = BUL
+		  }
+        }
+      }
+	}
+	
+	option = {
+		name = serbia.35.b # nay
+		ai_chance = {
+			factor = 20
+		}
+	}
+}
+
+country_event = { #Join the Comintern?	
+	id = serbia.38
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.38"}
+	title = serbia.38.t
+	desc = serbia.38.d
+	picture = GFX_report_event_generic_read_write
+
+	trigger = {
+	tag = SER
+	SER = {
+	has_country_flag = SER_ComElections1
+	}
+	SER = {
+		    OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+			    } 
+	    }
+	SOV = {
+		    OR = {
+				has_government = bolshevist
+				has_government = spartacist
+				has_government = revolutionary_socialist
+				has_government = reformist_socialist
+			    } 
+	    }
+  }
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.38.a # yay
+		ai_chance = {
+			factor = 100
+		}
+		GER = { country_event = { days = 3 id = serbia.39 } }
+	}
+	
+	option = {
+		name = serbia.38.b # nay
+		ai_chance = {
+			factor = 0
+		}
+		add_political_power = -25
+	}
+}
+
+country_event = { #Join Comintern
+	id = serbia.39
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.39"}
+	title = serbia.39.t
+	desc = serbia.39.d
+	picture = GFX_report_event_generic_read_write
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.39.a # great!
+		ai_chance = {
+			factor = 100
+		}
+		ROOT = {
+			add_to_faction = SER
+
+			add_opinion_modifier = { target = SER modifier = large_increase }
+
+		}
+	}
+}
+
+country_event = { #attack of the yugoslavs
+	id = serbia.40
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.40"}
+	title = serbia.40.t
+	desc = serbia.40.d
+	picture = GFX_report_event_yugoslavia_partisans
+
+	is_triggered_only = yes
+
+	option = {
+		name = serbia.40.a
+	    ai_chance = {
+			factor = 95
+		}
+		SER = { 
+		    declare_war_on = {
+			target = ROOT
+			type = annex_everything
+		    }
+		}
+		set_global_flag = YugoYugoWar
+	}
+}
+
+country_event = { #war over 2
+	id = serbia.41
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.41"}
+	title = serbia.41.t
+	desc = serbia.41.d
+	picture = GFX_SER_Yugoslav_Fighters
+
+	trigger = {
+		tag = SER
+		SER = { 
+		owns_state = 109
+		owns_state = 102
+		owns_state = 1009
+		}
+		has_global_flag = YugoYugoWar
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.41.a # yay
+		ai_chance = {
+			factor = 100
+		}
+		add_political_power = 100
+		add_ideas = SER_Liberatory_War_Recovery
+	}
+}
+
+#Reactionary Uprising
+
+country_event = { 
+	id = serbia.42
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.42"}
+	title = serbia.42.t
+	desc = serbia.42.d
+	picture = GFX_report_event_fascist_militia
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.42.a # WALL
+	    ai_chance = {
+			factor = 100
+		}
+			
+	}
+	
+	option = {
+		name = serbia.42.b # sorry im a fucking nerd
+		ai_chance = {
+			factor = 0
+		}
+		RSE = {
+			    set_country_flag = RSE_Revolted
+				transfer_state = 841
+				transfer_state = 1193
+				set_province_controller = 11887
+				set_province_controller = 11832
+				set_province_controller = 14904
+				load_oob = "RSE"
+			}
+			SER = {
+			set_province_controller = 6940
+			}
+			KOS = {
+			   set_country_flag = Kachaks_Revolted
+			   transfer_state = 765
+			   load_oob = "KOS"
+			}
+			declare_war_on = {
+				target = KOS
+				type = civil_war
+			}
+			declare_war_on = {
+				target = RSE
+				type = civil_war
+			}
+			RSE = { declare_war_on = {
+				target = KOS
+				type = civil_war
+			} }
+			SER = {
+			set_province_controller = 6940
+			}
+		RSE = {
+		change_tag_from = SER
+		}
+	}
+	
+	option = {
+		name = serbia.42.c # lol
+		ai_chance = {
+			factor = 0
+		}
+		RSE = {
+			    set_country_flag = RSE_Revolted
+				transfer_state = 841
+				transfer_state = 1193
+				set_province_controller = 11887
+				set_province_controller = 11832
+				set_province_controller = 14904
+				load_oob = "RSE"
+			}
+			KOS = {
+			   set_country_flag = Kachaks_Revolted
+			   transfer_state = 765
+			   load_oob = "KOS"
+			}
+			declare_war_on = {
+				target = KOS
+				type = civil_war
+			}
+			declare_war_on = {
+				target = RSE
+				type = civil_war
+			}
+			RSE = { declare_war_on = {
+				target = KOS
+				type = civil_war
+			} }
+			SER = {
+			set_province_controller = 6940
+			}
+		KOS = {
+		change_tag_from = SER
+		}
+	}
+}
+
+#Talks with Croatia
+
+country_event = { 
+	id = serbia.43
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.43"}
+	title = serbia.43.t
+	desc = serbia.43.d
+	picture = GFX_report_event_fascist_militia
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.43.a # epic
+	    ai_chance = {
+			factor = 0
+		}
+			add_opinion_modifier = { target = STJ modifier = large_increase }
+			STJ = { add_opinion_modifier = { target = SER modifier = large_increase } }
+	}
+	
+	option = {
+		name = serbia.43.b # nuh uh
+		ai_chance = {
+			factor = 5
+		}
+	}
+}
+
+#Veles Organized
+
+country_event = { 
+	id = serbia.44
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbia.44"}
+	title = serbia.44.t
+	desc = serbia.44.d
+	picture = GFX_report_event_fascist_militia
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = serbia.44.a # we better focus on the main frontline
+	    ai_chance = {
+			factor = 20
+		}
+		add_political_power = 25
+	}
+	
+	option = {
+		name = serbia.44.b # Immediately declare support and raise more militias
+		ai_chance = {
+			factor = 80
+		}
+		SER = { load_oob = "SER_Veles_2" } 
+		add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -150
+				}
+	}
+}		
+
+#Filipovic Returns
+
+country_event = { 
+	id = filipovic_returns.0
+	immediate = {log = "[GetDateText]: [Root.GetName]: event filipovic_returns.0"}
+	title = filipovic_returns.0.t
+	desc = filipovic_returns.0.d
+	picture = GFX_report_event_communists_cheer
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+
+	option = {
+		name = filipovic_returns.0.a # epic
+	    ai_chance = {
+			factor = 100
+		}
+		hidden_effect = {
+		retire_country_leader = yes
+		}
+		
+		create_country_leader = {
+			name = "Filip Filipović"
+			desc = ""
+			picture = "Portrait_Serbia_Filip_Filipovic.tga"
+			expire = "1965.1.1"
+			ideology = bolshevist_subtype
+		}
+		
+		SER = { 
+		    declare_war_on = {
+			target = RSE
+			type = civil_war
+		    }
+		}
+		
+		RSE = { country_event = { days = 1 id = serbCR.1 } }
+		
+		add_stability = -0.05
+		add_political_power = -50
+	}
+}
+
+#COMMUNIST ELECTIONS
+
+country_event = { #COMMUNIST ELECTIONS 1
+	id = serbiacomelections.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiacomelections.1"}
+	title = serbiacomelections.1.t
+	desc = serbiacomelections.1.d
+	picture = GFX_report_event_communists_cheer
+
+	is_triggered_only = yes
+
+	fire_only_once = yes
+	
+	immediate = {
+		hidden_effect = {
+			set_country_flag = SER_ComElections1
+		}
+	}
+
+	option = {
+		name = serbiacomelections.1.a # 1 KOSTA NOVAKOVIC
+		ai_chance = {
+			factor = 33
+		}
+		add_political_power = 20
+		set_politics = {
+			ruling_party = spartacist
+			elections_allowed = no
+		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = SER_Djuro_Djakovic_hog_spa
+		remove_ideas_with_trait = economy_minister
+		add_ideas = SER_Jovan_Veselinov_eco_spa
+		add_popularity = { ideology = spartacist popularity = 0.03 }
+		retire_country_leader = yes
+		
+		create_country_leader = {
+			name = "Kosta Novaković"
+			desc = ""
+			picture = "Portrait_Kosta_Novaković.tga"
+			expire = "1965.1.1"
+			ideology = spartacist_subtype
+		}
+		
+		set_country_flag = SER_kosta_novakovic_first_term
+	}
+	
+	option = {
+		name = serbiacomelections.1.b # 1 MILAN GORKIC
+		ai_chance = {
+			factor = 33
+		}
+		add_political_power = 20
+		set_politics = {
+			ruling_party = bolshevist
+			elections_allowed = no
+		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = SER_Djuro_Djakovic_hog_spa
+		remove_ideas_with_trait = economy_minister
+		add_ideas = SER_Milentije_Popovic_eco_spa
+		add_popularity = { ideology = bolshevist popularity = 0.03 }
+		retire_country_leader = yes
+		
+		create_country_leader = {
+			name = "Milan Gorkić"
+			desc = ""
+			picture = "Portrait_Serbia_Milan_Gorkic.tga"
+			expire = "1965.1.1"
+			ideology = bolshevist_subtype
+		}
+		
+		set_country_flag = SER_milan_gorkic_first_term
+	}
+	
+	option = {
+		name = serbiacomelections.1.c # 1 MOSA PIJADE
+		ai_chance = {
+			factor = 33
+		}
+		add_political_power = 20
+		set_politics = {
+			ruling_party = bolshevist
+			elections_allowed = no
+		}
+		remove_ideas_with_trait = head_of_government
+		add_ideas = SER_Veljko_Vlahovic_hog_bol
+		remove_ideas_with_trait = economy_minister
+		add_ideas = SER_Mosa_Pijade_eco_bol
+		add_popularity = { ideology = bolshevist popularity = 0.05 }
+		retire_country_leader = yes
+		
+		hidden_effect = {
+		set_country_flag = coalition_spartacist
+		}
+		
+		create_country_leader = {
+			name = "Moša Pijade"
+			desc = ""
+			picture = "Portrait_Serbia_Cica_Janko.tga"
+			expire = "1965.1.1"
+			ideology = bolshevist_subtype
+		}
+		
+		set_cosmetic_tag = SER_FPRY
+		
+		set_country_flag = SER_mosa_pijade_first_term
+	}
+}
+
+
+# AIRFORCE Events
+
+
+country_event = { #Air Race Exceeds All Expectations
+	id = serbiair.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiair.1"}
+	title = serbiair.1.t
+	desc = serbiair.1.d
+	picture = GFX_report_event_ace_promoted
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = serbiair.1.a # Aye!
+		
+		add_political_power = 50
+		add_stability = 0.01
+		add_war_support = 0.05
+	}
+}
+
+country_event = { #Air Race Proceeds Normally
+	id = serbiair.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiair.2"}
+	title = serbiair.2.t
+	desc = serbiair.2.d
+	picture = GFX_report_event_ace_promoted
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = serbiair.2.a # Good!
+		
+		add_political_power = 25
+		add_war_support = 0.03
+	}
+}
+
+country_event = { #Air Race Underwhelming
+	id = serbiair.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event serbiair.3"}
+	title = serbiair.3.t
+	desc = serbiair.3.d
+	picture = GFX_report_event_ace_promoted
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = serbiair.3.a # Aw...
+		
+		add_political_power = -5
+	}
+}
+
+### YUGOMILITARY ###
+
+
+country_event = { #Arming the Proletariat - Level of Ideological Training
+	id = yugomilitary.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event yugomilitary.1"}
+	title = yugomilitary.1.t
+	desc = yugomilitary.1.d
+	picture = GFX_darkestday7
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = yugomilitary.1.a # Be Lax
+		
+		add_ideas = SER_Proles_Armed_Lax
+	}
+	
+	option = {
+		name = yugomilitary.1.b # Be Moderate
+		
+		add_ideas = SER_Proles_Armed_Moderate
+	}
+	
+	option = {
+		name = yugomilitary.1.c # Let's have a little struggle session, shall we?
+		
+		add_ideas = SER_Proles_Armed_Pure
+	}
+}
+
+### CHETNOCIDE ###
+
+country_event = { #Meeting before the Hunt
+	id = antichetnik.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event antichetnik.1"}
+	title = antichetnik.1.t
+	desc = antichetnik.1.d
+	picture = GFX_report_event_hungarian_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = antichetnik.1.a # Rankovic
+		remove_ideas_with_trait = security_minister
+		add_ideas = SER_Aleksandar_Rankovic_sec_bol
+		add_manpower = -50
+        add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+			country_event = { days = 3 id = antichetnik.10 }
+	}
+	
+	option = {
+		name = antichetnik.1.b # Pigeon boy
+		remove_ideas_with_trait = security_minister
+		add_ideas = SER_Mustafa_Golubic_sec_bol
+		add_manpower = -50
+        add_equipment_to_stockpile = {
+					type = infantry_equipment_0
+					amount = -100
+				}
+			country_event = { days = 3 id = antichetnik.20 }
+	}
+}
+
+country_event = { #The Hunt Begins - Rankovic
+	id = antichetnik.10
+	immediate = {log = "[GetDateText]: [Root.GetName]: event antichetnik.10"}
+	title = antichetnik.10.t
+	desc = antichetnik.10.d
+	picture = GFX_report_event_hungarian_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = antichetnik.10.a # We shall wait
+	}
+}
+
+country_event = { #The Hunt Begins - Golubic
+	id = antichetnik.20
+	immediate = {log = "[GetDateText]: [Root.GetName]: event antichetnik.20"}
+	title = antichetnik.20.t
+	desc = antichetnik.20.d
+	picture = GFX_report_event_hungarian_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = antichetnik.20.a # We shall wait
+		hidden_effect = {
+							random_list = {
+									50 = {
+											country_event = {
+													days = 10
+													id = antichetnik.21
+												}
+										}
+									50 = {
+											country_event = {
+													days = 10
+													id = antichetnik.22
+												}
+										}
+								}
+						}
+	}
+}
+
+country_event = { #Golubic fucking died
+	id = antichetnik.21
+	immediate = {log = "[GetDateText]: [Root.GetName]: event antichetnik.21"}
+	title = antichetnik.21.t
+	desc = antichetnik.21.d
+	picture = GFX_report_event_hungarian_soldiers
+
+	fire_only_once = yes
+	is_triggered_only = yes
+
+	option = {
+		name = antichetnik.21.a # mmm whatcha say
+	}
+}

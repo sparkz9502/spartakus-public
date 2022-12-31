@@ -1,0 +1,153 @@
+spriteTypes = {	
+################################################################################################################################################################################################
+### SOV
+################################################################################################################################################################################################
+
+#Head of Government
+spriteType = {
+	name = "GFX_idea_SOV_Alexei_Rykov_hog_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Alexei_Rykov.tga"
+}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Lev_Kamenev_hog_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Lev_Kamenev.tga"
+#}
+
+spriteType = {
+	name = "GFX_idea_SOV_Nikolai_Bukharin_hog_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Nikolai_Bukharin.tga"
+}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Vyacheslav_Molotov_hog_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Vyacheslav_Molotov.tga"
+#}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Grigory_Zinoviev_hog_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Grigory_Zinoviev.tga"
+#}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Mikhail_Tomsky_hog_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Mikhail_Tomsky.tga"
+#}
+
+#Minister Without Portfolio
+spriteType = {
+	name = "GFX_idea_SOV_Grigory_Zinoviev_mwp_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Grigory_Zinoviev.tga"
+}
+
+#Foreign Minister
+spriteType = {
+	name = "GFX_idea_SOV_Georgy_Chicherin_for_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Georgy_Chicherin.tga"
+}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Maksim_Litvinov_for_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Maksim_Litvinov.tga"
+#}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Vyacheslav_Molotov_for_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Vyacheslav_Molotov.tga"
+#}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Christian_Rakovsky_for_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Christian_Rakovsky.tga"
+#}
+
+#Economy Minister
+spriteType = {
+	name = "GFX_idea_SOV_Nikolai_Bukharin_eco_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Nikolai_Bukharin.tga"
+}
+
+#Security Minister
+spriteType = {
+	name = "GFX_idea_SOV_Felix_Dzerzhinsky_sec_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Felix_Dzerzhinsky.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SOV_Alexei_Rykov_sec_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Alexei_Rykov.tga"
+}
+
+#Education Minister
+spriteType = {
+	name = "GFX_idea_SOV_Anatoly_Lunacharsky_edu_spa"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Anatoly_Lunacharsky.tga"
+}
+
+#Agriculture Minister
+spriteType = {
+	name = "GFX_idea_SOV_Andrei_Kolegayev_agr_rev"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Andrei_Kolegayev.tga"
+}
+
+#Transport Minister
+spriteType = {
+	name = "GFX_idea_SOV_Janis_Rudzutaks_tra_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Janis_Rudzutaks.tga"
+}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Moisei_Rukhimovich_tra_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Moisei_Rukhimovich.tga"
+#}
+
+#spriteType = {
+#	name = "GFX_idea_SOV_Andrey_Andreyev_tra_bol"
+#	texturefile = "gfx/interface/ministers/SOV/SOV_Andrey_Andreyev.tga"
+#}
+
+#Defence Minister
+spriteType = {
+	name = "GFX_idea_SOV_Mikhail_Frunze_def_bol"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Mikhail_Frunze.tga"
+}
+
+#Chief of Staff
+spriteType = {
+	name = "GFX_idea_SOV_Mikhail_Frunze_cos"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Mikhail_Frunze.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SOV_Mikhail_Tukhachevsky_cos"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Mikhail_Tukhachevsky.tga"
+}
+
+#Chief of Army
+spriteType = {
+	name = "GFX_idea_SOV_Mikhail_Frunze_carm"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Mikhail_Frunze.tga"
+}
+
+spriteType = {
+	name = "GFX_idea_SOV_Mikhail_Tukhachevsky_carm"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Mikhail_Tukhachevsky.tga"
+}
+
+#Chief of Navy
+spriteType = {
+	name = "GFX_idea_SOV_Vladimir_Orlov_cnav"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Vladimir_Orlov.tga"
+}
+
+#Chief of Air Force
+spriteType = {
+	name = "GFX_idea_SOV_Yakov_Alksnis_cair"
+	texturefile = "gfx/interface/ministers/SOV/SOV_Yakov_Alksnis.tga"
+}
+
+#Theorist
+spriteType = {
+	name = "GFX_idea_SOV_David_Riazanov_theo"
+	texturefile = "gfx/interface/ministers/SOV/SOV_David_Riazanov.tga"
+}

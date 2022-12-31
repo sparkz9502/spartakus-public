@@ -1,0 +1,29 @@
+
+state={
+	id=1183
+	name="STATE_1183"
+	resources={
+		iron=1.000
+		raremetals=6.000
+		copper=1.000
+	}
+
+	history={
+		owner = SAF
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			14780 1 
+		}
+
+	}
+
+	provinces={
+		8136 9977 10978 12519 12921 13549 14791 14796 14801 14802 14804 14806 14809 14810 14815 14816 14818 14828 14829 14830 14832 14833 14835 
+	}
+	manpower=87500
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

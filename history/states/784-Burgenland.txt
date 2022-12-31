@@ -1,0 +1,28 @@
+
+state={
+	id=784
+	name="STATE_784"
+	manpower = 299400
+	
+	
+	state_category = rural
+	
+	history={
+		owner = AUS
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+		}
+		add_core_of = AUS
+		add_claim_by = HUN
+		add_core_of = AWR
+		
+		victory_points = {
+			9661 5
+		}
+	}
+
+	provinces={
+		11630 9661 3700
+	}
+}

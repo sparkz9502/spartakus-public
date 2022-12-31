@@ -1,0 +1,102 @@
+﻿division_template = {
+	name = "Pješadijska Divizija"	# Standing regular army divisions
+	division_names_group = MNT_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 }
+	}
+}
+division_template = {
+	name = "Konjička Divizija"  
+	division_names_group = YUG_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Planinarska Divizija"
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+        mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+        mountaineers = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	##### Crnogorska Vojska #####
+	division= {
+        name = "Pljevaljska Divizija"
+		location = 14556 # Pljevlja
+		division_template = "Planinarska Divizija"
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.5
+
+	}
+	
+	division= {
+        name = "Hercegovački Bataljon"
+		location = 14555 # Border with Herzegovina
+		division_template = "Planinarska Divizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+
+	}
+	
+	division= {
+        name = "Lovćenski Bataljon"
+		location = 9809 # Podgorica
+		division_template = "Pješadijska Divizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.4
+
+	}
+	
+	division= {
+        name = "Bataljon 'Stara Srbija'"
+		location = 14554 # Border with Albania
+		division_template = "Pješadijska Divizija"
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.5
+
+	}
+	
+	division= {
+        name = "Novopazarska Divizija"
+		location = 3939 # Novi Pazar
+		division_template = "Pješadijska Divizija"
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.3
+
+	}
+
+	##### No Notable Naval Forces #####
+}
+
+
+air_wings = {
+	### No Notable Aviation
+
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "ITA"
+		}
+		requested_factories = 1
+		progress = 0.20
+		efficiency = 100
+		amount = 1000
+	}
+}

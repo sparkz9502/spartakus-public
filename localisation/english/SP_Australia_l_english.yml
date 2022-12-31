@@ -1,0 +1,49 @@
+﻿l_english:
+
+# Events
+ast.0.t:0 "The Commonwealth of Australia"
+ast.0.d:0 "Yeet dab"
+ast.0.a:0 "Rule, Britannia!"
+# Decisions & Missions
+
+
+# Custom Tooltips
+
+
+# Ideas
+AST_empire:0 "Member of the British Empire"
+AST_empire_desc:0 "§gThe Commonwealth of Australia is a part of the greater British Empire, and is responsible to the United Kingdom of Great Britain and Northern Ireland that leads it. Officially a Dominion under the United Kingdom, Australia enjoys a high level of self-government not seen by many subjects of the Empire, but is still legally bound by the British Parliament. While some are content with this situation, many see Australia as bound by British shackles, and the looming possibility of being sent to fight another European war only stokes such flames..."
+AST_depression:0 "The Aftermath of the London Crash"
+AST_depression_desc:0 "The London Crash of 1929 hurt all corners of the British Empire, reaching even across the globe to the Australian dominion. Thankfully, due to its more developed economy and a less extreme reliance on inter-empire trade than New Zealand, most workers still have jobs and the economy hasn’t fully collapsed. However, the situation is fragile, and another shock may wipe out the remaining economic strength." 
+
+# Focuses
+
+
+# Parties
+AST_bolshevist_party:0 "CPA"
+AST_bolshevist_party_long:0 "Communist Party of Australia"
+AST_spartacist_party:0 "CPA"
+AST_spartacist_party_long:0 "Communist Party of Australia"
+AST_revolutionary_socialist_party:0 "SPA"
+AST_revolutionary_socialist_party_long:0 "Socialist Party of Australia"
+AST_reformist_socialist_party:0 "Socialist Labor Party"
+AST_reformist_socialist_party_long:0 "Socialist Labor Party"
+AST_social_democrat_party:0 "Labor Party"
+AST_social_democrat_party_long:0 "Australian Labor Party"
+AST_social_liberal_party:0 "Lang Labor"
+AST_social_liberal_party_long:0 "Australian Labor Party (Jack Lang)"
+AST_liberal_conservative_party:0 "Country Party"
+AST_liberal_conservative_party_long:0 "Australian Country Party"
+AST_social_conservative_party:0 "UAP"
+AST_social_conservative_party_long:0 "United Australia Party"
+AST_authoritarian_conservative_party:0 "All for Australia"
+AST_authoritarian_conservative_party_long:0 "All for Australia League"
+AST_right_wing_populist_party:0 "New Guard"
+AST_right_wing_populist_party_long:0 "New Guard"
+AST_national_syndicalist_party:0 "-"
+AST_national_syndicalist_party_long:0 "-"
+AST_national_corporatist_party:0 "-"
+AST_national_corporatist_party_long:0 "-"
+
+
+# Opinion Modifiers

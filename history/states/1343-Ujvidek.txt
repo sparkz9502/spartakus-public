@@ -1,0 +1,26 @@
+
+state={
+	id=1343
+	name="STATE_1343"
+	provinces={
+		619 3617 
+	}
+	history={
+		owner = CRO
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+
+		}
+		add_core_of = SER
+		add_claim_by = HUN
+		add_core_of = CRO
+		victory_points = {
+			3617 5
+		}
+
+	}
+	manpower=424000
+	state_category = small_town
+	buildings_max_level_factor=1.000
+}

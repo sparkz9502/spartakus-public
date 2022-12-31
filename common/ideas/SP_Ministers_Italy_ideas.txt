@@ -1,0 +1,2777 @@
+ideas = {
+################################################################################################################################################################################################
+### ITA
+################################################################################################################################################################################################
+
+head_of_government = { ### Head of Government ###
+	ITA_Alberto_Beneduce_hog_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Virgilio_Nasi_hog_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ivanoe_Bonomi_hog_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Francesco_Saverio_Nitti_hog_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Vittorio_Emanuele_Orlando_hog_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Carlo_Sforza_hog_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Bruno_Villabruna_hog_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Benedetto_Croce_hog_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Enrico_De_Nicola_hog_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Marcello_Soleri_hog_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Alessandro_Casati_hog_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_silent_workhorse
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Luigi_Einaudi_hog_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Amintore_Fanfani_hog_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Francesco_Luigi_Ferrari_hog_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Mario_Scelba_hog_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_happy_amateur
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Alcide_De_Gasperi_hog_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Attilio_Piccioni_hog_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giovanni_Gronchi_hog_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			head_of_government
+			hog_political_protege
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Roberto_Lucifero_d'Aprigliano_hog_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Filiberto_di_Savoia_Genova_hog_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_pragmatic_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giovanni_Niutta_di_Marescotti_hog_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_backroom_backstabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Pietro_Badoglio_hog_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_military_brute
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Paolo_Thaon_di_Revel_hog_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			head_of_government
+			hog_old_admiral
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Gian_Giacomo_Gallarati_Scotti_hog_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			head_of_government
+			hog_naive_optimist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+minister_without_portfolio = {
+	ITA_Dino_Philipson_mwp_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			minister_without_portfolio
+			mwp_nationalistic_liberal
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Paolo_Cappa_mwp_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+			mwp_modern_statesman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giovanni_Gronchi_mwp_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			minister_without_portfolio
+			mwp_modern_statesman
+		}
+		cancel_if_invalid = no
+	}
+}
+
+foreign_minister = { ### Foreign Minister ###
+	ITA_Sergio_Fenoaltea_for_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giovanni_Ciraolo_for_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Alberto_Tarchiani_for_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ivanoe_Bonomi_for_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Nicol_Carandini_for_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giovanni_Amendola_for_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Pietro_Tomasi_della_Torretta_for_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Enrico_Martino_for_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Salvatore_Contarini_for_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_ideological_crusader
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Nicolo_Carandini_for_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Alessandro_Casati_for_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Tommaso_Gallarati_Scotti_for_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Renato_Prunas_for_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Mario_Augusto_Martini_for_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giuseppe_Brusasca_for_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Pietro_Quaroni_for_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Luca_Orsini_Baroni_for_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_iron_fisted_brute
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ernesto_Vassallo_for_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Bernardo_Mattarella_for_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			foreign_minister
+			for_apologetic_clerk
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Vittorio_Zoppi_for_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Bernardo_Attolico_for_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_the_cloak_n_dagger_schemer
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Carlo_Schanzer_for_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Vittorio_Ambrosio_for_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			foreign_minister
+			for_untrustworthy_deceiver
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Raffaele_Guariglia_for_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_biased_intellectual
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Francesco_Maria_Taliani_de_Marchio_for_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			foreign_minister
+			for_great_compromiser
+		}
+		cancel_if_invalid = no
+	}
+}
+
+economy_minister = { ### Economy Minister ###
+	ITA_Alberto_Beneduce_eco_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_administrative_genius
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Luigi_Gasparotto_eco_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Meuccio_Ruini_eco_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ugo_La_Malfa_eco_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giuseppe_Paratore_eco_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Bruno_Villabruna_eco_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Epicarmo_Corbino_eco_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_corrupt_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Quinto_Quintieri_eco_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Alberto_Giovannini_eco_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giuseppe_De_Capitani_d'Arzago_eco_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			economy_minister
+			eco_bank_president
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giuseppe_Pella_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giuseppe_Micheli_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giovanni_Bertini_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giovanni_Gronchi_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ezio_Vanoni_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_balanced_budget_economy
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Stefano_Cavazzoni_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_infantry_proponent
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Pietro_Campilli_eco_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			economy_minister
+			eco_railway_magnate
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Alberto_Theodoli_di_Sambuci_eco_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_construction_magnate
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Antonio_Mosconi_eco_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_corrupt_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Tullio_Benedetti_eco_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_industrialiser
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Alberto_De_Stefani_eco_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			economy_minister
+			eco_laissez_faire_capitalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ferrante_Vincenzo_Gonzaga_eco_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_military_entrepreneur
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ludovico_Spada_Veralli_Potenziani_eco_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			economy_minister
+			eco_corrupt_kleptocrat
+		}
+		cancel_if_invalid = no
+	}
+}
+
+security_minister = { ### Security Minister ###
+	ITA_Enrico_Mole_sec_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Carlo_Bassano_sec_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Dante_Veroni_sec_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Vincenzo_Giuffrida_sec_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giovanni_Porzio_sec_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Vito_Reale_sec_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Enrico_Martino_sec_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Enrico_De_Nicola_sec_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giuseppe_Fusco_sec_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_media_magnate
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Cesare_Genovesi_sec_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			security_minister
+			sec_man_of_the_people
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Antonio_Azara_sec_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Salvatore_Aldisio_sec_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Luigi_Meda_sec_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_silent_lawyer
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ernesto_Vassallo_sec_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Gaspare_Ambrosini_sec_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Adone_Zoli_sec_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			security_minister
+			sec_preserver_of_culture
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Luigi_Arborio_Mella_di_Sant'Elia_sec_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_secret_police_chief
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giorgio_Carlo_Calvi_di_Bergolo_sec_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_back_stabber
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Francesco_Boncompagni_Ludovisi_sec_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Stefano_Lanza_Filingeri_sec_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_prince_of_terror
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Umberto_Somma_sec_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_compassionate_gentleman
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Carmine_Senise_sec_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			security_minister
+			sec_inefficient_union_buster
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Luigi_Federzoni_sec_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			security_minister
+			sec_crime_fighter
+		}
+		cancel_if_invalid = no
+	}
+}
+
+education_minister = {
+	ITA_Paolo_Rossi_edu_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giovanni_Amendola_edu_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			education_minister
+			edu_academic_reformer
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Gaetano_Martino_edu_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			education_minister
+			edu_ambitious_schoolteacher
+		}
+		cancel_if_invalid = no
+	}
+}
+
+agriculture_minister = {
+	ITA_Alberto_Giovannini_agr_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			agriculture_minister
+			agr_inexperienced_agriculturalist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Antonio_Segni_agr_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_conservative_landowner
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Amintore_Fanfani_agr_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			agriculture_minister
+			agr_agrarian_reformer
+		}
+		cancel_if_invalid = no
+	}
+}
+
+transport_minister = {
+	ITA_Raffaele_De_Caro_tra_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Guido_Corbellini_tra_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Piero_Malvestiti_tra_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			transport_minister
+			tra_ambitious_road_builder
+		}
+		cancel_if_invalid = no
+	}
+}
+
+defence_minister = { ### Defence Minister ###
+	ITA_Giacomo_Carboni_def_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Luigi_Gasparotto_def_sde = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_democrat
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Massenzio_Masia_def_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Angelo_Gatti_def_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Enrico_Martino_def_sli = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_liberal
+			defence_minister
+			def_dismal_enigma
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giuseppe_Perotti_def_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Filippo_De_Grenet_def_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Carlo_Nasalli_Rocca_def_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Manlio_Brosio_def_lco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			liberal_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ettore_Musco_def_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Venanzio_Gabriotti_def_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_logistics_specialist
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giovanni_Uberti_def_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Mario_Cingolani_def_sco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			social_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Paolo_Puntoni_def_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_technical_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giuseppe_Pieche_def_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Antonio_Sorice_def_aco = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			authoritarian_conservative
+			defence_minister
+			def_master_of_intelligence
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Luigi_Rizzo_def_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_naval_intelligence_specialist
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Giuseppe_Cordero_Lanza_di_Montezemolo_def_rwp = {
+		allowed = {original_tag = ITA}
+		available = {
+			custom_trigger_tooltip = {
+				tooltip = can_replace_minister
+				always = no
+			}
+		}
+		traits = {
+			right_wing_populist
+			defence_minister
+			def_political_specialist
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_staff = { ### Chief of Staff ###
+	ITA_Luigi_Efisio_Marras_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Mario_Vercellino_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ugo_Cavallero_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Vittorio_Ambrosio_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Guglielmo_Nasi_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Francesco_Grazioli_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Pietro_Ago_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giovanni_Messe_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_manoeuvre
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Camillo_Tommasi_di_Scillato_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ubaldo_Soddu_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ruggero_Santini_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Melchiade_Gabba_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_fire_support
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Italo_Gariboldi_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Venanzio_Gabriotti_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_defence
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Pietro_Badoglio_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_pessimistic_fool
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Camillo_Grossi_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ferrante_Vincenzo_Gonzaga_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_mass_combat
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Sebastiano_Visconti_Prasca_cos = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_staff
+			cos_school_of_psychology
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_army = { ### Chief of Army ###
+	ITA_Claudio_Trezzani_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Paolo_Berardi_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Umberto_Utili_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Taddeo_Orlando_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Federico_Morozzo_della_Rocca_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_elastic_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Francesco_Zingales_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_guns_and_butter_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Mario_Caracciolo_di_Feroleto_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Carlo_Geloso_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Ezio_Rosi_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_master_of_logistical_failure
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Alfredo_Guzzoni_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_commando_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giuseppe_Tellera_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Paolo_Puntoni_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_static_defence_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Umberto_Somma_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Gian_Claudio_Gherardini_carm = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_army
+			carm_armoured_spearhead_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_navy = { ### Chief of Navy ###
+	ITA_Giuseppe_Fioravanzo_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Domenico_Cavagnari_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_narrow_minded_imbecile
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Angelo_Iachino_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Angelo_Parona_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_indirect_approach_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Alberto_Lais_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Luigi_Sansonetti_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_base_control_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Salvatore_Denti_Amari_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_open_seas_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Luigi_Rizzo_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Umberto_Bucci_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Arturo_Riccardi_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Raffaele_de_Courten_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_decisive_battle_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Alessandro_Ciano_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Alberto_Da_Zara_cnav = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_navy
+			cnav_power_projection_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+chief_of_air_force = { ### Chief of Air Force ###
+	ITA_Giuseppe_Valle_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Rino_Corso_Fougier_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Pietro_Pinna_Parpaglia_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Federico_Zapelloni_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Gian_Mario_Beltrami_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Fernando_Silvestri_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Francesco_De_Pinedo_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Francesco_Pricolo_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_uncoordinated_nitwit
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Mario_Ajmone_Cat_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Aurelio_Liotta_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_naval_aviation_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Pietro_Piacentini_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_battlefield_support_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ferruccio_Ranza_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Pietro_Sordi_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_air_superiority_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Ademaro_Nicoletti_Altimari_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_vertical_envelopment_doctrine
+		}
+		cancel_if_invalid = no
+	}
+
+	ITA_Giuliano_Cassiani_Ingoni_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+	
+	ITA_Renato_Sandalli_cair = {
+		allowed = {original_tag = ITA}
+		available = {
+			has_country_flag = ITA_Depoliticized_Army
+		}
+		traits = {
+			chief_of_air_force
+			cair_carpet_bombing_doctrine
+		}
+		cancel_if_invalid = no
+	}
+}
+
+sp_theorist = { ### Theorist ###
+	ITA_Alberto_Beneduce_theo = {
+		allowed = {original_tag = ITA}
+		research_bonus = {
+			industry = 0.05
+		}
+		traits = {
+			sp_theorist
+			industry_sp_theorist
+		}
+		cancel_if_invalid = no
+	}
+}
+}

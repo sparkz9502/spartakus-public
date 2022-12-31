@@ -1,0 +1,35 @@
+state=
+{
+	id=524
+	name="STATE_524"
+	manpower = 2479000
+	
+	resources={
+		coal=2
+		copper=3
+	}
+	
+	state_category = rural
+	history=
+	{
+		owner = JAP
+		add_core_of = CHI
+		buildings = {
+			infrastructure = 3
+			arms_factory = 1
+		}
+		victory_points = {
+			7186 5
+		}
+		victory_points = {
+			11959 1
+		}
+		victory_points = {
+			7214 1
+		}
+
+	}
+	provinces={
+		4096 7186 7214 9955 11959
+		}
+}

@@ -1,0 +1,86 @@
+##################################
+### Greece Decision Categories ###
+##################################
+### By Kolokommouna            ###
+##################################
+
+GRE_parliament_gui_decision_category = {
+	icon = usa_congress
+
+	# picture = 
+
+	allowed = { original_tag = GRE }
+
+	priority = 1000
+
+	scripted_gui = GRE_parliament_gui
+	visible_when_empty = yes
+}
+
+GRE_coup_decisions = {
+	allowed = { tag = GRE }
+	visible = {
+		hidden_trigger = {
+			has_country_flag = GRE_planned_coup
+			NOT = {
+				has_country_flag = GRE_success_venizelists
+				has_country_flag = GRE_success_conservatives
+				has_socialist_government = yes
+			}
+		}
+	}
+	icon = GFX_decision_category_gre_faction_management
+	picture = GFX_decision_cat_gre_coup_mil
+}
+
+GRE_coup_decisions_gov = {
+	allowed = { tag = GRE }
+	visible = {
+		hidden_trigger = {
+			has_country_flag = GRE_planned_coup
+			NOT = {
+				has_country_flag = GRE_success_venizelists
+				has_country_flag = GRE_success_conservatives
+				has_socialist_government = yes
+			}
+		}
+	}
+	icon = GFX_decision_category_power_struggle
+	picture = GFX_decision_cat_gre_coup_civ
+}
+
+GRE_debt_repayments = {
+	allowed = { tag = GRE }
+	visible = {
+		has_country_flag = GRE_debts_start
+		NOT = {
+			has_socialist_government = yes
+		}
+	}
+	icon = GFX_decision_category_gre_paying_ifc_debt
+	picture = GFX_decision_cat_generic_mefo_bills
+}
+
+GRE_industrialisation = {
+	allowed = { tag = GRE }
+	visible = {
+		has_completed_focus = GRE_Industrialisation_Programme
+		NOT = {
+			has_socialist_government = yes
+		}
+	}
+	icon = GFX_decision_category_generic_economy
+}
+
+GRE_equipment = {
+	allowed = { tag = GRE }
+	visible = {
+		has_completed_focus = GRE_Buy_Foreign_Equipment
+		hidden_trigger = {
+			NOT = {
+				has_socialist_government = yes
+			}
+		}
+	}
+	icon = GFX_decision_category_generic_arms_trade
+}

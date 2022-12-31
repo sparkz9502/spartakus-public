@@ -1,0 +1,385 @@
+ideas = {
+	
+	hidden_ideas = {
+		
+		SP_coal_shortage = {
+			modifier = {
+				production_speed_buildings_factor = -0.20
+			}
+		}
+		
+		#Economy
+		
+		economy_hyind = {
+			modifier = {
+				industrial_capacity_factory = 0.15
+				industrial_capacity_dockyard = 0.15
+				production_speed_buildings_factor = 0.15
+				research_speed_factor = 0.10
+				MONTHLY_POPULATION = -0.15
+			}
+		}
+		
+		economy_ind = {
+			modifier = {
+				industrial_capacity_factory = 0.10
+				industrial_capacity_dockyard = 0.10
+				production_speed_buildings_factor = 0.10
+				research_speed_factor = 0.05
+				MONTHLY_POPULATION = -0.10
+			}
+		}
+		
+		economy_semind = {
+			modifier = {
+				industrial_capacity_factory = 0.05
+				industrial_capacity_dockyard = 0.05
+				production_speed_buildings_factor = 0.05
+				MONTHLY_POPULATION = 0.05
+			}
+		}
+		
+		economy_indzing = {
+			modifier = {
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_industrial_complex_factor = 0.05
+				research_speed_factor = -0.05
+				MONTHLY_POPULATION = 0.15
+			}
+		}
+		
+		economy_unind = {
+			modifier = {
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.10
+				industrial_capacity_dockyard = -0.10
+				production_speed_buildings_factor = -0.10
+				research_speed_factor = -0.10
+				MONTHLY_POPULATION = -0.10
+			}
+		}
+		
+		economy_undev = {
+			modifier = {
+				stability_factor = -0.10
+				industrial_capacity_factory = -0.20
+				industrial_capacity_dockyard = -0.20
+				production_speed_buildings_factor = -0.20
+				research_speed_factor = -0.20
+				MONTHLY_POPULATION = -0.20
+			}
+		}
+		
+		#Trade
+		
+		trade_aut = {
+			modifier = {
+				min_export = 0.4
+				local_resources_factor = 0.1
+				production_speed_arms_factory_factor = 0.05
+				civilian_intel_to_others = 10.0
+			}
+		}
+		
+		trade_nat = {
+			modifier = {
+				min_export = 0.5
+				local_resources_factor = 0.05
+				production_speed_arms_factory_factor = 0.025
+				civilian_intel_to_others = 15.0
+			}
+		}
+		
+		trade_pro = {
+			modifier = {
+				min_export = 0.6
+				local_resources_factor = 0.025
+				civilian_intel_to_others = 20.0
+			}
+		}
+		
+		trade_sempro = {
+			modifier = {
+				min_export = 0.7
+				production_speed_industrial_complex_factor = 0.05
+				civilian_intel_to_others = 30.0
+			}
+		}
+		
+		trade_laif = {
+			modifier = {
+				min_export = 0.8
+				production_speed_industrial_complex_factor = 0.1
+				civilian_intel_to_others = 40.0
+			}
+		}
+		
+		#Governance
+		
+		governance_bure = {
+			modifier = {
+				production_speed_buildings_factor = 0.03
+			}
+		}
+		
+		governance_coun = {
+			modifier = {
+				industrial_capacity_factory = 0.03
+			}
+		}
+		
+		governance_col = {
+			modifier = {
+				compliance_gain = 0.01
+			}
+		}
+		
+		governance_par = {
+			modifier = {
+				war_stability_factor = 0.05
+			}
+		}
+		
+		governance_exec = {
+			modifier = {
+				political_power_factor = 0.03
+			}
+		}
+		
+		governance_tot = {
+			modifier = {
+				stability_factor = 0.03
+			}
+		}
+		
+		governance_abs = {
+			modifier = {
+				war_support_factor = 0.03
+			}
+		}
+		
+		governance_tri = {
+			modifier = {
+				attrition = -0.05
+			}
+		}
+		
+		governance_colo = {
+			modifier = {
+				local_resources_factor = 0.05
+			}
+		}
+		
+		#Recruitment
+		
+		recruitment_1660 = {
+			modifier = {
+				conscription = 0.25
+				stability_factor = -0.4
+				industrial_capacity_factory = -0.35
+				industrial_capacity_dockyard = -0.35
+				production_speed_buildings_factor = -0.35
+				training_time_factor = 0.35
+			}
+		}
+		
+		recruitment_1850 = {
+			modifier = {
+				conscription = 0.15
+				stability_factor = -0.3
+				industrial_capacity_factory = -0.25
+				industrial_capacity_dockyard = -0.25
+				production_speed_buildings_factor = -0.25
+				training_time_factor = 0.25
+			}
+		}
+		
+		recruitment_1840 = {
+			modifier = {
+				conscription = 0.1
+				stability_factor = -0.2
+				industrial_capacity_factory = -0.15
+				industrial_capacity_dockyard = -0.15
+				production_speed_buildings_factor = -0.15
+				training_time_factor = 0.15
+			}
+		}
+		
+		recruitment_1835 = {
+			modifier = {
+				conscription = 0.075
+				stability_factor = -0.1
+				industrial_capacity_factory = -0.1
+				industrial_capacity_dockyard = -0.1
+				production_speed_buildings_factor = -0.1
+				training_time_factor = 0.1
+			}
+		}
+		
+		recruitment_1830 = {
+			modifier = {
+				conscription = 0.05
+				stability_factor = -0.05
+				industrial_capacity_factory = -0.05
+				industrial_capacity_dockyard = -0.05
+				production_speed_buildings_factor = -0.05
+				training_time_factor = 0.05
+			}
+		}
+		
+		recruitment_1825 = {
+			modifier = {
+				conscription = 0.025
+			}
+		}
+		
+		recruitment_volunteer = {
+			modifier = {
+				conscription = 0.015
+				stability_factor = 0.05
+			}
+		}
+		
+		recruitment_colonial = {
+			modifier = {
+				conscription = 0.01
+				stability_factor = -0.05
+			}
+		}
+		
+		recruitment_disarmed = {
+			modifier = {
+				conscription = 0.005
+				war_support_factor = -0.1
+			}
+		}
+		
+		#Mobilization
+		
+		mobilization_1 = {
+			modifier = {
+				stability_factor = 0.25
+				consumer_goods_factor = 0.55
+				production_speed_industrial_complex_factor = -0.5
+				production_speed_arms_factory_factor = -0.5
+				production_speed_dockyard_factor = -0.4
+				conversion_cost_civ_to_mil_factor = 0.5
+				conversion_cost_mil_to_civ_factor = 0.5
+				max_fuel_factor = -0.45
+				fuel_gain_factor = -0.6
+			}
+		}
+		
+		mobilization_2 = {
+			modifier = {
+				stability_factor = 0.2
+				consumer_goods_factor = 0.5
+				production_speed_industrial_complex_factor = -0.4
+				production_speed_arms_factory_factor = -0.4
+				production_speed_dockyard_factor = -0.3
+				conversion_cost_civ_to_mil_factor = 0.4
+				conversion_cost_mil_to_civ_factor = 0.4
+				max_fuel_factor = -0.35
+				fuel_gain_factor = -0.5
+			}
+		}
+		
+		mobilization_3 = {
+			modifier = {
+				stability_factor = 0.15
+				consumer_goods_factor = 0.45
+				production_speed_industrial_complex_factor = -0.3
+				production_speed_arms_factory_factor = -0.3
+				production_speed_dockyard_factor = -0.2
+				conversion_cost_civ_to_mil_factor = 0.3
+				conversion_cost_mil_to_civ_factor = 0.3
+				max_fuel_factor = -0.25
+				fuel_gain_factor = -0.4
+			}
+		}
+		
+		mobilization_4 = {
+			modifier = {
+				stability_factor = 0.1
+				consumer_goods_factor = 0.4
+				production_speed_industrial_complex_factor = -0.2
+				production_speed_arms_factory_factor = -0.2
+				production_speed_dockyard_factor = -0.1
+				conversion_cost_civ_to_mil_factor = 0.2
+				conversion_cost_mil_to_civ_factor = 0.2
+				max_fuel_factor = -0.15
+				fuel_gain_factor = -0.3
+			}
+		}
+		
+		mobilization_5 = {
+			modifier = {
+				stability_factor = 0.05
+				consumer_goods_factor = 0.35
+				production_speed_industrial_complex_factor = -0.1
+				production_speed_arms_factory_factor = -0.1
+				conversion_cost_civ_to_mil_factor = 0.1
+				conversion_cost_mil_to_civ_factor = 0.1
+				max_fuel_factor = -0.05
+				fuel_gain_factor = -0.2
+			}
+		}
+		
+		mobilization_6 = {
+			modifier = {
+				stability_factor = -0.05
+				consumer_goods_factor = 0.3
+				production_speed_arms_factory_factor = 0.05
+				conversion_cost_civ_to_mil_factor = -0.05
+				conversion_cost_mil_to_civ_factor = -0.05
+				fuel_gain_factor = -0.1
+			}
+		}
+		
+		mobilization_7 = {
+			modifier = {
+				stability_factor = -0.1
+				conscription_factor = -0.05
+				consumer_goods_factor = 0.25
+				production_speed_arms_factory_factor = 0.1
+				conversion_cost_civ_to_mil_factor = -0.1
+				conversion_cost_mil_to_civ_factor = -0.1
+			}
+		}
+		
+		mobilization_8 = {
+			modifier = {
+				stability_factor = -0.15
+				conscription_factor = -0.1
+				consumer_goods_factor = 0.2
+				production_speed_arms_factory_factor = 0.15
+				conversion_cost_civ_to_mil_factor = -0.15
+				conversion_cost_mil_to_civ_factor = -0.15
+			}
+		}
+		
+		mobilization_9 = {
+			modifier = {
+				stability_factor = -0.2
+				conscription_factor = -0.15
+				consumer_goods_factor = 0.15
+				production_speed_arms_factory_factor = 0.2
+				conversion_cost_civ_to_mil_factor = -0.2
+				conversion_cost_mil_to_civ_factor = -0.2
+			}
+		}
+		
+		mobilization_10 = {
+			modifier = {
+				stability_factor = -0.25
+				conscription_factor = -0.2
+				consumer_goods_factor = 0.1
+				production_speed_arms_factory_factor = 0.25
+				conversion_cost_civ_to_mil_factor = -0.25
+				conversion_cost_mil_to_civ_factor = -0.25
+			}
+		}
+	}
+}
+

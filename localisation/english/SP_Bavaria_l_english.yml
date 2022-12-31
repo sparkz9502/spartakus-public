@@ -1,0 +1,43 @@
+﻿l_english:
+
+### Parties ###
+BAV_bolshevist_party:0 "KPD"
+BAV_bolshevist_party_long:0 "Communist Party of Germany (Kommunistische Partei Deutschlands)"
+BAV_spartacist_party:0 "KPD"
+BAV_spartacist_party_long:0 "Communist Party of Germany (Kommunistische Partei Deutschlands)"
+BAV_revolutionary_socialist_party:0 "FAUD"
+BAV_revolutionary_socialist_party_long:0 "Free Worker's Union of Germany (Freie Arbeiter Union Deutschlands)"
+BAV_reformist_socialist_party:0 "VSPD"
+BAV_reformist_socialist_party_long:0 "United Social Democratic Party of Germany (Vereinigte Sozialdemokratische Partei Deutschlands)"
+BAV_social_democrat_party:0 "SPD"
+BAV_social_democrat_party_long:0 "Social Democratic Party of Germany (Sozialdemokratische Partei Deutschlands)"
+BAV_social_liberal_party:0 "DDP"
+BAV_social_liberal_party_long:0 "German Democratic Party (Deutsche Demokratische Partei)"
+BAV_liberal_conservative_party:0 "DVP"
+BAV_liberal_conservative_party_long:0 "German People's Party (Deutsche Volkspartei)"
+BAV_social_conservative_party:0 "CSVD"
+BAV_social_conservative_party_long:0 "Christian Social People's Service (Christlich-Sozialer Volksdienst)"
+BAV_authoritarian_conservative_party:0 "BVP"
+BAV_authoritarian_conservative_party_long:0 "Bavarian People's Party (Bayerische Volkspartei)"
+BAV_right_wing_populist_party:0 "BMP"
+BAV_right_wing_populist_party_long:0 "Bavarian Middle Party (Bayerische Mittelpartei)"
+BAV_national_syndicalist_party:0 "DVFP"
+BAV_national_syndicalist_party_long:0 "German Völkisch Freedom Party (Deutschvölkische Freiheitspartei)"
+BAV_national_corporatist_party:0 "DVLP"
+BAV_national_corporatist_party_long:0 "German Fatherland Party (Deutsche Vaterlandspartei)"
+
+### Tooltips ###
+
+### Ideas ###
+
+### Traits ###
+
+### Opinion Modifiers ###
+
+### Focus ###
+
+### National Spirits ###
+
+### Leader Descriptions ###
+
+### Events ###

@@ -1,0 +1,34 @@
+
+state={
+	id=1386
+	name="STATE_1386"
+	provinces={
+		1138 1193 4070 4113 10012 10042 10084 11961 
+	}
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 2
+
+		}
+		victory_points = {
+			10042 2 
+		}
+		victory_points = {
+			10084 2
+			
+		}
+		victory_points = {
+			10021 2 
+		}
+		victory_points = {
+			10012 2 
+		}
+		
+
+	}
+	manpower=1660700
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

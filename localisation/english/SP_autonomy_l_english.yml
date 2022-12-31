@@ -1,0 +1,28 @@
+﻿l_english:
+
+### Generic Autonomy Levels ###
+sp_integrated:0 "Integrated Puppet"
+sp_occupied:0 "Occupied Puppet"
+sp_default_puppet:0 "Puppet"
+sp_autonomous:0 "Autonomous Puppet"
+sp_colony:0 "Colony"
+sp_protectorate:0 "Protectorate"
+
+### Custom Autonomy Levels ###
+
+sp_Raj_princely_state:0 "Princely State"
+sp_Brit_protectorate:0 "Protectorate"
+sp_Brit_dominion:0 "Dominion"
+sp_Brit_colony:0 "Colony"
+sp_Brit_Irish_free_state:0 "Free State"
+sp_Brit_Irish_dominion:0 "Dominion"
+sp_Brit_Irish_crown_dominion:0 "Crown Dominion"
+sp_EGY_autonomy:0 "Egyptian Protectorate"
+
+### Tooltips ###
+can_lower_autonomy_level:0 "Can lower autonomy level\n"
+can_raise_autonomy_level:0 "Can raise autonomy level\n"
+puppet_can_become_free:0 "May become independent\n"
+puppet_can_be_annexed:0 "May be annexed by the overlord\n"
+may_raise_autonomy:0 "§Y[Root.GetNameDef]§! may now raise autonomy level\n"
+may_become_free:0 "§Y[Root.GetNameDef]§! may now work towards independence\n"

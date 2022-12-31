@@ -1,0 +1,109 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+bmr.1.t:0 "The Great Burma Revolt"
+bmr.1.d:0 ""
+bmr.1.a:0 "We will not forget you, Saya San!"
+
+### Parties ###
+
+BMR_bolshevist_party:0 "DAA"
+BMR_bolshevist_party_long:0 "We Burmans Association (Dobama Asiayone)"
+BMR_spartacist_party:0 "DAA"
+BMR_spartacist_party_long:0 "We Burmans Association (Dobama Asiayone)"
+BMR_revolutionary_socialist_party:0 "DAA"
+BMR_revolutionary_socialist_party_long:0 "We Burmans Association (Dobama Asiayone)"
+BMR_reformist_socialist_party:0 "DAA"
+BMR_reformist_socialist_party_long:0 "We Burmans Association (Dobama Asiayone)"
+BMR_social_democrat_party:0 "GCBA"
+BMR_social_democrat_party_long:0 "General Council of Burmese Associations (Myanma Ahthinchokgyi)"
+BMR_social_liberal_party:0 "GCBA"
+BMR_social_liberal_party_long:0 "General Council of Burmese Associations (Myanma Ahthinchokgyi)"
+BMR_liberal_conservative_party:0 "GCBA"
+BMR_liberal_conservative_party_long:0 "General Council of Burmese Associations (Myanma Ahthinchokgyi)"
+BMR_social_conservative_party:0 "GCBA"
+BMR_social_conservative_party_long:0 "General Council of Burmese Associations (Myanma Ahthinchokgyi)"
+BMR_authoritarian_conservative_party:0 "STG"
+BMR_authoritarian_conservative_party_long:0 "Golden Valley Party (Shwe Taung Gyar)"
+BMR_right_wing_populist_party:0 "STG"
+BMR_right_wing_populist_party_long:0 "Golden Valley Party (Shwe Taung Gyar)"
+BMR_national_syndicalist_party:0 "STG"
+BMR_national_syndicalist_party_long:0 "Golden Valley Party (Shwe Taung Gyar)"
+BMR_national_corporatist_party:0 "STG"
+BMR_national_corporatist_party_long:0 "Golden Valley Party (Shwe Taung Gyar)"
+
+### Focuses ###
+
+BMR_The_Great_Burma_Revolt:0 "The Great Burma Revolt"
+BMR_The_Great_Burma_Revolt_desc:0 ""
+
+BMR_Acquire_Rifles:0 "Acquire Stockpiled Rifles"
+BMR_Acquire_Rifles_desc:0 ""
+
+BMR_Guerilla_Tactics:0 "Adopt Guerilla Tactics"
+BMR_Guerilla_Tactics_desc:0 ""
+
+BMR_Raise_New_Militias:0 "Raise New Militias"
+BMR_Raise_New_Militias_desc:0 ""
+
+BMR_Build_Support:0 "Build Revolt Support"
+BMR_Build_Support_desc:0 ""
+
+BMR_Purge_Independents:0 "Purge the Independents"
+BMR_Purge_Independents_desc:0 ""
+
+BMR_Increase_Recruitment:0 "Increase Recruitment"
+BMR_Increase_Recruitment_desc:0 ""
+
+BMR_Ask_For_Volunteers:0 "Ask for Volunteers"
+BMR_Ask_For_Volunteers_desc:0 ""
+
+BMR_Request_Foreign_Aid:0 "Request Foreign Aid"
+BMR_Request_Foreign_Aid_desc:0 ""
+
+BMR_Smuggle_Weaponry:0 "Smuggle More Weaponry from Siam"
+BMR_Smuggle_Weaponry_desc:0 ""
+
+BMR_Still_Alive:0 "Still Alive"
+BMR_Still_Alive_desc:0 ""
+
+### Ideas ###
+
+BMR_The_Great_Burma_Revolt:0 "The Great Burma Revolt"
+BMR_The_Great_Burma_Revolt_desc:0 ""
+
+BMR_The_Legacy_of_Saya_San:0 "The Legacy of Saya San"
+BMR_The_Legacy_of_Saya_San_desc:0 ""
+
+BMR_Disorganized_Militias:0 "Disorganized Militias"
+BMR_Disorganized_Militias_desc:0 ""
+
+BMR_Questionable_Support:0 "Questionable Support"
+BMR_Questionable_Support_desc:0 ""
+
+BMR_Political_Disunity:0 "Political Disunity"
+BMR_Political_Disunity_desc:0 ""
+
+BMR_Guerilla_Tactics_Idea:0 "Guerilla Tactics"
+BMR_Guerilla_Tactics_Idea_desc:0 ""
+
+BMR_Built_Support:0 "Built Support"
+BMR_Built_Support_desc:0 ""
+
+BMR_Independents_Purged:0 "Independents Purged"
+BMR_Independents_Purged_desc:0 ""
+
+BMR_Recruitment_Increased:0 "Recruitment Increased"
+BMR_Recruitment_Increased_desc:0 ""
+
+BMR_Still_Alive:0 "Still Alive"
+BMR_Still_Alive_desc:0 ""
+
+### Flags ###
+
+BMR_second_revolt:0 "The Second Great Burma Revolt has begun."
+
+### Tooltips ###

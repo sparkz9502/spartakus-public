@@ -1,0 +1,14 @@
+####################
+#Bulgarian Speeches#
+####################
+
+sound = {
+	name = "BUL_ura"
+	file = "BUL_speeches/BUL_ura.wav"
+}
+
+sound ={
+	name = "BUL_georgiev_speech"
+	file = "BUL_speeches/BUL_georgiev_speech.wav"
+}
+

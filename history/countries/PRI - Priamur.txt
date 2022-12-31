@@ -1,0 +1,79 @@
+﻿capital = 408
+
+add_ideas = {
+	recruitment_1830
+	governance_par
+	trade_sempro
+	economy_indzing
+	mobilization_1
+}
+
+# Starting tech
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+	gwtank = 1
+	early_fighter = 1
+	early_bomber = 1
+}
+
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.4
+set_war_support = 0.3
+
+set_politics = {	
+	ruling_party = liberal_conservative
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 9
+    spartacist = 0
+    revolutionary_socialist = 1
+    reformist_socialist = 3
+    social_democrat = 15
+    social_liberal = 4
+    liberal_conservative = 36
+    social_conservative = 3
+    authoritarian_conservative = 2
+    right_wing_populist = 1
+    national_syndicalist = 24
+    national_corporatist = 2
+}
+
+create_country_leader = {
+	name = "Nikolai Kalashnikov"
+	desc = "POLITICS_NIKOLAI_KALASHNIKOV_DESC"
+	picture = "Portrait_Nikolai_Kalashnikov.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Spiridon Merkulov"
+	desc = "POLITICS_SPIRIDON_MERKULOV_DESC"
+	picture = "Portrait_Spiridon_Merkulov.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+	}
+}
+
+create_country_leader = {
+	name = "Mikhail Diterikhs"
+	desc = "POLITICS_MIKHAIL_DITERIKHS_DESC"
+	picture = "Portrait_Mikhail_Diterikhs.tga"
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
+	traits = {
+	}
+}

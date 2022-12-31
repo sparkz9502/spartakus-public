@@ -1,0 +1,47 @@
+
+state={
+	id=1206
+	name="STATE_1206"
+	
+	resources={
+		iron=7
+	}
+
+	history={
+		owner = CRO
+		victory_points = {
+			6799 5 
+		}
+		victory_points = {
+			11572 1 
+		}
+		victory_points = {
+			9922 5
+		}
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		# 1206 = {
+			# add_province_modifier = {
+				# static_modifiers = { railway }
+				# province = {
+					# id = 9922
+					# id = 11572
+					# id = 6799
+				# }
+			# }
+		# }
+		add_core_of = CRO
+		add_core_of = BOS
+
+	}
+
+	provinces={
+		6799 9922 11572 
+	}
+	manpower=651992
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

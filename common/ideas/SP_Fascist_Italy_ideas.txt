@@ -1,0 +1,16 @@
+### Fascist Italy Ideas ###
+ideas = {
+
+    country = {
+
+		ILN_Italian_Civil_War_idea = {
+			modifier = {
+				conscription = 0.01
+				war_support_factor = 0.20
+				surrender_limit = 0.15
+			}
+			picture = generic_morale_bonus
+		}
+    }
+	
+}

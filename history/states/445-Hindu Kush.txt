@@ -1,0 +1,28 @@
+
+state={
+	id=445
+	name="STATE_445"
+
+	history={
+		owner = RAJ
+		add_core_of = WTH
+		victory_points = {
+			8044 10 
+		}
+		victory_points = {
+			4990 1 
+		}
+		buildings = {
+			infrastructure = 2
+
+		}
+
+	}
+
+	provinces={
+		4990 5075 7847 7975 8013 8044 15307 15308 15309 15310 15311 15312 15423 15427 15432 15435 15440 
+	}
+	manpower=675000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

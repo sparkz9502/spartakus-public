@@ -1,0 +1,31 @@
+
+state={
+	id=559
+	name="STATE_559"
+
+	history={
+		owner = IEA
+		add_core_of = IEA
+		buildings = {
+			infrastructure = 2
+			air_base = 1
+			industrial_complex = 1
+			14164 = {
+				naval_base = 2
+
+			}
+
+		}
+		victory_points = {
+			14164 5 
+		}
+
+	}
+
+	provinces={
+		5017 8164 14164 14180 14183 
+	}
+	manpower=569800
+	buildings_max_level_factor=1.000
+	state_category=small_town
+}

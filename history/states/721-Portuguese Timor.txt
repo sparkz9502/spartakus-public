@@ -1,0 +1,25 @@
+
+state={
+	id=721
+	name="STATE_721"
+	manpower = 460700
+	
+	state_category = pastoral
+
+	history={
+		owner = PRM
+		victory_points = {
+			12190 1 # Dili
+		}
+		buildings = {
+			infrastructure = 2
+			12190 ={
+				naval_base = 1
+			}
+		}
+	}
+
+	provinces={
+		1326 12178 12190 12206 13001
+	}
+}

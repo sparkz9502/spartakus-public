@@ -1,0 +1,624 @@
+###########################
+# Com Puppet Focus Tree
+# By NatSpi
+###########################
+
+focus_tree = {
+	id = SP_Puppet_Communist
+	country = {
+		factor = 0
+		modifier = {
+			add = 5
+			is_puppet = yes
+			has_socialist_government = yes
+			NOT = {
+				tag = POL
+				tag = AWR
+			}
+		}
+	}
+	default = no
+	focus = {
+		id = ComP_local_labour_leaders
+		icon = GFX_goal_communist_revolt
+		cost = 8.60
+		x = 3
+		y = 0
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = ComP_socialist_front_govt
+		icon = GFX_goal_ideology_revolutionary_socialist
+		cost = 4.30
+		prerequisite = {
+			focus = ComP_local_labour_leaders
+		}
+		mutually_exclusive = {
+			focus = ComP_pure_communist_govt
+		}
+		x = 2
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 20
+			add_stability = 0.05
+			set_country_flag = coalition_bolshevist
+			set_country_flag = coalition_spartacist
+			set_country_flag = coalition_revolutionary_socialist
+			set_country_flag = coalition_reformist_socialist
+		}
+
+	}
+	focus = {
+		id = ComP_pure_communist_govt
+		icon = GFX_goal_red_star_gold_wreath
+		cost = 4.30
+		prerequisite = {
+			focus = ComP_local_labour_leaders
+		}
+		mutually_exclusive = {
+			focus = ComP_socialist_front_govt
+		}
+		x = 4
+		y = 1
+		
+		completion_reward = {
+			add_political_power = 50
+			if = {
+				limit = {
+					overlord = {
+						NOT = { has_same_government_as_ROOT = yes }
+					}
+				}
+				overlord = {
+					ROOT = { copy_government_of_PREV = yes }
+				}
+			}
+			if = {
+				limit = { has_far_left_government = yes }
+				set_country_flag = coalition_spartacist
+				set_country_flag = coalition_bolshevist
+			}
+			if = {
+				limit = { has_left_wing_government = yes }
+				set_country_flag = coalition_reformist_socialist
+				set_country_flag = coalition_revolutionary_socialist
+			}
+		}
+
+	}
+	focus = {
+		id = ComP_communist_propaganda
+		icon = GFX_goal_propaganda_soviet
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_socialist_front_govt
+			focus = ComP_pure_communist_govt
+		}
+		x = 1
+		y = 2
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = ComP_workers_organisations
+		icon = GFX_goal_HOL_council_communism
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_socialist_front_govt
+			focus = ComP_pure_communist_govt
+		}
+		x = 3
+		y = 2
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.01
+				}
+			}
+			add_political_power = 30
+		}
+
+	}
+	focus = {
+		id = ComP_communist_trade_union_leadership
+		icon = GFX_goal_syndicalist_industry
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_socialist_front_govt
+			focus = ComP_pure_communist_govt
+		}
+		x = 5
+		y = 2
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = ComP_communist_militias
+		icon = GFX_goal_focus_communist_army
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_communist_propaganda
+		}
+		prerequisite = {
+			focus = ComP_workers_organisations
+		}
+		prerequisite = {
+			focus = ComP_communist_trade_union_leadership
+		}
+		x = 2
+		y = 3
+		
+		completion_reward = {
+			add_stability = 0.025
+			if = {
+				limit = {
+					overlord = { has_government = bolshevist }
+				}
+				add_ideas = SP_Puppet_Communist_militias_lenin_idea
+			}
+			else_if = {
+				limit = {
+					overlord = { has_government = spartacist }
+				}
+				add_ideas = SP_Puppet_Communist_militias_marx_idea
+			}
+			else_if = {
+				limit = {
+					overlord = { has_government = revolutionary_socialist }
+				}
+				add_ideas = SP_Puppet_Communist_militias_revsoc_idea
+			}
+			else_if = {
+				limit = {
+					overlord = { has_government = reformist_socialist }
+				}
+				add_ideas = SP_Puppet_Communist_militias_demsoc_idea
+			}
+		}
+
+	}
+	focus = {
+		id = ComP_sponsor_socialist_thought
+		icon = GFX_Communist_Science
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_communist_propaganda
+		}
+		prerequisite = {
+			focus = ComP_workers_organisations
+		}
+		prerequisite = {
+			focus = ComP_communist_trade_union_leadership
+		}
+		x = 4
+		y = 3
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = ComP_social_security
+		icon = GFX_goal_generic_national_unity
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_communist_militias
+		}
+		prerequisite = {
+			focus = ComP_sponsor_socialist_thought
+		}
+		x = 3
+		y = 4
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.01
+				}
+			}
+			add_stability = 0.05
+		}
+
+	}
+	focus = {
+		id = ComP_reduce_capitalist_influence
+		icon = GFX_Purge_Kulaks
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_social_security
+		}
+		mutually_exclusive = {
+			focus = ComP_harass_capitalist_parties
+			focus = ComP_ban_capitalist_parties
+		}
+		x = 1
+		y = 5
+		
+		completion_reward = {
+			add_political_power = 50
+			add_stability = 0.025
+		}
+
+	}
+	focus = {
+		id = ComP_harass_capitalist_parties
+		icon = GFX_goal_authority
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_social_security
+		}
+		mutually_exclusive = {
+			focus = ComP_reduce_capitalist_influence
+			focus = ComP_ban_capitalist_parties
+		}
+		x = 3
+		y = 5
+		
+		completion_reward = {
+			add_political_power = 20
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.01
+				}
+			}
+		}
+	}
+	focus = {
+		id = ComP_ban_capitalist_parties
+		icon = GFX_goal_nkvd_troika
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_social_security
+		}
+		mutually_exclusive = {
+			focus = ComP_reduce_capitalist_influence
+			focus = ComP_harass_capitalist_parties
+		}
+		x = 5
+		y = 5
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.015
+				}
+			}
+		}
+
+	}
+	focus = {
+		id = ComP_land_reform
+		icon = GFX_goal_agrarian_reform
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_reduce_capitalist_influence
+			focus = ComP_harass_capitalist_parties
+			focus = ComP_ban_capitalist_parties
+		}
+		x = 4
+		y = 6
+		
+		completion_reward = {
+			add_stability = 0.05
+			add_ideas = SP_Puppet_Communist_land_reform_idea
+		}
+
+	}
+	focus = {
+		id = ComP_expropriate_private_property
+		icon = GFX_Soviet_Investments
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_reduce_capitalist_influence
+			focus = ComP_harass_capitalist_parties
+			focus = ComP_ban_capitalist_parties
+		}
+		x = 2
+		y = 6
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.01
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.01
+				}
+			}
+			add_ideas = SP_Puppet_Communist_expropriate_private_property_idea
+		}
+	}
+	focus = {
+		id = ComP_set_up_workers_councils
+		icon = GFX_goal_HOL_council_communism
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_expropriate_private_property
+		}
+		prerequisite = {
+			focus = ComP_land_reform
+		}
+		x = 3
+		y = 7
+		
+		completion_reward = {
+			if = {
+				limit = { bolshevist < 0.25 }
+				add_popularity = {
+					ideology = bolshevist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { spartacist < 0.25 }
+				add_popularity = {
+					ideology = spartacist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { revolutionary_socialist < 0.25 }
+				add_popularity = {
+					ideology = revolutionary_socialist
+					popularity = 0.015
+				}
+			}
+			if = {
+				limit = { reformist_socialist < 0.25 }
+				add_popularity = {
+					ideology = reformist_socialist
+					popularity = 0.015
+				}
+			}
+		}
+	}
+	focus = {
+		id = ComP_victory_for_communism
+		icon = GFX_goal_revolution
+		cost = 8.60
+		prerequisite = {
+			focus = ComP_set_up_workers_councils
+		}
+		x = 3
+		y = 8
+		
+		completion_reward = {
+			SP_clear_coalition_effect = yes
+			if = {
+				limit = {
+					overlord = {
+						NOT = { has_same_government_as_ROOT = yes }
+					}
+				}
+				overlord = {
+					ROOT = { copy_government_of_PREV = yes }
+				}
+			}
+			if = {
+				limit = { has_far_left_government = yes }
+				set_country_flag = coalition_spartacist
+				set_country_flag = coalition_bolshevist
+			}
+			if = {
+				limit = { has_left_wing_government = yes }
+				set_country_flag = coalition_reformist_socialist
+				set_country_flag = coalition_revolutionary_socialist
+			}
+			if = {
+				limit = {
+					check_variable = { party_popularity@ruling_party < 0.25 }
+				}
+				increase_ruling_party_popularity_by_10 = yes
+			}
+			else = { increase_ruling_party_popularity_by_5 = yes }
+		}
+
+	}
+}

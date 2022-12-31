@@ -1,0 +1,34 @@
+
+state={
+	id=558
+	name="STATE_558"
+
+	history={
+		owner = BWA
+		add_core_of = BWA
+		buildings = {
+			infrastructure = 2
+			2050 = {
+				naval_base = 3
+
+			}
+			industrial_complex = 1
+			arms_factory = 1
+
+		}
+		victory_points = {
+			2050 5 
+		}
+		victory_points = {
+			14153 3 
+		}
+
+	}
+
+	provinces={
+		2050 4952 12731 12785 14084 14088 14090 14109 14117 14147 14153 14482 
+	}
+	manpower=5022000
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

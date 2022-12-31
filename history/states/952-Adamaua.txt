@@ -1,0 +1,23 @@
+
+state={
+	id=952
+	name="STATE_952"
+
+	history={
+		owner = AEF
+		add_core_of = AEF
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1128 4097 5054 7162 7173 7963 9137 11194 11987 12018 14151 14430 14434 14506 14517 
+	}
+	manpower=823200
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

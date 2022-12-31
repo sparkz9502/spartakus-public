@@ -1,0 +1,23 @@
+
+state={
+	id=903
+	name="STATE_903"
+	resources={
+		oil=8.000
+	}
+
+	history={
+		owner = ARG
+		add_core_of = ARG
+		buildings = {
+			infrastructure = 1
+		}
+	}
+
+	provinces={
+		8195 10944 10965 13548 
+	}
+	manpower=289400
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

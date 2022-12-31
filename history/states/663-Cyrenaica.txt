@@ -1,0 +1,29 @@
+
+state={
+	id=663
+	name="STATE_663"
+
+	history={
+		owner = LBA
+		add_claim_by = INA
+		add_core_of = LBA
+		victory_points = {
+			1127 1 
+		}
+		victory_points = {
+			1198 1 
+		}
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		1127 1186 1198 4200 7063 7206 12079 13078 
+	}
+	manpower=19700
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

@@ -1,0 +1,85 @@
+﻿capital = 1009
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.2
+set_war_support = 0.4
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_par
+	trade_pro
+	economy_indzing
+	mobilization_1
+	
+	### National Spirits ###
+	WB_Idea_Illiteracy_High
+	
+	### Ministers ###
+	BOS_Vladimir_Corovic_hog_sco
+	BOS_Dzemaludin_ef_Causevic_for_sco
+	BOS_Barisa_Smoljan_eco_sco
+	BOS_Nurija_Pozderac_sec_sde
+	BOS_Sulejman_Filipovic_cos_rev
+}
+
+### Country Leaders ###
+recruit_character = BOS_salih_safvet_basic
+recruit_character = BOS_avdo_humo
+recruit_character = BOS_mehmed_spaho
+recruit_character = BOS_vojislav_kecmanovic
+
+### Generals ###
+recruit_character = BOS_muhamed_hadziefendic
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = social_liberal
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 3
+    spartacist = 1
+    revolutionary_socialist = 8
+    reformist_socialist = 3
+    social_democrat = 21
+    social_liberal = 16
+    liberal_conservative = 0
+    social_conservative = 16
+    authoritarian_conservative = 18
+    right_wing_populist = 4
+    national_syndicalist = 2
+    national_corporatist = 8
+}
+
+set_country_flag = Bosnians_cant_read
+
+set_variable = {
+    var = bosniaks_faction_approval_variable
+    value = 93
+}
+
+set_variable = {
+    var = croats_faction_approval_variable
+    value = 47
+}
+
+set_variable = {
+    var = serbs_faction_approval_variable
+    value = 86
+}

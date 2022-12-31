@@ -1,0 +1,31 @@
+
+state={
+	id=1221
+	name="STATE_1221"
+	provinces={
+		1209 4306 4608 7654 10479 10491 12472 
+	}
+	resources={
+		oil=9
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		victory_points = {
+			4608 3 
+		}
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 1
+			4608 = {
+				naval_base = 3
+
+			}
+
+		}
+
+	}
+	manpower=15155714
+	state_category = large_town
+	buildings_max_level_factor=1.000
+}

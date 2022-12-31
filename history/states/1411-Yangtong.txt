@@ -1,0 +1,32 @@
+
+state={
+	id=1411
+	name="STATE_1411"
+
+	history={
+		owner = NAN
+		add_core_of = NAN
+		buildings = {
+			infrastructure = 2
+			4091 = {
+				naval_base = 10
+
+			}
+
+		}
+		victory_points = {
+			4091 5 
+		}
+		victory_points = {
+			4001 5 
+		}
+
+	}
+
+	provinces={
+		1089 4001 4091 7181 9953 10095 11928 15586 
+	}
+	manpower=10940800
+	state_category = town
+	buildings_max_level_factor=1.000
+}

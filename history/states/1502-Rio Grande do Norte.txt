@@ -1,0 +1,20 @@
+
+state={
+	id=1502
+	name="STATE_1502"
+	
+	history={
+		owner = BRA
+		buildings = {
+			infrastructure = 2
+		}
+		add_core_of = BRA
+	}
+	
+	provinces={
+		2175 10933 10989 
+	}
+	manpower=743400
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

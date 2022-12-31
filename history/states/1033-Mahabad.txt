@@ -1,0 +1,26 @@
+
+state={
+	id=1033
+	name="STATE_1033"
+
+	history={
+		owner = PER
+		add_core_of = PER
+		buildings = {
+			infrastructure = 1
+
+		}
+		victory_points = {
+			15142 2 
+		}
+		set_demilitarized_zone = yes
+
+	}
+
+	provinces={
+		1822 7604 15122 15132 15142 15158 
+	}
+	manpower=531360
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+}

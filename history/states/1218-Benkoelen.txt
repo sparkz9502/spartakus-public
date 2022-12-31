@@ -1,0 +1,23 @@
+
+state={
+	id=1218
+	name="STATE_1218"
+	provinces={
+		7308 7440 10194 12138 
+	}
+	resources={
+
+	}
+	history={
+		owner = INS
+		add_core_of = INS
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+	manpower=323123
+	state_category = pastoral
+	buildings_max_level_factor=1.000
+}

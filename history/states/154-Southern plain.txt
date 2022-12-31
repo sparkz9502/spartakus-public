@@ -1,0 +1,30 @@
+
+state={
+	id=154
+	name="STATE_154"
+
+	history={
+		owner = HUN
+		buildings = {
+			infrastructure = 3
+			industrial_complex = 2
+			air_base = 2
+
+		}
+		victory_points = {
+			11659 7 
+		}
+		victory_points = {
+			6735 5 
+		}
+		add_core_of = HUN
+
+	}
+
+	provinces={
+		699 730 3730 6735 11659 15650 15651 15652 
+	}
+	manpower=1571200
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

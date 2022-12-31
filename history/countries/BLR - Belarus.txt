@@ -1,0 +1,43 @@
+﻿capital = 206
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
+add_ideas = {
+	### Laws ###
+	recruitment_volunteer
+	governance_exec
+	trade_pro
+	economy_indzing
+	mobilization_1
+}
+
+### Country Leaders ###
+
+### Starting Tech ###
+set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
+}
+
+### Politics ###
+
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	elections_allowed = no
+}
+
+set_popularities = {
+    bolshevist = 0
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 100
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}

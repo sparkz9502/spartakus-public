@@ -1,0 +1,23 @@
+
+state={
+	id=1473
+	name="STATE_1473"
+	provinces={
+		5052 10172 10738 13468 13474 
+	}
+	resources={
+		copper=11
+	}
+	history={
+		owner = MEX
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = MEX
+
+	}
+	manpower=591900
+	state_category = rural
+	buildings_max_level_factor=1.000
+}

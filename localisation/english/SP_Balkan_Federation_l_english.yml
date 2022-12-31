@@ -1,0 +1,75 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+bfed.1.t:0 "Invite Bulgaria?"
+bfed.1.d:0 "Both the governments of Bulgaria and Yugoslavia are currently primarily proponents of unification. While Bulgaria is a lot more torn on the issue, starting diplomatic talks is a worthwile cause."
+bfed.1.a:0 "Send them a proposal"
+bfed.1.b:0 "We don't need them!"
+bfed.2.t:0 "Yugoslavia Proposes Unification"
+bfed.2.d:0 "Bulgaria falls into most definitions of a complete Yugoslavia, but it has never been part of a pan-Yugoslav nation. This could change soon, as Yugoslavia has proposed unification to us. The communists in charge generally support this, but Bulgarian nationalists within the masses are strongly opposing them. What shall the leadership choose?"
+bfed.2.a:0 "Brotherhood and unity!"
+bfed.2.b:0 "Politely decline"
+bfed.3.t:0 "Land Deal with Yugoslavia"
+bfed.3.d:0 "In the aftermath of the Adriatic war, the lands that had been previously occupied by French expeditionary forces fell under our control, and since then the Drava river has been the boundary between Italy's and the communist sphere of influence. Now, Hungary's southern neighbor, Yugoslavia, has grown to be a considerable power within the comintern. We should cede them these lands, as they are generally deemed to be rightfully south Slavic."
+bfed.3.a:0 "It's theirs!"
+bfed.3.b:0 "Cede them, except for the Hungarian-majority parts."
+bfed.3.c:0 "Why should we entertain their nationalist schemes?"
+bfed.4.t:0 "Hungary Cedes us Territories"
+bfed.4.d:0 "Our communist allies in Hungary have just given us back the lands Yugoslavia lost in the aftermath of the Adriatic war. How should we respond?"
+bfed.4.a:0 "We are not fighting for nationalist claims - give them back!"
+bfed.4.b:0 "Return only the mostly Hungarian lands"
+bfed.4.c:0 "We're grateful for this! Long live the comintern!"
+### Focuses ###
+
+### Ideas ###
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Cosmetic Tags ###
+ BF_BUL_bolshevist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_bolshevist_ADJ:0 "Bulgarian"
+ BF_BUL_bolshevist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_spartacist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_spartacist_ADJ:0 "Bulgarian"
+ BF_BUL_spartacist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_revolutionary_socialist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_revolutionary_socialist_ADJ:0 "Bulgarian"
+ BF_BUL_revolutionary_socialist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_reformist_socialist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_reformist_socialist_ADJ:0 "Bulgarian"
+ BF_BUL_reformist_socialist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_social_democrat:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_social_democrat_ADJ:0 "Bulgarian"
+ BF_BUL_social_democrat_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_social_liberal:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_social_liberal_ADJ:0 "Bulgarian"
+ BF_BUL_social_liberal_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_liberal_conservative:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_liberal_conservative_ADJ:0 "Bulgarian"
+ BF_BUL_liberal_conservative_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_social_conservative:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_social_conservative_ADJ:0 "Bulgarian"
+ BF_BUL_social_conservative_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_authoritarian_conservative:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_authoritarian_conservative_ADJ:0 "Bulgarian"
+ BF_BUL_authoritarian_conservative_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_right_wing_populist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_right_wing_populist_ADJ:0 "Bulgarian"
+ BF_BUL_right_wing_populist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_national_syndicalist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_national_syndicalist_ADJ:0 "Bulgarian"
+ BF_BUL_national_syndicalist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ BF_BUL_national_corporatist:0 "Balkan Federal Republic of Bulgaria"
+ BF_BUL_national_corporatist_ADJ:0 "Bulgarian"
+ BF_BUL_national_corporatist_DEF:0 "The Balkan Federal Republic of Bulgaria"
+ 
+### Equipment ###
+
+### Opinion Modifiers ###

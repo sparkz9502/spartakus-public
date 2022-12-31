@@ -1,0 +1,22 @@
+
+state={
+	id=916
+	name="STATE_916"
+
+	history={
+		owner = PRM
+		buildings = {
+			infrastructure = 1
+
+		}
+
+	}
+
+	provinces={
+		13964 13975 14734 14769 14812 
+	}
+	manpower=416800
+	buildings_max_level_factor=1.000
+	state_category=pastoral
+	local_supplies=0.000
+}

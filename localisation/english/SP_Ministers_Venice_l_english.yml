@@ -1,0 +1,69 @@
+﻿l_english:
+
+### Head of Government ###
+VNZ_Guido_Giacometti_hog_ref:0 "Guido Giacometti"
+VNZ_Carlo_Caldera_hog_ref:0 "Carlo Caldera"
+VNZ_Giovanni_Battista_Gianquinto_hog_spa:0 "Giovanni Battista Gianquinto"
+VNZ_Bonaventura_Ferrazzutto_hog_rev:0 "Bonaventura Ferrazzutto"
+VNZ_Alessandro_Marcello_Del_Majno_hog_lco:0 "Alessandro Marcello Del Majno"
+VNZ_Ferruccio_Morterra_hog_sde:0 "Ferruccio Morterra"
+VNZ_Celeste_Bastianetto_hog_sco:0 "Celeste Bastianetto"
+VNZ_Giuseppe_Bettiol_hog_sco:0 "Giuseppe Bettiol"
+VNZ_Italico_Corradino_Cappellotto_hog_ref:0 "Italico Corradino Cappellotto"
+VNZ_Guido_Bergamo_hog_sde:0 "Guido Bergamo"
+VNZ_Umberto_Merlin_hog_sco:0 "Umberto Merlin"
+
+### Foreign Minister ###
+VNZ_Giovanni_Tonetti_for_spa:0 "Giovanni Tonetti"
+VNZ_Aldo_Fedeli_for_ref:0 "Aldo Fedeli"
+VNZ_Igino_Borin_for_rev:0 "Igino Borin"
+VNZ_Vitale_Giovanni_Gallina_for_sli:0 "Vitale Giovanni Gallina"
+VNZ_Andrea_Emo_Capodilista_for_lco:0 "Andrea Emo Capodilista"
+VNZ_Pietro_Lizier_for_sco:0 "Pietro Lizier"
+VNZ_Antonio_Ferrarese_for_sco:0 "Antonio Ferrarese"
+
+### Economy Minister ###
+VNZ_Alberto_Fogagnolo_eco_spa:0 "Alberto Fogagnolo"
+VNZ_Alcide_Malagugini_eco_rev:0 "Alcide Malagugini"
+VNZ_Bonaventura_Ferrazzutto_eco_rev:0 "Bonaventura Ferrazzutto"
+VNZ_Ferruccio_Morterra_eco_sde:0 "Ferruccio Morterra"
+VNZ_Giovanni_Battista_Cicogna_eco_lco:0 "Giovanni Battista Cicogna"
+VNZ_Gino_Luzzatto_eco_ref:0 "Gino Luzzatto"
+VNZ_Gerolamo_Lino_Moro_eco_sco:0 "Gerolamo Lino Moro"
+VNZ_Antonio_Pavan_eco_sco:0 "Antonio Pavan"
+
+### Security Minister ###
+VNZ_Lina_Merlin_sec_rev:0 "Lina Merlin"
+VNZ_Tommaso_Tonello_sec_ref:0 "Tommaso Tonello"
+VNZ_Ernesto_Pietriboni_sec_sli:0 "Ernesto Pietriboni"
+VNZ_Ugo_Vallenari_sec_sde:0 "Ugo Vallenari"
+VNZ_Andrea_Da_Mosto_sec_lco:0 "Andrea Da Mosto"
+VNZ_Angelo_Spanio_sec_lco:0 "Angelo Spanio"
+VNZ_Giovanni_Favaretto_Fisca_sec_sco:0 "Giovanni Favaretto Fisca"
+VNZ_Cesarino_Crescente_sec_sco:0 "Cesarino Crescente"
+
+### Defence Minister ###
+VNZ_Ugo_Facco_De_Lagarda_def_sde:0 "Ugo Facco De Lagarda"
+VNZ_Ugo_Luca_def_sli:0 "Ugo Luca"
+VNZ_Marcantonio_Bragadin_def_ref:0 "Marcantonio Bragadin"
+VNZ_Giovanni_Barbini_def_sco:0 "Giovanni Barbini"
+
+### Chief of Staff ###
+VNZ_Arduino_Polla_cos:0 "Arduino Polla"
+VNZ_Mario_Lizzero_cos:0 "Mario Lizzero"
+VNZ_Giacomo_Miari_de_Cumani_cos:0 "Giacomo Miari de Cumani"
+VNZ_Dino_Candotti_cos:0 "Dino Candotti"
+
+### Chief of Army ###
+VNZ_Michele_Vaccaro_carm:0 "Michele Vaccaro"
+VNZ_Gino_Beltrame_carm:0 "Gino Beltrame"
+VNZ_Aldo_Moretti_carm:0 "Aldo Moretti"
+VNZ_Giovanni_Cleva_carm:0 "Giovanni Cleva"
+VNZ_Antonio_Scaramuzza_carm:0 "Antonio Scaramuzza"
+
+### Chief of Navy ###
+VNZ_Isidoro_Wiel_cnav:0 "Isidoro Wiel"
+
+### Chief of Air Force ###
+VNZ_Guido_Masiero_cair:0 "Guido Masiero"
+VNZ_Sebastiano_Bedendo_cair:0 "Sebastiano Bedendo"

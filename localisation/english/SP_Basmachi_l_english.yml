@@ -1,0 +1,28 @@
+﻿l_english:
+
+# Events
+Basmachi_raiding.1.t:0 "A Successful Raid"
+Basmachi_raiding.1.desc:0 "Our raiders advanced towards the clearly unprepared enemy in the cover of night. Shocked, their fighters were cut down with ease and those who remained were forced to flee for their lives. Much equipment was left behind, including rifles, ammunition, horses and personal belongings. Our raiders will scavenge the battlefield, raid the local towns and then return home triumphantly."
+Basmachi_raiding.1.a:0 "We shall liberate Turkestan!"
+Basmachi_raiding.2.t:0 "A Failed Raid"
+Basmachi_raiding.2.desc:0 "Our raiders advanced towards the enemy only to find them well prepared for battle. Their fighters cut down many of our men before they could reach the enemy lines. With losses mounting, what little of our raiders remained were quickly forced to retreat home. The enemy will undoubtedly scavenge our dead, seizing our precious resources."
+Basmachi_raiding.2.a:0 "This is not the end..."
+Basmachi_raiding.3.t:0 "A Costly Raid"
+Basmachi_raiding.3.desc:0 "Our raiders advanced towards the enemy, who although prepared were overcome with a bit of strategy. Still, their fighters fought well and killed some of our men. Our raiders captured some of the enemy supplies but were counterattacked before they could seize the rest. This is no doubt a victory, albeit a costly one, and raiding the nearby towns is out of the question."
+Basmachi_raiding.3.a:0 "They did their best."
+Basmachi_raiding.4.t:0 "A Failed Basmachi Raid"
+Basmachi_raiding.4.desc:0 "The Basmachi raiders attacked us, but were decisively defeated. Our scouts had spotted the enemy ahead of time and our men were well prepared for battle. Many of their fighters failed to reach our lines under heavy fire and they were rapidly driven into a frenzied retreat. Our men scavenged the battlefield and seized some of their supplies."
+Basmachi_raiding.4.a:0 "We will defeat these bandits yet!"
+Basmachi_raiding.5.t:0 "A Successful Basmachi Raid"
+Basmachi_raiding.5.desc:0 "The Basmachi raiders attacked us, defeating our men and raiding local towns. Our scouts had failed to spot the enemy ahead of time and our men were attacked suddenly at night. Their fighters quickly overcame our men, killing many and forcing the others to retreat. Much equipment was lost, including rifles, ammunition, horses and personal belongings. They proceeded to raid local towns, with their defenseless populations unable to resist."
+Basmachi_raiding.5.a:0 "We will be ready next time."
+Basmachi_raiding.6.t:0 "A Costly Basmachi Raid"
+Basmachi_raiding.6.desc:0 "The Basmachi raiders attacked us, and were driven back after stealing some supplies. Our scouts spotted the enemy but lost their trail before the battle. Our men were somewhat prepared but left vulnerable to the strategies of the raiders. Some of their cavalry bypassed our line and seized supplies, which we were unable to recover. Still, they were spotted and driven back before they could seize everything."
+Basmachi_raiding.6.a:0 "It could have been worse."
+
+# Decisions
+Basmachi_raiding_cat:0 "Raiding our Neighbours"
+Basmachi_raiding_dec:0 "Raid [FROM.GetNameDef]"
+Basmachi_raiding_cooldown:0 "Raiding Cooldown"
+
+Basmachi_raiding_cooldown_tt:0 "You must wait before sending out another raid."

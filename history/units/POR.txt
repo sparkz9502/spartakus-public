@@ -1,0 +1,196 @@
+﻿division_template = {
+	name = "Divisão de Infanteria" #Infantry
+	division_names_group = POR_INF_01
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 2 y = 0 }
+		infantry = { x = 2 y = 1 }
+	}
+	support = {
+		artillery = { x = 0 y = 0 }
+		engineer = { x = 0 y = 1 }   
+	}
+}
+
+division_template = {
+	name = "Brigada de Cavalaria" #Cavalry
+	division_names_group = POR_CAV_01
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+	}
+}
+
+division_template = {
+	name = "Força de Caçadores"	#Elite Troops	
+	regiments = {
+		light_infantry = { x = 0 y = 0 }
+		light_infantry = { x = 0 y = 1 }
+		light_infantry = { x = 0 y = 2 }
+		light_infantry = { x = 1 y = 0 }
+		light_infantry = { x = 1 y = 1 }
+		light_infantry = { x = 1 y = 2 }
+	}
+	priority = 2
+}
+	
+division_template = {
+	name = "Brigada Republicana" #Militia
+	is_locked = yes
+	regiments = {
+		militia = { x = 0 y = 0 }
+		militia = { x = 0 y = 1 }
+		militia = { x = 0 y = 2 }
+		
+	}
+}
+
+units = {
+	#Infantry
+	division = {
+		name = "1a Divisão de Infanteria"
+		location = 11805
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "4a Divisão de Infanteria"
+		location = 9869
+		division_template = "Divisão de Infanteria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	#Cavalry
+	division = {
+		name = "1a Brigada de Cavalaria"
+		location = 11805
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "2a Brigada de Cavalaria"
+		location = 9869
+		division_template = "Brigada de Cavalaria"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	#Militias
+	division = {
+		name = "1a Brigada Republicana"
+		location = 799
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "2a Brigada Republicana"
+		location = 924
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "3a Brigada Republicana"
+		location = 844
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "4a Brigada Republicana"
+		location = 3926
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "5a Brigada Republicana"
+		location = 3798
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "6a Brigada Republicana"
+		location = 3790
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	division = {
+		name = "7a Brigada Republicana"
+		location = 11805
+		division_template = "Brigada Republicana"
+		start_experience_factor = 0.2
+		start_equipment_factor = 1
+
+	}
+	#Caçadores
+	division = {
+		name = "2a Força de Caçadores"
+		location = 3798
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "3a Força de Caçadores"
+		location = 844
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}
+	division = {
+		name = "4a Força de Caçadores"
+		location = 3118
+		division_template = "Força de Caçadores"
+		start_experience_factor = 0.4
+		start_equipment_factor = 1
+	}	
+
+}
+
+
+### Aeronáutica Militar ###
+air_wings = {
+	112 = {
+		# Noite Esquadrão de Bombardeiro  -- Ju 52/3m bombers
+		tac_bomber_equipment_0 = {
+			owner = "POR" 
+			amount = 6
+		}
+		# Dia Esquadrão de Bombardeiro  -- Vickers Valparaiso light bombers
+		CAS_equipment_1 = {
+			owner = "POR" 
+			amount = 6
+		}
+	}
+}
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_0
+			creator = "POR"
+		}
+		requested_factories = 2
+		progress = 0.50
+		efficiency = 100
+	}
+}

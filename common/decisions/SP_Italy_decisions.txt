@@ -1,0 +1,115 @@
+##################################
+### Kingdom of Italy Decisions ###
+##################################
+
+ITA_influence_gui = {
+
+	ITA_make_concessions_to_orthodox = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		cost = 50
+		modifier = {
+		   political_power_gain = -0.10
+		}
+		days_remove = 60
+		complete_effect = {
+			ITA_strengthen_orthodox = yes
+		}
+	}
+	
+	ITA_make_concessions_to_nationalist = { 
+		icon = GFX_decision_ger_mefo_bills
+		ai_will_do = {
+			factor = 0
+		}
+		modifier = {
+		   political_power_gain = -0.10
+		}
+		cost = 50
+		days_remove = 60
+		complete_effect = {
+			ITA_strengthen_nationalist = yes
+		}
+	}
+	
+}
+
+ITA_political_crisis = {
+
+	ITA_rising_communist_resistance = {
+		allowed = { always = no }
+		icon = GFX_decision_revolt
+		available = {
+			has_global_flag = ITA_civil_war_ongoing
+		}
+		is_good = yes
+		days_mission_timeout = 60
+		fire_only_once = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			random_list = {
+				10 = {
+					ITA_piemonte_resistance_positive = yes
+				}
+				10 = {
+					ITA_liguria_resistance_positive = yes
+				}
+				10 = {
+					ITA_lombardia_resistance_positive = yes
+				}
+				10 = {
+					ITA_emiliaromagna_resistance_positive = yes
+				}
+				10 = {
+					ITA_toscana_resistance_positive = yes
+				}
+				10 = {
+					ITA_veneziagiulia_resistance_positive = yes
+				}
+			}
+			hidden_effect = {
+				activate_mission = ITA_rising_communist_resistance
+			}
+		}
+	}
+
+	ITA_rising_republican_resistance = {
+		allowed = { always = no }
+		icon = GFX_decision_revolt
+		available = {
+			has_global_flag = ITA_civil_war_ongoing
+		}
+		is_good = yes
+		days_mission_timeout = 60
+		fire_only_once = yes
+		fixed_random_seed = no
+		timeout_effect = {
+			random_list = {
+				10 = {
+					ITA_veneto_resistance_positive = yes
+				}
+				10 = {
+					ITA_veneziatridentina_resistance_positive = yes
+				}
+				10 = {
+					ITA_sicilia_resistance_positive = yes
+				}
+				10 = {
+					ITA_marche_resistance_positive = yes
+				}
+				10 = {
+					ITA_lazioumbria_resistance_positive = yes
+				}
+				10 = {
+					ITA_abruzzimolise_resistance_positive = yes
+				}
+			}
+			hidden_effect = {
+				activate_mission = ITA_rising_republican_resistance
+			}
+		}
+	}
+	
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=769
+	name="STATE_769"
+	resources={
+	}
+
+	history={
+		owner = GRE
+		buildings = {
+			infrastructure = 2
+			dockyard = 1
+
+		}
+		add_core_of = GRE
+		add_claim_by = BUL
+
+	}
+
+	provinces={
+		3526 6990 9791 9930 
+	}
+	manpower=182500
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

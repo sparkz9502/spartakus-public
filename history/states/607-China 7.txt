@@ -1,0 +1,29 @@
+
+state={
+	id=607
+	name="STATE_607"
+
+	history={
+		owner = KMC
+		add_core_of = KMC
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+
+		}
+		victory_points = {
+			9958 5 
+		}
+		victory_points = {
+			7656 5 
+		}
+
+	}
+
+	provinces={
+		7656 9958 10098 10364 
+	}
+	manpower=7509400
+	buildings_max_level_factor=1.000
+	state_category=town
+}

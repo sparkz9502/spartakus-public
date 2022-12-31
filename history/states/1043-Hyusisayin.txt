@@ -1,0 +1,24 @@
+
+state={
+	id=1043
+	name="STATE_1043"
+
+	history={
+		owner = ARM
+		buildings = {
+			infrastructure = 1
+
+		}
+		add_core_of = ARM
+		add_claim_by = SOV
+		#add_core_of = GEO
+
+	}
+
+	provinces={
+		15574 
+	}
+	manpower=18000
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

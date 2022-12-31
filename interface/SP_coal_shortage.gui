@@ -1,0 +1,13 @@
+guiTypes = {
+	containerWindowType = {
+		name = "coal_shortage_container"
+		position = { x = 582 y = 6 }
+		
+		iconType = {
+			name ="coal_shortage_icon"
+			spriteType = "GFX_coal_shortage"
+			
+			pdx_tooltip = "coal_shortage_tooltip"
+		}
+	}
+}

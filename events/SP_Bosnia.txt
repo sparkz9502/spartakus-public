@@ -1,0 +1,529 @@
+﻿###########################
+# Bosnia Events
+###########################
+# By Last Witch of Illyrith (im gay)
+###########################
+
+add_namespace = bosnia
+add_namespace = BOSinternal
+add_namespace = BOScursed
+
+#New Flag
+
+country_event = { 
+	id = bosnia.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event bosnia.1"}
+	title = bosnia.1.t
+	desc = bosnia.1.d
+	picture = GFX_report_event_BOS_Bosniaflag
+
+	fire_only_once = yes
+	
+	trigger = {
+		tag = BOS
+		BOS = { 
+		has_country_flag = BOSLiberalsRiseUp
+		owns_state = 1009
+		owns_state = 104
+		has_government = social_liberal
+	}
+	}
+
+	option = {
+		name = bosnia.1.a # keep the flag
+
+		set_country_flag = BOSKeptFlag
+		add_political_power = -50
+	}
+	
+	option = {
+		name = bosnia.1.b # lilies
+
+		set_country_flag = BOSLilies
+		set_cosmetic_tag = BOS_Lilies
+		add_political_power = -10
+	}
+	
+	option = {
+		name = bosnia.1.c # bosnian tricolor
+
+		set_country_flag = BOStricolor
+		set_cosmetic_tag = BOS_Tricolor
+	}
+	
+	option = {
+		name = bosnia.1.e # triple flag
+
+		set_country_flag = BOStripleflag
+		set_cosmetic_tag = BOS_Triple_Flag
+	}
+}
+
+
+#Agreement with Serbia
+
+country_event = { 
+	id = bosnia.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event bosnia.2"}
+	title = bosnia.2.t
+	desc = bosnia.2.d
+	picture = GFX_report_event_spain_civil_war_volunteers_01
+
+	trigger = {
+		tag = BOS
+		OR = {
+		STJ = { owns_state = 109 }
+		SER = { owns_state = 109 }
+		}
+		BOS = { has_government = social_liberal }
+		SER = { has_government = social_liberal }
+		NOT = {
+			BOS = {
+					has_war_with = CRO
+			}
+		}
+	}
+
+	fire_only_once = yes
+
+	option = {
+		name = bosnia.2.a # keep close ties but delineate ethnically
+		ai_chance = {
+			factor = 0
+		}
+	}
+	
+	option = {
+		name = bosnia.2.b # join yugoslavia
+		ai_chance = {
+			factor = 100
+		}
+		SER = {
+			annex_country = {
+				target = BOS
+				transfer_troops = yes
+			}
+			transfer_technology = yes
+			change_tag_from = BOS
+		}
+		SER = {
+		set_cosmetic_tag = Federation_of_Yugoslavia
+		}
+	}
+}
+
+### INTERNAL ###
+
+country_event = { 
+	id = BOSinternal.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.1"}
+	title = BOSinternal.1.t
+	desc = BOSinternal.1.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = BOSinternal.1.a # Thank you!
+	}
+}
+
+#Bosniak Education Prioritized - Serbs
+country_event = { 
+	id = BOSinternal.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.2"}
+	title = BOSinternal.2.t
+	desc = BOSinternal.2.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { Bosniak_Schools > 1 }
+		check_variable = { Serb_Schools < 1 }
+    }
+
+	option = {
+		name = BOSinternal.2.a # uh oh
+		add_to_variable = { bosniaks_faction_approval_variable = 3 } 
+		add_to_variable = { serbs_faction_approval_variable = -10 } 
+	}
+}
+
+#Bosniak Education Prioritized - Croats
+country_event = { 
+	id = BOSinternal.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.3"}
+	title = BOSinternal.3.t
+	desc = BOSinternal.3.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { Bosniak_Schools > 1 }
+		check_variable = { Croat_Schools < 1 }
+    }
+
+	option = {
+		name = BOSinternal.3.a # uh oh
+		add_to_variable = { bosniaks_faction_approval_variable = 3 } 
+		add_to_variable = { croats_faction_approval_variable = -10 } 
+	}
+}
+
+#Serb Education Prioritized - Bosniaks
+country_event = { 
+	id = BOSinternal.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.4"}
+	title = BOSinternal.4.t
+	desc = BOSinternal.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { Serb_Schools > 1 }
+		check_variable = { Bosniak_Schools < 1 }
+    }
+
+	option = {
+		name = BOSinternal.4.a # uh oh
+		add_to_variable = { serbs_faction_approval_variable = 3 } 
+		add_to_variable = { bosniaks_faction_approval_variable = -10 } 
+	}
+}
+
+#Serb Education Prioritized - Croats
+country_event = { 
+	id = BOSinternal.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.5"}
+	title = BOSinternal.5.t
+	desc = BOSinternal.5.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { Serb_Schools > 1 }
+		check_variable = { Croat_Schools < 1 }
+    }
+
+	option = {
+		name = BOSinternal.5.a # uh oh
+		add_to_variable = { serbs_faction_approval_variable = 3 } 
+		add_to_variable = { croats_faction_approval_variable = -10 } 
+	}
+}
+
+#Croat Education Prioritized - Serbs
+country_event = { 
+	id = BOSinternal.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.6"}
+	title = BOSinternal.6.t
+	desc = BOSinternal.6.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { Croat_Schools > 1 }
+		check_variable = { Serb_Schools < 1 }
+    }
+
+	option = {
+		name = BOSinternal.6.a # uh oh
+		add_to_variable = { croats_faction_approval_variable = 3 } 
+		add_to_variable = { serbs_faction_approval_variable = -10 } 
+	}
+}
+
+#Croat Education Prioritized - Bosniaks
+country_event = { 
+	id = BOSinternal.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOSinternal.7"}
+	title = BOSinternal.7.t
+	desc = BOSinternal.7.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		check_variable = { Croat_Schools > 1 }
+		check_variable = { Bosniak_Schools < 1 }
+    }
+
+	option = {
+		name = BOSinternal.7.a # uh oh
+		add_to_variable = { croats_faction_approval_variable = 3 } 
+		add_to_variable = { bosniaks_faction_approval_variable = -10 } 
+	}
+}
+
+### CURSED CURSED CURSED HAZARD AREA DO NOT GO ANY FURTHER CURSED CURSED CURSED ###
+
+#Serb Parties threaten to leave the ONS
+country_event = { 
+	id = BOScursed.1
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.1"}
+	title = BOScursed.1.t
+	desc = BOScursed.1.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }	
+        OR = {
+	     	has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+        }		
+		check_variable = { serbs_faction_approval_variable < 20 }
+    }
+
+	option = {
+		name = BOScursed.1.a # uh oh
+		add_political_power = -5
+		add_stability = -0.03
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.01
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.02
+		}
+	}
+}
+
+#Croat Parties threaten to leave the ONS
+country_event = { 
+	id = BOScursed.2
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.2"}
+	title = BOScursed.2.t
+	desc = BOScursed.2.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		OR = {
+	     	has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+        }
+		check_variable = { croats_faction_approval_variable < 20 }
+    }
+
+	option = {
+		name = BOScursed.2.a # uh oh
+		add_political_power = -5
+		add_stability = -0.03
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.01
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.02
+		}
+	}
+}
+
+#Serb Parties leave the ONS
+country_event = { 
+	id = BOScursed.3
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.3"}
+	title = BOScursed.3.t
+	desc = BOScursed.3.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		OR = {
+	     	has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+        }
+		check_variable = { serbs_faction_approval_variable < 10 }
+    }
+
+	option = {
+		name = BOScursed.3.a # uh oh
+		add_political_power = -5
+		hidden_effect = {
+		country_event = { id = BOScursed.5 days = 7 }
+		}
+		add_stability = -0.1
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+}
+
+#Croat Parties leave the ONS
+country_event = { 
+	id = BOScursed.4
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.4"}
+	title = BOScursed.4.t
+	desc = BOScursed.4.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	trigger = {
+	    OR = {
+	    tag = BOS
+        }		
+		OR = {
+	     	has_government = social_democrat
+			has_government = social_liberal
+			has_government = liberal_conservative
+        }
+		check_variable = { croats_faction_approval_variable < 10 }
+    }
+
+	option = {
+		name = BOScursed.4.a # uh oh
+		add_political_power = -5
+		hidden_effect = {
+		country_event = { id = BOScursed.5 days = 7 }
+		}
+		add_stability = -0.05
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.03
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+}
+
+#Reformist Ulema Desert the ONS
+country_event = { 
+	id = BOScursed.5
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.5"}
+	title = BOScursed.5.t
+	desc = BOScursed.5.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = BOScursed.5.a # uh oh
+		add_political_power = -5
+		hidden_effect = {
+		country_event = { id = BOScursed.6 days = 14 }
+		}
+		add_stability = -0.1
+		add_popularity = {
+			ideology = social_liberal
+			popularity = -0.05
+		}
+		add_popularity = {
+			ideology = social_democrat
+			popularity = -0.05
+		}
+	}
+}
+
+#Hadziefendics Legion Unlawfully Storms the ONS
+country_event = { 
+	id = BOScursed.6
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.6"}
+	title = BOScursed.6.t
+	desc = BOScursed.6.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = BOScursed.6.a # uh oh
+		add_political_power = -50
+		hidden_effect = {
+		country_event = { id = BOScursed.7 }
+		}
+		add_stability = -0.1
+		add_popularity = {
+			ideology = revolutionary_socialist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = bolshevist
+			popularity = 0.05
+		}
+		add_popularity = {
+			ideology = national_corporatist
+			popularity = 0.05
+		}
+	}
+}
+
+#Hadziefendics Declares Legionary Bosnia
+country_event = { 
+	id = BOScursed.7
+	immediate = {log = "[GetDateText]: [Root.GetName]: event BOScursed.7"}
+	title = BOScursed.7.t
+	desc = BOScursed.7.d
+	picture = GFX_report_event_generic_sign_treaty2
+
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+
+	option = {
+		name = BOScursed.7.a # allah save us now
+		add_political_power = -50
+		set_politics = {
+			ruling_party = national_corporatist
+			elections_allowed = no
+		}
+		drop_cosmetic_tag = yes
+		set_party_name = {
+									ideology = national_corporatist
+									long_name = BOS_national_corporatist_party_nationalists_long
+									name = BOS_national_corporatist_party_nationalists
+								}
+	}
+}

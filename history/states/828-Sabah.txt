@@ -1,0 +1,36 @@
+
+state={
+	id=828
+	name="STATE_828"
+	resources={
+		rubber=6.000
+	}
+
+	history={
+		owner = MLY
+		add_core_of = MLY
+		add_claim_by = PHI
+		victory_points = {
+			10199 2 
+		}
+		victory_points = {
+			10212 1 
+		}
+		buildings = {
+			infrastructure = 1
+			10199 = {
+				naval_base = 1
+
+			}
+
+		}
+
+	}
+
+	provinces={
+		1306 1335 4282 4338 7358 10143 10199 10212 10240 12171 12186 12228 
+	}
+	manpower=270200
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

@@ -1,0 +1,26 @@
+
+state={
+	id=603
+	name="STATE_603"
+
+	history={
+		owner = YUN
+		add_core_of = YUN
+		buildings = {
+			infrastructure = 1
+			industrial_complex = 1
+
+		}
+		victory_points = {
+			4504 1 
+		}
+
+	}
+
+	provinces={
+		1884 4504 10763 10819 
+	}
+	manpower=4110800
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

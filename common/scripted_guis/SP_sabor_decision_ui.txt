@@ -1,0 +1,18 @@
+scripted_gui = {
+
+	sabor_decision_ui = {
+		context_type = decision_category
+		window_name = "sabor_decision_ui_window"
+		visible = { 
+				tag = STJ
+				OR = {
+		        has_government = social_democrat
+				has_government = social_liberal
+		        has_government = liberal_conservative
+		        has_government = social_conservative
+		    }
+		}
+	}
+	
+}
+

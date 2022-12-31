@@ -1,0 +1,256 @@
+﻿capital = 141	
+
+set_oob = "SWE"
+
+set_research_slots = 3
+
+add_ideas = {
+	recruitment_volunteer
+	governance_par
+	trade_sempro
+	economy_semind
+	mobilization_1
+	
+	SWE_Zeth_Hoglund_hog_bol
+	SWE_Karl_Kilbom_for_rev
+	SWE_Per_Ernst_Wigforss_eco_sde
+	SWE_Karl_Schlyter_sec_sde
+	SWE_Ivar_Vennerstrom_def_sde
+	SWE_socialist_reforms
+	SWE_enemies_of_the_republic
+	SWE_international_trade
+	SWE_capital_flight
+}
+set_stability = 0.9
+set_war_support = 0.1
+
+set_technology = {
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	gw_artillery = 1
+	tech_recon = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gwtank = 1
+	basic_light_tank = 1
+	CAS1 = 1
+	early_fighter = 1
+	naval_bomber1 = 1
+	cv_naval_bomber1 = 1
+	early_bomber = 1
+	early_submarine = 1
+	early_destroyer = 1
+	basic_destroyer = 1
+	early_light_cruiser = 1
+	early_heavy_cruiser = 1
+	transport = 1
+}
+
+set_politics = {	
+	ruling_party = reformist_socialist
+	last_election = "1888.6.15"
+	election_frequency = 48
+	elections_allowed = no
+
+}
+
+set_popularities = {
+    bolshevist = 16
+    spartacist = 6
+    revolutionary_socialist = 3
+    reformist_socialist = 35
+    social_democrat = 5
+    social_liberal = 15
+    liberal_conservative = 12
+    social_conservative = 8
+    authoritarian_conservative = 0
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
+}
+
+set_country_flag = coalition_social_democrat
+set_country_flag = coalition_spartacist
+set_country_flag = coalition_revolutionary_socialist
+set_country_flag = coalition_bolshevist
+
+set_convoys = 25
+set_stability = 0.75
+
+create_country_leader = {
+	name = "Zeth Höglund"
+	desc = "POLITICS_ZETH_HOGLUND_DESC"
+	picture = "Portrait_Sweden_Zeth_Hoglund.tga"
+	expire = "1965.1.1"
+	ideology = bolshevist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Karl Kilbom"
+	desc = "POLITICS_KARL_KILBOM_DESC"
+	picture = "Portrait_Sweden_Karl_Kilbom.tga"
+	expire = "1965.1.1"
+	ideology = spartacist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "John Andersson"
+	desc = "POLITICS_JOHN_ANDERSSON_DESC"
+	picture = "Portrait_Sweden_John_Andersson.tga"
+	expire = "1965.1.1"
+	ideology = revolutionary_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Per Albin Hansson"
+	desc = "POLITICS_PER_HANSSON_DESC"
+	picture = "Portrait_SP_Sweden_Per_Albin_Hansson.tga"
+	expire = "1965.1.1"
+	ideology = reformist_socialist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Tage Erlander"
+	desc = "POLITICS_TAGE_ERLANDER_DESC"
+	picture = "Portrait_Sweden_Tage_Erlander.tga"
+	expire = "1965.1.1"
+	ideology = social_democrat_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Axel Pehrsson-Bramstorp"
+	desc = "POLITICS_AXEL_PB_DESC"
+	picture = "Portrait_Sweden_Axel_PB.tga"
+	expire = "1965.1.1"
+	ideology = social_liberal_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf Andersson"
+	desc = "POLITICS_GUSTAF_ANDERSSON_DESC"
+	picture = "Portrait_Sweden_Gustaf_Andersson.tga"
+	expire = "1965.1.1"
+	ideology = liberal_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Fritöf Domö"
+	desc = "POLITICS_FRITOF_DOMO_DESC"
+	picture = "Portrait_Fritof_Domo.tga"
+	expire = "1965.1.1"
+	ideology = social_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf VI Adolf"
+	desc = "POLITICS_GUSTAF_VI_DESC"
+	picture = "Portrait_Sweden_Gustaf_VI.tga"
+	expire = "1965.1.1"
+	ideology = authoritarian_conservative_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Gustaf VI Adolf"
+	desc = "POLITICS_GUSTAF_VI_DESC"
+	picture = "Portrait_Sweden_Gustaf_VI.tga"
+	expire = "1965.1.1"
+	ideology = right_wing_populist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Sven Olov Lindholm"
+	desc = "POLITICS_SVEN_LINDHOLM_DESC"
+	picture = "Portrait_Sweden_Sven_Lindholm.tga"
+	expire = "1965.1.1"
+	ideology = national_syndicalist_subtype
+	traits = {
+		#
+	}
+}
+
+create_country_leader = {
+	name = "Per Engdahl"
+	desc = "POLITICS_PER_ENGDAHL_DESC"
+	picture = "Portrait_Sweden_Per_Engdahl.tga"
+	expire = "1965.1.1"
+	ideology = national_corporatist_subtype
+	traits = {
+		#
+	}
+}
+
+create_corps_commander = {
+	name = "Folke Högberg"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+	traits = { commando }
+	skill = 3
+
+	attack_skill = 1
+	defense_skill = 3
+	planning_skill = 3
+	logistics_skill = 3
+}
+
+create_corps_commander = {
+	name = "Erik af Edholm"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+	traits = {  hill_fighter }
+	skill = 4
+
+	attack_skill = 4
+	defense_skill = 1
+	planning_skill = 4
+	logistics_skill = 4
+}
+
+create_navy_leader = {
+	name = "Claes Lindström"
+	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+	traits = { blockade_runner }
+	skill = 4
+}
+
+### Ship Variants ###
+
+create_equipment_variant = {
+	name = "Draken Class"
+	type = submarine_1
+	upgrades = {
+		ship_reliability_upgrade = 1
+		sub_engine_upgrade = 1
+		sub_stealth_upgrade = 1
+		sub_torpedo_upgrade = 1
+	}
+}
+
+set_country_flag = SP_will_trade_with_capitalists

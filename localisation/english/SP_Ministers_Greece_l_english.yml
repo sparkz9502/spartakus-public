@@ -1,0 +1,127 @@
+﻿### á é í ó ú ý / Á É Í Ó Ú Ý ###
+l_english:
+### Head of Government ###
+GRE_Andronikos_Haitas_hog_bol:0 "Andrónikos Haitás"
+GRE_Patsias_Giatsopoulos_hog_spa:0 "Patsiás Giatsópoulos"
+GRE_Fragiskos_Tzoulati_hog_spa:0 "Fragískos Tzouláti"
+GRE_Kostantinos_Gavriilidis_hog_rev:0 "Kostantínos Gavriilídis"
+GRE_Aristotelis_Sideris_hog_ref:0 "Aristotélis Sidéris"
+GRE_Alexandros_Papanastasiou_hog_sde:0 "Aléxandros Papanastasíou"
+GRE_Eleftherios_Venizelos_hog_lco:0 "Elefthérios Venizélos"
+GRE_Themistoklis_Sofoulis_hog_lco:0 "Themistoklís Sofoúlis"
+GRE_Sofoklis_Venizelos_hog_lco:0 "Sofoklís Venizélos"
+GRE_Panagis_Tsaldaris_hog_sco:0 "Panagís Tsaldáris"
+GRE_Kostantinos_Tsaldaris_hog_sco:0 "Kostantínos Tsaldáris"
+GRE_Georgios_Pezmazoglou_hog_sco:0 "Geórgios Pezmazóglou"
+GRE_Georgios_Kondylis_hog_aco:0 "Geórgios Kondýlis"
+GRE_Kostantinos_Demertzis_hog_aco:0 "Kostantínos Demertzís"
+GRE_Ioannis_Metaxas_hog_ncp:0 "Ioánnis Metaxás"
+GRE_Alexandros_Koryzis_hog_ncp:0 "Aléxandros Korýzis"
+#GRE_King_Pavlos_I_hog_aco:0 "Pávlos I Glücksburg"
+
+### Minister Without Portfolio ###
+GRE_Nikolaos_Ploubidis_mwp_bol:0 "Nikolaós Ploubídis"
+GRE_Ioannis_Ioannidis_mwp_spa:0 "Ioánnis Ioannídis"
+GRE_Alexandros_Milonas_mwp_sde:0 "Aléxandros Mylonás"
+GRE_Themistoklis_Sofoulis_mwp_lco:0 "Themistoklís Sofoúlis"
+GRE_Sofoklis_Venizelos_mwp_lco:0 "Sofoklís Venizélos"
+GRE_Kostantinos_Tsaldaris_mwp_sco:0 "Kostantínos Tsaldáris"
+GRE_Georgios_Pezmazoglou_mwp_sco:0 "Geórgios Pezmazóglou"
+GRE_Ioannis_Theotokis_mwp_aco:0 "Ioánnis Theotókis"
+GRE_Kostantinos_Speras_mwp_nsy:0 "Kostantínos Spéras"
+
+### Foreign Minister ###
+GRE_Georgis_Siantos_for_bol:0 "Geórgis Siántos"
+GRE_Ioannis_Kordatos_for_spa:0 "Ioánnis Kordátos"
+GRE_Apostolos_Vogiatzis_for_rev:0 "Apóstolos Vogiatzís"
+GRE_Kostantinos_Zavitsanos_for_sde:0 "Kostantínos Zavitsános"
+GRE_Georgios_Athanasiadis_for_sli:0 "Geórgios Athanasiádis"
+GRE_Andreas_Michalakopoulos_for_lco:0 "Antréas Michalakópoulos"
+GRE_Dimitrios_Maximos_for_sco:0 "Dimítrios Máximos"
+GRE_Georgios_Mercouris_for_ncp:0 "Geórgios Mercoúris"
+
+### Economy Minister ###
+GRE_Kostantinos_Theos_eco_bol:0 "Kostantínos Théos"
+GRE_Pantelis_Pouliopoulos_eco_spa:0 "Pantelís Pouliópoulos"
+GRE_Serafim_Maximos_eco_spa:0 "Serafím Máximos"
+GRE_Loukas_Karliaftis_eco_spa:0 "Loukás Karliáftis"
+GRE_Dimitrios_Stratis_eco_ref:0 "Dimítrios Stratís"
+GRE_Georgios_Kafantaris_eco_sli:0 "Geórgios Kafantáris"
+GRE_Georgios_Papandreou_eco_sli:0 "Geórgios Papandréou"
+GRE_Emmanouil_Tsouderos_eco_lco:0 "Emmanouíl Tsouderós"
+GRE_Georgios_Pezmazoglou_eco_sco:0 "Geórgios Pezmazóglou"
+GRE_Spyridon_Loverdos_eco_sco:0 "Spyrídon Lovérdos"
+GRE_Georgios_Kartalis_eco_aco:0 "Geórgios Kartális"
+GRE_Alexandros_Koryzis_eco_ncp:0 "Aléxandros Korýzis"
+
+### Security Minister ###
+GRE_Stergios_Anastasiadis_sec_bol:0 "Stérgios Anastasiádis"
+GRE_Chrisa_Hatzivasileiou_sec_spa:0 "Chrísa Hatzivasileíou"
+GRE_Dimitrios_Hatzigiannis_sec_rev:0 "Dimítrios Hatzigiánnis"
+GRE_Georgios_Georgiadis_sec_ref:0 "Geórgios Georgiádis"
+GRE_Anastasios_Bakalbasis_sec_sde:0 "Anastásios Bakalbásis"
+GRE_Pantelis_Karasevdas_sec_lco:0 "Pantelís Karasevdás"
+GRE_Ioannis_Moutzouridis_sec_sco:0 "Ioánnis Moutzourídis"
+GRE_Ioannis_Rallis_sec_aco:0 "Ioánnis Rállis"
+GRE_Kostantinos_Maniadakis_sec_ncp:0 "Kostantínos Maniadákis"
+
+### Education Minister ###
+GRE_Dimitrios_Glinos_edu_spa:0 "Dimítrios Glinós"
+GRE_Alexandros_Svolos_edu_ref:0 "Aléxandros Svólos"
+GRE_Michail_Kyrkos_edu_sli:0 "Michaíl Kýrkos"
+GRE_Panagiotis_Kanellopoulos_edu_sco:0 "Panagiótis Kannelópoulos"
+GRE_Nikolaos_Louvaris_edu_ncp:0 "Nikolaós Loúvaris"
+
+### Agriculture Minister ###
+GRE_Ioannis_Sofianopoulos_agr_rev:0 "Ioánnis Sofianópoulos"
+GRE_Spyridon_Hasiotis_agr_rev:0 "Spyrídon Hasiótis"
+GRE_Alexandros_Papanastasiou_agr_sde:0 "Aléxandros Papanastasíou"
+GRE_Dimitrios_Irakleidis_agr_sde:0 "Dimítrios Irakleídis"
+GRE_Agamemnon_Schliemann_agr_aco:0 "Agamémnon Schlíemann"
+
+### Transport Minister ###
+GRE_Kostantinos_Lazaridis_tra_spa:0 "Kostantínos Lazarídis"
+GRE_Ioannis_Kordatos_tra_spa:0 "Ioánnis Kordátos"
+GRE_Petros_Levantis_tra_lco:0 "Pétros Levántis"
+GRE_Georgios_Stratos_tra_sco:0 "Geórgios Strátos"
+GRE_Ioannis_Rallis_tra_ncp:0 "Ioánnis Rállis"
+
+### Defence Minister ###
+GRE_Aristeidis_Velouchiotis_def_spa:0 "Aristeídis Velouchiótis"
+GRE_Stefanos_Sarafis_def_ref:0 "Stéfanos Saráfis"
+GRE_Nikolaos_Plastiras_def_lco:0 "Nikólaos Plastíras"
+GRE_Georgios_Kondylis_def_aco:0 "Geórgios Kondýlis"
+GRE_Alexandros_Papagos_def_aco:0 "Aléxandros Papágos"
+GRE_Ioannis_Metaxas_def_ncp:0 "Ioánnis Metaxás"
+
+### Chief of Staff ###
+GRE_Stefanos_Sarafis_cos:0 "Stéfanos Saráfis"
+GRE_Aristeidis_Velouchiotis_cos:0 "Aristeídis Velouchiótis"
+GRE_Vasileios_Samariniotis_cos:0 "Vasíleios Samariniótis"
+GRE_Theodoros_Manetas_cos:0 "Theódoros Manétas"
+GRE_Aristeidis_Chasapidis_cos:0 "Aristeídis Chasapídis"
+
+### Chief of Army ###
+GRE_Aristeidis_Velouchiotis_carm:0 "Aristeídis Velouchiótis"
+GRE_Vasileios_Samariniotis_carm:0 "Vasíleios Samariniótis"
+GRE_Georgios_Katechakis_carm:0 "Geórgios Katechákis"
+GRE_Georgios_Kondylis_carm:0 "Geórgios Kondýlis"
+GRE_Alexandros_Papagos_carm:0 "Aléxandros Papágos"
+
+### Chief of Navy ###
+GRE_Kostantinos_Georgiadis_cnav:0 "Kostantínos Georgiádis"
+GRE_Alexandros_Hatzikyriakos_cnav:0 "Aléxandros Hatzikyriákos"
+GRE_Dimitrios_Oikonomou_cnav:0 "Dimítrios Oikonómou"
+GRE_Sofoklis_Dousmanis_cnav:0 "Sofoklís Doúsmanis"
+
+### Chief of Air Force ###
+GRE_Lefteris_Apostolou_cair:0 "Leftéris Apostólou"
+GRE_Georgios_Katechakis_cair:0 "Geórgios Katechákis"
+GRE_Georgios_Reppas_cair:0 "Geórgios Réppas"
+GRE_Ioannis_Rallis_cair:0 "Ioánnis Rállis"
+
+### Theorist ###
+GRE_Giannis_Ritsos_theo:0 "Giánnis Rítsos"
+GRE_Kostis_Palamas_theo:0 "Kostantínos Palamás"
+GRE_Chrysostomos_I_of_Athens_theo:0 "Chrysostomos I of Athens"
+GRE_Sebastianos_Foulidis:0 "Sevastianós Foulídis"

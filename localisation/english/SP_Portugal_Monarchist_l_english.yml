@@ -1,0 +1,122 @@
+﻿l_english:
+
+### Parties ###
+
+PRM_bolshevist_party:0 "PCP"
+PRM_bolshevist_party_long:0 "Portuguese Communist Party (Partido Comunista Português)"
+PRM_spartacist_party:0 "PCP-PSP"
+PRM_spartacist_party_long:0 "Communist Party of Portugal-Portuguese Socialist Party (Partido Comunista Português-Partido Socialista Português)"
+PRM_revolutionary_socialist_party:0 "CGT-UAP"
+PRM_revolutionary_socialist_party_long:0 "General Confederation of Labour-Portuguese Anarchist Union (Confederação Geral do Trabalho-União Anarquista Portuguesa)"
+PRM_reformist_socialist_party:0 "PRED"
+PRM_reformist_socialist_party_long:0 "Republican Party of the Democratic Left (Partido Republicano da Esquerda Democrática)"
+PRM_social_democrat_party:0 "PD"
+PRM_social_democrat_party_long:0 "Democratic Party (Partido Democrático)"
+PRM_social_liberal_party:0 "PD"
+PRM_social_liberal_party_long:0 "Democratic Party (Partido Democrático)"
+PRM_liberal_conservative_party:0 "PRN"
+PRM_liberal_conservative_party_long:0 "Nationalist Republican Party (Partido Republicano Nacionalista)"
+PRM_social_conservative_party:0 "CCP"
+PRM_social_conservative_party_long:0 "Portuguese Catholic Centre (Centro Católico Português)"
+PRM_authoritarian_conservative_party:0 "CM(C)"
+PRM_authoritarian_conservative_party_long:0 "Monarchist Cause (Constitutionalists) (Causa Monárquica (Constitucionalistas))"
+PRM_right_wing_populist_party:0 "CM(A)"
+PRM_right_wing_populist_party_long:0 "Monarchist Cause (Absolutists) (Causa Monárquica (Absolutistas))"
+PRM_national_syndicalist_party:0 "MNS"
+PRM_national_syndicalist_party_long:0 "National Syndicalist Movement (Movimento Nacional Sindicalista)"
+PRM_national_corporatist_party:0 "CNA"
+PRM_national_corporatist_party_long:0 "National Crusade of D. Nuno Álvares Pereira (Cruzada Nacional D. Nuno Álvares Pereira)"
+
+### Decisions ###
+
+POR_lost_beira:0 "Collapse Imminent"
+POR_lost_beira_desc:0 "We have lost the Beira region, which places Porto under siege. We cannot sustain this situation forever."
+
+### Tooltips ###
+
+PRM_lost_beira_tt:0 "§gIf we fail to recapture§! §GBeira§!§g, we will fall to the§! §CPortuguese Republic§!"
+
+### Ideas ###
+PRM_restoration:0 "The Second Restoration"
+PRM_restoration_desc:0 "Although the first attempt at a Second Restoration failed in 1919, the Portuguese monarchist cause now has the means to achieve victory. It has been nearly three-hundred years since the struggle of the First Restoration was launched against the Spanish. Today, our struggle is not against a foreign power but rather against the traitors who deposed the Kingdom in 1910. Thus, the Second Restoration has begun, and will end in our victory. The resistance to the coup in Lisbon was perpetrated by a minority of the population. The majority surely would rather have Portugal restored to its former glory. We will need to crush the Bolshevik regime in the south first to achieve this."
+
+### Traits ###
+
+POR_apprehensive_monarch:0 "Apprehensive Monarch"
+
+### Opinion Modifiers ###
+
+### Focus ###
+
+PEX_rebuild_gov:0 "Rebuild the Government"
+PEX_rebuild_gov_desc:0 "In our shameful retreat much of the governing apparatus was destroyed. From missing politicians, a non-functioning bureucracy and a general lack of guidance from the status apparatus, the country remains lost and confused. Let us set off to rectify this."
+PEX_eject_old_gov:0 "Eject Colonial Government"
+PEX_eject_old_gov_desc:0 "We have so far relied on colonial governors and bureaucrats to bring civilization to the African frontier; the current situation however, requires a different approach: until the homeland is reclaimed, the colonial governments must be sidelined and pushed out, allowing the loyalist exiles to exert full control over the colonies and fully mobilize them for the coming conflicts."
+PEX_trust_admin:0 "Trust Colonial Administration"
+PEX_trust_admin_desc:0 "In the current situation, we can't afford to make significant re-organisations: the colonial governments will stand; even if the parallelism between this polity and the newly arrived exiles causes confusions, it is far less harmful than having to rebuild governance from the ground up.";
+PEX_deus_patria_rei:0 "Deus, Pátria e Rei"
+PEX_deus_patria_rei_desc:0 "It is fear to say that dread, fear and hopelessness has spread among our ranks like a plague. This cannot stand, the point must be reiterated: we stand with God, our Fatherland and the King, against the godless anarchy, cosmopoliyan communism and decadent republicanism. No one will be left wondering their purpose and we will all march united on a holy, moral crusade."
+PEX_contacts:0 "Contacts in the Fatherland"
+PEX_contacts_desc:0 "While Portugal may have fallen to the godless bolshevists, they have yet to subjugate the proud Portuguese people. From North to South, hundreds of thousands of loyalists remain, ready to die for their country. While certainly a risky endeavour, it makes sense to try and contact these, to coordinate our actions and attacks."
+PEX_homecoming:0 "Prepare the Homecoming"
+PEX_homecoming_desc:0 "Our people united, the loyalists contacted we are truly prepared to return to the ancient Lisbon. It would be disastrous to return only to be faced with another bolshevik insurrection and thus our best thinkers are planning the transition of power and how to quickly and easily return to governing in Europe."
+PEX_antirev_war:0 "The Anti-Revolutionary War"
+PEX_antirev_war_desc:0 "The German and French stare at each other across the Rhine. The Royal Navy practices maneuvers. Brothers fight brothers from Austria to Sicily. The whole of Europe is one spark away from a war to rival wars of, a struggle between civilization and the barbarous hordes of communism. We may have lost one battle, let us prepare then to aid in winning the war."
+PEX_service_citizenship:0 "Service for Citizenship"
+PEX_service_citizenship_desc:0 "Among the African natives, a title has always been coveted: the title of 'assimilado', granting all benefits of citizenship to those who have assimilated into the European lifestyle and Portuguese culture. Allowing natives to die for Portugal in exchange for this status is surely the best way to raise a fighting army, after all, is one who fights for Portugal, not truly Portuguese? Still, ultimately, no one can force us to keep the promise."
+PEX_1385:0 "Remember 1385!"
+PEX_1385_desc:0 "Those who insist we must recruit from the Africans are deluded. Do they not remember 1385, where a few thousand Portuguese men routed a Castillian Army five times their size, in the mythical Aljubarrota? All of Portuguese history has shown the Lusitanian remains undefeated in battle, no matter how outnumbered he might seems. Let us not dilute our proud army, and remind our warriors the noble blood that flows in their veins."
+PEX_salvage:0 "Salvage Equipment"
+PEX_salvage_desc:0 "Although we don't have the military industry of mainland Portugal, we don't lack means to arm ourselves. Arms we managed to evacuated, African hunting equipment, artillery and infantry guns long lost to bureaucracy, idle industrial complexes. Now or never we must search the entire country with unremitted attention and seize anything we can arm our armed forces with."
+PEX_old_guns:0 "Repair Old Guns"
+PEX_old_guns_desc:0 "The African Continent was once the battlefield of nations, where our soldiers proudly defended the Empire from the hun. While certainly not to the same extent as in Europe, this means theres still plenty of old, broken guns that can be restored to full use, if one knows where to look."
+PEX_new_tactics:0 "Develop New Tactics"
+PEX_new_tactics_desc:0 "Our army failed in Europe. Now it finds itself in Africa. Not only must we recognize our old tactics might've been flawed, we now find ourselves in a completely new environment when it comes to recruitment, equipment and terrain. Serious revision must be undertaken."
+PEX_portucale:0 "Portucale Marches On"
+PEX_portucale_desc:0 "São Mamede. Ourique. Aljubarrota. Ceuta. The Moors, Castille, the Netherlands, the Ottoman Empire. The situation might seems hopeless but Portugal has certainly faced worse odds. With new weapons, modern tactics, and the spirit of Portucale, our country marches on."
+PEX_naval_tradition:0 "The Naval Tradition"
+PEX_naval_tradition_desc:0 "While the old European polities feuded over ancient feudal claims, Portugal set out and began the Discoveries. While the Rajas of India bickered, Portugal dominated their ocean. Beyond the Cape, beyond the Taprobana, Portugal always found itself and to this day, you can't take the sea away from it."
+PEX_support_brits:0 "Supporting the Royal Navy"
+PEX_support_brits_desc:0 "It would be delusional to pretend we can raise an armada in this condition. We can however play a support role, aiding the Royal Navy with convoys, minelayers and submarines. It does not compare to the great voyages of our past, but it is vital work nonetheless."
+PEX_raf:0 "Pilots to the RAF"
+PEX_raf_desc:0 "The civil war saw the small-scale use of aviation, of which me gained many insights and importantly, skilled pilots. While we have the skill, we don't have the planes, but the British do, so send them over!"
+PEX_makeshift:0 "Makeshift Industries"
+PEX_makeshift_desc:0 "Modern war might require modern industry, but that's a luxury the Dark Continent doesn't provide us. As difficult as it might be, we have to assess which workshops, tools, factories and labourers we have access to and make the best use of them. Se estás na merda, desenrasca-te."
+PEX_benefactors:0 "Our Benefactors"
+PEX_benefactors_desc:0 "In 1373 we formalized an alliance that lasted to this day and while our relationship might have had some rocky moments, the English stepped up to save us from certain doom. Now, they watch over our straining nation and we must accept all the help they can give."
+PEX_beg:0 "Beg for Funding"
+PEX_beg_desc:0 "In the best of the days, capital was scarce to find in the colonies. These days, we can barely afford to keep the lights on. The last thing we need is another mutiny by rabble demanding higher pay, and thus our diplomats stand ready to grovel at the feet of British officials. We can forget this once were safely back in Lisbon."
+PEX_crit:0 "Critical Infrastructure"
+PEX_crit_desc:0 "The most important role of a colonial empire is to build railways to bring the light of civilization to the deepest barbarism of Africa and Asia. It seems the decadent republic failed to take notice of this and in our present situation, Angola and Mozambique remains as proper archipelagos of governed communities spared by a vast expanse of tribal anarchy. This must be rectified immediatly."
+PEX_border:0 "Joint Border Control"
+PEX_border_desc:0 "The porous nature of colonial borders as always been a thorn on the side of the Imperial project, as dissatisfied African natives kept fleeing colonial authority, often to seek jobs in the British colonies. Now that we're closely integrated with the British Empire, it might be easy to convince them to patrol this border with us and return the fugitives."
+PEX_hunt:0 "Hunt Native Resistance"
+PEX_hunt_desc:0 "The African has shown to be docile when properly pacified. The current situation, however, has given many of them thoughts of resistance and sedition and now they must be brought back into order lest this spiral out of control."
+PEX_manikongo:0 "Talk with the Manikongo"
+PEX_manikongo_desc:0 "Pedro VII, the current King of the Kongo Kingdom, holds a largely titular title over territory in Angola. Despite this, he is seen as the legitimate ruler for many Africans and holds significant sway over them. Ergo, securing our friendly relations and his loyal support is a very important necessity. Furthermore, if we seek to recruit from his lands, his word would be helpful."
+PEX_slave_labour:0 "Force Native Recruitment"
+PEX_slave_labour_desc:0 "The native peoples of Africa have so far been idle, indolent, without creative spirit. Is it not the burden of the European to teach them the virtues of hard work and civilization? Due to a lack of capital, we have so far relied heavily on forced recruitment of native labourers and, now that we find ourselves exiled, these programs have to be massively expanded to support our needs. They know the consequences of resisting."
+PEX_anglophobes:0 "Comforting the Anglophobes"
+PEX_anglophobes_desc:0 "Some among us haven't taken well to our benefactors: throwing references to the Ultimatum around, decrying betrayal and our colonization at the hands of the British, they've made themselves notable and somehow, we have to find some way to shut them down."
+PEX_comfort_phobes:0 "Make Formal Concessions"
+PEX_comfort_phobes_desc:0 "Likely driven by earlier appeasement, the fierce nationalists in our circles have grown bolder, demanding more concessions do safeguard «National Indepdence from English Dominion». Most notably among these is the unshelving of the Pink Map and the proposal of a scheme to the government to achieve it."
+PEX_suasd:0 "Shut Up and Sit Down"
+PEX_suasd_desc:0 "The incessant complaining and demands coming from the «principled nationalists» are not only bothersome, they are actively dangerous for our lifeline with the British Empire. It's now clear they must me made to shut up and conform to the government, or be segregated from any position of significant power."
+PEX_request_brits:0 "Request British Labourers"
+PEX_request_brits_desc:0 "The Portuguese Empire has always suffered from a lack of proper labourers: the Europeans don't seek a life in the colonies and it takes significant military and police effort to convince the Africans that they should volunteer to work. Rather than waste resources trying to capture more native labour, we can take advantage of this renewed alliance and request help from the British. Surely they won't deny."
+PEX_ambition:0 "Further Ambition?"
+PEX_ambition_desc:0 "Our immediate necessities are dealt with, basic infrastructure has been set up and more and more labours arrive in our cities every day. It might seem easy to rest in our laurels, but certainly we could attempt to develop these colonies far beyond what any Empire has done and reap the military benefits."
+
+### National Spirits ###
+
+### Leader Descriptions ###
+POLITICS_MANUEL_II_DESC:0 "§GDate of Birth:§! §g15 November 1889§!\n§GPlace of Birth:§! §gLisbon, Portugal§!\n§GFather:§! §gCarlos I§!\n§GMother:§! §gAmélie of Orléans§!\n§GSpouse:§! §gAugusta Victoria of Hohenzollern§!\n§GOverview:§! §gManuel II was born less than a month after the ascension of his father, Carlos I, to the Portuguese throne. As the youngest child, he was not raised to be an heir like his older brother, Luís Filipe. He quickly took interest to literature and history, in contrast to his more physically active brother.\n\nManuel grew up in a turbulent period that saw the rise of republicanism and anarchism. This was exacerbated by the absolutist actions of his father, who appointed the strongman João Franco as Prime Minister. On 1 February 1908, two republican assassins ambushed the carriage carrying the royal family and the Prime Minister. In what would become famously known as the Lisbon Regicide, both King Carlos I and the heir, Luís Filipe, were killed. Manuel was nonfatally wounded.\n\nManuel was suddenly launched to the position of heir, and was crowned Manuel II the same day, at the age of 18. Despite the dismissal of João Franco and the holding of new elections, the political situation did not improve. On 3 October 1910, republican soldiers seized Lisbon and Porto and forced the royal family to flee into exile to Britain. The monarchy was subsequently abolished and the Portuguese Republic was declared.\n\nIn exile, Manuel married Augusta Victoria of Hohenzollern in 1912. The marriage has produced no children and she is widely believed to be sterile. Manuel refused to support the attempts at a restoration by Henrique de Paiva Couceiro, instead believing that a restoration should only occur through means of plebiscite. His staunch constitutionalism brought him into conflict with the Miguelist branch of the House of Braganza, which favors absolutism and was supported by the Integralismo Lusitano movement.\n\nManuel still remained opposed to a violent counterrevolution when monarchist officers launched a coup against the republican government on 17 November 1931. The coup initially succeeded, with the government in Lisbon being overthrown. However, the left-wing population was driven into resistance when the local garrison refused to surrender, and a socialist republic was declared. Manuel was pressured by the British to support the counterrevolutionary monarchist forces, who fled to the conservative north and consolidated themselves. With great reluctance, the King departed from exile back to Portugal in December.§!"
+
+### Events ###
+prm.1.t:0 "The Kingdom of Portugal"
+prm.1.d:0 "After a disastrous military showing in the Great War and the crushing defeats in Mozambique without any territorial gain, the Portuguese Republic was brought to the brink of collapse by 1919. The government had experienced the same humiliation and ineffectiveness that ended the Kingdom of Portugal less than a decade earlier, and it became clear that much of the country had begun to reconsider the usefulness of the Republican Revolution when monarchist militias seized the north in the first major counterrevolutionary revolt. The army reluctantly put down the rebellion, however many of its leaders were let free because of their status as war heroes and icons.\n\nHowever, with much of Europe succumbing to socialist revolutions in the 1920s, tensions between the far right and far left in Portugal skyrocketed, and the moderate and corrupt Republican government found itself becoming increasingly alienated among the populace. These tensions continued to boil as the government slowly collapsed and the economy with it following the 1929 London Market Crash. Some elements in the military attempted to execute a coup in May 1926. However their leader, Manuel Gomes da Costa, was assassinated during the coup attempt, and the subsequent reprisal saw the murder of 27 civilians. This action triggered the populace to resist, supported by the increasingly influential anarchist and communist movement. The government pursued the conspirators, whom many fled across the border to Spain or to the north where the stronger right wing base sheltered them. Despite the coup being defeated, the Republic continued its downward spiral as moderate leaders found their attempts to contain the left and right futile.\n\nOn 17 November 1931, yet another monarchist coup was launched, this time in Lisbon. The unstable liberal government was forced to cede power. However, the local garrison refused to accept the surrender of the liberal government and incited demonstrations against the monarchists. These calls were soon supported by the Portuguese Communist Party and the anarchist General Confederation of Labor. The monarchist soldiers were driven out of Lisbon and the left-wing populace seized government buildings, declaring the Socialist Republic of Portugal. This action became known as the ''Rose Revolution''.\n\nThe monarchists fled to the north, where they established a counterrevolutionary movement that received some support from the traditionally conservative local populace. As with previous attempts, the exiled King Manuel II was reluctant to condone a violent counterrevolution. However he soon came under pressure from the British government, and finally agreed to support the movement in December 1931. Both sides have spent most of the last two months consolidating themselves, and as such a full on civil war has not erupted yet. However, with the dawn of the new year, it seems conflict is inevitable."
+prm.1.a:0 "Vitória!"
+
+prm.2.t:0 "Large Skirmish at Coimbra"
+prm.2.d:0 "After months of minor skirmishes that have only ended in stalemate, our forces, without orders, have converged on the city of Coimbra near the de facto 'front line'. Although this wouldn't usually be of much concern, thousands of Republican forces have been reported to be moving to reinforce the city, and skirmishes have been reported across the whole front line. Our generals have recommended to begin a wide offensive before the Republicans can organize, and Manuel II seems to agree."
+prm.3.a:0 "For Portugal, for the King!"
