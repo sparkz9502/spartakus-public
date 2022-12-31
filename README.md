@@ -17,6 +17,10 @@ The success of the revolution sends shockwaves throughout the world. The lack of
 
 ### Please consider joining the team by filling out this short form (experience not required!): https://goo.gl/forms/VcSAlQgJTldM4RPm2
 
+## Instructions
+
+Getting this to pop up in your launcher is fairly straightforward. You will need to navigate to your "C:\Users\USER\Documents\Paradox Interactive\Hearts of Iron IV\mod\" folder or whatever the equivalent is on your system, making sure to replace USER with the username on your system, and then insert the entire contents of this Git into that folder. Do not make any changes to the spartakus.mod file!
+
 ## Links
 
 Discord: https://discord.gg/5dw7c2E
