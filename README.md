@@ -23,7 +23,7 @@ Getting this to pop up in your launcher is fairly straightforward. You will need
 
 ## Links
 
-Discord: https://discord.gg/5dw7c2E
+Discord: https://discord.gg/gx39FJGxvD
 
 Reddit: https://www.reddit.com/r/Spartakus/
 
