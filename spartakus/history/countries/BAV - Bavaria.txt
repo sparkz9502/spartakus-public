@@ -9,6 +9,12 @@ add_ideas = {
 	governance_par
 	trade_sempro
 	economy_ind
+	unions_suppressed
+	suffrage_universal
+	deathpenalty_legalized
+	press_censored
+	welfare_medium
+	judiciary_politicized
 	mobilization_1
 }
 

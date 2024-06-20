@@ -10,6 +10,12 @@ add_ideas = {
 	governance_coun
 	trade_aut
 	economy_semind
+	unions_independent
+	suffrage_universal
+	deathpenalty_outlawed
+	press_free
+	welfare_medium
+	judiciary_impartial
 	mobilization_2
 }
 
@@ -38,6 +44,10 @@ set_technology = {
 	tech_engineers = 1
 	tech_support = 1		
 	tech_mountaineers = 1
+	gw_artillery  = 1
+	interwar_antiair = 1
+	interwar_antitank = 1
+	motorised_infantry = 1
 	
 	### Air ###
 	early_fighter = 1

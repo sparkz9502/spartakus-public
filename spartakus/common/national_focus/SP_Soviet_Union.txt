@@ -1,918 +1,918 @@
-###########################
-# USSR Focus Tree
-# By Furuderikas
-###########################
+# ###########################
+# # USSR Focus Tree
+# # By Furuderikas
+# ###########################
 
-focus_tree = {
-	id = SP_Soviet_Union
+# focus_tree = {
+	# id = SP_Soviet_Union
 	
-	country = {
-		factor = 0
-		modifier = {
-			add = 20
-			tag = SOV
-		}
-	}
-	default = no
+	# country = {
+		# factor = 0
+		# modifier = {
+			# add = 20
+			# tag = SOV
+		# }
+	# }
+	# default = no
 	
-## POLITICAL TREE
+# ## POLITICAL TREE
 	
-focus = {
-		id = SOV_convene_soviet
-		icon = GFX_focus_YUG_pan_slavic_congress
-		cost = 1.00
-		x = 8
-		y = 0
-			completion_reward = {
-				add_political_power = 100
-				hidden_effect = { country_event = { days = 0 id = soviet_congress.0 } }
-			}
-	}
+# focus = {
+		# id = SOV_convene_soviet
+		# icon = GFX_focus_YUG_pan_slavic_congress
+		# cost = 1.00
+		# x = 8
+		# y = 0
+			# completion_reward = {
+				# add_political_power = 100
+				# hidden_effect = { country_event = { days = 0 id = soviet_congress.0 } }
+			# }
+	# }
 	
-	focus = {
-		id = SOV_align_sinkiang
-		icon = GFX_focus_align_sinkiang
-		cost = 10.00
-		x = 34
-		y = 0
+	# focus = {
+		# id = SOV_align_sinkiang
+		# icon = GFX_focus_align_sinkiang
+		# cost = 10.00
+		# x = 34
+		# y = 0
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_red_army
-		icon = GFX_Focus_Red_Army
-		cost = 10.00
-		x = 28
-		y = 0
+	# focus = {
+		# id = SOV_red_army
+		# icon = GFX_Focus_Red_Army
+		# cost = 10.00
+		# x = 28
+		# y = 0
 
-	}
-	focus = {
-		id = SOV_foreign_aid
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 32
-		y = 0
+	# }
+	# focus = {
+		# id = SOV_foreign_aid
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# x = 32
+		# y = 0
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_Industrialisation
-		icon = GFX_goal_generic_soviet_construction
-		cost = 10.00
-		x = 18
-		y = 0
-			completion_reward = {
-				add_tech_bonus = {
-					name = industrial_bonus
-					bonus = 0.5
-					uses = 1
-					category = industry
-				}
-				complete_tooltip = {
-					add_extra_state_shared_building_slots = 1
-					add_building_construction = {
-						type = industrial_complex
-						level = 1
-					instant_build = yes
-					}
-				}
-				random_owned_state = {
-					limit = {
-						free_building_slots = {
-							building = industrial_complex
-							size > 0
-							include_locked = yes
-						}
+	# focus = {
+		# id = SOV_Industrialisation
+		# icon = GFX_goal_generic_soviet_construction
+		# cost = 10.00
+		# x = 18
+		# y = 0
+			# completion_reward = {
+				# add_tech_bonus = {
+					# name = industrial_bonus
+					# bonus = 0.5
+					# uses = 1
+					# category = industry
+				# }
+				# complete_tooltip = {
+					# add_extra_state_shared_building_slots = 1
+					# add_building_construction = {
+						# type = industrial_complex
+						# level = 1
+					# instant_build = yes
+					# }
+				# }
+				# random_owned_state = {
+					# limit = {
+						# free_building_slots = {
+							# building = industrial_complex
+							# size > 0
+							# include_locked = yes
+						# }
 						
-						OR = {
-						is_in_home_area = yes
-							NOT = {
-								owner = {
-									any_owned_state = {
-										free_building_slots = {
-										building = industrial_complex
-										size > 0
-										include_locked = yes
-										}
-										is_in_home_area = yes
-									}
-								}
-							}
-						}
-				}
+						# OR = {
+						# is_in_home_area = yes
+							# NOT = {
+								# owner = {
+									# any_owned_state = {
+										# free_building_slots = {
+										# building = industrial_complex
+										# size > 0
+										# include_locked = yes
+										# }
+										# is_in_home_area = yes
+									# }
+								# }
+							# }
+						# }
+				# }
 				
-				add_extra_state_shared_building_slots = 1
-				add_building_construction = {
-					type = industrial_complex
-					level = 1
-					instant_build = yes
-				}
-				}
-			}
-	}
+				# add_extra_state_shared_building_slots = 1
+				# add_building_construction = {
+					# type = industrial_complex
+					# level = 1
+					# instant_build = yes
+				# }
+				# }
+			# }
+	# }
 	
-	focus = {
-		id = SOV_navy
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 22
-		y = 0
+	# focus = {
+		# id = SOV_navy
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# x = 22
+		# y = 0
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_airforce
-		icon = GFX_goal_unknown
-		cost = 10.00
-		x = 24
-		y = 0
+	# focus = {
+		# id = SOV_airforce
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# x = 24
+		# y = 0
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_internationalists
-		icon = GFX_focus_ger_great_red_menace
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_convene_soviet
-		}
+	# focus = {
+		# id = SOV_internationalists
+		# icon = GFX_focus_ger_great_red_menace
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_convene_soviet
+		# }
 		
-		mutually_exclusive = {
-			focus = SOV_centrists
-			focus = SOV_internalists
-		}
-		x = 6
-		y = 1
+		# mutually_exclusive = {
+			# focus = SOV_centrists
+			# focus = SOV_internalists
+		# }
+		# x = 6
+		# y = 1
 			
-	}
+	# }
 	
-	focus = {
-		id = SOV_peasantry
-		icon = GFX_focus_small_farms
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_internationalists
-		}
-		x = 4
-		y = 2
+	# focus = {
+		# id = SOV_peasantry
+		# icon = GFX_focus_small_farms
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_internationalists
+		# }
+		# x = 4
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_socialist_values
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_peasantry
-		}
-		x = 2
-		y = 3
+	# focus = {
+		# id = SOV_socialist_values
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_peasantry
+		# }
+		# x = 2
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_matfem
-		icon = GFX_Pioneers
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_socialist_values
-		}
-		x = 0
-		y = 4
+	# focus = {
+		# id = SOV_matfem
+		# icon = GFX_Pioneers
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_socialist_values
+		# }
+		# x = 0
+		# y = 4
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_natlib
-		icon = GFX_goal_generic_dangerous_deal
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_peasantry
-		}
-		x = 4
-		y = 3
+	# focus = {
+		# id = SOV_natlib
+		# icon = GFX_goal_generic_dangerous_deal
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_peasantry
+		# }
+		# x = 4
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_socialist_education
-		icon = GFX_focus_generic_socialist_science
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_natlib
-		}
-		x = 4
-		y = 4
-			completion_reward = {
-				add_research_slot = 1
-			}	
+	# focus = {
+		# id = SOV_socialist_education
+		# icon = GFX_focus_generic_socialist_science
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_natlib
+		# }
+		# x = 4
+		# y = 4
+			# completion_reward = {
+				# add_research_slot = 1
+			# }	
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_vygotsky
-		icon = GFX_Communist_Science
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_socialist_education
-		}
-		x = 4
-		y = 5
+	# focus = {
+		# id = SOV_vygotsky
+		# icon = GFX_Communist_Science
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_socialist_education
+		# }
+		# x = 4
+		# y = 5
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_soviet_democracy
-		icon = GFX_goal_communist_revolt
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_peasantry
-		}
-		x = 6
-		y = 3
+	# focus = {
+		# id = SOV_soviet_democracy
+		# icon = GFX_goal_communist_revolt
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_peasantry
+		# }
+		# x = 6
+		# y = 3
 		
-	}
+	# }
 	
-	focus = {
-		id = SOV_centrists
-		icon = GFX_focus_generic_soviet_politics
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_convene_soviet
-		}
-		mutually_exclusive = {
-			focus = SOV_internationalists
-			focus = SOV_internalists
-		}
-		x = 8
-		y = 1
+	# focus = {
+		# id = SOV_centrists
+		# icon = GFX_focus_generic_soviet_politics
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_convene_soviet
+		# }
+		# mutually_exclusive = {
+			# focus = SOV_internationalists
+			# focus = SOV_internalists
+		# }
+		# x = 8
+		# y = 1
 			
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_continue_nep
-		icon = GFX_goal_generic_consumer_goods
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_centrists
-		}
-		x = 8
-		y = 2
+	# focus = {
+		# id = SOV_continue_nep
+		# icon = GFX_goal_generic_consumer_goods
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_centrists
+		# }
+		# x = 8
+		# y = 2
 			
-	}
+	# }
 	
-	focus = {
-		id = SOV_politburo
-		icon = GFX_goal_HOL_council_communism
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_continue_nep
-		}
-		x = 8
-		y = 3
+	# focus = {
+		# id = SOV_politburo
+		# icon = GFX_goal_HOL_council_communism
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_continue_nep
+		# }
+		# x = 8
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_kulaks_expropriation
-		icon = GFX_goal_agrarian_reform
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_soviet_democracy
-			focus = SOV_politburo
-		}
-		x = 6
-		y = 4
+	# focus = {
+		# id = SOV_kulaks_expropriation
+		# icon = GFX_goal_agrarian_reform
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_soviet_democracy
+			# focus = SOV_politburo
+		# }
+		# x = 6
+		# y = 4
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_soviet_intelligentsia
-		icon = GFX_focus_research2
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_politburo
-		}
-		x = 8
-		y = 4
-			completion_reward = {
-				add_research_slot = 1
-			}
-	}
+	# focus = {
+		# id = SOV_soviet_intelligentsia
+		# icon = GFX_focus_research2
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_politburo
+		# }
+		# x = 8
+		# y = 4
+			# completion_reward = {
+				# add_research_slot = 1
+			# }
+	# }
 	
-	focus = {
-		id = SOV_internalists
-		icon = GFX_focus_chi_mission_to_the_soviet_union
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_convene_soviet
-		}
-		mutually_exclusive = {
-			focus = SOV_centrists
-			focus = SOV_internationalists
-		}
-		x = 10
-		y = 1
+	# focus = {
+		# id = SOV_internalists
+		# icon = GFX_focus_chi_mission_to_the_soviet_union
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_convene_soviet
+		# }
+		# mutually_exclusive = {
+			# focus = SOV_centrists
+			# focus = SOV_internationalists
+		# }
+		# x = 10
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_collectivisation
-		icon = GFX_focus_prc_agrarian_socialism
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_internalists
-		}
-		x = 12
-		y = 2
-			completion_reward = {
+	# focus = {
+		# id = SOV_collectivisation
+		# icon = GFX_focus_prc_agrarian_socialism
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_internalists
+		# }
+		# x = 12
+		# y = 2
+			# completion_reward = {
 
-}
+# }
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_counterrevolutionaries
-		icon = GFX_goal_continuous_suppression
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_collectivisation
-		}
-		x = 10
-		y = 3
+	# focus = {
+		# id = SOV_counterrevolutionaries
+		# icon = GFX_goal_continuous_suppression
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_collectivisation
+		# }
+		# x = 10
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_dekulakisation
-		icon = GFX_Purge_Kulaks
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_politburo
-			focus = SOV_counterrevolutionaries
-		}
-		x = 10
-		y = 4
+	# focus = {
+		# id = SOV_dekulakisation
+		# icon = GFX_Purge_Kulaks
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_politburo
+			# focus = SOV_counterrevolutionaries
+		# }
+		# x = 10
+		# y = 4
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_agriculture
-		icon = GFX_AUS_agriculture
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_kulaks_expropriation
-			focus = SOV_dekulakisation
-		}
-		x = 8
-		y = 5
+	# focus = {
+		# id = SOV_agriculture
+		# icon = GFX_AUS_agriculture
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_kulaks_expropriation
+			# focus = SOV_dekulakisation
+		# }
+		# x = 8
+		# y = 5
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_stalin_constitution
-		icon = GFX_goal_generic_forceful_treaty
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_dekulakisation
-		}
-		x = 10
-		y = 5
-			completion_reward = {
-	add_political_power = 200 }
-	}
+	# focus = {
+		# id = SOV_stalin_constitution
+		# icon = GFX_goal_generic_forceful_treaty
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_dekulakisation
+		# }
+		# x = 10
+		# y = 5
+			# completion_reward = {
+	# add_political_power = 200 }
+	# }
 	
-	focus = {
-		id = SOV_army_purges
-		icon = GFX_focus_generic_military_mission
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_stalin_constitution
-		}
-		x = 9
-		y = 6
+	# focus = {
+		# id = SOV_army_purges
+		# icon = GFX_focus_generic_military_mission
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_stalin_constitution
+		# }
+		# x = 9
+		# y = 6
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_factory_bureaucrats
-		icon = GFX_focus_generic_treaty
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_stalin_constitution
-		}
-		x = 11
-		y = 6
+	# focus = {
+		# id = SOV_factory_bureaucrats
+		# icon = GFX_focus_generic_treaty
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_stalin_constitution
+		# }
+		# x = 11
+		# y = 6
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_chauvinism
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_collectivisation
-		}
-		x = 12
-		y = 3
+	# focus = {
+		# id = SOV_chauvinism
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_collectivisation
+		# }
+		# x = 12
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_progress_cult
-		icon = GFX_goal_generic_scientific_exchange
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_chauvinism
-		}
-		x = 12
-		y = 4
-			completion_reward = {
-				add_research_slot = 1
-			}
-	}
+	# focus = {
+		# id = SOV_progress_cult
+		# icon = GFX_goal_generic_scientific_exchange
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_chauvinism
+		# }
+		# x = 12
+		# y = 4
+			# completion_reward = {
+				# add_research_slot = 1
+			# }
+	# }
 	
-	focus = {
-		id = SOV_russian_values
-		icon = GFX_goal_generic_defence
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_collectivisation
-		}
-		x = 14
-		y = 3
+	# focus = {
+		# id = SOV_russian_values
+		# icon = GFX_goal_generic_defence
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_collectivisation
+		# }
+		# x = 14
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_new_soviet_man
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_russian_values
-		}
-		x = 14
-		y = 4
+	# focus = {
+		# id = SOV_new_soviet_man
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_russian_values
+		# }
+		# x = 14
+		# y = 4
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_Stakhanovites
-		icon = GFX_goal_economic_control
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_new_soviet_man
-		}
-		prerequisite = {
-			focus = SOV_progress_cult
-		}
-		x = 12
-		y = 5
+	# focus = {
+		# id = SOV_Stakhanovites
+		# icon = GFX_goal_economic_control
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_new_soviet_man
+		# }
+		# prerequisite = {
+			# focus = SOV_progress_cult
+		# }
+		# x = 12
+		# y = 5
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_socialist_realism
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_new_soviet_man
-		}
-		x = 14
-		y = 5
+	# focus = {
+		# id = SOV_socialist_realism
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_new_soviet_man
+		# }
+		# x = 14
+		# y = 5
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_transsiberian_railway
-		icon = GFX_goal_generic_construct_infrastructure
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_Industrialisation
-		}
-		x = 16
-		y = 1
+	# focus = {
+		# id = SOV_transsiberian_railway
+		# icon = GFX_goal_generic_construct_infrastructure
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_Industrialisation
+		# }
+		# x = 16
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_white_sea_canal
-		icon = GFX_goal_battleship
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_transsiberian_railway
-		}
-		x = 16
-		y = 2
+	# focus = {
+		# id = SOV_white_sea_canal
+		# icon = GFX_goal_battleship
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_transsiberian_railway
+		# }
+		# x = 16
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_womens_roles
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_russian_values
-		}
-		x = 16
-		y = 4
+	# focus = {
+		# id = SOV_womens_roles
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_russian_values
+		# }
+		# x = 16
+		# y = 4
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_clergy
-		icon = GFX_goal_orthodox_state
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_womens_roles
-		}
-		x = 16
-		y = 5
+	# focus = {
+		# id = SOV_clergy
+		# icon = GFX_goal_orthodox_state
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_womens_roles
+		# }
+		# x = 16
+		# y = 5
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_5yr_plans
-		icon = GFX_goal_generic_construct_civilian
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_Industrialisation
-		}
-		x = 18
-		y = 1
+	# focus = {
+		# id = SOV_5yr_plans
+		# icon = GFX_goal_generic_construct_civilian
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_Industrialisation
+		# }
+		# x = 18
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_urban_development
-		icon = GFX_focus_generic_industry_3
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_Industrialisation
-		}
-		x = 20
-		y = 1
+	# focus = {
+		# id = SOV_urban_development
+		# icon = GFX_focus_generic_industry_3
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_Industrialisation
+		# }
+		# x = 20
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_urbanist
-		icon = GFX_goal_generic_fortify_city
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_urban_development
-		}
-		mutually_exclusive = {
-			focus = SOV_disurbanist
-		}
-		x = 19
-		y = 2
+	# focus = {
+		# id = SOV_urbanist
+		# icon = GFX_goal_generic_fortify_city
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_urban_development
+		# }
+		# mutually_exclusive = {
+			# focus = SOV_disurbanist
+		# }
+		# x = 19
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_disurbanist
-		icon = GFX_focus_generic_industry_1
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_urban_development
-		}
-		mutually_exclusive = {
-			focus = SOV_urbanist
-		}
-		x = 21
-		y = 2
+	# focus = {
+		# id = SOV_disurbanist
+		# icon = GFX_focus_generic_industry_1
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_urban_development
+		# }
+		# mutually_exclusive = {
+			# focus = SOV_urbanist
+		# }
+		# x = 21
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_deep_operation
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_red_army
-		}
-		mutually_exclusive = {
-			focus = SOV_timoshenko
-		}
-		x = 26
-		y = 1
+	# focus = {
+		# id = SOV_deep_operation
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_red_army
+		# }
+		# mutually_exclusive = {
+			# focus = SOV_timoshenko
+		# }
+		# x = 26
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_airforce_en_masse
-		icon = GFX_goal_generic_air_fighter
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_deep_operation
-		}
-		x = 24
-		y = 2
+	# focus = {
+		# id = SOV_airforce_en_masse
+		# icon = GFX_goal_generic_air_fighter
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_deep_operation
+		# }
+		# x = 24
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_night_witches
-		icon = GFX_focus_YUG_rogozarski
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_airforce_en_masse
-		}
-		x = 23
-		y = 3
+	# focus = {
+		# id = SOV_night_witches
+		# icon = GFX_focus_YUG_rogozarski
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_airforce_en_masse
+		# }
+		# x = 23
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_constant_movement
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_deep_operation
-		}
-		x = 26
-		y = 2
+	# focus = {
+		# id = SOV_constant_movement
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_deep_operation
+		# }
+		# x = 26
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_motorised
-		icon = GFX_goal_generic_army_motorized
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_constant_movement
-		}
-		x = 25
-		y = 3
+	# focus = {
+		# id = SOV_motorised
+		# icon = GFX_goal_generic_army_motorized
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_constant_movement
+		# }
+		# x = 25
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_maneuverable_armor
-		icon = GFX_goal_generic_army_tanks
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_deep_operation
-		}
-		x = 28
-		y = 2
+	# focus = {
+		# id = SOV_maneuverable_armor
+		# icon = GFX_goal_generic_army_tanks
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_deep_operation
+		# }
+		# x = 28
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_combined_arms
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_constant_movement
-		}
-		prerequisite = {
-			focus = SOV_maneuverable_armor
-		}
-		x = 27
-		y = 3
+	# focus = {
+		# id = SOV_combined_arms
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_constant_movement
+		# }
+		# prerequisite = {
+			# focus = SOV_maneuverable_armor
+		# }
+		# x = 27
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_tank_production
-		icon = GFX_goal_tankograd
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_maneuverable_armor
-		}
-		x = 29
-		y = 3
+	# focus = {
+		# id = SOV_tank_production
+		# icon = GFX_goal_tankograd
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_maneuverable_armor
+		# }
+		# x = 29
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_timoshenko
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_red_army
-		}
-		mutually_exclusive = {
-			focus = SOV_deep_operation
-		}
-		x = 30
-		y = 1
+	# focus = {
+		# id = SOV_timoshenko
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_red_army
+		# }
+		# mutually_exclusive = {
+			# focus = SOV_deep_operation
+		# }
+		# x = 30
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_china
-		icon = GFX_focus_prc_social_democracy
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_align_sinkiang
-		}
-		x = 33
-		y = 1
+	# focus = {
+		# id = SOV_china
+		# icon = GFX_focus_prc_social_democracy
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_align_sinkiang
+		# }
+		# x = 33
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_intervention
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_china
-		}
-		x = 32
-		y = 2
+	# focus = {
+		# id = SOV_intervention
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_china
+		# }
+		# x = 32
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_amur_conflict
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_align_sinkiang
-		}
-		x = 35
-		y = 1
+	# focus = {
+		# id = SOV_amur_conflict
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_align_sinkiang
+		# }
+		# x = 35
+		# y = 1
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_nikou
-		icon = GFX_focus_generic_provoke_border_clashes
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_amur_conflict
-		}
-		x = 34
-		y = 2
+	# focus = {
+		# id = SOV_nikou
+		# icon = GFX_focus_generic_provoke_border_clashes
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_amur_conflict
+		# }
+		# x = 34
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_war_japan
-		icon = GFX_focus_AST_war_japan
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_nikou
-		}
-		x = 33
-		y = 3
+	# focus = {
+		# id = SOV_war_japan
+		# icon = GFX_focus_AST_war_japan
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_nikou
+		# }
+		# x = 33
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_sakhalin_ultimatum
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_nikou
-		}
-		x = 35
-		y = 3
+	# focus = {
+		# id = SOV_sakhalin_ultimatum
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_nikou
+		# }
+		# x = 35
+		# y = 3
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_workers_constitution
-		icon = GFX_Commie_Treaty
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_kulaks_expropriation
-		}
-		x = 6
-		y = 5
-			completion_reward = {
-	add_political_power = 200 }
-	}
+	# focus = {
+		# id = SOV_workers_constitution
+		# icon = GFX_Commie_Treaty
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_kulaks_expropriation
+		# }
+		# x = 6
+		# y = 5
+			# completion_reward = {
+	# add_political_power = 200 }
+	# }
 	
-	focus = {
-		id = SOV_worker_cooperatives
-		icon = GFX_goal_generic_major_alliance
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_workers_constitution
-		}
-		x = 7
-		y = 6
-			completion_reward {
-				production_speed_buildings_factor = 0.1
-			}
-	}
+	# focus = {
+		# id = SOV_worker_cooperatives
+		# icon = GFX_goal_generic_major_alliance
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_workers_constitution
+		# }
+		# x = 7
+		# y = 6
+			# completion_reward {
+				# production_speed_buildings_factor = 0.1
+			# }
+	# }
 	
-	focus = {
-		id = SOV_unit_committees
-		icon = GFX_focus_generic_military_academy
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_workers_constitution
-		}
-		x = 5
-		y = 6
-			completion_reward = {
-				army_experience = 50
-			}
-	}	
+	# focus = {
+		# id = SOV_unit_committees
+		# icon = GFX_focus_generic_military_academy
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_workers_constitution
+		# }
+		# x = 5
+		# y = 6
+			# completion_reward = {
+				# army_experience = 50
+			# }
+	# }	
 	
-	focus = {
-		id = SOV_palace_of_soviets
-		icon = GFX_Palace_of_the_Soviets
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_unit_committees
-			focus = SOV_worker_cooperatives
-		}
-		x = 5
-		y = 7
+	# focus = {
+		# id = SOV_palace_of_soviets
+		# icon = GFX_Palace_of_the_Soviets
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_unit_committees
+			# focus = SOV_worker_cooperatives
+		# }
+		# x = 5
+		# y = 7
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_labour_vouchers
-		icon = GFX_labour_voucher_focus
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_worker_cooperatives
-			focus = SOV_unit_committees
-		}
-		x = 7
-		y = 7
+	# focus = {
+		# id = SOV_labour_vouchers
+		# icon = GFX_labour_voucher_focus
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_worker_cooperatives
+			# focus = SOV_unit_committees
+		# }
+		# x = 7
+		# y = 7
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_lenin_mausoleum
-		icon = GFX_leninmausoleum
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_army_purges
-			focus = SOV_factory_bureaucrats
-		}
-		x = 11
-		y = 7
+	# focus = {
+		# id = SOV_lenin_mausoleum
+		# icon = GFX_leninmausoleum
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_army_purges
+			# focus = SOV_factory_bureaucrats
+		# }
+		# x = 11
+		# y = 7
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_commodity_exchange
-		icon = GFX_goal_generic_positive_trade_relations
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_factory_bureaucrats
-			focus = SOV_army_purges
-		}
-		x = 9
-		y = 7
+	# focus = {
+		# id = SOV_commodity_exchange
+		# icon = GFX_goal_generic_positive_trade_relations
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_factory_bureaucrats
+			# focus = SOV_army_purges
+		# }
+		# x = 9
+		# y = 7
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_Proletkult
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_socialist_values
-		}
-		x = 2
-		y = 4
+	# focus = {
+		# id = SOV_Proletkult
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_socialist_values
+		# }
+		# x = 2
+		# y = 4
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_constructivism
-		icon = GFX_goal_unknown
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_Proletkult
-		}
-		x = 2
-		y = 5
+	# focus = {
+		# id = SOV_constructivism
+		# icon = GFX_goal_unknown
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_Proletkult
+		# }
+		# x = 2
+		# y = 5
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_reconciliation
-		icon = GFX_goal_align_japan
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_amur_conflict
-		}
-		x = 36
-		y = 2
+	# focus = {
+		# id = SOV_reconciliation
+		# icon = GFX_goal_align_japan
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_amur_conflict
+		# }
+		# x = 36
+		# y = 2
 
-	}
+	# }
 	
-	focus = {
-		id = SOV_religion
-		icon = GFX_Orthodox_Orgy
-		cost = 10.00
-		prerequisite = {
-			focus = SOV_matfem
-		}
-		x = 0
-		y = 5
+	# focus = {
+		# id = SOV_religion
+		# icon = GFX_Orthodox_Orgy
+		# cost = 10.00
+		# prerequisite = {
+			# focus = SOV_matfem
+		# }
+		# x = 0
+		# y = 5
 
-	}
-}
+	# }
+# }

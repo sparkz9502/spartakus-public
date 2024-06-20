@@ -1,27 +1,30 @@
 ﻿capital = 806
-OOB = "empty"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
 	economy_unind
 	mobilization_1
 }
-set_research_slots = 2
+
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
-	### MOD ###
-	### General ###
-	
-	### INF ###
 	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -37,237 +40,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-set_convoys = 10
-
-create_country_leader = {
-	name = "Yacine Diallo"
-	desc = "POLITICS_YACINE_DIALLO_DESC"
-	picture = "Portrait_GNE_Yacine.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		
-	}
-}
-create_country_leader = {
-	name = "Louis P. Blacher"
-	desc = "POLITICS_LOUIS_BLACHER_DESC"
-	picture = "Portrait_Europe_Generic_land_1.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		
-	}
-}
-
-### Field Marshal
-create_field_marshal = { #Auto-Generated
-	name = "Manareh"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Manareh.tga"
-	traits = {
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Cummings"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Cummings.tga"
-	traits = {
-		defensive_doctrine
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Bureh"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Bureh.tga"
-	traits = {
-		defensive_doctrine
-		offensive_doctrine
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Stephens"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Stephens.tga"
-	traits = {
-		logistics_wizard
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Sano"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Sano.tga"
-	traits = {
-		logistics_wizard
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Injai"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Injai.tga"
-	traits = {
-		logistics_wizard
-	}
-	skill = 1
-}
-
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Russ"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Russ.tga"
-	traits = {
-		trait_engineer
-	}
-	skill = 1
-}
-
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Sarif Easmon"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Sarif_Easmon.tga"
-	traits = {
-		blockade_runner
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Wurie"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Wurie.tga"
-	traits = {
-		blockade_runner
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Djaument"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Djaument.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "W.J. Campbell"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_W_J_Campbell.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Boda"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Boda.tga"
-	traits = {
-		seawolf
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Y. Diallo"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Y_Diallo.tga"
-	traits = {
-		spotter
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Wallace-Johnson"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Wallace_Johnson.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Carter"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Carter.tga"
-	traits = {
-		blockade_runner
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Gibson Sr."
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Gibson_Sr_.tga"
-	traits = {
-		blockade_runner
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Gibson"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Gibson.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "J. N. Cooper"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_J_N_Cooper.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "J. F. Cooper"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_J_F_Cooper.tga"
-	traits = {
-		seawolf
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Dean"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Dean.tga"
-	traits = {
-		seawolf
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "F. E. Tolbert"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_F_E_Tolbert.tga"
-	traits = {
-		spotter
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "S. Johnson"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_S_Johnson.tga"
-	traits = {
-		spotter
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Jones"
-	portrait_path = "gfx/leaders/GNE/Portrait_GNE_Jones.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
 }

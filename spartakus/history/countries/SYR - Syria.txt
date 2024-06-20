@@ -1,8 +1,13 @@
 ﻿capital = 554
-OOB = "SYR"
+set_oob = "SYR"
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.2
+set_war_support = 0.4
 set_cosmetic_tag = SYR_FRA
 
 add_ideas = {
+	### Laws ###
 	recruitment_colonial
 	governance_colo
 	trade_pro
@@ -10,18 +15,24 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = SYR_taj_al-din_al-hasani
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	gwtank = 1
+	tech_support = 1
+	gw_artillery = 1
 }
 
-set_convoys = 5
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -39,5 +50,3 @@ set_popularities = {
     national_syndicalist = 2
     national_corporatist = 0
 }
-
-recruit_character = SYR_taj_al-din_al-hasani

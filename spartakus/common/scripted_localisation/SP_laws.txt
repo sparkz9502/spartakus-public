@@ -357,3 +357,400 @@ defined_text = {
 		localization_key = Disarmed_Text_Inactive
 	}
 }
+
+#Unions
+
+defined_text = {
+	name = GetUnionsIndependent
+	text = {
+		trigger = {
+			has_idea = unions_independent
+		}
+		localization_key = Unions_Independent_Text_Active
+	}
+	text = {
+		localization_key = Unions_Independent_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetUnionsSuppressed
+	text = {
+		trigger = {
+			has_idea = unions_suppressed
+		}
+		localization_key = Unions_Suppressed_Text_Active
+	}
+	text = {
+		localization_key = Unions_Suppressed_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetUnionsStateControlled
+	text = {
+		trigger = {
+			has_idea = unions_statecontrolled
+		}
+		localization_key = Unions_StateControlled_Text_Active
+	}
+	text = {
+		localization_key = Unions_StateControlled_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetUnionsNonexistent
+	text = {
+		trigger = {
+			has_idea = unions_nonexistent
+		}
+		localization_key = Unions_Nonexistent_Text_Active
+	}
+	text = {
+		localization_key = Unions_Nonexistent_Text_Inactive
+	}
+}
+
+#Suffrage
+
+defined_text = {
+	name = GetSuffrageUniversal
+	text = {
+		trigger = {
+			has_idea = suffrage_universal
+		}
+		localization_key = Suffrage_Universal_Text_Active
+	}
+	text = {
+		localization_key = Suffrage_Universal_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetSuffrageRestricted
+	text = {
+		trigger = {
+			has_idea = suffrage_restricted
+		}
+		localization_key = Suffrage_Restricted_Text_Active
+	}
+	text = {
+		localization_key = Suffrage_Restricted_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetSuffrageNoVoting
+	text = {
+		trigger = {
+			has_idea = suffrage_novoting
+		}
+		localization_key = Suffrage_NoVoting_Text_Active
+	}
+	text = {
+		localization_key = Suffrage_NoVoting_Text_Inactive
+	}
+}
+
+#Death Penalty
+
+defined_text = {
+	name = GetDeathPenaltyOutlawed
+	text = {
+		trigger = {
+			has_idea = deathpenalty_outlawed
+		}
+		localization_key = DeathPenalty_Outlawed_Text_Active
+	}
+	text = {
+		localization_key = DeathPenalty_Outlawed_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetDeathPenaltyLegalized
+	text = {
+		trigger = {
+			has_idea = deathpenalty_legalized
+		}
+		localization_key = DeathPenalty_Legalized_Text_Active
+	}
+	text = {
+		localization_key = DeathPenalty_Legalized_Text_Inactive
+	}
+}
+
+#Press
+
+defined_text = {
+	name = GetPressFree
+	text = {
+		trigger = {
+			has_idea = press_free
+		}
+		localization_key = Press_Free_Text_Active
+	}
+	text = {
+		localization_key = Press_Free_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetPressCensored
+	text = {
+		trigger = {
+			has_idea = press_censored
+		}
+		localization_key = Press_Censored_Text_Active
+	}
+	text = {
+		localization_key = Press_Censored_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetPressStateOnly
+	text = {
+		trigger = {
+			has_idea = press_stateonly
+		}
+		localization_key = Press_StateOnly_Text_Active
+	}
+	text = {
+		localization_key = Press_StateOnly_Text_Inactive
+	}
+}
+
+#Welfare
+
+defined_text = {
+	name = GetWelfareHigh
+	text = {
+		trigger = {
+			has_idea = welfare_high
+		}
+		localization_key = Welfare_High_Text_Active
+	}
+	text = {
+		localization_key = Welfare_High_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetWelfareMedium
+	text = {
+		trigger = {
+			has_idea = welfare_medium
+		}
+		localization_key = Welfare_Medium_Text_Active
+	}
+	text = {
+		localization_key = Welfare_Medium_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetWelfareLow
+	text = {
+		trigger = {
+			has_idea = welfare_low
+		}
+		localization_key = Welfare_Low_Text_Active
+	}
+	text = {
+		localization_key = Welfare_Low_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetWelfareNoState
+	text = {
+		trigger = {
+			has_idea = welfare_nostate
+		}
+		localization_key = Welfare_NoState_Text_Active
+	}
+	text = {
+		localization_key = Welfare_NoState_Text_Inactive
+	}
+}
+
+#Judiciary
+
+defined_text = {
+	name = GetJudiciaryImpartial
+	text = {
+		trigger = {
+			has_idea = judiciary_impartial
+		}
+		localization_key = Judiciary_Impartial_Text_Active
+	}
+	text = {
+		localization_key = Judiciary_Impartial_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetJudiciaryPoliticized
+	text = {
+		trigger = {
+			has_idea = judiciary_politicized
+		}
+		localization_key = Judiciary_Politicized_Text_Active
+	}
+	text = {
+		localization_key = Judiciary_Politicized_Text_Inactive
+	}
+}
+
+#Mobilization
+
+defined_text = {
+	name = GetMob2
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_2
+				has_idea = mobilization_3
+				has_idea = mobilization_4
+				has_idea = mobilization_5
+				has_idea = mobilization_6
+				has_idea = mobilization_7
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob2_Text_Active
+	}
+	text = {
+		localization_key = Mob2_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob3
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_3
+				has_idea = mobilization_4
+				has_idea = mobilization_5
+				has_idea = mobilization_6
+				has_idea = mobilization_7
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob3_Text_Active
+	}
+	text = {
+		localization_key = Mob3_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob4
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_4
+				has_idea = mobilization_5
+				has_idea = mobilization_6
+				has_idea = mobilization_7
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob4_Text_Active
+	}
+	text = {
+		localization_key = Mob4_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob5
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_5
+				has_idea = mobilization_6
+				has_idea = mobilization_7
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob5_Text_Active
+	}
+	text = {
+		localization_key = Mob5_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob6
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_6
+				has_idea = mobilization_7
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob6_Text_Active
+	}
+	text = {
+		localization_key = Mob6_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob7
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_7
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob7_Text_Active
+	}
+	text = {
+		localization_key = Mob7_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob8
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_8
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob8_Text_Active
+	}
+	text = {
+		localization_key = Mob8_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob9
+	text = {
+		trigger = {
+			OR = {
+				has_idea = mobilization_9
+				has_idea = mobilization_10
+			}
+		}
+		localization_key = Mob9_Text_Active
+	}
+	text = {
+		localization_key = Mob9_Text_Inactive
+	}
+}
+defined_text = {
+	name = GetMob10
+	text = {
+		trigger = {
+			has_idea = mobilization_10
+		}
+		localization_key = Mob10_Text_Active
+	}
+	text = {
+		localization_key = Mob10_Text_Inactive
+	}
+}

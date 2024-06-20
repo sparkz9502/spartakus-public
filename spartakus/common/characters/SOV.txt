@@ -1,4 +1,175 @@
 characters={
+	SOV_lev_kamenev={
+		name="Lev Kamenev"
+		portraits={
+			civilian={
+				large="gfx/leaders/SOV/Portrait_Lev_Kamenev.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_LEV_KAMENEV_DESC"
+			ideology=bolshevist_subtype
+			traits={ SOV_factional_compromiser_trait }
+			expire="1952.4.1.1"
+			id=-1
+		}
+	}
+	SOV_alexander_bogdanov={
+		name="Alexander Bogdanov"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_4.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALEXANDER_BOGDANOV_DESC"
+			ideology=spartacist_subtype
+			expire="1952.4.1.1"
+			id=-1
+		}
+	}
+	SOV_maria_spiridonova={
+		name="Maria Spiridonova"
+		portraits={
+			civilian={
+				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MARIA_SPIRIDONOVA_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1952.4.1.1"
+			id=-1
+		}
+	}
+	SOV_julius_martov={
+		name="Julius Martov"
+		portraits={
+			civilian={
+				large="gfx/leaders/leader_unknown.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JULIUS_MARTOV_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1952.4.1.1"
+			id=-1
+		}
+	}
+	SOV_fyodor_dan={
+		name="Fyodor Dan"
+		portraits={
+			civilian={
+				large="gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FYODOR_DAN_DESC"
+			ideology=social_democrat_subtype
+			expire="1952.4.1.1"
+			id=-1
+		}
+	}
+	SOV_kliment_voroshilov={
+		name="Kliment Voroshilov"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_kliment_voroshilov.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_mikhail_tukhachevsky={
+		name="Mikhail Tukhachevsky"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_mikhail_tukhachevsky.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Mikhail_Tukhachevsky.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
+			skill=4
+			attack_skill=3
+			defense_skill=4
+			planning_skill=4
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SOV_semyon_budyonny={
+		name="Semyon Budyonny"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_semyon_budyonny.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Semyon_Budyonny.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist politically_connected }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_grigory_kulik={
+		name="Grigory Kulik"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_SOV_grigory_kulik.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Grigory_Kulik.dds"
+			}
+		}
+		field_marshal={
+			traits={ old_guard inflexible_strategist politically_connected career_officer }
+			skill=1
+			attack_skill=1
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	SOV_leon_trotsky={
+		name="Leon Trotsky"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
+			}
+		}
+		field_marshal={
+			traits={ brilliant_strategist war_hero }
+			skill=5
+			attack_skill=5
+			defense_skill=3
+			planning_skill=5
+			logistics_skill=4
+			legacy_id=-1
+		}
+	}
 	SOV_georgy_zhukov={
 		name="Georgy Zhukov"
 		portraits={
@@ -119,66 +290,6 @@ characters={
 			legacy_id=-1
 		}
 	}
-	SOV_kliment_voroshilov={
-		name="Kliment Voroshilov"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_kliment_voroshilov.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Kliment_Voroshilov.dds"
-			}
-		}
-		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_mikhail_tukhachevsky={
-		name="Mikhail Tukhachevsky"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_mikhail_tukhachevsky.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Mikhail_Tukhachevsky.dds"
-			}
-		}
-		field_marshal={
-			traits={ brilliant_strategist career_officer trait_reckless infantry_officer offensive_doctrine }
-			skill=4
-			attack_skill=3
-			defense_skill=4
-			planning_skill=4
-			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-	SOV_semyon_budyonny={
-		name="Semyon Budyonny"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_semyon_budyonny.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Semyon_Budyonny.dds"
-			}
-		}
-		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	SOV_ivan_chernyakhovsky={
 		name="Ivan Chernyakhovsky"
 		portraits={
@@ -235,26 +346,6 @@ characters={
 			defense_skill=2
 			planning_skill=3
 			logistics_skill=2
-			legacy_id=-1
-		}
-	}
-	SOV_grigory_kulik={
-		name="Grigory Kulik"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_grigory_kulik.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Grigory_Kulik.dds"
-			}
-		}
-		field_marshal={
-			traits={ old_guard inflexible_strategist politically_connected career_officer }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
 			legacy_id=-1
 		}
 	}
@@ -537,155 +628,6 @@ characters={
 			legacy_id=-1
 		}
 	}
-	SOV_sergey_gorshkov={
-		name="Sergey Gorshkov"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_sergey_gorshkov.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
-			}
-		}
-		navy_leader={
-			skill=3
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_gordey_levchenko={
-		name="Gordey Levchenko"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_gordey_levchenko.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Gordey_Levchenko.dds"
-			}
-		}
-		navy_leader={
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_vladimir_kasatonov={
-		name="Vladimir Kasatonov"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_SOV_vladimir_kasatonov.dds"
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Soviet_Vladimir_Kasatonov.dds"
-			}
-		}
-		navy_leader={
-			traits={ seawolf }
-			skill=2
-			attack_skill=1
-			defense_skill=1
-			maneuvering_skill=1
-			coordination_skill=1
-			legacy_id=-1
-		}
-	}
-	SOV_lev_kamenev={
-		name="Lev Kamenev"
-		portraits={
-			civilian={
-				large="gfx/leaders/SOV/Portrait_Lev_Kamenev.tga"
-			}
-		}
-		country_leader={
-			desc="POLITICS_LEV_KAMENEV_DESC"
-			ideology=bolshevist_subtype
-			traits={ SOV_factional_compromiser_trait }
-			expire="1952.4.1.1"
-			id=-1
-		}
-	}
-	SOV_alexander_bogdanov={
-		name="Alexander Bogdanov"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_4.dds"
-			}
-		}
-		country_leader={
-			desc="POLITICS_ALEXANDER_BOGDANOV_DESC"
-			ideology=spartacist_subtype
-			expire="1952.4.1.1"
-			id=-1
-		}
-	}
-	SOV_maria_spiridonova={
-		name="Maria Spiridonova"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
-			}
-		}
-		country_leader={
-			desc="POLITICS_MARIA_SPIRIDONOVA_DESC"
-			ideology=revolutionary_socialist_subtype
-			expire="1952.4.1.1"
-			id=-1
-		}
-	}
-	SOV_julius_martov={
-		name="Julius Martov"
-		portraits={
-			civilian={
-				large="gfx/leaders/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			desc="POLITICS_JULIUS_MARTOV_DESC"
-			ideology=reformist_socialist_subtype
-			expire="1952.4.1.1"
-			id=-1
-		}
-	}
-	SOV_fyodor_dan={
-		name="Fyodor Dan"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_8.dds"
-			}
-		}
-		country_leader={
-			desc="POLITICS_FYODOR_DAN_DESC"
-			ideology=social_democrat_subtype
-			expire="1952.4.1.1"
-			id=-1
-		}
-	}
-	SOV_leon_trotsky={
-		name="Leon Trotsky"
-		portraits={
-			army={
-				small=""
-			}
-			army={
-				large="gfx/leaders/SOV/Portrait_Leon_Trotsky.dds"
-			}
-		}
-		field_marshal={
-			traits={ brilliant_strategist war_hero }
-			skill=5
-			attack_skill=5
-			defense_skill=3
-			planning_skill=5
-			logistics_skill=4
-			legacy_id=-1
-		}
-	}
 	SOV_nikolai_vatutin={
 		name="Nikolai Vatutin"
 		portraits={
@@ -866,98 +808,62 @@ characters={
 			legacy_id=-1
 		}
 	}
-	SOV_pavel_ivannikov={
-		name="Pavel Ivannikov"
+	SOV_sergey_gorshkov={
+		name="Sergey Gorshkov"
 		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+			army={
+				small="gfx/interface/ideas/idea_SOV_sergey_gorshkov.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Sergey_Gorshkov.dds"
 			}
 		}
-		country_leader={
-			ideology=american_liberalism
-			expire="1941.1.1.1"
-			id=-1
+		navy_leader={
+			skill=3
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	SOV_gennady_voroshilov={
-		name="Gennady Voroshilov"
+	SOV_gordey_levchenko={
+		name="Gordey Levchenko"
 		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_europe_generic_7.dds"
+			army={
+				small="gfx/interface/ideas/idea_SOV_gordey_levchenko.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Gordey_Levchenko.dds"
 			}
 		}
-		country_leader={
-			ideology=moderate_agrarian_conservatism
-			expire="1950.1.1.1"
-			id=-1
+		navy_leader={
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
-	SOV_yuri_brusilov={
-		name="Yuri Brusilov"
+	SOV_vladimir_kasatonov={
+		name="Vladimir Kasatonov"
 		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_8.dds"
+			army={
+				small="gfx/interface/ideas/idea_SOV_vladimir_kasatonov.dds"
+			}
+			army={
+				large="gfx/leaders/SOV/Portrait_Soviet_Vladimir_Kasatonov.dds"
 			}
 		}
-		country_leader={
-			ideology=traditional_conservatism
-			traits={ undistinguished_suit }
-			expire="1944.1.1.1"
-			id=-1
-		}
-	}
-	SOV_mikhail_putyatin={
-		name="Mikhail Putyatin"
-		portraits={
-			civilian={
-				large="gfx/leaders/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=theocracy
-			expire="1938.1.1.1"
-			id=-1
-		}
-	}
-	SOV_ivan_ivanov={
-		name="Ivan Ivanov"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-			}
-		}
-		country_leader={
-			ideology=nationalist_conservatism
-			traits={ undistinguished_suit }
-			expire="1948.1.1.1"
-			id=-1
-		}
-	}
-	SOV_vladislav_putyatin={
-		name="Vladislav Putyatin"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_4.dds"
-			}
-		}
-		country_leader={
-			ideology=fascist_syndicalism
-			expire="1942.1.1.1"
-			id=-1
-		}
-	}
-	SOV_leonid_brusilov={
-		name="Leonid Brusilov"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=corporatist_integralism
-			traits={ undistinguished_suit }
-			expire="1951.1.1.1"
-			id=-1
+		navy_leader={
+			traits={ seawolf }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
 		}
 	}
 }

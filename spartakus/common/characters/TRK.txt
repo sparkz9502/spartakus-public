@@ -1,0 +1,16 @@
+characters={
+	TRK_mohammed_alim_khan={
+		name="Mohammed Alim Khan"
+		portraits={
+			civilian={
+				large="gfx/leaders/TRK/Portrait_Mohammed_Alim_Khan.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MOHAMMED_ALIM_KHAN_DESC"
+			ideology=absolute_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

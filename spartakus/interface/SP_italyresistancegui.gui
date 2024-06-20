@@ -175,6 +175,54 @@ guiTypes = {
 		}
 		
 		iconType ={
+			name ="veneziagiulia_green"
+			spriteType = "GFX_veneziagiulia_green"
+			position = { x= 984 y = 80 }
+			
+			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziagiulia_yellow"
+			spriteType = "GFX_veneziagiulia_yellow"
+			position = { x= 984 y = 80 }
+			
+			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="veneziagiulia_red"
+			spriteType = "GFX_veneziagiulia_red"
+			position = { x= 984 y = 80 }
+			
+			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="puglia_green"
+			spriteType = "GFX_puglia_green"
+			position = { x= 1019 y = 360 }
+			
+			pdx_tooltip = "PUGLIA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="calabriabasilicata_green"
+			spriteType = "GFX_calabriabasilicata_green"
+			position = { x= 1017 y = 413 }
+			
+			pdx_tooltip = "CALABRIABASILICATA_TOOLTIP"
+		}
+		
+		iconType ={
+			name ="campania_green"
+			spriteType = "GFX_campania_green"
+			position = { x= 933 y = 350 }
+			
+			pdx_tooltip = "CAMPANIA_TOOLTIP"
+		}
+		
+		iconType ={
 			name ="abruzzimolise_green"
 			spriteType = "GFX_abruzzimolise_green"
 			position = { x= 928 y = 285 }
@@ -196,14 +244,6 @@ guiTypes = {
 			position = { x= 928 y = 285 }
 			
 			pdx_tooltip = "ABRUZZIMOLISE_TOOLTIP"
-		}
-		
-		iconType ={
-			name ="campania_green"
-			spriteType = "GFX_campania_green"
-			position = { x= 933 y = 350 }
-			
-			pdx_tooltip = "CAMPANIA_TOOLTIP"
 		}
 		
 		iconType ={
@@ -327,22 +367,6 @@ guiTypes = {
 		}
 		
 		iconType ={
-			name ="puglia_green"
-			spriteType = "GFX_puglia_green"
-			position = { x= 1019 y = 360 }
-			
-			pdx_tooltip = "PUGLIA_TOOLTIP"
-		}
-		
-		iconType ={
-			name ="calabriabasilicata_green"
-			spriteType = "GFX_calabriabasilicata_green"
-			position = { x= 1017 y = 413 }
-			
-			pdx_tooltip = "CALABRIABASILICATA_TOOLTIP"
-		}
-		
-		iconType ={
 			name ="sardegna_green"
 			spriteType = "GFX_sardegna_green"
 			position = { x= 663 y = 341 }
@@ -460,30 +484,6 @@ guiTypes = {
 			position = { x= 849 y = 51 }
 			
 			pdx_tooltip = "VENETO_TOOLTIP"
-		}
-		
-		iconType ={
-			name ="veneziagiulia_green"
-			spriteType = "GFX_veneziagiulia_green"
-			position = { x= 984 y = 80 }
-			
-			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
-		}
-		
-		iconType ={
-			name ="veneziagiulia_yellow"
-			spriteType = "GFX_veneziagiulia_yellow"
-			position = { x= 984 y = 80 }
-			
-			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
-		}
-		
-		iconType ={
-			name ="veneziagiulia_red"
-			spriteType = "GFX_veneziagiulia_red"
-			position = { x= 984 y = 80 }
-			
-			pdx_tooltip = "VENEZIAGIULIA_TOOLTIP"
 		}
 		
 		iconType ={

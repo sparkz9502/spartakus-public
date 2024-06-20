@@ -1,8 +1,13 @@
 ﻿capital = 553
-OOB = "LEB"
+set_oob = "LEB"
+set_research_slots = 0
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.3
 set_cosmetic_tag = LEB_FRA
 
 add_ideas = {
+	### Laws ###
 	recruitment_colonial
 	governance_colo
 	trade_laif
@@ -10,18 +15,19 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = LEB_charles_debbas
+
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
-	gwtank = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_convoys = 5
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -39,5 +45,3 @@ set_popularities = {
     national_syndicalist = 3
     national_corporatist = 0
 }
-
-recruit_character = LEB_charles_debbas

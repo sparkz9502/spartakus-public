@@ -1,0 +1,19 @@
+characters={
+    CUB_gerardo_machado = {
+        name = "Gerardo Machado"
+        portraits={
+            civilian={
+                large = "gfx/leaders/CUB/Portrait_Gerardo_Machado.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_GERARDO_MACHADO_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

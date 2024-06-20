@@ -1,0 +1,25 @@
+focus_tree = {
+	id = RHI_focus
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = RHI
+		}
+	}
+	
+	continuous_focus_position = { x = -50 y = 10 }
+	
+	#Starting Tree
+	
+	focus = {
+		id = RHI_A_Fragile_Peace
+		icon = GFX_goal_WIP
+		x = 15
+		y = 0
+		cost = 0
+		completion_reward = {
+			
+		}
+	}
+}

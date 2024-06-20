@@ -33,7 +33,7 @@
 			modules = {
 				main_armament_slot = tank_small_cannon
 				turret_type_slot = tank_light_one_man_tank_turret
-				suspension_type_slot = tank_christie_suspension
+				suspension_type_slot = tank_bogie_suspension
 				armor_type_slot = tank_riveted_armor
 				engine_type_slot = tank_gasoline_engine
 				special_type_slot_1 = tank_radio_1
@@ -252,7 +252,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 	    recon = { x = 0 y = 1 }
 		artillery = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
 	}
 }
 
@@ -1192,111 +1191,5 @@ units = {
 		location = 692
 		division_template = "Rotfrontkämpfer-Ortsgruppe"
 		start_experience_factor = 0.0
-	}
-}
-
-air_wings = {
-	5 = { 	
-		fighter_equipment_0 =  {
-			owner = "GER" 
-			amount = 40
-		}
-		name = "Jagdgeschwader 1"
-	}
-
-	1264 = { 	
-		fighter_equipment_1 =  {
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Jagdgeschwader 2"
-	
-		tac_bomber_equipment_1 = {
-			owner = "GER" 
-			amount = 40
-		}
-		name = "Jagdgeschwader 6"
-	}
-
-	66 = {
-		fighter_equipment_0 =  {
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Jagdgeschwader 5"
-		
-		tac_bomber_equipment_0 = {
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Kampfgeschwader 2"
-	}
-
-	57 = { 	
-		fighter_equipment_1 =  {
-			owner = "GER" 
-			amount = 120
-		}
-		name = "Jagdgeschwader 3"
-
-		tac_bomber_equipment_1 = {
-			owner = "GER" 
-			amount = 60
-		}
-		name = "Kampfgeschwader 3"
-
-		tac_bomber_equipment_1 = {
-			owner = "GER" 
-			amount = 60
-		}
-		name = "Kampfgeschwader 4"
-		
-		CAS_equipment_1 = {
-			owner = "GER" 
-			amount = 60
-		}
-		name = "Schlachtgeschwader 1"
-	}
-
-	51 = { 		
-		fighter_equipment_1 =  {
-			owner = "GER" 
-			amount = 120
-		}
-		name = "Jagdgeschwader 4"
-
-		tac_bomber_equipment_1 = {
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Kampfgeschwader 5"
-		
-		CAS_equipment_1 = {
-			owner = "GER" 
-			amount = 60
-		}
-		name = "Schlachtgeschwader 2"
-	}
-	
-	52 = { 		
-		fighter_equipment_0 =  {
-			owner = "GER" 
-			amount = 80
-		}
-		name = "Jagdgeschwader 7"
-
-		tac_bomber_equipment_0 = {
-			owner = "GER" 
-			amount = 60
-		}
-		name = "Kampfgeschwader 6"
-	}
-
-	58 = { 	
-		nav_bomber_equipment_1 =  {
-			owner = "GER" 
-			amount = 60
-		}
-		name = "Torpedogeschwader 1"
 	}
 }

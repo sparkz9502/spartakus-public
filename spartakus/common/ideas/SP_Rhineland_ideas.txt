@@ -6,24 +6,25 @@ ideas = {
 		#Starting Ideas
 
         RHI_French_Oversight = {
-            picture = WIP
+            picture = RHI_French_Oversight
             modifier = {
-				political_power_gain = -0.2
+				political_power_factor = -0.10
 				consumer_goods_factor = 0.1
 				stability_factor = -0.05
+				war_support_factor = -0.15
             }
         }
 		
 		RHI_Military_Restrictions = {
-            picture = WIP
+            picture = RHI_Military_Restrictions
             modifier = {
-				political_power_gain = -0.1
+				political_power_gain = -0.05
 				custom_modifier_tooltip = RHI_Army_tt
             }
         }
 		
 		RHI_Heirs_of_Weimar = {
-            picture = WIP
+            picture = RHI_Heirs_of_Weimar
             modifier = {
 				stability_factor = 0.1
 				political_power_factor = 0.1
@@ -32,11 +33,10 @@ ideas = {
         }
 		
 		RHI_The_Artaman_League = {
-            picture = WIP
+            picture = RHI_Artaman_League
             modifier = {
-				political_power_gain = -0.1
+				political_power_factor = -0.05
 				stability_factor = -0.05
-				national_corporatist_drift = 0.01
             }
         }
     }

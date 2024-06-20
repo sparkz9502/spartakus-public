@@ -1,34 +1,43 @@
 ﻿capital = 180
-
 set_oob = "PRM"
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.1
+set_war_support = 0.45
 
+### Country Leaders ###
 recruit_character = PRM_manuel_ii
+
+### Field Marshals ###
 recruit_character = PRM_henrique_mitchell_de_paiva_couceiro
 recruit_character = PRM_tomás_antónio_garcia_rosado
+
+### Generals ###
 recruit_character = PRM_josé_augusto_alves_roçadas
 recruit_character = PRM_josé_norton_de_matos
 recruit_character = PRM_eugénio_castro_de_menezes
 recruit_character = PRM_josé_adriano_pequito_rebelo
 recruit_character = PRM_francisco_rolão_preto
+
+### Admirals ###
 recruit_character = PRM_manuel_sarmento_rodrigues
 recruit_character = PRM_joão_do_canto_e_castro
 recruit_character = PRM_américo_rodrigues_tomás
-recruit_character = PRM_teodoro_rodrigues
-recruit_character = PRM_tiago_vidigal
-recruit_character = PRM_pascoal_da_cunha
-recruit_character = PRM_mário_de_oliveira
-
 
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_abs
 	trade_pro
 	economy_indzing
 	mobilization_2
 	
+	### National Spirits ###
 	POR_divided_country
 	PRM_restoration
 	POR_illiteracy
+	
+	### Ministers ###
 	POR_Henrique_Mitchell_de_Paiva_Cabral_Couceiro_hog_rwp
 	POR_Luis_Almeida_Braga_for_rwp
 	POR_Jose_Hipolito_Vaz_Raposo_eco_nsy
@@ -40,24 +49,53 @@ add_ideas = {
 	POR_Ortins_Bettencourt_cair_ade
 }
 
-set_research_slots = 3
-
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
 	
+	### Infantry ###
 	infantry_weapons = 1
 	tech_support = 1	
 	gw_artillery = 1
+	
+	### Air ###
 	early_fighter = 1
 	early_bomber = 1
-	early_submarine = 1
-	early_destroyer = 1
 	CAS1 = 1
 }
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		transport = 1
+	}
+}
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = right_wing_populist
-	last_election = "1888.1.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -85,7 +123,3 @@ set_country_flag = banned_bolshevist
 set_country_flag = banned_spartacist
 set_country_flag = banned_revolutionary_socialist
 set_country_flag = banned_reformist_socialist
-
-set_convoys = 25
-set_stability = 0.1
-set_war_support = 0.45

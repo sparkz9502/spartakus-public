@@ -1,7 +1,12 @@
 ﻿capital = 41
-
 set_oob = "SPR"
+set_naval_oob = "SPR_naval"
+set_research_slots = 3
+set_convoys = 150
+set_stability = 0.3
+set_war_support = 0.5
 
+### Country Leaders ###
 recruit_character = SPR_niceto_alcalá_zamora
 recruit_character = SPR_Francisco_Largo_Caballero
 recruit_character = SPR_Indalecio_Prieto_Tuero
@@ -10,17 +15,19 @@ recruit_character = SPR_cnt_central_commitee
 recruit_character = SPR_mannuel_fal_conde
 recruit_character = SPR_onésimo_redondo
 recruit_character = SPR_jose_maría_albiñana
+
+### Field Marshals ###
 recruit_character = SPR_josé_asensio_torrado
-recruit_character = SPR_mariano_Álvarez
-recruit_character = SPR_baldomero_villapol
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_tot
 	trade_pro
 	economy_semind
 	mobilization_1
 	
+	### National Spirits ###
 	SPR_Agrarian_Question_idea
 	SPR_Military_Unrest_idea
 	SPR_Unstable_Coalition_idea
@@ -28,38 +35,72 @@ add_ideas = {
 	SPR_Generalized_Illiteracy_idea
 }
 
-set_research_slots = 3
-
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	fuel_silos = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_recon = 1
 	tech_support = 1		
 	tech_engineers = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
+	interwar_antiair = 1
+	
+	### Air ###
 	early_fighter = 1
 	early_bomber = 1
 	naval_bomber1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	basic_heavy_cruiser = 1
-	early_battleship = 1
-	transport = 1
+}
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_medium_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		basic_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		basic_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
 }
 
-set_convoys = 150
-set_stability = 0.5
+### Politics ###
 
 set_politics = {	
 	ruling_party = social_liberal
 	last_election = "1931.6.28"
-	election_frequency = 48
-	elections_allowed = no
-
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -81,28 +122,3 @@ set_country_flag = coalition_spartacist
 set_country_flag = coalition_reformist_socialist
 set_country_flag = coalition_social_democrat
 set_country_flag = coalition_social_liberal
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "C Class"
-	type = submarine_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		sub_engine_upgrade = 1
-		sub_stealth_upgrade = 1
-		sub_torpedo_upgrade = 1
-	}
-}
-
-create_equipment_variant = {
-	name = "Príncipe Alfonso Class"
-	type = light_cruiser_1
-	upgrades = {
-		ship_reliability_upgrade = 1
-		ship_engine_upgrade = 1
-		ship_gun_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-}

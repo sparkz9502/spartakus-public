@@ -146,7 +146,6 @@ units = {
 		start_equipment_factor = 0.5
 
 	}
-	##### No Naval OOB #####
 }
 
 air_wings = {

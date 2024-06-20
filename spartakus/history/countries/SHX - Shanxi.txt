@@ -1,8 +1,12 @@
 ﻿capital = 615
-
 set_oob = "SHX"
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.5
+set_war_support = 0.6
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_pro
@@ -10,18 +14,27 @@ add_ideas = {
 	mobilization_1
 }
 
-set_stability = 0.7
-set_war_support = 0.4
-# Starting tech
+### Country Leaders ###
+recruit_character = SHX_yan_xishan
+
+### Generals ###
+recruit_character = SHX_wang_jingguo
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
+	gw_artillery = 1
 }
+
+### Politics ###
+
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -37,26 +50,4 @@ set_popularities = {
     right_wing_populist = 1
     national_syndicalist = 1
     national_corporatist = 1
-}
-
-create_country_leader = {
-	name = "Yan Xishan"
-	desc = "POLITICS_YAN XISHAN_DESC"
-	picture = "GFX_portrait_shanxi_portrait_yan_xishan"
-	expire = "1965.1.1"
-	ideology = authoritarian_republicanism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Wang Jingguo"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { politically_connected }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

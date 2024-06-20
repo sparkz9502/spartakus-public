@@ -1,0 +1,16 @@
+characters={
+	IRQ_faisal_i={
+		name="Faisal I"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRQ/Portrait_Faisal_I.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FAISAL_I_DESC"
+			ideology=semi_constitutional_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

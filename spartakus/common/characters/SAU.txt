@@ -1,0 +1,30 @@
+characters={
+	SAU_abdulaziz_ibn_saud={
+		name="Abdulaziz Ibn Saud"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_Ibn_Saud.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ABDULAZIZ_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SAU_faisal_al_duwaish={
+		name="Faisal al-Duwaish"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAU/Portrait_Faisal_al-Duwaish.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FAISAL_AL_DUWAISH_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

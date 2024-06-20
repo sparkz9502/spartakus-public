@@ -14,7 +14,7 @@ NDefines.NCountry.EVENT_PROCESS_OFFSET = 5									-- Vanilla is 20
 NDefines.NCountry.BASE_STABILITY_WAR_FACTOR = -0.2							-- Vanilla is -0.3
 NDefines.NCountry.WAR_SUPPORT_OFFNSIVE_WAR = -0.1							-- Vanilla is -0.2
 NDefines.NCountry.WAR_SUPPORT_DEFENSIVE_WAR = 0.2							-- Vanilla is 0.3
-NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1.25						-- Vanilla is 2
+NDefines.NPolitics.BASE_POLITICAL_POWER_INCREASE = 1.00						-- Vanilla is 2
 NDefines.NBuildings.INFRASTRUCTURE_RESOURCE_BONUS = 0.05                    -- Vanilla is 0.2
 NDefines.NBuildings.SUPPLY_ROUTE_RESOURCE_BONUS = 0.0                       -- Vanilla is 0.2
 NDefines.NBuildings.OWNER_CHANGE_EXTRA_SHARED_SLOTS_FACTOR = 1              -- Vanilla is 0.5
@@ -56,12 +56,6 @@ NDefines.NDiplomacy.OPINION_FOR_DEMO_FROM_WT_GENERATION = 0					-- Vanilla is -2
 NDefines.NAI.MAX_THREAT_FOR_FIRST_YEAR_CIVILIAN_MODE = 30					-- Vanilla is 60
 
 -- Graphics
-NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_WIDTH = 10						-- Fixes flickering/bugged flags
-NDefines.NGraphics.COUNTRY_FLAG_TEX_MAX_SIZE = 512							-- Fixes flickering/bugged flags
-NDefines.NGraphics.COUNTRY_FLAG_SMALL_TEX_MAX_SIZE = 128					-- Fixes flickering/bugged flags
-NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_WIDTH = 10					-- Fixes flickering/bugged flags
-NDefines.NGraphics.COUNTRY_FLAG_STRIPE_TEX_MAX_HEIGHT = 4096				-- Fixes flickering/bugged flags
-NDefines.NGraphics.COUNTRY_FLAG_LARGE_STRIPE_MAX_HEIGHT = 12400				-- Fixes flickering/bugged flags
 NDefines.NGraphics.VICTORY_POINT_MAP_ICON_TEXT_CUTOFF = {300, 600, 800}  	-- Vanilla is 100, 250, 500
 NDefines.NGraphics.VICTORY_POINTS_DISTANCE_CUTOFF = {300, 800, 1000} 		-- Vanilla is 300, 500, 1500
 

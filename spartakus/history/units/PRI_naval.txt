@@ -1,0 +1,99 @@
+﻿instant_effect = {
+
+	### Ship Variants ###
+	
+	create_equipment_variant = {
+		name = "Tverdiy Class"
+		type = ship_hull_light_1
+		name_group = PRI_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Sokol Class"
+		type = ship_hull_light_1
+		name_group = PRI_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Buyny Class"
+		type = ship_hull_light_1
+		name_group = PRI_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Grozny Class"
+		type = ship_hull_light_1
+		name_group = PRI_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Sibirskaya voyennaya flotiliya"
+		naval_base = 957 #Vladivostok
+		task_force = {
+			name = "Sibirskaya voyennaya flotiliya"
+			location = 957 #Vladivostok
+			
+			#Destroyers
+			ship = { name = "Inzhener-Mekhanik Anastasov" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Tverdiy Class" } } }
+			ship = { name = "Leytenant Maleev" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Tverdiy Class" } } }
+			ship = { name = "Tochny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Tverdiy Class" } } }
+			ship = { name = "Trevozhny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Tverdiy Class" } } }
+			ship = { name = "Tverdiy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Tverdiy Class" } } }
+			ship = { name = "Bravoy" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Buyny Class" } } }
+			ship = { name = "Bodry" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Buyny Class" } } }
+			ship = { name = "Boyky" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Buyny Class" } } }
+			ship = { name = "Serdity" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Sokol Class" } } }
+			ship = { name = "Skory" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Sokol Class" } } }
+			ship = { name = "Statny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Sokol Class" } } }
+			ship = { name = "Smelny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Sokol Class" } } }
+			ship = { name = "Grozny" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = PRI version_name = "Grozny Class" } } }
+			
+		}
+	}
+}

@@ -1,4 +1,48 @@
 characters={
+	ITA_vittorio_emanuele_iii={
+		name="Vittorio Emanuele III"
+		portraits={
+			civilian={
+				large="gfx/leaders/ITA/Portrait_Vittorio_Emanuele_III.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
+			ideology=liberal_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	ITA_benito_mussolini={
 		name="Benito Mussolini"
 		portraits={
@@ -11,26 +55,6 @@ characters={
 			ideology=national_corporatist_subtype
 			expire="1965.1.1.1"
 			id=-1
-		}
-	}
-	ITA_victor_emmanuel_iii={
-		name="Victor Emmanuel III"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_ITA_victor_emmanuel_iii.dds"
-			}
-			army={
-				large="gfx/leaders/ITA/Portrait_Italy_Victor_Emmanuel_III.dds"
-			}
-		}
-		field_marshal={
-			traits={ old_guard politically_connected harsh_leader }
-			skill=1
-			attack_skill=1
-			defense_skill=1
-			planning_skill=2
-			logistics_skill=1
-			legacy_id=-1
 		}
 	}
 	ITA_pietro_badoglio={
@@ -325,50 +349,6 @@ characters={
 		country_leader={
 			desc="POLITICS_CARLO_ROSSELLI_DESC"
 			ideology=reformist_socialist_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	ITA_vittorio_emanuele_iii={
-		name="Vittorio Emanuele III"
-		portraits={
-			civilian={
-				large="gfx/leaders/ITA/Portrait_Vittorio_Emanuele_III.tga"
-			}
-		}
-		country_leader={
-			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
-			ideology=social_democrat_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
-			ideology=social_liberal_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
-			ideology=liberal_conservative_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
-			ideology=social_conservative_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
-			ideology=authoritarian_conservative_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-		country_leader={
-			desc="POLITICS_VITTORIO_EMANUELE_III_DESC"
-			ideology=right_wing_populist_subtype
 			expire="1965.1.1.1"
 			id=-1
 		}

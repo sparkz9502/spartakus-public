@@ -1,0 +1,30 @@
+characters={
+	LIT_aleksandras_stulginskis={
+		name="Aleksandras Stulginskis"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_Aleksandras_Stulginskis.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALEKSANDRAS_STULGINSKIS_DESC"
+			ideology=moderate_agrarian_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIT_antanas_smetona={
+		name="Antanas Smetona"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIT/Portrait_Antanas_Smetona.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ANTANAS_SMETONA_DESC"
+			ideology=reactionary_republicanism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

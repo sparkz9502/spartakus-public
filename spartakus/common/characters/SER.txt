@@ -1,0 +1,256 @@
+characters={
+	SER_petar_ii={
+		name="Petar II"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_Serbia_Peter_II.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PETAR_II_DESC"
+			ideology=authoritarian_conservative_subtype
+			traits={ heir_of_unpopular_dynasty }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_PETAR_II_DESC"
+			ideology=right_wing_populist_subtype
+			traits={ heir_of_unpopular_dynasty }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_PETAR_II_DESC"
+			ideology=national_syndicalist_subtype
+			traits={ heir_of_unpopular_dynasty }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SER_aleksa_stanojevic={
+		name="Aleksa Stanojević"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_Aleksa_Stanojevic.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALEKSA_STANOJEVIC_DESC"
+			ideology=liberal_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_ALEKSA_STANOJEVIC_DESC"
+			ideology=social_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SER_milan_pribicevic={
+		name="Milan Pribićević"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_Milan_Pribicevic.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MILAN_PRIBICEVIC_DESC"
+			ideology=national_corporatist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SER_ljubomir_davidovic={
+		name="Ljubomir Davidović"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_Ljubomir_Davidovic.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_LJUBOMIR_DAVIDOVIC_DESC"
+			ideology=social_liberal_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_LJUBOMIR_DAVIDOVIC_DESC"
+			ideology=social_democrat_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SER_dragisa_lapcevic={
+		name="Dragiša Lapčević"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_Dragisa_Lapcevic.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_DRAGISA_LAPCEVIC_DESC"
+			ideology=reformist_socialist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SER_komitet_KPJ={
+		name="Centralni Komitet KPJ"
+		portraits={
+			civilian={
+				large="gfx/leaders/SER/Portrait_KPJ.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KOMITET_KPJ_DESC"
+			ideology=revolutionary_socialist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KOMITET_KPJ_DESC"
+			ideology=spartacist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_KOMITET_KPJ_DESC"
+			ideology=bolshevist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SER_konstantin_pecanac={
+		name="Konstantin Milovanović Pećanac"
+		portraits={
+			army={
+				large="gfx/leaders/SER/Portrait_Serbia_Konstantin_Milovanovic_Pecanac.tga"
+			}
+		}
+		field_marshal={
+			traits = {
+				trait_reckless
+				aggressive_assaulter
+				politically_connected
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=206
+		}
+	}
+	SER_petar_bojovic = {
+        name = "Petar Bojović"
+        portraits={
+            army={
+                large = "gfx/leaders/SER/Portrait_Petar_Bojovic.tga"
+            }
+        }
+        field_marshal={
+			traits = {
+				brilliant_strategist
+				offensive_doctrine
+				old_guard
+				war_hero
+			}
+			skill = 4
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=205
+		}
+    }
+	SER_dusan_trifunovic = {
+        name = "Dušan Trifunović"
+        portraits={
+            army={
+                large = "gfx/leaders/SER/Portrait_Serbia_Dusan_Trifunovic.tga"
+            }
+        }
+        corps_commander={
+			traits = {
+				unyielding_defender
+				trait_mountaineer
+			}
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=207
+		}
+    }
+	SER_petar_vukcevic = {
+        name = "Petar Vukčević"
+        portraits={
+            army={
+                large = "gfx/leaders/SER/Portrait_Serbia_Petar_Vukcevic.tga"
+            }
+        }
+        corps_commander={
+			traits = {
+				camouflage_expert
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=208
+		}
+    }
+	SER_ljubomir_maric = {
+        name = "Ljubomir Marić"
+        portraits={
+            army={
+                large = "gfx/leaders/SER/Portrait_Serbia_Lubomir_Maric.tga"
+            }
+        }
+        corps_commander={
+			traits = {
+				career_officer
+				combined_arms_expert
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=209
+		}
+    }
+	SER_milorad_petrovic = {
+        name = "Milorad Petrović"
+        portraits={
+            army={
+                large = "gfx/leaders/SER/Portrait_Serbia_Milorad_Petrovic.tga"
+            }
+        }
+        corps_commander={
+			traits = {
+				trait_cautious
+				harsh_leader
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=210
+		}
+    }
+}

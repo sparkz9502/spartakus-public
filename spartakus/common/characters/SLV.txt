@@ -1,0 +1,36 @@
+characters={
+    SLV_josip_vidmar = {
+        name = "Josip Vidmar"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SLV/Portrait_Josip_Vidmar.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JOSIP_VIDMAR_DESC"
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	SLV_anton_korosec = {
+        name = "Anton Korošec"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SLV/Portrait_Anton_Korosec.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ANTON_KOROSEC_DESC"
+            expire = "1965.1.1"
+            ideology = social_conservative_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

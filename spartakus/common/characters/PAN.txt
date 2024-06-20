@@ -1,0 +1,19 @@
+characters={
+	PAN_ricardo_joaquin_alfaro = {
+        name = "Ricardo Joaquín Alfaro"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PAN/Portrait_Ricardo_Joaquin_Alfaro.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_RICARDO_JOAQUIN_ALFARO_DESC"
+            expire = "1965.1.1"
+            ideology = classical_liberalism
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

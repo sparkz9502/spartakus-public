@@ -4,7 +4,7 @@ state={
 	name="STATE_657"
 
 	history={
-		owner = SOV
+		owner = PRI
 		buildings = {
 			infrastructure = 2
 			air_base = 2
@@ -16,15 +16,16 @@ state={
 		victory_points = {
 			12654 1 
 		}
-		add_core_of = SOV
-		add_claim_by = PRI
+		add_core_of = PRI
+		add_claim_by = SOV
 
 	}
 
 	provinces={
-		1739 1802 1842 4246 4725 4779 4829 7616 7748 7754 7763 7801 10655 12654 
+		1739 1802 1842 4246 4725 4731 4779 4829 4847 7616 7748 7754 7763 7801 10655 12591 12654 12657 
 	}
 	manpower=415000
 	buildings_max_level_factor=1.000
 	state_category=rural
+	local_supplies=0.000
 }

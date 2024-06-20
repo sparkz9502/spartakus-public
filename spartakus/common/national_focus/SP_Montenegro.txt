@@ -1,6 +1,6 @@
 ###########################
 # Montenegro Focus Tree
-# By Sybil
+# By sparkz and Sybil
 ###########################
 
 focus_tree = {
@@ -15,75 +15,86 @@ focus_tree = {
 	default = no
 	
 	focus = {
-		id = WIP
-		icon = GFX_
-		cost = 0
-		available = {
-		}
-		completion_reward = {
-		}
-		x = 5
-		y = 1
-
-	}
-	
-	#focus = {
 		id = MNT_Import_Western_Goods
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_Focus_Import_Economy
+		cost = 8
 		completion_reward = {
+			add_trade_laif = yes
+			add_stability = 0.05
 		}
 		x = 3
-		y = 1
+		y = 0
 
 	}
 	
 	focus = {
 		id = MNT_Modernize_Agriculture
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_goal_improvised_farming_machinery
+		cost = 8
 		prerequisite = {
 			focus = MNT_Import_Western_Goods
 		}
 		completion_reward = {
+			105 = {
+				add_building_construction = {
+    				type = infrastructure
+    				level = 1
+    				instant_build = yes
+				}
+			}
+			add_stability = 0.05
 		}
 		x = 3
-		y = 2
+		y = 1
 
 	}
 	
 	focus = {
 		id = MNT_Mountaineer_Tradition
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_focus_GRE_a_land_of_mountains
+		cost = 8
 		prerequisite = {
 			focus = MNT_Import_Western_Goods
 		}
 		completion_reward = {
+			army_experience = 10
+			swap_ideas = {
+				remove_idea = MNT_Montenegrin_Militarism
+				add_idea = MNT_Montenegrin_Militarism_2
+			}
 		}
 		x = 1
-		y = 2
+		y = 1
 
 	}
 	
 	focus = {
 		id = MNT_Basic_Industries
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_Generic_Construction_Engineering
+		cost = 8
 		prerequisite = {
 			focus = MNT_Import_Western_Goods
 		}
 		completion_reward = {
+			105 = {
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+			add_economy_indzing = yes
 		}
 		x = 5
-		y = 2
+		y = 1
 
 	}
 	
 	focus = {
 		id = MNT_Green_Populism
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_focus_generic_monarchy_2
+		cost = 8
 		prerequisite = {
 			focus = MNT_Modernize_Agriculture
 		}
@@ -91,16 +102,18 @@ focus_tree = {
 			focus = MNT_Basic_Industries
 		}
 		completion_reward = {
+			increase_ruling_party_popularity_by_5 = yes
+			add_war_support = 0.05
 		}
 		x = 5
-		y = 3
+		y = 2
 
 	}
 	
 	focus = {
 		id = MNT_Adapted_Tactics
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_Focus_Volunteer_Army
+		cost = 8
 		prerequisite = {
 			focus = MNT_Modernize_Agriculture
 		}
@@ -108,16 +121,21 @@ focus_tree = {
 			focus = MNT_Mountaineer_Tradition
 		}
 		completion_reward = {
+			army_experience = 10
+			swap_ideas = {
+				remove_idea = MNT_Montenegrin_Militarism_2
+				add_idea = MNT_Montenegrin_Militarism_3
+			}
 		}
 		x = 1
-		y = 3
+		y = 2
 
 	}
 	
 	focus = {
 		id = MNT_Colonize_the_North
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_Focus_Colonial_Expeditions
+		cost = 8
 		prerequisite = {
 			focus = MNT_Import_Western_Goods
 		}
@@ -128,16 +146,21 @@ focus_tree = {
 			focus = MNT_Basic_Industries	
 		}
 		completion_reward = {
+			1153 = {
+				add_manpower = 10000
+				add_extra_state_shared_building_slots = 1
+				set_state_category = pastoral
+			}
 		}
 		x = 3
-		y = 3
+		y = 2
 
 	}
 	
 	focus = {
 		id = MNT_Fortify_Sandzak
-		icon = GFX_goal_liberty
-		cost = 7.00
+		icon = GFX_goal_nested_fortifications
+		cost = 8
 		prerequisite = {
 			focus = MNT_Adapted_Tactics
 		}
@@ -148,9 +171,46 @@ focus_tree = {
 			focus = MNT_Colonize_the_North	
 		}
 		completion_reward = {
+			add_war_support = 0.05
+			108 = {
+				add_building_construction = {
+					type = bunker
+					province = 937
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3922
+					level = 1
+					instant_build = yes
+				}
+				add_building_construction = {
+					type = bunker
+					province = 3939
+					level = 1
+					instant_build = yes
+				}
+			}
+			1153 = {
+				add_building_construction = {
+					type = bunker
+					province = 6913
+					level = 1
+					instant_build = yes
+				}
+			}
+			1172 = {
+				add_building_construction = {
+					type = bunker
+					province = 14554
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		x = 3
-		y = 4
+		y = 3
 
 	}
 }

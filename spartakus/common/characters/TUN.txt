@@ -1,0 +1,19 @@
+characters={
+    TUN_ahmed_ii = {
+        name = "Ahmed II"
+        portraits={
+            civilian={
+                large = "gfx/leaders/TUN/Portrait_Ahmed_II.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_AHMED_II_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

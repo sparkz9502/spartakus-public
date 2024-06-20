@@ -1,0 +1,19 @@
+characters={
+    COS_cleto_gonzalez_viquez = {
+        name = "Cleto González Víquez"
+        portraits={
+            civilian={
+                large = "gfx/leaders/COS/Portrait_Cleto_Gonzalez_Viquez.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_CLETO_GONZALEZ_VIQUEZ_DESC"
+            expire = "1965.1.1"
+            ideology = conservative_liberalism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

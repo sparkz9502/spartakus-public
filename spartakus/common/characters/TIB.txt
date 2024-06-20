@@ -1,0 +1,16 @@
+characters={
+	TIB_thubten_gyatso={
+		name="Thubten Gyatso"
+		portraits={
+			civilian={
+				large="gfx/leaders/TIB/Portrait_Thubten_Gyatso.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_THUBTEN_GYATSO_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

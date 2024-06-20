@@ -1,27 +1,30 @@
 ﻿capital = 541
-OOB = "empty"
-set_research_slots = 2
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
-	economy_unind
+	economy_undev
 	mobilization_1
 }
+
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
-	### MOD ###
-	### General ###
-	
-	### INF ###
 	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -37,81 +40,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Heinrich Kirchheim"
-	desc = "POLITICS_KIRSCHHEIM_DESC"
-	picture = "Portrait_NAM_Heinrich_Kircheim.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		
-	}
-}
-
-
-
-### Field Marshal
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Heinrich Kirchheim"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_Heinrich_Kircheim.tga"
-	traits = {
-		old_guard
-	}
-	skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Knobel"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_Knobel.tga"
-	traits = {
-		fortress_buster
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Owen"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_Owen.tga"
-	traits = {
-		panzer_leader
-	}
-	skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Wanstone"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_Wanstone.tga"
-	traits = {
-	}
-	skill = 1
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "van Deffels"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_van_Deffels.tga"
-	traits = {
-	}
-	skill = 1
-}
-
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "de Beers"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_de_Beers.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Freyverts"
-	portrait_path = "gfx/leaders/NAM/Portrait_NAM_Freyverts.tga"
-	traits = {
-		blockade_runner
-	}
-	skill = 1
 }

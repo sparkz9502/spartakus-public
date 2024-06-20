@@ -1,0 +1,195 @@
+characters={
+    NOR_haakon_vii={
+		name="Haakon VII"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_Haakon_VII.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=revolutionary_socialist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=reformist_socialist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=social_democrat_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=social_liberal_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=liberal_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=social_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=authoritarian_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=right_wing_populist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=national_syndicalist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_HAAKON_VII_DESC"
+			ideology=national_corporatist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_peder_furubotn={
+		name="Peder Furubotn"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_NOR_Peder_Furubotn.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PEDER_FURUBOTN_DESC"
+			ideology=spartacist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_olav_scheflo={
+		name="Olav Scheflo"
+		portraits={
+			civilian={
+				large="gfx/leaders/NOR/Portrait_NOR_Olav_Scheflo.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OLAV_SCHEFLO_DESC"
+			ideology=bolshevist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	NOR_kristian_laake = {
+        name = "Kristian Laake"
+        portraits={
+            army={
+                large = "gfx/leaders/NOR/Portrait_NOR_Kristian_Laake.tga"
+            }
+        }
+        field_marshal={
+			traits = { old_guard politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+	NOR_carl_gustav_fleischer = {
+        name = "Carl Gustav Fleischer"
+        portraits={
+            army={
+                large = "gfx/leaders/NOR/Portrait_NOR_Carl_Gustav_Fleischer.tga"
+            }
+        }
+        corps_commander={
+			traits = {  trickster winter_specialist }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+    }
+	NOR_otto_ruge = {
+        name = "Otto Ruge"
+        portraits={
+            army={
+                large = "gfx/leaders/NOR/Portrait_NOR_Otto_Ruge.tga"
+            }
+        }
+        corps_commander={
+			traits = { winter_specialist infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+	NOR_crown_prince_olav = {
+        name = "Crown Prince Olav"
+        portraits={
+            army={
+                large = "gfx/leaders/NOR/Portrait_NOR_Crown_Prince_Olav.tga"
+            }
+        }
+        corps_commander={
+			traits = { naval_invader winter_specialist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=2000
+		}
+    }
+	NOR_elias_corneliussen = {
+        name = "Elias Corneliussen"
+        portraits={
+            army={
+                large = "gfx/leaders/NOR/Portrait_Elias_Corneliussen.tga"
+            }
+        }
+        navy_leader={
+			traits = { spotter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+}

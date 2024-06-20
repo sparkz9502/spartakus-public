@@ -1,30 +1,36 @@
 ﻿capital = 671
-
 set_oob = "VNA"
+set_research_slots = 1
+set_convoys = 0
+set_stability = 0.3
+set_war_support = 0.8
 
-add_ideas = {
+add_ideas = {	
+	### Laws ###
 	recruitment_volunteer
 	governance_col
 	trade_aut
 	economy_unind
 	mobilization_3
 	
+	### National Spirits ###
 	VNA_national_resurrection
 	VNA_unorganised
 }
 
-set_technology = {
+### Country Leaders ###
+recruit_character = VNA_central_committee_pni
+
+### Starting Tech ###
+set_technology = {	
+	### Infantry ###
+	infantry_weapons = 1
 }
 
-set_research_slots = 2
-set_convoys = 0
-set_stability = 0.3
-set_war_support = 0.8
+### Politics ###
 
 set_politics = {	
 	ruling_party = social_democrat
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -41,14 +47,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Central Commitee of the PNI"
-	desc = ""
-	picture = "Portrait_VNA_PNI.tga"
-	expire = "1953.3.1"
-	ideology = social_democrat_subtype
-	traits = {
-	}
 }

@@ -51,11 +51,32 @@ MNT_national_corporatist_party_long:0 "Greens Extremists (Zelenaški Ekstremisti
 
 ### Focuses ###
 
+MNT_Import_Western_Goods:0 "Import Western Goods"
+MNT_Import_Western_Goods_desc:0 ""
+MNT_Modernize_Agriculture:0 "Mechanization of Agriculture"
+MNT_Modernize_Agriculture_desc:0 ""
+MNT_Mountaineer_Tradition:0 "Mountaineer Traditions"
+MNT_Mountaineer_Tradition_desc:0 ""
+MNT_Basic_Industries:0 "Expansion of Basic Industries"
+MNT_Basic_Industries_desc:0 ""
+MNT_Green_Populism:0 "Green Populism"
+MNT_Green_Populism_desc:0 ""
+MNT_Adapted_Tactics:0 "Adapted Tactics"
+MNT_Adapted_Tactics_desc:0 ""
+MNT_Colonize_the_North:0 "Colonize the North"
+MNT_Colonize_the_North_desc:0 ""
+MNT_Fortify_Sandzak:0 "Fortify Sandzak"
+MNT_Fortify_Sandzak_desc:0 ""
+
 ### Ideas ###
 
 MNT_Montenegrin_Militarism:0 "Montenegrin Militarism"
 MNT_Montenegrin_Militarism_desc:0 "Montenegro has always been a thorn in the eye of powers such as the Ottomans seeking to conquer it, well-protected by it's harsh terrain and strong tribes. Even in the 20th century, it had been capable of fielding a, relatively to its size, gargantuan army in the Great War, and could possibly do so again under future pressure."
-     
+MNT_Montenegrin_Militarism_2:0 "Montenegrin Militarism"
+MNT_Montenegrin_Militarism_2_desc:0 "Montenegro has always been a thorn in the eye of powers such as the Ottomans seeking to conquer it, well-protected by it's harsh terrain and strong tribes. Even in the 20th century, it had been capable of fielding a, relatively to its size, gargantuan army in the Great War, and could possibly do so again under future pressure."
+MNT_Montenegrin_Militarism_3:0 "Montenegrin Militarism"
+MNT_Montenegrin_Militarism_3_desc:0 "Montenegro has always been a thorn in the eye of powers such as the Ottomans seeking to conquer it, well-protected by it's harsh terrain and strong tribes. Even in the 20th century, it had been capable of fielding a, relatively to its size, gargantuan army in the Great War, and could possibly do so again under future pressure."
+
 ### Flags ###
 
 ### Tooltips ###

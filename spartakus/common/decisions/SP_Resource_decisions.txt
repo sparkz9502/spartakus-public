@@ -1,0 +1,1313 @@
+resource_decisions = {
+
+	# ALL OF THESE SHOULD BE CONVERTED TO CONTENT-LINKED FOCUSES OR DECISIONS WHEN COUNTRIES ARE BEING DEVELOPED #
+	
+	# HIGHLY WIP CURRENTLY #
+
+	### Hungary ###
+
+	HUN_bauxite_mining_1 = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = HUN }
+		highlight_state_targets = { 
+			state = 155
+		}
+		available = {	
+			date > 1933.01.01
+			controls_state = 155
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation1
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 56
+				state = 155
+			}
+		}
+	}
+	
+	HUN_bauxite_mining_2 = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = HUN }
+		highlight_state_targets = { 
+			state = 155
+		}
+		available = {	
+			date > 1934.01.01
+			controls_state = 155
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 72
+				state = 155
+			}
+		}
+	}
+	
+	### Greece ###
+	
+	GRE_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = GRE }
+		highlight_state_targets = { 
+			state = 1358
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 1358
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 65
+				state = 1358
+			}
+		}
+	}
+	
+	GRE_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = GRE }
+		highlight_state_targets = { 
+			state = 731
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 731
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 23
+				state = 731
+			}
+		}
+	}
+	
+	### France ###
+	
+	FRA_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = FRA }
+		highlight_state_targets = { 
+			state = 1459
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 1459
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 80
+				state = 1459
+			}
+		}
+	}
+	
+	### Italy ###
+	
+	ITA_bauxite_mining_1 = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { 
+			OR = { 
+				tag = ITA
+				tag = SRI
+				tag = ILN
+				tag = VNZ
+			}
+		}
+		highlight_state_targets = { 
+			state = 837
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 837
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 38
+				state = 837
+			}
+		}
+	}
+	
+	ITA_bauxite_mining_2 = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { 
+			OR = { 
+				tag = ITA
+				tag = SRI
+				tag = ILN
+				tag = VNZ
+			}
+		}
+		highlight_state_targets = { 
+			state = 837
+		}
+		available = {	
+			date > 1937.01.01
+			controls_state = 837
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 46
+				state = 837
+			}
+		}
+	}
+	
+	### United Kingdom ###
+	
+	ENG_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = ENG }
+		highlight_state_targets = { 
+			state = 119
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 119
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 50
+				state = 119
+			}
+		}
+	}
+	
+	ENG_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = ENG }
+		highlight_state_targets = { 
+			state = 183
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 183
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 7
+				state = 183
+			}
+		}
+	}
+	
+	### British Raj ###
+	
+	RAJ_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = RAJ }
+		highlight_state_targets = { 
+			state = 1113
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 1113
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 8
+				state = 1113
+			}
+		}
+	}
+	
+	### British Malaya ###
+	
+	MLY_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = MLY }
+		highlight_state_targets = { 
+			state = 1015
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 1015
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 47
+				state = 1015
+			}
+		}
+	}
+	
+	### British West Indies ###
+	
+	CFA_bauxite_mining_1 = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = CFA }
+		highlight_state_targets = { 
+			state = 687
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 687
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 40
+				state = 687
+			}
+		}
+	}
+	
+	CFA_bauxite_mining_2 = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = CFA }
+		highlight_state_targets = { 
+			state = 687
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 687
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 95
+				state = 687
+			}
+		}
+	}
+	
+	### British West Africa ###
+	
+	BWA_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = BWA }
+		highlight_state_targets = { 
+			state = 274
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 274
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 23
+				state = 274
+			}
+		}
+	}
+	
+	### Netherlands ###
+	
+	HOL_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = HOL }
+		highlight_state_targets = { 
+			state = 309
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 309
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 144
+				state = 309
+			}
+		}
+	}
+	
+	### Dutch East Indies ###
+	
+	INS_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = INS }
+		highlight_state_targets = { 
+			state = 843
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 843
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 75
+				state = 843
+			}
+		}
+	}
+	
+	### Romania ###
+	
+	ROM_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = ROM }
+		highlight_state_targets = { 
+			state = 83
+		}
+		available = {	
+			date > 1933.01.01
+			controls_state = 83
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation1
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 5
+				state = 83
+			}
+		}
+	}
+	
+	### Yugoslavia ###
+	
+	YUG_bauxite_mining_dalmatia = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { 
+			OR = {
+				tag = SER
+				tag = RSE
+				tag = CRO
+				tag = STJ
+			}
+		}
+		highlight_state_targets = { 
+			state = 1340
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 1340
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 60
+				state = 1340
+			}
+		}
+	}
+	
+	YUG_bauxite_mining_herzegovina = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { 
+			OR = {
+				tag = SER
+				tag = RSE
+				tag = CRO
+				tag = STJ
+				tag = BOS
+			}
+		}
+		highlight_state_targets = { 
+			state = 1207
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 1207
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 32
+				state = 1207
+			}
+		}
+	}
+	
+	YUG_bauxite_mining_montenegro = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { 
+			OR = {
+				tag = SER
+				tag = RSE
+				tag = CRO
+				tag = MNT
+			}
+		}
+		highlight_state_targets = { 
+			state = 105
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 105
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 45
+				state = 105
+			}
+		}
+	}
+	
+	### Soviet Union ###
+	
+	SOV_bauxite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = SOV }
+		highlight_state_targets = { 
+			state = 582
+		}
+		available = {	
+			date > 1935.01.01
+			controls_state = 582
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = bauxite
+				amount = 77
+				state = 582
+			}
+		}
+	}
+	
+	### United States ###
+	
+	USA_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = USA }
+		highlight_state_targets = { 
+			state = 388
+		}
+		available = {	
+			date > 1936.01.01
+			has_war = yes
+			controls_state = 388
+			controls_state = 385
+			controls_state = 378
+			controls_state = 463
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 76
+				state = 388
+			}
+			add_resource = {
+				type = raremetals
+				amount = 16
+				state = 385
+			}
+			add_resource = {
+				type = raremetals
+				amount = 62
+				state = 378
+			}
+			add_resource = {
+				type = raremetals
+				amount = 6
+				state = 463
+			}
+		}
+	}
+	
+	USA_molybdenum_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = USA }
+		highlight_state_targets = { 
+			state = 382
+		}
+		available = {	
+			date > 1936.01.01
+			has_war = yes
+			controls_state = 382
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 127
+				state = 382
+			}
+		}
+	}
+	
+	USA_vanadium_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = USA }
+		highlight_state_targets = { 
+			state = 382
+		}
+		available = {	
+			date > 1936.01.01
+			has_war = yes
+			controls_state = 382
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 46
+				state = 382
+			}
+		}
+	}
+	
+	USA_nickel_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = USA }
+		highlight_state_targets = { 
+			state = 1045
+		}
+		available = {	
+			date > 1936.01.01
+			has_war = yes
+			controls_state = 1045
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 3
+				state = 1045
+			}
+		}
+	}
+	
+	USA_tungsten_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = USA }
+		highlight_state_targets = { 
+			state = 387
+		}
+		available = {	
+			date > 1936.01.01
+			has_war = yes
+			controls_state = 387
+			controls_state = 379
+			controls_state = 378
+			controls_state = 382
+			controls_state = 363
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 40
+				state = 387
+			}
+			add_resource = {
+				type = raremetals
+				amount = 21
+				state = 379
+			}
+			add_resource = {
+				type = raremetals
+				amount = 30
+				state = 378
+			}
+			add_resource = {
+				type = raremetals
+				amount = 3
+				state = 382
+			}
+			add_resource = {
+				type = raremetals
+				amount = 3
+				state = 363
+			}
+		}
+	}
+	
+	### Australia ###
+	
+	AST_tungsten_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = AST }
+		highlight_state_targets = { 
+			state = 518
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 520
+			controls_state = 285
+			controls_state = 518
+			controls_state = 979
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 4
+				state = 520
+			}
+			add_resource = {
+				type = raremetals
+				amount = 1
+				state = 285
+			}
+			add_resource = {
+				type = raremetals
+				amount = 5
+				state = 518
+			}
+			add_resource = {
+				type = raremetals
+				amount = 2
+				state = 979
+			}
+		}
+	}
+	
+	### Albania ###
+	
+	ALB_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = ALB }
+		highlight_state_targets = { 
+			state = 1177
+		}
+		available = {	
+			date > 1936.01.01
+			controls_state = 1177
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 20
+				state = 1177
+			}
+		}
+	}
+	
+	### Bulgaria ###
+	
+	BUL_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = BUL }
+		highlight_state_targets = { 
+			state = 48
+		}
+		available = {	
+			date > 1934.01.01
+			controls_state = 48
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 50
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 6
+				state = 48
+			}
+		}
+	}
+	
+	### Brazil ###
+	
+	BRA_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = CUB }
+		highlight_state_targets = { 
+			state = 502
+		}
+		available = {	
+			date > 1934.01.01
+			controls_state = 502
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation2
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 25
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 4
+				state = 502
+			}
+		}
+	}
+	
+	### Canada ###
+	
+	CAN_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = CUB }
+		highlight_state_targets = { 
+			state = 468
+		}
+		available = {	
+			date > 1937.01.01
+			controls_state = 468
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 27
+				state = 468
+			}
+		}
+	}
+	
+	### Cuba ###
+	
+	CUB_chromite_mining = { 
+		icon = GFX_decision_generic_construction
+		ai_will_do = {
+			factor = 1000
+		}
+		allowed = { tag = CUB }
+		highlight_state_targets = { 
+			state = 820
+		}
+		available = {	
+			date > 1937.01.01
+			controls_state = 820
+			if = {
+				limit = {
+					NOT = {
+						is_ai = yes
+					}
+				}
+				OR = {
+					has_tech = excavation3
+					has_tech = excavation4
+					has_tech = excavation5
+				}
+			}
+		}
+		cost = 100
+		fire_only_once = yes
+		complete_effect = {
+			add_resource = {
+				type = raremetals
+				amount = 300
+				state = 820
+			}
+		}
+	}
+	
+}

@@ -1,4 +1,222 @@
-﻿##### Division Templates #####
+﻿instant_effect = {
+	### Tank Variants ###
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		
+		create_equipment_variant = {
+			name = "FT mod. 28"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_heavy_machine_gun
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 2
+			}
+			obsolete = yes
+		}
+		
+		create_equipment_variant = {
+			name = "FT Char Cannon"
+			type = light_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 1
+				tank_nsb_armor_upgrade = 2
+			}
+			obsolete = yes
+		}
+		
+		create_equipment_variant = {
+			name = "Char D1"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon
+				turret_type_slot = tank_light_one_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_cast_armor
+				engine_type_slot = tank_gasoline_engine
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_FRA_basic_light_tank_medium"
+		}
+		
+		create_equipment_variant = {
+			name = "Char B1"
+			type = heavy_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_medium_howitzer
+				turret_type_slot = tank_heavy_fixed_superstructure_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = secondary_turret_small_cannon
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 6
+				tank_nsb_armor_upgrade = 4
+			}
+			icon = "GFX_FRA_basic_heavy_tank_medium"
+		}
+
+		create_equipment_variant = {
+			name = "AMC 30"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_medium_two_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_welded_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 4
+				tank_nsb_armor_upgrade = 5
+			}
+			icon = "GFX_FRA_improved_medium_tank_medium"
+		}
+	}
+	
+	### Starting Production ###
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 5
+		progress = 0.5
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				creator = "FRA" 
+				version_name = "Char D1"
+			}
+			requested_factories = 2
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+				creator = "FRA" 
+			}
+			requested_factories = 3
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+	
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = medium_tank_chassis_0
+				creator = "FRA" 
+				version_name = "AMC 30"
+			}
+			requested_factories = 1
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+	
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = heavy_tank_chassis_0
+				creator = "FRA" 
+				version_name = "Char B1"
+			}
+			requested_factories = 1
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "FRA" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}
+
+##### Templates #####
+
 division_template = {
 	name = "Division d'Infanterie"		
 	division_names_group = FRA_INF_01
@@ -18,7 +236,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		field_hospital = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
 	}
 }
 division_template = {
@@ -40,7 +257,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		field_hospital = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
 	}
 }
 division_template = {
@@ -81,7 +297,6 @@ division_template = {
 		engineer = { x = 0 y = 1 }
 		recon = { x = 0 y = 2 }
 		field_hospital = { x = 0 y = 3 }
-		signal_company = { x = 0 y = 4 }
 	}
 }
 division_template = {
@@ -105,7 +320,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		field_hospital = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
 	}
 }
 division_template = {
@@ -121,7 +335,6 @@ division_template = {
 	support = {
 		artillery = { x = 0 y = 0 }
 		engineer = { x = 0 y = 1 }
-		signal_company = { x = 0 y = 2 }
 		field_hospital = { x = 0 y = 3 }
 	}
 }
@@ -163,10 +376,6 @@ division_template = {
 		field_hospital = { x = 0 y = 3 }
 	}
 }
-
-##############
-## LAND OOB ##
-##############
 
 units = {
 	#Colonial Divisions
@@ -898,7 +1107,8 @@ units = {
 		location = 3444
 		division_template = "Division Légère Mécanique"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "FRA" version_name = "FT mod. 28"} }
 	}
 	
 	division= {	# "2ème Div. Légère Mécanique"
@@ -909,7 +1119,8 @@ units = {
 		location = 589
 		division_template = "Division Légère Mécanique"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "FRA" version_name = "FT mod. 28"} }
 	}
 	
 	division= {	# "3ème Div. Légère Mécanique"
@@ -920,7 +1131,8 @@ units = {
 		location = 11465
 		division_template = "Division Légère Mécanique"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "FRA" version_name = "FT mod. 28"} }
 	}
 	
 	division= {	# "4ème Div. Légère Mécanique"
@@ -931,7 +1143,8 @@ units = {
 		location = 11502
 		division_template = "Division Légère Mécanique"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.7
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "FRA" version_name = "FT mod. 28"} }
 	}
 	
 	division= {	# "5ème Div. Légère Mécanique"
@@ -942,7 +1155,8 @@ units = {
 		location = 11560
 		division_template = "Division Légère Mécanique"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.3
+		force_equipment_variants = { light_tank_chassis_0 = { owner = "FRA" version_name = "Char D1"} }
 	}
 	
 	division= {	# "1ère Div. Cuirassée"
@@ -953,7 +1167,8 @@ units = {
 		location = 9517
 		division_template = "Division Cuirassée"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.6
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "Char D1"} }
 	}
 	
 	division= {	# "2ème Div. Cuirassée"
@@ -964,7 +1179,8 @@ units = {
 		location = 11606
 		division_template = "Division Cuirassée"
 		start_experience_factor = 0.1
-		start_equipment_factor = 0.9
+		start_equipment_factor = 0.6
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "FRA" version_name = "Char D1"} }
 	}
 }
 
@@ -1041,81 +1257,5 @@ air_wings = {
 			owner = "FRA" 
 			amount = 24
 		}
-	}
-}
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "FRA"
-		}
-		requested_factories = 5
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 3
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = artillery_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 2
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 3
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
-	}
-	
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 2
-		progress = 0.5
-		efficiency = 100
-	}
-	
-	add_equipment_production = {
-		equipment = {
-			type = tac_bomber_equipment_1
-			creator = "FRA" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
 	}
 }

@@ -10,7 +10,7 @@ ideas = {
 				consumer_goods_factor = 0.1
 				min_export = 0.1
 			}
-			picture = GFX_idea_generic_goods_red_bonus
+			picture = Economic_Modernization
 		}
 			
 		SOV_Autonomous_Republics = {
@@ -18,7 +18,7 @@ ideas = {
 				stability_factor = 0.05
 				conscription_factor = 0.05
 			}
-			picture = WIP
+			picture = Comintern_logo
 		}
 		
 		SOV_Famine_Risk = {

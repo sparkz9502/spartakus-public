@@ -309,16 +309,6 @@ SP_remove_ideology_opinion = {
 		}
 		remove_opinion_modifier = {
 			target = ROOT
-			modifier = SP_different_ideology
-		}
-		ROOT = {
-			remove_opinion_modifier = {
-				target = PREV
-				modifier = SP_different_ideology
-			}
-		}
-		remove_opinion_modifier = {
-			target = ROOT
 			modifier = SP_same_ideology
 		}
 		ROOT = {

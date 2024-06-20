@@ -1,28 +1,45 @@
 ﻿capital = 316
-
 set_oob = "COS"
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.3
+set_war_support = 0.2
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
-	governance_tot
+	governance_exec
 	trade_pro
 	economy_unind
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_low
+	judiciary_impartial
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = COS_cleto_gonzalez_viquez
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
+	gw_artillery = 1
 }
-set_war_support = 0.1
-set_convoys = 25
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
 	last_election = "1888.6.15"
 	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -38,15 +55,4 @@ set_popularities = {
     right_wing_populist = 1
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Cleto González Víquez"
-	desc = "POLITICS_CLETO_GONZALEZ_VIQUEZ_DESC"
-	picture = "Portrait_Cleto_Gonzalez_Viquez.tga"
-	expire = "1965.1.1"
-	ideology = conservative_liberalism
-	traits = {
-		#
-	}
 }

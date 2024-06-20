@@ -1,0 +1,16 @@
+characters={
+	SAR_charles_vyner_brooke={
+		name="Charles Vyner Brooke"
+		portraits={
+			civilian={
+				large="gfx/leaders/SAR/Portrait_Charles_Vyner_Brooke.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CHARLES_VYNER_BROOKE_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

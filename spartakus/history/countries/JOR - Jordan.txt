@@ -1,12 +1,10 @@
 ﻿capital = 455
-OOB = "empty"
-
-set_research_slots = 2
+set_research_slots = 3
 set_stability = 0.5
 set_war_support = 0.5
-set_convoys = 5
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
@@ -14,14 +12,18 @@ add_ideas = {
 	mobilization_1
 }
 
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -38,24 +40,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Abdullah bin al-Hussein"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_land_3.dds"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Fu'ad Nassar"
-	desc = ""
-	picture = "gfx/leaders/JOR/Portrait_Arabia_Generic_navy_2.dds"
-	ideology = bolshevist_subtype
-	traits = {
-		#
-	}
 }

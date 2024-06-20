@@ -64,6 +64,7 @@ set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
 
 ### Diplomacy ###
+
 add_opinion_modifier = { target = SOV modifier = SP_unrecognised_relations }
 add_opinion_modifier = { target = SOV modifier = SP_unrecognised_relations_trade }
 add_opinion_modifier = { target = GER modifier = SP_unrecognised_relations }

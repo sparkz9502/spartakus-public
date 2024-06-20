@@ -38,7 +38,7 @@ state={
 			industrial_complex = 3
 			fuel_silo = 1
 			anti_air_building = 2
-			air_base = 3
+			air_base = 5
 			15644 = {
 				bunker = 2
 			}

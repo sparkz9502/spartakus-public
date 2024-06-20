@@ -1,10 +1,13 @@
 ﻿capital = 746
-
 OOB = "INC"
-
+set_research_slots = 0
+set_convoys = 30
+set_stability = 0.3
+set_war_support = 0.2
 set_cosmetic_tag = INC_FRA
 
 add_ideas = {
+	### Laws ###
 	recruitment_colonial
 	governance_colo
 	trade_laif
@@ -12,18 +15,19 @@ add_ideas = {
 	mobilization_1
 }
 
+### Country Leaders ###
+recruit_character = INC_georges_catroux
+
+### Starting Tech ###
 set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_research_slots = 2
-set_convoys = 30
-set_stability = 0.6
-set_war_support = 0.2
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -42,19 +46,11 @@ set_popularities = {
     national_corporatist = 8
 }
 
+### Diplomacy ###
+
 INC = {
 	declare_war_on = {
 		target = VNA
 		type = annex_everything
-	}
-}
-
-create_country_leader = {
-	name = "Georges Catroux"
-	desc = ""
-	picture = "gfx/leaders/FRA/Portrait_Georges_Catroux.tga"
-	expire = "1953.3.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
 	}
 }

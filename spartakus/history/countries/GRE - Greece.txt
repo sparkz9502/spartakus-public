@@ -1,22 +1,26 @@
 ﻿capital = 47
-
 set_oob = "GRE"
-
+set_naval_oob = "GRE_naval"
 set_research_slots = 3
+set_convoys = 80
 set_stability = 0.6
 set_war_support = 0.75
+
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_par
 	trade_sempro
 	economy_semind
 	mobilization_1
 	
+	### National Spirits ###
 	GRE_Divided_Military
 	GRE_Political_Factionalism
 	GRE_Booming_Economy
 	GRE_Foreign_Debts
 
+	### Ministers ###
 	GRE_Eleftherios_Venizelos_hog_lco
 	GRE_Themistoklis_Sofoulis_mwp_lco
 	GRE_Nikolaos_Plastiras_def_lco
@@ -33,47 +37,90 @@ add_ideas = {
 	GRE_Kostis_Palamas_theo
 }
 
+### Country Leaders ###
 recruit_character = GRE_alexandros_zaimis
+recruit_character = GRE_pantelis_pouliopoulos
+recruit_character = GRE_ioannis_sofianopoulos
+recruit_character = GRE_avraam_benaroghia
+recruit_character = GRE_georgios_ii
+recruit_character = GRE_georgios_kondylis
+recruit_character = GRE_nikolaos_zachariadis
+
+### Field Marshals ###
+recruit_character = GRE_nikolaos_plastiras
+
+### Generals ###
 recruit_character = GRE_alexandros_mazarakis
 recruit_character = GRE_alexandros_othonaios
 recruit_character = GRE_alexandros_papagos
-recruit_character = GRE_avraam_benaroghia
 recruit_character = GRE_georgios_grivas
-recruit_character = GRE_georgios_ii
-recruit_character = GRE_georgios_kondylis
-recruit_character = GRE_ioannis_sofianopoulos
 recruit_character = GRE_konstantinos_bakopoulos
 recruit_character = GRE_konstantinos_davakis
 recruit_character = GRE_konstantinos_manetas
 recruit_character = GRE_konstantinos_mazarakis
 recruit_character = GRE_napoleon_zervas
-recruit_character = GRE_nikolaos_plastiras
-recruit_character = GRE_nikolaos_zachariadis
-recruit_character = GRE_pantelis_pouliopoulos
 recruit_character = GRE_theodoros_manetas
 
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	fuel_silos = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
+	gw_artillery = 1
 	tech_mountaineers = 1
 	tech_support = 1		
 	tech_recon = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_heavy_cruiser = 1
-	early_battleship = 1
-	transport = 1
+}
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		basic_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		early_ship_hull_heavy = 1
+		basic_battery = 1
+		basic_cruiser_armor_scheme = 1
+		basic_torpedo = 1
+		coastal_defense_ships = 1
+		pre_dreadnoughts = 1
+		mtg_transport = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { 
+			has_dlc = "Man the Guns" 
+		} 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+		early_heavy_cruiser = 1
+		early_battleship = 1
+		transport = 1
+	}
 }
 
-set_convoys = 200
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
 	last_election = "1928.9.25"
 	election_frequency = 48
 	elections_allowed = yes
-
 }
 
 set_popularities = {
@@ -96,16 +143,3 @@ set_country_flag = coalition_social_liberal
 set_country_flag = coalition_social_democrat
 
 complete_national_focus = GRE_The_Future_of_the_Republic
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Hydra Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 2
-		destroyer_engine_upgrade = 2
-		ship_ASW_upgrade = 2
-		ship_anti_air_upgrade = 2
-	}
-}

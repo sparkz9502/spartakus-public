@@ -1,0 +1,48 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+YEM_bolshevist_party:0 "-"
+YEM_bolshevist_party_long:0 "-"
+YEM_spartacist_party:0 "-"
+YEM_spartacist_party_long:0 "-"
+YEM_revolutionary_socialist_party:0 "-"
+YEM_revolutionary_socialist_party_long:0 "-"
+YEM_reformist_socialist_party:0 "-"
+YEM_reformist_socialist_party_long:0 "-"
+YEM_social_democrat_party:0 "-"
+YEM_social_democrat_party_long:0 "-"
+YEM_social_liberal_party:0 "-"
+YEM_social_liberal_party_long:0 "-"
+YEM_liberal_conservative_party:0 "Free Yemeni Movement"
+YEM_liberal_conservative_party_long:0 "Free Yemeni Movement"
+YEM_social_conservative_party:0 "Free Yemeni Movement"
+YEM_social_conservative_party_long:0 "Free Yemeni Movement"
+YEM_authoritarian_conservative_party:0 "Al Rassi"
+YEM_authoritarian_conservative_party_long:0 "Al Rassi"
+YEM_right_wing_populist_party:0 "Al Rassi"
+YEM_right_wing_populist_party_long:0 "Al Rassi"
+YEM_national_syndicalist_party:0 "-"
+YEM_national_syndicalist_party_long:0 "-"
+YEM_national_corporatist_party:0 "-"
+YEM_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+YEM_Crab_Kingdom:0 "Hermit Kingdom"
+YEM_Crab_Kingdom_desc:0 "The reign of Imam Yahya evolved Yemen in a highly isolationist state where outside influence hardly penetrates inside its borders, with even trade with the outside world being prohibited. While this policy has secured the independence of Yemen, it also squandered all hope for economic or cultural growth in the country."
+YEM_very_high_illiteracy:0 "Very High Illiteracy"
+YEM_very_high_illiteracy_desc:0 "The Mutawakkilite Kingdom of Yemen is a very impoverished country where people can barely make ends meet, much less focused on getting an education. This large deficiency of educated minds has resulted in a barely functioning state where technological, economic, and societal development is permanently stalled, at least for now."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

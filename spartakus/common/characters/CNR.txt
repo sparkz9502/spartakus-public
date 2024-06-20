@@ -1,0 +1,19 @@
+characters={
+    CNR_albert_i = {
+        name = "Albert I"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BEL/Portrait_Albert_I.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ALBERT_I_DESC"
+            expire = "1934.12.17"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

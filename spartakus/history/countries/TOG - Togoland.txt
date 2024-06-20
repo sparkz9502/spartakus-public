@@ -1,22 +1,30 @@
 ﻿capital = 877
-OOB = "empty"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
-	governance_exec
+	governance_par
 	trade_pro
 	economy_unind
 	mobilization_1
 }
 
-set_technology = {}
-set_research_slots = 1
+### Country Leaders ###
+
+### Starting Tech ###
+set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
+}
+
+### Politics ###
+
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {

@@ -1,39 +1,44 @@
 ﻿capital = 112
-
 set_oob = "POR"
+set_research_slots = 3
+set_convoys = 30
+set_stability = 0.1
+set_war_support = 0.45
 
+### Country Leaders ###
 recruit_character = POR_comitê_revolucionário
+
+### Field Marshals ###
 recruit_character = POR_antónio_Óscar_fragoso_carmona
 recruit_character = POR_Álvaro_barreirinhas_cunhal
+
+### Generals ###
 recruit_character = POR_ernesto_vieira_da_rocha
 recruit_character = POR_josé_vicente_de_freitas
 recruit_character = POR_adalberto_gastão_de_sousa_dias
 recruit_character = POR_artur_carlos_de_barros_basto
 recruit_character = POR_joão_estêvão_Águas
 recruit_character = POR_antónio_ribeiro_de_carvalho
+
+### Admirals ###
 recruit_character = POR_fernando_pereira_da_silva
 recruit_character = POR_bento_antónio_gonçalves
 recruit_character = POR_manuel_ortins_de_bettencourt
-recruit_character = POR_jerónimo_pulido
-recruit_character = POR_filipe_sérgio
-recruit_character = POR_christovão_coelho
-recruit_character = POR_ernesto_de_lacerda
-recruit_character = POR_damião_de_vasconcelos
-recruit_character = POR_eugénio_pires
-recruit_character = POR_aquilino_vieira
-recruit_character = POR_augusto_da_silva
-
 
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_bure
 	trade_aut
 	economy_indzing
 	mobilization_2
 	
+	### National Spirits ###
 	POR_divided_country
 	POR_revolution
 	POR_illiteracy
+	
+	### Ministers ###
 	POR_Maria_da_Cunha_Lamas_for_rev
 	POR_Antonio_Pinto_Quartim_hog_spa
 	POR_Jose_Gomes_Ferreira_eco_rev
@@ -45,24 +50,53 @@ add_ideas = {
 	POR_JM_Sarmento_Beires_cair_sde
 }
 
-set_research_slots = 3
-
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	tech_support = 1	
 	gw_artillery = 1
+	
+	### Air ###
 	early_fighter = 1
 	early_bomber = 1
-	early_submarine = 1
-	early_destroyer = 1
 	CAS1 = 1
 }
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		mtg_transport = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		transport = 1
+	}
+}
 
-country_event = { id = por.1 days = 1 }
+### Politics ###
+
 set_politics = {	
 	ruling_party = spartacist
-	last_election = "1888.1.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -80,9 +114,6 @@ set_popularities = {
     national_syndicalist = 8
     national_corporatist = 1
 }
-set_convoys = 25
-set_stability = 0.1
-set_war_support = 0.45
 
 set_country_flag = coalition_bolshevist
 set_country_flag = coalition_revolutionary_socialist
@@ -94,3 +125,6 @@ set_country_flag = banned_right_wing_populist
 set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
 
+### Events ###
+
+country_event = { id = por.1 days = 1 }

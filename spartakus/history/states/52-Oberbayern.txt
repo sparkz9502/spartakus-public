@@ -27,7 +27,7 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 3
-			air_base = 3
+			air_base = 4
 			692 = {
 				bunker = 1
 

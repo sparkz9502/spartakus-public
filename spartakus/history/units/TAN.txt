@@ -20,7 +20,8 @@ units = {
 	}
 }
 
-##### No air force #####
+### Starting Production ###
+
 instant_effect = {
 	add_equipment_production = {
 		equipment = {

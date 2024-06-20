@@ -1,0 +1,64 @@
+characters={
+	MEX_pascual_ortiz_rubio={
+		name="Pascual Ortiz Rubio"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_Pascual_Ortiz_Rubio.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PASCUAL_ORTIZ_RUBIO_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_salvador_abascal={
+		name="Salvador Abascal"
+		portraits={
+			civilian={
+				large="gfx/leaders/MEX/Portrait_Salvador_Abascal.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SALVADOR_ABASCAL_DESC"
+			ideology=national_syndicalist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	MEX_luis_farell={
+		name="Luis Farell"
+		portraits={
+			army={
+				large="gfx/leaders/MEX/Portrait_Luis_Farell.tga"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	MEX_gildardo_magana={
+		name="Gildardo Magaña"
+		portraits={
+			army={
+				large="gfx/leaders/MEX/Portrait_Gildardo_Magana.tga"
+			}
+		}
+		corps_commander={
+			traits = { desert_fox }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

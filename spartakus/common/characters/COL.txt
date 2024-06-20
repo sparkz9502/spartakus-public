@@ -1,0 +1,36 @@
+characters={
+    COL_enrique_olaya_herrera = {
+        name = "Enrique Olaya Herrera"
+        portraits={
+            civilian={
+                large = "gfx/leaders/COL/Portrait_Enrique_Olaya_Herrera.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ENRIQUE_OLAYA_HERRERA_DESC"
+            expire = "1965.1.1"
+            ideology = agrarian_liberalism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	COL_gustavo_rojas_pinilla={
+		name="Gustavo Rojas Pinilla"
+		portraits={
+			army={
+				large="gfx/leaders/COL/Portrait_Gustavo_Rojas_Pinilla.tga"
+			}
+		}
+		corps_commander={
+			traits={ trickster urban_assault_specialist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,19 @@
+characters={
+    MOR_mohammed_v = {
+        name = "Mohammed V"
+        portraits={
+            civilian={
+                large = "gfx/leaders/MOR/Portrait_Mohammed_V.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MOHAMMED_V_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

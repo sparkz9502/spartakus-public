@@ -1,7 +1,16 @@
 spriteTypes = {
+	corneredTileSpriteType = {
+		name = "GFX_tiled_window_sp"
+		size= { x=192 y=192 }
+		textureFile = "gfx//interface//tiles//tiled_window_sp.tga"
+		borderSize = { x=64 y=64 }
+		tilingCenter = yes
+		effectFile = "gfx/FX/buttonstate_nodowneffect.lua"
+	}
+	
 	spriteType = {
 		name = "GFX_menupicture"
-		texturefile = "gfx/interface/menupicture.dds"				
+		texturefile = "gfx/interface/menupicture.tga"				
 	}
 	spriteType = {
 		name = "GFX_separatist_gui_background"

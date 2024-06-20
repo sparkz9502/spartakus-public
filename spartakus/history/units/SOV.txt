@@ -1,6 +1,138 @@
-﻿########################
-## DIVISION TEMPLATES ##
-########################
+﻿instant_effect = {
+	### Tank Variants ###
+	if = {
+		limit = {
+			has_dlc = "No Step Back"
+		}
+		create_equipment_variant = {
+			name = "T-28"
+			type = medium_tank_chassis_0
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_close_support_gun
+				turret_type_slot = tank_medium_three_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+				special_type_slot_2 = secondary_turret_hmg
+				special_type_slot_3 = secondary_turret_hmg
+			}
+			upgrades = {
+				tank_nsb_armor_upgrade = 3
+				tank_nsb_engine_upgrade = 10
+			}
+			icon = "GFX_SOV_basic_heavy_tank_medium"
+		}
+		create_equipment_variant = {
+			name = "T-26"
+			type = light_tank_chassis_1
+			parent_version = 0
+			modules = {
+				main_armament_slot = tank_small_cannon_2
+				turret_type_slot = tank_light_two_man_tank_turret
+				suspension_type_slot = tank_bogie_suspension
+				armor_type_slot = tank_riveted_armor
+				engine_type_slot = tank_gasoline_engine
+				special_type_slot_1 = tank_radio_1
+			}
+			upgrades = {
+				tank_nsb_engine_upgrade = 2
+				tank_nsb_armor_upgrade = 2
+			}
+			icon = "GFX_SOV_basic_light_tank_medium"
+		}
+	}
+	
+	### Starting Production ###
+	
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "SOV"
+		}
+		requested_factories = 5
+		progress = 0.5
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	if = {
+		limit = { has_dlc = "No Step Back" }
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_chassis_1
+				creator = "SOV" 
+				version_name = "T-26"
+			}
+			requested_factories = 1
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+	else = {
+		add_equipment_production = {
+			equipment = {
+				type = light_tank_equipment_1
+				creator = "SOV" 
+			}
+			requested_factories = 1
+			progress = 0.5
+			efficiency = 100
+		}
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = motorized_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_0
+			creator = "SOV" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}
+
+### Templates ###
 
 division_template = {
 	name = "Strelkovaya Diviziya"
@@ -21,8 +153,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 } 
-		signal_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 1 }
 	}
 }
 
@@ -44,8 +175,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 } 
-		signal_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 1 }
 	}
 }
 
@@ -61,7 +191,6 @@ division_template = {
 	}
 	support = {
 		mot_recon = { x = 0 y = 0 }
-		signal_company = { x = 0 y = 1 }
 	}
 }
 
@@ -79,8 +208,7 @@ division_template = {
 	}
 	support = {
 		engineer = { x = 0 y = 0 }
-		recon = { x = 0 y = 1 } 
-		signal_company = { x = 0 y = 2 }
+		recon = { x = 0 y = 1 }
 	}
 }
 
@@ -100,7 +228,6 @@ division_template = {
 	support = {
 		engineer = { x = 0 y = 0 }
 		mot_recon = { x = 0 y = 1 } 
-		signal_company = { x = 0 y = 2 }
 	}
 }
 
@@ -113,10 +240,6 @@ division_template = {
 		paratrooper = { x = 0 y = 1 }
 	}
 }
-
-##############
-## LAND OOB ##
-##############
 
 units = {
 
@@ -294,7 +417,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 14
 		}
-		location = 4805
+		location = 10678
 		division_template = "Kavaleriyskaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
@@ -699,7 +822,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 58
 		}
-		location = 9604
+		location = 3430
 		division_template = "Gornostrelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -763,7 +886,7 @@ units = {
 		division_template = "Mekhanizirovaniy Brigada"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.85
-
+		force_equipment_variants = { light_tank_chassis_1 = { owner = "SOV" version_name = "T-26" } }
 	}
 	
 	division = { #"7ya Strelkovaya Diviziya"
@@ -1000,7 +1123,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 12
 		}
-		location = 7763
+		location = 10678
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -1012,7 +1135,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 21
 		}
-		location = 4725
+		location = 1730
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -1024,7 +1147,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 26
 		}
-		location = 10655
+		location = 10641
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -1036,7 +1159,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 32
 		}
-		location = 7801
+		location = 12543
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -1048,7 +1171,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 39
 		}
-		location = 10722
+		location = 4705
 		division_template = "Strelkovaya Diviziya"
 		start_experience_factor = 0.2
 		start_equipment_factor = 0.5
@@ -1060,7 +1183,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 59
 		}
-		location = 12559
+		location = 12662
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
@@ -1073,7 +1196,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 66
 		}
-		location = 3963
+		location = 11159
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
@@ -1086,7 +1209,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 69
 		}
-		location = 12657
+		location = 10559
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
@@ -1099,7 +1222,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 34
 		}
-		location = 12192
+		location = 1536
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
@@ -1112,7 +1235,7 @@ units = {
 			is_name_ordered = yes
 			name_order = 35
 		}
-		location = 7672
+		location = 4832
 		division_template = "Strelkovaya Diviziya"
 		force_equipment_variants = { infantry_equipment_0 = { owner = "SOV" } }
 		start_experience_factor = 0.2
@@ -1186,10 +1309,6 @@ units = {
 	}
 	
 }
-			
-#############
-## AIR OOB ##
-#############
 
 air_wings = {
 	195 = {
@@ -1233,81 +1352,5 @@ air_wings = {
 			owner = "SOV" 
 			amount = 60
 		}
-	}
-}
-
-#########################
-## STARTING PRODUCTION ##
-#########################
-
-instant_effect = {
-	add_equipment_production = {
-		equipment = {
-			type = infantry_equipment_1
-			creator = "SOV"
-		}
-		requested_factories = 5
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = support_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 2
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = artillery_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 2
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = light_tank_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = motorized_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
-	}
-
-	add_equipment_production = {
-		equipment = {
-			type = fighter_equipment_1
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
-	}
-	
-	add_equipment_production = {
-		equipment = {
-			type = tac_bomber_equipment_0
-			creator = "SOV" 
-		}
-		requested_factories = 1
-		progress = 0.5
-		efficiency = 100
 	}
 }

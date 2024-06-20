@@ -10,6 +10,12 @@ add_ideas = {
 	governance_col
 	trade_aut
 	economy_unind
+	unions_statecontrolled
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_nostate
+	judiciary_politicized
 	mobilization_1
 	
 	### National Spirits ###

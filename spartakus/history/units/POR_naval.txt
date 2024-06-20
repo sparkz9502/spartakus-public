@@ -1,25 +1,57 @@
+instant_effect = {
+
+	### Ship Variants ###
+
+	create_equipment_variant = {
+		name = "Foca Class"				
+		type = ship_hull_submarine_1
+		name_group = POR_SS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Guadiana Class"					
+		type = ship_hull_light_1
+		name_group = POR_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
 units = {
 
-	# These spawn only after Civil War because they are very valuable to Portugal
+	### Spawns after the end of the PCW because testing showed the AI would aimlessly murder eachother when the fleet was split ###
 
-	### Naval OOB ###
-	fleet = {				
+	fleet = {
 		name = "Marinha de Portugal"			
-		naval_base = 9817
-		task_force = {
-			name = "Marinha de Portugal"			
-			location = 9817 # Porto
-			# Destroyers
-			ship = { name = "NRP Tamega" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR create_if_missing = yes } } }
-			ship = { name = "NRP Guadiana" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR create_if_missing = yes } } }
-			ship = { name = "NRP Douro" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR create_if_missing = yes } } }
-			ship = { name = "NRP Vouga" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR create_if_missing = yes } } }	
-			ship = { name = "NRP Tejo" definition = destroyer equipment = { destroyer_1 = { amount = 1 owner = POR create_if_missing = yes } } }
-			# Submarines
-			ship = { name = "NRP Foca" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR create_if_missing = yes } } }		
-			ship = { name = "NRP Espadarte" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR create_if_missing = yes } } }
-			ship = { name = "NRP Golfinho" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR create_if_missing = yes } } }
-			ship = { name = "NRP Hidra" definition = submarine equipment = { submarine_1 = { amount = 1 owner = POR create_if_missing = yes } } }
+		naval_base = 11805 # Lisbon
+		task_force = {				
+			name = "Flotilha Leve"			
+			location = 11805 # Lisbon
+			ship = { name = "NRP Tamega" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
+			ship = { name = "NRP Duoro" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
+			ship = { name = "NRP Vouga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
+			ship = { name = "NRP Gaudiana" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = POR version_name = "Guadiana Class" } } }
 		}				
+		task_force = {				
+			name = "Divisão Submarina"			
+			location = 11805 # Lisbon
+			ship = { name = "NRP Foca" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "Foca Class" } } }		
+			ship = { name = "NRP Golfinho" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "Foca Class" } } }	
+			ship = { name = "NRP Hidra" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = POR version_name = "Foca Class" } } }	
+		}
 	}
 }

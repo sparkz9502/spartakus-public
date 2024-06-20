@@ -1,0 +1,155 @@
+instant_effect = {
+
+	### Ship Variants ###
+	
+	create_equipment_variant = {
+		name = "Katsonis Class"				
+		type = ship_hull_submarine_1
+		name_group = GRE_SS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Glafkos Class"				
+		type = ship_hull_submarine_2
+		name_group = GRE_SS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_torpedo_sub_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Aetos Class"					
+		type = ship_hull_light_1
+		name_group = GRE_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Hydra Class"	
+		type = ship_hull_light_1
+		name_group = GRE_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Averof Class"				
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = GRE_CA
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_medium_battery_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Elli Class"				
+		type = ship_hull_cruiser_1
+		name_group = GRE_CL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = empty
+			fixed_ship_secondaries_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Kilkis Class"	
+		type = ship_hull_pre_dreadnought
+		name_group = GRE_BB
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+}
+
+units = {
+	fleet = {
+		name = "Vasilikó Polemikó Naftikó"			
+		naval_base = 4109 # Athens
+		task_force = {				
+			name = "Vasilikós Stólos"				
+			location = 4109 # Athens
+			ship = { name = "RHS Georgios Averof" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = GRE version_name =  "Averof Class" } } }				
+			ship = { name = "RHS Elli" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = GRE version_name =  "Elli Class" } } }				
+			# Destroyer Flotilla
+			ship = { name = "RHS Aetos" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Ierax" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Leon" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Panthir" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Aetos Class" } } }		
+			ship = { name = "RHS Kountouriotis" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+			ship = { name = "RHS Hydra" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+			ship = { name = "RHS Psara" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+			ship = { name = "RHS Spetsai" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = GRE version_name =  "Hydra Class" } } }
+		}					
+		task_force = {					
+			name = "Stolískou Ypovrychíon"				
+			location = 4109 # Athens
+			ship = { name = "RHS Katsonis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "Katsonis Class" } } }		
+			ship = { name = "RHS Papanikolis" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = GRE version_name =  "Katsonis Class" } } }		
+			ship = { name = "RHS Protefs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		
+			ship = { name = "RHS Nirefs" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		 
+			ship = { name = "RHS Triton" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		
+			ship = { name = "RHS Glafkos" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = GRE version_name =  "Glafkos Class" } } }		
+		}					
+	}
+} 

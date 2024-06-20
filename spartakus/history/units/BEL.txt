@@ -22,7 +22,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }
 		recon = { x = 0 y = 1 }
 		field_hospital = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
 	}
 }
 
@@ -47,7 +46,6 @@ division_template = {
 		engineer = { x = 0 y = 0 }  
 		mot_recon = { x = 0 y = 1 }
 		field_hospital = { x = 0 y = 2 }
-		signal_company = { x = 0 y = 3 }
 	}
 }
 

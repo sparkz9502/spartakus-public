@@ -1,0 +1,243 @@
+﻿instant_effect = {
+
+	### Ship Variants ###
+
+	create_equipment_variant = {
+		name = "B Class"				
+		type = ship_hull_submarine_1
+		parent_version = 0
+		name_group = SPR_SS
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "C Class"				
+		type = ship_hull_submarine_2
+		name_group = SPR_SS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+	}
+	# Destroyers #
+	create_equipment_variant = {
+		name = "Alsedo Class"				
+		type = ship_hull_light_1
+		name_group = SPR_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Churucca Class"	
+		type = ship_hull_light_2
+		name_group = SPR_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_2
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Júpiter Class"					# minelayers
+		type = ship_hull_light_2
+		name_group = SPR_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	# Light Cruisers #
+	create_equipment_variant = {
+		name = "República Class"
+		type = ship_hull_cruiser_1
+		name_group = SPR_CL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Méndez Núñes Class"
+		type = ship_hull_cruiser_1
+		name_group = SPR_CL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Príncipe Alfonso Class"
+		type = ship_hull_cruiser_2
+		name_group = SPR_CL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			front_1_custom_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			mid_2_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = ship_light_medium_battery_1
+		}
+	}
+	# Heavy Cruisers #
+	create_equipment_variant = {
+		name = "Canarias Class"				
+		type = ship_hull_cruiser_2
+		name_group = SPR_CA
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_2
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			fixed_ship_armor_slot = empty
+			mid_1_custom_slot = ship_medium_battery_2
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	# Battleships #
+	create_equipment_variant = {
+		name = "España Class"	
+		type = ship_hull_heavy_1
+		name_group = SPR_BB
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = heavy_ship_engine_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			fixed_ship_armor_slot = ship_armor_bb_1
+			front_1_custom_slot = ship_heavy_battery_1
+			mid_1_custom_slot = ship_secondaries_1
+			mid_2_custom_slot = ship_secondaries_1
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units= {
+	fleet = {
+		name = "Base Naval El Ferrol"
+		naval_base = 758  # Ferrol/Coruna
+		task_force = {
+			name = "Escuadrón de El Ferrol"
+			location = 758  # Ferrol/Coruna
+			ship = { name = "ARE España" pride_of_the_fleet = yes definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "España Class" } } }
+			ship = { name = "ARE Jaime I" definition = battleship equipment = { ship_hull_heavy_1 = { amount = 1 owner = SPR version_name = "España Class" } } }
+			ship = { name = "ARE Libertad" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "Príncipe Alfonso Class" } } }
+			ship = { name = "ARE Almirante Cervera" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "Príncipe Alfonso Class" } } }
+			ship = { name = "ARE Miguel de Cervantes" definition = light_cruiser equipment = { ship_hull_cruiser_2 = { amount = 1 owner = SPR version_name = "Príncipe Alfonso Class" } } }
+			# Flotilla de Destructores de El Ferrol
+			ship = { name = "ARE Alsedo" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Alsedo Class" } } }
+			ship = { name = "ARE Velasco" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Alsedo Class" } } }
+			ship = { name = "ARE Lazaga" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SPR version_name = "Alsedo Class" } } }
+		}
+	}
+		
+	fleet = {
+		name = "Base Naval Cádiz"
+		naval_base = 1048  #Cádiz
+		task_force = {
+			name = "Escuadrón de Cádiz"
+			location = 1048  #Cádiz
+			ship = { name = "ARE República" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "República Class" } } }
+			ship = { name = "ARE Méndez Núñez" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = SPR version_name = "Méndez Núñes Class" } } }
+		}
+		task_force = {
+			name = "Grupo de Cádiz"
+			location = 1048  #Cádiz
+			# S103 Flotilla
+			ship = { name = "ARE B1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE B2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE B3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE B4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+		}
+	}
+		
+	fleet = {
+		name = "Base Naval Cartagena"
+		naval_base = 10024  #Cartagena/Murcia
+		task_force = {
+			name = "Escuadrón de Cartagena"
+			location = 10024  #Cartagena/Murcia
+			ship = { name = "ARE Almirante Miranda" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			# Flotilla de Destructores n.1
+			ship = { name = "ARE Almirante Ferrándiz" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Sánchez Barcáiztegui" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Alcalá Galiano" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Almirante Valdés" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			# Flotilla de Destructores n.2
+			ship = { name = "ARE Churucca" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE José Luis Díez" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Lepanto" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+			ship = { name = "ARE Almirante Antequera" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = SPR version_name = "Churucca Class" } } }
+		}
+		task_force = {
+			name = "Grupo de Cartagena"
+			location = 10024  #Cartagena/Murcia
+			# S101 Flotilla
+			ship = { name = "ARE B5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE B6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = SPR version_name = "B Class" } } }
+			ship = { name = "ARE C1" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPR version_name = "C Class" } } }
+			ship = { name = "ARE C2" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPR version_name = "C Class" } } }
+			ship = { name = "ARE C3" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPR version_name = "C Class" } } }
+			ship = { name = "ARE C4" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPR version_name = "C Class" } } }
+			ship = { name = "ARE C5" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPR version_name = "C Class" } } }
+			ship = { name = "ARE C6" definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = SPR version_name = "C Class" } } }
+		}
+	}
+} 

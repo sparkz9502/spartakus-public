@@ -41,6 +41,16 @@ ideologies = {
 		types = {
 			spartacist_subtype = {}
 			
+			luxemburgism = {}
+			
+			left_spartacism = {}
+			
+			proletarian_spartacism = {}
+			
+			centre_spartacism = {}
+			
+			right_spartacism = {}
+			
 			council_communism = {}
 			
 			de_leonism = {}

@@ -1,0 +1,220 @@
+﻿instant_effect = {
+	
+	### Ship Variants ###
+	
+	create_equipment_variant = {			# represents K II-X, O8 subs
+		name = "K-III Class"
+		type = ship_hull_submarine_1
+		name_group = HOL_SS_KCLASS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "O9 Class"					# represents O9-15, K XI-XIII subs
+		type = ship_hull_submarine_1
+		name_group = HOL_SS_OCLASS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = empty
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "K-XIV Class"				# represents K XIV-XVIII, O16 subs
+		type = ship_hull_submarine_2
+		name_group = HOL_SS_KCLASS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_2
+			fixed_ship_engine_slot = sub_ship_engine_2
+			rear_1_custom_slot = ship_torpedo_sub_2
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Van Ghent Class"			
+		type = ship_hull_light_1
+		name_group = HOL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Van Galen Class"				
+		type = ship_hull_light_1
+		name_group = HOL_DD_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = ship_depth_charge_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Java Class"
+		type = ship_hull_cruiser_1
+		name_group = HOL_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = ship_light_medium_battery_1
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "De Ruyter Class"
+		type = ship_hull_cruiser_1
+		name_group = HOL_CL_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_2
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_airplane_launcher_1
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Hertog Hendrik Class"			
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = HOL_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_medium_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			mid_1_custom_slot = ship_airplane_launcher_1
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = ship_torpedo_1
+		}
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Soerabaja Class"				# represents Soerabaja (De Zeven Provinciën) and Jacob van Heemskerck 
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = HOL_CA_HISTORICAL
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_2
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+
+	##### NAVAL UNITS #####
+	### ROYAL NAVY ###
+	fleet = {
+		name = "Koninklijke Marine"			
+		naval_base = 3314  # Amsterdam
+		task_force = {				
+			name = "Koninklijke Vloot"			
+			location = 3314  # Amsterdam
+			ship = { name = "HrMs Hertog Hendrik" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Hertog Hendrik Class" } } }		
+			ship = { name = "HrMs Jacob van Heemskerck" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } } }		
+			ship = { name = "HrMs Van Galen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }		
+		}				
+		task_force = {				
+			name = "Koninklijke Onderzeeboot Smaldeel"			
+			location = 3314  # Amsterdam
+			ship = { name = "HrMs O-8" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-III Class" } } }
+			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { ordered_name = 11 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { ordered_name = 12 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { ordered_name = 13 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { ordered_name = 15 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+		}				
+	}
+
+	### EAST INDIES SQUADRON ###
+	fleet = {
+		name = "Nederlands-Indië Marine"			
+		naval_base = 7381  # Batavia	
+		task_force = {				
+			name = "Nederlands-Indië Eskader"			
+			location = 7381  # Batavia	
+			ship = { name = "HrMs Soerabaja" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = HOL version_name = "Soerabaja Class" } }	}		
+			ship = { name = "HrMs Java" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs Sumatra" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "Java Class" } } }
+			ship = { name = "HrMs De Ruyter" definition = light_cruiser equipment = { ship_hull_cruiser_1 = { amount = 1 owner = HOL version_name = "De Ruyter Class" } } }
+			# Torpedobootjager Divisie
+			ship = { name = "HrMs Van Ghent" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
+			ship = { name = "HrMs Evertsen" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
+			ship = { name = "HrMs Kortenaer" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
+			ship = { name = "HrMs Piet Hein" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Ghent Class" } } }		
+			ship = { name = "HrMs Witte de With" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }	
+			ship = { name = "HrMs Banckert" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }	
+			ship = { name = "HrMs Van Nes" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = HOL version_name = "Van Galen Class" } } }	
+		}				
+		task_force = {				
+			name = "Nederlands-Indië Onderzeeboot Smaldeel"			
+			location = 4608  # Soerbaja
+			ship = { ordered_name = 7 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-III Class" } } }
+			ship = { ordered_name = 8 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-III Class" } } }
+			ship = { ordered_name = 10 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-III Class" } } }
+			# I Onderzeeboot Divisie
+			ship = { ordered_name = 17 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { ordered_name = 18 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			# II Onderzeeboot Divisie
+			ship = { ordered_name = 9 definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "K-III Class" } } }
+			ship = { name = "HrMs K-XI" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { name = "HrMs K-XII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			ship = { name = "HrMs K-XIII" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = HOL version_name = "O9 Class" } } }
+			# III Onderzeeboot Divisie
+			ship = { ordered_name = 14 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { ordered_name = 15 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+			ship = { ordered_name = 16 definition = submarine equipment = { ship_hull_submarine_2 = { amount = 1 owner = HOL version_name = "K-XIV Class" } } }
+		}				
+	}
+}

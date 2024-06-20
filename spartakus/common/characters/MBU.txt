@@ -1,0 +1,46 @@
+characters={
+    MBU_kiril_i = {
+        name = "Kiril I"
+        portraits={
+            civilian={
+                large = "gfx/leaders/BUL/Portrait_Kiril_I.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_KYRIL_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_KYRIL_DESC"
+            expire = "1965.1.1"
+            ideology = right_wing_populist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_KYRIL_DESC"
+            expire = "1965.1.1"
+            ideology = national_corporatist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_KYRIL_DESC"
+            expire = "1965.1.1"
+            ideology = national_syndicalist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

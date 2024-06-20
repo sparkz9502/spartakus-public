@@ -1,0 +1,19 @@
+characters={
+	NIC_jose_maria_moncada = {
+        name = "José María Moncada"
+        portraits={
+            civilian={
+                large = "gfx/leaders/NIC/Portrait_Jose_Maria_Moncada.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JOSE_MARIA_MONCADA_DESC"
+            expire = "1965.1.1"
+            ideology = moderate_radicalism
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

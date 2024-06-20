@@ -251,10 +251,7 @@ units = {
 		start_experience_factor = 0.1
 		start_equipment_factor = 0.8
 
-	}			
-
-
-	##### NAVAL UNITS #####
+	}
 }
 
 ### Air Wings
@@ -284,11 +281,10 @@ air_wings = {
 	}
 }
 
-
 instant_effect = {
 	add_equipment_production = {
 		equipment = {
-			type = infantry_equipment_1
+			type = infantry_equipment_0
 			creator = "SPR"
 		}
 		requested_factories = 2
@@ -312,26 +308,5 @@ instant_effect = {
 		requested_factories = 1
 		progress = 0.24
 		efficiency = 100
-	}
-	### Under Contruction Notes ###
-	# DD: Churucca class (x3) ("ARE Almirante Miranda" "ARE Gravina" "ARE Escaño" "ARE Císcar" "ARE Jorge Juan" "ARE Ulloa")
-	add_equipment_production = {
-		equipment = {
-			type = destroyer_2
-			creator = "SPR"
-		}
-		requested_factories = 1
-		progress = 0.80
-		amount = 3
-	}
-	# CA: ARE Canarias (Canarias class, comm. 1-Oct, 1936), ARE Baleares (Canarias class, comm. 28-Dec, 1936)
-	add_equipment_production = {
-		equipment = {
-			type = heavy_cruiser_2
-			creator = "SPR"
-		}
-		requested_factories = 2
-		progress = 0.85
-		amount = 2
 	}
 }

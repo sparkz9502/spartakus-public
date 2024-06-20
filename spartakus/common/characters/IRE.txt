@@ -1,0 +1,134 @@
+characters={
+	IRE_george_v={
+		name="George V"
+		portraits={
+			civilian={
+				large="gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+			}
+			army={
+				large="gfx/leaders/ENG/Portrait_Britain_George_V.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			traits = {
+				IRE_foreign_monarchy_trait
+				IRE_compromising_king_trait
+			}
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			traits = {
+				IRE_foreign_monarchy_trait
+				IRE_compromising_king_trait
+			}
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			traits = {
+				IRE_foreign_monarchy_trait
+				IRE_compromising_king_trait
+			}
+			ideology=liberal_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			traits = {
+				IRE_foreign_monarchy_trait
+				IRE_compromising_king_trait
+			}
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_George_V_DESC"
+			traits = {
+				IRE_foreign_monarchy_trait
+				IRE_compromising_king_trait
+			}
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_roderick_connolly={
+		name="Roderick Connolly"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Roderick_Connolly.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RODERICK_CONNOLLY_DESC"
+			ideology=bolshevist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_RODERICK_CONNOLLY_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_james_larkin={
+		name="James Larkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_James_Larkin.tga"
+			}
+			army={
+				large="gfx/leaders/IRE/Portrait_James_Larkin.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_gearoid_ocuinneagain={
+		name="Gearóid Ó Cuinneagáin"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Gearoid_OCuinneagain.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GEAROID_OCUINNEAGAIN_DESC"
+			ideology=national_syndicalist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRE_eoin_oduffy={
+		name="Eoin O'Duffy"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EOIN_ODUFFY_DESC"
+			ideology=national_corporatist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

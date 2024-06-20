@@ -24,19 +24,32 @@ leader_traits = {
 # Military Staff
 #####################
 
-	chief_of_staff = {}
+	chief_of_staff = { 
+		sprite = 16
+		
+		max_command_power = -20
+	}
 	chief_of_army = { 
-		experience_gain_army = 0.05
+		sprite = 13
+	
+		experience_gain_army = 0.06
+		max_command_power = -20
 
 		random = no
 	}
 	chief_of_navy = {
-		experience_gain_navy = 0.05
+		sprite = 14
+	
+		experience_gain_navy = 0.06
+		max_command_power = -20
 
 		random = no
 	}
 	chief_of_air_force = {
-		experience_gain_air = 0.05
+		sprite = 15
+	
+		experience_gain_air = 0.06
+		max_command_power = -20
 
 		random = no
 	}
@@ -45,7 +58,7 @@ leader_traits = {
 # Other
 #####################
 
-	sp_theorist = {}
+	sp_theorist = { sprite = 17 }
 	
 #####################
 # Ideologies

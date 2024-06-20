@@ -1,0 +1,40 @@
+characters={
+    GXC_li_zongren = {
+        name = "Li Zongren"
+        portraits={
+            civilian={
+                large = "gfx/leaders/GXC/Portrait_Li_Zongren.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_LI_ZONGREN_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+
+    ## Field Marshals and Generals
+
+    GXC_chen_jitang = {
+        name = "Chen Jitang"
+        portraits={
+            army={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+            }
+        }
+        corps_commander={
+            traits = { }
+            skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+}

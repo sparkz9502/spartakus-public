@@ -1,20 +1,24 @@
 ﻿capital = 416
-
 set_oob = "KHO"
-
+set_research_slots = 2
+set_stability = 0.5
+set_war_support = 0.4
 set_cosmetic_tag = KHO_PER
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
 	economy_unind
 	mobilization_1
 	
+	### National Spirits ###
 	PER_Republican_Tendencies
 	PER_The_Persian_Gendarmerie
 	PER_A_Haven_for_the_Arts
 	
+	### Ministers ###
 	KHO_Mohammad_Taqi_Pessian_hog_sli
 	KHO_Mohammad_Khorasani_mwp_sli
 	KHO_Mirza_Abdolhossein_Sheibani_for_sli
@@ -29,22 +33,24 @@ add_ideas = {
 	KHO_Mohammad_Taqi_Pessian_cair
 }
 
+### Country Leaders ###
+recruit_character = KHO_mohammad_taqi_pessian
+
+### Starting Tech ###
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
 	tech_support = 1
 	gw_artillery = 1
+	
+	### Air ###
 	early_fighter = 1
 }
 
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.4
-set_convoys = 5
+### Politics ###
 
 set_politics = {	
 	ruling_party = social_liberal
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -61,14 +67,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 2
-}
-
-create_country_leader = {
-	name = "Mohammad Taqi Pessian"
-	desc = "POLITICS_MOHAMMAD_TAQI_PESSIAN_DESC"
-	picture = "Mohammad_Taqi_Pessian.tga"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-	}
 }

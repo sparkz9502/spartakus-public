@@ -1,0 +1,81 @@
+characters={
+    OTT_mehmed_vi={
+		name="Mehmed VI"
+		portraits={
+			civilian={
+				large="gfx/leaders/OTT/Portrait_Mehmed_VI.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=reformist_socialist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=social_democrat_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=social_liberal_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=liberal_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=social_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=authoritarian_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MEHMED_VI_DESC"
+			ideology=right_wing_populist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	OTT_nihal_atsiz={
+		name="Nihal Atsız"
+		portraits={
+			civilian={
+				large="gfx/leaders/OTT/Portrait_Nihal_Atsiz.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_NIHAL_ATSIZ_DESC"
+			ideology=national_syndicalist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_NIHAL_ATSIZ_DESC"
+			ideology=national_corporatist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

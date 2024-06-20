@@ -1,0 +1,19 @@
+characters={
+	OMA_said_bin_taimur = {
+        name = "Said bin Taimur"
+        portraits={
+            civilian={
+                large = "gfx/leaders/OMA/Portrait_Said_bin_Taimur.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_SAID_BIN_TAIMUR_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

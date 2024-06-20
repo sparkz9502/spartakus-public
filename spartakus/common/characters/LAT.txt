@@ -1,0 +1,75 @@
+characters={
+	LAT_karlis_ulmanis={
+		name="Kārlis Ulmanis"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Karlis_Ulmanis.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KARLIS_ULMANIS_DESC"
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LAT_gustavs_celmins={
+		name="Gustavs Celmiņš"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Gustavs_Celmins.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GUSTAVS_CELMINS_DESC"
+			ideology=clerical_fascism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LAT_pauls_kalnins={
+		name="Pauls Kalniņš"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Pauls_Kalnins.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PAULS_KALNINS_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LAT_vilis_lacis={
+		name="Vilis Lācis"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Vilis_Lacis.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VILIS_LACIS_DESC"
+			ideology=agrarian_marxism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LAT_berkis_krisjanis={
+		name="Berkis Krisjanis"
+		portraits={
+			army={
+				large="gfx/leaders/LAT/Portrait_Berkis_Krisjanis.tga"
+			}
+		}
+		corps_commander={
+			traits = { ranger }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

@@ -1,38 +1,76 @@
 ﻿capital = 840
-
 set_oob = "FIN"
-
+set_naval_oob = "FIN_naval"
 set_research_slots = 3
+set_convoys = 30
+set_stability = 0.4
+set_war_support = 0.6
 
 add_ideas = {
+	### Laws ###
 	recruitment_1830
 	governance_exec
 	trade_sempro
 	economy_semind
 	mobilization_2
 	
+	### Ministers ###
 	#FIN_Juho_Sunila_hog_lco
 }
 
+### Country Leaders ###
+recruit_character = FIN_pehr_evind_svinhufvud
+
+### Generals ###
+recruit_character = FIN_erik_heinrichs
+recruit_character = FIN_vilho_petter_nenonen
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1			
 	tech_support = 1		
 	tech_recon = 1
 	tech_engineers = 1
-	early_submarine = 1
-	early_heavy_cruiser = 1
+}
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		coastal_defense_ships = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_heavy_cruiser = 1
+	}
 }
 
-set_convoys = 5
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
-
+	last_election = "1888.10.1"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -53,7 +91,3 @@ set_popularities = {
 set_country_flag = coalition_social_conservative
 set_country_flag = coalition_social_liberal
 set_country_flag = coalition_authoritarian_conservative
-
-recruit_character = FIN_pehr_evind_svinhufvud
-recruit_character = FIN_erik_heinrichs
-recruit_character = FIN_vilho_petter_nenonen

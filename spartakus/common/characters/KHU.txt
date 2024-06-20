@@ -1,0 +1,16 @@
+characters={
+	KHU_khazal_khan_al-kaabi={
+		name="Khaz'al Khan al-Kaabi"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHU/Portrait_Khazal_Khan_al-Kaabi.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KHAZAL_KHAN_AL-KAABI_DESC"
+			ideology=semi_constitutional_monarchism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

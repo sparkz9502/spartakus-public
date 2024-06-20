@@ -1,0 +1,64 @@
+characters={
+	INS_wilhelmina = {
+        name = "Wilhelmina"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HOL/Portrait_Wilhelmina.tga"
+            }
+        }
+		country_leader={
+			desc="POLITICS_WILHELMINA_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	INS_amir_sjarifuddin_harahap = {
+        name = "Amir Sjarifuddin Harahap"
+        portraits={
+            civilian={
+                large = "gfx/leaders/INS/Portrait_Amir_Sjarifuddin_Harahap.tga"
+            }
+        }
+		country_leader={
+			desc="POLITICS_AMIR_SJARIFUDDIN_HARAHAP_DESC"
+			ideology=bolshevist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_AMIR_SJARIFUDDIN_HARAHAP_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	INS_sukarno = {
+        name = "Sukarno"
+        portraits={
+            civilian={
+                large = "gfx/leaders/INS/Portrait_Sukarno.tga"
+            }
+        }
+		country_leader={
+			desc="POLITICS_SUKARNO_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	INS_sutan_sjahrir = {
+        name = "Sutan Sjahrir"
+        portraits={
+            civilian={
+                large = "gfx/leaders/INS/Portrait_Sutan_Sjahrir.tga"
+            }
+        }
+		country_leader={
+			desc="POLITICS_SUTAN_SJAHRIR_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

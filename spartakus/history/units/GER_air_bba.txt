@@ -1,0 +1,284 @@
+﻿instant_effect = {
+	
+	### Plane Variants ###
+	
+	create_equipment_variant = {
+		name = "Blume JFZ-12E"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_early_fighter.tga"
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Günter JFZ-15C"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_4x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_fighter1.tga"
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Rethel JFZ-20B"
+		type = small_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			fixed_auxiliary_weapon_slot_1 = aircraft_cannon_1_2x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_fighter2.tga"
+	}
+	
+	create_equipment_variant = {
+		name = "Lübbe SFZ-3A"
+		type = small_plane_cas_airframe_0
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_CAS1.tga"
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Vogt SFZ-8B"
+		type = small_plane_cas_airframe_1
+		modules = {
+			fixed_main_weapon_slot = bomb_locks
+			fixed_auxiliary_weapon_slot_1 = light_mg_4x
+			engine_type_slot = engine_2_1x
+			special_type_slot_1 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_CAS2.tga"
+	}
+	
+	create_equipment_variant = {
+		name = "Rethel TFZ-5D"
+		type = small_plane_naval_bomber_airframe_1
+		modules = {
+			fixed_main_weapon_slot = torpedo_mounting
+			fixed_auxiliary_weapon_slot_1 = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = lmg_defense_turret
+		}
+		icon = "gfx/interface/technologies/Germany/GER_naval_bomber1.tga"
+	}
+	
+	create_equipment_variant = {
+		name = "Pohlmann KFZ-6G"
+		type = medium_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = empty
+			fixed_auxiliary_weapon_slot_2 = empty
+			fixed_auxiliary_weapon_slot_3 = empty
+			engine_type_slot = engine_1_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+			special_type_slot_2 = lmg_defense_turret
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_early_bomber.tga"
+		obsolete = yes
+	}
+	
+	create_equipment_variant = {
+		name = "Vogt KFZ-12B"
+		type = medium_plane_airframe_1
+		modules = {
+			fixed_main_weapon_slot = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_1 = medium_bomb_bay
+			fixed_auxiliary_weapon_slot_2 = empty
+			fixed_auxiliary_weapon_slot_3 = empty
+			engine_type_slot = engine_2_2x
+			special_type_slot_1 = lmg_defense_turret_2x
+			special_type_slot_2 = lmg_defense_turret_2x
+			special_type_slot_3 = empty
+			special_type_slot_4 = empty
+		}
+		icon = "gfx/interface/technologies/Germany/GER_tactical_bomber1.tga"
+	}
+	
+	### Starting Production ###
+
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_airframe_1
+			creator = "GER"
+			version_name = "Rethel JFZ-20B"
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = medium_plane_airframe_1
+			creator = "GER"
+			version_name = "Vogt KFZ-12B"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = small_plane_cas_airframe_1
+			creator = "GER" 
+			version_name = "Vogt SFZ-8B"
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}
+
+### Air OOB ###
+
+air_wings = {
+	5 = { 	
+		small_plane_airframe_0 =  {
+			owner = "GER" 
+			amount = 60
+			version_name = "Blume JFZ-12E"
+		}
+		name = "Jagdgeschwader 1"
+		
+		small_plane_cas_airframe_0 = {
+			owner = "GER" 
+			amount = 40
+			version_name = "Lübbe SFZ-3A"
+		}
+		name = "Schlachtgeschwader 3"
+	}
+
+	1264 = { 	
+		small_plane_airframe_1 =  {
+			owner = "GER" 
+			amount = 80
+			version_name = "Rethel JFZ-20B"
+		}
+		name = "Jagdgeschwader 2"
+	
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 40
+			version_name = "Vogt KFZ-12B"
+		}
+		name = "Kampfgeschwader 1"
+	}
+
+	66 = {
+		small_plane_airframe_0 =  {
+			owner = "GER" 
+			amount = 80
+			version_name = "Blume JFZ-12E"
+		}
+		name = "Jagdgeschwader 5"
+		
+		medium_plane_airframe_0 = {
+			owner = "GER" 
+			amount = 80
+			version_name = "Pohlmann KFZ-6G"
+		}
+		name = "Kampfgeschwader 2"
+	}
+	
+	55 = {
+		small_plane_airframe_1 =  {
+			owner = "GER" 
+			amount = 80
+			version_name = "Rethel JFZ-20B"
+		}
+		name = "Jagdgeschwader 6"
+	}
+
+	57 = { 	
+		small_plane_airframe_1 =  {
+			owner = "GER" 
+			amount = 80
+			version_name = "Rethel JFZ-20B"
+		}
+		name = "Jagdgeschwader 3"
+
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 60
+			version_name = "Vogt KFZ-12B"
+		}
+		name = "Kampfgeschwader 3"
+
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 60
+			version_name = "Vogt KFZ-12B"
+		}
+		name = "Kampfgeschwader 4"
+		
+		small_plane_cas_airframe_1 = {
+			owner = "GER" 
+			amount = 60
+			version_name = "Vogt SFZ-8B"
+		}
+		name = "Schlachtgeschwader 1"
+	}
+
+	51 = { 		
+		small_plane_airframe_1 =  {
+			owner = "GER" 
+			amount = 80
+			version_name = "Rethel JFZ-20B"
+		}
+		name = "Jagdgeschwader 4"
+
+		medium_plane_airframe_1 = {
+			owner = "GER" 
+			amount = 80
+			version_name = "Vogt KFZ-12B"
+		}
+		name = "Kampfgeschwader 5"
+		
+		small_plane_cas_airframe_1 = {
+			owner = "GER" 
+			amount = 60
+			version_name = "Vogt SFZ-8B"
+		}
+		name = "Schlachtgeschwader 2"
+	}
+	
+	52 = { 		
+		small_plane_airframe_1 =  {
+			owner = "GER" 
+			amount = 80
+			version_name = "Günter JFZ-15C"
+		}
+		name = "Jagdgeschwader 7"
+
+		medium_plane_airframe_0 = {
+			owner = "GER" 
+			amount = 60
+			version_name = "Pohlmann KFZ-6G"
+		}
+		name = "Kampfgeschwader 6"
+	}
+
+	58 = { 	
+		small_plane_naval_bomber_airframe_1 =  {
+			owner = "GER" 
+			amount = 60
+			version_name = "Rethel TFZ-5D"
+		}
+		name = "Torpedogeschwader 1"
+	}
+}

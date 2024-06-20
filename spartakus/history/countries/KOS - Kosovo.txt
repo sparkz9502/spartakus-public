@@ -1,18 +1,10 @@
 ﻿capital = 765
-
-OOB = "KOS"
+set_research_slots = 2
 set_stability = 0.4
 set_war_support = 0.5
 
-set_research_slots = 1
-
-set_technology = {
-	infantry_weapons = 1
-	tech_support = 1
-	tech_recon = 1
-}
-
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
@@ -20,10 +12,28 @@ add_ideas = {
 	mobilization_1
 }
 
-set_politics = {	
+### Country Leaders ###
+recruit_character = KOS_fadil_hoxha
+recruit_character = KOS_miladin_popovic
+recruit_character = KOS_azem_galica
+
+### Field Marshals ###
+recruit_character = KOS_shote_galica
+
+### Starting Tech ###
+set_technology = {	
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_engineers = 1
+}
+
+### Politics ###
+
+set_politics = {
 	ruling_party = social_democrat
-	last_election = "1932.1.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -40,48 +50,4 @@ set_popularities = {
     right_wing_populist = 3
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-set_convoys = 5
-
-create_country_leader = { #Albanian Rep
-	name = "Fadil Hoxha"
-	desc = ""
-	picture = "Portrait_KOS_Fadil_Hoxha.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
-	traits = {
-	}
-}
-
-create_country_leader = { #Yugoslav Rep
-	name = "Miladin Popović"
-	desc = ""
-	picture = "Portrait_KOS_Miladin_Popović.tga"
-	expire = "1965.1.1"
-	ideology = spartacist_subtype
-	traits = {
-	}
-}	
-
-create_country_leader = { 
-	name = "Azem Galica"
-	desc = ""
-	picture = "Portrait_KOS_Azem_Galica.tga"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Shote Galica"
-	portrait_path = gfx/leaders/KOS/Portrait_KOS_Shote_Galica.tga
-	traits = { trickster  }
-	skill = 3
-
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

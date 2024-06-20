@@ -1,0 +1,234 @@
+characters={
+    KMC_feng_yuxiang = {
+        name = "Feng Yuxiang"
+        portraits={
+            civilian={
+                large = "gfx/leaders/KMC/Portrait_Feng_Yuxiang.tga"
+            }
+			army={
+                large = "gfx/leaders/KMC/Portrait_Feng_Yuxiang.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_FENG_YUXIANG_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+                #
+            }
+            id=-1
+        }
+		field_marshal={
+            traits = {
+				inspirational_leader 
+				organizer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+
+    KMC_lu_zhonglin = {
+        name = "Lu Zhonglin"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Lu_Zhonglin.tga"
+            }
+        }
+        field_marshal={
+            traits = {
+				organizer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	
+	KMC_han_fuju = {
+        name = "Han Fuju"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Han_Fuju.tga"
+            }
+        }
+        corps_commander={
+            traits = { infantry_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	
+	KMC_ji_hongchang = {
+        name = "Ji Hongchang"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Ji_Hongchang.tga"
+            }
+        }
+        corps_commander={
+            traits = { infantry_leader trait_CHI_communist_sympathizer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	
+	KMC_shi_yousan = {
+        name = "Shi Yousan"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Shi_Yousan.tga"
+            }
+        }
+        corps_commander={
+            traits = { trickster trait_CHI_rebellious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+	
+	KMC_wei_yisan = {
+        name = "Wei Yisan"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Wei_Yisan.tga"
+            }
+        }
+        corps_commander={
+            traits = { bearer_of_artillery trait_CHI_rebellious }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	
+	KMC_ma_bufang = {
+        name = "Ma Bufang"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Ma_Bufang.tga"
+            }
+        }
+        corps_commander={
+            traits = { cavalry_leader trait_CHI_ma_clique }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	
+	KMC_ma_tengjiao = {
+        name = "Ma Tengjiao"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Ma_Tengjiao.tga"
+            }
+        }
+        corps_commander={
+            traits = { cavalry_leader trait_CHI_ma_clique }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	
+	KMC_liu_maoen = {
+        name = "Liu Mao'en"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Liu_Maoen.tga"
+            }
+        }
+        corps_commander={
+            traits = { trait_CHI_zhensongjun }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	
+	KMC_li_mingzhong = {
+        name = "Li Mingzhong"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Li_Mingzhong.tga"
+            }
+        }
+        corps_commander={
+			traits = { old_guard }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	
+	KMC_pang_bingxun = {
+        name = "Pang Bingxun"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Pang_Bingxun.tga"
+            }
+        }
+        corps_commander={
+			traits = { trait_reckless }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	
+	KMC_song_zheyuan = {
+        name = "Song Zheyuan"
+        portraits={
+            army={
+                large = "gfx/leaders/KMC/Portrait_Song_Zheyuan.tga"
+            }
+        }
+        corps_commander={
+			traits = { infantry_leader skilled_staffer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+}

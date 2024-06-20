@@ -1,0 +1,53 @@
+characters={
+	PRI_nikolai_kalashnikov = {
+        name = "Nikolai Kalashnikov"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PRI/Portrait_Nikolai_Kalashnikov.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_NIKOLAI_KALASHNIKOV_DESC"
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	PRI_spiridon_merkulov = {
+        name = "Spiridon Merkulov"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PRI/Portrait_Spiridon_Merkulov.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_SPIRIDON_MERKULOV_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	PRI_mikhail_diterikhs = {
+        name = "Mikhail Diterikhs"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PRI/Portrait_Mikhail_Diterikhs.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MIKHAIL_DITERIKHS_DESC"
+            expire = "1965.1.1"
+            ideology = national_syndicalist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

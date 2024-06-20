@@ -1,40 +1,45 @@
 ﻿capital = 431
-
-set_oob = "CIN"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.6
+set_war_support = 0.1
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_coun
 	trade_aut
 	economy_unind
+	unions_statecontrolled
+	suffrage_universal
+	deathpenalty_legalized
+	press_stateonly
+	welfare_low
+	judiciary_politicized
 	mobilization_1
 }
 
-set_stability = 0.6
-set_war_support = 0.1
+### Country Leaders ###
+recruit_character = CIN_indian_council_of_leftists
+recruit_character = CIN_jawaharlal_nehru
+recruit_character = CIN_manabendra_nath_roy
+recruit_character = CIN_sardaar_bhagat_singh
 
-# Starting tech
+### Starting Tech ###
 set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	tech_recon = 1
-	transport = 1
-	trench_warfare = 1
-	fleet_in_being = 1
-	CAS1 = 1
+	### General ###
+	basic_train = 1
 	
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
 }
 
-set_convoys = 20
+### Politics ###
 
 set_politics = {	
 	ruling_party = revolutionary_socialist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -51,8 +56,3 @@ set_popularities = {
     national_syndicalist = 0
     national_corporatist = 0
 }
-
-recruit_character = CIN_indian_council_of_leftists
-recruit_character = CIN_jawaharlal_nehru
-recruit_character = CIN_manabendra_nath_roy
-recruit_character = CIN_sardaar_bhagat_singh

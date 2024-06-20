@@ -42,12 +42,9 @@ characters={
 			id=-1
 		}
 	}
-	PGA_józef_unszlicht={
+	PGA_jozef_unszlicht={
 		name="Józef Unszlicht"
 		portraits={
-			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
 			army={
 				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
 			}
@@ -60,128 +57,6 @@ characters={
 			planning_skill=3
 			logistics_skill=4
 			legacy_id=-1
-		}
-	}
-	PGA_marcin_piotrowski={
-		name="Marcin Piotrowski"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=bolshevist_subtype
-			expire="1938.1.1.1"
-			id=-1
-		}
-	}
-	PGA_kacper_dąbrowski={
-		name="Kacper Dąbrowski"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
-			}
-		}
-		country_leader={
-			ideology=baathism
-			traits={ undistinguished_suit }
-			expire="1938.1.1.1"
-			id=-1
-		}
-	}
-	PGA_michał_kowalski={
-		name="Michał Kowalski"
-		portraits={
-			civilian={
-				large="gfx/leaders/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=austromarxism
-			expire="1939.1.1.1"
-			id=-1
-		}
-	}
-	PGA_filip_piotrowski={
-		name="Filip Piotrowski"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_8.dds"
-			}
-		}
-		country_leader={
-			ideology=labour
-			traits={ undistinguished_suit }
-			expire="1940.1.1.1"
-			id=-1
-		}
-	}
-	PGA_tomasz_szymański={
-		name="Tomasz Szymański"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=moderate_radicalism
-			expire="1940.1.1.1"
-			id=-1
-		}
-	}
-	PGA_maksymilian_kowalski={
-		name="Maksymilian Kowalski"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Britain_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=libertarian_conservatism
-			traits={ undistinguished_suit }
-			expire="1941.1.1.1"
-			id=-1
-		}
-	}
-	PGA_igor_wojciechowski={
-		name="Igor Wojciechowski"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_France_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=traditional_conservatism
-			expire="1942.1.1.1"
-			id=-1
-		}
-	}
-	PGA_maksymilian_szymański={
-		name="Maksymilian Szymański"
-		portraits={
-			civilian={
-				large="gfx/leaders/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=authoritarian_republicanism
-			traits={ undistinguished_suit }
-			expire="1942.1.1.1"
-			id=-1
-		}
-	}
-	PGA_grzegorz_kowalski={
-		name="Grzegorz Kowalski"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_5.dds"
-			}
-		}
-		country_leader={
-			ideology=national_corporatist_subtype
-			traits={ undistinguished_suit }
-			expire="1943.1.1.1"
-			id=-1
 		}
 	}
 }

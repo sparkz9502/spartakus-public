@@ -1,0 +1,33 @@
+characters={
+	SWI_federal_council={
+		name="Federal Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWI/Portrait_Switzerland_Federal_assembly.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FEDERAL_COUNCIL_DESC"
+			ideology=liberal_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWI_henri_guisan={
+		name="Henri Guisan"
+		portraits={
+			army={
+				large="gfx/leaders/SWI/Portrait_Henri_Guisan.tga"
+			}
+		}
+		corps_commander={
+			traits = { winter_specialist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

@@ -1,0 +1,25 @@
+characters={
+	KHO_mohammad_taqi_pessian={
+		name="Mohammad Taqi Pessian"
+		portraits={
+			civilian={
+				large="gfx/leaders/KHO/Portrait_Mohammad_Taqi_Pessian.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MOHAMMAD_TAQI_PESSIAN_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ brilliant_strategist }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+}

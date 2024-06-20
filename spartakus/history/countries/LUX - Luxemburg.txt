@@ -1,14 +1,18 @@
 ﻿capital = 8
-
 set_oob = "LUX"
+set_research_slots = 3
+set_war_support = 0.1
+set_stability = 0.8
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_par
 	trade_sempro
 	economy_semind
 	mobilization_1
 	
+	### Ministers ###
 	LUX_Joseph_Bech_hog_sco
 	LUX_Joseph_Bech_for_sco
 	LUX_Pierre_Dupong_eco_sco
@@ -20,23 +24,28 @@ add_ideas = {
 	LUX_Felix_Bourbon-Parma_cos
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = LUX_charlotte
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
-	early_fighter = 1
 }
-set_war_support = 0.1
-set_stability = 0.8
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = social_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "1931.6.7"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -55,14 +64,3 @@ set_popularities = {
 }
 
 set_country_flag = coalition_social_liberal
-
-create_country_leader = {
-	name = "Charlotte"
-	desc = "POLITICS_CHARLOTTE_LUX_DESC"
-	picture = "Portrait_Charlotte.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}

@@ -4,9 +4,6 @@ on_actions = {
 			USA = {
 				news_event = { id = depression.1 days = 75 }
 			}
-			ROM = {
-				country_event = { id = rom.14 days = 80 }
-			}
 			ALB = {
 				country_event = { id = alb.6 days = 80 }
 			}

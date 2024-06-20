@@ -1,0 +1,16 @@
+characters={
+	UAE_united_trucial_council={
+		name="United Trucial Council"
+		portraits={
+			civilian={
+				large="gfx/leaders/UAE/Portrait_United_Trucial_Council.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_UNITED_TRUCIAL_COUNCIL_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

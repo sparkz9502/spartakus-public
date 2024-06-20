@@ -44,11 +44,9 @@ units = {
 		start_equipment_factor = 0.3
 
 	}
-
-	##### No notable navy #####
 }
 
-##### No notable air forces #####
+### Starting Production ###
 
 instant_effect = {
 	add_equipment_production = {

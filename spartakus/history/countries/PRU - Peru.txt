@@ -1,8 +1,22 @@
 ﻿capital = 303
-
 set_oob = "PRU"
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "PRU_air_bba"
+	else = {
+		set_air_oob = "PRU_air_legacy"
+	}
+}
+set_naval_oob = "PRU_naval"
+set_research_slots = 3
+set_convoys = 50
+set_stability = 0.35
+set_war_support = 0.2
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
@@ -10,29 +24,77 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = PRU_augusto_leguia
+recruit_character = PRU_haya_de_la_torre
+recruit_character = PRU_luis_cerro
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	gw_artillery = 1
-	early_fighter = 1
-	cv_early_fighter = 1
-	early_bomber = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
+	interwar_antiair = 1
+}
+### Air - BBA ###
+if = {
+	limit = { 
+		has_dlc = "By Blood Alone" 
+	}
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+		iw_small_airframe = 1
+	}
+}
+### Air - no BBA ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		cv_early_fighter = 1
+		CAS1 = 1
+	}
+}
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		early_ship_hull_cruiser = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+		coastal_defense_ships = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
 }
 
-set_convoys = 50
-set_stability = 0.35
-set_war_support = 0.2
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -48,37 +110,4 @@ set_popularities = {
     right_wing_populist = 12
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Augusto Bernardino Leguía"
-	desc = "POLITICS_AUGUSTO_LEGUIA_DESC"
-	picture = "Portrait_Augusto_Leguia.tga"
-	expire = "1965.1.1"
-	ideology = conservative_liberalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Víctor Raúl Haya de la Torre"
-	desc = "POLITICS_VICTOR_RAUL_HAYA_TORRE_DESC"
-	picture = "Portrait_Victor_Raul_Haya_Torre.tga"
-	expire = "1965.1.1"
-	ideology = anarcho_syndicalism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Luis Miguel Sánchez Cerro"
-	desc = "POLITICS_LUIS_CERRO_DESC"
-	picture = "Portrait_Luis_Miguel_Sanchez_Cerro.dds"
-	expire = "1965.1.1"
-	ideology = military_junta
-	traits = {
-		#
-	}
 }

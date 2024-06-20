@@ -1,28 +1,30 @@
 ﻿capital = 513
-OOB = "empty"
+set_research_slots = 1
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
-	governance_exec
+	governance_tri
 	trade_pro
 	economy_undev
 	mobilization_1
 }
 
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
-	### MOD ###
-	### General ###
-	
-	### INF ###
 	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
-set_research_slots = 2
+
+### Politics ###
+
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -38,53 +40,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-### Field Marshal
-create_field_marshal = { #Auto-Generated
-	name = "ag Ihemma"
-	portrait_path = "gfx/leaders/TUA/Portrait_TUA_Akhemuk_ag_Ihemma.tga"
-	traits = {
-		defensive_doctrine
-	}
-	skill = 3
-}
-
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "ag Attaher"
-	portrait_path = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_1.tga"
-	traits = {
-		desert_fox
-		trickster
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "Kaocen"
-	portrait_path = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_2.tga.tga"
-	traits = {
-		desert_fox
-	}
-	skill = 2
-}
-
-create_corps_commander = { #Auto-Generated
-	name = "ag Amayas"
-	portrait_path = "gfx/leaders/Generic/Portrait_Arabia_Generic_land_new_3.tga.tga"
-	traits = {
-		commando
-	}
-	skill = 1
-}
-
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Agg-Ibrahim"
-	portrait_path = "gfx/leaders/SAU/Portrait_Arabia_Generic_navy_1.dds"
-	traits = {
-		seawolf
-	}
-	skill = 1
 }

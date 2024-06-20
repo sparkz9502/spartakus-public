@@ -1,27 +1,39 @@
 ﻿capital = 881
-OOB = "CNR"
-
-inherit_technology = BEL
+set_oob = "CNR"
 set_research_slots = 0
+set_convoys = 50
+set_stability = 0.2
+set_war_support = 0.1
+set_cosmetic_tag = CNR_BEL
 
 add_ideas = {
+	### Laws ###
 	recruitment_colonial
 	governance_colo
 	trade_laif
 	economy_unind
+	unions_nonexistent
+	suffrage_novoting
+	deathpenalty_legalized
+	press_stateonly
+	welfare_nostate
+	judiciary_politicized
 	mobilization_1
 }
 
+### Country Leaders ###
+recruit_character = CNR_albert_i
+
+### Starting Tech ###
 set_technology = {
-	#gets overlord tech
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_cosmetic_tag = CNR_BEL
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 

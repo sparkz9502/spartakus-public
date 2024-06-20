@@ -75,7 +75,7 @@ ideas = {
 		
 		trade_aut = {
 			modifier = {
-				min_export = 0.4
+				min_export = 0.5
 				local_resources_factor = 0.1
 				production_speed_arms_factory_factor = 0.05
 				civilian_intel_to_others = 10.0
@@ -84,7 +84,7 @@ ideas = {
 		
 		trade_nat = {
 			modifier = {
-				min_export = 0.5
+				min_export = 0.55
 				local_resources_factor = 0.05
 				production_speed_arms_factory_factor = 0.025
 				civilian_intel_to_others = 15.0
@@ -95,22 +95,23 @@ ideas = {
 			modifier = {
 				min_export = 0.6
 				local_resources_factor = 0.025
+				production_speed_industrial_complex_factor = 0.05
 				civilian_intel_to_others = 20.0
 			}
 		}
 		
 		trade_sempro = {
 			modifier = {
-				min_export = 0.7
-				production_speed_industrial_complex_factor = 0.05
+				min_export = 0.65
+				production_speed_industrial_complex_factor = 0.1
 				civilian_intel_to_others = 30.0
 			}
 		}
 		
 		trade_laif = {
 			modifier = {
-				min_export = 0.8
-				production_speed_industrial_complex_factor = 0.1
+				min_export = 0.7
+				production_speed_industrial_complex_factor = 0.15
 				civilian_intel_to_others = 40.0
 			}
 		}
@@ -255,12 +256,160 @@ ideas = {
 			}
 		}
 		
+		#Unions
+		
+		unions_independent = {
+			modifier = {
+				conversion_cost_civ_to_mil_factor = 0.1
+				political_power_gain = 0.05
+				local_resources_factor = 0.03
+			}
+		}
+		
+		unions_suppressed = {
+			modifier = {
+				war_stability_factor = 0.05
+				political_power_gain = -0.05
+				industrial_capacity_factory = 0.03
+			}
+		}
+		
+		unions_statecontrolled = {
+			modifier = {
+				war_stability_factor = 0.1
+				political_power_gain = -0.1
+				production_factory_max_efficiency_factor = 0.03
+			}
+		}
+		
+		unions_nonexistent = {
+			modifier = {
+				war_stability_factor = 0.15
+				political_power_gain = -0.15
+				production_speed_buildings_factor = 0.03
+			}
+		}
+		
+		#Suffrage
+		
+		suffrage_universal = {
+			modifier = {
+				stability_factor = 0.03
+				political_power_gain = -0.05
+			}
+		}
+		
+		suffrage_restricted = {
+			modifier = {
+				stability_factor = -0.03
+				political_power_gain = 0.05
+			}
+		}
+		
+		suffrage_novoting = {
+			modifier = {
+				stability_factor = -0.06
+				political_power_gain = 0.1
+			}
+		}
+		
+		#Death Penalty
+		
+		deathpenalty_outlawed = {
+			modifier = {
+				political_power_factor = 0.03
+			}
+		}
+		
+		deathpenalty_legalized = {
+			modifier = {
+				stability_factor = 0.03
+				resistance_target = -0.05
+			}
+		}
+		
+		#Press
+		
+		press_free = {
+			modifier = {
+				compliance_gain = 0.01
+				political_power_gain = 0.05
+			}
+		}
+		
+		press_censored = {
+			modifier = {
+				stability_factor = 0.04
+				war_support_factor = 0.04
+				political_power_gain = -0.05
+			}
+		}
+		
+		press_stateonly = {
+			modifier = {
+				stability_factor = 0.08
+				war_support_factor = 0.08
+				political_power_gain = -0.1
+			}
+		}
+		
+		#Welfare
+		
+		welfare_high = {
+			modifier = {
+				consumer_goods_factor = 0.075
+				stability_factor = 0.12
+				war_support_factor = 0.12
+				monthly_population = 0.3
+			}
+		}
+		
+		welfare_medium = {
+			modifier = {
+				consumer_goods_factor = 0.05
+				stability_factor = 0.08
+				war_support_factor = 0.08
+				monthly_population = 0.2
+			}
+		}
+		
+		welfare_low = {
+			modifier = {
+				consumer_goods_factor = 0.025
+				stability_factor = 0.04
+				war_support_factor = 0.04
+				monthly_population = 0.1
+			}
+		}
+		
+		welfare_nostate = {
+			modifier = {
+				political_power_factor = -0.1
+			}
+		}
+		
+		#Judiciary
+		
+		judiciary_impartial = {
+			modifier = {
+				stability_factor = 0.05
+				political_power_factor = -0.05
+			}
+		}
+		
+		judiciary_politicized = {
+			modifier = {
+				stability_factor = -0.05
+				political_power_factor = 0.05
+			}
+		}
+		
 		#Mobilization
 		
 		mobilization_1 = {
 			modifier = {
 				stability_factor = 0.25
-				consumer_goods_factor = 0.55
+				consumer_goods_expected_value = 0.55
 				production_speed_industrial_complex_factor = -0.5
 				production_speed_arms_factory_factor = -0.5
 				production_speed_dockyard_factor = -0.4
@@ -274,7 +423,7 @@ ideas = {
 		mobilization_2 = {
 			modifier = {
 				stability_factor = 0.2
-				consumer_goods_factor = 0.5
+				consumer_goods_expected_value = 0.5
 				production_speed_industrial_complex_factor = -0.4
 				production_speed_arms_factory_factor = -0.4
 				production_speed_dockyard_factor = -0.3
@@ -288,7 +437,7 @@ ideas = {
 		mobilization_3 = {
 			modifier = {
 				stability_factor = 0.15
-				consumer_goods_factor = 0.45
+				consumer_goods_expected_value = 0.45
 				production_speed_industrial_complex_factor = -0.3
 				production_speed_arms_factory_factor = -0.3
 				production_speed_dockyard_factor = -0.2
@@ -302,7 +451,7 @@ ideas = {
 		mobilization_4 = {
 			modifier = {
 				stability_factor = 0.1
-				consumer_goods_factor = 0.4
+				consumer_goods_expected_value = 0.4
 				production_speed_industrial_complex_factor = -0.2
 				production_speed_arms_factory_factor = -0.2
 				production_speed_dockyard_factor = -0.1
@@ -316,7 +465,7 @@ ideas = {
 		mobilization_5 = {
 			modifier = {
 				stability_factor = 0.05
-				consumer_goods_factor = 0.35
+				consumer_goods_expected_value = 0.35
 				production_speed_industrial_complex_factor = -0.1
 				production_speed_arms_factory_factor = -0.1
 				conversion_cost_civ_to_mil_factor = 0.1
@@ -329,11 +478,12 @@ ideas = {
 		mobilization_6 = {
 			modifier = {
 				stability_factor = -0.05
-				consumer_goods_factor = 0.3
+				consumer_goods_expected_value = 0.3
 				production_speed_arms_factory_factor = 0.05
 				conversion_cost_civ_to_mil_factor = -0.05
 				conversion_cost_mil_to_civ_factor = -0.05
 				fuel_gain_factor = -0.1
+				min_export = -0.05
 			}
 		}
 		
@@ -341,10 +491,11 @@ ideas = {
 			modifier = {
 				stability_factor = -0.1
 				conscription_factor = -0.05
-				consumer_goods_factor = 0.25
+				consumer_goods_expected_value = 0.25
 				production_speed_arms_factory_factor = 0.1
 				conversion_cost_civ_to_mil_factor = -0.1
 				conversion_cost_mil_to_civ_factor = -0.1
+				min_export = -0.1
 			}
 		}
 		
@@ -352,10 +503,11 @@ ideas = {
 			modifier = {
 				stability_factor = -0.15
 				conscription_factor = -0.1
-				consumer_goods_factor = 0.2
+				consumer_goods_expected_value = 0.2
 				production_speed_arms_factory_factor = 0.15
 				conversion_cost_civ_to_mil_factor = -0.15
 				conversion_cost_mil_to_civ_factor = -0.15
+				min_export = -0.15
 			}
 		}
 		
@@ -363,10 +515,11 @@ ideas = {
 			modifier = {
 				stability_factor = -0.2
 				conscription_factor = -0.15
-				consumer_goods_factor = 0.15
+				consumer_goods_expected_value = 0.15
 				production_speed_arms_factory_factor = 0.2
 				conversion_cost_civ_to_mil_factor = -0.2
 				conversion_cost_mil_to_civ_factor = -0.2
+				min_export = -0.2
 			}
 		}
 		
@@ -374,10 +527,11 @@ ideas = {
 			modifier = {
 				stability_factor = -0.25
 				conscription_factor = -0.2
-				consumer_goods_factor = 0.1
+				consumer_goods_expected_value = 0.1
 				production_speed_arms_factory_factor = 0.25
 				conversion_cost_civ_to_mil_factor = -0.25
 				conversion_cost_mil_to_civ_factor = -0.25
+				min_export = -0.25
 			}
 		}
 	}

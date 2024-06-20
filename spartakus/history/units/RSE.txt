@@ -148,7 +148,7 @@ units = {
     division = {
 		name = "2a Moravska Divizija"  			
 		location = 13560
-		division_template = "Pešadijska Divizija (Režimski Oficiri)" 
+		division_template = "Pešadijska Divizija" 
 		start_experience_factor = 0.4
 		start_equipment_factor = 0.4
 	}		

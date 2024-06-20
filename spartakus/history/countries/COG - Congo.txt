@@ -1,29 +1,36 @@
 ﻿capital = 295
-
-set_oob = "COG"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
 	economy_unind
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_low
+	judiciary_politicized
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
-	tech_mountaineers = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_convoys = 5
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {

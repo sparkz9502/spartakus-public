@@ -119,8 +119,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 52
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 52
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -195,8 +197,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 65
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 65
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -260,8 +264,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 51
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 51
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -338,8 +344,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 59
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 59
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -423,8 +431,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 58
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 58
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -492,8 +502,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 62
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 62
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -559,8 +571,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 1265
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 1265
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -619,8 +633,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 1264
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 1264
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -679,8 +695,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 66
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 66
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -744,8 +762,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 776
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 776
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -823,8 +843,10 @@ GER_infrastructure_budget = {
 		available = {
 			num_of_civilian_factories_available_for_projects > 3
 		}
-		highlight_state_targets = { 
-			state = 5
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 5
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -890,8 +912,10 @@ GER_fortification_budget = {
 		modifier = {
             civilian_factory_use = 3
         }
-		highlight_state_targets = { 
-			state = 51
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 51
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -1005,8 +1029,10 @@ GER_fortification_budget = {
 		modifier = {
             civilian_factory_use = 3
         }
-		highlight_state_targets = { 
-			state = 54
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 54
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -1106,8 +1132,10 @@ GER_fortification_budget = {
 		modifier = {
             civilian_factory_use = 3
         }
-		highlight_state_targets = { 
-			state = 69
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 69
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -1200,8 +1228,10 @@ GER_fortification_budget = {
 		modifier = {
             civilian_factory_use = 3
         }
-		highlight_state_targets = { 
-			state = 58
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 58
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -1301,8 +1331,10 @@ GER_fortification_budget = {
 		modifier = {
             civilian_factory_use = 3
         }
-		highlight_state_targets = { 
-			state = 85
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 85
+			}
 		}
 		days_remove = 30
 		remove_effect = {
@@ -1419,8 +1451,10 @@ GER_fortification_budget = {
 		modifier = {
             civilian_factory_use = 3
         }
-		highlight_state_targets = { 
-			state = 1264
+		highlight_states = {
+			highlight_state_targets = { 
+				state = 1264
+			}
 		}
 		days_remove = 30
 		remove_effect = {

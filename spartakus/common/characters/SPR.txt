@@ -155,32 +155,4 @@ characters={
 			legacy_id=-1
 		}
 	}
-	SPR_mariano_Álvarez={
-		name="Mariano Álvarez"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-			}
-		}
-		country_leader={
-			ideology=spartacist_leninism
-			traits={ undistinguished_suit }
-			expire="1938.1.1.1"
-			id=-1
-		}
-	}
-	SPR_baldomero_villapol={
-		name="Baldomero Villapol"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-			}
-		}
-		country_leader={
-			ideology=buddhist_communism
-			traits={ undistinguished_suit }
-			expire="1937.1.1.1"
-			id=-1
-		}
-	}
 }

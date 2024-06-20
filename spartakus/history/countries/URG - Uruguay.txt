@@ -1,8 +1,13 @@
 ﻿capital = 300
-
 set_oob = "URG"
+set_naval_oob = "URG_naval"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.4
+set_war_support = 0.2
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
@@ -10,25 +15,48 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = URG_gabriel_terra_leivas
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	gw_artillery = 1
-	early_fighter = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
+}
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns"
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		early_ship_hull_light = 1
+		basic_battery = 1
+		basic_torpedo = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_destroyer = 1
+		early_light_cruiser = 1
+	}
 }
 
-set_convoys = 30
-set_stability = 0.4
-set_war_support = 0.2
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
-
+	last_election = "1888.11.29"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -44,15 +72,4 @@ set_popularities = {
     right_wing_populist = 1
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Gabriel Terra Leivas"
-	desc = "POLITICS_GABRIEL_TERRA_DESC"
-	picture = "Portrait_Gabriel_Terra.tga"
-	expire = "1965.1.1"
-	ideology = national_liberalism
-	traits = {
-		#
-	}
 }

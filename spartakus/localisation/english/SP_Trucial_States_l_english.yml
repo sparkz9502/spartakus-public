@@ -22,8 +22,8 @@ UAE_liberal_conservative_party:0 "-"
 UAE_liberal_conservative_party_long:0 ""
 UAE_social_conservative_party:0 "-"
 UAE_social_conservative_party_long:0 ""
-UAE_authoritarian_conservative_party:0 "Trucial Council"
-UAE_authoritarian_conservative_party_long:0 ""
+UAE_authoritarian_conservative_party:0 "Trucial States Council"
+UAE_authoritarian_conservative_party_long:0 "Trucial States Council"
 UAE_right_wing_populist_party:0 "-"
 UAE_right_wing_populist_party_long:0 ""
 UAE_national_syndicalist_party:0 "-"
@@ -34,6 +34,10 @@ UAE_national_corporatist_party_long:0 ""
 ### Focuses ###
 
 ### Ideas ###
+UAE_trucial_council:0 "Trucial States Council"
+UAE_trucial_council_desc:0 "The Trucial States are a group of tribal confederations that came under the protection of the British Empire. The protectorate lacks central authority; instead, a council acts as a forum for the various rulers to exchange views and agree on internal policies."
+UAE_lobsters:0 "Declining Pearl Industry"
+UAE_lobsters_desc:0 "Once a flourishing industry, pearl hunting in the Persian gulf has become a mere shadow of its former self. Thanks to growing artificial pearl farming in Japan, many coastal towns and villages in the Trucial States are experiencing economic decline."
 
 ### Flags ###
 

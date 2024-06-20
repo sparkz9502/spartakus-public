@@ -8,6 +8,7 @@ state={
 		iron=1
 		raremetals=18
 		copper=1
+		coal=9
 	}
 	
 	state_category = small_town

@@ -4,8 +4,7 @@ state={
 	name="STATE_268"
 
 	history={
-		owner = AEF
-		add_core_of = AEF
+		owner = FRA
 		buildings = {
 			infrastructure = 1
 			air_base = 1

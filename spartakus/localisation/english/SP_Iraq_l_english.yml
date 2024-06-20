@@ -1,0 +1,50 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+IRQ_bolshevist_party:0 "ICP"
+IRQ_bolshevist_party_long:0 "Iraqi Communist Party"
+IRQ_spartacist_party:0 "ICP"
+IRQ_spartacist_party_long:0 "Iraqi Communist Party"
+IRQ_revolutionary_socialist_party:0 "ICP"
+IRQ_revolutionary_socialist_party_long:0 "Iraqi Communist Party"
+IRQ_reformist_socialist_party:0 "-"
+IRQ_reformist_socialist_party_long:0 "-"
+IRQ_social_democrat_party:0 "Al-Ahali Group"
+IRQ_social_democrat_party_long:0 "Al-Ahali Group"
+IRQ_social_liberal_party:0 "-"
+IRQ_social_liberal_party_long:0 "-"
+IRQ_liberal_conservative_party:0 "LP"
+IRQ_liberal_conservative_party_long:0 "Liberals’ Party"
+IRQ_social_conservative_party:0 "Al-Ahd"
+IRQ_social_conservative_party_long:0 " Covenant Society (Al-Ahd)"
+IRQ_authoritarian_conservative_party:0 "Al Hashimiyun"
+IRQ_authoritarian_conservative_party_long:0 "Al Hashimiyun"
+IRQ_right_wing_populist_party:0 "PNB"
+IRQ_right_wing_populist_party_long:0 "Party of National Brotherhood"
+IRQ_national_syndicalist_party:0 "-"
+IRQ_national_syndicalist_party_long:0 "-"
+IRQ_national_corporatist_party:0 "Golden Square"
+IRQ_national_corporatist_party_long:0 "Golden Square"
+
+### Focuses ###
+
+### Ideas ###
+IRQ_The_White_Devils:0 "Anti-British Sentiment"
+IRQ_The_White_Devils_desc:0 "Due to the unrestricted movement of troops and exploitation of natural resources by the British, the Iraqi people have grown increasingly opposed to the current administration, which they see as merely a puppet of Britain. Now, new political organizations have appeared to capture this discontent. In particular, the Iraqi Communist Party and the Golden Square, representing the militant left and right respectively, have become a growing problem for British interests in the region. Only time will tell if they will be successful in their goals for true independence."
+IRQ_Fuel_of_Freedom:0 "Iraq Petroleum Company"
+IRQ_Fuel_of_Freedom_desc:0 "The Iraq Petroleum Company, originally the Turkish Petroleum Company, has had a total monopoly over all oil exploration and production in Iraq since 1925. And while increasingly large amounts of oil are being extracted, little goes to the local government, and the lion’s share of the profits goes to the company’s shareholders."
+IRQ_Bush_Student_Loans:0 "Anglo-Iraqi Treaty"
+IRQ_Bush_Student_Loans_desc:0 "Nuri al-Said, the prime minister of Iraq, signed the Anglo-Iraqi Treaty in 1930, granting Iraq nominal independence while securing special commercial and military privileges for the United Kingdom. These concessions include the unrestricted right to move and station British troops in the region as well as control over resources for the United Kingdom, especially the substantial oil reserves found in the country. This treaty impairs the power of the Iraqi government, and while further development of industry and infrastructure has been done thanks to it, much of this was for the benefit of the British Empire, as opposed to that of the Iraqi people."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

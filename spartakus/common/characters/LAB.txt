@@ -1,0 +1,35 @@
+characters={
+	LAB_giovanni_pippan={
+		name="Giovanni Pippan"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAB/Portrait_Labin_Giovanni_Pippan.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GIOVANNI_PIPPAN_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LAB_francesco_da_gioz={
+		name="Francesco Da Gioz"
+		portraits={
+			army={
+				large="gfx/leaders/LAB/Portrait_Labin_Francesco_Da_Gioz.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				expert_improviser
+            }
+            skill = 3
+            attack_skill = 1
+            defense_skill = 4
+            planning_skill = 2
+            logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}

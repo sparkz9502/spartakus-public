@@ -169,7 +169,7 @@ ideas = {
         }
 		
 		ITA_IMI = {
-            picture = generic_coins
+            picture = IMI
             modifier = {
 				political_power_gain = -0.08
 				consumer_goods_factor = 0.05
@@ -185,7 +185,7 @@ ideas = {
 				war_support_factor = 0.20
 				surrender_limit = 0.15
 			}
-			picture = generic_morale_bonus
+			picture = ITA_Italian_Civil_War
 		}
 		
 		ITA_Shattered_Army_idea = {

@@ -207,17 +207,6 @@ units = {
 	}
 }
 
-air_wings = {
-	### Vazduhoplovna Komanda Srpske Vojske #vazduplohov 
-	107 = {
-		fighter_equipment_0 =  {
-			owner = "SER" 
-			amount = 12
-		}
-		 name = "Vazduhoplovna Komanda Srpske Vojske"
-	}
-}
-
 ### Starting Production ###
 instant_effect = {
 	add_equipment_production = {

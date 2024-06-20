@@ -1,0 +1,19 @@
+characters={
+	NAN_sun_fo = {
+        name = "Sun Fo"
+        portraits={
+            civilian={
+                large = "gfx/leaders/NAN/Portrait_Sun_Ke.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_SUN_FO_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

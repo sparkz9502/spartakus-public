@@ -7,6 +7,10 @@
 # Custom Tooltips
 
 # Ideas
+HUN_legacy_of_bela_kun:0 "Legacy of Bela Kun"
+HUN_mixed_relationship_with_countryside:0 "Mixed Relationship With Countryside"
+HUN_red_revanchism:0 "Red Revanchism"
+HUN_specialised_economy:0 "Specialized Economy"
 
 # Focuses
 
@@ -40,3 +44,9 @@ HUN_national_corporatist_party:0 "MNFP"
 HUN_national_corporatist_party_long:0 "Hungarian National Independence Party (Magyar Nemzeti Függetlenségi Párt)"
 
 # Opinion Modifiers
+
+### Dynamic Modifiers ###
+#Dynamic Modifiers for SRs#
+HUN_hungarian_sr:0 "Hungarian Soviet Republic"
+HUN_slovak_sr:0 "Slovak Soviet Republic"
+HUN_rusyn_sr:0 "Rusyn Autonomous Soviet Republic"

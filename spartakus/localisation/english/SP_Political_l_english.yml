@@ -1,5 +1,11 @@
 ﻿l_english:
 
+bauxite_desc:0 "Bauxite is an ore that contains a high concentration of aluminum, valued highly for airplanes due to its low weight and high strength."
+copper_desc:0 "Copper is a metal used in munitions, wiring, and the production of brass."
+iron_desc:0 "Iron is a metal used in the production of steel, which is essential to almost all war material."
+raremetals_desc:0 "Rare metals are a collection of sparse metals used for niche purposes such as stainless steel, armored plates, and high quality tools. They most notably include chromium, tungsten, molybdenum, vanadium and nickel."
+coal_desc:0 "Coal is a fuel with a high concentration of carbon, critically used for the production of electricity necessary for the function of nearly all industries."
+
 Bypass_tt:0 "§GThis focus will automatically complete when the conditions are met.§!"
 SP_no_mobilization_flag:0 "§RWe are unable to mobilize our economy manually.§!"
 SP_no_conscription_flag:0 "§RWe are unable to increase our recruitment law manually.§!"
@@ -109,7 +115,7 @@ GetRightWingPopulistDescription:0 "[GetRightWingPopulistDescription]"
 GetNationalSyndicalistDescription:0 "[GetNationalSyndicalistDescription]"
 GetNationalCorporatistDescription:0 "[GetNationalCorporatistDescription]"
 
-OPEN_LAWS_BUTTON:0 "Open Laws"
+OPEN_LAWS_BUTTON:0 "Open Laws Menu"
 
 #Economy
 
@@ -192,11 +198,11 @@ trade_pro_tt:0 "The §LTrade§! law will change to §YProtectionist§!"
 trade_sempro_tt:0 "The §LTrade§! law will change to §YSemi-Protectionist§!"
 trade_laif_tt:0 "The §LTrade§! law will change to §YLaissez-Faire§!"
 
-trade_aut_desc:0 "The trade policy is based around seeking autarky, or self-sufficiency, through conserving natural resources and produced goods for the advancement of the country.\n§YModifiers:§!\nResources to Market: §Y+40.00%§!\nResource Gain Efficiency: §G+10.00%§!\n§YMilitary Factory§! construction speed: §G+5.00%§!\nCivilian intelligence to others: §R+10.00%§!"
-trade_nat_desc:0 "The trade policy is based around conserving resources and goods to achieve self-sufficiency in specific economic sectors, while still embracing the global market.\n§YModifiers:§!\nResources to Market: §Y+50.00%§!\nResource Gain Efficiency: §G+5.00%§!\n§YMilitary Factory§! construction speed: §G+2.50%§!\nCivilian intelligence to others: §R+15.00%§!"
-trade_pro_desc:0 "The trade policy is based around implementing restrictions on imports, which serves to protect domestic producers. This has the adverse effect of reducing influence in the global market, however.\n§YModifiers:§!\nResources to Market: §Y+60.00%§!\nResource Gain Efficiency: §G+2.50%§!\nCivilian intelligence to others: §R+20.00%§!"
-trade_sempro_desc:0 "The trade policy is based around implementing restrictions in specific areas of trade while embracing the free market in other areas.\n§YModifiers:§!\nResources to Market: §Y+70.00%§!\n§YCivilian Factory§! construction speed: §G+5.00%§!\nCivilian intelligence to others: §R+30.00%§!"
-trade_laif_desc:0 "The trade policy is based around reducing as many restrictions as possible on trade for the purpose of embracing the free market.\n§YModifiers:§!\nResources to Market: §Y+80.00%§!\n§YCivilian Factory§! construction speed: §G+10.00%§!\nCivilian intelligence to others: §R+40.00%§!"
+trade_aut_desc:0 "The trade policy is based around seeking autarky, or self-sufficiency, through conserving natural resources and produced goods for the advancement of the country.\n§YModifiers:§!\nResources to Market: §Y+50.00%§!\nResource Gain Efficiency: §G+10.00%§!\n§YMilitary Factory§! construction speed: §G+5.00%§!\nCivilian intelligence to others: §R+10.00%§!"
+trade_nat_desc:0 "The trade policy is based around conserving resources and goods to achieve self-sufficiency in specific economic sectors, while still embracing the global market.\n§YModifiers:§!\nResources to Market: §Y+55.00%§!\nResource Gain Efficiency: §G+5.00%§!\n§YMilitary Factory§! construction speed: §G+2.50%§!\nCivilian intelligence to others: §R+15.00%§!"
+trade_pro_desc:0 "The trade policy is based around implementing restrictions on imports, which serves to protect domestic producers. This has the adverse effect of reducing influence in the global market, however.\n§YModifiers:§!\nResources to Market: §Y+60.00%§!\nResource Gain Efficiency: §G+2.50%§!\n§YCivilian Factory§! construction speed: §G+5.00%§!\nCivilian intelligence to others: §R+20.00%§!"
+trade_sempro_desc:0 "The trade policy is based around implementing restrictions in specific areas of trade while embracing the free market in other areas.\n§YModifiers:§!\nResources to Market: §Y+65.00%§!\n§YCivilian Factory§! construction speed: §G+10.00%§!\nCivilian intelligence to others: §R+30.00%§!"
+trade_laif_desc:0 "The trade policy is based around reducing as many restrictions as possible on trade for the purpose of embracing the free market.\n§YModifiers:§!\nResources to Market: §Y+70.00%§!\n§YCivilian Factory§! construction speed: §G+15.00%§!\nCivilian intelligence to others: §R+40.00%§!"
 
 #Governance
 
@@ -347,22 +353,178 @@ recruitment_volunteer_desc:0 "The army is composed entirely of eligible voluntee
 recruitment_colonial_desc:0 "Only a small amount of the native population is recruited as part of a colonial levy.\n§YModifiers:§!\nRecruitable Population: §Y1.00%§!\nStability: §R-5.00%§!"
 recruitment_disarmed_desc:0 "The army is disarmed and only a very small amount of volunteers can be recruited.\n§YModifiers:§!\nRecruitable Population: §Y0.50%§!\nWar Support: §R-10.00%§!"
 
+#Unions
+
+Unions_Independent_Text:0 "[GetUnionsIndependent]"
+Unions_Independent_Text_Active:0 "§YIndependent§!"
+Unions_Independent_Text_Inactive:0 "Independent"
+
+Unions_Suppressed_Text:0 "[GetUnionsSuppressed]"
+Unions_Suppressed_Text_Active:0 "§YSuppressed§!"
+Unions_Suppressed_Text_Inactive:0 "Suppressed"
+
+Unions_StateControlled_Text:0 "[GetUnionsStateControlled]"
+Unions_StateControlled_Text_Active:0 "§YState Controlled§!"
+Unions_StateControlled_Text_Inactive:0 "State Controlled"
+
+Unions_Nonexistent_Text:0 "[GetUnionsNonexistent]"
+Unions_Nonexistent_Text_Active:0 "§YNonexistent§!"
+Unions_Nonexistent_Text_Inactive:0 "Nonexistent"
+
+unions_independent:0 "Independent Unions"
+unions_suppressed:0 "Suppressed Unions"
+unions_statecontrolled:0 "State Controlled Unions"
+unions_nonexistent:0 "Nonexistent Unions"
+
+unions_independent_tt:0 "The §LUnion§! policy will change to §YIndependent§!"
+unions_suppressed_tt:0 "The §LUnion§! policy will change to §YSuppressed§!"
+unions_statecontrolled_tt:0 "The §LUnion§! policy will change to §YState Controlled§!"
+unions_nonexistent_tt:0 "The §LUnion§! policy will change to §YNonexistent§!"
+
+unions_independent_desc:0 "The trade unions in this nation are independent, standing largely unrestricted and possibly with special legal protections.\n§YModifiers:§!\nCivilian to Military Factory conversion cost: §R+10.00%§!\nDaily Political Power Gain: §G+0.05§!\nResource Gain Efficiency: §G+3.00%§!"
+unions_suppressed_desc:0 "The trade unions in this nation are suppressed by the state, lacking legal protections and facing opposition from the army and police while striking.\n§YModifiers:§!\nWar Penalty Stability Modifier: §G+5.00%§!\nDaily Political Power Gain: §R-0.05§!\nFactory Output: §G+3.00%§!"
+unions_statecontrolled_desc:0 "The trade unions in this nation are exclusively under state control, with non-state unions disbanded or operating illegally.\n§YModifiers:§!\nWar Penalty Stability Modifier: §G+10.00%§!\nDaily Political Power Gain: §R-0.10§!\n£prod_eff_cap  Production Efficiency Cap: §G+3.00%§!"
+unions_nonexistent_desc:0 "Trade unionism largely does not exist in this nation, whether due to intense repression or a lack of conditions for organizing.\n§YModifiers:§!\nWar Penalty Stability Modifier: §G+15.00%§!\nDaily Political Power Gain: §R-0.15§!\nConstruction Speed: §G+3.00%§!"
+
+#Suffrage
+
+Suffrage_Universal_Text:0 "[GetSuffrageUniversal]"
+Suffrage_Universal_Text_Active:0 "§YUniversal§!"
+Suffrage_Universal_Text_Inactive:0 "Universal"
+
+Suffrage_Restricted_Text:0 "[GetSuffrageRestricted]"
+Suffrage_Restricted_Text_Active:0 "§YRestricted§!"
+Suffrage_Restricted_Text_Inactive:0 "Restricted"
+
+Suffrage_NoVoting_Text:0 "[GetSuffrageNoVoting]"
+Suffrage_NoVoting_Text_Active:0 "§YNo Voting§!"
+Suffrage_NoVoting_Text_Inactive:0 "No Voting"
+
+suffrage_universal:0 "Universal Suffrage"
+suffrage_restricted:0 "Restricted Suffrage"
+suffrage_novoting:0 "No Voting"
+
+suffrage_universal_tt:0 "The §LSuffrage§! law will change to §YUniversal§!"
+suffrage_restricted_tt:0 "The §LSuffrage§! law will change to §YRestricted§!"
+suffrage_novoting_tt:0 "The §LSuffrage§! law will change to §YNo Voting§!"
+
+suffrage_universal_desc:0 "All citizens of eligible age are able to legally vote in this nation, regardless of race, class, sex or other identifiers.\n§YModifiers:§!\nStability: §G+3.00%§!\nDaily Political Power Gain: §R-0.05§!"
+suffrage_restricted_desc:0 "A large group of people are prevented from voting in this nation. This can include certain racial or religious groups, women, or the lower class.\n§YModifiers:§!\nStability: §R-3.00%§!\nDaily Political Power Gain: §G+0.05§!"
+suffrage_novoting_desc:0 "This nation lacks any sort of political system in which voting would take place, leaving no group with any voting rights.\n§YModifiers:§!\nStability: §R-6.00%§!\nDaily Political Power Gain: §G+0.10§!"
+
+#Death Penalty
+
+DeathPenalty_Outlawed_Text:0 "[GetDeathPenaltyOutlawed]"
+DeathPenalty_Outlawed_Text_Active:0 "§YOutlawed§!"
+DeathPenalty_Outlawed_Text_Inactive:0 "Outlawed"
+
+DeathPenalty_Legalized_Text:0 "[GetDeathPenaltyLegalized]"
+DeathPenalty_Legalized_Text_Active:0 "§YLegalized§!"
+DeathPenalty_Legalized_Text_Inactive:0 "Legalized"
+
+deathpenalty_outlawed:0 "Death Penalty Outlawed"
+deathpenalty_legalized:0 "Death Penalty Legalized"
+
+deathpenalty_outlawed_tt:0 "The §LDeath Penalty§! law will change to §YOutlawed§!"
+deathpenalty_legalized_tt:0 "The §LDeath Penalty§! law will change to §YLegalized§!"
+
+deathpenalty_outlawed_desc:0 "The death penalty has been explicitly abolished in this country through legal or constitutional provisions.\n§YModifiers:§!\nDaily Political Power Gain: §G+0.03§!"
+deathpenalty_legalized_desc:0 "The death penalty is permitted in this country and applied to certain crimes through the legal code.\n§YModifiers:§!\nStability: §G+3.00%§!\nResistance Target: §G-5%§!"
+
+#Press
+
+Press_Free_Text:0 "[GetPressFree]"
+Press_Free_Text_Active:0 "§YFree§!"
+Press_Free_Text_Inactive:0 "Free"
+
+Press_Censored_Text:0 "[GetPressCensored]"
+Press_Censored_Text_Active:0 "§YCensored§!"
+Press_Censored_Text_Inactive:0 "Censored"
+
+Press_StateOnly_Text:0 "[GetPressStateOnly]"
+Press_StateOnly_Text_Active:0 "§YState Only§!"
+Press_StateOnly_Text_Inactive:0 "State Only"
+
+press_free:0 "Free Press"
+press_censored:0 "Censored Press"
+press_stateonly:0 "State Press Only"
+
+press_free_tt:0 "The §LPress§! policy will change to §YFree§!"
+press_censored_tt:0 "The §LPress§! policy will change to §YCensored§!"
+press_stateonly_tt:0 "The §LPress§! policy will change to §YState Only§!"
+
+press_free_desc:0 "The press in this country is free and unrestricted, with legal protections in place upholding freedom of speech.\n§YModifiers:§!\nDaily Compliance Gain: §G+0.01%§!\nDaily Political Power Gain: §G+0.05§!"
+press_censored_desc:0 "The press in this country is censored, with a lack of any significant legal protections for freedom of speech leading to the suppression of certain topics deemed harmful or sensitive by the state.\n§YModifiers:§!\nStability: §G+4.00%§!\nWar Support: §G+4.00%§!\nDaily Political Power Gain: §R-0.05§!"
+press_stateonly_desc:0 "The press in this country is entirely controlled by the state, with only permitted topics being written on and any sort of opposition press operating illegally.\n§YModifiers:§!\nStability: §G+8.00%§!\nWar Support: §G+8.00%§!\nDaily Political Power Gain: §R-0.10§!"
+
+#Welfare
+
+Welfare_High_Text:0 "[GetWelfareHigh]"
+Welfare_High_Text_Active:0 "§YHigh Funding§!"
+Welfare_High_Text_Inactive:0 "High Funding"
+
+Welfare_Medium_Text:0 "[GetWelfareMedium]"
+Welfare_Medium_Text_Active:0 "§YMedium Funding§!"
+Welfare_Medium_Text_Inactive:0 "Medium Funding"
+
+Welfare_Low_Text:0 "[GetWelfareLow]"
+Welfare_Low_Text_Active:0 "§YLow Funding§!"
+Welfare_Low_Text_Inactive:0 "Low Funding"
+
+Welfare_NoState_Text:0 "[GetWelfareNoState]"
+Welfare_NoState_Text_Active:0 "§YNo State Funding§!"
+Welfare_NoState_Text_Inactive:0 "No State Funding"
+
+welfare_high:0 "High Welfare Funding"
+welfare_medium:0 "Medium Welfare Funding"
+welfare_low:0 "Low Welfare Funding"
+welfare_nostate:0 "No State Welfare"
+
+welfare_high_tt:0 "The §LWelfare§! policy will change to §YHigh Funding§!"
+welfare_medium_tt:0 "The §LWelfare§! policy will change to §YMedium Funding§!"
+welfare_low_tt:0 "The §LWelfare§! policy will change to §YLow Funding§!"
+welfare_nostate_tt:0 "The §LWelfare§! policy will change to §YNo State Funding§!"
+
+welfare_high_desc:0 "The state places a deep emphasis on welfare programs benefitting the vast majority of the population, with extensive funding for pensions, healthcare, unemployment benefits, disability payments, public education, housing subsidies, and many other programs.\n§YModifiers:§!\nConsumer Goods Factor: §Y7.5%§!\nStability: §G+12.00%§!\nWar Support: §G+12.00%§!\nMonthly Population: §G+30.0%§!"
+welfare_medium_desc:0 "The state invests a notable amount of funding into welfare programs benefitting much of the population, and although a number of social programs receive less emphasis than others and suffer from a lack of resources, there is nonetheless a significant social safety net.\n§YModifiers:§!\nConsumer Goods Factor: §Y5.0%§!\nStability: §G+8.00%§!\nWar Support: §G+8.00%§!\nMonthly Population: §G+20.0%§!"
+welfare_low_desc:0 "The state invests a small amount of funding into a limited selection of programs benefitting part of the population. Some of these programs suffer from a lack of resources, and workers may be reliant on benefits offered by their workplace.\n§YModifiers:§!\nConsumer Goods Factor: §Y2.5%§!\nStability: §G+4.00%§!\nWar Support: §G+4.00%§!\nMonthly Population: §G+10.0%§!"
+welfare_nostate_desc:0 "The state does not offer any funding for social programs. If any forms of welfare exist they are provided by workplace benefits or by charities.\n§YModifiers:§!\nPolitical Power Gain: §R-10%§!"
+
+#Judiciary
+
+Judiciary_Impartial_Text:0 "[GetJudiciaryImpartial]"
+Judiciary_Impartial_Text_Active:0 "§YImpartial§!"
+Judiciary_Impartial_Text_Inactive:0 "Impartial"
+
+Judiciary_Politicized_Text:0 "[GetJudiciaryPoliticized]"
+Judiciary_Politicized_Text_Active:0 "§YPoliticized§!"
+Judiciary_Politicized_Text_Inactive:0 "Politicized"
+
+judiciary_impartial:0 "Impartial Judiciary"
+judiciary_politicized:0 "Politicized Judiciary"
+
+judiciary_impartial_tt:0 "The §LJudiciary§! form will change to §YImpartial§!"
+judiciary_politicized_tt:0 "The §LJudiciary§! form will change to §YPoliticized§!"
+
+judiciary_impartial_desc:0 "The judiciary in this nation is legally impartial and independent, bound to act fairly and without prejudice. There may be circumstances where these principles are violated, but the system is nonetheless designed this way.\n§YModifiers:§!\nStability: §G+5.00%§!\nPolitical Power Gain: §R-5%§!"
+judiciary_politicized_desc:0 "The judiciary in this nation is politically influenced, whether that be through an allegiance to a political party, to an overarching ruler such as a monarch, or by a lack of legal professionalism.\n§YModifiers:§!\nStability: §R-5.00%§!\nPolitical Power Gain: §G+5%§!"
+
 #Mobilization
 
 MOBILIZATION_INCREASE:0 "§YIncrease Mobilization Level§!\n£pol_power Political Power Change: §R-200§!.\n\nTo increase your mobilization level, you must meet the conditions stated in the next highest level.\n\n§RIf manual mobilization has been disabled in your nation this will not be available.§!"
 MOBILIZATION_DECREASE:0 "§YDecrease Mobilization Level§!\n£pol_power Political Power Change: §R-50§!.\n\n§RIf manual mobilization has been disabled in your nation this will not be available.§!"
 
 mobilization_broken_desc:0 "If you see this then that means this country has no mobilization idea. This is a bug!"
-mobilization_1_desc:0 "§YMobilization Level 1/10§!\n§YModifiers:§!\nStability: §G+25.00%§!\nConsumer Goods Factories: §Y55.0%§!\n§YCivilian Factory§! construction speed: §R-50.00%§!\n§YMilitary Factory§! construction speed: §R-50.00%§!\n§YDockyard§! construction speed: §R-40.00%§!\nCivilian to Military Factory conversion cost: §R+50.00%§!\nMilitary to Civilian Factory conversion cost: §R+50.00%§!\nFuel Capacity: §R-45.00%§!\nFuel Gain per Oil: §R-60.00%§!"
-mobilization_2_desc:0 "§YMobilization Level 2/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y10%§! War Support\n§YModifiers:§!\nStability: §G+20.00%§!\nConsumer Goods Factories: §Y50.0%§!\n§YCivilian Factory§! construction speed: §R-40.00%§!\n§YMilitary Factory§! construction speed: §R-40.00%§!\n§YDockyard§! construction speed: §R-30.00%§!\nCivilian to Military Factory conversion cost: §R+40.00%§!\nMilitary to Civilian Factory conversion cost: §R+40.00%§!\nFuel Capacity: §R-35.00%§!\nFuel Gain per Oil: §R-50.00%§!"
-mobilization_3_desc:0 "§YMobilization Level 3/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y20%§! War Support\n§YModifiers:§!\nStability: §G+15.00%§!\nConsumer Goods Factories: §Y45.0%§!\n§YCivilian Factory§! construction speed: §R-30.00%§!\n§YMilitary Factory§! construction speed: §R-30.00%§!\n§YDockyard§! construction speed: §R-20.00%§!\nCivilian to Military Factory conversion cost: §R+30.00%§!\nMilitary to Civilian Factory conversion cost: §R+30.00%§!\nFuel Capacity: §R-25.00%§!\nFuel Gain per Oil: §R-40.00%§!"
-mobilization_4_desc:0 "§YMobilization Level 4/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y30%§! War Support\n§YModifiers:§!\nStability: §G+10.00%§!\nConsumer Goods Factories: §Y40.0%§!\n§YCivilian Factory§! construction speed: §R-20.00%§!\n§YMilitary Factory§! construction speed: §R-20.00%§!\n§YDockyard§! construction speed: §R-10.00%§!\nCivilian to Military Factory conversion cost: §R+20.00%§!\nMilitary to Civilian Factory conversion cost: §R+20.00%§!\nFuel Capacity: §R-15.00%§!\nFuel Gain per Oil: §R-30.00%§!"
-mobilization_5_desc:0 "§YMobilization Level 5/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y40%§! War Support\n§YModifiers:§!\nStability: §G+5.00%§!\nConsumer Goods Factories: §Y35.0%§!\n§YCivilian Factory§! construction speed: §R-10.00%§!\n§YMilitary Factory§! construction speed: §R-10.00%§!\nCivilian to Military Factory conversion cost: §R+10.00%§!\nMilitary to Civilian Factory conversion cost: §R+10.00%§!\nFuel Capacity: §R-5.00%§!\nFuel Gain per Oil: §R-20.00%§!"
-mobilization_6_desc:0 "§YMobilization Level 6/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y50%§! War Support\n§YModifiers:§!\nStability: §R-5.00%§!\nConsumer Goods Factories: §Y30.0%§!\n§YMilitary Factory§! construction speed: §G+5.00%§!\nCivilian to Military Factory conversion cost: §G-5.00%§!\nMilitary to Civilian Factory conversion cost: §G-5.00%§!\nFuel Gain per Oil: §R-10.00%§!"
-mobilization_7_desc:0 "§YMobilization Level 7/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y60%§! War Support\n§YModifiers:§!\nStability: §R-10.00%§!\nRecruitable Population Factor: §R-5%§!\nConsumer Goods Factories: §Y25.0%§!\n§YMilitary Factory§! construction speed: §G+10.00%§!\nCivilian to Military Factory conversion cost: §G-10.00%§!\nMilitary to Civilian Factory conversion cost: §G-10.00%§!"
-mobilization_8_desc:0 "§YMobilization Level 8/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y70%§! War Support\n§YModifiers:§!\nStability: §R-15.00%§!\nRecruitable Population Factor: §R-10%§!\nConsumer Goods Factories: §Y20.0%§!\n§YMilitary Factory§! construction speed: §G+15.00%§!\nCivilian to Military Factory conversion cost: §G-15.00%§!\nMilitary to Civilian Factory conversion cost: §G-15.00%§!"
-mobilization_9_desc:0 "§YMobilization Level 9/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y80%§! War Support\n§YModifiers:§!\nStability: §R-20.00%§!\nRecruitable Population Factor: §R-15%§!\nConsumer Goods Factories: §Y15.0%§!\n§YMilitary Factory§! construction speed: §G+20.00%§!\nCivilian to Military Factory conversion cost: §G-20.00%§!\nMilitary to Civilian Factory conversion cost: §G-20.00%§!"
-mobilization_10_desc:0 "§YMobilization Level 10/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y90%§! War Support\n§YModifiers:§!\nStability: §R-25.00%§!\nRecruitable Population Factor: §R-20%§!\nConsumer Goods Factories: §Y10.0%§!\n§YMilitary Factory§! construction speed: §G+25.00%§!\nCivilian to Military Factory conversion cost: §G-25.00%§!\nMilitary to Civilian Factory conversion cost: §G-25.00%§!"
+mobilization_1_desc:0 "§YMobilization Level 1/10§!\n§YModifiers:§!\nStability: §G+25.00%§!\nExpected Consumer Goods Factories: §Y55.0%§!\n§YCivilian Factory§! construction speed: §R-50.00%§!\n§YMilitary Factory§! construction speed: §R-50.00%§!\n§YDockyard§! construction speed: §R-40.00%§!\nCivilian to Military Factory conversion cost: §R+50.00%§!\nMilitary to Civilian Factory conversion cost: §R+50.00%§!\nFuel Capacity: §R-45.00%§!\nFuel Gain per Oil: §R-60.00%§!"
+mobilization_2_desc:0 "§YMobilization Level 2/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y10%§! War Support\n§YModifiers:§!\nStability: §G+20.00%§!\nExpected Consumer Goods Factories: §Y50.0%§!\n§YCivilian Factory§! construction speed: §R-40.00%§!\n§YMilitary Factory§! construction speed: §R-40.00%§!\n§YDockyard§! construction speed: §R-30.00%§!\nCivilian to Military Factory conversion cost: §R+40.00%§!\nMilitary to Civilian Factory conversion cost: §R+40.00%§!\nFuel Capacity: §R-35.00%§!\nFuel Gain per Oil: §R-50.00%§!"
+mobilization_3_desc:0 "§YMobilization Level 3/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y20%§! War Support\n§YModifiers:§!\nStability: §G+15.00%§!\nExpected Consumer Goods Factories: §Y45.0%§!\n§YCivilian Factory§! construction speed: §R-30.00%§!\n§YMilitary Factory§! construction speed: §R-30.00%§!\n§YDockyard§! construction speed: §R-20.00%§!\nCivilian to Military Factory conversion cost: §R+30.00%§!\nMilitary to Civilian Factory conversion cost: §R+30.00%§!\nFuel Capacity: §R-25.00%§!\nFuel Gain per Oil: §R-40.00%§!"
+mobilization_4_desc:0 "§YMobilization Level 4/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y30%§! War Support\n§YModifiers:§!\nStability: §G+10.00%§!\nExpected Consumer Goods Factories: §Y40.0%§!\n§YCivilian Factory§! construction speed: §R-20.00%§!\n§YMilitary Factory§! construction speed: §R-20.00%§!\n§YDockyard§! construction speed: §R-10.00%§!\nCivilian to Military Factory conversion cost: §R+20.00%§!\nMilitary to Civilian Factory conversion cost: §R+20.00%§!\nFuel Capacity: §R-15.00%§!\nFuel Gain per Oil: §R-30.00%§!"
+mobilization_5_desc:0 "§YMobilization Level 5/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y40%§! War Support\n§YModifiers:§!\nStability: §G+5.00%§!\nExpected Consumer Goods Factories: §Y35.0%§!\n§YCivilian Factory§! construction speed: §R-10.00%§!\n§YMilitary Factory§! construction speed: §R-10.00%§!\nCivilian to Military Factory conversion cost: §R+10.00%§!\nMilitary to Civilian Factory conversion cost: §R+10.00%§!\nFuel Capacity: §R-5.00%§!\nFuel Gain per Oil: §R-20.00%§!"
+mobilization_6_desc:0 "§YMobilization Level 6/10\nPrerequisites:§!\n§yOne§! of the following must be true:\n    At War\n    More than §Y50%§! War Support\n§YModifiers:§!\nStability: §R-5.00%§!\nExpected Consumer Goods Factories: §Y30.0%§!\n§YMilitary Factory§! construction speed: §G+5.00%§!\nCivilian to Military Factory conversion cost: §G-5.00%§!\nMilitary to Civilian Factory conversion cost: §G-5.00%§!\nFuel Gain per Oil: §R-10.00%§!\nResources to Market: §Y-5.00%§!"
+mobilization_7_desc:0 "§YMobilization Level 7/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y60%§! War Support\n§YModifiers:§!\nStability: §R-10.00%§!\nRecruitable Population Factor: §R-5%§!\nExpected Consumer Goods Factories: §Y25.0%§!\n§YMilitary Factory§! construction speed: §G+10.00%§!\nCivilian to Military Factory conversion cost: §G-10.00%§!\nMilitary to Civilian Factory conversion cost: §G-10.00%§!\nResources to Market: §Y-10.00%§!"
+mobilization_8_desc:0 "§YMobilization Level 8/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y70%§! War Support\n§YModifiers:§!\nStability: §R-15.00%§!\nRecruitable Population Factor: §R-10%§!\nExpected Consumer Goods Factories: §Y20.0%§!\n§YMilitary Factory§! construction speed: §G+15.00%§!\nCivilian to Military Factory conversion cost: §G-15.00%§!\nMilitary to Civilian Factory conversion cost: §G-15.00%§!\nResources to Market: §Y-15.00%§!"
+mobilization_9_desc:0 "§YMobilization Level 9/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y80%§! War Support\n§YModifiers:§!\nStability: §R-20.00%§!\nRecruitable Population Factor: §R-15%§!\nExpected Consumer Goods Factories: §Y15.0%§!\n§YMilitary Factory§! construction speed: §G+20.00%§!\nCivilian to Military Factory conversion cost: §G-20.00%§!\nMilitary to Civilian Factory conversion cost: §G-20.00%§!\nResources to Market: §Y-20.00%§!"
+mobilization_10_desc:0 "§YMobilization Level 10/10\nPrerequisites:§!\n§yAll§! of the following must be true:\n    At War\n    More than §Y90%§! War Support\n§YModifiers:§!\nStability: §R-25.00%§!\nRecruitable Population Factor: §R-20%§!\nExpected Consumer Goods Factories: §Y10.0%§!\n§YMilitary Factory§! construction speed: §G+25.00%§!\nCivilian to Military Factory conversion cost: §G-25.00%§!\nMilitary to Civilian Factory conversion cost: §G-25.00%§!\nResources to Market: §Y-25.00%§!"
 
 mobilization_1:0 "Mobilization Level 1/10"
 mobilization_2:0 "Mobilization Level 2/10"
@@ -374,6 +536,35 @@ mobilization_7:0 "Mobilization Level 7/10"
 mobilization_8:0 "Mobilization Level 8/10"
 mobilization_9:0 "Mobilization Level 9/10"
 mobilization_10:0 "Mobilization Level 10/10"
+
+Mob1_Text:0 "§Y1§!"
+Mob2_Text:0 "[GetMob2]"
+Mob2_Text_Active:0 "§Y2§!"
+Mob2_Text_Inactive:0 "2"
+Mob3_Text:0 "[GetMob3]"
+Mob3_Text_Active:0 "§Y3§!"
+Mob3_Text_Inactive:0 "3"
+Mob4_Text:0 "[GetMob4]"
+Mob4_Text_Active:0 "§Y4§!"
+Mob4_Text_Inactive:0 "4"
+Mob5_Text:0 "[GetMob5]"
+Mob5_Text_Active:0 "§Y5§!"
+Mob5_Text_Inactive:0 "5"
+Mob6_Text:0 "[GetMob6]"
+Mob6_Text_Active:0 "§Y6§!"
+Mob6_Text_Inactive:0 "6"
+Mob7_Text:0 "[GetMob7]"
+Mob7_Text_Active:0 "§Y7§!"
+Mob7_Text_Inactive:0 "7"
+Mob8_Text:0 "[GetMob8]"
+Mob8_Text_Active:0 "§Y8§!"
+Mob8_Text_Inactive:0 "8"
+Mob9_Text:0 "[GetMob9]"
+Mob9_Text_Active:0 "§Y9§!"
+Mob9_Text_Inactive:0 "9"
+Mob10_Text:0 "[GetMob10]"
+Mob10_Text_Active:0 "§Y10§!"
+Mob10_Text_Inactive:0 "10"
 
 mobilization_decisions:0 "Mobilization Decisions"
 AI_increase_mobilization:0 "AI: Increase Mobilization"

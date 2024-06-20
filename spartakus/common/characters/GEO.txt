@@ -1,0 +1,18 @@
+characters={
+    GEO_noe_zhordania = {
+        name = "Noe Zhordania"
+        portraits={
+            civilian={
+				large = "gfx/leaders/GEO/Portrait_Noe_Zhordania.tga"
+            }
+        }
+        country_leader={
+            desc = ""
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+            }
+            id=-1
+        }
+    }
+}

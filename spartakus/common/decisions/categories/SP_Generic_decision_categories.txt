@@ -5,3 +5,7 @@ mobilization_decisions = {
 governance_decisions = {
 	icon = GFX_generic_political_actions
 }
+
+resource_decisions = {
+	icon = GFX_decision_category_generic_industry
+}

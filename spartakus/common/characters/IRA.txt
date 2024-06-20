@@ -1,0 +1,299 @@
+characters={
+	IRA_michael_collins={
+		name="Michael Collins"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Ireland_Michael_Collins.tga"
+			}
+			army={
+				large="gfx/leaders/IRE/Portrait_Ireland_Michael_Collins_Commander.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MICHAEL_COLLINS_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MICHAEL_COLLINS_DESC"
+			ideology=liberal_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_MICHAEL_COLLINS_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = {
+				war_hero
+				guerilla_fighter
+				ambusher
+				inspirational_leader
+			}
+			skill = 4
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	IRA_roderick_connolly={
+		name="Roderick Connolly"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Roderick_Connolly.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RODERICK_CONNOLLY_DESC"
+			ideology=bolshevist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_RODERICK_CONNOLLY_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRA_james_larkin={
+		name="James Larkin"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_James_Larkin.tga"
+			}
+			army={
+				large="gfx/leaders/IRE/Portrait_James_Larkin.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_JAMES_LARKIN_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		corps_commander = {
+			traits = {
+				organizer
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	IRA_arthur_maxwell={
+		name="Arthur Maxwell"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Arthur_Maxwell.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARTHUR_MAXWELL_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRA_michael_heffernan={
+		name="Michael Heffernan"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Michael_Heffernan.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MICHAEL_HEFFERNAN_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRA_gearoid_ocuinneagain={
+		name="Gearóid Ó Cuinneagáin"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Gearoid_OCuinneagain.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GEAROID_OCUINNEAGAIN_DESC"
+			ideology=national_syndicalist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRA_eoin_oduffy={
+		name="Eoin O'Duffy"
+		portraits={
+			civilian={
+				large="gfx/leaders/IRE/Portrait_Ireland_Eoin_ODuffy.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EOIN_ODUFFY_DESC"
+			ideology=national_corporatist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	IRA_jack_white={
+		name="Jack White"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Jack_White.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				ambusher
+				commando
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	IRA_christopher_poole={
+		name="Christopher Poole"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Christopher_Poole.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				trickster
+				scavenger
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	IRA_constance_markievicz={
+		name="Constance Markievicz"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Constance_Markievicz.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				guerilla_fighter
+				trait_cautious
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	IRA_tom_barry={
+		name="Tom Barry"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Tom_Barry.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				guerilla_fighter
+				skirmisher
+				ambusher
+			}
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	IRA_sean_mac_eoin={
+		name="Seán Mac Eoin"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Sean_Mac_Eoin.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				ambusher
+				organizer
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	IRA_peadar_odonnell={
+		name="Peadar O'Donnell"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Peadar_ODonnell.tga"
+			}
+		}
+		corps_commander={
+			traits = {
+				trait_reckless
+				guerilla_fighter
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	IRA_michael_costello={
+		name="Michael Costello"
+		portraits={
+			army={
+				large="gfx/leaders/IRE/Portrait_Michael_Costello.tga"
+			}
+		}
+		corps_commander={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+}

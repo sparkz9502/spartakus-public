@@ -1,25 +1,78 @@
 ﻿capital = 3
-
 set_oob = "SWI"
-
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "SWI_air_bba"
+	else = {
+		set_air_oob = "SWI_air_legacy"
+	}
+}
 set_research_slots = 3
+set_stability = 0.7
+set_war_support = 0.1
 
+add_ideas = {
+	### Laws ###
+	recruitment_1825
+	governance_par
+	trade_laif
+	economy_semind
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = SWI_federal_council
+
+### Generals ###
+recruit_character = SWI_henri_guisan
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	fuel_silos = 1
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
-	tech_support = 1		
+	tech_support = 1
 	tech_engineers = 1
 	tech_recon = 1
-	early_fighter = 1
-	CAS1 = 1
+	gw_artillery = 1
 }
+### Air - BBA ###
+if = {
+	limit = { 
+		has_dlc = "By Blood Alone" 
+	}
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+		iw_small_airframe = 1
+	}
+}
+### Air - no BBA ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+	}
+}
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "1931.10.25"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -37,38 +90,5 @@ set_popularities = {
     national_corporatist = 2
 }
 
-add_ideas = {
-	recruitment_1825
-	governance_par
-	trade_laif
-	economy_semind
-	mobilization_1
-}
-
-set_stability = 0.7
-set_war_support = 0.1
-
 set_country_flag = coalition_social_conservative
 set_country_flag = coalition_authoritarian_conservative
-
-create_country_leader = {
-	name = "Federal Council"
-	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
-	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
-	ideology = liberal_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Henri Guisan"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	traits = {  winter_specialist }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-}

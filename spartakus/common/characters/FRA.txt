@@ -1,4 +1,18 @@
 characters={
+	FRA_hubert_lyautey={
+		name="Hubert Lyautey"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_Hubert_Lyautey.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_HUBERT_LYAUTEY_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	FRA_maxime_weygand={
 		name="Maxime Weygand"
 		portraits={
@@ -15,6 +29,46 @@ characters={
 			attack_skill=1
 			defense_skill=2
 			planning_skill=2
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_louis_franchet_despèrey={
+		name="Louis Franchet d'Espèrey"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+			}
+		}
+		field_marshal={
+			traits={ politically_connected war_hero career_officer desert_fox offensive_doctrine }
+			skill=2
+			attack_skill=3
+			defense_skill=1
+			planning_skill=1
+			logistics_skill=1
+			legacy_id=-1
+		}
+	}
+	FRA_marieeugène_debeney={
+		name="Marie-Eugène Debeney"
+		portraits={
+			army={
+				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+			}
+			army={
+				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+			}
+		}
+		field_marshal={
+			traits={ inflexible_strategist career_officer infantry_officer }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=1
 			logistics_skill=1
 			legacy_id=-1
 		}
@@ -158,80 +212,6 @@ characters={
 			legacy_id=-1
 		}
 	}
-	FRA_hubert_lyautey={
-		name="Hubert Lyautey"
-		portraits={
-			civilian={
-				large="gfx/leaders/FRA/Portrait_Hubert_Lyautey.dds"
-			}
-		}
-		country_leader={
-			desc="POLITICS_HUBERT_LYAUTEY_DESC"
-			ideology=right_wing_populist_subtype
-			expire="1965.1.1.1"
-			id=-1
-		}
-	}
-	FRA_louis_franchet_despèrey={
-		name="Louis Franchet d'Espèrey"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
-			}
-			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-			}
-		}
-		field_marshal={
-			traits={ politically_connected war_hero career_officer desert_fox offensive_doctrine }
-			skill=2
-			attack_skill=3
-			defense_skill=1
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	FRA_edmond_buat={
-		name="Edmond Buat"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
-			}
-			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
-			}
-		}
-		field_marshal={
-			traits={ brilliant_strategist organizer infantry_leader skilled_staffer expert_delegator }
-			skill=4
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
-	FRA_marieeugène_debeney={
-		name="Marie-Eugène Debeney"
-		portraits={
-			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
-			}
-			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-			}
-		}
-		field_marshal={
-			traits={ inflexible_strategist career_officer infantry_officer }
-			skill=2
-			attack_skill=2
-			defense_skill=2
-			planning_skill=1
-			logistics_skill=1
-			legacy_id=-1
-		}
-	}
 	FRA_françois_darlan={
 		name="François Darlan"
 		portraits={
@@ -270,157 +250,6 @@ characters={
 			maneuvering_skill=1
 			coordination_skill=1
 			legacy_id=-1
-		}
-	}
-	FRA_charles_davout={
-		name="Charles Davout"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_4.dds"
-			}
-		}
-		country_leader={
-			ideology=centrist_leninism
-			expire="1942.1.1.1"
-			id=-1
-		}
-	}
-	FRA_eugène_courbet={
-		name="Eugène Courbet"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=religious_marxism
-			traits={ undistinguished_suit }
-			expire="1942.1.1.1"
-			id=-1
-		}
-	}
-	FRA_august_de_saint_arnaud={
-		name="August de Saint Arnaud"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=collectivist_anarchism
-			traits={ undistinguished_suit }
-			expire="1942.1.1.1"
-			id=-1
-		}
-	}
-	FRA_michel_gouraud={
-		name="Michel Gouraud"
-		portraits={
-			civilian={
-				large="gfx/leaders/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=austromarxism
-			traits={ undistinguished_suit }
-			expire="1943.1.1.1"
-			id=-1
-		}
-	}
-	FRA_Édouard_exelmans={
-		name="Édouard Exelmans"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Soviet_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=agrarian_populism
-			traits={ undistinguished_suit }
-			expire="1943.1.1.1"
-			id=-1
-		}
-	}
-	FRA_lucien_dupetitthouars={
-		name="Lucien Dupetit-Thouars"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Soviet_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=agrarian_liberalism
-			expire="1943.1.1.1"
-			id=-1
-		}
-	}
-	FRA_paul_harispe={
-		name="Paul Harispe"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-			}
-		}
-		country_leader={
-			ideology=moderate_agrarian_conservatism
-			traits={ undistinguished_suit }
-			expire="1944.1.1.1"
-			id=-1
-		}
-	}
-	FRA_nicolas_hamelin={
-		name="Nicolas Hamelin"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-			}
-		}
-		country_leader={
-			ideology=paternalistic_conservatism
-			traits={ undistinguished_suit }
-			expire="1944.1.1.1"
-			id=-1
-		}
-	}
-	FRA_Éttiene_gouraud={
-		name="Éttiene Gouraud"
-		portraits={
-			civilian={
-				large="gfx/leaders/leader_unknown.dds"
-			}
-		}
-		country_leader={
-			ideology=semi_democratic_military_junta
-			expire="1944.1.1.1"
-			id=-1
-		}
-	}
-	FRA_napoléon_murat={
-		name="Napoléon Murat"
-		portraits={
-			civilian={
-				large="gfx/leaders/Generic/Portrait_Germany_Generic_1.tga"
-			}
-		}
-		country_leader={
-			ideology=synarchism
-			traits={ undistinguished_suit }
-			expire="1945.1.1.1"
-			id=-1
-		}
-	}
-	FRA_françois_courbet={
-		name="François Courbet"
-		portraits={
-			civilian={
-				large="gfx/leaders/Europe/portrait_europe_generic_8.dds"
-			}
-		}
-		country_leader={
-			ideology=fordism
-			traits={ undistinguished_suit }
-			expire="1945.1.1.1"
-			id=-1
 		}
 	}
 }

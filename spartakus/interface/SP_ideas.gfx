@@ -3,7 +3,7 @@ spriteTypes = {
 	SpriteType = {
 		name = "GFX_idea_traits_strip"
 		texturefile = "gfx/interface/ideas/idea_traits_strip.dds"
-		noOfFrames = 14
+		noOfFrames = 17
 	}
 	
 	# General
@@ -297,6 +297,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/ideas/Economic_Modernization.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_Decelerating_Economy"
+		texturefile = "gfx/interface/ideas/ideas/Decelerating_Economy.tga"
+	}
+	
 	# Burning Flags
 	
 	spriteType = {
@@ -348,6 +353,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Civil_War_Recovery"
 		texturefile = "gfx/interface/ideas/GER/Civil_War_Recovery.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_Heart_of_Socialism"
+		texturefile = "gfx/interface/ideas/GER/Heart_of_Socialism.tga"
 	}
 	
 	# RAJ
@@ -439,14 +449,33 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_Freikorps"
-		texturefile = "gfx/interface/ideas/LIV/Freikorps.dds"
+		texturefile = "gfx/interface/ideas/LIV/Freikorps.tga"
+	}
+	
+	# Central Asia
+	
+	spriteType = {
+		name = "GFX_idea_Bolshevik_Raiding"
+		texturefile = "gfx/interface/ideas/TRK/Bolshevik_Raiding.tga"
+	}
+	
+	# Iraq
+	
+	spriteType = {
+		name = "GFX_idea_Iraq_Petroleum_Company"
+		texturefile = "gfx/interface/ideas/IRQ/Iraq_Petroleum_Company.tga"
 	}
 	
 	# Italy
 	
 	spriteType = {
-		name = "GFX_idea_Sanfedisti"
-		texturefile = "gfx/interface/ideas/ITA/Sanfedisti.tga"
+		name = "GFX_idea_IMI"
+		texturefile = "gfx/interface/ideas/ITA/IMI.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_IRI"
+		texturefile = "gfx/interface/ideas/ITA/IRI.tga"
 	}
 	
 	spriteType = {
@@ -477,6 +506,11 @@ spriteTypes = {
 	spriteType = {
 		name = "GFX_idea_Italy_Agrarianism"
 		texturefile = "gfx/interface/ideas/ITA/Italy_Agrarianism.tga"
+	}
+	
+	spriteType = {
+		name = "GFX_idea_ITA_Italian_Civil_War"
+		texturefile = "gfx/interface/ideas/ITA/ITA_Italian_Civil_War.tga"
 	}
 	
 	#Sardinia
@@ -947,6 +981,11 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/SPR/Agrarian_Question.tga"
 	}
 	
+	spriteType = {
+		name = "GFX_idea_SPR_Military_Unrest"
+		texturefile = "gfx/interface/ideas/SPR/Military_Unrest.tga"
+	}
+	
 	#Indochina
 	spriteType = {
 		name = "GFX_idea_VNA_annamite_revolt"
@@ -961,43 +1000,69 @@ spriteTypes = {
 	
 	spriteType = {
 		name = "GFX_idea_PER_A_Persia_Divided"
-		texturefile = "gfx/interface/ideas/PER/PER_A_Persia_Divided.dds"
+		texturefile = "gfx/interface/ideas/PER/PER_A_Persia_Divided.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_PER_Centralization_Resistance"
-		texturefile = "gfx/interface/ideas/PER/PER_Centralization_Resistance.dds"
+		texturefile = "gfx/interface/ideas/PER/PER_Centralization_Resistance.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_PER_Cossack_Regime"
-		texturefile = "gfx/interface/ideas/PER/PER_Cossack_Regime.dds"
+		texturefile = "gfx/interface/ideas/PER/PER_Cossack_Regime.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_PER_Republican_Opposition"
-		texturefile = "gfx/interface/ideas/PER/PER_Republican_Opposition.dds"
+		texturefile = "gfx/interface/ideas/PER/PER_Republican_Opposition.tga"
 	}	
 	spriteType = {
 		name = "GFX_idea_KHU_Tribal_Confederation"
-		texturefile = "gfx/interface/ideas/KHU/KHU_Tribal_Confederation.dds"
+		texturefile = "gfx/interface/ideas/KHU/KHU_Tribal_Confederation.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_KHO_A_Haven_for_Arts"
-		texturefile = "gfx/interface/ideas/KHO/KHO_A_Haven_for_Arts.dds"
+		texturefile = "gfx/interface/ideas/KHO/KHO_A_Haven_for_Arts.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_KHO_Persian_Gendarmerie"
-		texturefile = "gfx/interface/ideas/KHO/KHO_Persian_Gendarmerie.dds"
+		texturefile = "gfx/interface/ideas/KHO/KHO_Persian_Gendarmerie.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_KHO_Republican_Tendencies"
-		texturefile = "gfx/interface/ideas/KHO/KHO_Republican_Tendencies.dds"
+		texturefile = "gfx/interface/ideas/KHO/KHO_Republican_Tendencies.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_GLN_Jangal_Heir"
-		texturefile = "gfx/interface/ideas/GLN/GLN_Jangal_Heir.dds"
+		texturefile = "gfx/interface/ideas/GLN/GLN_Jangal_Heir.tga"
 	}
 	spriteType = {
 		name = "GFX_idea_GLN_Trad_Resistance"
-		texturefile = "gfx/interface/ideas/GLN/GLN_Trad_Resistance.dds"
+		texturefile = "gfx/interface/ideas/GLN/GLN_Trad_Resistance.tga"
+	}
+	
+	#Estonia
+	
+	spriteType = {
+		name = "GFX_idea_EST_Vaps_Movement"
+		texturefile = "gfx/interface/ideas/GLN/EST_Vaps_Movement.tga"
+	}
+	
+	#Rhineland
+	
+	spriteType = {
+		name = "GFX_idea_RHI_Artaman_League"
+		texturefile = "gfx/interface/ideas/RHI/RHI_Artaman_League.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_RHI_French_Oversight"
+		texturefile = "gfx/interface/ideas/RHI/RHI_French_Oversight.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_RHI_Heirs_of_Weimar"
+		texturefile = "gfx/interface/ideas/RHI/RHI_Heirs_of_Weimar.tga"
+	}
+	spriteType = {
+		name = "GFX_idea_RHI_Military_Restrictions"
+		texturefile = "gfx/interface/ideas/RHI/RHI_Military_Restrictions.tga"
 	}
 	
 }

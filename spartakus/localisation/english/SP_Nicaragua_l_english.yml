@@ -6,10 +6,10 @@
 
 ### Parties ###
 
-NIC_bolshevist_party:0 "Leninistas"
-NIC_bolshevist_party_long:0 "Leninistas"
-NIC_spartacist_party:0 "Marxistas"
-NIC_spartacist_party_long:0 "Marxistas"
+NIC_bolshevist_party:0 "Bolcheviques"
+NIC_bolshevist_party_long:0 "Bolcheviques"
+NIC_spartacist_party:0 "Espartaquistas"
+NIC_spartacist_party_long:0 "Espartaquistas"
 NIC_revolutionary_socialist_party:0 "Sandinistas"
 NIC_revolutionary_socialist_party_long:0 "Sandinistas"
 NIC_reformist_socialist_party:0 "PS"

@@ -1,0 +1,31 @@
+characters={
+    SHA_zhang_zongchang = {
+        name = "Zhang Zongchang"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SHA/Portrait_Zhang_Zongchang.tga"
+            }
+			army={
+                large = "gfx/leaders/SHA/Portrait_Zhang_Zongchang.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ZHANG_ZONGCHANG_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+				#
+            }
+            id=-1
+        }
+		field_marshal={
+			traits = { offensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+}

@@ -1,29 +1,45 @@
 ﻿capital = 43
-
 set_oob = "HUN"
+set_research_slots = 3
+set_stability = 0.3
+set_war_support = 0.3
 
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_bure
 	trade_aut
 	economy_indzing
 	mobilization_2
+	
+	### National Spirits ###
+	HUN_legacy_of_bela_kun
+	HUN_mixed_relationship_with_countryside
+	HUN_red_revanchism
+	HUN_specialised_economy
 }
 
+### Country Leaders ###
 recruit_character = HUN_jozsef_pogany
 recruit_character = HUN_imre_nagy
+
+### Field Marshals ###
 recruit_character = HUN_julier_ferenc
+
+### Generals ###
 recruit_character = HUN_geza_lakatos
 recruit_character = HUN_otto_steinbruck
 recruit_character = HUN_karoly_beregfy
 recruit_character = HUN_jeno_tombor
 recruit_character = HUN_koloman_wallisch
 
-set_research_slots = 3
-set_stability = 0.7
-set_war_support = 0.6
-
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	fuel_silos = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
@@ -32,15 +48,34 @@ set_technology = {
 	tech_field_hospital = 1
 	tech_signal_company = 1
 	gw_artillery = 1
-	gwtank = 1
+	
+	### Air ###
 	early_fighter = 1
 	CAS1 = 1
 }
+### Tanks - NSB ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+### Tanks - no NSB ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = bolshevist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -71,3 +106,49 @@ set_country_flag = banned_authoritarian_conservative
 set_country_flag = banned_right_wing_populist
 set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
+
+997 = {
+add_dynamic_modifier = { modifier = HUN_slovak_sr }
+}
+70 = {
+add_dynamic_modifier = { modifier = HUN_slovak_sr }
+}
+71 = {
+add_dynamic_modifier = { modifier = HUN_slovak_sr }
+}
+73 = {
+add_dynamic_modifier = { modifier = HUN_rusyn_sr }
+}
+664 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr}
+}
+1104 = {
+add_dynamic_modifier = { modifier = HUN_rusyn_sr }
+}
+155 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+43 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+1344 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+734 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+1002 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+45 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+984 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+1342 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}
+154 = {
+add_dynamic_modifier = { modifier = HUN_hungarian_sr }
+}

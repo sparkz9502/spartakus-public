@@ -1,34 +1,10 @@
 ﻿capital = 327
-
-set_oob = "empty"
-
-set_cosmetic_tag = PHI_USA
-
-add_ideas = {
-	recruitment_disarmed
-	governance_abs
-	trade_sempro
-	economy_unind
-	mobilization_1
-}
-
-recruit_character = PHI_herbert_hoover
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_support = 1		
-	tech_engineers = 1
-	gw_artillery = 1
-	early_fighter = 1
-	early_bomber = 1
-}
-
+set_oob = "PHI"
 set_research_slots = 0
-set_convoys = 25
+set_convoys = 10
 set_stability = 0.3
 set_war_support = 0.1
+set_cosmetic_tag = PHI_USA
 
 USA = {
 	set_autonomy = {
@@ -37,10 +13,35 @@ USA = {
 	}
 }
 
+add_ideas = {
+	### Laws ###
+	recruitment_disarmed
+	governance_abs
+	trade_sempro
+	economy_unind
+	mobilization_1
+}
+
+### Country Leaders ###
+recruit_character = PHI_herbert_hoover
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	infantry_weapons1 = 1
+	tech_support = 1		
+	tech_engineers = 1
+	gw_artillery = 1
+}
+
+### Politics ###
+
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 

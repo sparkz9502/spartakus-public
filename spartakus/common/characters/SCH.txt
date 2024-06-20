@@ -1,0 +1,31 @@
+characters={
+    SCH_liu_xiang = {
+        name = "Liu Xiang"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SCH/Portrait_Liu_Xiang.tga"
+            }
+			army={
+                large = "gfx/leaders/SCH/Portrait_Liu_Xiang.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_LIU_XIANG_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+				#
+            }
+            id=-1
+        }
+		field_marshal={
+			traits = { offensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+}

@@ -213,104 +213,136 @@ guiTypes = {
 			fixedsize = yes
 		}
 		
-		iconType ={
-			name ="experience_value_bg"
-			spriteType = "GFX_generic_box_smallest"
-			position = { x=749 y=5 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name ="experience_icon"
-			spriteType = "GFX_army_experience"
-			position = { x= 753 y=11 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		instantTextBoxType = {
-			name ="experience_value"
-			position = { x=768 y=9 }
-			font = "hoi_18mbs"
-			text = "999"
-			format = center
-			maxWidth = 45
-			maxHeight = 24
-			fixedsize = yes
+		containerWindowType = {
+			name = "land"
+			position = { x= 749 y = 5}
+			clipping = no
+			size = { width=56 height=30 }
+			Orientation = UPPER_LEFT
+
+			background = {
+				name = "land_xp_bg"
+				quadTextureSprite ="GFX_generic_box_smallest"
+			}
+
+			iconType = {
+				name ="experience_icon"
+				spriteType = "GFX_army_experience"
+				position = { x= 4 y = 6 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name ="experience_value"
+				position = { x= 21 y = 4 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 30
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}
 		}
 
-		iconType ={
-			name ="navy_experience_value_bg"
-			spriteType = "GFX_generic_box_smallest"
-			position = { x=821 y=5 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name ="navy_experience_icon"
-			spriteType = "GFX_navy_experience"
-			position = { x= 825 y = 11 }
-			Orientation = "UPPER_LEFT"
-		}		
-		
-		instantTextBoxType = {
-			name ="navy_experience_value"
-			position = { x= 839 y = 9 }
-			font = "hoi_18mbs"
-			text = "999"
-			format = center
-			maxWidth = 46
-			maxHeight = 24
-			fixedsize = yes
+		containerWindowType = {
+			name = "navy"
+			position = { x= 821 y = 5}
+			clipping = no
+			size = { width=56 height=30 }
+			Orientation = UPPER_LEFT
+				
+			background = {
+				name = "navy_xp_bg"
+				quadTextureSprite ="GFX_generic_box_smallest"
+			}
+
+			iconType = {
+				name ="navy_experience_icon"
+				spriteType = "GFX_navy_experience"
+				position = { x= 4 y = 6 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}		
+			
+			instantTextBoxType = {
+				name ="navy_experience_value"
+				position = { x= 21 y = 4 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 30
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}
 		}		
 
-		iconType ={
-			name ="air_experience_value_bg"
-			spriteType = "GFX_generic_box_smallest"
-			position = { x=893 y=5 }
-			Orientation = "UPPER_LEFT"
+		containerWindowType = {
+			name = "air"
+			position = { x= 893 y = 5}
+			clipping = no
+			size = { width=56 height=30 }
+			Orientation = UPPER_LEFT
+			
+			background = {
+				name = "air_xp_bg"
+				quadTextureSprite ="GFX_generic_box_smallest"
+			}
+
+			iconType = {
+				name ="air_experience_icon"
+				spriteType = "GFX_air_experience"
+				position = { x= 4 y = 6 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
+			
+			instantTextBoxType = {
+				name ="air_experience_value"
+				position = { x= 21 y = 4 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 30
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}
 		}
 		
-		iconType = {
-			name ="air_experience_icon"
-			spriteType = "GFX_air_experience"
-			position = { x= 897 y = 11 }
-			Orientation = "UPPER_LEFT"
-		}		
+		containerWindowType = {
+			name = "cp"
+			position = { x= 677 y = 5}
+			clipping = no
+			size = { width=62 height=30 }
+			Orientation = UPPER_LEFT
+
+				background = {
+					name = "cp_bg"
+					quadTextureSprite ="GFX_generic_box_smallest"
+				}
 		
-		instantTextBoxType = {
-			name ="air_experience_value"
-			position = { x= 912 y = 9 }
-			font = "hoi_18mbs"
-			text = "999"
-			format = center
-			maxWidth = 46
-			maxHeight = 24
-			fixedsize = yes
-		}
+			iconType = {
+				name ="command_power_icon"
+				spriteType = "GFX_command_power"
+				position = { x= 3 y = 2 }
+				Orientation = "UPPER_LEFT"
+				alwaystransparent = yes
+			}
 		
-		iconType ={
-			name ="command_power_value_bg"
-			spriteType = "GFX_generic_box_smallest"
-			position = { x=677 y=5 }
-			Orientation = "UPPER_LEFT"
-		}
-		
-		iconType = {
-			name ="command_power_icon"
-			spriteType = "GFX_command_power"
-			position = { x= 680 y = 7 }
-			Orientation = "UPPER_LEFT"
-		}		
-		
-		instantTextBoxType = {
-			name ="command_power_value"
-			position = { x= 703 y = 9 }
-			font = "hoi_18mbs"
-			text = "999"
-			format = center
-			maxWidth = 40
-			maxHeight = 24
-			fixedsize = yes
+			instantTextBoxType = {
+				name ="command_power_value"
+				position = { x= 30 y = 4 }
+				font = "hoi_18mbs"
+				text = "999"
+				format = left
+				maxWidth = 30
+				maxHeight = 24
+				fixedsize = yes
+				alwaystransparent = yes
+			}
 		}
 		
 		iconType ={
@@ -354,13 +386,21 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="convoys_count"
-			position = { x= 529 y = 9 }
+			position = { x= 529 y = 4 }
 			font = "hoi_18mbs"
 			text = "0"
 			format = center
 			maxWidth = 44
 			maxHeight = 24
 #			fixedsize = yes
+		}
+		
+		iconType = {
+			name ="convoys_ratio_bar"
+			spriteType = "GFX_topbar_fuel_bar"
+			position = { x= 529 y = 20 }
+			frame = 50
+			alwaystransparent = yes
 		}
 		
 		iconType ={
@@ -379,7 +419,7 @@ guiTypes = {
 		
 		instantTextBoxType = {
 			name ="fuel_value"
-			position = { x= 989 y = 4 }
+			position = { x= 991 y = 4 }
 			font = "hoi_18mbs"
 			text = "999"
 			format = center
@@ -391,7 +431,42 @@ guiTypes = {
 		iconType = {
 			name ="fuel_ratio_bar"
 			spriteType = "GFX_topbar_fuel_bar"
-			position = { x= 991 y = 20 }
+			position = { x= 997 y = 20 }
+			frame = 50
+			alwaystransparent = yes
+		}
+		
+		## supply
+		
+		iconType ={
+			name ="supply_value_bg"
+			spriteType = "GFX_generic_box_smallest"
+			position = { x=1055 y=5 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		iconType = {
+			name ="supply_icon"
+			spriteType = "GFX_equipment_icon"
+			position = { x= 1056 y = 8 }
+			Orientation = "UPPER_LEFT"
+		}		
+		
+		instantTextBoxType = {
+			name ="supply_value"
+			position = { x= 1077 y = 4 }
+			font = "hoi_18mbs"
+			text = "999d"
+			format = center
+			maxWidth = 48
+			maxHeight = 24
+			fixedsize = yes
+		}
+		
+		iconType = {
+			name ="supply_ratio_bar"
+			spriteType = "GFX_topbar_fuel_bar"
+			position = { x= 1078 y = 20 }
 			frame = 50
 			alwaystransparent = yes
 		}
@@ -746,6 +821,53 @@ guiTypes = {
 					clicksound = click_close
 					oversound = ui_menu_over
 				}
+				containerWindowType = {
+					name = "non_delivering_contracts"
+					position = { x=9 y=4 }
+
+					iconType = {
+						name = "non_delivering_contract_amount_bg"
+						spriteType = "GFX_topbar_alert_bg"
+						position = { x = 2 y = 0}
+						alwaystransparent = yes
+						frame = 2
+					}
+
+					instantTextBoxType = {
+						name ="non_delivering_contract_amount"
+						position = { x= 0 y = 0 }
+						font = "hoi_16mbs"
+						text = "999"
+						format = center
+						maxWidth = 20
+						maxHeight = 24
+						fixedsize = yes
+					}
+				}
+				
+				containerWindowType = {
+					name = "delivering_contracts"
+					position = { x=9 y=20 }
+
+					iconType = {
+						name = "ongoing_contract_amount_bg"
+						spriteType = "GFX_topbar_alert_bg"
+						position = { x = 2 y = 0}
+						alwaystransparent = yes
+						frame = 1
+					}
+
+					instantTextBoxType = {
+						name ="ongoing_contract_amount"
+						position = { x= 0 y = 0 }
+						font = "hoi_16mbs"
+						text = "999"
+						format = center
+						maxWidth = 20
+						maxHeight = 24
+						fixedsize = yes
+					}
+				}
 				
 				buttonType = {
 					name = "trade_button"
@@ -765,6 +887,13 @@ guiTypes = {
 					shortcut = "t"
 					clicksound = click_close
 					oversound = ui_menu_over
+				}
+				
+				iconType = {
+					name = "production_button_glow"
+					position = { x = 170 y = -3 }
+					spriteType = "GFX_decisions_glow_yellow"
+					alwaystransparent = yes
 				}
 				
 				buttonType = {

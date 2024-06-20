@@ -17,24 +17,6 @@ characters={
         }
     }
 
-    CRO_vittorio_emanuele_iii = {
-        name = "Vittorio Emanuele III"
-        portraits={
-            civilian={
-                large = "gfx/leaders/ITA/Portrait_Vittorio_Emanuele_III.tga"
-            }
-        }
-        country_leader={
-            desc = "POLITICS_VITTORIO_EMANUELE_III_DESC"
-            expire = "1965.1.1"
-            ideology = authoritarian_conservative_subtype
-            traits = {
-                
-            }
-            id=-1
-        }
-    }
-
     CRO_mile_budak = {
         name = "Mile Budak"
         portraits={

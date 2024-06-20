@@ -1,0 +1,56 @@
+characters={
+	SRD_emilio_lussu={
+		name="Emilio Lussu"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRD/Portrait_Emilio_Lussu.tga"
+			}
+			army={
+				large="gfx/leaders/SRD/Portrait_Emilio_Lussu.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EMILIO_LUSSU_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits={ politically_connected media_personality }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	SRD_pietro_mastino={
+		name="Pietro Mastino"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRD/Portrait_Pietro_Mastino.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PIETRO_MASTINO_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SRD_camillo_bellieni={
+		name="Camillo Bellieni"
+		portraits={
+			civilian={
+				large="gfx/leaders/SRD/Portrait_Camillo_Bellieni.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CAMILLO_BELLIENI_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

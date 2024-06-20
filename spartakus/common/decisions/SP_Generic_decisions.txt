@@ -148,7 +148,7 @@ mobilization_decisions = {
 				factor = 2
 				has_idea = mobilization_4
 			}
-			modifier = {
+			modifier = { #don't bother if no industry anyway
 				factor = 0
 				num_of_civilian_factories < 5
 			}

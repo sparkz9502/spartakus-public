@@ -1,27 +1,30 @@
 ﻿capital = 551
-OOB = "empty"
-set_research_slots = 2
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
+
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
-	governance_exec
+	governance_par
 	trade_pro
 	economy_unind
 	mobilization_1
 }
+
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
-	### MOD ###
-	### General ###
-	
-	### INF ###
 	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -38,68 +41,3 @@ set_popularities = {
     national_syndicalist = 0
     national_corporatist = 0
 }
-add_ideas = { 
-	#medium_economy
-	SUD_Siddick_Sayed_el_Mahdi_hog_ade
-	SUD_Sayed_Abd_el_Rahman_el_Mahdi_for_ade
-	SUD_Slah_Elzubir_eco_sde
-	SUD_Farik_Ibrahim_Abboud_sec_sde
-}
-### Field Marshal
-create_field_marshal = { #Auto-Generated
-	name = "Abboud"
-	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Abboud.tga"
-	traits = {
-		defensive_doctrine
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Yasin"
-	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Yasin.tga"
-	traits = {
-		defensive_doctrine
-		offensive_doctrine
-	}
-	skill = 1
-}
-
-create_field_marshal = { #Auto-Generated
-	name = "Mustafa"
-	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Mustafa.tga"
-	traits = {
-		defensive_doctrine
-		offensive_doctrine
-	}
-	skill = 1
-}
-
-### Corps Commander
-create_corps_commander = { #Auto-Generated
-	name = "Tafeng"
-	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Tafeng.tga"
-	traits = {
-	}
-	skill = 1
-}
-
-### Navy Leader
-create_navy_leader = { #Auto-Generated
-	name = "Mahjoob"
-	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Mahjoob.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-
-create_navy_leader = { #Auto-Generated
-	name = "Hashim"
-	portrait_path = "gfx/leaders/SUD/Portrait_SUD_Hashim.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 1
-}
-

@@ -328,6 +328,238 @@ add_governance_colo = {
 	}
 }
 
+# unions scripted effects
+
+add_unions_independent = {
+	custom_effect_tooltip = unions_independent_tt
+	hidden_effect = {
+		remove_ideas = {
+			unions_independent
+			unions_suppressed
+			unions_statecontrolled
+			unions_nonexistent
+		}
+		add_ideas = unions_independent
+	}
+}
+
+add_unions_suppressed = {
+	custom_effect_tooltip = unions_suppressed_tt
+	hidden_effect = {
+		remove_ideas = {
+			unions_independent
+			unions_suppressed
+			unions_statecontrolled
+			unions_nonexistent
+		}
+		add_ideas = unions_suppressed
+	}
+}
+
+add_unions_statecontrolled = {
+	custom_effect_tooltip = unions_statecontrolled_tt
+	hidden_effect = {
+		remove_ideas = {
+			unions_independent
+			unions_suppressed
+			unions_statecontrolled
+			unions_nonexistent
+		}
+		add_ideas = unions_statecontrolled
+	}
+}
+
+add_unions_nonexistent = {
+	custom_effect_tooltip = unions_nonexistent_tt
+	hidden_effect = {
+		remove_ideas = {
+			unions_independent
+			unions_suppressed
+			unions_statecontrolled
+			unions_nonexistent
+		}
+		add_ideas = unions_nonexistent
+	}
+}
+
+# suffrage scripted effects
+
+add_suffrage_universal = {
+	custom_effect_tooltip = suffrage_universal_tt
+	hidden_effect = {
+		remove_ideas = {
+			suffrage_universal
+			suffrage_restricted
+			suffrage_novoting
+		}
+		add_ideas = suffrage_universal
+	}
+}
+
+add_suffrage_restricted = {
+	custom_effect_tooltip = suffrage_restricted_tt
+	hidden_effect = {
+		remove_ideas = {
+			suffrage_universal
+			suffrage_restricted
+			suffrage_novoting
+		}
+		add_ideas = suffrage_restricted
+	}
+}
+
+add_suffrage_novoting = {
+	custom_effect_tooltip = suffrage_novoting_tt
+	hidden_effect = {
+		remove_ideas = {
+			suffrage_universal
+			suffrage_restricted
+			suffrage_novoting
+		}
+		add_ideas = suffrage_novoting
+	}
+}
+
+# death penalty scripted effects
+
+add_deathpenalty_outlawed = {
+	custom_effect_tooltip = deathpenalty_outlawed_tt
+	hidden_effect = {
+		remove_ideas = {
+			deathpenalty_outlawed
+			deathpenalty_legalized
+		}
+		add_ideas = deathpenalty_outlawed
+	}
+}
+
+add_deathpenalty_legalized = {
+	custom_effect_tooltip = deathpenalty_legalized_tt
+	hidden_effect = {
+		remove_ideas = {
+			deathpenalty_outlawed
+			deathpenalty_legalized
+		}
+		add_ideas = deathpenalty_legalized
+	}
+}
+
+# press scripted effects
+
+add_press_free = {
+	custom_effect_tooltip = press_free_tt
+	hidden_effect = {
+		remove_ideas = {
+			press_free
+			press_censored
+			press_stateonly
+		}
+		add_ideas = press_free
+	}
+}
+
+add_press_censored = {
+	custom_effect_tooltip = press_censored_tt
+	hidden_effect = {
+		remove_ideas = {
+			press_free
+			press_censored
+			press_stateonly
+		}
+		add_ideas = press_censored
+	}
+}
+
+add_press_stateonly = {
+	custom_effect_tooltip = press_stateonly_tt
+	hidden_effect = {
+		remove_ideas = {
+			press_free
+			press_censored
+			press_stateonly
+		}
+		add_ideas = press_stateonly
+	}
+}
+
+# welfare scripted effects
+
+add_welfare_high = {
+	custom_effect_tooltip = welfare_high_tt
+	hidden_effect = {
+		remove_ideas = {
+			welfare_high
+			welfare_medium
+			welfare_low
+			welfare_nostate
+		}
+		add_ideas = welfare_high
+	}
+}
+
+add_welfare_medium = {
+	custom_effect_tooltip = welfare_medium_tt
+	hidden_effect = {
+		remove_ideas = {
+			welfare_high
+			welfare_medium
+			welfare_low
+			welfare_nostate
+		}
+		add_ideas = welfare_medium
+	}
+}
+
+add_welfare_low = {
+	custom_effect_tooltip = welfare_low_tt
+	hidden_effect = {
+		remove_ideas = {
+			welfare_high
+			welfare_medium
+			welfare_low
+			welfare_nostate
+		}
+		add_ideas = welfare_low
+	}
+}
+
+add_welfare_nostate = {
+	custom_effect_tooltip = welfare_nostate_tt
+	hidden_effect = {
+		remove_ideas = {
+			welfare_high
+			welfare_medium
+			welfare_low
+			welfare_nostate
+		}
+		add_ideas = welfare_nostate
+	}
+}
+
+# judiciary scripted effects
+
+add_judiciary_impartial = {
+	custom_effect_tooltip = judiciary_impartial_tt
+	hidden_effect = {
+		remove_ideas = {
+			judiciary_impartial
+			judiciary_politicized
+		}
+		add_ideas = judiciary_impartial
+	}
+}
+
+add_judiciary_politicized = {
+	custom_effect_tooltip = judiciary_politicized_tt
+	hidden_effect = {
+		remove_ideas = {
+			judiciary_impartial
+			judiciary_politicized
+		}
+		add_ideas = judiciary_politicized
+	}
+}
+
 # recruitment scripted effects
 
 add_recruitment_1660 = {
@@ -565,11 +797,6 @@ increase_conscription = {
 			add_idea = recruitment_1660
 		}
 	}
-	else = {
-		limit = {
-			has_idea = recruitment_1660
-		}
-	}
 }
 
 decrease_conscription = {
@@ -641,7 +868,7 @@ decrease_conscription = {
 			add_idea = recruitment_1840
 		}
 	}
-	else = {
+	else_if = {
 		limit = {
 			has_idea = recruitment_1660
 		}
@@ -734,11 +961,6 @@ increase_mobilization = {
 			add_idea = mobilization_10
 		}
 	}
-	else = {
-		limit = {
-			has_idea = mobilization_10
-		}
-	}
 }
 
 decrease_mobilization = {
@@ -819,7 +1041,7 @@ decrease_mobilization = {
 			add_idea = mobilization_8
 		}
 	}
-	else = {
+	else_if = {
 		limit = {
 			has_idea = mobilization_10
 		}

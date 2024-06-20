@@ -16,10 +16,10 @@ SAU_liberal_conservative_party:0 "-"
 SAU_liberal_conservative_party_long:0 "-"
 SAU_social_conservative_party:0 "-"
 SAU_social_conservative_party_long:0 "-"
-SAU_authoritarian_conservative_party:0 "Saud"
-SAU_authoritarian_conservative_party_long:0 "House of Saud (Al Su'ud)"
+SAU_authoritarian_conservative_party:0 "Al Saud"
+SAU_authoritarian_conservative_party_long:0 "House of Saud (Al Saud)"
 SAU_right_wing_populist_party:0 "Ikhwan"
-SAU_right_wing_populist_party_long:0 "The Brethren (Ikhwan)"
+SAU_right_wing_populist_party_long:0 "The Brethren (Ikhwan min taa Allah)"
 SAU_national_syndicalist_party:0 "-"
 SAU_national_syndicalist_party_long:0 "-"
 SAU_national_corporatist_party:0 "-"
@@ -28,11 +28,15 @@ SAU_national_corporatist_party_long:0 "-"
 ### Focuses ###
 
 ### Ideas ###
-
+SAU_very_high_illiteracy:0 "Very High Illiteracy"
+SAU_very_high_illiteracy_desc:0 "The Nejdi people are semi-nomadic desert inhabitants. Lack of development and the harsh climate has made education a luxury reserved for the very few. A monumental effort is needed to overcome this hindrance."
+SAU_Ikhwan_min_taa_Allah:0 "Ikhwan min taa Allah"
+SAU_Ikhwan_min_taa_Allah_desc:0 "The “Brethren in obeying God” as their Arabic name translates to, is a highly religious militia made up of nomadic tribesmen.  They emerged in 1911 when local clergy espousing the revivalist teachings of Ibn Abdulwahhab converted the bedouin tribes into zealous soldiers of Islam."
 SAU_The_Third_Saudi_State:0 "The Third Saudi State"
 SAU_The_Third_Saudi_State_desc:0 "We have finally unified Nejd once again, forming the third state ruled by the House of Saud. While much work lies ahead to truly unite the Arabs, we have come far."
 SAU_British_Hold_Over_Arabia:0 "British Hold Over Arabia"
-SAU_British_Hold_Over_Arabia_desc:0 "Through conquest and imperialism, the Anglo scum have taken control over much of our rightful lands. From the holy cities to the coast of Nejd, we are surrounded by their puppet states. It is Allah's will that we liberate these territories"
+SAU_British_Hold_Over_Arabia_desc:0 "Through conquest and imperialism, infidels and usurpers have taken control over much of our rightful lands. From the holy cities to the gulf coast, we are surrounded by their puppet states. It is Allah's will that we liberate these territories"
+
 
 ### Flags ###
 

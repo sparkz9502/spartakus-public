@@ -1,0 +1,52 @@
+﻿l_english:
+
+### Opinions ###
+
+### Events ###
+
+###Parties###
+
+PAL_bolshevist_party:0 "PCP"
+PAL_bolshevist_party_long:0 "Palestinian Communist Party"
+PAL_spartacist_party:0 "PCP"
+PAL_spartacist_party_long:0 "Palestinian Communist Party"
+PAL_revolutionary_socialist_party:0 "PCP"
+PAL_revolutionary_socialist_party_long:0 "Palestinian Communist Party"
+PAL_reformist_socialist_party:0 "-"
+PAL_reformist_socialist_party_long:0 "-"
+PAL_social_democrat_party:0 "-"
+PAL_social_democrat_party_long:0 "-"
+PAL_social_liberal_party:0 "-"
+PAL_social_liberal_party_long:0 "-"
+PAL_liberal_conservative_party:0 "HLP"
+PAL_liberal_conservative_party_long:0 "Hejaz Liberals’ Party"
+PAL_social_conservative_party:0 "HNP"
+PAL_social_conservative_party_long:0 "Hejaz National Party"
+PAL_authoritarian_conservative_party:0 "Al Hashimiyun"
+PAL_authoritarian_conservative_party_long:0 "Al Hashimiyun"
+PAL_right_wing_populist_party:0 "Al Hashimiyun"
+PAL_right_wing_populist_party_long:0 "Al Hashimiyun"
+PAL_national_syndicalist_party:0 "-"
+PAL_national_syndicalist_party_long:0 "-"
+PAL_national_corporatist_party:0 "-"
+PAL_national_corporatist_party_long:0 "-"
+
+### Focuses ###
+
+### Ideas ###
+PAL_fake_caliphate:0 "Unrecognized Caliphate"
+PAL_fake_caliphate_desc:0 "Hussein bin Ali, the Sharif of Hejaz, proclaimed himself the Caliph in 1924. But, so far, he hasn’t managed to get the support of the Ummah. As long as London’s authority is felt throughout the young country, regardless of how weak it might be, most Muslims will see it as an attempt by Britain to assert its colonial ambitions in the Islamic world. Without the support of the people living in Hejaz and Palestine, the Sharifan Caliphate’s reign might soon come to an end."
+PAL_ciemna_gora:0 "Controller of the Holy Cities"
+PAL_ciemna_gora_desc:0 "The Kingdom of Palestine and Hejaz controls three of the holiest cities in Islam:  Mecca, Medina, and Jerusalem. These sites hold great importance for the millions of Muslims, who all must come on a pilgrimage to Mecca once in their life. And Muslims are not the only ones who recognize the importance of the cities as Christian and Jews travel great distances to come to Jerusalem, the holiest city for the three Abrahamic religions and around half of the world’s population. All these sites have, over the years, proven themselves to be of great economic and cultural importance, but at a substantial cost to the security of this young state."
+PAL_Cars_the_Trilogy:0 "Ikhwan Raids"
+PAL_Cars_the_Trilogy_desc:0 "Due to its political instability, the Hashemite kingdom is vulnerable to attacks from the neighboring Emirate of Nejd. These attacks are commited by the Ikhwan, who see the Muslims of Hejaz and Palestine as not being 'true followers of Islam. The inability to properly defend itself leads to a vicious cycle that will prove increasingly difficult for Ali bin Hussein and his state to manage."
+PAL_Brooklyn_Immigration:0 "Jewish Immigration"
+PAL_Brooklyn_Immigration_desc:0 "Starting from 1929, the Fifth Aliyah represents the fifth and largest mass migration of Jews from Europe to Palestine, so far, after the start of the modern Zionist movement. Its stated goal is the return of the Jews to the historic land of the Kingdom of Israel. The reason for this Aliyah being far more significant than previous ones is the growth of anti-Semitic attitudes in Western Europe, mainly due to the association created by far-right nationalist movements between Jews and Communism. This influx of settlers with radically different cultures and religion into Palestine has brought much conflict with the Muslim inhabitants. For now, the Medina government is tolerant of these new arrivals due to British pressure, as well as newcomers' economic advantages and benefits as educated and often wealthy people."
+
+### Flags ###
+
+### Tooltips ###
+
+### Decisions ###
+
+### Equipment ###

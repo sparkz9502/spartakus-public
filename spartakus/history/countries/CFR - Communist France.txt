@@ -10,11 +10,23 @@ add_ideas = {
 	governance_bure
 	trade_aut
 	economy_ind
+	unions_statecontrolled
+	suffrage_universal
+	deathpenalty_legalized
+	press_stateonly
+	welfare_medium
+	judiciary_politicized
 	mobilization_1
 }
 
 ### Country Leaders ###
 recruit_character = CFR_military_administration
+
+### Starting Tech ###
+set_technology = {
+	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
+}
 
 ### Politics ###
 
@@ -50,13 +62,3 @@ set_country_flag = banned_authoritarian_conservative
 set_country_flag = banned_right_wing_populist
 set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
-
-create_country_leader = {
-	name = "Military Administration"
-	desc = "POLITICS_CFR_MILITARY_ADMINISTRATION_DESC"
-	picture = "Portrait_Military_Administration.tga"
-	expire = "1965.1.1"
-	ideology = spartacist_subtype
-	traits = {
-	}
-}

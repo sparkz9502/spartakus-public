@@ -1,0 +1,16 @@
+characters={
+	MKE_metodija_andonov_cento={
+		name="Metodija Andonov-Čento"
+		portraits={
+			civilian={
+				large="gfx/leaders/MKE/Portrait_Macedonia_Metodija_AC.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_METODIJA_ANDONOV_CENTO_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

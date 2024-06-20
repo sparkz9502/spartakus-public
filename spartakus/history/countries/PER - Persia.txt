@@ -1,19 +1,25 @@
 ﻿capital = 266
-
 set_oob = "PER"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.1
+set_war_support = 0.2
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_sempro
 	economy_unind
 	mobilization_1
 	
+	### National Spirits ###
 	PER_A_Persia_Divided
 	PER_The_Cossack_Regime
 	PER_Resistance_to_Centralization
 	PER_Republican_Opposition
 	
+	### Ministers ###
 	PER_Hassan_Pirnia_hog_aco
 	PER_Reza_Khan_mwp_aco
 	PER_Firouz_Nosrat-ed-Dowleh_for_sco
@@ -29,28 +35,27 @@ add_ideas = {
 	PER_Ahmad_Khan_Nakhjavan_cair
 }
 
-set_research_slots = 3
-set_stability = 0.5
-set_war_support = 0.2
-set_convoys = 20
+### Country Leaders ###
+recruit_character = PER_mahmoud_mirza_shah_qajar
 
-# Starting tech
+### Field Marshals ###
+recruit_character = PER_reza_khan
+
+### Generals ###
+recruit_character = PER_hasan_arfa
+
+### Starting Tech ###
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
 	tech_support = 1
 	gw_artillery = 1
-	early_fighter = 1
 }
 
-set_autonomy = {
-	target = KHO
-	autonomous_state = sp_autonomous
-}
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -75,38 +80,9 @@ set_country_flag = banned_bolshevist
 set_country_flag = banned_spartacist
 set_country_flag = banned_revolutionary_socialist
 
-create_country_leader = {
-	name = "Mahmoud Mirza Shah Qajar"
-	desc = "POLITICS_REZA_SHAH_PAHLAVI_DESC"
-	picture = "Portrait_Mahmoud_Mirza_Shah_Qajar.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		#
-	}
-}
+### Diplomacy ###
 
-create_field_marshal = {
-	name = "Reza Khan"
-	portrait_path = "gfx/leaders/PER/Portrait_Iran_Reza_Shah_Pahlavi.dds"
-	traits = {
-		harsh_leader
-		old_guard
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Hasan Arfa"
-	portrait_path = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	traits = {  desert_fox }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
+set_autonomy = {
+	target = KHO
+	autonomous_state = sp_autonomous
 }

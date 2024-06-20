@@ -1,0 +1,19 @@
+characters={
+    ECU_alfredo_baquerizo_moreno = {
+        name = "Alfredo Baquerizo Moreno"
+        portraits={
+            civilian={
+                large = "gfx/leaders/ECU/Portrait_Alfredo_Baquerizo_Moreno.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ALFREDO_BAQUERIZO_MORENO_DESC"
+            expire = "1965.1.1"
+            ideology = conservative_liberalism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

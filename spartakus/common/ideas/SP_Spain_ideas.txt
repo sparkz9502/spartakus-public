@@ -11,7 +11,7 @@ ideas = {
 				stability_factor = -0.20
 				monthly_population = -0.15
 			}
-			picture = GFX_idea_SPR_Agrarian_Question
+			picture = SPR_Agrarian_Question
 		}
 		
 		SPR_Military_Unrest_idea = {
@@ -20,7 +20,7 @@ ideas = {
 				war_support_factor = -0.15
 				army_org_factor = -0.20
 			}
-			picture = GFX_idea_enemies_of_republic
+			picture = SPR_Military_Unrest
 		}
 		
 		SPR_Unstable_Coalition_idea = {
@@ -29,7 +29,7 @@ ideas = {
 				war_support_factor = -0.20
 				political_power_gain = -0.25
 			}
-			picture = GFX_idea_Spanish_Republic_Flag_Burning
+			picture = Spanish_Republic_Flag_Burning
 		}
 		
 		SPR_Decelerating_Economy_idea = {
@@ -38,7 +38,7 @@ ideas = {
 				production_speed_buildings_factor = -0.15
 				production_factory_efficiency_gain_factor = -0.15
 			}
-			picture = GFX_idea_capital_outflow
+			picture = Decelerating_Economy
 		}
 		
 		SPR_Generalized_Illiteracy_idea = {
@@ -46,7 +46,7 @@ ideas = {
 				political_power_gain = -0.05
 				research_speed_factor = -0.1
 			}
-			picture = GFX_idea_Illiteracy_Idea
+			picture = Illiteracy_Idea
 		}
     }
 	

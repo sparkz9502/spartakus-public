@@ -4,8 +4,8 @@ state={
 	name="STATE_659"
 
 	history={
-		owner = UAE
-		add_core_of = UAE
+		owner = RAJ
+		add_claim_by = RAJ
 		add_claim_by = YEM
 		victory_points = {
 			13712 1 

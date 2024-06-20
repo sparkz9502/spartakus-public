@@ -1,0 +1,26 @@
+﻿instant_effect = {
+	
+	### Plane Variants ###
+	
+	create_equipment_variant = {
+		name = "Dewoitine D.27"
+		type = small_plane_airframe_0
+		modules = {
+			fixed_main_weapon_slot = light_mg_2x
+			engine_type_slot = engine_1_1x
+			special_type_slot_1 = empty
+		}
+	}
+}
+
+### Air OOB ###
+
+air_wings = {
+	3 = { 	
+		small_plane_airframe_0 =  {
+			owner = "SWI" 
+			amount = 36
+			version_name = "Dewoitine D.27"
+		}
+	}
+}

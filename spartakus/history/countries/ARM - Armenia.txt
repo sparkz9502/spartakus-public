@@ -4,6 +4,28 @@ set_research_slots = 3
 set_stability = 0.4
 set_war_support = 0.7
 
+add_ideas = {
+	### Laws ###
+	recruitment_1830
+	governance_exec
+	trade_pro
+	economy_indzing
+	unions_suppressed
+	suffrage_universal
+	deathpenalty_outlawed
+	press_free
+	welfare_low
+	judiciary_impartial
+	mobilization_3
+}
+
+### Country Leaders ###
+recruit_character = ARM_hovhannes_kajaznuni
+recruit_character = ARM_aghasi_khanjian
+recruit_character = ARM_drastamat_kanayan
+recruit_character = ARM_mariam_vardanian
+recruit_character = ARM_mikayel_papadjanian
+
 ### Starting Tech ###
 set_technology = {
 	### General ###
@@ -19,22 +41,6 @@ set_technology = {
 	### Air ###
 	early_fighter = 1
 }
-
-add_ideas = {
-	### Laws ###
-	recruitment_1830
-	governance_exec
-	trade_pro
-	economy_indzing
-	mobilization_3
-}
-
-### Country Leaders ###
-recruit_character = ARM_hovhannes_kajaznuni
-recruit_character = ARM_aghasi_khanjian
-recruit_character = ARM_drastamat_kanayan
-recruit_character = ARM_mariam_vardanian
-recruit_character = ARM_mikayel_papadjanian
 
 ### Politics ###
 

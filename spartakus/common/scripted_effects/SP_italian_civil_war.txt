@@ -138,6 +138,7 @@ ITA_icw_socialists_milan_scripted_effect = {
 				set_province_controller = 6661
 				set_province_controller = 11587
 				set_province_controller = 11568
+				set_province_controller = 1493
 				set_province_controller = 15507
 			}
 		}
@@ -153,6 +154,7 @@ ITA_icw_socialists_milan_scripted_effect = {
 				set_province_controller = 6661
 				set_province_controller = 11587
 				set_province_controller = 11568
+				set_province_controller = 1493
 				set_province_controller = 15507
 			}
 		}

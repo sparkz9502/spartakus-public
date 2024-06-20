@@ -4,28 +4,26 @@ state={
 	name="STATE_1097"
 
 	history={
-		owner = SOV
+		owner = PRI
+		victory_points = {
+			664 1 
+		}
+		victory_points = {
+			3977 3 
+		}
 		buildings = {
 			infrastructure = 2
-			9604 = {
-				naval_base = 2
-			}
+			industrial_complex = 1
 		}
-		victory_points = {
-			9604 2
-		}
-		victory_points = {
-			12263 1 
-		}
-		add_core_of = SOV
-		add_claim_by = PRI
-
+		add_core_of = PRI
+		add_claim_by = SOV
 	}
 
 	provinces={
-		675 1267 1325 1343 1397 3963 4290 4404 4701 4805 6774 7249 7309 7672 9589 9604 9733 9749 10722 11575 11719 12136 12192 12261 12263 12638 12678 
+		664 681 725 810 837 3695 3723 3787 3811 3843 3977 6684 6686 6838 6989 9639 9641 9762 9926 11624 11629 11750 11765 11777 11879 
 	}
-	manpower=100000
+	manpower=430000
 	buildings_max_level_factor=1.000
-	state_category=pastoral
+	state_category=town
+	local_supplies=0.000
 }

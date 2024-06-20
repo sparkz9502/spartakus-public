@@ -1,0 +1,31 @@
+characters={
+    HMA_ma_zhongying = {
+        name = "Ma Zhongying"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HMA/Portrait_Ma_Zhongying.tga"
+            }
+			army={
+                large = "gfx/leaders/HMA/Portrait_Ma_Zhongying.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MA_ZHONGYING_DESC"
+            expire = "1965.1.1"
+            ideology = right_wing_populist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+		field_marshal={
+			traits = { offensive_doctrine }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+}

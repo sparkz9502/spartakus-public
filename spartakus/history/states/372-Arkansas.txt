@@ -7,7 +7,7 @@ state={
 	state_category = small_town
 	
 	resources={
-		coal=4
+		coal=2
 		oil=25
 		bauxite=110
 	}

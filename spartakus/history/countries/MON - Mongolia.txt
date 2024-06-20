@@ -1,25 +1,33 @@
 ﻿capital = 330
-
 set_oob = "MON"
-
-# Starting tech
-set_technology = {
-	infantry_weapons = 1
-}
+set_research_slots = 2
+set_stability = 0.3
+set_war_support = 0.7
 
 add_ideas = {
+	### Laws ###
 	recruitment_1825
-	governance_coun
+	governance_bure
 	trade_aut
-	economy_undevmobilization_1
+	economy_undev
+	mobilization_2
 }
+
+### Country Leaders ###
+recruit_character = MON_anandyn_amar
+
+### Starting Tech ###
+set_technology = {
+	### Infantry ###
+	infantry_weapons = 1
+	gw_artillery = 1
+}
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = bolshevist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -35,23 +43,4 @@ set_popularities = {
     right_wing_populist = 9
     national_syndicalist = 0
     national_corporatist = 0
-}
-create_country_leader = {
-	name = "Anandyn Amar"
-	desc = "POLITICS_ANANDYN_AMAR_DESC"
-	picture = GFX_portrait_mon_anandyn_amar
-	expire = "1965.1.1"
-	ideology = bolshevist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Jamtsangiin Damdinsüren"
-	desc = "POLITICS_JAMTSANGIIN_DAMDINSUREN_DESC"
-	picture = GFX_portrait_MON_jamtsangiin_daminsuren
-	expire = "1965.1.1"
-	ideology = bolshevist_subtype
-	traits = {}
 }

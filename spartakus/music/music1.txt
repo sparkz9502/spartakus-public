@@ -1,0 +1,25 @@
+
+music_station = "base_music"
+
+music = {
+	song = "main_vanilla"
+	chance = {
+		modifier = {
+			factor = 0.5
+		}
+	}
+}
+
+music_station = "new_music"
+
+music = {
+    song = "oktobersong"
+    chance = {
+        factor = 1
+        modifier = {
+            factor = 0.3
+            has_war = yes
+        }
+    }
+}
+

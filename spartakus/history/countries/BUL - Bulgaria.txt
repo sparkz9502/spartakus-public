@@ -1,13 +1,22 @@
 ﻿capital = 48
-
 set_oob = "BUL"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.4
+set_war_support = 0.3
 
 add_ideas = {
-	###Laws###
+	### Laws ###
 	recruitment_1825
 	governance_exec
 	trade_nat
 	economy_indzing
+	unions_independent
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_low
+	judiciary_impartial
 	mobilization_2
 	
 	### National Spirits ###

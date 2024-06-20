@@ -1,0 +1,153 @@
+﻿instant_effect = {
+	### Starting Production ###
+
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 2
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = tac_bomber_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "GER" 
+		}
+		requested_factories = 1
+		progress = 0.5
+		efficiency = 100
+	}
+}
+
+### Air OOB ###
+
+air_wings = {
+	5 = { 	
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Jagdgeschwader 1"
+		
+		CAS_equipment_1 = {
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Schlachtgeschwader 3"
+	}
+
+	1264 = { 	
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 2"
+	
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 40
+		}
+		name = "Kampfgeschwader 1"
+	}
+
+	66 = {
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 5"
+		
+		tac_bomber_equipment_0 = {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 2"
+	}
+	
+	55 = { 		
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 6"
+	}
+
+	57 = { 	
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 3"
+
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 3"
+
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 4"
+		
+		CAS_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Schlachtgeschwader 1"
+	}
+
+	51 = { 		
+		fighter_equipment_1 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 4"
+
+		tac_bomber_equipment_1 = {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Kampfgeschwader 5"
+		
+		CAS_equipment_1 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Schlachtgeschwader 2"
+	}
+	
+	52 = { 		
+		fighter_equipment_0 =  {
+			owner = "GER" 
+			amount = 80
+		}
+		name = "Jagdgeschwader 7"
+
+		tac_bomber_equipment_0 = {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Kampfgeschwader 6"
+	}
+
+	58 = { 	
+		nav_bomber_equipment_1 =  {
+			owner = "GER" 
+			amount = 60
+		}
+		name = "Torpedogeschwader 1"
+	}
+}

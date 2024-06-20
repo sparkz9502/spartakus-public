@@ -1,0 +1,16 @@
+characters={
+	YEM_imam_yahya={
+		name="Imam Yahya"
+		portraits={
+			civilian={
+				large="gfx/leaders/YEM/portrait_yem_imam_yaha.dds"
+			}
+		}
+		country_leader={
+			desc="POLITICS_IMAM_YAHYA_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

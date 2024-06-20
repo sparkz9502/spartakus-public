@@ -2,14 +2,14 @@
 ### Basmachi ###
 ################
 
-Basmachi_raiding_cat = {
-	allowed = { 
-		OR = {
-			tag = TCS
-			tag = TRK
-		}
-	}
-	visible = {
-	}
-	icon = GFX_decision_category_border_conflicts
-}
+# Basmachi_raiding_cat = {
+	# allowed = { 
+		# OR = {
+			# tag = TCS
+			# tag = TRK
+		# }
+	# }
+	# visible = {
+	# }
+	# icon = GFX_decision_category_border_conflicts
+# }

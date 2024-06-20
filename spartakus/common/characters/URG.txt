@@ -1,0 +1,16 @@
+characters={
+	URG_gabriel_terra_leivas={
+		name="Gabriel Terra Leivas"
+		portraits={
+			civilian={
+				large="gfx/leaders/URG/Portrait_Gabriel_Terra.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GABRIEL_TERRA_DESC"
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

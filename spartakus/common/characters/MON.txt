@@ -1,0 +1,19 @@
+characters={
+    MON_anandyn_amar = {
+        name = "Anandyn Amar"
+        portraits={
+            civilian={
+                large = "gfx/leaders/MON/Portrait_Anandyn_Amar.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ANANDYN_AMAR_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

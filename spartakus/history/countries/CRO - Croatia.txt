@@ -1,23 +1,38 @@
 ﻿capital = 109
-
-set_research_slots = 2
-
 set_oob = "CRO"
-
+set_research_slots = 2
+set_convoys = 20
 set_stability = 0.1
 set_war_support = 0.1
 
+ITA = {
+	set_autonomy = {
+		target = CRO
+		autonomous_state = sp_autonomous
+	}
+}
+
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_abs
 	trade_sempro
 	economy_indzing
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_censored
+	welfare_low
+	judiciary_politicized
 	mobilization_1
 	
+	### National Spirits ###
     WB_Idea_llliteracy
 	CRO_Italian_Economic_Domination
 	CRO_native_conscription_crisis
 	CRO_Rebel_Networks
+	
+	### Ministers ###
 	CRO_Antun_pl_Mihalovic_hog_ade
 	CRO_Mladen_Lorkovic_for_nsy
 	CRO_Ivan_Krajac_eco_sco
@@ -25,32 +40,43 @@ add_ideas = {
 	CRO_Vilko_Begic_def_rwp
 }
 
+### Country Leaders ###
+recruit_character = CRO_tomislav_ii_frankopan
+recruit_character = CRO_ante_pavelic
+recruit_character = CRO_ante_pavelic_sr
+recruit_character = CRO_josip_broz_tito
+recruit_character = CRO_mile_budak
+recruit_character = CRO_stjepan_radic
+recruit_character = CRO_svetozar_delic
+recruit_character = CRO_vitomir_korac
+recruit_character = CRO_vladimir_bakaric
+recruit_character = CRO_vladko_macek
+
+### Field Marshals ###
+recruit_character = CRO_slavko_kvaternik
+
+### Generals ###
+recruit_character = CRO_leon_rupnik
+recruit_character = CRO_matija_canic
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	infantry_weapons1 = 1
+	gw_artillery = 1
 	tech_mountaineers = 1
 	tech_support = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	transport = 1
+	tech_engineers = 1
 }
 
-ITA = {
-	set_autonomy = {
-	target = CRO
-	autonomous_state = sp_autonomous
-	}
-}
-
-set_convoys = 23
+### Politics ###
 
 set_politics = {	
 	ruling_party = right_wing_populist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -81,18 +107,3 @@ set_country_flag = banned_liberal_conservative
 set_country_flag = banned_social_conservative
 set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
-
-recruit_character = CRO_tomislav_ii_frankopan
-recruit_character = CRO_ante_pavelic
-recruit_character = CRO_ante_pavelic_sr
-recruit_character = CRO_josip_broz_tito
-recruit_character = CRO_leon_rupnik
-recruit_character = CRO_matija_canic
-recruit_character = CRO_mile_budak
-recruit_character = CRO_slavko_kvaternik
-recruit_character = CRO_stjepan_radic
-recruit_character = CRO_svetozar_delic
-recruit_character = CRO_vitomir_korac
-recruit_character = CRO_vittorio_emanuele_iii
-recruit_character = CRO_vladimir_bakaric
-recruit_character = CRO_vladko_macek

@@ -10,14 +10,16 @@ state={
 
 		}
 		add_core_of = SOV
+		add_claim_by = PRI
 
 	}
 
 	provinces={
-		1792 4737 4795 4868 7726 7759 10583 10654 10688 12538 12668 12681 
+		4795 4868 7726 7759 10583 10654 10688 12538 12668 
 	}
 	manpower=15000
 	buildings_max_level_factor=1.000
-	impassable = yes
 	state_category=wasteland
+	local_supplies=0.000
+	impassable = yes
 }

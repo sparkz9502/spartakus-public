@@ -1,29 +1,29 @@
 ﻿capital = 328
-
-set_oob = "MAN"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
 	recruitment_volunteer
 	governance_abs
 	trade_pro
-	economy_unind
+	economy_indzing
 	mobilization_1
 }
 
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
-	gw_artillery = 1
-	
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_convoys = 5
+### Politics ###
 
-set_politics = {	
+set_politics = {
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -39,60 +39,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Aisin Gioro Puyi"
-	picture = "gfx/leaders/MAN/Portrait_Manchuria_Henry_Pu_Yi.dds"
-	expire = "1960.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-	}
-}
-
-create_corps_commander = {
-	name = "Zhang Haipeng"
-	GFX = "GFX_portrait_man_zhang_haipeng"
-	traits = {  }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Zhang Jinghui"
-	GFX = "GFX_portrait_man_zhang_jinghui"
-	traits = { infantry_officer }
-	skill = 2
-	
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Aisin Gioro Xiqia"
-	GFX = "GFX_portrait_man_aisin_gioro_xiqia"
-	traits = { career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Yoshiko Kawashima"
-	gfx = "GFX_portrait_man_yoshiko_kawashima"
-	traits = { cavalry_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 2
-	female = yes
 }

@@ -23,7 +23,7 @@ ideas = {
 		}
 		
 		TRK_bolshevik_raiding = {
-			picture = BUL_VMRO
+			picture = Bolshevik_Raiding
 
 			allowed = {
 				original_tag = TRK

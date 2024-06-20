@@ -1,0 +1,33 @@
+﻿instant_effect = {
+
+	### Ship Variants ###
+
+	create_equipment_variant = {
+		name = "Phra Ruang Class"				
+		type = ship_hull_light_1
+		name_group = SIA_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units= {
+	fleet = {
+		name = "Royal Siamese Navy"		
+		naval_base = 7408 # Bangkok
+		task_force = {				
+			name = "Royal Siamese Navy"			
+			location = 7408 # Bangkok
+			ship = { name = "HTMS Phra Ruang" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = SIA version_name = "Phra Ruang Class" } } }
+		}				
+	}
+}

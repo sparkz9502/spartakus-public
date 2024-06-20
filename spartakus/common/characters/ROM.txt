@@ -1,0 +1,175 @@
+characters={
+    ROM_carol_ii={
+		name="Carol II"
+		portraits={
+			civilian={
+				large="gfx/leaders/ROM/Portrait_Carol_II.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=reformist_socialist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=social_democrat_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=social_liberal_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=liberal_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=social_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=authoritarian_conservative_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=right_wing_populist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=national_syndicalist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_CAROL_II_DESC"
+			ideology=national_corporatist_subtype
+			traits={ }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	ROM_ion_antonescu = {
+        name = "Ion Antonescu"
+        portraits={
+            army={
+                large = "gfx/leaders/ROM/Portrait_Ion_Antonescu.tga"
+            }
+        }
+        field_marshal={
+			traits = { old_guard war_hero defensive_doctrine }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+	ROM_petre_dumitrescu = {
+        name = "Petre Dumitrescu"
+        portraits={
+            army={
+                large = "gfx/leaders/ROM/Portrait_Petre_Dumitrescu.tga"
+            }
+        }
+        field_marshal={
+			traits = { offensive_doctrine logistics_wizard career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+	ROM_ioan_mihail_racovita = {
+        name = "Ioan Mihail Racovita"
+        portraits={
+            army={
+                large = "gfx/leaders/ROM/Portrait_Ioan_Mihail_Racovita.tga"
+            }
+        }
+        corps_commander={
+			traits = { hill_fighter }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+	ROM_constantin_prezan = {
+        name = "Constantin Prezan"
+        portraits={
+            army={
+                large = "gfx/leaders/ROM/Portrait_Constantin_Prezan.tga"
+            }
+        }
+        corps_commander={
+			traits = { career_officer }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+	ROM_gheorghe_avramescu = {
+        name = "Gheorghe Avramescu"
+        portraits={
+            army={
+                large = "gfx/leaders/ROM/Portrait_Gheorghe_Avramescu.tga"
+            }
+        }
+        corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+	ROM_horia_macellariu = {
+        name = "Horia Macellariu"
+        portraits={
+            army={
+                large = "gfx/leaders/ROM/Portrait_Horia_Macellariu.tga"
+            }
+        }
+        navy_leader={
+			traits = { spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=-1
+		}
+    }
+}

@@ -1,0 +1,147 @@
+characters={
+    MNT_danilo_ii = {
+        name = "Danilo II"
+        portraits={
+            civilian={
+                large = "gfx/leaders/MNT/Portrait_Danilo.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_DANILO_II_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+				irrelevant_king
+            }
+            id=-1
+        }
+    }
+
+    MNT_milovan_djilas = {
+        name = "Milovan Đilas"
+        portraits={
+            civilian={
+                large = "gfx/leaders/MNT/Portrait_Milovan_Djilas.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MILOVAN_DJILAS_DESC"
+            expire = "1965.1.1"
+            ideology = reformist_socialist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	
+	MNT_kongres_kpjcg = {
+        name = "Kongres KPJ-CG"
+        portraits={
+            civilian={
+                large = "gfx/leaders/MNT/Portrait_KPJ.tga"
+            }
+        }
+		country_leader={
+            desc = "POLITICS_KONGRES_KPJ-CG_DESC"
+            expire = "1965.1.1"
+            ideology = bolshevist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+		country_leader={
+            desc = "POLITICS_KONGRES_KPJ-CG_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_KONGRES_KPJ-CG_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	
+	MNT_radomir_vesovic = {
+        name = "Radomir Vešović"
+        portraits={
+            army={
+                large = "gfx/leaders/MNT/Portrait_Radomir_Vesovic.tga"
+            }
+        }
+        corps_commander={
+			traits = {
+				war_hero
+				ambusher
+				trait_reckless
+			}
+			skill = 2
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+	
+	MNT_mitar_martinovic = {
+        name = "Mitar Martinović"
+        portraits={
+            army={
+                large = "gfx/leaders/MNT/Portrait_Mitar_Martinovic.tga"
+            }
+        }
+        corps_commander={
+			traits = {
+				defensive_doctrine
+			}
+			skill = 2
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+	
+	MNT_pavle_djurisic = {
+        name = "Pavle Đurišić"
+        portraits={
+			civilian={
+                large = "gfx/leaders/MNT/Portrait_Pavle_Djurisic.tga"
+            }
+            army={
+                large = "gfx/leaders/MNT/Portrait_Pavle_Djurisic.tga"
+            }
+        }
+		country_leader={
+            desc = "POLITICS_PAVLE_DJURISIC_DESC"
+            expire = "1965.1.1"
+            ideology = right_wing_populist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+        #corps_commander={
+		#	traits = {
+		#		ambusher
+		#	}
+	    #   skill = 2
+	    #   attack_skill = 1
+	    #   defense_skill = 3
+	    #   planning_skill = 2
+	    #   logistics_skill = 2
+		#	legacy_id=-1
+		#}
+    }
+}

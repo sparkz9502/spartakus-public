@@ -24,7 +24,8 @@ state={
 		add_claim_by = CZE
 
 	}
-
+	
+	
 	provinces={
 		3565 3716 6561 6573 9537 11679 
 	}

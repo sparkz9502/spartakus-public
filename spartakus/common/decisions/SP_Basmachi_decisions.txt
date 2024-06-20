@@ -2,102 +2,102 @@
 ### Basmachi Decisions ###
 ##########################
 
-Basmachi_raiding_cat = {
+# Basmachi_raiding_cat = {
 	
-	Basmachi_raiding_dec = {
+	# Basmachi_raiding_dec = {
 
-		icon = generic_prepare_civil_war
+		# icon = generic_prepare_civil_war
 
-		ai_will_do = {
-			factor = 100
-		}
+		# ai_will_do = {
+			# factor = 100
+		# }
 		
-		allowed = { always = no }
+		# allowed = { always = no }
 		
-		visible = {
-			NOT = {
-				has_war = yes
-			}
-			if = {
-				limit = {
-					tag = TCS
-					FROM = { tag = SOV }
-				}
-				1135 = { is_owned_and_controlled_by = SOV }
-			}
-			else = {
-				FROM = { is_neighbor_of = ROOT }
-			}
-		}
+		# visible = {
+			# NOT = {
+				# has_war = yes
+			# }
+			# if = {
+				# limit = {
+					# tag = TCS
+					# FROM = { tag = SOV }
+				# }
+				# 1135 = { is_owned_and_controlled_by = SOV }
+			# }
+			# else = {
+				# FROM = { is_neighbor_of = ROOT }
+			# }
+		# }
 		
-		available = {
-			NOT = {
-				OR = {
-					has_border_war = yes
-					has_country_flag = Basmachi_raiding_cooldown
-				}
-			}
-		}
+		# available = {
+			# NOT = {
+				# OR = {
+					# has_border_war = yes
+					# has_country_flag = Basmachi_raiding_cooldown
+				# }
+			# }
+		# }
 		
-		complete_effect = {
-			set_country_flag = Basmachi_raiding_cooldown
-			start_border_war = {
-				change_state_after_war = no
-				attacker = {
-					state = var:ROOT.Basmachi_raiding_attacker_state_vs_@FROM
-					num_provinces = 2
-					on_win = Basmachi_raiding.1
-					on_lose = Basmachi_raiding.2
-					on_cancel = Basmachi_raiding.3
-				}
+		# complete_effect = {
+			# set_country_flag = Basmachi_raiding_cooldown
+			# start_border_war = {
+				# change_state_after_war = no
+				# attacker = {
+					# state = var:ROOT.Basmachi_raiding_attacker_state_vs_@FROM
+					# num_provinces = 2
+					# on_win = Basmachi_raiding.1
+					# on_lose = Basmachi_raiding.2
+					# on_cancel = Basmachi_raiding.3
+				# }
 				
-				defender = {
-					state = var:ROOT.Basmachi_raiding_defender_state_vs_@FROM
-					num_provinces = 2
-					on_win = Basmachi_raiding.4
-					on_lose = Basmachi_raiding.5
-					on_cancel = Basmachi_raiding.6
-				}
-			}
-		}
-		highlight_states = {
-			state = var:ROOT.Basmachi_raiding_defender_state_vs_@FROM
-		}
-		days_remove = 30
-		remove_effect = {
-			if = {
-				limit = { has_border_war_with = FROM }
-				cancel_border_war = {
-					attacker = var:Basmachi_raiding_attacker_state_vs_@FROM
-					defender = var:Basmachi_raiding_defender_state_vs_@FROM
-				}
-			}
-			if = {
-				limit = {
-					NOT = { has_country_flag = Basmachi_raiding_cooldown }
-				}
-				effect_tooltip = {
-					cancel_border_war = {
-						attacker = var:Basmachi_raiding_attacker_state_vs_@FROM
-						defender = var:Basmachi_raiding_defender_state_vs_@FROM
-					}
-				}
-			}
-			activate_mission = Basmachi_raiding_cooldown
-			hidden_effect = { Basmachi_raiding_state_reset = yes }
-		}
-	}
+				# defender = {
+					# state = var:ROOT.Basmachi_raiding_defender_state_vs_@FROM
+					# num_provinces = 2
+					# on_win = Basmachi_raiding.4
+					# on_lose = Basmachi_raiding.5
+					# on_cancel = Basmachi_raiding.6
+				# }
+			# }
+		# }
+		# highlight_states = {
+			# state = var:ROOT.Basmachi_raiding_defender_state_vs_@FROM
+		# }
+		# days_remove = 30
+		# remove_effect = {
+			# if = {
+				# limit = { has_border_war_with = FROM }
+				# cancel_border_war = {
+					# attacker = var:Basmachi_raiding_attacker_state_vs_@FROM
+					# defender = var:Basmachi_raiding_defender_state_vs_@FROM
+				# }
+			# }
+			# if = {
+				# limit = {
+					# NOT = { has_country_flag = Basmachi_raiding_cooldown }
+				# }
+				# effect_tooltip = {
+					# cancel_border_war = {
+						# attacker = var:Basmachi_raiding_attacker_state_vs_@FROM
+						# defender = var:Basmachi_raiding_defender_state_vs_@FROM
+					# }
+				# }
+			# }
+			# activate_mission = Basmachi_raiding_cooldown
+			# hidden_effect = { Basmachi_raiding_state_reset = yes }
+		# }
+	# }
 	
-	Basmachi_raiding_cooldown = {
-		allowed = { always = no }
-		available = {
-			custom_trigger_tooltip = {
-				tooltip = Basmachi_raiding_cooldown_tt
-				always = no
-			}
-		}
-		is_good = yes
-		days_mission_timeout = 20
-		timeout_effect = { clr_country_flag = Basmachi_raiding_cooldown }
-	}
-}
+	# Basmachi_raiding_cooldown = {
+		# allowed = { always = no }
+		# available = {
+			# custom_trigger_tooltip = {
+				# tooltip = Basmachi_raiding_cooldown_tt
+				# always = no
+			# }
+		# }
+		# is_good = yes
+		# days_mission_timeout = 20
+		# timeout_effect = { clr_country_flag = Basmachi_raiding_cooldown }
+	# }
+# }

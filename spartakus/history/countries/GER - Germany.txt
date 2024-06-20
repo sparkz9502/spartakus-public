@@ -1,10 +1,19 @@
 ﻿capital = 1264
 set_oob = "GER"
+if = {
+	limit = {
+		has_dlc = "By Blood Alone"
+	}
+	set_air_oob = "GER_air_bba"
+	else = {
+		set_air_oob = "GER_air_legacy"
+	}
+}
 set_naval_oob = "GER_naval"
 set_research_slots = 4
 set_convoys = 300
-set_stability = 0.3
-set_war_support = 0.35
+set_stability = 0.2
+set_war_support = 0.25
 starting_train_buffer = 2
 
 add_ideas = {
@@ -13,6 +22,12 @@ add_ideas = {
 	governance_coun
 	trade_aut
 	economy_hyind
+	unions_independent
+	suffrage_universal
+	deathpenalty_outlawed
+	press_free
+	welfare_high
+	judiciary_politicized
 	mobilization_2
 	
 	### National Spirits ###
@@ -20,6 +35,7 @@ add_ideas = {
 	GER_Rotfrontkampferbund
 	GER_Terrorism
 	GER_Peasant_Question
+	GER_Heart_of_Socialism
 	
 	### Ministers ###
 	GER_Karl_Liebknecht_hog_spa
@@ -40,12 +56,24 @@ add_ideas = {
 
 ### Country Leaders ###
 recruit_character = GER_rosa_luxemburg
+recruit_character = GER_rudolf_rocker
+recruit_character = GER_arthur_crispien
+#recruit_character = GER_paul_levi
+#recruit_character = GER_wilhelm_pieck
+#recruit_character = GER_heinrich_brandler
+#recruit_character = GER_ernst_meyer
+#recruit_character = GER_hugo_eberlein
 
 ### Field Marshals ###
 recruit_character = GER_ludwig_renn
 recruit_character = GER_ernst_thalmann
 
 ### Generals ###
+recruit_character = GER_erwin_rommel
+recruit_character = GER_friedrich_paulus
+recruit_character = GER_ernst_schact
+recruit_character = GER_bodo_uhse
+recruit_character = GER_josef_romer
 recruit_character = GER_kurt_student
 recruit_character = GER_johannes_blaskowitz
 recruit_character = GER_ludwig_renn
@@ -79,6 +107,8 @@ recruit_character = GER_karl_baier
 recruit_character = GER_karl_artelt
 recruit_character = GER_ernst_wollweber
 recruit_character = GER_otto_tost
+recruit_character = GER_willy_sachse
+recruit_character = GER_rudolf_egelhofer
 
 ### Starting Tech ###
 set_technology = {
@@ -95,6 +125,7 @@ set_technology = {
 	tech_mountaineers = 1
 	marines = 1
 	paratroopers = 1
+	tech_trucks = 1
 	motorised_infantry = 1
 	tech_support = 1
 	tech_recon = 1		
@@ -107,14 +138,38 @@ set_technology = {
 	gw_artillery = 1
 	interwar_antitank = 1
 	interwar_antiair = 1
-	
-	### Air ###
-	early_fighter = 1
-	fighter1 = 1
-	naval_bomber1 = 1
-	CAS1 = 1
-	early_bomber = 1
-	tactical_bomber1 = 1
+}
+### Air - BBA ###
+if = {
+	limit = { 
+		has_dlc = "By Blood Alone" 
+	}
+	set_technology = {
+		aa_lmg = 1
+		aa_cannon_1 = 1
+		engines_1 = 1
+		engines_2 = 1
+		early_bombs = 1
+		aircraft_construction = 1
+		iw_small_airframe = 1
+		basic_small_airframe = 1
+		iw_medium_airframe = 1
+		basic_medium_airframe = 1
+	}
+}
+### Air - no BBA ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		fighter1 = 1
+		naval_bomber1 = 1
+		CAS1 = 1
+		early_bomber = 1
+		tactical_bomber1 = 1
+	}
 }
 ### Tanks - NSB ###
 if = {
@@ -161,8 +216,6 @@ if = {
 		basic_light_battery = 1
 		basic_medium_battery = 1
 		basic_heavy_battery = 1
-		basic_secondary_battery = 1
-		improved_secondary_battery = 1
 		basic_depth_charges = 1
 		sonar = 1
 		basic_cruiser_armor_scheme = 1
@@ -175,7 +228,7 @@ if = {
 ### Navy - no MtG ###
 if = {
 	limit = {
-		not = { has_dlc = "Man the Guns" }
+		NOT = { has_dlc = "Man the Guns" }
 	}
 	set_technology = {
 		early_submarine = 1

@@ -49,6 +49,11 @@ GER_industry_points_remove_1 = {
 	add_to_variable = { germany_industry_gui_update = 1 }
 }
 
+GER_industry_points_remove_2 = {
+	subtract_from_variable = { GER_industry_points_var = 2 }
+	add_to_variable = { germany_industry_gui_update = 1 }
+}
+
 GER_increase_military_readiness = {
 	custom_effect_tooltip = GER_increase_military_readiness_tt
 	#WIP

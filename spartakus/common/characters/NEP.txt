@@ -1,0 +1,19 @@
+characters={
+	NEP_tribhuvan = {
+        name = "Tribhuvan Bir Bikram Shah"
+        portraits={
+            civilian={
+                large = "gfx/leaders/NEP/Portrait_Tribhuvan.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_TRIBHUVAN_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

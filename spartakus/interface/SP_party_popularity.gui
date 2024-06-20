@@ -2,11 +2,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "bolshevist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="bolshevist_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -35,11 +35,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "spartacist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="spartacist_text"
-			position = { x= 1 y = 3 }
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -68,11 +68,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "revolutionary_socialist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="revolutionary_socialist_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -101,11 +101,11 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "reformist_socialist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="reformist_socialist_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -134,11 +134,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "social_democrat_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="social_democrat_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -166,11 +166,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "social_liberal_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="social_liberal_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -199,11 +199,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "liberal_conservative_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="liberal_conservative_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -232,11 +232,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "social_conservative_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="social_conservative_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -265,11 +265,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "authoritarian_conservative_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="authoritarian_conservative_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -298,11 +298,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "right_wing_populist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="right_wing_populist_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -331,11 +331,11 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "national_syndicalist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="national_syndicalist_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right
@@ -364,11 +364,11 @@ guiTypes = {
 	
 	containerWindowType = {
 		name = "national_corporatist_container"
-		position = { x = 176 y = 6 }
+		position = { x = 176 y = 7 }
 		
 		instantTextBoxType = {
 			name ="national_corporatist_text"
-			position = { x= 1 y = 3}
+			position = { x= 1 y = 2 }
 			font = "hoi_18mbs"
 			text = "[?ROOT.SP_ruling_party_pop|0]%"
 			format = right

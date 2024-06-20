@@ -1,13 +1,13 @@
 ﻿capital = 446
-OOB = "EGY"
+set_oob = "EGY"
+set_research_slots = 2
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.3
 set_cosmetic_tag = EGY_UK
 
-set_research_slots = 2
-set_stability = 0.5
-set_war_support = 0.5
-set_convoys = 30
-
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_par
 	trade_pro
@@ -15,17 +15,26 @@ add_ideas = {
 	mobilization_1
 }
 
+### Country Leaders ###
+recruit_character = EGY_fuad_i
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	gwtank = 1
 	gw_artillery = 1
 }
 
+### Politics ###
+
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "1929.12.21"
+	election_frequency = 72
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -42,5 +51,3 @@ set_popularities = {
     national_syndicalist = 0
     national_corporatist = 0
 }
-
-recruit_character = EGY_fuad_i

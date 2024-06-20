@@ -1,8 +1,12 @@
 ﻿capital = 842
-
 set_oob = "HON"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.5
+set_war_support = 0.2
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
@@ -10,20 +14,26 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = HON_vicente_mejia_colindres
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
+	gw_artillery = 1
 }
 
-set_war_support = 0.1
-set_convoys = 10
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
+	last_election = "1928.10.28"
 	election_frequency = 48
-	elections_allowed = no
-
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -39,15 +49,4 @@ set_popularities = {
     right_wing_populist = 1
     national_syndicalist = 1
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Vicente Mejía Colindres"
-	desc = "POLITICS_VICENTE_MEJIA_COLINDRES_DESC"
-	picture = "Portrait_Vicente_Mejia_Colindres.tga"
-	expire = "1965.1.1"
-	ideology = classical_liberalism
-	traits = {
-		#
-	}
 }

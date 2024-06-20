@@ -1,0 +1,19 @@
+characters={
+    SIA_prajadhipok = {
+        name = "Rama VII"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SIA/Portrait_Rama_VII.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_PRAJADHIPOK_DESC"
+            expire = "1965.1.1"
+            ideology = absolute_monarchism
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

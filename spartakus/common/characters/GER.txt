@@ -8,8 +8,45 @@ characters={
 		}
 		country_leader={
 			desc="POLITICS_ROSA_LUXEMBURG_DESC"
-			ideology=spartacist_subtype
+			ideology=luxemburgism
 			traits={ GER_Rosa_Luxemburg_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_ROSA_LUXEMBURG_DESC"
+			ideology=buddhist_communism
+			traits={ GER_Rosa_Luxemburg_trait }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GER_rudolf_rocker={
+		name="Rudolf Rocker"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Rudolf_Rocker.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RUDOLF_ROCKER_DESC"
+			ideology=anarcho_syndicalism
+			traits={  }
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	GER_arthur_crispien={
+		name="Arthur Crispien"
+		portraits={
+			civilian={
+				large="gfx/leaders/GER/Portrait_Arthur_Crispien.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ARTHUR_CRISPIEN_DESC"
+			ideology=centrist_marxism
+			traits={  }
 			expire="1965.1.1.1"
 			id=-1
 		}
@@ -58,10 +95,10 @@ characters={
 			name="Friedrich Paulus"
 			portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_8.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/portrait_europe_generic_land_8.dds"
+				large="gfx/leaders/GER/Portrait_Friedrich_Paulus.tga"
 			}
 		}
 		corps_commander={
@@ -118,10 +155,10 @@ characters={
 		name="Johannes Blaskowitz"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_6.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/portrait_europe_generic_land_6.dds"
+				large="gfx/leaders/GER/Portrait_Johannes_Blaskowitz.tga"
 			}
 		}
 		corps_commander={
@@ -138,10 +175,10 @@ characters={
 		name="Kurt Hammerstein-Equord"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_1.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
+				large="gfx/leaders/GER/Portrait_Kurt_HammersteinEquord.tga"
 			}
 		}
 		corps_commander={
@@ -158,10 +195,10 @@ characters={
 		name="Erich Manstein"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_2.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_2.dds"
+				large="gfx/leaders/GER/Portrait_Erich_Manstein.tga"
 			}
 		}
 		corps_commander={
@@ -178,10 +215,10 @@ characters={
 		name="Ernst Volckheim"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_3.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
+				large="gfx/leaders/GER/Portrait_Ernst_Volckheim.tga"
 			}
 		}
 		corps_commander={
@@ -218,10 +255,10 @@ characters={
 		name="Willi Budich"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_4.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_4.dds"
+				large="gfx/leaders/GER/Portrait_Willi_Budich.tga"
 			}
 		}
 		corps_commander={
@@ -258,10 +295,10 @@ characters={
 		name="Erwin Witzleben"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_5.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
+				large="gfx/leaders/GER/Portrait_Erwin_Witzleben.tga"
 			}
 		}
 		corps_commander={
@@ -278,10 +315,10 @@ characters={
 		name="Hans Marchwitza"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_7.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/portrait_europe_generic_land_7.dds"
+				large="gfx/leaders/GER/Portrait_Hans_Marchwitza.tga"
 			}
 		}
 		corps_commander={
@@ -338,10 +375,10 @@ characters={
 		name="Walther Seydlitz-Kurzbach"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_land_9.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/portrait_europe_generic_land_9.dds"
+				large="gfx/leaders/GER/Portrait_Walther_Seydlitz-Kurzbach.tga"
 			}
 		}
 		corps_commander={
@@ -574,14 +611,74 @@ characters={
 			legacy_id=-1
 		}
 	}
+	GER_ernst_schact={
+		name="Ernst Schact"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Ernst_Schact.tga"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
+	GER_josef_romer={
+		name="Josef Römer"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Josef_Romer.tga"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=3
+			attack_skill=3
+			defense_skill=3
+			planning_skill=3
+			logistics_skill=3
+			legacy_id=-1
+		}
+	}
+	GER_bodo_uhse={
+		name="Bodo Uhse"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Bodo_Uhse.tga"
+			}
+		}
+		corps_commander={
+			traits={  }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			planning_skill=2
+			logistics_skill=2
+			legacy_id=-1
+		}
+	}
 	GER_hans_paasche={
 		name="Hans Paasche"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_navy_1.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_1.dds"
+				large="gfx/leaders/GER/Portrait_Hans_Paasche.tga"
 			}
 		}
 		navy_leader={
@@ -597,10 +694,10 @@ characters={
 		name="Karl Baier"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_navy_2.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_2.dds"
+				large="gfx/leaders/GER/Portrait_Karl_Baier.tga"
 			}
 		}
 		navy_leader={
@@ -612,14 +709,52 @@ characters={
 			legacy_id=-1
 		}
 	}
+	GER_willy_sachse={
+		name="Willy Sachse"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Willy_Sachse.tga"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
 	GER_karl_artelt={
 		name="Karl Artelt"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_navy_3.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/Portrait_Europe_Generic_navy_3.dds"
+				large="gfx/leaders/GER/Portrait_Karl_Artelt.tga"
+			}
+		}
+		navy_leader={
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=1
+			coordination_skill=1
+			legacy_id=-1
+		}
+	}
+	GER_rudolf_egelhofer={
+		name="Rudolf Egelhofer"
+		portraits={
+			army={
+				small=""
+			}
+			army={
+				large="gfx/leaders/GER/Portrait_Rudolf_Egelhofer.tga"
 			}
 		}
 		navy_leader={
@@ -654,10 +789,10 @@ characters={
 		name="Otto Tost"
 		portraits={
 			army={
-				small="gfx/interface/ideas/idea_europe_generic_navy_4.dds"
+				small=""
 			}
 			army={
-				large="gfx/leaders/Europe/portrait_europe_generic_navy_4.dds"
+				large="gfx/leaders/GER/Portrait_Otto_Tost.tga"
 			}
 		}
 		navy_leader={

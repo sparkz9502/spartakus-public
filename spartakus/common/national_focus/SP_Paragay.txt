@@ -1,0 +1,428 @@
+focus_tree = {
+	id = SP_Paragay
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PAR
+		}
+	}
+	default = no
+	
+	focus = {
+		id = PAR_the_chaco_war
+		icon = GFX_Recruitment
+		cost = 5.00
+		available = { 
+		has_country_flag = CROLiberalsRiseUp
+		}
+		completion_reward = {
+		}
+		x = 4
+		y = 1
+
+	}
+	focus = {
+		id = PAR_the_argentinian_loan
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_the_chaco_war }
+		relative_position_id = PAR_the_chaco_war
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_issue_of_logistics
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_the_chaco_war }
+		relative_position_id = PAR_the_chaco_war 
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = PAR_purchase_argentinian_equipment
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_the_argentinian_loan }
+		relative_position_id = PAR_the_argentinian_loan 
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_solve_the_rifle_shortage
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_purchase_argentinian_equipment }
+		relative_position_id = PAR_purchase_argentinian_equipment 
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_improve_the_railway_network
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_issue_of_logistics }
+		#prerequisite = { focus = PAR_purchase_argentinian_equipment }
+		relative_position_id = PAR_issue_of_logistics
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 0
+		y = 1
+
+	}
+	focus = {
+		id = PAR_utilize_paraguay_river
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_issue_of_logistics }
+		relative_position_id = PAR_issue_of_logistics
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 2
+
+	}
+	focus = {
+		id = PAR_there_are_too_many_povs
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_issue_of_logistics }
+		#prerequisite = { focus = PAR_purchase_argentinian_equipment }
+		relative_position_id = PAR_issue_of_logistics
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 2
+		y = 1
+
+	}
+	focus = {
+		id = PAR_7th_cavalry_regiment
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_solve_the_rifle_shortage }
+		relative_position_id = PAR_solve_the_rifle_shortage
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_promote_estigarribia
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_issue_of_logistics }
+		relative_position_id = PAR_issue_of_logistics
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = PAR_utilize_european_generals
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_the_chaco_war}
+		relative_position_id = PAR_issue_of_logistics
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 0
+
+	}
+	focus = {
+		id = PAR_our_longest_ally
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_7th_cavalry_regiment }
+		relative_position_id = PAR_7th_cavalry_regiment
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_uruguayan_air_volunteers
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_7th_cavalry_regiment }
+		relative_position_id = PAR_7th_cavalry_regiment
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_focus_on_capturing_bolivian_equipment
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_improve_the_railway_network }
+		relative_position_id = PAR_promote_estigarribia
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_gurajni_recoinasance_units
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_promote_estigarribia }
+		relative_position_id = PAR_promote_estigarribia
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = PAR_another_loan
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_7th_cavalry_regiment }
+		relative_position_id = PAR_7th_cavalry_regiment
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = PAR_order_new_gunboats
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_utilize_paraguay_river }
+		relative_position_id = PAR_utilize_paraguay_river
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 2
+
+	}
+	focus = {
+		id = PAR_fast_manevour_strategy
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_promote_estigarribia }
+		prerequisite = { focus = PAR_land_fortresses }
+		relative_position_id = PAR_promote_estigarribia
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_land_fortresses
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_utilize_european_generals }
+		relative_position_id = PAR_utilize_european_generals
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = PAR_servicio_aero_naval
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_order_new_gunboats }
+		relative_position_id = PAR_order_new_gunboats
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_nighttime_bombings
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_servicio_aero_naval }
+		relative_position_id = PAR_servicio_aero_naval
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_make_them_buy_at_rifles_for_their_own_tanks
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_focus_on_capturing_bolivian_equipment }
+		relative_position_id = PAR_focus_on_capturing_bolivian_equipment
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = PAR_cut_off_their_supply_lines
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_gurajni_recoinasance_units }
+		prerequisite = { focus = PAR_fast_manevour_strategy }
+		relative_position_id = PAR_gurajni_recoinasance_units
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_intense_air_support
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_fast_manevour_strategy }
+		prerequisite = { focus = PAR_make_them_buy_at_rifles_for_their_own_tanks }
+		relative_position_id = PAR_fast_manevour_strategy
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 0
+		y = 3
+
+	}
+	focus = {
+		id = PAR_aquire_more_planes
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_intense_air_support }
+		prerequisite = { focus = PAR_nighttime_bombings }
+		relative_position_id = PAR_intense_air_support
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -2
+		y = 1
+
+	}
+	focus = {
+		id = PAR_areal_coordination_and_recoinessance
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_intense_air_support }
+		#prerequisite = { focus = PAR_cut_off_Their_supply_lines }
+		relative_position_id = PAR_intense_air_support
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 1
+		y = 1
+
+	}
+	focus = {
+		id = PAR_airdroped_support_and_ice_cubes
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_intense_air_support }
+		prerequisite = { focus = PAR_areal_coordination_and_recoinessance }
+		relative_position_id = PAR_intense_air_support
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = 0
+		y = 2
+
+	}
+	focus = {
+		id = PAR_17_years_olds_and_policemen
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_cut_off_their_supply_lines }
+		relative_position_id = PAR_land_fortresses
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -2
+		y = 3
+
+	}
+	focus = {
+		id = PAR_for_the_paraguay
+		icon = GFX_Recruitment
+		cost = 5.00
+		prerequisite = { focus = PAR_airdroped_support_and_ice_cubes }
+		prerequisite = { focus = PAR_aquire_more_planes }
+		relative_position_id = PAR_airdroped_support_and_ice_cubes
+		available = { 
+		}
+		completion_reward = {
+		}
+		x = -1
+		y = 1
+
+	}
+	
+	
+}

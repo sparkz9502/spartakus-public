@@ -12,6 +12,12 @@ add_ideas = {
 	governance_colo
 	trade_laif
 	economy_unind
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_censored
+	welfare_nostate
+	judiciary_politicized
 	mobilization_1
 }
 

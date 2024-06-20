@@ -1,42 +1,29 @@
 capital = 773
-
-set_oob = "TUR"
-
 set_research_slots = 3
+set_convoys = 40
+set_stability = 0.45
+set_war_support = 0.5
 
 add_ideas = {
+	### Laws ###
 	recruitment_1830
 	governance_col
 	trade_pro
 	economy_indzing
 	mobilization_1
-	
-	OTT_influential_army
-	OTT_sons_of_rome
 }
 
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	CAS1 = 1
-	early_submarine = 1
-	early_destroyer = 1
-	basic_destroyer = 1
-	early_light_cruiser = 1
-	early_battleship = 1
-	early_battlecruiser = 1
-	transport = 1
-	gw_artillery = 1
+	# TECH GETS COPIED ON REVOLT #
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = reformist_socialist
-	last_election = "1929.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -53,6 +40,7 @@ set_popularities = {
     national_syndicalist = 0
     national_corporatist = 5
 }
+
 set_country_flag = coalition_bolshevist
 set_country_flag = coalition_spartacist
 set_country_flag = coalition_revolutionary_socialist
@@ -64,288 +52,3 @@ set_country_flag = banned_liberal_conservative
 set_country_flag = banned_social_conservative
 set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
-
-set_convoys = 40
-set_stability = 0.43
-
-create_country_leader = {
-	name = "Mustafa Kemal Pasha"
-	desc = "POLITICS_M_K_DESC"
-	picture = "Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
-	expire = "1965.11.10"
-	ideology = revolutionary_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mustafa Kemal Pasha"
-	desc = "POLITICS_M_K_DESC"
-	picture = "Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
-	expire = "1965.11.10"
-	ideology = reformist_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Mehmed VI"
-	desc = "POLITICS_MEHMED_VI_DESC"
-	picture = "Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Nihal Atsız"
-	desc = "POLITICS_NIHAL_ATSIZ_DESC"
-	picture = ""
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
-	traits = {
-		#
-	}
-}
-
-### Field Marshals ###
-
-create_field_marshal = {
-	name = "Mustafa Kemal Pasha"
-	portrait_path = "Portrait_Turkey_Mustafa_Kemal_Ataturk_Military.dds"
-		traits = {
-			war_hero
-			defensive_doctrine
-			organizer
-			logistics_wizard
-			skilled_staffer
-			inflexible_strategist
-			brilliant_strategist
-		}
-		skill = 6
-		attack_skill = 4
-		defense_skill = 5
-		planning_skill = 5
-		logistics_skill = 6
-}
-
-# Tenure in the army was over by this point
-create_field_marshal = {
-	name = "Kâzım Karabekir"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Musa_Kazim.tga"
-	traits = {
-		organizer
-		career_officer
-		winter_specialist
-		commando
-	}
-	skill = 3
-	attack_skill = 5
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "Fevzi Çakmak"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Mustafa_Fevzi.tga"
-	traits = {
-		organizer
-		career_officer
-		skilled_staffer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-# Retired from the army after serving 44 years in 1935 followed by his death in 1938
-create_field_marshal = {
-	name = "Cevat Çobanlı"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Ismail_Cevat.tga"
-	traits = {
-		organizer
-		old_guard
-		war_hero
-		career_officer
-		artillery_officer
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 3
-}
-
-### Corps Commanders ###
-create_corps_commander = {
-	name = "Ömer Fahrettin Türkkan"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Omer_Fahrettin.tga"
-	traits = {
-		old_guard
-		war_hero
-		desert_fox
-		commando
-	}
-	skill = 4
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 5
-}
-
-create_corps_commander = {
-	name = "İsmail Hakkı Berkok"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Ismail_Hakki.tga"
-	traits = {
-		career_officer
-		commando
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-# Withdrew from the Army in 1928 after serving his time
-create_corps_commander = {
-	name = "Cafer Tayyar Eğilmez"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Cafer_Tayyar.tga"
-	traits = {
-		career_officer
-	}
-	skill = 2
-	attack_skill = 2
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Fahrettin Altay"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Fahrettin.tga"
-	traits = {
-		career_officer
-		trickster
-		skilled_staffer
-	}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-#Armenian mass murderer, likely tried after the war for his crimes?
-create_corps_commander = {
-	name = "Ali İhsan Sabis"
-	portrait_path = "gfx/leaders/OTT/Generic/OTTLeader03.tga"
-	traits = {
-		trait_reckless
-		trait_engineer
-		fortress_buster
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Selahattin Adil"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Selahattin.tga"
-	traits = {
-		old_guard
-		career_officer
-		skilled_staffer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Naci Eldeniz"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_Abdullatif_Naci.tga"
-	traits = {
-		career_officer
-		skilled_staffer
-		organizer
-		trait_engineer
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-### Admirals ###
-create_navy_leader = {
-	name = "Hüseyin Rauf Orbay"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Huseyin_Rauf.tga"
-	traits = {
-		superior_tactician
-	}
-	skill = 3
-	coordination_skill = 3
-	maneuvering_skill = 2
-	defense_skill = 3
-	attack_skill = 2
-}
-
-create_navy_leader = {
-	name = "Necip Fazıl Kısakürek"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Necip_Fazil.tga"
-	traits = { }
-	skill = 2
-	coordination_skill = 1
-	maneuvering_skill = 2
-	defense_skill = 2
-	attack_skill = 2
-}
-
-create_navy_leader = {
-	name = "Nâzım Hikmet Ran"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Nazim_Hikmet.tga"
-	traits = { }
-	skill = 2
-	coordination_skill = 2
-	maneuvering_skill = 2
-	defense_skill = 1
-	attack_skill = 2
-}
-
-create_navy_leader = {
-	name = "Şükrü Okan"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Sukru.tga"
-	traits = { }
-	skill = 1
-	coordination_skill = 1
-	maneuvering_skill = 1
-	defense_skill = 1
-	attack_skill = 1
-}
-
-create_navy_leader = {
-	name = "Mahmud Muhtar Katırcıoğlu"
-	portrait_path = "gfx/leaders/OTT/Portrait_OTT_NAV_Mahmud_Muhtar.tga"
-	traits = {
-		seawolf
-	}
-	skill = 1
-	coordination_skill = 1
-	maneuvering_skill = 1
-	defense_skill = 1
-	attack_skill = 1
-}

@@ -1,0 +1,19 @@
+characters={
+    HON_vicente_mejia_colindres = {
+        name = "Vicente Mejía Colindres"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HON/Portrait_Vicente_Mejia_Colindres.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_VICENTE_MEJIA_COLINDRES_DESC"
+            expire = "1965.1.1"
+            ideology = classical_liberalism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

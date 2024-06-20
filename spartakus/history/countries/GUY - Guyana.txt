@@ -1,8 +1,10 @@
 ﻿capital = 687
-
-set_oob = "GUY"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
@@ -10,26 +12,19 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
 
-set_research_slots = 2
+### Starting Tech ###
 set_technology = {
-	
 	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_stability = 0.6
-set_war_support = 0.3
-
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {

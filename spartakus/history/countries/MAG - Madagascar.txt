@@ -1,29 +1,33 @@
 ﻿capital = 543
 set_oob = "MAG"
+set_research_slots = 0
+set_convoys = 50
+set_stability = 0.5
+set_war_support = 0.5
 set_cosmetic_tag = MAG_FRA
 
-set_research_slots = 0
-set_stability = 0.3
-set_war_support = 0.1
-set_convoys = 5
-
 add_ideas = {
+	### Laws ###
 	recruitment_colonial
 	governance_colo
-	trade_pro
+	trade_laif
 	economy_unind
 	mobilization_1
 }
 
-# Tech should be copied from France to colonies
+### Country Leaders ###
+recruit_character = MAG_ministry_of_the_colonies
+
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1930.1.1"
-	election_frequency = 48
 	elections_allowed = no
 }
 
@@ -40,14 +44,4 @@ set_popularities = {
     right_wing_populist = 0
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Ministry of the Colonies"
-	desc = "POLITICS_FRA_MINISTRY_OF_COLONIES_DESC"
-	picture = "gfx/leaders/FRA/Portrait_Ministry_of_the_Colonies.tga"
-	expire = "1965.1.1"
-	ideology = colonial_administration
-	traits = {
-	}
 }

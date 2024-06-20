@@ -5,37 +5,32 @@
 #Developers
 sparkz
 NatSpi
-Indyclone77
 Sybil
 rika
+Smigly
+Ercman
+frost
 Natalie
-Brammeke
-SovietLijm
 Steffplays123
-Dziaddy
 Fenia
-Friedrich von Ebert
-Hannah
-ismand2508
-Agent Paste
 kolokommuna
+dudugs
 CaptainCommunist
-doorhanger93
-Saddam
 BigCheecho
-BlazedSoulofHate
-Shift
 SunZi
 mitotheking
 Master_Plasma
-lovethebomb
-Skullcrusher
-Prussian
-centrist_marxist
-crimean khanate
 alguien
+rya
+Andermann
+Azozsaud
+Thought_West
+Éléanore
+Kara
 
-#Contributors
+#Contributors & Artists
+Indyclone77
+Skullcrusher
 4MuthaRussia
 Ame
 Karp
@@ -54,22 +49,32 @@ ProfesorDino
 qasterix
 Reichserzkanzler
 samfan
-Yee
-xie323
 Reof
-singaporesling
 Hellbat
-BolshevikBoy
-birb
 Basileios55
 Kiridifferent
+Friedrich von Ebert
+ismand2508
+BlazedSoulofHate
+lovethebomb
+Saddam
+Nemega
+Brammeke
+doorhanger93
+Agent Paste
+SovietLijm
+TheDeveloper3
+VanBot87
+Berk
+Iulia
+reality
+Project''571''Outline
 Rosabot
 
 #Thank you to the following for
 #borrowed code, GFX and inspiration:
 Kaiserreich
 Non Reflective Water
-Krasnacht
 Mapno
 Grestin
 ...and all the Coop mods!

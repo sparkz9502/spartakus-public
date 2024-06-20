@@ -1,0 +1,56 @@
+characters={
+    PER_mahmoud_mirza_shah_qajar = {
+        name = "Mahmoud Mirza Shah Qajar"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PER/Portrait_Mahmoud_Mirza_Shah_Qajar.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MAHMOUD_MIRZA_SHAH_QAJAR_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	PER_reza_khan = {
+        name = "Reza Khan"
+        portraits={
+            army={
+                large = "gfx/leaders/PER/Portrait_Reza_Shah_Pahlavi.tga"
+            }
+        }
+        field_marshal={
+			traits = {
+				harsh_leader
+				old_guard
+			}
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+	PER_hasan_arfa = {
+        name = "Hasan Arfa"
+        portraits={
+            army={
+                large = "gfx/leaders/PER/Portrait_Hasan_Arfa.tga"
+            }
+        }
+        corps_commander={
+			traits = { desert_fox }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+}

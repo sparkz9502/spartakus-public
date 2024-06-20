@@ -1,44 +1,44 @@
-Basmachi_raiding_state_setup = {
-	if = {
-		limit = { tag = TCS }
-		set_variable = { Basmachi_raiding_attacker_state_vs_@SOV = 1232 }
-		set_variable = { Basmachi_raiding_defender_state_vs_@SOV = 1135 }
-		set_variable = { Basmachi_raiding_attacker_state_vs_@PER = 1235 }
-		set_variable = { Basmachi_raiding_defender_state_vs_@PER = 418 }
-		set_variable = { Basmachi_raiding_attacker_state_vs_@KHO = 1236 }
-		set_variable = { Basmachi_raiding_defender_state_vs_@KHO = 416 }
-	}
-	if = {
-		limit = { tag = TRK }
-		set_variable = { Basmachi_raiding_attacker_state_vs_@SOV = 1458 }
-		set_variable = { Basmachi_raiding_defender_state_vs_@SOV = 405 }
-		set_variable = { Basmachi_raiding_attacker_state_vs_@AFG = 1458 }
-		set_variable = { Basmachi_raiding_defender_state_vs_@AFG = 1117 }
-	}
-}
+# Basmachi_raiding_state_setup = {
+	# if = {
+		# limit = { tag = TCS }
+		# set_variable = { Basmachi_raiding_attacker_state_vs_@SOV = 1232 }
+		# set_variable = { Basmachi_raiding_defender_state_vs_@SOV = 1135 }
+		# set_variable = { Basmachi_raiding_attacker_state_vs_@PER = 1235 }
+		# set_variable = { Basmachi_raiding_defender_state_vs_@PER = 418 }
+		# set_variable = { Basmachi_raiding_attacker_state_vs_@KHO = 1236 }
+		# set_variable = { Basmachi_raiding_defender_state_vs_@KHO = 416 }
+	# }
+	# if = {
+		# limit = { tag = TRK }
+		# set_variable = { Basmachi_raiding_attacker_state_vs_@SOV = 1458 }
+		# set_variable = { Basmachi_raiding_defender_state_vs_@SOV = 405 }
+		# set_variable = { Basmachi_raiding_attacker_state_vs_@AFG = 1458 }
+		# set_variable = { Basmachi_raiding_defender_state_vs_@AFG = 1117 }
+	# }
+# }
 
-Basmachi_raiding_state_reset = {
-	if = {
-		limit = {
-			tag = TCS
-			FROM = { tag = SOV }
-		}
-		# do nothing
-	}
-	else = {
-		clear_variable = Basmachi_raiding_attacker_state_vs_@FROM
-		clear_variable = Basmachi_raiding_defender_state_vs_@FROM
-		FROM = {
-			random_owned_controlled_state = {
-				limit = {
-					any_neighbor_state = { is_owned_and_controlled_by = ROOT }
-				}
-				set_variable = { ROOT.Basmachi_raiding_defender_state_vs_@FROM = id }
-				random_neighbor_state = {
-					limit = { is_owned_and_controlled_by = ROOT }
-					set_variable = { ROOT.Basmachi_raiding_attacker_state_vs_@FROM = id }
-				}
-			}
-		}
-	}
-}
+# Basmachi_raiding_state_reset = {
+	# if = {
+		# limit = {
+			# tag = TCS
+			# FROM = { tag = SOV }
+		# }
+		# # do nothing
+	# }
+	# else = {
+		# clear_variable = Basmachi_raiding_attacker_state_vs_@FROM
+		# clear_variable = Basmachi_raiding_defender_state_vs_@FROM
+		# FROM = {
+			# random_owned_controlled_state = {
+				# limit = {
+					# any_neighbor_state = { is_owned_and_controlled_by = ROOT }
+				# }
+				# set_variable = { ROOT.Basmachi_raiding_defender_state_vs_@FROM = id }
+				# random_neighbor_state = {
+					# limit = { is_owned_and_controlled_by = ROOT }
+					# set_variable = { ROOT.Basmachi_raiding_attacker_state_vs_@FROM = id }
+				# }
+			# }
+		# }
+	# }
+# }

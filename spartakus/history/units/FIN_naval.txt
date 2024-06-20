@@ -1,0 +1,68 @@
+instant_effect = {
+
+	### Ship Variants ###
+	
+	create_equipment_variant = {
+		name = "Vetehinen Class"								
+		type = ship_hull_submarine_1
+		name_group = FIN_SS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Vesikko Class"								
+		type = ship_hull_submarine_1
+		name_group = FIN_SS
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = empty
+		}
+	}
+	
+	create_equipment_variant = {
+		name = "Väinämöinen Class"				
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = FIN_CA
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_heavy_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Suomen Merivoimat"
+		naval_base = 11105 # Helsinki
+		task_force = {				
+			name = "Rannikkolaivue"				
+			location =  11105 # Helsinki
+			ship = { name = "Ilmarinen" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
+			ship = { name = "Väinämöinen" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = FIN version_name = "Väinämöinen Class" } } }				
+		}					
+		task_force = {					
+			name = "Sukellusvenelaivue"				
+			location =  11105 # Helsinki
+			ship = { name = "Vetehinen" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
+			ship = { name = "Vesihiisi" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
+			ship = { name = "Iku-Turso" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN version_name = "Vetehinen Class" } } }
+			ship = { name = "Vesikko" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = FIN  version_name = "Vesikko Class"} } }
+		}					
+	}
+}

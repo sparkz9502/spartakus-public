@@ -1,8 +1,10 @@
 ﻿capital = 887
-
 set_oob = "NEP"
+set_war_support = 0.1
+set_stability = 0.8
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_pro
@@ -10,19 +12,22 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = NEP_tribhuvan
+
+### Starting Tech ###
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
 	tech_mountaineers = 1
+	gw_artillery = 1
 }
-set_war_support = 0.1
-set_stability = 0.8
+
+### Politics ###
+
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -38,15 +43,4 @@ set_popularities = {
     right_wing_populist = 7
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "H.H.K.N Tribhuvan I Shahi"
-	
-	picture = "gfx/leaders/NEP/GFX_Portrait_Tribhuvan_Shah.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		#
-	}
 }

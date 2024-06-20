@@ -1,0 +1,49 @@
+characters={
+    YUN_long_yun = {
+        name = "Long Yun"
+        portraits={
+            civilian={
+                large = "gfx/leaders/YUN/Portrait_Long_Yun.tga"
+            }
+			army={
+                large = "gfx/leaders/YUN/Portrait_Long_Yun.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_LONG_YUN_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+				#
+            }
+            id=-1
+        }
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+	
+	YUN_lu_han = {
+        name = "Lu Han"
+        portraits={
+            army={
+                large = "gfx/leaders/YUN/Portrait_Lu_Han.tga"
+            }
+        }
+        corps_commander={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+}

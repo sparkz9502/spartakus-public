@@ -5,8 +5,8 @@ state={
 		10770 
 	}
 	history={
-		owner = ZHO
-		add_core_of = ZHO
+		owner = HMA
+		add_core_of = HMA
 		buildings = {
 			infrastructure = 0
 

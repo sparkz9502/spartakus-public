@@ -1,17 +1,19 @@
 ﻿capital = 105 # Podgorica
-
 set_oob = "MNT"
-
 set_research_slots = 2
+set_convoys = 20
 set_stability = 0.3
 set_war_support = 0.5
+
 add_ideas = {
+	### Laws ###
 	recruitment_1825
 	governance_abs
-	trade_laif
+	trade_sempro
 	economy_unind
 	mobilization_1
 	
+	### Ministers ###
     MNT_Montenegrin_Militarism
 	MNT_Marko_Dakovic_hog_ade
 	MNT_Jovan_Simonov_Plamenac_for_ade
@@ -21,28 +23,34 @@ add_ideas = {
 	MNT_Krsto_Popovic_cos_ade
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = MNT_danilo_ii
+recruit_character = MNT_milovan_djilas
+recruit_character = MNT_kongres_kpjcg
+recruit_character = MNT_pavle_djurisic
+
+### Generals ###
+recruit_character = MNT_radomir_vesovic
+recruit_character = MNT_mitar_martinovic
+
+### Starting Tech ###
 set_technology = {
-	tech_support = 1		
-	tech_engineers = 1
-	tech_mountaineers = 1
-	early_fighter = 1
-	gwtank = 1
-	basic_light_tank = 1
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	gw_artillery = 1
-	infantry_weapons1 = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	early_submarine = 1
+	tech_mountaineers = 1
+	tech_support = 1
+	tech_engineers = 1
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -58,164 +66,4 @@ set_popularities = {
     right_wing_populist = 16
     national_syndicalist = 0
     national_corporatist = 2
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = social_conservative_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = right_wing_populist_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = national_syndicalist_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = national_corporatist_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = liberal_conservative_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = social_liberal_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Danilo II"
-	desc = ""
-	picture = "Portrait_Danilo.dds"
-	expire = "1965.3.1"
-	ideology = social_democrat_subtype
-	traits = {
-		irrelevant_king
-	}
-}
-
-create_country_leader = {
-	name = "Milovan Đilas"
-	desc = ""
-	picture = "Portrait_Milovan_Djilas.dds"
-	expire = "1965.3.1"
-	ideology = reformist_socialist_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kongres KPJ-CG"
-	desc = ""
-	picture = "Portrait_KPJ.dds"
-	expire = "1965.3.1"
-	ideology = revolutionary_socialist_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kongres KPJ-CG"
-	desc = ""
-	picture = "Portrait_KPJ.dds"
-	expire = "1965.3.1"
-	ideology = spartacist_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Kongres KPJ-CG"
-	desc = ""
-	picture = "Portrait_KPJ.dds"
-	expire = "1965.3.1"
-	ideology = bolshevist_subtype
-	traits = {
-		
-	}
-}
-
-create_corps_commander = {
-	name = "Radomir Vešović"
-	portrait_path = "gfx/leaders/MNT/Portrait_Radomir_Vesovic.dds"
-	traits = {
-	    war_hero
-		ambusher
-		trait_reckless
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Mitar Martinović"
-	portrait_path = "gfx/leaders/MNT/Portrait_Mitar_Martinovic.dds"
-	traits = {
-	    defensive_doctrine
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
 }

@@ -1,33 +1,46 @@
 ﻿capital = 11
-
 set_oob = "LIT"
-
 set_research_slots = 3
-set_convoys = 25
+set_convoys = 20
 set_stability = 0.25
 set_war_support = 0.5
 
 add_ideas = {
-	#LIT_Vytautas Petrulis_hog_lco
+	### Laws ###
 	recruitment_1825
 	governance_exec
 	trade_pro
 	economy_unind
 	mobilization_2
+	
+	### Ministers ###
+	#LIT_Vytautas Petrulis_hog_lco
 }
 
+### Country Leaders ###
+recruit_character = LIT_aleksandras_stulginskis
+recruit_character = LIT_antanas_smetona
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	infantry_weapons1 = 1
-	early_fighter = 1
+	tech_support = 1
+	tech_recon = 1
+	tech_engineers = 1
+	gw_artillery = 1
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = liberal_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
-
+	last_election = "1929.5.8"
+	election_frequency = 36
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -46,25 +59,3 @@ set_popularities = {
 }
 
 set_country_flag = coalition_social_conservative
-
-create_country_leader = {
-	name = "Aleksandras Stulginskis"
-	desc = "POLITICS_ALEKSANDRAS_STULGINSKIS_DESC"
-	picture = "Portrait_Aleksandras_Stulginskis.tga"
-	expire = "1965.1.1"
-	ideology = moderate_agrarian_conservatism
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Antanas Smetona"
-	desc = "POLITICS_ANTANAS_SMETONA_DESC"
-	picture = "Portrait_Antanas_Smetona.tga"
-	expire = "1965.1.1"
-	ideology = reactionary_republicanism
-	traits = {
-		#
-	}
-}

@@ -74,12 +74,11 @@ autonomy_colony:1 "Autonomous Puppet"
 autonomy_dominion:1 "Autonomous Dependency"
 
 ### Land Units ###
-garrison:0 "Garrison"
 militia:0 "Militia"
 light_infantry:0 "Light Infantry"
 
 ### Interface ###
-minister:1 "Ministers"
+minister:1 "Ministers & Military Command"
 research_production:1 "Companies"
 industrial_concern:1 "Industrial Company"
 weapons_manufacturer:0 "Weapons Manufacturer"

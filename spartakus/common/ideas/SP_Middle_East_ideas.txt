@@ -1,0 +1,151 @@
+ideas = {
+    country = {
+
+#Palestine-Hejaz
+
+    PAL_fake_caliphate = {
+			picture = prc_low_popular_support2
+			modifier = {
+				political_power_gain = -0.2
+				stability_factor = -0.20
+			}
+        }
+
+    PAL_ciemna_gora = {
+			picture = prc_low_popular_support2
+			modifier = {
+				political_power_gain = 0.1
+				stability_factor = 0.05
+			}
+        }
+
+    PAL_Cars_the_Trilogy = {
+			picture = prc_low_popular_support2
+			modifier = {
+				political_power_gain = -0.10
+                war_support_factor = -0.1
+				stability_factor = -0.10
+                consumer_goods_factor = 0.075
+			}
+        }
+
+    PAL_Brooklyn_Immigration = {
+			picture = prc_low_popular_support2
+			modifier = {
+				political_power_gain = -0.2
+				stability_factor = -0.20
+                production_factory_max_efficiency_factor = 0.1
+                research_speed_factor = 0.1
+			}
+        }
+
+    
+    #Iraq
+
+     IRQ_The_White_Devils = {
+			picture = prc_low_popular_support2
+			modifier = {
+                war_support_factor = -0.1
+				stability_factor = -0.10
+                bolshevist_drift = 0.03
+			}
+        }
+
+    IRQ_Fuel_of_Freedom = {
+			picture = prc_low_popular_support2
+			modifier = {
+                min_export = 0.35
+                local_resources = 0.2
+                consumer_goods_factor = -0.05
+                industrial_capacity_factory = 0.05 
+			}
+        }
+
+    IRQ_Bush_Student_Loans = {
+			picture = prc_low_popular_support2
+			modifier = {
+                research_speed_factor = 0.1
+                production_speed_buildings_factor = 0.05
+                political_power_gain = -0.15
+				stability_factor = -0.15
+			}
+        }
+
+        #Nejd
+
+    SAU_very_high_illiteracy = {
+			picture = prc_low_popular_support2
+			modifier = {
+				political_power_factor = -0.1
+                research_speed_factor = -0.33
+				stability_factor = -0.10
+			}
+        }
+
+    SAU_Ikhwan_min_taa_Allah = {
+			picture = prc_low_popular_support2
+			modifier = {
+				political_power_gain = 0.15
+				war_support_factor = 0.20
+                supply_combat_penalties_on_core_factor = -0.1
+                army_core_defence_factor = 0.1
+                army_core_attack_factor = 0.1
+               
+                }
+
+                 targeted_modifier = {
+				tag = PAL
+				attack_bonus_against = 0.1
+				defense_bonus_against = 0.1
+                breakthrough_bonus_against =0.1
+			}
+        }
+
+        #Ye man
+
+    YEM_Crab_Kingdom = {
+			picture = NONE
+			modifier = {
+				stability_factor = 0.15
+                research_speed_factor = -0.25
+                political_power_gain = 0.25
+                industrial_capacity_factory = -0.15
+				production_factory_max_efficiency_factor = -0.15
+			}
+        }
+
+    YEM_very_high_illiteracy = {
+		picture = NONE
+		modifier = {
+			political_power_factor = -0.1
+			research_speed_factor = -0.33
+			stability_factor = -0.10
+		}
+    }
+
+	UAE_trucial_council = {
+		picture = NONE
+		modifier = {
+			stability_factor = 0.1
+			political_power_gain = -0.25
+		}
+	}
+
+	UAE_lobsters = {
+		picture = NONE
+		modifier = {
+			consumer_goods_factor = 0.15
+			local_resources = -0.1
+			production_factory_efficiency_gain_factor = -0.075
+			line_change_production_efficiency_factor = -0.075
+			production_factory_start_efficiency_factor -0.1
+		}
+	}
+    }
+}
+
+
+
+    
+     
+

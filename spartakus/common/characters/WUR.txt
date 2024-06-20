@@ -1,0 +1,16 @@
+characters={
+	WUR_albrecht_i={
+		name="Albrecht I"
+		portraits={
+			civilian={
+				large="gfx/leaders/WUR/Portrait_Albrecht.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALBRECHT_I_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

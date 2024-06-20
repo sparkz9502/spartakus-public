@@ -1,0 +1,49 @@
+characters={
+    SHX_yan_xishan = {
+        name = "Yan Xishan"
+        portraits={
+            civilian={
+                large = "gfx/leaders/SHX/Portrait_Yan_Xishan.tga"
+            }
+			army={
+                large = "gfx/leaders/SHX/Portrait_Yan_Xishan.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_YAN_XISHAN_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_republicanism
+            traits = {
+				#
+            }
+            id=-1
+        }
+		field_marshal={
+			traits = { }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+    }
+	
+	SHX_wang_jingguo = {
+        name = "Wang Jingguo"
+        portraits={
+            army={
+                large = "gfx/leaders/SHX/Portrait_Wang_Jingguo.tga"
+            }
+        }
+        corps_commander={
+			traits = { politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+}

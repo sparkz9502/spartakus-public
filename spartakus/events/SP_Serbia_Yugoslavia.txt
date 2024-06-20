@@ -1050,57 +1050,49 @@ country_event = { #Montenegrin Uprising
 			factor = 100
 		}
 		add_political_power = -25
-			MNT = {
-				transfer_state = 105
-				load_oob = "MNT_Pavle"
-			}
-			declare_war_on = {
-				target = MNT
-				type = annex_everything
-			}
-			hidden_effect = {
-			SER = {
-			set_province_controller = 9821
-            set_province_controller = 14555
-			set_province_controller = 11858
-			set_province_controller = 14556
-		}
 		MNT = {
-		if = {
-            limit = { has_unit_leader = 206 }
-            remove_unit_leader = 206
-        }
-		if = {
-            limit = { has_unit_leader = 207 }
-            remove_unit_leader = 207
-        }
-			set_politics = {
-			ruling_party = right_wing_populist
-			elections_allowed = no
+			transfer_state = 105
+			load_oob = "MNT_Pavle"
 		}
-		add_popularity = { ideology = spartacist popularity = 0.08 }
-		add_popularity = { ideology = bolshevist popularity = 0.02 }
-		retire_country_leader = yes
-		
-		create_country_leader = {
-			name = "Pavle Đurišić"
-			desc = ""
-			picture = "Portrait_Pavle_Djurisic.tga"
-			expire = "1965.1.1"
-			ideology = right_wing_populist_subtype
+		declare_war_on = {
+			target = MNT
+			type = annex_everything
 		}
-		create_corps_commander = {
-	        name = "Pavle Đurišić"
-	        portrait_path = "gfx/leaders/MNT/Portrait_Pavle_Đurišić.tga"
-	        traits = {
-			ambusher
-	}
-	         skill = 2
-	         attack_skill = 1
-	         defense_skill = 3
-	         planning_skill = 2
-	         logistics_skill = 2
-                }
+		hidden_effect = {
+			SER = {
+				set_province_controller = 9821
+				set_province_controller = 14555
+				set_province_controller = 11858
+				set_province_controller = 14556
+			}
+			MNT = {
+				if = {
+					limit = { has_unit_leader = 206 }
+					remove_unit_leader = 206
+				}
+				if = {
+					limit = { has_unit_leader = 207 }
+					remove_unit_leader = 207
+				}
+					set_politics = {
+					ruling_party = right_wing_populist
+					elections_allowed = no
+				}
+				add_popularity = { ideology = spartacist popularity = 0.08 }
+				add_popularity = { ideology = bolshevist popularity = 0.02 }
+				retire_country_leader = yes
+				add_corps_commander_role = {
+					character = MNT_pavle_djurisic
+					traits = {
+						ambusher
+					}
+					skill = 2
+					attack_skill = 1
+					defense_skill = 3
+					planning_skill = 2
+					logistics_skill = 2
+					legacy_id=-1
+				}
 			}
 		}
 	}

@@ -1,19 +1,24 @@
 ﻿capital = 50
-
 set_oob = "WUR"
+set_research_slots = 3
+set_stability = 0.55
+set_war_support = 0.4
 
 add_ideas = {
+	### Laws ###
 	recruitment_1830
 	governance_par
 	trade_sempro
 	economy_ind
 	mobilization_3
 	
+	### National Spirits ###
 	WUR_Sore_Loser
 	WUR_Guided_Foreign_Policy
 	WUR_Memories_of_the_Blutmai
 	WUR_Light_Reparations
 	
+	### Ministers ###
 	WUR_Alfred_Hugenberg_hog_rwp
 	#WUR_Konstantin_von_Neurath_for_rwp
 	#WUR_Kurt_Schmitt_eco_rwp
@@ -27,12 +32,18 @@ add_ideas = {
 	#WUR_Ludwig_Wolff_cair
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = WUR_albrecht_i
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	gw_artillery = 1
-	gwtank = 1
 	tech_support = 1
 	tech_recon = 1		
 	tech_engineers = 1
@@ -40,21 +51,19 @@ set_technology = {
 	tech_maintenance_company = 1
 	tech_military_police = 1
 	tech_logistics_company = 1
+	
+	### Air ###
 	early_fighter = 1
 	early_bomber = 1
-	transport = 1
 }
 
-set_research_slots = 3
-set_convoys = 25
-set_stability = 0.55
-set_war_support = 0.4
+### Politics ###
 
 set_politics = {	
 	ruling_party = right_wing_populist
-	last_election = "1888.6.15"
+	last_election = "1931.10.13"
 	election_frequency = 48
-	elections_allowed = no
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -81,130 +90,3 @@ set_country_flag = banned_spartacist
 set_country_flag = banned_revolutionary_socialist
 set_country_flag = banned_reformist_socialist
 set_country_flag = banned_social_democrat
-
-create_country_leader = {
-	name = "Albrecht I"
-	desc = "POLITICS_ALBRECHT_WUR_DESC"
-	picture = "Portrait_Albrecht.dds"
-	expire = "1965.1.1"
-	ideology = right_wing_populist_subtype
-	traits = {
-	}
-}
-
-create_field_marshal = {
-	name = "Gerd von Rundstedt"
-	picture = "Portrait_Germany_Gerd_von_Rundstedt.dds"
-	traits = { defensive_doctrine offensive_doctrine old_guard }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_field_marshal = {
-	name = "Günther von Kluge"
-	picture = "Portrait_Germany_Gunther_von_Kluge.dds"
-	traits = {  offensive_doctrine armor_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-}
-
-create_field_marshal = {
-	name = "King Albrecht of Wurttemberg"
-	picture = "Portrait_Albrecht.dds"
-	traits = { old_guard trait_cautious }
-	skill = 2
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 2
-	logistics_skill = 1
-}
-
-create_corps_commander = {
-	name = "Fedor von Bock"
-	picture = "Portrait_Germany_Fedor_von_Bock.dds"
-	traits = { harsh_leader trait_cautious }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 2
-}
-
-create_corps_commander = {
-	name = "Maximilian von Weichs"
-	picture = "Portrait_Germany_Maximilian_von_Weichs.dds"
-	traits = { cavalry_officer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Walter Krüger"
-	picture = "Portrait_Germany_Walter_Kruger.dds"
-	traits = { armor_officer trait_reckless politically_connected}
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 1
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Erwin von Witzleben"
-	picture = "Portrait_Germany_Erwin_von_Witzleben.dds"
-	traits = { infantry_officer career_officer }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Paul Hausser"
-	picture = "Portrait_Germany_Paul_Hausser.dds"
-	traits = {  armor_officer politically_connected }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 4
-	logistics_skill = 3
-}
-
-create_corps_commander = {
-	name = "Georg von Küchler"
-	picture = "Portrait_Germany_Georg_von_Kuchler.dds"
-	traits = {  }
-	skill = 4
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 4
-	logistics_skill = 4
-}
-
-create_corps_commander = {
-	name = "Ernst-Eberhard Hell"
-	picture = "Portrait_Germany_Ernst-Eberhard_Hell.dds"
-	traits = { winter_specialist trait_engineer war_hero }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 3
-	logistics_skill = 2
-}
-
-create_navy_leader = {
-	name = "Erich Raeder"
-		picture = "Portrait_Germany_Erich_Raeder.dds"
-	traits = { blockade_runner }
-	skill = 4
-}

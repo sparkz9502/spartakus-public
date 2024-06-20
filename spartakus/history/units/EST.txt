@@ -30,8 +30,6 @@ division_template = {
 }
 
 units = {
-	######## LAND OOB ########
-	##### Eesti Ülemjuhatus #####
 	division = { # "I Jalaväediviisi"
 		division_name = {
 				is_name_ordered = yes
@@ -51,19 +49,6 @@ units = {
 		force_equipment_variants = { infantry_equipment_0 = { owner = "EST" } }
 		start_experience_factor = 0.3
 		start_equipment_factor = 0.8
-
-	}
-
-}
-
-air_wings = {
-	### Eesti Ohuvägi
-	13 = {
-		# Hävitajate Grupp -- Bristol Bulldogs, GL 22.B3s
-		fighter_equipment_0 =  {
-			owner = "EST" 
-			amount = 18
-		}
 	}
 }
 

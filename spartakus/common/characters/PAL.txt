@@ -1,0 +1,16 @@
+characters={
+	PAL_ali_bin_hussein={
+		name="Ali bin Hussein"
+		portraits={
+			civilian={
+				large="gfx/leaders/PAL/Portrait_Ali_bin_Hussein.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALI_BIN_HUSSEIN_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

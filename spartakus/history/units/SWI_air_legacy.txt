@@ -1,0 +1,10 @@
+﻿### Air OOB ###
+
+air_wings = {
+	3 = { 	
+		fighter_equipment_0 =  {
+			owner = "SWI" 
+			amount = 36
+		}
+	}
+}

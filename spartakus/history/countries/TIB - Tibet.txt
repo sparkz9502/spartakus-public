@@ -1,8 +1,11 @@
 ﻿capital = 994
-
 set_oob = "TIB"
+set_research_slots = 2
+set_stability = 0.6
+set_war_support = 0.8
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_pro
@@ -10,17 +13,21 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = TIB_thubten_gyatso
+
+### Starting Tech ###
 set_technology = {
+	### Infantry ###
 	infantry_weapons = 1
+	gw_artillery = 1
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -38,17 +45,6 @@ set_popularities = {
     national_corporatist = 0
 }
 
-create_country_leader = {
-	name = "Thubten Gyatso"
-	desc = "POLITICS_THUBTEN_GYATSO_DESC"
-	picture = "Portrait_Thubten_Gyatso.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		#
-	}
-}
+### Events ###
 
-
-# Events
 news_event = { id = tibet.1 days = 716 }

@@ -38,7 +38,7 @@ idea_categories = {
 		slot = chief_of_air_force
 		slot = sp_theorist
 		
-		ledger = civilian
+		ledger = invalid # must be overridden
 
 		cost = 200
 		removal_cost = -1
@@ -154,3 +154,21 @@ idea_categories = {
 	}
 }
 
+slot_ledgers = {
+	head_of_government = civilian
+	minister_without_portfolio = civilian
+	foreign_minister = civilian
+	economy_minister = civilian
+	security_minister = civilian
+	education_minister = civilian
+	agriculture_minister = civilian
+	transport_minister = civilian
+	defence_minister = civilian
+	
+	chief_of_staff = army
+	chief_of_army = army
+	chief_of_navy = navy
+	chief_of_air_force = air
+	
+	sp_theorist = civilian
+}

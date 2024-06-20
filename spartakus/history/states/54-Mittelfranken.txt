@@ -10,10 +10,13 @@ state={
 			infrastructure = 3
 			arms_factory = 1
 			industrial_complex = 1
-
+			air_base = 1
 		}
 		victory_points = {
 			11544 10 
+		}
+		victory_points = {
+			15596 1 
 		}
 
 	}

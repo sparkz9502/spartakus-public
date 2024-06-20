@@ -1,40 +1,44 @@
 ﻿capital = 1262
-
 set_research_slots = 2
+set_convoys = 10
+set_stability = 0.5
+set_war_support = 0.7
 
 add_ideas = {
-    LAB_Miners_Uprising
+	### Laws ###
 	recruitment_volunteer
 	governance_col
 	trade_aut
 	economy_semind
 	mobilization_2
+	
+	### National Spirits ###
+	LAB_Miners_Uprising
 }
 
-set_oob = "LAB"
+### Country Leaders ###
+recruit_character = LAB_giovanni_pippan
 
-add_ideas = {
-}
+### Generals ###
+recruit_character = LAB_francesco_da_gioz
 
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
-	tech_mountaineers = 1
 	tech_support = 1
-	early_submarine = 1
-	early_destroyer = 1
-	early_light_cruiser = 1
-	transport = 1
+	gw_artillery = 1
 }
 
-set_convoys = 5
+### Politics ###
 
 set_politics = {	
 	ruling_party = revolutionary_socialist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -50,28 +54,4 @@ set_popularities = {
     right_wing_populist = 5
     national_syndicalist = 0
     national_corporatist = 0
-}
-
-create_country_leader = {
-	name = "Giovanni Pippan"
-	desc = ""
-	picture = "Portrait_Labin_Giovanni_Pippan.tga"
-	expire = "1965.1.1"
-	ideology = revolutionary_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-            name = "Francesco Da Gioz"
-            portrait_path = "gfx/leaders/LAB/Portrait_Labin_Francesco_Da_Gioz.tga"
-            traits = {
-			expert_improviser
-            }
-            skill = 3
-            attack_skill = 1
-            defense_skill = 4
-            planning_skill = 2
-            logistics_skill = 3
 }

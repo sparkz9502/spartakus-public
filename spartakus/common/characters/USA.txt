@@ -1,0 +1,682 @@
+characters={
+    USA_william_pelley = {
+        name = "William Pelley"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_William_Pelley.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_WILLIAM_PELLEY_DESC"
+            expire = "1965.1.1"
+            ideology = clerical_fascism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_gilbert_nations = {
+        name = "Gilbert Nations"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Gilbert_Nations.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_GILBERT_NATIONS_DESC"
+            expire = "1965.1.1"
+            ideology = national_integralism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_robert_la_follette_jr = {
+        name = "Robert M. La Follette Jr."
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Robert_La_Follette_Jr.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ROBERT_LA_FOLLETTE_JR_DESC"
+            expire = "1965.1.1"
+            ideology = american_liberalism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_henry_ford = {
+        name = "Henry Ford"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Henry_Ford.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HENRY_FORD_DESC"
+            expire = "1965.1.1"
+            ideology = paternalistic_conservatism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_herbert_hoover = {
+        name = "Herbert Hoover"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Herbert_Hoover.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_HERBERT_HOOVER_DESC"
+            expire = "1965.1.1"
+            ideology = classical_liberalism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_jacob_coxey = {
+        name = "Jacob Coxey"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Jacob_Coxey.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_JACOB_COXEY_DESC"
+            expire = "1965.1.1"
+            ideology = agrarian_populism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_norman_thomas = {
+        name = "Norman Thomas"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Norman_Thomas.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_NORMAN_THOMAS_DESC"
+            expire = "1965.1.1"
+            ideology = religious_socialism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_verne_reynolds = {
+        name = "Verne Reynolds"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Verne_Reynolds.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_VERNE_REYNOLDS_DESC"
+            expire = "1965.1.1"
+            ideology = anarcho_communism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_william_z_foster = {
+        name = "William Z. Foster"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_William_Z_Foster.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_WILLIAM_Z_FOSTER_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_earl_browder = {
+        name = "Earl Browder"
+        portraits={
+            civilian={
+                large = "gfx/leaders/USA/Portrait_Earl_Browder.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_EARL_BROWDER_DESC"
+            expire = "1965.1.1"
+            ideology = marxist_leninism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+	USA_dwight_eisenhower = {
+        name = "Dwight D. Eisenhower"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Dwight_Eisenhower.tga"
+            }
+        }
+        field_marshal={
+            traits = { logistics_wizard organizer offensive_doctrine trait_cautious armor_officer politically_connected }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 5
+			logistics_skill = 5
+            legacy_id=-1
+        }
+    }
+	USA_douglas_macarthur = {
+        name = "Douglas MacArthur"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Douglas_MacArthur.tga"
+            }
+        }
+        field_marshal={
+            traits = {  offensive_doctrine brilliant_strategist career_officer media_personality politically_connected }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 4
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+    USA_george_patton = {
+        name = "George S. Patton"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_George_Patton.tga"
+            }
+        }
+        corps_commander={
+            traits = {  trickster armor_officer panzer_leader war_hero trait_reckless }
+			skill = 5
+			attack_skill = 7 
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+            legacy_id=-1
+        }
+    }
+	USA_omar_bradley = {
+        name = "Omar Bradley"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Omar_Bradley.tga"
+            }
+        }
+        corps_commander={
+            traits = {  trait_engineer trait_cautious brilliant_strategist harsh_leader }
+			skill = 5
+			attack_skill = 3
+			defense_skill = 5
+			planning_skill = 4
+			logistics_skill = 4
+            legacy_id=-1
+        }
+    }
+	USA_geoffrey_keyes = {
+        name = "Geoffrey Keyes"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Geoffrey_Keyes.tga"
+            }
+        }
+        corps_commander={
+            traits = { armor_officer career_officer }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	USA_lucian_truscott = {
+        name = "Lucian Truscott"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Lucian_Truscott.tga"
+            }
+        }
+        corps_commander={
+            traits = { trait_engineer commando cavalry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_mark_clark = {
+        name = "Mark Clark"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Mark_Clark.tga"
+            }
+        }
+        corps_commander={
+            traits = { infantry_officer trait_reckless }
+			skill = 4
+			attack_skill = 5
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+	USA_walter_krueger = {
+        name = "Walter Krueger"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Walter_Krueger.tga"
+            }
+        }
+        corps_commander={
+            traits = { armor_officer career_officer brilliant_strategist }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 1
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_lloyd_fredendall = {
+        name = "Lloyd Fredendall"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Lloyd_Fredendall.tga"
+            }
+        }
+        corps_commander={
+            traits = { old_guard infantry_officer inflexible_strategist }
+			skill = 2
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	USA_leslie_mcnair = {
+        name = "Leslie McNair"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Leslie_McNair.tga"
+            }
+        }
+        corps_commander={
+            traits = {  old_guard career_officer armor_officer }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 4
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_jonathan_wainwright = {
+        name = "Jonathan Wainwright"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Jonathan_Wainwright.tga"
+            }
+        }
+        corps_commander={
+            traits = {  }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	USA_russell_hartle = {
+        name = "Russell Hartle"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Russell_Hartle.tga"
+            }
+        }
+        corps_commander={
+            traits = { infantry_officer }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	USA_leonard_gerow = {
+        name = "Leonard Gerow"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Leonard_Gerow.tga"
+            }
+        }
+        corps_commander={
+			traits = { infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+	USA_edward_brooks = {
+        name = "Edward Brooks"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Edward_Brooks.tga"
+            }
+        }
+        corps_commander={
+			traits = { armor_officer trait_reckless }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_clarence_huebner = {
+        name = "Clarence Huebner"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Clarence_Huebner.tga"
+            }
+        }
+        corps_commander={
+			traits = { old_guard harsh_leader }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_alexander_patch = {
+        name = "Alexander Patch"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Alexander_Patch.tga"
+            }
+        }
+        corps_commander={
+			traits = { commando infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+	USA_william_simpson = {
+        name = "William Simpson"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_William_Simpson.tga"
+            }
+        }
+        corps_commander={
+			traits = { infantry_officer }
+			skill = 3	
+			attack_skill = 2
+			defense_skill = 4
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_j_lawton_collins = {
+        name = "J. Lawton Collins"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_J_Lawton_Collins.tga"
+            }
+        }
+        corps_commander={
+			traits = {  trickster career_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_courtney_hodges = {
+        name = "Courtney Hodges"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Courtney_Hodges.tga"
+            }
+        }
+        corps_commander={
+			traits = {  panzer_leader career_officer infantry_officer }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 4
+            legacy_id=-1
+        }
+    }
+	USA_joseph_stilwell = {
+        name = "Joseph Stilwell"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Joseph_Stilwell.tga"
+            }
+        }
+        corps_commander={
+			traits = { politically_connected infantry_officer career_officer harsh_leader }
+			skill = 1 
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+            legacy_id=-1
+        }
+    }
+	USA_oscar_griswold = {
+        name = "Oscar Griswold"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Oscar_Griswold.tga"
+            }
+        }
+        corps_commander={
+			traits = { infantry_officer  }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+	USA_maurice_rose = {
+        name = "Maurice Rose"
+        portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Maurice_Rose.tga"
+            }
+        }
+        corps_commander={
+			traits = { armor_officer trait_reckless brilliant_strategist  }
+			skill = 3
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+            legacy_id=-1
+        }
+    }
+	USA_ernest_king={
+		name="Ernest King"
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Ernest_King.tga"
+            }
+        }
+		navy_leader={
+			traits={ navy_career_officer aviation_enthusiast caustic_personality blockade_runner superior_tactician }
+			skill=5
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=6
+			legacy_id=-1
+		}
+	}
+	USA_chester_w_nimitz={
+		name="Chester W. Nimitz"
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Chester_Nimitz.tga"
+            }
+        }
+		navy_leader={
+			traits={ gentlemanly naval_lineage superior_tactician spotter blue_water_expert }
+			skill=5
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=5
+			coordination_skill=5
+			legacy_id=-1
+		}
+	}
+	USA_william_halsey_jr={
+		name="William Halsey Jr."
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_William_Halsey_Jr.tga"
+            }
+        }
+		navy_leader={
+			traits={ bold aviation_enthusiast superior_tactician spotter }
+			skill=4
+			attack_skill=5
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+	USA_frank_jack_fletcher={
+		name="Frank Jack Fletcher"
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Frank_Jack_Fletcher.tga"
+            }
+        }
+		navy_leader={
+			traits={ gunnery_expert superior_tactician spotter }
+			skill=3
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=3
+			coordination_skill=3
+			legacy_id=-1
+		}
+	}
+	USA_raymond_a_spruance={
+		name="Raymond A. Spruance"
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Raymond_Spruance.tga"
+            }
+        }
+		navy_leader={
+			traits={ gentlemanly navy_career_officer superior_tactician }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=3
+			legacy_id=-1
+		}
+	}
+	USA_harold_rainsford_stark={
+		name="Harold Rainsford Stark"
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Harold_Rainsford_Stark.tga"
+            }
+        }
+		navy_leader={
+			traits={ cuts_corners blockade_runner spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+	USA_arleigh_burke={
+		name="Arleigh Burke"
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Arleigh_Burke.tga"
+            }
+        }
+		navy_leader={
+			traits={ old_guard_navy bold fleet_protector superior_tactician }
+			skill=4
+			attack_skill=3
+			defense_skill=3
+			maneuvering_skill=3
+			coordination_skill=4
+			legacy_id=-1
+		}
+	}
+	USA_charles_m_cooke_jr={
+		name="Charles M. Cooke Jr."
+		portraits={
+            army={
+                large = "gfx/leaders/USA/Portrait_Charles_M_Cooke_Jr.tga"
+            }
+        }
+		navy_leader={
+			traits={ navy_career_officer }
+			skill=2
+			attack_skill=1
+			defense_skill=1
+			maneuvering_skill=2
+			coordination_skill=3
+			legacy_id=-1
+		}
+	}
+}

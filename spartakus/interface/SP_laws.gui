@@ -12,9 +12,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "open_laws_text"
-			position = { x = 354 y = 150 }
+			position = { x = 372 y = 150 }
 			font = "hoi_18mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "OPEN_LAWS_BUTTON"
 			format = center
@@ -24,7 +24,7 @@ guiTypes = {
 
 	containerWindowType = {
 		name = "laws_menu"
-		position = { x = 546 y = 4 }
+		position = { x = 545 y = 4 }
 		size = { width = 550 height = 670 }
 		
 		background = {
@@ -55,9 +55,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade"
-			position = { x = 2 y = 212 }
+			position = { x = 20 y = 212 }
 			font = "hoi_24header"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Trade"
 			format = center
@@ -72,9 +72,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade_aut_name"
-			position = { x = 2 y = 242 }
+			position = { x = 20 y = 242 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Trade_Aut_Text"
 			format = center
@@ -90,9 +90,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade_nat_name"
-			position = { x = 2 y = 262 }
+			position = { x = 20 y = 262 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Trade_Nat_Text"
 			format = center
@@ -108,9 +108,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade_pro_name"
-			position = { x = 2 y = 282 }
+			position = { x = 20 y = 282 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Trade_Pro_Text"
 			format = center
@@ -126,9 +126,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade_sempro_name"
-			position = { x = 2 y = 302 }
+			position = { x = 20 y = 302 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Trade_Sempro_Text"
 			format = center
@@ -144,9 +144,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "trade_laif_name"
-			position = { x = 2 y = 322 }
+			position = { x = 20 y = 322 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Trade_Laif_Text"
 			format = center
@@ -157,9 +157,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy"
-			position = { x = 2 y = 59 }
+			position = { x = 20 y = 59 }
 			font = "hoi_24header"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy"
 			format = center
@@ -174,9 +174,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy_hyind_name"
-			position = { x = 2 y = 89 }
+			position = { x = 20 y = 89 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy_Hyind_Text"
 			format = center
@@ -192,9 +192,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy_ind_name"
-			position = { x = 2 y = 109 }
+			position = { x = 20 y = 109 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy_Ind_Text"
 			format = center
@@ -210,9 +210,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy_semind_name"
-			position = { x = 2 y = 129 }
+			position = { x = 20 y = 129 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy_Semind_Text"
 			format = center
@@ -228,9 +228,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy_indzing_name"
-			position = { x = 2 y = 149 }
+			position = { x = 20 y = 149 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy_Indzing_Text"
 			format = center
@@ -246,9 +246,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy_unind_name"
-			position = { x = 2 y = 169 }
+			position = { x = 20 y = 169 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy_Unind_Text"
 			format = center
@@ -264,9 +264,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "economy_undev_name"
-			position = { x = 2 y = 189 }
+			position = { x = 20 y = 189 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Economy_Undev_Text"
 			format = center
@@ -277,9 +277,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance"
-			position = { x = 176 y = 59 }
+			position = { x = 193 y = 59 }
 			font = "hoi_24header"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance"
 			format = center
@@ -294,9 +294,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_bure_name"
-			position = { x = 174 y = 89 }
+			position = { x = 193 y = 89 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Bure_Text"
 			format = center
@@ -312,9 +312,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_coun_name"
-			position = { x = 174 y = 109 }
+			position = { x = 193 y = 109 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Coun_Text"
 			format = center
@@ -330,9 +330,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_col_name"
-			position = { x = 174 y = 129 }
+			position = { x = 193 y = 129 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Col_Text"
 			format = center
@@ -348,9 +348,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_par_name"
-			position = { x = 174 y = 149 }
+			position = { x = 193 y = 149 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Par_Text"
 			format = center
@@ -366,9 +366,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_exec_name"
-			position = { x = 174 y = 169 }
+			position = { x = 193 y = 169 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Exec_Text"
 			format = center
@@ -384,9 +384,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_tot_name"
-			position = { x = 174 y = 189 }
+			position = { x = 193 y = 189 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Tot_Text"
 			format = center
@@ -402,9 +402,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_abs_name"
-			position = { x = 174 y = 209 }
+			position = { x = 193 y = 209 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Abs_Text"
 			format = center
@@ -420,9 +420,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_tri_name"
-			position = { x = 174 y = 229 }
+			position = { x = 193 y = 229 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Tri_Text"
 			format = center
@@ -438,9 +438,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "governance_colo_name"
-			position = { x = 174 y = 249 }
+			position = { x = 193 y = 249 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Governance_Colo_Text"
 			format = center
@@ -451,9 +451,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment"
-			position = { x = 347 y = 59 }
+			position = { x = 365 y = 59 }
 			font = "hoi_24header"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Recruitment"
 			format = center
@@ -468,9 +468,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_1660_name"
-			position = { x = 347 y = 120 }
+			position = { x = 365 y = 120 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Conscription_16_60_Text"
 			format = center
@@ -486,9 +486,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_1850_name"
-			position = { x = 347 y = 140 }
+			position = { x = 365 y = 140 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Conscription_18_50_Text"
 			format = center
@@ -504,9 +504,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_1840_name"
-			position = { x = 347 y = 160 }
+			position = { x = 365 y = 160 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Conscription_18_40_Text"
 			format = center
@@ -522,9 +522,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_1835_name"
-			position = { x = 347 y = 180 }
+			position = { x = 365 y = 180 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Conscription_18_35_Text"
 			format = center
@@ -540,9 +540,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_1830_name"
-			position = { x = 347 y = 200 }
+			position = { x = 365 y = 200 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Conscription_18_30_Text"
 			format = center
@@ -558,9 +558,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_1825_name"
-			position = { x = 347 y = 220 }
+			position = { x = 365 y = 220 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Conscription_18_25_Text"
 			format = center
@@ -576,9 +576,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_volunteer_name"
-			position = { x = 347 y = 240 }
+			position = { x = 365 y = 240 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Volunteer_Only_Text"
 			format = center
@@ -594,9 +594,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_colonial_name"
-			position = { x = 347 y = 260 }
+			position = { x = 365 y = 260 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Colonial_Army_Text"
 			format = center
@@ -612,9 +612,9 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "recruitment_disarmed_name"
-			position = { x = 347 y = 280 }
+			position = { x = 365 y = 280 }
 			font = "hoi_16mbs"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Disarmed_Text"
 			format = center
@@ -641,24 +641,396 @@ guiTypes = {
 		
 		instantTextboxType = {
 			name = "unions"
-			position = { x = 176 y = 272 }
+			position = { x = 193 y = 272 }
 			font = "hoi_24header"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Unions"
 			format = center
+		}
+		
+		iconType ={
+			name ="unions_independent"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=300 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "unions_independent_name"
+			position = { x = 193 y = 302 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Unions_Independent_Text"
+			format = center
+			pdx_tooltip = "unions_independent_desc"
+		}
+		
+		iconType ={
+			name ="unions_suppressed"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=320 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "unions_suppressed_name"
+			position = { x = 193 y = 322 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Unions_Suppressed_Text"
+			format = center
+			pdx_tooltip = "unions_suppressed_desc"
+		}
+		
+		iconType ={
+			name ="unions_statecontrolled"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=340 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "unions_statecontrolled_name"
+			position = { x = 193 y = 342 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Unions_StateControlled_Text"
+			format = center
+			pdx_tooltip = "unions_statecontrolled_desc"
+		}
+		
+		iconType ={
+			name ="unions_nonexistent"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=360 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "unions_nonexistent_name"
+			position = { x = 193 y = 362 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Unions_Nonexistent_Text"
+			format = center
+			pdx_tooltip = "unions_nonexistent_desc"
 		}
 		
 		#Suffrage
 		
 		instantTextboxType = {
 			name = "suffrage"
-			position = { x = 176 y = 385 }
+			position = { x = 193 y = 385 }
 			font = "hoi_24header"
-			maxWidth = 200
+			maxWidth = 165
 			maxHeight = 20
 			text = "Suffrage"
 			format = center
+		}
+		
+		iconType ={
+			name ="suffrage_universal"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=413 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "suffrage_universal_name"
+			position = { x = 193 y = 415 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Suffrage_Universal_Text"
+			format = center
+			pdx_tooltip = "suffrage_universal_desc"
+		}
+		
+		iconType ={
+			name ="suffrage_restricted"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=433 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "suffrage_restricted_name"
+			position = { x = 193 y = 435 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Suffrage_Restricted_Text"
+			format = center
+			pdx_tooltip = "suffrage_restricted_desc"
+		}
+		
+		iconType ={
+			name ="suffrage_novoting"
+			spriteType = "GFX_laws_icon"
+			position = { x=193 y=453 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "suffrage_novoting_name"
+			position = { x = 193 y = 455 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Suffrage_NoVoting_Text"
+			format = center
+			pdx_tooltip = "suffrage_novoting_desc"
+		}
+		
+		#Death Penalty
+		
+		instantTextboxType = {
+			name = "deathpenalty"
+			position = { x = 20 y = 345 }
+			font = "hoi_24header"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Death Penalty"
+			format = center
+		}
+		
+		iconType ={
+			name ="deathpenalty_outlawed"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=373 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "deathpenalty_outlawed_name"
+			position = { x = 20 y = 375 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "DeathPenalty_Outlawed_Text"
+			format = center
+			pdx_tooltip = "deathpenalty_outlawed_desc"
+		}
+		
+		iconType ={
+			name ="deathpenalty_legalized"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=393 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "deathpenalty_legalized_name"
+			position = { x = 20 y = 395 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "DeathPenalty_Legalized_Text"
+			format = center
+			pdx_tooltip = "deathpenalty_legalized_desc"
+		}
+		
+		#Press
+		
+		instantTextboxType = {
+			name = "press"
+			position = { x = 20 y = 418 }
+			font = "hoi_24header"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Press"
+			format = center
+		}
+		
+		iconType ={
+			name ="press_free"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=446 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "press_free_name"
+			position = { x = 20 y = 448 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Press_Free_Text"
+			format = center
+			pdx_tooltip = "press_free_desc"
+		}
+		
+		iconType ={
+			name ="press_censored"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=466 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "press_censored_name"
+			position = { x = 20 y = 468 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Press_Censored_Text"
+			format = center
+			pdx_tooltip = "press_censored_desc"
+		}
+		
+		iconType ={
+			name ="press_stateonly"
+			spriteType = "GFX_laws_icon"
+			position = { x=20 y=486 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "press_stateonly_name"
+			position = { x = 20 y = 488 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Press_StateOnly_Text"
+			format = center
+			pdx_tooltip = "press_stateonly_desc"
+		}
+		
+		#Welfare
+		
+		instantTextboxType = {
+			name = "welfare"
+			position = { x = 365 y = 332 }
+			font = "hoi_24header"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Welfare"
+			format = center
+		}
+		
+		iconType ={
+			name ="welfare_high"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=360 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "welfare_high_name"
+			position = { x = 365 y = 362 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Welfare_High_Text"
+			format = center
+			pdx_tooltip = "welfare_high_desc"
+		}
+		
+		iconType ={
+			name ="welfare_medium"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=380 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "welfare_medium_name"
+			position = { x = 365 y = 382 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Welfare_Medium_Text"
+			format = center
+			pdx_tooltip = "welfare_medium_desc"
+		}
+		
+		iconType ={
+			name ="welfare_low"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=400 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "welfare_low_name"
+			position = { x = 365 y = 402 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Welfare_Low_Text"
+			format = center
+			pdx_tooltip = "welfare_low_desc"
+		}
+		
+		iconType ={
+			name ="welfare_nostate"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=420 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "welfare_nostate_name"
+			position = { x = 365 y = 422 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Welfare_NoState_Text"
+			format = center
+			pdx_tooltip = "welfare_nostate_desc"
+		}
+		
+		#Judiciary
+		
+		instantTextboxType = {
+			name = "judiciary"
+			position = { x = 365 y = 445 }
+			font = "hoi_24header"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Judiciary"
+			format = center
+		}
+		
+		iconType ={
+			name ="judiciary_impartial"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=473 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "judiciary_impartial_name"
+			position = { x = 365 y = 475 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Judiciary_Impartial_Text"
+			format = center
+			pdx_tooltip = "judiciary_impartial_desc"
+		}
+		
+		iconType ={
+			name ="judiciary_politicized"
+			spriteType = "GFX_laws_icon"
+			position = { x=366 y=493 }
+			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "judiciary_politicized_name"
+			position = { x = 365 y = 495 }
+			font = "hoi_16mbs"
+			maxWidth = 165
+			maxHeight = 20
+			text = "Judiciary_Politicized_Text"
+			format = center
+			pdx_tooltip = "judiciary_politicized_desc"
 		}
 		
 		#Mobilization
@@ -666,14 +1038,25 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_bg"
 			spriteType = "GFX_mobilization_bg"
-			position = { x=0 y=530 }
+			position = { x=0 y=526 }
 			Orientation = "UPPER_LEFT"
+		}
+		
+		instantTextboxType = {
+			name = "namemob"
+			position = { x = 125 y = 495 }
+			font = "hoi_30header"
+			text = "Mobilization"
+			maxWidth = 300
+			maxHeight = 20
+			format = center
+			alwaystransparent = yes
 		}
 		
 		iconType ={
 			name ="mobilization_red_1"
 			spriteType = "GFX_mobilization_red"
-			position = { x=45 y=560 }
+			position = { x=45 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_broken_desc"
 		}
@@ -681,7 +1064,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_2"
 			spriteType = "GFX_mobilization_red"
-			position = { x=91 y=560 }
+			position = { x=91 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_2_desc"
 		}
@@ -689,7 +1072,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_3"
 			spriteType = "GFX_mobilization_red"
-			position = { x=137 y=560 }
+			position = { x=137 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_3_desc"
 		}
@@ -697,7 +1080,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_4"
 			spriteType = "GFX_mobilization_red"
-			position = { x=183 y=560 }
+			position = { x=183 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_4_desc"
 		}
@@ -705,7 +1088,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_5"
 			spriteType = "GFX_mobilization_red"
-			position = { x=229 y=560 }
+			position = { x=229 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_5_desc"
 		}
@@ -713,7 +1096,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_6"
 			spriteType = "GFX_mobilization_red"
-			position = { x=275 y=560 }
+			position = { x=275 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_6_desc"
 		}
@@ -721,7 +1104,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_7"
 			spriteType = "GFX_mobilization_red"
-			position = { x=321 y=560 }
+			position = { x=321 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_7_desc"
 		}
@@ -729,7 +1112,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_8"
 			spriteType = "GFX_mobilization_red"
-			position = { x=367 y=560 }
+			position = { x=367 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_8_desc"
 		}
@@ -737,7 +1120,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_9"
 			spriteType = "GFX_mobilization_red"
-			position = { x=413 y=560 }
+			position = { x=413 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_9_desc"
 		}
@@ -745,7 +1128,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_red_10"
 			spriteType = "GFX_mobilization_red"
-			position = { x=459 y=560 }
+			position = { x=459 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_10_desc"
 		}
@@ -753,7 +1136,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_1"
 			spriteType = "GFX_mobilization_green"
-			position = { x=45 y=560 }
+			position = { x=45 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_1_desc"
 		}
@@ -761,7 +1144,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_2"
 			spriteType = "GFX_mobilization_green"
-			position = { x=91 y=560 }
+			position = { x=91 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_2_desc"
 		}
@@ -769,7 +1152,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_3"
 			spriteType = "GFX_mobilization_green"
-			position = { x=137 y=560 }
+			position = { x=137 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_3_desc"
 		}
@@ -777,7 +1160,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_4"
 			spriteType = "GFX_mobilization_green"
-			position = { x=183 y=560 }
+			position = { x=183 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_4_desc"
 		}
@@ -785,7 +1168,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_5"
 			spriteType = "GFX_mobilization_green"
-			position = { x=229 y=560 }
+			position = { x=229 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_5_desc"
 		}
@@ -793,7 +1176,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_6"
 			spriteType = "GFX_mobilization_green"
-			position = { x=275 y=560 }
+			position = { x=275 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_6_desc"
 		}
@@ -801,7 +1184,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_7"
 			spriteType = "GFX_mobilization_green"
-			position = { x=321 y=560 }
+			position = { x=321 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_7_desc"
 		}
@@ -809,7 +1192,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_8"
 			spriteType = "GFX_mobilization_green"
-			position = { x=367 y=560 }
+			position = { x=367 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_8_desc"
 		}
@@ -817,7 +1200,7 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_9"
 			spriteType = "GFX_mobilization_green"
-			position = { x=413 y=560 }
+			position = { x=413 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_9_desc"
 		}
@@ -825,14 +1208,14 @@ guiTypes = {
 		iconType ={
 			name ="mobilization_green_10"
 			spriteType = "GFX_mobilization_green"
-			position = { x=459 y=560 }
+			position = { x=459 y=556}
 			Orientation = "UPPER_LEFT"
 			pdx_tooltip = "mobilization_10_desc"
 		}
 		
 		buttonType = {
 			name = "mobilization_decrease_button"
-			position = { x = 13 y = 546 }
+			position = { x = 13 y = 542 }
 			spriteType = "GFX_mobilization_leftarrow"
 			format = center
 			pdx_tooltip = "MOBILIZATION_DECREASE"
@@ -840,10 +1223,100 @@ guiTypes = {
 		
 		buttonType = {
 			name = "mobilization_increase_button"
-			position = { x = 508 y = 546 }
+			position = { x = 508 y = 542 }
 			spriteType = "GFX_mobilization_rightarrow"
 			format = center
 			pdx_tooltip = "MOBILIZATION_INCREASE"
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_1_number"
+			position = { x = -32 y = 559 }
+			font = "hoi_30header"
+			text = "Mob1_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_2_number"
+			position = { x = 14 y = 559 }
+			font = "hoi_30header"
+			text = "Mob2_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_3_number"
+			position = { x = 60 y = 559 }
+			font = "hoi_30header"
+			text = "Mob3_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_4_number"
+			position = { x = 106 y = 559 }
+			font = "hoi_30header"
+			text = "Mob4_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_5_number"
+			position = { x = 152 y = 559 }
+			font = "hoi_30header"
+			text = "Mob5_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_6_number"
+			position = { x = 198 y = 559 }
+			font = "hoi_30header"
+			text = "Mob6_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_7_number"
+			position = { x = 244 y = 559 }
+			font = "hoi_30header"
+			text = "Mob7_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_8_number"
+			position = { x = 290 y = 559 }
+			font = "hoi_30header"
+			text = "Mob8_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_9_number"
+			position = { x = 336 y = 559 }
+			font = "hoi_30header"
+			text = "Mob9_Text"
+			format = center
+			alwaystransparent = yes
+		}
+		
+		instantTextboxType = {
+			name = "mobilization_10_number"
+			position = { x = 382 y = 559 }
+			font = "hoi_30header"
+			text = "Mob10_Text"
+			format = center
+			alwaystransparent = yes
 		}
 	}
 }

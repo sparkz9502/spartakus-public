@@ -1,31 +1,41 @@
 ﻿capital = 1232
-
 set_oob = "TCS"
-
-set_technology = {
-	
-	infantry_weapons = 1
-	tech_support = 1
-	gw_artillery = 1
-	early_fighter = 1
-}
+set_research_slots = 2
+set_stability = 0.2
+set_war_support = 0.6
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_pro
 	economy_undev
 	mobilization_1
+	
+	### National Spirits ###
+	TCS_bandit_state
+	TCS_bandit_army
 }
 
-set_research_slots = 2
+### Country Leaders ###
+recruit_character = TCS_oraz_sirdar
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1
+	gw_artillery = 1
+}
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = right_wing_populist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -41,21 +51,6 @@ set_popularities = {
     right_wing_populist = 42
     national_syndicalist = 1
     national_corporatist = 1
-}
-
-create_country_leader = {
-	name = "Oraz Sirdar"
-	desc = "POLITICS_ORAZ_SIRDAR_DESC"
-	picture = "Portrait_Oraz_Sirdar.tga"
-	expire = "1965.1.1"
-	ideology = military_junta
-	traits = {
-	}
-}
-
-add_ideas = {
-	TCS_bandit_state
-	TCS_bandit_army
 }
 
 Basmachi_raiding_state_setup = yes

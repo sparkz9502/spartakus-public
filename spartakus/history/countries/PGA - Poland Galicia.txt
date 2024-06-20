@@ -1,14 +1,18 @@
 ﻿capital = 10
-
 set_oob = "PGA"
+set_research_slots = 3
+set_stability = 0.2
+set_war_support = 0.2
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_coun
 	trade_aut
 	economy_semind
 	mobilization_2
-
+	
+	### Ministers ###
 	PGA_Volodymyr_Zatonsky_hog_spa
 	PGA_Edward_Prochniak_mwp_spa
 	PGA_Jakub_Hanecki_for_spa
@@ -24,25 +28,20 @@ add_ideas = {
 	PGA_Stefan_Banach_theo
 }
 
+### Country Leaders ###
 recruit_character = PGA_adolf_warski
 recruit_character = PGA_roman_dmowski
 recruit_character = PGA_roman_rybarski
-recruit_character = PGA_józef_unszlicht
-recruit_character = PGA_marcin_piotrowski
-recruit_character = PGA_kacper_dąbrowski
-recruit_character = PGA_michał_kowalski
-recruit_character = PGA_filip_piotrowski
-recruit_character = PGA_tomasz_szymański
-recruit_character = PGA_maksymilian_kowalski
-recruit_character = PGA_igor_wojciechowski
-recruit_character = PGA_maksymilian_szymański
-recruit_character = PGA_grzegorz_kowalski
 
+### Field Marshals ###
+recruit_character = PGA_jozef_unszlicht
 
-set_research_slots = 3
-
-# Starting tech
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_mountaineers = 1
@@ -51,21 +50,18 @@ set_technology = {
 	tech_recon = 1
 	gw_artillery = 1
 	interwar_antiair = 1
-	gwtank = 1
+	
+	### Air ###
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
-	early_destroyer = 1
-	early_submarine = 1	
-	trench_warfare = 1
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = spartacist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -95,6 +91,3 @@ set_country_flag = banned_authoritarian_conservative
 set_country_flag = banned_right_wing_populist
 set_country_flag = banned_national_syndicalist
 set_country_flag = banned_national_corporatist
-
-set_convoys = 10
-

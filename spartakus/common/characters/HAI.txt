@@ -1,0 +1,45 @@
+characters={
+	HAI_louis_borno = {
+        name = "Louis Borno"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HAI/Portrait_Louis_Borno.tga"
+            }
+        }
+		country_leader={
+            desc = "POLITICS_LOUIS_BORNO_DESC"
+            expire = "1965.1.1"
+            ideology = authoritarian_conservative_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+    HAI_jacques_roumain = {
+        name = "Jacques Roumain"
+        portraits={
+            civilian={
+                large = "gfx/leaders/South America/Portrait_South_America_Generic_1.dds"
+            }
+        }
+		country_leader={
+            desc = "POLITICS_JACQUES_ROUMAIN_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+        country_leader={
+            desc = "POLITICS_JACQUES_ROUMAIN_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+}

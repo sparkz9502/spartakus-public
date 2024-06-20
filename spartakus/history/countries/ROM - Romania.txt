@@ -1,29 +1,114 @@
 ﻿capital = 46
-
 set_oob = "ROM"
-
-# Starting tech
-set_technology = {
-	tech_mountaineers = 1
-	gwtank = 1
-	basic_light_tank = 1
-	infantry_weapons = 1
-	gw_artillery = 1
-	early_fighter = 1
-	early_submarine = 1
-	early_destroyer = 1
-}
-
 set_research_slots = 3
 set_convoys = 30
 set_stability = 0.4
 set_war_support = 0.5
 
+add_ideas = {
+	### Laws ###
+	recruitment_1825
+	governance_par
+	trade_pro
+	economy_indzing
+	mobilization_2
+	
+	### Ministers ###
+	#ROM_Nicolae_Iorga_hog_rwp
+	#mwp would be the vice prime minister, but this wasn't always a position
+	#ROM_Dimitrie_Ghica_for_rwp
+	#ROM_Constantin_Argetoianu_eco_rwp
+	#ROM_Constantin_Argetoianu_sec_rwp
+	#ROM_Nicolae_Iorga_edu_rwp
+	#ROM_Gheorghe_Ionescu-Sisesti_agr_rwp
+	#ROM_Victor_Valcovici_tra_rwp
+	#ROM_Constantin_Stefanescu-Amza_def_rwp
+	#cos
+	#carm
+	#cnav
+	#cair
+	#theo
+}
+
+### Country Leaders ###
+recruit_character = ROM_carol_ii
+
+### Field Marshals ###
+recruit_character = ROM_ion_antonescu
+recruit_character = ROM_petre_dumitrescu
+
+### Generals ###
+recruit_character = ROM_ioan_mihail_racovita
+recruit_character = ROM_constantin_prezan
+recruit_character = ROM_gheorghe_avramescu
+
+### Admirals ###
+recruit_character = ROM_horia_macellariu
+
+### Starting Tech ###
+set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
+	infantry_weapons = 1
+	tech_support = 1		
+	tech_engineers = 1
+	tech_recon = 1
+	tech_mountaineers = 1
+	gw_artillery = 1
+}
+### Tanks - NSB ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
+}
+### Tanks - no NSB ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+### Navy - MtG ###
+if = {
+	limit = { 
+		has_dlc = "Man the Guns" 
+	}
+	set_technology = {
+		basic_naval_mines = 1
+		submarine_mine_laying = 1
+		early_ship_hull_light = 1
+		early_ship_hull_submarine = 1
+		basic_battery = 1
+		basic_torpedo = 1
+		basic_depth_charges = 1
+	}
+}
+### Navy - no MtG ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "Man the Guns" } 
+	}
+	set_technology = {
+		early_submarine = 1
+		early_destroyer = 1
+	}
+}
+
+### Politics ###
+
 set_politics = {	
 	ruling_party = right_wing_populist
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
+	last_election = "1931.6.1"
+	election_frequency = 13
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -45,127 +130,3 @@ set_country_flag = coalition_social_liberal
 
 set_country_flag = banned_bolshevist
 set_country_flag = banned_spartacist
-
-add_ideas = {
-	recruitment_1825
-	governance_par
-	trade_pro
-	economy_indzing
-	mobilization_2
-	
-	#ROM_Nicolae_Iorga_hog_rwp
-	#mwp would be the vice prime minister, but this wasn't always a position
-	#ROM_Dimitrie_Ghica_for_rwp
-	#ROM_Constantin_Argetoianu_eco_rwp
-	#ROM_Constantin_Argetoianu_sec_rwp
-	#ROM_Nicolae_Iorga_edu_rwp
-	#ROM_Gheorghe_Ionescu-Sisesti_agr_rwp
-	#ROM_Victor_Valcovici_tra_rwp
-	#ROM_Constantin_Stefanescu-Amza_def_rwp
-	#cos
-	#carm
-	#cnav
-	#cair
-	#theo
-}
-
-create_country_leader = {
-	name = "Carol II"
-	desc = ""
-	picture = "Portrait_Carol_II.tga"
-	expire = "1965.1.1"
-	ideology = right_wing_populist_subtype
-	traits = {
-		
-	}
-}
-
-####################################
-####################################
-####################################
-
-create_field_marshal = {
-	name = "Ion Antonescu"
-	picture = "Portrait_Romania_Ion_Antonescu.dds"
-	traits = { old_guard war_hero defensive_doctrine }
-	skill = 4
-	attack_skill = 4
-	defense_skill = 4
-	planning_skill = 2
-	logistics_skill = 3
-    id = 301
-}
-
-create_field_marshal = {
-	name = "Petre Dumitrescu"
-	gfx = GFX_Portrait_romania_petre_dumitrescu
-	traits = { offensive_doctrine logistics_wizard career_officer }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 3
-	planning_skill = 2
-	logistics_skill = 3
-    id = 302
-}
-
-create_corps_commander = {
-	name = "Ioan Mihail Racovita"
-	gfx = GFX_Portrait_romania_ioan_mihail_racovita
-	traits = { hill_fighter }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
-    id = 303
-}
-
-create_corps_commander = {
-	name = "Constantin Prezan"
-	picture = "Portrait_ROM_Prezan.tga"
-	traits = { career_officer }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 4
-	planning_skill = 3
-	logistics_skill = 2
-    id = 304
-}	
-
-if = {
-	limit = {
-		has_dlc = "Death or Dishonor"
-	}
-
-	create_corps_commander = {
-		name = "Gheorghe Avramescu"
-		gfx = GFX_Portrait_romania_gheorghe_avramescu
-		traits = { }
-		skill = 3
-	attack_skill = 3
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 3
-	}
-
-	create_navy_leader = {
-		name = "Horia Macellariu"
-		gfx = "GFX_Portrait_romania_horia_macellariu"
-		traits = { spotter }
-		skill = 2
-	}
-}
-
-
-### Ship Variants ###
-
-create_equipment_variant = {
-	name = "Regele Ferdinand Class"
-	type = destroyer_1
-	upgrades = {
-		ship_torpedo_upgrade = 1
-		destroyer_engine_upgrade = 1
-		ship_ASW_upgrade = 1
-		ship_anti_air_upgrade = 1
-	}
-}

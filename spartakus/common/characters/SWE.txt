@@ -1,0 +1,213 @@
+characters={
+	SWE_zeth_hoglund={
+		name="Zeth Höglund"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Zeth_Hoglund.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ZETH_HOGLUND_DESC"
+			ideology=bolshevist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_karl_kilbom={
+		name="Karl Kilbom"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Karl_Kilbom.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KARL_KILBOM_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_john_andersson={
+		name="John Andersson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_John_Andersson.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JOHN_ANDERSSON_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_per_albin_hansson={
+		name="Per Albin Hansson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_SP_Sweden_Per_Albin_Hansson.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PER_ALBIN_HANSSON_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_tage_erlander={
+		name="Tage Erlander"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Tage_Erlander.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_TAGE_ERLANDER_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_axel_pehrsson_bramstorp={
+		name="Axel Pehrsson-Bramstorp"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Axel_PB.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AXEL_PB_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_gustaf_andersson={
+		name="Gustaf Andersson"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Gustaf_Andersson.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GUSTAF_ANDERSSON_DESC"
+			ideology=liberal_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_fritof_domo={
+		name="Fritöf Domö"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Fritof_Domo.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FRITOF_DOMO_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_gustav_vi_adolf={
+		name="Gustaf VI Adolf"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Gustaf_VI.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GUSTAV_VI_ADOLF_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		country_leader={
+			desc="POLITICS_GUSTAV_VI_ADOLF_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_sven_olov_lindholm={
+		name="Sven Olov Lindholm"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Sven_Lindholm.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_SVEN_LINDHOLM_DESC"
+			ideology=national_syndicalist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_per_engdahl={
+		name="Per Engdahl"
+		portraits={
+			civilian={
+				large="gfx/leaders/SWE/Portrait_Sweden_Per_Engdahl.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PER_ENGDAHL_DESC"
+			ideology=national_corporatist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	SWE_folke_hogberg={
+		name="Folke Högberg"
+		portraits={
+			army={
+				large="gfx/leaders/SWE/Portrait_Folke_Hogberg.tga"
+			}
+		}
+		corps_commander={
+			traits = { commando }
+			skill = 3
+			attack_skill = 1
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	SWE_erik_af_edholm={
+		name="Erik af Edholm"
+		portraits={
+			army={
+				large="gfx/leaders/SWE/Portrait_Erik_af_Edholm.tga"
+			}
+		}
+		corps_commander={
+			traits = {  hill_fighter }
+			skill = 4
+			attack_skill = 4
+			defense_skill = 1
+			planning_skill = 4
+			logistics_skill = 4
+			legacy_id=-1
+		}
+	}
+	SWE_claes_lindstrom={
+		name="Claes Lindström"
+		portraits={
+			army={
+				large="gfx/leaders/SWE/Portrait_Claes_Lindstrom.tga"
+			}
+		}
+		navy_leader={
+			traits = { blockade_runner }
+			skill=4
+			attack_skill=4
+			defense_skill=3
+			maneuvering_skill=4
+			coordination_skill=3
+			legacy_id=-1
+		}
+	}
+}

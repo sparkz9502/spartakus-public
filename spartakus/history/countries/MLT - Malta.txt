@@ -1,6 +1,7 @@
 ﻿capital = 116
-
-set_oob = "empty"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
 	recruitment_volunteer
@@ -10,23 +11,19 @@ add_ideas = {
 	mobilization_1
 }
 
-set_research_slots = 2
+### Country Leaders ###
 
-# Starting tech
+### Starting Tech ###
 set_technology = {
-	
-	
-	### Inf ###
 	infantry_weapons = 1
-	
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_politics = {	
-	ruling_party = social_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
+### Politics ###
 
+set_politics = {
+	ruling_party = authoritarian_conservative
+	elections_allowed = no
 }
 
 set_popularities = {
@@ -34,21 +31,12 @@ set_popularities = {
     spartacist = 0
     revolutionary_socialist = 0
     reformist_socialist = 0
-    social_democrat = 20
+    social_democrat = 0
     social_liberal = 0
-    liberal_conservative = 20
-    social_conservative = 30
-    authoritarian_conservative = 10
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 100
     right_wing_populist = 0
     national_syndicalist = 0
-    national_corporatist = 20
+    national_corporatist = 0
 }
-
-set_convoys = 25
-set_stability = 0.75
-
-### Field Marshal
-
-### Corps Commander
-
-### Navy Leader

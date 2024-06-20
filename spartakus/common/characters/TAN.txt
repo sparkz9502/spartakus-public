@@ -1,0 +1,16 @@
+characters={
+	TAN_mongush_nimachap={
+		name="Mongush Nimachap"
+		portraits={
+			civilian={
+				large="gfx/leaders/TAN/Portrait_Tuva_Mongush_Nimachap.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MONGUSH_NIMACHAP_DESC"
+			ideology=bolshevist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

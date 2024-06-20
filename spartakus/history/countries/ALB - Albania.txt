@@ -11,6 +11,12 @@ add_ideas = {
 	governance_par
 	trade_laif
 	economy_unind
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_nostate
+	judiciary_impartial
 	mobilization_1
 	
 	### National Spirits ###

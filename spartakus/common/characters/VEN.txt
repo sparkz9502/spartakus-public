@@ -1,0 +1,30 @@
+characters={
+	VEN_juan_vicente_gomez={
+		name="Juan Vicente Gómez"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_Juan_Vicente_Gomez.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JUAN_VICENTE_GOMEZ_DESC"
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	VEN_gustavo_machado_morales={
+		name="Gustavo Machado Morales"
+		portraits={
+			civilian={
+				large="gfx/leaders/VEN/Portrait_Gustavo_Machado_Morales.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GUSTAVO_MACHADO_MORALES_DESC"
+			ideology=internationalist_leninism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

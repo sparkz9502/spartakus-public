@@ -927,7 +927,7 @@ SHA = {
 	color_ui = rgb { 205 65 0 }
 }
 
-ZHO = {
+HMA = {
 	color = rgb { 110 110 110 }
 	color_ui = rgb { 110 110 110 }
 }

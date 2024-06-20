@@ -1,0 +1,16 @@
+characters={
+	LUX_charlotte={
+		name="Charlotte"
+		portraits={
+			civilian={
+				large="gfx/leaders/LUX/Portrait_Charlotte.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_CHARLOTTE_LUX_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

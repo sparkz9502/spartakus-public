@@ -1,0 +1,73 @@
+characters={
+    KOS_fadil_hoxha = {
+        name = "Fadil Hoxha"
+        portraits={
+            civilian={
+                large = "gfx/leaders/KOS/Portrait_Fadil_Hoxha.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_FADIL_HOXHA_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+
+    KOS_miladin_popovic = {
+        name = "Miladin Popović"
+        portraits={
+            civilian={
+                large = "gfx/leaders/KOS/Portrait_Miladin_Popovic.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_MILADIN_POPOVIC_DESC"
+            expire = "1965.1.1"
+            ideology = spartacist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	
+	KOS_azem_galica = {
+        name = "Azem Galica"
+        portraits={
+            civilian={
+                large = "gfx/leaders/KOS/Portrait_KOS_Azem_Galica.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_AZEM_GALICA_DESC"
+            expire = "1965.1.1"
+            ideology = social_democrat_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	
+	KOS_shote_galica = {
+        name = "Shote Galica"
+        portraits={
+            army={
+                large = "gfx/leaders/KOS/Portrait_Shote_Galica.tga"
+            }
+        }
+        field_marshal={
+			traits = { trickster }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+}

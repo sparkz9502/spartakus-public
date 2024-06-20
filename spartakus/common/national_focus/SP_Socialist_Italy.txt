@@ -675,4 +675,459 @@ focus_tree = {
 		x = 1
 		y = 2
 	}
+
+	focus = {
+		id = SRI_Abstentionists_Gambit
+		icon = GFX_SRI_Republic
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		x = 30
+		y = 0
+	}
+
+	focus = {
+		id = SRI_Very_Lenin
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Abstentionists_Gambit }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Abstentionists_Gambit
+		x = 0
+		y = 1
+	}
+
+	
+	focus = {
+		id = SRI_Centralist_Centralim
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Very_Lenin }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Very_Lenin
+		x = -1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Liebknecht_CUCK
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Centralist_Centralim }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Centralist_Centralim
+		x = 0
+		y = 1
+	}
+
+	focus = {
+		id = SRI_I_Love_BEER
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Centralist_Centralim }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Centralist_Centralim
+		x = -2
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Fuck_you_Nemega
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Centralist_Centralim }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Centralist_Centralim
+		x = -1
+		y = 2
+	}
+
+	focus = {
+		id = SRI_Expanded_Wages
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_I_Love_BEER }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_I_Love_BEER
+		x = -1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Improved_Machiner
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_I_Love_BEER }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_I_Love_BEER
+		x = -3
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Ice_Pole
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_I_Love_BEER }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_I_Love_BEER
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = SRI_I_ADORE_YOU_AMADEO_BORDIGA
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Very_Lenin }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Very_Lenin
+		x = 0
+		y = 3
+	}
+
+	focus = {
+		id = SRI_Literally_1948
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_I_ADORE_YOU_AMADEO_BORDIGA }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_I_ADORE_YOU_AMADEO_BORDIGA
+		x = 0
+		y = 1
+	}
+
+	focus = {
+		id = SRI_A_Final_Solution
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Very_Lenin }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Very_Lenin
+		x = 2
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Bombacci_Bombed
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_A_Final_Solution }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_A_Final_Solution
+		x = -1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_I_love_WEED
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_A_Final_Solution }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_A_Final_Solution
+		x = 0
+		y = 2
+	}
+
+	
+	focus = {
+		id = SRI_reformists_deformed
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_A_Final_Solution }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_A_Final_Solution
+		x = 1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_GONZAAALO
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_reformists_deformed }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_reformists_deformed
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = SRI_Minmaxxing
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_A_Final_Solution }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_A_Final_Solution
+		x = 3
+		y = 1
+	}
+
+	focus = {
+		id = SRI_PDX_GMG
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_A_Final_Solution }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_A_Final_Solution
+		x = 2
+		y = 2
+	}
+
+	focus = {
+		id = SRI_Constitution_Prostitution
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_GONZAAALO }
+		prerequisite = { focus = SRI_Literally_1948 }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_GONZAAALO
+		x = -2
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Kemal
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Constitution_Prostitution }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Constitution_Prostitution
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = SRI_Orwell_OWNED
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Kemal }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Kemal
+		x = -1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Cammate_with_Matches
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Kemal }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Kemal
+		x = 1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Law_of_Value
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Ice_Pole }
+		prerequisite = { focus = SRI_Literally_1948 }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Ice_Pole
+		x = 2
+		y = 1
+	}
+
+	focus = {
+		id = SRI_UnderURMOM
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Law_of_Value }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Law_of_Value
+		x = -1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_Antisimp_is_worst_product_of_simp
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Law_of_Value }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Law_of_Value
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = SRI_DergDENG
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_UnderURMOM }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_UnderURMOM
+		x = 0
+		y = 2
+	}
+
+	focus = {
+		id = SRI_Literally_Levi
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_Law_of_Value }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Law_of_Value
+		x = 1
+		y = 1
+	}
+
+	focus = {
+		id = SRI_BRIAN_DMG
+		icon = GFX_SRI_Republic
+		prerequisite = { focus = SRI_DergDENG}
+		prerequisite = { focus = SRI_Cammate_with_Matches }
+		prerequisite = { focus = SRI_Orwell_OWNED }
+		cost = 1
+		ai_will_do = {
+			factor = 100
+		}
+		completion_reward = {
+		
+		}
+		relative_position_id = SRI_Orwell_OWNED
+		x = 0
+		y = 1
+	}
+
+
+
 }

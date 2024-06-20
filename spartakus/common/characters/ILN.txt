@@ -1,0 +1,79 @@
+characters={
+	ILN_benito_mussolini={
+		name="Benito Mussolini"
+		portraits={
+			civilian={
+				large="gfx/leaders/ILN/Portrait_Benito_Mussolini.tga"
+			}
+			army={
+				large="gfx/leaders/ILN/Portrait_Benito_Mussolini.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BENITO_MUSSOLINI_DESC"
+			ideology=national_corporatist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal = {
+			traits = { politically_connected harsh_leader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 1
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	ILN_italo_balbo={
+		name="Italo Balbo"
+		portraits={
+			army={
+				large="gfx/leaders/ILN/Portrait_Italo_Balbo.tga"
+			}
+		}
+		field_marshal={
+			traits = { war_hero career_officer politically_connected }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	ILN_junio_valerio_borghese={
+		name="Junio Valerio Borghese"
+		portraits={
+			army={
+				large="gfx/leaders/ILN/Portrait_Junio_Valerio_Borghese.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected inflexible_strategist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	ILN_ademollo_lambruschini={
+		name="Ademollo Lambruschini"
+		portraits={
+			army={
+				large="gfx/leaders/ILN/Portrait_Ademollo_Lambruschini.tga"
+			}
+		}
+		corps_commander={
+			traits = { politically_connected harsh_leader }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+}

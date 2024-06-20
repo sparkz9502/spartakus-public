@@ -1,36 +1,36 @@
 ﻿capital = 1486
-OOB = "SCH"
+set_oob = "SCH"
+set_research_slots = 2
+set_stability = 0.2
+set_war_support = 0.4
+
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_pro
 	economy_unind
 	mobilization_1
 }
-set_research_slots = 2
+
+### Country Leaders ###
+recruit_character = SCH_liu_xiang
+
+### Starting Tech ###
 set_technology = {
-	#### MOD ####
-	#### General ####
+	### General ###
+	basic_train = 1
 	
-	#### Navy ####
-	early_destroyer = 1
-	#### Tanks ####
-	gwtank = 1
-	#### INF ####
+	### Infantry ###
 	infantry_weapons = 1
-	tech_support = 1
 	gw_artillery = 1
-	#### AIR ####
-	early_fighter = 1
-	early_bomber = 1
 }
+
+### Politics ###
 
 set_politics = {	
 	ruling_party = authoritarian_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -47,27 +47,3 @@ set_popularities = {
     national_syndicalist = 0
     national_corporatist = 0
 }
-
-
-create_country_leader = {
-	name = "Liu Xiang"
-	desc = "FNG_Liu_Xiang_desc"
-	picture = "Portrait_Liu_Xiang.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {}
-}
-
-set_convoys = 30
-
-### Field Marshal
-create_field_marshal = {
-	name = "Liu Xiang"
-	picture = "Portrait_Liu_Xiang.tga"
-	traits = {
-		offensive_doctrine
-	}
-	skill = 3
-}
-
-### Navy Leader

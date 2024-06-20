@@ -1,20 +1,23 @@
 ﻿capital = 107
-
 set_oob = "SER"
-
 set_research_slots = 2
+set_stability = 0.1
+set_war_support = 0.1
 
 add_ideas = {
+	### Laws ###
 	recruitment_1830
 	governance_abs
 	trade_pro
 	economy_indzing
 	mobilization_2
 	
+	### National Spirits ###
     WB_Idea_Illiteracy_High
 	SER_The_Decade_of_Silence
 	SER_Decree_on_the_Colonization_of_the_Southern_Regions
 	
+	### Ministers ###
 	SER_Milan_Acimovic_hog_rwp
 	SER_Ninko_Peric_for_sco
 	SER_Milan_Srskic_eco_ade
@@ -22,28 +25,66 @@ add_ideas = {
 	SER_Bosko_Becarevic_def_rwp
 }
 
+### Country Leaders ###
+recruit_character = SER_petar_ii
+recruit_character = SER_aleksa_stanojevic
+recruit_character = SER_milan_pribicevic
+recruit_character = SER_ljubomir_davidovic
+recruit_character = SER_dragisa_lapcevic
+recruit_character = SER_komitet_KPJ
+
+### Field Marshals ###
+recruit_character = SER_konstantin_pecanac
+recruit_character = SER_petar_bojovic
+
+### Generals ###
+recruit_character = SER_dusan_trifunovic
+recruit_character = SER_petar_vukcevic
+recruit_character = SER_ljubomir_maric
+recruit_character = SER_milorad_petrovic
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
-	infantry_weapons1 = 1
 	tech_support = 1
 	tech_recon = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	gwtank = 1
-	early_fighter = 1
+}
+### Air - BBA ###
+if = {
+	limit = { 
+		has_dlc = "By Blood Alone" 
+	}
+	set_technology = {
+		aa_lmg = 1
+		engines_1 = 1
+		early_bombs = 1
+		iw_small_airframe = 1
+	}
+}
+### Air - no BBA ###
+if = {
+	limit = { 
+		NOT = { has_dlc = "By Blood Alone" }
+	}
+	set_technology = {
+		early_fighter = 1
+		CAS1 = 1
+	}
 }
 
-add_opinion_modifier = { target = ITA modifier = SP_horrible_relations }
-add_opinion_modifier = { target = ITA modifier = SP_horrible_relations_trade }
+### Politics ###
 
 country_lock_all_division_template = yes
 
 set_politics = {
 	ruling_party = right_wing_populist
-	last_election = "1888.6.15"
-	election_frequency = 48
 	elections_allowed = no
-
 }
 
 set_popularities = {
@@ -60,8 +101,6 @@ set_popularities = {
 	national_syndicalist = 0
 	national_corporatist = 0
 }
-set_stability = 0.1
-set_war_support = 0.1
 
 set_country_flag = Serbs_cant_read
 
@@ -74,237 +113,7 @@ set_country_flag = banned_revolutionary_socialist
 set_country_flag = banned_spartacist
 set_country_flag = banned_bolshevist
 
-create_country_leader = {
-	name = "Petar II"
-	desc = ""
-	picture = "Portrait_Serbia_[B]eter II.tga"
-	expire = "1965.1.1"
-	ideology = authoritarian_conservative_subtype
-	traits = {
-		heir_of_unpopular_dynasty
-	}
-}
+### Diplomacy ###
 
-create_country_leader = {
-	name = "Petar II"
-	desc = ""
-	picture = "Portrait_Serbia_[B]eter II.tga"
-	expire = "1965.1.1"
-	ideology = right_wing_populist_subtype
-	traits = {
-		heir_of_unpopular_dynasty
-	}
-}
-
-create_country_leader = {
-	name = "Petar II"
-	desc = ""
-	picture = "Portrait_Serbia_[B]eter II.tga"
-	expire = "1965.1.1"
-	ideology = national_syndicalist_subtype
-	traits = {
-		heir_of_unpopular_dynasty
-	}
-}
-
-create_country_leader = {
-	name = "Aleksa Stanojević"
-	desc = ""
-	picture = "Portrait_Serbia_Aleksa_Stanojevic.tga"
-	expire = "1965.1.1"
-	ideology = social_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Milan Pribićević"
-	desc = ""
-	picture = "Portrait_Serbia_Milan_Pribicevic.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Konstantin Milovanović Pećanac"
-	desc = ""
-	picture = "Portrait_Serbia_Konstantin_Milovanović_Pecanac.tga"
-	expire = "1965.1.1"
-	ideology = national_corporatist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Aleksa Stanojević"
-	desc = ""
-	picture = "Portrait_Serbia_Aleksa_Stanojevic.tga"
-	expire = "1965.1.1"
-	ideology = liberal_conservative_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ljubomir Davidović"
-	desc = ""
-	picture = "Portrait_Ljubomir_Davidovic.dds"
-	expire = "1965.1.1"
-	ideology = social_liberal_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Ljubomir Davidović"
-	desc = ""
-	picture = "Portrait_Ljubomir_Davidovic.dds"
-	expire = "1965.1.1"
-	ideology = social_democrat_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Dragiša Lapčević"
-	desc = ""
-	picture = "Portrait_Dragisa_Lapcevic.dds"
-	expire = "1965.1.1"
-	ideology = reformist_socialist_subtype
-	traits = {
-		#
-	}
-}
-
-create_country_leader = {
-	name = "Centralni Komitet KPJ"
-	desc = ""
-	picture = "Portrait_KPJ.dds"
-	expire = "1965.3.1"
-	ideology = revolutionary_socialist_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Centralni Komitet KPJ"
-	desc = ""
-	picture = "Portrait_KPJ.dds"
-	expire = "1965.3.1"
-	ideology = spartacist_subtype
-	traits = {
-		
-	}
-}
-
-create_country_leader = {
-	name = "Centralni Komitet KPJ"
-	desc = ""
-	picture = "Portrait_KPJ.dds"
-	expire = "1965.3.1"
-	ideology = bolshevist_subtype
-	traits = {
-		
-	}
-}
-
-create_field_marshal = {
-    name = "Konstantin Milovanović Pećanac"
-    portrait_path = "gfx/leaders/SER/Portrait_Serbia_Konstantin_Milovanovic_Pecanac.tga"
-    traits = {
-    trait_reckless
-	aggressive_assaulter
-	politically_connected
-    }
-    skill = 2
-    attack_skill = 1
-    defense_skill = 2
-    planning_skill = 3
-    logistics_skill = 3
-	id = 206
-}
-
-create_field_marshal = {
-    name = "Petar Bojović"
-    portrait_path = "gfx/leaders/SER/Portrait_Petar_Bojovic.dds"
-    traits = {
-    brilliant_strategist
-    offensive_doctrine
-    old_guard
-    war_hero
-    }
-    skill = 4
-    attack_skill = 3
-    defense_skill = 2
-    planning_skill = 2
-    logistics_skill = 2
-	id = 205
-}
-
-create_corps_commander = {
-	name = "Dušan Trifunović"
-	portrait_path = "gfx/leaders/SER/Portrait_Serbia_Dusan_Trifunovic.tga"
-	traits = {
-	    unyielding_defender
-	    trait_mountaineer
-	}
-	skill = 1
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 1
-	id = 207
-}
-
-create_corps_commander = {
-	name = "Petar Vukčević"
-	portrait_path = "gfx/leaders/SER/Portrait_Serbia_Petar_Vukcevic.tga"
-	traits = {
-	    camouflage_expert
-	}
-	skill = 2
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 1
-	logistics_skill = 2
-	id = 208
-}
-
-create_corps_commander = {
-	name = "Ljubomir Marić"
-	portrait_path = "gfx/leaders/SER/Portrait_Serbia_Lubomir_Maric.tga"
-	traits = {
-	    career_officer
-	    combined_arms_expert
-	}
-	skill = 2
-	attack_skill = 1
-	defense_skill = 2
-	planning_skill = 2
-	logistics_skill = 2
-	id = 209
-}
-
-create_corps_commander = {
-	name = "Milorad Petrović"
-	portrait_path = "gfx/leaders/SER/Portrait_Serbia_Milorad_Petrovic.tga"
-	traits = {
-	    trait_cautious
-		harsh_leader
-	}
-	skill = 3
-	attack_skill = 2
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 1
-	id = 210
-}
+add_opinion_modifier = { target = ITA modifier = SP_horrible_relations }
+add_opinion_modifier = { target = ITA modifier = SP_horrible_relations_trade }

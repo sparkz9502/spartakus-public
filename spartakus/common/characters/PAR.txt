@@ -1,0 +1,19 @@
+characters={
+	PAR_emiliano_gonzalez_navero = {
+        name = "Emiliano González Navero"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PAR/Portrait_Emiliano_Gonzalez_Navero.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_EMILIANO_NAVERO_DESC"
+            expire = "1965.1.1"
+            ideology = liberal_conservative_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

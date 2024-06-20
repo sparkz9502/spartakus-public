@@ -1,0 +1,476 @@
+﻿division_template = {
+	name = "Piyade Tümeni"  			# Infantry Division
+
+	division_names_group = TUR_INF_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+		infantry = { x = 1 y = 0 }
+		infantry = { x = 1 y = 1 }
+		infantry = { x = 1 y = 2 } 
+		infantry = { x = 2 y = 0 }
+		artillery_brigade = { x = 2 y = 1 }
+		artillery_brigade = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Dağcı Tümeni" 				# Mountain Division
+
+	division_names_group = TUR_MTN_01
+
+	regiments = {
+		mountaineers = { x = 0 y = 0 }
+		mountaineers = { x = 0 y = 1 }
+		mountaineers = { x = 0 y = 2 }
+		mountaineers = { x = 1 y = 0 }
+		mountaineers = { x = 1 y = 1 }
+		mountaineers = { x = 1 y = 2 }
+		mountaineers = { x = 2 y = 0 }
+		mountaineers = { x = 2 y = 1 }
+		mountaineers = { x = 2 y = 2 }
+	}
+}
+division_template = {
+	name = "Asâkir-i Zaptiye Nizâmnâmesi" 				# Fortress Brigade - garrison brigade, lower experience and equipment
+
+	division_names_group = TUR_GAR_01
+
+	regiments = {
+		infantry = { x = 0 y = 0 }
+		infantry = { x = 0 y = 1 }
+		infantry = { x = 0 y = 2 }
+	}
+	priority = 0
+}
+division_template = {
+	name = "Kapikulu Sipahis" 				# Cavalry Division
+
+	division_names_group = TUR_CAV_01
+
+	regiments = {
+		cavalry = { x = 0 y = 0 }
+		cavalry = { x = 0 y = 1 }
+		cavalry = { x = 0 y = 2 }
+		cavalry = { x = 1 y = 0 }
+		cavalry = { x = 1 y = 1 }
+		cavalry = { x = 1 y = 2 }
+	}
+}
+
+units = {
+	######## LAND UNITS ########
+	##### Türk Ordusu #####
+	division = {
+		#name = "Kapikulu Sipahis"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 11747
+		division_template = "Kapikulu Sipahis" 
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		#name = "Kapikulu Sipahis"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11747
+		division_template = "Kapikulu Sipahis" 
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		#name = "Kapikulu Sipahis"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 11747
+		division_template = "Kapikulu Sipahis" 
+		start_experience_factor = 0.7
+		start_equipment_factor = 1.0
+
+	}
+	## VI. Kolordu ##
+	division = {
+		#name = "2. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11753
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+
+	}
+	division = {
+		#name = "3. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 7470
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 1
+		}
+		location = 921
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 2
+		}
+		location = 11881
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 3
+		}
+		location = 921
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 11881
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 921
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11881
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.2
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "Asâkir-i Zaptiye Nizâmnâmesi"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 921
+		division_template = "Asâkir-i Zaptiye Nizâmnâmesi" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 1.0
+
+	}
+	division = {
+		#name = "4. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 4
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "5. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 5
+		}
+		location = 9858
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "6. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 6
+		}
+		location = 11853
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "7. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 7
+		}
+		location = 9858
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		#name = "8. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 8
+		}
+		location = 11753
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.9
+	}
+	division = {
+		#name = "9. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 9
+		}
+		location = 7470
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.7
+	}
+	division = {
+		#name = "10. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 10
+		}
+		location = 1005
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		#name = "11. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 11
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "12. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 12
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "13. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 13
+		}
+		location = 1005
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		#name = "14. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 14
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "15. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 15
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "16. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 16
+		}
+		location = 1005
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		#name = "17. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 17
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "18. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 18
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.5
+		start_equipment_factor = 0.8
+	}
+	division = {
+		#name = "19. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 19
+		}
+		location = 1005
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.4
+		start_equipment_factor = 0.7
+	}
+	division = {
+		#name = "1. Dagci Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 20
+		}
+		location = 6991
+		division_template = "Dağcı Tümeni" 
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "2. Dagci Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 21
+		}
+		location = 6991
+		division_template = "Dağcı Tümeni" 
+		start_experience_factor = 0.6
+		start_equipment_factor = 1.0
+	}
+	division = {
+		#name = "3. Dagci Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 22
+		}
+		location = 1005
+		division_template = "Dağcı Tümeni" 
+		start_experience_factor = 0.6
+		start_equipment_factor = 1
+	}
+	division = {
+		#name = "23. Piyade Tümeni"
+		division_name = {    # New syntax for compatibility with name lists
+			is_name_ordered = yes
+			name_order = 23
+		}
+		location = 6991
+		division_template = "Piyade Tümeni" 
+		start_experience_factor = 0.3
+		start_equipment_factor = 0.8
+	}
+}
+
+### Starting Production ###
+instant_effect = {
+	add_equipment_production = {
+		equipment = {
+			type = infantry_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = support_equipment_1
+			creator = "TUR"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = artillery_equipment_1
+			creator = "FRA"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = fighter_equipment_0
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.47
+		efficiency = 100
+	}
+	add_equipment_production = {
+		equipment = {
+			type = CAS_equipment_1
+			creator = "ENG"
+		}
+		requested_factories = 1
+		progress = 0.43
+		efficiency = 100
+	}
+}

@@ -1,0 +1,517 @@
+characters={
+	LIV_rudiger_von_der_goltz={
+		name="Rüdiger von der Goltz"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIV/Portrait_Rudiger_von_der_Goltz.tga"
+			}
+			army={
+				large="gfx/leaders/LIV/Portrait_Rudiger_von_der_Goltz.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_RUDIGER_GOLTZ_DESC"
+			ideology=military_junta
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits = { old_guard offensive_doctrine logistics_wizard media_personality war_hero politically_connected career_officer }
+			skill = 5
+			attack_skill = 4
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LIV_alfred_fletcher={
+		name="Alfred Fletcher"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIV/Portrait_Alfred_Fletcher.tga"
+			}
+			army={
+				large="gfx/leaders/LIV/Portrait_Alfred_Fletcher.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALFRED_FLETCHER_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits = { old_guard logistics_wizard defensive_doctrine war_hero politically_connected trait_cautious }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_georg_von_manteuffel_szoege={
+		name="Georg von Manteuffel-Szoege"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIV/Portrait_Georg_von_Manteuffel-Szoege.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GEORG_VON_MANTEUFFEL_SZOEGE_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_paul_schiemann={
+		name="Paul Schiemann"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIV/Portrait_Paul_Schiemann.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PAUL_SCHIEMANN_DESC"
+			ideology=social_liberal_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_karlis_ulmanis={
+		name="Kārlis Ulmanis"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Karlis_Ulmanis.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_KARLIS_ULMANIS_DESC"
+			ideology=national_liberalism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_gustavs_celmins={
+		name="Gustavs Celmiņš"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Gustavs_Celmins.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GUSTAVS_CELMINS_DESC"
+			ideology=clerical_fascism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_alfred_rosenberg={
+		name="Alfred Rosenberg"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIV/Portrait_Alfred_Rosenberg.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ALFRED_ROSENBERG_DESC"
+			ideology=national_syndicalist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_otto_braun={
+		name="Otto Braun"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIV/Portrait_Otto_Braun.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_OTTO_BRAUN_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_fricis_menders={
+		name="Fricis Menders"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Fricis_Menders.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_FRICIS_MENDERS_DESC"
+			ideology=reformist_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_janis_kalnberzins={
+		name="Jānis Kalnbērziņš"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Janis_Kalnberzins.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_JANIS_KALNBERZINS_DESC"
+			ideology=spartacist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_peteris_stucka={
+		name="Pēteris Stučka"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Peteris_Stucka.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_PETERIS_STUCKA_DESC"
+			ideology=bolshevist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_margers_skujenieks={
+		name="Marģers Skujenieks"
+		portraits={
+			civilian={
+				large="gfx/leaders/LAT/Portrait_Margers_Skujenieks.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_MARGERS_SKUJENIEKS_DESC"
+			ideology=revolutionary_socialist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LIV_harold_alexander={
+		name="Harold Alexander"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Harold_Alexander.tga"
+			}
+		}
+		field_marshal={
+			traits = { logistics_wizard war_hero ranger media_personality career_officer old_guard brilliant_strategist }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_pavel_bermont_avalov={
+		name="Pavel Bermont-Avalov"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Pavel_Bermondt_Avalov.tga"
+			}
+		}
+		field_marshal={
+			traits = { old_guard career_officer inspirational_leader politically_connected thorough_planner reckless }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIV_heinz_guderian={
+		name="Heinz Guderian"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Heinz_Guderian.tga"
+			}
+		}
+		corps_commander={
+			traits = { trickster brilliant_strategist panzer_leader armor_officer career_officer politically_connected }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 4
+			planning_skill = 4
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LIV_hans_baron_manteuffel_szoege={
+		name="Hans Baron Manteuffel-Szoege"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Hans_Baron_Manteuffel_Szoege.tga"
+			}
+		}
+		corps_commander={
+			traits = { trickster panzer_leader war_hero }
+			skill = 4
+			attack_skill = 3
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_wessel_freytag_von_loringhoven={
+		name="Wessel Freytag von Loringhoven"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Wessel_Freytag_von_Loringhoven.tga"
+			}
+		}
+		corps_commander={
+			traits = { trickster infantry_officer }
+			skill = 4
+			attack_skill = 2
+			defense_skill = 3
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LIV_josef_bischoff={
+		name="Josef Bischoff"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Josef_Bischoff.tga"
+			}
+		}
+		corps_commander={
+			traits = { trickster politically_connected harsh_leader }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIV_eberhard_von_mackensen={
+		name="Eberhard von Mackensen"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Eberhard_von_Mackensen.tga"
+			}
+		}
+		corps_commander={
+			traits = { career_officer old_guard inflexible_strategist }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIV_janis_balodis={
+		name="Jānis Balodis"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Janis_Balodis.tga"
+			}
+		}
+		corps_commander={
+			traits = { career_officer commando }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIV_felix_steiner={
+		name="Felix Steiner"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Felix_Steiner.tga"
+			}
+		}
+		corps_commander={
+			traits = { hill_fighter }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 3
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_kurt_jahn={
+		name="Kurt Jahn"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Kurt_Jahn.tga"
+			}
+		}
+		corps_commander={
+			traits = { fortress_buster }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_ewald_von_kleist={
+		name="Ewald von Kleist"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Ewald_von_Kleist.tga"
+			}
+		}
+		corps_commander={
+			traits = { armor_officer trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_alfred_von_randow={
+		name="Alfred von Randow"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Alfred_von_Randow.tga"
+			}
+		}
+		corps_commander={
+			traits = { hill_fighter trait_cautious }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIV_heinrich_baron_von_behr={
+		name="Heinrich Baron von Behr"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Heinrich_Baron_von_Behr.tga"
+			}
+		}
+		corps_commander={
+			traits = { urban_assault_specialist }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_rudolf_bader={
+		name="Rudolf Bader"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Rudolf_Bader.tga"
+			}
+		}
+		corps_commander={
+			traits = { cavalry_officer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_botho_wendt_graf_zu_eulenburg={
+		name="Botho-Wendt Graf zu Eulenburg"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Botho_Wendt_Graf_zu_Eulenburg.tga"
+			}
+		}
+		corps_commander={
+			traits = { trait_engineer }
+			skill = 2
+			attack_skill = 1
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 2
+			legacy_id=-1
+		}
+	}
+	LIV_karlis_aperats={
+		name="Karlis Aperats"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Karlis_Aperats.tga"
+			}
+		}
+		corps_commander={
+			traits = { trait_cautious harsh_leader }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LIV_heinrich_graf_zu_dohna_schlobitten={
+		name="Heinrich Graf zu Dohna-Schlobitten"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Heinrich_Graf_Zu_Dohna_Schlobitten.tga"
+			}
+		}
+		corps_commander={
+			traits = { trait_reckless }
+			skill = 1
+			attack_skill = 1
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LIV_alexander_von_salza={
+		name="Alexander von Salza"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Alexander_von_Salza.tga"
+			}
+		}
+		navy_leader={
+			traits = { superior_tactician }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+	LIV_archibald_von_keyserling={
+		name="Archibald von Keyserling"
+		portraits={
+			army={
+				large="gfx/leaders/LIV/Portrait_Archibald_von_Keyserling.tga"
+			}
+		}
+		navy_leader={
+			traits = { spotter }
+			skill=2
+			attack_skill=2
+			defense_skill=2
+			maneuvering_skill=2
+			coordination_skill=2
+			legacy_id=-1
+		}
+	}
+}

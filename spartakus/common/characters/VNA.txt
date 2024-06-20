@@ -1,0 +1,16 @@
+characters={
+	VNA_central_committee_pni={
+		name="Central Committee of the PNI"
+		portraits={
+			civilian={
+				large="gfx/leaders/VNA/Portrait_VNA_PNI.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_VNA_PNI_DESC"
+			ideology=social_democrat_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

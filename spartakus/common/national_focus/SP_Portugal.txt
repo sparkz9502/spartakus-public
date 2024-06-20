@@ -71,21 +71,21 @@ focus_tree = {
 			179 = {
 				add_building_construction = {
     				type = infrastructure
-    				level = 2
+    				level = 1
     				instant_build = yes
 				}
 			}
 			181 = {
 				add_building_construction = {
     				type = infrastructure
-    				level = 2
+    				level = 1
     				instant_build = yes
 				}
 			}
 			1028 = {
 				add_building_construction = {
     				type = infrastructure
-    				level = 2
+    				level = 1
     				instant_build = yes
 				}
 			}

@@ -1,0 +1,31 @@
+characters={
+    TCS_oraz_sirdar = {
+        name = "Oraz Sirdar"
+        portraits={
+            civilian={
+                large = "gfx/leaders/TCS/Portrait_Oraz_Sirdar.tga"
+            }
+			army={
+                large = "gfx/leaders/TCS/Portrait_Oraz_Sirdar.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_ORAZ_SIRDAR_DESC"
+            expire = "1965.1.1"
+            ideology = military_junta
+            traits = {
+				#
+            }
+            id=-1
+        }
+		field_marshal={
+			traits = { }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+			legacy_id=-1
+		}
+    }
+}

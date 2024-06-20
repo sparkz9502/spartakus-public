@@ -6,7 +6,8 @@ state={
 	}
 
 	history={
-		owner = OTT
+		owner = GRE
+
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -20,6 +21,7 @@ state={
 			6895 3
 		}
 		add_core_of = OTT
+		add_claim_by = GRE
 
 	}
 

@@ -30,6 +30,12 @@ state={
 
 	}
 
+	#add_dynamic_modifier = {
+    #modifier = HUN_slovak_sr
+    #scope = HUN
+    #days = -1
+	#}
+
 	provinces={
 		541 3484 9539 9551 9692 11522 
 	}

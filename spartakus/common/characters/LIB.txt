@@ -1,0 +1,16 @@
+characters={
+	LIB_edwin_barclay={
+		name="Edwin Barclay"
+		portraits={
+			civilian={
+				large="gfx/leaders/LIB/Portrait_Edwin_Barclay.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_EDWIN_BARCLAY_DESC"
+			ideology=national_conservatism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

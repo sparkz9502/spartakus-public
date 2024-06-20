@@ -1,0 +1,29 @@
+
+state={
+	id=1153
+	name="STATE_1153"
+	resources={
+		coal = 1
+	}
+	history={
+		owner = MNT
+		add_core_of = MNT
+		add_claim_by = SER
+		buildings = {
+			infrastructure = 1
+
+		}
+		
+		victory_points = {
+			14556 1 
+		}
+
+	}
+
+	provinces={
+		6913 14556 
+	}
+	manpower=92563
+	buildings_max_level_factor=1.000
+	state_category=wasteland
+}

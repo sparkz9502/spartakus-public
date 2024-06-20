@@ -1,0 +1,16 @@
+characters={
+	INC_georges_catroux={
+		name="Georges Catroux"
+		portraits={
+			civilian={
+				large="gfx/leaders/FRA/Portrait_Georges_Catroux.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_GEORGES_CATROUX_DESC"
+			ideology=authoritarian_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

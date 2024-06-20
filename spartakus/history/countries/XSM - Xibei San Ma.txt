@@ -1,8 +1,10 @@
 ﻿capital = 604
-
-set_oob = "XSM"
+set_research_slots = 3
+set_stability = 0.5
+set_war_support = 0.5
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_abs
 	trade_pro
@@ -10,53 +12,32 @@ add_ideas = {
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+
+### Starting Tech ###
 set_technology = {
 	infantry_weapons = 1
-	mass_assault = 1
+	# TECH GETS COPIED FROM OVERLORD #
 }
 
-set_politics = {	
-	ruling_party = right_wing_populist
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
+### Politics ###
 
+set_politics = {	
+	ruling_party = authoritarian_conservative
+	elections_allowed = no
 }
 
 set_popularities = {
-    bolshevist = 1
-    spartacist = 4
-    revolutionary_socialist = 1
-    reformist_socialist = 2
-    social_democrat = 18
-    social_liberal = 1
-    liberal_conservative = 5
-    social_conservative = 6
-    authoritarian_conservative = 12
-    right_wing_populist = 31
-    national_syndicalist = 5
-    national_corporatist = 14
-}
-
-create_country_leader = {
-	name = "Ma Fuxiang"
-	desc = ""
-	picture = "Portrait_Ma_Fuxiang.tga"
-	expire = "1965.1.1"
-	ideology = reactionary_republicanism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Ma Hongbin"
-	portrait_path = "gfx/leaders/Asia/Portrait_Asia_Generic_land_2.dds"
-	traits = { }
-	skill = 3
-	attack_skill = 2
-	defense_skill = 3
-	planning_skill = 3
-	logistics_skill = 2
+    bolshevist = 0
+    spartacist = 0
+    revolutionary_socialist = 0
+    reformist_socialist = 0
+    social_democrat = 0
+    social_liberal = 0
+    liberal_conservative = 0
+    social_conservative = 0
+    authoritarian_conservative = 100
+    right_wing_populist = 0
+    national_syndicalist = 0
+    national_corporatist = 0
 }

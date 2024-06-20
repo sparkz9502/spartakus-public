@@ -4,7 +4,7 @@ state={
 	name="STATE_1034"
 
 	history={
-		owner = SOV
+		owner = OTT
 		buildings = {
 			infrastructure = 2
 			11753 = {
@@ -13,8 +13,8 @@ state={
 			}
 
 		}
-		add_core_of = SOV
-		add_claim_by = OTT
+		add_core_of = OTT
+		add_claim_by = SOV
 		add_claim_by = ARM
 
 	}

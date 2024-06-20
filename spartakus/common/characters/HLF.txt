@@ -1,0 +1,40 @@
+characters={
+    HLF_peng_pai = {
+        name = "Peng Pai"
+        portraits={
+            civilian={
+                large = "gfx/leaders/HLF/Portrait_Peng_Pai.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_PENG_PAI_DESC"
+            expire = "1965.1.1"
+            ideology = marxist_leninism
+            traits = {
+                #
+            }
+            id=-1
+        }
+    }
+
+
+    ## Field Marshals and Generals
+
+    HLF_ye_ting = {
+        name = "Ye Ting"
+        portraits={
+            army={
+                large = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
+            }
+        }
+        corps_commander={
+            traits = { defensive_doctrine trait_cautious infantry_officer }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 2
+			logistics_skill = 2
+            legacy_id=-1
+        }
+    }
+}

@@ -13,6 +13,12 @@ add_ideas = {
 	governance_par
 	trade_sempro
 	economy_semind
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_low
+	judiciary_impartial
 	mobilization_3
 	
 	### National Spirits ###
@@ -93,7 +99,6 @@ if = {
 		basic_battery = 1
 		basic_torpedo = 1
 		basic_depth_charges = 1
-		basic_secondary_battery = 1
 		basic_cruiser_armor_scheme = 1
 		mtg_transport = 1
 	}

@@ -1,11 +1,59 @@
 ﻿capital = 9
-
 set_oob = "CZE"
-
+set_research_slots = 3
 set_stability = 0.65
 set_war_support = 0.25
 
+add_ideas = {
+	### Laws ###
+	recruitment_1830
+	governance_exec
+	trade_sempro
+	economy_ind
+	mobilization_3
+	
+	### National Spirits ###
+	CZE_struggling_economy
+	CZE_isolated_nation
+}
+
+### Country Leaders ###
+recruit_character = CZE_tomas_garrigue_masaryk
+recruit_character = CZE_hans_knirsch
+recruit_character = CZE_bohumir_smeral
+recruit_character = CZE_bohumil_jilek
+recruit_character = CZE_alois_muna
+recruit_character = CZE_bohuslav_vrbensky
+
+### Field Marshals ###
+recruit_character = CZE_jan_syrovy
+recruit_character = CZE_ludvik_krejci
+recruit_character = CZE_josef_bily
+
+### Generals ###
+recruit_character = CZE_alois_elias
+recruit_character = CZE_antonin_basl
+recruit_character = CZE_bohuslav_vseticka
+recruit_character = CZE_emanuel_moravec
+recruit_character = CZE_frantisek_balate
+recruit_character = CZE_frantisek_blaha
+recruit_character = CZE_frantisek_slunecko
+recruit_character = CZE_hugo_vojta
+recruit_character = CZE_josef_snejdarek
+recruit_character = CZE_lev_prchala
+recruit_character = CZE_radola_gajda
+recruit_character = CZE_rudolf_medek
+recruit_character = CZE_sergej_vojcechovsky
+recruit_character = CZE_vaclav_moravek
+recruit_character = CZE_vojtech_luza
+recruit_character = CZE_zdenek_novak
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
 	infantry_weapons1 = 1
 	tech_support = 1
@@ -15,33 +63,41 @@ set_technology = {
 	tech_military_police = 1
 	tech_mountaineers = 1
 	gw_artillery = 1
-	gwtank = 1
+	
+	### Air ###
 	interwar_antiair = 1
 	early_fighter = 1
 	early_bomber = 1
 	CAS1 = 1
 }
-
-set_research_slots = 3
-
-add_ideas = {
-	recruitment_1830
-	governance_exec
-	trade_sempro
-	economy_ind
-	mobilization_3
-	
-	CZE_struggling_economy
-	CZE_isolated_nation
+### Tanks - NSB ###
+if = {
+	limit = {
+		has_dlc = "No Step Back"
+	}
+	set_technology = {
+		gwtank_chassis = 1
+	}
 }
+### Tanks - no NSB ###
+if = {
+	limit = {
+		NOT = { has_dlc = "No Step Back" }
+	}
+	set_technology = {
+		gwtank = 1
+	}
+}
+
+### Politics ###
+
 add_dynamic_modifier = { modifier = CZE_petka_modifier }
 
 set_politics = {	
 	ruling_party = social_conservative
-	last_election = "1888.6.15"
-	election_frequency = 48
-	elections_allowed = no
-
+	last_election = "1929.10.27"
+	election_frequency = 60
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -66,33 +122,7 @@ set_country_flag = coalition_social_conservative
 set_country_flag = coalition_authoritarian_conservative
 set_country_flag = coalition_right_wing_populist
 
-recruit_character = CZE_tomas_garrigue_masaryk
-recruit_character = CZE_alois_elias
-recruit_character = CZE_alois_muna
-recruit_character = CZE_antonin_basl
-recruit_character = CZE_bohumil_jilek
-recruit_character = CZE_bohumir_smeral
-recruit_character = CZE_bohuslav_vrbensky
-recruit_character = CZE_bohuslav_vseticka
-recruit_character = CZE_emanuel_moravec
-recruit_character = CZE_frantisek_balate
-recruit_character = CZE_frantisek_blaha
-recruit_character = CZE_frantisek_slunecko
-recruit_character = CZE_hans_knirsch
-recruit_character = CZE_hugo_vojta
-recruit_character = CZE_jan_syrovy
-recruit_character = CZE_josef_bily
-recruit_character = CZE_josef_snejdarek
-recruit_character = CZE_lev_prchala
-recruit_character = CZE_ludvik_krejci
-recruit_character = CZE_radola_gajda
-recruit_character = CZE_rudolf_medek
-recruit_character = CZE_sergej_vojcechovsky
-recruit_character = CZE_vaclav_moravek
-recruit_character = CZE_vojtech_luza
-recruit_character = CZE_zdenek_novak
-
-### Events
+### Events ###
 
 # Intro
 country_event = { id = cze.0 hours = 6 }
@@ -115,7 +145,7 @@ country_event = { id = cze.4 days = 284 }
 # 1934 Presidential Election
 country_event = { id = cze.10 days = 873 }
 
-### Missions
+### Missions ###
 
 # Gajda Coup Progress
 set_variable = { CZE_Gajda_coup_prog_counter = 0 }

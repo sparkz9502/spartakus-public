@@ -9,6 +9,12 @@ add_ideas = {
 	governance_exec
 	trade_pro
 	economy_indzing
+	unions_suppressed
+	suffrage_universal
+	deathpenalty_legalized
+	press_free
+	welfare_low
+	judiciary_impartial
 	mobilization_1
 }
 

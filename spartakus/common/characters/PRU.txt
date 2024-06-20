@@ -1,0 +1,53 @@
+characters={
+	PRU_augusto_leguia = {
+        name = "Augusto Bernardino Leguía"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PRU/Portrait_Augusto_Leguia.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_AUGUSTO_LEGUIA_DESC"
+            expire = "1965.1.1"
+            ideology = conservative_liberalism
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	PRU_haya_de_la_torre = {
+        name = "Víctor Raúl Haya de la Torre"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PRU/Portrait_Victor_Raul_Haya_Torre.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_VICTOR_RAUL_HAYA_TORRE_DESC"
+            expire = "1965.1.1"
+            ideology = revolutionary_socialist_subtype
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+	PRU_luis_cerro = {
+        name = "Luis Miguel Sánchez Cerro"
+        portraits={
+            civilian={
+                large = "gfx/leaders/PRU/Portrait_Luis_Miguel_Sanchez_Cerro.tga"
+            }
+        }
+        country_leader={
+            desc = "POLITICS_LUIS_CERRO_DESC"
+            expire = "1965.1.1"
+            ideology = military_junta
+            traits = {
+				#
+            }
+            id=-1
+        }
+    }
+}

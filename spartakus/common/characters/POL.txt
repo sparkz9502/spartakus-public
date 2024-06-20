@@ -1,0 +1,30 @@
+characters={
+	POL_roman_dmowski={
+		name="Roman Dmowski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_Roman_Dmowski.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ROMAN_DMOWSKI_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	POL_roman_rybarski={
+		name="Roman Rybarski"
+		portraits={
+			civilian={
+				large="gfx/leaders/POL/Portrait_Roman_Rybarski.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_ROMAN_RYBARSKI_DESC"
+			ideology=national_syndicalist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+}

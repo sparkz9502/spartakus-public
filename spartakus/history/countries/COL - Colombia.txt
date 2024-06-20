@@ -1,34 +1,54 @@
 ﻿capital = 486
-
 set_oob = "COL"
+set_research_slots = 3
+set_convoys = 20
+set_stability = 0.4
+set_war_support = 0.3
 
 add_ideas = {
+	### Laws ###
 	recruitment_volunteer
 	governance_exec
 	trade_pro
 	economy_indzing
+	unions_suppressed
+	suffrage_restricted
+	deathpenalty_legalized
+	press_free
+	welfare_low
+	judiciary_impartial
 	mobilization_1
 }
 
-# Starting tech
+### Country Leaders ###
+recruit_character = COL_enrique_olaya_herrera
+
+### Generals ###
+recruit_character = COL_gustavo_rojas_pinilla
+
+### Starting Tech ###
 set_technology = {
+	### General ###
+	basic_train = 1
+	
+	### Infantry ###
 	infantry_weapons = 1
+	gw_artillery = 1
 	tech_support = 1		
 	tech_engineers = 1
-	gw_artillery = 1
+	
+	### Air ###
 	early_fighter = 1
 	cv_early_fighter = 1
-	early_destroyer = 1
 }
 
-set_convoys = 10
+### Politics ###
 
 set_politics = {	
 	ruling_party = social_liberal
-	last_election = "1888.6.15"
+	last_election = "1930.2.9"
 	election_frequency = 48
-	elections_allowed = no
-
+	elections_allowed = yes
 }
 
 set_popularities = {
@@ -48,27 +68,3 @@ set_popularities = {
 
 set_country_flag = coalition_social_democrat
 set_country_flag = coalition_reformist_socialist
-
-set_convoys = 25
-
-create_country_leader = {
-	name = "Enrique Olaya Herrera"
-	desc = "POLITICS_ENRIQUE_OLAYA_HERRERA_DESC"
-	picture = "Portrait_Enrique_Olaya_Herrera.tga"
-	expire = "1965.1.1"
-	ideology = agrarian_liberalism
-	traits = {
-		#
-	}
-}
-
-create_corps_commander = {
-	name = "Gustavo Rojas Pinilla"
-	portrait_path = "gfx/leaders/South America/Portrait_South_America_Generic_land_3.dds"
-	traits = {  trickster urban_assault_specialist }
-	skill = 3
-	attack_skill = 3
-	defense_skill = 1
-	planning_skill = 3
-	logistics_skill = 3
-}

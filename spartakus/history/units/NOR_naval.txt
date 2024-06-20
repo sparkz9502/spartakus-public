@@ -1,0 +1,122 @@
+﻿instant_effect = {
+
+	### Ship Variants ###
+
+	create_equipment_variant = {
+		name = "A & B Class"						
+		type = ship_hull_submarine_1
+		parent_version = 0
+		modules = {
+			fixed_ship_torpedo_slot = ship_torpedo_sub_1
+			fixed_ship_engine_slot = sub_ship_engine_1
+			rear_1_custom_slot = ship_mine_layer_sub
+		}
+	}
+	create_equipment_variant = {
+		name = "Draug Class"							
+		type = ship_hull_light_1
+		name_group = NOR_DD
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_torpedo_1
+			rear_1_custom_slot = empty
+		}
+	}
+	create_equipment_variant = {
+		name = "Frøya Class"	
+		type = ship_hull_light_1
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = empty
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = empty
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+		obsolete = yes
+	}
+	create_equipment_variant = {
+		name = "Olaf Tryggvason Class"	
+		type = ship_hull_light_2
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_light_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = light_ship_engine_1
+			fixed_ship_torpedo_slot = ship_torpedo_1
+			mid_1_custom_slot = ship_mine_layer_1
+			rear_1_custom_slot = ship_mine_layer_1
+		}
+	}
+	create_equipment_variant = {
+		name = "Norge Class"				
+		type = ship_hull_cruiser_coastal_defense_ship
+		name_group = NOR_CA
+		parent_version = 0
+		modules = {
+			fixed_ship_battery_slot = ship_medium_battery_1
+			fixed_ship_anti_air_slot = ship_anti_air_1
+			fixed_ship_fire_control_system_slot = ship_fire_control_system_0
+			fixed_ship_radar_slot = empty
+			fixed_ship_engine_slot = cruiser_ship_engine_1
+			fixed_ship_armor_slot = ship_armor_cruiser_1
+			fixed_ship_secondaries_slot = ship_secondaries_1
+			mid_1_custom_slot = empty
+			mid_2_custom_slot = empty
+			rear_1_custom_slot = empty
+		}
+	}
+}
+
+units = {
+	fleet = {
+		name = "Kongelige Norske Marine"			
+		naval_base = 9296 # Kristiansand
+		task_force = {					
+			name = "1. Sjøforsvarsdistrikt"				
+			location =  9296 # Kristiansand
+			ship = { name = "HNoMS Harald Haarfagre" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Norge Class" } } }				
+			ship = { name = "HNoMS Tordenskjold" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Norge Class" } } }				
+			ship = { name = "HNoMS Olaf Tryggvason" definition = destroyer equipment = { ship_hull_light_2 = { amount = 1 owner = NOR version_name = "Olaf Tryggvason Class" } } }
+			ship = { name = "HNoMS Frøya" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Frøya Class" } } }
+			# 1st Submarine Detachment
+			ship = { name = "HNoMS A2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+			ship = { name = "HNoMS A3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+			ship = { name = "HNoMS A4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+			# 2nd Submarine Detachment
+			ship = { name = "HNoMS B2" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+			ship = { name = "HNoMS B4" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+			ship = { name = "HNoMS B5" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+		}					
+		task_force = {					
+			name = "2. Sjøforsvarsdistrikt"				
+			location =  122 # Bergen
+			# 1st Destroyer Detachment
+			ship = { name = "HNoMS Draug" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			ship = { name = "HNoMS Troll" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			ship = { name = "HNoMS Garm" definition = destroyer equipment = { ship_hull_light_1 = { amount = 1 owner = NOR version_name = "Draug Class" } } }
+			# Submarine Detachment
+			ship = { name = "HNoMS B6" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+		}					
+		task_force = {					
+			name = "3. Sjøforsvarsdistrikt"				
+			location =  11050 # Tromso
+			ship = { name = "HNoMS Norge" pride_of_the_fleet = yes definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Norge Class" } } }				
+			ship = { name = "HNoMS Eidsvold" definition = heavy_cruiser equipment = { ship_hull_cruiser_coastal_defense_ship = { amount = 1 owner = NOR version_name = "Norge Class" } } }				
+			# Submarine Detachment
+			ship = { name = "HNoMS B1" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+			ship = { name = "HNoMS B3" definition = submarine equipment = { ship_hull_submarine_1 = { amount = 1 owner = NOR version_name = "A & B Class" } } }
+		}					
+	}
+}

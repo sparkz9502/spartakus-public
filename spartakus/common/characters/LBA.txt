@@ -1,0 +1,79 @@
+characters={
+	LBA_ahmed_sharif_senussi={
+		name="Ahmed Sharif as-Senussi"
+		portraits={
+			civilian={
+				large="gfx/leaders/LBA/Portrait_Ahmed_Sharif_Senussi.tga"
+			}
+			army={
+				large="gfx/leaders/LBA/Portrait_Ahmed_Sharif_Senussi.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_AHMED_SHARIF_SENUSSI_DESC"
+			ideology=right_wing_populist_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+		field_marshal={
+			traits = { old_guard politically_connected }
+			skill = 3
+			attack_skill = 2
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+	LBA_bashir_saadawi={
+		name="Bashir Saadawi"
+		portraits={
+			civilian={
+				large="gfx/leaders/LBA/Portrait_Bashir_Saadawi.tga"
+			}
+		}
+		country_leader={
+			desc="POLITICS_BASHIR_SAADAWI_DESC"
+			ideology=social_conservative_subtype
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
+	LBA_muhammed_idris_senussi={
+		name="Muhammed Idris as-Senussi"
+		portraits={
+			civilian={
+				large="gfx/leaders/LBA/Portrait_Muhammad_Idris_Senussi.tga"
+			}
+			army={
+				large="gfx/leaders/LBA/Portrait_Muhammad_Idris_Senussi.tga"
+			}
+		}
+		field_marshal={
+			traits = { politically_connected }
+			skill = 2
+			attack_skill = 2
+			defense_skill = 1
+			planning_skill = 2
+			logistics_skill = 1
+			legacy_id=-1
+		}
+	}
+	LBA_omar_mukhtar={
+		name="Omar al-Mukhtar"
+		portraits={
+			army={
+				large="gfx/leaders/LBA/Portrait_Omar_Mukhtar.tga"
+			}
+		}
+		corps_commander={
+			traits = { old_guard harsh_leader }
+			skill = 3
+			attack_skill = 3
+			defense_skill = 2
+			planning_skill = 1
+			logistics_skill = 3
+			legacy_id=-1
+		}
+	}
+}
