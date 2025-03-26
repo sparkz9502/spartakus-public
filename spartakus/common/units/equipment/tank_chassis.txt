@@ -153,7 +153,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 1
-			coal = 2
+			coal = 1
 		}
 
 		manpower = 2
@@ -206,7 +206,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 1
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -226,7 +226,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -382,7 +382,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 1
-			coal = 2
+			coal = 1
 		}
 
 		manpower = 2
@@ -407,7 +407,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 1
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -439,7 +439,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 	medium_tank_chassis_3 = {
@@ -458,7 +458,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -611,7 +611,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 1
-			coal = 2
+			coal = 1
 		}
 
 		manpower = 2
@@ -665,7 +665,7 @@ equipments = {
 			copper = 1
 			iron = 1
 			raremetals = 1
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -686,7 +686,7 @@ equipments = {
 			copper = 1
 			iron = 2
 			raremetals = 1
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -837,7 +837,7 @@ equipments = {
 			copper = 1
 			iron = 2
 			raremetals = 1
-			coal = 2
+			coal = 1
 		}
 
 		manpower = 2
@@ -1009,7 +1009,7 @@ equipments = {
 			copper = 1
 			iron = 3
 			raremetals = 2
-			coal = 2
+			coal = 1
 		}
 
 		manpower = 2
@@ -1173,7 +1173,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 1
-			coal = 2
+			coal = 1
 		}
 
 		manpower = 2

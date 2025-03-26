@@ -1009,8 +1009,7 @@ focus_tree = {
 		id = GER_Attention_to_the_Rural_Regions
 		icon = GFX_GER_RuralIndustry
 		prerequisite = { focus = GER_Securing_the_Future }
-		available = {
-		}
+		mutually_exclusive = { focus = GER_Attention_to_the_Traditional_Base }
 		relative_position_id = GER_Securing_the_Future
 		x = -5
 		y = 1
@@ -1033,11 +1032,9 @@ focus_tree = {
 		id = GER_The_Mecklenburg-Pomerania_Region
 		icon = GFX_GER_MecklenburgPomerania
 		prerequisite = { focus = GER_Attention_to_the_Rural_Regions }
-		available = {
-		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = -2
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1058,11 +1055,9 @@ focus_tree = {
 		id = GER_The_Pomerelia-Prussia_Region
 		icon = GFX_GER_PomereliaPrussia
 		prerequisite = { focus = GER_Attention_to_the_Rural_Regions }
-		available = {
-		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = 0
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1087,7 +1082,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = 2
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1112,7 +1107,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = -1
-		y = 2
+		y = 3
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1137,7 +1132,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = 1
-		y = 2
+		y = 3
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1162,7 +1157,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = 1
-		y = 3
+		y = 4
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1187,7 +1182,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Rural_Regions
 		x = -1
-		y = 3
+		y = 4
 		cost = 4
 		ai_will_do = {
 			factor = 30
@@ -1208,6 +1203,7 @@ focus_tree = {
 		id = GER_Attention_to_the_Traditional_Base
 		icon = GFX_GER_TraditionalBase
 		prerequisite = { focus = GER_Securing_the_Future }
+		mutually_exclusive = { focus = GER_Attention_to_the_Rural_Regions }
 		available = {
 		}
 		relative_position_id = GER_Securing_the_Future
@@ -1235,7 +1231,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = -2
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1254,7 +1250,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = 0
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1279,7 +1275,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = 2
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1304,7 +1300,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = -1
-		y = 2
+		y = 3
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1323,7 +1319,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = 1
-		y = 2
+		y = 3
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1348,7 +1344,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = -1
-		y = 3
+		y = 4
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1367,7 +1363,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Attention_to_the_Traditional_Base
 		x = 1
-		y = 3
+		y = 4
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1392,7 +1388,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Securing_the_Future
 		x = 0
-		y = 1
+		y = 2
 		cost = 4
 		ai_will_do = {
 			factor = 50
@@ -1592,7 +1588,7 @@ focus_tree = {
 		}
 		relative_position_id = GER_Securing_the_Future
 		x = 0
-		y = 5
+		y = 6
 		cost = 6
 		ai_will_do = {
 			factor = 1000

@@ -34,7 +34,7 @@ equipments = {
 		build_cost_ic = 4
 		resources = {
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 
 		
@@ -64,7 +64,7 @@ equipments = {
 		build_cost_ic = 5
 		resources = {
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 	
@@ -84,7 +84,7 @@ equipments = {
 		build_cost_ic = 6
 		resources = {
 			iron = 3
-			coal = 2
+			coal = 1
 		}
 	}
 }

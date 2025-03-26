@@ -23,7 +23,7 @@ equipments = {
 		resources = {
 			bauxite = 1
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 

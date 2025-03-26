@@ -104,7 +104,7 @@ equipments = {
 		
 		build_cost_ic = 2450
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 3
 			raremetals = 1
 		}
@@ -170,7 +170,7 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 4
 			raremetals = 1
 		}
@@ -229,7 +229,7 @@ equipments = {
 
 		build_cost_ic = 3250
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 4
 			raremetals = 2
 		}
@@ -274,7 +274,7 @@ equipments = {
 
 		build_cost_ic = 2700
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 4
 			raremetals = 1
 		}
@@ -315,7 +315,7 @@ equipments = {
 		naval_speed = 20
 		build_cost_ic = 2700
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 3
 		}
 		manpower = 1000
@@ -404,7 +404,7 @@ equipments = {
 		
 		build_cost_ic = 3750
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 3
 			raremetals = 1
 		}
@@ -489,7 +489,7 @@ equipments = {
 
 		build_cost_ic = 4500
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 4
 			raremetals = 1
 		}
@@ -536,7 +536,7 @@ equipments = {
 
 		build_cost_ic = 5250
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 4
 			raremetals = 2
 		}
@@ -583,7 +583,7 @@ equipments = {
 
 		build_cost_ic = 6000
 		resources = {
-			coal = 4
+			coal = 3
 			iron = 5
 			raremetals = 2
 		}		

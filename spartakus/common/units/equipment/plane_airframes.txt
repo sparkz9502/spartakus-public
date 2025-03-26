@@ -37,7 +37,7 @@ equipments = {
 		fuel_consumption = 0.05
 		build_cost_ic = 16
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 2
 			rubber = 1
 		}
@@ -220,7 +220,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 17
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 1
 		}
@@ -297,7 +297,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 18
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 1
 		}
@@ -401,7 +401,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 19
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 4
 			rubber = 1
 		}
@@ -512,7 +512,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 22
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 4
 			rubber = 1
 		}
@@ -648,7 +648,7 @@ equipments = {
 		fuel_consumption = 0.05
 		build_cost_ic = 19
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 2
 			rubber = 1
 		}
@@ -831,7 +831,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 20.5
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 1
 		}
@@ -907,7 +907,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 21.5
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 1
 		}
@@ -1010,7 +1010,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 23
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 4
 			rubber = 1
 		}
@@ -1120,7 +1120,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 26.5
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 4
 			rubber = 1
 		}
@@ -1250,7 +1250,7 @@ equipments = {
 		fuel_consumption = 0
 		build_cost_ic = 18
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 2
 			rubber = 1
 		}
@@ -1484,7 +1484,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 20
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 1
 		}
@@ -1611,7 +1611,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 22
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 4
 			rubber = 1
 		}
@@ -1754,7 +1754,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 25
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 5
 			rubber = 1
 		}
@@ -1909,7 +1909,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 26
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 5
 			rubber = 1
 		}
@@ -2080,7 +2080,7 @@ equipments = {
 		fuel_consumption = 0.16
 		build_cost_ic = 28
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 2
 		}
@@ -2304,7 +2304,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 30
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 3
 			rubber = 2
 		}
@@ -2439,7 +2439,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 32
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 4
 			rubber = 2
 		}
@@ -2599,7 +2599,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 34
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 5
 			rubber = 2
 		}
@@ -2759,7 +2759,7 @@ equipments = {
 		naval_strike_targetting = 1
 		build_cost_ic = 35
 		resources = {
-			coal = 2
+			coal = 1
 			bauxite = 6
 			rubber = 2
 		}

@@ -35,7 +35,7 @@ focus_tree = {
 			country_event = itafoc.1
 			add_stability = 0.05
 		}
-		x = 10
+		x = 4
 		y = 0
 	}
 	
@@ -79,12 +79,20 @@ focus_tree = {
 			factor = 80
 		}
 		completion_reward = {
-			ITA_strengthen_nationalist = yes
 			add_popularity = {
 				ideology = right_wing_populist
 				popularity = 0.01
 			}
 			add_ideas = ITA_The_Blueshirts
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = ITA_expand_military_control
+					}
+				}
+				custom_effect_tooltip = ITA_Protect_the_Blueshirts_tt
+				ITA_strengthen_nationalist = yes
+			}
 		}
 		relative_position_id = ITA_badoglios_address
 		prerequisite = { focus = ITA_renew_the_anti_socialist_laws }
@@ -252,9 +260,17 @@ focus_tree = {
 			factor = 80
 		}
 		completion_reward = {
-			ITA_weaken_nationalist = yes
 			add_political_power = 30
 			add_stability = 0.03
+			if = {
+				limit = {
+					NOT = {
+						has_completed_focus = ITA_promote_federzoni
+					}
+				}
+				custom_effect_tooltip = ITA_Agreements_with_the_Liberals_tt
+				ITA_weaken_nationalist = yes
+			}
 		}
 		relative_position_id = ITA_badoglios_address
 		prerequisite = { focus = ITA_badoglios_address }
@@ -296,10 +312,16 @@ focus_tree = {
 		completion_reward = {
 			ITA_strengthen_nationalist = yes
 			INA = {
-				add_ideas = ITA_Italian_Investments
+				add_timed_idea = {
+					idea = ITA_Italian_Investments
+					days = 180
+				}
 			}
 			IEA = {
-				add_ideas = ITA_Italian_Investments
+				add_timed_idea = {
+					idea = ITA_Italian_Investments
+					days = 180
+				}
 			}
 		}
 		relative_position_id = ITA_badoglios_address
@@ -360,7 +382,7 @@ focus_tree = {
 		completion_reward = {
 			custom_effect_tooltip = Bypass_tt
 		}
-		x = 22
+		x = 18
 		y = 0
 	}
 	
@@ -540,10 +562,12 @@ focus_tree = {
 			factor = 80
 		}
 		completion_reward = {
-			country_event = itafoc.5
 			add_timed_idea = {
 				idea = ITA_Slash_Public_Spending
 				days = 90
+			}
+			hidden_effect = {
+				country_event = itafoc.5
 			}
 		}
 		relative_position_id = ITA_pragmatic_economic_liberalism

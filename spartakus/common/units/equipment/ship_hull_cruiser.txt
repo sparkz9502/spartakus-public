@@ -115,7 +115,7 @@ equipments = {
 		
 		build_cost_ic = 1800
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 1
 		}
 		
@@ -145,7 +145,7 @@ equipments = {
 		naval_range = 3000
 		max_strength = 110
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 2
 		}
 		module_slots = {
@@ -210,7 +210,7 @@ equipments = {
 		naval_range = 4000
 		manpower = 1200
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 2
 		}
 		module_slots = {
@@ -286,7 +286,7 @@ equipments = {
 		naval_range = 4500
 		max_strength = 130
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 		module_slots = {
@@ -383,7 +383,7 @@ equipments = {
 		naval_speed = 20
 		reliability = 0.8
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 2
 		}
 	}
@@ -432,7 +432,7 @@ equipments = {
 		}
 		build_cost_ic = 1650
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 		manpower = 800
@@ -483,7 +483,7 @@ equipments = {
 		}
 		build_cost_ic = 1700
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 		manpower = 960
@@ -535,7 +535,7 @@ equipments = {
 		}
 		build_cost_ic = 2000
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 4
 		}
 		manpower = 1140
@@ -644,7 +644,7 @@ equipments = {
 		
 		build_cost_ic = 2200
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 		
@@ -694,7 +694,7 @@ equipments = {
 
 		build_cost_ic = 2600
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 4
 		}		
 		manpower = 1700
@@ -744,7 +744,7 @@ equipments = {
 
 		build_cost_ic = 3000
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 4
 		}		
 		manpower = 1900
@@ -795,7 +795,7 @@ equipments = {
 
 		build_cost_ic = 3400
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 5
 		}		
 		manpower = 2200
@@ -908,7 +908,7 @@ equipments = {
 		
 		build_cost_ic = 1700
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 2
 		}
 		
@@ -1000,7 +1000,7 @@ equipments = {
 		
 		build_cost_ic = 1700
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 		
@@ -1018,7 +1018,7 @@ equipments = {
 		naval_range = 7500
 		max_strength = 220
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 		module_slots = {
@@ -1075,7 +1075,7 @@ equipments = {
 		manpower = 1800
 		build_cost_ic = 3500
 		resources = {
-			coal = 3
+			coal = 2
 			iron = 3
 		}
 

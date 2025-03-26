@@ -106,7 +106,7 @@ equipments = {
 		
 		build_cost_ic = 400
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		
@@ -165,7 +165,7 @@ equipments = {
 		max_strength = 40
 		build_cost_ic = 500
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		manpower = 325
@@ -221,7 +221,7 @@ equipments = {
 
 		
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 3
 		}
 
@@ -295,7 +295,7 @@ equipments = {
 		max_strength = 60
 		build_cost_ic = 600
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 4
 			raremetals = 1
 		}
@@ -343,7 +343,7 @@ equipments = {
 		
 		build_cost_ic = 400
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		
@@ -395,7 +395,7 @@ equipments = {
 
 		build_cost_ic = 500
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 3
 		}		
 		manpower = 325
@@ -446,7 +446,7 @@ equipments = {
 		}
 		build_cost_ic = 500
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 3
 		}
 		manpower = 400
@@ -498,7 +498,7 @@ equipments = {
 
 		build_cost_ic = 500
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 4
 			raremetals = 1
 		}		

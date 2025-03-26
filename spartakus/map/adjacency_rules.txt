@@ -1,15 +1,18 @@
-#Adjacency rules are special rules for adjacency
-#If smbd who is at war fights over canal/strait it is considered closed
-#Enemy status is considered if any of sides controlling the channel is at war with country
-#Friend status is considered non of sides controlling the channel is at war with country and one of controllers is ally of giving military access
-#Every one else is considered as neutral according to canal/strait
-#Military access considered as being friend
-#Rules needs linking from the straits that are affected by the rule ( adjacency_rule_id )
-
-#Name is how you refer to the rule in adjecencies.csv
+# Adjacency rules determine if an army, navy or trade can pass through the adjacency (e.g. a canal or strait).
+#
+# If two countries at war control provinces in the adjacency it is considered contested.
+# The optional triggers is_enemy, is_friend and is_neutral are evaluated in order and if one evaluates to true the corresponding rule is used.
+# If is_enemy and is_friend evaluates to false the neutral rule is used. In this case the is_neutral trigger will not be evaluated at all.
+# If is_friend and is_neutral evaluates to false the enemy rule is used.
+# If is_enemy and is_neutral evaluates to false the friend rule is used.
+# If any adjacency province controller is at war with the country the enemy rule is used, unless is_enemy evaluates to false, then the neutral rule is used.
+# If any adjacency province controller is an ally of is giving military access to the country the friend rule is used, unless is_friend evaluates to false, then the neutral rule is used.
+# Otherwise the neutral rule is used, unless is_neutral evaluates to false, then the enemy rule is used.
+#
+# The 'name' property is how you refer to the rule in adjacencies.csv
 
 #Suez Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "SUEZ_CANAL"
 
@@ -49,7 +52,7 @@ adjacency_rule
 }
 
 #Gibraltar
-adjacency_rule
+adjacency_rule =
 {
 	name = "GIBRALTAR_STRAIT"
 
@@ -89,7 +92,7 @@ adjacency_rule
 }
 
 #Danish Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "DANISH_BELTS_STRAIT"
 
@@ -129,7 +132,7 @@ adjacency_rule
 }
 
 #Panama Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "PANAMA_CANAL"
 
@@ -169,7 +172,7 @@ adjacency_rule
 }
 
 #Turkish Straits
-adjacency_rule
+adjacency_rule =
 {
 	name = "BOSPHORUS_STRAIT"
 
@@ -209,7 +212,7 @@ adjacency_rule
 }
 
 #Marx Canal/Kiel Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "MARX-KANAL"
 
@@ -249,7 +252,7 @@ adjacency_rule
 }
 
 #Dardanelles
-adjacency_rule
+adjacency_rule =
 {
 	name = "DARDANELLES"
 
@@ -289,7 +292,7 @@ adjacency_rule
 }
 
 #Kanmon Straits
-adjacency_rule
+adjacency_rule =
 {
 	name = "SHIMONOSEKI"
 
@@ -329,7 +332,7 @@ adjacency_rule
 }
 
 #Straits of Malacca
-adjacency_rule
+adjacency_rule =
 {
 	name = "MALACCA_STRAIT"
 
@@ -369,7 +372,7 @@ adjacency_rule
 }
 
 #Messina Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "MESSINA_STRAIT"
 
@@ -409,7 +412,7 @@ adjacency_rule
 }
 
 #White Sea-Baltic Canal
-adjacency_rule
+adjacency_rule =
 {
 	name = "WHITE_SEA_BALTIC_CANAL"
 
@@ -456,7 +459,7 @@ adjacency_rule
 }
 
 #Tartary Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "TARTARY_STRAIT"
 
@@ -496,7 +499,7 @@ adjacency_rule
 }
 
 #Sunda Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "SUNDA_STRAIT"
 
@@ -536,7 +539,7 @@ adjacency_rule
 }
 
 #Bali Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "BALI_STRAIT"
 
@@ -576,7 +579,7 @@ adjacency_rule
 }
 
 #Lombok Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "LOMBOK_STRAIT"
 
@@ -616,7 +619,7 @@ adjacency_rule
 }
 
 #Sape Strait
-adjacency_rule
+adjacency_rule =
 {
 	name = "SAPE_STRAIT"
 
@@ -656,7 +659,7 @@ adjacency_rule
 }
 
 #Bab-el-Mandeb
-adjacency_rule
+adjacency_rule =
 {
 	name = "BAB_EL_MANDEB"
 
@@ -696,7 +699,7 @@ adjacency_rule
 }
 
 #Strait of Hormuz
-adjacency_rule
+adjacency_rule =
 {
 	name = "HORMUZ_STRAIT"
 

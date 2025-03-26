@@ -117,7 +117,7 @@ equipments = {
 		
 		build_cost_ic = 3300
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 1
 			raremetals = 1
 		}
@@ -177,7 +177,7 @@ equipments = {
 		reliability = 0.65
 		build_cost_ic = 3000
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 1
 			raremetals = 1
 		}
@@ -329,7 +329,7 @@ equipments = {
 		naval_speed = 22
 		build_cost_ic = 3400
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 1
 			raremetals = 1
 		}
@@ -393,7 +393,7 @@ equipments = {
 		
 		build_cost_ic = 3500
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 1
 			raremetals = 1
 		}
@@ -457,7 +457,7 @@ equipments = {
 		reliability = 0.95
 		build_cost_ic = 3600
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 1
 			raremetals = 1
 		}
@@ -552,7 +552,7 @@ equipments = {
 		reliability = 0.80
 		build_cost_ic = 5500
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 1
 			raremetals = 1
 		}
@@ -658,7 +658,7 @@ equipments = {
 		
 		build_cost_ic = 5600
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 3
 			raremetals = 1
 		}
@@ -712,7 +712,7 @@ equipments = {
 
 		build_cost_ic = 5400
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 4
 			raremetals = 1
 		}
@@ -767,7 +767,7 @@ equipments = {
 		
 		build_cost_ic = 5200
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 4
 			raremetals = 2
 		}
@@ -822,7 +822,7 @@ equipments = {
 		
 		build_cost_ic = 6000
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 5
 			raremetals = 3
 		}
@@ -942,7 +942,7 @@ equipments = {
 		
 		build_cost_ic = 8500
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 4
 			raremetals = 1
 		}
@@ -1062,7 +1062,7 @@ equipments = {
 		
 		build_cost_ic = 13000
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 5
 			raremetals = 3
 		}
@@ -1116,7 +1116,7 @@ equipments = {
 		
 		build_cost_ic = 2500
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 3
 			raremetals = 1
 		}
@@ -1171,7 +1171,7 @@ equipments = {
 
 		build_cost_ic = 4000
 		resources = {
-			coal = 5
+			coal = 3
 			iron = 4
 			raremetals = 1
 		}

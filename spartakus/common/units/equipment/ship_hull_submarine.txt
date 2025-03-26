@@ -77,7 +77,7 @@ equipments = {
 		
 		build_cost_ic = 220
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 1
 		}
 		
@@ -128,7 +128,7 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		type = { 
@@ -180,7 +180,7 @@ equipments = {
 		
 		build_cost_ic = 320
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		type = { 
@@ -231,7 +231,7 @@ equipments = {
 		
 		build_cost_ic = 450
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 3
 			raremetals = 1
 		}
@@ -293,7 +293,7 @@ equipments = {
 		
 		build_cost_ic = 390
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		type = { 
@@ -339,7 +339,7 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 1
 		}
 		
@@ -383,7 +383,7 @@ equipments = {
 		
 		build_cost_ic = 250
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		type = { 
@@ -428,7 +428,7 @@ equipments = {
 		
 		build_cost_ic = 350
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 		}
 		type = { 
@@ -473,7 +473,7 @@ equipments = {
 		
 		build_cost_ic = 400
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 3
 			raremetals = 1
 		}

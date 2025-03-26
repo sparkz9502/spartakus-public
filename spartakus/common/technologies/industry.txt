@@ -1166,11 +1166,6 @@ technologies = {
 				resource = oil
 				amount = 1
 			}
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = coal
-				amount = -1
-			}
 		}
 
 		start_year = 1933
@@ -1299,11 +1294,6 @@ technologies = {
 				resource = oil
 				amount = 1
 			}
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = coal
-				amount = -1
-			}
 		}
 
 		path = {
@@ -1412,11 +1402,6 @@ technologies = {
 				building = synthetic_refinery
 				resource = rubber
 				amount = 1
-			}
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = coal
-				amount = -1
 			}
 		}
 
@@ -1537,11 +1522,6 @@ technologies = {
 				building = synthetic_refinery
 				resource = rubber
 				amount = 1
-			}
-			modify_building_resources = {
-				building = synthetic_refinery
-				resource = coal
-				amount = -1
 			}
 		}
 

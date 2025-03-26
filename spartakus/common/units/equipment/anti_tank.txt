@@ -35,7 +35,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 
@@ -62,7 +62,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 2
-			coal = 2
+			coal = 1
 		}
 	}
 	
@@ -81,7 +81,7 @@ equipments = {
 		resources = {
 			copper = 1
 			iron = 3
-			coal = 2
+			coal = 1
 		}
 	}
 }

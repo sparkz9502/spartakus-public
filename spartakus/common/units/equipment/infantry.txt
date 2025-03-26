@@ -36,7 +36,7 @@ equipments = {
 		
 		build_cost_ic = 0.43
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 			copper = 1
 		}
@@ -97,7 +97,7 @@ equipments = {
 		
 		build_cost_ic = 0.58
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 3
 			copper = 1
 		}
@@ -125,7 +125,7 @@ equipments = {
 		reliability = 0.8
 		build_cost_ic = 0.69
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 4
 			copper = 1
 		}

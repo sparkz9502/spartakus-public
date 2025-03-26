@@ -87,16 +87,8 @@ ideas = {
             }
         }
 		
-		ITA_Reduced_Administrative_Burdens = {
-            picture = generic_coins
-            modifier = {
-				consumer_goods_factor = -0.02
-				political_power_gain = 0.01
-            }
-        }
-		
 		ITA_The_Blueshirts = {
-            #picture = WIP
+            picture = guns_shield
             modifier = {
 				war_support_factor = 0.05
 				conscription_factor = 0.05
@@ -123,48 +115,6 @@ ideas = {
             modifier = {
 				stability_weekly = 0.005
 				political_power_gain = 0.03
-            }
-        }
-		
-		ITA_Slash_Public_Spending = {
-            picture = generic_coins
-            modifier = {
-				stability_weekly = -0.01
-				consumer_goods_factor = -0.05
-            }
-        }
-		
-		ITA_Stabilizing_Currency = {
-            picture = generic_coins
-            modifier = {
-				stability_weekly = 0.01
-				consumer_goods_factor = 0.02
-				production_speed_buildings_factor = -0.10
-            }
-        }
-		
-		ITA_Increase_Public_Spending = {
-            picture = generic_coins
-            modifier = {
-				stability_weekly = 0.015
-				consumer_goods_factor = 0.10
-            }
-        }
-		
-		ITA_Price_Controls = {
-            picture = generic_coins
-            modifier = {
-				stability_weekly = 0.01
-				political_power_gain = -0.1
-            }
-        }
-		
-		ITA_Experiments_with_Autarky = {
-            picture = generic_coins
-            modifier = {
-				political_power_gain = -0.04
-				industrial_capacity_factory = 0.03
-				min_export = -0.05
             }
         }
 		
@@ -214,5 +164,56 @@ ideas = {
             }
         }
     }
+	
+	#Timed ideas that would clutter UI
+	
+	hidden_ideas = {
+		
+		#Pre-ICW Ideas
+		
+		ITA_Reduced_Administrative_Burdens = {
+            modifier = {
+				consumer_goods_factor = -0.02
+				political_power_gain = 0.01
+            }
+        }
+		
+		ITA_Slash_Public_Spending = {
+            modifier = {
+				stability_weekly = -0.01
+				consumer_goods_factor = -0.05
+            }
+        }
+		
+		ITA_Stabilizing_Currency = {
+            modifier = {
+				stability_weekly = 0.01
+				consumer_goods_factor = 0.02
+				production_speed_buildings_factor = -0.10
+            }
+        }
+		
+		ITA_Increase_Public_Spending = {
+            modifier = {
+				stability_weekly = 0.015
+				consumer_goods_factor = 0.10
+            }
+        }
+		
+		ITA_Price_Controls = {
+            modifier = {
+				stability_weekly = 0.01
+				political_power_gain = -0.1
+            }
+        }
+		
+		ITA_Experiments_with_Autarky = {
+            modifier = {
+				political_power_gain = -0.04
+				industrial_capacity_factory = 0.03
+				min_export = -0.05
+            }
+        }
+	}
 	
 }

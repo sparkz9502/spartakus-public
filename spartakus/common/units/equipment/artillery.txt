@@ -34,7 +34,7 @@ equipments = {
 		
 		build_cost_ic = 3.5
 		resources = {
-			coal = 2
+			coal = 1
 			iron = 2
 			copper = 1
 		}
@@ -62,7 +62,7 @@ equipments = {
 		
 		build_cost_ic = 4
 		resources = {
-			coal = 2
+			coal = 1
 			copper = 1
 			iron = 2
 		}
@@ -82,7 +82,7 @@ equipments = {
 		
 		build_cost_ic = 4.5
 		resources = {
-			coal = 2
+			coal = 1
 			copper = 1
 			iron = 3
 		}
@@ -120,7 +120,7 @@ equipments = {
 		
 		build_cost_ic = 4
 		resources = {
-			coal = 2
+			coal = 1
 			copper = 2
 			iron = 1
 		}
@@ -148,7 +148,7 @@ equipments = {
 		
 		build_cost_ic = 5
 		resources = {
-			coal = 2
+			coal = 1
 			copper = 2
 			iron = 1
 		}
@@ -186,7 +186,7 @@ equipments = {
 		
 		build_cost_ic = 12
 		resources = {
-			coal = 2
+			coal = 1
 			rubber = 1
 			iron = 1
 		}

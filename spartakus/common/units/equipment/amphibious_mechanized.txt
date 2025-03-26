@@ -35,7 +35,7 @@ equipments = {
 		resources = {
 			iron = 2
 			rubber = 1
-			coal = 2
+			coal = 1
 		}
 		
 		fuel_consumption = 4.0
@@ -74,7 +74,7 @@ equipments = {
 		resources = {
 			iron = 3
 			rubber = 1
-			coal = 2
+			coal = 1
 		}
 	}
 }
